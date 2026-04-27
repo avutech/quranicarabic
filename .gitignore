@@ -4,3 +4,6 @@ __pycache__/
 *.pyc
 *.pyo
 .env
+
+# PDF lecture materials (large binary files — store locally only)
+Kuran-Kerim Arapcasi/

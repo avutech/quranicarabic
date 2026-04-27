@@ -16,18 +16,18 @@ def index():
     return send_from_directory(str(PORTAL_DIR), "index.html")
 
 
-@app.route("/<path:filename>")
-def static_files(filename):
-    try:
-        return send_from_directory(str(PORTAL_DIR), filename)
-    except Exception:
-        abort(404)
-
-
 @app.route("/pdfs/<path:filename>")
 def serve_pdf(filename):
     try:
         return send_from_directory(str(PDF_DIR), filename)
+    except Exception:
+        abort(404)
+
+
+@app.route("/<path:filename>")
+def static_files(filename):
+    try:
+        return send_from_directory(str(PORTAL_DIR), filename)
     except Exception:
         abort(404)
 
