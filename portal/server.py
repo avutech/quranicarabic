@@ -16,6 +16,14 @@ def index():
     return send_from_directory(str(PORTAL_DIR), "index.html")
 
 
+@app.route("/<path:filename>")
+def static_files(filename):
+    try:
+        return send_from_directory(str(PORTAL_DIR), filename)
+    except Exception:
+        abort(404)
+
+
 @app.route("/pdfs/<path:filename>")
 def serve_pdf(filename):
     try:
@@ -80,5 +88,5 @@ if __name__ == "__main__":
         print("⚠️  WARNING: ANTHROPIC_API_KEY is not set. Practice feedback will not work.")
         print("   Set it with: export ANTHROPIC_API_KEY=your_key_here")
     print(f"📂 PDF directory: {PDF_DIR}")
-    print(f"🌐 Portal running at: http://localhost:8080")
-    app.run(port=8080, debug=False)
+    print(f"🌐 Portal running at: http://localhost:8081")
+    app.run(port=8081, debug=False)
