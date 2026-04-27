@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quranic Arabic Learning Portal</title>
+<style>
+  :root {
+    --green: #1a6b3c;
+    --green-light: #2d8f55;
+    --green-pale: #e8f5ee;
+    --gold: #c9a84c;
+    --gold-light: #f0d898;
+    --dark: #1a1a1a;
+    --mid: #444;
+    --muted: #888;
+    --bg: #f7f5f0;
+    --card: #ffffff;
+    --border: #e0dbd0;
+    --radius: 10px;
+    --shadow: 0 2px 12px rgba(0,0,0,0.08);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: var(--bg); color: var(--dark); min-height: 100vh; }
+  body.rtl { direction: rtl; }
+
+  /* Nav */
+  nav {
+    background: var(--green);
+    color: white;
+    padding: 0 24px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  }
+  .nav-title { font-size: 1.1rem; font-weight: 600; display: flex; align-items: center; gap: 10px; }
+  .nav-title .arabic-title { font-size: 1.2rem; color: var(--gold-light); }
+  .lang-switcher { display: flex; gap: 6px; }
+  .lang-btn {
+    padding: 5px 12px; border-radius: 20px; border: 1.5px solid rgba(255,255,255,0.4);
+    background: transparent; color: white; cursor: pointer; font-size: 0.85rem;
+    transition: all 0.2s;
+  }
+  .lang-btn:hover { background: rgba(255,255,255,0.15); }
+  .lang-btn.active { background: var(--gold); border-color: var(--gold); color: var(--dark); font-weight: 600; }
+
+  /* Layout */
+  .layout { display: flex; height: calc(100vh - 60px); overflow: hidden; }
+
+  /* Sidebar */
+  .sidebar {
+    width: 280px;
+    min-width: 280px;
+    background: var(--card);
+    border-right: 1px solid var(--border);
+    overflow-y: auto;
+    padding: 16px 0;
+  }
+  .sidebar-section { padding: 8px 16px 4px; font-size: 0.7rem; font-weight: 700; color: var(--muted); letter-spacing: 0.08em; text-transform: uppercase; }
+  .topic-item {
+    display: flex; align-items: center; gap: 12px;
+    padding: 12px 20px; cursor: pointer; transition: all 0.15s;
+    border-left: 3px solid transparent;
+  }
+  .topic-item:hover { background: var(--green-pale); }
+  .topic-item.active { background: var(--green-pale); border-left-color: var(--green); }
+  .topic-icon { width: 36px; height: 36px; border-radius: 8px; background: var(--green-pale); display: flex; align-items: center; justify-content: center; font-size: 1.1rem; color: var(--green); flex-shrink: 0; font-weight: bold; }
+  .topic-item.active .topic-icon { background: var(--green); color: white; }
+  .topic-name { font-size: 0.88rem; font-weight: 500; line-height: 1.3; }
+  .topic-sub { font-size: 0.75rem; color: var(--muted); margin-top: 1px; }
+
+  /* Main content */
+  .main { flex: 1; overflow-y: auto; padding: 0; }
+
+  /* Welcome screen */
+  .welcome {
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    height: 100%; padding: 40px; text-align: center;
+  }
+  .welcome-bismillah { font-size: 2rem; color: var(--green); margin-bottom: 16px; font-family: serif; }
+  .welcome h1 { font-size: 1.6rem; color: var(--dark); margin-bottom: 12px; }
+  .welcome p { color: var(--muted); max-width: 440px; line-height: 1.7; }
+
+  /* Topic view */
+  .topic-header {
+    background: linear-gradient(135deg, var(--green) 0%, var(--green-light) 100%);
+    color: white; padding: 28px 32px;
+  }
+  .topic-header h2 { font-size: 1.4rem; margin-bottom: 6px; }
+  .topic-header p { opacity: 0.85; font-size: 0.9rem; line-height: 1.6; }
+
+  .section { padding: 24px 32px; }
+  .section-title {
+    font-size: 0.75rem; font-weight: 700; color: var(--muted);
+    letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 14px;
+    display: flex; align-items: center; gap: 8px;
+  }
+  .section-title::after { content: ''; flex: 1; height: 1px; background: var(--border); }
+
+  /* PDF grid */
+  .pdf-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+  .pdf-card {
+    display: flex; align-items: center; gap: 10px;
+    padding: 12px 14px; background: var(--card);
+    border: 1px solid var(--border); border-radius: var(--radius);
+    text-decoration: none; color: var(--dark);
+    transition: all 0.15s; cursor: pointer;
+  }
+  .pdf-card:hover { border-color: var(--green); box-shadow: var(--shadow); transform: translateY(-1px); }
+  .pdf-icon { font-size: 1.4rem; flex-shrink: 0; }
+  .pdf-name { font-size: 0.84rem; font-weight: 500; line-height: 1.3; }
+
+  /* Practice section */
+  .practice-start {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 28px; text-align: center;
+    box-shadow: var(--shadow);
+  }
+  .practice-start h3 { font-size: 1.1rem; margin-bottom: 8px; color: var(--green); }
+  .practice-start p { color: var(--muted); font-size: 0.88rem; margin-bottom: 20px; }
+  .btn-primary {
+    background: var(--green); color: white; border: none;
+    padding: 12px 28px; border-radius: 24px; font-size: 0.95rem;
+    font-weight: 600; cursor: pointer; transition: all 0.2s;
+  }
+  .btn-primary:hover { background: var(--green-light); transform: translateY(-1px); }
+  .btn-secondary {
+    background: transparent; color: var(--green); border: 1.5px solid var(--green);
+    padding: 10px 22px; border-radius: 24px; font-size: 0.9rem;
+    font-weight: 500; cursor: pointer; transition: all 0.2s;
+  }
+  .btn-secondary:hover { background: var(--green-pale); }
+
+  /* Question card */
+  .question-card {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 28px; box-shadow: var(--shadow);
+  }
+  .q-progress { font-size: 0.8rem; color: var(--muted); margin-bottom: 16px; }
+  .q-progress-bar { height: 4px; background: var(--border); border-radius: 2px; margin-bottom: 20px; overflow: hidden; }
+  .q-progress-fill { height: 100%; background: var(--green); border-radius: 2px; transition: width 0.4s ease; }
+  .q-badge {
+    display: inline-block; padding: 3px 10px; border-radius: 12px;
+    font-size: 0.72rem; font-weight: 600; text-transform: uppercase;
+    letter-spacing: 0.05em; margin-bottom: 14px;
+  }
+  .badge-translation { background: #e8f0fe; color: #1a56db; }
+  .badge-grammar { background: #fef3e2; color: #b45309; }
+  .badge-vocabulary { background: #f0fdf4; color: #166534; }
+  .badge-pronunciation { background: #fdf4ff; color: #7c3aed; }
+  .badge-factual { background: #f1f5f9; color: #475569; }
+
+  .q-text { font-size: 1.1rem; font-weight: 600; margin-bottom: 20px; line-height: 1.5; }
+  .q-arabic { font-size: 1.6rem; text-align: center; padding: 16px; background: var(--green-pale); border-radius: 8px; margin-bottom: 20px; color: var(--green); font-family: 'Noto Naskh Arabic', 'Traditional Arabic', serif; direction: rtl; }
+
+  .answer-area { width: 100%; min-height: 80px; padding: 12px 16px; border: 1.5px solid var(--border); border-radius: 8px; font-size: 0.95rem; resize: vertical; font-family: inherit; line-height: 1.6; transition: border-color 0.2s; }
+  .answer-area:focus { outline: none; border-color: var(--green); }
+
+  .q-actions { display: flex; gap: 10px; margin-top: 14px; align-items: center; }
+  .q-actions .spacer { flex: 1; }
+
+  /* Feedback */
+  .feedback-box {
+    margin-top: 20px; padding: 16px 18px;
+    border-radius: 8px; border-left: 4px solid var(--green);
+    background: var(--green-pale); font-size: 0.92rem; line-height: 1.7;
+    white-space: pre-wrap;
+  }
+  .feedback-box.loading { color: var(--muted); font-style: italic; }
+  .feedback-box.error { border-color: #dc2626; background: #fef2f2; color: #991b1b; }
+  .feedback-arabic { font-size: 1.2rem; font-family: 'Noto Naskh Arabic', serif; direction: rtl; }
+
+  /* Score card */
+  .score-card {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 36px; text-align: center;
+    box-shadow: var(--shadow);
+  }
+  .score-num { font-size: 3.5rem; font-weight: 800; color: var(--green); line-height: 1; margin-bottom: 8px; }
+  .score-label { font-size: 1rem; color: var(--muted); margin-bottom: 24px; }
+  .score-actions { display: flex; gap: 12px; justify-content: center; }
+
+  /* Spinner */
+  .spinner { display: inline-block; width: 16px; height: 16px; border: 2px solid var(--border); border-top-color: var(--green); border-radius: 50%; animation: spin 0.7s linear infinite; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* RTL adjustments */
+  body.rtl .sidebar { border-right: none; border-left: 1px solid var(--border); }
+  body.rtl .topic-item { border-left: none; border-right: 3px solid transparent; }
+  body.rtl .topic-item.active { border-right-color: var(--green); }
+  body.rtl .feedback-box { border-left: none; border-right: 4px solid var(--green); }
+  body.rtl .section-title::after { display: none; }
+  body.rtl .section-title::before { content: ''; flex: 1; height: 1px; background: var(--border); }
+
+  @media (max-width: 700px) {
+    .sidebar { width: 220px; min-width: 220px; }
+    .section { padding: 16px; }
+    .topic-header { padding: 20px 16px; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-title">
+    <span class="arabic-title">بِسْمِ اللَّهِ</span>
+    <span id="nav-label">Quranic Arabic</span>
+  </div>
+  <div class="lang-switcher">
+    <button class="lang-btn active" onclick="setLang('en')">EN</button>
+    <button class="lang-btn" onclick="setLang('tr')">TR</button>
+    <button class="lang-btn" onclick="setLang('ar')">AR</button>
+  </div>
+</nav>
+
+<div class="layout">
+  <aside class="sidebar" id="sidebar"></aside>
+  <main class="main" id="main">
+    <div class="welcome">
+      <div class="welcome-bismillah">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ</div>
+      <h1 id="welcome-h1">Quranic Arabic Learning Portal</h1>
+      <p id="welcome-p">Select a topic from the sidebar to begin. Each topic includes lesson materials and interactive practice questions with AI-powered feedback.</p>
+    </div>
+  </main>
+</div>
+
+<script>
+// ─── Data ────────────────────────────────────────────────────────────────────
+
+const TOPICS = [
+  {
+    id: 'alphabet',
+    icon: 'ا',
+    group: 'foundations',
+    title: { en: 'Arabic Alphabet', tr: 'Arap Alfabesi', ar: 'الحروف العربية' },
+    desc: {
+      en: 'Learn the 28 Arabic letters, their isolated, initial, medial and final forms, and vowel marks (harakat).',
+      tr: '28 Arap harfini, bağımsız, baş, orta ve son formlarını ve harekeleri öğrenin.',
+      ar: 'تعلم الحروف العربية الثمانية والعشرين وأشكالها وعلامات الحركة.'
+    },
+    pdfs: [
+      { name: { en: 'Letters 1–10', tr: 'Harfler 1–10', ar: 'الحروف ١–١٠' }, path: 'Harfler/Harfler 1-10.pdf' },
+      { name: { en: 'Letters 11–20', tr: 'Harfler 11–20', ar: 'الحروف ١١–٢٠' }, path: 'Harfler/Harfler 11-20.pdf' },
+      { name: { en: 'Letters 21–25', tr: 'Harfler 21–25', ar: 'الحروف ٢١–٢٥' }, path: 'Harfler/Harfler 21-25.pdf' },
+      { name: { en: 'Letters 26–30', tr: 'Harfler 26–30', ar: 'الحروف ٢٦–٣٠' }, path: 'Harfler/Harfler 26-30.pdf' },
+      { name: { en: 'All Letters (1–30)', tr: 'Tüm Harfler (1–30)', ar: 'جميع الحروف (١–٣٠)' }, path: 'Harfler/Harfler 1-30.pdf' },
+    ],
+    questions: [
+      { type: 'factual', q: { en: 'How many letters are in the Arabic alphabet?', tr: 'Arap alfabesinde kaç harf vardır?', ar: 'كم عدد حروف الأبجدية العربية؟' }, expected: '28 letters' },
+      { type: 'pronunciation', q: { en: 'What sound does the letter ب (Ba) make? Give an example English word.', tr: 'ب (Ba) harfi nasıl okunur? İngilizce örnek bir kelime verin.', ar: 'ما صوت حرف ب؟ أعطِ مثالاً.' }, expected: '"B" sound as in "book" or "ball"' },
+      { type: 'grammar', q: { en: 'What is a Fatha (فَتْحَة) and what short vowel sound does it represent?', tr: 'Fetha (فَتْحَة) nedir ve hangi kısa sesli harfi temsil eder?', ar: 'ما هي الفتحة وما الصوت القصير الذي تمثله؟' }, expected: 'Fatha is a short diagonal stroke written above the letter representing the short "a" vowel, e.g. بَ = "ba"' },
+      { type: 'grammar', q: { en: 'What is Tanwin (تنوين) and what does it indicate grammatically?', tr: 'Tenvin (تنوين) nedir ve gramer açısından ne ifade eder?', ar: 'ما هو التنوين وماذا يدل عليه نحوياً؟' }, expected: 'Tanwin is a double vowel mark that adds an "n" sound at the end of a noun, indicating it is indefinite (e.g. كِتَابٌ = a book)' },
+      { type: 'vocabulary', q: { en: 'What are "Sun Letters" (حروف شمسية) and why do they matter when using ال?', tr: '"Güneş Harfleri" (حروف شمسية) nelerdir ve ال kullanımında neden önemlidir?', ar: 'ما هي الحروف الشمسية ولماذا تهم عند استخدام ال؟' }, expected: 'Sun letters (14 letters incl. ت ث د ذ ر ز س ش ص ض ط ظ ل ن) assimilate the "l" of ال so it is not pronounced: الشَّمْس = ash-shams not al-shams' },
+      { type: 'grammar', q: { en: 'What is the difference between Kasra (كسرة) and Damma (ضمة)?', tr: 'Kesre (كسرة) ile Ötre (ضمة) arasındaki fark nedir?', ar: 'ما الفرق بين الكسرة والضمة؟' }, expected: 'Kasra (ِ) is written below the letter and gives an "i" sound; Damma (ُ) is written above the letter and gives a "u" sound' },
+    ]
+  },
+  {
+    id: 'level1',
+    icon: '١',
+    group: 'lessons',
+    title: { en: 'Level 1 — Lessons 1–14', tr: 'Seviye 1 — 1–14. Dersler', ar: 'المستوى الأول — الدروس ١–١٤' },
+    desc: {
+      en: 'Foundational Quranic Arabic: the three word types, definite/indefinite nouns, pronouns, and basic nominal sentences.',
+      tr: 'Temel Kuran Arapçası: üç kelime türü, belirli/belirsiz isimler, zamirler ve temel isim cümleleri.',
+      ar: 'أساسيات عربية القرآن: أقسام الكلمة والمعرفة والنكرة والضمائر والجملة الاسمية.'
+    },
+    pdfs: [
+      { name: { en: 'Lesson 1', tr: '1. Ders', ar: 'الدرس الأول' }, path: 'Level-1/1st Lesson Line Spacing 2.0.pdf' },
+      { name: { en: 'Lesson 2', tr: '2. Ders', ar: 'الدرس الثاني' }, path: 'Level-1/2nd Lesson Line Spacing 2.0.pdf' },
+      { name: { en: 'Lesson 3', tr: '3. Ders', ar: 'الدرس الثالث' }, path: 'Level-1/3rd Lesson Line Spacing 2.0.pdf' },
+      { name: { en: 'Lesson 4', tr: '4. Ders', ar: 'الدرس الرابع' }, path: 'Level-1/4th Lesson Line Spacing 2.0.pdf' },
+      { name: { en: 'Lesson 5', tr: '5. Ders', ar: 'الدرس الخامس' }, path: 'Level-1/5th Lesson Line Spacing 2.0.pdf' },
+      { name: { en: 'Lesson 6', tr: '6. Ders', ar: 'الدرس السادس' }, path: 'Level-1/6th Lesson Line Spacing 2.0.pdf' },
+      { name: { en: 'Lesson 7', tr: '7. Ders', ar: 'الدرس السابع' }, path: 'Level-1/7th Lesson Line Spacing 2.0.pdf' },
+      { name: { en: 'Lesson 8', tr: '8. Ders', ar: 'الدرس الثامن' }, path: 'Level-1/8th Lesson Line Spacing 2.0 .pdf' },
+      { name: { en: 'Lesson 9', tr: '9. Ders', ar: 'الدرس التاسع' }, path: 'Level-1/9th Lesson Line Spacing 2.0 .pdf' },
+      { name: { en: 'Lesson 10', tr: '10. Ders', ar: 'الدرس العاشر' }, path: 'Level-1/10th Lesson Line Spacing 2.0.pdf' },
+      { name: { en: 'Lesson 11', tr: '11. Ders', ar: 'الدرس الحادي عشر' }, path: 'Level-1/11th Lesson Line Spacing 2.0.pdf' },
+      { name: { en: 'Lesson 12', tr: '12. Ders', ar: 'الدرس الثاني عشر' }, path: 'Level-1/12th Lesson Line Spacing 2.0.pdf' },
+      { name: { en: 'Lesson 13', tr: '13. Ders', ar: 'الدرس الثالث عشر' }, path: 'Level-1/13th Lesson Line Spacing 2.0.pdf' },
+      { name: { en: 'Lesson 14', tr: '14. Ders', ar: 'الدرس الرابع عشر' }, path: 'Level-1/14th Lesson Line Spacing 2.0.pdf' },
+      { name: { en: 'Summary 1–14', tr: 'Özet 1–14', ar: 'ملخص ١–١٤' }, path: 'Summary/Summary 1-14_2 satir arali.pdf' },
+      { name: { en: 'Summary (Arabic)', tr: 'Özet (Arapça)', ar: 'الملخص (بالعربية)' }, path: 'Summary/الْمُسْتَوَى الأَوَّل (1-14).pdf' },
+    ],
+    questions: [
+      { type: 'grammar', q: { en: 'What are the three types of words (أقسام الكلمة) in Arabic?', tr: 'Arapçada kelimenin üç türü (أقسام الكلمة) nelerdir?', ar: 'ما هي أقسام الكلمة الثلاثة في العربية؟' }, expected: 'Ism (اسم) = noun/name, Fi\'l (فعل) = verb, Harf (حرف) = particle/preposition' },
+      { type: 'grammar', q: { en: 'How do you make an Arabic noun definite? Give an example.', tr: 'Arapçada bir isim nasıl belirli yapılır? Örnek verin.', ar: 'كيف تُعرَّف الكلمة في العربية؟ أعطِ مثالاً.' }, expected: 'Add ال (al-) prefix: كِتَابٌ (a book) → الْكِتَابُ (the book). Tanwin is removed.' },
+      { type: 'translation', q: { en: 'Translate into English: هُوَ مُسْلِمٌ', tr: 'İngilizceye çevirin: هُوَ مُسْلِمٌ', ar: 'ترجم إلى العربية: هُوَ مُسْلِمٌ' }, expected: 'He is a Muslim' },
+      { type: 'grammar', q: { en: 'What is the difference between مُسْلِمٌ and الْمُسْلِمُ?', tr: 'مُسْلِمٌ ile الْمُسْلِمُ arasındaki fark nedir?', ar: 'ما الفرق بين مُسْلِمٌ والْمُسْلِمُ؟' }, expected: 'مُسْلِمٌ is indefinite (a Muslim) with tanwin; الْمُسْلِمُ is definite (the Muslim) with ال prefix and no tanwin' },
+      { type: 'vocabulary', q: { en: 'What do the pronouns هُوَ, هِيَ, and هُمْ mean?', tr: 'هُوَ, هِيَ ve هُمْ zamirleri ne anlama gelir?', ar: 'ماذا تعني الضمائر هُوَ وهِيَ وهُمْ؟' }, expected: 'هُوَ = he (masculine singular), هِيَ = she (feminine singular), هُمْ = they (masculine/mixed plural)' },
+      { type: 'translation', q: { en: 'Translate: الْكِتَابُ كَبِيرٌ', tr: 'Çevirin: الْكِتَابُ كَبِيرٌ', ar: 'ترجم: الْكِتَابُ كَبِيرٌ' }, expected: 'The book is big/large' },
+      { type: 'grammar', q: { en: 'In a nominal sentence (جملة اسمية), what is the Mubtada (مبتدأ) and Khabar (خبر)?', tr: 'İsim cümlesinde (جملة اسمية) Mübteda (مبتدأ) ve Haber (خبر) nedir?', ar: 'ما المبتدأ والخبر في الجملة الاسمية؟' }, expected: 'Mubtada (مبتدأ) is the subject (definite); Khabar (خبر) is the predicate (indefinite). Together they form a complete meaning, e.g. الرَّجُلُ كَبِيرٌ = the man is old.' },
+    ]
+  },
+  {
+    id: 'level2',
+    icon: '٢',
+    group: 'lessons',
+    title: { en: 'Level 2 — Lessons 15–28', tr: 'Seviye 2 — 15–28. Dersler', ar: 'المستوى الثاني — الدروس ١٥–٢٨' },
+    desc: {
+      en: 'Plurals (sound & broken), dual forms, verb conjugations, and expanded sentence structures.',
+      tr: 'Çoğul formları (sağlam ve kırık), ikil formlar, fiil çekimleri ve gelişmiş cümle yapıları.',
+      ar: 'الجموع (السالم والمكسر) والمثنى وتصريف الأفعال والجمل الموسعة.'
+    },
+    pdfs: [
+      { name: { en: 'Lesson 15', tr: '15. Ders', ar: 'الدرس الخامس عشر' }, path: 'Level-2/15th Lesson Line Spacing 2.0.pdf' },
+      { name: { en: 'Lesson 16', tr: '16. Ders', ar: 'الدرس السادس عشر' }, path: 'Level-2/16th Lesson Line Spacing 2.0.pdf' },
+      { name: { en: 'Lesson 17', tr: '17. Ders', ar: 'الدرس السابع عشر' }, path: 'Level-2/17th Lesson Line Spacing 2.0.pdf' },
+      { name: { en: 'Lesson 18', tr: '18. Ders', ar: 'الدرس الثامن عشر' }, path: 'Level-2/18th Lesson Line Spacing 2.0.pdf' },
+      { name: { en: 'Lesson 19', tr: '19. Ders', ar: 'الدرس التاسع عشر' }, path: 'Level-2/19th Lesson Line Spacing 2.0.pdf' },
+      { name: { en: 'Lesson 20', tr: '20. Ders', ar: 'الدرس العشرون' }, path: 'Level-2/20th Lesson Line Spacing 2.0.pdf' },
+      { name: { en: 'Lesson 21', tr: '21. Ders', ar: 'الدرس الحادي والعشرون' }, path: 'Level-2/21st Lesson Line Spacing 2.0.pdf' },
+      { name: { en: 'Lesson 22', tr: '22. Ders', ar: 'الدرس الثاني والعشرون' }, path: 'Level-2/22nd Lesson Line Spacing 2.0.pdf' },
+      { name: { en: 'Lesson 23', tr: '23. Ders', ar: 'الدرس الثالث والعشرون' }, path: 'Level-2/23rd Lesson Line Spacing 2.0.pdf' },
+      { name: { en: 'Lesson 24', tr: '24. Ders', ar: 'الدرس الرابع والعشرون' }, path: 'Level-2/24th Lesson Line Spacing 2.0.pdf' },
+      { name: { en: 'Lesson 25', tr: '25. Ders', ar: 'الدرس الخامس والعشرون' }, path: 'Level-2/25th Lesson Line Spacing 2.0.pdf' },
+      { name: { en: 'Lesson 26', tr: '26. Ders', ar: 'الدرس السادس والعشرون' }, path: 'Level-2/26th Lesson Line Spacing 2.0.pdf' },
+      { name: { en: 'Lesson 27', tr: '27. Ders', ar: 'الدرس السابع والعشرون' }, path: 'Level-2/27th Lesson Line Spacing 2.0.pdf' },
+      { name: { en: 'Lesson 28', tr: '28. Ders', ar: 'الدرس الثامن والعشرون' }, path: 'Level-2/28th Lesson Line Spacing 2.0.pdf' },
+      { name: { en: 'Summary 15–28', tr: 'Özet 15–28', ar: 'ملخص ١٥–٢٨' }, path: 'Summary/Summary 15-28_2 satır aralı.pdf' },
+      { name: { en: 'Summary Level 2 (Arabic)', tr: 'Özet Seviye 2 (Arapça)', ar: 'ملخص المستوى الثاني (بالعربية)' }, path: 'Summary/المُسْتَوَى الثَّاني 15-28 .pdf' },
+    ],
+    questions: [
+      { type: 'grammar', q: { en: 'How do you form the Sound Masculine Plural (جمع مذكر سالم)?', tr: 'Sağlam Eril Çoğul (جمع مذكر سالم) nasıl yapılır?', ar: 'كيف يُصاغ جمع المذكر السالم؟' }, expected: 'Add ون (nominative) or ين (accusative/genitive) to the singular, e.g. مُسْلِمٌ → مُسْلِمُونَ / مُسْلِمِينَ' },
+      { type: 'grammar', q: { en: 'What is the dual form of كِتَابٌ (a book) in the nominative case?', tr: 'كِتَابٌ kelimesinin yalın haldeki (nominatif) ikil formu nedir?', ar: 'ما صيغة المثنى لكلمة كِتَابٌ في حالة الرفع؟' }, expected: 'كِتَابَانِ (two books) — nominative; كِتَابَيْنِ in accusative/genitive' },
+      { type: 'grammar', q: { en: 'What is a Broken Plural (جمع تكسير) and give an example?', tr: 'Kırık Çoğul (جمع تكسير) nedir ve örnek verin?', ar: 'ما جمع التكسير؟ أعطِ مثالاً.' }, expected: 'A broken plural changes the internal vowel pattern of the word, e.g. كِتَابٌ → كُتُبٌ, مَسْجِدٌ → مَسَاجِدُ' },
+      { type: 'translation', q: { en: 'Translate: كَتَبَ الرَّجُلُ الْكِتَابَ', tr: 'Çevirin: كَتَبَ الرَّجُلُ الْكِتَابَ', ar: 'ترجم: كَتَبَ الرَّجُلُ الْكِتَابَ' }, expected: 'The man wrote the book' },
+      { type: 'grammar', q: { en: 'What is the feminine form of كَتَبَ (he wrote)?', tr: 'كَتَبَ (o yazdı) fiilinin dişil formu nedir?', ar: 'ما صيغة المؤنث لفعل كَتَبَ؟' }, expected: 'كَتَبَتْ (she wrote) — a تْ suffix is added for the feminine third person singular' },
+      { type: 'grammar', q: { en: 'What case (إعراب) does the object of a verb take and what indicates it?', tr: 'Bir fiilin nesnesi hangi hali (إعراب) alır ve bunu ne gösterir?', ar: 'ما الإعراب الذي يأخذه المفعول به وما علامته؟' }, expected: 'The object (مفعول به) takes the accusative case (منصوب), marked by a fatha (ـَ) or tanwin fath (ـً) on the last letter' },
+    ]
+  },
+  {
+    id: 'level3',
+    icon: '٣',
+    group: 'lessons',
+    title: { en: 'Level 3 — Lessons 29–42', tr: 'Seviye 3 — 29–42. Dersler', ar: 'المستوى الثالث — الدروس ٢٩–٤٢' },
+    desc: {
+      en: 'Advanced structures: verbal nouns, active/passive participles, conditional sentences, and advanced verb forms.',
+      tr: 'İleri yapılar: mastar, aktif/pasif sıfat-fiiller, şart cümleleri ve ileri fiil formları.',
+      ar: 'التراكيب المتقدمة: المصدر والاسم الفاعل والمفعول وجملة الشرط والأوزان المتقدمة.'
+    },
+    pdfs: [
+      { name: { en: 'Lesson 29', tr: '29. Ders', ar: 'الدرس التاسع والعشرون' }, path: 'Level-3/29th Lesson Line Spacing 2.0.pdf' },
+      { name: { en: 'Lesson 30', tr: '30. Ders', ar: 'الدرس الثلاثون' }, path: 'Level-3/30th Lesson Line Spacing 2.0.pdf' },
+      { name: { en: 'Lesson 31', tr: '31. Ders', ar: 'الدرس الحادي والثلاثون' }, path: 'Level-3/31st Lesson Line Spacing 2.0.pdf' },
+      { name: { en: 'Lesson 32', tr: '32. Ders', ar: 'الدرس الثاني والثلاثون' }, path: 'Level-3/32nd Lesson Line Spacing 2.0.pdf' },
+      { name: { en: 'Lesson 33', tr: '33. Ders', ar: 'الدرس الثالث والثلاثون' }, path: 'Level-3/33rd Lesson Line Spacing 2.0.pdf' },
+      { name: { en: 'Lesson 34', tr: '34. Ders', ar: 'الدرس الرابع والثلاثون' }, path: 'Level-3/34th Lesson Line Spacing 2.0.pdf' },
+      { name: { en: 'Lesson 35', tr: '35. Ders', ar: 'الدرس الخامس والثلاثون' }, path: 'Level-3/35th Lesson Line Spacing 2.0.pdf' },
+      { name: { en: 'Lesson 36', tr: '36. Ders', ar: 'الدرس السادس والثلاثون' }, path: 'Level-3/36th Lesson Line Spacing 2.0.pdf' },
+      { name: { en: 'Lesson 37', tr: '37. Ders', ar: 'الدرس السابع والثلاثون' }, path: 'Level-3/37th Lesson Line Spacing 2.0.pdf' },
+      { name: { en: 'Lesson 38', tr: '38. Ders', ar: 'الدرس الثامن والثلاثون' }, path: 'Level-3/38th Lesson Line Spacing 2.0.pdf' },
+      { name: { en: 'Lesson 39', tr: '39. Ders', ar: 'الدرس التاسع والثلاثون' }, path: 'Level-3/39th Lesson Line Spacing 2.0.pdf' },
+      { name: { en: 'Lesson 40', tr: '40. Ders', ar: 'الدرس الأربعون' }, path: 'Level-3/40th Lesson Line Spacing2.0 .pdf' },
+      { name: { en: 'Lesson 41', tr: '41. Ders', ar: 'الدرس الحادي والأربعون' }, path: 'Level-3/41st Lesson Line Spacing 2.0 .pdf' },
+      { name: { en: 'Lesson 42', tr: '42. Ders', ar: 'الدرس الثاني والأربعون' }, path: 'Level-3/42nd Lesson Line Spacing 2.0 .pdf' },
+      { name: { en: 'Summary 29–42', tr: 'Özet 29–42', ar: 'ملخص ٢٩–٤٢' }, path: 'Summary/Summary 29-42 .pdf' },
+      { name: { en: 'Summary Level 3 (Turkish)', tr: 'Özet Seviye 3 (Türkçe)', ar: 'ملخص المستوى الثالث (بالتركية)' }, path: 'Summary/3. Seviye Dersleri 29-42.pdf' },
+    ],
+    questions: [
+      { type: 'grammar', q: { en: 'What is a Masdar (مصدر) / verbal noun? Give an example from the root ك-ت-ب.', tr: 'Mastar (مصدر) nedir? ك-ت-ب kökünden örnek verin.', ar: 'ما المصدر؟ أعطِ مثالاً من جذر ك-ت-ب.' }, expected: 'A masdar is a verbal noun that expresses the action abstractly. From ك-ت-ب: كِتَابَة (writing) or كَتْب.' },
+      { type: 'grammar', q: { en: 'What is the Ism al-Fa\'il (اسم الفاعل) — active participle — and how is it formed from Form I?', tr: 'İsm-i Fail (اسم الفاعل) nedir ve I. Babda nasıl yapılır?', ar: 'ما اسم الفاعل وكيف يُصاغ من الفعل الثلاثي المجرد؟' }, expected: 'Active participle (doer of the action). From Form I: pattern فَاعِل, e.g. كَتَبَ → كَاتِبٌ (writer)' },
+      { type: 'grammar', q: { en: 'What is the passive voice of كَتَبَ (he wrote)?', tr: 'كَتَبَ fiilinin pasif hali nedir?', ar: 'ما صيغة المجهول لفعل كَتَبَ؟' }, expected: 'كُتِبَ (it was written) — the pattern changes to فُعِلَ for the past tense passive' },
+      { type: 'grammar', q: { en: 'What is the difference between إِنَّ and أَنَّ?', tr: 'إِنَّ ile أَنَّ arasındaki fark nedir?', ar: 'ما الفرق بين إِنَّ وأَنَّ؟' }, expected: 'Both mean "verily/that" and put the following noun in the accusative. إِنَّ starts a new sentence (emphatic); أَنَّ follows certain verbs as a subordinate clause connector.' },
+      { type: 'translation', q: { en: 'Translate: إِنَّ اللَّهَ غَفُورٌ رَحِيمٌ', tr: 'Çevirin: إِنَّ اللَّهَ غَفُورٌ رَحِيمٌ', ar: 'ترجم: إِنَّ اللَّهَ غَفُورٌ رَحِيمٌ' }, expected: 'Indeed Allah is All-Forgiving, Most Merciful' },
+      { type: 'grammar', q: { en: 'What is Form II (فَعَّلَ) and how does it typically change the meaning of a root?', tr: 'II. Bab (فَعَّلَ) nedir ve kökün anlamını nasıl değiştirir?', ar: 'ما الفعل المزيد على وزن فَعَّلَ وكيف يؤثر على المعنى؟' }, expected: 'Form II doubles the middle root letter. It typically makes the verb causative or intensive, e.g. عَلِمَ (to know) → عَلَّمَ (to teach/cause to know)' },
+    ]
+  },
+  {
+    id: 'verbs',
+    icon: 'ف',
+    group: 'reference',
+    title: { en: 'Verbs (Fiiller)', tr: 'Fiiller', ar: 'الأفعال' },
+    desc: {
+      en: 'The top 100 most frequent verbs in the Quran with their roots, meanings and conjugation patterns.',
+      tr: 'Kuran\'daki en sık geçen 100 fiil, kökleri, anlamları ve çekim kalıpları.',
+      ar: 'أكثر ١٠٠ فعل تكراراً في القرآن مع جذورها ومعانيها وأنماط تصريفها.'
+    },
+    pdfs: [
+      { name: { en: 'Top 100 Verbs (Set 1)', tr: 'En Çok Geçen 100 Fiil (1)', ar: 'أكثر ١٠٠ فعل (١)' }, path: 'Fiiller/En Çok Geçen 100 Fiil.pdf' },
+      { name: { en: 'Top 100 Verbs (Set 2)', tr: 'En Çok Geçen 100 Fiil (2)', ar: 'أكثر ١٠٠ فعل (٢)' }, path: 'Fiiller/En Çok Geçen 100 Fiil_2.pdf' },
+      { name: { en: 'Verbs 1–10', tr: 'Fiiller 1–10', ar: 'الأفعال ١–١٠' }, path: 'Fiiller/Fiiller 1-10.pdf' },
+      { name: { en: 'Verbs 11–20', tr: 'Fiiller 11–20', ar: 'الأفعال ١١–٢٠' }, path: 'Fiiller/Fiiller 11-20.pdf' },
+      { name: { en: 'Verbs 21–30', tr: 'Fiiller 21–30', ar: 'الأفعال ٢١–٣٠' }, path: 'Fiiller/Fiiller 21-30.pdf' },
+      { name: { en: 'Verbs 31–40', tr: 'Fiiller 31–40', ar: 'الأفعال ٣١–٤٠' }, path: 'Fiiller/Fiiller 31-40.pdf' },
+      { name: { en: 'Verbs 41–50', tr: 'Fiiller 41–50', ar: 'الأفعال ٤١–٥٠' }, path: 'Fiiller/Fiiller 41-50.pdf' },
+      { name: { en: 'Verbs 51–60', tr: 'Fiiller 51–60', ar: 'الأفعال ٥١–٦٠' }, path: 'Fiiller/Fiiller 51-60.pdf' },
+      { name: { en: 'Verbs 61–70', tr: 'Fiiller 61–70', ar: 'الأفعال ٦١–٧٠' }, path: 'Fiiller/Fiiller 61-70.pdf' },
+      { name: { en: 'Verbs 71–80', tr: 'Fiiller 71–80', ar: 'الأفعال ٧١–٨٠' }, path: 'Fiiller/Fiiller 71-80 .pdf' },
+      { name: { en: 'Verbs 81–90', tr: 'Fiiller 81–90', ar: 'الأفعال ٨١–٩٠' }, path: 'Fiiller/Fiiller 81-90.pdf' },
+      { name: { en: 'Verbs 91–100', tr: 'Fiiller 91–100', ar: 'الأفعال ٩١–١٠٠' }, path: 'Fiiller/Fiiller 91-100.pdf' },
+      { name: { en: 'Verb Paradigms (Bablar)', tr: 'Bablar', ar: 'أبواب الأفعال' }, path: 'Bablar/Bâblar.pdf' },
+    ],
+    questions: [
+      { type: 'vocabulary', q: { en: 'What does the root ك-ت-ب (k-t-b) mean and give the past tense verb?', tr: 'ك-ت-ب (k-t-b) kökü ne anlama gelir ve geçmiş zaman fiilini verin?', ar: 'ما معنى جذر ك-ت-ب؟ أعطِ الفعل الماضي.' }, expected: 'The root means "to write". Past tense: كَتَبَ (he wrote)' },
+      { type: 'vocabulary', q: { en: 'What does قَرَأَ mean and how do you say "they (masc. pl.) read"?', tr: 'قَرَأَ ne anlama gelir ve "onlar (eril çoğul) okudu" nasıl denir?', ar: 'ما معنى قَرَأَ؟ وكيف تقول "قرأوا" بالجمع المذكر؟' }, expected: 'قَرَأَ means "to read". They (masc. pl.) read = قَرَؤُوا' },
+      { type: 'grammar', q: { en: 'What is the command form (فعل أمر) of ذَهَبَ (he went)?', tr: 'ذَهَبَ (o gitti) fiilinin emir formu nedir?', ar: 'ما فعل الأمر من ذَهَبَ؟' }, expected: 'اِذْهَبْ (go!) — the command is formed from the present tense by removing the prefix and adding a helping hamza if needed' },
+      { type: 'vocabulary', q: { en: 'What does رَحِمَ mean? What are the divine names derived from the same root?', tr: 'رَحِمَ ne anlama gelir? Aynı kökten türetilen ilahi isimler nelerdir?', ar: 'ما معنى رَحِمَ؟ وما أسماء الله المشتقة من هذا الجذر؟' }, expected: 'رَحِمَ = to have mercy. Divine names: الرَّحْمَن (The Beneficent) and الرَّحِيم (The Merciful), both from the root ر-ح-م' },
+      { type: 'grammar', q: { en: 'What are the six Verb Forms (أبواب) of the triliteral root and what does each do to the root letters?', tr: 'Üç harfli kökün altı Fiil Babı (أبواب) nelerdir ve her biri kök harflerine ne yapar?', ar: 'ما أبواب الفعل الثلاثي الستة وما تأثير كل باب على الجذر؟' }, expected: 'The 6 Form I paradigms vary in present-tense vowel: فَعَلَ-يَفْعُلُ, فَعَلَ-يَفْعِلُ, فَعَلَ-يَفْعَلُ, فَعِلَ-يَفْعَلُ, فَعُلَ-يَفْعُلُ, فَعِلَ-يَفْعِلُ. Each must be memorized per verb.' },
+      { type: 'translation', q: { en: 'What does يَعْلَمُونَ mean and what is its root?', tr: 'يَعْلَمُونَ ne anlama gelir ve kökü nedir?', ar: 'ما معنى يَعْلَمُونَ وما جذره؟' }, expected: 'يَعْلَمُونَ = "they (masc. pl.) know", from root ع-ل-م (knowledge/to know), Form I present tense plural' },
+    ]
+  },
+  {
+    id: 'nouns',
+    icon: 'ن',
+    group: 'reference',
+    title: { en: 'Nouns (İsimler)', tr: 'İsimler', ar: 'الأسماء' },
+    desc: {
+      en: '170 most frequent nouns in the Quran with meanings, gender, and plural forms.',
+      tr: 'Kuran\'daki en sık geçen 170 isim, anlamları, cinsiyet ve çoğul formlarıyla.',
+      ar: 'أكثر ١٧٠ اسماً تكراراً في القرآن مع معانيها وجنسها وجمعها.'
+    },
+    pdfs: [
+      { name: { en: 'All Nouns 1–170', tr: 'Tüm İsimler 1–170', ar: 'جميع الأسماء ١–١٧٠' }, path: 'Isimler/_İsimler 1-170.pdf' },
+      { name: { en: 'Nouns 1–15', tr: 'İsimler 1–15', ar: 'الأسماء ١–١٥' }, path: 'Isimler/İsimler 1-15.pdf' },
+      { name: { en: 'Nouns 16–30', tr: 'İsimler 16–30', ar: 'الأسماء ١٦–٣٠' }, path: 'Isimler/İsimler 16-30.pdf' },
+      { name: { en: 'Nouns 31–45', tr: 'İsimler 31–45', ar: 'الأسماء ٣١–٤٥' }, path: 'Isimler/İsimler 31-45.pdf' },
+      { name: { en: 'Nouns 46–60', tr: 'İsimler 46–60', ar: 'الأسماء ٤٦–٦٠' }, path: 'Isimler/İsimler 46-60.pdf' },
+      { name: { en: 'Nouns 61–75', tr: 'İsimler 61–75', ar: 'الأسماء ٦١–٧٥' }, path: 'Isimler/İsimler 61-75.pdf' },
+      { name: { en: 'Nouns 76–90', tr: 'İsimler 76–90', ar: 'الأسماء ٧٦–٩٠' }, path: 'Isimler/İsimler 76-90.pdf' },
+      { name: { en: 'Nouns 91–105', tr: 'İsimler 91–105', ar: 'الأسماء ٩١–١٠٥' }, path: 'Isimler/İsimler 91-105.pdf' },
+      { name: { en: 'Nouns 106–120', tr: 'İsimler 106–120', ar: 'الأسماء ١٠٦–١٢٠' }, path: 'Isimler/İsimler 106-120 .pdf' },
+      { name: { en: 'Nouns 121–135', tr: 'İsimler 121–135', ar: 'الأسماء ١٢١–١٣٥' }, path: 'Isimler/İsimler 121-135.pdf' },
+      { name: { en: 'Nouns 136–150', tr: 'İsimler 136–150', ar: 'الأسماء ١٣٦–١٥٠' }, path: 'Isimler/İsimler 136-150.pdf' },
+      { name: { en: 'Nouns 151–170', tr: 'İsimler 151–170', ar: 'الأسماء ١٥١–١٧٠' }, path: 'Isimler/İsimler 151-170.pdf' },
+      { name: { en: 'Top Frequency Nouns', tr: 'En Sık Geçen İsimler', ar: 'الأسماء الأكثر تكراراً' }, path: 'Nouns/Top Nouns .pdf' },
+      { name: { en: 'Top Particles', tr: 'En Sık Geçen Harfler', ar: 'الحروف الأكثر تكراراً' }, path: 'Nouns/Top Particles .pdf' },
+      { name: { en: 'Top Verbs (reference)', tr: 'En Sık Geçen Fiiller (referans)', ar: 'الأفعال الأكثر تكراراً (مرجع)' }, path: 'Nouns/Top Verbs .pdf' },
+    ],
+    questions: [
+      { type: 'vocabulary', q: { en: 'What does the word نَفْسٌ mean and what is its plural?', tr: 'نَفْسٌ kelimesi ne anlama gelir ve çoğulu nedir?', ar: 'ما معنى نَفْسٌ وما جمعه؟' }, expected: 'نَفْسٌ means "soul/self/nafs". Plural: أَنْفُسٌ or نُفُوسٌ' },
+      { type: 'vocabulary', q: { en: 'What does آيَةٌ mean and what is its plural?', tr: 'آيَةٌ ne anlama gelir ve çoğulu nedir?', ar: 'ما معنى آيَةٌ وما جمعه؟' }, expected: 'آيَةٌ = a sign/verse (of the Quran). Plural: آيَاتٌ' },
+      { type: 'grammar', q: { en: 'Is كِتَابٌ masculine (مذكر) or feminine (مؤنث)? How do you know?', tr: 'كِتَابٌ eril (مذكر) mi yoksa dişil (مؤنث) mi? Nasıl anlarsınız?', ar: 'هل كِتَابٌ مذكر أم مؤنث؟ وكيف تعرف؟' }, expected: 'كِتَابٌ is masculine (مذكر). Feminine nouns typically end in ة (ta marbuta), which كتاب does not.' },
+      { type: 'vocabulary', q: { en: 'What does the word قَلْبٌ mean and what is its plural?', tr: 'قَلْبٌ kelimesi ne anlama gelir ve çoğulu nedir?', ar: 'ما معنى قَلْبٌ وما جمعه؟' }, expected: 'قَلْبٌ = heart. Plural: قُلُوبٌ (broken plural)' },
+      { type: 'grammar', q: { en: 'What is the difference between a Triptote (مُنْصَرِف) and Diptote (مَمْنُوع من الصرف) noun?', tr: 'Sarf olan (مُنْصَرِف) ve sarf olmayan (مَمْنُوع من الصرف) isimler arasındaki fark nedir?', ar: 'ما الفرق بين الاسم المنصرف وغير المنصرف؟' }, expected: 'A triptote takes all three cases with tanwin. A diptote (e.g. أَحْمَد, مَسَاجِد) does not take tanwin and uses fatha instead of kasra in genitive.' },
+      { type: 'translation', q: { en: 'Translate: رَبُّ الْعَالَمِينَ', tr: 'Çevirin: رَبُّ الْعَالَمِينَ', ar: 'ترجم: رَبُّ الْعَالَمِينَ' }, expected: 'Lord of all the worlds / Lord of the universe' },
+    ]
+  },
+  {
+    id: 'surah-vocab',
+    icon: 'آ',
+    group: 'reference',
+    title: { en: 'Surah Vocabulary', tr: 'Sure Kelimeleri', ar: 'مفردات السور' },
+    desc: {
+      en: 'Vocabulary lists and answer keys organized by Quranic Surah — covering Suras from Yasin to Al-Kalem.',
+      tr: 'Kuran surelerine göre düzenlenmiş kelime listeleri ve cevap anahtarları — Yasin\'den Kalem\'e kadar.',
+      ar: 'قوائم مفردات ومفاتيح الإجابات مرتبة حسب سور القرآن — من يس إلى القلم.'
+    },
+    pdfs: [
+      { name: { en: 'Yasin 1–40 Verbs', tr: 'Yasin 1–40 Fiiller', ar: 'يس ١–٤٠ أفعال' }, path: 'Words/Yâ-Sîn Sûresi 1-40 Fiiller.pdf' },
+      { name: { en: 'Yasin 41–83 Verbs', tr: 'Yasin 41–83 Fiiller', ar: 'يس ٤١–٨٣ أفعال' }, path: 'Words/Yâ-Sîn Sûresi 41-83 Fiiller.pdf' },
+      { name: { en: 'Saffat 1–76 Verbs', tr: 'Saffat 1–76 Fiiller', ar: 'الصافات ١–٧٦ أفعال' }, path: 'Words/Sâffât Sûresi 1-76 Fiiller.pdf' },
+      { name: { en: 'Rahman 1–40 Verbs', tr: 'Rahman 1–40 Fiiller', ar: 'الرحمن ١–٤٠ أفعال' }, path: 'Words/Kamer Sûresi 28-55 Rahmân Sûresi 1-40 Fiiller.pdf' },
+      { name: { en: 'Mulk 1–12 Verbs', tr: 'Mülk 1–12 Fiiller', ar: 'الملك ١–١٢ أفعال' }, path: 'Words/Tahrîm Sûresi 1-12 Mülk Sûresi 1-12 Fiiller.pdf' },
+      { name: { en: 'Subhaneke & Tahiyyat', tr: 'Sübhaneke ve Tahiyyat Duaları', ar: 'كلمات التسبيح والتشهد' }, path: 'Words/Subhaneke, Tahiyyat Duaları Kelimeler.pdf' },
+      { name: { en: 'Salli-Barik & Rabbena', tr: 'Salli-Barik ve Rabbena Duaları', ar: 'كلمات الصلاة والتبريك' }, path: 'Words/Salli-Bârik ve Rabbenâ Duaları Kelimeler.pdf' },
+      { name: { en: 'Qunut Prayer Words', tr: 'Kunut Duası Kelimeleri', ar: 'كلمات دعاء القنوت' }, path: 'Words/Kunut Duaları Kelimeler.pdf' },
+    ],
+    questions: [
+      { type: 'translation', q: { en: 'What does الرَّحْمَنِ الرَّحِيمِ mean?', tr: 'الرَّحْمَنِ الرَّحِيمِ ne anlama gelir?', ar: 'ما معنى الرَّحْمَنِ الرَّحِيمِ؟' }, expected: 'The Most Gracious, The Most Merciful. Both come from root ر-ح-م (mercy); الرحمن is broader mercy, الرحيم is specific mercy.' },
+      { type: 'translation', q: { en: 'Translate the opening of Surah Yasin: يس وَالْقُرْآنِ الْحَكِيمِ', tr: 'Yasin Suresinin başlangıcını çevirin: يس وَالْقُرْآنِ الْحَكِيمِ', ar: 'ترجم مطلع سورة يس: يس وَالْقُرْآنِ الْحَكِيمِ' }, expected: 'Ya Sin. By the wise Quran (an oath). يس are muqatta\'at (disconnected letters) whose meaning Allah knows best.' },
+      { type: 'vocabulary', q: { en: 'In the Subhaneke prayer, what does سُبْحَانَكَ اللَّهُمَّ mean?', tr: 'Sübhaneke duasında سُبْحَانَكَ اللَّهُمَّ ne anlama gelir?', ar: 'ما معنى سُبْحَانَكَ اللَّهُمَّ في التسبيح؟' }, expected: 'Glory be to You, O Allah! سُبْحَانَكَ = glory be to You (from root س-ب-ح, to glorify), اللَّهُمَّ = O Allah!' },
+      { type: 'vocabulary', q: { en: 'What does فَعَّال in الرَّحْمَن tell us grammatically?', tr: 'الرَّحْمَن\'deki فَعَّال kalıbı bize gramer açısından ne söyler?', ar: 'ماذا يدل وزن فَعَّال في الرَّحْمَن نحوياً؟' }, expected: 'الرحمن follows the فَعْلَان pattern (not فَعَّال), indicating intensity/abundance. It denotes one who has an overwhelming amount of mercy, hence used only for Allah.' },
+      { type: 'translation', q: { en: 'Translate: فَسُبْحَانَ اللَّهِ حِينَ تُمْسُونَ وَحِينَ تُصْبِحُونَ', tr: 'Çevirin: فَسُبْحَانَ اللَّهِ حِينَ تُمْسُونَ وَحِينَ تُصْبِحُونَ', ar: 'ترجم: فَسُبْحَانَ اللَّهِ حِينَ تُمْسُونَ وَحِينَ تُصْبِحُونَ' }, expected: 'So glorify Allah when you reach evening and when you reach morning [Surah Rum 30:17]' },
+    ]
+  },
+];
+
+// ─── i18n ─────────────────────────────────────────────────────────────────────
+
+const I18N = {
+  en: {
+    navLabel: 'Quranic Arabic',
+    welcomeH1: 'Quranic Arabic Learning Portal',
+    welcomeP: 'Select a topic from the sidebar to begin. Each topic includes lesson materials and interactive practice questions with AI-powered feedback.',
+    groupFoundations: 'Foundations',
+    groupLessons: 'Lessons',
+    groupReference: 'Reference',
+    materials: 'Study Materials',
+    practice: 'Practice Questions',
+    practiceDesc: questions => `Test your understanding with ${questions} practice questions. Claude will review your answers and explain any grammatical points.`,
+    startPractice: 'Start Practice',
+    question: 'Question',
+    of: 'of',
+    submitAnswer: 'Submit Answer',
+    nextQuestion: 'Next Question',
+    finishPractice: 'Finish',
+    yourAnswer: 'Your answer...',
+    thinking: 'Evaluating your answer...',
+    practiceComplete: 'Practice Complete!',
+    questionsAnswered: 'questions answered',
+    tryAgain: 'Try Again',
+    backToTopic: 'Back to Topic',
+    openPDF: 'Open PDF',
+  },
+  tr: {
+    navLabel: 'Kuran Arapçası',
+    welcomeH1: 'Kuran Arapçası Öğrenme Portalı',
+    welcomeP: 'Başlamak için kenar çubuğundan bir konu seçin. Her konu ders materyalleri ve yapay zeka destekli geri bildirimli interaktif alıştırma soruları içerir.',
+    groupFoundations: 'Temel',
+    groupLessons: 'Dersler',
+    groupReference: 'Referans',
+    materials: 'Çalışma Materyalleri',
+    practice: 'Alıştırma Soruları',
+    practiceDesc: questions => `${questions} alıştırma sorusuyla anlayışınızı test edin. Claude cevaplarınızı değerlendirecek ve gramer noktalarını açıklayacak.`,
+    startPractice: 'Alıştırmayı Başlat',
+    question: 'Soru',
+    of: '/',
+    submitAnswer: 'Cevabı Gönder',
+    nextQuestion: 'Sonraki Soru',
+    finishPractice: 'Bitir',
+    yourAnswer: 'Cevabınız...',
+    thinking: 'Cevabınız değerlendiriliyor...',
+    practiceComplete: 'Alıştırma Tamamlandı!',
+    questionsAnswered: 'soru cevaplandı',
+    tryAgain: 'Tekrar Dene',
+    backToTopic: 'Konuya Dön',
+    openPDF: 'PDF Aç',
+  },
+  ar: {
+    navLabel: 'العربية القرآنية',
+    welcomeH1: 'بوابة تعلم العربية القرآنية',
+    welcomeP: 'اختر موضوعاً من القائمة الجانبية للبدء. يتضمن كل موضوع مواد دراسية وأسئلة تدريبية تفاعلية مع تغذية راجعة بالذكاء الاصطناعي.',
+    groupFoundations: 'الأساسيات',
+    groupLessons: 'الدروس',
+    groupReference: 'المرجع',
+    materials: 'المواد الدراسية',
+    practice: 'أسئلة التدريب',
+    practiceDesc: questions => `اختبر فهمك بـ ${questions} أسئلة تدريبية. سيراجع كلود إجاباتك ويشرح النقاط النحوية.`,
+    startPractice: 'ابدأ التدريب',
+    question: 'سؤال',
+    of: 'من',
+    submitAnswer: 'أرسل الإجابة',
+    nextQuestion: 'السؤال التالي',
+    finishPractice: 'إنهاء',
+    yourAnswer: 'إجابتك...',
+    thinking: 'جارٍ تقييم إجابتك...',
+    practiceComplete: 'اكتمل التدريب!',
+    questionsAnswered: 'أسئلة تمت الإجابة عنها',
+    tryAgain: 'حاول مجدداً',
+    backToTopic: 'العودة للموضوع',
+    openPDF: 'فتح PDF',
+  },
+};
+
+// ─── State ────────────────────────────────────────────────────────────────────
+
+let lang = 'en';
+let currentTopic = null;
+let practiceMode = false;
+let questionIndex = 0;
+let feedbackShown = false;
+
+// ─── Language ─────────────────────────────────────────────────────────────────
+
+function setLang(l) {
+  lang = l;
+  document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
+  document.querySelector(`.lang-btn[onclick="setLang('${l}')"]`).classList.add('active');
+  document.documentElement.lang = l;
+  document.body.classList.toggle('rtl', l === 'ar');
+  document.getElementById('nav-label').textContent = I18N[l].navLabel;
+  renderSidebar();
+  if (currentTopic) {
+    if (practiceMode) renderPractice();
+    else renderTopic(currentTopic);
+  } else {
+    document.getElementById('welcome-h1').textContent = I18N[l].welcomeH1;
+    document.getElementById('welcome-p').textContent = I18N[l].welcomeP;
+  }
+}
+
+const t = key => I18N[lang][key];
+
+// ─── Sidebar ──────────────────────────────────────────────────────────────────
+
+function renderSidebar() {
+  const groups = [
+    { key: 'foundations', labelKey: 'groupFoundations' },
+    { key: 'lessons', labelKey: 'groupLessons' },
+    { key: 'reference', labelKey: 'groupReference' },
+  ];
+  const sidebar = document.getElementById('sidebar');
+  sidebar.innerHTML = groups.map(g => {
+    const items = TOPICS.filter(tp => tp.group === g.key);
+    return `<div class="sidebar-section">${t(g.labelKey)}</div>` +
+      items.map(tp => `
+        <div class="topic-item ${currentTopic && currentTopic.id === tp.id ? 'active' : ''}" onclick="selectTopic('${tp.id}')">
+          <div class="topic-icon">${tp.icon}</div>
+          <div>
+            <div class="topic-name">${tp.title[lang]}</div>
+          </div>
+        </div>`).join('');
+  }).join('');
+}
+
+// ─── Topic view ───────────────────────────────────────────────────────────────
+
+function selectTopic(id) {
+  currentTopic = TOPICS.find(tp => tp.id === id);
+  practiceMode = false;
+  questionIndex = 0;
+  feedbackShown = false;
+  renderSidebar();
+  renderTopic(currentTopic);
+}
+
+function renderTopic(topic) {
+  const main = document.getElementById('main');
+  const pdfsHtml = topic.pdfs.map(pdf => {
+    const encodedPath = pdf.path.split('/').map(encodeURIComponent).join('/');
+    return `<a class="pdf-card" href="/pdfs/${encodedPath}" target="_blank" rel="noopener">
+      <span class="pdf-icon">📄</span>
+      <span class="pdf-name">${pdf.name[lang]}</span>
+    </a>`;
+  }).join('');
+
+  main.innerHTML = `
+    <div class="topic-header">
+      <h2>${topic.title[lang]}</h2>
+      <p>${topic.desc[lang]}</p>
+    </div>
+    <div class="section">
+      <div class="section-title">${t('materials')}</div>
+      <div class="pdf-grid">${pdfsHtml}</div>
+    </div>
+    <div class="section">
+      <div class="section-title">${t('practice')}</div>
+      <div class="practice-start">
+        <h3>${t('practice')}</h3>
+        <p>${t('practiceDesc')(topic.questions.length)}</p>
+        <button class="btn-primary" onclick="startPractice()">${t('startPractice')}</button>
+      </div>
+    </div>`;
+}
+
+// ─── Practice ─────────────────────────────────────────────────────────────────
+
+function startPractice() {
+  practiceMode = true;
+  questionIndex = 0;
+  feedbackShown = false;
+  renderPractice();
+}
+
+function renderPractice() {
+  const topic = currentTopic;
+  const q = topic.questions[questionIndex];
+  const total = topic.questions.length;
+  const pct = Math.round((questionIndex / total) * 100);
+
+  const badgeClass = {
+    translation: 'badge-translation',
+    grammar: 'badge-grammar',
+    vocabulary: 'badge-vocabulary',
+    pronunciation: 'badge-pronunciation',
+    factual: 'badge-factual',
+  }[q.type] || 'badge-factual';
+
+  const main = document.getElementById('main');
+  main.innerHTML = `
+    <div class="topic-header">
+      <h2>${topic.title[lang]}</h2>
+      <p>${t('practice')}</p>
+    </div>
+    <div class="section">
+      <div class="question-card">
+        <div class="q-progress">${t('question')} ${questionIndex + 1} ${t('of')} ${total}</div>
+        <div class="q-progress-bar"><div class="q-progress-fill" style="width:${pct}%"></div></div>
+        <span class="q-badge ${badgeClass}">${q.type}</span>
+        <div class="q-text">${q.q[lang]}</div>
+        <textarea class="answer-area" id="answer-input" placeholder="${t('yourAnswer')}"></textarea>
+        <div class="q-actions">
+          <button class="btn-secondary" onclick="backToTopic()">${t('backToTopic')}</button>
+          <span class="spacer"></span>
+          <button class="btn-primary" id="submit-btn" onclick="submitAnswer()">${t('submitAnswer')}</button>
+        </div>
+        <div id="feedback-area"></div>
+        <div id="next-area"></div>
+      </div>
+    </div>`;
+
+  document.getElementById('answer-input').addEventListener('keydown', e => {
+    if (e.key === 'Enter' && e.ctrlKey) submitAnswer();
+  });
+}
+
+async function submitAnswer() {
+  const answerEl = document.getElementById('answer-input');
+  const answer = answerEl.value.trim();
+  if (!answer) { answerEl.focus(); return; }
+
+  const submitBtn = document.getElementById('submit-btn');
+  submitBtn.disabled = true;
+  answerEl.disabled = true;
+
+  const feedbackArea = document.getElementById('feedback-area');
+  feedbackArea.innerHTML = `<div class="feedback-box loading"><span class="spinner"></span> ${t('thinking')}</div>`;
+
+  const topic = currentTopic;
+  const q = topic.questions[questionIndex];
+
+  try {
+    const res = await fetch('/api/feedback', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        question: q.q[lang],
+        answer,
+        expected: q.expected,
+        topic: topic.title[lang],
+        language: lang,
+      }),
+    });
+    const data = await res.json();
+    if (data.error) throw new Error(data.error);
+
+    feedbackArea.innerHTML = `<div class="feedback-box ${lang === 'ar' ? 'feedback-arabic' : ''}">${escapeHtml(data.feedback)}</div>`;
+  } catch (err) {
+    feedbackArea.innerHTML = `<div class="feedback-box error">Error: ${escapeHtml(err.message)}</div>`;
+  }
+
+  feedbackShown = true;
+  const isLast = questionIndex === topic.questions.length - 1;
+  const nextArea = document.getElementById('next-area');
+  nextArea.innerHTML = `<div class="q-actions" style="margin-top:16px">
+    <span class="spacer"></span>
+    <button class="btn-primary" onclick="${isLast ? 'showScore()' : 'nextQuestion()'}">${isLast ? t('finishPractice') : t('nextQuestion')}</button>
+  </div>`;
+}
+
+function nextQuestion() {
+  questionIndex++;
+  feedbackShown = false;
+  renderPractice();
+  document.getElementById('main').scrollTop = 0;
+}
+
+function showScore() {
+  const total = currentTopic.questions.length;
+  const main = document.getElementById('main');
+  main.innerHTML = `
+    <div class="topic-header">
+      <h2>${currentTopic.title[lang]}</h2>
+      <p>${t('practice')}</p>
+    </div>
+    <div class="section">
+      <div class="score-card">
+        <div class="score-num">${total}</div>
+        <div class="score-label">${t('questionsAnswered')}</div>
+        <p style="color:var(--muted);margin-bottom:24px;font-size:0.9rem">${t('practiceComplete')}</p>
+        <div class="score-actions">
+          <button class="btn-secondary" onclick="backToTopic()">${t('backToTopic')}</button>
+          <button class="btn-primary" onclick="startPractice()">${t('tryAgain')}</button>
+        </div>
+      </div>
+    </div>`;
+}
+
+function backToTopic() {
+  practiceMode = false;
+  renderTopic(currentTopic);
+}
+
+// ─── Utils ────────────────────────────────────────────────────────────────────
+
+function escapeHtml(str) {
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/\n/g, '<br>');
+}
+
+// ─── Init ─────────────────────────────────────────────────────────────────────
+
+renderSidebar();
+</script>
+</body>
+</html>
