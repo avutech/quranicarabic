@@ -281,6 +281,118 @@
   .score-label { font-size: 1rem; color: var(--muted); margin-bottom: 24px; }
   .score-actions { display: flex; gap: 12px; justify-content: center; }
 
+  /* Quiz */
+  .quiz-setup {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 28px; box-shadow: var(--shadow);
+  }
+  .quiz-setup h3 { font-size: 1.15rem; margin-bottom: 8px; color: var(--green); }
+  .quiz-setup p { color: var(--mid); font-size: 0.9rem; margin-bottom: 18px; line-height: 1.6; }
+  .quiz-options { display: flex; flex-wrap: wrap; gap: 18px; margin: 16px 0 22px; }
+  .quiz-option-group { display: flex; flex-direction: column; gap: 6px; }
+  .quiz-option-label { font-size: 0.72rem; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; }
+  .quiz-pills { display: flex; gap: 6px; flex-wrap: wrap; }
+  .quiz-pill {
+    padding: 6px 14px; border-radius: 16px; border: 1.5px solid var(--border);
+    background: var(--card); cursor: pointer; font-size: 0.85rem; transition: all 0.15s;
+  }
+  .quiz-pill:hover { border-color: var(--green); }
+  .quiz-pill.active { background: var(--green); color: white; border-color: var(--green); }
+
+  .quiz-card {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 28px; box-shadow: var(--shadow);
+  }
+  .quiz-arabic {
+    font-size: 2.4rem; text-align: center; padding: 28px 16px;
+    background: var(--green-pale); border-radius: 10px; margin: 12px 0 24px;
+    color: var(--green); font-family: 'Noto Naskh Arabic', 'Traditional Arabic', serif;
+    direction: rtl; line-height: 1.6;
+  }
+  .quiz-choices { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  @media (max-width: 600px) { .quiz-choices { grid-template-columns: 1fr; } }
+  .quiz-choice {
+    padding: 14px 16px; background: var(--card);
+    border: 1.5px solid var(--border); border-radius: 8px;
+    cursor: pointer; font-size: 0.95rem; text-align: left;
+    transition: all 0.15s; line-height: 1.4;
+  }
+  .quiz-choice:hover:not(:disabled) { border-color: var(--green); background: var(--green-pale); }
+  .quiz-choice:disabled { cursor: default; }
+  .quiz-choice.correct { border-color: var(--green); background: #d4f1de; color: #0e4f29; font-weight: 600; }
+  .quiz-choice.wrong { border-color: #dc2626; background: #fef2f2; color: #991b1b; }
+  .quiz-source {
+    margin-top: 16px; padding: 10px 14px; background: var(--bg); border-radius: 6px;
+    font-size: 0.78rem; color: var(--muted);
+  }
+
+  /* Verse Analysis (I'rab) */
+  .irab-input {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 22px; box-shadow: var(--shadow);
+  }
+  .irab-textarea {
+    width: 100%; min-height: 100px; padding: 16px;
+    border: 1.5px solid var(--border); border-radius: 8px;
+    font-size: 1.4rem; line-height: 1.8; resize: vertical;
+    font-family: 'Noto Naskh Arabic', 'Traditional Arabic', serif;
+    direction: rtl; text-align: right; color: var(--green);
+    background: var(--green-pale);
+  }
+  .irab-textarea:focus { outline: none; border-color: var(--green); }
+  .irab-actions { display: flex; gap: 10px; margin-top: 14px; align-items: center; }
+  .irab-actions .spacer { flex: 1; }
+
+  .irab-results { margin-top: 24px; }
+  .irab-translation {
+    padding: 14px 18px; background: var(--green-pale);
+    border-left: 4px solid var(--green); border-radius: 6px;
+    margin-bottom: 18px; font-size: 0.95rem; line-height: 1.6;
+  }
+  body.rtl .irab-translation { border-left: none; border-right: 4px solid var(--green); }
+
+  .irab-words {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 12px;
+  }
+  .irab-word {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 16px;
+    display: flex; flex-direction: column; gap: 6px;
+  }
+  .irab-word-ar {
+    font-size: 1.7rem; font-family: 'Noto Naskh Arabic', serif;
+    direction: rtl; text-align: center; color: var(--green);
+    padding: 8px 0; line-height: 1.4;
+  }
+  .irab-word-translit {
+    font-size: 0.78rem; color: var(--muted); text-align: center;
+    font-style: italic; margin-top: -4px;
+  }
+  .irab-word-meaning { font-size: 0.92rem; font-weight: 500; text-align: center; }
+  .irab-word-grammar {
+    font-size: 0.78rem; color: var(--mid); padding: 8px 0;
+    border-top: 1px dashed var(--border); display: grid;
+    grid-template-columns: auto 1fr; gap: 4px 10px;
+  }
+  .irab-word-grammar dt { font-weight: 700; color: var(--muted); }
+  .irab-word-grammar dd { color: var(--mid); }
+  .irab-refs { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+  .irab-ref-chip {
+    display: inline-flex; align-items: center; gap: 4px;
+    padding: 4px 10px; border-radius: 12px;
+    background: var(--green-pale); color: var(--green);
+    border: 1px solid rgba(26,107,60,0.25);
+    font-size: 0.74rem; font-weight: 600; cursor: pointer;
+    transition: all 0.15s;
+  }
+  .irab-ref-chip:hover { background: var(--green); color: white; }
+  .irab-ref-chip[title]:hover::after { content: ''; }
+  .irab-notes {
+    margin-top: 18px; padding: 12px 16px; background: var(--bg);
+    border-radius: 8px; font-size: 0.85rem; color: var(--mid); line-height: 1.6;
+  }
+
   /* Spinner */
   .spinner { display: inline-block; width: 16px; height: 16px; border: 2px solid var(--border); border-top-color: var(--green); border-radius: 50%; animation: spin 0.7s linear infinite; }
   @keyframes spin { to { transform: rotate(360deg); } }
@@ -331,6 +443,12 @@
 </div>
 
 <script src="data.js"></script>
+<script src="vocab.js" onerror="window.VOCAB_POOL = null;"></script>
+<script src="lessons_index.js" onerror="window.LESSON_INDEX = null;"></script>
+<script>
+if (typeof VOCAB_POOL === 'undefined') { window.VOCAB_POOL = null; }
+if (typeof LESSON_INDEX === 'undefined') { window.LESSON_INDEX = null; }
+</script>
 <script>
 // ─── i18n ─────────────────────────────────────────────────────────────────────
 
@@ -361,6 +479,32 @@ const I18N = {
     openPDF: 'Open PDF',
     levelOverview: 'All Lessons',
     noPractice: 'No practice questions for this topic.',
+    quizNotReady: 'Vocabulary pool not built yet. Run `python build_vocab.py` (with ANTHROPIC_API_KEY set) inside the portal/ folder, then reload this page.',
+    quizDirection: 'Quiz Direction',
+    quizDirArTr: 'Arabic → Turkish',
+    quizDirArEn: 'Arabic → English',
+    quizLength: 'Number of Questions',
+    quizScope: 'Word Pool',
+    quizScopeAll: 'All sources',
+    quizScopeAnswerKeys: 'Lesson Answer Keys only',
+    quizScopeSurah: 'Surah verbs only',
+    quizPoolSize: words => `${words} unique words available`,
+    quizStart: 'Start Quiz',
+    quizScore: 'Score',
+    quizCorrect: 'correct',
+    quizSource: 'Source',
+    irabPlaceholder: 'بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ',
+    irabAnalyze: 'Analyze',
+    irabAnalyzing: 'Analyzing...',
+    irabTranslation: 'Translation',
+    irabType: 'Type',
+    irabRoot: 'Root',
+    irabCase: 'Case/Mood',
+    irabRole: 'Role',
+    irabForm: 'Form',
+    irabRelevantLessons: 'Lessons',
+    irabClear: 'Clear',
+    irabNoLessons: 'No lesson references for this word.',
   },
   tr: {
     navLabel: 'Kuran Arapçası',
@@ -388,6 +532,32 @@ const I18N = {
     openPDF: 'PDF Aç',
     levelOverview: 'Tüm Dersler',
     noPractice: 'Bu konu için alıştırma sorusu yok.',
+    quizNotReady: 'Kelime havuzu henüz oluşturulmadı. portal/ klasöründe ANTHROPIC_API_KEY ayarlıyken `python build_vocab.py` komutunu çalıştırıp sayfayı yenileyin.',
+    quizDirection: 'Sınav Yönü',
+    quizDirArTr: 'Arapça → Türkçe',
+    quizDirArEn: 'Arapça → İngilizce',
+    quizLength: 'Soru Sayısı',
+    quizScope: 'Kelime Havuzu',
+    quizScopeAll: 'Tüm kaynaklar',
+    quizScopeAnswerKeys: 'Sadece Ders Cevap Anahtarları',
+    quizScopeSurah: 'Sadece Sure fiilleri',
+    quizPoolSize: words => `${words} benzersiz kelime mevcut`,
+    quizStart: 'Sınava Başla',
+    quizScore: 'Skor',
+    quizCorrect: 'doğru',
+    quizSource: 'Kaynak',
+    irabPlaceholder: 'بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ',
+    irabAnalyze: 'Analiz Et',
+    irabAnalyzing: 'Analiz ediliyor...',
+    irabTranslation: 'Meal',
+    irabType: 'Tür',
+    irabRoot: 'Kök',
+    irabCase: 'İrab/Kip',
+    irabRole: 'Görev',
+    irabForm: 'Bab',
+    irabRelevantLessons: 'Dersler',
+    irabClear: 'Temizle',
+    irabNoLessons: 'Bu kelime için ders referansı yok.',
   },
   ar: {
     navLabel: 'العربية القرآنية',
@@ -415,6 +585,32 @@ const I18N = {
     openPDF: 'فتح PDF',
     levelOverview: 'جميع الدروس',
     noPractice: 'لا توجد أسئلة تدريبية لهذا الموضوع.',
+    quizNotReady: 'لم يتم بناء مجموعة المفردات بعد. شغّل `python build_vocab.py` داخل مجلد portal/ مع ضبط ANTHROPIC_API_KEY ثم أعد تحميل الصفحة.',
+    quizDirection: 'اتجاه الاختبار',
+    quizDirArTr: 'عربي → تركي',
+    quizDirArEn: 'عربي → إنجليزي',
+    quizLength: 'عدد الأسئلة',
+    quizScope: 'مجموعة الكلمات',
+    quizScopeAll: 'جميع المصادر',
+    quizScopeAnswerKeys: 'مفاتيح الإجابات فقط',
+    quizScopeSurah: 'مفردات السور فقط',
+    quizPoolSize: words => `${words} كلمة فريدة متوفرة`,
+    quizStart: 'ابدأ الاختبار',
+    quizScore: 'النتيجة',
+    quizCorrect: 'صحيحة',
+    quizSource: 'المصدر',
+    irabPlaceholder: 'بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ',
+    irabAnalyze: 'حلِّل',
+    irabAnalyzing: 'جارٍ التحليل...',
+    irabTranslation: 'الترجمة',
+    irabType: 'النوع',
+    irabRoot: 'الجذر',
+    irabCase: 'الإعراب',
+    irabRole: 'الموقع',
+    irabForm: 'الباب',
+    irabRelevantLessons: 'الدروس',
+    irabClear: 'مسح',
+    irabNoLessons: 'لا توجد إشارات لدروس لهذه الكلمة.',
   },
 };
 
@@ -447,7 +643,9 @@ function setLang(l) {
     if (practiceMode) renderPractice();
     else renderLesson(currentView.level, currentView.lesson);
   } else if (currentView.type === 'reference') {
-    renderReference(currentView.ref);
+    if (currentView.ref.quiz) renderQuizSetup(currentView.ref);
+    else if (currentView.ref.irab) renderIrab(currentView.ref);
+    else renderReference(currentView.ref);
   }
 }
 
@@ -534,7 +732,9 @@ function clickReference(refId) {
   currentView = { type: 'reference', ref };
   practiceMode = false;
   renderSidebar();
-  renderReference(ref);
+  if (ref.quiz) renderQuizSetup(ref);
+  else if (ref.irab) renderIrab(ref);
+  else renderReference(ref);
 }
 
 // ─── Views ────────────────────────────────────────────────────────────────────
@@ -755,6 +955,305 @@ function showScore() {
 function backToLesson() {
   practiceMode = false;
   renderLesson(currentView.level, currentView.lesson);
+}
+
+// ─── Vocabulary Quiz ──────────────────────────────────────────────────────────
+
+let quizConfig = { direction: 'tr', length: 10, scope: 'all' };
+let quizState = null; // { pool, items, idx, score, answered }
+
+function filterPool(scope) {
+  if (!VOCAB_POOL) return [];
+  const all = VOCAB_POOL.filter(e => e.ar && e.tr);
+  if (scope === 'answerkeys') return all.filter(e => /Answer Key|ANSWER KEY/i.test(e.source || ''));
+  if (scope === 'surah') return all.filter(e => /Sûresi|Surah/i.test(e.source || '') && !/Answer Key/i.test(e.source || ''));
+  return all;
+}
+
+function renderQuizSetup(ref) {
+  const main = document.getElementById('main');
+
+  if (!VOCAB_POOL) {
+    main.innerHTML = `
+      <div class="topic-header">
+        <h2>${ref.title[lang]}</h2>
+        <p>${ref.desc[lang]}</p>
+      </div>
+      <div class="section">
+        <div class="practice-start" style="text-align:left">
+          <p style="color:var(--mid);line-height:1.7">${escapeHtml(t('quizNotReady'))}</p>
+          <pre style="margin-top:14px;background:#1a1a1a;color:#a8e6c0;padding:14px 16px;border-radius:8px;font-size:0.82rem;overflow-x:auto"><code>cd portal
+export ANTHROPIC_API_KEY=...
+venv/bin/python build_vocab.py</code></pre>
+        </div>
+      </div>`;
+    return;
+  }
+
+  const pool = filterPool(quizConfig.scope);
+  const lengths = [10, 20, 50];
+  const scopes = [
+    { id: 'all', label: t('quizScopeAll') },
+    { id: 'answerkeys', label: t('quizScopeAnswerKeys') },
+    { id: 'surah', label: t('quizScopeSurah') },
+  ];
+  const directions = [
+    { id: 'tr', label: t('quizDirArTr') },
+    { id: 'en', label: t('quizDirArEn') },
+  ];
+
+  const pillsHtml = (items, current, key) => items.map(it =>
+    `<button class="quiz-pill ${current === it.id ? 'active' : ''}" onclick="setQuizConfig('${key}','${it.id}')">${escapeHtml(it.label || it.id)}</button>`
+  ).join('');
+  const lengthPills = lengths.map(n =>
+    `<button class="quiz-pill ${quizConfig.length === n ? 'active' : ''}" onclick="setQuizConfig('length',${n})">${n}</button>`
+  ).join('');
+
+  main.innerHTML = `
+    <div class="topic-header">
+      <h2>${ref.title[lang]}</h2>
+      <p>${ref.desc[lang]}</p>
+    </div>
+    <div class="section">
+      <div class="quiz-setup">
+        <h3>${ref.title[lang]}</h3>
+        <p>${t('quizPoolSize')(pool.length)}</p>
+        <div class="quiz-options">
+          <div class="quiz-option-group">
+            <span class="quiz-option-label">${t('quizDirection')}</span>
+            <div class="quiz-pills">${pillsHtml(directions, quizConfig.direction, 'direction')}</div>
+          </div>
+          <div class="quiz-option-group">
+            <span class="quiz-option-label">${t('quizLength')}</span>
+            <div class="quiz-pills">${lengthPills}</div>
+          </div>
+          <div class="quiz-option-group">
+            <span class="quiz-option-label">${t('quizScope')}</span>
+            <div class="quiz-pills">${pillsHtml(scopes, quizConfig.scope, 'scope')}</div>
+          </div>
+        </div>
+        <button class="btn-primary" onclick="startQuiz()" ${pool.length < 4 ? 'disabled' : ''}>${t('quizStart')}</button>
+      </div>
+    </div>`;
+}
+
+function setQuizConfig(key, value) {
+  quizConfig[key] = value;
+  renderQuizSetup(currentView.ref);
+}
+
+function shuffle(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function startQuiz() {
+  const pool = filterPool(quizConfig.scope);
+  if (pool.length < 4) return;
+  const items = shuffle(pool).slice(0, Math.min(quizConfig.length, pool.length));
+  quizState = { pool, items, idx: 0, score: 0, answered: false };
+  renderQuizQuestion();
+}
+
+function renderQuizQuestion() {
+  const { items, idx, score, pool } = quizState;
+  const total = items.length;
+  const item = items[idx];
+  const meaningKey = quizConfig.direction; // 'tr' or 'en'
+
+  // Build distractors: 3 random different entries with a meaning value
+  const others = shuffle(pool.filter(e => e.ar !== item.ar && e[meaningKey] && e[meaningKey] !== item[meaningKey])).slice(0, 3);
+  const choices = shuffle([item, ...others]);
+
+  const ref = currentView.ref;
+  const main = document.getElementById('main');
+  const pct = Math.round((idx / total) * 100);
+
+  main.innerHTML = `
+    <div class="topic-header">
+      <h2>${ref.title[lang]}</h2>
+      <p>${t('question')} ${idx + 1} ${t('of')} ${total} · ${t('quizScore')}: ${score}</p>
+    </div>
+    <div class="section">
+      <div class="quiz-card">
+        <div class="q-progress-bar"><div class="q-progress-fill" style="width:${pct}%"></div></div>
+        <div class="quiz-arabic">${escapeHtml(item.ar)}</div>
+        <div class="quiz-choices" id="quiz-choices">
+          ${choices.map((c, i) => `<button class="quiz-choice" data-correct="${c.ar === item.ar}" onclick="answerQuiz(this, ${i})">${escapeHtml(c[meaningKey] || '—')}</button>`).join('')}
+        </div>
+        <div id="quiz-feedback"></div>
+      </div>
+    </div>`;
+  quizState.answered = false;
+  quizState.currentItem = item;
+}
+
+function answerQuiz(btn, choiceIdx) {
+  if (quizState.answered) return;
+  quizState.answered = true;
+  const isCorrect = btn.dataset.correct === 'true';
+  const item = quizState.currentItem;
+  if (isCorrect) quizState.score++;
+
+  document.querySelectorAll('#quiz-choices .quiz-choice').forEach(b => {
+    b.disabled = true;
+    if (b.dataset.correct === 'true') b.classList.add('correct');
+    else if (b === btn) b.classList.add('wrong');
+  });
+
+  const meaningKey = quizConfig.direction;
+  const otherKey = meaningKey === 'tr' ? 'en' : 'tr';
+  const fb = document.getElementById('quiz-feedback');
+  fb.innerHTML = `
+    <div class="quiz-source">
+      <strong>${escapeHtml(item.ar)}</strong> — ${escapeHtml(item[meaningKey] || '')}
+      ${item[otherKey] ? ` <span style="opacity:0.7">· ${escapeHtml(item[otherKey])}</span>` : ''}
+      <br><span style="opacity:0.7">${t('quizSource')}: ${escapeHtml(item.source || '—')}</span>
+    </div>
+    <div class="q-actions" style="margin-top:14px">
+      <span class="spacer"></span>
+      <button class="btn-primary" onclick="nextQuiz()">${quizState.idx === quizState.items.length - 1 ? t('finishPractice') : t('nextQuestion')}</button>
+    </div>`;
+}
+
+function nextQuiz() {
+  quizState.idx++;
+  if (quizState.idx >= quizState.items.length) {
+    showQuizScore();
+  } else {
+    renderQuizQuestion();
+    document.getElementById('main').scrollTop = 0;
+  }
+}
+
+function showQuizScore() {
+  const { score, items } = quizState;
+  const ref = currentView.ref;
+  const main = document.getElementById('main');
+  main.innerHTML = `
+    <div class="topic-header">
+      <h2>${ref.title[lang]}</h2>
+    </div>
+    <div class="section">
+      <div class="score-card">
+        <div class="score-num">${score} / ${items.length}</div>
+        <div class="score-label">${t('quizCorrect')}</div>
+        <p style="color:var(--muted);margin-bottom:24px;font-size:0.9rem">${t('practiceComplete')}</p>
+        <div class="score-actions">
+          <button class="btn-secondary" onclick="renderQuizSetup(currentView.ref)">${t('backToTopic')}</button>
+          <button class="btn-primary" onclick="startQuiz()">${t('tryAgain')}</button>
+        </div>
+      </div>
+    </div>`;
+}
+
+// ─── Verse Analysis (I'rab) ───────────────────────────────────────────────────
+
+let lastIrabResult = null;
+
+function renderIrab(ref) {
+  const main = document.getElementById('main');
+  main.innerHTML = `
+    <div class="topic-header">
+      <h2>${ref.title[lang]}</h2>
+      <p>${ref.desc[lang]}</p>
+    </div>
+    <div class="section">
+      <div class="irab-input">
+        <textarea class="irab-textarea" id="irab-input"
+          placeholder="${escapeHtml(t('irabPlaceholder'))}"></textarea>
+        <div class="irab-actions">
+          <button class="btn-secondary" onclick="document.getElementById('irab-input').value=''; document.getElementById('irab-results').innerHTML=''">${t('irabClear')}</button>
+          <span class="spacer"></span>
+          <button class="btn-primary" id="irab-go" onclick="analyzeVerse()">${t('irabAnalyze')}</button>
+        </div>
+      </div>
+      <div class="irab-results" id="irab-results">${lastIrabResult ? renderIrabResult(lastIrabResult) : ''}</div>
+    </div>`;
+
+  document.getElementById('irab-input').addEventListener('keydown', e => {
+    if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) analyzeVerse();
+  });
+}
+
+async function analyzeVerse() {
+  const input = document.getElementById('irab-input');
+  const verse = input.value.trim();
+  if (!verse) { input.focus(); return; }
+
+  const btn = document.getElementById('irab-go');
+  const results = document.getElementById('irab-results');
+  btn.disabled = true;
+  btn.textContent = t('irabAnalyzing');
+  results.innerHTML = `<div class="feedback-box loading"><span class="spinner"></span> ${t('irabAnalyzing')}</div>`;
+
+  try {
+    const res = await fetch('/api/irab', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ verse, language: lang }),
+    });
+    const data = await res.json();
+    if (data.error) throw new Error(data.error);
+    lastIrabResult = data;
+    results.innerHTML = renderIrabResult(data);
+  } catch (err) {
+    results.innerHTML = `<div class="feedback-box error">Error: ${escapeHtml(err.message)}</div>`;
+  } finally {
+    btn.disabled = false;
+    btn.textContent = t('irabAnalyze');
+  }
+}
+
+function renderIrabResult(data) {
+  const wordsHtml = (data.words || []).map(w => {
+    const refs = (w.lesson_refs || []).map(r => {
+      const idx = LESSON_INDEX && LESSON_INDEX[r.lesson_id];
+      const title = idx ? (idx.verified_title[lang] || idx.verified_title.en) : r.lesson_id;
+      const tooltip = `${r.lesson_id} — ${title}\n${r.reason || ''}`;
+      return `<button class="irab-ref-chip" title="${escapeHtml(tooltip)}" onclick="jumpToLesson('${r.lesson_id}')">${escapeHtml(r.lesson_id)} · ${escapeHtml((title || '').slice(0, 28))}${title && title.length > 28 ? '…' : ''}</button>`;
+    }).join('');
+
+    const grammarRows = [];
+    if (w.type) grammarRows.push([t('irabType'), w.type]);
+    if (w.root) grammarRows.push([t('irabRoot'), w.root]);
+    if (w.case_mood) grammarRows.push([t('irabCase'), w.case_mood]);
+    if (w.role) grammarRows.push([t('irabRole'), w.role]);
+    if (w.form) grammarRows.push([t('irabForm'), w.form]);
+    const grammarHtml = grammarRows.map(([k, v]) =>
+      `<dt>${escapeHtml(k)}</dt><dd>${escapeHtml(v)}</dd>`).join('');
+
+    return `<div class="irab-word">
+      <div class="irab-word-ar">${escapeHtml(w.ar || '')}</div>
+      ${w.transliteration ? `<div class="irab-word-translit">${escapeHtml(w.transliteration)}</div>` : ''}
+      ${w.meaning ? `<div class="irab-word-meaning">${escapeHtml(w.meaning)}</div>` : ''}
+      ${grammarHtml ? `<dl class="irab-word-grammar">${grammarHtml}</dl>` : ''}
+      <div class="irab-refs">
+        ${refs || `<span style="color:var(--muted);font-size:0.78rem">${t('irabNoLessons')}</span>`}
+      </div>
+    </div>`;
+  }).join('');
+
+  return `
+    ${data.translation ? `<div class="irab-translation"><strong>${t('irabTranslation')}:</strong> ${escapeHtml(data.translation)}</div>` : ''}
+    <div class="irab-words">${wordsHtml}</div>
+    ${data.overall_notes ? `<div class="irab-notes">${escapeHtml(data.overall_notes)}</div>` : ''}
+  `;
+}
+
+function jumpToLesson(lessonId) {
+  // lessonId looks like "L1W4" → level=1, week=4 → idx=3
+  const m = /^L(\d)W(\d+)$/.exec(lessonId);
+  if (!m) return;
+  const levelId = `level${m[1]}`;
+  const weekIdx = parseInt(m[2]) - 1;
+  if (LEVELS.find(l => l.id === levelId)?.lessons[weekIdx]) {
+    clickLesson(levelId, weekIdx);
+  }
 }
 
 // ─── Utils ────────────────────────────────────────────────────────────────────

@@ -6,7 +6,7 @@ const LEVELS = [
     lessons: [
       {
         week: 1, pdf: 'Level-1/1st Lesson Line Spacing 2.0.pdf',
-        title: { en: 'Word Types: Noun, Verb, Particle', tr: 'Kelime Bilgisi: İsim, Fiil, Harf', ar: 'أقسام الكلمة: اسم، فعل، حرف' },
+        title: { en: 'Arabic Word Types: Noun (Ism), Verb (Fiʿl), and Particle (Ḥarf)', tr: 'Arapçada Kelime Çeşitleri: İsim, Fiil ve Harf', ar: 'أقسام الكلمة: الاسم والفعل والحرف' },
         questions: [
           { type: 'grammar', q: 'What are the three types of Arabic words (أقسام الكلمة)?', expected: 'Ism (اسم) = noun/name, Fi\'l (فعل) = verb, Harf (حرف) = particle/preposition' },
           { type: 'grammar', q: 'Is the word كَتَبَ an isim, fi\'l, or harf? How do you know?', expected: 'Fi\'l (verb) — it expresses an action (he wrote) and accepts tense conjugation' },
@@ -17,7 +17,7 @@ const LEVELS = [
       },
       {
         week: 2, pdf: 'Level-1/2nd Lesson Line Spacing 2.0.pdf',
-        title: { en: 'Definite & Indefinite Nouns (Ma\'rifa & Nakira)', tr: 'Belirli ve Belirsiz İsimler (Ma\'rife, Nekira)', ar: 'المعرفة والنكرة' },
+        title: { en: 'Definite and Indefinite Nouns, and Solar & Lunar Letters', tr: 'Belirli ve Belirsiz İsimler ile Şemsî ve Kamerî Harfler', ar: 'المعرفة والنكرة والحروف الشمسية والقمرية' },
         questions: [
           { type: 'grammar', q: 'How do you make an Arabic noun definite? Give an example.', expected: 'Add ال (al-) prefix and remove tanwin: كِتَابٌ (a book) → الْكِتَابُ (the book)' },
           { type: 'grammar', q: 'What is Tanwin (تنوين) and what does it indicate?', expected: 'Tanwin is a double vowel mark adding an "n" sound to the end of a noun, indicating it is indefinite (nakira): كِتَابٌ = a book' },
@@ -28,7 +28,7 @@ const LEVELS = [
       },
       {
         week: 3, pdf: 'Level-1/3rd Lesson Line Spacing 2.0.pdf',
-        title: { en: 'Masculine & Feminine / Demonstrative Pronouns', tr: 'Eril ve Dişil İsimler / İşaret İsimleri', ar: 'المذكر والمؤنث / اسم الإشارة' },
+        title: { en: 'Masculine & Feminine Nouns and Demonstrative Pronouns', tr: 'Eril ve Dişil İsimler ve İşaret İsimleri', ar: 'الاسم المذكر والمؤنث وأسماء الإشارة' },
         questions: [
           { type: 'grammar', q: 'What suffix typically marks a feminine noun in Arabic?', expected: 'ة (ta marbuta), e.g. مُسْلِمَةٌ (a Muslim woman), مَدِينَةٌ (a city)' },
           { type: 'grammar', q: 'Is مَسْجِدٌ masculine or feminine? How can you tell?', expected: 'Masculine — it has no ta marbuta (ة) and refers to a place without natural gender' },
@@ -39,7 +39,7 @@ const LEVELS = [
       },
       {
         week: 4, pdf: 'Level-1/4th Lesson Line Spacing 2.0.pdf',
-        title: { en: 'Noun Phrase — Idafa (Genitive Construction)', tr: 'İsim Tamlaması (İzafet)', ar: 'الإضافة' },
+        title: { en: 'Idafa (Genitive / Possessive Noun Construction)', tr: 'İsim Tamlaması (İzafet)', ar: 'الإضافة' },
         questions: [
           { type: 'grammar', q: 'What is the Idafa construction and what are its two parts?', expected: 'A genitive noun phrase: Mudaf (مضاف) + Mudaf ilayh (مضاف إليه). The mudaf loses tanwin and ال; the mudaf ilayh takes genitive (kasra).' },
           { type: 'translation', q: 'Translate: كِتَابُ اللَّهِ', expected: 'The Book of Allah / Allah\'s Book' },
@@ -50,7 +50,7 @@ const LEVELS = [
       },
       {
         week: 5, pdf: 'Level-1/5th Lesson Line Spacing 2.0.pdf',
-        title: { en: 'Adjective Phrase — Na\'t (Sifat)', tr: 'Sıfat Tamlaması (Na\'t)', ar: 'الصفة والموصوف — النعت' },
+        title: { en: 'Adjective and the Noun it Describes (Al-Sifa and Al-Mawsuf)', tr: 'Sıfat ve Mevsuf (Nitelenen İsim)', ar: 'الصِّفَةُ وَالْمَوْصُوف' },
         questions: [
           { type: 'grammar', q: 'In Arabic, does the adjective (na\'t) come before or after the noun it describes?', expected: 'After the noun: الطَّالِبُ الْمُجْتَهِدُ (the hardworking student)' },
           { type: 'grammar', q: 'In what four things must an adjective agree with its noun?', expected: 'Gender (masculine/feminine), number (singular/dual/plural), definiteness (definite/indefinite), and case (nominative/accusative/genitive)' },
@@ -61,18 +61,7 @@ const LEVELS = [
       },
       {
         week: 6, pdf: 'Level-1/6th Lesson Line Spacing 2.0.pdf',
-        title: { en: 'Attached Pronouns (Muttasil Zamirler)', tr: 'Muttasıl Zamirler', ar: 'الضمائر المتصلة' },
-        questions: [
-          { type: 'vocabulary', q: 'What attached pronoun suffix means "his/him" in Arabic?', expected: 'ـهُ (after most letters): كِتَابُهُ = his book' },
-          { type: 'translation', q: 'Translate: رَبُّهُمْ', expected: 'Their Lord (ـهُمْ = their/them, masculine plural)' },
-          { type: 'grammar', q: 'What is the attached pronoun for "our/us" and give an example?', expected: 'ـنَا: رَبُّنَا = our Lord, هَدَانَا = He guided us' },
-          { type: 'grammar', q: 'Attach the pronoun "her" (ـهَا) to the word بَيْتٌ.', expected: 'بَيْتُهَا = her house (tanwin drops when pronoun is added)' },
-          { type: 'vocabulary', q: 'What pronoun suffix is used for "you" (masculine singular)?', expected: 'ـكَ: كِتَابُكَ = your book, رَبُّكَ = your Lord' },
-        ]
-      },
-      {
-        week: 7, pdf: 'Level-1/7th Lesson Line Spacing 2.0.pdf',
-        title: { en: 'Detached Pronouns (Munfasil Zamirler)', tr: 'Munfasıl Zamirler', ar: 'الضمائر المنفصلة' },
+        title: { en: 'Pronouns (Detached/Separate Pronouns for Nominative and Accusative)', tr: 'Zamirler (Munfasıl Ref\' ve Nasb Zamirleri)', ar: 'الضمائر المنفصلة (ضمائر الرفع والنصب المنفصلة)' },
         questions: [
           { type: 'vocabulary', q: 'What are the detached pronouns for: he, she, they (masc. pl.)?', expected: 'هُوَ (he), هِيَ (she), هُمْ (they — masculine or mixed group)' },
           { type: 'vocabulary', q: 'When is هُمَا used?', expected: 'For "they two" (dual) — both masculine and feminine: those two people' },
@@ -82,8 +71,19 @@ const LEVELS = [
         ]
       },
       {
+        week: 7, pdf: 'Level-1/7th Lesson Line Spacing 2.0.pdf',
+        title: { en: 'Attached Pronouns (Damair Muttasila)', tr: 'Bitişik Zamirler (Muttasıl Zamirler)', ar: 'الضمائر المتصلة' },
+        questions: [
+          { type: 'vocabulary', q: 'What attached pronoun suffix means "his/him" in Arabic?', expected: 'ـهُ (after most letters): كِتَابُهُ = his book' },
+          { type: 'translation', q: 'Translate: رَبُّهُمْ', expected: 'Their Lord (ـهُمْ = their/them, masculine plural)' },
+          { type: 'grammar', q: 'What is the attached pronoun for "our/us" and give an example?', expected: 'ـنَا: رَبُّنَا = our Lord, هَدَانَا = He guided us' },
+          { type: 'grammar', q: 'Attach the pronoun "her" (ـهَا) to the word بَيْتٌ.', expected: 'بَيْتُهَا = her house (tanwin drops when pronoun is added)' },
+          { type: 'vocabulary', q: 'What pronoun suffix is used for "you" (masculine singular)?', expected: 'ـكَ: كِتَابُكَ = your book, رَبُّكَ = your Lord' },
+        ]
+      },
+      {
         week: 8, pdf: 'Level-1/8th Lesson Line Spacing 2.0 .pdf',
-        title: { en: 'Prepositions & Adverbs of Place', tr: 'Harfi Cerler ve Yer Zarfları', ar: 'حروف الجر وظروف المكان' },
+        title: { en: 'Prepositions (Huruf al-Jarr) and Adverbs of Place (Zarf al-Makan)', tr: 'Harf-i Cerler ve Yer Zarfları', ar: 'حروف الجرّ وظروف المكان' },
         questions: [
           { type: 'vocabulary', q: 'What does the preposition فِي mean and what case follows it?', expected: 'فِي = in/inside. The following noun takes genitive case (kasra): فِي الْبَيْتِ = in the house' },
           { type: 'vocabulary', q: 'What does عَلَى mean and give a Quranic example?', expected: 'عَلَى = on/upon. Example: عَلَى صِرَاطٍ مُسْتَقِيمٍ = on a straight path' },
@@ -94,7 +94,7 @@ const LEVELS = [
       },
       {
         week: 9, pdf: 'Level-1/9th Lesson Line Spacing 2.0 .pdf',
-        title: { en: 'Nominal Sentence (Jumlah Ismiyya)', tr: 'İsim Cümlesi', ar: 'الجملة الاسمية' },
+        title: { en: 'Nominal Sentence (Jumlah Ismiyya): Mubtada and Khabar', tr: 'İsim Cümlesi: Mübteda ve Haber', ar: 'الجملة الاسمية: المبتدأ والخبر' },
         questions: [
           { type: 'grammar', q: 'What are the two parts of a nominal sentence (جملة اسمية)?', expected: 'Mubtada (مبتدأ) = subject and Khabar (خبر) = predicate. Together they make a complete statement.' },
           { type: 'grammar', q: 'What case does the Mubtada take and why is it usually definite?', expected: 'Nominative (مرفوع — damma). It is usually definite because it is the known topic of the sentence.' },
@@ -105,7 +105,7 @@ const LEVELS = [
       },
       {
         week: 10, pdf: 'Level-1/10th Lesson Line Spacing 2.0.pdf',
-        title: { en: 'Singular, Dual, Plural · Sound Masculine Plural', tr: 'Tekil, İkil, Çoğul · Kurallı Muzekker Çoğul', ar: 'المفرد والمثنى والجمع · جمع المذكر السالم' },
+        title: { en: 'Singular, Dual, and Sound Masculine Plural', tr: 'Tekil, İkil ve Kurallı Eril Çoğul', ar: 'المفرد والمثنى وجمع المذكر السالم' },
         questions: [
           { type: 'grammar', q: 'How do you form the dual of a noun in Arabic?', expected: 'Add ـَانِ (nominative) or ـَيْنِ (genitive/accusative): كِتَابٌ → كِتَابَانِ / كِتَابَيْنِ' },
           { type: 'grammar', q: 'How do you form the Sound Masculine Plural (جمع مذكر سالم)?', expected: 'Add ـُونَ (nominative) or ـِينَ (genitive/accusative) to the singular: مُسْلِمٌ → مُسْلِمُونَ / مُسْلِمِينَ' },
@@ -116,7 +116,7 @@ const LEVELS = [
       },
       {
         week: 11, pdf: 'Level-1/11th Lesson Line Spacing 2.0.pdf',
-        title: { en: 'Sound Feminine Plural', tr: 'Kurallı Muennes Çoğul', ar: 'جمع المؤنث السالم' },
+        title: { en: 'Sound Feminine Plural (Jam\' Mu\'annath Salim)', tr: 'Kurallı Müennes Çoğul (Cem\' Müennes Salim)', ar: 'جَمْعُ مُؤَنَّثٍ سَالِم' },
         questions: [
           { type: 'grammar', q: 'How do you form the Sound Feminine Plural (جمع مؤنث سالم)?', expected: 'Remove ة (ta marbuta) if present, then add ـَاتٌ (nominative) or ـَاتٍ (genitive/accusative): مُسْلِمَةٌ → مُسْلِمَاتٌ' },
           { type: 'grammar', q: 'What is the sound feminine plural of آيَةٌ (verse/sign)?', expected: 'آيَاتٌ (nominative) / آيَاتٍ (genitive/accusative)' },
@@ -127,7 +127,7 @@ const LEVELS = [
       },
       {
         week: 12, pdf: 'Level-1/12th Lesson Line Spacing 2.0.pdf',
-        title: { en: 'Broken Plural (Jamu Taksir)', tr: 'Kırık Çoğul (Cemu Teksir)', ar: 'جمع التكسير' },
+        title: { en: 'Broken Plural (Jam\' al-Taksir) — Patterns and Quranic Examples', tr: 'Kırık Çoğul (Cemü\'t-Teksir) — Kalıpları ve Kuran\'dan Örnekler', ar: 'جَمْعُ التَّكْسِيرِ — أوزانه وأمثلته القرآنية' },
         questions: [
           { type: 'grammar', q: 'What is a broken plural (جمع تكسير) and why is it called "broken"?', expected: 'A plural formed by changing the internal vowel pattern of the word — called "broken" because the word pattern is broken/rearranged, e.g. كِتَابٌ → كُتُبٌ' },
           { type: 'vocabulary', q: 'What is the broken plural of مَسْجِدٌ (mosque)?', expected: 'مَسَاجِدُ' },
@@ -138,7 +138,7 @@ const LEVELS = [
       },
       {
         week: 13, pdf: 'Level-1/13th Lesson Line Spacing 2.0.pdf',
-        title: { en: 'Past Tense Verb (Madi Fi\'l)', tr: 'Geçmiş Zaman — Mazi Fiil', ar: 'الفعل الماضي' },
+        title: { en: 'The Past Tense Verb (Al-Fi\'l Al-Madi) — Forms and Conjugations', tr: 'Geçmiş Zaman Fiili (El-Fi\'lu\'l-Mâdî) — Çekimleri', ar: 'الفعل الماضي — صيغه وتصريفاته' },
         questions: [
           { type: 'grammar', q: 'What is the base/dictionary form of an Arabic past tense verb?', expected: 'Third person masculine singular past tense: e.g. كَتَبَ (he wrote), ذَهَبَ (he went)' },
           { type: 'grammar', q: 'Conjugate كَتَبَ for "she wrote" and "they (masc. pl.) wrote."', expected: 'She wrote: كَتَبَتْ (add تْ) · They wrote: كَتَبُوا (add واo)' },
@@ -149,7 +149,7 @@ const LEVELS = [
       },
       {
         week: 14, pdf: 'Level-1/14th Lesson Line Spacing 2.0.pdf',
-        title: { en: 'Present Tense Verb (Mudari\' Fi\'l)', tr: 'Geniş Zaman — Muzari Fiil', ar: 'الفعل المضارع' },
+        title: { en: 'The Present Tense Verb (Al-Fi\'l Al-Mudari\')', tr: 'Geniş Zaman Fiili (Muzari\' Fiil)', ar: 'الفعل المضارع' },
         questions: [
           { type: 'grammar', q: 'How is the present tense formed? What letters are added?', expected: 'Add prefix letters (أ، ت، ي، ن) and adjust vowels: كَتَبَ → يَكْتُبُ (he writes)' },
           { type: 'grammar', q: 'What prefix indicates "he" and what prefix indicates "I" in the present tense?', expected: 'يَـ = he; أَ = I: يَكْتُبُ (he writes), أَكْتُبُ (I write)' },
@@ -167,7 +167,7 @@ const LEVELS = [
     lessons: [
       {
         week: 1, pdf: 'Level-2/15th Lesson Line Spacing 2.0.pdf',
-        title: { en: 'Imperative / لاَ / Lam al-Ibtida', tr: 'Emr-i Hazır/Emr-i Gaib · لاَ · Lâm Al-İbtida', ar: 'فعل الأمر · لا · لام الابتداء' },
+        title: { en: 'The Imperative: Direct Command (Amr), Lam al-Amr (Third-Person Command), Amma, and Lam al-Ibtida\'', tr: 'Emir Fiili: Doğrudan Emir (Emr-i Hâzır), Lâmu\'l-Emir (Emr-i Gâib), Emmâ ve Lâmu\'l-İbtidâ', ar: 'الأمر: فعل الأمر، لام الأمر، أمَّا، ولام الابتداء' },
         questions: [
           { type: 'grammar', q: 'How is the imperative (فعل أمر) formed from the present tense?', expected: 'Take the jussive form, remove the يَـ prefix, and add a helping hamza if needed: يَكْتُبُ → يَكْتُبْ → اُكْتُبْ (Write!)' },
           { type: 'translation', q: 'Translate: اقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ', expected: 'Read in the name of your Lord who created (Surah Al-Alaq 96:1)' },
@@ -178,7 +178,7 @@ const LEVELS = [
       },
       {
         week: 2, pdf: 'Level-2/16th Lesson Line Spacing 2.0.pdf',
-        title: { en: 'Prohibition (Nahiy) / Active Participle (Ism al-Fa\'il)', tr: 'Nehiy / İsmi Fâil', ar: 'النهي / اسم الفاعل' },
+        title: { en: 'Prohibition (Nahiy) and Active Participle (Ism al-Fa\'il)', tr: 'Nehiy ve İsm-i Fâil', ar: 'النهي واسم الفاعل' },
         questions: [
           { type: 'grammar', q: 'How is prohibition (نهي) formed in Arabic?', expected: 'لَا + jussive present tense: لَا تَكْتُبْ (Don\'t write!), لَا تَقْرَبُوا (Don\'t approach — plural)' },
           { type: 'grammar', q: 'What is the pattern for the active participle (اسم الفاعل) of Form I verbs?', expected: 'Pattern: فَاعِلٌ — e.g. كَتَبَ → كَاتِبٌ (writer), قَرَأَ → قَارِئٌ (reader)' },
@@ -189,7 +189,7 @@ const LEVELS = [
       },
       {
         week: 3, pdf: 'Level-2/17th Lesson Line Spacing 2.0.pdf',
-        title: { en: 'Case Endings (I\'rab) / Intensive Adjective (Sigh al-Mubalagha)', tr: 'İsmin Halleri (İ\'rab) / Mübalağalı İsim', ar: 'الإعراب / صيغة المبالغة' },
+        title: { en: 'Case Endings (I\'rab) for Nouns', tr: 'İsimlerde İ\'rab (Hâl Ekleri)', ar: 'عَلامات الإعراب في الأسماء' },
         questions: [
           { type: 'grammar', q: 'What are the three grammatical cases (إعراب) in Arabic and their vowel markers?', expected: 'Nominative (رفع) = ضمة (ـُ) · Accusative (نصب) = فتحة (ـَ) · Genitive (جر) = كسرة (ـِ)' },
           { type: 'grammar', q: 'What case does a noun take as subject of a nominal sentence (مبتدأ)?', expected: 'Nominative (مرفوع) — marked by damma (ـُ)' },
@@ -200,7 +200,7 @@ const LEVELS = [
       },
       {
         week: 4, pdf: 'Level-2/18th Lesson Line Spacing 2.0.pdf',
-        title: { en: 'Verbal Sentence (Jumlah Fi\'liyya)', tr: 'Fiil Cümlesi', ar: 'الجملة الفعلية' },
+        title: { en: 'Verbal Sentence (Jumlah Fi\'liyya) and Intensive Adjective Forms (Siyagh al-Mubalaghah)', tr: 'Fiil Cümlesi ve Mübalağa Sıfatları', ar: 'الجملة الفعلية وصيغ المبالغة' },
         questions: [
           { type: 'grammar', q: 'What are the essential components of a verbal sentence (جملة فعلية)?', expected: 'Verb (فعل) + Subject/Doer (فاعل). The object (مفعول به) is optional.' },
           { type: 'grammar', q: 'In a verbal sentence, what case does the فاعل (subject/doer) take?', expected: 'Nominative (مرفوع)' },
@@ -211,7 +211,7 @@ const LEVELS = [
       },
       {
         week: 5, pdf: 'Level-2/19th Lesson Line Spacing 2.0.pdf',
-        title: { en: 'Types of لا / Future Tense (سوف / س)', tr: 'لا\'nın Çeşitleri / Gelecek Zaman (سوف / س)', ar: 'أنواع لا / المستقبل بـ سوف وس' },
+        title: { en: 'Types of مَا / Future Tense Particles (س and سوف)', tr: 'مَا\'nın Çeşitleri / Gelecek Zaman Edatları (س ve سوف)', ar: 'أنواع مَا / (س) و(سوف) للزمن المستقبل' },
         questions: [
           { type: 'grammar', q: 'What are the main types of لا in Arabic and their functions?', expected: 'لا النافية (negation of verbs): لا يَعْلَمُ · لا الناهية (prohibition) + jussive · لا النافية للجنس (total negation of nouns): لا إِلَهَ إِلَّا اللَّهُ' },
           { type: 'grammar', q: 'How do سَـ and سَوْفَ differ when indicating the future?', expected: 'Both mean "will/shall". سَـ is a short attached prefix for near future; سَوْفَ is a separate word, more emphatic, often for distant or certain future.' },
@@ -222,7 +222,7 @@ const LEVELS = [
       },
       {
         week: 6, pdf: 'Level-2/20th Lesson Line Spacing 2.0.pdf',
-        title: { en: 'Negative Particles: لَيْسَ / مَا / لَا', tr: 'Olumsuzluk Edatları: ليس / ما / لا', ar: 'أدوات النفي: ليس وما ولا' },
+        title: { en: 'Negation Particles: لَيْسَ, مَا, and لَا (Negating Verbal and Nominal Sentences)', tr: 'Olumsuzluk Edatları: لَيْسَ / مَا / لَا ile Fiil ve İsim Cümlelerinin Olumsuzlanması', ar: 'أدوات النفي: لَيْسَ وَمَا وَلَا في الجملة الفعلية والاسمية' },
         questions: [
           { type: 'grammar', q: 'How does لَيْسَ work grammatically?', expected: 'Like كَانَ: subject takes nominative (اسم ليس), predicate takes accusative (خبر ليس): لَيْسَ اللَّهُ غَافِلًا — اللَّهُ nominative, غَافِلًا accusative' },
           { type: 'translation', q: 'Translate: لَيْسَ كَمِثْلِهِ شَيْءٌ', expected: 'There is nothing like Him (Surah Ash-Shura 42:11)' },
@@ -233,7 +233,7 @@ const LEVELS = [
       },
       {
         week: 7, pdf: 'Level-2/21st Lesson Line Spacing 2.0.pdf',
-        title: { en: 'Subjunctive Mood — Mansub Form of Present Tense', tr: 'Geniş Zaman Fiilinin Mansûb Hali', ar: 'الفعل المضارع المنصوب — حروف النصب' },
+        title: { en: 'Particles That Put the Muḍāriʿ (Present/Future) Verb in the Subjunctive (Manṣūb) Case', tr: 'Geniş Zaman Fiilini Mansûb Yapan Edatlar (Nâsıblar)', ar: 'أدوات نصب الفعل المضارع' },
         questions: [
           { type: 'grammar', q: 'Which particles put the present tense in the subjunctive (منصوب) mood?', expected: 'أَنْ (to/that), لَنْ (will not), كَيْ (in order to), حَتَّى (until/so that), لِـ (in order to)' },
           { type: 'grammar', q: 'What happens to the final ن of يَكْتُبُونَ in the subjunctive?', expected: 'It is dropped: يَكْتُبُوا (this is one sign of subjunctive in plural forms)' },
@@ -244,7 +244,7 @@ const LEVELS = [
       },
       {
         week: 8, pdf: 'Level-2/22nd Lesson Line Spacing 2.0.pdf',
-        title: { en: 'Jussive Mood — Majzum Form of Present Tense', tr: 'Geniş Zaman Fiilinin Meczûm Hali', ar: 'الفعل المضارع المجزوم — أدوات الجزم' },
+        title: { en: 'Jussive Mood (Majzum): Particles That Govern It and Their Effects on the Mudari\' Verb', tr: 'Cezm Eden Edatlar ve Muzari Fiilin Meczum Hali', ar: 'أدوات جزم الفعل المضارع وأحكامها' },
         questions: [
           { type: 'grammar', q: 'Which particles put the present tense in the jussive (مجزوم) mood?', expected: 'لَمْ (did not), لَمَّا (not yet), لَا الناهية (prohibitive don\'t), لِـ (let him — 3rd person command), and conditional particles like إِنْ' },
           { type: 'grammar', q: 'What does لَمْ do and what tense does it effectively create?', expected: 'لَمْ negates and converts the present to past: لَمْ يَكْتُبْ = he did not write (past negation)' },
@@ -255,7 +255,7 @@ const LEVELS = [
       },
       {
         week: 9, pdf: 'Level-2/23rd Lesson Line Spacing 2.0.pdf',
-        title: { en: 'Passive Voice / Passive Participle (Ism al-Maf\'ul)', tr: 'Edilgen Çatı / İsmi Mef\'ul', ar: 'المبني للمجهول / اسم المفعول' },
+        title: { en: 'Passive Voice: Passive Verb (Fi\'l al-Mabni lil-Majhul) and Passive Participle (Ism al-Maf\'ul)', tr: 'Edilgen Çatı: Meçhul Fiil ve İsm-i Mef\'ul', ar: 'الفعل المبني للمجهول واسم المفعول' },
         questions: [
           { type: 'grammar', q: 'How do you form the passive voice of the past tense (Form I)?', expected: 'Change the vowel pattern to فُعِلَ: كَتَبَ → كُتِبَ (it was written), خَلَقَ → خُلِقَ (was created)' },
           { type: 'grammar', q: 'How do you form the passive of the present tense?', expected: 'Change to يُفْعَلُ pattern: يَكْتُبُ → يُكْتَبُ (it is written/being written)' },
@@ -266,7 +266,7 @@ const LEVELS = [
       },
       {
         week: 10, pdf: 'Level-2/24th Lesson Line Spacing 2.0.pdf',
-        title: { en: 'إِنَّ · إِذْ · إِذَا · لَمَّا / كَانَ', tr: 'إِنَّ · إِذ · إِذَا · لَمَّا / كَانَ', ar: 'إِنَّ وإِذ وإِذَا ولَمَّا / كَانَ' },
+        title: { en: 'إِنَّ and its sisters, كَانَ and its sisters, إِذْ, إِذَا, and لَمَّا', tr: 'İnne ve kardeşleri, Kâne ve kardeşleri, İz, İzâ ve Lemmâ', ar: 'إِنَّ وأخواتها وكَانَ وأخواتها وإِذْ وإِذَا ولَمَّا' },
         questions: [
           { type: 'grammar', q: 'What is the difference between إِذْ and إِذَا?', expected: 'إِذْ = "when" referring to a definite past moment; إِذَا = "when/if" referring to the future or something expected' },
           { type: 'grammar', q: 'What does لَمَّا mean and how is it used?', expected: 'With past tense: "when" (at the moment that). With present: "not yet". لَمَّا يَقْضِ = he has not yet decided' },
@@ -277,7 +277,7 @@ const LEVELS = [
       },
       {
         week: 11, pdf: 'Level-2/25th Lesson Line Spacing 2.0.pdf',
-        title: { en: 'إِنَّ and Sisters / Possessive Particles', tr: 'إِنَّ ve Kardeşleri / Sahiplik Edatları', ar: 'إِنَّ وأخواتها / أدوات الملكية' },
+        title: { en: 'Inna and Its Sisters / Possessive Particles (Dhū and Its Forms) / Noun Declension', tr: 'İnne ve Kardeşleri / Sahiplik Edatları (Zū ve Çekimleri) / İsim Çekimi', ar: 'إِنَّ وأخواتها / أسماء الملكية (ذو وتصريفاتها) / إعراب الأسماء' },
         questions: [
           { type: 'grammar', q: 'What are the "sisters of إِنَّ" (إن وأخواتها) and their meanings?', expected: 'إِنَّ (indeed/verily), أَنَّ (that — subordinate), كَأَنَّ (as if), لَكِنَّ (but/however), لَيْتَ (I wish), لَعَلَّ (perhaps/hopefully)' },
           { type: 'grammar', q: 'What grammatical effect do إِنَّ and sisters have?', expected: 'They put the subject (اسم إن) in the accusative and keep the predicate (خبر إن) in the nominative: إِنَّ اللَّهَ (acc.) غَفُورٌ (nom.)' },
@@ -288,7 +288,7 @@ const LEVELS = [
       },
       {
         week: 12, pdf: 'Level-2/26th Lesson Line Spacing 2.0.pdf',
-        title: { en: 'كَانَ and Sisters / أَمَّا...فَـ', tr: 'كَانَ ve Kardeşleri / أَمَّا...فَـ', ar: 'كَانَ وأخواتها / أمَّا وفَـ' },
+        title: { en: 'Kāna and Its Sisters / Restriction with إِنْ...إِلَّا and مَا...إِلَّا / Conjunctions وَ، فَ، ثُمَّ', tr: 'Kâne ve Kardeşleri / İn...İllâ ve Mâ...İllâ ile Hasır / Bağlaçlar وَ، فَ، ثُمَّ', ar: 'كَانَ وَأَخَوَاتُهَا / الْحَصْرُ بِإِنْ...إِلَّا وَمَا...إِلَّا / حُرُوفُ الْعَطْفِ وَ، فَ، ثُمَّ' },
         questions: [
           { type: 'grammar', q: 'Name five sisters of كَانَ and their meanings.', expected: 'أَصْبَحَ (became in morning/became), أَمْسَى (became in evening), صَارَ (became), ظَلَّ (remained), لَيْسَ (is not), مَازَالَ (still is), بَاتَ (spent the night)' },
           { type: 'grammar', q: 'What is the grammatical rule of أَمَّا...فَـ?', expected: 'أَمَّا introduces a topic; فَـ is obligatory before the comment/result. Structure: أَمَّا [topic] فَـ [comment]: أَمَّا الْيَتِيمَ فَلَا تَقْهَرْ' },
@@ -299,7 +299,7 @@ const LEVELS = [
       },
       {
         week: 13, pdf: 'Level-2/27th Lesson Line Spacing 2.0.pdf',
-        title: { en: 'Question Particles / Plural Idafa / Vocative (Nida)', tr: 'Soru Edatları / Çoğul Tamlamalar / Hitap', ar: 'أدوات الاستفهام / الإضافة / النداء' },
+        title: { en: 'Question Particles, Plural Idafa (Sound Masculine Plural in Genitive Construction), and Vocative Particles (Nida)', tr: 'Soru Edatları, Çoğul İsim Tamlamaları (Eril Çoğul İdafe) ve Nida (Seslenme) Edatları', ar: 'أدوات الاستفهام وإضافة جمع المذكر السالم وأسلوب النداء' },
         questions: [
           { type: 'grammar', q: 'What is the difference between هَلْ and أَ as question particles?', expected: 'Both ask yes/no questions. هَلْ is neutral; أَ can express rhetorical questions, surprise, or disbelief' },
           { type: 'vocabulary', q: 'What do the question words مَنْ, مَا, أَيْنَ, مَتَى, كَيْفَ, كَمْ mean?', expected: 'مَنْ = who · مَا = what · أَيْنَ = where · مَتَى = when · كَيْفَ = how · كَمْ = how many' },
@@ -310,7 +310,7 @@ const LEVELS = [
       },
       {
         week: 14, pdf: 'Level-2/28th Lesson Line Spacing 2.0.pdf',
-        title: { en: 'Comparative/Superlative (Ism al-Tafdil) / Astonishment (Ta\'ajjub)', tr: 'İsmi Tafdil / Ta\'accub', ar: 'اسم التفضيل / التعجب' },
+        title: { en: 'Comparative/Superlative (Ism al-Tafdil) and Exclamatory Expression (Uslub al-Ta\'ajjub)', tr: 'İsm-i Tafdil ve Ta\'accub Üslubu', ar: 'اسم التفضيل وأسلوب التعجب' },
         questions: [
           { type: 'grammar', q: 'What is the pattern for the comparative/superlative (اسم التفضيل)?', expected: 'Pattern: أَفْعَلُ — e.g. كَبِيرٌ → أَكْبَرُ (bigger/greatest), كَرِيمٌ → أَكْرَمُ (more/most generous)' },
           { type: 'translation', q: 'Translate: اللَّهُ أَكْبَرُ', expected: 'Allah is the Greatest (superlative — اسم التفضيل)' },
@@ -328,7 +328,7 @@ const LEVELS = [
     lessons: [
       {
         week: 1, pdf: 'Level-3/29th Lesson Line Spacing 2.0.pdf',
-        title: { en: 'Types of Verbal Nouns (Masdar)', tr: 'Masdar Çeşitleri', ar: 'أنواع المصدر' },
+        title: { en: 'Types of Verbal Nouns (Masdar)', tr: 'Masdar Çeşitleri', ar: 'أنواع المصادر' },
         questions: [
           { type: 'grammar', q: 'What is a Masdar (مصدر) and what role does it play in Arabic grammar?', expected: 'A verbal noun expressing the action abstractly. It can be subject, object, or modifier: الضَّرْبُ حَرَامٌ (Hitting is forbidden)' },
           { type: 'grammar', q: 'What is the Masdar Mimi (مصدر ميمي) and what is its pattern?', expected: 'A verbal noun beginning with م: pattern مَفْعَلٌ or مَفْعِلٌ — e.g. مَكْتَبٌ (desk/office, from writing), مَذْهَبٌ (school of thought, from going)' },
@@ -339,7 +339,7 @@ const LEVELS = [
       },
       {
         week: 2, pdf: 'Level-3/30th Lesson Line Spacing 2.0.pdf',
-        title: { en: 'Noun of Time · Place · Instrument · Attribution · Diminutive', tr: 'İsmi Zaman · Mekân · Âlet · Mensûb · Tasgîr', ar: 'اسم الزمان والمكان والآلة والمنسوب والتصغير' },
+        title: { en: 'Nouns of Time and Place, Instrument Nouns, Attributive Adjective (Nisba), Diminutive, and Similative Participle', tr: 'İsmi Zaman ve Mekân, İsmi Âlet, İsmi Mensûb, Tasgîr ve Sıfat-ı Müşebbehe', ar: 'اسم الزمان والمكان، اسم الآلة، الاسم المنسوب، التصغير، والصفة المشبهة' },
         questions: [
           { type: 'grammar', q: 'What are the patterns for the noun of time/place (اسم الزمان والمكان)?', expected: 'مَفْعَلٌ or مَفْعِلٌ: مَسْجِدٌ (place of prostration), مَطْلَعٌ (time of rising), مَدْخَلٌ (entrance)' },
           { type: 'grammar', q: 'What is the noun of instrument (اسم الآلة) and its patterns?', expected: 'A noun for the tool of an action. Patterns: مِفْعَلٌ, مِفْعَالٌ, مِفْعَلَةٌ — examples: مِفْتَاحٌ (key), مِيزَانٌ (scale), مِكْنَسَةٌ (broom)' },
@@ -350,7 +350,7 @@ const LEVELS = [
       },
       {
         week: 3, pdf: 'Level-3/31st Lesson Line Spacing 2.0.pdf',
-        title: { en: 'Resembling Adjective (Sifat Mushabbaha) / Defective Verbs — Introduction', tr: 'Sıfatı Müşebbehe / İlletli Fiillere Giriş', ar: 'الصفة المشبهة / مدخل إلى الأفعال المعتلة' },
+        title: { en: 'Introduction to Defective Verbs (Fi\'l Mu\'tall) — Classification of Sound and Weak Verbs', tr: 'İlletli Fiillere Giriş — Sahih ve Mu\'tell Fiillerin Sınıflandırılması', ar: 'مقدمة في الفعل المعتل — تصنيف الأفعال الصحيحة والمعتلة' },
         questions: [
           { type: 'grammar', q: 'What is the Sifat Mushabbaha (الصفة المشبهة) and how does it differ from the active participle?', expected: 'It expresses a permanent or inherent quality (not a temporary action). Pattern: فَعِيلٌ, فَعِلٌ, فَعْلَانٌ etc. — e.g. كَرِيمٌ (generous by nature), حَسَنٌ (beautiful/good)' },
           { type: 'grammar', q: 'What makes a verb "defective" (فعل معتل / illetli fiil)?', expected: 'Having a weak letter (حرف علة) — و، ا، ي — in one of the three root positions' },
@@ -361,7 +361,7 @@ const LEVELS = [
       },
       {
         week: 4, pdf: 'Level-3/32nd Lesson Line Spacing 2.0.pdf',
-        title: { en: 'Defective Verbs (continued)', tr: 'İlletli Fiiller (devam)', ar: 'الأفعال المعتلة — تابع' },
+        title: { en: 'Conjugation of Defective Verbs (Past Tense) — All Weak Verb Types', tr: 'İlletli Fiillerin Çekimi (Mazi) — Tüm Zayıf Fiil Türleri', ar: 'تصريف الأفعال المعتلة في الماضي — جميع الأنواع' },
         questions: [
           { type: 'grammar', q: 'In the Ajwaf verb قَالَ, what happens to the weak middle letter in the jussive?', expected: 'It drops: لَمْ يَقُلْ (the و drops and the ق gets a sukun)' },
           { type: 'grammar', q: 'Conjugate دَعَا (Naqis verb — he called/invited) for "she called."', expected: 'دَعَتْ (the final ا drops before تْ)' },
@@ -372,7 +372,7 @@ const LEVELS = [
       },
       {
         week: 5, pdf: 'Level-3/33rd Lesson Line Spacing 2.0.pdf',
-        title: { en: 'Defective Verbs (continued)', tr: 'İlletli Fiiller (devam)', ar: 'الأفعال المعتلة — تكملة' },
+        title: { en: 'Defective Verbs: Full Conjugation Tables (Imperfect, Imperative, Negation with لَنْ and لا)', tr: 'İlletli Fiiller: Tam Çekim Tabloları (Muzari, Emir, لَنْ ve لا ile Olumsuzluk)', ar: 'الأفعال المعتلة: جداول التصريف الكاملة (مضارع، أمر، النفي بلَنْ ولا)' },
         questions: [
           { type: 'grammar', q: 'Conjugate جَاءَ (he came) for "they (masc. pl.) came."', expected: 'جَاؤُوا (the ء is retained, و added for plural)' },
           { type: 'grammar', q: 'What is the passive of قَالَ (he said)?', expected: 'قِيلَ (it was said) — the vowel pattern changes to فِيلَ for Ajwaf passives' },
@@ -383,7 +383,7 @@ const LEVELS = [
       },
       {
         week: 6, pdf: 'Level-3/34th Lesson Line Spacing 2.0.pdf',
-        title: { en: 'Conditional Sentence / Conditional Particles', tr: 'Şart Cümlesi / Şart Edatları', ar: 'الجملة الشرطية / أدوات الشرط' },
+        title: { en: 'Conditional Sentences and Conditional Particles in Arabic', tr: 'Şart Cümlesi ve Şart Edatları', ar: 'أسلوب الشرط وأدواته' },
         questions: [
           { type: 'grammar', q: 'What are the two parts of a conditional sentence in Arabic?', expected: 'Condition (شرط / protasis) and result (جواب الشرط / apodosis). Both verbs are typically jussive.' },
           { type: 'grammar', q: 'What is the difference between إِنْ and إِذَا in conditionals?', expected: 'إِنْ = for uncertain/hypothetical conditions · إِذَا = for expected/likely conditions. Both are followed by jussive or past verb.' },
@@ -394,7 +394,7 @@ const LEVELS = [
       },
       {
         week: 7, pdf: 'Level-3/35th Lesson Line Spacing 2.0.pdf',
-        title: { en: 'Circumstantial Accusative (Hal) / Specification (Tamyiz)', tr: 'Hal / Temyiz', ar: 'الحال / التمييز' },
+        title: { en: 'Circumstantial Accusative (Hal) and Specification (Tamyiz)', tr: 'Hal ve Temyiz', ar: 'الحال والتمييز' },
         questions: [
           { type: 'grammar', q: 'What is the Hal (الحال) and what case does it take?', expected: 'A noun/adjective/clause in the accusative describing the state of the doer or object when the action occurs. Takes accusative (منصوب).' },
           { type: 'translation', q: 'Translate and identify the Hal: جَاءَ زَيْدٌ رَاكِبًا', expected: 'Zayd came riding. رَاكِبًا = Hal (accusative) describing Zayd\'s state when he came.' },
@@ -405,7 +405,7 @@ const LEVELS = [
       },
       {
         week: 8, pdf: 'Level-3/36th Lesson Line Spacing 2.0.pdf',
-        title: { en: 'Apposition (Badal) / Numbers (\'Adad)', tr: 'Bedel / Sayılar', ar: 'البدل / العدد' },
+        title: { en: 'Arabic Cardinal Numbers (al-ʿAdad wa-l-Maʿdūd) and Apposition (al-Badal)', tr: 'Arapça Sayılar (el-Aded ve\'l-Ma\'dûd) ve Bedel', ar: 'العدد والمعدود والبدل' },
         questions: [
           { type: 'grammar', q: 'What is the Badal (البدل — apposition) and what is its grammatical rule?', expected: 'A noun that substitutes or clarifies the preceding noun (مبدل منه) and must agree with it in case: جَاءَ أَخُوكَ زَيْدٌ = Your brother Zayd came (زَيْدٌ = badal, nominative like أَخُوكَ)' },
           { type: 'grammar', q: 'What is the gender rule for Arabic numbers 3–10?', expected: 'Numbers 3–10 take the opposite gender of the counted noun: ثَلَاثَةُ كُتُبٍ (three books — كُتُب is masculine, so number takes feminine ة)' },
@@ -416,7 +416,7 @@ const LEVELS = [
       },
       {
         week: 9, pdf: 'Level-3/37th Lesson Line Spacing 2.0.pdf',
-        title: { en: 'Diptote Nouns (Ghayrul Munsarif)', tr: 'Ğayrul Munsarif', ar: 'الممنوع من الصرف' },
+        title: { en: 'Diptote Nouns (Al-Mamnu\' min al-Sarf / Ghayrul Munsarif)', tr: 'Gayri Munsarif İsimler (Ğayrul Munsarif)', ar: 'الممنوع من الصرف' },
         questions: [
           { type: 'grammar', q: 'What is a Ghayrul Munsarif (diptote) noun and how does it differ from regular nouns?', expected: 'A noun that does not accept tanwin and uses fatha instead of kasra in the genitive case: مَرَرْتُ بِمَسَاجِدَ (not مَسَاجِدِ)' },
           { type: 'grammar', q: 'Name four conditions that make a noun a diptote.', expected: 'Any two conditions combine: proper name, feminine ending, foreign origin, adjective pattern أَفْعَل, broken plural on مَفَاعِل/مَفَاعِيل, added alif-nun (عُثْمَانُ)' },
@@ -427,7 +427,7 @@ const LEVELS = [
       },
       {
         week: 10, pdf: 'Level-3/38th Lesson Line Spacing 2.0.pdf',
-        title: { en: 'Declinable & Indeclinable Words / Relative Pronouns', tr: 'Mebnî ve Mu\'rab Kelimeler / İsmi Mevsul', ar: 'المبني والمعرب / الأسماء الموصولة' },
+        title: { en: 'Declinable & Indeclinable Words (Mu\'rab & Mabni) and Relative Pronouns (Ism al-Mawsul)', tr: 'Mebni ve Mu\'rab Kelimeler ile İsm-i Mevsul', ar: 'المبني والمعرب والأسماء الموصولة' },
         questions: [
           { type: 'grammar', q: 'What is the difference between Mabni (مبني) and Mu\'rab (معرب) words?', expected: 'Mu\'rab words change their ending to show grammatical case. Mabni words have fixed endings regardless of their role: pronouns, demonstratives, relative pronouns are mabni.' },
           { type: 'vocabulary', q: 'What are the main relative pronouns (أسماء موصولة) in Arabic?', expected: 'الَّذِي (masc. sing.), الَّتِي (fem. sing.), الَّذِينَ (masc. pl.), اللَّاتِي / اللَّوَاتِي (fem. pl.), مَنْ (whoever), مَا (whatever)' },
@@ -438,7 +438,7 @@ const LEVELS = [
       },
       {
         week: 11, pdf: 'Level-3/39th Lesson Line Spacing 2.0.pdf',
-        title: { en: 'Exception (Istithna) / Absolute Object (Maf\'ul Mutlaq)', tr: 'İstisna / Mef\'ul Mutlak', ar: 'الاستثناء / المفعول المطلق' },
+        title: { en: 'Exception (Istithna) and Absolute Object (Maf\'ul Mutlaq)', tr: 'İstisna ve Mef\'ul Mutlak', ar: 'الاستثناء والمفعول المطلق' },
         questions: [
           { type: 'grammar', q: 'What particle introduces exception (استثناء) and what case does the exception noun typically take?', expected: 'إِلَّا (except). In a complete affirmative sentence the exception (مستثنى) takes accusative: جَاءَ الطُّلَّابُ إِلَّا زَيْدًا' },
           { type: 'translation', q: 'Translate: لَا إِلَهَ إِلَّا اللَّهُ', expected: 'There is no god except Allah (لا النافية للجنس — إِلَهَ is accusative as اسم لا; اللَّهُ is بدل or خبر)' },
@@ -449,7 +449,7 @@ const LEVELS = [
       },
       {
         week: 12, pdf: 'Level-3/40th Lesson Line Spacing2.0 .pdf',
-        title: { en: 'Emphasis (Tawkid): Emphatic Lam, Emphatic Nun', tr: 'Te\'kid: Te\'kid Lamı, Te\'kid Nunu, نَّ', ar: 'التوكيد: لام التوكيد ونون التوكيد' },
+        title: { en: 'Emphasis (Tawkid): Emphatic Lam, Emphatic Nun (Nun al-Tawkid al-Thaqila and Khafifa)', tr: 'Te\'kid: Te\'kid Lamı, Te\'kid Nunu (Ağır ve Hafif Nun)', ar: 'التوكيد: لام التوكيد ونونا التوكيد الثقيلة والخفيفة' },
         questions: [
           { type: 'grammar', q: 'What is لام التوكيد (Emphatic Lam) and where is it used?', expected: 'A لـ added for emphasis, often with إِنَّ: إِنَّ اللَّهَ لَغَفُورٌ (Indeed Allah is truly All-Forgiving). Also used in oaths.' },
           { type: 'grammar', q: 'What is نون التوكيد (Emphatic Nun) and its two forms?', expected: 'Heavy ن (ـَنَّ) and light ن (ـَنْ) added to verbs for emphasis, often after oaths: وَاللَّهِ لَأَكْتُبَنَّ = By Allah I will surely write' },
@@ -460,7 +460,7 @@ const LEVELS = [
       },
       {
         week: 13, pdf: 'Level-3/41st Lesson Line Spacing 2.0 .pdf',
-        title: { en: 'Derived Verbs (Augmented Verb Forms II–V)', tr: 'Türetilmiş Fiiller (II–V. Bablar)', ar: 'الأفعال المزيدة — الأبواب II إلى V' },
+        title: { en: 'Augmented (Derived) Verb Forms: Triliteral with One, Two, and Three Added Letters (Forms II–V)', tr: 'Mezid Fiiller: Bir, İki ve Üç Harfle Türetilmiş Fiil Kalıpları (II–V. Bablar)', ar: 'الفعل المزيد الثلاثي بحرف وبحرفين وبثلاثة أحرف (الأبواب الثاني حتى الخامس)' },
         questions: [
           { type: 'grammar', q: 'What is the difference between a bare verb (فعل مجرد) and an augmented verb (فعل مزيد)?', expected: 'Bare verb: all letters are root letters (كَتَبَ — 3 root letters). Augmented verb: extra letters added to change meaning (كَاتَبَ، تَكَاتَبَ)' },
           { type: 'grammar', q: 'What does Form II (فَعَّلَ) typically add to the meaning?', expected: 'Causative or intensive: عَلِمَ (to know) → عَلَّمَ (to teach = cause to know); كَسَّرَ (to shatter = intensive of breaking)' },
@@ -471,7 +471,7 @@ const LEVELS = [
       },
       {
         week: 14, pdf: 'Level-3/42nd Lesson Line Spacing 2.0 .pdf',
-        title: { en: 'Derived Verbs (Augmented Verb Forms VI–X)', tr: 'Türetilmiş Fiiller (VI–X. Bablar)', ar: 'الأفعال المزيدة — الأبواب VI إلى X' },
+        title: { en: 'Derived Verb Forms (Augmented Triliteral and Quadriliteral): Forms VII, VIII, X, and Quadriliteral Patterns', tr: 'Türetilmiş Fiil Kalıpları: VII., VIII., X. Bablar ve Dörtlü Kök Fiiller', ar: 'الفعل المجرد والفعل المزيد: الأبواب السابع والثامن والعاشر والرباعي المزيد' },
         questions: [
           { type: 'grammar', q: 'What does Form VI (تَفَاعَلَ) typically mean?', expected: 'Reflexive of Form III — mutual action between parties: تَقَاتَلَ (to fight each other), تَعَاوَنَ (to cooperate), تَكَاتَبَ (to write to each other)' },
           { type: 'grammar', q: 'What does Form VII (اِنْفَعَلَ) typically mean?', expected: 'Passive or reflexive of Form I: كَسَرَ (to break sth) → اِنْكَسَرَ (to break — intransitive/be broken); انقلب (to be overturned)' },
@@ -486,10 +486,10 @@ const LEVELS = [
 
 const REFERENCE_TOPICS = [
   {
-    id: 'alphabet',
+    id: 'letters',
     icon: 'ا',
-    title: { en: 'Arabic Alphabet', tr: 'Arap Alfabesi', ar: 'الحروف العربية' },
-    desc: { en: '28 Arabic letters, vowel marks (harakat), and sun/moon letters.', tr: '28 Arap harfi, harekeler ve güneş/ay harfleri.', ar: 'الحروف الثمانية والعشرون والحركات والحروف الشمسية والقمرية.' },
+    title: { en: 'Letters', tr: 'Harfler', ar: 'الحروف' },
+    desc: { en: 'The 28 letters with their forms, vowel marks (harakat), and sun/moon classifications.', tr: '28 harf, harekeler ve güneş/ay harfleri.', ar: 'الحروف الثمانية والعشرون وأشكالها والحركات والحروف الشمسية والقمرية.' },
     pdfs: [
       { name: { en: 'Letters 1–10', tr: 'Harfler 1–10', ar: 'الحروف ١–١٠' }, path: 'Harfler/Harfler 1-10.pdf' },
       { name: { en: 'Letters 11–20', tr: 'Harfler 11–20', ar: 'الحروف ١١–٢٠' }, path: 'Harfler/Harfler 11-20.pdf' },
@@ -545,16 +545,136 @@ const REFERENCE_TOPICS = [
     id: 'words',
     icon: 'آ',
     title: { en: 'Surah Vocabulary', tr: 'Sure Kelimeleri', ar: 'مفردات السور' },
-    desc: { en: 'Surah-by-surah vocabulary sheets and answer keys (Lessons 1–42).', tr: 'Sure sure kelime listeleri ve cevap anahtarları (1–42. Dersler).', ar: 'قوائم مفردات السور ومفاتيح الإجابات للدروس ١–٤٢.' },
+    desc: { en: 'Complete vocabulary sheets organized by Surah, plus all 42 lesson answer keys and prayer-word lists.', tr: 'Sure sure tam kelime listeleri, 42 dersin tüm cevap anahtarları ve dua kelimeleri.', ar: 'قوائم مفردات كاملة لكل سورة، إضافة إلى مفاتيح الإجابات للدروس ٤٢ وكلمات الأدعية.' },
     pdfs: [
-      { name: { en: 'Yasin 1–40', tr: 'Yasin 1–40', ar: 'يس ١–٤٠' }, path: 'Words/Yâ-Sîn Sûresi 1-40 Fiiller.pdf' },
-      { name: { en: 'Yasin 41–83', tr: 'Yasin 41–83', ar: 'يس ٤١–٨٣' }, path: 'Words/Yâ-Sîn Sûresi 41-83 Fiiller.pdf' },
-      { name: { en: 'Saffat 1–76', tr: 'Saffat 1–76', ar: 'الصافات ١–٧٦' }, path: 'Words/Sâffât Sûresi 1-76 Fiiller.pdf' },
-      { name: { en: 'Rahman 1–40', tr: 'Rahman 1–40', ar: 'الرحمن ١–٤٠' }, path: 'Words/Kamer Sûresi 28-55 Rahmân Sûresi 1-40 Fiiller.pdf' },
-      { name: { en: 'Mulk 1–12', tr: 'Mülk 1–12', ar: 'الملك ١–١٢' }, path: 'Words/Tahrîm Sûresi 1-12 Mülk Sûresi 1-12 Fiiller.pdf' },
-      { name: { en: 'Prayer Words — Subhaneke & Tahiyyat', tr: 'Sübhaneke ve Tahiyyat', ar: 'كلمات التسبيح والتشهد' }, path: 'Words/Subhaneke, Tahiyyat Duaları Kelimeler.pdf' },
-      { name: { en: 'Prayer Words — Salli-Barik & Rabbena', tr: 'Salli-Barik ve Rabbena', ar: 'كلمات الصلاة والتبريك' }, path: 'Words/Salli-Bârik ve Rabbenâ Duaları Kelimeler.pdf' },
-      { name: { en: 'Qunut Prayer Words', tr: 'Kunut Duası Kelimeleri', ar: 'كلمات دعاء القنوت' }, path: 'Words/Kunut Duaları Kelimeler.pdf' },
+      // ─── Surah verb vocabulary sheets ───
+      { name: { en: 'Yâ-Sîn 1–40', tr: 'Yâ-Sîn 1–40', ar: 'يس ١–٤٠' }, path: 'Words/Yâ-Sîn Sûresi 1-40 Fiiller.pdf' },
+      { name: { en: 'Yâ-Sîn 41–83', tr: 'Yâ-Sîn 41–83', ar: 'يس ٤١–٨٣' }, path: 'Words/Yâ-Sîn Sûresi 41-83 Fiiller.pdf' },
+      { name: { en: 'Sâffât 1–76', tr: 'Sâffât 1–76', ar: 'الصافات ١–٧٦' }, path: 'Words/Sâffât Sûresi 1-76 Fiiller.pdf' },
+      { name: { en: 'Sâffât 77–153', tr: 'Sâffât 77–153', ar: 'الصافات ٧٧–١٥٣' }, path: 'Words/Sâffât Sûresi 77-153 Fiiller .pdf' },
+      { name: { en: 'Sâffât 154–182 · Sâd 1–26', tr: 'Sâffât 154–182 · Sâd 1–26', ar: 'الصافات ١٥٤–١٨٢ · ص ١–٢٦' }, path: 'Words/Sâffât Sûresi 154-182 Sâd Sûresi 1-26 Fiiller.pdf' },
+      { name: { en: 'Sâd 27–83', tr: 'Sâd 27–83', ar: 'ص ٢٧–٨٣' }, path: 'Words/_Sâd Sûresi 27-83 Fiiller .pdf' },
+      { name: { en: 'Sâd 84–88 · Zumer 1–21', tr: 'Sâd 84–88 · Zümer 1–21', ar: 'ص ٨٤–٨٨ · الزمر ١–٢١' }, path: 'Words/_Sâd Sûresi 84-88 Zumer Sûresi 1-21 Fiiller  .pdf' },
+      { name: { en: 'Zumer 22–47', tr: 'Zümer 22–47', ar: 'الزمر ٢٢–٤٧' }, path: 'Words/_ Zumer Sûresi 22-47 Fiiller   .pdf' },
+      { name: { en: 'Zumer 48–74', tr: 'Zümer 48–74', ar: 'الزمر ٤٨–٧٤' }, path: 'Words/_ Zumer Sûresi 48-74 Fiiller  .pdf' },
+      { name: { en: 'Mu\'min 1–25', tr: 'Mü\'min 1–25', ar: 'غافر ١–٢٥' }, path: 'Words/Mu\'min Sûresi 1-25 Fiiller.pdf' },
+      { name: { en: 'Mu\'min 26–49', tr: 'Mü\'min 26–49', ar: 'غافر ٢٦–٤٩' }, path: 'Words/Mu\'min Sûresi 26-49 Fiiller.pdf' },
+      { name: { en: 'Mu\'min 50–77', tr: 'Mü\'min 50–77', ar: 'غافر ٥٠–٧٧' }, path: 'Words/Mu\'min Sûresi 50-77 Fiiller.pdf' },
+      { name: { en: 'Mu\'min 78–85 · Fussilet 1–20', tr: 'Mü\'min 78–85 · Fussilet 1–20', ar: 'غافر ٧٨–٨٥ · فصلت ١–٢٠' }, path: 'Words/Mu\'min Sûresi 78-85 Fussilet Sûresi 1-20 Fiiller.pdf' },
+      { name: { en: 'Fussilet 21–46', tr: 'Fussilet 21–46', ar: 'فصلت ٢١–٤٦' }, path: 'Words/Fussilet Sûresi 21-46 Fiiller.pdf' },
+      { name: { en: 'Fussilet 47–54 · Şûrâ 1–15', tr: 'Fussilet 47–54 · Şûrâ 1–15', ar: 'فصلت ٤٧–٥٤ · الشورى ١–١٥' }, path: 'Words/Fussilet Sûresi 47-54 Şûrâ Sûresi 1-15 Fiiller.pdf' },
+      { name: { en: 'Şûrâ 16–44', tr: 'Şûrâ 16–44', ar: 'الشورى ١٦–٤٤' }, path: 'Words/Şûrâ Sûresi 16-44 Fiiller.pdf' },
+      { name: { en: 'Şûrâ 45–53 · Zuhruf 1–22', tr: 'Şûrâ 45–53 · Zuhruf 1–22', ar: 'الشورى ٤٥–٥٣ · الزخرف ١–٢٢' }, path: 'Words/Şûrâ Sûresi 45-53 Zuhruf Sûresi 1-22 Fiiller.pdf' },
+      { name: { en: 'Zuhruf 23–60', tr: 'Zuhruf 23–60', ar: 'الزخرف ٢٣–٦٠' }, path: 'Words/_Zuhruf Sûresi 23-60 Fiiller.pdf' },
+      { name: { en: 'Zuhruf 61–89 · Duhân 1–18', tr: 'Zuhruf 61–89 · Duhân 1–18', ar: 'الزخرف ٦١–٨٩ · الدخان ١–١٨' }, path: 'Words/Zuhruf Sûresi 61-89 Duhân Sûresi 1-18 Fiiller.pdf' },
+      { name: { en: 'Duhân 19–59 · Câsiye 1–13', tr: 'Duhân 19–59 · Câsiye 1–13', ar: 'الدخان ١٩–٥٩ · الجاثية ١–١٣' }, path: 'Words/Duhân Sûresi 19-59 Câsiye Sûresi 1-13 Fiiller .pdf' },
+      { name: { en: 'Câsiye 14–37 · Ahkâf 1–5', tr: 'Câsiye 14–37 · Ahkâf 1–5', ar: 'الجاثية ١٤–٣٧ · الأحقاف ١–٥' }, path: 'Words/Câsiye Sûresi 14-37 Ahkâf Sûresi 1-5 Fiiller.pdf' },
+      { name: { en: 'Ahkâf 6–28', tr: 'Ahkâf 6–28', ar: 'الأحقاف ٦–٢٨' }, path: 'Words/Ahkâf Sûresi 6-28 Fiiller.pdf' },
+      { name: { en: 'Ahkâf 29–35 · Muhammed 1–19', tr: 'Ahkâf 29–35 · Muhammed 1–19', ar: 'الأحقاف ٢٩–٣٥ · محمد ١–١٩' }, path: 'Words/Ahkâf Sûresi 29-35 Muhammed(asm) Sûresi 1-19 Fiiller.pdf' },
+      { name: { en: 'Muhammed 20–38 · Fetih 1–9', tr: 'Muhammed 20–38 · Fetih 1–9', ar: 'محمد ٢٠–٣٨ · الفتح ١–٩' }, path: 'Words/Muhammed(asm) Sûresi 20-38 Fetih Sûresi 1-9 Fiiller.pdf' },
+      { name: { en: 'Fetih 10–28', tr: 'Fetih 10–28', ar: 'الفتح ١٠–٢٨' }, path: 'Words/Fetih Sûresi 10-28 Fiiller.pdf' },
+      { name: { en: 'Fetih 29 · Hucurât 1–18', tr: 'Fetih 29 · Hucurât 1–18', ar: 'الفتح ٢٩ · الحجرات ١–١٨' }, path: 'Words/Fetih Sûresi 29 Hucurât Sûresi 1-18 Fiiller.pdf' },
+      { name: { en: 'Kâf 1–45 · Zâriyât 1–6', tr: 'Kâf 1–45 · Zâriyât 1–6', ar: 'ق ١–٤٥ · الذاريات ١–٦' }, path: 'Words/Kâf Sûresi 1-45 Zâriyât Sûresi 1-6 Fiiller.pdf' },
+      { name: { en: 'Zâriyât 7–60 · Tûr 1–14', tr: 'Zâriyât 7–60 · Tûr 1–14', ar: 'الذاريات ٧–٦٠ · الطور ١–١٤' }, path: 'Words/Zâriyât Sûresi 7-60 Tûr Sûresi 1-14 Fiiller.pdf' },
+      { name: { en: 'Tûr 15–49 · Necm 1–26', tr: 'Tûr 15–49 · Necm 1–26', ar: 'الطور ١٥–٤٩ · النجم ١–٢٦' }, path: 'Words/Tûr Sûresi 15-49 Necm Sûresi 1-26 Fiiller.pdf' },
+      { name: { en: 'Necm 27–62 · Kamer 1–27', tr: 'Necm 27–62 · Kamer 1–27', ar: 'النجم ٢٧–٦٢ · القمر ١–٢٧' }, path: 'Words/Necm Sûresi 27-62 Kamer Sûresi 1-27 Fiiller.pdf' },
+      { name: { en: 'Kamer 28–55 · Rahmân 1–40', tr: 'Kamer 28–55 · Rahmân 1–40', ar: 'القمر ٢٨–٥٥ · الرحمن ١–٤٠' }, path: 'Words/Kamer Sûresi 28-55 Rahmân Sûresi 1-40 Fiiller.pdf' },
+      { name: { en: 'Rahmân 41–78 · Vâkı\'a 1–50', tr: 'Rahmân 41–78 · Vâkı\'a 1–50', ar: 'الرحمن ٤١–٧٨ · الواقعة ١–٥٠' }, path: 'Words/Rahmân Sûresi 41-78 Vâkı\'aSûresi 1-50 Fiiller.pdf' },
+      { name: { en: 'Vâkı\'a 51–96 · Hadîd 1–11', tr: 'Vâkı\'a 51–96 · Hadîd 1–11', ar: 'الواقعة ٥١–٩٦ · الحديد ١–١١' }, path: 'Words/Vâkı\'a Sûresi 51-96 Hadîd Sûresi 1-11 Fiiller.pdf' },
+      { name: { en: 'Hadîd 12–29', tr: 'Hadîd 12–29', ar: 'الحديد ١٢–٢٩' }, path: 'Words/Hadîd Sûresi 12-29 Fiiller .pdf' },
+      { name: { en: 'Mucâdele 1–21', tr: 'Mücâdele 1–21', ar: 'المجادلة ١–٢١' }, path: 'Words/Mucadele Sûresi 1-21 Fiiller  .pdf' },
+      { name: { en: 'Mucâdile 22 · Haşr 1–16', tr: 'Mücâdele 22 · Haşr 1–16', ar: 'المجادلة ٢٢ · الحشر ١–١٦' }, path: 'Words/Mucadile Sûresi 22  Haşr Sûresi 1-16 Fiiller.pdf' },
+      { name: { en: 'Haşr 17–24 · Mumtehine 1–11', tr: 'Haşr 17–24 · Mumtehine 1–11', ar: 'الحشر ١٧–٢٤ · الممتحنة ١–١١' }, path: 'Words/Haşr Sûresi 17-24 Mumtehine S 1-11 Fiiller.pdf' },
+      { name: { en: 'Mumtehine 12–13 · Saf 1–14 · Cum\'a 1–8', tr: 'Mumtehine 12–13 · Saf 1–14 · Cum\'a 1–8', ar: 'الممتحنة ١٢–١٣ · الصف ١–١٤ · الجمعة ١–٨' }, path: 'Words/Mumtehine Sûresi 12-13 Saf S 1-14 Cum\'a S 1-8 Fiiller.pdf' },
+      { name: { en: 'Cum\'a 9–11 · Munâfikûn · Teğâbun 1–9', tr: 'Cum\'a 9–11 · Munâfikûn · Teğâbun 1–9', ar: 'الجمعة ٩–١١ · المنافقون · التغابن ١–٩' }, path: 'Words/Cum\'a Sûresi 9-11 Munâfikûn Sûresi 1-11 Teğâbun Sûresi 1-9 Fiiller.pdf' },
+      { name: { en: 'Teğâbun 10–18 · Talâk 1–12', tr: 'Teğâbun 10–18 · Talâk 1–12', ar: 'التغابن ١٠–١٨ · الطلاق ١–١٢' }, path: 'Words/Teğâbun Sûresi 10-18 Talâk Sûresi 1-12 Fiiller.pdf' },
+      { name: { en: 'Tahrîm 1–12 · Mülk 1–12', tr: 'Tahrîm 1–12 · Mülk 1–12', ar: 'التحريم ١–١٢ · الملك ١–١٢' }, path: 'Words/Tahrîm Sûresi 1-12 Mülk Sûresi 1-12 Fiiller.pdf' },
+      { name: { en: 'Mülk 13–30 · Kalem 1–52', tr: 'Mülk 13–30 · Kalem 1–52', ar: 'الملك ١٣–٣٠ · القلم ١–٥٢' }, path: 'Words/Mülk Sûresi 13-30 Kalem S 1-52 Fiiller.pdf' },
+      { name: { en: 'Kalem 43–52 · Hakka · Me\'aric 1–10', tr: 'Kalem 43–52 · Hakka · Me\'aric 1–10', ar: 'القلم ٤٣–٥٢ · الحاقة · المعارج ١–١٠' }, path: 'Words/Kalem Sûresi 43-52 Hakka S 1-52 Me\'aric S 1-10 Fiiller.pdf' },
+      { name: { en: 'Me\'aric 11–44 · Nuh 1–28', tr: 'Me\'aric 11–44 · Nuh 1–28', ar: 'المعارج ١١–٤٤ · نوح ١–٢٨' }, path: 'Words/Me\'aric Sûresi 11-44 Nuh(as) S 1-28.pdf' },
+      { name: { en: 'Cin 1–28 · Müzzemmil 1–20', tr: 'Cin 1–28 · Müzzemmil 1–20', ar: 'الجن ١–٢٨ · المزمل ١–٢٠' }, path: 'Words/Cin Sûresi 1-28 Müzzemmil S 1-20 Fiiller.pdf' },
+      { name: { en: 'Müddessir 1–56 · Kıyâmet 1–40', tr: 'Müddessir 1–56 · Kıyâmet 1–40', ar: 'المدثر ١–٥٦ · القيامة ١–٤٠' }, path: 'Words/Müddessir Sûresi 1- 56 Kıyamet S 1-40 Fiiller.pdf' },
+      { name: { en: 'İnsan 1–31 · Murselât 1–50', tr: 'İnsan 1–31 · Mürselât 1–50', ar: 'الإنسان ١–٣١ · المرسلات ١–٥٠' }, path: 'Words/İnsan Sûresi 1-31 Murselat S 1-50 Fiiller.pdf' },
+      { name: { en: 'Lokmân 20–34 · Secde 1–11', tr: 'Lokmân 20–34 · Secde 1–11', ar: 'لقمان ٢٠–٣٤ · السجدة ١–١١' }, path: 'Words/Lokman Sûresi 20-34 Secde S 1-11.pdf' },
+      { name: { en: 'Secde 12–30 · Ahzâb 1–6', tr: 'Secde 12–30 · Ahzâb 1–6', ar: 'السجدة ١٢–٣٠ · الأحزاب ١–٦' }, path: 'Words/Secde Sûresi 12-30 Ahzâb S 1-6.pdf' },
+      { name: { en: 'Ahzâb 7–30', tr: 'Ahzâb 7–30', ar: 'الأحزاب ٧–٣٠' }, path: 'Words/Ahzâb Sûresi 7-30 Fiiller.pdf' },
+      { name: { en: 'Ahzâb 31–50', tr: 'Ahzâb 31–50', ar: 'الأحزاب ٣١–٥٠' }, path: 'Words/Ahzâb Sûresi 31-50 Fiiller.pdf' },
+      { name: { en: 'Ahzâb 51–73', tr: 'Ahzâb 51–73', ar: 'الأحزاب ٥١–٧٣' }, path: 'Words/Ahzâb Sûresi 51-73 Fiiller.pdf' },
+      { name: { en: 'Sebe\' 1–22', tr: 'Sebe\' 1–22', ar: 'سبأ ١–٢٢' }, path: 'Words/Sebe\' Sûresi 1-22 Fiiller.pdf' },
+      { name: { en: 'Sebe\' 23–48', tr: 'Sebe\' 23–48', ar: 'سبأ ٢٣–٤٨' }, path: 'Words/Sebe\' Sûresi 23-48 Fiiller.pdf' },
+      { name: { en: 'Sebe\' 49–54 · Fâtır 1–18', tr: 'Sebe\' 49–54 · Fâtır 1–18', ar: 'سبأ ٤٩–٥٤ · فاطر ١–١٨' }, path: 'Words/Sebe\' Sûresi 49-54 Fâtır S 1-18 Fiiller.pdf' },
+      { name: { en: 'Fâtır 19–45', tr: 'Fâtır 19–45', ar: 'فاطر ١٩–٤٥' }, path: 'Words/Fâtır Sûresi 19-45 Fiiller.pdf' },
+
+      // ─── Lesson Answer Keys (1–42 vocabulary keys) ───
+      { name: { en: 'Answer Key — Lesson 1', tr: 'Cevap Anahtarı — 1. Ders', ar: 'مفتاح الإجابة — الدرس ١' }, path: 'Words/Answer Key-1.pdf' },
+      { name: { en: 'Answer Key — Lesson 2', tr: 'Cevap Anahtarı — 2. Ders', ar: 'مفتاح الإجابة — الدرس ٢' }, path: 'Words/Answer Key-2.pdf' },
+      { name: { en: 'Answer Key — Lesson 3', tr: 'Cevap Anahtarı — 3. Ders', ar: 'مفتاح الإجابة — الدرس ٣' }, path: 'Words/Answer Key-3.pdf' },
+      { name: { en: 'Answer Key — Lesson 4', tr: 'Cevap Anahtarı — 4. Ders', ar: 'مفتاح الإجابة — الدرس ٤' }, path: 'Words/Answer Key 4.pdf' },
+      { name: { en: 'Answer Key — Lesson 5', tr: 'Cevap Anahtarı — 5. Ders', ar: 'مفتاح الإجابة — الدرس ٥' }, path: 'Words/Answer Key-5.pdf' },
+      { name: { en: 'Answer Key — Lesson 6', tr: 'Cevap Anahtarı — 6. Ders', ar: 'مفتاح الإجابة — الدرس ٦' }, path: 'Words/ANSWER KEY-6.pdf' },
+      { name: { en: 'Answer Key — Lesson 7', tr: 'Cevap Anahtarı — 7. Ders', ar: 'مفتاح الإجابة — الدرس ٧' }, path: 'Words/Answer Key-7.pdf' },
+      { name: { en: 'Answer Key — Lesson 8', tr: 'Cevap Anahtarı — 8. Ders', ar: 'مفتاح الإجابة — الدرس ٨' }, path: 'Words/Answer Key-8.pdf' },
+      { name: { en: 'Answer Key — Lesson 9', tr: 'Cevap Anahtarı — 9. Ders', ar: 'مفتاح الإجابة — الدرس ٩' }, path: 'Words/Answer Key-9.pdf' },
+      { name: { en: 'Answer Key — Lesson 10', tr: 'Cevap Anahtarı — 10. Ders', ar: 'مفتاح الإجابة — الدرس ١٠' }, path: 'Words/Answer Key-10.pdf' },
+      { name: { en: 'Answer Key — Lesson 11', tr: 'Cevap Anahtarı — 11. Ders', ar: 'مفتاح الإجابة — الدرس ١١' }, path: 'Words/Answer Key 11.pdf' },
+      { name: { en: 'Answer Key — Lesson 15', tr: 'Cevap Anahtarı — 15. Ders', ar: 'مفتاح الإجابة — الدرس ١٥' }, path: 'Words/Answer Key-15 .pdf' },
+      { name: { en: 'Answer Key — Lesson 16', tr: 'Cevap Anahtarı — 16. Ders', ar: 'مفتاح الإجابة — الدرس ١٦' }, path: 'Words/Answer Key-16.pdf' },
+      { name: { en: 'Answer Key — Lesson 17', tr: 'Cevap Anahtarı — 17. Ders', ar: 'مفتاح الإجابة — الدرس ١٧' }, path: 'Words/Answer Key-17.pdf' },
+      { name: { en: 'Answer Key — Lesson 18', tr: 'Cevap Anahtarı — 18. Ders', ar: 'مفتاح الإجابة — الدرس ١٨' }, path: 'Words/Answer Key-18 .pdf' },
+      { name: { en: 'Answer Key — Lesson 19', tr: 'Cevap Anahtarı — 19. Ders', ar: 'مفتاح الإجابة — الدرس ١٩' }, path: 'Words/Answer Key-19.pdf' },
+      { name: { en: 'Answer Key — Lesson 20', tr: 'Cevap Anahtarı — 20. Ders', ar: 'مفتاح الإجابة — الدرس ٢٠' }, path: 'Words/Answer Key-20 .pdf' },
+      { name: { en: 'Answer Key — Lesson 21', tr: 'Cevap Anahtarı — 21. Ders', ar: 'مفتاح الإجابة — الدرس ٢١' }, path: 'Words/Answer Key-21 .pdf' },
+      { name: { en: 'Answer Key — Lesson 22', tr: 'Cevap Anahtarı — 22. Ders', ar: 'مفتاح الإجابة — الدرس ٢٢' }, path: 'Words/Answer Key-22  .pdf' },
+      { name: { en: 'Answer Key — Lesson 23', tr: 'Cevap Anahtarı — 23. Ders', ar: 'مفتاح الإجابة — الدرس ٢٣' }, path: 'Words/Answer Key-23 .pdf' },
+      { name: { en: 'Answer Key — Lesson 24', tr: 'Cevap Anahtarı — 24. Ders', ar: 'مفتاح الإجابة — الدرس ٢٤' }, path: 'Words/Answer Key-24.pdf' },
+      { name: { en: 'Answer Key — Lesson 25', tr: 'Cevap Anahtarı — 25. Ders', ar: 'مفتاح الإجابة — الدرس ٢٥' }, path: 'Words/Answer Key-25 .pdf' },
+      { name: { en: 'Answer Key — Lesson 26', tr: 'Cevap Anahtarı — 26. Ders', ar: 'مفتاح الإجابة — الدرس ٢٦' }, path: 'Words/Answer Key-26 .pdf' },
+      { name: { en: 'Answer Key — Lesson 27', tr: 'Cevap Anahtarı — 27. Ders', ar: 'مفتاح الإجابة — الدرس ٢٧' }, path: 'Words/Answer Key-27  .pdf' },
+      { name: { en: 'Answer Key — Lesson 28', tr: 'Cevap Anahtarı — 28. Ders', ar: 'مفتاح الإجابة — الدرس ٢٨' }, path: 'Words/Answer Key-28 .pdf' },
+      { name: { en: 'Answer Key — Lesson 29', tr: 'Cevap Anahtarı — 29. Ders', ar: 'مفتاح الإجابة — الدرس ٢٩' }, path: 'Words/Answer Key-29.pdf' },
+      { name: { en: 'Answer Key — Lesson 30', tr: 'Cevap Anahtarı — 30. Ders', ar: 'مفتاح الإجابة — الدرس ٣٠' }, path: 'Words/Answer Key-30.pdf' },
+      { name: { en: 'Answer Key — Lesson 31', tr: 'Cevap Anahtarı — 31. Ders', ar: 'مفتاح الإجابة — الدرس ٣١' }, path: 'Words/Answer Key-31.pdf' },
+      { name: { en: 'Answer Key — Lesson 32', tr: 'Cevap Anahtarı — 32. Ders', ar: 'مفتاح الإجابة — الدرس ٣٢' }, path: 'Words/Answer Key-32.pdf' },
+      { name: { en: 'Answer Key — Lesson 33', tr: 'Cevap Anahtarı — 33. Ders', ar: 'مفتاح الإجابة — الدرس ٣٣' }, path: 'Words/Answer Key-33 .pdf' },
+      { name: { en: 'Answer Key — Lesson 34', tr: 'Cevap Anahtarı — 34. Ders', ar: 'مفتاح الإجابة — الدرس ٣٤' }, path: 'Words/Answer Key-34.pdf' },
+      { name: { en: 'Answer Key — Lesson 35', tr: 'Cevap Anahtarı — 35. Ders', ar: 'مفتاح الإجابة — الدرس ٣٥' }, path: 'Words/Answer Key-35.pdf' },
+      { name: { en: 'Answer Key — Lesson 36', tr: 'Cevap Anahtarı — 36. Ders', ar: 'مفتاح الإجابة — الدرس ٣٦' }, path: 'Words/Answer Key-36.pdf' },
+      { name: { en: 'Answer Key — Lesson 37', tr: 'Cevap Anahtarı — 37. Ders', ar: 'مفتاح الإجابة — الدرس ٣٧' }, path: 'Words/Answer Key-37.pdf' },
+      { name: { en: 'Answer Key — Lesson 38', tr: 'Cevap Anahtarı — 38. Ders', ar: 'مفتاح الإجابة — الدرس ٣٨' }, path: 'Words/Answer Key-38.pdf' },
+      { name: { en: 'Answer Key — Lesson 39', tr: 'Cevap Anahtarı — 39. Ders', ar: 'مفتاح الإجابة — الدرس ٣٩' }, path: 'Words/Answer Key-39.pdf' },
+      { name: { en: 'Answer Key — Lesson 40', tr: 'Cevap Anahtarı — 40. Ders', ar: 'مفتاح الإجابة — الدرس ٤٠' }, path: 'Words/Answer Key-40.pdf' },
+      { name: { en: 'Answer Key — Lesson 41', tr: 'Cevap Anahtarı — 41. Ders', ar: 'مفتاح الإجابة — الدرس ٤١' }, path: 'Words/Answer Key-41.pdf' },
+      { name: { en: 'Answer Key — Lesson 42', tr: 'Cevap Anahtarı — 42. Ders', ar: 'مفتاح الإجابة — الدرس ٤٢' }, path: 'Words/Answer Key-42.pdf' },
+
+      // ─── Prayer-word vocabularies ───
+      { name: { en: 'Prayer Words — Subhaneke & Tahiyyat', tr: 'Sübhaneke ve Tahiyyat Duaları', ar: 'كلمات التسبيح والتشهد' }, path: 'Words/Subhaneke, Tahiyyat Duaları Kelimeler.pdf' },
+      { name: { en: 'Prayer Words — Salli-Bârik & Rabbenâ', tr: 'Salli-Bârik ve Rabbenâ Duaları', ar: 'كلمات الصلاة والتبريك' }, path: 'Words/Salli-Bârik ve Rabbenâ Duaları Kelimeler.pdf' },
+      { name: { en: 'Prayer Words — Qunut', tr: 'Kunut Duası Kelimeleri', ar: 'كلمات دعاء القنوت' }, path: 'Words/Kunut Duaları Kelimeler.pdf' },
+    ]
+  },
+  {
+    id: 'irab',
+    icon: '📖',
+    irab: true,
+    title: { en: 'Verse Analysis (I\'rab)', tr: 'Ayet İ\'rabı', ar: 'إعراب الآية' },
+    desc: { en: 'Paste any Quranic verse to get a word-by-word grammatical analysis. Each grammar phenomenon links back to the relevant lesson in the 42-lesson curriculum.', tr: 'Kelime kelime gramer analizi için herhangi bir Kur\'an ayetini yapıştırın. Her gramer olgusu, 42 derslik müfredattaki ilgili derse bağlanır.', ar: 'الصق أي آية لتحليلها نحوياً كلمة بكلمة. كل ظاهرة نحوية مرتبطة بالدرس المعني من بين الـ ٤٢ درساً.' },
+    pdfs: []
+  },
+  {
+    id: 'vocab-quiz',
+    icon: '?',
+    quiz: true,
+    title: { en: 'Vocabulary Quiz', tr: 'Kelime Sınavı', ar: 'اختبار المفردات' },
+    desc: { en: 'Multiple-choice quiz drawn from the entire vocabulary pool extracted from all 98 vocabulary PDFs.', tr: '98 kelime PDF\'sinden çıkarılan tüm kelime havuzundan çoktan seçmeli sınav.', ar: 'اختبار اختيار من متعدد من مجمل المفردات المستخرجة من جميع ملفات الـ ٩٨ PDF.' },
+    pdfs: []
+  },
+  {
+    id: 'bablar',
+    icon: 'ب',
+    title: { en: 'Verb Paradigms (Bablar)', tr: 'Bâblar', ar: 'أبواب الأفعال' },
+    desc: { en: 'The classical verb paradigms (forms I–X) showing how triliteral roots are conjugated across all augmented patterns.', tr: 'Klasik fiil bablarının (I–X. bablar) üç harfli kökten nasıl türetildiğini gösteren tablo.', ar: 'أبواب الأفعال الكلاسيكية (الأبواب I–X) التي تبيّن كيف تُصرَّف الجذور الثلاثية في جميع الأوزان المزيدة.' },
+    pdfs: [
+      { name: { en: 'Bablar — Verb Paradigms', tr: 'Bâblar', ar: 'أبواب الأفعال' }, path: 'Bablar/Bâblar.pdf' },
     ]
   },
   {

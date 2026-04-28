@@ -7,3 +7,12 @@ __pycache__/
 
 # PDF lecture materials (large binary files — store locally only)
 Kuran-Kerim Arapcasi/
+
+# Vocab build artifacts (regenerate locally with build_vocab.py)
+portal/vocab_raw/
+portal/vocab_cache.json
+
+# Lesson-index build artifacts (the .json itself IS committed — it's the
+# permanent PDF-derived knowledge base. Cache and raw text stay local.)
+portal/lessons_raw/
+portal/lessons_index_cache.json

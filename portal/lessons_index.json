@@ -1,0 +1,6271 @@
+{
+  "L1W1": {
+    "verified_title": {
+      "en": "Arabic Word Types: Noun (Ism), Verb (Fiʿl), and Particle (Ḥarf)",
+      "tr": "Arapçada Kelime Çeşitleri: İsim, Fiil ve Harf",
+      "ar": "أقسام الكلمة: الاسم والفعل والحرف"
+    },
+    "summary": "This lesson introduces the three fundamental categories of Arabic words: the noun (اسم), the verb (فعل), and the particle (حرف). Each category is defined by its meaning and grammatical behaviour — nouns denote meaning independent of time, verbs denote an action tied to time, and particles only yield meaning in combination with other words. The lesson then provides Quranic examples and practice exercises for identifying each word type.",
+    "concepts": [
+      {
+        "name": {
+          "ar": "الاسم",
+          "en": "Noun (Ism)",
+          "tr": "İsim"
+        },
+        "keywords": [
+          "ism",
+          "noun",
+          "tanwin",
+          "definite article",
+          "al-",
+          "lam al-taʿrif",
+          "ta marbuta",
+          "majrur",
+          "jar",
+          "independent meaning",
+          "no tense"
+        ],
+        "examples": [
+          "إِنْسَانٌ",
+          "مُحَمَّدٌ",
+          "كِتَابٌ",
+          "الْكِتَابُ",
+          "مَدْرَسَةٌ",
+          "فَاطِمَةُ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الفعل",
+          "en": "Verb (Fiʿl)",
+          "tr": "Fiil"
+        },
+        "keywords": [
+          "fiʿl",
+          "verb",
+          "past tense",
+          "present tense",
+          "imperative",
+          "madi",
+          "mudariʿ",
+          "amr",
+          "time-bound",
+          "action",
+          "no tanwin",
+          "no jar"
+        ],
+        "examples": [
+          "كَتَبَ",
+          "يَكْتُبُ",
+          "اُكْتُبْ",
+          "أَنْعَمْتَ",
+          "نَعْبُدُ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الحرف",
+          "en": "Particle (Ḥarf)",
+          "tr": "Harf"
+        },
+        "keywords": [
+          "harf",
+          "particle",
+          "preposition",
+          "harf jar",
+          "context-dependent meaning",
+          "no independent meaning",
+          "min",
+          "fi",
+          "ʿala"
+        ],
+        "examples": [
+          "فِي الْمَدْرَسَةِ",
+          "عَلَى الطَّاوِلَةِ",
+          "مِنْ سِجِّيلٍ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "علامات الاسم",
+          "en": "Signs (markers) of the Noun",
+          "tr": "İsmin Alametleri"
+        },
+        "keywords": [
+          "tanwin",
+          "definite article",
+          "al-",
+          "lam taʿrif",
+          "ta marbuta",
+          "harf jar",
+          "kasra",
+          "jar",
+          "noun marker",
+          "ism sign"
+        ],
+        "examples": [
+          "مَدْرَسَةٌ",
+          "الْمَدْرَسَةُ",
+          "حَدِيقَةٌ",
+          "فِي الْمَدْرَسَةِ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "علامات الفعل",
+          "en": "Signs (markers) of the Verb",
+          "tr": "Fiilin Alametleri"
+        },
+        "keywords": [
+          "verb marker",
+          "no tanwin",
+          "no jar",
+          "no lam taʿrif",
+          "fiʿl sign",
+          "past",
+          "present",
+          "imperative",
+          "madi",
+          "mudariʿ",
+          "amr"
+        ],
+        "examples": [
+          "كَتَبَ",
+          "يَكْتُبُ",
+          "اُكْتُبْ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "أقسام الكلمة الثلاثة",
+          "en": "The Three Divisions of the Arabic Word",
+          "tr": "Kelimenin Üç Kısmı"
+        },
+        "keywords": [
+          "ism",
+          "fiʿl",
+          "harf",
+          "noun",
+          "verb",
+          "particle",
+          "three word types",
+          "Arabic morphology",
+          "word classification",
+          "kalima"
+        ],
+        "examples": [
+          "قُلْ هُوَ اللهُ أَحَدٌ",
+          "وَيَمْنَعُونَ الْمَاعُونَ",
+          "إِنَّ الدِّينَ عِنْدَ اللهِ الْإِسْلَامُ"
+        ]
+      }
+    ],
+    "level": 1,
+    "week": 1,
+    "lesson_id": "L1W1",
+    "pdf_filename": "Level-1__1st Lesson Line Spacing 2.0",
+    "current_title": {
+      "en": "Word Types: Noun, Verb, Particle",
+      "tr": "Kelime Bilgisi: İsim, Fiil, Harf",
+      "ar": "أقسام الكلمة: اسم، فعل، حرف"
+    }
+  },
+  "L1W2": {
+    "verified_title": {
+      "en": "Definite and Indefinite Nouns, and Solar & Lunar Letters",
+      "tr": "Belirli ve Belirsiz İsimler ile Şemsî ve Kamerî Harfler",
+      "ar": "المعرفة والنكرة والحروف الشمسية والقمرية"
+    },
+    "summary": "This lesson introduces the distinction between definite nouns (ma'rifa) and indefinite nouns (nakira) in Arabic, explaining that definiteness is marked by the article ال and the absence of tanwin, while indefiniteness is marked by tanwin. The lesson also covers solar letters (al-huruf al-shamsiyya), where the lam of ال assimilates to the following letter, and lunar letters (al-huruf al-qamariyya), where the lam is pronounced clearly. Students practice identifying and converting between definite and indefinite forms using vocabulary from short Quranic suras.",
+    "concepts": [
+      {
+        "name": {
+          "ar": "المعرفة",
+          "en": "Definite Noun (Ma'rifa)",
+          "tr": "Belirli İsim (Ma'rife)"
+        },
+        "keywords": [
+          "ma'rifa",
+          "definite",
+          "al-",
+          "definite article",
+          "alif lam",
+          "no tanwin",
+          "specific noun"
+        ],
+        "examples": [
+          "اَلْكِتَابُ",
+          "اَلْقَلَمُ",
+          "اَلْبَيْتُ",
+          "اَلرَّجُلُ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "النكرة",
+          "en": "Indefinite Noun (Nakira)",
+          "tr": "Belirsiz İsim (Nekira)"
+        },
+        "keywords": [
+          "nakira",
+          "indefinite",
+          "tanwin",
+          "nunation",
+          "dammatain",
+          "fathatain",
+          "kasratain",
+          "unspecified noun"
+        ],
+        "examples": [
+          "كِتَابٌ",
+          "قَلَمٌ",
+          "بَيْتٌ",
+          "رَجُلٌ",
+          "جَبَلٌ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الحروف الشمسية",
+          "en": "Solar Letters (al-Huruf al-Shamsiyya)",
+          "tr": "Şemsî Harfler"
+        },
+        "keywords": [
+          "shamsiyya",
+          "solar letters",
+          "lam assimilation",
+          "idgham",
+          "al- assimilation",
+          "definite article assimilation"
+        ],
+        "examples": [
+          "اَلشَّمْسُ",
+          "اَلتَّقْوَى",
+          "اَلدِّينُ",
+          "اَلنُّورُ",
+          "اَلرَّجُلُ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الحروف القمرية",
+          "en": "Lunar Letters (al-Huruf al-Qamariyya)",
+          "tr": "Kamerî Harfler"
+        },
+        "keywords": [
+          "qamariyya",
+          "lunar letters",
+          "lam pronounced",
+          "clear lam",
+          "definite article clear"
+        ],
+        "examples": [
+          "اَلْقَمَرُ",
+          "اَلْكِتَابُ",
+          "اَلْجَبَلُ",
+          "اَلْهَوَاءُ",
+          "اَلْيَوْمُ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "التنوين وعلامة التنكير",
+          "en": "Tanwin as a Marker of Indefiniteness",
+          "tr": "Belirsizlik Alâmeti Olarak Tenvîn"
+        },
+        "keywords": [
+          "tanwin",
+          "nunation",
+          "dammatain",
+          "indefinite marker",
+          "nakira ending",
+          "double damma",
+          "double fatha",
+          "double kasra"
+        ],
+        "examples": [
+          "رَجُلٌ",
+          "جَبَلٌ",
+          "مَدِينَةٌ",
+          "قِطٌّ",
+          "أَجْرٌ كَرِيمٌ"
+        ]
+      }
+    ],
+    "level": 1,
+    "week": 2,
+    "lesson_id": "L1W2",
+    "pdf_filename": "Level-1__2nd Lesson Line Spacing 2.0",
+    "current_title": {
+      "en": "Definite & Indefinite Nouns (Ma'rifa & Nakira)",
+      "tr": "Belirli ve Belirsiz İsimler (Ma'rife, Nekira)",
+      "ar": "المعرفة والنكرة"
+    }
+  },
+  "L1W3": {
+    "verified_title": {
+      "en": "Masculine & Feminine Nouns and Demonstrative Pronouns",
+      "tr": "Eril ve Dişil İsimler ve İşaret İsimleri",
+      "ar": "الاسم المذكر والمؤنث وأسماء الإشارة"
+    },
+    "summary": "This lesson introduces the Arabic grammatical distinction between masculine (مذكر) and feminine (مؤنث) nouns, explaining that a noun's gender is determined by which demonstrative pronoun (هذا or هذه) correctly points to it. It then covers the signs of femininity including tā' marbūṭa (ة), maqṣūra alif (ى/ا), and mamdūda alif (اء), with examples from the Quran. Finally, the lesson presents the full system of demonstrative pronouns (أسماء الإشارة) covering near and far, singular and plural, masculine and feminine, illustrated with Quranic verses.",
+    "concepts": [
+      {
+        "name": {
+          "ar": "الاسم المذكر",
+          "en": "Masculine Noun (Mudhakkar)",
+          "tr": "Eril İsim (Müzekker)"
+        },
+        "keywords": [
+          "mudhakkar",
+          "masculine",
+          "hatha",
+          "demonstrative masculine",
+          "gender"
+        ],
+        "examples": [
+          "هَذَا رَجُلٌ",
+          "هَذَا قَمَرٌ",
+          "هَذَا كِتَابٌ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الاسم المؤنث",
+          "en": "Feminine Noun (Muannath)",
+          "tr": "Dişil İsim (Müennes)"
+        },
+        "keywords": [
+          "muannath",
+          "feminine",
+          "hadhihi",
+          "gender",
+          "feminine noun"
+        ],
+        "examples": [
+          "هَذِهِ بِنْتٌ",
+          "هَذِهِ شَمْسٌ",
+          "هَذِهِ أَرْضٌ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "التاء المربوطة",
+          "en": "Tā' Marbūṭa — Sign of Femininity",
+          "tr": "Bağlı Ta (ة) — Dişillik Alâmeti"
+        },
+        "keywords": [
+          "ta marbuta",
+          "feminine marker",
+          "muannath",
+          "taa marbuta",
+          "femininity sign"
+        ],
+        "examples": [
+          "مُدَرِّسَةٌ",
+          "مُسْلِمَةٌ",
+          "مَدْرَسَةٌ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الألف المقصورة والممدودة كعلامة تأنيث",
+          "en": "Maqṣūra and Mamdūda Alif as Feminine Markers",
+          "tr": "Maksure ve Memdude Elif — Dişillik Alâmeti"
+        },
+        "keywords": [
+          "alif maqsura",
+          "alif mamduda",
+          "feminine marker",
+          "hamra",
+          "kubra",
+          "maqsura"
+        ],
+        "examples": [
+          "عَطْشَى",
+          "كُبْرَى",
+          "حَمْرَاءُ",
+          "خَضْرَاءُ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "أسماء الإشارة",
+          "en": "Demonstrative Pronouns (Asmā' al-Ishāra)",
+          "tr": "İşaret İsimleri"
+        },
+        "keywords": [
+          "ismu al-ishara",
+          "demonstrative pronoun",
+          "hatha",
+          "hadhihi",
+          "dhalika",
+          "tilka",
+          "haulai",
+          "ulaika",
+          "near",
+          "far",
+          "plural demonstrative"
+        ],
+        "examples": [
+          "هَذَا",
+          "هَذِهِ",
+          "ذَلِكَ",
+          "تِلْكَ",
+          "هَؤُلَاءِ",
+          "أُولَئِكَ"
+        ]
+      }
+    ],
+    "level": 1,
+    "week": 3,
+    "lesson_id": "L1W3",
+    "pdf_filename": "Level-1__3rd Lesson Line Spacing 2.0",
+    "current_title": {
+      "en": "Masculine & Feminine / Demonstrative Pronouns",
+      "tr": "Eril ve Dişil İsimler / İşaret İsimleri",
+      "ar": "المذكر والمؤنث / اسم الإشارة"
+    }
+  },
+  "L1W4": {
+    "verified_title": {
+      "en": "Idafa (Genitive / Possessive Noun Construction)",
+      "tr": "İsim Tamlaması (İzafet)",
+      "ar": "الإضافة"
+    },
+    "summary": "This lesson introduces the Arabic genitive construction (الإضافة), explaining that it is a relationship between two nouns where the first (مضاف) loses its nunation (tanwin) and the second (مضاف إليه) is always in the genitive case (majrur). Students practise forming idafa phrases from pairs of nouns and then identify idafa constructions within short Quranic surahs (al-Maun, al-Fatiha, al-Fil, Quraysh, al-Kawthar, al-Kafirun, al-Nasr, al-Masad, al-Falaq, al-Nas, al-Baqara, al-Hashr).",
+    "concepts": [
+      {
+        "name": {
+          "ar": "الإضافة",
+          "en": "Idafa (Genitive Construction)",
+          "tr": "İzafet (İsim Tamlaması)"
+        },
+        "keywords": [
+          "idafa",
+          "genitive construction",
+          "mudaf",
+          "mudaf ilayh",
+          "possessive",
+          "noun phrase",
+          "ism",
+          "majrur"
+        ],
+        "examples": [
+          "كِتَابُ اللهِ",
+          "طَعَامُ الْمِسْكِينِ",
+          "بَيْتُ عَمَّارٍ",
+          "أَصْحَابُ الْجَنَّةِ",
+          "رَبِّ الْعَالَمِينَ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الْمُضَاف",
+          "en": "Mudaf (First noun in idafa)",
+          "tr": "Muzaf (Tamlayanın birinci unsuru)"
+        },
+        "keywords": [
+          "mudaf",
+          "first noun",
+          "no tanwin",
+          "tanwin dropped",
+          "construct state",
+          "idafa head"
+        ],
+        "examples": [
+          "كِتَابُ اللهِ",
+          "بَابُ الْمَدْرَسَةِ",
+          "يَوْمِ الدِّينِ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الْمُضَافُ إِلَيْهِ",
+          "en": "Mudaf ilayhi (Second noun in idafa, genitive)",
+          "tr": "Muzafun ileyh (İkinci unsur, mecrur)"
+        },
+        "keywords": [
+          "mudaf ilayh",
+          "majrur",
+          "genitive",
+          "kasra",
+          "jar",
+          "second noun",
+          "idafa tail"
+        ],
+        "examples": [
+          "طَعَامُ الْمِسْكِينِ",
+          "رِحْلَةَ الشِّتَاءِ",
+          "رَبِّ الْفَلَقِ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "حذف التنوين في الْمُضَاف",
+          "en": "Dropping of tanwin on the mudaf",
+          "tr": "Muzaftan tenvinin düşmesi"
+        },
+        "keywords": [
+          "tanwin",
+          "tanwin dropped",
+          "no nunation",
+          "la yunawwan",
+          "mudaf",
+          "indefinite to definite"
+        ],
+        "examples": [
+          "بَيْتٌ → بَيْتُ عَمَّارٍ",
+          "كِتَابٌ → كِتَابُ اللهِ",
+          "طَعَامٌ → طَعَامُ الْمِسْكِينِ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الضمير المتصل في الإضافة",
+          "en": "Attached pronoun as mudaf ilayhi",
+          "tr": "Zamir ile yapılan izafet"
+        },
+        "keywords": [
+          "attached pronoun",
+          "damir muttasil",
+          "possessive pronoun",
+          "hu",
+          "na",
+          "ka",
+          "idafa with pronoun"
+        ],
+        "examples": [
+          "كِتَابُهُ",
+          "دِينُنَا",
+          "رَبِّكَ",
+          "صَلَاتِهِمْ"
+        ]
+      }
+    ],
+    "level": 1,
+    "week": 4,
+    "lesson_id": "L1W4",
+    "pdf_filename": "Level-1__4th Lesson Line Spacing 2.0",
+    "current_title": {
+      "en": "Noun Phrase — Idafa (Genitive Construction)",
+      "tr": "İsim Tamlaması (İzafet)",
+      "ar": "الإضافة"
+    }
+  },
+  "L1W5": {
+    "verified_title": {
+      "en": "Adjective and the Noun it Describes (Al-Sifa and Al-Mawsuf)",
+      "tr": "Sıfat ve Mevsuf (Nitelenen İsim)",
+      "ar": "الصِّفَةُ وَالْمَوْصُوف"
+    },
+    "summary": "This lesson introduces the Arabic adjective (al-sifa) and the noun it qualifies (al-mawsuf). It teaches that the adjective must agree with its noun in four categories: gender (masculine/feminine), number (singular/dual/plural), definiteness (definite/indefinite), and case ending (i'rab). The lesson also covers the special rule that the non-rational plural is treated grammatically as a feminine singular, and includes practice identifying adjective-noun pairs from Quranic verses.",
+    "concepts": [
+      {
+        "name": {
+          "ar": "الصِّفَةُ وَالْمَوْصُوف",
+          "en": "Adjective and Described Noun (Na't and Man'ut)",
+          "tr": "Sıfat ve Mevsuf"
+        },
+        "keywords": [
+          "na't",
+          "sifa",
+          "mawsuf",
+          "adjective",
+          "described noun",
+          "qualifier",
+          "attribute"
+        ],
+        "examples": [
+          "طَالِبٌ مُجْتَهِدٌ",
+          "اَلطَّالِبُ اَلْمُجْتَهِدُ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "مُطَابَقَةُ الصِّفَةِ فِي التَّذْكِيرِ وَالتَّأْنِيثِ",
+          "en": "Adjective Agreement in Gender",
+          "tr": "Sıfatın Cinsiyette Uyumu"
+        },
+        "keywords": [
+          "gender agreement",
+          "mudhakkar",
+          "muannath",
+          "masculine",
+          "feminine",
+          "ta marbuta",
+          "adjective agreement"
+        ],
+        "examples": [
+          "طَالِبٌ مُجْتَهِدٌ",
+          "طَالِبَةٌ مُجْتَهِدَةٌ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "مُطَابَقَةُ الصِّفَةِ فِي الْعَدَدِ",
+          "en": "Adjective Agreement in Number",
+          "tr": "Sıfatın Sayıda Uyumu"
+        },
+        "keywords": [
+          "number agreement",
+          "mufrad",
+          "muthanna",
+          "jam'",
+          "singular",
+          "dual",
+          "plural",
+          "adjective agreement"
+        ],
+        "examples": [
+          "طَالِبَانِ مُجْتَهِدَانِ",
+          "طُلَّابٌ مُجْتَهِدُونَ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "مُطَابَقَةُ الصِّفَةِ فِي التَّعْرِيفِ وَالتَّنْكِيرِ",
+          "en": "Adjective Agreement in Definiteness",
+          "tr": "Sıfatın Belirlilik/Belirsizlikte Uyumu"
+        },
+        "keywords": [
+          "definiteness agreement",
+          "ma'rifa",
+          "nakira",
+          "definite",
+          "indefinite",
+          "al-",
+          "tanwin",
+          "adjective agreement"
+        ],
+        "examples": [
+          "طَالِبٌ مُجْتَهِدٌ",
+          "اَلطَّالِبُ اَلْمُجْتَهِدُ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "مُطَابَقَةُ الصِّفَةِ فِي الْحَرَكَةِ الْإِعْرَابِيَّة",
+          "en": "Adjective Agreement in Case (I'rab)",
+          "tr": "Sıfatın İ'rabda Uyumu"
+        },
+        "keywords": [
+          "case agreement",
+          "i'rab",
+          "rafa'",
+          "nasb",
+          "jarr",
+          "marfu'",
+          "mansub",
+          "majrur",
+          "damma",
+          "fatha",
+          "kasra",
+          "adjective agreement"
+        ],
+        "examples": [
+          "جَاءَ طَالِبٌ مُجْتَهِدٌ",
+          "رَأَيْتُ طَالِبًا مُجْتَهِدًا",
+          "مَرَرْتُ بِطَالِبٍ مُجْتَهِدٍ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "جَمْعُ غَيْرِ الْعَاقِلِ يُعَامَلُ مُعَامَلَةَ الْمُفْرَدِ الْمُؤَنَّث",
+          "en": "Non-Rational Plural Treated as Feminine Singular",
+          "tr": "Akılsız Varlıkların Çoğulu Müfred Müennes Gibi Kabul Edilir"
+        },
+        "keywords": [
+          "non-rational plural",
+          "broken plural",
+          "feminine singular",
+          "jam' ghayr al-aqil",
+          "inanimate plural",
+          "adjective agreement",
+          "muannath"
+        ],
+        "examples": [
+          "كُتُبٌ قَيِّمَةٌ",
+          "صُحُفٌ مُطَهَّرَةٌ",
+          "اْلأَسْمَاءُ الْحُسْنَى"
+        ]
+      }
+    ],
+    "level": 1,
+    "week": 5,
+    "lesson_id": "L1W5",
+    "pdf_filename": "Level-1__5th Lesson Line Spacing 2.0",
+    "current_title": {
+      "en": "Adjective Phrase — Na't (Sifat)",
+      "tr": "Sıfat Tamlaması (Na't)",
+      "ar": "الصفة والموصوف — النعت"
+    }
+  },
+  "L1W6": {
+    "verified_title": {
+      "en": "Pronouns (Detached/Separate Pronouns for Nominative and Accusative)",
+      "tr": "Zamirler (Munfasıl Ref' ve Nasb Zamirleri)",
+      "ar": "الضمائر المنفصلة (ضمائر الرفع والنصب المنفصلة)"
+    },
+    "summary": "This lesson introduces Arabic pronouns (ضمائر), defined as nouns indicating a hidden/implied referent. It covers the full paradigm of detached nominative pronouns (ضمائر رفع منفصلة) including singular, dual, and plural forms for all persons and genders, illustrated with Quranic examples. It then introduces detached accusative pronouns (ضمائر نصب منفصلة) such as إيّاي and إيّاك, also illustrated with Quranic verses.",
+    "concepts": [
+      {
+        "name": {
+          "ar": "الضَّمِيرُ",
+          "en": "Pronoun (Damir)",
+          "tr": "Zamir"
+        },
+        "keywords": [
+          "damir",
+          "pronoun",
+          "muḍmar",
+          "hidden referent",
+          "ism"
+        ],
+        "examples": [
+          "هُوَ مُؤْمِنٌ",
+          "هِيَ مُؤْمِنَةٌ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "ضمائر رفع منفصلة",
+          "en": "Detached Nominative Pronouns",
+          "tr": "Munfasıl Ref' Zamirleri"
+        },
+        "keywords": [
+          "munfasil",
+          "detached pronoun",
+          "rafa",
+          "marfu",
+          "separate pronoun",
+          "nominative pronoun",
+          "huwa",
+          "hiya",
+          "hum",
+          "hunna",
+          "anta",
+          "anti",
+          "antum",
+          "antunna",
+          "nahnu",
+          "ana"
+        ],
+        "examples": [
+          "قُلْ هُوَ اللَّهُ أَحَدٌ",
+          "إِنَّ شَانِئَكَ هُوَ الْأَبْتَرُ",
+          "نَحْنُ أَنصَارُ اللَّهِ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "ضمائر نصب منفصلة",
+          "en": "Detached Accusative Pronouns",
+          "tr": "Munfasıl Nasb Zamirleri"
+        },
+        "keywords": [
+          "munfasil",
+          "detached pronoun",
+          "nasb",
+          "mansub",
+          "accusative pronoun",
+          "iyyaka",
+          "iyyahu",
+          "iyyaha",
+          "iyyahum",
+          "iyyai",
+          "iyya"
+        ],
+        "examples": [
+          "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+          "إِيَّاهُ يَطْلُبُ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الضمير المنفصل في الجملة الاسمية",
+          "en": "Detached Pronoun as Subject in Nominal Sentence",
+          "tr": "İsim Cümlesinde Munfasıl Zamir (Mübteda)"
+        },
+        "keywords": [
+          "mubtada",
+          "khabar",
+          "nominal sentence",
+          "jumla ismiyya",
+          "marfu",
+          "subject pronoun",
+          "huwa",
+          "hum"
+        ],
+        "examples": [
+          "أُولَئِكَ هُمُ الْمُفْلِحُونَ",
+          "إِنَّ اللَّهَ هُوَ الرَّزَّاقُ"
+        ]
+      }
+    ],
+    "level": 1,
+    "week": 6,
+    "lesson_id": "L1W6",
+    "pdf_filename": "Level-1__6th Lesson Line Spacing 2.0",
+    "current_title": {
+      "en": "Attached Pronouns (Muttasil Zamirler)",
+      "tr": "Muttasıl Zamirler",
+      "ar": "الضمائر المتصلة"
+    }
+  },
+  "L1W7": {
+    "verified_title": {
+      "en": "Attached Pronouns (Damair Muttasila)",
+      "tr": "Bitişik Zamirler (Muttasıl Zamirler)",
+      "ar": "الضمائر المتصلة"
+    },
+    "summary": "This lesson introduces the attached (suffixed) pronouns in Arabic, showing how they attach to verbs, nouns, and prepositions for all persons, genders, and numbers. It presents paradigms using the verb كَتَبَ, the noun كِتَاب, and prepositions such as مَعَ and لِ, demonstrating how the same pronoun suffix changes the vowel depending on grammatical case context. Students then practice identifying attached pronouns in Quranic verses.",
+    "concepts": [
+      {
+        "name": {
+          "ar": "الضمائر المتصلة",
+          "en": "Attached (Suffixed) Pronouns",
+          "tr": "Bitişik Zamirler"
+        },
+        "keywords": [
+          "attached pronoun",
+          "muttasil",
+          "suffix pronoun",
+          "damair muttasila",
+          "pronominal suffix",
+          "enclitic pronoun"
+        ],
+        "examples": [
+          "كَتَبَ",
+          "كَتَبَتْ",
+          "كَتَبُوا",
+          "كَتَبْنَ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "ضمائر الرفع المتصلة",
+          "en": "Attached Subject Pronouns (Nominative)",
+          "tr": "Merfû Bitişik Zamirler"
+        },
+        "keywords": [
+          "subject pronoun suffix",
+          "rafa",
+          "marfu",
+          "verb conjugation",
+          "ta marbuta suffix",
+          "waw jama suffix",
+          "nun suffix"
+        ],
+        "examples": [
+          "كَتَبْتَ",
+          "كَتَبْتُمْ",
+          "كَتَبْنَا",
+          "كَتَبْتُ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "ضمائر النصب والجر المتصلة بالأسماء",
+          "en": "Attached Pronouns on Nouns (Possessive/Genitive)",
+          "tr": "İsme Bitişen Zamirler (İyelik)"
+        },
+        "keywords": [
+          "possessive suffix",
+          "genitive pronoun",
+          "mudaf ilayh pronoun",
+          "kasra",
+          "noun suffix",
+          "kitabuhu",
+          "kitabuhum",
+          "idafa pronoun"
+        ],
+        "examples": [
+          "كِتَابِي",
+          "كِتَابُكَ",
+          "كِتَابُهُ",
+          "كِتَابُهُمْ",
+          "كِتَابُنَا"
+        ]
+      },
+      {
+        "name": {
+          "ar": "ضمائر النصب والجر المتصلة بالحروف",
+          "en": "Attached Pronouns on Prepositions",
+          "tr": "Harfe Bitişen Zamirler"
+        },
+        "keywords": [
+          "preposition suffix",
+          "pronoun on preposition",
+          "lahu",
+          "lana",
+          "laka",
+          "maa pronoun",
+          "li pronoun",
+          "jar majrur pronoun"
+        ],
+        "examples": [
+          "لِي",
+          "لَكَ",
+          "لَهُ",
+          "لَنَا",
+          "مَعِي",
+          "مَعَهُمْ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "ضمائر النصب المتصلة بالأفعال",
+          "en": "Attached Object Pronouns on Verbs",
+          "tr": "Fiile Bitişen Mef'ul Zamirleri"
+        },
+        "keywords": [
+          "object pronoun suffix",
+          "nasb",
+          "mansub pronoun",
+          "verb object suffix",
+          "hu suffix",
+          "kum suffix",
+          "na suffix"
+        ],
+        "examples": [
+          "كَتَبَنَا",
+          "كَتَبْنَاهُ",
+          "كَتَبْتُكُمْ",
+          "جَعَلَهُمْ",
+          "جَعَلَنِي"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الضمائر المتصلة في القرآن الكريم",
+          "en": "Identifying Attached Pronouns in Quranic Verses",
+          "tr": "Kur'an Ayetlerinde Bitişik Zamirleri Belirleme"
+        },
+        "keywords": [
+          "quran pronoun",
+          "attached pronoun identification",
+          "muttasil quran",
+          "suffix identification exercise",
+          "applied pronouns"
+        ],
+        "examples": [
+          "فَجَعَلَهُمْ كَعَصْفٍ مَأْكُولٍ",
+          "لَكُمْ دِينُكُمْ وَلِيَ دِينِ",
+          "فَسَبِّحْ بِحَمْدِ رَبِّكَ"
+        ]
+      }
+    ],
+    "level": 1,
+    "week": 7,
+    "lesson_id": "L1W7",
+    "pdf_filename": "Level-1__7th Lesson Line Spacing 2.0",
+    "current_title": {
+      "en": "Detached Pronouns (Munfasil Zamirler)",
+      "tr": "Munfasıl Zamirler",
+      "ar": "الضمائر المنفصلة"
+    }
+  },
+  "L1W8": {
+    "verified_title": {
+      "en": "Prepositions (Huruf al-Jarr) and Adverbs of Place (Zarf al-Makan)",
+      "tr": "Harf-i Cerler ve Yer Zarfları",
+      "ar": "حروف الجرّ وظروف المكان"
+    },
+    "summary": "This lesson introduces the Arabic prepositions (حروف الجر) and explains that they attach to nouns and cause them to take the genitive case (majrur). The lesson lists the main prepositions (من، إلى، حتى، في، عن، على، اللام، واو القسم، تاء القسم، الكاف، الباء) with examples from short Quranic surahs. It also introduces adverbs of place (ظروف المكان) such as فوق، تحت، خلف، أمام، وراء، بين، حول with Quranic examples illustrating their usage.",
+    "concepts": [
+      {
+        "name": {
+          "ar": "حروف الجرّ",
+          "en": "Prepositions (Huruf al-Jarr)",
+          "tr": "Harf-i Cerler"
+        },
+        "keywords": [
+          "harf al-jarr",
+          "preposition",
+          "majrur",
+          "genitive",
+          "kasra",
+          "min",
+          "ila",
+          "fi",
+          "an",
+          "ala",
+          "lam",
+          "ba",
+          "kaf",
+          "hatta",
+          "jar wa majrur"
+        ],
+        "examples": [
+          "فِي الْبَيْتِ",
+          "مِنَ النَّاسِ",
+          "إِلَى الْمَسْجِدِ",
+          "عَنِ الْعِبَادِ",
+          "عَلَى الرَّسُولِ",
+          "كَالْقَمَرِ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الاسم المجرور",
+          "en": "Noun in the Genitive Case (Majrur)",
+          "tr": "Mecrur İsim"
+        },
+        "keywords": [
+          "majrur",
+          "genitive",
+          "kasra ending",
+          "jar wa majrur",
+          "noun after preposition",
+          "kasra",
+          "tanwin kasra"
+        ],
+        "examples": [
+          "فِي جِيدِهَا حَبْلٌ مِنْ مَسَدٍ",
+          "بِرَبِّ الْفَلَقِ",
+          "فِي صُدُورِ النَّاسِ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "ظروف المكان",
+          "en": "Adverbs of Place (Zarf al-Makan)",
+          "tr": "Yer Zarfları"
+        },
+        "keywords": [
+          "zarf al-makan",
+          "adverb of place",
+          "fawqa",
+          "tahta",
+          "khalfa",
+          "amama",
+          "wara",
+          "bayna",
+          "hawla",
+          "locative",
+          "spatial noun"
+        ],
+        "examples": [
+          "فَوْقَ الشَّجَرَةِ",
+          "تَحْتَ الْكِتَابِ",
+          "أَمَامَ الْبَيْتِ",
+          "وَرَاءَ حِجَابٍ",
+          "بَيْنَ الْمَسْجِدِ وَالْبَيْتِ",
+          "حَوْلَ الْمَنْزِلِ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "واو القسم وتاء القسم",
+          "en": "Oath Prepositions: Waw and Ta of Qasam",
+          "tr": "Kasem Harfleri: Vav ve Ta"
+        },
+        "keywords": [
+          "waw al-qasam",
+          "ta al-qasam",
+          "oath",
+          "qasam",
+          "preposition",
+          "majrur",
+          "jar"
+        ],
+        "examples": [
+          "وَالْعَصْرِ",
+          "وَالْفَجْرِ",
+          "وَالتِّينِ وَالزَّيْتُونِ"
+        ]
+      }
+    ],
+    "level": 1,
+    "week": 8,
+    "lesson_id": "L1W8",
+    "pdf_filename": "Level-1__8th Lesson Line Spacing 2.0 ",
+    "current_title": {
+      "en": "Prepositions & Adverbs of Place",
+      "tr": "Harfi Cerler ve Yer Zarfları",
+      "ar": "حروف الجر وظروف المكان"
+    }
+  },
+  "L1W9": {
+    "verified_title": {
+      "en": "Nominal Sentence (Jumlah Ismiyya): Mubtada and Khabar",
+      "tr": "İsim Cümlesi: Mübteda ve Haber",
+      "ar": "الجملة الاسمية: المبتدأ والخبر"
+    },
+    "summary": "This lesson introduces the nominal sentence (jumlah ismiyya) as a sentence beginning with a noun, contrasted with the verbal sentence (jumlah fi'liyya). It explains the mubtada (subject) as a definite, marfu' noun and the khabar (predicate) as a marfu' word or phrase that completes the meaning. The lesson also covers agreement rules between mubtada and khabar in gender, number, and the special treatment of non-rational plurals as feminine singular.",
+    "concepts": [
+      {
+        "name": {
+          "ar": "الجملة الاسمية",
+          "en": "Nominal Sentence (Jumlah Ismiyya)",
+          "tr": "İsim Cümlesi"
+        },
+        "keywords": [
+          "jumlah ismiyya",
+          "nominal sentence",
+          "sentence beginning with noun",
+          "ism",
+          "marfu"
+        ],
+        "examples": [
+          "اﷲُ غَفُورٌ",
+          "اَلْقُرْآنُ الْكَرِيمُ كِتَابُ اللهِ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "المبتدأ",
+          "en": "Mubtada (Subject of Nominal Sentence)",
+          "tr": "Mübteda"
+        },
+        "keywords": [
+          "mubtada",
+          "marfu",
+          "definite",
+          "ma'rifa",
+          "raf",
+          "damma",
+          "subject"
+        ],
+        "examples": [
+          "اَلطَّالِبُ مُجْتَهِدٌ",
+          "اَللهُ الصَّمَدُ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الخبر",
+          "en": "Khabar (Predicate of Nominal Sentence)",
+          "tr": "Haber"
+        },
+        "keywords": [
+          "khabar",
+          "marfu",
+          "predicate",
+          "nakira",
+          "indefinite",
+          "damma",
+          "tanwin",
+          "mufrad"
+        ],
+        "examples": [
+          "اَلْكِتَابُ جَدِيدٌ",
+          "اَلطَّالِبَةُ مُجْتَهِدَةٌ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الخبر شبه الجملة",
+          "en": "Khabar as Quasi-Sentence (Prepositional/Adverbial Phrase)",
+          "tr": "Cümleye Benzer Haber (Şibh-i Cümle)"
+        },
+        "keywords": [
+          "shibh al-jumla",
+          "jar wa majrur",
+          "zarf",
+          "prepositional phrase",
+          "khabar"
+        ],
+        "examples": [
+          "فِي قُلُوبِهِمْ مَرَضٌ",
+          "وَعِنْدَهُ مَفَاتِحُ الْغَيْبِ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "مطابقة الخبر للمبتدأ",
+          "en": "Agreement of Khabar with Mubtada (Gender and Number)",
+          "tr": "Haberin Mübtedayla Uyumu (Cinsiyet ve Sayı)"
+        },
+        "keywords": [
+          "agreement",
+          "gender",
+          "number",
+          "mudhakkar",
+          "muannath",
+          "mufrad",
+          "muthanna",
+          "jam",
+          "masculine",
+          "feminine",
+          "dual",
+          "plural"
+        ],
+        "examples": [
+          "اَلطَّالِبَتَانِ مُجْتَهِدَتَانِ",
+          "اَلطُّلَّابُ مُجْتَهِدُونَ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "جمع غير العاقل يُعامَل معاملة المفرد المؤنث",
+          "en": "Non-Rational Plural Treated as Feminine Singular",
+          "tr": "Akılsız Çoğul, Müfred Müennes Gibi Kabul Edilir"
+        },
+        "keywords": [
+          "non-rational plural",
+          "jam ghayr al-aqil",
+          "feminine singular",
+          "broken plural",
+          "muannath mufrad",
+          "agreement"
+        ],
+        "examples": [
+          "اَلْكُتُبُ مُفِيدَةٌ",
+          "اَلْأَشْجَارُ جَمِيلَةٌ"
+        ]
+      }
+    ],
+    "level": 1,
+    "week": 9,
+    "lesson_id": "L1W9",
+    "pdf_filename": "Level-1__9th Lesson Line Spacing 2.0 ",
+    "current_title": {
+      "en": "Nominal Sentence (Jumlah Ismiyya)",
+      "tr": "İsim Cümlesi",
+      "ar": "الجملة الاسمية"
+    }
+  },
+  "L1W10": {
+    "verified_title": {
+      "en": "Singular, Dual, and Sound Masculine Plural",
+      "tr": "Tekil, İkil ve Kurallı Eril Çoğul",
+      "ar": "المفرد والمثنى وجمع المذكر السالم"
+    },
+    "summary": "This lesson introduces the three number categories in Arabic grammar: singular (مفرد), dual (مثنى), and plural (جمع), with a focus on the sound masculine plural (جمع مذكر سالم). It explains how masculine nouns and adjectives form the dual by adding ان/ين and the sound masculine plural by adding ون/ين, demonstrating paradigms with multiple Quranic vocabulary items. Students then practice identifying sound masculine plurals in Quranic verses.",
+    "concepts": [
+      {
+        "name": {
+          "ar": "المفرد",
+          "en": "Singular (mufrad)",
+          "tr": "Tekil (Müfred)"
+        },
+        "keywords": [
+          "mufrad",
+          "singular",
+          "masculine singular",
+          "feminine singular",
+          "tanwin",
+          "damma tanwin"
+        ],
+        "examples": [
+          "مُسْلِمٌ",
+          "مُسْلِمَةٌ",
+          "صَالِحٌ",
+          "كَافِرٌ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "المثنى",
+          "en": "Dual (muthanna)",
+          "tr": "İkil (Müsenna)"
+        },
+        "keywords": [
+          "muthanna",
+          "dual",
+          "alif nun",
+          "ya nun",
+          "ani",
+          "ayni",
+          "nominative dual",
+          "accusative dual",
+          "genitive dual"
+        ],
+        "examples": [
+          "مُسْلِمَانِ",
+          "مُسْلِمَيْنِ",
+          "عَاِلَمَانِ",
+          "كَافَِرانِ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "جمع المذكر السالم",
+          "en": "Sound Masculine Plural (jam' mudhakkar salim)",
+          "tr": "Kurallı Eril Çoğul (Cem-i Müzekker Salim)"
+        },
+        "keywords": [
+          "jam mudhakkar salim",
+          "sound masculine plural",
+          "waw nun",
+          "ya nun",
+          "una ending",
+          "ina ending",
+          "marfu plural",
+          "mansub plural",
+          "majrur plural",
+          "salim plural"
+        ],
+        "examples": [
+          "مُسْلِمُونَ",
+          "مُسْلِمِينَ",
+          "الْكَافِرُونَ",
+          "الْمُفْلِحُونَ",
+          "الْمُؤْمِنُونَ",
+          "الْمُرْسَلُونَ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "إعراب جمع المذكر السالم",
+          "en": "Declension of Sound Masculine Plural",
+          "tr": "Kurallı Eril Çoğulun İrabı"
+        },
+        "keywords": [
+          "waw nominative",
+          "ya accusative",
+          "ya genitive",
+          "rafa",
+          "nasb",
+          "jarr",
+          "una",
+          "ina",
+          "sound plural declension"
+        ],
+        "examples": [
+          "مُسْلِمُونَ",
+          "مُسْلِمِينَ",
+          "الْعَالَمِينَ",
+          "الْمُصَلِّينَ"
+        ]
+      }
+    ],
+    "level": 1,
+    "week": 10,
+    "lesson_id": "L1W10",
+    "pdf_filename": "Level-1__10th Lesson Line Spacing 2.0",
+    "current_title": {
+      "en": "Singular, Dual, Plural · Sound Masculine Plural",
+      "tr": "Tekil, İkil, Çoğul · Kurallı Muzekker Çoğul",
+      "ar": "المفرد والمثنى والجمع · جمع المذكر السالم"
+    }
+  },
+  "L1W11": {
+    "verified_title": {
+      "en": "Sound Feminine Plural (Jam' Mu'annath Salim)",
+      "tr": "Kurallı Müennes Çoğul (Cem' Müennes Salim)",
+      "ar": "جَمْعُ مُؤَنَّثٍ سَالِم"
+    },
+    "summary": "This lesson introduces the sound feminine plural (jam' mu'annath salim), explaining that a plural denotes more than two and is formed by adding ـَاتٌ (nominative) or ـَاتٍ (genitive/accusative) to the feminine singular base. A paradigm table shows the singular, dual, and sound feminine plural forms for common Quranic adjectives and nouns. The lesson concludes with Quranic identification exercises drawing from Surat al-Ahzab 35, al-Tawbah 72, al-Baqarah 25/238, and others.",
+    "concepts": [
+      {
+        "name": {
+          "ar": "جَمْعُ مُؤَنَّثٍ سَالِم",
+          "en": "Sound Feminine Plural (Jam' Mu'annath Salim)",
+          "tr": "Kurallı Müennes Çoğul"
+        },
+        "keywords": [
+          "jam muannath salim",
+          "sound feminine plural",
+          "aat ending",
+          "tanwin kasra plural",
+          "alif ta marbuta",
+          "feminine plural suffix",
+          "marfu",
+          "majrur",
+          "mansub",
+          "damma tanwin",
+          "kasra tanwin",
+          "plural formation"
+        ],
+        "examples": [
+          "مُسْلِمَاتٌ",
+          "مُسْلِمَاتٍ",
+          "مُؤْمِنَاتٌ",
+          "صَالِحَاتٌ",
+          "جَنَّاتٌ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "المُفْرَد المُؤَنَّث",
+          "en": "Feminine Singular (with ta marbuta)",
+          "tr": "Müennes Tekil (Kapalı Te ile)"
+        },
+        "keywords": [
+          "ta marbuta",
+          "feminine singular",
+          "mufrad muannath",
+          "damma tanwin",
+          "ة ending"
+        ],
+        "examples": [
+          "مُسْلِمَةٌ",
+          "مُؤْمِنَةٌ",
+          "جَنَّةٌ",
+          "طَيِّبَةٌ",
+          "صَادِقَةٌ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "المُثَنَّى المُؤَنَّث",
+          "en": "Feminine Dual",
+          "tr": "Müennes İkil (Tesniye)"
+        },
+        "keywords": [
+          "dual",
+          "muthanna",
+          "feminine dual",
+          "ani ending",
+          "ayni ending",
+          "taan",
+          "tayn"
+        ],
+        "examples": [
+          "مُسْلِمَتَانِ",
+          "مُسْلِمَتَيْنِ",
+          "جَنَّتَانِ",
+          "جَنَّتَيْنِ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "إِعْرَاب جَمْع مُؤَنَّث سَالِم",
+          "en": "Case Endings of the Sound Feminine Plural",
+          "tr": "Kurallı Müennes Çoğulun İ'rabı"
+        },
+        "keywords": [
+          "damma tanwin nominative",
+          "kasra tanwin genitive",
+          "kasra tanwin accusative",
+          "marfu",
+          "majrur",
+          "mansub",
+          "aat",
+          "sound plural inflection"
+        ],
+        "examples": [
+          "الصَّالِحَاتُ",
+          "الصَّالِحَاتِ",
+          "وَالطَّيِّبَاتُ",
+          "كَلِمَاتُ اللَّهِ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "جَمْع مُؤَنَّث سَالِم في القُرْآن",
+          "en": "Sound Feminine Plural in Quranic Context",
+          "tr": "Kur'an'da Kurallı Müennes Çoğul"
+        },
+        "keywords": [
+          "sound feminine plural",
+          "quranic example",
+          "muiminat",
+          "qanitat",
+          "sadiqat",
+          "sabirat",
+          "khashiat",
+          "saiimat",
+          "jannat",
+          "bayyinat",
+          "tahiyyat",
+          "dhurriyyat"
+        ],
+        "examples": [
+          "الْمُسْلِمَاتِ",
+          "الْقَانِتَاتِ",
+          "الصَّابِرَاتِ",
+          "جَنَّاتٍ تَجْرِي",
+          "التَّحِيَّاتُ لِلَّهِ"
+        ]
+      }
+    ],
+    "level": 1,
+    "week": 11,
+    "lesson_id": "L1W11",
+    "pdf_filename": "Level-1__11th Lesson Line Spacing 2.0",
+    "current_title": {
+      "en": "Sound Feminine Plural",
+      "tr": "Kurallı Muennes Çoğul",
+      "ar": "جمع المؤنث السالم"
+    }
+  },
+  "L1W12": {
+    "verified_title": {
+      "en": "Broken Plural (Jam' al-Taksir) — Patterns and Quranic Examples",
+      "tr": "Kırık Çoğul (Cemü't-Teksir) — Kalıpları ve Kuran'dan Örnekler",
+      "ar": "جَمْعُ التَّكْسِيرِ — أوزانه وأمثلته القرآنية"
+    },
+    "summary": "This lesson introduces the broken plural (Jam' al-Taksir) in Arabic, defining it as a plural form that denotes more than two and involves an internal change to the singular's structure. It presents the major broken plural patterns (e.g. فِعَال، فُعُل، أَفْعَال، فُعُول، أَفْعِلَة، أَفْعُل، فُعَلاء، أَفْعِلاء) with paired singular-plural examples. The lesson then reinforces these patterns through identification exercises using Quranic verses.",
+    "concepts": [
+      {
+        "name": {
+          "ar": "جَمْعُ التَّكْسِيرِ",
+          "en": "Broken Plural (Jam' al-Taksir)",
+          "tr": "Kırık Çoğul (Cemü't-Teksir)"
+        },
+        "keywords": [
+          "broken plural",
+          "jam al-taksir",
+          "internal change",
+          "plural pattern",
+          "more than two"
+        ],
+        "examples": [
+          "جَمْعُ التَّكْسِيرِ",
+          "عَبْدٌ → عِبَادٌ",
+          "وَلَدٌ → أَوْلَادٌ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "وَزْنُ فِعَال",
+          "en": "Broken Plural Pattern: fi'āl",
+          "tr": "Kırık Çoğul Kalıbı: fiʿāl"
+        },
+        "keywords": [
+          "fi'al",
+          "broken plural",
+          "fi'al pattern",
+          "fial",
+          "plural form"
+        ],
+        "examples": [
+          "عَبْدٌ → عِبَادٌ",
+          "رَجُلٌ → رِجَالٌ",
+          "بَلَدٌ → بِلَادٌ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "وَزْنُ فُعُل",
+          "en": "Broken Plural Pattern: fu'ul",
+          "tr": "Kırık Çoğul Kalıbı: fuʿul"
+        },
+        "keywords": [
+          "fu'ul",
+          "broken plural",
+          "fu'ul pattern",
+          "plural form"
+        ],
+        "examples": [
+          "رَسُولٌ → رُسُلٌ",
+          "سَبِيلٌ → سُبُلٌ",
+          "كِتَابٌ → كُتُبٌ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "وَزْنُ أَفْعَال",
+          "en": "Broken Plural Pattern: af'āl",
+          "tr": "Kırık Çoğul Kalıbı: afʿāl"
+        },
+        "keywords": [
+          "af'al",
+          "af'al pattern",
+          "broken plural",
+          "plural form",
+          "af'al"
+        ],
+        "examples": [
+          "وَلَدٌ → أَوْلَادٌ",
+          "عَمَلٌ → أَعْمَالٌ",
+          "شَهْرٌ → أَشْهُرٌ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "وَزْنُ فُعُول",
+          "en": "Broken Plural Pattern: fu'ūl",
+          "tr": "Kırık Çoğul Kalıbı: fuʿūl"
+        },
+        "keywords": [
+          "fu'ul",
+          "fu'ool",
+          "broken plural",
+          "fu'ul pattern",
+          "plural form"
+        ],
+        "examples": [
+          "قَلْبٌ → قُلُوبٌ",
+          "بَيْتٌ → بُيُوتٌ",
+          "صَدْرٌ → صُدُورٌ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "وَزْنُ فُعَلاء وأَفْعِلاء وأَفْعِلَة وأَفْعُل",
+          "en": "Broken Plural Patterns: fu'alā', af'ilā', af'ila, af'ul",
+          "tr": "Kırık Çoğul Kalıpları: fuʿalāʾ, afʿilāʾ, afʿila, afʿul"
+        },
+        "keywords": [
+          "fu'ala",
+          "af'ila",
+          "af'ila'",
+          "af'ul",
+          "broken plural",
+          "plural of adjective",
+          "plural of noun",
+          "scholars plural",
+          "prophets plural"
+        ],
+        "examples": [
+          "عَالِمٌ → عُلَمَاءُ",
+          "نَبِيٌّ → أَنْبِيَاءُ",
+          "فَقِيرٌ → فُقَرَاءُ",
+          "طَعَامٌ → أَطْعِمَةٌ"
+        ]
+      }
+    ],
+    "level": 1,
+    "week": 12,
+    "lesson_id": "L1W12",
+    "pdf_filename": "Level-1__12th Lesson Line Spacing 2.0",
+    "current_title": {
+      "en": "Broken Plural (Jamu Taksir)",
+      "tr": "Kırık Çoğul (Cemu Teksir)",
+      "ar": "جمع التكسير"
+    }
+  },
+  "L1W13": {
+    "verified_title": {
+      "en": "The Past Tense Verb (Al-Fi'l Al-Madi) — Forms and Conjugations",
+      "tr": "Geçmiş Zaman Fiili (El-Fi'lu'l-Mâdî) — Çekimleri",
+      "ar": "الفعل الماضي — صيغه وتصريفاته"
+    },
+    "summary": "This lesson introduces the Arabic past tense verb (الفعل الماضي), presenting its base forms (فَعَلَ, كَتَبَ, رَفَعَ, سَبَّحَ, عَلَّمَ, قَالَ) and their full conjugation across all pronouns (أنا, نحن, أنتَ, أنتِ, أنتم, أنتنّ, هو, هي, هم, هنّ). It also introduces the concept of using the past tense form to express certain future meanings (مُحَقَّق الوقوع), where an event is so certain it is described as if already past. Numerous Quranic examples are provided to illustrate both the conjugation patterns and the identification of past tense verbs in context.",
+    "concepts": [
+      {
+        "name": {
+          "ar": "الفعل الماضي",
+          "en": "Past Tense Verb (Al-Fi'l Al-Madi)",
+          "tr": "Mazi Fiil (Geçmiş Zaman Fiili)"
+        },
+        "keywords": [
+          "madi",
+          "past tense",
+          "fi'l madi",
+          "perfect verb",
+          "fatha",
+          "base form",
+          "triliteral root",
+          "form I",
+          "form II"
+        ],
+        "examples": [
+          "كَتَبَ",
+          "فَعَلَ",
+          "رَفَعَ",
+          "سَبَّحَ",
+          "عَلَّمَ",
+          "قَالَ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "تصريف الفعل الماضي",
+          "en": "Conjugation of the Past Tense Verb",
+          "tr": "Mazi Fiilin Çekimi"
+        },
+        "keywords": [
+          "conjugation",
+          "pronoun suffix",
+          "madi conjugation",
+          "tu suffix",
+          "na suffix",
+          "ta suffix",
+          "ti suffix",
+          "tum suffix",
+          "waw suffix",
+          "nun suffix",
+          "hu",
+          "hiya",
+          "nahnu",
+          "ana"
+        ],
+        "examples": [
+          "كَتَبْتُ",
+          "كَتَبْنَا",
+          "كَتَبْتَ",
+          "كَتَبْتِ",
+          "كَتَبْتُمْ",
+          "كَتَبُوا",
+          "كَتَبْنَ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "مُحَقَّق الوقوع",
+          "en": "Prophetic Past (Certainty of Occurrence)",
+          "tr": "Kesinleşmiş Gelecek (Mazi Sigasıyla Gelecek)"
+        },
+        "keywords": [
+          "muhaqqaq al-wuqu'",
+          "past tense for future",
+          "certain future",
+          "prophetic perfect",
+          "quranic usage",
+          "emphasis"
+        ],
+        "examples": [
+          "إِذَا جَاءَ نَصْرُ اللَّهِ وَالْفَتْحُ",
+          "وَنُفِخَ فِي الصُّورِ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الفعل الماضي في القرآن",
+          "en": "Past Tense Verb Identification in Quran",
+          "tr": "Kur'an'da Mazi Fiil Tanımlama"
+        },
+        "keywords": [
+          "quranic verb",
+          "past tense identification",
+          "madi",
+          "fi'l",
+          "recognition exercise",
+          "form I",
+          "form II",
+          "hollow verb",
+          "weak verb"
+        ],
+        "examples": [
+          "أَعْطَيْنَاكَ الْكَوْثَرَ",
+          "عَلَّمَ الْإِنسَانَ مَا لَمْ يَعْلَمْ",
+          "سَبَّحَ لِلَّهِ مَا فِي السَّمَاوَاتِ",
+          "وَكَتَبْنَا لَهُ فِي الْأَلْوَاحِ"
+        ]
+      }
+    ],
+    "level": 1,
+    "week": 13,
+    "lesson_id": "L1W13",
+    "pdf_filename": "Level-1__13th Lesson Line Spacing 2.0",
+    "current_title": {
+      "en": "Past Tense Verb (Madi Fi'l)",
+      "tr": "Geçmiş Zaman — Mazi Fiil",
+      "ar": "الفعل الماضي"
+    }
+  },
+  "L1W14": {
+    "verified_title": {
+      "en": "The Present Tense Verb (Al-Fi'l Al-Mudari')",
+      "tr": "Geniş Zaman Fiili (Muzari' Fiil)",
+      "ar": "الفعل المضارع"
+    },
+    "summary": "This lesson introduces the Arabic present tense verb (al-fi'l al-mudāri') by presenting a full conjugation table across all pronouns (first, second, and third person, singular and plural, masculine and feminine) using common Quranic verbs. Students practice identifying mudāri' verbs through exercises drawn directly from short Quranic suras (al-Fātiha, al-Fīl, al-Māʿūn, al-Kāfirūn, al-Nasr, al-Nās, al-Baqara, etc.). The lesson also opens and closes with a supplication (duʿāʾ) that is rich in first-person plural mudāri' verb forms.",
+    "concepts": [
+      {
+        "name": {
+          "ar": "الفعل المضارع",
+          "en": "Present Tense Verb (Mudari')",
+          "tr": "Geniş Zaman Fiili (Muzari')"
+        },
+        "keywords": [
+          "mudari",
+          "present tense",
+          "imperfect verb",
+          "yaf'alu pattern",
+          "marfu",
+          "damma ending",
+          "indicative",
+          "fi'l mudari"
+        ],
+        "examples": [
+          "يَكْتُبُ",
+          "يَقُولُ",
+          "يَعْلَمُ",
+          "يَعْبُدُ",
+          "يَعْمَلُ",
+          "يَكُونُ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "صيغة المضارع للضمائر المختلفة",
+          "en": "Mudari' Conjugation by Pronoun",
+          "tr": "Zamire Göre Muzari' Çekimi"
+        },
+        "keywords": [
+          "conjugation table",
+          "person",
+          "gender",
+          "singular",
+          "plural",
+          "masculine",
+          "feminine",
+          "ana",
+          "nahnu",
+          "anta",
+          "anti",
+          "antum",
+          "antunna",
+          "huwa",
+          "hiya",
+          "hum",
+          "hunna",
+          "verb paradigm"
+        ],
+        "examples": [
+          "أَكْتُبُ",
+          "نَكْتُبُ",
+          "تَكْتُبُ",
+          "تَكْتُبِينَ",
+          "تَكْتُبُونَ",
+          "يَكْتُبُونَ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الفعل المضارع في القرآن الكريم",
+          "en": "Identifying Mudari' Verbs in Quranic Verses",
+          "tr": "Kuran Ayetlerinde Muzari' Fiil Tespiti"
+        },
+        "keywords": [
+          "quran",
+          "identification exercise",
+          "tayin",
+          "fi'l mudari",
+          "sura al-fatiha",
+          "sura al-fil",
+          "sura al-maun",
+          "sura al-kafirun",
+          "sura al-nasr",
+          "sura al-nas",
+          "sura al-baqara"
+        ],
+        "examples": [
+          "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+          "لَا أَعْبُدُ مَا تَعْبُدُونَ",
+          "يَعْلَمُ مَا تُسِرُّونَ وَمَا تُعْلِنُونَ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "صيغة المضارع للمؤنث الجمع (النون)",
+          "en": "Feminine Plural Mudari' with Nun",
+          "tr": "Dişil Çoğul Muzari' (Nun ile)"
+        },
+        "keywords": [
+          "feminine plural",
+          "hunna",
+          "antunna",
+          "nun ending",
+          "verb conjugation",
+          "yaf'alna",
+          "taf'alna"
+        ],
+        "examples": [
+          "يَكْتُبْنَ",
+          "تَكْتُبْنَ",
+          "يَعْمَلْنَ",
+          "تَعْمَلْنَ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الفعل المضارع للمؤنث المفرد (ياء المضارعة)",
+          "en": "Feminine Singular Mudari' with Ta-prefix and Feminine Marker",
+          "tr": "Dişil Tekil Muzari' (Yai Muzari'a ile)"
+        },
+        "keywords": [
+          "feminine singular",
+          "anti",
+          "hiya",
+          "ta prefix",
+          "ina suffix",
+          "taf'alina",
+          "mudara'a prefix"
+        ],
+        "examples": [
+          "تَكْتُبِينَ",
+          "تَقُولِينَ",
+          "تَعْلَمِينَ",
+          "تَعْبِدِينَ"
+        ]
+      }
+    ],
+    "level": 1,
+    "week": 14,
+    "lesson_id": "L1W14",
+    "pdf_filename": "Level-1__14th Lesson Line Spacing 2.0",
+    "current_title": {
+      "en": "Present Tense Verb (Mudari' Fi'l)",
+      "tr": "Geniş Zaman — Muzari Fiil",
+      "ar": "الفعل المضارع"
+    }
+  },
+  "L2W1": {
+    "verified_title": {
+      "en": "The Imperative: Direct Command (Amr), Lam al-Amr (Third-Person Command), Amma, and Lam al-Ibtida'",
+      "tr": "Emir Fiili: Doğrudan Emir (Emr-i Hâzır), Lâmu'l-Emir (Emr-i Gâib), Emmâ ve Lâmu'l-İbtidâ",
+      "ar": "الأمر: فعل الأمر، لام الأمر، أمَّا، ولام الابتداء"
+    },
+    "summary": "This lesson covers three related Arabic grammar topics: (1) the imperative verb (فعل الأمر) formed directly for the second person across all conjugations; (2) lam al-amr (لام الأمر), which uses the prefixed lam to form third-person and first-person commands with the jussive (majzum) mudari'; (3) the particle أمَّا (a conditional-emphatic particle whose apodosis is introduced by fa-); and (4) lam al-ibtida' (لام الابتداء), an emphatic lam that enters on nouns and imperfect verbs to affirm the content of a sentence. Quranic examples from Surah al-Duha, al-Baqara, al-Nas, al-Kawthar, and others are used throughout.",
+    "concepts": [
+      {
+        "name": {
+          "ar": "فعل الأمر",
+          "en": "Imperative Verb (Direct Command)",
+          "tr": "Emir Fiili (Doğrudan Emir / Emr-i Hâzır)"
+        },
+        "keywords": [
+          "imperative",
+          "amr",
+          "fi'l al-amr",
+          "second person",
+          "command",
+          "jussive stem",
+          "sukun ending",
+          "hamzat al-wasl",
+          "apocopated"
+        ],
+        "examples": [
+          "اُكْتُبْ",
+          "اِقْرَأْ",
+          "قُلْ أَعُوذُ بِرَبِّ النَّاسِ",
+          "فَصَلِّ لِرَبِّكَ وَانْحَرْ",
+          "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "لام الأمر",
+          "en": "Lam al-Amr (Third/First-Person Command Particle)",
+          "tr": "Lâmu'l-Emir (Emr-i Gâib)"
+        },
+        "keywords": [
+          "lam al-amr",
+          "lam al-amr prefix",
+          "third person command",
+          "first person command",
+          "majzum",
+          "jussive",
+          "mudari majzum",
+          "fa-l",
+          "wal",
+          "liyaktub"
+        ],
+        "examples": [
+          "لِيَكْتُبْ خَالِدٌ دَرْسَهُ",
+          "لِنَكْتُبْ دُرُوسَنَا",
+          "فَلْيَعْبُدُوا رَبَّ هَذَا الْبَيْتِ",
+          "وَلْتَكُنْ مِنْكُمْ أُمَّةٌ",
+          "فَلْيَنْظُرِ الْإِنسَانُ مِمَّ خُلِقَ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "أمَّا",
+          "en": "Amma (Conditional-Emphatic Particle)",
+          "tr": "Emmâ (Şart ve Pekiştirme Edatı)"
+        },
+        "keywords": [
+          "amma",
+          "conditional particle",
+          "emphatic",
+          "fa apodosis",
+          "fa-amma",
+          "topic-comment",
+          "harf shart"
+        ],
+        "examples": [
+          "فَأَمَّا الْيَتِيمَ فَلَا تَقْهَرْ",
+          "وَأَمَّا السَّائِلَ فَلَا تَنْهَرْ",
+          "أَمَّا السَّفِينَةُ فَكَانَتْ لِمَسَاكِينَ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "لام الابتداء",
+          "en": "Lam al-Ibtida' (Emphatic Lam of Inception)",
+          "tr": "Lâmu'l-İbtidâ (Pekiştirme Lâmı)"
+        },
+        "keywords": [
+          "lam al-ibtida",
+          "emphatic lam",
+          "tawkid",
+          "ism",
+          "mudari",
+          "affirmation",
+          "sentence emphasis",
+          "lam inception"
+        ],
+        "examples": [
+          "وَلَلْآخِرَةُ خَيْرٌ لَكَ",
+          "وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَى",
+          "وَلَأَجْرُ الْآخِرَةِ أَكْبَرُ",
+          "وَلَذِكْرُ اللَّهِ أَكْبَرُ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "النَّهي بـ لا",
+          "en": "Prohibition with Lā (Negative Imperative)",
+          "tr": "Lâ ile Nehiy (Yasaklama)"
+        },
+        "keywords": [
+          "la nahiya",
+          "prohibition",
+          "negative imperative",
+          "la + majzum",
+          "jussive",
+          "lam jazm",
+          "nahiy"
+        ],
+        "examples": [
+          "فَلَا تَقْهَرْ",
+          "فَلَا تَنْهَرْ",
+          "وَلَا تُسْرِفُوا"
+        ]
+      }
+    ],
+    "level": 2,
+    "week": 1,
+    "lesson_id": "L2W1",
+    "pdf_filename": "Level-2__15th Lesson Line Spacing 2.0",
+    "current_title": {
+      "en": "Imperative / لاَ / Lam al-Ibtida",
+      "tr": "Emr-i Hazır/Emr-i Gaib · لاَ · Lâm Al-İbtida",
+      "ar": "فعل الأمر · لا · لام الابتداء"
+    }
+  },
+  "L2W2": {
+    "verified_title": {
+      "en": "Prohibition (Nahiy) and Active Participle (Ism al-Fa'il)",
+      "tr": "Nehiy ve İsm-i Fâil",
+      "ar": "النهي واسم الفاعل"
+    },
+    "summary": "This lesson introduces the Arabic prohibition form (nahiy), explaining that it is formed by prefixing the prohibitive لا (lā al-nāhiya) to the present tense (muḍāriʿ) verb, causing it to be jussive (majzūm). It covers the conjugation of prohibition across all relevant pronouns, including defective verbs and the five verb forms (al-afʿāl al-khamsa), with Quranic examples. The second half introduces the active participle (ism al-fāʿil), showing its derivation pattern (fāʿilun for triliteral verbs; muXXiʿun for non-triliteral), and its declension in singular, dual, and plural forms, again with Quranic examples.",
+    "concepts": [
+      {
+        "name": {
+          "ar": "النهي",
+          "en": "Prohibition (Nahiy)",
+          "tr": "Nehiy (Yasaklama)"
+        },
+        "keywords": [
+          "nahiy",
+          "prohibition",
+          "la al-nahiya",
+          "prohibitive la",
+          "lam al-jazm",
+          "majzum",
+          "jussive",
+          "mudaric",
+          "negation imperative",
+          "la tafal"
+        ],
+        "examples": [
+          "لاَ تَكْتُبْ",
+          "وَلاَ تَمْشِ فِي اْلأَرْضِ مَرَحًا",
+          "لاَ تَكُنْ",
+          "لاَ تَقُلْ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "لا الناهية",
+          "en": "Prohibitive Lā",
+          "tr": "Nahiy Lâ'sı"
+        },
+        "keywords": [
+          "la nahiya",
+          "prohibitive particle",
+          "la plus mudaric",
+          "jazm",
+          "jussive particle",
+          "negation"
+        ],
+        "examples": [
+          "لا الناهية + الفعل المضارع = لا تَفْعَلْ",
+          "فَلاَ تَكْفُرْ",
+          "لاَ تَسْأَلُوا"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الأفعال الخمسة في النهي",
+          "en": "Five Verb Forms in Prohibition",
+          "tr": "Nehiyde Beş Fiil (Ef'âl-i Hamse)"
+        },
+        "keywords": [
+          "afal khamsa",
+          "five verbs",
+          "nun deletion",
+          "majzum plural",
+          "prohibition conjugation",
+          "second person plural",
+          "dual prohibition"
+        ],
+        "examples": [
+          "لاَ تَكْتُبَا",
+          "لاَ تَكْتُبُوا",
+          "لاَ تَكْتُبْنَ",
+          "لاَ تَكْتُبِي"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الفعل المعتل في النهي",
+          "en": "Defective/Weak Verb in Prohibition",
+          "tr": "Nehiyde İlletli Fiil"
+        },
+        "keywords": [
+          "weak verb",
+          "defective verb",
+          "harf illa",
+          "waw deletion",
+          "ya deletion",
+          "alif deletion",
+          "mu'tal",
+          "la tadu",
+          "la tansa",
+          "la tamshi"
+        ],
+        "examples": [
+          "لاَ تَدْعُ",
+          "لاَ تَنْسَ",
+          "لاَ تَمْشِ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "اسم الفاعل",
+          "en": "Active Participle (Ism al-Fa'il)",
+          "tr": "İsm-i Fâil"
+        },
+        "keywords": [
+          "ism al-fail",
+          "active participle",
+          "fa'il pattern",
+          "faилun",
+          "triliteral",
+          "non-triliteral",
+          "mu- prefix",
+          "participle declension",
+          "singular dual plural",
+          "broken plural",
+          "sound masculine plural",
+          "sound feminine plural"
+        ],
+        "examples": [
+          "شَاكِرٌ",
+          "كَاتِبٌ",
+          "قَائِلٌ",
+          "مُسْلِمٌ",
+          "مُؤْمِنٌ",
+          "مُتَكَبِّرٌ",
+          "ضَالٌّ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "اسم الفاعل من غير الثلاثي",
+          "en": "Active Participle of Non-Triliteral Verbs",
+          "tr": "Gayr-i Sülâsî İsm-i Fâil"
+        },
+        "keywords": [
+          "non-triliteral active participle",
+          "mu- prefix participle",
+          "form IV participle",
+          "form II participle",
+          "form V participle",
+          "form VI participle",
+          "muf'il",
+          "mufaʿʿil",
+          "mutafaʿʿil",
+          "mufa'il"
+        ],
+        "examples": [
+          "مُخْلِصٌ",
+          "مُؤَذِّنٌ",
+          "مُتَوَكِّلٌ",
+          "مُهَاجِرٌ"
+        ]
+      }
+    ],
+    "level": 2,
+    "week": 2,
+    "lesson_id": "L2W2",
+    "pdf_filename": "Level-2__16th Lesson Line Spacing 2.0",
+    "current_title": {
+      "en": "Prohibition (Nahiy) / Active Participle (Ism al-Fa'il)",
+      "tr": "Nehiy / İsmi Fâil",
+      "ar": "النهي / اسم الفاعل"
+    }
+  },
+  "L2W3": {
+    "verified_title": {
+      "en": "Case Endings (I'rab) for Nouns",
+      "tr": "İsimlerde İ'rab (Hâl Ekleri)",
+      "ar": "عَلامات الإعراب في الأسماء"
+    },
+    "summary": "This lesson introduces the three primary case endings (i'rab) for Arabic nouns: raf' (nominative, marked by damma), nasb (accusative, marked by fatha), and jarr (genitive, marked by kasra). It presents a comprehensive declension table covering singular, dual, sound masculine plural, sound feminine plural, and broken plural forms across all three cases. The lesson concludes with exercises identifying case endings in Quranic verses.",
+    "concepts": [
+      {
+        "name": {
+          "ar": "الرَّفْع",
+          "en": "Raf' (Nominative Case)",
+          "tr": "Ref' Hâli (Yalın Hâl)"
+        },
+        "keywords": [
+          "raf",
+          "marfu",
+          "damma",
+          "nominative",
+          "fa'il",
+          "mubtada",
+          "khabar",
+          "subject",
+          "predicate"
+        ],
+        "examples": [
+          "اَلْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+          "اللهُ غَفُورٌ",
+          "وَالصُّلْحُ خَيْرٌ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "النَّصْب",
+          "en": "Nasb (Accusative Case)",
+          "tr": "Nasb Hâli (Belirtme Hâli)"
+        },
+        "keywords": [
+          "nasb",
+          "mansub",
+          "fatha",
+          "accusative",
+          "maf'ul",
+          "ism inna",
+          "khabar kana",
+          "object"
+        ],
+        "examples": [
+          "مَا أَنزَلْنَا عَلَيْكَ الْقُرْآنَ لِتَشْقَى",
+          "إِنَّ اللهَ جَامِعُ الْمُنَافِقِينَ",
+          "وَكَانَ اللهُ عَلِيمًا حَكِيمًا"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الجَرّ",
+          "en": "Jarr (Genitive Case)",
+          "tr": "Cer Hâli (İlgi Hâli)"
+        },
+        "keywords": [
+          "jarr",
+          "majrur",
+          "kasra",
+          "genitive",
+          "mudaf ilayh",
+          "ism majrur",
+          "preposition"
+        ],
+        "examples": [
+          "فِي لَيْلَةِ الْقَدْرِ",
+          "لَيْلَةُ الْقَدْرِ خَيْرٌ مِنْ أَلْفِ شَهْرٍ",
+          "فِي صُدُورِ النَّاسِ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "تصريف الأسماء في الإعراب",
+          "en": "Noun Declension Table (all number forms)",
+          "tr": "İsimlerin Çekim Tablosu (Tüm Sayı Biçimleri)"
+        },
+        "keywords": [
+          "mufrad",
+          "muthanna",
+          "jama' mudhakkar salim",
+          "jama' mu'annath salim",
+          "jama' taksir",
+          "singular",
+          "dual",
+          "sound masculine plural",
+          "sound feminine plural",
+          "broken plural",
+          "tanwin",
+          "ya ending",
+          "waw nun",
+          "ya nun"
+        ],
+        "examples": [
+          "مُسْلِمٌ – مُسْلِمَانِ – مُسْلِمُونَ",
+          "مُسْلِمَةٌ – مُسْلِمَاتٌ",
+          "كِتَابٌ – كُتُبٌ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "علامات الإعراب الأصلية",
+          "en": "Primary I'rab Markers",
+          "tr": "Temel İ'rab Alâmetleri"
+        },
+        "keywords": [
+          "damma",
+          "fatha",
+          "kasra",
+          "i'rab",
+          "case marker",
+          "short vowel ending",
+          "nominative marker",
+          "accusative marker",
+          "genitive marker"
+        ],
+        "examples": [
+          "الرَّفْعُ: الضَّمَّةُ ( ُ- )",
+          "النَّصْبُ: الْفَتْحَةُ ( َ- )",
+          "الْجَرُّ: الْكَسْرَةُ ( ِ- )"
+        ]
+      }
+    ],
+    "level": 2,
+    "week": 3,
+    "lesson_id": "L2W3",
+    "pdf_filename": "Level-2__17th Lesson Line Spacing 2.0",
+    "current_title": {
+      "en": "Case Endings (I'rab) / Intensive Adjective (Sigh al-Mubalagha)",
+      "tr": "İsmin Halleri (İ'rab) / Mübalağalı İsim",
+      "ar": "الإعراب / صيغة المبالغة"
+    }
+  },
+  "L2W4": {
+    "verified_title": {
+      "en": "Verbal Sentence (Jumlah Fi'liyya) and Intensive Adjective Forms (Siyagh al-Mubalaghah)",
+      "tr": "Fiil Cümlesi ve Mübalağa Sıfatları",
+      "ar": "الجملة الفعلية وصيغ المبالغة"
+    },
+    "summary": "This lesson introduces the verbal sentence (jumlah fi'liyya), defined as a sentence beginning with a verb, and explains its three constituents: the verb (fi'l), the subject (fa'il), and the object (maf'ul). It also covers verb conjugation across all pronouns in past, present, and imperative forms, and distinguishes verbal sentences from nominal sentences. Additionally, the lesson introduces intensive adjective forms (siyagh al-mubalaghah), derived nouns indicating frequency or intensity of an action, presenting the main patterns (fa''al, mif'al, fa'ul, fa'il, fi'il, fu'alah) with Quranic examples.",
+    "concepts": [
+      {
+        "name": {
+          "ar": "الجملة الفعلية",
+          "en": "Verbal Sentence (Jumlah Fi'liyya)",
+          "tr": "Fiil Cümlesi"
+        },
+        "keywords": [
+          "jumlah fi'liyya",
+          "verbal sentence",
+          "sentence beginning with verb",
+          "fi'l",
+          "fa'il",
+          "maf'ul",
+          "verb-initial"
+        ],
+        "examples": [
+          "كَتَبَ الطَّالِبُ الدَّرْسَ",
+          "خَلَقَ اللهُ السَّمَاوَاتِ",
+          "يَسْأَلُ الطَّالِبُ الْمُدَرِّسَ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الفاعل",
+          "en": "Subject (Fa'il)",
+          "tr": "Fail (Özne)"
+        },
+        "keywords": [
+          "fa'il",
+          "subject",
+          "marfu'",
+          "nominative",
+          "after verb",
+          "explicit subject",
+          "hidden subject",
+          "zahir",
+          "mustatir",
+          "muttasil"
+        ],
+        "examples": [
+          "كَتَبَ الطَّالِبُ",
+          "كَتَبَتِ الطَّالِبَةُ",
+          "كَتَبَ الطُّلاَّبُ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "المفعول به",
+          "en": "Direct Object (Maf'ul bihi)",
+          "tr": "Mef'ul (Nesne)"
+        },
+        "keywords": [
+          "maf'ul bihi",
+          "direct object",
+          "mansub",
+          "accusative",
+          "fatha",
+          "nasb"
+        ],
+        "examples": [
+          "كَتَبَ الطَّالِبُ الدَّرْسَ",
+          "عَلَّمَ الإِنسَانَ",
+          "خَلَقَ الإِنسَانَ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "تصريف الفعل",
+          "en": "Verb Conjugation (Past, Present, Imperative)",
+          "tr": "Fiil Çekimi (Mazi, Muzari, Emir)"
+        },
+        "keywords": [
+          "verb conjugation",
+          "past tense",
+          "madi",
+          "present tense",
+          "mudari'",
+          "imperative",
+          "amr",
+          "all pronouns",
+          "gender agreement",
+          "number agreement"
+        ],
+        "examples": [
+          "كَتَبْتُ",
+          "نَكْتُبُ",
+          "اُكْتُبْ",
+          "كَتَبُوا",
+          "تَكْتُبِينَ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الجملة الاسمية مقابل الجملة الفعلية",
+          "en": "Nominal vs. Verbal Sentence",
+          "tr": "İsim Cümlesi ve Fiil Cümlesi Karşılaştırması"
+        },
+        "keywords": [
+          "jumlah ismiyya",
+          "jumlah fi'liyya",
+          "nominal sentence",
+          "verbal sentence",
+          "word order",
+          "subject-verb order",
+          "verb-subject order"
+        ],
+        "examples": [
+          "الطَّالِبُ كَتَبَ الدَّرْسَ",
+          "كَتَبَ الطَّالِبُ الدَّرْسَ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "صيغ المبالغة",
+          "en": "Intensive Adjective Forms (Siyagh al-Mubalaghah)",
+          "tr": "Mübalağa Sıfatları"
+        },
+        "keywords": [
+          "siyagh al-mubalaghah",
+          "intensive adjective",
+          "fa''al pattern",
+          "mif'al pattern",
+          "fa'ul pattern",
+          "fa'il pattern",
+          "fi'il pattern",
+          "fu'alah pattern",
+          "frequency of action",
+          "derived noun",
+          "active participle comparison",
+          "fa''al",
+          "fa'ul",
+          "fa'il",
+          "mif'al"
+        ],
+        "examples": [
+          "غَفَّارٌ",
+          "رَحِيمٌ",
+          "شَكُورٌ",
+          "عَلِيمٌ",
+          "مِدْرَارٌ",
+          "ظَلُومٌ"
+        ]
+      }
+    ],
+    "level": 2,
+    "week": 4,
+    "lesson_id": "L2W4",
+    "pdf_filename": "Level-2__18th Lesson Line Spacing 2.0",
+    "current_title": {
+      "en": "Verbal Sentence (Jumlah Fi'liyya)",
+      "tr": "Fiil Cümlesi",
+      "ar": "الجملة الفعلية"
+    }
+  },
+  "L2W5": {
+    "verified_title": {
+      "en": "Types of مَا / Future Tense Particles (س and سوف)",
+      "tr": "مَا'nın Çeşitleri / Gelecek Zaman Edatları (س ve سوف)",
+      "ar": "أنواع مَا / (س) و(سوف) للزمن المستقبل"
+    },
+    "summary": "This lesson covers the seven types of the Arabic particle مَا (interrogative, relative, negating, masdariyya, exclamatory, conditional, and kaffa), illustrating each with Quranic examples. It then introduces the two future tense particles س (for near future) and سوف (for distant future), both of which precede the present-tense verb (المضارع). Students practice identifying both phenomena across a wide range of Quranic verses.",
+    "concepts": [
+      {
+        "name": {
+          "ar": "مَا الاستفهامية",
+          "en": "Interrogative مَا",
+          "tr": "Soru مَا'sı"
+        },
+        "keywords": [
+          "ma istifhamiyya",
+          "interrogative particle",
+          "question",
+          "harf jarr",
+          "alif deletion",
+          "amma",
+          "lima",
+          "mimma",
+          "bima"
+        ],
+        "examples": [
+          "مَا هَذَا؟",
+          "مَا اسْمُكَ؟",
+          "لِمَ تَقُولُونَ مَا لَا تَفْعَلُونَ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "مَا الموصولة",
+          "en": "Relative مَا (equivalent to الذي)",
+          "tr": "İsm-i Mevsul مَا'sı"
+        },
+        "keywords": [
+          "ma mawsuliyya",
+          "relative pronoun",
+          "alladhi",
+          "non-human relative",
+          "subordinate clause"
+        ],
+        "examples": [
+          "فِيهَا مَا تَشْتَهِيهِ الْأَنْفُسُ",
+          "أَقْرَأُ مِنَ الكُتُبِ مَا يُفِيدُنِي"
+        ]
+      },
+      {
+        "name": {
+          "ar": "مَا النافية",
+          "en": "Negating مَا",
+          "tr": "Olumsuzluk مَا'sı"
+        },
+        "keywords": [
+          "ma nafiyya",
+          "negation",
+          "la nafiyya",
+          "negative particle",
+          "verb negation"
+        ],
+        "examples": [
+          "مَا كَتَبْتُ الدَّرْسَ",
+          "وَمَا رَبُّكَ بِظَلَّامٍ لِلْعَبِيدِ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "مَا المصدرية",
+          "en": "Masdariyya مَا (nominalizing particle)",
+          "tr": "Masdar مَا'sı"
+        },
+        "keywords": [
+          "ma masdariyya",
+          "verbal noun",
+          "masdari",
+          "nominalization",
+          "bima",
+          "duration",
+          "ma dama"
+        ],
+        "examples": [
+          "بِمَا نَسُوا يَوْمَ الْحِسَابِ",
+          "أُكْرِمُكَ مَا دُمْتَ عِنْدَي"
+        ]
+      },
+      {
+        "name": {
+          "ar": "مَا التعجبية والشرطية والكافة",
+          "en": "Exclamatory, Conditional, and Kaffa مَا",
+          "tr": "Hayranlık, Şart ve Kâffe مَا'sı"
+        },
+        "keywords": [
+          "ma ta'ajjubiyya",
+          "exclamatory",
+          "af'ala",
+          "maf'ul bihi",
+          "ma shartiyya",
+          "conditional",
+          "ma kaffa",
+          "inna wa akhwatuha",
+          "kaffa",
+          "innama"
+        ],
+        "examples": [
+          "مَا أَجْمَلَ السَّمَاءَ!",
+          "مَا تَزْرَعِ الْيَوْمَ تَحْصُدْهُ غَدًا",
+          "إِنَّمَا الْمُؤْمِنُونَ إِخْوَةٌ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "(س) و(سوف) للزمن المستقبل",
+          "en": "Future Tense Particles: س (near future) and سوف (distant future)",
+          "tr": "Gelecek Zaman Edatları: س (yakın) ve سوف (uzak)"
+        },
+        "keywords": [
+          "sin",
+          "sawfa",
+          "future tense",
+          "near future",
+          "distant future",
+          "mudari",
+          "present tense prefixed",
+          "mustaqbal",
+          "mustaqbal qarib",
+          "mustaqbal ba'id"
+        ],
+        "examples": [
+          "سَأَخْرُجُ مِنَ الْمَكْتَبِ",
+          "سَوْفَ أُسَافِرُ إِلَى بَلَدِي",
+          "وَلَسَوْفَ يُعْطِيكَ رَبُّكَ"
+        ]
+      }
+    ],
+    "level": 2,
+    "week": 5,
+    "lesson_id": "L2W5",
+    "pdf_filename": "Level-2__19th Lesson Line Spacing 2.0",
+    "current_title": {
+      "en": "Types of لا / Future Tense (سوف / س)",
+      "tr": "لا'nın Çeşitleri / Gelecek Zaman (سوف / س)",
+      "ar": "أنواع لا / المستقبل بـ سوف وس"
+    }
+  },
+  "L2W6": {
+    "verified_title": {
+      "en": "Negation Particles: لَيْسَ, مَا, and لَا (Negating Verbal and Nominal Sentences)",
+      "tr": "Olumsuzluk Edatları: لَيْسَ / مَا / لَا ile Fiil ve İsim Cümlelerinin Olumsuzlanması",
+      "ar": "أدوات النفي: لَيْسَ وَمَا وَلَا في الجملة الفعلية والاسمية"
+    },
+    "summary": "This lesson teaches how verbal sentences (الجملة الفعلية) are negated using مَا (typically with past-tense verbs) and لَا (typically with present-tense verbs), and how nominal sentences (الجملة الاسمية) are negated using لَيْسَ, مَا, or لَا. It explains that لَيْسَ, as a sister of كَانَ, keeps the subject (مبتدأ) in the nominative (مرفوع) while putting the predicate (خبر) in the accusative (منصوب). Quranic examples from multiple surahs are used to practice identifying negated verbs and nouns.",
+    "concepts": [
+      {
+        "name": {
+          "ar": "النفي بـ مَا في الجملة الفعلية",
+          "en": "Negation of verbal sentences with مَا",
+          "tr": "Fiil cümlelerinin مَا ile olumsuzlanması"
+        },
+        "keywords": [
+          "ma",
+          "negation",
+          "past tense",
+          "fi'l madi",
+          "verbal sentence",
+          "jumlah fi'liyyah",
+          "nafi"
+        ],
+        "examples": [
+          "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَى",
+          "وَمَا خَلَقْتُ الْجِنَّ وَالْإِنسَ إِلَّا لِيَعْبُدُونِ",
+          "مَا جَعَلَ اللَّهُ لِرَجُلٍ مِنْ قَلْبَيْنِ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "النفي بـ لَا في الجملة الفعلية",
+          "en": "Negation of verbal sentences with لَا",
+          "tr": "Fiil cümlelerinin لَا ile olumsuzlanması"
+        },
+        "keywords": [
+          "la",
+          "negation",
+          "present tense",
+          "fi'l mudari'",
+          "verbal sentence",
+          "jumlah fi'liyyah",
+          "nafi"
+        ],
+        "examples": [
+          "لِمَ تَقُولُونَ مَا لَا تَفْعَلُونَ",
+          "وَلَكِنَّ أَكْثَرَ النَّاسِ لَا يَعْلَمُونَ",
+          "قُلْ لَا أَمْلِكُ لِنَفْسِي نَفْعًا وَلَا ضَرًّا"
+        ]
+      },
+      {
+        "name": {
+          "ar": "النفي بـ لَيْسَ في الجملة الاسمية",
+          "en": "Negation of nominal sentences with لَيْسَ",
+          "tr": "İsim cümlelerinin لَيْسَ ile olumsuzlanması"
+        },
+        "keywords": [
+          "laysa",
+          "negation",
+          "nominal sentence",
+          "jumlah ismiyyah",
+          "sister of kana",
+          "raf' mubtada",
+          "nasb khabar",
+          "accusative predicate",
+          "nominative subject"
+        ],
+        "examples": [
+          "لَيْسَ الْبُخْلُ مَحْمُودًا",
+          "لَيْسَتِ الْمَسْأَلَةُ صَعْبَةً",
+          "أَلَيْسَ اللَّهُ بِأَحْكَمِ الْحَاكِمِينَ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "تصريف لَيْسَ",
+          "en": "Conjugation of لَيْسَ for all pronouns",
+          "tr": "لَيْسَ'in tüm zamirlerle çekimi"
+        },
+        "keywords": [
+          "laysa",
+          "lasta",
+          "lastu",
+          "laysuu",
+          "lasna",
+          "laysat",
+          "conjugation",
+          "sisters of kana",
+          "defective verb"
+        ],
+        "examples": [
+          "لَسْتُمْ مُدَرِّسِينَ",
+          "لَيْسُوا مُدَرِّسِينَ",
+          "لَسْنَا مُدَرِّسِينَ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "النفي بـ مَا في الجملة الاسمية",
+          "en": "Negation of nominal sentences with مَا",
+          "tr": "İsim cümlelerinin مَا ile olumsuzlanması"
+        },
+        "keywords": [
+          "ma",
+          "negation",
+          "nominal sentence",
+          "jumlah ismiyyah",
+          "nafi",
+          "harf"
+        ],
+        "examples": [
+          "وَمَا مُحَمَّدٌ إِلَّا رَسُولٌ",
+          "مَا أَنْتَ بِنِعْمَةِ رَبِّكَ بِمَجْنُونٍ",
+          "وَمَا أَنْتَ عَلَيْهِم بِوَكِيلٍ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "النفي بـ لَا النافية للجنس في الجملة الاسمية",
+          "en": "Negation of nominal sentences with لَا (lā nāfiya lil-jins)",
+          "tr": "İsim cümlelerinin لَا ile olumsuzlanması (cins olumsuzlama)",
+          "keywords": [
+            "la nafiya lil-jins",
+            "negation",
+            "nominal sentence",
+            "nafi",
+            "la",
+            "no X whatsoever"
+          ],
+          "examples": [
+            "لَا خَوْفٌ عَلَيْكُمُ الْيَوْمَ",
+            "لَا ظُلْمَ الْيَوْمَ",
+            "لَا بُشْرَى يَوْمَئِذٍ لِلْمُجْرِمِينَ"
+          ]
+        }
+      }
+    ],
+    "level": 2,
+    "week": 6,
+    "lesson_id": "L2W6",
+    "pdf_filename": "Level-2__20th Lesson Line Spacing 2.0",
+    "current_title": {
+      "en": "Negative Particles: لَيْسَ / مَا / لَا",
+      "tr": "Olumsuzluk Edatları: ليس / ما / لا",
+      "ar": "أدوات النفي: ليس وما ولا"
+    }
+  },
+  "L2W7": {
+    "verified_title": {
+      "en": "Particles That Put the Muḍāriʿ (Present/Future) Verb in the Subjunctive (Manṣūb) Case",
+      "tr": "Geniş Zaman Fiilini Mansûb Yapan Edatlar (Nâsıblar)",
+      "ar": "أدوات نصب الفعل المضارع"
+    },
+    "summary": "This lesson covers the particles (ḥurūf al-naṣb) that cause the imperfect/present verb (fiʿl al-muḍāriʿ) to take the manṣūb (subjunctive) form. The particles treated are: أَنْ, لَنْ, كَيْ, لِـ (lām al-taʿlīl), لِـ (lām al-juḥūd), فَاء al-sabābiyya, حَتَّى, and إِذَنْ, each with its grammatical meaning and conditions. The lesson also shows how the five special verb forms (al-afʿāl al-khamsa) and defective (muʿtall) verbs are affected, with extensive Quranic examples for identification practice.",
+    "concepts": [
+      {
+        "name": {
+          "ar": "أَنْ الناصبة",
+          "en": "Particle 'an (subjunctive marker)",
+          "tr": "أَنْ Edatı (masdar ve nasb harfi)"
+        },
+        "keywords": [
+          "an",
+          "nasb",
+          "subjunctive",
+          "masdar",
+          "istiqbal",
+          "fatha ending",
+          "mansub"
+        ],
+        "examples": [
+          "أُرِيدُ أَنْ أَتَعَلَّمَ",
+          "نُرِيدُ أَنْ نَفْهَمَ الْقُرْآنَ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "لَنْ الناصبة",
+          "en": "Particle lan (emphatic future negation)",
+          "tr": "لَنْ Edatı (nefi ve istikbal)"
+        },
+        "keywords": [
+          "lan",
+          "nasb",
+          "negation",
+          "future",
+          "subjunctive",
+          "mansub",
+          "fatha ending"
+        ],
+        "examples": [
+          "لَنْ تَنَالُوا الْبِرَّ حَتَّى تُنْفِقُوا",
+          "لَنْ تَخْرِقَ الْأَرْضَ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "كَيْ ولام التعليل",
+          "en": "kay and lām al-taʿlīl (purpose/causative lām)",
+          "tr": "كَيْ ve Lâm-ı Taʿlîl (sebep bildiren)"
+        },
+        "keywords": [
+          "kay",
+          "lam al-talil",
+          "purpose",
+          "subjunctive",
+          "mansub",
+          "nasb",
+          "causative"
+        ],
+        "examples": [
+          "كَيْ نُسَبِّحَكَ كَثِيرًا",
+          "لِتَكُونُوا شُهَدَاءَ",
+          "ذَاكِرْ لِتَنْجَحَ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "لام الجحود",
+          "en": "Lām al-juḥūd (lām of strong denial)",
+          "tr": "Lâm-ı Cuhûd (şiddetli inkâr lâmı)"
+        },
+        "keywords": [
+          "lam al-juhud",
+          "juhud",
+          "nasb",
+          "subjunctive",
+          "ma kana",
+          "lam yakun",
+          "negation",
+          "mansub"
+        ],
+        "examples": [
+          "مَا كَانَ اللهُ لِيَغْفِرَ لَهُمْ",
+          "وَمَا كُنَّا لِنَهْتَدِيَ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "فاء السببية وحتى",
+          "en": "Fāʾ al-sabābiyya and ḥattā (consecutive/final subjunctive)",
+          "tr": "Fâʾ-i Sebabiyye ve Hattâ"
+        },
+        "keywords": [
+          "fa al-sababiyya",
+          "hatta",
+          "nasb",
+          "subjunctive",
+          "mansub",
+          "consecutive",
+          "final",
+          "result clause"
+        ],
+        "examples": [
+          "اجْتَهِدْ فَتَنْجَحَ",
+          "ذَاكِرْ حَتَّى تَنْجَحَ",
+          "فَأَفُوزَ فَوْزًا عَظِيمًا"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الأفعال الخمسة في حالة النصب",
+          "en": "Al-Afʿāl al-Khamsa in the manṣūb (subjunctive) — deletion of nūn",
+          "tr": "Beş Fiilin Mansûb Hali — Nûn'un Düşmesi"
+        },
+        "keywords": [
+          "al-afal al-khamsa",
+          "five verbs",
+          "deletion of nun",
+          "hazf al-nun",
+          "mansub",
+          "subjunctive",
+          "lan taktubi",
+          "waw al-jama"
+        ],
+        "examples": [
+          "لَنْ تَكْتُبِي",
+          "لَنْ تَكْتُبُوا",
+          "لَنْ يَكْتُبَا"
+        ]
+      }
+    ],
+    "level": 2,
+    "week": 7,
+    "lesson_id": "L2W7",
+    "pdf_filename": "Level-2__21st Lesson Line Spacing 2.0",
+    "current_title": {
+      "en": "Subjunctive Mood — Mansub Form of Present Tense",
+      "tr": "Geniş Zaman Fiilinin Mansûb Hali",
+      "ar": "الفعل المضارع المنصوب — حروف النصب"
+    }
+  },
+  "L2W8": {
+    "verified_title": {
+      "en": "Jussive Mood (Majzum): Particles That Govern It and Their Effects on the Mudari' Verb",
+      "tr": "Cezm Eden Edatlar ve Muzari Fiilin Meczum Hali",
+      "ar": "أدوات جزم الفعل المضارع وأحكامها"
+    },
+    "summary": "This lesson teaches the jussive mood (majzum) of the Arabic imperfect verb (mudari'), focusing on the four particles that cause jussive: لَمْ, لَمَّا, لام الأمر, and لا الناهية. It explains the signs of jussive (dropping of nun in the five verb forms, dropping of weak letter in defective verbs, sukun in sound verbs) and distinguishes the three different uses of لَمَّا (as a jussive particle, as a temporal conjunction with past tense, and as a particle meaning 'except'). Extensive Quranic examples are provided for identifying jussive verbs in context.",
+    "concepts": [
+      {
+        "name": {
+          "ar": "أدوات الجزم",
+          "en": "Particles of the Jussive Mood",
+          "tr": "Cezm Edatları"
+        },
+        "keywords": [
+          "majzum",
+          "jussive",
+          "lam",
+          "lamma",
+          "lam al-amr",
+          "la al-nahiya",
+          "jazm particle",
+          "negation",
+          "prohibition",
+          "command"
+        ],
+        "examples": [
+          "لَمْ يَحْضُرِ الطُّلَّابُ",
+          "لَمَّا يَحْضُرِ الْمُدَرِّسُ",
+          "لِيَكْتُبِ الطَّالِبُ الْوَاجِبَ",
+          "وَلَا تَنْسَ نَصِيبَكَ مِنَ الدُّنْيَا"
+        ]
+      },
+      {
+        "name": {
+          "ar": "لَمْ",
+          "en": "Lam — Negative Jussive Particle",
+          "tr": "Lem — Olumsuzluk ve Cezm Edatı"
+        },
+        "keywords": [
+          "lam",
+          "lam al-nafy",
+          "majzum",
+          "jussive",
+          "negation",
+          "present tense negated past meaning",
+          "harf nafy wa jazm wa qalb"
+        ],
+        "examples": [
+          "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ",
+          "عَلَّمَ الْإِنْسَانَ مَا لَمْ يَعْلَمْ",
+          "أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "لَمَّا",
+          "en": "Lamma — Jussive Particle / Temporal Conjunction / Exception Particle",
+          "tr": "Lemmâ — Cezm Edatı / Zaman Zarfı / İstisna Edatı"
+        },
+        "keywords": [
+          "lamma",
+          "majzum",
+          "jussive",
+          "temporal conjunction",
+          "past tense",
+          "exception",
+          "harf jazm",
+          "ism shart",
+          "harf hasr"
+        ],
+        "examples": [
+          "كَلَّا لَمَّا يَقْضِ مَا أَمَرَهُ",
+          "فَلَمَّا جَاءَهُمْ مَا عَرَفُوا كَفَرُوا",
+          "إِنْ كُلُّ نَفْسٍ لَمَّا عَلَيْهَا حَافِظٌ",
+          "وَلَمَّا يَأْتِكُم مَّثَلُ الَّذِينَ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "لَامُ الْأَمْرِ",
+          "en": "Lam al-Amr — Imperative Lam (Command Particle)",
+          "tr": "Emir Lâmı"
+        },
+        "keywords": [
+          "lam al-amr",
+          "imperative",
+          "command",
+          "majzum",
+          "jussive",
+          "third person command"
+        ],
+        "examples": [
+          "لِيَكْتُبِ الطَّالِبُ الْوَاجِبَ",
+          "فَلْيَعْبُدُوا رَبَّ هَذَا الْبَيْتِ",
+          "لِيُنْفِقْ ذُو سَعَةٍ مِّن سَعَتِهِ",
+          "وَلْتَكُن مِّنكُمْ أُمَّةٌ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "لَا النَّاهِيَة",
+          "en": "La al-Nahiya — Prohibitive La",
+          "tr": "Nehiy Lâsı (Yasaklama Edatı)"
+        },
+        "keywords": [
+          "la al-nahiya",
+          "prohibition",
+          "nahy",
+          "majzum",
+          "jussive",
+          "negation",
+          "imperative negation"
+        ],
+        "examples": [
+          "وَلَا تَمْشِ فِي الْأَرْضِ مَرَحًا",
+          "رَبَّنَا لَا تُزِغْ قُلُوبَنَا",
+          "قَالُوا لَا تَخَفْ إِنَّا أُرْسِلْنَا",
+          "وَأَمَّا السَّائِلَ فَلَا تَنْهَرْ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "علامات الجزم في الأفعال الخمسة والأفعال المعتلة",
+          "en": "Signs of Jussive: Dropping of Nun (Five Verbs) and Weak Letter (Defective Verbs)",
+          "tr": "Meczumun Alametleri: Beş Fiilde Nun'un ve İlletli Fiillerde İllet Harfinin Düşmesi"
+        },
+        "keywords": [
+          "five verbs",
+          "af'al al-khamsa",
+          "nun deletion",
+          "hazf al-nun",
+          "defective verb",
+          "fi'l mu'tal",
+          "weak letter deletion",
+          "hazf harf illa",
+          "sukun",
+          "jussive sign",
+          "waw deletion",
+          "alif deletion",
+          "ya deletion"
+        ],
+        "examples": [
+          "لَا تَكْتُبِي",
+          "لَا تَكْتُبَا",
+          "لَا تَكْتُبُوا",
+          "لَا تَدْعُ",
+          "لَا تَنْسَ",
+          "لَا تَمْشِ",
+          "لَمْ يَتَّصِلْ"
+        ]
+      }
+    ],
+    "level": 2,
+    "week": 8,
+    "lesson_id": "L2W8",
+    "pdf_filename": "Level-2__22nd Lesson Line Spacing 2.0",
+    "current_title": {
+      "en": "Jussive Mood — Majzum Form of Present Tense",
+      "tr": "Geniş Zaman Fiilinin Meczûm Hali",
+      "ar": "الفعل المضارع المجزوم — أدوات الجزم"
+    }
+  },
+  "L2W9": {
+    "verified_title": {
+      "en": "Passive Voice: Passive Verb (Fi'l al-Mabni lil-Majhul) and Passive Participle (Ism al-Maf'ul)",
+      "tr": "Edilgen Çatı: Meçhul Fiil ve İsm-i Mef'ul",
+      "ar": "الفعل المبني للمجهول واسم المفعول"
+    },
+    "summary": "This lesson introduces the passive voice in Arabic (الفعل المبني للمجهول), explaining how to form the passive of past and present tense verbs across various verb types (sound, doubled, hollow, defective, Form IV, Form X). It then presents the passive participle (اسم المفعول), derived on the pattern مَفْعُول for trilateral verbs and مُـ...َـل for non-trilateral verbs, contrasting it with the active participle. Numerous Quranic examples are provided for identification and analysis of both passive verbs and passive participles.",
+    "concepts": [
+      {
+        "name": {
+          "ar": "الفعل المبني للمجهول (ماضي)",
+          "en": "Passive Voice — Past Tense",
+          "tr": "Edilgen Geçmiş Zaman Fiili"
+        },
+        "keywords": [
+          "mabni lil-majhul",
+          "passive voice",
+          "past tense",
+          "damm on first radical",
+          "kasra before last radical",
+          "sound verb",
+          "doubled verb",
+          "hollow verb",
+          "defective verb",
+          "form IV passive",
+          "form X passive",
+          "naib al-fail",
+          "substitute subject"
+        ],
+        "examples": [
+          "فُتِحَ الْبَابُ",
+          "قِيلَ",
+          "أُكْرِمَ",
+          "اُسْتُخْرِجَ",
+          "أُتِيَ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الفعل المبني للمجهول (مضارع)",
+          "en": "Passive Voice — Present/Imperfect Tense",
+          "tr": "Edilgen Geniş/Şimdiki Zaman Fiili"
+        },
+        "keywords": [
+          "mabni lil-majhul",
+          "passive voice",
+          "mudari",
+          "imperfect",
+          "damm on first letter",
+          "fatha before last radical",
+          "hollow verb passive",
+          "defective verb passive",
+          "yuf'alu pattern"
+        ],
+        "examples": [
+          "يُكْتَبُ",
+          "يُرْحَمُ",
+          "يُقَالُ",
+          "يُقْضَى",
+          "يُسْتَعْمَلُ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "نائب الفاعل",
+          "en": "Substitute Subject (Naib al-Fa'il)",
+          "tr": "Vekil Fail / Meçhul Özne"
+        },
+        "keywords": [
+          "naib al-fail",
+          "substitute subject",
+          "marfu",
+          "passive subject",
+          "maf'ul bih promoted",
+          "rafa"
+        ],
+        "examples": [
+          "يُعْرَفُ الْمُجْرِمُونَ",
+          "ضُرِبَتْ عَلَيْهِمُ الذِّلَّةُ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "اسم المفعول (ثلاثي)",
+          "en": "Passive Participle — Trilateral Pattern (maf'ul)",
+          "tr": "İsm-i Mef'ul (Sülasi) — مَفْعُول Kalıbı"
+        },
+        "keywords": [
+          "ism al-maf'ul",
+          "passive participle",
+          "maf'ul pattern",
+          "maf'ulun",
+          "trilateral",
+          "form I",
+          "maktub",
+          "mashhud",
+          "mawjud",
+          "makhluk"
+        ],
+        "examples": [
+          "مَعْرُوفٌ",
+          "مَشْكُورٌ",
+          "مَخْلُوقٌ",
+          "مَأْكُولٌ",
+          "مَحْفُوظٍ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "اسم المفعول (غير الثلاثي)",
+          "en": "Passive Participle — Non-Trilateral Pattern (mu...al)",
+          "tr": "İsm-i Mef'ul (Gayrı Sülasi) — مُـ...َـل Kalıbı"
+        },
+        "keywords": [
+          "ism al-maf'ul",
+          "passive participle",
+          "non-trilateral",
+          "form II",
+          "form III",
+          "form IV",
+          "form VIII",
+          "form X",
+          "mu prefix",
+          "fatha on penultimate",
+          "mursal",
+          "mursalun",
+          "mustakhdim"
+        ],
+        "examples": [
+          "مُرْسَلٌ",
+          "مُشَاهَدٌ",
+          "مُنْتَظَرٌ",
+          "مُسْتَعْمَلٌ",
+          "مُكْرَمُونَ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الفعل المبني للمعلوم مقابل المبني للمجهول",
+          "en": "Active vs. Passive Voice Contrast",
+          "tr": "Malum Fiil ile Meçhul Fiil Karşılaştırması"
+        },
+        "keywords": [
+          "active voice",
+          "passive voice",
+          "mabni lil-ma'lum",
+          "mabni lil-majhul",
+          "fa'il",
+          "naib al-fail",
+          "ism al-fa'il",
+          "ism al-maf'ul",
+          "contrast"
+        ],
+        "examples": [
+          "فَتَحَ الطَّالِبُ الْبَابَ",
+          "يُفْتَحُ الْبَابُ",
+          "عَارِفٌ / مَعْرُوفٌ",
+          "خَالِقٌ / مَخْلُوقٌ"
+        ]
+      }
+    ],
+    "level": 2,
+    "week": 9,
+    "lesson_id": "L2W9",
+    "pdf_filename": "Level-2__23rd Lesson Line Spacing 2.0",
+    "current_title": {
+      "en": "Passive Voice / Passive Participle (Ism al-Maf'ul)",
+      "tr": "Edilgen Çatı / İsmi Mef'ul",
+      "ar": "المبني للمجهول / اسم المفعول"
+    }
+  },
+  "L2W10": {
+    "verified_title": {
+      "en": "إِنَّ and its sisters, كَانَ and its sisters, إِذْ, إِذَا, and لَمَّا",
+      "tr": "İnne ve kardeşleri, Kâne ve kardeşleri, İz, İzâ ve Lemmâ",
+      "ar": "إِنَّ وأخواتها وكَانَ وأخواتها وإِذْ وإِذَا ولَمَّا"
+    },
+    "summary": "This lesson teaches the grammar of إِنَّ (and its sisters), which put the mubtada into the accusative and leave the khabar in the nominative, contrasted with كَانَ (and its sisters), which keep the mubtada nominative and put the khabar in the accusative. It also covers the temporal adverbs إِذْ (past time, reason, surprise) and إِذَا (future/conditional, surprise), along with the three usages of لَمَّا: as a non-jussive conditional time-adverb with a past verb, as a negating particle with a present verb, and as a restrictive particle meaning 'except'. Numerous Quranic examples illustrate each construction.",
+    "concepts": [
+      {
+        "name": {
+          "ar": "إِنَّ وأخواتها",
+          "en": "Inna and its sisters (particles that govern the nominal sentence)",
+          "tr": "İnne ve kardeşleri"
+        },
+        "keywords": [
+          "inna",
+          "accusative mubtada",
+          "nominative khabar",
+          "nasb",
+          "rafa",
+          "mubtada",
+          "khabar",
+          "nominal sentence",
+          "fatha on ism inna",
+          "tanwin mansub"
+        ],
+        "examples": [
+          "إِنَّ الْحَلَالَ بَيِّنٌ",
+          "إِنَّ اللَّهَ غَفُورٌ رَحِيمٌ",
+          "إِنَّ الإِنْسَانَ لَفِي خُسْرٍ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "كَانَ وأخواتها",
+          "en": "Kana and its sisters (defective verbs governing the nominal sentence)",
+          "tr": "Kâne ve kardeşleri"
+        },
+        "keywords": [
+          "kana",
+          "defective verb",
+          "ism kana",
+          "khabar kana",
+          "nominative subject",
+          "accusative predicate",
+          "nasb khabar",
+          "rafa ism",
+          "past tense",
+          "incomplete verb"
+        ],
+        "examples": [
+          "كَانَ اللَّهُ عَزِيزًا حَكِيمًا",
+          "كَانَ الجَوُّ لَطِيفًا",
+          "وَكَانَ الإِنْسَانُ عَجُولًا"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الْمُبْتَدَأ وَالْخَبَر",
+          "en": "Mubtada and Khabar (subject and predicate of the nominal sentence)",
+          "tr": "Mübteda ve Haber"
+        },
+        "keywords": [
+          "mubtada",
+          "khabar",
+          "nominal sentence",
+          "jumlah ismiyya",
+          "marfu",
+          "definite subject",
+          "predicate types",
+          "shibh al-jumla",
+          "jumla fi'liyya",
+          "jumla ismiyya"
+        ],
+        "examples": [
+          "اَلْكِتَابُ جَدِيدٌ",
+          "وَالصُّلْحُ خَيْرٌ",
+          "فِي قُلُوبِهِمْ مَرَضٌ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "إِذْ",
+          "en": "Idh (temporal adverb for past time)",
+          "tr": "İz (geçmiş zaman zarf-ı zamanı)"
+        },
+        "keywords": [
+          "idh",
+          "zarf zaman",
+          "past time adverb",
+          "temporal particle",
+          "hina",
+          "causative",
+          "surprise",
+          "past tense context"
+        ],
+        "examples": [
+          "إِذْ دَخَلُوا عَلَيْهِ",
+          "إِذْ يُبَايِعُونَكَ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "إِذَا",
+          "en": "Idha (temporal/conditional adverb for future time)",
+          "tr": "İzâ (gelecek zaman ve şart zarfı)"
+        },
+        "keywords": [
+          "idha",
+          "future time adverb",
+          "conditional",
+          "shart",
+          "verbal sentence",
+          "surprise fa",
+          "hina",
+          "fi'l mudari"
+        ],
+        "examples": [
+          "إِذَا زُرْتَنِي أَكْرَمْتُكَ",
+          "إِذَا أُلْقُوا فِيهَا سَمِعُوا",
+          "وَالنَّجْمِ إِذَا هَوَى"
+        ]
+      },
+      {
+        "name": {
+          "ar": "لَمَّا",
+          "en": "Lamma (temporal conjunction, negation particle, or restrictive particle)",
+          "tr": "Lemmâ (zaman zarfı, nefy veya hasr edatı)"
+        },
+        "keywords": [
+          "lamma",
+          "past verb conjunction",
+          "non-jussive conditional",
+          "negation particle",
+          "jazm",
+          "lam al-nafy",
+          "restrictive illa",
+          "mudari majzum",
+          "temporal adverb"
+        ],
+        "examples": [
+          "فَلَمَّا دَخَلُوا عَلَى يُوسُفَ",
+          "فَلَمَّا جَاءَهُمْ مَا عَرَفُوا",
+          "كَلَّا لَمَّا يَقْضِ مَا أَمَرَهُ"
+        ]
+      }
+    ],
+    "level": 2,
+    "week": 10,
+    "lesson_id": "L2W10",
+    "pdf_filename": "Level-2__24th Lesson Line Spacing 2.0",
+    "current_title": {
+      "en": "إِنَّ · إِذْ · إِذَا · لَمَّا / كَانَ",
+      "tr": "إِنَّ · إِذ · إِذَا · لَمَّا / كَانَ",
+      "ar": "إِنَّ وإِذ وإِذَا ولَمَّا / كَانَ"
+    }
+  },
+  "L2W11": {
+    "verified_title": {
+      "en": "Inna and Its Sisters / Possessive Particles (Dhū and Its Forms) / Noun Declension",
+      "tr": "İnne ve Kardeşleri / Sahiplik Edatları (Zū ve Çekimleri) / İsim Çekimi",
+      "ar": "إِنَّ وأخواتها / أسماء الملكية (ذو وتصريفاتها) / إعراب الأسماء"
+    },
+    "summary": "This lesson covers the six sisters of inna (إِنَّ، أَنَّ، لَكِنَّ، كَأَنَّ، لَيْتَ، لَعَلَّ), their meanings and grammatical rule of putting the mubtada into the nasb case and leaving the khabar in the raf state. It then introduces the possessive particle dhū (ذُو) and its full declension by gender, number, and case, alongside the five special nouns (الأسماء الخمسة). Finally, a comprehensive noun declension table is presented covering singular, dual, sound masculine plural, sound feminine plural, and broken plural across all three cases.",
+    "concepts": [
+      {
+        "name": {
+          "ar": "إِنَّ وأخواتها",
+          "en": "Inna and Its Sisters",
+          "tr": "İnne ve Kardeşleri"
+        },
+        "keywords": [
+          "inna",
+          "anna",
+          "lakinna",
+          "kaanna",
+          "layta",
+          "laalla",
+          "nasb",
+          "mansub",
+          "mubtada",
+          "khabar",
+          "marfu",
+          "tawkid",
+          "istidrak",
+          "tashbih",
+          "tamanni",
+          "taraji"
+        ],
+        "examples": [
+          "إِنَّ الْإِنْسَانَ لَفِي خُسْرٍ",
+          "إِنَّ السَّاعَةَ آتِيَةٌ",
+          "لَيْتَ الشَّبَابَ يَعُودُ يَوْمًا",
+          "لَعَلَّ زَيْدًا قَادِمٌ غَدًا",
+          "لَكِنَّ الْبَيْتَ صَغِيرٌ",
+          "كَأَنَّ الْكِتَابَ صَدِيقٌ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "ذُو وتصريفاتها",
+          "en": "Dhū and Its Declension (Possessive Particle)",
+          "tr": "Zū ve Çekimleri (Sahiplik Edatı)"
+        },
+        "keywords": [
+          "dhu",
+          "dhi",
+          "dha",
+          "dhawu",
+          "dhawi",
+          "dhawat",
+          "possessive",
+          "marfu",
+          "mansub",
+          "majrur",
+          "masculine",
+          "feminine",
+          "plural",
+          "five nouns"
+        ],
+        "examples": [
+          "طَالِبٌ ذُو شَعْرٍ طَوِيلٍ",
+          "طَالِبًا ذَا شَعْرٍ طَوِيلٍ",
+          "طَالِبٍ ذِي شَعْرٍ طَوِيلٍ",
+          "الْمُوَظَّفُونَ ذَوُو الْخِبْرَةِ",
+          "ذِي الْجَلَالِ وَالْإِكْرَامِ",
+          "أُولُو الْأَلْبَابِ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الأسماء الخمسة",
+          "en": "The Five Special Nouns",
+          "tr": "Beş Özel İsim"
+        },
+        "keywords": [
+          "five nouns",
+          "abu",
+          "akhu",
+          "hamu",
+          "dhu",
+          "famu",
+          "waw marfu",
+          "alif mansub",
+          "ya majrur",
+          "marfu",
+          "mansub",
+          "majrur"
+        ],
+        "examples": [
+          "أَبُو بَكْرٍ",
+          "أَبَا بَكْرٍ",
+          "أَبِي بَكْرٍ",
+          "ذُو الْفَضْلِ",
+          "ذَا الْفَضْلِ",
+          "ذِي الْفَضْلِ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "غَيْرُ الْمُنْصَرِف",
+          "en": "Diptote Nouns (Ghayr Munsarif)",
+          "tr": "Gayri Munsarif (Tenvinsiz) İsimler"
+        },
+        "keywords": [
+          "ghayr munsarif",
+          "diptote",
+          "no tanwin",
+          "fatha for kasra",
+          "proper noun",
+          "broken plural",
+          "masajid",
+          "ibrahim",
+          "makka"
+        ],
+        "examples": [
+          "مَسَاجِدَ",
+          "إِبْرَاهِيمَ",
+          "مَكَّةَ",
+          "أَفْضَلَ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "إِعْرَابُ الْأَسْمَاءِ",
+          "en": "Noun Declension Table",
+          "tr": "İsim Çekim Tablosu"
+        },
+        "keywords": [
+          "rafʿ",
+          "nasb",
+          "jarr",
+          "mufrad",
+          "muthanna",
+          "jam mudhakkar salim",
+          "jam muannath salim",
+          "jam taksir",
+          "broken plural",
+          "sound plural",
+          "dual",
+          "tanwin",
+          "waw",
+          "ya",
+          "alif",
+          "kasra"
+        ],
+        "examples": [
+          "مُسْلِمٌ",
+          "مُسْلِمَانِ",
+          "مُسْلِمُونَ",
+          "مُسْلِمَاتٌ",
+          "كُتُبٌ",
+          "مُسْلِمِينَ"
+        ]
+      }
+    ],
+    "level": 2,
+    "week": 11,
+    "lesson_id": "L2W11",
+    "pdf_filename": "Level-2__25th Lesson Line Spacing 2.0",
+    "current_title": {
+      "en": "إِنَّ and Sisters / Possessive Particles",
+      "tr": "إِنَّ ve Kardeşleri / Sahiplik Edatları",
+      "ar": "إِنَّ وأخواتها / أدوات الملكية"
+    }
+  },
+  "L2W12": {
+    "verified_title": {
+      "en": "Kāna and Its Sisters / Restriction with إِنْ...إِلَّا and مَا...إِلَّا / Conjunctions وَ، فَ، ثُمَّ",
+      "tr": "Kâne ve Kardeşleri / İn...İllâ ve Mâ...İllâ ile Hasır / Bağlaçlar وَ، فَ، ثُمَّ",
+      "ar": "كَانَ وَأَخَوَاتُهَا / الْحَصْرُ بِإِنْ...إِلَّا وَمَا...إِلَّا / حُرُوفُ الْعَطْفِ وَ، فَ، ثُمَّ"
+    },
+    "summary": "This lesson introduces كَانَ and its sisters (أَصْبَحَ، أَمْسَى، أَضْحَى، ظَلَّ، بَاتَ، صَارَ، لَيْسَ), explaining that they raise the mubtada' (nominative subject) and put the khabar in the accusative (mansub). The lesson also covers restriction constructions using إِنْ...إِلَّا, مَا...إِلَّا, and لَا...إِلَّا to express exclusivity. Additionally, the Arabic conjunctions وَ (simple joining), فَ (immediate sequence), and ثُمَّ (delayed sequence) are contrasted with Quranic examples.",
+    "concepts": [
+      {
+        "name": {
+          "ar": "كَانَ وَأَخَوَاتُهَا",
+          "en": "Kāna and its Sisters (Incomplete Verbs)",
+          "tr": "Kâne ve Kardeşleri (Nakıs Fiiller)"
+        },
+        "keywords": [
+          "kana",
+          "incomplete verb",
+          "nasikh",
+          "raf mubtada",
+          "nasb khabar",
+          "mansub",
+          "marfu",
+          "kana sisters",
+          "laysa",
+          "sara",
+          "asbaha",
+          "amsa",
+          "zalla",
+          "bata",
+          "adha"
+        ],
+        "examples": [
+          "كَانَ الْجَوُّ لَطِيفًا",
+          "كَانَ اللهُ عَلِيمًا حَكِيمًا",
+          "لَيْسَ الْمُنَافِقُ صَادِقًا",
+          "صَارَ الْمَاءُ ثَلْجًا",
+          "أَصْبَحَ الرَّجُلُ مَرِيضًا"
+        ]
+      },
+      {
+        "name": {
+          "ar": "اسْمُ كَانَ وَخَبَرُهَا",
+          "en": "Subject (ism) and Predicate (khabar) of Kāna",
+          "tr": "Kâne'nin İsmi ve Haberi"
+        },
+        "keywords": [
+          "ism kana",
+          "khabar kana",
+          "marfu",
+          "mansub",
+          "accusative predicate",
+          "nominative subject",
+          "fatha ending",
+          "damm ending"
+        ],
+        "examples": [
+          "كَانَ النَّاسُ أُمَّةً وَاحِدَةً",
+          "وَكَانَ اللهُ غَفُورًا رَحِيمًا",
+          "فَأَصْبَحْتُمْ بِنِعْمَتِهِ إِخْوَانًا"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الْحَصْرُ بِـ إِنْ...إِلَّا وَمَا...إِلَّا وَلَا...إِلَّا",
+          "en": "Restriction / Exclusivity Constructions (Hasr)",
+          "tr": "Hasr (إِنْ...إِلَّا / مَا...إِلَّا / لَا...إِلَّا ile Kısıtlama)"
+        },
+        "keywords": [
+          "hasr",
+          "restriction",
+          "exclusivity",
+          "in illa",
+          "ma illa",
+          "la illa",
+          "istithna",
+          "negation and exception"
+        ],
+        "examples": [
+          "إِنْ هُوَ إِلَّا نَذِيرٌ مُبِينٌ",
+          "مَا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ",
+          "وَمَا أَرْسَلْنَاكَ إِلَّا رَحْمَةً لِلْعَالَمِينَ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "حُرُوفُ الْعَطْفِ: وَ، فَ، ثُمَّ",
+          "en": "Conjunctions: Wāw, Fā', Thumma",
+          "tr": "Atıf Harfleri: وَ، فَ، ثُمَّ"
+        },
+        "keywords": [
+          "waw conjunction",
+          "fa conjunction",
+          "thumma conjunction",
+          "atf",
+          "sequence",
+          "immediate sequence",
+          "delayed sequence",
+          "simple joining"
+        ],
+        "examples": [
+          "جَاءَ عَلِيٌّ وَخَالِدٌ",
+          "جَاءَ عَلِيٌّ فَخَالِدٌ",
+          "جَاءَ عَلِيٌّ ثُمَّ خَالِدٌ",
+          "ثُمَّ أَمَاتَهُ فَأَقْبَرَهُ"
+        ]
+      }
+    ],
+    "level": 2,
+    "week": 12,
+    "lesson_id": "L2W12",
+    "pdf_filename": "Level-2__26th Lesson Line Spacing 2.0",
+    "current_title": {
+      "en": "كَانَ and Sisters / أَمَّا...فَـ",
+      "tr": "كَانَ ve Kardeşleri / أَمَّا...فَـ",
+      "ar": "كَانَ وأخواتها / أمَّا وفَـ"
+    }
+  },
+  "L2W13": {
+    "verified_title": {
+      "en": "Question Particles, Plural Idafa (Sound Masculine Plural in Genitive Construction), and Vocative Particles (Nida)",
+      "tr": "Soru Edatları, Çoğul İsim Tamlamaları (Eril Çoğul İdafe) ve Nida (Seslenme) Edatları",
+      "ar": "أدوات الاستفهام وإضافة جمع المذكر السالم وأسلوب النداء"
+    },
+    "summary": "This lesson covers three major topics: (1) Arabic interrogative particles (أَ، هَل، مَا، مَاذَا، مَن، مَتَى، أَيْنَ، كَيْفَ، كَم، أَيّ، أَنَّى) with their specific usages and Quranic examples; (2) the genitive/idafa construction using the sound masculine plural, where the final nun is dropped when the plural is used as mudaf (e.g. مُسْلِمُو الْيَوْمِ, ظَالِمِي الْقَوْمِ); (3) vocative particles (النداء) distinguishing between particles for near and distant addressees (أَ، أَيْ، أَيَا، هَيَا، آ، يَا) including the special construction يَا أَيُّهَا with a definite noun.",
+    "concepts": [
+      {
+        "name": {
+          "ar": "أدوات الاستفهام",
+          "en": "Interrogative Particles",
+          "tr": "Soru Edatları"
+        },
+        "keywords": [
+          "interrogative",
+          "question particle",
+          "hamza istifham",
+          "hal",
+          "ma",
+          "madha",
+          "man",
+          "mata",
+          "ayna",
+          "kayfa",
+          "kam",
+          "ayy",
+          "anna",
+          "positive question",
+          "negative question",
+          "bala",
+          "naaam"
+        ],
+        "examples": [
+          "أَقَرَأْتَ الْكِتَابَ؟",
+          "هَلْ يَسْتَوِي الَّذِينَ يَعْلَمُونَ",
+          "مَاذَا تُرِيدُ؟",
+          "مَنْ كَسَرَ الزُّجَاجَ؟",
+          "كَيْفَ حَالُكَ؟",
+          "كَمْ عُمْرُكَ؟"
+        ]
+      },
+      {
+        "name": {
+          "ar": "إضافة جمع المذكر السالم",
+          "en": "Idafa with Sound Masculine Plural (nun-dropping)",
+          "tr": "Eril Sağlam Çoğulun İsim Tamlamasında Kullanımı (Nun Düşmesi)"
+        },
+        "keywords": [
+          "idafa",
+          "mudaf",
+          "mudaf ilayh",
+          "sound masculine plural",
+          "jam mudhakkar salim",
+          "nun dropping",
+          "genitive construction",
+          "rafe",
+          "nasb",
+          "majrur",
+          "waw plural",
+          "ya plural",
+          "kasra",
+          "damma"
+        ],
+        "examples": [
+          "مُسْلِمُو الْيَوْمِ",
+          "مُسْلِمِي الْيَوْمِ",
+          "ظَالِمُو الْقَوْمِ",
+          "ظَالِمِي أَنفُسِهِمْ",
+          "تَارِكُو الصَّلَاةِ",
+          "بَنُو آدَمَ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "أسلوب النداء",
+          "en": "Vocative Construction (Nida)",
+          "tr": "Nida (Seslenme) Üslubu"
+        },
+        "keywords": [
+          "nida",
+          "vocative",
+          "ya",
+          "ayyuha",
+          "ayya",
+          "haya",
+          "hamza nida",
+          "near addressee",
+          "distant addressee",
+          "munada",
+          "definite vocative",
+          "ayyuha with al"
+        ],
+        "examples": [
+          "يَا أَيُّهَا النَّاسُ",
+          "يَا أَيُّهَا النَّبِيُّ",
+          "يَا أَيُّهَا الرَّسُولُ",
+          "أَيَا صَاحِبَ السَّيَّارَةِ",
+          "يَا بَنِي إِسْرَائِيلَ",
+          "اللَّهُمَّ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "المنادى المعرف بـأل",
+          "en": "Vocative with Definite (al-) Noun via ayyuha",
+          "tr": "Belirli İsimle Nida (Ayyuha Kullanımı)"
+        },
+        "keywords": [
+          "munada",
+          "ayyuha",
+          "ayyatuha",
+          "definite article",
+          "al- prefix",
+          "vocative definite noun",
+          "ya ayyuha"
+        ],
+        "examples": [
+          "يَا أَيُّهَا الَّذِينَ آمَنُوا",
+          "يَا أَيَّتُهَا النَّفْسُ الْمُطْمَئِنَّةُ",
+          "يَا نِسَاءَ النَّبِيِّ"
+        ]
+      }
+    ],
+    "level": 2,
+    "week": 13,
+    "lesson_id": "L2W13",
+    "pdf_filename": "Level-2__27th Lesson Line Spacing 2.0",
+    "current_title": {
+      "en": "Question Particles / Plural Idafa / Vocative (Nida)",
+      "tr": "Soru Edatları / Çoğul Tamlamalar / Hitap",
+      "ar": "أدوات الاستفهام / الإضافة / النداء"
+    }
+  },
+  "L2W14": {
+    "verified_title": {
+      "en": "Comparative/Superlative (Ism al-Tafdil) and Exclamatory Expression (Uslub al-Ta'ajjub)",
+      "tr": "İsm-i Tafdil ve Ta'accub Üslubu",
+      "ar": "اسم التفضيل وأسلوب التعجب"
+    },
+    "summary": "This lesson teaches the formation and usage of ism al-tafdil (the comparative/superlative noun) on the pattern أَفْعَلُ, including its conditions, feminine form (فُعْلَى), and four usage cases (bare, with ال, annexed to indefinite, annexed to definite). It also covers the two standard Arabic exclamatory constructions: مَا أَفْعَلَهُ and أَفْعِلْ بِهِ, with their conditions and Quranic examples. Special irregular comparative words (خَيْر، شَرّ) and the method of forming comparatives from non-triliteral verbs using a helper word plus accusative masdar are also explained.",
+    "concepts": [
+      {
+        "name": {
+          "ar": "اسم التفضيل",
+          "en": "Ism al-Tafdil (Comparative/Superlative Noun)",
+          "tr": "İsm-i Tafdil"
+        },
+        "keywords": [
+          "ism al-tafdil",
+          "af'alu pattern",
+          "afalu",
+          "comparative",
+          "superlative",
+          "form afal",
+          "trilateral",
+          "active voice",
+          "gradable",
+          "min",
+          "than",
+          "fatha",
+          "damma",
+          "wazn af'alu"
+        ],
+        "examples": [
+          "اَلسُّكُوتُ أَفْضَلُ مِنَ الْكَلَامِ",
+          "الشَّمْسُ أَكْبَرُ مِنَ الْأَرْضِ",
+          "الْعِلْمُ أَنْفَعُ مِنَ الْمَالِ",
+          "الْوَرْدُ أَجْمَلُ النَّبَاتِ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الوزن أَفْعَلُ وشروط صياغته",
+          "en": "Conditions for Forming Ism al-Tafdil on أَفْعَلُ",
+          "tr": "İsm-i Tafdil'in Şartları"
+        },
+        "keywords": [
+          "trilateral root",
+          "tham",
+          "mutasarrif",
+          "mabni lil-malum",
+          "active voice",
+          "muthbat",
+          "affirmative",
+          "gradable quality",
+          "not color",
+          "not defect",
+          "conditions",
+          "shart"
+        ],
+        "examples": [
+          "أَفْضَلُ",
+          "أَكْبَرُ",
+          "أَنْفَعُ",
+          "أَجْمَلُ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "التأنيث على وزن فُعْلَى",
+          "en": "Feminine Form of Ism al-Tafdil (Fu'la pattern)",
+          "tr": "İsm-i Tafdil'in Müennesi (Fu'lâ vezni)"
+        },
+        "keywords": [
+          "fu'la",
+          "feminine",
+          "ta'nith",
+          "kubra",
+          "sughra",
+          "husna",
+          "ulya",
+          "fadla",
+          "wazn fu'la",
+          "broken pattern",
+          "superlative feminine"
+        ],
+        "examples": [
+          "أَكْبَرُ ← كُبْرَى",
+          "أَحْسَنُ ← حُسْنَى",
+          "أَعْلَى ← عُلْيَا",
+          "أَصْغَرُ ← صُغْرَى"
+        ]
+      },
+      {
+        "name": {
+          "ar": "أحوال اسم التفضيل (مجرد، مع ال، مضاف)",
+          "en": "Four Usage States of Ism al-Tafdil",
+          "tr": "İsm-i Tafdil'in Dört Kullanım Hali"
+        },
+        "keywords": [
+          "mujarrad",
+          "bare form",
+          "with al",
+          "mudaf ilayh",
+          "indefinite annex",
+          "definite annex",
+          "ma'rifa",
+          "nakira",
+          "invariable",
+          "agrees in gender and number",
+          "idafa",
+          "al-tafdil states"
+        ],
+        "examples": [
+          "هُوَ أَعْلَمُ مِنْكَ",
+          "الطَّالِبُ الْأَفْضَلُ",
+          "هُوَ أَحْسَنُ طَالِبٍ",
+          "مَرْيَمُ أَفْضَلُ النِّسَاءِ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "اسم التفضيل من الفعل غير الثلاثي",
+          "en": "Comparative from Non-Triliteral Verbs (with accusative masdar)",
+          "tr": "Gayr-ı Sülasi Fiilden İsm-i Tafdil"
+        },
+        "keywords": [
+          "non-trilateral",
+          "masdar",
+          "accusative masdar",
+          "mansub",
+          "ashaddu",
+          "aktharu",
+          "akbaru",
+          "a'dhamu",
+          "helper word",
+          "auxiliary comparative",
+          "nasb"
+        ],
+        "examples": [
+          "عَلِيٌّ أَكْثَرُ تَسَامُحًا مِنْ أَخِيهِ",
+          "أَشَدُّ تَحَمُّلًا لِلْمَصَاعِبِ",
+          "أَشَدُّ",
+          "أَكْثَرُ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "أسلوب التعجب",
+          "en": "Exclamatory Expression (Uslub al-Ta'ajjub)",
+          "tr": "Ta'accub Üslubu (Hayret İfadesi)"
+        },
+        "keywords": [
+          "ta'ajjub",
+          "exclamation",
+          "ma af'alahu",
+          "af'il bihi",
+          "maa af'ala",
+          "maf'ul bihi",
+          "amazement",
+          "wazn ma af'ala",
+          "wazn af'il bihi",
+          "trilateral condition",
+          "active",
+          "gradable"
+        ],
+        "examples": [
+          "مَا أَبْرَدَ الْجَوَّ!",
+          "مَا أَجْمَلَ السَّيَّارَةَ!",
+          "أَبْرِدْ بِالْجَوِّ!",
+          "مَا أَكْفَرَهُ"
+        ]
+      }
+    ],
+    "level": 2,
+    "week": 14,
+    "lesson_id": "L2W14",
+    "pdf_filename": "Level-2__28th Lesson Line Spacing 2.0",
+    "current_title": {
+      "en": "Comparative/Superlative (Ism al-Tafdil) / Astonishment (Ta'ajjub)",
+      "tr": "İsmi Tafdil / Ta'accub",
+      "ar": "اسم التفضيل / التعجب"
+    }
+  },
+  "L3W1": {
+    "verified_title": {
+      "en": "Types of Verbal Nouns (Masdar)",
+      "tr": "Masdar Çeşitleri",
+      "ar": "أنواع المصادر"
+    },
+    "summary": "This lesson presents a comprehensive overview of the Arabic verbal noun (masdar) and its many types. It covers the standard masdar patterns for triliteral and derived verb forms, as well as special categories including the mimated masdar (masdar mimi), the artificial masdar (masdar sinai), the interpreted masdar (masdar mu'awwal), the noun of masdar (ism al-masdar), the masdar of once (masdar al-marra), and the masdar of manner (masdar al-hay'a). Quranic examples are provided throughout to illustrate each type in context.",
+    "concepts": [
+      {
+        "name": {
+          "ar": "المصدر الأصلي",
+          "en": "Standard Masdar (Verbal Noun)",
+          "tr": "Asıl Masdar"
+        },
+        "keywords": [
+          "masdar",
+          "verbal noun",
+          "fal",
+          "fil",
+          "ful",
+          "fial",
+          "faala",
+          "fuul",
+          "triliteral",
+          "form I",
+          "form II",
+          "form III",
+          "form IV",
+          "form V",
+          "form VI",
+          "form VII",
+          "form VIII",
+          "form X",
+          "tafil",
+          "ifal",
+          "tafaul",
+          "iftiaal",
+          "istifal"
+        ],
+        "examples": [
+          "عِلْمٌ",
+          "خَلْقٌ",
+          "كِتَابَةٌ",
+          "تَعْلِيمٌ",
+          "إِخْرَاجٌ",
+          "اسْتِغْفَارٌ",
+          "اسْتِمَاعٌ",
+          "جِهَادٌ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "المصدر الميمي",
+          "en": "Mimated Masdar (Masdar Mimi)",
+          "tr": "Mimli Masdar"
+        },
+        "keywords": [
+          "masdar mimi",
+          "mimated masdar",
+          "mafal",
+          "mafil",
+          "mim prefix",
+          "verbal noun with mim",
+          "triliteral",
+          "pattern mafal",
+          "pattern mafil"
+        ],
+        "examples": [
+          "مَدْخَلٌ",
+          "مَذْهَبٌ",
+          "مَجْلِسٌ",
+          "مَوْلِدٌ",
+          "مَغْفِرَةٌ",
+          "مَوْعِظَةٌ",
+          "مَرْحَمَةٌ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "المصدر الصناعي",
+          "en": "Artificial Masdar (Masdar Sinai)",
+          "tr": "Sınai Masdar (Nisbet Mastarı)"
+        },
+        "keywords": [
+          "masdar sinai",
+          "artificial masdar",
+          "ya mushaddada",
+          "ta marbuta",
+          "abstract noun",
+          "iyya suffix",
+          "nisba"
+        ],
+        "examples": [
+          "اَلْمَسْؤُولِيَّةُ",
+          "اَلْجَاهِلِيَّةُ",
+          "الْحُرِّيَّةُ",
+          "الْإِنْسَانِيَّةُ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "المصدر المؤول",
+          "en": "Interpreted Masdar (Masdar Mu'awwal)",
+          "tr": "Te'vili Masdar"
+        },
+        "keywords": [
+          "masdar muawwal",
+          "an masdariyya",
+          "anna",
+          "kay nasiba",
+          "law masdariyya",
+          "ma masdariyya",
+          "interpreted masdar",
+          "harf masdar",
+          "nasb"
+        ],
+        "examples": [
+          "أَنْ تَصُومُوا خَيْرٌ لَكُمْ",
+          "كَيْ نُسَبِّحَكَ كَثِيرًا",
+          "سَرَّنِي أَنْ نَجَحْتَ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "اسم المصدر",
+          "en": "Noun of Masdar (Ism al-Masdar)",
+          "tr": "İsm-i Masdar"
+        },
+        "keywords": [
+          "ism masdar",
+          "noun of masdar",
+          "fewer letters than masdar",
+          "defective masdar"
+        ],
+        "examples": [
+          "نَبَاتٌ",
+          "عَطَاءٌ",
+          "عَوْنٌ",
+          "وُضُوءٌ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "مصدر المرة ومصدر الهيئة",
+          "en": "Masdar of Once (Marra) and Masdar of Manner (Hay'a)",
+          "tr": "Masdar-ı Merre ve Masdar-ı Hey'e"
+        },
+        "keywords": [
+          "masdar marra",
+          "masdar hayya",
+          "fala pattern",
+          "fila pattern",
+          "once occurrence",
+          "manner of action",
+          "fatha on fa",
+          "kasra on fa",
+          "triliteral mujarrad"
+        ],
+        "examples": [
+          "ضَرْبَةٌ",
+          "نَظَرَةٌ",
+          "جِلْسَةٌ",
+          "عِيشَةٌ",
+          "وِقْفَةٌ",
+          "أَكْلَةٌ"
+        ]
+      }
+    ],
+    "level": 3,
+    "week": 1,
+    "lesson_id": "L3W1",
+    "pdf_filename": "Level-3__29th Lesson Line Spacing 2.0",
+    "current_title": {
+      "en": "Types of Verbal Nouns (Masdar)",
+      "tr": "Masdar Çeşitleri",
+      "ar": "أنواع المصدر"
+    }
+  },
+  "L3W2": {
+    "verified_title": {
+      "en": "Nouns of Time and Place, Instrument Nouns, Attributive Adjective (Nisba), Diminutive, and Similative Participle",
+      "tr": "İsmi Zaman ve Mekân, İsmi Âlet, İsmi Mensûb, Tasgîr ve Sıfat-ı Müşebbehe",
+      "ar": "اسم الزمان والمكان، اسم الآلة، الاسم المنسوب، التصغير، والصفة المشبهة"
+    },
+    "summary": "This lesson covers five derived noun categories in Arabic: nouns of time and place (on the patterns مَفْعَل / مَفْعِل from triliteral roots, and on the pattern of the passive participle from augmented roots), instrument nouns (on the patterns مِفْعَال / مِفْعَل / مِفْعَلة from triliteral verbs), attributive adjectives formed by adding a shaddah yā (nisba), diminutive nouns (on the patterns فُعَيْل / فُعَيْعِل / فُعَيْعِيل), and the similative participle (الصفة المشبهة) denoting stable qualities. Each category is illustrated with paradigm tables and Quranic examples.",
+    "concepts": [
+      {
+        "name": {
+          "ar": "اسم الزمان والمكان",
+          "en": "Noun of Time and Place (Ism al-Zaman wa al-Makan)",
+          "tr": "İsm-i Zaman ve Mekân"
+        },
+        "keywords": [
+          "ism zaman",
+          "ism makan",
+          "maf'al",
+          "maf'il",
+          "maf'ala",
+          "noun of place",
+          "noun of time",
+          "triliteral root",
+          "pattern maf'al",
+          "pattern maf'il",
+          "passive participle form non-triliteral",
+          "hollow verb",
+          "doubled verb",
+          "ta marbuta"
+        ],
+        "examples": [
+          "مَكْتَبٌ",
+          "مَسْكَنٌ",
+          "مَجْلِسٌ",
+          "مَسْجِدٌ",
+          "مَعَادٌ",
+          "مُنَزَّلٌ",
+          "مَطْلَعِ الْفَجْرِ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "اسم الآلة",
+          "en": "Instrument Noun (Ism al-Ala)",
+          "tr": "İsm-i Âlet"
+        },
+        "keywords": [
+          "ism ala",
+          "instrument noun",
+          "mif'al",
+          "mif'aal",
+          "mif'ala",
+          "tool noun",
+          "triliteral",
+          "pattern mif'aal",
+          "pattern mif'al",
+          "pattern mif'ala"
+        ],
+        "examples": [
+          "مِفْتَاحٌ",
+          "مِنْشَارٌ",
+          "مِكْيَالٌ",
+          "مِيزَانٌ",
+          "مِكْنَسَةٌ",
+          "مِرْآةٌ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الاسم المنسوب",
+          "en": "Attributive Adjective / Nisba (al-Ism al-Mansub)",
+          "tr": "İsm-i Mensûb (Nisbe)"
+        },
+        "keywords": [
+          "nisba",
+          "mansub",
+          "relational adjective",
+          "ya mushaddada",
+          "shaddah ya",
+          "attribution",
+          "kasra before ya",
+          "relative adjective"
+        ],
+        "examples": [
+          "عَرَبِيٌّ",
+          "مَكِّيٌّ",
+          "إِسْلَامِيٌّ",
+          "سَمَاوِيٌّ",
+          "نَبَوِيٌّ",
+          "لُجِّيٌّ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "التصغير",
+          "en": "Diminutive (al-Tasghir)",
+          "tr": "Tasgîr (Küçültme)"
+        },
+        "keywords": [
+          "tasghir",
+          "diminutive",
+          "fu'ayl",
+          "fu'ayil",
+          "fu'ayy'il",
+          "fu'ay'il",
+          "smallness",
+          "affection",
+          "approximation of time",
+          "approximation of place",
+          "contempt"
+        ],
+        "examples": [
+          "نُهَيْرٌ",
+          "عُبَيْدٌ",
+          "قُلَيْمٌ",
+          "مُنَيْزِلٌ",
+          "مُفَيْتِيحٌ",
+          "بُنَيٌّ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الصفة المشبهة",
+          "en": "Similative Participle (al-Sifa al-Mushabbaha)",
+          "tr": "Sıfat-ı Müşebbehe"
+        },
+        "keywords": [
+          "sifa mushabbaha",
+          "similative participle",
+          "stable quality",
+          "intransitive verb",
+          "fa'il meaning",
+          "af'al fa'la'",
+          "fa'lan fa'la",
+          "fa'ul",
+          "fa'il",
+          "fa'al",
+          "fu'l",
+          "fa'l",
+          "color adjective",
+          "defect adjective",
+          "elative pattern",
+          "broken pattern adjective"
+        ],
+        "examples": [
+          "أَعْرَجُ/عَرْجَاءُ",
+          "أَعْمَى/عَمْيَاءُ",
+          "أَصْفَرُ/صَفْرَاءُ",
+          "غَضْبَانُ/غَضْبَى",
+          "حَسَنٌ",
+          "جَمِيلٌ",
+          "شُجَاعٌ",
+          "طَهُورٌ"
+        ]
+      }
+    ],
+    "level": 3,
+    "week": 2,
+    "lesson_id": "L3W2",
+    "pdf_filename": "Level-3__30th Lesson Line Spacing 2.0",
+    "current_title": {
+      "en": "Noun of Time · Place · Instrument · Attribution · Diminutive",
+      "tr": "İsmi Zaman · Mekân · Âlet · Mensûb · Tasgîr",
+      "ar": "اسم الزمان والمكان والآلة والمنسوب والتصغير"
+    }
+  },
+  "L3W3": {
+    "verified_title": {
+      "en": "Introduction to Defective Verbs (Fi'l Mu'tall) — Classification of Sound and Weak Verbs",
+      "tr": "İlletli Fiillere Giriş — Sahih ve Mu'tell Fiillerin Sınıflandırılması",
+      "ar": "مقدمة في الفعل المعتل — تصنيف الأفعال الصحيحة والمعتلة"
+    },
+    "summary": "This lesson introduces the classification of Arabic verbs into sound (صحيح) and weak/defective (معتل) categories. Sound verbs are subdivided into sālim, mahmūz, and muḍaʿʿaf, while weak verbs are subdivided into mithāl, ajwaf, nāqiṣ, and lafīf based on which root letter is a weak letter (alif, wāw, or yāʾ). Numerous Quranic examples illustrate each verb type, and the six patterns of the bare triliteral verb (فَعَلَ يَفْعُلُ etc.) are also presented.",
+    "concepts": [
+      {
+        "name": {
+          "ar": "الفعل الصحيح السالم",
+          "en": "Sound Verb — Sālim (regular)",
+          "tr": "Sahih Selim Fiil"
+        },
+        "keywords": [
+          "sound verb",
+          "salim",
+          "regular triliteral",
+          "no weak letter",
+          "no hamza",
+          "no gemination",
+          "fa'ala",
+          "triliteral"
+        ],
+        "examples": [
+          "كَتَبَ",
+          "فَتَحَ",
+          "سَمِعَ",
+          "جَلَسَ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الفعل الصحيح المهموز",
+          "en": "Sound Verb — Mahmūz (containing hamza)",
+          "tr": "Sahih Mehmuz Fiil"
+        },
+        "keywords": [
+          "mahmuz",
+          "hamza",
+          "sound verb",
+          "hamzated verb",
+          "triliteral"
+        ],
+        "examples": [
+          "أَخَذَ",
+          "أَمَرَ",
+          "سَأَلَ",
+          "قَرَأَ",
+          "بَدَأَ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الفعل الصحيح المضعَّف",
+          "en": "Sound Verb — Muḍaʿʿaf (geminated)",
+          "tr": "Sahih Muzaaf Fiil"
+        },
+        "keywords": [
+          "mudaaf",
+          "geminated verb",
+          "doubled root",
+          "shadda",
+          "sound verb",
+          "triliteral"
+        ],
+        "examples": [
+          "مَدَّ",
+          "فَرَّ",
+          "ظَنَّ",
+          "مَرَّ",
+          "ضَلَّ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الفعل المعتل المثال",
+          "en": "Weak Verb — Mithāl (first radical is weak)",
+          "tr": "Mu'tell Misal Fiil"
+        },
+        "keywords": [
+          "mithāl",
+          "weak verb",
+          "mu'tall",
+          "first radical weak",
+          "waw initial",
+          "ya initial",
+          "illetli fiil",
+          "defective verb"
+        ],
+        "examples": [
+          "وَجَدَ يَجِدُ",
+          "وَعَدَ",
+          "وَرِثَ",
+          "وَلَدَ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الفعل المعتل الأجوف",
+          "en": "Weak Verb — Ajwaf (middle radical is weak)",
+          "tr": "Mu'tell Ecvef Fiil"
+        },
+        "keywords": [
+          "ajwaf",
+          "hollow verb",
+          "weak verb",
+          "middle radical weak",
+          "second radical weak",
+          "waw middle",
+          "ya middle",
+          "illetli fiil"
+        ],
+        "examples": [
+          "قَالَ يَقُولُ",
+          "زَادَ يَزِيدُ",
+          "خَافَ يَخَافُ",
+          "كَانَ",
+          "بَاعَ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الفعل المعتل الناقص واللفيف",
+          "en": "Weak Verb — Nāqiṣ (final radical weak) and Lafīf (two weak radicals)",
+          "tr": "Mu'tell Nakıs ve Lefif Fiil"
+        },
+        "keywords": [
+          "naqis",
+          "defective verb",
+          "final radical weak",
+          "third radical weak",
+          "lafif",
+          "two weak letters",
+          "alif maqsura",
+          "ya final",
+          "waw final",
+          "illetli fiil"
+        ],
+        "examples": [
+          "رَضِيَ يَرْضَى",
+          "قَضَى يَقْضِي",
+          "دَعَا يَدْعُو",
+          "وَقَى يَقِي",
+          "أَوَى يَأْوِي"
+        ]
+      }
+    ],
+    "level": 3,
+    "week": 3,
+    "lesson_id": "L3W3",
+    "pdf_filename": "Level-3__31st Lesson Line Spacing 2.0",
+    "current_title": {
+      "en": "Resembling Adjective (Sifat Mushabbaha) / Defective Verbs — Introduction",
+      "tr": "Sıfatı Müşebbehe / İlletli Fiillere Giriş",
+      "ar": "الصفة المشبهة / مدخل إلى الأفعال المعتلة"
+    }
+  },
+  "L3W4": {
+    "verified_title": {
+      "en": "Conjugation of Defective Verbs (Past Tense) — All Weak Verb Types",
+      "tr": "İlletli Fiillerin Çekimi (Mazi) — Tüm Zayıf Fiil Türleri",
+      "ar": "تصريف الأفعال المعتلة في الماضي — جميع الأنواع"
+    },
+    "summary": "This lesson presents a comprehensive conjugation table of the Arabic past tense (māḍī) across all major verb categories: the sound verb (sālim), the hamzated verb (mahmūz), the doubled verb (muḍaʿʿaf), the assimilated verb (mithāl), the hollow verb (ajwaf), the defective verb (nāqiṣ), and the doubly weak verb (lafīf). Multiple Quranic examples are then provided for each weak verb type, illustrating how these verbs appear in real Quranic contexts. The lesson reinforces recognition of conjugational patterns — especially stem changes in hollow, defective, and lafīf verbs across all pronouns.",
+    "concepts": [
+      {
+        "name": {
+          "ar": "الفعل السالم (الماضي)",
+          "en": "Sound Verb — Past Tense Conjugation",
+          "tr": "Sağlam Fiil (Mazi) Çekimi"
+        },
+        "keywords": [
+          "salim",
+          "sound verb",
+          "past tense",
+          "madi",
+          "kataba",
+          "perfect tense",
+          "regular conjugation"
+        ],
+        "examples": [
+          "كَتَبَ",
+          "كَتَبُوا",
+          "كَتَبْتُ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الفعل الأجوف (الماضي)",
+          "en": "Hollow Verb — Past Tense Conjugation",
+          "tr": "Cevfi (İçi Boş) Fiil (Mazi) Çekimi"
+        },
+        "keywords": [
+          "ajwaf",
+          "hollow verb",
+          "defective",
+          "waw mediae",
+          "ya mediae",
+          "middle weak",
+          "past tense",
+          "qala",
+          "zada",
+          "khafa",
+          "stem shortening"
+        ],
+        "examples": [
+          "قَالَ يَقُولُ",
+          "زَادَ يَزِيدُ",
+          "خَافَ يَخَافُ",
+          "قُلْتُ",
+          "زِدْتُ",
+          "خِفْتُ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الفعل الناقص (الماضي)",
+          "en": "Defective Verb — Past Tense Conjugation",
+          "tr": "Nakıs Fiil (Mazi) Çekimi"
+        },
+        "keywords": [
+          "naqis",
+          "defective verb",
+          "final weak",
+          "waw finalis",
+          "ya finalis",
+          "nasiya",
+          "rama",
+          "daʿa",
+          "past tense",
+          "alif maqsura",
+          "stem change"
+        ],
+        "examples": [
+          "نَسِيَ يَنْسَى",
+          "رَمَى يَرْمِي",
+          "دَعَا يَدْعُو",
+          "رَمَوْا",
+          "دَعَوْتُ",
+          "نَسِيتُم"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الفعل اللفيف (الماضي)",
+          "en": "Doubly Weak Verb (Lafīf) — Past Tense Conjugation",
+          "tr": "Lefif Fiil (Mazi) Çekimi"
+        },
+        "keywords": [
+          "lafif",
+          "doubly weak",
+          "lafif mafruq",
+          "lafif maqrun",
+          "awa",
+          "waqa",
+          "past tense",
+          "two weak radicals"
+        ],
+        "examples": [
+          "أَوَى يَأْوِي",
+          "وَقَى يَقِي",
+          "أَوَوْا",
+          "وَقَيْتُم",
+          "أَوَيْنَا"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الفعل المثال (الماضي)",
+          "en": "Assimilated Verb (Mithāl) — Past Tense Conjugation",
+          "tr": "Misal Fiil (Mazi) Çekimi"
+        },
+        "keywords": [
+          "mithal",
+          "assimilated verb",
+          "initial waw",
+          "initial ya",
+          "wajada",
+          "yaisa",
+          "first radical weak",
+          "past tense"
+        ],
+        "examples": [
+          "وَجَدَ يَجِدُ",
+          "يَئِسَ يَيْئَسُ",
+          "وَجَدُوا",
+          "يَئِسَتْ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الفعل المضعَّف والمهموز (الماضي)",
+          "en": "Doubled and Hamzated Verb — Past Tense Conjugation",
+          "tr": "Muzaaf ve Mehmuz Fiil (Mazi) Çekimi"
+        },
+        "keywords": [
+          "mudaʿʿaf",
+          "doubled verb",
+          "geminate",
+          "mahmuz",
+          "hamzated verb",
+          "hamza",
+          "amara",
+          "ʿadda",
+          "past tense",
+          "assimilation"
+        ],
+        "examples": [
+          "عَدَّ",
+          "عَدَدْتُ",
+          "أَمَرَ",
+          "أَمَرُوا"
+        ]
+      }
+    ],
+    "level": 3,
+    "week": 4,
+    "lesson_id": "L3W4",
+    "pdf_filename": "Level-3__32nd Lesson Line Spacing 2.0",
+    "current_title": {
+      "en": "Defective Verbs (continued)",
+      "tr": "İlletli Fiiller (devam)",
+      "ar": "الأفعال المعتلة — تابع"
+    }
+  },
+  "L3W5": {
+    "verified_title": {
+      "en": "Defective Verbs: Full Conjugation Tables (Imperfect, Imperative, Negation with لَنْ and لا)",
+      "tr": "İlletli Fiiller: Tam Çekim Tabloları (Muzari, Emir, لَنْ ve لا ile Olumsuzluk)",
+      "ar": "الأفعال المعتلة: جداول التصريف الكاملة (مضارع، أمر، النفي بلَنْ ولا)"
+    },
+    "summary": "This lesson presents comprehensive conjugation tables for all major verb types in Arabic — sound (salim), hamzated (mahmuz), doubled (mudaaf), assimilated (mithal), hollow (ajwaf), defective (naqis), and doubly weak (lafif) — across imperfect, imperative, dual, and negated forms. The tables cover all pronouns including dual forms and feminine plural. Quranic example verses illustrate the defective and weak verb forms in context.",
+    "concepts": [
+      {
+        "name": {
+          "ar": "الفعل الناقص",
+          "en": "Defective Verb (final weak root letter)",
+          "tr": "Nakıs Fiil (son harfi illet olan fiil)"
+        },
+        "keywords": [
+          "naqis",
+          "defective verb",
+          "final waw",
+          "final ya",
+          "weak final radical",
+          "yansa",
+          "yamshi",
+          "yad'u",
+          "alif maqsura",
+          "imperfect defective"
+        ],
+        "examples": [
+          "يَـْﻨَﺴﻰ",
+          "يَـْﻤِﺸﻲ",
+          "يَْﺪﻋُﻮ",
+          "نَِﺴَﻲ يَـْﻨَﺴﻰ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الفعل الأجوف",
+          "en": "Hollow Verb (middle weak root letter)",
+          "tr": "Ecvef Fiil (orta harfi illet olan fiil)"
+        },
+        "keywords": [
+          "ajwaf",
+          "hollow verb",
+          "middle waw",
+          "middle ya",
+          "qala yaqulu",
+          "zada yazidu",
+          "khafa yakhaf",
+          "weak middle radical",
+          "imperfect hollow"
+        ],
+        "examples": [
+          "قَالَ يَـقُولُ",
+          "زَادَ يَزِيدُ",
+          "خَافَ يَـخَافُ",
+          "يَـُﻘﻮُل"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الفعل المثال",
+          "en": "Assimilated Verb (initial waw or ya)",
+          "tr": "Misal Fiil (ilk harfi illet olan fiil)"
+        },
+        "keywords": [
+          "mithal",
+          "assimilated verb",
+          "initial waw",
+          "wasala yasilu",
+          "weak initial radical",
+          "imperfect mithal"
+        ],
+        "examples": [
+          "وَصَلَ يَِﺼُﻞ",
+          "يِﺼُﻞ",
+          "صِﻞْ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الفعل اللفيف",
+          "en": "Doubly Weak Verb (lafif)",
+          "tr": "Lefif Fiil (iki harfi illet olan fiil)"
+        },
+        "keywords": [
+          "lafif",
+          "doubly weak verb",
+          "rawa yarwi",
+          "waqa yaqi",
+          "lafif mafruq",
+          "lafif maqrun",
+          "two weak radicals"
+        ],
+        "examples": [
+          "رَوَى يَـْﺮوِي",
+          "وَقَى يَِﻘﻲ",
+          "يَـْﺮوِي",
+          "يَِﻘﻲ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "صيغة الأمر للأفعال المعتلة",
+          "en": "Imperative of Weak Verbs",
+          "tr": "İlletli Fiillerin Emir Kipi"
+        },
+        "keywords": [
+          "imperative",
+          "amr",
+          "defective imperative",
+          "hollow imperative",
+          "lafif imperative",
+          "qul",
+          "id'u",
+          "insa",
+          "imshi",
+          "irwi",
+          "qi"
+        ],
+        "examples": [
+          "قُلْ",
+          "اُدْعُ",
+          "اِنْسَ",
+          "اِمْشِ",
+          "قِ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "النفي بـ لَنْ ولا الناهية مع الأفعال المعتلة",
+          "en": "Negation with لَنْ and Prohibitive لا for Weak Verbs",
+          "tr": "İlletli Fiillerde لَنْ ve Nehiy لا ile Olumsuzluk"
+        },
+        "keywords": [
+          "lan",
+          "la nahiya",
+          "prohibitive la",
+          "negation",
+          "mansub",
+          "majzum",
+          "subjunctive",
+          "jussive",
+          "weak verb negation",
+          "la takhaf",
+          "lan tanasa",
+          "la tansa"
+        ],
+        "examples": [
+          "لَنْ تَـُﻘﻮَل",
+          "لَا تَـُﻘْﻞ",
+          "لَنْ تَـْﻨَﺴﻰ",
+          "لَا تَـْﻨَﺲ"
+        ]
+      }
+    ],
+    "level": 3,
+    "week": 5,
+    "lesson_id": "L3W5",
+    "pdf_filename": "Level-3__33rd Lesson Line Spacing 2.0",
+    "current_title": {
+      "en": "Defective Verbs (continued)",
+      "tr": "İlletli Fiiller (devam)",
+      "ar": "الأفعال المعتلة — تكملة"
+    }
+  },
+  "L3W6": {
+    "verified_title": {
+      "en": "Conditional Sentences and Conditional Particles in Arabic",
+      "tr": "Şart Cümlesi ve Şart Edatları",
+      "ar": "أسلوب الشرط وأدواته"
+    },
+    "summary": "This lesson introduces the Arabic conditional sentence (الجملة الشرطية), explaining that it is a compound sentence consisting of a condition clause (جملة الشرط) and a response clause (جملة جواب الشرط) linked by a conditional particle. It systematically covers jazm-inducing (جازمة) conditional particles such as إنْ, مَن, ما, مهما, متى, أين, كيفما, and أيّ, as well as non-jazm-inducing (غير جازمة) particles such as لو, لولا, أمّا, إذا, لمّا, and كلّما. The lesson also details the various forms the response clause (جواب الشرط) can take, including nominal sentences, negation with ما/لن/لا, imperative verbs, and particles like قد, السين, سوف, and كأنّما.",
+    "concepts": [
+      {
+        "name": {
+          "ar": "الجملة الشرطية",
+          "en": "Conditional Sentence Structure",
+          "tr": "Şart Cümlesi Yapısı"
+        },
+        "keywords": [
+          "conditional sentence",
+          "shart",
+          "jawab al-shart",
+          "jumlat al-shart",
+          "compound sentence",
+          "condition clause",
+          "response clause"
+        ],
+        "examples": [
+          "مَنْ جَاءَ بِالْحَسَنَةِ فَلَهُ عَشْرُ أَمْثَالِهَا",
+          "إِنْ تَنْصُرُوا اللَّهَ يَنْصُرْكُمْ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "أدوات الشرط الجازمة",
+          "en": "Jazm-Inducing Conditional Particles",
+          "tr": "Cezimli Şart Edatları"
+        },
+        "keywords": [
+          "jazm",
+          "majzum",
+          "conditional particle",
+          "in",
+          "man",
+          "ma",
+          "mahma",
+          "mata",
+          "ayna",
+          "kayfa",
+          "ayy",
+          "jussive",
+          "jazima"
+        ],
+        "examples": [
+          "مَنْ يَعْمَلْ سُوءًا يُجْزَ بِهِ",
+          "أَيْنَمَا تَكُونُوا يُدْرِكْكُمُ الْمَوْتُ",
+          "مَهْمَا تَسْأَلْ نُجِبْ",
+          "كَيْفَمَا تُعَامِلُوا النَّاسَ يُعَامِلُوكُمْ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "أدوات الشرط غير الجازمة",
+          "en": "Non-Jazm-Inducing Conditional Particles",
+          "tr": "Cezimsiz Şart Edatları"
+        },
+        "keywords": [
+          "non-jussive",
+          "law",
+          "lawla",
+          "amma",
+          "idha",
+          "lamma",
+          "kullama",
+          "conditional",
+          "past tense condition",
+          "indicative mood"
+        ],
+        "examples": [
+          "لَوْ أَنزَلْنَا هَذَا الْقُرْآنَ عَلَى جَبَلٍ",
+          "كُلَّمَا أُلْقِيَ فِيهَا فَوْجٌ سَأَلَهُمْ",
+          "فَلَمَّا جَاءَهُمْ مَا عَرَفُوا كَفَرُوا بِهِ",
+          "وَإِذَا مَسَّ النَّاسَ ضُرٌّ دَعَوْا رَبَّهُمْ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "لَوْ",
+          "en": "Law (Counterfactual Conditional)",
+          "tr": "Lev (Gerçekleşmemiş Şart)"
+        },
+        "keywords": [
+          "law",
+          "counterfactual",
+          "hypothetical",
+          "past tense",
+          "non-jussive",
+          "unfulfilled condition"
+        ],
+        "examples": [
+          "لَوْ شَاءَ اللَّهُ مَا أَشْرَكْنَا",
+          "وَلَوْ شَاءَ رَبُّكَ لَجَعَلَ النَّاسَ أُمَّةً وَاحِدَةً"
+        ]
+      },
+      {
+        "name": {
+          "ar": "لَوْلَا",
+          "en": "Lawla (Reproach / Unfulfilled Condition)",
+          "tr": "Levlâ (Kınama / Gerçekleşmemiş Şart)"
+        },
+        "keywords": [
+          "lawla",
+          "lawma",
+          "non-jussive",
+          "reproach",
+          "but for",
+          "unfulfilled condition",
+          "conditional particle"
+        ],
+        "examples": [
+          "فَلَوْلَا فَضْلُ اللَّهِ عَلَيْكُمْ وَرَحْمَتُهُ",
+          "وَلَوْلَا فَضْلُ اللَّهِ عَلَيْكُمْ وَرَحْمَتُهُ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "جملة جواب الشرط وروابطها",
+          "en": "Response Clause of the Conditional and Its Connectors",
+          "tr": "Şart Cevap Cümlesi ve Bağlayıcıları"
+        },
+        "keywords": [
+          "jawab al-shart",
+          "fa",
+          "qad",
+          "lan",
+          "la nafiya",
+          "la nahiya",
+          "sin",
+          "sawfa",
+          "ka-annama",
+          "imperative",
+          "nominal sentence",
+          "response clause",
+          "fa connective"
+        ],
+        "examples": [
+          "فَإِنْ تَوَلَّيْتُمْ فَمَا سَأَلْتُكُمْ مِنْ أَجْرٍ",
+          "وَإِنْ تُطِيعُوهُ تَهْتَدُوا",
+          "فَإِذَا قَرَأْتَ الْقُرْآنَ فَاسْتَعِذْ بِاللَّهِ",
+          "فَمَنْ يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُ"
+        ]
+      }
+    ],
+    "level": 3,
+    "week": 6,
+    "lesson_id": "L3W6",
+    "pdf_filename": "Level-3__34th Lesson Line Spacing 2.0",
+    "current_title": {
+      "en": "Conditional Sentence / Conditional Particles",
+      "tr": "Şart Cümlesi / Şart Edatları",
+      "ar": "الجملة الشرطية / أدوات الشرط"
+    }
+  },
+  "L3W7": {
+    "verified_title": {
+      "en": "Circumstantial Accusative (Hal) and Specification (Tamyiz)",
+      "tr": "Hal ve Temyiz",
+      "ar": "الحال والتمييز"
+    },
+    "summary": "This lesson introduces two accusative constructions in Arabic grammar: Hal (circumstantial accusative), which describes the state or condition of a noun at the time of an action and agrees with its referent in gender and number; and Tamyiz (specification/distinction), which is an indefinite noun that clarifies vagueness in either a quantity/measure (tamyiz al-dhat) or a sentence-level relationship (tamyiz al-nisbah). Numerous Quranic examples from surahs including al-Hujurat, Yusuf, al-Baqarah, and others are used to illustrate both constructions.",
+    "concepts": [
+      {
+        "name": {
+          "ar": "الحال",
+          "en": "Hal (Circumstantial Accusative)",
+          "tr": "Hal (Durum Zarfı)"
+        },
+        "keywords": [
+          "hal",
+          "circumstantial accusative",
+          "mansub",
+          "fatha",
+          "state noun",
+          "condition",
+          "accusative",
+          "tanwin",
+          "descriptive accusative",
+          "hal mufrad",
+          "hal jumla"
+        ],
+        "examples": [
+          "جَاءَ الطَّالِبُ مُسْرِعًا",
+          "وَتَرَاهُمْ يُعْرَضُونَ عَلَيْهَا خَاشِعِينَ",
+          "ارْجِعِي إِلَى رَبِّكِ رَاضِيَةً مَّرْضِيَّةً",
+          "وَهَذَا صِرَاطُ رَبِّكَ مُسْتَقِيمًا"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الحال المفرد",
+          "en": "Simple Hal (single word circumstantial accusative)",
+          "tr": "Müfred Hal"
+        },
+        "keywords": [
+          "hal mufrad",
+          "single word hal",
+          "mansub",
+          "fatha",
+          "accusative adjective",
+          "tanwin",
+          "agreement gender number"
+        ],
+        "examples": [
+          "اشْتَرَيْتُ الْكِتَابَ مُجَلَّدًا",
+          "لَرَأَيْتَهُ خَاشِعًا مُّتَصَدِّعًا"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الحال الجملة",
+          "en": "Hal as a Clause (sentential hal)",
+          "tr": "Cümle Hal"
+        },
+        "keywords": [
+          "hal jumla",
+          "hal clause",
+          "circumstantial clause",
+          "waw hal",
+          "nominal sentence hal",
+          "verbal sentence hal"
+        ],
+        "examples": [
+          "حَفِظْتُ الْقُرْآنَ وَأَنَا صَغِيرٌ",
+          "وَأَنتُمْ تَعْلَمُونَ",
+          "وَأَهْلُهَا مُصْلِحُونَ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "مطابقة الحال لصاحبه",
+          "en": "Agreement of Hal with its referent (sahib al-hal)",
+          "tr": "Halin Sahibiyle Uyumu"
+        },
+        "keywords": [
+          "hal agreement",
+          "gender agreement",
+          "number agreement",
+          "dual",
+          "plural",
+          "masculine",
+          "feminine",
+          "sahib al-hal"
+        ],
+        "examples": [
+          "جَاءَنِي الطِّفْلُ بَاكِيًا",
+          "جَاءَتْنِي الطِّفْلَةُ بَاكِيَةً",
+          "قَابَلْتُ إِخْوَتِي رَاجِعِينَ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "تمييز الذات",
+          "en": "Tamyiz al-Dhat (Specification of Quantity/Entity)",
+          "tr": "Zat Temyizi (Miktar Temyizi)"
+        },
+        "keywords": [
+          "tamyiz",
+          "tamyiz al-dhat",
+          "specification",
+          "indefinite noun",
+          "mansub",
+          "fatha",
+          "measure",
+          "quantity",
+          "accusative",
+          "min implied"
+        ],
+        "examples": [
+          "قَرَأْتُ عِشْرِينَ صَفْحَةً",
+          "مِلْءُ الْأَرْضِ ذَهَبًا",
+          "فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا"
+        ]
+      },
+      {
+        "name": {
+          "ar": "تمييز النسبة",
+          "en": "Tamyiz al-Nisbah (Specification of Ratio/Relation)",
+          "tr": "Nispet Temyizi"
+        },
+        "keywords": [
+          "tamyiz al-nisbah",
+          "relational tamyiz",
+          "sentence tamyiz",
+          "clarifying vagueness",
+          "indefinite accusative",
+          "mansub",
+          "fatha",
+          "tanwin"
+        ],
+        "examples": [
+          "حَسُنَ حَامِدٌ خُلُقًا",
+          "أَيُّكُمْ أَحْسَنُ عَمَلًا",
+          "وَحَسُنَ أُولَئِكَ رَفِيقًا",
+          "رَبَّنَا وَسِعْتَ كُلَّ شَيْءٍ رَّحْمَةً وَعِلْمًا"
+        ]
+      }
+    ],
+    "level": 3,
+    "week": 7,
+    "lesson_id": "L3W7",
+    "pdf_filename": "Level-3__35th Lesson Line Spacing 2.0",
+    "current_title": {
+      "en": "Circumstantial Accusative (Hal) / Specification (Tamyiz)",
+      "tr": "Hal / Temyiz",
+      "ar": "الحال / التمييز"
+    }
+  },
+  "L3W8": {
+    "verified_title": {
+      "en": "Arabic Cardinal Numbers (al-ʿAdad wa-l-Maʿdūd) and Apposition (al-Badal)",
+      "tr": "Arapça Sayılar (el-Aded ve'l-Ma'dûd) ve Bedel",
+      "ar": "العدد والمعدود والبدل"
+    },
+    "summary": "This lesson covers Arabic cardinal numbers from 1 to 1000+, including gender polarity rules (mukhalafa) for numbers 3–10, compound numbers 11–19, tens, hundreds, and thousands, along with the grammatical case of the counted noun (maʿdūd) at each range. It also introduces fractions (al-kusūr) such as ½, ⅓, ¼ etc. and the distributive forms (mathnā, thulātha, rubāʿ). Additionally, the lesson teaches the grammatical concept of apposition (al-badal), covering its three types: badal kull min kull (complete substitution), badal baʿḍ min kull (partial substitution), and badal ishtimāl (associative apposition), with Quranic examples for each.",
+    "concepts": [
+      {
+        "name": {
+          "ar": "العدد والمعدود",
+          "en": "Cardinal Numbers and the Counted Noun",
+          "tr": "Sayılar ve Sayılan İsim"
+        },
+        "keywords": [
+          "adad",
+          "madud",
+          "cardinal number",
+          "gender polarity",
+          "mukhalafa",
+          "taqtir",
+          "numbers 3-10",
+          "broken plural",
+          "majrur",
+          "genitive counted noun",
+          "numbers 11-19",
+          "mansub",
+          "accusative singular",
+          "tamyiz",
+          "numbers 100-1000",
+          "mia",
+          "alf",
+          "singular genitive"
+        ],
+        "examples": [
+          "ثَلَاثَةُ رِجَالٍ",
+          "خَمْسَةَ عَشَرَ طَالِبًا",
+          "أَحَدَ عَشَرَ كَوْكَبًا",
+          "سِتَّةِ أَيَّامٍ",
+          "خَمْسُمِائَةِ يَوْمٍ",
+          "سِتَّةُ آلَافِ يَوْمٍ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "مخالفة العدد للمعدود في التذكير والتأنيث",
+          "en": "Gender Polarity of Numbers 3–10",
+          "tr": "3–10 Arası Sayılarda Cinsiyet Zıtlığı"
+        },
+        "keywords": [
+          "gender polarity",
+          "mukhalafa",
+          "taa marbuta",
+          "masculine counted",
+          "feminine number",
+          "feminine counted",
+          "masculine number",
+          "numbers 3 to 10"
+        ],
+        "examples": [
+          "ثَلَاثَةُ رِجَالٍ",
+          "ثَلَاثُ بَنَاتٍ",
+          "خَمْسَةٌ",
+          "خَمْسٌ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الكسور والأعداد التوزيعية",
+          "en": "Fractions and Distributive Numbers",
+          "tr": "Kesirler ve Dağıtım Sayıları"
+        },
+        "keywords": [
+          "fraction",
+          "kasr",
+          "nisf",
+          "thuluth",
+          "rubuc",
+          "khums",
+          "sudus",
+          "distributive",
+          "mathna",
+          "thalatha",
+          "rubac",
+          "half",
+          "third",
+          "quarter"
+        ],
+        "examples": [
+          "نِصْفٌ",
+          "ثُلُثٌ",
+          "رُبُعٌ",
+          "مَثْنَى وَثُلَاثَ وَرُبَاعَ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "كَمْ وَكَأَيِّن",
+          "en": "Interrogative/Indefinite Quantifiers: kam and kaʾayyin",
+          "tr": "Soru/Belirsiz Nicelik Bildiren كَمْ ve كَأَيِّن"
+        },
+        "keywords": [
+          "kam",
+          "kaayyin",
+          "interrogative number",
+          "indefinite quantity",
+          "min",
+          "genitive after kam"
+        ],
+        "examples": [
+          "كَمْ مِنْ فِئَةٍ",
+          "كَأَيِّنْ مِنْ قَرْيَةٍ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "البدل",
+          "en": "Apposition (Badal)",
+          "tr": "Bedel (Açıklayıcı Atıf)"
+        },
+        "keywords": [
+          "badal",
+          "apposition",
+          "mubdal minh",
+          "badal kull min kull",
+          "complete substitution",
+          "badal bad min kull",
+          "partial substitution",
+          "badal ishtimal",
+          "associative apposition",
+          "tabi",
+          "case agreement",
+          "number agreement",
+          "gender agreement"
+        ],
+        "examples": [
+          "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ صِرَاطَ الَّذِينَ",
+          "يَسْأَلُونَكَ عَنِ الشَّهْرِ الْحَرَامِ قِتَالٍ فِيهِ",
+          "لَنَسْفَعًا بِالنَّاصِيَةِ نَاصِيَةٍ كَاذِبَةٍ",
+          "إِنَّ لِلْمُتَّقِينَ مَفَازًا حَدَائِقَ"
+        ]
+      }
+    ],
+    "level": 3,
+    "week": 8,
+    "lesson_id": "L3W8",
+    "pdf_filename": "Level-3__36th Lesson Line Spacing 2.0",
+    "current_title": {
+      "en": "Apposition (Badal) / Numbers ('Adad)",
+      "tr": "Bedel / Sayılar",
+      "ar": "البدل / العدد"
+    }
+  },
+  "L3W9": {
+    "verified_title": {
+      "en": "Diptote Nouns (Al-Mamnu' min al-Sarf / Ghayrul Munsarif)",
+      "tr": "Gayri Munsarif İsimler (Ğayrul Munsarif)",
+      "ar": "الممنوع من الصرف"
+    },
+    "summary": "This lesson teaches the concept of diptote nouns (al-mamnu' min al-sarf / ghayrul munsarif) — declinable nouns that do not accept tanwin. It explains that such nouns take damma in the nominative, but fatha (instead of kasra) in both the accusative and genitive cases, except when preceded by the definite article 'al-' or used in an idafa construction, in which case they revert to kasra. The lesson catalogues the grammatical categories that trigger diptote status, including broken plurals of specific patterns, feminine alif endings, proper nouns with various features, adjectives on the af'alu pattern, and more, illustrating each with Quranic examples.",
+    "concepts": [
+      {
+        "name": {
+          "ar": "الممنوع من الصرف",
+          "en": "Diptote Noun (Ghayrul Munsarif)",
+          "tr": "Gayri Munsarif İsim"
+        },
+        "keywords": [
+          "diptote",
+          "ghayrul munsarif",
+          "mamnu min al-sarf",
+          "no tanwin",
+          "fatha for kasra",
+          "majrur with fatha"
+        ],
+        "examples": [
+          "جَاءَ أَحْمَدُ",
+          "رَأَيْتُ أَحْمَدَ",
+          "مَرَرْتُ بِأَحْمَدَ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "صيغة منتهى الجموع",
+          "en": "Broken Plural of Mafa'il / Mafa'il Pattern",
+          "tr": "Kırık Çoğul (Müntehe'l-Cümû' Kalıbı)"
+        },
+        "keywords": [
+          "broken plural",
+          "mafa'il",
+          "mafa'il pattern",
+          "ghayrul munsarif",
+          "diptote plural",
+          "fawa'il",
+          "masajid pattern"
+        ],
+        "examples": [
+          "مَسَاجِدُ",
+          "مَنَافِعُ",
+          "مَصَابِيحُ",
+          "فَوَاكِهُ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "ألف التأنيث الممدودة والمقصورة",
+          "en": "Feminine Alif Ending (Extended and Shortened)",
+          "tr": "Uzatılmış ve Kısaltılmış Müennes Elif Eki"
+        },
+        "keywords": [
+          "alif taʾnith mamduda",
+          "alif taʾnith maqsura",
+          "feminine ending",
+          "diptote",
+          "fatha ending",
+          "ghayrul munsarif"
+        ],
+        "examples": [
+          "أَوْلِيَاءُ",
+          "بَيْضَاءُ",
+          "صَحْرَاءُ",
+          "بُشْرَى",
+          "حُسْنَى",
+          "ذِكْرَى"
+        ]
+      },
+      {
+        "name": {
+          "ar": "العلمية مع التأنيث",
+          "en": "Proper Noun with Femininity",
+          "tr": "Müennes Özel İsim"
+        },
+        "keywords": [
+          "proper noun",
+          "feminine proper noun",
+          "alam",
+          "taʾnith",
+          "diptote",
+          "ghayrul munsarif",
+          "Maryam",
+          "Zaynab"
+        ],
+        "examples": [
+          "مَرْيَمُ",
+          "زَيْنَبُ",
+          "كَوْثَرُ",
+          "طَلْحَةُ",
+          "حَمْزَةُ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الوصفية ووزن أفعل",
+          "en": "Adjective on the Af'alu Pattern",
+          "tr": "Ef'al Veznindeki Sıfat"
+        },
+        "keywords": [
+          "af'alu pattern",
+          "afʿal",
+          "elative",
+          "comparative adjective",
+          "diptote adjective",
+          "ghayrul munsarif",
+          "color adjective",
+          "defect adjective"
+        ],
+        "examples": [
+          "أَعْرَجُ",
+          "أَخْضَرُ",
+          "أَفْضَلُ",
+          "أَحْسَنَ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "العلمية وزيادة الألف والنون",
+          "en": "Proper Noun with Alif-Nun Suffix",
+          "tr": "Elif-Nun Ekli Özel İsim"
+        },
+        "keywords": [
+          "alif nun suffix",
+          "proper noun",
+          "diptote",
+          "ghayrul munsarif",
+          "Sulayman",
+          "Uthman",
+          "ghayrul munsarif with an ending"
+        ],
+        "examples": [
+          "سُلَيْمَانُ",
+          "سَلْمَانُ",
+          "عُثْمَانُ"
+        ]
+      }
+    ],
+    "level": 3,
+    "week": 9,
+    "lesson_id": "L3W9",
+    "pdf_filename": "Level-3__37th Lesson Line Spacing 2.0",
+    "current_title": {
+      "en": "Diptote Nouns (Ghayrul Munsarif)",
+      "tr": "Ğayrul Munsarif",
+      "ar": "الممنوع من الصرف"
+    }
+  },
+  "L3W10": {
+    "verified_title": {
+      "en": "Declinable & Indeclinable Words (Mu'rab & Mabni) and Relative Pronouns (Ism al-Mawsul)",
+      "tr": "Mebni ve Mu'rab Kelimeler ile İsm-i Mevsul",
+      "ar": "المبني والمعرب والأسماء الموصولة"
+    },
+    "summary": "This lesson distinguishes between declinable words (al-mu'rab), whose endings change according to grammatical position, and indeclinable words (al-mabni), whose endings remain fixed. It covers six categories of indeclinable nouns (pronouns, demonstratives, relative pronouns, interrogative nouns, conditional nouns, and verbal nouns), the declension of verbs, and a full declension table for nouns. The second half of the lesson is dedicated to relative pronouns (al-ism al-mawsul), presenting all forms (الذي، التي، اللذان، اللتان، الذين، اللاتي، من، ما) with their usage conditions and Quranic examples.",
+    "concepts": [
+      {
+        "name": {
+          "ar": "المعرب والمبني",
+          "en": "Declinable and Indeclinable Words (Mu'rab and Mabni)",
+          "tr": "Mu'rab ve Mebni Kelimeler"
+        },
+        "keywords": [
+          "murab",
+          "mabni",
+          "declinable",
+          "indeclinable",
+          "case ending",
+          "fixed ending",
+          "irab",
+          "inflection"
+        ],
+        "examples": [
+          "يَفْعَلُ",
+          "أَنْ يَفْعَلَ",
+          "لَمْ يَفْعَلْ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الضمائر",
+          "en": "Pronouns (indeclinable)",
+          "tr": "Zamirler (Mebni)"
+        },
+        "keywords": [
+          "mabni",
+          "pronoun",
+          "damir",
+          "indeclinable",
+          "huwa",
+          "hiya",
+          "nahnu",
+          "anta"
+        ],
+        "examples": [
+          "هُوَ",
+          "هِيَ",
+          "نَحْنُ",
+          "أَنَا"
+        ]
+      },
+      {
+        "name": {
+          "ar": "أسماء الإشارة",
+          "en": "Demonstrative Pronouns (indeclinable)",
+          "tr": "İşaret İsimleri (Mebni)"
+        },
+        "keywords": [
+          "mabni",
+          "demonstrative",
+          "ism al-ishara",
+          "hatha",
+          "hadhihi",
+          "dhalika",
+          "haula"
+        ],
+        "examples": [
+          "هَذَا",
+          "هَذِهِ",
+          "ذَلِكَ",
+          "هَؤُلَاءِ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الأسماء الموصولة",
+          "en": "Relative Pronouns (Ism al-Mawsul)",
+          "tr": "İsm-i Mevsul (Bağlaç Zamirleri)"
+        },
+        "keywords": [
+          "ism al-mawsul",
+          "relative pronoun",
+          "allathi",
+          "allati",
+          "alladhina",
+          "sila al-mawsul",
+          "alladhan",
+          "allatan",
+          "man",
+          "ma",
+          "mabni"
+        ],
+        "examples": [
+          "الَّذِي",
+          "الَّتِي",
+          "الَّذِينَ",
+          "اللَّذَانِ",
+          "اللَّتَانِ",
+          "اللَّاتِي",
+          "مَنْ",
+          "مَا"
+        ]
+      },
+      {
+        "name": {
+          "ar": "إعراب الأسماء",
+          "en": "Noun Declension (singular, dual, sound plural, broken plural)",
+          "tr": "İsimlerin İrabı (Tekil, Tesniye, Cemi)"
+        },
+        "keywords": [
+          "marfu",
+          "mansub",
+          "majrur",
+          "raf",
+          "nasb",
+          "jarr",
+          "mufrad",
+          "muthanna",
+          "jam mudhakkar salim",
+          "jam muannas salim",
+          "jam taksir",
+          "broken plural",
+          "sound plural",
+          "dual",
+          "case ending",
+          "waw",
+          "ya",
+          "alif",
+          "kasra",
+          "damma",
+          "fatha",
+          "tanwin"
+        ],
+        "examples": [
+          "مُسْلِمٌ",
+          "مُسْلِمَانِ",
+          "مُسْلِمُونَ",
+          "مُسْلِمَاتٌ",
+          "كُتُبٌ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الفعل المضارع المعرب",
+          "en": "Declinable Imperfect Verb (Mudari' Mu'rab)",
+          "tr": "Mu'rab Muzari Fiil"
+        },
+        "keywords": [
+          "mudari",
+          "marfu",
+          "mansub",
+          "majzum",
+          "nasib particle",
+          "jazim particle",
+          "lam",
+          "lan",
+          "an",
+          "imperfect verb",
+          "nun al-niswa",
+          "nun al-tawkid"
+        ],
+        "examples": [
+          "يَفْعَلُ",
+          "أَنْ يَفْعَلَ",
+          "لَمْ يَفْعَلْ",
+          "يَفْعَلْنَ",
+          "يَفْعَلَنَّ"
+        ]
+      }
+    ],
+    "level": 3,
+    "week": 10,
+    "lesson_id": "L3W10",
+    "pdf_filename": "Level-3__38th Lesson Line Spacing 2.0",
+    "current_title": {
+      "en": "Declinable & Indeclinable Words / Relative Pronouns",
+      "tr": "Mebnî ve Mu'rab Kelimeler / İsmi Mevsul",
+      "ar": "المبني والمعرب / الأسماء الموصولة"
+    }
+  },
+  "L3W11": {
+    "verified_title": {
+      "en": "Exception (Istithna) and Absolute Object (Maf'ul Mutlaq)",
+      "tr": "İstisna ve Mef'ul Mutlak",
+      "ar": "الاستثناء والمفعول المطلق"
+    },
+    "summary": "This lesson covers the grammar of exception (al-istithna'), explaining the particles of exception (إلا، غير، سوى، خلا، عدا، حاشا), the case endings of the excepted noun in affirmative and negative sentences, and the distinction between إلا as an exception particle versus أَلا and أَلَّا as other particles. It then introduces the absolute object (maf'ul mutlaq), defined as a verbal noun (masdar) mentioned after a verb of the same root to emphasize meaning, specify number, or clarify type, with Quranic examples illustrating all uses.",
+    "concepts": [
+      {
+        "name": {
+          "ar": "الاستثناء",
+          "en": "Exception (Istithna')",
+          "tr": "İstisna"
+        },
+        "keywords": [
+          "istithna",
+          "exception",
+          "mustathna",
+          "mustathna minhu",
+          "illa",
+          "mansub",
+          "mraf",
+          "badal",
+          "affirmative sentence",
+          "negative sentence",
+          "fatha",
+          "tanwin"
+        ],
+        "examples": [
+          "جَاءَ الطُّلَّابُ إِلَّا خَالِدًا",
+          "مَا جَاءَ الطُّلَّابُ إِلَّا خَالِدٌ",
+          "فَشَرِبُوا مِنْهُ إِلَّا قَلِيلًا مِنْهُمْ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "أدوات الاستثناء",
+          "en": "Particles of Exception",
+          "tr": "İstisna Edatları"
+        },
+        "keywords": [
+          "illa",
+          "ghayru",
+          "siwaa",
+          "khala",
+          "ada",
+          "hashaa",
+          "majrur",
+          "mudaf ilayh",
+          "maf'ul bihi",
+          "harf jarr",
+          "fi'l"
+        ],
+        "examples": [
+          "جَاءَ الطُّلَّابُ غَيْرَ خَالِدٍ",
+          "عَادَ الطُّلَّابُ عَدَا خَالِدًا",
+          "عَادَ الطُّلَّابُ حَاشَا خَالِدًا"
+        ]
+      },
+      {
+        "name": {
+          "ar": "أَلَا وأَلَّا",
+          "en": "The Particles Ala and Alla",
+          "tr": "Elâ ve Ellâ Edatları"
+        },
+        "keywords": [
+          "ala",
+          "alla",
+          "harf istiftah",
+          "tanbih",
+          "ard",
+          "tahdhidh",
+          "an plus la nafiya",
+          "an plus la nahiya",
+          "negative",
+          "prohibition"
+        ],
+        "examples": [
+          "أَلَا إِنَّ أَوْلِيَاءَ اللَّهِ",
+          "أَلَا تُحِبُّونَ أَنْ يَغْفِرَ اللَّهُ",
+          "أَلَّا تَعْبُدُوا إِلَّا إِيَّاهُ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "المفعول المطلق",
+          "en": "Absolute Object (Maf'ul Mutlaq)",
+          "tr": "Mef'ul Mutlak"
+        },
+        "keywords": [
+          "maf'ul mutlaq",
+          "masdar",
+          "verbal noun",
+          "mansub",
+          "fatha",
+          "tanwin",
+          "ta'kid",
+          "emphasis",
+          "number",
+          "type",
+          "naib an fi'lihi",
+          "same root as verb"
+        ],
+        "examples": [
+          "رَمَى خَالِدٌ رَمْيًا",
+          "فَتَحْنَا لَكَ فَتْحًا مُّبِينًا",
+          "اذْكُرُوا اللَّهَ ذِكْرًا كَثِيرًا",
+          "تُوبُوا إِلَى اللَّهِ تَوْبَةً نَصُوحًا",
+          "سُبْحَانَ اللَّهِ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "المفعول المطلق النائب عن فعله",
+          "en": "Absolute Object Substituting for its Verb",
+          "tr": "Fiilinin Yerine Geçen Mef'ul Mutlak"
+        },
+        "keywords": [
+          "naib an fi'lihi",
+          "maf'ul mutlaq",
+          "masdar",
+          "verb substitution",
+          "mansub",
+          "fatha",
+          "subhanallah",
+          "ma'adhallah"
+        ],
+        "examples": [
+          "مَعَاذَ اللَّهِ",
+          "سُبْحَانَ اللَّهِ"
+        ]
+      }
+    ],
+    "level": 3,
+    "week": 11,
+    "lesson_id": "L3W11",
+    "pdf_filename": "Level-3__39th Lesson Line Spacing 2.0",
+    "current_title": {
+      "en": "Exception (Istithna) / Absolute Object (Maf'ul Mutlaq)",
+      "tr": "İstisna / Mef'ul Mutlak",
+      "ar": "الاستثناء / المفعول المطلق"
+    }
+  },
+  "L3W12": {
+    "verified_title": {
+      "en": "Emphasis (Tawkid): Emphatic Lam, Emphatic Nun (Nun al-Tawkid al-Thaqila and Khafifa)",
+      "tr": "Te'kid: Te'kid Lamı, Te'kid Nunu (Ağır ve Hafif Nun)",
+      "ar": "التوكيد: لام التوكيد ونونا التوكيد الثقيلة والخفيفة"
+    },
+    "summary": "This lesson introduces the major tools of emphasis (tawkid) in Arabic, including inna/anna, lam al-ibtida (the lam mazhlaqah), lam al-qasam, the particle qad, and the maf'ul mutlaq. The central focus is on the emphatic nun (nun al-tawkid al-thaqila and al-khafifa), which attaches to the present tense (mudari') and imperative (amr) verbs to convey strong affirmation. The lesson details the grammatical conditions under which the emphatic nun is obligatory, permissible, or prohibited, and provides conjugation tables and Quranic examples throughout.",
+    "concepts": [
+      {
+        "name": {
+          "ar": "نون التوكيد الثقيلة والخفيفة",
+          "en": "Emphatic Nun (Heavy and Light)",
+          "tr": "Te'kid Nunu (Ağır ve Hafif)"
+        },
+        "keywords": [
+          "nun al-tawkid",
+          "emphatic nun",
+          "thaqila",
+          "khafifa",
+          "nunation emphasis",
+          "mudari",
+          "imperative",
+          "tawkid",
+          "verb emphasis",
+          "nun suffix"
+        ],
+        "examples": [
+          "لَتَدْخُلُنَّ الْمَسْجِدَ",
+          "لَيُسْجَنَنَّ",
+          "وَلَنَبْلُوَنَّكُم",
+          "لَأَكِيدَنَّ أَصْنَامَكُم"
+        ]
+      },
+      {
+        "name": {
+          "ar": "لام التوكيد (اللام المزحلقة)",
+          "en": "Emphatic Lam (Lam al-Muzhlaqa / Lam al-Ibtida)",
+          "tr": "Te'kid Lamı (Kayan Lam / Başlangıç Lamı)"
+        },
+        "keywords": [
+          "lam tawkid",
+          "lam muzhlaqa",
+          "lam ibtida",
+          "emphatic lam",
+          "inna lam",
+          "predicative emphasis",
+          "lam al-qasam"
+        ],
+        "examples": [
+          "وَإِنَّكَ لَعَلَى خُلُقٍ عَظِيمٍ",
+          "وَلَذِكْرُ اللَّهِ أَكْبَرُ",
+          "لَقَدْ كَانَ لَكُمْ أُسْوَةٌ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "إنَّ وأنَّ",
+          "en": "Inna and Anna (Assertive particles)",
+          "tr": "İnne ve Enne (Vurgulama edatları)"
+        },
+        "keywords": [
+          "inna",
+          "anna",
+          "assertive particle",
+          "tawkid",
+          "nominal sentence emphasis",
+          "nasb",
+          "ism inna",
+          "khabar inna"
+        ],
+        "examples": [
+          "إِنَّ الْمُنَافِقِينَ هُمُ الْفَاسِقُونَ",
+          "وَاعْلَمُوا أَنَّ فِيكُمْ رَسُولَ اللَّهِ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "لام القسم",
+          "en": "Lam al-Qasam (Oath Lam)",
+          "tr": "Yemin Lamı"
+        },
+        "keywords": [
+          "lam qasam",
+          "oath lam",
+          "qasam",
+          "swearing",
+          "laqad",
+          "lam with qasam",
+          "jawab qasam"
+        ],
+        "examples": [
+          "قَالُوا تَاللَّهِ لَقَدْ آثَرَكَ اللَّهُ",
+          "لَقَدْ كَانَ لَكُمْ أُسْوَةٌ حَسَنَةٌ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "حرف قَد",
+          "en": "Particle Qad (with perfect/imperfect verb)",
+          "tr": "Kat'iyet ifade eden 'kad' edatı"
+        },
+        "keywords": [
+          "qad",
+          "particle qad",
+          "emphasis past tense",
+          "tahqiq",
+          "perfect verb emphasis"
+        ],
+        "examples": [
+          "قَدْ أَفْلَحَ الْمُؤْمِنُونَ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "المفعول المطلق",
+          "en": "Maf'ul Mutlaq (Cognate/Absolute Object for Emphasis)",
+          "tr": "Mef'ûl-i Mutlak (Pekiştirme Amaçlı)"
+        },
+        "keywords": [
+          "maf'ul mutlaq",
+          "cognate accusative",
+          "absolute object",
+          "masdar emphasis",
+          "fatha",
+          "mansub",
+          "tanwin fatha"
+        ],
+        "examples": [
+          "فَجَمَعْنَاهُمْ جَمْعًا"
+        ]
+      }
+    ],
+    "level": 3,
+    "week": 12,
+    "lesson_id": "L3W12",
+    "pdf_filename": "Level-3__40th Lesson Line Spacing2.0 ",
+    "current_title": {
+      "en": "Emphasis (Tawkid): Emphatic Lam, Emphatic Nun",
+      "tr": "Te'kid: Te'kid Lamı, Te'kid Nunu, نَّ",
+      "ar": "التوكيد: لام التوكيد ونون التوكيد"
+    }
+  },
+  "L3W13": {
+    "verified_title": {
+      "en": "Augmented (Derived) Verb Forms: Triliteral with One, Two, and Three Added Letters (Forms II–V)",
+      "tr": "Mezid Fiiller: Bir, İki ve Üç Harfle Türetilmiş Fiil Kalıpları (II–V. Bablar)",
+      "ar": "الفعل المزيد الثلاثي بحرف وبحرفين وبثلاثة أحرف (الأبواب الثاني حتى الخامس)"
+    },
+    "summary": "This lesson introduces the distinction between bare (mujarrad) and augmented (mazid) triliteral verbs, then systematically presents four augmented verb forms: فَعَّلَ (Form II, one added letter – gemination), أَفْعَلَ (Form IV, one added letter – prefixed hamza), فَاعَلَ (Form III, one added letter – lengthened first vowel), تَفَعَّلَ (Form V), and تَفَاعَلَ (Form VI). For each pattern, the lesson provides the full paradigm including past tense, imperfect, imperative, active participle, passive participle, and verbal noun (masdar), along with numerous Quranic examples illustrating each form in context.",
+    "concepts": [
+      {
+        "name": {
+          "ar": "فَعَّلَ (الباب الثاني)",
+          "en": "Form II verb (faʿʿala) – geminated middle radical",
+          "tr": "II. Bab (feʿʿale) – orta harf şeddeli fiil"
+        },
+        "keywords": [
+          "form II",
+          "faʿʿala",
+          "gemination",
+          "shadda",
+          "middle radical doubled",
+          "tafʿil masdar",
+          "mufaʿʿal passive participle",
+          "mufaʿʿil active participle",
+          "augmented verb",
+          "mazid"
+        ],
+        "examples": [
+          "سَبَّحَ يُسَبِّحُ تَسْبِيحٌ",
+          "عَلَّمَ يُعَلِّمُ تَعْلِيمٌ",
+          "نَزَّلَ يُنَزِّلُ تَنْزِيلٌ",
+          "بَشَّرَ يُبَشِّرُ تَبْشِيرٌ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "أَفْعَلَ (الباب الرابع)",
+          "en": "Form IV verb (afʿala) – prefixed hamza",
+          "tr": "IV. Bab (efʿale) – başına hemze eklenen fiil"
+        },
+        "keywords": [
+          "form IV",
+          "afʿala",
+          "prefixed hamza",
+          "ifʿal masdar",
+          "mufʿal passive participle",
+          "mufʿil active participle",
+          "augmented verb",
+          "mazid",
+          "hamza prefix"
+        ],
+        "examples": [
+          "أَخْرَجَ يُخْرِجُ إِخْرَاجٌ",
+          "أَنْزَلَ يُنْزِلُ إِنْزَالٌ",
+          "أَرْسَلَ يُرْسِلُ إِرْسَالٌ",
+          "أَنْذَرَ يُنْذِرُ إِنْذَارٌ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "فَاعَلَ (الباب الثالث)",
+          "en": "Form III verb (fāʿala) – lengthened first vowel (alif after first radical)",
+          "tr": "III. Bab (fāʿale) – birinci harften sonra elif uzatmalı fiil"
+        },
+        "keywords": [
+          "form III",
+          "fāʿala",
+          "alif after first radical",
+          "mufaʿala masdar",
+          "fiʿal masdar",
+          "mufaʿil active participle",
+          "mufaʿal passive participle",
+          "augmented verb",
+          "mazid",
+          "reciprocal"
+        ],
+        "examples": [
+          "جَاهَدَ يُجَاهِدُ جِهَادٌ",
+          "قَاتَلَ يُقَاتِلُ قِتَالٌ",
+          "جَادَلَ يُجَادِلُ جِدَالٌ",
+          "هَاجَرَ يُهَاجِرُ مُهَاجَرَةٌ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "تَفَعَّلَ (الباب الخامس)",
+          "en": "Form V verb (tafaʿʿala) – prefixed ta + geminated middle radical",
+          "tr": "V. Bab (tefaʿʿale) – başında ta ve şeddeli orta harf"
+        },
+        "keywords": [
+          "form V",
+          "tafaʿʿala",
+          "ta prefix",
+          "gemination",
+          "tafaʿʿul masdar",
+          "mutafaʿʿil active participle",
+          "mutafaʿʿal passive participle",
+          "augmented verb",
+          "mazid",
+          "reflexive"
+        ],
+        "examples": [
+          "تَوَكَّلَ يَتَوَكَّلُ تَوَكُّلٌ",
+          "تَفَكَّرَ يَتَفَكَّرُ تَفَكُّرٌ",
+          "تَعَلَّمَ يَتَعَلَّمُ تَعَلُّمٌ",
+          "تَنَزَّلَ يَتَنَزَّلُ تَنَزُّلٌ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "تَفَاعَلَ (الباب السادس)",
+          "en": "Form VI verb (tafāʿala) – prefixed ta + alif after first radical",
+          "tr": "VI. Bab (tefāʿale) – başında ta ve elif uzatmalı fiil"
+        },
+        "keywords": [
+          "form VI",
+          "tafāʿala",
+          "ta prefix",
+          "alif after first radical",
+          "tafāʿul masdar",
+          "mutafāʿil active participle",
+          "mutafāʿal passive participle",
+          "augmented verb",
+          "mazid",
+          "mutual reciprocal"
+        ],
+        "examples": [
+          "تَسَاءَلَ يَتَسَاءَلُ تَسَاؤُلٌ",
+          "تَعَاوَنَ يَتَعَاوَنُ تَعَاوُنٌ",
+          "تَعَارَفَ يَتَعَارَفُ تَعَارُفٌ",
+          "تَشَابَهَ يَتَشَابَهُ تَشَابُهٌ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الفعل المجرد والفعل المزيد",
+          "en": "Bare (mujarrad) vs. augmented (mazid) verb – root classification",
+          "tr": "Mücerred ve Mezid Fiil Ayrımı – Kök Sınıflandırması"
+        },
+        "keywords": [
+          "mujarrad",
+          "mazid",
+          "bare verb",
+          "augmented verb",
+          "triliteral root",
+          "quadriliteral root",
+          "added letters",
+          "ziyada",
+          "root letters",
+          "verb classification"
+        ],
+        "examples": [
+          "كَتَبَ جَلَسَ قَرَأَ",
+          "زَلْزَلَ وَسْوَسَ طَمْأَنَ"
+        ]
+      }
+    ],
+    "level": 3,
+    "week": 13,
+    "lesson_id": "L3W13",
+    "pdf_filename": "Level-3__41st Lesson Line Spacing 2.0 ",
+    "current_title": {
+      "en": "Derived Verbs (Augmented Verb Forms II–V)",
+      "tr": "Türetilmiş Fiiller (II–V. Bablar)",
+      "ar": "الأفعال المزيدة — الأبواب II إلى V"
+    }
+  },
+  "L3W14": {
+    "verified_title": {
+      "en": "Derived Verb Forms (Augmented Triliteral and Quadriliteral): Forms VII, VIII, X, and Quadriliteral Patterns",
+      "tr": "Türetilmiş Fiil Kalıpları: VII., VIII., X. Bablar ve Dörtlü Kök Fiiller",
+      "ar": "الفعل المجرد والفعل المزيد: الأبواب السابع والثامن والعاشر والرباعي المزيد"
+    },
+    "summary": "This lesson presents the conjugation paradigms for Arabic augmented verb forms VII (انفعل), VIII (افتعل), and X (استفعل), including their past tense, present tense, imperative, active participle, passive participle, and verbal noun forms. It also introduces quadriliteral verb patterns (فعللة) and their augmented derivatives (تفعلل، افعنلل، افعللّ). Each pattern is illustrated with multiple Quranic examples.",
+    "concepts": [
+      {
+        "name": {
+          "ar": "باب انفعل (الباب السابع)",
+          "en": "Form VII verb (infa'ala pattern)",
+          "tr": "VII. Bab (infe'ale kalıbı)"
+        },
+        "keywords": [
+          "form VII",
+          "infa'ala",
+          "munfa'il",
+          "infi'al",
+          "reflexive",
+          "passive",
+          "augmented",
+          "nun infix",
+          "hamzat al-wasl"
+        ],
+        "examples": [
+          "اِنْطَلَقَ",
+          "اِنْقَلَبَ",
+          "اِنْصَرَفَ",
+          "اِنْشَقَّ",
+          "اِنْفَطَرَ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "باب افتعل (الباب الثامن)",
+          "en": "Form VIII verb (ifta'ala pattern)",
+          "tr": "VIII. Bab (ifte'ale kalıbı)"
+        },
+        "keywords": [
+          "form VIII",
+          "ifta'ala",
+          "muftа'il",
+          "ifti'al",
+          "ta infix",
+          "augmented",
+          "reflexive",
+          "hamzat al-wasl"
+        ],
+        "examples": [
+          "اِخْتَلَفَ",
+          "اِتَّبَعَ",
+          "اِتَّخَذَ",
+          "اِسْتَمَعَ",
+          "اِقْتَرَبَ",
+          "اِتَّقَى"
+        ]
+      },
+      {
+        "name": {
+          "ar": "باب استفعل (الباب العاشر)",
+          "en": "Form X verb (istaf'ala pattern)",
+          "tr": "X. Bab (istef'ale kalıbı)"
+        },
+        "keywords": [
+          "form X",
+          "istaf'ala",
+          "mustaf'il",
+          "istif'al",
+          "sin ta prefix",
+          "augmented",
+          "seeking",
+          "hamzat al-wasl"
+        ],
+        "examples": [
+          "اِسْتَغْفَرَ",
+          "اِسْتَأْذَنَ",
+          "اِسْتَكْبَرَ",
+          "اِسْتَقَامَ",
+          "اِسْتَهْزَأَ",
+          "اِسْتَعْجَلَ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الفعل الرباعي المجرد (فعلل)",
+          "en": "Bare quadriliteral verb (fa'lala pattern)",
+          "tr": "Dörtlü Kök Fiil (fa'lale kalıbı)"
+        },
+        "keywords": [
+          "quadriliteral",
+          "fa'lala",
+          "four-radical",
+          "reduplicated",
+          "fa'lalah",
+          "quadriliteral root"
+        ],
+        "examples": [
+          "زَلْزَلَ",
+          "وَسْوَسَ",
+          "كَبْكَبَ",
+          "بَعْثَرَ",
+          "دَمْدَمَ",
+          "ذَبْذَبَ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "الرباعي المزيد (تفعلل، افعنلل، افعلّل)",
+          "en": "Augmented quadriliteral verb forms (tafa'lala, if'anlala, if'alalla)",
+          "tr": "Artırılmış Dörtlü Fiil Kalıpları (tefe'lele, if'enlele, if'ellele)"
+        },
+        "keywords": [
+          "augmented quadriliteral",
+          "tafa'lala",
+          "if'anlala",
+          "if'alalla",
+          "quadriliteral augmented",
+          "form tafa'lal"
+        ],
+        "examples": [
+          "تَدَحْرَجَ",
+          "إِحْرَنْجَمَ",
+          "إِقْشَعَرَّ"
+        ]
+      },
+      {
+        "name": {
+          "ar": "اسم الفاعل واسم المفعول والمصدر للأبواب المزيدة",
+          "en": "Active participle, passive participle, and verbal noun of augmented forms",
+          "tr": "Artırılmış Fiil Kalıplarında İsm-i Fail, İsm-i Mef'ul ve Mastar"
+        },
+        "keywords": [
+          "active participle",
+          "passive participle",
+          "verbal noun",
+          "masdar",
+          "ism al-fa'il",
+          "ism al-maf'ul",
+          "munfa'il",
+          "muftа'il",
+          "mustaf'il",
+          "infi'al",
+          "ifti'al",
+          "istif'al"
+        ],
+        "examples": [
+          "مُنْطَلِقٌ",
+          "مُخْتَلِفٌ",
+          "مُسْتَغْفِرٌ",
+          "مُسْتَقِيمٌ",
+          "اِنْطِلَاقٌ",
+          "اِسْتِغْفَارٌ"
+        ]
+      }
+    ],
+    "level": 3,
+    "week": 14,
+    "lesson_id": "L3W14",
+    "pdf_filename": "Level-3__42nd Lesson Line Spacing 2.0 ",
+    "current_title": {
+      "en": "Derived Verbs (Augmented Verb Forms VI–X)",
+      "tr": "Türetilmiş Fiiller (VI–X. Bablar)",
+      "ar": "الأفعال المزيدة — الأبواب VI إلى X"
+    }
+  }
+}
