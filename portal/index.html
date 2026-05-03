@@ -1326,9 +1326,9 @@ async function loadVerse() {
     const data = await res.json();
     const verseText = (data.verse && (data.verse.text_uthmani || data.verse.text_imlaei)) || '';
     if (!verseText) throw new Error('No verse text returned');
-    document.getElementById('irab-input').value = verseText;
-    // Auto-trigger analysis
-    await analyzeVerse();
+    const ta = document.getElementById('irab-input');
+    ta.value = verseText;
+    ta.focus();
   } catch (e) {
     document.getElementById('irab-results').innerHTML =
       `<div class="feedback-box error">Failed to load verse ${verseKey}: ${escapeHtml(e.message)}</div>`;
