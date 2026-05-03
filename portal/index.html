@@ -327,6 +327,22 @@
   }
 
   /* Verse Analysis (I'rab) */
+  .irab-picker {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 16px 18px;
+    box-shadow: var(--shadow); margin-bottom: 14px;
+    display: flex; gap: 10px; align-items: flex-end; flex-wrap: wrap;
+  }
+  .irab-picker-field { display: flex; flex-direction: column; gap: 4px; flex: 1; min-width: 180px; }
+  .irab-picker-field label { font-size: 0.72rem; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; }
+  .irab-picker select {
+    padding: 9px 12px; border: 1.5px solid var(--border); border-radius: 8px;
+    background: var(--card); font-size: 0.92rem; cursor: pointer;
+    font-family: inherit; min-height: 40px;
+  }
+  .irab-picker select:focus { outline: none; border-color: var(--green); }
+  .irab-picker select:disabled { opacity: 0.5; cursor: not-allowed; }
+
   .irab-input {
     background: var(--card); border: 1px solid var(--border);
     border-radius: var(--radius); padding: 22px; box-shadow: var(--shadow);
@@ -514,6 +530,12 @@ const I18N = {
     irabClear: 'Clear',
     irabNoLessons: 'No lesson references for this word.',
     irabNotes: 'Notes',
+    irabPickSurah: 'Surah',
+    irabPickAyah: 'Ayah',
+    irabPickLoad: 'Load Verse',
+    irabPickLoading: 'Loading...',
+    irabPickFromQuran: 'Pick from Quran',
+    irabOrPaste: 'Or paste your own text:',
   },
   tr: {
     navLabel: 'Kuran Arapçası',
@@ -568,6 +590,12 @@ const I18N = {
     irabClear: 'Temizle',
     irabNoLessons: 'Bu kelime için ders referansı yok.',
     irabNotes: 'Notlar',
+    irabPickSurah: 'Sûre',
+    irabPickAyah: 'Ayet',
+    irabPickLoad: 'Ayeti Yükle',
+    irabPickLoading: 'Yükleniyor...',
+    irabPickFromQuran: 'Kuran\'dan Seç',
+    irabOrPaste: 'Veya kendi metninizi yapıştırın:',
   },
   ar: {
     navLabel: 'العربية القرآنية',
@@ -622,6 +650,12 @@ const I18N = {
     irabClear: 'مسح',
     irabNoLessons: 'لا توجد إشارات لدروس لهذه الكلمة.',
     irabNotes: 'ملاحظات',
+    irabPickSurah: 'السورة',
+    irabPickAyah: 'الآية',
+    irabPickLoad: 'حمّل الآية',
+    irabPickLoading: 'جارٍ التحميل...',
+    irabPickFromQuran: 'اختر من القرآن',
+    irabOrPaste: 'أو الصق نصك الخاص:',
   },
 };
 
@@ -1165,6 +1199,28 @@ function showQuizScore() {
 // ─── Verse Analysis (I'rab) ───────────────────────────────────────────────────
 
 let lastIrabResult = null;
+let quranChapters = null; // cached array of {id, name_simple, name_arabic, translated_name, verses_count}
+let pickerState = { surah: '', ayah: '' };
+
+async function fetchChapters() {
+  const apiLang = lang === 'tr' ? 'tr' : (lang === 'ar' ? 'ar' : 'en');
+  const cacheKey = `quran_chapters_v1_${apiLang}`;
+  if (quranChapters && quranChapters.__lang === apiLang) return quranChapters;
+  const cached = localStorage.getItem(cacheKey);
+  if (cached) {
+    try {
+      quranChapters = JSON.parse(cached);
+      quranChapters.__lang = apiLang;
+      return quranChapters;
+    } catch (e) {}
+  }
+  const res = await fetch(`https://api.quran.com/api/v4/chapters?language=${apiLang}`);
+  const data = await res.json();
+  quranChapters = data.chapters || [];
+  quranChapters.__lang = apiLang;
+  localStorage.setItem(cacheKey, JSON.stringify(quranChapters));
+  return quranChapters;
+}
 
 function renderIrab(ref) {
   const main = document.getElementById('main');
@@ -1174,11 +1230,28 @@ function renderIrab(ref) {
       <p>${ref.desc[lang]}</p>
     </div>
     <div class="section">
+      <div class="irab-picker">
+        <div class="irab-picker-field">
+          <label>${t('irabPickSurah')}</label>
+          <select id="picker-surah" onchange="onSurahChange()" disabled>
+            <option value="">${t('irabPickLoading')}</option>
+          </select>
+        </div>
+        <div class="irab-picker-field" style="max-width: 130px">
+          <label>${t('irabPickAyah')}</label>
+          <select id="picker-ayah" disabled><option value="">—</option></select>
+        </div>
+        <div class="irab-picker-field" style="flex: 0; min-width: 130px">
+          <label>&nbsp;</label>
+          <button class="btn-primary" id="picker-load" onclick="loadVerse()" disabled style="padding:9px 18px">${t('irabPickLoad')}</button>
+        </div>
+      </div>
       <div class="irab-input">
+        <div style="font-size:0.78rem; color:var(--muted); margin-bottom:6px;">${t('irabOrPaste')}</div>
         <textarea class="irab-textarea" id="irab-input"
           placeholder="${escapeHtml(t('irabPlaceholder'))}"></textarea>
         <div class="irab-actions">
-          <button class="btn-secondary" onclick="document.getElementById('irab-input').value=''; document.getElementById('irab-results').innerHTML=''">${t('irabClear')}</button>
+          <button class="btn-secondary" onclick="document.getElementById('irab-input').value=''; document.getElementById('irab-results').innerHTML=''; lastIrabResult=null">${t('irabClear')}</button>
           <span class="spacer"></span>
           <button class="btn-primary" id="irab-go" onclick="analyzeVerse()">${t('irabAnalyze')}</button>
         </div>
@@ -1189,6 +1262,80 @@ function renderIrab(ref) {
   document.getElementById('irab-input').addEventListener('keydown', e => {
     if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) analyzeVerse();
   });
+
+  populateSurahDropdown();
+}
+
+async function populateSurahDropdown() {
+  const sel = document.getElementById('picker-surah');
+  if (!sel) return;
+  try {
+    const chapters = await fetchChapters();
+    const opts = ['<option value="">—</option>'];
+    for (const c of chapters) {
+      const tname = c.translated_name && c.translated_name.name ? ` — ${c.translated_name.name}` : '';
+      opts.push(`<option value="${c.id}" data-verses="${c.verses_count}">${c.id}. ${escapeHtml(c.name_simple)}${escapeHtml(tname)}</option>`);
+    }
+    sel.innerHTML = opts.join('');
+    sel.disabled = false;
+    if (pickerState.surah) {
+      sel.value = pickerState.surah;
+      onSurahChange();
+    }
+  } catch (e) {
+    sel.innerHTML = `<option value="">Failed to load: ${escapeHtml(e.message)}</option>`;
+  }
+}
+
+function onSurahChange() {
+  const sSel = document.getElementById('picker-surah');
+  const aSel = document.getElementById('picker-ayah');
+  const loadBtn = document.getElementById('picker-load');
+  pickerState.surah = sSel.value;
+  pickerState.ayah = '';
+  if (!sSel.value) {
+    aSel.disabled = true;
+    aSel.innerHTML = '<option value="">—</option>';
+    loadBtn.disabled = true;
+    return;
+  }
+  const opt = sSel.options[sSel.selectedIndex];
+  const versesCount = parseInt(opt.dataset.verses) || 0;
+  const opts = ['<option value="">—</option>'];
+  for (let i = 1; i <= versesCount; i++) opts.push(`<option value="${i}">${i}</option>`);
+  aSel.innerHTML = opts.join('');
+  aSel.disabled = false;
+  aSel.onchange = () => {
+    pickerState.ayah = aSel.value;
+    loadBtn.disabled = !aSel.value;
+  };
+}
+
+async function loadVerse() {
+  const sSel = document.getElementById('picker-surah');
+  const aSel = document.getElementById('picker-ayah');
+  const loadBtn = document.getElementById('picker-load');
+  if (!sSel.value || !aSel.value) return;
+  const verseKey = `${sSel.value}:${aSel.value}`;
+
+  loadBtn.disabled = true;
+  loadBtn.textContent = t('irabPickLoading');
+
+  try {
+    const res = await fetch(`https://api.quran.com/api/v4/verses/by_key/${verseKey}?fields=text_uthmani,text_imlaei`);
+    const data = await res.json();
+    const verseText = (data.verse && (data.verse.text_uthmani || data.verse.text_imlaei)) || '';
+    if (!verseText) throw new Error('No verse text returned');
+    document.getElementById('irab-input').value = verseText;
+    // Auto-trigger analysis
+    await analyzeVerse();
+  } catch (e) {
+    document.getElementById('irab-results').innerHTML =
+      `<div class="feedback-box error">Failed to load verse ${verseKey}: ${escapeHtml(e.message)}</div>`;
+  } finally {
+    loadBtn.disabled = false;
+    loadBtn.textContent = t('irabPickLoad');
+  }
 }
 
 async function analyzeVerse() {
