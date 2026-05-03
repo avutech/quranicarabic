@@ -354,11 +354,13 @@
   .irab-words {
     display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 12px;
+    direction: rtl;  /* fill right-to-left to match Arabic reading order */
   }
   .irab-word {
     background: var(--card); border: 1px solid var(--border);
     border-radius: var(--radius); padding: 16px;
     display: flex; flex-direction: column; gap: 6px;
+    direction: ltr;  /* keep card internals (Latin labels) left-to-right */
   }
   .irab-word-ar {
     font-size: 1.7rem; font-family: 'Noto Naskh Arabic', serif;
@@ -377,6 +379,12 @@
   }
   .irab-word-grammar dt { font-weight: 700; color: var(--muted); }
   .irab-word-grammar dd { color: var(--mid); }
+  .irab-word-notes {
+    margin-top: 6px; padding: 8px 10px; background: #fff8e7;
+    border-left: 3px solid var(--gold); border-radius: 4px;
+    font-size: 0.78rem; color: #6b5320; line-height: 1.5;
+  }
+  body.rtl .irab-word-notes { border-left: none; border-right: 3px solid var(--gold); }
   .irab-refs { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
   .irab-ref-chip {
     display: inline-flex; align-items: center; gap: 4px;
@@ -505,6 +513,7 @@ const I18N = {
     irabRelevantLessons: 'Lessons',
     irabClear: 'Clear',
     irabNoLessons: 'No lesson references for this word.',
+    irabNotes: 'Notes',
   },
   tr: {
     navLabel: 'Kuran Arapçası',
@@ -558,6 +567,7 @@ const I18N = {
     irabRelevantLessons: 'Dersler',
     irabClear: 'Temizle',
     irabNoLessons: 'Bu kelime için ders referansı yok.',
+    irabNotes: 'Notlar',
   },
   ar: {
     navLabel: 'العربية القرآنية',
@@ -611,6 +621,7 @@ const I18N = {
     irabRelevantLessons: 'الدروس',
     irabClear: 'مسح',
     irabNoLessons: 'لا توجد إشارات لدروس لهذه الكلمة.',
+    irabNotes: 'ملاحظات',
   },
 };
 
@@ -1210,7 +1221,10 @@ async function analyzeVerse() {
 }
 
 function renderIrabResult(data) {
-  const wordsHtml = (data.words || []).map(w => {
+  const words = data.words || [];
+  const wordsHtml = words.map(w => {
+    // Schema supports both new ("word") and legacy ("ar") field names
+    const arabic = w.word || w.ar || '';
     const refs = (w.lesson_refs || []).map(r => {
       const idx = LESSON_INDEX && LESSON_INDEX[r.lesson_id];
       const title = idx ? (idx.verified_title[lang] || idx.verified_title.en) : r.lesson_id;
@@ -1221,17 +1235,22 @@ function renderIrabResult(data) {
     const grammarRows = [];
     if (w.type) grammarRows.push([t('irabType'), w.type]);
     if (w.root) grammarRows.push([t('irabRoot'), w.root]);
+    if (w.form) grammarRows.push([t('irabForm'), w.form]);
     if (w.case_mood) grammarRows.push([t('irabCase'), w.case_mood]);
     if (w.role) grammarRows.push([t('irabRole'), w.role]);
-    if (w.form) grammarRows.push([t('irabForm'), w.form]);
     const grammarHtml = grammarRows.map(([k, v]) =>
       `<dt>${escapeHtml(k)}</dt><dd>${escapeHtml(v)}</dd>`).join('');
 
+    const notesHtml = w.notes
+      ? `<div class="irab-word-notes"><strong>${t('irabNotes')}:</strong> ${escapeHtml(w.notes)}</div>`
+      : '';
+
     return `<div class="irab-word">
-      <div class="irab-word-ar">${escapeHtml(w.ar || '')}</div>
+      <div class="irab-word-ar">${escapeHtml(arabic)}</div>
       ${w.transliteration ? `<div class="irab-word-translit">${escapeHtml(w.transliteration)}</div>` : ''}
       ${w.meaning ? `<div class="irab-word-meaning">${escapeHtml(w.meaning)}</div>` : ''}
       ${grammarHtml ? `<dl class="irab-word-grammar">${grammarHtml}</dl>` : ''}
+      ${notesHtml}
       <div class="irab-refs">
         ${refs || `<span style="color:var(--muted);font-size:0.78rem">${t('irabNoLessons')}</span>`}
       </div>

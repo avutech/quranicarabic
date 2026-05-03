@@ -143,40 +143,196 @@ def irab():
     lang_names = {"en": "English", "tr": "Turkish", "ar": "Arabic"}
     response_lang = lang_names.get(language, "English")
 
-    prompt = f"""You are a Quranic-Arabic grammar analyst.
+    prompt = f"""You are an expert in Quranic Arabic grammar. Analyze Quranic verses word-by-word and return a JSON array. Each element represents one word/particle.
 
-Below is the user's verse / phrase. Produce a strict-JSON i'rab (grammatical analysis) word by word.
+## OUTPUT
 
-For every word, identify which lessons in OUR 42-lesson curriculum cover the grammar phenomenon at play. Reference lessons ONLY by their `lesson_id` from the index below. Do not invent lesson IDs.
+Return ONLY a valid JSON array. No prose, no markdown, no explanation outside the array.
 
-Curriculum index (`lesson_id`: title — concepts):
-{LESSONS_INDEX_SUMMARY}
-
-User's text: {verse}
-
-Respond in {response_lang} for human-readable fields. Return ONLY valid JSON in this exact shape:
+## JSON SCHEMA (one object per word)
 
 {{
-  "translation": "<full meaning of the verse in {response_lang}, 1-2 sentences>",
-  "words": [
-    {{
-      "ar": "<the word with diacritics>",
-      "transliteration": "<latin transliteration>",
-      "meaning": "<this word's meaning in {response_lang}>",
-      "type": "<ism | fi'l | harf>",
-      "root": "<3-letter root if applicable, else empty>",
-      "case_mood": "<e.g. marfu' (nominative), mansub (accusative), majzum (jussive), or null>",
-      "role": "<short syntactic role: e.g. mubtada, khabar, mudaf, fa'il, maf'ul bih, harf jarr, harf nasb...>",
-      "form": "<for verbs: Form I-X, past/present/imperative; or null>",
-      "lesson_refs": [
-        {{ "lesson_id": "<L_W_>", "reason": "<one sentence in {response_lang} explaining why this lesson applies>" }}
-      ]
-    }}
-  ],
-  "overall_notes": "<optional 1-2 sentence note about sentence structure, in {response_lang}>"
+  "word": "Arabic word as it appears in the verse",
+  "transliteration": "romanized transliteration",
+  "meaning": "{response_lang} meaning (concise)",
+  "type": "fi'l | ism | harf",
+  "root": "Arabic root letters (e.g. ك ف ر) — null if none",
+  "form": "morphological form — see rules below",
+  "case_mood": "grammatical case or verb mood — see rules below",
+  "role": "syntactic role in the sentence — see rules below",
+  "notes": "any critical grammar rule, exception, or scholarly disagreement — null if none",
+  "lesson_refs": [
+    {{ "lesson_id": "<exact lesson_id from the curriculum index below>", "reason": "<one short sentence in {response_lang} explaining why this lesson applies>" }}
+  ]
 }}
 
-Be terse but precise. If a word's role spans multiple lessons (e.g. مَا types, إنَّ + accusative), include up to 3 lesson_refs."""
+## FIELD RULES
+
+### type
+- "fi'l" — any verb (madi, mudari, amr, passive)
+- "ism" — any noun, adjective, pronoun, relative pronoun, demonstrative, participle, masdar
+- "harf" — any particle (preposition, conjunction, negation, interrogative, etc.)
+
+### form (examples by type)
+For fi'l:
+  "Form I, madi" / "Form I, mudari, marfu'" / "Form IV, amr" / "Form VII, madi, passive"
+  Always include: Form number (I–X) + tense/mode + passive if applicable
+  For defective/hollow/doubled roots add: "Form I, madi (naqis ya'i)" etc.
+
+For ism:
+  "ism fa'il, Form IV" / "ism maf'ul, Form I" / "masdar, Form II"
+  "sifa mushabbaha (fa'il)" / "siga mubalaġa (fa'ul)" / "ism tafḍil"
+  "jam' mudhakkar salim" / "jam' mu'annas salim" / "jam' mukassar"
+  "muntaha al-jumu' (ghayr munsarif)" / "ism maqsur" / "ism mamdud"
+  "asma' al-khamsa (abi/akhi/hami/fami/dhi)"
+  For pronouns: "mutasil damir" / "munfasil damir"
+  For particles used as nouns: describe accordingly
+
+For harf:
+  Describe function: "harf jarr" / "harf 'atf (ta'qib)" / "harf nafi" / "harf nahi" /
+  "harf tawkid wa nasb (inna)" / "harf shart jazim" / "harf masdariyya wa nasb" etc.
+
+### case_mood
+For nouns/adjectives:
+  "marfu'" / "mansub" / "majrur"
+  Add how: "marfu' (damma)" / "mansub (fatha)" / "majrur (kasra)"
+  For irregular: "marfu' (waw) — jam' mudhakkar salim" / "mansub/majrur (ya) — jam' mudhakkar salim"
+  For ghayr munsarif: "majrur (fatha) — ghayr munsarif"
+  For maqsur/mamdud: "marfu' (muqaddar)"
+  For indeclinables: "mabni 'ala al-fath / damm / kasr / sukun, fi mahall ___"
+
+For verbs:
+  "marfu' (damma)" / "mansub (fatha)" / "majzum (sukun)" / "majzum (hazf nun)"
+  "mabni 'ala al-fath (madi)" / "mabni 'ala al-sukun (amr)"
+  For passive: add "passive — na'ib fa'il: ___"
+
+For particles:
+  "mabni" or null
+
+### role
+Use concise English labels:
+  Subject (fa'il) | Doer (fa'il) | Subject of kana | Predicate | Predicate of kana
+  Direct object (maf'ul bih) | Second object | Substitute object (na'ib fa'il)
+  Adjective (sifa) | Appositive (badal) | Emphasis (tawkid) | Conjunction (ma'tuf)
+  Hal (circumstantial acc.) | Tamyiz (specification) | Maf'ul mutlaq | Maf'ul lah | Maf'ul fih
+  Mudaf | Mudaf ilayhi | Prepositional phrase (jar-majrur) | Linked to verb/noun (muta'alliq)
+  Subject of relative clause (sila) | Conditional verb | Conditional response (jawab shart)
+  Oath object (muqsam bih) | Predicate (khabar muqaddam) | Delayed subject (mubtada muakhkhar)
+  Conjunction (harf) | Negation particle | Interrogative | Vocative | Response to negation (ijab)
+  Relative pronoun | Demonstrative | Attached pronoun — object | Attached pronoun — possessive
+
+### notes
+Include ONLY genuinely important grammar points that a learner needs:
+- Irregular morphology (e.g. "Hollow verb: waw > ya in passive: qawala > qila")
+- Scholarly ikhtilaaf (e.g. "wa: conjunction or wa ma'iyya — both views held")
+- Hidden/implied elements (e.g. "Subject pronoun hum implied in verb")
+- Unusual i'rab (e.g. "la nafiya lil-jins: ism mabni 'ala al-fath")
+- Ghayr munsarif reason (e.g. "No tanwin: 'alamiyya + ta'nith ma'nawi")
+- Emphasis/rhetorical function affecting grammar (e.g. "Muqaddam maf'ul for ikhtisas/qasr")
+- Ta'liq, sedd al-masad, iltiqaa al-sakinayn, fakk al-idgham
+- Qira'at variants that change i'rab
+- null if nothing critical to add
+
+### lesson_refs
+- Reference ONLY `lesson_id` values that appear in the curriculum index below — never invent IDs.
+- 0–3 entries per word. Pick the lessons that most directly explain THIS word's grammar phenomenon.
+- Empty array if no lesson clearly applies.
+
+## CURRICULUM INDEX
+
+Use these exact `lesson_id` strings only:
+
+{LESSONS_INDEX_SUMMARY}
+
+## IMPORTANT RULES
+
+1. Every word in the verse gets its own object — particles (wa, fa, la, ma, in etc.) included.
+2. For attached pronouns that are part of a word (e.g. هُمْ in أَعْمَالَهُمْ), analyze the full word as one object AND note the pronoun's role in the notes field. Do NOT split them into separate objects unless the pronoun is a clear standalone clitic.
+3. For inna/anna and sisters: the word itself is "harf"; its attached pronoun (إِنَّهُ) gets analyzed as one unit with notes explaining the ism of inna.
+4. Keep all field values SHORT — no full sentences except in notes.
+5. "form" field is null for pure particles (prepositions, conjunctions, negations) that have no morphological derivation.
+6. Always return the Arabic word exactly as it appears in the verse (with full diacritics if provided).
+
+## EXAMPLE
+
+Input verse: وَصَدُّواْ عَن سَبِيلِ ٱللَّهِ
+
+Output:
+[
+  {{
+    "word": "وَ",
+    "transliteration": "wa",
+    "meaning": "and",
+    "type": "harf",
+    "root": null,
+    "form": null,
+    "case_mood": "mabni",
+    "role": "Conjunction",
+    "notes": null,
+    "lesson_refs": []
+  }},
+  {{
+    "word": "صَدُّواْ",
+    "transliteration": "ṣaddū",
+    "meaning": "they hindered / turned away",
+    "type": "fi'l",
+    "root": "ص د د",
+    "form": "Form II, madi (mudha'af)",
+    "case_mood": "mabni 'ala al-damm (jam' waw)",
+    "role": "Main verb — subject implied (hum)",
+    "notes": "Mudha'af root: idgham obligatory in madi. Form II intensifies: repeated obstruction",
+    "lesson_refs": [
+      {{ "lesson_id": "L1W13", "reason": "Past tense (madi) verb conjugation" }},
+      {{ "lesson_id": "L3W13", "reason": "Form II augmented verb pattern" }}
+    ]
+  }},
+  {{
+    "word": "عَن",
+    "transliteration": "'an",
+    "meaning": "from / about",
+    "type": "harf",
+    "root": null,
+    "form": "harf jarr",
+    "case_mood": "mabni",
+    "role": "Preposition",
+    "notes": null,
+    "lesson_refs": [
+      {{ "lesson_id": "L1W8", "reason": "Preposition (harf al-jarr) governs following noun in genitive" }}
+    ]
+  }},
+  {{
+    "word": "سَبِيلِ",
+    "transliteration": "sabīli",
+    "meaning": "path",
+    "type": "ism",
+    "root": "س ب ل",
+    "form": "ism (fa'il pattern — sifa mushabaha)",
+    "case_mood": "majrur (kasra) — first noun in idafa",
+    "role": "Mudaf ilayhi (of 'an) — Mudaf",
+    "notes": null,
+    "lesson_refs": [
+      {{ "lesson_id": "L1W4", "reason": "First term of an idafa (genitive construction)" }}
+    ]
+  }},
+  {{
+    "word": "ٱللَّهِ",
+    "transliteration": "allāhi",
+    "meaning": "Allah",
+    "type": "ism",
+    "root": "أ ل ه",
+    "form": "proper noun ('alam)",
+    "case_mood": "majrur (kasra)",
+    "role": "Mudaf ilayhi",
+    "notes": null,
+    "lesson_refs": [
+      {{ "lesson_id": "L1W4", "reason": "Second term of an idafa takes genitive case" }}
+    ]
+  }}
+]
+
+## VERSE TO ANALYZE
+
+{verse}"""
 
     try:
         client = genai.Client(api_key=api_key)
@@ -192,13 +348,21 @@ Be terse but precise. If a word's role spans multiple lessons (e.g. مَا types
         try:
             payload = json.loads(raw)
         except json.JSONDecodeError:
-            # Fallback: locate JSON object bounds in case of extra text
-            start = raw.find("{")
-            end = raw.rfind("}")
-            if start >= 0 and end > start:
-                payload = json.loads(raw[start : end + 1])
+            # Fallback: locate JSON array or object bounds in case of extra text
+            for open_ch, close_ch in (("[", "]"), ("{", "}")):
+                start = raw.find(open_ch)
+                end = raw.rfind(close_ch)
+                if start >= 0 and end > start:
+                    try:
+                        payload = json.loads(raw[start : end + 1])
+                        break
+                    except json.JSONDecodeError:
+                        continue
             else:
                 return jsonify({"error": "Could not parse model output as JSON", "raw": raw[:500]}), 500
+        # Normalize: prompt returns a top-level array; wrap it for the frontend
+        if isinstance(payload, list):
+            payload = {"words": payload}
         return jsonify(payload)
     except Exception as e:
         return jsonify({"error": str(e)}), 500
