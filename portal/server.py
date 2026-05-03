@@ -1,10 +1,43 @@
 import os
 import sys
 import json
+import re
 from pathlib import Path
 from flask import Flask, send_from_directory, request, jsonify, abort
 from google import genai
 from google.genai import types as genai_types
+
+
+def humanize_gemini_error(exc):
+    """Turn raw Gemini SDK errors (especially 429s) into clear user-facing
+    messages. Returns (status_code, message) — message is plain text the
+    frontend can show directly."""
+    msg = str(exc)
+    # Quota / rate-limit error
+    if "RESOURCE_EXHAUSTED" in msg or "429" in msg or "quota" in msg.lower():
+        # Extract the retry-after seconds if present
+        retry_match = re.search(r"retry in (\d+(?:\.\d+)?)\s*s", msg, re.IGNORECASE)
+        if not retry_match:
+            retry_match = re.search(r"'retryDelay':\s*'(\d+)s'", msg)
+        if retry_match:
+            secs = int(float(retry_match.group(1))) + 1
+            mins = secs // 60
+            human_wait = f"about {mins} minute{'s' if mins != 1 else ''}" if mins >= 1 else f"{secs} seconds"
+            return 429, (
+                f"⏳ Gemini's free-tier rate limit reached. Please wait {human_wait} and try again.\n\n"
+                "The free tier allows ~10–20 requests per minute. To remove this limit entirely, "
+                "enable billing at https://aistudio.google.com/apikey (Gemini Flash costs ~$0.001 per analysis)."
+            )
+        return 429, (
+            "⏳ Gemini's free-tier daily quota reached. Please try again in a few minutes.\n\n"
+            "To remove this limit, enable billing at https://aistudio.google.com/apikey "
+            "(Gemini Flash costs ~$0.001 per analysis — very cheap)."
+        )
+    # Auth error
+    if "401" in msg or "API key" in msg or "invalid x-api-key" in msg.lower():
+        return 401, "❌ Your GEMINI_API_KEY is invalid or expired. Update it in portal/.env and restart the server."
+    # Generic
+    return 500, str(exc)
 
 app = Flask(__name__)
 
@@ -123,7 +156,8 @@ Format your response:
         return jsonify({"feedback": response.text or ""})
 
     except Exception as e:
-        return jsonify({"error": str(e)}), 500
+        code, friendly = humanize_gemini_error(e)
+        return jsonify({"error": friendly}), code
 
 
 @app.route("/api/irab", methods=["POST"])
@@ -391,7 +425,8 @@ Output:
             payload = {"words": payload}
         return jsonify(payload)
     except Exception as e:
-        return jsonify({"error": str(e)}), 500
+        code, friendly = humanize_gemini_error(e)
+        return jsonify({"error": friendly}), code
 
 
 if __name__ == "__main__":

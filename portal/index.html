@@ -1360,11 +1360,17 @@ async function analyzeVerse() {
     lastIrabResult = data;
     results.innerHTML = renderIrabResult(data);
   } catch (err) {
-    results.innerHTML = `<div class="feedback-box error">Error: ${escapeHtml(err.message)}</div>`;
+    results.innerHTML = `<div class="feedback-box error" style="white-space:pre-wrap">${linkify(escapeHtml(err.message))}</div>`;
   } finally {
     btn.disabled = false;
     btn.textContent = t('irabAnalyze');
   }
+}
+
+function linkify(html) {
+  // Convert https://... URLs (already escaped) to clickable anchors
+  return html.replace(/(https?:\/\/[^\s<]+)/g,
+    '<a href="$1" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">$1</a>');
 }
 
 function renderIrabResult(data) {
