@@ -3,7 +3,8 @@ import sys
 import json
 from pathlib import Path
 from flask import Flask, send_from_directory, request, jsonify, abort
-import anthropic
+from google import genai
+from google.genai import types as genai_types
 
 app = Flask(__name__)
 
@@ -11,6 +12,26 @@ BASE_DIR = Path(__file__).parent.parent
 PDF_DIR = BASE_DIR / "Kuran-Kerim Arapcasi"
 PORTAL_DIR = Path(__file__).parent
 LESSONS_INDEX_FILE = PORTAL_DIR / "lessons_index.json"
+ENV_FILE = PORTAL_DIR / ".env"
+
+
+def load_env_file():
+    """If portal/.env exists and ANTHROPIC_API_KEY isn't already set, read it
+    from there. File format: KEY=value (one per line, # for comments)."""
+    if not ENV_FILE.exists():
+        return
+    for line in ENV_FILE.read_text().splitlines():
+        line = line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        k, v = line.split("=", 1)
+        k = k.strip()
+        v = v.strip().strip('"').strip("'")
+        if k and k not in os.environ:
+            os.environ[k] = v
+
+
+load_env_file()
 
 
 def load_lessons_index():
@@ -71,12 +92,12 @@ def feedback():
     lang_names = {"en": "English", "tr": "Turkish", "ar": "Arabic"}
     response_lang = lang_names.get(language, "English")
 
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
-        return jsonify({"error": "ANTHROPIC_API_KEY environment variable is not set"}), 500
+        return jsonify({"error": "GEMINI_API_KEY environment variable is not set"}), 500
 
     try:
-        client = anthropic.Anthropic(api_key=api_key)
+        client = genai.Client(api_key=api_key)
 
         prompt = f"""You are a Quranic Arabic language teacher evaluating a student's answer.
 
@@ -94,13 +115,12 @@ Format your response:
 - Be warm and encouraging
 - When referencing Arabic words, always include Arabic script with transliteration"""
 
-        message = client.messages.create(
-            model="claude-sonnet-4-6",
-            max_tokens=500,
-            messages=[{"role": "user", "content": prompt}],
+        response = client.models.generate_content(
+            model="gemini-2.5-flash",
+            contents=prompt,
+            config=genai_types.GenerateContentConfig(max_output_tokens=600),
         )
-
-        return jsonify({"feedback": message.content[0].text})
+        return jsonify({"feedback": response.text or ""})
 
     except Exception as e:
         return jsonify({"error": str(e)}), 500
@@ -114,9 +134,9 @@ def irab():
     if not verse:
         return jsonify({"error": "No verse provided"}), 400
 
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
-        return jsonify({"error": "ANTHROPIC_API_KEY environment variable is not set"}), 500
+        return jsonify({"error": "GEMINI_API_KEY environment variable is not set"}), 500
     if LESSONS_INDEX is None:
         return jsonify({"error": "lessons_index.json not found — run build_lesson_index.py first"}), 500
 
@@ -159,38 +179,36 @@ Respond in {response_lang} for human-readable fields. Return ONLY valid JSON in 
 Be terse but precise. If a word's role spans multiple lessons (e.g. مَا types, إنَّ + accusative), include up to 3 lesson_refs."""
 
     try:
-        client = anthropic.Anthropic(api_key=api_key)
-        message = client.messages.create(
-            model="claude-sonnet-4-6",
-            max_tokens=4000,
-            messages=[{"role": "user", "content": prompt}],
+        client = genai.Client(api_key=api_key)
+        response = client.models.generate_content(
+            model="gemini-2.5-flash",
+            contents=prompt,
+            config=genai_types.GenerateContentConfig(
+                response_mime_type="application/json",
+                max_output_tokens=8000,
+            ),
         )
-        raw = message.content[0].text.strip()
-        # Strip code fences if present
-        if raw.startswith("```"):
-            raw = raw.split("\n", 1)[1]
-            if raw.endswith("```"):
-                raw = raw.rsplit("\n", 1)[0]
-            raw = raw.replace("```json", "").replace("```", "").strip()
-        # Find JSON object bounds
-        start = raw.find("{")
-        end = raw.rfind("}")
-        if start >= 0 and end > start:
-            raw = raw[start : end + 1]
+        raw = (response.text or "").strip()
         try:
             payload = json.loads(raw)
-        except json.JSONDecodeError as je:
-            return jsonify({"error": f"Could not parse model output as JSON: {je}", "raw": raw[:500]}), 500
+        except json.JSONDecodeError:
+            # Fallback: locate JSON object bounds in case of extra text
+            start = raw.find("{")
+            end = raw.rfind("}")
+            if start >= 0 and end > start:
+                payload = json.loads(raw[start : end + 1])
+            else:
+                return jsonify({"error": "Could not parse model output as JSON", "raw": raw[:500]}), 500
         return jsonify(payload)
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
 
 if __name__ == "__main__":
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
-        print("⚠️  WARNING: ANTHROPIC_API_KEY is not set. Practice feedback will not work.")
-        print("   Set it with: export ANTHROPIC_API_KEY=your_key_here")
+        print("⚠️  WARNING: GEMINI_API_KEY is not set. Practice feedback and i'rab will not work.")
+        print("   Add it to portal/.env as: GEMINI_API_KEY=your_key_here")
     print(f"📂 PDF directory: {PDF_DIR}")
     print(f"🌐 Portal running at: http://localhost:8081")
     app.run(port=8081, debug=False)
