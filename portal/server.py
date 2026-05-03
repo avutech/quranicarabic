@@ -147,11 +147,29 @@ def irab():
 
 ## LANGUAGE — CRITICAL
 
-ALL human-readable text fields (`meaning`, `notes`, and every `reason` inside `lesson_refs`) MUST be written in **{response_lang}**. Do NOT use English unless {response_lang} IS English. Technical Arabic grammar terms (e.g. "marfu'", "harf jarr", "ism fa'il", "Form II") stay in their standard transliterated Arabic — only the explanatory prose is translated.
+ALL human-readable text fields MUST be written in **{response_lang}**. This applies to:
+- `meaning` (full word meaning)
+- `notes` (grammar notes)
+- `role` (the descriptive English-style label part — translate the English gloss; keep transliterated Arabic terms in parens unchanged)
+- every `reason` inside `lesson_refs`
 
-If {response_lang} is Turkish: write meaning/notes/reason in Turkish.
-If {response_lang} is Arabic: write meaning/notes/reason in Arabic.
-If {response_lang} is English: write them in English.
+Technical Arabic grammar terms in transliteration (e.g. "marfu'", "harf jarr", "ism fa'il", "Form II", "fa'il", "mubtada", "khabar", "mawsul", "mudaf") stay UNCHANGED — they are universal terminology. Only translate the English/explanatory wording around them.
+
+Examples for `role` if {response_lang} is Turkish:
+  English form:  "Relative pronoun (Mawsul) — mubtada"
+  Turkish form:  "İsm-i Mevsul — mubtada"
+  English form:  "Subject (fa'il)"
+  Turkish form:  "Özne (fa'il)"
+  English form:  "Direct object (maf'ul bih)"
+  Turkish form:  "Düz tümleç (maf'ul bih)"
+
+Examples for `role` if {response_lang} is Arabic:
+  English form:  "Subject (fa'il)"
+  Arabic form:   "الفاعل"
+  English form:  "Direct object (maf'ul bih)"
+  Arabic form:   "المفعول به"
+
+If {response_lang} is English: keep everything as the role rules describe below.
 
 ## OUTPUT
 
