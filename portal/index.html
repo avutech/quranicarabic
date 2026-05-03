@@ -873,7 +873,7 @@ function renderPractice() {
         <div class="q-progress">${t('question')} ${questionIndex + 1} ${t('of')} ${total}</div>
         <div class="q-progress-bar"><div class="q-progress-fill" style="width:${pct}%"></div></div>
         <span class="q-badge ${badgeClass}">${q.type}</span>
-        <div class="q-text">${escapeHtml(q.q)}</div>
+        <div class="q-text">${escapeHtml(typeof q.q === 'object' ? (q.q[lang] || q.q.en) : q.q)}</div>
         <textarea class="answer-area" id="answer-input" placeholder="${t('yourAnswer')}"></textarea>
         <div class="q-actions">
           <button class="btn-secondary" onclick="backToLesson()">${t('backToTopic')}</button>
@@ -911,9 +911,9 @@ async function submitAnswer() {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        question: q.q,
+        question: typeof q.q === 'object' ? (q.q[lang] || q.q.en) : q.q,
         answer,
-        expected: q.expected,
+        expected: typeof q.expected === 'object' ? (q.expected.en || q.expected[lang]) : q.expected,
         topic: `${level.title['en']} — Week ${lesson.week}: ${lesson.title['en']}`,
         language: lang,
       }),

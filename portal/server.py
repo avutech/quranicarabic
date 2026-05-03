@@ -145,6 +145,14 @@ def irab():
 
     prompt = f"""You are an expert in Quranic Arabic grammar. Analyze Quranic verses word-by-word and return a JSON array. Each element represents one word/particle.
 
+## LANGUAGE — CRITICAL
+
+ALL human-readable text fields (`meaning`, `notes`, and every `reason` inside `lesson_refs`) MUST be written in **{response_lang}**. Do NOT use English unless {response_lang} IS English. Technical Arabic grammar terms (e.g. "marfu'", "harf jarr", "ism fa'il", "Form II") stay in their standard transliterated Arabic — only the explanatory prose is translated.
+
+If {response_lang} is Turkish: write meaning/notes/reason in Turkish.
+If {response_lang} is Arabic: write meaning/notes/reason in Arabic.
+If {response_lang} is English: write them in English.
+
 ## OUTPUT
 
 Return ONLY a valid JSON array. No prose, no markdown, no explanation outside the array.
