@@ -47,6 +47,8 @@ id -u "$SERVICE_USER" >/dev/null 2>&1 || useradd -r -m -s /bin/bash "$SERVICE_US
 
 echo "==> Cloning/updating repo at ${APP_DIR} (branch ${BRANCH})..."
 mkdir -p /var/www
+# Tell git it's safe for root to operate on a quranportal-owned worktree
+git config --global --add safe.directory "$APP_DIR" 2>/dev/null || true
 if [ -d "$APP_DIR/.git" ]; then
   cd "$APP_DIR"
   git fetch origin
