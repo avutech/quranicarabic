@@ -66,6 +66,13 @@ def load_env_file():
 
 load_env_file()
 
+# Model selection — overridable via .env
+# Free tier limits per model (AI Studio, no billing):
+#   gemini-2.5-flash       : 10 RPM, 250 RPD   (best quality)
+#   gemini-2.5-flash-lite  : 30 RPM, 1500 RPD  (good quality, much higher free quota)
+#   gemini-2.5-pro         : 5  RPM, 100 RPD   (highest quality, paid recommended)
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash-lite")
+
 
 def load_lessons_index():
     """Load the PDF-derived 42-lesson concept index, return a compact summary
@@ -149,7 +156,7 @@ Format your response:
 - When referencing Arabic words, always include Arabic script with transliteration"""
 
         response = client.models.generate_content(
-            model="gemini-2.5-flash",
+            model=GEMINI_MODEL,
             contents=prompt,
             config=genai_types.GenerateContentConfig(max_output_tokens=600),
         )
@@ -407,7 +414,7 @@ Write `meaning`, `notes`, `role` (the descriptive prose), and every `lesson_refs
     try:
         client = genai.Client(api_key=api_key)
         response = client.models.generate_content(
-            model="gemini-2.5-flash",
+            model=GEMINI_MODEL,
             contents=prompt,
             config=genai_types.GenerateContentConfig(
                 response_mime_type="application/json",
@@ -480,5 +487,6 @@ if __name__ == "__main__":
         print("⚠️  WARNING: GEMINI_API_KEY is not set. Practice feedback and i'rab will not work.")
         print("   Add it to portal/.env as: GEMINI_API_KEY=your_key_here")
     print(f"📂 PDF directory: {PDF_DIR}")
+    print(f"🤖 Gemini model: {GEMINI_MODEL}")
     print(f"🌐 Portal running at: http://localhost:8081")
     app.run(port=8081, debug=False)
