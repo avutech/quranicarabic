@@ -411,14 +411,30 @@ Write `meaning`, `notes`, `role` (the descriptive prose), and every `lesson_refs
             contents=prompt,
             config=genai_types.GenerateContentConfig(
                 response_mime_type="application/json",
-                max_output_tokens=8000,
+                max_output_tokens=16000,
             ),
         )
         raw = (response.text or "").strip()
+        finish_reason = None
+        try:
+            finish_reason = str(response.candidates[0].finish_reason) if response.candidates else None
+        except Exception:
+            pass
+
+        if not raw:
+            print(f"[irab] empty response, finish_reason={finish_reason}", file=sys.stderr)
+            return jsonify({
+                "error": (
+                    f"⚠️ Gemini returned an empty response (reason: {finish_reason or 'unknown'}).\n\n"
+                    "Try again, or simplify the verse if it's very long."
+                )
+            }), 502
+
+        payload = None
         try:
             payload = json.loads(raw)
         except json.JSONDecodeError:
-            # Fallback: locate JSON array or object bounds in case of extra text
+            # Try truncated-array salvage: model may have been cut off mid-element
             for open_ch, close_ch in (("[", "]"), ("{", "}")):
                 start = raw.find(open_ch)
                 end = raw.rfind(close_ch)
@@ -428,9 +444,28 @@ Write `meaning`, `notes`, `role` (the descriptive prose), and every `lesson_refs
                         break
                     except json.JSONDecodeError:
                         continue
+            # If still failing, attempt to truncate to last complete object inside an array
+            if payload is None and raw.startswith("["):
+                # Find last "}," and close the array there
+                last = raw.rfind("},")
+                if last > 0:
+                    try:
+                        payload = json.loads(raw[: last + 1] + "]")
+                        print(f"[irab] salvaged truncated array up to char {last}", file=sys.stderr)
+                    except json.JSONDecodeError:
+                        pass
+
+        if payload is None:
+            print(f"[irab] parse failure, finish_reason={finish_reason}, raw len={len(raw)}", file=sys.stderr)
+            print(f"[irab] raw start: {raw[:300]}", file=sys.stderr)
+            print(f"[irab] raw end:   {raw[-300:]}", file=sys.stderr)
+            err_msg = "⚠️ Could not parse the model's response as JSON.\n\n"
+            if finish_reason and "MAX_TOKENS" in finish_reason.upper():
+                err_msg += "The response was cut off (output too long). Try a shorter verse, or wait and retry — model may have been verbose."
             else:
-                return jsonify({"error": "Could not parse model output as JSON", "raw": raw[:500]}), 500
-        # Normalize: prompt returns a top-level array; wrap it for the frontend
+                err_msg += f"Reason: {finish_reason or 'unknown'}. Try clicking Analyze again — Gemini occasionally returns malformed JSON."
+            return jsonify({"error": err_msg, "raw_preview": raw[:300]}), 502
+
         if isinstance(payload, list):
             payload = {"words": payload}
         return jsonify(payload)
