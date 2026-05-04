@@ -417,6 +417,51 @@
     border-radius: 8px; font-size: 0.85rem; color: var(--mid); line-height: 1.6;
   }
 
+  /* Feedback button + modal (global) */
+  .feedback-fab {
+    position: fixed; bottom: 20px; right: 20px;
+    background: var(--green); color: white; border: none;
+    border-radius: 28px; padding: 12px 18px;
+    font-size: 0.85rem; font-weight: 600;
+    cursor: pointer; box-shadow: 0 4px 14px rgba(0,0,0,0.2);
+    display: flex; align-items: center; gap: 8px;
+    z-index: 200; transition: all 0.2s;
+  }
+  .feedback-fab:hover { background: var(--green-light); transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,0.25); }
+  body.rtl .feedback-fab { right: auto; left: 20px; }
+
+  .modal-backdrop {
+    position: fixed; inset: 0; background: rgba(0,0,0,0.5);
+    display: flex; align-items: center; justify-content: center;
+    z-index: 300; padding: 20px;
+  }
+  .modal-card {
+    background: var(--card); border-radius: 12px;
+    width: 100%; max-width: 540px; padding: 24px;
+    max-height: 90vh; overflow-y: auto;
+    box-shadow: 0 12px 40px rgba(0,0,0,0.3);
+  }
+  .modal-card h3 { font-size: 1.2rem; margin-bottom: 6px; color: var(--green); }
+  .modal-card p.subtitle { color: var(--muted); font-size: 0.85rem; margin-bottom: 18px; line-height: 1.5; }
+  .modal-field { display: flex; flex-direction: column; gap: 5px; margin-bottom: 14px; }
+  .modal-field label { font-size: 0.74rem; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; }
+  .modal-field input, .modal-field textarea {
+    padding: 10px 12px; border: 1.5px solid var(--border); border-radius: 8px;
+    font-size: 0.92rem; font-family: inherit; line-height: 1.5;
+  }
+  .modal-field input:focus, .modal-field textarea:focus { outline: none; border-color: var(--green); }
+  .modal-field textarea { min-height: 100px; resize: vertical; }
+  .modal-type-toggle { display: flex; gap: 8px; }
+  .modal-type-btn {
+    flex: 1; padding: 12px; border: 1.5px solid var(--border);
+    background: var(--card); border-radius: 8px; cursor: pointer;
+    font-size: 0.88rem; font-weight: 500; transition: all 0.15s;
+    display: flex; align-items: center; justify-content: center; gap: 6px;
+  }
+  .modal-type-btn:hover { border-color: var(--green); }
+  .modal-type-btn.active { background: var(--green); color: white; border-color: var(--green); }
+  .modal-actions { display: flex; gap: 10px; justify-content: flex-end; margin-top: 18px; }
+
   /* Spinner */
   .spinner { display: inline-block; width: 16px; height: 16px; border: 2px solid var(--border); border-top-color: var(--green); border-radius: 50%; animation: spin 0.7s linear infinite; }
   @keyframes spin { to { transform: rotate(360deg); } }
@@ -465,6 +510,11 @@
     </div>
   </main>
 </div>
+
+<button class="feedback-fab" onclick="openFeedbackModal()" id="feedback-fab">
+  💬 <span id="feedback-fab-label">Feedback</span>
+</button>
+<div id="feedback-modal-root"></div>
 
 <script src="data.js"></script>
 <script src="vocab.js" onerror="window.VOCAB_POOL = null;"></script>
@@ -536,6 +586,19 @@ const I18N = {
     irabPickLoading: 'Loading...',
     irabPickFromQuran: 'Pick from Quran',
     irabOrPaste: 'Or paste your own text:',
+    fbButton: 'Feedback',
+    fbTitle: 'Send Feedback',
+    fbSubtitle: 'Found a bug or have an idea? Submit it as a GitHub issue. You\'ll see the pre-filled form on GitHub before it\'s posted.',
+    fbType: 'Type',
+    fbBug: '🐛 Bug',
+    fbEnhancement: '✨ Improvement',
+    fbTitleField: 'Title',
+    fbDescField: 'Description',
+    fbCancel: 'Cancel',
+    fbSubmit: 'Open in GitHub',
+    fbTitleBugPlaceholder: 'e.g. Verse picker doesn\'t load chapter 9',
+    fbTitleEnhPlaceholder: 'e.g. Add bookmark feature to lessons',
+    fbDescPlaceholder: 'Describe what happened or what you\'d like…',
   },
   tr: {
     navLabel: 'Kuran Arapçası',
@@ -596,6 +659,19 @@ const I18N = {
     irabPickLoading: 'Yükleniyor...',
     irabPickFromQuran: 'Kuran\'dan Seç',
     irabOrPaste: 'Veya kendi metninizi yapıştırın:',
+    fbButton: 'Geri Bildirim',
+    fbTitle: 'Geri Bildirim Gönder',
+    fbSubtitle: 'Bir hata mı buldunuz veya bir öneriniz mi var? GitHub\'a issue olarak gönderin. Göndermeden önce GitHub\'da önceden doldurulmuş formu göreceksiniz.',
+    fbType: 'Tür',
+    fbBug: '🐛 Hata',
+    fbEnhancement: '✨ İyileştirme',
+    fbTitleField: 'Başlık',
+    fbDescField: 'Açıklama',
+    fbCancel: 'İptal',
+    fbSubmit: 'GitHub\'da Aç',
+    fbTitleBugPlaceholder: 'örn. Ayet seçici 9. sureyi yüklemiyor',
+    fbTitleEnhPlaceholder: 'örn. Derslere yer imi ekleme özelliği',
+    fbDescPlaceholder: 'Ne olduğunu veya ne istediğinizi açıklayın…',
   },
   ar: {
     navLabel: 'العربية القرآنية',
@@ -656,6 +732,19 @@ const I18N = {
     irabPickLoading: 'جارٍ التحميل...',
     irabPickFromQuran: 'اختر من القرآن',
     irabOrPaste: 'أو الصق نصك الخاص:',
+    fbButton: 'ملاحظات',
+    fbTitle: 'إرسال ملاحظات',
+    fbSubtitle: 'وجدت خطأ أو لديك فكرة؟ أرسلها كـ GitHub issue. سترى النموذج المعبأ مسبقاً على GitHub قبل النشر.',
+    fbType: 'النوع',
+    fbBug: '🐛 خطأ',
+    fbEnhancement: '✨ تحسين',
+    fbTitleField: 'العنوان',
+    fbDescField: 'الوصف',
+    fbCancel: 'إلغاء',
+    fbSubmit: 'افتح في GitHub',
+    fbTitleBugPlaceholder: 'مثال: منتقي الآيات لا يحمّل سورة ٩',
+    fbTitleEnhPlaceholder: 'مثال: إضافة ميزة الإشارات المرجعية للدروس',
+    fbDescPlaceholder: 'صف ما حدث أو ما تريد…',
   },
 };
 
@@ -678,6 +767,7 @@ function setLang(l) {
   document.documentElement.lang = l;
   document.body.classList.toggle('rtl', l === 'ar');
   document.getElementById('nav-label').textContent = I18N[l].navLabel;
+  refreshFeedbackLabel();
   renderSidebar();
   if (!currentView) {
     document.getElementById('welcome-h1').textContent = I18N[l].welcomeH1;
@@ -1426,6 +1516,106 @@ function jumpToLesson(lessonId) {
   if (LEVELS.find(l => l.id === levelId)?.lessons[weekIdx]) {
     clickLesson(levelId, weekIdx);
   }
+}
+
+// ─── Feedback modal (global) ──────────────────────────────────────────────────
+
+const GITHUB_REPO = 'avutech/quranicarabic';
+let feedbackType = 'bug';
+
+function openFeedbackModal() {
+  feedbackType = 'bug';
+  const root = document.getElementById('feedback-modal-root');
+  root.innerHTML = `
+    <div class="modal-backdrop" onclick="if(event.target===this) closeFeedbackModal()">
+      <div class="modal-card">
+        <h3>${t('fbTitle')}</h3>
+        <p class="subtitle">${t('fbSubtitle')}</p>
+
+        <div class="modal-field">
+          <label>${t('fbType')}</label>
+          <div class="modal-type-toggle">
+            <button class="modal-type-btn active" id="fb-type-bug" onclick="setFeedbackType('bug')">${t('fbBug')}</button>
+            <button class="modal-type-btn" id="fb-type-enh" onclick="setFeedbackType('enhancement')">${t('fbEnhancement')}</button>
+          </div>
+        </div>
+
+        <div class="modal-field">
+          <label>${t('fbTitleField')}</label>
+          <input type="text" id="fb-title" placeholder="${t('fbTitleBugPlaceholder')}" />
+        </div>
+
+        <div class="modal-field">
+          <label>${t('fbDescField')}</label>
+          <textarea id="fb-desc" placeholder="${t('fbDescPlaceholder')}"></textarea>
+        </div>
+
+        <div class="modal-actions">
+          <button class="btn-secondary" onclick="closeFeedbackModal()">${t('fbCancel')}</button>
+          <button class="btn-primary" onclick="submitFeedback()">${t('fbSubmit')}</button>
+        </div>
+      </div>
+    </div>`;
+  setTimeout(() => document.getElementById('fb-title')?.focus(), 50);
+}
+
+function closeFeedbackModal() {
+  document.getElementById('feedback-modal-root').innerHTML = '';
+}
+
+function setFeedbackType(type) {
+  feedbackType = type;
+  document.getElementById('fb-type-bug').classList.toggle('active', type === 'bug');
+  document.getElementById('fb-type-enh').classList.toggle('active', type === 'enhancement');
+  // Swap placeholder hint
+  const titleInput = document.getElementById('fb-title');
+  if (titleInput && !titleInput.value) {
+    titleInput.placeholder = type === 'bug' ? t('fbTitleBugPlaceholder') : t('fbTitleEnhPlaceholder');
+  }
+}
+
+function submitFeedback() {
+  const titleField = document.getElementById('fb-title');
+  const descField = document.getElementById('fb-desc');
+  const title = titleField.value.trim();
+  const desc = descField.value.trim();
+  if (!title) { titleField.focus(); return; }
+
+  const labels = feedbackType === 'bug' ? 'bug,bugs to fix' : 'enhancement,improvements to consider';
+  const prefix = feedbackType === 'bug' ? '[Bug] ' : '[Enhancement] ';
+
+  // Build a body that captures the user's context
+  const ctx = [];
+  if (currentView) {
+    if (currentView.type === 'lesson' && currentView.lesson) {
+      ctx.push(`- Page: Lesson ${currentView.level.title.en} / Week ${currentView.lesson.week}`);
+    } else if (currentView.type === 'level' && currentView.level) {
+      ctx.push(`- Page: Level overview — ${currentView.level.title.en}`);
+    } else if (currentView.type === 'reference' && currentView.ref) {
+      ctx.push(`- Page: Reference — ${currentView.ref.title.en}`);
+    }
+  }
+  ctx.push(`- Language: ${lang.toUpperCase()}`);
+  ctx.push(`- Browser: ${navigator.userAgent.split(') ')[0].split(' (')[1] || navigator.userAgent.slice(0, 80)}`);
+
+  const body = (feedbackType === 'bug'
+    ? `**What happened:**\n${desc}\n\n**Context (auto-captured):**\n${ctx.join('\n')}\n`
+    : `**What you'd like:**\n${desc}\n\n**Context (auto-captured):**\n${ctx.join('\n')}\n`
+  );
+
+  const url = `https://github.com/${GITHUB_REPO}/issues/new` +
+    `?title=${encodeURIComponent(prefix + title)}` +
+    `&body=${encodeURIComponent(body)}` +
+    `&labels=${encodeURIComponent(labels)}`;
+
+  window.open(url, '_blank', 'noopener');
+  closeFeedbackModal();
+}
+
+// Update the floating-button label whenever language changes
+function refreshFeedbackLabel() {
+  const el = document.getElementById('feedback-fab-label');
+  if (el) el.textContent = t('fbButton');
 }
 
 // ─── Utils ────────────────────────────────────────────────────────────────────
