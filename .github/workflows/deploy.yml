@@ -1,1 +1,47 @@
-cat "/Users/ahmedugur/Documents/Claude/Projects/Quran Arabic/.github/workflows/deploy.yml"
+name: Deploy to VPS
+
+on:
+  push:
+    branches: [staging, production]
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: "Branch to deploy"
+        required: true
+        default: "staging"
+        type: choice
+        options: [staging, production]
+
+jobs:
+  deploy:
+    name: SSH deploy to VPS
+    runs-on: ubuntu-latest
+    steps:
+      - name: Determine target branch
+        id: target
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            BRANCH="${{ inputs.branch }}"
+          else
+            BRANCH="${GITHUB_REF##*/}"
+          fi
+          echo "branch=$BRANCH" >> "$GITHUB_OUTPUT"
+          echo "🚀 Deploying branch: $BRANCH"
+
+      - name: SSH into VPS and run update.sh
+        uses: appleboy/ssh-action@v1.2.0
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          username: ${{ secrets.VPS_USER }}
+          key: ${{ secrets.VPS_SSH_KEY }}
+          port: ${{ secrets.VPS_PORT }}
+          script: |
+            set -e
+            BRANCH="${{ steps.target.outputs.branch }}"
+            APP_DIR="/var/www/quranportal-${BRANCH}"
+            if [ ! -d "$APP_DIR" ]; then
+              echo "❌ $APP_DIR does not exist on the VPS."
+              exit 1
+            fi
+            sudo bash "$APP_DIR/deploy/update.sh" "$BRANCH"
+            echo "✅ Deployment complete."
