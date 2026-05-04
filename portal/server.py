@@ -167,6 +167,99 @@ Format your response:
         return jsonify({"error": friendly}), code
 
 
+@app.route("/api/feedback-issue", methods=["POST"])
+def feedback_issue():
+    """Create a GitHub issue (and optionally upload a screenshot) using a
+    repo-scoped Personal Access Token stored in .env as GITHUB_TOKEN."""
+    import urllib.request
+    import urllib.error
+    import base64
+    import uuid
+    from datetime import datetime, timezone
+
+    data = request.get_json() or {}
+    issue_type = data.get("type", "bug")  # 'bug' or 'enhancement'
+    title = (data.get("title") or "").strip()
+    body = (data.get("body") or "").strip()
+    screenshot_data_url = data.get("screenshot")  # data:image/png;base64,...
+
+    if not title:
+        return jsonify({"error": "Title is required"}), 400
+
+    token = os.environ.get("GITHUB_TOKEN")
+    if not token:
+        return jsonify({"error": "GITHUB_TOKEN not configured on server. Add it to portal/.env."}), 500
+
+    repo = os.environ.get("GITHUB_REPO", "avutech/quranicarabic")
+    api_base = "https://api.github.com"
+    headers = {
+        "Authorization": f"Bearer {token}",
+        "Accept": "application/vnd.github+json",
+        "X-GitHub-Api-Version": "2022-11-28",
+        "User-Agent": "QuranicArabicPortal-Feedback/1.0",
+    }
+
+    def github_request(method, path, payload=None):
+        url = f"{api_base}{path}"
+        body_bytes = json.dumps(payload).encode() if payload is not None else None
+        req = urllib.request.Request(url, data=body_bytes, method=method, headers={
+            **headers,
+            "Content-Type": "application/json",
+        })
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                return resp.status, json.loads(resp.read().decode() or "{}")
+        except urllib.error.HTTPError as e:
+            err_body = e.read().decode(errors="replace")
+            return e.code, {"error": err_body}
+
+    # 1. If a screenshot was attached, upload it to feedback-screenshots/<uuid>.png
+    image_md = ""
+    if screenshot_data_url and screenshot_data_url.startswith("data:image/"):
+        try:
+            header, b64 = screenshot_data_url.split(",", 1)
+            ext = "png" if "png" in header else ("jpg" if "jpeg" in header or "jpg" in header else "png")
+            ts = datetime.now(timezone.utc).strftime("%Y%m%d-%H%M%S")
+            filename = f"feedback-screenshots/{ts}-{uuid.uuid4().hex[:8]}.{ext}"
+            put_status, put_resp = github_request(
+                "PUT",
+                f"/repos/{repo}/contents/{filename}",
+                {
+                    "message": f"feedback screenshot ({ts})",
+                    "content": b64,
+                    "branch": "main",
+                },
+            )
+            if put_status in (200, 201):
+                download_url = put_resp.get("content", {}).get("download_url")
+                if download_url:
+                    image_md = f"\n\n---\n\n**Screenshot:**\n\n![screenshot]({download_url})\n"
+            else:
+                image_md = f"\n\n_(Screenshot upload failed: HTTP {put_status})_\n"
+        except Exception as e:
+            image_md = f"\n\n_(Screenshot upload error: {e})_\n"
+
+    # 2. Create the issue
+    labels = ["bug", "bugs to fix"] if issue_type == "bug" else ["enhancement", "improvements to consider"]
+    prefix = "[Bug] " if issue_type == "bug" else "[Enhancement] "
+    issue_status, issue_resp = github_request(
+        "POST",
+        f"/repos/{repo}/issues",
+        {
+            "title": prefix + title,
+            "body": body + image_md,
+            "labels": labels,
+        },
+    )
+    if issue_status not in (200, 201):
+        return jsonify({"error": f"GitHub API returned HTTP {issue_status}", "detail": issue_resp.get("error", "")[:500]}), 500
+    return jsonify({
+        "ok": True,
+        "issue_url": issue_resp.get("html_url"),
+        "issue_number": issue_resp.get("number"),
+    })
+
+
 @app.route("/api/irab", methods=["POST"])
 def irab():
     data = request.get_json() or {}

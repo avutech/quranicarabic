@@ -462,6 +462,37 @@
   .modal-type-btn.active { background: var(--green); color: white; border-color: var(--green); }
   .modal-actions { display: flex; gap: 10px; justify-content: flex-end; margin-top: 18px; }
 
+  .modal-dropzone {
+    border: 2px dashed var(--border); border-radius: 8px;
+    padding: 18px; text-align: center; cursor: pointer;
+    transition: all 0.15s; background: #fafaf7;
+    color: var(--muted); font-size: 0.85rem;
+  }
+  .modal-dropzone:hover, .modal-dropzone.dragging {
+    border-color: var(--green); background: var(--green-pale); color: var(--green);
+  }
+  .modal-thumb-wrap {
+    position: relative; display: inline-block;
+    margin-top: 8px; max-width: 100%;
+  }
+  .modal-thumb {
+    max-width: 100%; max-height: 200px;
+    border-radius: 6px; border: 1px solid var(--border);
+  }
+  .modal-thumb-remove {
+    position: absolute; top: -8px; right: -8px;
+    background: #dc2626; color: white; border: none;
+    width: 24px; height: 24px; border-radius: 50%;
+    cursor: pointer; font-size: 0.85rem; line-height: 1;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .modal-success {
+    padding: 16px 18px; background: var(--green-pale);
+    border-left: 4px solid var(--green); border-radius: 6px;
+    color: #0e4f29; font-size: 0.95rem; line-height: 1.6;
+  }
+  body.rtl .modal-success { border-left: none; border-right: 4px solid var(--green); }
+
   /* Spinner */
   .spinner { display: inline-block; width: 16px; height: 16px; border: 2px solid var(--border); border-top-color: var(--green); border-radius: 50%; animation: spin 0.7s linear infinite; }
   @keyframes spin { to { transform: rotate(360deg); } }
@@ -595,7 +626,15 @@ const I18N = {
     fbTitleField: 'Title',
     fbDescField: 'Description',
     fbCancel: 'Cancel',
-    fbSubmit: 'Open in GitHub',
+    fbSubmit: 'Submit',
+    fbSubmitting: 'Submitting…',
+    fbScreenshot: 'Screenshot (optional)',
+    fbScreenshotHint: 'Drag & drop, click to choose, or paste (⌘V) an image',
+    fbScreenshotChosen: 'Image attached',
+    fbScreenshotRemove: 'Remove',
+    fbSuccess: 'Thank you! Your feedback was submitted as issue',
+    fbViewIssue: 'View on GitHub',
+    fbErrorPrefix: 'Could not submit:',
     fbTitleBugPlaceholder: 'e.g. Verse picker doesn\'t load chapter 9',
     fbTitleEnhPlaceholder: 'e.g. Add bookmark feature to lessons',
     fbDescPlaceholder: 'Describe what happened or what you\'d like…',
@@ -668,7 +707,15 @@ const I18N = {
     fbTitleField: 'Başlık',
     fbDescField: 'Açıklama',
     fbCancel: 'İptal',
-    fbSubmit: 'GitHub\'da Aç',
+    fbSubmit: 'Gönder',
+    fbSubmitting: 'Gönderiliyor…',
+    fbScreenshot: 'Ekran görüntüsü (isteğe bağlı)',
+    fbScreenshotHint: 'Sürükle bırak, tıkla seç veya yapıştır (⌘V)',
+    fbScreenshotChosen: 'Görsel eklendi',
+    fbScreenshotRemove: 'Kaldır',
+    fbSuccess: 'Teşekkürler! Geri bildiriminiz şu numaralı sorun olarak gönderildi:',
+    fbViewIssue: 'GitHub\'da görüntüle',
+    fbErrorPrefix: 'Gönderilemedi:',
     fbTitleBugPlaceholder: 'örn. Ayet seçici 9. sureyi yüklemiyor',
     fbTitleEnhPlaceholder: 'örn. Derslere yer imi ekleme özelliği',
     fbDescPlaceholder: 'Ne olduğunu veya ne istediğinizi açıklayın…',
@@ -741,7 +788,15 @@ const I18N = {
     fbTitleField: 'العنوان',
     fbDescField: 'الوصف',
     fbCancel: 'إلغاء',
-    fbSubmit: 'افتح في GitHub',
+    fbSubmit: 'إرسال',
+    fbSubmitting: 'جارٍ الإرسال…',
+    fbScreenshot: 'لقطة شاشة (اختياري)',
+    fbScreenshotHint: 'اسحب وأفلت، انقر للاختيار أو الصق (⌘V)',
+    fbScreenshotChosen: 'تم إرفاق الصورة',
+    fbScreenshotRemove: 'إزالة',
+    fbSuccess: 'شكراً! تم إرسال ملاحظاتك كقضية رقم',
+    fbViewIssue: 'عرض على GitHub',
+    fbErrorPrefix: 'تعذر الإرسال:',
     fbTitleBugPlaceholder: 'مثال: منتقي الآيات لا يحمّل سورة ٩',
     fbTitleEnhPlaceholder: 'مثال: إضافة ميزة الإشارات المرجعية للدروس',
     fbDescPlaceholder: 'صف ما حدث أو ما تريد…',
@@ -1520,15 +1575,16 @@ function jumpToLesson(lessonId) {
 
 // ─── Feedback modal (global) ──────────────────────────────────────────────────
 
-const GITHUB_REPO = 'avutech/quranicarabic';
 let feedbackType = 'bug';
+let feedbackScreenshot = null;  // data URL string or null
 
 function openFeedbackModal() {
   feedbackType = 'bug';
+  feedbackScreenshot = null;
   const root = document.getElementById('feedback-modal-root');
   root.innerHTML = `
     <div class="modal-backdrop" onclick="if(event.target===this) closeFeedbackModal()">
-      <div class="modal-card">
+      <div class="modal-card" id="fb-card">
         <h3>${t('fbTitle')}</h3>
         <p class="subtitle">${t('fbSubtitle')}</p>
 
@@ -1550,69 +1606,181 @@ function openFeedbackModal() {
           <textarea id="fb-desc" placeholder="${t('fbDescPlaceholder')}"></textarea>
         </div>
 
+        <div class="modal-field">
+          <label>${t('fbScreenshot')}</label>
+          <div class="modal-dropzone" id="fb-dropzone" onclick="document.getElementById('fb-file').click()">
+            ${t('fbScreenshotHint')}
+          </div>
+          <input type="file" id="fb-file" accept="image/*" style="display:none" onchange="onFeedbackFile(event.target.files[0])" />
+          <div id="fb-thumb"></div>
+        </div>
+
+        <div id="fb-error" style="color:#991b1b;font-size:0.85rem;margin-top:6px"></div>
+
         <div class="modal-actions">
           <button class="btn-secondary" onclick="closeFeedbackModal()">${t('fbCancel')}</button>
-          <button class="btn-primary" onclick="submitFeedback()">${t('fbSubmit')}</button>
+          <button class="btn-primary" id="fb-submit-btn" onclick="submitFeedback()">${t('fbSubmit')}</button>
         </div>
       </div>
     </div>`;
+
   setTimeout(() => document.getElementById('fb-title')?.focus(), 50);
+  setupFeedbackDnD();
+}
+
+function setupFeedbackDnD() {
+  const dz = document.getElementById('fb-dropzone');
+  if (!dz) return;
+  ['dragenter', 'dragover'].forEach(evt =>
+    dz.addEventListener(evt, e => { e.preventDefault(); dz.classList.add('dragging'); }));
+  ['dragleave', 'drop'].forEach(evt =>
+    dz.addEventListener(evt, e => { e.preventDefault(); dz.classList.remove('dragging'); }));
+  dz.addEventListener('drop', e => {
+    const file = e.dataTransfer.files[0];
+    if (file) onFeedbackFile(file);
+  });
+  // Paste image from clipboard while modal is open
+  document.addEventListener('paste', handleFeedbackPaste);
+}
+
+function handleFeedbackPaste(e) {
+  if (!document.getElementById('fb-card')) {
+    document.removeEventListener('paste', handleFeedbackPaste);
+    return;
+  }
+  const items = (e.clipboardData || {}).items || [];
+  for (const it of items) {
+    if (it.type && it.type.startsWith('image/')) {
+      const file = it.getAsFile();
+      if (file) { onFeedbackFile(file); break; }
+    }
+  }
+}
+
+function onFeedbackFile(file) {
+  if (!file || !file.type.startsWith('image/')) return;
+  // Resize/compress if larger than ~1MB so the GitHub upload is reasonable
+  const reader = new FileReader();
+  reader.onload = e => {
+    const img = new Image();
+    img.onload = () => {
+      const MAX = 1600;
+      let { width, height } = img;
+      if (width > MAX || height > MAX) {
+        const scale = MAX / Math.max(width, height);
+        width = Math.round(width * scale);
+        height = Math.round(height * scale);
+      }
+      const canvas = document.createElement('canvas');
+      canvas.width = width; canvas.height = height;
+      canvas.getContext('2d').drawImage(img, 0, 0, width, height);
+      feedbackScreenshot = canvas.toDataURL('image/png');
+      renderFeedbackThumb();
+    };
+    img.src = e.target.result;
+  };
+  reader.readAsDataURL(file);
+}
+
+function renderFeedbackThumb() {
+  const t_el = document.getElementById('fb-thumb');
+  if (!t_el) return;
+  if (!feedbackScreenshot) { t_el.innerHTML = ''; return; }
+  t_el.innerHTML = `
+    <div class="modal-thumb-wrap">
+      <img class="modal-thumb" src="${feedbackScreenshot}" />
+      <button class="modal-thumb-remove" onclick="removeFeedbackScreenshot()" title="${t('fbScreenshotRemove')}">×</button>
+    </div>`;
+}
+
+function removeFeedbackScreenshot() {
+  feedbackScreenshot = null;
+  document.getElementById('fb-file').value = '';
+  renderFeedbackThumb();
 }
 
 function closeFeedbackModal() {
   document.getElementById('feedback-modal-root').innerHTML = '';
+  feedbackScreenshot = null;
+  document.removeEventListener('paste', handleFeedbackPaste);
 }
 
 function setFeedbackType(type) {
   feedbackType = type;
   document.getElementById('fb-type-bug').classList.toggle('active', type === 'bug');
   document.getElementById('fb-type-enh').classList.toggle('active', type === 'enhancement');
-  // Swap placeholder hint
   const titleInput = document.getElementById('fb-title');
   if (titleInput && !titleInput.value) {
     titleInput.placeholder = type === 'bug' ? t('fbTitleBugPlaceholder') : t('fbTitleEnhPlaceholder');
   }
 }
 
-function submitFeedback() {
+async function submitFeedback() {
   const titleField = document.getElementById('fb-title');
   const descField = document.getElementById('fb-desc');
+  const errEl = document.getElementById('fb-error');
+  const submitBtn = document.getElementById('fb-submit-btn');
   const title = titleField.value.trim();
   const desc = descField.value.trim();
   if (!title) { titleField.focus(); return; }
 
-  const labels = feedbackType === 'bug' ? 'bug,bugs to fix' : 'enhancement,improvements to consider';
-  const prefix = feedbackType === 'bug' ? '[Bug] ' : '[Enhancement] ';
+  errEl.textContent = '';
+  submitBtn.disabled = true;
+  submitBtn.textContent = t('fbSubmitting');
 
-  // Build a body that captures the user's context
+  // Build context-rich body
   const ctx = [];
   if (currentView) {
     if (currentView.type === 'lesson' && currentView.lesson) {
-      ctx.push(`- Page: Lesson ${currentView.level.title.en} / Week ${currentView.lesson.week}`);
+      ctx.push(`- Page: Lesson "${currentView.level.title.en}" / Week ${currentView.lesson.week} — ${currentView.lesson.title.en}`);
     } else if (currentView.type === 'level' && currentView.level) {
       ctx.push(`- Page: Level overview — ${currentView.level.title.en}`);
     } else if (currentView.type === 'reference' && currentView.ref) {
       ctx.push(`- Page: Reference — ${currentView.ref.title.en}`);
     }
+  } else {
+    ctx.push('- Page: Welcome screen');
   }
-  ctx.push(`- Language: ${lang.toUpperCase()}`);
-  ctx.push(`- Browser: ${navigator.userAgent.split(') ')[0].split(' (')[1] || navigator.userAgent.slice(0, 80)}`);
+  ctx.push(`- UI language: ${lang.toUpperCase()}`);
+  ctx.push(`- Browser: ${navigator.userAgent.slice(0, 120)}`);
+  ctx.push(`- Time: ${new Date().toISOString()}`);
 
   const body = (feedbackType === 'bug'
-    ? `**What happened:**\n${desc}\n\n**Context (auto-captured):**\n${ctx.join('\n')}\n`
-    : `**What you'd like:**\n${desc}\n\n**Context (auto-captured):**\n${ctx.join('\n')}\n`
+    ? `**What happened:**\n${desc || '(no description)'}\n\n**Context (auto-captured):**\n${ctx.join('\n')}`
+    : `**What you'd like:**\n${desc || '(no description)'}\n\n**Context (auto-captured):**\n${ctx.join('\n')}`
   );
 
-  const url = `https://github.com/${GITHUB_REPO}/issues/new` +
-    `?title=${encodeURIComponent(prefix + title)}` +
-    `&body=${encodeURIComponent(body)}` +
-    `&labels=${encodeURIComponent(labels)}`;
+  try {
+    const res = await fetch('/api/feedback-issue', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        type: feedbackType,
+        title,
+        body,
+        screenshot: feedbackScreenshot,
+      }),
+    });
+    const data = await res.json();
+    if (!res.ok || !data.ok) throw new Error(data.error || `HTTP ${res.status}`);
 
-  window.open(url, '_blank', 'noopener');
-  closeFeedbackModal();
+    // Show success card inside the modal
+    document.getElementById('fb-card').innerHTML = `
+      <h3>${t('fbTitle')}</h3>
+      <div class="modal-success">
+        ${t('fbSuccess')} <strong>#${data.issue_number}</strong>.
+      </div>
+      <div class="modal-actions">
+        <a href="${data.issue_url}" target="_blank" rel="noopener" class="btn-secondary" style="text-decoration:none">${t('fbViewIssue')}</a>
+        <button class="btn-primary" onclick="closeFeedbackModal()">OK</button>
+      </div>`;
+  } catch (err) {
+    errEl.textContent = `${t('fbErrorPrefix')} ${err.message}`;
+    submitBtn.disabled = false;
+    submitBtn.textContent = t('fbSubmit');
+  }
 }
 
-// Update the floating-button label whenever language changes
 function refreshFeedbackLabel() {
   const el = document.getElementById('feedback-fab-label');
   if (el) el.textContent = t('fbButton');
