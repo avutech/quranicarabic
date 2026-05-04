@@ -37,10 +37,10 @@ if [ "$EUID" -ne 0 ]; then
   exit 1
 fi
 
-echo "==> Installing system packages (python, git, nginx, certbot)..."
+echo "==> Installing system packages (python, git, nginx, certbot, htpasswd)..."
 export DEBIAN_FRONTEND=noninteractive
 apt-get update -q
-apt-get install -y -q python3 python3-venv python3-pip git nginx certbot python3-certbot-nginx
+apt-get install -y -q python3 python3-venv python3-pip git nginx certbot python3-certbot-nginx apache2-utils
 
 echo "==> Creating service user '${SERVICE_USER}' (if missing)..."
 id -u "$SERVICE_USER" >/dev/null 2>&1 || useradd -r -m -s /bin/bash "$SERVICE_USER"
@@ -106,6 +106,26 @@ systemctl daemon-reload
 systemctl enable "$SERVICE_NAME"
 
 echo "==> Configuring nginx for ${DOMAIN}..."
+
+# Staging gets HTTP Basic Auth (testers only); production is public.
+HTPASSWD_FILE="/etc/nginx/htpasswd-${SERVICE_NAME}"
+AUTH_BLOCK=""
+GENERATED_CREDS=""
+if [ "$BRANCH" = "staging" ]; then
+  if [ ! -f "$HTPASSWD_FILE" ]; then
+    GEN_USER="tester"
+    GEN_PASS=$(openssl rand -base64 12 | tr -d '/+=' | head -c 14)
+    htpasswd -bc "$HTPASSWD_FILE" "$GEN_USER" "$GEN_PASS" >/dev/null 2>&1
+    chown root:www-data "$HTPASSWD_FILE"
+    chmod 640 "$HTPASSWD_FILE"
+    GENERATED_CREDS="user: ${GEN_USER}    password: ${GEN_PASS}"
+  fi
+  AUTH_BLOCK="
+    auth_basic \"Quran Portal — staging (private)\";
+    auth_basic_user_file ${HTPASSWD_FILE};
+"
+fi
+
 cat > "/etc/nginx/sites-available/${SERVICE_NAME}" <<EOF
 server {
     listen 80;
@@ -114,7 +134,7 @@ server {
     client_max_body_size 10m;
     proxy_read_timeout 120s;
 
-    location / {
+    location / {${AUTH_BLOCK}
         proxy_pass http://127.0.0.1:${PORT};
         proxy_set_header Host \$host;
         proxy_set_header X-Real-IP \$remote_addr;
@@ -126,6 +146,17 @@ EOF
 ln -sf "/etc/nginx/sites-available/${SERVICE_NAME}" "/etc/nginx/sites-enabled/${SERVICE_NAME}"
 nginx -t
 systemctl reload nginx
+
+if [ -n "$GENERATED_CREDS" ]; then
+  echo ""
+  echo "🔑 Auto-generated test credentials (saved to ${HTPASSWD_FILE}):"
+  echo "   ${GENERATED_CREDS}"
+  echo ""
+  echo "   Add or change users any time with:"
+  echo "     bash ${APP_DIR}/deploy/manage_auth.sh add <username>"
+  echo "     bash ${APP_DIR}/deploy/manage_auth.sh remove <username>"
+  echo "     bash ${APP_DIR}/deploy/manage_auth.sh list"
+fi
 
 echo ""
 echo "════════════════════════════════════════════════════════════════════"
