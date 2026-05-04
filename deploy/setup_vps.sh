@@ -46,15 +46,17 @@ echo "==> Creating service user '${SERVICE_USER}' (if missing)..."
 id -u "$SERVICE_USER" >/dev/null 2>&1 || useradd -r -m -s /bin/bash "$SERVICE_USER"
 
 echo "==> Cloning/updating repo at ${APP_DIR} (branch ${BRANCH})..."
+mkdir -p /var/www
 if [ -d "$APP_DIR/.git" ]; then
   cd "$APP_DIR"
-  sudo -u "$SERVICE_USER" git fetch origin
-  sudo -u "$SERVICE_USER" git checkout "$BRANCH"
-  sudo -u "$SERVICE_USER" git reset --hard "origin/$BRANCH"
+  git fetch origin
+  git checkout "$BRANCH"
+  git reset --hard "origin/$BRANCH"
 else
   rm -rf "$APP_DIR"
-  sudo -u "$SERVICE_USER" git clone --branch "$BRANCH" "$REPO_URL" "$APP_DIR"
+  git clone --branch "$BRANCH" "$REPO_URL" "$APP_DIR"
 fi
+chown -R "$SERVICE_USER:$SERVICE_USER" "$APP_DIR"
 
 echo "==> Setting up Python venv..."
 cd "$APP_DIR/portal"
