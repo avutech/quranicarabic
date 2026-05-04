@@ -282,16 +282,22 @@ Use concise English labels:
   Relative pronoun | Demonstrative | Attached pronoun — object | Attached pronoun — possessive
 
 ### notes
+**WRITE THE EXPLANATORY PROSE IN {response_lang}** — only the transliterated Arabic terms stay unchanged.
 Include ONLY genuinely important grammar points that a learner needs:
-- Irregular morphology (e.g. "Hollow verb: waw > ya in passive: qawala > qila")
-- Scholarly ikhtilaaf (e.g. "wa: conjunction or wa ma'iyya — both views held")
-- Hidden/implied elements (e.g. "Subject pronoun hum implied in verb")
-- Unusual i'rab (e.g. "la nafiya lil-jins: ism mabni 'ala al-fath")
-- Ghayr munsarif reason (e.g. "No tanwin: 'alamiyya + ta'nith ma'nawi")
-- Emphasis/rhetorical function affecting grammar (e.g. "Muqaddam maf'ul for ikhtisas/qasr")
+- Irregular morphology
+- Scholarly ikhtilaaf
+- Hidden/implied elements
+- Unusual i'rab
+- Ghayr munsarif reasons
+- Emphasis/rhetorical function affecting grammar
 - Ta'liq, sedd al-masad, iltiqaa al-sakinayn, fakk al-idgham
 - Qira'at variants that change i'rab
 - null if nothing critical to add
+
+Examples of well-written notes in different languages (same content):
+  English: "Hollow verb: waw → ya in passive (qawala → qila)."
+  Turkish: "İçi boş fiil (ecvef): mechul yapıda waw → ya'ya dönüşür (qawala → qila)."
+  Arabic:  "فعل أجوف: تنقلب الواو ياءً في المجهول (قَوَلَ → قِيلَ)."
 
 ### lesson_refs
 - Reference ONLY `lesson_id` values that appear in the curriculum index below — never invent IDs.
@@ -392,7 +398,11 @@ Output:
 
 ## VERSE TO ANALYZE
 
-{verse}"""
+{verse}
+
+## FINAL REMINDER
+
+Write `meaning`, `notes`, `role` (the descriptive prose), and every `lesson_refs[].reason` in **{response_lang}**. The example above happens to be in English to illustrate the schema — DO NOT copy its language. If {response_lang} is Turkish, write Turkish. If Arabic, write Arabic. If English, write English. Transliterated Arabic technical terms (fa'il, mubtada, marfu', mansub, idafa, etc.) and Arabic script in parentheses stay unchanged."""
 
     try:
         client = genai.Client(api_key=api_key)
