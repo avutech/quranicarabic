@@ -84,6 +84,23 @@ echo "==> Creating PDF directory placeholder..."
 mkdir -p "$APP_DIR/Kuran-Kerim Arapcasi"
 chown -R "$SERVICE_USER:$SERVICE_USER" "$APP_DIR/Kuran-Kerim Arapcasi"
 
+# Normalize any macOS-style decomposed (NFD) filenames to composed (NFC).
+# Browsers send composed UTF-8, so NFD names from rsync/tar-from-Mac would 404.
+python3 - "$APP_DIR/Kuran-Kerim Arapcasi" <<'PYEOF'
+import os, sys, unicodedata
+root = sys.argv[1]
+if os.path.isdir(root):
+    fixed = 0
+    for dirpath, dirnames, filenames in os.walk(root, topdown=False):
+        for name in filenames + dirnames:
+            nfc = unicodedata.normalize("NFC", name)
+            if name != nfc:
+                old, new = os.path.join(dirpath, name), os.path.join(dirpath, nfc)
+                if not os.path.exists(new):
+                    os.rename(old, new); fixed += 1
+    if fixed: print(f"   normalized {fixed} filename(s) to NFC")
+PYEOF
+
 echo "==> Installing systemd service ${SERVICE_NAME}..."
 cat > "/etc/systemd/system/${SERVICE_NAME}.service" <<EOF
 [Unit]
