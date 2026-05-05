@@ -653,6 +653,18 @@ const REFERENCE_TOPICS = [
     ]
   },
   {
+    id: 'learn-deep',
+    icon: '🎓',
+    learnDeep: true,
+    title: { en: 'Learn Deep', tr: 'Derinlemesine Öğren', ar: 'تعلّم بعمق' },
+    desc: {
+      en: 'Browse every grammar concept across all 42 lessons. Pick a level, lesson, and concept to get a guided explanation in your language plus worked examples in i\'rab style.',
+      tr: '42 dersin tüm gramer konularını gez. Bir seviye, ders ve konu seç; seçtiğin dilde rehberli açıklama ve i\'rab tarzında çözümlü örnekler al.',
+      ar: 'تصفّح كل المفاهيم النحوية في الدروس الـ ٤٢. اختر مستوى ودرساً ومفهوماً لتحصل على شرح موجَّه بلغتك وأمثلة محلولة بأسلوب الإعراب.'
+    },
+    pdfs: []
+  },
+  {
     id: 'irab',
     icon: '📖',
     irab: true,

@@ -326,6 +326,44 @@
     font-size: 0.78rem; color: var(--muted);
   }
 
+  /* Learn Deep */
+  .ld-picker {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 16px 18px;
+    box-shadow: var(--shadow); margin-bottom: 18px;
+    display: flex; gap: 10px; align-items: flex-end; flex-wrap: wrap;
+  }
+  .ld-picker-field { display: flex; flex-direction: column; gap: 4px; flex: 1; min-width: 180px; }
+  .ld-picker-field label { font-size: 0.72rem; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; }
+  .ld-picker select {
+    padding: 9px 12px; border: 1.5px solid var(--border); border-radius: 8px;
+    background: var(--card); font-size: 0.92rem; cursor: pointer;
+    font-family: inherit; min-height: 40px;
+  }
+  .ld-picker select:focus { outline: none; border-color: var(--green); }
+  .ld-picker select:disabled { opacity: 0.5; cursor: not-allowed; }
+
+  .ld-result { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 22px; box-shadow: var(--shadow); }
+  .ld-title-row { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; margin-bottom: 6px; }
+  .ld-title-row h2 { font-size: 1.5rem; color: var(--green); }
+  .ld-arabic { font-size: 1.6rem; color: #0e4f29; font-family: 'Amiri', 'Scheherazade New', serif; }
+  .ld-lesson-tag { font-size: 0.78rem; color: var(--muted); margin-bottom: 14px; }
+  .ld-lesson-tag a { color: var(--green); text-decoration: none; font-weight: 600; }
+  .ld-lesson-tag a:hover { text-decoration: underline; }
+  .ld-section { margin-top: 20px; }
+  .ld-section h3 { font-size: 1rem; font-weight: 700; color: var(--text); margin-bottom: 10px; padding-bottom: 6px; border-bottom: 2px solid var(--green-pale); }
+  .ld-overview { font-size: 0.95rem; line-height: 1.65; }
+  .ld-rules { padding-left: 22px; }
+  .ld-rules li { margin-bottom: 8px; line-height: 1.55; }
+  .ld-example { background: var(--green-pale); border-left: 3px solid var(--green); border-radius: 6px; padding: 14px 16px; margin-bottom: 12px; }
+  body.rtl .ld-example { border-left: none; border-right: 3px solid var(--green); }
+  .ld-example-arabic { font-size: 1.35rem; color: #0e4f29; margin-bottom: 6px; font-family: 'Amiri', 'Scheherazade New', serif; }
+  .ld-example-trans { font-size: 0.88rem; color: var(--muted); font-style: italic; margin-bottom: 8px; }
+  .ld-example-walk { font-size: 0.93rem; line-height: 1.65; white-space: pre-wrap; }
+  .ld-mistakes { padding-left: 22px; }
+  .ld-mistakes li { margin-bottom: 6px; line-height: 1.5; color: #7a3f0d; }
+  .ld-empty { color: var(--muted); font-size: 0.92rem; padding: 30px 8px; text-align: center; }
+
   /* Verse Analysis (I'rab) */
   .irab-picker {
     background: var(--card); border: 1px solid var(--border);
@@ -638,6 +676,19 @@ const I18N = {
     fbTitleBugPlaceholder: 'e.g. Verse picker doesn\'t load chapter 9',
     fbTitleEnhPlaceholder: 'e.g. Add bookmark feature to lessons',
     fbDescPlaceholder: 'Describe what happened or what you\'d like…',
+    ldLevel: 'Level',
+    ldLesson: 'Lesson',
+    ldConcept: 'Concept',
+    ldExplore: 'Explore',
+    ldLoading: 'Loading deep dive…',
+    ldOverview: 'Overview',
+    ldRules: 'Key rules',
+    ldExamples: 'Worked examples',
+    ldCommonMistakes: 'Common mistakes',
+    ldOpenLessonPdf: 'Open the lesson PDF',
+    ldPickFirst: 'Pick a level, lesson, and concept above, then click Explore.',
+    ldTranslation: 'Translation',
+    ldWalkthrough: 'Walkthrough',
   },
   tr: {
     navLabel: 'Kuran Arapçası',
@@ -719,6 +770,19 @@ const I18N = {
     fbTitleBugPlaceholder: 'örn. Ayet seçici 9. sureyi yüklemiyor',
     fbTitleEnhPlaceholder: 'örn. Derslere yer imi ekleme özelliği',
     fbDescPlaceholder: 'Ne olduğunu veya ne istediğinizi açıklayın…',
+    ldLevel: 'Seviye',
+    ldLesson: 'Ders',
+    ldConcept: 'Konu',
+    ldExplore: 'Keşfet',
+    ldLoading: 'Derinlemesine içerik yükleniyor…',
+    ldOverview: 'Genel bakış',
+    ldRules: 'Temel kurallar',
+    ldExamples: 'Çözümlü örnekler',
+    ldCommonMistakes: 'Sık yapılan hatalar',
+    ldOpenLessonPdf: 'Ders PDF\'ini aç',
+    ldPickFirst: 'Yukarıdan seviye, ders ve konu seç; sonra Keşfet\'e tıkla.',
+    ldTranslation: 'Çeviri',
+    ldWalkthrough: 'Çözümleme',
   },
   ar: {
     navLabel: 'العربية القرآنية',
@@ -800,6 +864,19 @@ const I18N = {
     fbTitleBugPlaceholder: 'مثال: منتقي الآيات لا يحمّل سورة ٩',
     fbTitleEnhPlaceholder: 'مثال: إضافة ميزة الإشارات المرجعية للدروس',
     fbDescPlaceholder: 'صف ما حدث أو ما تريد…',
+    ldLevel: 'المستوى',
+    ldLesson: 'الدرس',
+    ldConcept: 'المفهوم',
+    ldExplore: 'استكشف',
+    ldLoading: 'جارٍ تحميل الشرح المعمّق…',
+    ldOverview: 'نظرة عامة',
+    ldRules: 'القواعد الأساسية',
+    ldExamples: 'أمثلة محلولة',
+    ldCommonMistakes: 'أخطاء شائعة',
+    ldOpenLessonPdf: 'افتح ملف الدرس',
+    ldPickFirst: 'اختر مستوى ودرساً ومفهوماً من الأعلى ثم اضغط استكشف.',
+    ldTranslation: 'الترجمة',
+    ldWalkthrough: 'الإعراب التفصيلي',
   },
 };
 
@@ -835,6 +912,7 @@ function setLang(l) {
   } else if (currentView.type === 'reference') {
     if (currentView.ref.quiz) renderQuizSetup(currentView.ref);
     else if (currentView.ref.irab) renderIrab(currentView.ref);
+    else if (currentView.ref.learnDeep) renderLearnDeep(currentView.ref);
     else renderReference(currentView.ref);
   }
 }
@@ -924,6 +1002,7 @@ function clickReference(refId) {
   renderSidebar();
   if (ref.quiz) renderQuizSetup(ref);
   else if (ref.irab) renderIrab(ref);
+  else if (ref.learnDeep) renderLearnDeep(ref);
   else renderReference(ref);
 }
 
@@ -1338,6 +1417,198 @@ function showQuizScore() {
           <button class="btn-primary" onclick="startQuiz()">${t('tryAgain')}</button>
         </div>
       </div>
+    </div>`;
+}
+
+// ─── Learn Deep ───────────────────────────────────────────────────────────────
+
+let lessonsIndexCache = null;
+let ldState = { level: '', week: '', conceptIdx: '' };
+let ldLastResult = null;
+
+async function loadLessonsIndex() {
+  if (lessonsIndexCache) return lessonsIndexCache;
+  const res = await fetch('/lessons_index.json');
+  if (!res.ok) throw new Error('lessons_index.json not available');
+  lessonsIndexCache = await res.json();
+  return lessonsIndexCache;
+}
+
+function renderLearnDeep(ref) {
+  const main = document.getElementById('main');
+  main.innerHTML = `
+    <div class="topic-header">
+      <h2>${ref.title[lang]}</h2>
+      <p>${ref.desc[lang]}</p>
+    </div>
+    <div class="section">
+      <div class="ld-picker">
+        <div class="ld-picker-field">
+          <label>${t('ldLevel')}</label>
+          <select id="ld-level" onchange="onLdLevelChange()">
+            <option value="">—</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+        </div>
+        <div class="ld-picker-field" style="flex: 2;">
+          <label>${t('ldLesson')}</label>
+          <select id="ld-week" onchange="onLdWeekChange()" disabled><option value="">—</option></select>
+        </div>
+        <div class="ld-picker-field" style="flex: 2;">
+          <label>${t('ldConcept')}</label>
+          <select id="ld-concept" onchange="onLdConceptChange()" disabled><option value="">—</option></select>
+        </div>
+        <div class="ld-picker-field" style="flex: 0; min-width: 110px;">
+          <label>&nbsp;</label>
+          <button class="btn-primary" id="ld-go" onclick="exploreConcept()" disabled style="padding:9px 18px;">${t('ldExplore')}</button>
+        </div>
+      </div>
+      <div id="ld-result-container">
+        ${ldLastResult ? renderLdResult(ldLastResult) : `<div class="ld-empty">${t('ldPickFirst')}</div>`}
+      </div>
+    </div>`;
+
+  // Re-apply previous selections if returning to this view
+  loadLessonsIndex().then(() => {
+    if (ldState.level) {
+      document.getElementById('ld-level').value = ldState.level;
+      onLdLevelChange();
+      if (ldState.week) {
+        document.getElementById('ld-week').value = ldState.week;
+        onLdWeekChange();
+        if (ldState.conceptIdx !== '') {
+          document.getElementById('ld-concept').value = ldState.conceptIdx;
+          onLdConceptChange();
+        }
+      }
+    }
+  }).catch(err => {
+    document.getElementById('ld-result-container').innerHTML =
+      `<div class="feedback-box error">Failed to load lessons index: ${escapeHtml(err.message)}</div>`;
+  });
+}
+
+function onLdLevelChange() {
+  const lvl = document.getElementById('ld-level').value;
+  ldState.level = lvl;
+  ldState.week = '';
+  ldState.conceptIdx = '';
+  const weekSel = document.getElementById('ld-week');
+  const conceptSel = document.getElementById('ld-concept');
+  conceptSel.disabled = true;
+  conceptSel.innerHTML = '<option value="">—</option>';
+  document.getElementById('ld-go').disabled = true;
+  if (!lvl || !lessonsIndexCache) {
+    weekSel.disabled = true;
+    weekSel.innerHTML = '<option value="">—</option>';
+    return;
+  }
+  const opts = ['<option value="">—</option>'];
+  for (const [key, lesson] of Object.entries(lessonsIndexCache)) {
+    if (String(lesson.level) === String(lvl)) {
+      const title = lesson.verified_title?.[lang] || lesson.verified_title?.en || key;
+      opts.push(`<option value="${lesson.week}">W${lesson.week} — ${escapeHtml(title)}</option>`);
+    }
+  }
+  weekSel.innerHTML = opts.join('');
+  weekSel.disabled = false;
+}
+
+function onLdWeekChange() {
+  const lvl = ldState.level;
+  const week = document.getElementById('ld-week').value;
+  ldState.week = week;
+  ldState.conceptIdx = '';
+  const conceptSel = document.getElementById('ld-concept');
+  document.getElementById('ld-go').disabled = true;
+  if (!week || !lessonsIndexCache) {
+    conceptSel.disabled = true;
+    conceptSel.innerHTML = '<option value="">—</option>';
+    return;
+  }
+  const lesson = lessonsIndexCache[`L${lvl}W${week}`];
+  if (!lesson) {
+    conceptSel.disabled = true;
+    return;
+  }
+  const opts = ['<option value="">—</option>'];
+  (lesson.concepts || []).forEach((c, i) => {
+    const name = c.name?.[lang] || c.name?.en || `Concept ${i + 1}`;
+    opts.push(`<option value="${i}">${escapeHtml(name)}</option>`);
+  });
+  conceptSel.innerHTML = opts.join('');
+  conceptSel.disabled = false;
+}
+
+function onLdConceptChange() {
+  ldState.conceptIdx = document.getElementById('ld-concept').value;
+  document.getElementById('ld-go').disabled = ldState.conceptIdx === '';
+}
+
+async function exploreConcept() {
+  const { level, week, conceptIdx } = ldState;
+  if (level === '' || week === '' || conceptIdx === '') return;
+
+  const btn = document.getElementById('ld-go');
+  const container = document.getElementById('ld-result-container');
+  btn.disabled = true;
+  const origLabel = btn.textContent;
+  btn.textContent = t('ldLoading');
+  container.innerHTML = `<div class="ld-empty">${t('ldLoading')} <span class="spinner"></span></div>`;
+
+  try {
+    const res = await fetch('/api/learn-deep', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        level: parseInt(level),
+        week: parseInt(week),
+        concept_index: parseInt(conceptIdx),
+        language: lang,
+      }),
+    });
+    const data = await res.json();
+    if (!res.ok) throw new Error(data.error || `HTTP ${res.status}`);
+    ldLastResult = data;
+    container.innerHTML = renderLdResult(data);
+  } catch (err) {
+    container.innerHTML = `<div class="feedback-box error" style="white-space:pre-wrap">${linkify(escapeHtml(err.message))}</div>`;
+  } finally {
+    btn.disabled = false;
+    btn.textContent = origLabel;
+  }
+}
+
+function renderLdResult(data) {
+  const pdfLink = data.pdf_path
+    ? `<a href="/pdfs/${encodeURI(data.pdf_path)}" target="_blank" rel="noopener">📄 ${t('ldOpenLessonPdf')}</a>`
+    : '';
+  const lessonTag = data.lesson_id
+    ? `<div class="ld-lesson-tag">${escapeHtml(data.lesson_id)} — ${escapeHtml(data.lesson_title || '')} ${pdfLink ? '· ' + pdfLink : ''}</div>`
+    : '';
+
+  const rules = (data.rules || []).map(r => `<li>${escapeHtml(r)}</li>`).join('');
+  const examples = (data.examples || []).map(ex => `
+    <div class="ld-example">
+      <div class="ld-example-arabic" dir="rtl">${escapeHtml(ex.arabic || '')}</div>
+      <div class="ld-example-trans">${t('ldTranslation')}: ${escapeHtml(ex.translation || '')}</div>
+      <div class="ld-example-walk"><strong>${t('ldWalkthrough')}:</strong> ${escapeHtml(ex.walkthrough || '')}</div>
+    </div>`).join('');
+  const mistakes = (data.common_mistakes || []).map(m => `<li>${escapeHtml(m)}</li>`).join('');
+
+  return `
+    <div class="ld-result">
+      <div class="ld-title-row">
+        <h2>${escapeHtml(data.title || '')}</h2>
+        ${data.arabic_name ? `<span class="ld-arabic">${escapeHtml(data.arabic_name)}</span>` : ''}
+      </div>
+      ${lessonTag}
+      ${data.overview ? `<div class="ld-section"><h3>${t('ldOverview')}</h3><div class="ld-overview">${escapeHtml(data.overview)}</div></div>` : ''}
+      ${rules ? `<div class="ld-section"><h3>${t('ldRules')}</h3><ul class="ld-rules">${rules}</ul></div>` : ''}
+      ${examples ? `<div class="ld-section"><h3>${t('ldExamples')}</h3>${examples}</div>` : ''}
+      ${mistakes ? `<div class="ld-section"><h3>${t('ldCommonMistakes')}</h3><ul class="ld-mistakes">${mistakes}</ul></div>` : ''}
     </div>`;
 }
 

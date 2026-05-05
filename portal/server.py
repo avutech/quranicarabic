@@ -260,6 +260,145 @@ def feedback_issue():
     })
 
 
+@app.route("/api/learn-deep", methods=["POST"])
+def learn_deep():
+    """Generate a guided deep-dive explanation of a specific grammar concept
+    from a specific lesson. Pulls context from lessons_index.json and asks
+    Gemini to produce explanation + worked examples in the user's language."""
+    data = request.get_json() or {}
+    level = data.get("level")
+    week = data.get("week")
+    concept_index = data.get("concept_index")
+    language = data.get("language", "en")
+
+    if level is None or week is None or concept_index is None:
+        return jsonify({"error": "level, week, and concept_index are required"}), 400
+
+    api_key = os.environ.get("GEMINI_API_KEY")
+    if not api_key:
+        return jsonify({"error": "GEMINI_API_KEY environment variable is not set"}), 500
+    if LESSONS_INDEX is None:
+        return jsonify({"error": "lessons_index.json not found"}), 500
+
+    lesson_key = f"L{level}W{week}"
+    lesson = LESSONS_INDEX.get(lesson_key)
+    if not lesson:
+        return jsonify({"error": f"Lesson {lesson_key} not found"}), 404
+
+    concepts = lesson.get("concepts", [])
+    if not (0 <= concept_index < len(concepts)):
+        return jsonify({"error": "concept_index out of range"}), 400
+
+    concept = concepts[concept_index]
+    lang_names = {"en": "English", "tr": "Turkish", "ar": "Arabic"}
+    response_lang = lang_names.get(language, "English")
+
+    concept_name_ar = concept.get("name", {}).get("ar", "")
+    concept_name_en = concept.get("name", {}).get("en", "")
+    concept_name_target = concept.get("name", {}).get(language, concept_name_en)
+    keywords = ", ".join(concept.get("keywords", []))
+    examples_seed = "\n".join(f"  - {e}" for e in concept.get("examples", [])) or "  (none provided)"
+    lesson_title_target = lesson.get("verified_title", {}).get(language, lesson.get("verified_title", {}).get("en", ""))
+    lesson_summary = lesson.get("summary", "")
+
+    prompt = f"""You are an expert teacher of Quranic Arabic grammar producing a guided deep-dive lesson on a single concept.
+
+## LANGUAGE — CRITICAL
+Write ALL prose in **{response_lang}** (explanation, rules, walkthroughs). Keep transliterated technical terms (mubtada, fa'il, mansub, etc.) and Arabic script unchanged.
+
+## CONTEXT — The lesson this concept lives in
+- Lesson: Level {level}, Week {week}: {lesson_title_target}
+- Lesson summary: {lesson_summary}
+
+## TARGET CONCEPT
+- Name: {concept_name_target} ({concept_name_ar})
+- Keywords: {keywords}
+- Seed example tokens to include or expand:
+{examples_seed}
+
+## OUTPUT FORMAT
+Return ONLY valid JSON (no markdown, no prose outside the JSON), matching this schema:
+
+{{
+  "title": "<concept title in {response_lang}>",
+  "arabic_name": "{concept_name_ar}",
+  "overview": "<2–4 sentence high-level intro to what this concept is, in {response_lang}>",
+  "rules": [
+    "<rule 1: a clear, specific grammatical rule or pattern, with the Arabic term in transliteration where appropriate>",
+    "<rule 2>",
+    "<rule 3 — aim for 3–6 rules total>"
+  ],
+  "examples": [
+    {{
+      "arabic": "<short Arabic word/phrase/sentence>",
+      "translation": "<translation into {response_lang}>",
+      "walkthrough": "<3–6 sentence i'rab-style walkthrough that shows how this concept applies, in {response_lang}. Use bullet form `- ` if helpful. Mention case, marker, role, etc.>"
+    }},
+    {{ "arabic": "...", "translation": "...", "walkthrough": "..." }},
+    {{ "arabic": "...", "translation": "...", "walkthrough": "..." }}
+  ],
+  "common_mistakes": [
+    "<a typical learner error and how to avoid it, in {response_lang}>",
+    "<another, optional>"
+  ]
+}}
+
+GUIDELINES:
+- Provide exactly 3 examples; prefer Quranic examples over invented ones.
+- Each walkthrough should isolate the target concept (don't expand into unrelated grammar).
+- Keep total length under ~600 words to stay focused.
+- Where you cite Arabic, also include the transliteration in parentheses on first occurrence.
+
+NOW produce the JSON."""
+
+    try:
+        client = genai.Client(api_key=api_key)
+        response = client.models.generate_content(
+            model=GEMINI_MODEL,
+            contents=prompt,
+            config=genai_types.GenerateContentConfig(
+                response_mime_type="application/json",
+                max_output_tokens=8000,
+            ),
+        )
+        raw = (response.text or "").strip()
+        if not raw:
+            return jsonify({"error": "Empty response from model"}), 502
+
+        try:
+            payload = json.loads(raw)
+        except json.JSONDecodeError:
+            for open_ch, close_ch in (("{", "}"), ("[", "]")):
+                start, end = raw.find(open_ch), raw.rfind(close_ch)
+                if start >= 0 and end > start:
+                    try:
+                        payload = json.loads(raw[start:end + 1])
+                        break
+                    except json.JSONDecodeError:
+                        continue
+            else:
+                return jsonify({"error": "Could not parse model output as JSON"}), 502
+
+        # Convert the index's "Level-1__1st Lesson..." format to a real
+        # filesystem path "Level-1/1st Lesson....pdf" for the frontend link.
+        pdf_filename = lesson.get("pdf_filename")
+        if pdf_filename:
+            real_path = pdf_filename.replace("__", "/") + ".pdf"
+            if (PDF_DIR / real_path).exists():
+                payload["pdf_path"] = real_path
+            else:
+                payload["pdf_path"] = pdf_filename  # best-effort fallback
+        payload["lesson_title"] = lesson_title_target
+        payload["level"] = level
+        payload["week"] = week
+        payload["lesson_id"] = lesson_key
+        return jsonify(payload)
+
+    except Exception as e:
+        code, friendly = humanize_gemini_error(e)
+        return jsonify({"error": friendly}), code
+
+
 @app.route("/api/irab", methods=["POST"])
 def irab():
     data = request.get_json() or {}
