@@ -223,12 +223,23 @@
     font-weight: 600; cursor: pointer; transition: all 0.2s;
   }
   .btn-primary:hover { background: var(--green-light); transform: translateY(-1px); }
+  .btn-primary:disabled,
+  .btn-primary[disabled] {
+    background: #d1d5db; color: #6b7280; cursor: not-allowed;
+    transform: none; box-shadow: none;
+  }
+  .btn-primary:disabled:hover { background: #d1d5db; transform: none; }
   .btn-secondary {
     background: transparent; color: var(--green); border: 1.5px solid var(--green);
     padding: 10px 22px; border-radius: 24px; font-size: 0.9rem;
     font-weight: 500; cursor: pointer; transition: all 0.2s;
   }
   .btn-secondary:hover { background: var(--green-pale); }
+  .btn-secondary:disabled,
+  .btn-secondary[disabled] {
+    color: #9ca3af; border-color: #d1d5db; cursor: not-allowed; background: transparent;
+  }
+  .btn-secondary:disabled:hover { background: transparent; }
 
   /* Question card */
   .question-card {
@@ -363,6 +374,59 @@
   .ld-mistakes { padding-left: 22px; }
   .ld-mistakes li { margin-bottom: 6px; line-height: 1.5; color: #7a3f0d; }
   .ld-empty { color: var(--muted); font-size: 0.92rem; padding: 30px 8px; text-align: center; }
+
+  /* Complexity pill toggle */
+  .complexity-toggle { display: inline-flex; gap: 0; border: 1.5px solid var(--border); border-radius: 20px; overflow: hidden; }
+  .complexity-toggle button {
+    padding: 7px 16px; border: none; background: transparent; cursor: pointer;
+    font-size: 0.85rem; font-weight: 500; color: var(--muted); font-family: inherit;
+  }
+  .complexity-toggle button.active { background: var(--green); color: white; font-weight: 600; }
+  .complexity-toggle button:not(.active):hover { background: var(--green-pale); color: var(--green); }
+
+  /* Self-Check Verse Analysis */
+  .sc-fill-grid { display: grid; gap: 14px; margin-top: 14px; }
+  .sc-fill-card {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 14px 16px; box-shadow: var(--shadow);
+  }
+  .sc-fill-arabic {
+    font-size: 1.7rem; color: #0e4f29; font-family: 'Amiri', 'Scheherazade New', serif;
+    margin-bottom: 10px; direction: rtl; text-align: right;
+  }
+  .sc-fill-row { display: flex; flex-direction: column; gap: 4px; margin-bottom: 8px; }
+  .sc-fill-row label { font-size: 0.72rem; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; }
+  .sc-fill-row input, .sc-fill-row textarea {
+    padding: 8px 10px; border: 1.5px solid var(--border); border-radius: 6px;
+    font-size: 0.9rem; font-family: inherit;
+  }
+  .sc-fill-row input:focus, .sc-fill-row textarea:focus { outline: none; border-color: var(--green); }
+
+  .sc-result-card {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 16px; box-shadow: var(--shadow); margin-bottom: 12px;
+  }
+  .sc-result-head { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; margin-bottom: 10px; }
+  .sc-result-head .sc-arabic { font-size: 1.6rem; color: #0e4f29; font-family: 'Amiri', 'Scheherazade New', serif; }
+  .sc-badge {
+    display: inline-block; padding: 3px 10px; border-radius: 999px;
+    font-size: 0.74rem; font-weight: 700;
+  }
+  .sc-badge.correct    { background: #dcfce7; color: #14532d; }
+  .sc-badge.partial    { background: #fef3c7; color: #78350f; }
+  .sc-badge.incorrect  { background: #fee2e2; color: #7f1d1d; }
+  .sc-badge.missing    { background: #f3f4f6; color: #4b5563; }
+  .sc-field-row { display: grid; grid-template-columns: 110px 1fr 1fr; gap: 10px; padding: 8px 0; border-top: 1px dashed var(--border); }
+  .sc-field-row:first-child { border-top: none; }
+  .sc-field-label { font-size: 0.78rem; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; }
+  .sc-your { color: var(--text); }
+  .sc-your.empty { color: var(--muted); font-style: italic; }
+  .sc-correct { background: var(--green-pale); padding: 6px 8px; border-radius: 4px; font-size: 0.9rem; line-height: 1.5; }
+  .sc-feedback { margin-top: 8px; padding: 8px 12px; background: #fffbeb; border-left: 3px solid #f59e0b; border-radius: 4px; font-size: 0.88rem; line-height: 1.5; }
+  body.rtl .sc-feedback { border-left: none; border-right: 3px solid #f59e0b; }
+  .sc-overall { background: var(--green-pale); border-left: 4px solid var(--green); border-radius: 6px; padding: 14px 18px; margin-top: 16px; font-size: 0.95rem; line-height: 1.65; }
+  body.rtl .sc-overall { border-left: none; border-right: 4px solid var(--green); }
+  .sc-legend { display: flex; gap: 12px; flex-wrap: wrap; font-size: 0.78rem; color: var(--muted); margin: 6px 0 14px 0; }
 
   /* Verse Analysis (I'rab) */
   .irab-picker {
@@ -601,6 +665,7 @@ const I18N = {
     welcomeH1: 'Quranic Arabic Learning Portal',
     welcomeP: 'Select a level from the sidebar to explore its lessons, or choose a reference topic to browse vocabulary and grammar materials.',
     groupLessons: 'Course Levels',
+    groupPower: 'Power Learning',
     groupReference: 'Reference Materials',
     week: 'Week',
     lessons: 'Lessons',
@@ -655,6 +720,27 @@ const I18N = {
     irabPickLoading: 'Loading...',
     irabPickFromQuran: 'Pick from Quran',
     irabOrPaste: 'Or paste your own text:',
+    irabPickPrev: 'Previous ayah',
+    irabPickNext: 'Next ayah',
+    scSelfFill: 'Self Fill',
+    scAnalyze: 'Analyze My Answers',
+    scAnalyzing: 'Checking…',
+    scWord: 'Word',
+    scYourMeaning: 'Your meaning',
+    scYourRole: 'Your role / i\'rab',
+    scYourNotes: 'Your notes',
+    scCorrect: 'Correct',
+    scYour: 'Your',
+    scOverall: 'Overall feedback',
+    scNeedVerse: 'Load or paste a verse first.',
+    scSelfFillFirst: 'Click Self Fill to split the verse into blank word boxes, fill them in, then come back and click Analyze.',
+    scLegendCorrect: '✓ Correct',
+    scLegendPartial: '⚠ Partial',
+    scLegendIncorrect: '✗ Incorrect',
+    scLegendMissing: '◌ Missing',
+    scComplexity: 'Complexity',
+    scComplexitySimple: 'Simple',
+    scComplexityComplex: 'Advanced',
     fbButton: 'Feedback',
     fbTitle: 'Send Feedback',
     fbSubtitle: 'Found a bug or have an idea? Submit it as a GitHub issue. You\'ll see the pre-filled form on GitHub before it\'s posted.',
@@ -695,6 +781,7 @@ const I18N = {
     welcomeH1: 'Kuran Arapçası Öğrenme Portalı',
     welcomeP: 'Derslerini keşfetmek için kenar çubuğundan bir seviye seçin veya kelime ve dilbilgisi materyallerine göz atmak için referans konusu seçin.',
     groupLessons: 'Kurs Seviyeleri',
+    groupPower: 'Güçlü Öğrenme',
     groupReference: 'Referans Materyalleri',
     week: 'Hafta',
     lessons: 'Dersler',
@@ -749,6 +836,27 @@ const I18N = {
     irabPickLoading: 'Yükleniyor...',
     irabPickFromQuran: 'Kuran\'dan Seç',
     irabOrPaste: 'Veya kendi metninizi yapıştırın:',
+    irabPickPrev: 'Önceki ayet',
+    irabPickNext: 'Sonraki ayet',
+    scSelfFill: 'Kendin Doldur',
+    scAnalyze: 'Cevaplarımı Analiz Et',
+    scAnalyzing: 'Kontrol ediliyor…',
+    scWord: 'Kelime',
+    scYourMeaning: 'Senin anlamın',
+    scYourRole: 'Senin görevin / i\'râbın',
+    scYourNotes: 'Senin notların',
+    scCorrect: 'Olması gereken',
+    scYour: 'Senin',
+    scOverall: 'Genel geri bildirim',
+    scNeedVerse: 'Önce bir ayet yükle veya yapıştır.',
+    scSelfFillFirst: 'Kendin Doldur\'a tıkla, ayet boş kelime kutularına bölünsün; doldur, sonra Analiz et\'e bas.',
+    scLegendCorrect: '✓ Doğru',
+    scLegendPartial: '⚠ Kısmen',
+    scLegendIncorrect: '✗ Yanlış',
+    scLegendMissing: '◌ Boş',
+    scComplexity: 'Zorluk',
+    scComplexitySimple: 'Basit',
+    scComplexityComplex: 'İleri Düzey',
     fbButton: 'Geri Bildirim',
     fbTitle: 'Geri Bildirim Gönder',
     fbSubtitle: 'Bir hata mı buldunuz veya bir öneriniz mi var? GitHub\'a issue olarak gönderin. Göndermeden önce GitHub\'da önceden doldurulmuş formu göreceksiniz.',
@@ -789,6 +897,7 @@ const I18N = {
     welcomeH1: 'بوابة تعلم العربية القرآنية',
     welcomeP: 'اختر مستوى من القائمة الجانبية لاستكشاف دروسه، أو اختر موضوعاً مرجعياً لتصفح مواد المفردات والنحو.',
     groupLessons: 'مستويات الدورة',
+    groupPower: 'تعلّم متقدّم',
     groupReference: 'المواد المرجعية',
     week: 'الأسبوع',
     lessons: 'الدروس',
@@ -843,6 +952,27 @@ const I18N = {
     irabPickLoading: 'جارٍ التحميل...',
     irabPickFromQuran: 'اختر من القرآن',
     irabOrPaste: 'أو الصق نصك الخاص:',
+    irabPickPrev: 'الآية السابقة',
+    irabPickNext: 'الآية التالية',
+    scSelfFill: 'املأ بنفسك',
+    scAnalyze: 'حلّل إجاباتي',
+    scAnalyzing: 'جارٍ التحقق…',
+    scWord: 'الكلمة',
+    scYourMeaning: 'معناك',
+    scYourRole: 'إعرابك / موقعك',
+    scYourNotes: 'ملاحظاتك',
+    scCorrect: 'الصواب',
+    scYour: 'إجابتك',
+    scOverall: 'تعليق عام',
+    scNeedVerse: 'حمّل أو الصق آية أولاً.',
+    scSelfFillFirst: 'اضغط "املأ بنفسك" لتقسيم الآية إلى صناديق فارغة، املأها ثم اضغط حلّل.',
+    scLegendCorrect: '✓ صحيح',
+    scLegendPartial: '⚠ جزئي',
+    scLegendIncorrect: '✗ خطأ',
+    scLegendMissing: '◌ ناقص',
+    scComplexity: 'مستوى الصعوبة',
+    scComplexitySimple: 'مبسّط',
+    scComplexityComplex: 'متقدّم',
     fbButton: 'ملاحظات',
     fbTitle: 'إرسال ملاحظات',
     fbSubtitle: 'وجدت خطأ أو لديك فكرة؟ أرسلها كـ GitHub issue. سترى النموذج المعبأ مسبقاً على GitHub قبل النشر.',
@@ -912,6 +1042,7 @@ function setLang(l) {
   } else if (currentView.type === 'reference') {
     if (currentView.ref.quiz) renderQuizSetup(currentView.ref);
     else if (currentView.ref.irab) renderIrab(currentView.ref);
+    else if (currentView.ref.selfCheck) renderSelfCheck(currentView.ref);
     else if (currentView.ref.learnDeep) renderLearnDeep(currentView.ref);
     else renderReference(currentView.ref);
   }
@@ -923,7 +1054,23 @@ function renderSidebar() {
   const levelIcons = { level1: '١', level2: '٢', level3: '٣' };
   let html = '';
 
-  html += `<div class="sidebar-section">${t('groupLessons')}</div>`;
+  const renderRefItem = ref => {
+    const isActive = currentView && currentView.type === 'reference' && currentView.ref && currentView.ref.id === ref.id;
+    return `
+      <div class="ref-item ${isActive ? 'active' : ''}" onclick="clickReference('${ref.id}')">
+        <div class="ref-icon">${ref.icon}</div>
+        <div class="ref-name">${ref.title[lang]}</div>
+      </div>`;
+  };
+
+  // Power Learning — pinned at the top
+  const powerItems = REFERENCE_TOPICS.filter(r => r.group === 'power');
+  if (powerItems.length) {
+    html += `<div class="sidebar-section">${t('groupPower')}</div>`;
+    for (const ref of powerItems) html += renderRefItem(ref);
+  }
+
+  html += `<div class="sidebar-section" style="margin-top:8px">${t('groupLessons')}</div>`;
 
   for (const level of LEVELS) {
     const isExpanded = expandedLevel === level.id;
@@ -951,15 +1098,10 @@ function renderSidebar() {
     }
   }
 
-  html += `<div class="sidebar-section" style="margin-top:8px">${t('groupReference')}</div>`;
-
-  for (const ref of REFERENCE_TOPICS) {
-    const isActive = currentView && currentView.type === 'reference' && currentView.ref && currentView.ref.id === ref.id;
-    html += `
-      <div class="ref-item ${isActive ? 'active' : ''}" onclick="clickReference('${ref.id}')">
-        <div class="ref-icon">${ref.icon}</div>
-        <div class="ref-name">${ref.title[lang]}</div>
-      </div>`;
+  const referenceItems = REFERENCE_TOPICS.filter(r => r.group !== 'power');
+  if (referenceItems.length) {
+    html += `<div class="sidebar-section" style="margin-top:8px">${t('groupReference')}</div>`;
+    for (const ref of referenceItems) html += renderRefItem(ref);
   }
 
   document.getElementById('sidebar').innerHTML = html;
@@ -1002,6 +1144,7 @@ function clickReference(refId) {
   renderSidebar();
   if (ref.quiz) renderQuizSetup(ref);
   else if (ref.irab) renderIrab(ref);
+  else if (ref.selfCheck) renderSelfCheck(ref);
   else if (ref.learnDeep) renderLearnDeep(ref);
   else renderReference(ref);
 }
@@ -1612,6 +1755,376 @@ function renderLdResult(data) {
     </div>`;
 }
 
+// ─── Self-Check Verse Analysis ────────────────────────────────────────────────
+
+let scState = { surah: '', ayah: '' };
+let scWords = [];          // [{arabic, meaning, role, notes}] — user's filled answers
+let scLastResult = null;
+let scComplexity = localStorage.getItem('sc_complexity') || 'simple';   // 'simple' | 'complex'
+
+function renderSelfCheck(ref) {
+  const main = document.getElementById('main');
+  main.innerHTML = `
+    <div class="topic-header">
+      <h2>${ref.title[lang]}</h2>
+      <p>${ref.desc[lang]}</p>
+    </div>
+    <div class="section">
+      <div class="irab-picker">
+        <div class="irab-picker-field">
+          <label>${t('irabPickSurah')}</label>
+          <select id="sc-surah" onchange="onScSurahChange()" disabled>
+            <option value="">${t('irabPickLoading')}</option>
+          </select>
+        </div>
+        <div class="irab-picker-field" style="max-width: 130px">
+          <label>${t('irabPickAyah')}</label>
+          <select id="sc-ayah" disabled><option value="">—</option></select>
+        </div>
+        <div class="irab-picker-field" style="flex: 0; min-width: 130px">
+          <label>&nbsp;</label>
+          <button class="btn-primary" id="sc-load" onclick="scLoadVerse()" disabled style="padding:9px 18px">${t('irabPickLoad')}</button>
+        </div>
+        <div class="irab-picker-field" style="flex: 0; min-width: 100px">
+          <label>&nbsp;</label>
+          <div style="display:flex; gap:6px;">
+            <button class="btn-secondary" id="sc-prev" onclick="scStepVerse(-1)" disabled
+                    title="${t('irabPickPrev')}" style="padding:9px 12px; font-weight:700;">◀</button>
+            <button class="btn-secondary" id="sc-next" onclick="scStepVerse(1)" disabled
+                    title="${t('irabPickNext')}" style="padding:9px 12px; font-weight:700;">▶</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="irab-input">
+        <div style="font-size:0.78rem; color:var(--muted); margin-bottom:6px;">${t('irabOrPaste')}</div>
+        <textarea class="irab-textarea" id="sc-input" placeholder="${escapeHtml(t('irabPlaceholder'))}"></textarea>
+        <div class="irab-actions" style="flex-wrap: wrap; gap: 10px;">
+          <button class="btn-secondary" onclick="scClear()">${t('irabClear')}</button>
+          <span class="spacer"></span>
+          <div style="display:flex; align-items:center; gap:8px;">
+            <span style="font-size:0.78rem; font-weight:700; color:var(--muted); text-transform:uppercase; letter-spacing:0.06em;">${t('scComplexity')}</span>
+            <div class="complexity-toggle">
+              <button id="sc-cmplx-simple" class="${scComplexity === 'simple' ? 'active' : ''}" onclick="scSetComplexity('simple')">${t('scComplexitySimple')}</button>
+              <button id="sc-cmplx-complex" class="${scComplexity === 'complex' ? 'active' : ''}" onclick="scSetComplexity('complex')">${t('scComplexityComplex')}</button>
+            </div>
+          </div>
+          <button class="btn-secondary" id="sc-fill" onclick="scSelfFill()">${t('scSelfFill')}</button>
+          <button class="btn-primary" id="sc-go" onclick="scAnalyze()" disabled>${t('scAnalyze')}</button>
+        </div>
+      </div>
+
+      <div id="sc-fill-area">${scLastResult ? renderScWordCards(scLastResult) : ''}</div>
+      <div id="sc-result-area">${scLastResult ? renderScOverall(scLastResult) : ''}</div>
+    </div>`;
+
+  // Re-populate the surah dropdown (reuses cached chapters)
+  scPopulateSurahDropdown();
+}
+
+async function scPopulateSurahDropdown() {
+  const sel = document.getElementById('sc-surah');
+  if (!sel) return;
+  try {
+    const chapters = await fetchChapters();
+    const opts = ['<option value="">—</option>'];
+    for (const c of chapters) {
+      const tname = c.translated_name && c.translated_name.name ? ` — ${c.translated_name.name}` : '';
+      opts.push(`<option value="${c.id}" data-verses="${c.verses_count}">${c.id}. ${escapeHtml(c.name_simple)}${escapeHtml(tname)}</option>`);
+    }
+    sel.innerHTML = opts.join('');
+    sel.disabled = false;
+    if (scState.surah) {
+      sel.value = scState.surah;
+      onScSurahChange();
+      if (scState.ayah) {
+        document.getElementById('sc-ayah').value = scState.ayah;
+        document.getElementById('sc-load').disabled = false;
+        scRefreshStepButtons();
+      }
+    }
+  } catch (e) {
+    sel.innerHTML = `<option value="">Failed to load: ${escapeHtml(e.message)}</option>`;
+  }
+}
+
+function onScSurahChange() {
+  const sSel = document.getElementById('sc-surah');
+  const aSel = document.getElementById('sc-ayah');
+  const loadBtn = document.getElementById('sc-load');
+  scState.surah = sSel.value;
+  scState.ayah = '';
+  scRefreshStepButtons();
+  if (!sSel.value) {
+    aSel.disabled = true;
+    aSel.innerHTML = '<option value="">—</option>';
+    loadBtn.disabled = true;
+    return;
+  }
+  const opt = sSel.options[sSel.selectedIndex];
+  const versesCount = parseInt(opt.dataset.verses) || 0;
+  const opts = ['<option value="">—</option>'];
+  for (let i = 1; i <= versesCount; i++) opts.push(`<option value="${i}">${i}</option>`);
+  aSel.innerHTML = opts.join('');
+  aSel.disabled = false;
+  aSel.onchange = () => {
+    scState.ayah = aSel.value;
+    loadBtn.disabled = !aSel.value;
+    scRefreshStepButtons();
+  };
+}
+
+function scRefreshStepButtons() {
+  const prev = document.getElementById('sc-prev');
+  const next = document.getElementById('sc-next');
+  if (!prev || !next) return;
+  const s = parseInt(scState.surah);
+  const a = parseInt(scState.ayah);
+  const has = !!(s && a);
+  let dPrev = !has, dNext = !has;
+  if (has) {
+    if (s === 1 && a === 1) dPrev = true;
+    if (quranChapters && s === quranChapters.length) {
+      const last = quranChapters[quranChapters.length - 1];
+      if (a >= (last.verses_count || 0)) dNext = true;
+    }
+  }
+  prev.disabled = dPrev;
+  next.disabled = dNext;
+}
+
+async function scLoadVerse() {
+  const sSel = document.getElementById('sc-surah');
+  const aSel = document.getElementById('sc-ayah');
+  const loadBtn = document.getElementById('sc-load');
+  if (!sSel.value || !aSel.value) return;
+  loadBtn.disabled = true;
+  loadBtn.textContent = t('irabPickLoading');
+  try {
+    const res = await fetch(`https://api.quran.com/api/v4/verses/by_key/${sSel.value}:${aSel.value}?fields=text_uthmani,text_imlaei`);
+    const data = await res.json();
+    const verseText = (data.verse && (data.verse.text_uthmani || data.verse.text_imlaei)) || '';
+    if (!verseText) throw new Error('No verse text returned');
+    document.getElementById('sc-input').value = verseText;
+    document.getElementById('sc-fill-area').innerHTML = '';
+    document.getElementById('sc-result-area').innerHTML = '';
+    document.getElementById('sc-go').disabled = true;
+    scWords = [];
+    scLastResult = null;
+  } catch (e) {
+    document.getElementById('sc-result-area').innerHTML =
+      `<div class="feedback-box error">Failed: ${escapeHtml(e.message)}</div>`;
+  } finally {
+    loadBtn.disabled = false;
+    loadBtn.textContent = t('irabPickLoad');
+  }
+}
+
+async function scStepVerse(direction) {
+  if (!quranChapters) return;
+  let s = parseInt(scState.surah);
+  let a = parseInt(scState.ayah);
+  if (!s || !a) return;
+  if (direction > 0) {
+    const cur = quranChapters.find(c => c.id === s);
+    if (a < cur.verses_count) a += 1;
+    else if (s < quranChapters.length) { s += 1; a = 1; }
+    else return;
+  } else {
+    if (a > 1) a -= 1;
+    else if (s > 1) { s -= 1; a = quranChapters.find(c => c.id === s).verses_count; }
+    else return;
+  }
+  const sSel = document.getElementById('sc-surah');
+  const aSel = document.getElementById('sc-ayah');
+  if (parseInt(sSel.value) !== s) {
+    sSel.value = String(s);
+    onScSurahChange();
+  }
+  aSel.value = String(a);
+  scState.ayah = String(a);
+  document.getElementById('sc-load').disabled = false;
+  scRefreshStepButtons();
+  await scLoadVerse();
+}
+
+function scClear() {
+  document.getElementById('sc-input').value = '';
+  document.getElementById('sc-fill-area').innerHTML = '';
+  document.getElementById('sc-result-area').innerHTML = '';
+  document.getElementById('sc-go').disabled = true;
+  scWords = [];
+  scLastResult = null;
+}
+
+function scSetComplexity(mode) {
+  scComplexity = mode;
+  localStorage.setItem('sc_complexity', mode);
+  const a = document.getElementById('sc-cmplx-simple');
+  const b = document.getElementById('sc-cmplx-complex');
+  if (a) a.classList.toggle('active', mode === 'simple');
+  if (b) b.classList.toggle('active', mode === 'complex');
+}
+
+// Splits the verse on whitespace into "words" — same coarse split the user
+// will fill out. Keeps Arabic punctuation attached. Treats the textarea as
+// the source of truth so the user can edit the verse before splitting.
+function scSplitVerse(verse) {
+  // Strip Arabic verse-end markers and stray control chars
+  const cleaned = verse.replace(/[​-‏⁠-⁯﻿]/g, '').trim();
+  return cleaned.split(/\s+/).filter(w => w.length > 0);
+}
+
+function scSelfFill() {
+  const verse = document.getElementById('sc-input').value.trim();
+  if (!verse) {
+    document.getElementById('sc-result-area').innerHTML =
+      `<div class="feedback-box error">${t('scNeedVerse')}</div>`;
+    return;
+  }
+  const tokens = scSplitVerse(verse);
+  scWords = tokens.map(w => ({ arabic: w, meaning: '', role: '', notes: '' }));
+  document.getElementById('sc-result-area').innerHTML = '';
+  scLastResult = null;
+  scRenderFillCards();
+  document.getElementById('sc-go').disabled = false;
+}
+
+function scRenderFillCards() {
+  const html = `
+    <div class="sc-fill-grid">
+      ${scWords.map((w, i) => `
+        <div class="sc-fill-card">
+          <div class="sc-fill-arabic">${escapeHtml(w.arabic)}</div>
+          <div class="sc-fill-row">
+            <label>${t('scYourMeaning')}</label>
+            <input type="text" id="sc-meaning-${i}" value="${escapeHtml(w.meaning)}"
+                   oninput="scWords[${i}].meaning = this.value" />
+          </div>
+          <div class="sc-fill-row">
+            <label>${t('scYourRole')}</label>
+            <input type="text" id="sc-role-${i}" value="${escapeHtml(w.role)}"
+                   oninput="scWords[${i}].role = this.value" />
+          </div>
+          <div class="sc-fill-row">
+            <label>${t('scYourNotes')}</label>
+            <textarea id="sc-notes-${i}" rows="2"
+                      oninput="scWords[${i}].notes = this.value">${escapeHtml(w.notes)}</textarea>
+          </div>
+        </div>
+      `).join('')}
+    </div>`;
+  document.getElementById('sc-fill-area').innerHTML = html;
+}
+
+async function scAnalyze() {
+  const verse = document.getElementById('sc-input').value.trim();
+  if (!verse) {
+    document.getElementById('sc-result-area').innerHTML =
+      `<div class="feedback-box error">${t('scNeedVerse')}</div>`;
+    return;
+  }
+  if (!scWords.length) {
+    document.getElementById('sc-result-area').innerHTML =
+      `<div class="feedback-box error">${t('scSelfFillFirst')}</div>`;
+    return;
+  }
+  const btn = document.getElementById('sc-go');
+  btn.disabled = true;
+  const orig = btn.textContent;
+  btn.textContent = t('scAnalyzing');
+  document.getElementById('sc-result-area').innerHTML =
+    `<div class="ld-empty">${t('scAnalyzing')} <span class="spinner"></span></div>`;
+
+  try {
+    const res = await fetch('/api/self-check', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ verse, language: lang, user_answers: scWords, complexity: scComplexity }),
+    });
+    const data = await res.json();
+    if (!res.ok) throw new Error(data.error || `HTTP ${res.status}`);
+    scLastResult = data;
+    // Replace the editable fill cards in-place with the graded result cards
+    // and put only the overall feedback in the result-area below.
+    document.getElementById('sc-fill-area').innerHTML = renderScWordCards(data);
+    document.getElementById('sc-result-area').innerHTML = renderScOverall(data);
+  } catch (err) {
+    document.getElementById('sc-result-area').innerHTML =
+      `<div class="feedback-box error" style="white-space:pre-wrap">${linkify(escapeHtml(err.message))}</div>`;
+  } finally {
+    btn.disabled = false;
+    btn.textContent = orig;
+  }
+}
+
+function renderScWordCards(data) {
+  const legend = `
+    <div class="sc-legend">
+      <span>${t('scLegendCorrect')}</span>
+      <span>${t('scLegendPartial')}</span>
+      <span>${t('scLegendIncorrect')}</span>
+      <span>${t('scLegendMissing')}</span>
+    </div>`;
+
+  const cards = (data.words || []).map(w => {
+    const overallBadge = scOverallBadge(w.scores || {});
+    const fields = [
+      ['scYourMeaning', 'meaning'],
+      ['scYourRole', 'role'],
+      ['scYourNotes', 'notes'],
+    ].map(([labelKey, field]) => {
+      const score = (w.scores || {})[field] || 'missing';
+      const userVal = (w.user || {})[field] || '';
+      const correctVal = (w.correct || {})[field] || '';
+      return `
+        <div class="sc-field-row">
+          <div class="sc-field-label">${t(labelKey)}<br><span class="sc-badge ${score}">${scBadgeLabel(score)}</span></div>
+          <div class="sc-your ${userVal ? '' : 'empty'}">
+            <strong>${t('scYour')}:</strong> ${userVal ? escapeHtml(userVal) : '—'}
+          </div>
+          <div class="sc-correct"><strong>${t('scCorrect')}:</strong> ${escapeHtml(correctVal)}</div>
+        </div>`;
+    }).join('');
+
+    return `
+      <div class="sc-result-card">
+        <div class="sc-result-head">
+          <span class="sc-arabic" dir="rtl">${escapeHtml(w.arabic || '')}</span>
+          ${overallBadge}
+        </div>
+        ${fields}
+        ${w.feedback ? `<div class="sc-feedback">${escapeHtml(w.feedback)}</div>` : ''}
+      </div>`;
+  }).join('');
+
+  return legend + cards;
+}
+
+function renderScOverall(data) {
+  return data.overall_feedback
+    ? `<div class="sc-overall"><strong>${t('scOverall')}:</strong> ${escapeHtml(data.overall_feedback)}</div>`
+    : '';
+}
+
+function scBadgeLabel(score) {
+  switch (score) {
+    case 'correct':   return t('scLegendCorrect');
+    case 'partial':   return t('scLegendPartial');
+    case 'incorrect': return t('scLegendIncorrect');
+    default:          return t('scLegendMissing');
+  }
+}
+
+function scOverallBadge(scores) {
+  const vals = Object.values(scores);
+  if (!vals.length) return '';
+  if (vals.every(v => v === 'correct')) return `<span class="sc-badge correct">${t('scLegendCorrect')}</span>`;
+  if (vals.some(v => v === 'incorrect')) return `<span class="sc-badge incorrect">${t('scLegendIncorrect')}</span>`;
+  if (vals.some(v => v === 'partial'))   return `<span class="sc-badge partial">${t('scLegendPartial')}</span>`;
+  return `<span class="sc-badge missing">${t('scLegendMissing')}</span>`;
+}
+
 // ─── Verse Analysis (I'rab) ───────────────────────────────────────────────────
 
 let lastIrabResult = null;
@@ -1661,6 +2174,15 @@ function renderIrab(ref) {
           <label>&nbsp;</label>
           <button class="btn-primary" id="picker-load" onclick="loadVerse()" disabled style="padding:9px 18px">${t('irabPickLoad')}</button>
         </div>
+        <div class="irab-picker-field" style="flex: 0; min-width: 100px">
+          <label>&nbsp;</label>
+          <div style="display:flex; gap:6px;">
+            <button class="btn-secondary" id="picker-prev" onclick="stepVerse(-1)" disabled
+                    title="${t('irabPickPrev')}" style="padding:9px 12px; font-weight:700;">◀</button>
+            <button class="btn-secondary" id="picker-next" onclick="stepVerse(1)" disabled
+                    title="${t('irabPickNext')}" style="padding:9px 12px; font-weight:700;">▶</button>
+          </div>
+        </div>
       </div>
       <div class="irab-input">
         <div style="font-size:0.78rem; color:var(--muted); margin-bottom:6px;">${t('irabOrPaste')}</div>
@@ -1709,6 +2231,7 @@ function onSurahChange() {
   const loadBtn = document.getElementById('picker-load');
   pickerState.surah = sSel.value;
   pickerState.ayah = '';
+  refreshStepButtons();
   if (!sSel.value) {
     aSel.disabled = true;
     aSel.innerHTML = '<option value="">—</option>';
@@ -1724,7 +2247,71 @@ function onSurahChange() {
   aSel.onchange = () => {
     pickerState.ayah = aSel.value;
     loadBtn.disabled = !aSel.value;
+    refreshStepButtons();
   };
+}
+
+function refreshStepButtons() {
+  const prev = document.getElementById('picker-prev');
+  const next = document.getElementById('picker-next');
+  if (!prev || !next) return;
+  const s = parseInt(pickerState.surah);
+  const a = parseInt(pickerState.ayah);
+  const hasSelection = !!(s && a);
+  // Disable Prev at 1:1 and Next at 114:last
+  let disablePrev = !hasSelection;
+  let disableNext = !hasSelection;
+  if (hasSelection) {
+    if (s === 1 && a === 1) disablePrev = true;
+    if (quranChapters && s === quranChapters.length) {
+      const lastSurah = quranChapters[quranChapters.length - 1];
+      if (a >= (lastSurah.verses_count || 0)) disableNext = true;
+    }
+  }
+  prev.disabled = disablePrev;
+  next.disabled = disableNext;
+}
+
+async function stepVerse(direction) {
+  if (!quranChapters) return;
+  let s = parseInt(pickerState.surah);
+  let a = parseInt(pickerState.ayah);
+  if (!s || !a) return;
+
+  if (direction > 0) {
+    const cur = quranChapters.find(c => c.id === s);
+    if (a < cur.verses_count) {
+      a += 1;
+    } else if (s < quranChapters.length) {
+      s += 1;
+      a = 1;
+    } else {
+      return; // already at 114:last
+    }
+  } else {
+    if (a > 1) {
+      a -= 1;
+    } else if (s > 1) {
+      s -= 1;
+      a = quranChapters.find(c => c.id === s).verses_count;
+    } else {
+      return; // already at 1:1
+    }
+  }
+
+  // Apply to dropdowns
+  const sSel = document.getElementById('picker-surah');
+  const aSel = document.getElementById('picker-ayah');
+  if (parseInt(sSel.value) !== s) {
+    sSel.value = String(s);
+    onSurahChange();   // rebuilds the ayah dropdown
+  }
+  aSel.value = String(a);
+  pickerState.ayah = String(a);
+  document.getElementById('picker-load').disabled = false;
+  refreshStepButtons();
+
+  await loadVerse();
 }
 
 async function loadVerse() {

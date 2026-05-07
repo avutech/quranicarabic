@@ -74,6 +74,120 @@ load_env_file()
 GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash-lite")
 
 
+# Shared i'rab field-rule reference — injected into both /api/irab and
+# /api/self-check so the "correct" analysis follows the same standardized
+# vocabulary in both places.
+IRAB_FIELD_RULES = """### type
+- "fi'l" — any verb (madi, mudari, amr, passive)
+- "ism" — any noun, adjective, pronoun, relative pronoun, demonstrative, participle, masdar
+- "harf" — any particle (preposition, conjunction, negation, interrogative, etc.)
+
+### form (examples by type)
+For fi'l:
+  "Form I, madi" / "Form I, mudari, marfu'" / "Form IV, amr" / "Form VII, madi, passive"
+  Always include: Form number (I–X) + tense/mode + passive if applicable
+  For defective/hollow/doubled roots add: "Form I, madi (naqis ya'i)" etc.
+
+For ism:
+  "ism fa'il, Form IV" / "ism maf'ul, Form I" / "masdar, Form II"
+  "sifa mushabbaha (fa'il)" / "siga mubalaġa (fa'ul)" / "ism tafḍil"
+  "jam' mudhakkar salim" / "jam' mu'annas salim" / "jam' mukassar"
+  "muntaha al-jumu' (ghayr munsarif)" / "ism maqsur" / "ism mamdud"
+  "asma' al-khamsa (abi/akhi/hami/fami/dhi)"
+  For pronouns: "mutasil damir" / "munfasil damir"
+
+For harf:
+  Describe function: "harf jarr" / "harf 'atf (ta'qib)" / "harf nafi" / "harf nahi" /
+  "harf tawkid wa nasb (inna)" / "harf shart jazim" / "harf masdariyya wa nasb" etc.
+
+### case_mood
+For nouns/adjectives:
+  "marfu'" / "mansub" / "majrur"
+  Add how: "marfu' (damma)" / "mansub (fatha)" / "majrur (kasra)"
+  For irregular: "marfu' (waw) — jam' mudhakkar salim" / "mansub/majrur (ya) — jam' mudhakkar salim"
+  For ghayr munsarif: "majrur (fatha) — ghayr munsarif"
+  For maqsur/mamdud: "marfu' (muqaddar)"
+  For indeclinables: "mabni 'ala al-fath / damm / kasr / sukun, fi mahall ___"
+
+For verbs:
+  "marfu' (damma)" / "mansub (fatha)" / "majzum (sukun)" / "majzum (hazf nun)"
+  "mabni 'ala al-fath (madi)" / "mabni 'ala al-sukun (amr)"
+  For passive: add "passive — na'ib fa'il: ___"
+
+For particles: "mabni" or null
+
+### role
+Use concise English labels:
+  Subject (fa'il) | Doer (fa'il) | Subject of kana | Predicate | Predicate of kana
+  Direct object (maf'ul bih) | Second object | Substitute object (na'ib fa'il)
+  Adjective (sifa) | Appositive (badal) | Emphasis (tawkid) | Conjunction (ma'tuf)
+  Hal (circumstantial acc.) | Tamyiz (specification) | Maf'ul mutlaq | Maf'ul lah | Maf'ul fih
+  Mudaf | Mudaf ilayhi | Prepositional phrase (jar-majrur) | Linked to verb/noun (muta'alliq)
+  Subject of relative clause (sila) | Conditional verb | Conditional response (jawab shart)
+  Oath object (muqsam bih) | Predicate (khabar muqaddam) | Delayed subject (mubtada muakhkhar)
+  Conjunction (harf) | Negation particle | Interrogative | Vocative | Response to negation (ijab)
+  Relative pronoun | Demonstrative | Attached pronoun — object | Attached pronoun — possessive
+
+### notes
+Include ONLY genuinely important grammar points that a learner needs:
+- Irregular morphology (e.g. "Hollow verb: waw > ya in passive")
+- Scholarly ikhtilaaf
+- Hidden/implied elements (e.g. "Subject pronoun hum implied in verb")
+- Unusual i'rab (e.g. "la nafiya lil-jins: ism mabni 'ala al-fath")
+- Ghayr munsarif reason
+- Emphasis/rhetorical function affecting grammar
+- Ta'liq, sedd al-masad, iltiqaa al-sakinayn, fakk al-idgham
+- Qira'at variants that change i'rab
+- null if nothing critical to add"""
+
+# Simplified version of the i'rab rules — for beginners. Same JSON shape,
+# but plain everyday vocabulary instead of advanced Arabic-grammar terminology.
+IRAB_FIELD_RULES_SIMPLE = """### type
+- "verb" — any action word (past, present, command, passive)
+- "noun" — names, things, people, descriptions, pronouns
+- "particle" — short connector words (and, in, from, not, the, etc.)
+
+### form (keep it short and beginner-friendly)
+For verbs:   "past tense" / "present tense" / "command" / "past, passive" / "present, passive"
+For nouns:   "common noun" / "proper noun (name)" / "adjective" / "pronoun" / "plural noun" / "feminine noun"
+For particles: leave null OR a one-word function tag like "preposition" / "conjunction" / "negation"
+
+### case_mood (use plain English with the Arabic term in parentheses)
+For nouns:
+  "nominative (marfu')" — the subject form, usually with a damma
+  "accusative (mansub)" — the object form, usually with a fatha
+  "genitive (majrur)"  — after a preposition or in a possession chain, usually with a kasra
+  "indeclinable (mabni)" — pronouns, demonstratives that don't change
+
+For verbs:
+  "indicative (marfu')" / "subjunctive (mansub)" / "jussive (majzum)"
+  "past tense — fixed (mabni)" / "command — fixed (mabni)"
+
+For particles: "fixed (mabni)" or null
+
+### role (use plain English labels first; Arabic term in parens)
+Subject (fa'il) | Object (maf'ul) | Predicate (khabar) | Subject of sentence (mubtada)
+Adjective (sifa) | Possessor (mudaf) | Possessed-of (mudaf ilayhi)
+Preposition (jarr) | Conjunction | Negation particle | Question particle
+Pronoun — subject | Pronoun — object | Pronoun — possessive
+Vocative (calling) | Cause/Reason | Time/Place
+
+### notes
+Add only if a beginner would be confused without it. One short sentence max. null otherwise.
+Examples of good simple notes:
+  "The 'ed' ending shows it's past tense — like 'walked' in English."
+  "This is a pronoun stuck onto the noun, meaning 'his/her/their'."
+  "The verb here has no visible subject — 'he/she/they' is hidden inside it."
+"""
+
+IRAB_GLOBAL_RULES = """1. Every word in the verse gets its own object — particles (wa, fa, la, ma, in etc.) included.
+2. For attached pronouns that are part of a word (e.g. هُمْ in أَعْمَالَهُمْ), analyze the full word as one object AND note the pronoun's role in the notes field. Do NOT split them unless the pronoun is a clear standalone clitic.
+3. For inna/anna and sisters: the word itself is "harf"; its attached pronoun gets analyzed as one unit with notes explaining the ism of inna.
+4. Keep all field values SHORT — no full sentences except in notes.
+5. "form" field is null for pure particles that have no morphological derivation.
+6. Always return the Arabic word exactly as it appears in the verse (with full diacritics if provided)."""
+
+
 def load_lessons_index():
     """Load the PDF-derived 42-lesson concept index, return a compact summary
     string suitable for inclusion in the i'rab prompt."""
@@ -260,6 +374,141 @@ def feedback_issue():
     })
 
 
+@app.route("/api/self-check", methods=["POST"])
+def self_check():
+    """Compare a learner's per-word i'rab attempt to a fresh expert analysis
+    and return per-field grading + corrective feedback."""
+    data = request.get_json() or {}
+    verse = (data.get("verse") or "").strip()
+    language = data.get("language", "en")
+    user_answers = data.get("user_answers") or []
+    complexity = data.get("complexity", "complex")  # "simple" or "complex"
+    if complexity not in ("simple", "complex"):
+        complexity = "complex"
+
+    if not verse:
+        return jsonify({"error": "No verse provided"}), 400
+    if not isinstance(user_answers, list) or not user_answers:
+        return jsonify({"error": "user_answers (list) is required"}), 400
+
+    api_key = os.environ.get("GEMINI_API_KEY")
+    if not api_key:
+        return jsonify({"error": "GEMINI_API_KEY environment variable is not set"}), 500
+
+    lang_names = {"en": "English", "tr": "Turkish", "ar": "Arabic"}
+    response_lang = lang_names.get(language, "English")
+
+    user_block = "\n".join(
+        f"  Word {i + 1} — {ua.get('arabic', '?')}\n"
+        f"    user_meaning: {ua.get('meaning') or '(empty)'}\n"
+        f"    user_role:    {ua.get('role') or '(empty)'}\n"
+        f"    user_notes:   {ua.get('notes') or '(empty)'}"
+        for i, ua in enumerate(user_answers)
+    )
+
+    prompt = f"""You are an expert Quranic Arabic grammar teacher grading a student's word-by-word i'rab attempt.
+
+## LANGUAGE
+All prose (correct.meaning, correct.role, correct.notes, feedback, overall_feedback) MUST be written in **{response_lang}**. Keep transliterated Arabic technical terms (mubtada, fa'il, mansub, marfu', etc.) and Arabic script unchanged.
+
+## I'RAB FIELD RULES — these govern the `correct` field you produce for each word
+
+{IRAB_FIELD_RULES_SIMPLE if complexity == "simple" else IRAB_FIELD_RULES}
+
+## COMPLEXITY MODE: {complexity.upper()}
+{("This is a beginner-friendly grading. Keep `correct.role`, `correct.case_mood`, and `correct.notes` SHORT and use plain English with the Arabic term in parentheses (e.g. 'subject (fa'il)'). Avoid advanced terminology like 'sifa mushabbaha', 'jam' mudhakkar salim', 'maf'ul mutlaq' unless absolutely necessary." if complexity == "simple" else "This is the full advanced grading. Use precise classical Arabic-grammar terminology (mubtada, khabar, fa'il, sifa mushabbaha, jam' mudhakkar salim, maf'ul mutlaq, ghayr munsarif, na'ib fa'il, etc.) wherever applicable.")}
+GRADING TOLERANCE: Be lenient about *terminology* the student uses — if they wrote a simple word like "subject" but the correct answer in this complexity mode is "Mubtada", credit it as "correct" (or "partial" if they missed something else about the word). The student's vocabulary level may be below the complexity mode they picked.
+
+## GLOBAL I'RAB RULES — MANDATORY
+
+{IRAB_GLOBAL_RULES}
+
+## VERSE
+{verse}
+
+## STUDENT'S ANSWERS (one entry per word, IN THIS ORDER — keep the same order in your output)
+{user_block}
+
+## YOUR TASK
+1. Produce the correct word-by-word i'rab for the verse, matching the student's word boundaries (one output entry per student entry, same Arabic surface form). Apply the I'RAB FIELD RULES above when filling `correct.role` and `correct.notes`.
+2. For each word, compare the student's three fields (meaning, role, notes) against the correct answer and assign a grade:
+   - "correct"   — substantively right (synonyms / wording differences are fine)
+   - "partial"   — partially right but missing a key piece OR slightly off
+   - "incorrect" — wrong
+   - "missing"   — student left it blank
+3. Produce a short corrective `feedback` for the student in {response_lang} (1–3 sentences) per word — only mention what they got wrong or missed; if all three fields are correct, congratulate them briefly.
+4. Produce an `overall_feedback` (2–4 sentences in {response_lang}) summarizing strengths and the single most important thing to focus on next.
+
+## OUTPUT — return ONLY valid JSON with this schema:
+{{
+  "words": [
+    {{
+      "arabic": "<the word — same as student's input>",
+      "user":    {{ "meaning": "...", "role": "...", "notes": "..." }},
+      "correct": {{ "meaning": "...", "role": "...", "notes": "..." }},
+      "scores":  {{ "meaning": "correct|partial|incorrect|missing",
+                    "role":    "correct|partial|incorrect|missing",
+                    "notes":   "correct|partial|incorrect|missing" }},
+      "feedback": "<1–3 sentences in {response_lang}>"
+    }}
+  ],
+  "overall_feedback": "<2–4 sentences in {response_lang}>"
+}}
+
+If a field has substantive correct content but the student left it blank, mark that field as "missing" (not "correct"). For `notes`, only return an empty string in `correct.notes` if there is genuinely nothing important to add for that word — otherwise fill in the actual grammatical note the learner should have written.
+"""
+
+    try:
+        client = genai.Client(api_key=api_key)
+        response = client.models.generate_content(
+            model=GEMINI_MODEL,
+            contents=prompt,
+            config=genai_types.GenerateContentConfig(
+                response_mime_type="application/json",
+                max_output_tokens=16000,
+            ),
+        )
+        raw = (response.text or "").strip()
+        if not raw:
+            return jsonify({"error": "Empty response from model"}), 502
+
+        try:
+            payload = json.loads(raw)
+        except json.JSONDecodeError:
+            for open_ch, close_ch in (("{", "}"), ("[", "]")):
+                start, end = raw.find(open_ch), raw.rfind(close_ch)
+                if start >= 0 and end > start:
+                    try:
+                        payload = json.loads(raw[start:end + 1])
+                        break
+                    except json.JSONDecodeError:
+                        continue
+            else:
+                return jsonify({"error": "Could not parse model output as JSON"}), 502
+
+        # Deterministic guardrail: if the student left a field blank but the
+        # correct answer has substantive content, force the score to "missing".
+        # If both are blank, force "correct" (nothing to say is fine).
+        for w in payload.get("words") or []:
+            user_fields = w.get("user") or {}
+            correct_fields = w.get("correct") or {}
+            scores = w.get("scores") or {}
+            for field in ("meaning", "role", "notes"):
+                u = (user_fields.get(field) or "").strip()
+                c = (correct_fields.get(field) or "").strip()
+                if not u and c:
+                    scores[field] = "missing"
+                elif not u and not c:
+                    scores[field] = "correct"
+            w["scores"] = scores
+
+        return jsonify(payload)
+
+    except Exception as e:
+        code, friendly = humanize_gemini_error(e)
+        return jsonify({"error": friendly}), code
+
+
 @app.route("/api/learn-deep", methods=["POST"])
 def learn_deep():
     """Generate a guided deep-dive explanation of a specific grammar concept
@@ -416,7 +665,7 @@ def irab():
     lang_names = {"en": "English", "tr": "Turkish", "ar": "Arabic"}
     response_lang = lang_names.get(language, "English")
 
-    prompt = f"""You are an expert in Quranic Arabic grammar. Analyze Quranic verses word-by-word and return a JSON array. Each element represents one word/particle.
+    prompt = f"""You are an expert in Quranic Arabic grammar. Analyze Quranic verses word-by-word and return a JSON object. The top-level object contains a verse-wide `translation` and a `words` array; each element of `words` represents one word/particle.
 
 ## LANGUAGE — CRITICAL
 
@@ -446,94 +695,37 @@ If {response_lang} is English: keep everything as the role rules describe below.
 
 ## OUTPUT
 
-Return ONLY a valid JSON array. No prose, no markdown, no explanation outside the array.
+Return ONLY a valid JSON object. No prose, no markdown, no explanation outside the JSON.
 
-## JSON SCHEMA (one object per word)
+## JSON SCHEMA
 
 {{
-  "word": "Arabic word as it appears in the verse",
-  "transliteration": "romanized transliteration",
-  "meaning": "{response_lang} meaning (concise)",
-  "type": "fi'l | ism | harf",
-  "root": "Arabic root letters (e.g. ك ف ر) — null if none",
-  "form": "morphological form — see rules below",
-  "case_mood": "grammatical case or verb mood — see rules below",
-  "role": "syntactic role in the sentence — see rules below",
-  "notes": "any critical grammar rule, exception, or scholarly disagreement — null if none",
-  "lesson_refs": [
-    {{ "lesson_id": "<exact lesson_id from the curriculum index below>", "reason": "<one short sentence in {response_lang} explaining why this lesson applies>" }}
+  "translation": "<a single complete, natural-flowing translation of the ENTIRE verse into {response_lang} — 1–3 sentences. This is for the learner to read at a glance, before they study the word-by-word breakdown.>",
+  "words": [
+    {{
+      "word": "Arabic word as it appears in the verse",
+      "transliteration": "romanized transliteration",
+      "meaning": "{response_lang} meaning (concise)",
+      "type": "fi'l | ism | harf",
+      "root": "Arabic root letters (e.g. ك ف ر) — null if none",
+      "form": "morphological form — see rules below",
+      "case_mood": "grammatical case or verb mood — see rules below",
+      "role": "syntactic role in the sentence — see rules below",
+      "notes": "any critical grammar rule, exception, or scholarly disagreement — null if none",
+      "lesson_refs": [
+        {{ "lesson_id": "<exact lesson_id from the curriculum index below>", "reason": "<one short sentence in {response_lang} explaining why this lesson applies>" }}
+      ]
+    }}
   ]
 }}
 
-## FIELD RULES
+## FIELD RULES — MANDATORY
 
-### type
-- "fi'l" — any verb (madi, mudari, amr, passive)
-- "ism" — any noun, adjective, pronoun, relative pronoun, demonstrative, participle, masdar
-- "harf" — any particle (preposition, conjunction, negation, interrogative, etc.)
+These rules are not suggestions. Every word object MUST follow them exactly. If a rule conflicts with brevity, follow the rule. If a label isn't listed below, do not invent one — pick the closest match from the list.
 
-### form (examples by type)
-For fi'l:
-  "Form I, madi" / "Form I, mudari, marfu'" / "Form IV, amr" / "Form VII, madi, passive"
-  Always include: Form number (I–X) + tense/mode + passive if applicable
-  For defective/hollow/doubled roots add: "Form I, madi (naqis ya'i)" etc.
+{IRAB_FIELD_RULES}
 
-For ism:
-  "ism fa'il, Form IV" / "ism maf'ul, Form I" / "masdar, Form II"
-  "sifa mushabbaha (fa'il)" / "siga mubalaġa (fa'ul)" / "ism tafḍil"
-  "jam' mudhakkar salim" / "jam' mu'annas salim" / "jam' mukassar"
-  "muntaha al-jumu' (ghayr munsarif)" / "ism maqsur" / "ism mamdud"
-  "asma' al-khamsa (abi/akhi/hami/fami/dhi)"
-  For pronouns: "mutasil damir" / "munfasil damir"
-  For particles used as nouns: describe accordingly
-
-For harf:
-  Describe function: "harf jarr" / "harf 'atf (ta'qib)" / "harf nafi" / "harf nahi" /
-  "harf tawkid wa nasb (inna)" / "harf shart jazim" / "harf masdariyya wa nasb" etc.
-
-### case_mood
-For nouns/adjectives:
-  "marfu'" / "mansub" / "majrur"
-  Add how: "marfu' (damma)" / "mansub (fatha)" / "majrur (kasra)"
-  For irregular: "marfu' (waw) — jam' mudhakkar salim" / "mansub/majrur (ya) — jam' mudhakkar salim"
-  For ghayr munsarif: "majrur (fatha) — ghayr munsarif"
-  For maqsur/mamdud: "marfu' (muqaddar)"
-  For indeclinables: "mabni 'ala al-fath / damm / kasr / sukun, fi mahall ___"
-
-For verbs:
-  "marfu' (damma)" / "mansub (fatha)" / "majzum (sukun)" / "majzum (hazf nun)"
-  "mabni 'ala al-fath (madi)" / "mabni 'ala al-sukun (amr)"
-  For passive: add "passive — na'ib fa'il: ___"
-
-For particles:
-  "mabni" or null
-
-### role
-Use concise English labels:
-  Subject (fa'il) | Doer (fa'il) | Subject of kana | Predicate | Predicate of kana
-  Direct object (maf'ul bih) | Second object | Substitute object (na'ib fa'il)
-  Adjective (sifa) | Appositive (badal) | Emphasis (tawkid) | Conjunction (ma'tuf)
-  Hal (circumstantial acc.) | Tamyiz (specification) | Maf'ul mutlaq | Maf'ul lah | Maf'ul fih
-  Mudaf | Mudaf ilayhi | Prepositional phrase (jar-majrur) | Linked to verb/noun (muta'alliq)
-  Subject of relative clause (sila) | Conditional verb | Conditional response (jawab shart)
-  Oath object (muqsam bih) | Predicate (khabar muqaddam) | Delayed subject (mubtada muakhkhar)
-  Conjunction (harf) | Negation particle | Interrogative | Vocative | Response to negation (ijab)
-  Relative pronoun | Demonstrative | Attached pronoun — object | Attached pronoun — possessive
-
-### notes
-**WRITE THE EXPLANATORY PROSE IN {response_lang}** — only the transliterated Arabic terms stay unchanged.
-Include ONLY genuinely important grammar points that a learner needs:
-- Irregular morphology
-- Scholarly ikhtilaaf
-- Hidden/implied elements
-- Unusual i'rab
-- Ghayr munsarif reasons
-- Emphasis/rhetorical function affecting grammar
-- Ta'liq, sedd al-masad, iltiqaa al-sakinayn, fakk al-idgham
-- Qira'at variants that change i'rab
-- null if nothing critical to add
-
-Examples of well-written notes in different languages (same content):
+**WRITE the explanatory prose inside `notes` in {response_lang}** — only the transliterated Arabic terms stay unchanged. Examples of well-written notes in different languages (same content):
   English: "Hollow verb: waw → ya in passive (qawala → qila)."
   Turkish: "İçi boş fiil (ecvef): mechul yapıda waw → ya'ya dönüşür (qawala → qila)."
   Arabic:  "فعل أجوف: تنقلب الواو ياءً في المجهول (قَوَلَ → قِيلَ)."
@@ -549,14 +741,11 @@ Use these exact `lesson_id` strings only:
 
 {LESSONS_INDEX_SUMMARY}
 
-## IMPORTANT RULES
+## IMPORTANT RULES — MANDATORY
 
-1. Every word in the verse gets its own object — particles (wa, fa, la, ma, in etc.) included.
-2. For attached pronouns that are part of a word (e.g. هُمْ in أَعْمَالَهُمْ), analyze the full word as one object AND note the pronoun's role in the notes field. Do NOT split them into separate objects unless the pronoun is a clear standalone clitic.
-3. For inna/anna and sisters: the word itself is "harf"; its attached pronoun (إِنَّهُ) gets analyzed as one unit with notes explaining the ism of inna.
-4. Keep all field values SHORT — no full sentences except in notes.
-5. "form" field is null for pure particles (prepositions, conjunctions, negations) that have no morphological derivation.
-6. Always return the Arabic word exactly as it appears in the verse (with full diacritics if provided).
+These six rules are non-negotiable. Every output must satisfy all of them.
+
+{IRAB_GLOBAL_RULES}
 
 ## EXAMPLE
 

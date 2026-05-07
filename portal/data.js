@@ -656,7 +656,8 @@ const REFERENCE_TOPICS = [
     id: 'learn-deep',
     icon: '🎓',
     learnDeep: true,
-    title: { en: 'Learn Deep', tr: 'Derinlemesine Öğren', ar: 'تعلّم بعمق' },
+    group: 'power',
+    title: { en: 'Deep Learn', tr: 'Derinlemesine Öğren', ar: 'تعلّم بعمق' },
     desc: {
       en: 'Browse every grammar concept across all 42 lessons. Pick a level, lesson, and concept to get a guided explanation in your language plus worked examples in i\'rab style.',
       tr: '42 dersin tüm gramer konularını gez. Bir seviye, ders ve konu seç; seçtiğin dilde rehberli açıklama ve i\'rab tarzında çözümlü örnekler al.',
@@ -668,14 +669,29 @@ const REFERENCE_TOPICS = [
     id: 'irab',
     icon: '📖',
     irab: true,
+    group: 'power',
     title: { en: 'Verse Analysis (I\'rab)', tr: 'Ayet İ\'rabı', ar: 'إعراب الآية' },
     desc: { en: 'Paste any Quranic verse to get a word-by-word grammatical analysis. Each grammar phenomenon links back to the relevant lesson in the 42-lesson curriculum.', tr: 'Kelime kelime gramer analizi için herhangi bir Kur\'an ayetini yapıştırın. Her gramer olgusu, 42 derslik müfredattaki ilgili derse bağlanır.', ar: 'الصق أي آية لتحليلها نحوياً كلمة بكلمة. كل ظاهرة نحوية مرتبطة بالدرس المعني من بين الـ ٤٢ درساً.' },
     pdfs: []
   },
   {
+    id: 'self-check',
+    icon: '✍️',
+    selfCheck: true,
+    group: 'power',
+    title: { en: 'I\'rab Self Check', tr: 'İ\'rab Kendini Kontrol Et', ar: 'إعراب بالتدقيق الذاتي' },
+    desc: {
+      en: 'Practice mode: pick a verse, click Self Fill to get blank word boxes, write your own meaning / role / notes for each word, then click Analyze — the AI compares your answers to the correct analysis and tells you exactly what to fix and what you nailed.',
+      tr: 'Pratik modu: bir ayet seç, Kendi Doldur\'a tıklayarak boş kelime kutuları al, her kelime için anlam / rol / notu kendin yaz, sonra Analiz et — yapay zeka cevaplarını doğru analizle karşılaştırır ve neyi düzeltmen gerektiğini, neyi doğru yaptığını söyler.',
+      ar: 'وضع التدريب: اختر آية، اضغط "املأ بنفسك" للحصول على صناديق فارغة لكل كلمة، اكتب المعنى / الموقع الإعرابي / الملاحظات بنفسك، ثم اضغط حلّل — سيقارن الذكاء الاصطناعي إجاباتك بالتحليل الصحيح ويبيّن لك بالضبط ما يحتاج تعديلاً وما أصبتَ فيه.'
+    },
+    pdfs: []
+  },
+  {
     id: 'vocab-quiz',
-    icon: '?',
+    icon: '🧠',
     quiz: true,
+    group: 'power',
     title: { en: 'Vocabulary Quiz', tr: 'Kelime Sınavı', ar: 'اختبار المفردات' },
     desc: { en: 'Multiple-choice quiz drawn from the entire vocabulary pool extracted from all 98 vocabulary PDFs.', tr: '98 kelime PDF\'sinden çıkarılan tüm kelime havuzundan çoktan seçmeli sınav.', ar: 'اختبار اختيار من متعدد من مجمل المفردات المستخرجة من جميع ملفات الـ ٩٨ PDF.' },
     pdfs: []
