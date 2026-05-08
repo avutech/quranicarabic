@@ -70,6 +70,118 @@
     text-transform: uppercase;
   }
 
+  /* Master search */
+  .sidebar-search {
+    position: sticky;
+    top: 0;
+    background: var(--card);
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--border);
+    z-index: 5;
+  }
+  .sidebar-search-wrap { position: relative; }
+  .sidebar-search input {
+    width: 100%;
+    padding: 8px 28px 8px 30px;
+    border: 1.5px solid var(--border);
+    border-radius: 18px;
+    background: var(--bg);
+    font-size: 0.82rem;
+    font-family: inherit;
+    outline: none;
+    transition: all 0.15s;
+  }
+  .sidebar-search input:focus { border-color: var(--green); background: var(--card); }
+  .sidebar-search-icon {
+    position: absolute; left: 10px; top: 50%; transform: translateY(-50%);
+    font-size: 0.85rem; color: var(--muted); pointer-events: none;
+  }
+  .sidebar-search-clear {
+    position: absolute; right: 8px; top: 50%; transform: translateY(-50%);
+    border: none; background: transparent; color: var(--muted);
+    cursor: pointer; font-size: 1rem; line-height: 1; padding: 2px 6px;
+    border-radius: 50%;
+  }
+  .sidebar-search-clear:hover { background: var(--green-pale); color: var(--green); }
+
+  /* Search results in main area */
+  .search-results-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 12px;
+  }
+  .search-result-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 14px 16px;
+    cursor: pointer;
+    transition: all 0.15s;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .search-result-card:hover { border-color: var(--green); box-shadow: var(--shadow); transform: translateY(-1px); }
+  .search-result-card .search-result-title { font-size: 0.95rem; color: var(--dark); font-weight: 600; line-height: 1.4; margin-top: 4px; }
+  .search-result-card .search-result-snippet { font-size: 0.85rem; color: var(--mid); line-height: 1.5; margin-top: 4px; }
+
+  mark.search-hit {
+    background: var(--gold-light);
+    color: var(--dark);
+    padding: 0 2px;
+    border-radius: 2px;
+    box-shadow: 0 0 0 1px rgba(201,168,76,0.5);
+  }
+  mark.search-hit.first {
+    animation: searchPulse 1.6s ease-out;
+  }
+  @keyframes searchPulse {
+    0%   { box-shadow: 0 0 0 0 rgba(201,168,76,0.9); }
+    50%  { box-shadow: 0 0 0 8px rgba(201,168,76,0); }
+    100% { box-shadow: 0 0 0 1px rgba(201,168,76,0.5); }
+  }
+
+  .search-filter-bar {
+    display: flex; flex-wrap: wrap; gap: 8px;
+    padding: 16px 32px 0;
+  }
+  .search-filter-chip {
+    padding: 6px 14px;
+    border-radius: 16px;
+    border: 1.5px solid var(--border);
+    background: var(--card);
+    color: var(--mid);
+    cursor: pointer;
+    font-size: 0.82rem;
+    font-family: inherit;
+    transition: all 0.15s;
+    display: inline-flex; align-items: center; gap: 6px;
+  }
+  .search-filter-chip:hover { border-color: var(--green); color: var(--green); }
+  .search-filter-chip.active {
+    background: var(--green); color: white; border-color: var(--green);
+  }
+  .search-filter-chip .count {
+    font-size: 0.72rem; opacity: 0.75;
+    background: rgba(0,0,0,0.08); padding: 1px 7px; border-radius: 10px;
+  }
+  .search-filter-chip.active .count { background: rgba(255,255,255,0.25); }
+
+  .search-result-kind {
+    font-size: 0.62rem; font-weight: 700; color: var(--green);
+    text-transform: uppercase; letter-spacing: 0.06em;
+    background: var(--green-pale); border-radius: 4px;
+    padding: 1px 6px; display: inline-block;
+    border: 1px solid rgba(26,107,60,0.2);
+  }
+  .search-result-title { font-size: 0.82rem; color: var(--dark); margin-top: 4px; line-height: 1.35; font-weight: 500; }
+  .search-result-snippet { font-size: 0.72rem; color: var(--muted); margin-top: 3px; line-height: 1.4; }
+  .search-result-snippet mark { background: var(--gold-light); color: var(--dark); padding: 0 2px; border-radius: 2px; }
+  .search-empty {
+    padding: 24px 16px; text-align: center;
+    color: var(--muted); font-size: 0.82rem;
+  }
+
   /* Level header in sidebar */
   .level-header {
     display: flex;
@@ -375,6 +487,58 @@
   .ld-mistakes li { margin-bottom: 6px; line-height: 1.5; color: #7a3f0d; }
   .ld-empty { color: var(--muted); font-size: 0.92rem; padding: 30px 8px; text-align: center; }
 
+  /* Lesson lecture (multilingual teaching content) */
+  .lecture-card {
+    background: var(--card); border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 24px 28px; box-shadow: var(--shadow); margin-bottom: 18px;
+  }
+  .lecture-section { margin-bottom: 22px; }
+  .lecture-section:last-child { margin-bottom: 0; }
+  .lecture-section h3 {
+    font-size: 1.15rem; color: var(--green); margin-bottom: 10px;
+    padding-bottom: 6px; border-bottom: 2px solid var(--green-pale);
+    font-family: 'Amiri', 'Scheherazade New', system-ui, serif;
+  }
+  .lecture-body { font-size: 0.96rem; line-height: 1.75; color: var(--text); }
+  .lecture-body p { margin-bottom: 10px; }
+  .lecture-body strong { color: #0e4f29; font-weight: 700; }
+  .lecture-body ul, .lecture-body ol { padding-left: 24px; margin-bottom: 12px; }
+  body.rtl .lecture-body ul, body.rtl .lecture-body ol { padding-left: 0; padding-right: 24px; }
+  .lecture-body li { margin-bottom: 6px; }
+  .lecture-body em { font-style: italic; color: #1a3a25; }
+  .lecture-table-wrap { overflow-x: auto; margin: 12px 0; border: 1px solid var(--border); border-radius: 6px; }
+  .lecture-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+  .lecture-table th, .lecture-table td {
+    padding: 8px 10px; border-bottom: 1px solid var(--border);
+    text-align: left; vertical-align: top; line-height: 1.55;
+  }
+  body.rtl .lecture-table th, body.rtl .lecture-table td { text-align: right; }
+  .lecture-table th { background: var(--green-pale); color: #0e4f29; font-weight: 700; border-bottom: 2px solid var(--green); white-space: nowrap; }
+  .lecture-table tr:last-child td { border-bottom: none; }
+  .lecture-table tr:hover td { background: #fafaf7; }
+  .lecture-examples {
+    margin-top: 12px; display: flex; flex-wrap: wrap; gap: 8px;
+  }
+  .lecture-example {
+    background: var(--green-pale); border-left: 3px solid var(--green);
+    border-radius: 6px; padding: 10px 14px;
+    flex: 1 1 260px; min-width: 260px; max-width: 360px;
+    overflow-wrap: anywhere;
+  }
+  body.rtl .lecture-example { border-left: none; border-right: 3px solid var(--green); }
+  .lecture-example-ar {
+    font-size: 1.4rem; color: #0e4f29; font-family: 'Amiri', 'Scheherazade New', serif;
+    direction: rtl; text-align: right;
+    line-height: 2;            /* room for fathatayn / kasratayn / shadda stacks */
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+    border-bottom: 1px dashed rgba(14, 79, 41, 0.18);
+  }
+  .lecture-example-gloss {
+    font-size: 0.85rem; color: var(--muted);
+    line-height: 1.55;
+  }
+
   /* Complexity pill toggle */
   .complexity-toggle { display: inline-flex; gap: 0; border: 1.5px solid var(--border); border-radius: 20px; overflow: hidden; }
   .complexity-toggle button {
@@ -627,8 +791,8 @@
     <span id="nav-label">Quranic Arabic</span>
   </div>
   <div class="lang-switcher">
-    <button class="lang-btn active" onclick="setLang('en')">EN</button>
-    <button class="lang-btn" onclick="setLang('tr')">TR</button>
+    <button class="lang-btn active" onclick="setLang('tr')">TR</button>
+    <button class="lang-btn" onclick="setLang('en')">EN</button>
     <button class="lang-btn" onclick="setLang('ar')">AR</button>
   </div>
 </nav>
@@ -664,12 +828,20 @@ const I18N = {
     navLabel: 'Quranic Arabic',
     welcomeH1: 'Quranic Arabic Learning Portal',
     welcomeP: 'Select a level from the sidebar to explore its lessons, or choose a reference topic to browse vocabulary and grammar materials.',
+    searchPlaceholder: 'Search lessons, topics, questions…',
+    searchKindLevel: 'Level',
+    searchKindLesson: 'Lesson',
+    searchKindQuestion: 'Question',
+    searchKindReference: 'Topic',
+    searchKindPdf: 'PDF',
+    searchNoResults: 'No matches found.',
     groupLessons: 'Course Levels',
     groupPower: 'Power Learning',
     groupReference: 'Reference Materials',
     week: 'Week',
     lessons: 'Lessons',
     materials: 'Study Materials',
+    lecture: 'Lesson',
     practice: 'Practice Questions',
     practiceDesc: n => `Test your understanding with ${n} practice questions. Claude will review your answers and explain any grammatical points.`,
     startPractice: 'Start Practice',
@@ -780,12 +952,20 @@ const I18N = {
     navLabel: 'Kuran Arapçası',
     welcomeH1: 'Kuran Arapçası Öğrenme Portalı',
     welcomeP: 'Derslerini keşfetmek için kenar çubuğundan bir seviye seçin veya kelime ve dilbilgisi materyallerine göz atmak için referans konusu seçin.',
+    searchPlaceholder: 'Ders, konu, soru ara…',
+    searchKindLevel: 'Seviye',
+    searchKindLesson: 'Ders',
+    searchKindQuestion: 'Soru',
+    searchKindReference: 'Konu',
+    searchKindPdf: 'PDF',
+    searchNoResults: 'Eşleşme bulunamadı.',
     groupLessons: 'Kurs Seviyeleri',
     groupPower: 'Güçlü Öğrenme',
     groupReference: 'Referans Materyalleri',
     week: 'Hafta',
     lessons: 'Dersler',
     materials: 'Çalışma Materyalleri',
+    lecture: 'Ders Anlatımı',
     practice: 'Alıştırma Soruları',
     practiceDesc: n => `${n} alıştırma sorusuyla anlayışınızı test edin. Claude cevaplarınızı değerlendirecek ve gramer noktalarını açıklayacak.`,
     startPractice: 'Alıştırmayı Başlat',
@@ -896,12 +1076,20 @@ const I18N = {
     navLabel: 'العربية القرآنية',
     welcomeH1: 'بوابة تعلم العربية القرآنية',
     welcomeP: 'اختر مستوى من القائمة الجانبية لاستكشاف دروسه، أو اختر موضوعاً مرجعياً لتصفح مواد المفردات والنحو.',
+    searchPlaceholder: 'ابحث في الدروس والمواضيع والأسئلة…',
+    searchKindLevel: 'مستوى',
+    searchKindLesson: 'درس',
+    searchKindQuestion: 'سؤال',
+    searchKindReference: 'موضوع',
+    searchKindPdf: 'PDF',
+    searchNoResults: 'لا توجد نتائج.',
     groupLessons: 'مستويات الدورة',
     groupPower: 'تعلّم متقدّم',
     groupReference: 'المواد المرجعية',
     week: 'الأسبوع',
     lessons: 'الدروس',
     materials: 'المواد الدراسية',
+    lecture: 'الشرح',
     practice: 'أسئلة التدريب',
     practiceDesc: n => `اختبر فهمك بـ ${n} أسئلة تدريبية. سيراجع كلود إجاباتك ويشرح النقاط النحوية.`,
     startPractice: 'ابدأ التدريب',
@@ -1014,11 +1202,14 @@ const t = key => I18N[lang][key];
 
 // ─── State ────────────────────────────────────────────────────────────────────
 
-let lang = 'en';
+let lang = 'tr';
 let expandedLevel = null;
 let currentView = null; // { type: 'level'|'lesson'|'reference', level, lesson, ref }
 let practiceMode = false;
 let questionIndex = 0;
+let searchQuery = '';
+let searchFilter = 'all';
+let pendingHighlight = '';
 
 // ─── Language ─────────────────────────────────────────────────────────────────
 
@@ -1052,7 +1243,24 @@ function setLang(l) {
 
 function renderSidebar() {
   const levelIcons = { level1: '١', level2: '٢', level3: '٣' };
-  let html = '';
+  const escAttr = s => String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
+  const q = escAttr(searchQuery);
+  const searchHtml = `
+    <div class="sidebar-search">
+      <div class="sidebar-search-wrap">
+        <span class="sidebar-search-icon">🔍</span>
+        <input type="text" id="sidebar-search-input"
+               placeholder="${escAttr(t('searchPlaceholder'))}"
+               value="${q}"
+               oninput="onSearchInput(this.value)" />
+        <button class="sidebar-search-clear" id="sidebar-search-clear" onclick="onSearchClear()" title="Clear" style="display:${searchQuery ? '' : 'none'}">✕</button>
+      </div>
+    </div>`;
+
+  let html = searchHtml;
+  if (searchQuery.trim()) {
+    renderSearchResultsMain(searchQuery.trim());
+  }
 
   const renderRefItem = ref => {
     const isActive = currentView && currentView.type === 'reference' && currentView.ref && currentView.ref.id === ref.id;
@@ -1105,6 +1313,307 @@ function renderSidebar() {
   }
 
   document.getElementById('sidebar').innerHTML = html;
+}
+
+// ─── Master Search ────────────────────────────────────────────────────────────
+
+function onSearchInput(val) {
+  searchQuery = val;
+  const clearBtn = document.getElementById('sidebar-search-clear');
+  if (clearBtn) clearBtn.style.display = val ? '' : 'none';
+  if (val.trim()) {
+    renderSearchResultsMain(val.trim());
+  } else {
+    // Restore previous view
+    if (!currentView) showWelcome();
+    else if (currentView.type === 'level') renderLevelOverview(currentView.level);
+    else if (currentView.type === 'lesson') {
+      if (practiceMode) renderPractice();
+      else renderLesson(currentView.level, currentView.lesson);
+    } else if (currentView.type === 'reference') {
+      const ref = currentView.ref;
+      if (ref.quiz) renderQuizSetup(ref);
+      else if (ref.irab) renderIrab(ref);
+      else if (ref.selfCheck) renderSelfCheck(ref);
+      else if (ref.learnDeep) renderLearnDeep(ref);
+      else renderReference(ref);
+    }
+  }
+}
+
+function onSearchClear() {
+  searchQuery = '';
+  searchFilter = 'all';
+  const input = document.getElementById('sidebar-search-input');
+  if (input) input.value = '';
+  onSearchInput('');
+  if (input) input.focus();
+}
+
+function gotoSearchResult(kind, a, b) {
+  pendingHighlight = searchQuery.trim();
+  if (kind === 'level') clickLevel(a);
+  else if (kind === 'lesson') clickLesson(a, b);
+  else if (kind === 'reference') clickReference(a);
+  onSearchClear();
+  // Defer until DOM is laid out
+  setTimeout(() => applyHighlight(pendingHighlight), 80);
+}
+
+function applyHighlight(query) {
+  if (!query) return;
+  const main = document.getElementById('main');
+  if (!main) return;
+  const q = query.trim();
+  if (!q) return;
+  // Walk text nodes and wrap matches
+  const walker = document.createTreeWalker(main, NodeFilter.SHOW_TEXT, {
+    acceptNode(node) {
+      if (!node.nodeValue || !node.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
+      const p = node.parentNode;
+      if (!p) return NodeFilter.FILTER_REJECT;
+      const tag = p.nodeName;
+      if (tag === 'SCRIPT' || tag === 'STYLE' || tag === 'MARK') return NodeFilter.FILTER_REJECT;
+      return node.nodeValue.toLowerCase().includes(q.toLowerCase())
+        ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
+    }
+  });
+  const targets = [];
+  let n; while ((n = walker.nextNode())) targets.push(n);
+  let firstMark = null;
+  const lower = q.toLowerCase();
+  for (const node of targets) {
+    const text = node.nodeValue;
+    const frag = document.createDocumentFragment();
+    let i = 0;
+    const lowerText = text.toLowerCase();
+    while (i < text.length) {
+      const idx = lowerText.indexOf(lower, i);
+      if (idx < 0) {
+        frag.appendChild(document.createTextNode(text.slice(i)));
+        break;
+      }
+      if (idx > i) frag.appendChild(document.createTextNode(text.slice(i, idx)));
+      const mark = document.createElement('mark');
+      mark.className = 'search-hit';
+      mark.textContent = text.slice(idx, idx + q.length);
+      frag.appendChild(mark);
+      if (!firstMark) firstMark = mark;
+      i = idx + q.length;
+    }
+    node.parentNode.replaceChild(frag, node);
+  }
+  if (firstMark) {
+    firstMark.classList.add('first');
+    firstMark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
+}
+
+function setSearchFilter(key) {
+  searchFilter = key;
+  if (searchQuery.trim()) renderSearchResultsMain(searchQuery.trim());
+}
+
+function renderSearchResultsMain(rawQuery) {
+  const results = runSearch(rawQuery);
+  const main = document.getElementById('main');
+  const groupOrder = ['searchKindLevel', 'searchKindLesson', 'searchKindQuestion', 'searchKindReference', 'searchKindPdf'];
+  const groupLabels = {
+    searchKindLevel: t('groupLessons'),
+    searchKindLesson: t('searchKindLesson') + 's',
+    searchKindQuestion: t('searchKindQuestion') + 's',
+    searchKindReference: t('groupReference'),
+    searchKindPdf: 'PDFs',
+  };
+  const groups = {};
+  for (const r of results) {
+    (groups[r.kindKey] = groups[r.kindKey] || []).push(r);
+  }
+  // Reset filter if its bucket has no hits
+  if (searchFilter !== 'all' && !(groups[searchFilter] && groups[searchFilter].length)) {
+    searchFilter = 'all';
+  }
+  let chips = `<button class="search-filter-chip ${searchFilter === 'all' ? 'active' : ''}" onclick="setSearchFilter('all')">All <span class="count">${results.length}</span></button>`;
+  for (const key of groupOrder) {
+    const group = groups[key];
+    if (!group || !group.length) continue;
+    chips += `<button class="search-filter-chip ${searchFilter === key ? 'active' : ''}" onclick="setSearchFilter('${key}')">${escapeHtml(groupLabels[key])} <span class="count">${group.length}</span></button>`;
+  }
+  const header = `
+    <div class="topic-header">
+      <div class="week-num">🔍 ${escapeHtml(rawQuery)}</div>
+      <h2>${results.length} ${results.length === 1 ? 'result' : 'results'}</h2>
+    </div>
+    <div class="search-filter-bar">${chips}</div>`;
+  if (!results.length) {
+    main.innerHTML = header + `<div class="section"><div class="search-empty">${t('searchNoResults')}</div></div>`;
+    return;
+  }
+  let body = '';
+  for (const key of groupOrder) {
+    const group = groups[key];
+    if (!group || !group.length) continue;
+    if (searchFilter !== 'all' && searchFilter !== key) continue;
+    let cards = '';
+    for (const r of group) {
+      cards += `
+        <div class="search-result-card" onclick="${r.action}">
+          <span class="search-result-kind">${t(r.kindKey)}</span>
+          <div class="search-result-title">${r.title}</div>
+          ${r.snippet ? `<div class="search-result-snippet">${r.snippet}</div>` : ''}
+        </div>`;
+    }
+    body += `
+      <div class="section">
+        <div class="section-title">${escapeHtml(groupLabels[key])} <span style="color:var(--muted);font-weight:500;margin-left:6px">${group.length}</span></div>
+        <div class="search-results-grid">${cards}</div>
+      </div>`;
+  }
+  main.innerHTML = header + body;
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+function highlightSnippet(text, query) {
+  if (!text) return '';
+  const t = String(text);
+  const idx = t.toLowerCase().indexOf(query.toLowerCase());
+  if (idx < 0) return escapeHtml(t.slice(0, 110)) + (t.length > 110 ? '…' : '');
+  const start = Math.max(0, idx - 30);
+  const end = Math.min(t.length, idx + query.length + 70);
+  const before = (start > 0 ? '…' : '') + escapeHtml(t.slice(start, idx));
+  const match = '<mark>' + escapeHtml(t.slice(idx, idx + query.length)) + '</mark>';
+  const after = escapeHtml(t.slice(idx + query.length, end)) + (end < t.length ? '…' : '');
+  return before + match + after;
+}
+
+function _hit(text, q) {
+  return text && String(text).toLowerCase().includes(q);
+}
+
+function runSearch(rawQuery) {
+  const q = rawQuery.toLowerCase();
+  const results = [];
+  const langs = ['en', 'tr', 'ar'];
+
+  // Levels
+  for (const level of LEVELS) {
+    const titleStr = level.title[lang] || level.title.en;
+    if (langs.some(l => _hit(level.title[l], q)) || _hit(level.desc && level.desc[lang], q)) {
+      results.push({
+        kindKey: 'searchKindLevel',
+        title: escapeHtml(titleStr),
+        snippet: level.desc ? highlightSnippet(level.desc[lang] || '', rawQuery) : '',
+        action: `gotoSearchResult('level', '${level.id}')`,
+      });
+    }
+    // Lessons
+    for (let i = 0; i < level.lessons.length; i++) {
+      const lesson = level.lessons[i];
+      const lessonTitle = lesson.title[lang] || lesson.title.en;
+      const titleHit = langs.some(l => _hit(lesson.title[l], q));
+      if (titleHit) {
+        results.push({
+          kindKey: 'searchKindLesson',
+          title: `${t('week')} ${lesson.week} — ${highlightSnippet(lessonTitle, rawQuery)}`,
+          snippet: escapeHtml(level.title[lang] || ''),
+          action: `gotoSearchResult('lesson', '${level.id}', ${i})`,
+        });
+      }
+      // Lecture sections — both hand-authored and auto-generated bundle
+      const levelNum = LEVELS.indexOf(level) + 1;
+      const lectureKey = `L${levelNum}W${lesson.week}`;
+      const lectureSources = [];
+      if (lesson.lecture && Array.isArray(lesson.lecture.sections)) lectureSources.push(lesson.lecture);
+      if (LECTURES_BUNDLE && LECTURES_BUNDLE[lectureKey]) lectureSources.push(LECTURES_BUNDLE[lectureKey]);
+      let lectureHit = false;
+      for (const lec of lectureSources) {
+        for (const sec of (lec.sections || [])) {
+          let matched = null;
+          for (const l of langs) {
+            if (_hit(sec.title && sec.title[l], q)) { matched = sec.title[l]; break; }
+            if (_hit(sec.body && sec.body[l], q)) { matched = sec.body[l]; break; }
+          }
+          if (!matched && Array.isArray(sec.examples)) {
+            for (const ex of sec.examples) {
+              if (_hit(ex.ar, q)) { matched = ex.ar + (ex.gloss ? ' — ' + (ex.gloss[lang] || ex.gloss.en || '') : ''); break; }
+              if (ex.gloss) {
+                for (const l of langs) {
+                  if (_hit(ex.gloss[l], q)) { matched = (ex.ar ? ex.ar + ' — ' : '') + ex.gloss[l]; break; }
+                }
+                if (matched) break;
+              }
+            }
+          }
+          if (matched) {
+            results.push({
+              kindKey: 'searchKindLesson',
+              title: escapeHtml(lessonTitle),
+              snippet: highlightSnippet(matched, rawQuery),
+              action: `gotoSearchResult('lesson', '${level.id}', ${i})`,
+            });
+            lectureHit = true;
+            break;
+          }
+        }
+        if (lectureHit) break;
+      }
+      // PDF concept index (summary + concept names/keywords/examples extracted from lesson PDFs)
+      if (!lectureHit && window.LESSON_INDEX && LESSON_INDEX[lectureKey]) {
+        const idx = LESSON_INDEX[lectureKey];
+        let matched = null;
+        if (idx.summary && _hit(idx.summary, q)) matched = idx.summary;
+        if (!matched && Array.isArray(idx.concepts)) {
+          for (const c of idx.concepts) {
+            if (langs.some(l => _hit(c.name && c.name[l], q))) { matched = (c.name[lang] || c.name.en); break; }
+            if (Array.isArray(c.keywords) && c.keywords.some(k => _hit(k, q))) { matched = c.keywords.join(', '); break; }
+            if (Array.isArray(c.examples) && c.examples.some(e => _hit(e, q))) { matched = c.examples.join(' · '); break; }
+          }
+        }
+        if (matched) {
+          results.push({
+            kindKey: 'searchKindLesson',
+            title: escapeHtml(lessonTitle),
+            snippet: highlightSnippet(matched, rawQuery),
+            action: `gotoSearchResult('lesson', '${level.id}', ${i})`,
+          });
+        }
+      }
+    }
+  }
+
+  // Reference topics
+  for (const ref of REFERENCE_TOPICS) {
+    const refTitle = ref.title[lang] || ref.title.en;
+    const titleHit = langs.some(l => _hit(ref.title[l], q));
+    const descHit = langs.some(l => _hit(ref.desc && ref.desc[l], q));
+    if (titleHit || descHit) {
+      results.push({
+        kindKey: 'searchKindReference',
+        title: highlightSnippet(refTitle, rawQuery),
+        snippet: ref.desc ? highlightSnippet(ref.desc[lang] || '', rawQuery) : '',
+        action: `gotoSearchResult('reference', '${ref.id}')`,
+      });
+    }
+    // PDFs inside reference
+    if (ref.pdfs) {
+      for (const pdf of ref.pdfs) {
+        if (langs.some(l => _hit(pdf.name && pdf.name[l], q)) || _hit(pdf.path, q)) {
+          const pdfName = (pdf.name && (pdf.name[lang] || pdf.name.en)) || pdf.path;
+          results.push({
+            kindKey: 'searchKindPdf',
+            title: highlightSnippet(pdfName, rawQuery),
+            snippet: escapeHtml(refTitle),
+            action: `gotoSearchResult('reference', '${ref.id}')`,
+          });
+        }
+      }
+    }
+  }
+
+  return results.slice(0, 60);
 }
 
 // ─── Navigation ───────────────────────────────────────────────────────────────
@@ -1184,6 +1693,28 @@ function renderLevelOverview(level) {
     </div>`;
 }
 
+// Lazy-load the auto-generated lecture bundle on first lesson render.
+let LECTURES_BUNDLE = null;
+async function ensureLecturesLoaded() {
+  if (LECTURES_BUNDLE !== null) return LECTURES_BUNDLE;
+  try {
+    const res = await fetch('/lectures.json');
+    LECTURES_BUNDLE = res.ok ? await res.json() : {};
+  } catch {
+    LECTURES_BUNDLE = {};
+  }
+  return LECTURES_BUNDLE;
+}
+
+function lookupLecture(level, lesson) {
+  // 1. Hand-authored on the lesson object wins
+  if (lesson.lecture) return lesson.lecture;
+  // 2. Otherwise look up in the auto-generated bundle by L<level>W<week>
+  if (!LECTURES_BUNDLE) return null;
+  const levelNum = LEVELS.indexOf(level) + 1;
+  return LECTURES_BUNDLE[`L${levelNum}W${lesson.week}`] || null;
+}
+
 function renderLesson(level, lesson) {
   const main = document.getElementById('main');
   const levelIndex = LEVELS.indexOf(level);
@@ -1203,11 +1734,18 @@ function renderLesson(level, lesson) {
       </div>`
     : `<p style="color:var(--muted);font-size:0.9rem">${t('noPractice')}</p>`;
 
+  const lecture = lookupLecture(level, lesson);
+  const lectureHtml = lecture ? renderLecture(lecture) : '';
+  const lecturePlaceholder = lecture
+    ? ''
+    : `<div class="section"><div class="section-title">${t('lecture')}</div><div class="lecture-card" id="lecture-placeholder"><em style="color:var(--muted)">…</em></div></div>`;
+
   main.innerHTML = `
     <div class="topic-header">
       <div class="week-num">${level.title[lang]} · ${t('week')} ${lesson.week}</div>
       <h2>${lesson.title[lang]}</h2>
     </div>
+    ${lectureHtml ? `<div class="section"><div class="section-title">${t('lecture')}</div>${lectureHtml}</div>` : lecturePlaceholder}
     <div class="section">
       <div class="section-title">${t('materials')}</div>
       <div class="pdf-grid">${pdfHtml}</div>
@@ -1216,6 +1754,119 @@ function renderLesson(level, lesson) {
       <div class="section-title">${t('practice')}</div>
       ${practiceHtml}
     </div>`;
+
+  // If the lecture wasn't ready synchronously, fetch the bundle and rehydrate
+  // the placeholder once it arrives.
+  if (!lecture) {
+    ensureLecturesLoaded().then(() => {
+      // Bail if the user has navigated away
+      if (!currentView || currentView.type !== 'lesson' || currentView.lesson !== lesson) return;
+      const fetched = lookupLecture(level, lesson);
+      const placeholder = document.getElementById('lecture-placeholder');
+      if (fetched && placeholder) {
+        placeholder.outerHTML = renderLecture(fetched);
+      } else if (!fetched && placeholder) {
+        // No lecture available — drop the empty placeholder section
+        placeholder.closest('.section')?.remove();
+      }
+    });
+  }
+}
+
+// Insert whitespace between any Arabic↔Latin/digit boundary so the two scripts
+// don't visually collide when the source string lacks separation.
+const ARABIC_BIDI_RE = /[؀-ۿݐ-ݿﭐ-﷿ﹰ-﻿]/;
+function spaceBidi(s) {
+  if (!s) return s;
+  return s
+    .replace(/([؀-ۿݐ-ݿﭐ-﷿ﹰ-﻿])([A-Za-z0-9])/g, '$1 $2')
+    .replace(/([A-Za-z0-9])([؀-ۿݐ-ݿﭐ-﷿ﹰ-﻿])/g, '$1 $2');
+}
+
+// Lightweight markdown renderer: handles **bold**, *italic*, bullet lists,
+// numbered lists, GFM tables, and paragraphs split on blank lines.
+function renderLectureMarkdown(text) {
+  if (!text) return '';
+  text = spaceBidi(text);
+  const escape = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+  function formatInline(s) {
+    return s
+      .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+      .replace(/(^|[^*])\*([^*\n]+)\*/g, '$1<em>$2</em>');
+  }
+
+  function renderTable(lines) {
+    const split = row => row.replace(/^\s*\|?|\|?\s*$/g, '').split('|').map(c => c.trim());
+    const header = split(lines[0]);
+    const body = lines.slice(2).map(split);
+    const th = header.map(c => `<th>${formatInline(escape(c))}</th>`).join('');
+    const trs = body.map(r => `<tr>${r.map(c => `<td>${formatInline(escape(c))}</td>`).join('')}</tr>`).join('');
+    return `<div class="lecture-table-wrap"><table class="lecture-table"><thead><tr>${th}</tr></thead><tbody>${trs}</tbody></table></div>`;
+  }
+
+  // Walk lines within a block, flushing runs when the line type changes.
+  function renderBlock(lines) {
+    if (!lines.length) return '';
+    // Whole-block table (header + --- + body rows)
+    if (lines.length >= 2 && lines[0].includes('|') && /^\s*\|?\s*:?-{2,}/.test(lines[1])) {
+      return renderTable(lines);
+    }
+
+    const out = [];
+    let mode = null;       // 'p' | 'ul' | 'ol'
+    let buf = [];
+
+    const flush = () => {
+      if (!buf.length) return;
+      if (mode === 'ul') out.push(`<ul>${buf.map(l => `<li>${formatInline(escape(l.slice(2)))}</li>`).join('')}</ul>`);
+      else if (mode === 'ol') out.push(`<ol>${buf.map(l => `<li>${formatInline(escape(l.replace(/^\d+\.\s+/, '')))}</li>`).join('')}</ol>`);
+      else out.push(`<p>${formatInline(escape(buf.join(' ')))}</p>`);
+      buf = [];
+    };
+
+    for (const line of lines) {
+      let kind;
+      if (/^- /.test(line)) kind = 'ul';
+      else if (/^\d+\.\s/.test(line)) kind = 'ol';
+      else kind = 'p';
+
+      if (kind !== mode) { flush(); mode = kind; }
+      buf.push(line);
+    }
+    flush();
+    return out.join('');
+  }
+
+  return text.split(/\n\s*\n/).map(block => {
+    const lines = block.split('\n').map(l => l.trimEnd()).filter(l => l.length > 0);
+    return renderBlock(lines);
+  }).join('');
+}
+
+function renderLecture(lecture) {
+  if (!lecture || !lecture.sections) return '';
+  return `<div class="lecture-card">${
+    lecture.sections.map(sec => {
+      const title = sec.title?.[lang] || sec.title?.en || '';
+      const body = sec.body?.[lang] || sec.body?.en || '';
+      const examplesHtml = sec.examples?.length
+        ? `<div class="lecture-examples">${
+            sec.examples.map(ex => `
+              <div class="lecture-example">
+                <div class="lecture-example-ar">${escapeHtml(ex.ar || '')}</div>
+                <div class="lecture-example-gloss">${escapeHtml(spaceBidi(ex.gloss?.[lang] || ex.gloss?.en || ''))}</div>
+              </div>`).join('')
+          }</div>`
+        : '';
+      return `
+        <div class="lecture-section">
+          <h3>${escapeHtml(title)}</h3>
+          <div class="lecture-body">${renderLectureMarkdown(body)}</div>
+          ${examplesHtml}
+        </div>`;
+    }).join('')
+  }</div>`;
 }
 
 function renderReference(ref) {
@@ -2657,7 +3308,10 @@ function escapeHtml(str) {
 
 // ─── Init ─────────────────────────────────────────────────────────────────────
 
-renderSidebar();
+setLang(lang);   // applies the default language (TR) to body class, sidebar, welcome text, etc.
+ensureLecturesLoaded().then(() => {
+  if (searchQuery.trim()) renderSearchResultsMain(searchQuery.trim());
+});
 </script>
 </body>
 </html>

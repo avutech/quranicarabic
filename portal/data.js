@@ -7,6 +7,200 @@ const LEVELS = [
       {
         week: 1, pdf: 'Level-1/1st Lesson Line Spacing 2.0.pdf',
         title: { en: 'Arabic Word Types: Noun (Ism), Verb (Fiʿl), and Particle (Ḥarf)', tr: 'Arapçada Kelime Çeşitleri: İsim, Fiil ve Harf', ar: 'أقسام الكلمة: الاسم والفعل والحرف' },
+        lecture: {
+          sections: [
+            {
+              title: {
+                en: 'Why classify words?',
+                tr: 'Kelimeleri neden sınıflandırırız?',
+                ar: 'لماذا نصنّف الكلمات؟'
+              },
+              body: {
+                en: `Classical Arabic grammar — and therefore the language of the Qurʾān — divides every word into exactly **three categories** (أقسام الكلمة). Identifying which category a word belongs to is the very first step of i'rab (إعراب), because each category behaves by different grammatical rules. The three categories are:
+
+- **اسم (ism)** — the noun
+- **فعل (fiʿl)** — the verb
+- **حرف (ḥarf)** — the particle
+
+Once you can spot these at a glance, every other rule in the curriculum becomes much easier.`,
+                tr: `Klasik Arapça gramer — ve dolayısıyla Kur'an'ın dili — her kelimeyi tam olarak **üç kategoriye** (أقسام الكلمة) ayırır. Bir kelimenin hangi kategoriye ait olduğunu belirlemek, i'rabın (إعراب) ilk adımıdır; çünkü her kategori farklı gramer kurallarıyla davranır. Üç kategori şunlardır:
+
+- **اسم (ism)** — isim
+- **فعل (fiil)** — fiil
+- **حرف (harf)** — edat/harf
+
+Bunları bir bakışta tanıyabildiğinde, müfredattaki diğer tüm kurallar çok daha kolay hale gelir.`,
+                ar: `يقسّم النحو الكلاسيكي — وبذلك لغة القرآن الكريم — كل كلمة إلى **ثلاث فئات** (أقسام الكلمة). تحديد فئة الكلمة هو أول خطوات الإعراب، لأن كل فئة تتبع قواعد مختلفة. الفئات الثلاث هي:
+
+- **الاسم** — ما يدلّ على معنى مستقلّ بالذات
+- **الفعل** — ما يدلّ على معنى مرتبط بالزمن
+- **الحرف** — ما لا يظهر معناه إلا مع غيره
+
+عندما تستطيع تمييزها بسرعة، تصبح كل القواعد الأخرى في المنهج أسهل بكثير.`
+              }
+            },
+            {
+              title: {
+                en: 'الاسم — The Noun (Ism)',
+                tr: 'الاسم — İsim',
+                ar: 'الاسم'
+              },
+              body: {
+                en: `An **ism** names a person, place, thing, idea, or quality. Its key feature: it carries meaning **independently of time** — the word itself doesn't tell you when something happened.
+
+**How to recognize an ism:**
+- It can carry tanwīn (ـٌ ـٍ ـً) — the double-vowel ending
+- It can carry the definite article **ال** (al-)
+- It can come after a preposition (مِنْ, إِلَى, فِي…)
+- It can be the first or second term of an idafa (إضافة, possession chain)
+- It can take a feminine ending **ة** (ta marbūṭa) like in مَدْرَسَةٌ`,
+                tr: `**İsim**, bir kişiyi, yeri, şeyi, kavramı veya niteliği adlandırır. Temel özelliği: anlamı **zamandan bağımsızdır** — kelimenin kendisi ne zaman olduğunu söylemez.
+
+**İsmi tanıma yolları:**
+- Tenvin alabilir (ـٌ ـٍ ـً) — sondaki çift ünlü işareti
+- Belirlilik takısı **ال** (al-) alabilir
+- Bir harf-i cerden sonra gelebilir (مِنْ, إِلَى, فِي…)
+- Bir izafetin (إضافة) birinci veya ikinci terimi olabilir
+- مَدْرَسَةٌ'deki gibi dişil **ة** (ta marbuta) alabilir`,
+                ar: `**الاسم** يدلّ على شخص أو مكان أو شيء أو مفهوم أو صفة. خاصيته الأساسية: يحمل معنىً **مستقلاً عن الزمن** — أي أن الكلمة بحدّ ذاتها لا تخبرك متى وقع الحدث.
+
+**علامات الاسم:**
+- يقبل التنوين (ـٌ ـٍ ـً)
+- يقبل **ال** التعريف
+- يأتي بعد حرف الجر (مِنْ، إِلَى، فِي…)
+- يكون مضافاً أو مضافاً إليه في الإضافة
+- يمكن أن ينتهي بـ **ة** (تاء مربوطة) كما في مَدْرَسَةٌ`
+              },
+              examples: [
+                { ar: 'مُحَمَّدٌ', gloss: { en: 'Muhammad (a name)', tr: 'Muhammed (özel ad)', ar: 'اسم علم' } },
+                { ar: 'كِتَابٌ',  gloss: { en: 'a book',           tr: 'bir kitap',         ar: 'كتاب' } },
+                { ar: 'الْكِتَابُ', gloss: { en: 'the book',         tr: 'kitap (belirli)',   ar: 'الكتاب' } },
+                { ar: 'مَدْرَسَةٌ', gloss: { en: 'a school (feminine, with ة)', tr: 'bir okul (dişil, ة ile)', ar: 'مَدْرَسة (مؤنث)' } },
+                { ar: 'رَبٌّ',     gloss: { en: 'a Lord',           tr: 'bir Rab',           ar: 'ربّ' } },
+              ]
+            },
+            {
+              title: {
+                en: 'الفعل — The Verb (Fiʿl)',
+                tr: 'الفعل — Fiil',
+                ar: 'الفعل'
+              },
+              body: {
+                en: `A **fiʿl** names an action or a state, and is always **tied to time** — past, present, or imperative. Its shape changes based on tense, person, and number.
+
+**How to recognize a fiʿl:**
+- It conjugates with subject endings (ـتَ, ـتُ, ـتُمْ, ـُوا…)
+- It does NOT take tanwīn, does NOT take **ال**
+- It accepts particles like **قَدْ** (indeed/already) and **سَ / سَوْفَ** (will, in future)
+- The three tenses are **māḍī** (past), **muḍāriʿ** (present/future), and **amr** (command)`,
+                tr: `**Fiil**, bir eylemi veya durumu adlandırır ve daima **zamanla bağlantılıdır** — geçmiş, şimdi veya emir. Şekli; zamana, şahsa ve sayıya göre değişir.
+
+**Fiili tanıma yolları:**
+- Şahıs ekleri ile çekilir (ـتَ, ـتُ, ـتُمْ, ـُوا…)
+- Tenvin almaz, **ال** almaz
+- **قَدْ** (gerçekten/zaten) ve **سَ / سَوْفَ** (gelecek) gibi edatları kabul eder
+- Üç zaman vardır: **mâzî** (geçmiş), **muzâri** (şimdiki/geniş), **emir**`,
+                ar: `**الفعل** يدلّ على حدث أو حالة، وهو **مرتبط بالزمن** دائماً — ماضٍ أو حاضر أو أمر. تتغيّر صيغته بحسب الزمن والضمير والعدد.
+
+**علامات الفعل:**
+- يتصرّف مع ضمائر الفاعل (ـتَ، ـتُ، ـتُمْ، ـُوا…)
+- لا يقبل التنوين، ولا **ال**
+- يقبل أحرفاً مثل **قَدْ** و**سَ / سَوْفَ**
+- له ثلاثة أزمنة: **الماضي** و**المضارع** و**الأمر**`
+              },
+              examples: [
+                { ar: 'كَتَبَ',  gloss: { en: 'he wrote (māḍī)',    tr: 'yazdı (mâzî)',    ar: 'فعل ماضٍ' } },
+                { ar: 'يَكْتُبُ', gloss: { en: 'he writes (muḍāriʿ)', tr: 'yazıyor (muzâri)', ar: 'فعل مضارع' } },
+                { ar: 'اكْتُبْ', gloss: { en: 'write! (amr)',       tr: 'yaz! (emir)',     ar: 'فعل أمر' } },
+                { ar: 'خَلَقَ',  gloss: { en: 'He created',         tr: 'yarattı',         ar: 'خلق' } },
+                { ar: 'قَالَ',   gloss: { en: 'He said',            tr: 'dedi',            ar: 'قال' } },
+              ]
+            },
+            {
+              title: {
+                en: 'الحرف — The Particle (Ḥarf)',
+                tr: 'الحرف — Edat (Harf)',
+                ar: 'الحرف'
+              },
+              body: {
+                en: `A **ḥarf** is a small connecting word that has **no independent meaning on its own** — it only yields meaning when paired with other words. Particles connect, negate, ask questions, mark cases, or qualify other words.
+
+**How to recognize a ḥarf:**
+- It does NOT take tanwīn, does NOT take **ال**, does NOT conjugate
+- It is **mabnī** (fixed) — its ending never changes for grammatical reasons
+- Common categories: prepositions (حرف جرّ), conjunctions (حرف عطف), negation, question particles, emphasis particles`,
+                tr: `**Harf**, **kendi başına anlamı olmayan** küçük bir bağlayıcı kelimedir — yalnızca başka kelimelerle birleştiğinde anlam kazanır. Harfler bağlar, olumsuzlar, soru sorar, durum belirtir veya başka kelimeleri niteler.
+
+**Harfi tanıma yolları:**
+- Tenvin almaz, **ال** almaz, çekimlenmez
+- **Mebnî**'dir (sabit) — sonu gramer sebebiyle hiç değişmez
+- Yaygın türler: harf-i cerler (حرف جرّ), atıf harfleri (حرف عطف), olumsuzluk, soru, tekit harfleri`,
+                ar: `**الحرف** كلمة صغيرة رابطة، **لا معنى لها بمفردها** — إنما يظهر معناها عند اقترانها بكلمات أخرى. تستخدم الحروف للربط أو النفي أو الاستفهام أو لتحديد الحالة الإعرابية.
+
+**علامات الحرف:**
+- لا يقبل التنوين، ولا **ال**، ولا يتصرّف
+- هو **مبنيّ** — لا يتغيّر آخره لأسباب نحوية
+- أنواعه الشائعة: حرف جرّ، حرف عطف، حرف نفي، حرف استفهام، حرف توكيد`
+              },
+              examples: [
+                { ar: 'فِي',  gloss: { en: 'in (preposition)',         tr: 'içinde (harf-i cer)',     ar: 'حرف جر' } },
+                { ar: 'مِنْ', gloss: { en: 'from (preposition)',       tr: '...den/...dan',           ar: 'حرف جر' } },
+                { ar: 'إِلَى', gloss: { en: 'to (preposition)',         tr: '...e doğru',              ar: 'حرف جر' } },
+                { ar: 'وَ',   gloss: { en: 'and (conjunction)',        tr: 've (atıf)',               ar: 'حرف عطف' } },
+                { ar: 'لَا',  gloss: { en: 'no, not (negation)',       tr: 'değil, hayır (nefy)',     ar: 'حرف نفي' } },
+                { ar: 'هَلْ', gloss: { en: 'question particle',        tr: 'soru harfi',              ar: 'حرف استفهام' } },
+              ]
+            },
+            {
+              title: {
+                en: 'Quick recognition exercise',
+                tr: 'Hızlı tanıma alıştırması',
+                ar: 'تدريب سريع على التمييز'
+              },
+              body: {
+                en: `Take the opening of every Surah:
+
+**بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ**
+
+Apply your test to each token:
+
+- **بِ** → ḥarf (preposition: "with / in / by")
+- **اسْمِ** → ism (noun: "name")
+- **ٱللَّهِ** → ism (proper noun: "Allah")
+- **ٱلرَّحْمَـٰنِ** → ism (adjective: "the Most Merciful")
+- **ٱلرَّحِيمِ** → ism (adjective: "the Especially Merciful")
+
+Notice the pattern: one ḥarf binds the rest into a single phrase. None of the words here are verbs — that's why this opening describes Allah without "doing" anything yet.`,
+                tr: `Her sure başında geçen şu cümleyi al:
+
+**بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ**
+
+Her kelimeye testini uygula:
+
+- **بِ** → harf (harf-i cer: "ile / adına")
+- **اسْمِ** → isim (ad: "ism")
+- **ٱللَّهِ** → isim (özel ad: "Allah")
+- **ٱلرَّحْمَـٰنِ** → isim (sıfat: "Rahmân")
+- **ٱلرَّحِيمِ** → isim (sıfat: "Rahîm")
+
+Dikkat et: tek bir harf, diğer kelimeleri tek bir öbek halinde bağlıyor. Burada hiçbir kelime fiil değildir — bu yüzden bu açılış henüz hiçbir "eylem" anlatmadan Allah'ı tanıtır.`,
+                ar: `خذ افتتاحية كل سورة:
+
+**بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ**
+
+طبّق المعايير على كل كلمة:
+
+- **بِ** ← حرف جر بمعنى "في / مع"
+- **اسْمِ** ← اسم بمعنى "اسم"
+- **ٱللَّهِ** ← اسم علم
+- **ٱلرَّحْمَـٰنِ** ← اسم (صفة)
+- **ٱلرَّحِيمِ** ← اسم (صفة)
+
+لاحظ النمط: حرف واحد يربط بقية الكلمات في عبارة واحدة. لا توجد أفعال هنا — لذلك تصف هذه الافتتاحية الله سبحانه دون أن تذكر "فعلاً" بعد.`
+              }
+            }
+          ]
+        },
         questions: [
           { type: 'grammar', q: { en: 'What are the three types of Arabic words (أقسام الكلمة)?', tr: 'Arapça kelimelerin üç türü (أقسام الكلمة) nelerdir?', ar: 'ما هي الأنواع الثلاثة للكلمات العربية (أقسام الكلمة)؟' }, expected: { en: 'Ism (Ø§Ø³Ù) = noun/name, Fi\'l (ÙØ¹Ù) = verb, Harf (Ø­Ø±Ù) = particle/preposition', tr: 'Ism (اسم) = isim/ad, Fi\'l (فعل) = fiil, Harf (حرف) = edat/ilgeç', ar: 'اسم = اسم/اسم، فعل = فعل، حرف = حرف/حرف جر' } },
           { type: 'grammar', q: { en: 'Is the word ÙÙØªÙØ¨Ù an isim, fi\'l, or harf? How do you know?', tr: 'كَتَبَ kelimesi isim mi, fiil mi, yoksa harf mi? Nereden biliyorsunuz?', ar: 'هل كلمة كَتَبَ اسم أم فعل أم حرف؟ وكيف تعرف ذلك؟' }, expected: { en: 'Fi\'l (verb) â it expresses an action (he wrote) and accepts tense conjugation', tr: 'Fi\'l (fiil) — bir eylemi (o yazdı) ifade eder ve zaman çekimini kabul eder.', ar: 'فعل — يعبر عن حدث (كتب) ويقبل تصريف الأزمنة.' } },
