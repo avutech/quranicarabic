@@ -21,7 +21,20 @@
     --shadow: 0 2px 12px rgba(0,0,0,0.08);
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: var(--bg); color: var(--dark); min-height: 100vh; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: var(--bg); color: var(--dark);
+    height: 100vh; min-height: 100vh;
+    display: flex; flex-direction: column;
+  }
+  .site-footer {
+    background: #f7f6ef;
+    border-top: 1px solid var(--border);
+    padding: 9px 24px; font-size: 0.78rem; line-height: 1.55;
+    color: var(--muted); text-align: center; font-style: italic;
+    flex-shrink: 0;
+  }
+  body.rtl .site-footer { font-family: 'Amiri', 'Scheherazade New', system-ui, serif; font-style: normal; font-size: 0.85rem; }
   body.rtl { direction: rtl; }
 
   /* Nav */
@@ -685,7 +698,8 @@
 
   /* Feedback button + modal (global) */
   .feedback-fab {
-    position: fixed; bottom: 20px; right: 20px;
+    position: fixed;
+    bottom: calc(var(--footer-h, 48px) + 12px); right: 20px;
     background: var(--green); color: white; border: none;
     border-radius: 28px; padding: 12px 18px;
     font-size: 0.85rem; font-weight: 600;
@@ -808,6 +822,8 @@
   </main>
 </div>
 
+<footer class="site-footer" id="site-footer"></footer>
+
 <button class="feedback-fab" onclick="openFeedbackModal()" id="feedback-fab">
   💬 <span id="feedback-fab-label">Feedback</span>
 </button>
@@ -826,6 +842,7 @@ if (typeof LESSON_INDEX === 'undefined') { window.LESSON_INDEX = null; }
 const I18N = {
   en: {
     navLabel: 'Quranic Arabic',
+    footerCredit: 'This site has been prepared using materials authored by our esteemed teacher Mevlut Boztaş for the Respect Grad. School Quranic Arabic course. All distribution and copying rights belong to him. If you have benefited, please remember him and his family in your prayers…',
     welcomeH1: 'Quranic Arabic Learning Portal',
     welcomeP: 'Select a level from the sidebar to explore its lessons, or choose a reference topic to browse vocabulary and grammar materials.',
     searchPlaceholder: 'Search lessons, topics, questions…',
@@ -950,6 +967,7 @@ const I18N = {
   },
   tr: {
     navLabel: 'Kuran Arapçası',
+    footerCredit: 'Bu site Respect Grad. School Kuran Arapçası dersi muhterem hocamız Mevlüt Boztaş tarafından hazırlanan materyaller aracılığıyla hazırlanmıştır. Tüm dağıtım ve kopyalama hakkı kendisine aittir. İstifade ettiyseniz kendisini ve ailesini dualarınıza misafir etmeniz temennisiyle…',
     welcomeH1: 'Kuran Arapçası Öğrenme Portalı',
     welcomeP: 'Derslerini keşfetmek için kenar çubuğundan bir seviye seçin veya kelime ve dilbilgisi materyallerine göz atmak için referans konusu seçin.',
     searchPlaceholder: 'Ders, konu, soru ara…',
@@ -1074,6 +1092,7 @@ const I18N = {
   },
   ar: {
     navLabel: 'العربية القرآنية',
+    footerCredit: 'تم إعداد هذا الموقع بناءً على المواد التي أعدّها أستاذنا الفاضل مولود بوزطاش لدرس العربية القرآنية في كلية الدراسات العليا "ريسبكت". جميع حقوق التوزيع والنسخ تعود إليه. إن انتفعتم به، فلا تنسوه وأهله من دعائكم الصالح…',
     welcomeH1: 'بوابة تعلم العربية القرآنية',
     welcomeP: 'اختر مستوى من القائمة الجانبية لاستكشاف دروسه، أو اختر موضوعاً مرجعياً لتصفح مواد المفردات والنحو.',
     searchPlaceholder: 'ابحث في الدروس والمواضيع والأسئلة…',
@@ -1220,6 +1239,13 @@ function setLang(l) {
   document.documentElement.lang = l;
   document.body.classList.toggle('rtl', l === 'ar');
   document.getElementById('nav-label').textContent = I18N[l].navLabel;
+  const footerEl = document.getElementById('site-footer');
+  footerEl.textContent = I18N[l].footerCredit;
+  // Publish actual footer height so the floating Feedback button clears it
+  // regardless of text wrap / language / viewport width.
+  requestAnimationFrame(() => {
+    document.documentElement.style.setProperty('--footer-h', footerEl.offsetHeight + 'px');
+  });
   refreshFeedbackLabel();
   renderSidebar();
   if (!currentView) {
@@ -3309,6 +3335,12 @@ function escapeHtml(str) {
 // ─── Init ─────────────────────────────────────────────────────────────────────
 
 setLang(lang);   // applies the default language (TR) to body class, sidebar, welcome text, etc.
+
+// Keep the FAB clearance accurate as the viewport resizes.
+window.addEventListener('resize', () => {
+  const f = document.getElementById('site-footer');
+  if (f) document.documentElement.style.setProperty('--footer-h', f.offsetHeight + 'px');
+});
 ensureLecturesLoaded().then(() => {
   if (searchQuery.trim()) renderSearchResultsMain(searchQuery.trim());
 });
