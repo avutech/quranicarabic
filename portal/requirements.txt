@@ -3,3 +3,5 @@ google-genai>=1.0
 # anthropic only used by build_vocab.py and build_lesson_index.py — those
 # already produced vocab.js / lessons_index.json so it's optional now.
 anthropic>=0.97
+
+bcrypt>=4.0

@@ -16,3 +16,7 @@ portal/vocab_cache.json
 # permanent PDF-derived knowledge base. Cache and raw text stay local.)
 portal/lessons_raw/
 portal/lessons_index_cache.json
+
+# User auth DB (local; never commit)
+portal/users.db
+portal/users.db-*

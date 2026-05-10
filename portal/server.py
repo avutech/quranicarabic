@@ -7,6 +7,9 @@ from flask import Flask, send_from_directory, request, jsonify, abort
 from google import genai
 from google.genai import types as genai_types
 
+import db as user_db
+from auth import auth_bp, login_required, admin_required, current_user_row, current_user_dict
+
 
 def humanize_gemini_error(exc):
     """Turn raw Gemini SDK errors (especially 429s) into clear user-facing
@@ -40,6 +43,17 @@ def humanize_gemini_error(exc):
     return 500, str(exc)
 
 app = Flask(__name__)
+app.register_blueprint(auth_bp)
+
+# Seed admin on startup if the users table is empty.
+user_db.init_db()
+_seed_pw = user_db.ensure_seed_admin("ahmugur@gmail.com")
+if _seed_pw:
+    print("=" * 70, file=sys.stderr)
+    print("🔑  Seed admin created: ahmugur@gmail.com", file=sys.stderr)
+    print(f"    Initial password: {_seed_pw}", file=sys.stderr)
+    print("    Save this — it won't be shown again. Change it via the admin panel.", file=sys.stderr)
+    print("=" * 70, file=sys.stderr)
 
 BASE_DIR = Path(__file__).parent.parent
 PDF_DIR = BASE_DIR / "Kuran-Kerim Arapcasi"
@@ -215,8 +229,38 @@ def index():
     return send_from_directory(str(PORTAL_DIR), "index.html")
 
 
+def _lesson_id_for_pdf(filename: str):
+    """Infer the L{N}W{M} lesson key from the requested PDF path. Returns
+    None if the PDF doesn't belong to any specific lesson (e.g. shared
+    reference materials, vocab, bablar — those are always allowed)."""
+    # Lesson PDFs live under Level-1/, Level-2/, Level-3/
+    m = re.match(r"^Level-([123])/(\d+)(?:st|nd|rd|th)?\s*Lesson", filename)
+    if m:
+        level, lesson_num = int(m.group(1)), int(m.group(2))
+        # Level-1/1st..14th, Level-2/15th..28th, Level-3/29th..42nd
+        if level == 1:
+            week = lesson_num
+        elif level == 2:
+            week = lesson_num - 14
+        else:
+            week = lesson_num - 28
+        if 1 <= week <= 14:
+            return f"L{level}W{week}"
+    return None
+
+
 @app.route("/pdfs/<path:filename>")
 def serve_pdf(filename):
+    user = current_user_row()
+    if not user:
+        return jsonify({"error": "auth required"}), 401
+    # Gate the per-lesson PDFs by unlock; reference materials stay open.
+    # Admins always have full access.
+    lesson_id = _lesson_id_for_pdf(filename)
+    if lesson_id and user["role"] != "admin":
+        unlocks = user_db.effective_unlocks(user["id"])
+        if lesson_id not in unlocks:
+            return jsonify({"error": "this lesson is locked"}), 403
     try:
         return send_from_directory(str(PDF_DIR), filename)
     except Exception:
@@ -232,6 +276,7 @@ def static_files(filename):
 
 
 @app.route("/api/feedback", methods=["POST"])
+@login_required
 def feedback():
     data = request.get_json()
     if not data:
@@ -375,6 +420,7 @@ def feedback_issue():
 
 
 @app.route("/api/self-check", methods=["POST"])
+@login_required
 def self_check():
     """Compare a learner's per-word i'rab attempt to a fresh expert analysis
     and return per-field grading + corrective feedback."""
@@ -510,6 +556,7 @@ If a field has substantive correct content but the student left it blank, mark t
 
 
 @app.route("/api/learn-deep", methods=["POST"])
+@login_required
 def learn_deep():
     """Generate a guided deep-dive explanation of a specific grammar concept
     from a specific lesson. Pulls context from lessons_index.json and asks
@@ -649,6 +696,7 @@ NOW produce the JSON."""
 
 
 @app.route("/api/irab", methods=["POST"])
+@login_required
 def irab():
     data = request.get_json() or {}
     verse = (data.get("verse") or "").strip()
@@ -900,6 +948,234 @@ Write `meaning`, `notes`, `role` (the descriptive prose), and every `lesson_refs
     except Exception as e:
         code, friendly = humanize_gemini_error(e)
         return jsonify({"error": friendly}), code
+
+
+# ─── Admin endpoints (user management) ────────────────────────────────────────
+
+ALL_LESSONS = [f"L{L}W{W}" for L in (1, 2, 3) for W in range(1, 15)]
+
+
+@app.get("/api/admin/users")
+@admin_required
+def admin_list_users():
+    rows = user_db.list_users()
+    classrooms = user_db.list_classrooms()
+    # We need classroom_id per user; list_users doesn't include it, so fetch fresh.
+    out = []
+    with user_db.db() as conn:
+        full_rows = conn.execute(
+            "SELECT id, email, role, created_at, last_login, classroom_id, first_name, last_name FROM users ORDER BY id"
+        ).fetchall()
+    for r in full_rows:
+        cid = r["classroom_id"]
+        out.append({
+            "id": r["id"],
+            "email": r["email"],
+            "first_name": r["first_name"] or "",
+            "last_name": r["last_name"] or "",
+            "display_name": user_db.display_name(r),
+            "role": r["role"],
+            "created_at": r["created_at"],
+            "last_login": r["last_login"],
+            "classroom_id": cid,
+            "personal_unlocks": user_db.get_unlocks(r["id"]),
+            "effective_unlocks": user_db.effective_unlocks(r["id"]),
+        })
+    return jsonify({
+        "users": out,
+        "all_lessons": ALL_LESSONS,
+        "classrooms": classrooms,
+    })
+
+
+@app.post("/api/admin/users")
+@admin_required
+def admin_create_user():
+    data = request.get_json(silent=True) or {}
+    email = (data.get("email") or "").strip().lower()
+    password = data.get("password") or ""
+    role = data.get("role") or "user"
+    first_name = (data.get("first_name") or "").strip()
+    last_name = (data.get("last_name") or "").strip()
+    classroom_id = data.get("classroom_id")
+    if classroom_id in (0, "0", ""):
+        classroom_id = None
+    if classroom_id is not None and (not isinstance(classroom_id, int) or not user_db.get_classroom(classroom_id)):
+        return jsonify({"error": "invalid classroom_id"}), 400
+    if not email or not password:
+        return jsonify({"error": "email and password required"}), 400
+    if role not in ("user", "admin"):
+        return jsonify({"error": "role must be 'user' or 'admin'"}), 400
+    try:
+        uid = user_db.create_user(email, password, role, first_name, last_name)
+    except Exception as e:
+        return jsonify({"error": f"could not create user: {e}"}), 400
+    if classroom_id is not None:
+        user_db.assign_user_to_classroom(uid, classroom_id)
+    return jsonify({"id": uid, "email": email, "role": role, "classroom_id": classroom_id}), 201
+
+
+@app.post("/api/admin/users/<int:user_id>/name")
+@admin_required
+def admin_update_name(user_id):
+    data = request.get_json(silent=True) or {}
+    if not user_db.find_user_by_id(user_id):
+        return jsonify({"error": "user not found"}), 404
+    user_db.update_user_name(user_id, data.get("first_name", ""), data.get("last_name", ""))
+    return jsonify({"ok": True})
+
+
+@app.delete("/api/admin/users/<int:user_id>")
+@admin_required
+def admin_delete_user(user_id):
+    me = current_user_row()
+    if me and me["id"] == user_id:
+        return jsonify({"error": "you cannot delete yourself"}), 400
+    user_db.delete_user(user_id)
+    return jsonify({"ok": True})
+
+
+@app.post("/api/admin/users/<int:user_id>/unlocks")
+@admin_required
+def admin_set_unlocks(user_id):
+    """Replace the user's unlock set with the supplied list. Body: {lesson_ids: [...]}."""
+    data = request.get_json(silent=True) or {}
+    ids = data.get("lesson_ids")
+    if not isinstance(ids, list):
+        return jsonify({"error": "lesson_ids (list) required"}), 400
+    valid = [lid for lid in ids if lid in ALL_LESSONS]
+    user_db.set_unlocks(user_id, valid)
+    return jsonify({"unlocks": user_db.get_unlocks(user_id)})
+
+
+@app.post("/api/admin/users/<int:user_id>/role")
+@admin_required
+def admin_set_role(user_id):
+    """Change a user's role. Refuses to demote the last admin (lockout safety)."""
+    data = request.get_json(silent=True) or {}
+    new_role = (data.get("role") or "").strip()
+    if new_role not in ("user", "admin"):
+        return jsonify({"error": "role must be 'user' or 'admin'"}), 400
+    target = user_db.find_user_by_id(user_id)
+    if not target:
+        return jsonify({"error": "user not found"}), 404
+    # If demoting an admin, ensure at least one admin remains
+    if target["role"] == "admin" and new_role != "admin":
+        with user_db.db() as conn:
+            n = conn.execute("SELECT COUNT(*) AS n FROM users WHERE role = 'admin'").fetchone()["n"]
+        if n <= 1:
+            return jsonify({"error": "cannot demote the last admin"}), 400
+    with user_db.db() as conn:
+        conn.execute("UPDATE users SET role = ? WHERE id = ?", (new_role, user_id))
+    return jsonify({"ok": True, "id": user_id, "role": new_role})
+
+
+@app.post("/api/admin/users/<int:user_id>/password")
+@admin_required
+def admin_reset_password(user_id):
+    data = request.get_json(silent=True) or {}
+    new_pw = data.get("password") or ""
+    if len(new_pw) < 6:
+        return jsonify({"error": "password must be at least 6 characters"}), 400
+    if not user_db.find_user_by_id(user_id):
+        return jsonify({"error": "user not found"}), 404
+    user_db.update_password(user_id, new_pw)
+    return jsonify({"ok": True})
+
+
+# ─── Classroom admin endpoints ────────────────────────────────────────────────
+
+@app.get("/api/admin/classrooms")
+@admin_required
+def admin_list_classrooms():
+    rooms = user_db.list_classrooms()
+    out = []
+    for c in rooms:
+        unlocks = user_db.get_classroom_unlocks(c["id"])
+        # Need full member rows to access first/last name
+        with user_db.db() as conn:
+            members = conn.execute(
+                "SELECT id, email, role, first_name, last_name FROM users WHERE classroom_id = ? ORDER BY first_name, last_name, email",
+                (c["id"],),
+            ).fetchall()
+        out.append({
+            **c,
+            "unlocks": unlocks,
+            "members": [{
+                "id": m["id"],
+                "email": m["email"],
+                "role": m["role"],
+                "display_name": user_db.display_name(m),
+            } for m in members],
+        })
+    return jsonify({"classrooms": out, "all_lessons": ALL_LESSONS})
+
+
+@app.post("/api/admin/classrooms")
+@admin_required
+def admin_create_classroom():
+    data = request.get_json(silent=True) or {}
+    name = (data.get("name") or "").strip()
+    if not name:
+        return jsonify({"error": "name required"}), 400
+    try:
+        cid = user_db.create_classroom(name)
+    except Exception as e:
+        return jsonify({"error": f"could not create classroom: {e}"}), 400
+    return jsonify({"id": cid, "name": name}), 201
+
+
+@app.delete("/api/admin/classrooms/<int:cid>")
+@admin_required
+def admin_delete_classroom(cid):
+    if not user_db.get_classroom(cid):
+        return jsonify({"error": "classroom not found"}), 404
+    user_db.delete_classroom(cid)
+    return jsonify({"ok": True})
+
+
+@app.post("/api/admin/classrooms/<int:cid>/rename")
+@admin_required
+def admin_rename_classroom(cid):
+    data = request.get_json(silent=True) or {}
+    name = (data.get("name") or "").strip()
+    if not name:
+        return jsonify({"error": "name required"}), 400
+    if not user_db.get_classroom(cid):
+        return jsonify({"error": "classroom not found"}), 404
+    user_db.rename_classroom(cid, name)
+    return jsonify({"ok": True, "id": cid, "name": name})
+
+
+@app.post("/api/admin/classrooms/<int:cid>/unlocks")
+@admin_required
+def admin_set_classroom_unlocks(cid):
+    data = request.get_json(silent=True) or {}
+    ids = data.get("lesson_ids")
+    if not isinstance(ids, list):
+        return jsonify({"error": "lesson_ids (list) required"}), 400
+    if not user_db.get_classroom(cid):
+        return jsonify({"error": "classroom not found"}), 404
+    valid = [lid for lid in ids if lid in ALL_LESSONS]
+    user_db.set_classroom_unlocks(cid, valid)
+    return jsonify({"unlocks": user_db.get_classroom_unlocks(cid)})
+
+
+@app.post("/api/admin/users/<int:user_id>/classroom")
+@admin_required
+def admin_assign_classroom(user_id):
+    """Body: {classroom_id: <int|null>}. null/0 = unassign."""
+    data = request.get_json(silent=True) or {}
+    cid = data.get("classroom_id")
+    if cid in (0, "0", ""):
+        cid = None
+    if cid is not None:
+        if not isinstance(cid, int) or not user_db.get_classroom(cid):
+            return jsonify({"error": "invalid classroom_id"}), 400
+    if not user_db.find_user_by_id(user_id):
+        return jsonify({"error": "user not found"}), 404
+    user_db.assign_user_to_classroom(user_id, cid)
+    return jsonify({"ok": True, "user_id": user_id, "classroom_id": cid})
 
 
 if __name__ == "__main__":
