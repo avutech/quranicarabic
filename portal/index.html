@@ -852,6 +852,45 @@ const I18N = {
   en: {
     navLabel: 'Quranic Arabic',
     footerCredit: 'This site has been prepared using materials authored by our esteemed teacher Mevlut Boztaş for the Respect Grad. School Quranic Arabic course. All distribution and copying rights belong to him. If you have benefited, please remember him and his family in your prayers…',
+    admHeader: '👥 Admin',
+    admIntro: "Classrooms hold their students. Each classroom's unlocks apply to every student inside it. Use the personal grid on a student card for one-off overrides.",
+    admTabUser: '👤 New user',
+    admTabClassroom: '🏫 New classroom',
+    admFirstName: 'First name', admLastName: 'Last name',
+    admEmail: 'Email', admPassword: 'Initial password', admPwHint: '≥6 chars',
+    admRole: 'Role', admRoleUser: 'user', admRoleAdmin: 'admin',
+    admClassroom: 'Classroom', admNoClassroom: '— none —',
+    admCreateUser: 'Create user',
+    admClassroomName: 'Classroom name',
+    admCreateClassroomBtn: 'Create classroom',
+    admSecClassrooms: '🏫 Classrooms', admSecUnassigned: '👤 Unassigned students', admSecAdmins: '🛡️ Admins',
+    admEmptyClassrooms: 'No classrooms yet — create one using the form above.',
+    admEmptyAdmins: 'No admin users.',
+    admEmptyMembers: "No students assigned yet. Use the user creation form above or change a user's classroom.",
+    admStudents: 'Students',
+    admExpand: '▸ Expand students', admCollapse: '▾ Collapse students',
+    admRename: 'Rename', admDelete: 'Delete', admResetPw: 'Reset password',
+    admUnlockAll: 'Unlock all 14',
+    admClassroomUnlocksLabel: 'Classroom unlocks (apply to all students below)',
+    admStudentHint: 'Striped = inherited from classroom. Solid = personal extra beyond the classroom. Toggle a checkbox to grant a one-off override.',
+    admInheritedRedundant: 'inherited from classroom (personal is redundant)',
+    admInherited: 'inherited from classroom',
+    admPersonalExtra: 'personal extra',
+    admCannotChangeOwnRole: 'You cannot change your own role',
+    admMembers: 'students', admUnlocks: 'unlocks',
+    admMetaLast: 'last:', admMetaNever: 'never logged in',
+    admPromptFirst: 'First name:', admPromptLast: 'Last name:',
+    admPromptNewName: 'New name:',
+    admPromptNewPw: 'New password for',
+    admPwTooShort: 'Password must be at least 6 characters',
+    admPwResetOk: 'Password reset.',
+    admConfirmDeleteUser: 'Delete user',
+    admConfirmDeletePermanent: '? This is permanent.',
+    admConfirmDeleteClassroom: 'Delete classroom',
+    admConfirmDeleteClassroomTail: '? Members will be unassigned (their personal unlocks remain).',
+    admErrCreate: 'Error:', admErrFailed: 'Failed:',
+    admErrEmailPw: 'email + password required',
+    admErrClassroomName: 'Classroom name required',
     welcomeH1: 'Quranic Arabic Learning Portal',
     welcomeP: 'Select a level from the sidebar to explore its lessons, or choose a reference topic to browse vocabulary and grammar materials.',
     searchPlaceholder: 'Search lessons, topics, questions…',
@@ -981,6 +1020,45 @@ const I18N = {
   tr: {
     navLabel: 'Kuran Arapçası',
     footerCredit: 'Bu site Respect Grad. School Kuran Arapçası dersi muhterem hocamız Mevlüt Boztaş tarafından hazırlanan materyaller aracılığıyla hazırlanmıştır. Tüm dağıtım ve kopyalama hakkı kendisine aittir. İstifade ettiyseniz kendisini ve ailesini dualarınıza misafir etmeniz temennisiyle…',
+    admHeader: '👥 Yönetim',
+    admIntro: 'Sınıflar öğrencilerini barındırır. Sınıfa verilen erişimler, içindeki tüm öğrencilere otomatik uygulanır. Tek seferlik istisnalar için öğrenci kartındaki kişisel ızgarayı kullanabilirsin.',
+    admTabUser: '👤 Yeni kullanıcı',
+    admTabClassroom: '🏫 Yeni sınıf',
+    admFirstName: 'Ad', admLastName: 'Soyad',
+    admEmail: 'E-posta', admPassword: 'İlk şifre', admPwHint: 'en az 6 karakter',
+    admRole: 'Rol', admRoleUser: 'kullanıcı', admRoleAdmin: 'yönetici',
+    admClassroom: 'Sınıf', admNoClassroom: '— hiçbiri —',
+    admCreateUser: 'Kullanıcı oluştur',
+    admClassroomName: 'Sınıf adı',
+    admCreateClassroomBtn: 'Sınıf oluştur',
+    admSecClassrooms: '🏫 Sınıflar', admSecUnassigned: '👤 Atanmamış öğrenciler', admSecAdmins: '🛡️ Yöneticiler',
+    admEmptyClassrooms: 'Henüz sınıf yok — yukarıdaki formdan oluştur.',
+    admEmptyAdmins: 'Yönetici yok.',
+    admEmptyMembers: 'Henüz öğrenci atanmamış. Yukarıdaki formdan kullanıcı oluştur veya bir kullanıcının sınıfını değiştir.',
+    admStudents: 'Öğrenciler',
+    admExpand: '▸ Öğrencileri göster', admCollapse: '▾ Öğrencileri gizle',
+    admRename: 'Yeniden adlandır', admDelete: 'Sil', admResetPw: 'Şifre sıfırla',
+    admUnlockAll: '14 haftayı aç',
+    admClassroomUnlocksLabel: 'Sınıf izinleri (aşağıdaki tüm öğrencilere uygulanır)',
+    admStudentHint: 'Çizgili = sınıftan miras. Dolu = sınıfın üstüne kişisel ek. Bir kutucuğu işaretleyerek tek seferlik özel izin verebilirsin.',
+    admInheritedRedundant: 'sınıftan miras (kişisel ek gereksiz)',
+    admInherited: 'sınıftan miras',
+    admPersonalExtra: 'kişisel ek',
+    admCannotChangeOwnRole: 'Kendi rolünü değiştiremezsin',
+    admMembers: 'öğrenci', admUnlocks: 'izin',
+    admMetaLast: 'son:', admMetaNever: 'hiç giriş yapmadı',
+    admPromptFirst: 'Ad:', admPromptLast: 'Soyad:',
+    admPromptNewName: 'Yeni ad:',
+    admPromptNewPw: 'Yeni şifre —',
+    admPwTooShort: 'Şifre en az 6 karakter olmalı',
+    admPwResetOk: 'Şifre sıfırlandı.',
+    admConfirmDeleteUser: 'Kullanıcıyı sil:',
+    admConfirmDeletePermanent: ' — bu işlem geri alınamaz.',
+    admConfirmDeleteClassroom: 'Sınıfı sil:',
+    admConfirmDeleteClassroomTail: ' — üyeler atamadan çıkar (kişisel izinler korunur).',
+    admErrCreate: 'Hata:', admErrFailed: 'Hata:',
+    admErrEmailPw: 'e-posta ve şifre gerekli',
+    admErrClassroomName: 'Sınıf adı gerekli',
     welcomeH1: 'Kuran Arapçası Öğrenme Portalı',
     welcomeP: 'Derslerini keşfetmek için kenar çubuğundan bir seviye seçin veya kelime ve dilbilgisi materyallerine göz atmak için referans konusu seçin.',
     searchPlaceholder: 'Ders, konu, soru ara…',
@@ -1110,6 +1188,45 @@ const I18N = {
   ar: {
     navLabel: 'العربية القرآنية',
     footerCredit: 'تم إعداد هذا الموقع بناءً على المواد التي أعدّها أستاذنا الفاضل مولود بوزطاش لدرس العربية القرآنية في كلية الدراسات العليا "ريسبكت". جميع حقوق التوزيع والنسخ تعود إليه. إن انتفعتم به، فلا تنسوه وأهله من دعائكم الصالح…',
+    admHeader: '👥 الإدارة',
+    admIntro: 'الفصول تحوي طلابها. صلاحيات الفصل تطبق على كل طالب بداخله. استخدم الشبكة الشخصية على بطاقة الطالب لاستثناءات فردية.',
+    admTabUser: '👤 مستخدم جديد',
+    admTabClassroom: '🏫 فصل جديد',
+    admFirstName: 'الاسم', admLastName: 'الكنية',
+    admEmail: 'البريد الإلكتروني', admPassword: 'كلمة المرور الأولية', admPwHint: '6 أحرف على الأقل',
+    admRole: 'الدور', admRoleUser: 'مستخدم', admRoleAdmin: 'مدير',
+    admClassroom: 'الفصل', admNoClassroom: '— لا شيء —',
+    admCreateUser: 'أنشئ المستخدم',
+    admClassroomName: 'اسم الفصل',
+    admCreateClassroomBtn: 'أنشئ الفصل',
+    admSecClassrooms: '🏫 الفصول', admSecUnassigned: '👤 طلاب غير مُعيَّنين', admSecAdmins: '🛡️ المديرون',
+    admEmptyClassrooms: 'لا توجد فصول بعد — أنشئ واحداً من الأعلى.',
+    admEmptyAdmins: 'لا يوجد مديرون.',
+    admEmptyMembers: 'لم يُعيَّن أي طالب بعد. استخدم النموذج أعلاه أو غيّر فصل أحد المستخدمين.',
+    admStudents: 'الطلاب',
+    admExpand: '▸ أظهر الطلاب', admCollapse: '▾ أخفِ الطلاب',
+    admRename: 'إعادة تسمية', admDelete: 'حذف', admResetPw: 'إعادة تعيين كلمة المرور',
+    admUnlockAll: 'افتح كل الأسابيع الـ ١٤',
+    admClassroomUnlocksLabel: 'صلاحيات الفصل (تُطبَّق على جميع الطلاب أدناه)',
+    admStudentHint: 'مخطط = موروث من الفصل. ممتلئ = إضافة شخصية فوق صلاحيات الفصل. اضغط على المربع لمنح استثناء فردي.',
+    admInheritedRedundant: 'موروث من الفصل (الإضافة الشخصية مكررة)',
+    admInherited: 'موروث من الفصل',
+    admPersonalExtra: 'إضافة شخصية',
+    admCannotChangeOwnRole: 'لا يمكنك تغيير دورك بنفسك',
+    admMembers: 'طالب', admUnlocks: 'صلاحية',
+    admMetaLast: 'آخر دخول:', admMetaNever: 'لم يدخل بعد',
+    admPromptFirst: 'الاسم:', admPromptLast: 'الكنية:',
+    admPromptNewName: 'الاسم الجديد:',
+    admPromptNewPw: 'كلمة مرور جديدة لـ',
+    admPwTooShort: 'كلمة المرور يجب أن تكون 6 أحرف على الأقل',
+    admPwResetOk: 'تم تعيين كلمة المرور.',
+    admConfirmDeleteUser: 'حذف المستخدم:',
+    admConfirmDeletePermanent: ' — لا يمكن التراجع.',
+    admConfirmDeleteClassroom: 'حذف الفصل:',
+    admConfirmDeleteClassroomTail: ' — سيتم إلغاء تعيين الأعضاء (تبقى صلاحياتهم الشخصية).',
+    admErrCreate: 'خطأ:', admErrFailed: 'فشل:',
+    admErrEmailPw: 'البريد وكلمة المرور مطلوبان',
+    admErrClassroomName: 'اسم الفصل مطلوب',
     welcomeH1: 'بوابة تعلم العربية القرآنية',
     welcomeP: 'اختر مستوى من القائمة الجانبية لاستكشاف دروسه، أو اختر موضوعاً مرجعياً لتصفح مواد المفردات والنحو.',
     searchPlaceholder: 'ابحث في الدروس والمواضيع والأسئلة…',
@@ -3596,7 +3713,7 @@ async function openAdminPanel() {
   expandedLevel = null;
   renderSidebar();
   const main = document.getElementById('main');
-  main.innerHTML = `<div class="topic-header"><h2>👥 Admin</h2><p>Loading…</p></div>`;
+  main.innerHTML = `<div class="topic-header"><h2>${t('admHeader')}</h2><p>${t('quizLoading') || '…'}</p></div>`;
   try {
     const [u, c] = await Promise.all([
       fetch('/api/admin/users', { credentials: 'same-origin' }).then(r => r.json()),
@@ -3626,14 +3743,14 @@ function renderAdminPanel(users, allLessons, classrooms) {
         const checked = unlockSet.has(id);
         return `<label class="ad-cell ${checked ? 'on' : ''}"><input type="checkbox" data-${scope}="${ownerId}" data-lid="${id}" ${checked ? 'checked' : ''} onchange="${toggleFn}(${ownerId})"/><span>${W}</span></label>`;
       }).join('');
-      return `<div class="ad-level"><div class="ad-level-head">L${L}<button class="ad-level-all" onclick="${levelAllFn}(${ownerId}, ${L})">Unlock all 14</button></div><div class="ad-cells">${cells}</div></div>`;
+      return `<div class="ad-level"><div class="ad-level-head">L${L}<button class="ad-level-all" onclick="${levelAllFn}(${ownerId}, ${L})">${t('admUnlockAll')}</button></div><div class="ad-cells">${cells}</div></div>`;
     }).join('');
 
   // (chip strip is no longer needed — members render as full cards inside their classroom)
 
   // ── User rows (with classroom dropdown) ──
   const classroomOptions = (selected) =>
-    `<option value="">— none —</option>` +
+    `<option value="">${escapeHtml(t('admNoClassroom'))}</option>` +
     classrooms.map(c => `<option value="${c.id}" ${selected === c.id ? 'selected' : ''}>${escapeHtml(c.name)}</option>`).join('');
 
   // Map classroom_id → its unlock set so we can mark inheritance per user.
@@ -3657,11 +3774,11 @@ function renderAdminPanel(users, allLessons, classrooms) {
         // Striped wins over solid: if classroom covers it, the personal toggle is redundant
         const cls = inherited ? 'inherit' : (personalChecked ? 'on' : '');
         const title = inherited
-          ? (personalChecked ? 'inherited from classroom (personal is redundant)' : 'inherited from classroom')
-          : (personalChecked ? 'personal extra' : '');
+          ? (personalChecked ? t('admInheritedRedundant') : t('admInherited'))
+          : (personalChecked ? t('admPersonalExtra') : '');
         return `<label class="ad-cell ${cls}" title="${title}"><input type="checkbox" data-uid="${u.id}" data-lid="${id}" ${personalChecked ? 'checked' : ''} onchange="adminToggleUnlock(${u.id})"/><span>${W}</span></label>`;
       }).join('');
-      return `<div class="ad-level"><div class="ad-level-head">L${L}<button class="ad-level-all" onclick="adminUnlockLevel(${u.id}, ${L})">Unlock all 14</button></div><div class="ad-cells">${cells}</div></div>`;
+      return `<div class="ad-level"><div class="ad-level-head">L${L}<button class="ad-level-all" onclick="adminUnlockLevel(${u.id}, ${L})">${t('admUnlockAll')}</button></div><div class="ad-cells">${cells}</div></div>`;
     }).join('');
 
     const isSelf = CURRENT_USER && CURRENT_USER.id === u.id;
@@ -3672,22 +3789,22 @@ function renderAdminPanel(users, allLessons, classrooms) {
             <span class="ad-email">${escapeHtml(u.display_name)}</span>
             ${u.display_name !== u.email ? `<span class="ad-meta">&lt;${escapeHtml(u.email)}&gt;</span>` : ''}
             <span class="ad-role role-${u.role}">${u.role}</span>
-            ${u.last_login ? `<span class="ad-meta">last: ${escapeHtml(u.last_login.slice(0,16).replace('T',' '))}</span>` : '<span class="ad-meta">never logged in</span>'}
+            ${u.last_login ? `<span class="ad-meta">${t('admMetaLast')} ${escapeHtml(u.last_login.slice(0,16).replace('T',' '))}</span>` : `<span class="ad-meta">${escapeHtml(t('admMetaNever'))}</span>`}
             <button class="btn-secondary" onclick="adminEditName(${u.id}, '${(u.first_name || '').replace(/'/g, '&#39;')}', '${(u.last_name || '').replace(/'/g, '&#39;')}')" style="padding:2px 8px; font-size:0.72rem; margin-left:6px;">✏ name</button>
           </div>
           <div style="display:flex; gap:8px; align-items:center; flex-wrap:wrap;">
-            <label style="font-size:0.74rem;color:var(--muted);">Role:</label>
-            <select onchange="adminSetRole(${u.id}, this.value)" ${isSelf ? 'disabled title="You cannot change your own role"' : ''} style="padding:5px 10px; border:1.5px solid var(--border); border-radius:6px; font-family:inherit; font-size:0.82rem;">
-              <option value="user" ${u.role === 'user' ? 'selected' : ''}>user</option>
-              <option value="admin" ${u.role === 'admin' ? 'selected' : ''}>admin</option>
+            <label style="font-size:0.74rem;color:var(--muted);">${t('admRole')}:</label>
+            <select onchange="adminSetRole(${u.id}, this.value)" ${isSelf ? `disabled title="${t('admCannotChangeOwnRole')}"` : ''} style="padding:5px 10px; border:1.5px solid var(--border); border-radius:6px; font-family:inherit; font-size:0.82rem;">
+              <option value="user" ${u.role === 'user' ? 'selected' : ''}>${t('admRoleUser')}</option>
+              <option value="admin" ${u.role === 'admin' ? 'selected' : ''}>${t('admRoleAdmin')}</option>
             </select>
-            <label style="font-size:0.74rem;color:var(--muted);">Classroom:</label>
+            <label style="font-size:0.74rem;color:var(--muted);">${t('admClassroom')}:</label>
             <select onchange="adminAssignClassroom(${u.id}, this.value)" style="padding:5px 10px; border:1.5px solid var(--border); border-radius:6px; font-family:inherit; font-size:0.82rem;">${classroomOptions(u.classroom_id)}</select>
-            <button class="btn-secondary" onclick="adminResetPassword(${u.id}, '${escapeHtml(u.email).replace(/'/g, '&#39;')}')" style="padding:5px 12px; font-size:0.78rem;">Reset password</button>
-            ${isSelf ? '' : `<button class="btn-secondary" onclick="adminDeleteUser(${u.id}, '${escapeHtml(u.email).replace(/'/g, '&#39;')}')" style="padding:5px 12px; font-size:0.78rem; color:#991b1b; border-color:#fecaca;">Delete</button>`}
+            <button class="btn-secondary" onclick="adminResetPassword(${u.id}, '${escapeHtml(u.email).replace(/'/g, '&#39;')}')" style="padding:5px 12px; font-size:0.78rem;">${t('admResetPw')}</button>
+            ${isSelf ? '' : `<button class="btn-secondary" onclick="adminDeleteUser(${u.id}, '${escapeHtml(u.email).replace(/'/g, '&#39;')}')" style="padding:5px 12px; font-size:0.78rem; color:#991b1b; border-color:#fecaca;">${t('admDelete')}</button>`}
           </div>
         </div>
-        <div class="ad-hint">Striped = inherited from classroom. Solid = personal extra beyond the classroom. Toggle a checkbox to grant a one-off override.</div>
+        <div class="ad-hint">${escapeHtml(t('admStudentHint'))}</div>
         <div class="ad-grids">${grids}</div>
       </div>`;
   }
@@ -3712,25 +3829,25 @@ function renderAdminPanel(users, allLessons, classrooms) {
     const isExpanded = expandedClassrooms.has(c.id);
     const memberCards = members.length
       ? members.map(buildUserRow).join('')
-      : `<div class="cr-empty">No students assigned yet. Use the user creation form above or change a user's classroom.</div>`;
-    const toggleLabel = isExpanded ? '▾ Collapse students' : '▸ Expand students';
+      : `<div class="cr-empty">${escapeHtml(t('admEmptyMembers'))}</div>`;
+    const toggleLabel = isExpanded ? t('admCollapse') : t('admExpand');
     return `
       <div class="cr-shell ${isExpanded ? '' : 'collapsed'}">
         <div class="cr-head">
           <div>
             <span class="cr-icon">🏫</span>
             <span class="cr-name">${escapeHtml(c.name)}</span>
-            <span class="cr-meta">${members.length} students · ${set.size} unlocks</span>
+            <span class="cr-meta">${members.length} ${t('admMembers')} · ${set.size} ${t('admUnlocks')}</span>
           </div>
           <div style="display:flex; gap:8px;">
             ${members.length ? `<button class="btn-secondary cr-expand-btn" onclick="adminToggleClassroom(${c.id})" style="padding:5px 12px; font-size:0.78rem;">${toggleLabel}</button>` : ''}
-            <button class="btn-secondary" onclick="adminRenameClassroom(${c.id}, '${escapeHtml(c.name).replace(/'/g, '&#39;')}')" style="padding:5px 12px; font-size:0.78rem;">Rename</button>
-            <button class="btn-secondary" onclick="adminDeleteClassroom(${c.id}, '${escapeHtml(c.name).replace(/'/g, '&#39;')}')" style="padding:5px 12px; font-size:0.78rem; color:#991b1b; border-color:#fecaca;">Delete</button>
+            <button class="btn-secondary" onclick="adminRenameClassroom(${c.id}, '${escapeHtml(c.name).replace(/'/g, '&#39;')}')" style="padding:5px 12px; font-size:0.78rem;">${t('admRename')}</button>
+            <button class="btn-secondary" onclick="adminDeleteClassroom(${c.id}, '${escapeHtml(c.name).replace(/'/g, '&#39;')}')" style="padding:5px 12px; font-size:0.78rem; color:#991b1b; border-color:#fecaca;">${t('admDelete')}</button>
           </div>
         </div>
-        <div class="cr-grid-label">Classroom unlocks (apply to all students below)</div>
+        <div class="cr-grid-label">${escapeHtml(t('admClassroomUnlocksLabel'))}</div>
         <div class="ad-grids">${renderUnlockGrid('cid', c.id, set, 'adminToggleClassroomUnlock', 'adminUnlockClassroomLevel')}</div>
-        <div class="cr-students-head">Students <span class="cr-meta">(${members.length})</span></div>
+        <div class="cr-students-head">${t('admStudents')} <span class="cr-meta">(${members.length})</span></div>
         <div class="cr-students">${memberCards}</div>
       </div>`;
   }).join('');
@@ -3829,41 +3946,41 @@ function renderAdminPanel(users, allLessons, classrooms) {
       .cr-shell.collapsed .ad-role { font-size: 0.66rem; padding: 1px 6px; }
     </style>
     <div class="topic-header">
-      <h2>👥 Admin</h2>
-      <p>Classrooms hold their students. Each classroom's unlocks apply to every student inside it. Use the personal grid on a student card for one-off overrides.</p>
+      <h2>${t('admHeader')}</h2>
+      <p>${escapeHtml(t('admIntro'))}</p>
     </div>
     <div class="section">
       <div class="ad-create-card">
         <div class="ad-create-tabs">
-          <button class="ad-create-tab active" id="ad-tab-user" onclick="adminSwitchCreateTab('user')">👤 New user</button>
-          <button class="ad-create-tab" id="ad-tab-classroom" onclick="adminSwitchCreateTab('classroom')">🏫 New classroom</button>
+          <button class="ad-create-tab active" id="ad-tab-user" onclick="adminSwitchCreateTab('user')">${t('admTabUser')}</button>
+          <button class="ad-create-tab" id="ad-tab-classroom" onclick="adminSwitchCreateTab('classroom')">${t('admTabClassroom')}</button>
         </div>
         <div class="ad-create-body" id="ad-tab-body-user">
           <div class="ad-create">
-            <div><label>First name</label><input type="text" id="ad-new-first" placeholder="Ahmet" /></div>
-            <div><label>Last name</label><input type="text" id="ad-new-last" placeholder="Yılmaz" /></div>
-            <div><label>Email</label><input type="email" id="ad-new-email" placeholder="user@example.com" /></div>
-            <div><label>Initial password</label><input type="text" id="ad-new-password" placeholder="≥6 chars" /></div>
-            <div><label>Role</label><select id="ad-new-role" style="padding:8px 10px; border:1.5px solid var(--border); border-radius:8px; font-family:inherit; font-size:0.9rem;"><option value="user">user</option><option value="admin">admin</option></select></div>
-            <div><label>Classroom</label><select id="ad-new-classroom" style="padding:8px 10px; border:1.5px solid var(--border); border-radius:8px; font-family:inherit; font-size:0.9rem;">${classroomOptions(null)}</select></div>
-            <button class="btn-primary" onclick="adminCreateUser()" style="padding:9px 18px;">Create user</button>
+            <div><label>${t('admFirstName')}</label><input type="text" id="ad-new-first" placeholder="Ahmet" /></div>
+            <div><label>${t('admLastName')}</label><input type="text" id="ad-new-last" placeholder="Yılmaz" /></div>
+            <div><label>${t('admEmail')}</label><input type="email" id="ad-new-email" placeholder="user@example.com" /></div>
+            <div><label>${t('admPassword')}</label><input type="text" id="ad-new-password" placeholder="${t('admPwHint')}" /></div>
+            <div><label>${t('admRole')}</label><select id="ad-new-role" style="padding:8px 10px; border:1.5px solid var(--border); border-radius:8px; font-family:inherit; font-size:0.9rem;"><option value="user">${t('admRoleUser')}</option><option value="admin">${t('admRoleAdmin')}</option></select></div>
+            <div><label>${t('admClassroom')}</label><select id="ad-new-classroom" style="padding:8px 10px; border:1.5px solid var(--border); border-radius:8px; font-family:inherit; font-size:0.9rem;">${classroomOptions(null)}</select></div>
+            <button class="btn-primary" onclick="adminCreateUser()" style="padding:9px 18px;">${t('admCreateUser')}</button>
           </div>
         </div>
         <div class="ad-create-body" id="ad-tab-body-classroom" style="display:none">
           <div class="ad-create">
-            <div style="flex: 1; min-width: 280px;"><label>Classroom name</label><input type="text" id="ad-new-classroom-name" placeholder="e.g. Spring 2026 — Beginners" style="width: 100%;" /></div>
-            <button class="btn-primary" onclick="adminCreateClassroom()" style="padding:9px 18px;">Create classroom</button>
+            <div style="flex: 1; min-width: 280px;"><label>${t('admClassroomName')}</label><input type="text" id="ad-new-classroom-name" placeholder="" style="width: 100%;" /></div>
+            <button class="btn-primary" onclick="adminCreateClassroom()" style="padding:9px 18px;">${t('admCreateClassroomBtn')}</button>
           </div>
         </div>
       </div>
 
-      <div class="ad-section-head">🏫 Classrooms</div>
-      ${classroomBlocks || '<p style="color:var(--muted);font-style:italic">No classrooms yet — create one using the form above.</p>'}
+      <div class="ad-section-head">${t('admSecClassrooms')}</div>
+      ${classroomBlocks || `<p style="color:var(--muted);font-style:italic">${escapeHtml(t('admEmptyClassrooms'))}</p>`}
 
-      ${unassignedCards ? `<div class="ad-section-head">👤 Unassigned students</div>${unassignedCards}` : ''}
+      ${unassignedCards ? `<div class="ad-section-head">${t('admSecUnassigned')}</div>${unassignedCards}` : ''}
 
-      <div class="ad-section-head">🛡️ Admins</div>
-      ${adminCards || '<p style="color:var(--muted);font-style:italic">No admin users.</p>'}
+      <div class="ad-section-head">${t('admSecAdmins')}</div>
+      ${adminCards || `<p style="color:var(--muted);font-style:italic">${escapeHtml(t('admEmptyAdmins'))}</p>`}
     </div>`;
 }
 
@@ -3909,69 +4026,69 @@ async function adminCreateUser() {
   const last_name = document.getElementById('ad-new-last').value.trim();
   const classroomVal = document.getElementById('ad-new-classroom').value;
   const classroom_id = classroomVal ? parseInt(classroomVal) : null;
-  if (!email || !password) { alert('email + password required'); return; }
+  if (!email || !password) { alert(t('admErrEmailPw')); return; }
   const res = await fetch('/api/admin/users', {
     method: 'POST', credentials: 'same-origin',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ email, password, role, first_name, last_name, classroom_id }),
   });
   const data = await res.json();
-  if (!res.ok) { alert('Error: ' + (data.error || res.status)); return; }
+  if (!res.ok) { alert(t('admErrCreate') + ' ' + (data.error || res.status)); return; }
   ['ad-new-email','ad-new-password','ad-new-first','ad-new-last'].forEach(id => document.getElementById(id).value = '');
   document.getElementById('ad-new-classroom').value = '';
   openAdminPanel();
 }
 
 async function adminEditName(userId, currentFirst, currentLast) {
-  const f = prompt('First name:', currentFirst);
+  const f = prompt(t('admPromptFirst'), currentFirst);
   if (f === null) return;
-  const l = prompt('Last name:', currentLast);
+  const l = prompt(t('admPromptLast'), currentLast);
   if (l === null) return;
   const res = await fetch(`/api/admin/users/${userId}/name`, {
     method: 'POST', credentials: 'same-origin',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ first_name: f.trim(), last_name: l.trim() }),
   });
-  if (res.ok) openAdminPanel(); else alert('Failed: ' + res.status);
+  if (res.ok) openAdminPanel(); else alert(t('admErrFailed') + ' ' + res.status);
 }
 
 async function adminDeleteUser(userId, email) {
-  if (!confirm(`Delete user ${email}? This is permanent.`)) return;
+  if (!confirm(t('admConfirmDeleteUser') + ' ' + email + t('admConfirmDeletePermanent'))) return;
   const res = await fetch(`/api/admin/users/${userId}`, { method: 'DELETE', credentials: 'same-origin' });
   if (res.ok) openAdminPanel();
-  else alert('Failed: ' + res.status);
+  else alert(t('admErrFailed') + ' ' + res.status);
 }
 
 async function adminCreateClassroom() {
   const el = document.getElementById('ad-new-classroom-name');
   const name = el.value.trim();
-  if (!name) { alert('Classroom name required'); return; }
+  if (!name) { alert(t('admErrClassroomName')); return; }
   const res = await fetch('/api/admin/classrooms', {
     method: 'POST', credentials: 'same-origin',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ name }),
   });
   const data = await res.json();
-  if (!res.ok) { alert('Error: ' + (data.error || res.status)); return; }
+  if (!res.ok) { alert(t('admErrCreate') + ' ' + (data.error || res.status)); return; }
   el.value = '';
   openAdminPanel();
 }
 
 async function adminRenameClassroom(cid, currentName) {
-  const newName = prompt('New name:', currentName);
+  const newName = prompt(t('admPromptNewName'), currentName);
   if (!newName || newName.trim() === currentName) return;
   const res = await fetch(`/api/admin/classrooms/${cid}/rename`, {
     method: 'POST', credentials: 'same-origin',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ name: newName.trim() }),
   });
-  if (res.ok) openAdminPanel(); else alert('Failed: ' + res.status);
+  if (res.ok) openAdminPanel(); else alert(t('admErrFailed') + ' ' + res.status);
 }
 
 async function adminDeleteClassroom(cid, name) {
-  if (!confirm(`Delete classroom "${name}"? Members will be unassigned (their personal unlocks remain).`)) return;
+  if (!confirm(t('admConfirmDeleteClassroom') + ' "' + name + '"' + t('admConfirmDeleteClassroomTail'))) return;
   const res = await fetch(`/api/admin/classrooms/${cid}`, { method: 'DELETE', credentials: 'same-origin' });
-  if (res.ok) openAdminPanel(); else alert('Failed: ' + res.status);
+  if (res.ok) openAdminPanel(); else alert(t('admErrFailed') + ' ' + res.status);
 }
 
 async function adminToggleClassroomUnlock(cid) {
@@ -4009,7 +4126,7 @@ async function adminSetRole(userId, role) {
   });
   const data = await res.json();
   if (res.ok) openAdminPanel();
-  else { alert('Failed: ' + (data.error || res.status)); openAdminPanel(); }
+  else { alert(t('admErrFailed') + ' ' + (data.error || res.status)); openAdminPanel(); }
 }
 
 async function adminAssignClassroom(userId, cidStr) {
@@ -4019,19 +4136,19 @@ async function adminAssignClassroom(userId, cidStr) {
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ classroom_id: cid }),
   });
-  if (res.ok) openAdminPanel(); else alert('Failed: ' + res.status);
+  if (res.ok) openAdminPanel(); else alert(t('admErrFailed') + ' ' + res.status);
 }
 
 async function adminResetPassword(userId, email) {
-  const pw = prompt(`New password for ${email}:`);
-  if (!pw || pw.length < 6) { if (pw !== null) alert('Password must be ≥6 chars'); return; }
+  const pw = prompt(t('admPromptNewPw') + ' ' + email + ':');
+  if (!pw || pw.length < 6) { if (pw !== null) alert(t('admPwTooShort')); return; }
   const res = await fetch(`/api/admin/users/${userId}/password`, {
     method: 'POST', credentials: 'same-origin',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ password: pw }),
   });
-  if (res.ok) alert('Password reset.');
-  else alert('Failed: ' + res.status);
+  if (res.ok) alert(t('admPwResetOk'));
+  else alert(t('admErrFailed') + ' ' + res.status);
 }
 
 // ─── Init ─────────────────────────────────────────────────────────────────────
