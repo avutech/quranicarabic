@@ -54,6 +54,14 @@
   .nav-title { font-size: 1.1rem; font-weight: 600; display: flex; align-items: center; gap: 10px; }
   .nav-title .arabic-title { font-size: 1.2rem; color: var(--gold-light); }
   .lang-switcher { display: flex; gap: 6px; }
+  .user-chip { display: flex; align-items: center; gap: 8px; margin-left: 12px; font-size: 0.82rem; color: rgba(255,255,255,0.85); }
+  .user-chip .user-email { white-space: nowrap; max-width: 200px; overflow: hidden; text-overflow: ellipsis; }
+  .user-chip button {
+    background: transparent; color: rgba(255,255,255,0.9); border: 1px solid rgba(255,255,255,0.4);
+    border-radius: 14px; padding: 4px 10px; font-size: 0.78rem; cursor: pointer; font-family: inherit;
+  }
+  .user-chip button:hover { background: rgba(255,255,255,0.15); border-color: #fff; }
+  .user-chip .admin-link { color: #ffd980; font-weight: 600; }
   .lang-btn {
     padding: 5px 12px; border-radius: 20px; border: 1.5px solid rgba(255,255,255,0.4);
     background: transparent; color: white; cursor: pointer; font-size: 0.85rem;
@@ -809,6 +817,7 @@
     <button class="lang-btn" onclick="setLang('en')">EN</button>
     <button class="lang-btn" onclick="setLang('ar')">AR</button>
   </div>
+  <div class="user-chip" id="user-chip"></div>
 </nav>
 
 <div class="layout">
@@ -882,6 +891,10 @@ const I18N = {
     quizDirArEn: 'Arabic → English',
     quizLength: 'Number of Questions',
     quizScope: 'Word Pool',
+    quizLevel: 'Level',
+    quizWeek: 'Week',
+    quizAll: 'All',
+    quizPickLevelFirst: 'Pick a level above to enable week filtering.',
     quizScopeAll: 'All sources',
     quizScopeAnswerKeys: 'Lesson Answer Keys only',
     quizScopeSurah: 'Surah verbs only',
@@ -1007,6 +1020,10 @@ const I18N = {
     quizDirArEn: 'Arapça → İngilizce',
     quizLength: 'Soru Sayısı',
     quizScope: 'Kelime Havuzu',
+    quizLevel: 'Seviye',
+    quizWeek: 'Hafta',
+    quizAll: 'Tümü',
+    quizPickLevelFirst: 'Hafta filtresi için önce bir seviye seç.',
     quizScopeAll: 'Tüm kaynaklar',
     quizScopeAnswerKeys: 'Sadece Ders Cevap Anahtarları',
     quizScopeSurah: 'Sadece Sure fiilleri',
@@ -1132,6 +1149,10 @@ const I18N = {
     quizDirArEn: 'عربي → إنجليزي',
     quizLength: 'عدد الأسئلة',
     quizScope: 'مجموعة الكلمات',
+    quizLevel: 'المستوى',
+    quizWeek: 'الأسبوع',
+    quizAll: 'الكل',
+    quizPickLevelFirst: 'اختر مستوى أولاً لتفعيل تصفية الأسبوع.',
     quizScopeAll: 'جميع المصادر',
     quizScopeAnswerKeys: 'مفاتيح الإجابات فقط',
     quizScopeSurah: 'مفردات السور فقط',
@@ -1239,6 +1260,7 @@ function setLang(l) {
   document.documentElement.lang = l;
   document.body.classList.toggle('rtl', l === 'ar');
   document.getElementById('nav-label').textContent = I18N[l].navLabel;
+  renderUserChip();
   const footerEl = document.getElementById('site-footer');
   footerEl.textContent = I18N[l].footerCredit;
   // Publish actual footer height so the floating Feedback button clears it
@@ -1307,6 +1329,12 @@ function renderSidebar() {
   html += `<div class="sidebar-section" style="margin-top:8px">${t('groupLessons')}</div>`;
 
   for (const level of LEVELS) {
+    // Filter to only the lessons this user has unlocked
+    const unlockedLessons = level.lessons
+      .map((lesson, i) => ({ lesson, i }))
+      .filter(({ lesson }) => isLessonUnlocked(level, lesson));
+    if (unlockedLessons.length === 0) continue;   // hide the entire level if nothing unlocked
+
     const isExpanded = expandedLevel === level.id;
     const isActive = currentView && currentView.type === 'level' && currentView.level && currentView.level.id === level.id;
     html += `
@@ -1314,14 +1342,13 @@ function renderSidebar() {
         <div class="level-icon">${levelIcons[level.id]}</div>
         <div class="level-header-text">
           <div class="level-name">${level.title[lang]}</div>
-          <div class="level-sub">${level.lessons.length} ${t('lessons')}</div>
+          <div class="level-sub">${unlockedLessons.length} ${t('lessons')}</div>
         </div>
         <div class="chevron ${isExpanded ? 'open' : ''}">▸</div>
       </div>`;
 
     if (isExpanded) {
-      for (let i = 0; i < level.lessons.length; i++) {
-        const lesson = level.lessons[i];
+      for (const { lesson, i } of unlockedLessons) {
         const isLessonActive = currentView && currentView.type === 'lesson' && currentView.lesson === lesson;
         html += `
           <div class="lesson-item ${isLessonActive ? 'active' : ''}" onclick="clickLesson('${level.id}', ${i})">
@@ -1663,6 +1690,7 @@ function clickLevel(levelId) {
 function clickLesson(levelId, index) {
   const level = LEVELS.find(l => l.id === levelId);
   const lesson = level.lessons[index];
+  if (!isLessonUnlocked(level, lesson)) return;   // belt-and-suspenders: should already be hidden
   expandedLevel = levelId;
   currentView = { type: 'lesson', level, lesson };
   practiceMode = false;
@@ -1701,7 +1729,10 @@ function renderLevelOverview(level) {
   const levelIndex = LEVELS.indexOf(level);
   const startWeek = levelIndex * 14 + 1;
 
-  const cardsHtml = level.lessons.map((lesson, i) => `
+  const cardsHtml = level.lessons
+    .map((lesson, i) => ({ lesson, i }))
+    .filter(({ lesson }) => isLessonUnlocked(level, lesson))
+    .map(({ lesson, i }) => `
     <div class="lesson-card" onclick="clickLesson('${level.id}', ${i})">
       <div class="lesson-card-week">${t('week')} ${lesson.week}</div>
       <div class="lesson-card-title">${lesson.title[lang]}</div>
@@ -2048,14 +2079,78 @@ function backToLesson() {
 
 // ─── Vocabulary Quiz ──────────────────────────────────────────────────────────
 
-let quizConfig = { direction: 'tr', length: 10, scope: 'all' };
+let quizConfig = { direction: 'tr', length: 10, scope: 'all', level: 'all', weeks: [] };  // weeks=[] means "All"
 let quizState = null; // { pool, items, idx, score, answered }
+
+// Derive {level, week} for an entry whose source is an Answer Key PDF.
+// Answer Key N maps to lesson N: 1–14 = L1W1–L1W14, 15–28 = L2W1–L2W14, 29–42 = L3W1–L3W14.
+function vocabLessonOf(entry) {
+  const m = String(entry.source || '').match(/Answer\s*Key[-\s]*(\d+)/i);
+  if (!m) return null;
+  const n = parseInt(m[1]);
+  if (n < 1 || n > 42) return null;
+  return { level: Math.ceil(n / 14), week: ((n - 1) % 14) + 1, lessonNum: n };
+}
+
+// Returns the set of unlocked lesson ids for the current user (admin = all 42).
+function userUnlockedLessons() {
+  if (!CURRENT_USER) return new Set();
+  if (CURRENT_USER.role === 'admin') {
+    const s = new Set();
+    for (let L = 1; L <= 3; L++) for (let W = 1; W <= 14; W++) s.add(`L${L}W${W}`);
+    return s;
+  }
+  return new Set(CURRENT_USER.unlocks);
+}
+
+// Which levels have at least one unlocked week (for the Level pill row)?
+function userUnlockedLevelSet() {
+  const out = new Set();
+  for (const lid of userUnlockedLessons()) {
+    const m = lid.match(/^L(\d)W/);
+    if (m) out.add(+m[1]);
+  }
+  return out;
+}
+
+// Which weeks of a given level are unlocked (for the Week pill row)?
+function userUnlockedWeeksOfLevel(level) {
+  const out = new Set();
+  for (const lid of userUnlockedLessons()) {
+    const m = lid.match(/^L(\d)W(\d+)$/);
+    if (m && +m[1] === level) out.add(+m[2]);
+  }
+  return out;
+}
 
 function filterPool(scope) {
   if (!VOCAB_POOL) return [];
-  const all = VOCAB_POOL.filter(e => e.ar && e.tr);
-  if (scope === 'answerkeys') return all.filter(e => /Answer Key|ANSWER KEY/i.test(e.source || ''));
-  if (scope === 'surah') return all.filter(e => /Sûresi|Surah/i.test(e.source || '') && !/Answer Key/i.test(e.source || ''));
+  let all = VOCAB_POOL.filter(e => e.ar && e.tr);
+  if (scope === 'answerkeys') all = all.filter(e => /Answer Key|ANSWER KEY/i.test(e.source || ''));
+  else if (scope === 'surah') all = all.filter(e => /Sûresi|Surah/i.test(e.source || '') && !/Answer Key/i.test(e.source || ''));
+
+  const unlocked = userUnlockedLessons();   // Set of "L{N}W{M}"
+  const weekFilter = Array.isArray(quizConfig.weeks) ? quizConfig.weeks : [];
+
+  const isAdmin = CURRENT_USER && CURRENT_USER.role === 'admin';
+
+  all = all.filter(e => {
+    const meta = vocabLessonOf(e);
+    if (meta) {
+      // Lesson-tagged vocab: must be from an unlocked lesson
+      const lid = `L${meta.level}W${meta.week}`;
+      if (!unlocked.has(lid)) return false;
+      if (quizConfig.level !== 'all' && meta.level !== quizConfig.level) return false;
+      if (weekFilter.length > 0 && !weekFilter.includes(meta.week)) return false;
+      return true;
+    }
+    // Non-lesson-tagged vocab (Surah, prayer):
+    //   - admins: shown when no level/week narrowing is applied
+    //   - non-admins: never shown (gated curriculum only)
+    if (!isAdmin) return false;
+    if (quizConfig.level !== 'all' || weekFilter.length > 0) return false;
+    return true;
+  });
   return all;
 }
 
@@ -2098,6 +2193,33 @@ venv/bin/python build_vocab.py</code></pre>
     `<button class="quiz-pill ${quizConfig.length === n ? 'active' : ''}" onclick="setQuizConfig('length',${n})">${n}</button>`
   ).join('');
 
+  // Level pills: only show levels with at least one unlocked week
+  const allowedLevels = userUnlockedLevelSet();
+  const levelOptions = [{id:'all', label:t('quizAll')}].concat(
+    [1,2,3].filter(L => allowedLevels.has(L)).map(L => ({id:L, label:String(L)}))
+  );
+  const levelPills = levelOptions.map(it =>
+    `<button class="quiz-pill ${quizConfig.level === it.id ? 'active' : ''}" onclick="setQuizConfig('level', ${typeof it.id === 'string' ? `'${it.id}'` : it.id})">${escapeHtml(it.label)}</button>`
+  ).join('');
+
+  // Week pills: only weeks the user has unlocked for the selected level
+  const selected = Array.isArray(quizConfig.weeks) ? quizConfig.weeks : [];
+  let weekPills;
+  if (quizConfig.level === 'all') {
+    weekPills = `<span style="font-size:0.78rem;color:var(--muted);font-style:italic">${t('quizPickLevelFirst')}</span>`;
+  } else {
+    const allowedWeeks = [...userUnlockedWeeksOfLevel(quizConfig.level)].sort((a,b) => a - b);
+    if (allowedWeeks.length === 0) {
+      weekPills = `<span style="font-size:0.78rem;color:var(--muted);font-style:italic">—</span>`;
+    } else {
+      weekPills =
+        `<button class="quiz-pill ${selected.length === 0 ? 'active' : ''}" onclick="clearQuizWeeks()">${escapeHtml(t('quizAll'))}</button>` +
+        allowedWeeks.map(w =>
+          `<button class="quiz-pill ${selected.includes(w) ? 'active' : ''}" onclick="toggleQuizWeek(${w})">${w}</button>`
+        ).join('');
+    }
+  }
+
   main.innerHTML = `
     <div class="topic-header">
       <h2>${ref.title[lang]}</h2>
@@ -2120,6 +2242,14 @@ venv/bin/python build_vocab.py</code></pre>
             <span class="quiz-option-label">${t('quizScope')}</span>
             <div class="quiz-pills">${pillsHtml(scopes, quizConfig.scope, 'scope')}</div>
           </div>
+          <div class="quiz-option-group">
+            <span class="quiz-option-label">${t('quizLevel')}</span>
+            <div class="quiz-pills">${levelPills}</div>
+          </div>
+          <div class="quiz-option-group">
+            <span class="quiz-option-label">${t('quizWeek')}</span>
+            <div class="quiz-pills">${weekPills}</div>
+          </div>
         </div>
         <button class="btn-primary" onclick="startQuiz()" ${pool.length < 4 ? 'disabled' : ''}>${t('quizStart')}</button>
       </div>
@@ -2128,6 +2258,20 @@ venv/bin/python build_vocab.py</code></pre>
 
 function setQuizConfig(key, value) {
   quizConfig[key] = value;
+  if (key === 'level') quizConfig.weeks = [];   // reset week scope when level changes
+  renderQuizSetup(currentView.ref);
+}
+
+function toggleQuizWeek(w) {
+  const arr = Array.isArray(quizConfig.weeks) ? quizConfig.weeks.slice() : [];
+  const i = arr.indexOf(w);
+  if (i >= 0) arr.splice(i, 1); else arr.push(w);
+  quizConfig.weeks = arr.sort((a, b) => a - b);
+  renderQuizSetup(currentView.ref);
+}
+
+function clearQuizWeeks() {
+  quizConfig.weeks = [];
   renderQuizSetup(currentView.ref);
 }
 
@@ -3332,18 +3476,583 @@ function escapeHtml(str) {
     .replace(/\n/g, '<br>');
 }
 
+// ─── User session (auth) ──────────────────────────────────────────────────────
+
+let CURRENT_USER = null;   // { id, email, role, unlocks: [...] } when logged in
+
+async function fetchCurrentUser() {
+  try {
+    const res = await fetch('/api/auth/me', { credentials: 'same-origin' });
+    if (!res.ok) return null;
+    const data = await res.json();
+    CURRENT_USER = data.authenticated ? data.user : null;
+    return CURRENT_USER;
+  } catch {
+    CURRENT_USER = null;
+    return null;
+  }
+}
+
+function renderUserChip() {
+  const el = document.getElementById('user-chip');
+  if (!el) return;
+  if (!CURRENT_USER) { el.innerHTML = ''; return; }
+  const labels = {
+    tr: { logout: 'Çıkış', admin: 'Yönetici' },
+    en: { logout: 'Logout', admin: 'Admin' },
+    ar: { logout: 'خروج',  admin: 'إدارة' },
+  }[lang] || { logout: 'Logout', admin: 'Admin' };
+  const adminBtn = CURRENT_USER.role === 'admin'
+    ? `<button class="admin-link" onclick="openAdminPanel()">${labels.admin}</button>` : '';
+  el.innerHTML = `
+    <span class="user-email">${escapeHtml(CURRENT_USER.email)}</span>
+    ${adminBtn}
+    <button onclick="logout()">${labels.logout}</button>`;
+}
+
+function isLessonUnlocked(level, lesson) {
+  if (!CURRENT_USER) return false;
+  if (CURRENT_USER.role === 'admin') return true;
+  const levelNum = LEVELS.indexOf(level) + 1;
+  return CURRENT_USER.unlocks.includes(`L${levelNum}W${lesson.week}`);
+}
+
+function renderLoginScreen(errorMsg) {
+  const fbCredit = (I18N[lang] || I18N.en).footerCredit || '';
+  const labels = {
+    tr: { title: 'Giriş Yap', email: 'E-posta', password: 'Şifre', submit: 'Giriş Yap', err: 'Geçersiz e-posta veya şifre.' },
+    en: { title: 'Sign In',   email: 'Email',   password: 'Password', submit: 'Sign In',  err: 'Invalid email or password.' },
+    ar: { title: 'تسجيل الدخول', email: 'البريد الإلكتروني', password: 'كلمة المرور', submit: 'تسجيل الدخول', err: 'بريد إلكتروني أو كلمة مرور غير صحيحة.' },
+  }[lang] || { title: 'Sign In', email: 'Email', password: 'Password', submit: 'Sign In', err: 'Invalid login.' };
+
+  document.body.innerHTML = `
+    <style>
+      .auth-shell { display: flex; align-items: center; justify-content: center; height: 100vh; background: var(--bg, #f5f4ee); }
+      .auth-card { background: #fff; border-radius: 14px; box-shadow: 0 10px 40px rgba(0,0,0,0.12); padding: 32px 36px; width: 100%; max-width: 380px; }
+      .auth-card h1 { color: #0e4f29; margin-bottom: 4px; font-size: 1.4rem; }
+      .auth-card .bismillah { font-size: 1.6rem; color: #0e4f29; text-align: center; margin-bottom: 14px; font-family: 'Amiri', serif; }
+      .auth-card label { display: block; font-size: 0.75rem; font-weight: 700; color: #6b7280; text-transform: uppercase; letter-spacing: 0.06em; margin: 14px 0 4px; }
+      .auth-card input { width: 100%; padding: 10px 12px; border: 1.5px solid #e5e7eb; border-radius: 8px; font-size: 0.95rem; font-family: inherit; box-sizing: border-box; }
+      .auth-card input:focus { outline: none; border-color: #0e4f29; }
+      .auth-card button { width: 100%; padding: 12px; margin-top: 18px; background: #0e4f29; color: #fff; border: none; border-radius: 8px; font-size: 0.95rem; font-weight: 600; cursor: pointer; }
+      .auth-card button:hover { background: #126b39; }
+      .auth-error { color: #991b1b; background: #fee2e2; padding: 8px 12px; border-radius: 6px; font-size: 0.85rem; margin-top: 12px; display: ${errorMsg ? 'block' : 'none'}; }
+      .auth-foot { margin-top: 18px; font-size: 0.72rem; color: #9ca3af; text-align: center; line-height: 1.5; font-style: italic; }
+    </style>
+    <div class="auth-shell">
+      <form class="auth-card" onsubmit="event.preventDefault(); attemptLogin();">
+        <div class="bismillah">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ</div>
+        <h1>${labels.title}</h1>
+        <label>${labels.email}</label>
+        <input type="email" id="auth-email" required autofocus />
+        <label>${labels.password}</label>
+        <input type="password" id="auth-password" required />
+        <div class="auth-error" id="auth-error">${errorMsg ? labels.err : ''}</div>
+        <button type="submit">${labels.submit}</button>
+        <div class="auth-foot">${escapeHtml(fbCredit)}</div>
+      </form>
+    </div>`;
+}
+
+async function attemptLogin() {
+  const email = document.getElementById('auth-email').value.trim();
+  const password = document.getElementById('auth-password').value;
+  try {
+    const res = await fetch('/api/auth/login', {
+      method: 'POST', credentials: 'same-origin',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email, password }),
+    });
+    if (!res.ok) {
+      renderLoginScreen('err');
+      return;
+    }
+    // Refresh: simplest way to re-init the SPA with the new session
+    window.location.reload();
+  } catch {
+    renderLoginScreen('err');
+  }
+}
+
+async function logout() {
+  try { await fetch('/api/auth/logout', { method: 'POST', credentials: 'same-origin' }); } catch {}
+  window.location.reload();
+}
+
+// ─── Admin panel ──────────────────────────────────────────────────────────────
+
+// Set of classroom IDs whose student cards are currently expanded.
+const expandedClassrooms = new Set();
+
+function adminToggleClassroom(cid) {
+  if (expandedClassrooms.has(cid)) expandedClassrooms.delete(cid);
+  else expandedClassrooms.add(cid);
+  openAdminPanel();
+}
+
+async function openAdminPanel() {
+  if (!CURRENT_USER || CURRENT_USER.role !== 'admin') return;
+  currentView = { type: 'admin' };   // mark so renderSidebar deselects everything
+  expandedLevel = null;
+  renderSidebar();
+  const main = document.getElementById('main');
+  main.innerHTML = `<div class="topic-header"><h2>👥 Admin</h2><p>Loading…</p></div>`;
+  try {
+    const [u, c] = await Promise.all([
+      fetch('/api/admin/users', { credentials: 'same-origin' }).then(r => r.json()),
+      fetch('/api/admin/classrooms', { credentials: 'same-origin' }).then(r => r.json()),
+    ]);
+    renderAdminPanel(u.users, u.all_lessons, c.classrooms);
+  } catch (e) {
+    main.innerHTML = `<div class="topic-header"><h2>Admin</h2><p style="color:#991b1b">Error: ${escapeHtml(e.message)}</p></div>`;
+  }
+}
+
+function renderAdminPanel(users, allLessons, classrooms) {
+  const main = document.getElementById('main');
+  classrooms = classrooms || [];
+  // Group lesson IDs by level for compact rendering
+  const byLevel = {1:[], 2:[], 3:[]};
+  for (const lid of allLessons) {
+    const m = lid.match(/^L(\d)W(\d+)$/);
+    if (m) byLevel[+m[1]].push(+m[2]);
+  }
+
+  // ── Classroom cards ──
+  const renderUnlockGrid = (scope, ownerId, unlockSet, toggleFn, levelAllFn) =>
+    [1,2,3].map(L => {
+      const cells = byLevel[L].map(W => {
+        const id = `L${L}W${W}`;
+        const checked = unlockSet.has(id);
+        return `<label class="ad-cell ${checked ? 'on' : ''}"><input type="checkbox" data-${scope}="${ownerId}" data-lid="${id}" ${checked ? 'checked' : ''} onchange="${toggleFn}(${ownerId})"/><span>${W}</span></label>`;
+      }).join('');
+      return `<div class="ad-level"><div class="ad-level-head">L${L}<button class="ad-level-all" onclick="${levelAllFn}(${ownerId}, ${L})">Unlock all 14</button></div><div class="ad-cells">${cells}</div></div>`;
+    }).join('');
+
+  // (chip strip is no longer needed — members render as full cards inside their classroom)
+
+  // ── User rows (with classroom dropdown) ──
+  const classroomOptions = (selected) =>
+    `<option value="">— none —</option>` +
+    classrooms.map(c => `<option value="${c.id}" ${selected === c.id ? 'selected' : ''}>${escapeHtml(c.name)}</option>`).join('');
+
+  // Map classroom_id → its unlock set so we can mark inheritance per user.
+  const classroomUnlockSet = {};
+  for (const c of classrooms) classroomUnlockSet[c.id] = new Set(c.unlocks);
+
+  function buildUserRow(u) {
+    // Visual rule:
+    //   - covered by classroom → striped (inherit)
+    //   - personal extra NOT in classroom → solid (on)
+    //   - else → empty
+    const personalSet = new Set(u.personal_unlocks);
+    const inheritedSet = u.classroom_id && classroomUnlockSet[u.classroom_id]
+      ? classroomUnlockSet[u.classroom_id]
+      : new Set();
+    const grids = [1,2,3].map(L => {
+      const cells = byLevel[L].map(W => {
+        const id = `L${L}W${W}`;
+        const personalChecked = personalSet.has(id);
+        const inherited = inheritedSet.has(id);
+        // Striped wins over solid: if classroom covers it, the personal toggle is redundant
+        const cls = inherited ? 'inherit' : (personalChecked ? 'on' : '');
+        const title = inherited
+          ? (personalChecked ? 'inherited from classroom (personal is redundant)' : 'inherited from classroom')
+          : (personalChecked ? 'personal extra' : '');
+        return `<label class="ad-cell ${cls}" title="${title}"><input type="checkbox" data-uid="${u.id}" data-lid="${id}" ${personalChecked ? 'checked' : ''} onchange="adminToggleUnlock(${u.id})"/><span>${W}</span></label>`;
+      }).join('');
+      return `<div class="ad-level"><div class="ad-level-head">L${L}<button class="ad-level-all" onclick="adminUnlockLevel(${u.id}, ${L})">Unlock all 14</button></div><div class="ad-cells">${cells}</div></div>`;
+    }).join('');
+
+    const isSelf = CURRENT_USER && CURRENT_USER.id === u.id;
+    return `
+      <div class="ad-user">
+        <div class="ad-user-head">
+          <div>
+            <span class="ad-email">${escapeHtml(u.display_name)}</span>
+            ${u.display_name !== u.email ? `<span class="ad-meta">&lt;${escapeHtml(u.email)}&gt;</span>` : ''}
+            <span class="ad-role role-${u.role}">${u.role}</span>
+            ${u.last_login ? `<span class="ad-meta">last: ${escapeHtml(u.last_login.slice(0,16).replace('T',' '))}</span>` : '<span class="ad-meta">never logged in</span>'}
+            <button class="btn-secondary" onclick="adminEditName(${u.id}, '${(u.first_name || '').replace(/'/g, '&#39;')}', '${(u.last_name || '').replace(/'/g, '&#39;')}')" style="padding:2px 8px; font-size:0.72rem; margin-left:6px;">✏ name</button>
+          </div>
+          <div style="display:flex; gap:8px; align-items:center; flex-wrap:wrap;">
+            <label style="font-size:0.74rem;color:var(--muted);">Role:</label>
+            <select onchange="adminSetRole(${u.id}, this.value)" ${isSelf ? 'disabled title="You cannot change your own role"' : ''} style="padding:5px 10px; border:1.5px solid var(--border); border-radius:6px; font-family:inherit; font-size:0.82rem;">
+              <option value="user" ${u.role === 'user' ? 'selected' : ''}>user</option>
+              <option value="admin" ${u.role === 'admin' ? 'selected' : ''}>admin</option>
+            </select>
+            <label style="font-size:0.74rem;color:var(--muted);">Classroom:</label>
+            <select onchange="adminAssignClassroom(${u.id}, this.value)" style="padding:5px 10px; border:1.5px solid var(--border); border-radius:6px; font-family:inherit; font-size:0.82rem;">${classroomOptions(u.classroom_id)}</select>
+            <button class="btn-secondary" onclick="adminResetPassword(${u.id}, '${escapeHtml(u.email).replace(/'/g, '&#39;')}')" style="padding:5px 12px; font-size:0.78rem;">Reset password</button>
+            ${isSelf ? '' : `<button class="btn-secondary" onclick="adminDeleteUser(${u.id}, '${escapeHtml(u.email).replace(/'/g, '&#39;')}')" style="padding:5px 12px; font-size:0.78rem; color:#991b1b; border-color:#fecaca;">Delete</button>`}
+          </div>
+        </div>
+        <div class="ad-hint">Striped = inherited from classroom. Solid = personal extra beyond the classroom. Toggle a checkbox to grant a one-off override.</div>
+        <div class="ad-grids">${grids}</div>
+      </div>`;
+  }
+
+  // ── Group users for the new layout ──
+  const adminUsers = users.filter(u => u.role === 'admin');
+  const studentsByClassroom = {};
+  const unassignedStudents = [];
+  for (const u of users) {
+    if (u.role === 'admin') continue;
+    if (u.classroom_id && classroomUnlockSet[u.classroom_id]) {
+      (studentsByClassroom[u.classroom_id] = studentsByClassroom[u.classroom_id] || []).push(u);
+    } else {
+      unassignedStudents.push(u);
+    }
+  }
+
+  // Build the classroom shells (each contains its students)
+  const classroomBlocks = classrooms.map(c => {
+    const set = new Set(c.unlocks);
+    const members = studentsByClassroom[c.id] || [];
+    const isExpanded = expandedClassrooms.has(c.id);
+    const memberCards = members.length
+      ? members.map(buildUserRow).join('')
+      : `<div class="cr-empty">No students assigned yet. Use the user creation form above or change a user's classroom.</div>`;
+    const toggleLabel = isExpanded ? '▾ Collapse students' : '▸ Expand students';
+    return `
+      <div class="cr-shell ${isExpanded ? '' : 'collapsed'}">
+        <div class="cr-head">
+          <div>
+            <span class="cr-icon">🏫</span>
+            <span class="cr-name">${escapeHtml(c.name)}</span>
+            <span class="cr-meta">${members.length} students · ${set.size} unlocks</span>
+          </div>
+          <div style="display:flex; gap:8px;">
+            ${members.length ? `<button class="btn-secondary cr-expand-btn" onclick="adminToggleClassroom(${c.id})" style="padding:5px 12px; font-size:0.78rem;">${toggleLabel}</button>` : ''}
+            <button class="btn-secondary" onclick="adminRenameClassroom(${c.id}, '${escapeHtml(c.name).replace(/'/g, '&#39;')}')" style="padding:5px 12px; font-size:0.78rem;">Rename</button>
+            <button class="btn-secondary" onclick="adminDeleteClassroom(${c.id}, '${escapeHtml(c.name).replace(/'/g, '&#39;')}')" style="padding:5px 12px; font-size:0.78rem; color:#991b1b; border-color:#fecaca;">Delete</button>
+          </div>
+        </div>
+        <div class="cr-grid-label">Classroom unlocks (apply to all students below)</div>
+        <div class="ad-grids">${renderUnlockGrid('cid', c.id, set, 'adminToggleClassroomUnlock', 'adminUnlockClassroomLevel')}</div>
+        <div class="cr-students-head">Students <span class="cr-meta">(${members.length})</span></div>
+        <div class="cr-students">${memberCards}</div>
+      </div>`;
+  }).join('');
+
+  const adminCards = adminUsers.map(buildUserRow).join('');
+  const unassignedCards = unassignedStudents.map(buildUserRow).join('');
+
+  main.innerHTML = `
+    <style>
+      .ad-create { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 18px 20px; margin-bottom: 18px; display: flex; flex-wrap: wrap; gap: 10px; align-items: end; }
+      .ad-create input { padding: 8px 10px; border: 1.5px solid var(--border); border-radius: 8px; font-family: inherit; font-size: 0.9rem; }
+      .ad-create label { font-size: 0.72rem; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; display:block; margin-bottom:4px; }
+      .ad-user { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 16px 20px; margin-bottom: 14px; box-shadow: var(--shadow); }
+      .ad-user-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 12px; flex-wrap: wrap; }
+      .ad-email { font-weight: 600; color: var(--text); margin-right: 10px; }
+      .ad-role { font-size: 0.72rem; padding: 2px 8px; border-radius: 999px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; margin-right: 10px; }
+      .ad-role.role-admin { background: #fef3c7; color: #78350f; }
+      .ad-role.role-user { background: #dbeafe; color: #1e3a8a; }
+      .ad-meta { font-size: 0.78rem; color: var(--muted); }
+      .ad-grids { display: flex; gap: 18px; flex-wrap: wrap; }
+      .ad-level { flex: 1; min-width: 280px; }
+      .ad-level-head { display: flex; justify-content: space-between; align-items: center; font-size: 0.78rem; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 6px; }
+      .ad-level-all { background: transparent; border: 1px solid var(--green); color: var(--green); border-radius: 12px; padding: 2px 10px; font-size: 0.72rem; cursor: pointer; }
+      .ad-level-all:hover { background: var(--green-pale); }
+      .ad-cells { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; }
+      .ad-cell { display: flex; align-items: center; justify-content: center; padding: 5px; background: #f9fafb; border-radius: 4px; font-size: 0.82rem; cursor: pointer; border: 1.5px solid transparent; }
+      .ad-cell input { display: none; }
+      .ad-cell.on { background: var(--green-pale); border-color: var(--green); color: var(--green); font-weight: 700; }
+      .ad-cell.inherit {
+        background-color: #a7e6c0;
+        background-image: repeating-linear-gradient(45deg, transparent 0 6px, rgba(14, 79, 41, 0.18) 6px 8px);
+        border-color: #15803d; color: #064a25; font-weight: 700;
+      }
+      .ad-cell:hover { border-color: var(--green); }
+      .ad-hint { font-size: 0.74rem; color: var(--muted); font-style: italic; margin-bottom: 6px; }
+      .ad-section-head { font-size: 1.05rem; font-weight: 700; color: var(--green); margin: 28px 0 12px; padding-bottom: 6px; border-bottom: 2px solid var(--green-pale); }
+      .ad-section-head:first-child { margin-top: 0; }
+      /* Merged Create card with tabs */
+      .ad-create-card {
+        background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+        margin-bottom: 24px; box-shadow: var(--shadow); overflow: hidden;
+      }
+      .ad-create-tabs { display: flex; border-bottom: 1px solid var(--border); background: #fafaf7; }
+      .ad-create-tab {
+        flex: 0 0 auto; padding: 12px 22px; background: transparent; border: none;
+        font-family: inherit; font-size: 0.9rem; font-weight: 600; color: var(--muted);
+        cursor: pointer; border-bottom: 3px solid transparent; transition: all 0.15s;
+      }
+      .ad-create-tab:hover { color: var(--green); background: var(--green-pale); }
+      .ad-create-tab.active { color: var(--green); border-bottom-color: var(--green); background: var(--card); }
+      .ad-create-body { padding: 16px 18px; }
+      .ad-create-body .ad-create { margin-bottom: 0; padding: 0; background: none; border: none; box-shadow: none; }
+      /* Classroom outer shell — distinct indigo accent so it visually wraps its students */
+      .cr-shell {
+        background: #f5f3ff;
+        border: 2px solid #6366f1;
+        border-radius: 14px;
+        padding: 18px 20px;
+        margin-bottom: 22px;
+        box-shadow: 0 2px 6px rgba(99, 102, 241, 0.08);
+      }
+      .cr-head {
+        display: flex; justify-content: space-between; align-items: center;
+        gap: 12px; flex-wrap: wrap; margin-bottom: 12px;
+        padding-bottom: 10px; border-bottom: 1px dashed #c7d2fe;
+      }
+      .cr-icon { font-size: 1.2rem; margin-right: 6px; }
+      .cr-name { font-weight: 700; font-size: 1.05rem; color: #312e81; }
+      .cr-meta { font-size: 0.82rem; color: #6b7280; margin-left: 8px; }
+      .cr-grid-label, .cr-students-head {
+        font-size: 0.74rem; font-weight: 700; color: #4338ca;
+        text-transform: uppercase; letter-spacing: 0.06em;
+        margin: 12px 0 6px;
+      }
+      .cr-students { display: flex; flex-direction: column; gap: 10px; padding-left: 14px; border-left: 3px solid #c7d2fe; }
+      body.rtl .cr-students { padding-left: 0; padding-right: 14px; border-left: none; border-right: 3px solid #c7d2fe; }
+      .cr-empty { color: var(--muted); font-style: italic; padding: 12px 0; padding-left: 4px; }
+
+      /* Collapsed mode: student cards show only the display name */
+      .cr-shell.collapsed .cr-students { display: flex; flex-direction: row; flex-wrap: wrap; gap: 6px; padding-left: 14px; }
+      body.rtl .cr-shell.collapsed .cr-students { padding-left: 0; padding-right: 14px; }
+      .cr-shell.collapsed .cr-students .ad-user {
+        margin: 0; padding: 6px 12px; box-shadow: none;
+        background: #eef2ff; border: 1px solid #c7d2fe; border-radius: 14px;
+      }
+      .cr-shell.collapsed .ad-user-head { margin: 0; padding: 0; border: none; }
+      /* Hide everything in the head except the display name + role chip */
+      .cr-shell.collapsed .ad-user-head .ad-meta,
+      .cr-shell.collapsed .ad-user-head button,
+      .cr-shell.collapsed .ad-user-head label,
+      .cr-shell.collapsed .ad-user-head select,
+      .cr-shell.collapsed .cr-students .ad-hint,
+      .cr-shell.collapsed .cr-students .ad-grids { display: none !important; }
+      .cr-shell.collapsed .ad-user-head > div:nth-child(2) { display: none; }
+      .cr-shell.collapsed .ad-email { font-size: 0.88rem; font-weight: 600; color: #312e81; }
+      .cr-shell.collapsed .ad-role { font-size: 0.66rem; padding: 1px 6px; }
+    </style>
+    <div class="topic-header">
+      <h2>👥 Admin</h2>
+      <p>Classrooms hold their students. Each classroom's unlocks apply to every student inside it. Use the personal grid on a student card for one-off overrides.</p>
+    </div>
+    <div class="section">
+      <div class="ad-create-card">
+        <div class="ad-create-tabs">
+          <button class="ad-create-tab active" id="ad-tab-user" onclick="adminSwitchCreateTab('user')">👤 New user</button>
+          <button class="ad-create-tab" id="ad-tab-classroom" onclick="adminSwitchCreateTab('classroom')">🏫 New classroom</button>
+        </div>
+        <div class="ad-create-body" id="ad-tab-body-user">
+          <div class="ad-create">
+            <div><label>First name</label><input type="text" id="ad-new-first" placeholder="Ahmet" /></div>
+            <div><label>Last name</label><input type="text" id="ad-new-last" placeholder="Yılmaz" /></div>
+            <div><label>Email</label><input type="email" id="ad-new-email" placeholder="user@example.com" /></div>
+            <div><label>Initial password</label><input type="text" id="ad-new-password" placeholder="≥6 chars" /></div>
+            <div><label>Role</label><select id="ad-new-role" style="padding:8px 10px; border:1.5px solid var(--border); border-radius:8px; font-family:inherit; font-size:0.9rem;"><option value="user">user</option><option value="admin">admin</option></select></div>
+            <div><label>Classroom</label><select id="ad-new-classroom" style="padding:8px 10px; border:1.5px solid var(--border); border-radius:8px; font-family:inherit; font-size:0.9rem;">${classroomOptions(null)}</select></div>
+            <button class="btn-primary" onclick="adminCreateUser()" style="padding:9px 18px;">Create user</button>
+          </div>
+        </div>
+        <div class="ad-create-body" id="ad-tab-body-classroom" style="display:none">
+          <div class="ad-create">
+            <div style="flex: 1; min-width: 280px;"><label>Classroom name</label><input type="text" id="ad-new-classroom-name" placeholder="e.g. Spring 2026 — Beginners" style="width: 100%;" /></div>
+            <button class="btn-primary" onclick="adminCreateClassroom()" style="padding:9px 18px;">Create classroom</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="ad-section-head">🏫 Classrooms</div>
+      ${classroomBlocks || '<p style="color:var(--muted);font-style:italic">No classrooms yet — create one using the form above.</p>'}
+
+      ${unassignedCards ? `<div class="ad-section-head">👤 Unassigned students</div>${unassignedCards}` : ''}
+
+      <div class="ad-section-head">🛡️ Admins</div>
+      ${adminCards || '<p style="color:var(--muted);font-style:italic">No admin users.</p>'}
+    </div>`;
+}
+
+function adminSwitchCreateTab(which) {
+  document.getElementById('ad-tab-user').classList.toggle('active', which === 'user');
+  document.getElementById('ad-tab-classroom').classList.toggle('active', which === 'classroom');
+  document.getElementById('ad-tab-body-user').style.display = which === 'user' ? '' : 'none';
+  document.getElementById('ad-tab-body-classroom').style.display = which === 'classroom' ? '' : 'none';
+}
+
+async function adminToggleUnlock(userId) {
+  const checks = document.querySelectorAll(`.ad-cell input[data-uid="${userId}"]`);
+  const ids = [...checks].filter(c => c.checked).map(c => c.dataset.lid);
+  const res = await fetch(`/api/admin/users/${userId}/unlocks`, {
+    method: 'POST', credentials: 'same-origin',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ lesson_ids: ids }),
+  });
+  if (res.ok) {
+    // Update visuals: toggle .on class on each cell
+    checks.forEach(c => c.closest('.ad-cell').classList.toggle('on', c.checked));
+  }
+}
+
+async function adminUnlockLevel(userId, level) {
+  const checks = document.querySelectorAll(`.ad-cell input[data-uid="${userId}"]`);
+  // Collect existing checked + add all 14 of this level
+  const ids = new Set([...checks].filter(c => c.checked).map(c => c.dataset.lid));
+  for (let w = 1; w <= 14; w++) ids.add(`L${level}W${w}`);
+  const res = await fetch(`/api/admin/users/${userId}/unlocks`, {
+    method: 'POST', credentials: 'same-origin',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ lesson_ids: [...ids] }),
+  });
+  if (res.ok) openAdminPanel();
+}
+
+async function adminCreateUser() {
+  const email = document.getElementById('ad-new-email').value.trim();
+  const password = document.getElementById('ad-new-password').value;
+  const role = document.getElementById('ad-new-role').value;
+  const first_name = document.getElementById('ad-new-first').value.trim();
+  const last_name = document.getElementById('ad-new-last').value.trim();
+  const classroomVal = document.getElementById('ad-new-classroom').value;
+  const classroom_id = classroomVal ? parseInt(classroomVal) : null;
+  if (!email || !password) { alert('email + password required'); return; }
+  const res = await fetch('/api/admin/users', {
+    method: 'POST', credentials: 'same-origin',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ email, password, role, first_name, last_name, classroom_id }),
+  });
+  const data = await res.json();
+  if (!res.ok) { alert('Error: ' + (data.error || res.status)); return; }
+  ['ad-new-email','ad-new-password','ad-new-first','ad-new-last'].forEach(id => document.getElementById(id).value = '');
+  document.getElementById('ad-new-classroom').value = '';
+  openAdminPanel();
+}
+
+async function adminEditName(userId, currentFirst, currentLast) {
+  const f = prompt('First name:', currentFirst);
+  if (f === null) return;
+  const l = prompt('Last name:', currentLast);
+  if (l === null) return;
+  const res = await fetch(`/api/admin/users/${userId}/name`, {
+    method: 'POST', credentials: 'same-origin',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ first_name: f.trim(), last_name: l.trim() }),
+  });
+  if (res.ok) openAdminPanel(); else alert('Failed: ' + res.status);
+}
+
+async function adminDeleteUser(userId, email) {
+  if (!confirm(`Delete user ${email}? This is permanent.`)) return;
+  const res = await fetch(`/api/admin/users/${userId}`, { method: 'DELETE', credentials: 'same-origin' });
+  if (res.ok) openAdminPanel();
+  else alert('Failed: ' + res.status);
+}
+
+async function adminCreateClassroom() {
+  const el = document.getElementById('ad-new-classroom-name');
+  const name = el.value.trim();
+  if (!name) { alert('Classroom name required'); return; }
+  const res = await fetch('/api/admin/classrooms', {
+    method: 'POST', credentials: 'same-origin',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ name }),
+  });
+  const data = await res.json();
+  if (!res.ok) { alert('Error: ' + (data.error || res.status)); return; }
+  el.value = '';
+  openAdminPanel();
+}
+
+async function adminRenameClassroom(cid, currentName) {
+  const newName = prompt('New name:', currentName);
+  if (!newName || newName.trim() === currentName) return;
+  const res = await fetch(`/api/admin/classrooms/${cid}/rename`, {
+    method: 'POST', credentials: 'same-origin',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ name: newName.trim() }),
+  });
+  if (res.ok) openAdminPanel(); else alert('Failed: ' + res.status);
+}
+
+async function adminDeleteClassroom(cid, name) {
+  if (!confirm(`Delete classroom "${name}"? Members will be unassigned (their personal unlocks remain).`)) return;
+  const res = await fetch(`/api/admin/classrooms/${cid}`, { method: 'DELETE', credentials: 'same-origin' });
+  if (res.ok) openAdminPanel(); else alert('Failed: ' + res.status);
+}
+
+async function adminToggleClassroomUnlock(cid) {
+  const checks = document.querySelectorAll(`.ad-cell input[data-cid="${cid}"]`);
+  const ids = [...checks].filter(c => c.checked).map(c => c.dataset.lid);
+  const res = await fetch(`/api/admin/classrooms/${cid}/unlocks`, {
+    method: 'POST', credentials: 'same-origin',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ lesson_ids: ids }),
+  });
+  if (res.ok) {
+    checks.forEach(c => c.closest('.ad-cell').classList.toggle('on', c.checked));
+    // Reload to update inherited indicators on user rows
+    setTimeout(openAdminPanel, 250);
+  }
+}
+
+async function adminUnlockClassroomLevel(cid, level) {
+  const checks = document.querySelectorAll(`.ad-cell input[data-cid="${cid}"]`);
+  const ids = new Set([...checks].filter(c => c.checked).map(c => c.dataset.lid));
+  for (let w = 1; w <= 14; w++) ids.add(`L${level}W${w}`);
+  const res = await fetch(`/api/admin/classrooms/${cid}/unlocks`, {
+    method: 'POST', credentials: 'same-origin',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ lesson_ids: [...ids] }),
+  });
+  if (res.ok) openAdminPanel();
+}
+
+async function adminSetRole(userId, role) {
+  const res = await fetch(`/api/admin/users/${userId}/role`, {
+    method: 'POST', credentials: 'same-origin',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ role }),
+  });
+  const data = await res.json();
+  if (res.ok) openAdminPanel();
+  else { alert('Failed: ' + (data.error || res.status)); openAdminPanel(); }
+}
+
+async function adminAssignClassroom(userId, cidStr) {
+  const cid = cidStr ? parseInt(cidStr) : null;
+  const res = await fetch(`/api/admin/users/${userId}/classroom`, {
+    method: 'POST', credentials: 'same-origin',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ classroom_id: cid }),
+  });
+  if (res.ok) openAdminPanel(); else alert('Failed: ' + res.status);
+}
+
+async function adminResetPassword(userId, email) {
+  const pw = prompt(`New password for ${email}:`);
+  if (!pw || pw.length < 6) { if (pw !== null) alert('Password must be ≥6 chars'); return; }
+  const res = await fetch(`/api/admin/users/${userId}/password`, {
+    method: 'POST', credentials: 'same-origin',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ password: pw }),
+  });
+  if (res.ok) alert('Password reset.');
+  else alert('Failed: ' + res.status);
+}
+
 // ─── Init ─────────────────────────────────────────────────────────────────────
 
-setLang(lang);   // applies the default language (TR) to body class, sidebar, welcome text, etc.
+(async function bootstrap() {
+  await fetchCurrentUser();
+  if (!CURRENT_USER) {
+    renderLoginScreen();
+    return;
+  }
+  setLang(lang);   // applies the default language (TR) to body class, sidebar, welcome text, etc.
 
-// Keep the FAB clearance accurate as the viewport resizes.
-window.addEventListener('resize', () => {
-  const f = document.getElementById('site-footer');
-  if (f) document.documentElement.style.setProperty('--footer-h', f.offsetHeight + 'px');
-});
-ensureLecturesLoaded().then(() => {
-  if (searchQuery.trim()) renderSearchResultsMain(searchQuery.trim());
-});
+  // Keep the FAB clearance accurate as the viewport resizes.
+  window.addEventListener('resize', () => {
+    const f = document.getElementById('site-footer');
+    if (f) document.documentElement.style.setProperty('--footer-h', f.offsetHeight + 'px');
+  });
+  ensureLecturesLoaded().then(() => {
+    if (searchQuery.trim()) renderSearchResultsMain(searchQuery.trim());
+  });
+})();
 </script>
 </body>
 </html>
