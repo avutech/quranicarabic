@@ -86,6 +86,17 @@ load_env_file()
 #   gemini-2.5-flash-lite  : 30 RPM, 1500 RPD  (good quality, much higher free quota)
 #   gemini-2.5-pro         : 5  RPM, 100 RPD   (highest quality, paid recommended)
 GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash-lite")
+# The Curriculum-Limited (grounded) module lets the user pick the Gemini model
+# per analysis. GEMINI_GROUNDED_MODEL is the DEFAULT (used when none selected)
+# and is the model the context cache is built for. Picking a non-default model
+# still works — it runs with the full curriculum inlined instead of cached.
+GEMINI_GROUNDED_MODEL = os.environ.get("GEMINI_GROUNDED_MODEL", "gemini-2.5-flash-lite")
+# Models the user is allowed to select for the grounded module.
+GROUNDED_MODEL_CHOICES = {
+    "gemini-2.5-flash-lite",
+    "gemini-2.5-flash",
+    "gemini-2.5-pro",
+}
 
 
 # Shared i'rab field-rule reference — injected into both /api/irab and
@@ -222,6 +233,165 @@ def load_lessons_index():
 
 
 LESSONS_INDEX, LESSONS_INDEX_SUMMARY = load_lessons_index()
+
+# OpenAI / curriculum-grounded model settings
+OPENAI_MODEL = os.environ.get("OPENAI_MODEL", "gpt-4o")
+
+
+def load_curriculum_text(compact=False):
+    """Flatten lectures.json into a plain-text knowledge base for the
+    curriculum-grounded modules.
+      - full (compact=False): every section's full body + examples. ~250k
+        tokens — fine for big-context models (Gemini 1M, Claude 200k+).
+      - compact (compact=True): section titles + examples only. ~20k tokens —
+        safe for gpt-4o's 128k window and tier-1 per-minute rate limits.
+    Returns '' if the file is absent."""
+    f = PORTAL_DIR / "lectures.json"
+    if not f.exists():
+        return ""
+    try:
+        data = json.loads(f.read_text())
+    except Exception:
+        return ""
+    chunks = []
+    if compact:
+        for lesson_id, lec in data.items():
+            titles, examples = [], []
+            for sec in lec.get("sections", []):
+                tt = (sec.get("title", {}) or {}).get("en", "")
+                if tt:
+                    titles.append(tt)
+                for ex in sec.get("examples", []):
+                    gloss = (ex.get("gloss", {}) or {}).get("en", "")
+                    examples.append(f"{ex.get('ar', '')} = {gloss}")
+            chunks.append(
+                f"[{lesson_id}] Topics: {'; '.join(titles)}"
+                + (f" | Examples: {', '.join(examples)}" if examples else "")
+            )
+    else:
+        for lesson_id, lec in data.items():
+            chunks.append(f"\n===== LESSON {lesson_id} =====")
+            for sec in lec.get("sections", []):
+                title = (sec.get("title", {}) or {}).get("en", "")
+                body = (sec.get("body", {}) or {}).get("en", "") or ""
+                chunks.append(f"## {title}")
+                if body:
+                    chunks.append(body)
+                for ex in sec.get("examples", []):
+                    gloss = (ex.get("gloss", {}) or {}).get("en", "")
+                    chunks.append(f"  • {ex.get('ar', '')} — {gloss}")
+    return "\n".join(chunks)
+
+
+CURRICULUM_FULL = load_curriculum_text(compact=False)
+CURRICULUM_COMPACT = load_curriculum_text(compact=True)
+
+# ─── Gemini context cache for the curriculum ─────────────────────────────────
+# The 42-week curriculum is uploaded to Gemini ONCE as a cached context; grounded
+# i'rab calls then reference it instead of re-sending ~250k tokens each time.
+CURRICULUM_CACHE_FILE = PORTAL_DIR / "curriculum_cache.json"
+CURRICULUM_CACHE_TTL = "2592000s"   # 30 days
+_cache_build_lock = __import__("threading").Lock()
+# system instruction baked into the cache
+CURRICULUM_CACHE_SYSTEM = (
+    "You are a curriculum-grounded Quranic Arabic grammar assistant. The cached "
+    "content is the COMPLETE 42-week curriculum and is your SOLE source of "
+    "grammatical knowledge. Use only the terminology, classifications, and rules "
+    "that appear in it. Do not introduce concepts absent from this curriculum. "
+    "If a verse contains a phenomenon the curriculum does not cover, say so in "
+    "that word's notes field."
+)
+
+
+def _cache_meta_load():
+    if CURRICULUM_CACHE_FILE.exists():
+        try:
+            return json.loads(CURRICULUM_CACHE_FILE.read_text())
+        except Exception:
+            return None
+    return None
+
+
+def _cache_meta_save(meta):
+    try:
+        CURRICULUM_CACHE_FILE.write_text(json.dumps(meta, indent=2))
+    except Exception as e:
+        print(f"[cache] meta save failed: {e}", file=sys.stderr)
+
+
+def build_curriculum_cache():
+    """Create (or replace) the Gemini context cache holding the full curriculum.
+    Returns the meta dict, or raises on failure."""
+    api_key = os.environ.get("GEMINI_API_KEY")
+    if not api_key:
+        raise RuntimeError("GEMINI_API_KEY not set")
+    if not CURRICULUM_FULL:
+        raise RuntimeError("Curriculum (lectures.json) is empty")
+    client = genai.Client(api_key=api_key)
+    # Delete any previous cache so we don't accrue storage on stale copies
+    old = _cache_meta_load()
+    if old and old.get("name"):
+        try:
+            client.caches.delete(name=old["name"])
+        except Exception:
+            pass
+    cache = client.caches.create(
+        model=GEMINI_GROUNDED_MODEL,
+        config=genai_types.CreateCachedContentConfig(
+            contents=[CURRICULUM_FULL],
+            system_instruction=CURRICULUM_CACHE_SYSTEM,
+            ttl=CURRICULUM_CACHE_TTL,
+            display_name="quran-42week-curriculum",
+        ),
+    )
+    from datetime import datetime, timezone, timedelta
+    meta = {
+        "name": cache.name,
+        "model": GEMINI_GROUNDED_MODEL,
+        "token_count": getattr(cache.usage_metadata, "total_token_count", None),
+        "created_at": datetime.now(timezone.utc).isoformat(),
+        "expires_at": (datetime.now(timezone.utc) + timedelta(days=30)).isoformat(),
+    }
+    _cache_meta_save(meta)
+    print(f"[cache] built curriculum cache {cache.name} ({meta['token_count']} tokens)", file=sys.stderr)
+    return meta
+
+
+def get_curriculum_cache():
+    """Return the cache meta if a valid, non-expired cache exists for the
+    current model; otherwise None."""
+    meta = _cache_meta_load()
+    if not meta or not meta.get("name"):
+        return None
+    if meta.get("model") != GEMINI_GROUNDED_MODEL:
+        return None
+    from datetime import datetime, timezone
+    try:
+        exp = datetime.fromisoformat(meta["expires_at"])
+        if exp <= datetime.now(timezone.utc):
+            return None
+    except Exception:
+        return None
+    return meta
+
+
+def ensure_curriculum_cache():
+    """Return a valid cache meta — self-healing: if none exists or it expired,
+    rebuild it automatically. Thread-safe so concurrent grounded calls don't
+    each kick off a build. Returns None only if the build itself fails."""
+    meta = get_curriculum_cache()
+    if meta:
+        return meta
+    with _cache_build_lock:
+        # Re-check inside the lock — another thread may have just built it
+        meta = get_curriculum_cache()
+        if meta:
+            return meta
+        try:
+            return build_curriculum_cache()
+        except Exception as e:
+            print(f"[cache] auto-rebuild failed: {e}", file=sys.stderr)
+            return None
 
 
 @app.route("/")
@@ -647,6 +817,9 @@ GUIDELINES:
 
 NOW produce the JSON."""
 
+    # Inject any admin-uploaded resources for this lesson as additional context
+    prompt += _lesson_instructor_context(level, week)
+
     try:
         client = genai.Client(api_key=api_key)
         response = client.models.generate_content(
@@ -723,7 +896,11 @@ ALL human-readable text fields MUST be written in **{response_lang}**. This appl
 - `role` (the descriptive English-style label part — translate the English gloss; keep transliterated Arabic terms in parens unchanged)
 - every `reason` inside `lesson_refs`
 
-Technical Arabic grammar terms in transliteration (e.g. "marfu'", "harf jarr", "ism fa'il", "Form II", "fa'il", "mubtada", "khabar", "mawsul", "mudaf") stay UNCHANGED — they are universal terminology. Only translate the English/explanatory wording around them.
+Technical Arabic grammar terms must use the conventional spelling of {response_lang}'s OWN grammar pedagogy — NOT a foreign transliteration:
+- {response_lang} = English → academic transliteration: ism, fi'l, harf, fa'il, mubtada, khabar, marfu', mansub, majrur, majzum, mabni, mudaf, idafa, harf jarr, mufrad, jam'.
+- {response_lang} = Turkish → standard TURKISH spelling: isim, fiil, harf, fâil, mübteda, haber, merfû', mansûb, mecrûr, meczûm, mebnî, muzâf, izâfet, harf-i cerr, müfred, cemi, kesra (esre), damme (ötre), fetha (üstün), mef'ûlün bih. Do NOT write the English transliteration ("majrur", "marfu'", "ism", "fa'il", "kasra", "idafa", "mufrad") when the language is Turkish — use "mecrûr", "merfû'", "isim", "fâil", "kesra", "izâfet", "müfred".
+- {response_lang} = Arabic → Arabic script: اسم، فعل، حرف، فاعل، مبتدأ، خبر، مرفوع، منصوب، مجرور، مجزوم، مبني، مضاف، إضافة.
+Apply this to EVERY field that names a grammar term — `type`, `form`, `case_mood`, `role` — and to the prose in `notes`. Translate the explanatory wording around the terms into {response_lang} too.
 
 Examples for `role` if {response_lang} is Turkish:
   English form:  "Relative pronoun (Mawsul) — mubtada"
@@ -773,7 +950,7 @@ These rules are not suggestions. Every word object MUST follow them exactly. If 
 
 {IRAB_FIELD_RULES}
 
-**WRITE the explanatory prose inside `notes` in {response_lang}** — only the transliterated Arabic terms stay unchanged. Examples of well-written notes in different languages (same content):
+**WRITE the explanatory prose inside `notes` in {response_lang}** — and write the technical grammar terms in their {response_lang}-conventional spelling (see the term table above). Examples of well-written notes in different languages (same content):
   English: "Hollow verb: waw → ya in passive (qawala → qila)."
   Turkish: "İçi boş fiil (ecvef): mechul yapıda waw → ya'ya dönüşür (qawala → qila)."
   Arabic:  "فعل أجوف: تنقلب الواو ياءً في المجهول (قَوَلَ → قِيلَ)."
@@ -878,7 +1055,9 @@ Output:
 
 ## FINAL REMINDER
 
-Write `meaning`, `notes`, `role` (the descriptive prose), and every `lesson_refs[].reason` in **{response_lang}**. The example above happens to be in English to illustrate the schema — DO NOT copy its language. If {response_lang} is Turkish, write Turkish. If Arabic, write Arabic. If English, write English. Transliterated Arabic technical terms (fa'il, mubtada, marfu', mansub, idafa, etc.) and Arabic script in parentheses stay unchanged."""
+Write `meaning`, `notes`, `role`, `type`, `form`, `case_mood` (all human-readable text), and every `lesson_refs[].reason` in **{response_lang}**. The example above happens to be in English to illustrate the schema — DO NOT copy its language. If {response_lang} is Turkish, write Turkish. If Arabic, write Arabic. If English, write English. Technical grammar terms must use the {response_lang}-conventional spelling (Turkish: isim, fiil, fâil, merfû', mansûb, mecrûr, mebnî, müfred, izâfet — NOT ism, marfu', majrur, mufrad)."""
+
+    prompt += _lang_trailer(language)
 
     try:
         client = genai.Client(api_key=api_key)
@@ -952,7 +1131,13 @@ Write `meaning`, `notes`, `role` (the descriptive prose), and every `lesson_refs
 
 # ─── Admin endpoints (user management) ────────────────────────────────────────
 
-ALL_LESSONS = [f"L{L}W{W}" for L in (1, 2, 3) for W in range(1, 15)]
+def _all_lessons():
+    return user_db.all_lesson_ids()
+
+# Backwards-compat: callers still reference ALL_LESSONS as a sequence;
+# we expose a property-like via the helper. For places that need it as a value
+# at request time, call _all_lessons().
+ALL_LESSONS = []  # populated lazily; see _all_lessons() below
 
 
 @app.get("/api/admin/users")
@@ -983,7 +1168,7 @@ def admin_list_users():
         })
     return jsonify({
         "users": out,
-        "all_lessons": ALL_LESSONS,
+        "all_lessons": _all_lessons(),
         "classrooms": classrooms,
     })
 
@@ -1043,7 +1228,7 @@ def admin_set_unlocks(user_id):
     ids = data.get("lesson_ids")
     if not isinstance(ids, list):
         return jsonify({"error": "lesson_ids (list) required"}), 400
-    valid = [lid for lid in ids if lid in ALL_LESSONS]
+    valid = [lid for lid in ids if lid in _all_lessons()]
     user_db.set_unlocks(user_id, valid)
     return jsonify({"unlocks": user_db.get_unlocks(user_id)})
 
@@ -1108,7 +1293,7 @@ def admin_list_classrooms():
                 "display_name": user_db.display_name(m),
             } for m in members],
         })
-    return jsonify({"classrooms": out, "all_lessons": ALL_LESSONS})
+    return jsonify({"classrooms": out, "all_lessons": _all_lessons()})
 
 
 @app.post("/api/admin/classrooms")
@@ -1156,7 +1341,7 @@ def admin_set_classroom_unlocks(cid):
         return jsonify({"error": "lesson_ids (list) required"}), 400
     if not user_db.get_classroom(cid):
         return jsonify({"error": "classroom not found"}), 404
-    valid = [lid for lid in ids if lid in ALL_LESSONS]
+    valid = [lid for lid in ids if lid in _all_lessons()]
     user_db.set_classroom_unlocks(cid, valid)
     return jsonify({"unlocks": user_db.get_classroom_unlocks(cid)})
 
@@ -1209,6 +1394,950 @@ def admin_set_module():
         return jsonify({"error": "active (bool) required"}), 400
     user_db.set_module_active(module_id, active)
     return jsonify({"ok": True, "module_id": module_id, "active": active})
+
+
+# ─── Levels (built-in 1-3 + admin-defined extras) ────────────────────────────
+
+@app.get("/api/levels")
+@login_required
+def list_levels_endpoint():
+    """Public to all authenticated users — drives the dynamic sidebar / pickers."""
+    return jsonify({"levels": user_db.list_all_levels()})
+
+
+@app.post("/api/admin/levels")
+@admin_required
+def admin_create_level():
+    data = request.get_json(silent=True) or {}
+    name = (data.get("name") or "").strip()
+    try:
+        weeks = int(data.get("week_count") or 14)
+    except (ValueError, TypeError):
+        return jsonify({"error": "week_count must be an integer"}), 400
+    if not name:
+        return jsonify({"error": "name required"}), 400
+    try:
+        level_num = user_db.create_extra_level(
+            name, weeks,
+            name_tr=data.get("name_tr") or "",
+            name_ar=data.get("name_ar") or "",
+        )
+    except ValueError as e:
+        return jsonify({"error": str(e)}), 400
+    return jsonify({"level_num": level_num, "name": name, "week_count": weeks}), 201
+
+
+@app.patch("/api/admin/levels/<int:level_num>")
+@admin_required
+def admin_patch_level(level_num):
+    if level_num <= 3:
+        return jsonify({"error": "built-in levels cannot be modified"}), 400
+    data = request.get_json(silent=True) or {}
+    name = data.get("name")
+    name_tr = data.get("name_tr")
+    name_ar = data.get("name_ar")
+    weeks = data.get("week_count")
+    try:
+        if weeks is not None:
+            weeks = int(weeks)
+        user_db.update_extra_level(level_num, name=name, week_count=weeks,
+                                    name_tr=name_tr, name_ar=name_ar)
+    except ValueError as e:
+        return jsonify({"error": str(e)}), 400
+    return jsonify({"ok": True})
+
+
+@app.delete("/api/admin/levels/<int:level_num>")
+@admin_required
+def admin_delete_level(level_num):
+    if level_num <= 3:
+        return jsonify({"error": "built-in levels cannot be deleted"}), 400
+    try:
+        user_db.delete_extra_level(level_num)
+    except ValueError as e:
+        return jsonify({"error": str(e)}), 400
+    return jsonify({"ok": True})
+
+
+# ─── Resources (admin-uploadable per-lesson content) ──────────────────────────
+
+import uuid as _uuid
+from werkzeug.utils import secure_filename
+
+UPLOADS_DIR = PORTAL_DIR / "uploads"
+UPLOADS_DIR.mkdir(exist_ok=True)
+MAX_UPLOAD_BYTES = 50 * 1024 * 1024  # 50 MB
+ALLOWED_MIMES = {
+    "pdf":   {"application/pdf"},
+    "image": {"image/png", "image/jpeg", "image/gif", "image/webp", "image/svg+xml"},
+    "audio": {"audio/mpeg", "audio/mp3", "audio/wav", "audio/ogg", "audio/x-m4a", "audio/mp4"},
+}
+
+
+def _user_can_see_lesson(user, level, week):
+    if not user:
+        return False
+    if user["role"] == "admin":
+        return True
+    return f"L{level}W{week}" in user_db.effective_unlocks(user["id"])
+
+
+@app.get("/api/resources")
+@login_required
+def list_resources_endpoint():
+    """List resources for a lesson (or empty list if user has no access)."""
+    try:
+        level = int(request.args.get("level", "0"))
+        week  = int(request.args.get("week", "0"))
+    except ValueError:
+        return jsonify({"error": "level/week must be integers"}), 400
+    if not user_db.is_valid_lesson(level, week):
+        return jsonify({"error": "invalid level/week"}), 400
+    user = current_user_row()
+    if not _user_can_see_lesson(user, level, week):
+        return jsonify({"resources": []})   # silent — same as having no access
+    return jsonify({"resources": user_db.list_resources(level=level, week=week)})
+
+
+@app.get("/uploads/<path:filename>")
+@login_required
+def serve_upload(filename):
+    """Serve uploaded files, gated by the resource's lesson unlock."""
+    user = current_user_row()
+    # Find the resource that owns this file
+    with user_db.db() as conn:
+        row = conn.execute(
+            "SELECT level, week FROM resources WHERE file_path = ?",
+            (filename,),
+        ).fetchone()
+    if not row:
+        abort(404)
+    if not _user_can_see_lesson(user, row["level"], row["week"]):
+        return jsonify({"error": "this lesson is locked"}), 403
+    return send_from_directory(str(UPLOADS_DIR), filename, as_attachment=False)
+
+
+@app.post("/api/admin/resources")
+@admin_required
+def create_resource_endpoint():
+    """Create a resource. Multipart for file uploads, JSON for link/note."""
+    user = current_user_row()
+    # Two paths: multipart (file upload) vs JSON (link/note)
+    if request.files:
+        # Multipart file upload
+        try:
+            level = int(request.form.get("level", "0"))
+            week  = int(request.form.get("week", "0"))
+        except ValueError:
+            return jsonify({"error": "level/week required"}), 400
+        title = (request.form.get("title") or "").strip()
+        kind = (request.form.get("kind") or "").strip()
+        if not title:
+            return jsonify({"error": "title required"}), 400
+        if kind not in ("pdf", "image", "audio"):
+            return jsonify({"error": "kind must be pdf, image, or audio for file uploads"}), 400
+        if not user_db.is_valid_lesson(level, week):
+            return jsonify({"error": "invalid level/week"}), 400
+
+        f = request.files.get("file")
+        if not f or not f.filename:
+            return jsonify({"error": "file is required"}), 400
+
+        mime = (f.mimetype or "").lower()
+        allowed = ALLOWED_MIMES.get(kind, set())
+        if allowed and mime not in allowed:
+            return jsonify({"error": f"unsupported file type for kind '{kind}': {mime}"}), 400
+
+        # Read into memory only enough to reject if too large
+        f.stream.seek(0, 2)
+        size = f.stream.tell()
+        f.stream.seek(0)
+        if size > MAX_UPLOAD_BYTES:
+            return jsonify({"error": f"file too large (max {MAX_UPLOAD_BYTES // (1024*1024)} MB)"}), 413
+
+        # Build a safe storage path: uploads/L{N}W{M}/<uuid>-<safe-original>
+        subdir = f"L{level}W{week}"
+        (UPLOADS_DIR / subdir).mkdir(parents=True, exist_ok=True)
+        safe_name = secure_filename(f.filename) or "file"
+        unique = f"{_uuid.uuid4().hex[:8]}-{safe_name}"
+        rel_path = f"{subdir}/{unique}"
+        f.save(str(UPLOADS_DIR / rel_path))
+
+        rid = user_db.create_resource(
+            level=level, week=week, title=title, kind=kind,
+            file_path=rel_path, mime=mime, size=size,
+            uploaded_by=user["id"],
+        )
+        # Mark pending; kick off extraction in a background thread so the upload
+        # response returns immediately. Audio is skipped (no vision support).
+        with user_db.db() as conn:
+            conn.execute("UPDATE resources SET extraction_status = ? WHERE id = ?",
+                         ("pending" if kind in ("pdf", "image") else "skip", rid))
+        if kind in ("pdf", "image"):
+            import threading
+            threading.Thread(target=_extract_and_store, args=(rid, rel_path, mime, kind), daemon=True).start()
+        return jsonify({"id": rid, "file_path": rel_path}), 201
+
+    # JSON path: link or note
+    data = request.get_json(silent=True) or {}
+    try:
+        level = int(data.get("level", 0))
+        week  = int(data.get("week", 0))
+    except (ValueError, TypeError):
+        return jsonify({"error": "level/week required"}), 400
+    title = (data.get("title") or "").strip()
+    kind = (data.get("kind") or "").strip()
+    if not user_db.is_valid_lesson(level, week):
+        return jsonify({"error": "invalid level/week"}), 400
+    if not title:
+        return jsonify({"error": "title required"}), 400
+    if kind == "link":
+        url = (data.get("url") or "").strip()
+        if not (url.startswith("http://") or url.startswith("https://")):
+            return jsonify({"error": "url must start with http:// or https://"}), 400
+        rid = user_db.create_resource(level=level, week=week, title=title, kind="link",
+                                       url=url, uploaded_by=user["id"])
+    elif kind == "note":
+        body = (data.get("body") or "").strip()
+        if not body:
+            return jsonify({"error": "body required for notes"}), 400
+        rid = user_db.create_resource(level=level, week=week, title=title, kind="note",
+                                       body=body, uploaded_by=user["id"])
+    else:
+        return jsonify({"error": "kind must be 'link' or 'note' for JSON requests"}), 400
+    # link/note kinds — their body/url IS the content, no extraction needed
+    with user_db.db() as conn:
+        conn.execute("UPDATE resources SET extraction_status = ? WHERE id = ?", ("skip", rid))
+    return jsonify({"id": rid}), 201
+
+
+@app.patch("/api/admin/resources/<int:rid>")
+@admin_required
+def update_resource_endpoint(rid):
+    if not user_db.get_resource(rid):
+        return jsonify({"error": "not found"}), 404
+    data = request.get_json(silent=True) or {}
+    title = (data.get("title") or "").strip()
+    if not title:
+        return jsonify({"error": "title required"}), 400
+    user_db.update_resource_title(rid, title)
+    return jsonify({"ok": True, "title": title})
+
+
+@app.post("/api/admin/resources/<int:rid>/reextract")
+@admin_required
+def reextract_resource_endpoint(rid):
+    """Re-run Claude vision on an existing PDF/image resource so the AI can
+    regenerate the structured lecture (e.g. after the extractor prompt was
+    improved). No-op for link/note/audio."""
+    row = user_db.get_resource(rid)
+    if not row:
+        return jsonify({"error": "not found"}), 404
+    if row["kind"] not in ("pdf", "image"):
+        return jsonify({"error": "only pdf/image resources can be re-extracted"}), 400
+    if not row["file_path"]:
+        return jsonify({"error": "missing file_path"}), 400
+    # Mark pending immediately + kick off background extraction
+    with user_db.db() as conn:
+        conn.execute("UPDATE resources SET extraction_status = ? WHERE id = ?", ("pending", rid))
+    import threading
+    threading.Thread(
+        target=_extract_and_store,
+        args=(rid, row["file_path"], row["mime"], row["kind"]),
+        daemon=True,
+    ).start()
+    return jsonify({"ok": True})
+
+
+@app.delete("/api/admin/resources/<int:rid>")
+@admin_required
+def delete_resource_endpoint(rid):
+    file_path = user_db.delete_resource(rid)
+    if file_path:
+        try:
+            (UPLOADS_DIR / file_path).unlink(missing_ok=True)
+        except Exception:
+            pass
+    return jsonify({"ok": True})
+
+
+
+# ─── Multi-model I'rab comparison ─────────────────────────────────────────────
+
+def _make_irab_prompt(verse: str, language: str) -> str:
+    """Build the standard I'rab prompt. Used by both /api/irab (single model)
+    and /api/irab-compare (multi-model side-by-side)."""
+    lang_names = {"en": "English", "tr": "Turkish", "ar": "Arabic"}
+    response_lang = lang_names.get(language, "English")
+    return f"""You are an expert in Quranic Arabic grammar. Analyze Quranic verses word-by-word and return a JSON object. The top-level object contains a verse-wide `translation` and a `words` array; each element of `words` represents one word/particle.
+
+## LANGUAGE — CRITICAL
+
+ALL human-readable text fields MUST be written in **{response_lang}**. This applies to:
+- `meaning` (full word meaning)
+- `notes` (grammar notes)
+- `role` (the descriptive English-style label part — translate the English gloss; keep transliterated Arabic terms in parens unchanged)
+- every `reason` inside `lesson_refs`
+
+Technical Arabic grammar terms must use the conventional spelling of {response_lang}'s OWN grammar pedagogy — NOT a foreign transliteration:
+- {response_lang} = English → academic transliteration: ism, fi'l, harf, fa'il, mubtada, khabar, marfu', mansub, majrur, majzum, mabni, mudaf, idafa, harf jarr, mufrad, jam'.
+- {response_lang} = Turkish → standard TURKISH spelling: isim, fiil, harf, fâil, mübteda, haber, merfû', mansûb, mecrûr, meczûm, mebnî, muzâf, izâfet, harf-i cerr, müfred, cemi, kesra (esre), damme (ötre), fetha (üstün), mef'ûlün bih. Do NOT write the English transliteration ("majrur", "marfu'", "ism", "fa'il", "kasra", "idafa", "mufrad") when the language is Turkish — use "mecrûr", "merfû'", "isim", "fâil", "kesra", "izâfet", "müfred".
+- {response_lang} = Arabic → Arabic script: اسم، فعل، حرف، فاعل، مبتدأ، خبر، مرفوع، منصوب، مجرور، مجزوم، مبني، مضاف، إضافة.
+Apply this to EVERY field that names a grammar term — `type`, `form`, `case_mood`, `role` — and to the prose in `notes`. Translate the explanatory wording around the terms into {response_lang} too.
+
+Examples for `role` if {response_lang} is Turkish:
+  English form:  "Relative pronoun (Mawsul) — mubtada"
+  Turkish form:  "İsm-i Mevsul — mubtada"
+  English form:  "Subject (fa'il)"
+  Turkish form:  "Özne (fa'il)"
+  English form:  "Direct object (maf'ul bih)"
+  Turkish form:  "Düz tümleç (maf'ul bih)"
+
+Examples for `role` if {response_lang} is Arabic:
+  English form:  "Subject (fa'il)"
+  Arabic form:   "الفاعل"
+  English form:  "Direct object (maf'ul bih)"
+  Arabic form:   "المفعول به"
+
+If {response_lang} is English: keep everything as the role rules describe below.
+
+## OUTPUT
+
+Return ONLY a valid JSON object. No prose, no markdown, no explanation outside the JSON.
+
+## JSON SCHEMA
+
+{{
+  "translation": "<a single complete, natural-flowing translation of the ENTIRE verse into {response_lang} — 1–3 sentences. This is for the learner to read at a glance, before they study the word-by-word breakdown.>",
+  "words": [
+    {{
+      "word": "Arabic word as it appears in the verse",
+      "transliteration": "romanized transliteration",
+      "meaning": "{response_lang} meaning (concise)",
+      "type": "fi'l | ism | harf",
+      "root": "Arabic root letters (e.g. ك ف ر) — null if none",
+      "form": "morphological form — see rules below",
+      "case_mood": "grammatical case or verb mood — see rules below",
+      "role": "syntactic role in the sentence — see rules below",
+      "notes": "any critical grammar rule, exception, or scholarly disagreement — null if none",
+      "lesson_refs": [
+        {{ "lesson_id": "<exact lesson_id from the curriculum index below>", "reason": "<one short sentence in {response_lang} explaining why this lesson applies>" }}
+      ]
+    }}
+  ]
+}}
+
+## FIELD RULES — MANDATORY
+
+These rules are not suggestions. Every word object MUST follow them exactly. If a rule conflicts with brevity, follow the rule. If a label isn't listed below, do not invent one — pick the closest match from the list.
+
+{IRAB_FIELD_RULES}
+
+**WRITE the explanatory prose inside `notes` in {response_lang}** — and write the technical grammar terms in their {response_lang}-conventional spelling (see the term table above). Examples of well-written notes in different languages (same content):
+  English: "Hollow verb: waw → ya in passive (qawala → qila)."
+  Turkish: "İçi boş fiil (ecvef): mechul yapıda waw → ya'ya dönüşür (qawala → qila)."
+  Arabic:  "فعل أجوف: تنقلب الواو ياءً في المجهول (قَوَلَ → قِيلَ)."
+
+### lesson_refs
+- Reference ONLY `lesson_id` values that appear in the curriculum index below — never invent IDs.
+- 0–3 entries per word. Pick the lessons that most directly explain THIS word's grammar phenomenon.
+- Empty array if no lesson clearly applies.
+
+## CURRICULUM INDEX
+
+Use these exact `lesson_id` strings only:
+
+{LESSONS_INDEX_SUMMARY}
+
+## IMPORTANT RULES — MANDATORY
+
+These six rules are non-negotiable. Every output must satisfy all of them.
+
+{IRAB_GLOBAL_RULES}
+
+## EXAMPLE
+
+Input verse: وَصَدُّواْ عَن سَبِيلِ ٱللَّهِ
+
+Output:
+[
+  {{
+    "word": "وَ",
+    "transliteration": "wa",
+    "meaning": "and",
+    "type": "harf",
+    "root": null,
+    "form": null,
+    "case_mood": "mabni",
+    "role": "Conjunction",
+    "notes": null,
+    "lesson_refs": []
+  }},
+  {{
+    "word": "صَدُّواْ",
+    "transliteration": "ṣaddū",
+    "meaning": "they hindered / turned away",
+    "type": "fi'l",
+    "root": "ص د د",
+    "form": "Form II, madi (mudha'af)",
+    "case_mood": "mabni 'ala al-damm (jam' waw)",
+    "role": "Main verb — subject implied (hum)",
+    "notes": "Mudha'af root: idgham obligatory in madi. Form II intensifies: repeated obstruction",
+    "lesson_refs": [
+      {{ "lesson_id": "L1W13", "reason": "Past tense (madi) verb conjugation" }},
+      {{ "lesson_id": "L3W13", "reason": "Form II augmented verb pattern" }}
+    ]
+  }},
+  {{
+    "word": "عَن",
+    "transliteration": "'an",
+    "meaning": "from / about",
+    "type": "harf",
+    "root": null,
+    "form": "harf jarr",
+    "case_mood": "mabni",
+    "role": "Preposition",
+    "notes": null,
+    "lesson_refs": [
+      {{ "lesson_id": "L1W8", "reason": "Preposition (harf al-jarr) governs following noun in genitive" }}
+    ]
+  }},
+  {{
+    "word": "سَبِيلِ",
+    "transliteration": "sabīli",
+    "meaning": "path",
+    "type": "ism",
+    "root": "س ب ل",
+    "form": "ism (fa'il pattern — sifa mushabaha)",
+    "case_mood": "majrur (kasra) — first noun in idafa",
+    "role": "Mudaf ilayhi (of 'an) — Mudaf",
+    "notes": null,
+    "lesson_refs": [
+      {{ "lesson_id": "L1W4", "reason": "First term of an idafa (genitive construction)" }}
+    ]
+  }},
+  {{
+    "word": "ٱللَّهِ",
+    "transliteration": "allāhi",
+    "meaning": "Allah",
+    "type": "ism",
+    "root": "أ ل ه",
+    "form": "proper noun ('alam)",
+    "case_mood": "majrur (kasra)",
+    "role": "Mudaf ilayhi",
+    "notes": null,
+    "lesson_refs": [
+      {{ "lesson_id": "L1W4", "reason": "Second term of an idafa takes genitive case" }}
+    ]
+  }}
+]
+
+## VERSE TO ANALYZE
+
+{verse}
+
+## FINAL REMINDER
+
+Write `meaning`, `notes`, `role`, `type`, `form`, `case_mood` (all human-readable text), and every `lesson_refs[].reason` in **{response_lang}**. The example above happens to be in English to illustrate the schema — DO NOT copy its language. If {response_lang} is Turkish, write Turkish. If Arabic, write Arabic. If English, write English. Technical grammar terms must use the {response_lang}-conventional spelling (Turkish: isim, fiil, fâil, merfû', mansûb, mecrûr, mebnî, müfred, izâfet — NOT ism, marfu', majrur, mufrad).
+"""
+
+
+def _parse_irab_json(raw: str):
+    """Robust JSON parse with truncated-array salvage."""
+    if not raw:
+        return None
+    try:
+        return json.loads(raw)
+    except json.JSONDecodeError:
+        pass
+    for open_ch, close_ch in (("{", "}"), ("[", "]")):
+        s, e = raw.find(open_ch), raw.rfind(close_ch)
+        if s >= 0 and e > s:
+            try:
+                return json.loads(raw[s : e + 1])
+            except json.JSONDecodeError:
+                continue
+    if raw.startswith("["):
+        last = raw.rfind("},")
+        if last > 0:
+            try:
+                return json.loads(raw[: last + 1] + "]")
+            except json.JSONDecodeError:
+                pass
+    return None
+
+
+def _run_irab_gemini(prompt: str) -> dict:
+    api_key = os.environ.get("GEMINI_API_KEY")
+    if not api_key:
+        return {"error": "GEMINI_API_KEY not set", "model_label": f"Gemini ({GEMINI_MODEL})"}
+    try:
+        client = genai.Client(api_key=api_key)
+        resp = client.models.generate_content(
+            model=GEMINI_MODEL,
+            contents=prompt,
+            config=genai_types.GenerateContentConfig(
+                response_mime_type="application/json",
+                max_output_tokens=16000,
+            ),
+        )
+        raw = (resp.text or "").strip()
+        parsed = _parse_irab_json(raw)
+        if not parsed:
+            return {"error": "Gemini returned unparseable output", "model_label": f"Gemini ({GEMINI_MODEL})"}
+        if isinstance(parsed, list):
+            parsed = {"words": parsed}
+        parsed["model_label"] = f"Gemini ({GEMINI_MODEL})"
+        return parsed
+    except Exception as e:
+        _, friendly = humanize_gemini_error(e)
+        return {"error": friendly, "model_label": f"Gemini ({GEMINI_MODEL})"}
+
+
+def _run_irab_claude(prompt: str) -> dict:
+    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    if not api_key:
+        return {"error": "ANTHROPIC_API_KEY not set", "model_label": "Claude Sonnet 4.6"}
+    try:
+        import anthropic
+        client = anthropic.Anthropic(api_key=api_key)
+        msg = client.messages.create(
+            model="claude-sonnet-4-6",
+            max_tokens=16000,
+            messages=[{"role": "user", "content": prompt}],
+        )
+        raw = "".join(b.text for b in msg.content if hasattr(b, "text")).strip()
+        if raw.startswith("```"):
+            raw = raw.strip("`").lstrip("json").strip()
+        parsed = _parse_irab_json(raw)
+        if not parsed:
+            return {"error": "Claude returned unparseable output", "model_label": "Claude Sonnet 4.6"}
+        if isinstance(parsed, list):
+            parsed = {"words": parsed}
+        parsed["model_label"] = "Claude Sonnet 4.6"
+        return parsed
+    except Exception as e:
+        return {"error": str(e), "model_label": "Claude Sonnet 4.6"}
+
+
+def _run_irab_openai(prompt: str, model: str = None) -> dict:
+    api_key = os.environ.get("OPENAI_API_KEY")
+    use_model = model or OPENAI_MODEL
+    label = f"ChatGPT ({use_model})"
+    if not api_key:
+        return {"error": "OPENAI_API_KEY not set — add it to portal/.env to enable ChatGPT.",
+                "model_label": label}
+    try:
+        import openai
+        client = openai.OpenAI(api_key=api_key)
+        resp = client.chat.completions.create(
+            model=use_model,
+            max_tokens=16000,
+            response_format={"type": "json_object"},
+            messages=[{"role": "user", "content": prompt}],
+        )
+        raw = (resp.choices[0].message.content or "").strip()
+        parsed = _parse_irab_json(raw)
+        if not parsed:
+            return {"error": "ChatGPT returned unparseable output", "model_label": label}
+        if isinstance(parsed, list):
+            parsed = {"words": parsed}
+        parsed["model_label"] = label
+        return parsed
+    except Exception as e:
+        return {"error": str(e), "model_label": label}
+
+
+def _lang_trailer(language: str) -> str:
+    """A final language directive appended AFTER the prompt's worked example.
+    The example is in English and is the last thing the model reads before
+    answering — without this trailer its recency pulls the output to English."""
+    lang_names = {"en": "English", "tr": "Turkish", "ar": "Arabic"}
+    response_lang = lang_names.get(language, "English")
+    if response_lang == "English":
+        return ""
+    return (
+        f"\n\n=====================================================\n"
+        f"⚠ FINAL REMINDER — OUTPUT LANGUAGE: {response_lang}\n"
+        f"The worked EXAMPLE above is written in English ONLY to show the JSON "
+        f"structure. It is NOT a language model to copy. Your actual answer's "
+        f"`translation`, `meaning`, `notes`, `role`, `type`, `form`, `case_mood`, and "
+        f"every `lesson_refs[].reason` MUST be written in {response_lang}. Technical "
+        f"grammar terms use the {response_lang}-conventional spelling — for Turkish "
+        f"write isim/fiil/fâil/merfû'/mansûb/mecrûr/mebnî/müfred/izâfet, NOT "
+        f"ism/marfu'/majrur/mufrad/idafa. "
+        f"Produce the JSON now, with all prose in {response_lang}.\n"
+        f"=====================================================\n"
+    )
+
+
+def _grounding_preamble(curriculum_text: str, language: str = "en") -> str:
+    """Shared grounding instruction. If curriculum_text is given it's inlined;
+    if empty, the curriculum is assumed to be supplied via a context cache."""
+    lang_names = {"en": "English", "tr": "Turkish", "ar": "Arabic"}
+    response_lang = lang_names.get(language, "English")
+    # The curriculum context is in English, which pulls the model toward an
+    # English response. Override that loudly, up front, before anything else.
+    lang_banner = (
+        f"⚠ RESPONSE LANGUAGE: {response_lang}. EVERY human-readable text field "
+        f"(`translation`, `meaning`, `notes`, `role`, and each `lesson_refs[].reason`) "
+        f"MUST be written in {response_lang}. The curriculum reference material below "
+        f"is in English ONLY as source material — DO NOT mirror its language. Your "
+        f"output language is {response_lang}, regardless of the curriculum's language. "
+        f"Technical grammar terms use the {response_lang}-conventional spelling — for "
+        f"Turkish: isim, fiil, fâil, merfû', mansûb, mecrûr, mebnî, müfred, izâfet "
+        f"(NOT ism, marfu', majrur, mufrad, idafa).\n\n"
+    )
+    head = lang_banner + (
+        "You are a CURRICULUM-GROUNDED grammar assistant. Analyze the verse using "
+        "ONLY the grammatical framework, terminology, rules, and examples taught in "
+        "the 42-week curriculum. That curriculum is your SOLE source of knowledge.\n\n"
+        "STRICT GROUNDING RULES:\n"
+        "- Use only terminology, classifications, and rules present in the curriculum.\n"
+        "- Do NOT introduce grammatical concepts or methods absent from the curriculum.\n"
+        "- If the verse has a phenomenon the curriculum does not cover, say so in that "
+        "word's `notes` field (e.g. \"not covered in the 42-week curriculum\").\n"
+        "- Keep the analysis at the level a student of this curriculum would recognize.\n\n"
+        "MANDATORY SOURCE TAGGING — add a `source` field to EVERY word object:\n"
+        "- `source`: \"curriculum\"  → the word's grammar is fully explained by the "
+        "42-week curriculum AND you cite at least one valid `lesson_refs` entry.\n"
+        "- `source`: \"outside\"     → your analysis of this word relies on ANY grammar "
+        "knowledge, terminology, or rules NOT found in the 42-week curriculum.\n"
+        "Be honest and conservative: if you are not certain the curriculum covers it, "
+        "tag it \"outside\". The `source` field is REQUIRED on every word.\n\n"
+    )
+    if curriculum_text:
+        return (head
+                + "===== 42-WEEK CURRICULUM (your only knowledge source) =====\n"
+                + curriculum_text
+                + "\n===== END OF CURRICULUM =====\n\n")
+    return head
+
+
+def _audit_grounding(parsed: dict) -> dict:
+    """Verify a grounded i'rab result against the real 42-week curriculum.
+
+    - Drops `lesson_refs` whose `lesson_id` does not exist in LESSONS_INDEX
+      (catches the model inventing lesson numbers).
+    - Reclassifies any word tagged "curriculum" but left with zero valid
+      lesson_refs as "outside" — a curriculum claim with no citation is not
+      provably grounded.
+    - Attaches a `grounding` summary {curriculum, outside, total} so the UI
+      can show exactly how much of the analysis is curriculum-backed."""
+    if not isinstance(parsed, dict) or parsed.get("error"):
+        return parsed
+    valid_ids = set(LESSONS_INDEX.keys()) if LESSONS_INDEX else set()
+    words = parsed.get("words") or []
+    n_curriculum = n_outside = 0
+    for w in words:
+        if not isinstance(w, dict):
+            continue
+        refs = w.get("lesson_refs") or []
+        kept, dropped = [], []
+        for r in refs:
+            rid = (r or {}).get("lesson_id")
+            (kept if rid in valid_ids else dropped).append(r)
+        w["lesson_refs"] = kept
+        src = (w.get("source") or "").strip().lower()
+        if src not in ("curriculum", "outside"):
+            # Model omitted/garbled the tag — infer from citations.
+            src = "curriculum" if kept else "outside"
+        # A "curriculum" claim with no valid citation is not provably grounded.
+        if src == "curriculum" and not kept:
+            src = "outside"
+        if dropped:
+            # Invented lesson IDs are themselves an out-of-curriculum signal.
+            src = "outside"
+        w["source"] = src
+        if src == "curriculum":
+            n_curriculum += 1
+        else:
+            n_outside += 1
+    parsed["grounding"] = {
+        "curriculum": n_curriculum,
+        "outside": n_outside,
+        "total": n_curriculum + n_outside,
+    }
+    return parsed
+
+
+def _run_irab_gemini_cached(verse: str, language: str, model: str = None) -> dict:
+    """Grounded Gemini run. `model` is the user-selected Gemini model (defaults
+    to GEMINI_GROUNDED_MODEL). If it matches the model the context cache was
+    built for, the cache is used (cheap); otherwise the full curriculum is
+    inlined so grounding stays intact for any selected model."""
+    use_model = model if model in GROUNDED_MODEL_CHOICES else GEMINI_GROUNDED_MODEL
+    short = use_model.replace("gemini-2.5-", "")          # "flash-lite", "flash", "pro"
+    label = f"Gemini {short}"
+    api_key = os.environ.get("GEMINI_API_KEY")
+    if not api_key:
+        return {"error": "GEMINI_API_KEY not set", "model_label": label}
+
+    cache_meta = ensure_curriculum_cache()   # self-healing — built for GEMINI_GROUNDED_MODEL
+    use_cache = bool(cache_meta and cache_meta.get("model") == use_model)
+    base_prompt = _make_irab_prompt(verse, language) + _lang_trailer(language)
+    try:
+        client = genai.Client(api_key=api_key)
+        if use_cache:
+            # Curriculum lives in the cache — only the verse prompt is sent fresh.
+            prompt = _grounding_preamble("", language) + base_prompt
+            cfg = genai_types.GenerateContentConfig(
+                response_mime_type="application/json",
+                max_output_tokens=16000,
+                cached_content=cache_meta["name"],
+            )
+        else:
+            # Selected model has no matching cache — inline the FULL curriculum
+            # so grounding is identical, just billed per-request instead.
+            prompt = _grounding_preamble(CURRICULUM_FULL, language) + base_prompt
+            cfg = genai_types.GenerateContentConfig(
+                response_mime_type="application/json",
+                max_output_tokens=16000,
+            )
+        # Gemini occasionally returns malformed/truncated JSON — retry up to 3x
+        parsed = None
+        for attempt in range(3):
+            resp = client.models.generate_content(model=use_model, contents=prompt, config=cfg)
+            raw = (resp.text or "").strip()
+            parsed = _parse_irab_json(raw)
+            if parsed:
+                break
+            print(f"[irab-grounded] unparseable output, retry {attempt + 1}/3", file=sys.stderr)
+        if not parsed:
+            return {"error": "Gemini returned unparseable output after 3 attempts — try again.",
+                    "model_label": label}
+        if isinstance(parsed, list):
+            parsed = {"words": parsed}
+        parsed["model_label"] = label + (" ✓cache" if use_cache else " (inline)")
+        return _audit_grounding(parsed)
+    except Exception as e:
+        _, friendly = humanize_gemini_error(e)
+        return {"error": friendly, "model_label": label}
+
+
+@app.post("/api/irab-compare")
+@login_required
+def irab_compare():
+    """Run the same verse through multiple models, side-by-side.
+    grounded=true → models are constrained to the 42-week curriculum:
+      - Gemini uses the context CACHE (cheap, no re-send)
+      - Claude gets the full curriculum inline
+      - OpenAI gets the compact curriculum inline (fits its context window)"""
+    data = request.get_json() or {}
+    verse = (data.get("verse") or "").strip()
+    language = data.get("language", "en")
+    models = data.get("models") or ["gemini", "claude"]
+    grounded = bool(data.get("grounded"))
+    gemini_model = data.get("gemini_model")   # user-picked model for the grounded module
+    if not verse:
+        return jsonify({"error": "verse required"}), 400
+    if LESSONS_INDEX is None:
+        return jsonify({"error": "lessons_index.json not found"}), 500
+
+    plain_prompt = _make_irab_prompt(verse, language) + _lang_trailer(language)
+
+    if grounded:
+        claude_prompt = _grounding_preamble(CURRICULUM_FULL, language) + plain_prompt
+        openai_prompt = _grounding_preamble(CURRICULUM_COMPACT, language) + plain_prompt
+        runners = {
+            "gemini": lambda: _run_irab_gemini_cached(verse, language, gemini_model),
+            "claude": lambda: _audit_grounding(_run_irab_claude(claude_prompt)),
+            # gpt-4o-mini: high tier-1 rate limits + 128k window — handles the
+            # curriculum-injected prompt that gpt-4o's per-request cap rejects.
+            "openai": lambda: _audit_grounding(_run_irab_openai(openai_prompt, model="gpt-4o-mini")),
+        }
+    else:
+        runners = {
+            "gemini": lambda: _run_irab_gemini(plain_prompt),
+            "claude": lambda: _run_irab_claude(plain_prompt),
+            "openai": lambda: _run_irab_openai(plain_prompt),
+        }
+    selected = [m for m in models if m in runners] or ["gemini", "claude"]
+
+    import concurrent.futures
+    with concurrent.futures.ThreadPoolExecutor(max_workers=max(len(selected), 1)) as ex:
+        futures = {m: ex.submit(runners[m]) for m in selected}
+        results = {m: f.result() for m, f in futures.items()}
+    return jsonify({"results": results})
+
+
+@app.get("/api/admin/curriculum-cache")
+@admin_required
+def curriculum_cache_status():
+    meta = get_curriculum_cache()
+    if meta:
+        return jsonify({"status": "active", **meta})
+    stale = _cache_meta_load()
+    return jsonify({"status": "none", "previous": stale})
+
+
+@app.post("/api/admin/curriculum-cache/build")
+@admin_required
+def curriculum_cache_build():
+    try:
+        meta = build_curriculum_cache()
+        return jsonify({"status": "active", **meta})
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+# ─── Claude vision extraction (admin uploads → searchable text) ──────────────
+
+# Anthropic vision size caps (well below our 50 MB upload cap)
+_CLAUDE_MAX_PDF_BYTES = 32 * 1024 * 1024
+_CLAUDE_MAX_IMG_BYTES = 5 * 1024 * 1024
+
+
+def _extract_and_store(resource_id: int, rel_path: str, mime: str, kind: str) -> None:
+    """Background extractor: Claude reads the file, returns (a) plain text for
+    Deep-Learn context injection and (b) a structured multilingual lecture for
+    inline rendering on the lesson page. Both are stored on the row."""
+    status = "failed"
+    text = None
+    lecture_json = None
+    try:
+        result = _extract_with_claude(rel_path, mime, kind)
+        if result:
+            text = result.get("text")
+            lecture = result.get("lecture")
+            if lecture:
+                lecture_json = json.dumps(lecture, ensure_ascii=False)
+            status = "done" if (text or lecture_json) else "failed"
+    except Exception as e:
+        print(f"[extract] resource {resource_id} failed: {e}", file=sys.stderr)
+    try:
+        with user_db.db() as conn:
+            conn.execute(
+                "UPDATE resources SET extracted_text = ?, lecture_data = ?, extraction_status = ? WHERE id = ?",
+                (text, lecture_json, status, resource_id),
+            )
+    except Exception as e:
+        print(f"[extract] db update failed for {resource_id}: {e}", file=sys.stderr)
+
+
+def _extract_with_claude(rel_path: str, mime: str, kind: str):
+    """Run Claude vision on a PDF or image and produce TWO outputs:
+      - "text": raw transcription (for Deep-Learn prompt injection)
+      - "lecture": structured multilingual lecture matching the lectures.json
+        schema (so the lesson page can render it identically to built-in lessons)
+    Returns {"text": ..., "lecture": {...}} or None on failure."""
+    if kind not in ("pdf", "image"):
+        return None
+    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    if not api_key:
+        return None
+    full = UPLOADS_DIR / rel_path
+    if not full.exists():
+        return None
+    size = full.stat().st_size
+    if kind == "pdf" and size > _CLAUDE_MAX_PDF_BYTES:
+        print(f"[extract] PDF too big ({size} bytes) — skipping", file=sys.stderr)
+        return None
+    if kind == "image" and size > _CLAUDE_MAX_IMG_BYTES:
+        print(f"[extract] image too big ({size} bytes) — skipping", file=sys.stderr)
+        return None
+
+    import base64
+    import anthropic
+
+    with open(full, "rb") as f:
+        b64 = base64.b64encode(f.read()).decode()
+
+    content_block = (
+        {"type": "document", "source": {"type": "base64",
+                                          "media_type": "application/pdf", "data": b64}}
+        if kind == "pdf"
+        else {"type": "image", "source": {"type": "base64", "media_type": mime, "data": b64}}
+    )
+
+    instruction = """Read this Quranic-Arabic study material and produce a single JSON object with TWO keys:
+
+1. "text" — full plain-text transcription. Preserve all Arabic, English, Turkish text. Include headings, lists, tables. Do NOT summarize — transcribe everything you can read.
+
+2. "lecture" — a multilingual lecture object structured for direct rendering in the study portal. Match this exact schema:
+
+{
+  "sections": [
+    {
+      "title": { "en": "...", "tr": "...", "ar": "..." },
+      "body":  { "en": "<markdown allowed: **bold**, *italic*, bullet lists with `- `, numbered lists, blank lines for paragraphs>",
+                  "tr": "<same, written naturally in Turkish>",
+                  "ar": "<same, written naturally in Arabic>" },
+      "examples": [
+        { "ar": "<short Arabic example>", "gloss": { "en": "...", "tr": "...", "ar": "..." } }
+      ]
+    }
+  ]
+}
+
+LECTURE RULES:
+- 2–5 sections that walk through the material as a teacher would
+- Every title and body MUST have en/tr/ar keys filled with substantive content (not stubs)
+- 0–6 example cards per section (skip when the section is pure prose intro/recap)
+- Preserve Arabic words/phrases in Arabic script everywhere; transliteration in parens on first occurrence
+- Plain teaching tone, second-person, encouraging
+- Each body ~80–180 words per language
+
+Return ONLY the JSON object — no prose around it, no markdown fences.
+"""
+
+    client = anthropic.Anthropic(api_key=api_key)
+    msg = client.messages.create(
+        model="claude-sonnet-4-6",
+        max_tokens=16000,
+        messages=[{"role": "user", "content": [content_block, {"type": "text", "text": instruction}]}],
+    )
+    raw = "".join(b.text for b in msg.content if hasattr(b, "text")).strip()
+    if not raw:
+        return None
+    # Strip code fences if present
+    if raw.startswith("```"):
+        raw = raw.strip("`").lstrip("json").strip()
+    try:
+        parsed = json.loads(raw)
+    except json.JSONDecodeError:
+        # Salvage: locate outer { ... }
+        s = raw.find("{"); e = raw.rfind("}")
+        if s >= 0 and e > s:
+            try:
+                parsed = json.loads(raw[s:e + 1])
+            except json.JSONDecodeError:
+                return None
+        else:
+            return None
+    return {
+        "text": parsed.get("text") or None,
+        "lecture": parsed.get("lecture") if isinstance(parsed.get("lecture"), dict) else None,
+    }
+
+
+def _lesson_instructor_context(level: int, week: int) -> str:
+    """Collect all admin-uploaded resources for a lesson and return them as a
+    prompt-ready block. Returns '' if there are no resources."""
+    with user_db.db() as conn:
+        rows = conn.execute(
+            "SELECT title, kind, url, body, extracted_text FROM resources WHERE level = ? AND week = ? ORDER BY id",
+            (level, week),
+        ).fetchall()
+    if not rows:
+        return ""
+    parts = []
+    for r in rows:
+        if r["kind"] == "link":
+            parts.append(f"### [LINK] {r['title']} — {r['url']}")
+        elif r["kind"] == "note":
+            parts.append(f"### [NOTE] {r['title']}\n{r['body']}")
+        elif r["extracted_text"]:
+            parts.append(f"### [{r['kind'].upper()}] {r['title']}\n{r['extracted_text']}")
+        # PDFs/images without extracted_text yet are skipped silently
+    if not parts:
+        return ""
+    return (
+        "\n\n## INSTRUCTOR-PROVIDED MATERIAL FOR THIS LESSON\n\n"
+        "The instructor has uploaded the following supplementary content. Incorporate it naturally "
+        "into your explanation where relevant, and cite it (e.g. \"as your instructor noted...\"):\n\n"
+        + "\n\n".join(parts)
+    )
 
 
 if __name__ == "__main__":

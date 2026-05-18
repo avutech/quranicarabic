@@ -4,6 +4,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Quranic Arabic Learning Portal</title>
+<!-- Amiri Quran: Ottoman-tradition Naskh, the closest open font to the
+     Turkish/Diyanet mushaf style. Amiri (regular) covers Arabic UI text. -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Amiri:wght@400;700&family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
 <style>
   :root {
     --green: #1a6b3c;
@@ -413,7 +418,7 @@
   }
   .feedback-box.loading { color: var(--muted); font-style: italic; }
   .feedback-box.error { border-color: #dc2626; background: #fef2f2; color: #991b1b; }
-  .feedback-arabic { font-size: 1.2rem; font-family: 'Noto Naskh Arabic', serif; direction: rtl; }
+  .feedback-arabic { font-size: 1.2rem; font-family: 'Amiri Quran', 'Amiri', 'Scheherazade New', serif; direction: rtl; }
 
   /* Score card */
   .score-card {
@@ -450,7 +455,7 @@
   .quiz-arabic {
     font-size: 2.4rem; text-align: center; padding: 28px 16px;
     background: var(--green-pale); border-radius: 10px; margin: 12px 0 24px;
-    color: var(--green); font-family: 'Noto Naskh Arabic', 'Traditional Arabic', serif;
+    color: var(--green); font-family: 'Amiri Quran', 'Amiri', 'Scheherazade New', serif;
     direction: rtl; line-height: 1.6;
   }
   .quiz-choices { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
@@ -569,6 +574,123 @@
   .complexity-toggle button.active { background: var(--green); color: white; font-weight: 600; }
   .complexity-toggle button:not(.active):hover { background: var(--green-pale); color: var(--green); }
 
+  /* Content Manager + per-lesson resource cards */
+  /* Content-Manager picker — two-tier tab interface */
+  .cmgr-nav {
+    background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
+    border: 1px solid var(--border); border-radius: 12px;
+    padding: 8px; margin-bottom: 18px;
+  }
+  .cmgr-nav-row {
+    display: flex; gap: 6px; flex-wrap: wrap; padding: 4px;
+  }
+  .cmgr-week-row { border-top: 1px dashed var(--border); margin-top: 4px; padding-top: 8px; }
+  .cmgr-tab {
+    display: inline-flex; align-items: center; gap: 8px;
+    padding: 9px 16px; border: 2px solid transparent; border-radius: 10px;
+    background: transparent; cursor: pointer; font-family: inherit;
+    font-size: 0.9rem; font-weight: 600; color: var(--muted);
+    transition: all 0.15s;
+  }
+  .cmgr-tab:hover { background: var(--green-pale); color: var(--green); }
+  .cmgr-tab.active {
+    background: linear-gradient(135deg, #0e4f29 0%, #15803d 100%);
+    color: #fff; border-color: #15803d;
+    box-shadow: 0 2px 6px rgba(14,79,41,0.2);
+  }
+  .cmgr-tab-icon { font-size: 1.05rem; }
+  .cmgr-week-pill {
+    min-width: 44px; padding: 6px 10px; border: 1.5px solid var(--border);
+    background: var(--card); border-radius: 8px; cursor: pointer;
+    font-family: inherit; font-size: 0.82rem; font-weight: 600; color: var(--text);
+    transition: all 0.1s;
+  }
+  .cmgr-week-pill:hover { border-color: var(--green); color: var(--green); }
+  .cmgr-week-pill.active {
+    background: var(--green); color: #fff; border-color: var(--green);
+    box-shadow: 0 1px 3px rgba(14,79,41,0.25);
+  }
+
+  /* File picker — visual button + selected-file chip */
+  .cmgr-file-label { display: inline-block; cursor: pointer; }
+  .cmgr-file-trigger {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 8px 16px; background: var(--green-pale); color: var(--green);
+    border: 1.5px dashed var(--green); border-radius: 22px;
+    font-size: 0.88rem; font-weight: 600; transition: all 0.15s;
+  }
+  .cmgr-file-label:hover .cmgr-file-trigger { background: var(--green); color: #fff; border-style: solid; }
+  .cmgr-file-info {
+    align-items: center; gap: 8px;
+    padding: 6px 6px 6px 14px; background: #f0fdf4; border: 1px solid #86efac;
+    border-radius: 18px; font-size: 0.85rem; color: #166534;
+  }
+  .cmgr-file-info-name { font-weight: 500; }
+  .cmgr-upload { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 16px; margin-bottom: 18px; box-shadow: var(--shadow); }
+  .cmgr-kind-tabs { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 12px; }
+  .cmgr-kind { background: transparent; border: 1.5px solid var(--border); border-radius: 14px; padding: 5px 12px; font-size: 0.82rem; cursor: pointer; font-family: inherit; }
+  .cmgr-kind:hover { border-color: var(--green); }
+  .cmgr-kind.active { background: var(--green); color: white; border-color: var(--green); font-weight: 600; }
+  .cmgr-row { display: flex; gap: 10px; align-items: center; margin-bottom: 10px; flex-wrap: wrap; }
+  .cmgr-row input[type="text"], .cmgr-row input[type="url"], .cmgr-row textarea { flex: 1; padding: 8px 12px; border: 1.5px solid var(--border); border-radius: 6px; font-family: inherit; font-size: 0.92rem; }
+  .cmgr-row textarea { min-height: 60px; resize: vertical; }
+  .cmgr-row input:focus, .cmgr-row textarea:focus { outline: none; border-color: var(--green); }
+  .cmgr-hint { font-size: 0.78rem; color: var(--muted); }
+  .cmgr-empty { text-align: center; color: var(--muted); font-style: italic; padding: 20px; background: #fafaf7; border-radius: 8px; }
+  .cmgr-resources { display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
+  .cmgr-card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 12px 14px; box-shadow: var(--shadow); }
+  .cmgr-card-head { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; flex-wrap: wrap; }
+  .cmgr-card-kind { font-size: 0.72rem; font-weight: 700; color: var(--green); background: var(--green-pale); padding: 3px 8px; border-radius: 10px; }
+  .cmgr-card-title { font-weight: 600; flex: 1; min-width: 0; }
+  .cmgr-actions { display: flex; gap: 5px; }
+  .cmgr-card-body img, .cmgr-card-body audio { display: block; width: 100%; }
+  .cmgr-link-card { display: inline-block; padding: 8px 12px; background: var(--green-pale); border-radius: 6px; color: var(--green); text-decoration: none; font-size: 0.88rem; word-break: break-all; }
+  .cmgr-link-card:hover { background: var(--green); color: white; }
+  .cmgr-note { background: #fffbeb; border-left: 3px solid #f59e0b; padding: 8px 12px; border-radius: 4px; font-size: 0.9rem; line-height: 1.55; white-space: pre-wrap; }
+  body.rtl .cmgr-note { border-left: none; border-right: 3px solid #f59e0b; }
+  .cmgr-section-head { font-size: 0.95rem; font-weight: 700; color: var(--green); margin: 22px 0 10px; padding-bottom: 5px; border-bottom: 2px solid var(--green-pale); }
+  .cmgr-section-head:first-child { margin-top: 6px; }
+  /* Folder-style vertical file list */
+  .cmgr-folder { background: var(--card); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; box-shadow: var(--shadow); }
+  .cmgr-row { display: flex; align-items: flex-start; gap: 12px; padding: 12px 14px; border-top: 1px solid var(--border); }
+  .cmgr-row:first-child { border-top: none; }
+  .cmgr-row:hover { background: #fafaf7; }
+  .cmgr-row-icon { font-size: 1.5rem; width: 32px; text-align: center; flex: 0 0 32px; padding-top: 2px; }
+  .cmgr-row-main { flex: 1; min-width: 0; }
+  .cmgr-row-title { font-weight: 600; color: var(--text); word-break: break-word; }
+  .cmgr-row-meta { font-size: 0.78rem; color: var(--muted); margin-top: 2px; word-break: break-all; }
+  .cmgr-row-note { margin-top: 6px; padding: 6px 10px; background: #fffbeb; border-left: 3px solid #f59e0b; border-radius: 4px; font-size: 0.85rem; line-height: 1.5; }
+  body.rtl .cmgr-row-note { border-left: none; border-right: 3px solid #f59e0b; }
+  .cmgr-row-thumb { max-width: 200px; max-height: 120px; border-radius: 4px; margin-top: 6px; display: block; }
+  .cmgr-row-audio { width: 100%; max-width: 320px; margin-top: 6px; display: block; }
+  .cmgr-row-tail { flex: 0 0 auto; display: flex; align-items: center; gap: 6px; }
+  .cmgr-row-open {
+    padding: 4px 10px; background: var(--green); color: #fff; border-radius: 12px;
+    text-decoration: none; font-size: 0.78rem; font-weight: 600;
+  }
+  .cmgr-row-open:hover { background: var(--green-light); }
+  .cmgr-icon-btn {
+    background: transparent; border: none; cursor: pointer; padding: 4px 6px;
+    border-radius: 6px; font-size: 0.95rem; line-height: 1;
+  }
+  .cmgr-icon-btn:hover { background: var(--green-pale); }
+  /* Extraction status badges */
+  .cmgr-st { font-size: 0.7rem; padding: 2px 8px; border-radius: 10px; font-weight: 600; white-space: nowrap; }
+  .cmgr-st.done    { background: #dcfce7; color: #14532d; }
+  .cmgr-st.pending { background: #fef3c7; color: #78350f; }
+  .cmgr-st.failed  { background: #fee2e2; color: #7f1d1d; }
+  .cmgr-readonly { font-size: 0.7rem; color: #1e3a8a; font-style: italic; padding: 2px 10px; background: #fff; border-radius: 10px; border: 1px solid #bae6fd; white-space: nowrap; }
+  .cmgr-builtin-card { background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 10px; padding: 0 0 6px 0; box-shadow: 0 1px 3px rgba(30,58,138,0.06); margin-bottom: 4px; }
+  .cmgr-builtin-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 12px 16px; background: #dbeafe; border-radius: 10px 10px 0 0; font-weight: 600; color: #1e3a8a; font-size: 0.95rem; }
+  .cmgr-bi-row { display: flex; align-items: center; gap: 14px; padding: 10px 16px; border-top: 1px solid #dbeafe; }
+  .cmgr-bi-row:first-of-type { border-top: 1px solid #bae6fd; }
+  .cmgr-bi-icon { font-size: 1.3rem; flex: 0 0 auto; width: 28px; text-align: center; }
+  .cmgr-bi-text { flex: 1; min-width: 0; }
+  .cmgr-bi-label { font-weight: 600; color: #1e3a8a; font-size: 0.88rem; }
+  .cmgr-bi-meta { font-size: 0.78rem; color: var(--muted); margin-top: 2px; word-break: break-word; }
+  .cmgr-bi-action { padding: 5px 12px; background: #1e3a8a; color: #fff; border-radius: 14px; text-decoration: none; font-size: 0.78rem; font-weight: 600; flex: 0 0 auto; }
+  .cmgr-bi-action:hover { background: #1e40af; }
+
   /* Self-Check Verse Analysis */
   .sc-fill-grid { display: grid; gap: 14px; margin-top: 14px; }
   .sc-fill-card {
@@ -613,6 +735,50 @@
   body.rtl .sc-overall { border-left: none; border-right: 4px solid var(--green); }
   .sc-legend { display: flex; gap: 12px; flex-wrap: wrap; font-size: 0.78rem; color: var(--muted); margin: 6px 0 14px 0; }
 
+  .icmp-grounded-banner {
+    background: #eef2ff; border: 1px solid #c7d2fe; border-radius: 10px;
+    padding: 12px 16px; margin: 0 0 8px; color: #3730a3;
+    font-size: 0.88rem; line-height: 1.5; font-weight: 500;
+  }
+  .icmp-cache-strip {
+    display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+    background: var(--card); border: 1px solid var(--border); border-radius: 8px;
+    padding: 8px 14px; margin: 0 0 14px; font-size: 0.82rem;
+  }
+  .icmp-cache-ok { color: #14532d; font-weight: 700; }
+  .icmp-cache-warn { color: #92400e; font-weight: 600; }
+  .icmp-cache-meta { color: var(--muted); }
+  /* I'rab AI Compare — side-by-side columns */
+  .icmp-grid { display: grid; gap: 14px; margin-top: 14px; }
+  @media (max-width: 900px) { .icmp-grid { grid-template-columns: 1fr !important; } }
+  .icmp-col { background: var(--card); border: 1px solid var(--border); border-radius: 10px; box-shadow: var(--shadow); overflow: hidden; min-width: 0; }
+  .icmp-col-head {
+    background: linear-gradient(135deg, #0e4f29 0%, #15803d 100%); color: #fff;
+    padding: 10px 14px; font-weight: 700; font-size: 0.92rem;
+  }
+  .icmp-col:nth-child(2) .icmp-col-head { background: linear-gradient(135deg, #4338ca 0%, #6366f1 100%); }
+  .icmp-col:nth-child(3) .icmp-col-head { background: linear-gradient(135deg, #b45309 0%, #f59e0b 100%); }
+  .icmp-single-head {
+    background: linear-gradient(135deg, #0e4f29 0%, #15803d 100%); color: #fff;
+    padding: 10px 14px; font-weight: 700; font-size: 0.92rem;
+    border-radius: 10px; margin-bottom: 12px;
+  }
+  .icmp-col .irab-translation { margin: 12px 14px 0; }
+  .icmp-col .irab-words { padding: 12px 14px; }
+  .icmp-pill {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 6px 12px; border: 1.5px solid var(--border); border-radius: 16px;
+    font-size: 0.82rem; cursor: pointer; user-select: none; background: var(--card);
+  }
+  .icmp-pill input { margin: 0; }
+  .icmp-pill:has(input:checked) { background: var(--green-pale); border-color: var(--green); color: var(--green); font-weight: 600; }
+  .icmp-model-select {
+    padding: 6px 12px; border: 1.5px solid var(--border); border-radius: 16px;
+    font-size: 0.82rem; font-family: inherit; cursor: pointer;
+    background: var(--card); color: var(--text);
+  }
+  .icmp-model-select:focus { outline: none; border-color: var(--green); }
+
   /* Verse Analysis (I'rab) */
   .irab-picker {
     background: var(--card); border: 1px solid var(--border);
@@ -638,7 +804,7 @@
     width: 100%; min-height: 100px; padding: 16px;
     border: 1.5px solid var(--border); border-radius: 8px;
     font-size: 1.4rem; line-height: 1.8; resize: vertical;
-    font-family: 'Noto Naskh Arabic', 'Traditional Arabic', serif;
+    font-family: 'Amiri Quran', 'Amiri', 'Scheherazade New', serif;
     direction: rtl; text-align: right; color: var(--green);
     background: var(--green-pale);
   }
@@ -666,7 +832,7 @@
     direction: ltr;  /* keep card internals (Latin labels) left-to-right */
   }
   .irab-word-ar {
-    font-size: 1.7rem; font-family: 'Noto Naskh Arabic', serif;
+    font-size: 1.7rem; font-family: 'Amiri Quran', 'Amiri', 'Scheherazade New', serif;
     direction: rtl; text-align: center; color: var(--green);
     padding: 8px 0; line-height: 1.4;
   }
@@ -689,6 +855,26 @@
   }
   body.rtl .irab-word-notes { border-left: none; border-right: 3px solid var(--gold); }
   .irab-refs { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+  /* ── Curriculum-grounding source tags ───────────────────────────────── */
+  .irab-word-outside {
+    border-color: #f59e0b; background: #fffaf0;
+    box-shadow: 0 0 0 1px #f59e0b inset;
+  }
+  .irab-word-outside .irab-word-ar,
+  .irab-word-outside .irab-word-meaning,
+  .irab-word-outside .irab-word-grammar dd { color: #b45309; }
+  .irab-src-badge {
+    align-self: stretch; text-align: center; font-size: 0.72rem;
+    font-weight: 700; padding: 4px 8px; border-radius: 4px; margin-bottom: 4px;
+  }
+  .irab-src-outside { background: #f59e0b; color: #fff; }
+  .irab-src-curriculum { background: #dcfce7; color: #15803d; }
+  .irab-ground-banner {
+    padding: 10px 14px; border-radius: 8px; margin-bottom: 14px;
+    font-size: 0.86rem; font-weight: 600; line-height: 1.5;
+  }
+  .irab-ground-banner.ok { background: #dcfce7; color: #14532d; border: 1px solid #86efac; }
+  .irab-ground-banner.warn { background: #fffaf0; color: #92400e; border: 1px solid #f59e0b; }
   .irab-ref-chip {
     display: inline-flex; align-items: center; gap: 4px;
     padding: 4px 10px; border-radius: 12px;
@@ -895,6 +1081,61 @@ const I18N = {
     admModulesIntro: 'Turn feature modules on or off. A deactivated module disappears from the sidebar for all students and cannot be opened. Lessons are controlled separately, per classroom.',
     admModuleOn: 'On', admModuleOff: 'Off',
     admModuleActiveTag: 'active', admModuleInactiveTag: 'hidden from students',
+    cmgrLevel: 'Level', cmgrWeek: 'Week',
+    cmgrTitle: 'Title',
+    cmgrAdd: '+ Add resource',
+    cmgrSaving: 'Saving…', cmgrSaved: 'Saved',
+    cmgrLoading: 'Loading…',
+    cmgrEmpty: 'No additional resources for this lesson yet.',
+    cmgrMax: 'Max 50 MB',
+    cmgrNoteBody: 'Write the note text...',
+    cmgrErrTitle: 'Title required',
+    cmgrErrFile: 'Please select a file',
+    cmgrConfirmDelete: 'Delete this resource?',
+    cmgrPromptRename: 'New title:',
+    lessonAddResources: 'Additional resources',
+    admTabLevel: '🎓 New level', admLevelName: 'Level name', admLevelNamePlaceholder: 'e.g. Tafsir, Fiqh, Hadith',
+    admLevelWeeks: 'Weeks', admCreateLevelBtn: 'Create level',
+    admSecLevels: '🎓 Custom levels', admEditWeeks: 'Edit weeks',
+    admEditWeeksPrompt: 'Weeks (1-52):',
+    admConfirmDeleteLevel: 'Delete level',
+    admDeleteLevelTail: 'All its resources and unlocks will be removed.',
+    cmgrBuiltIn: '📚 Built-in curriculum',
+    cmgrAdminUploaded: '➕ Admin-uploaded resources',
+    cmgrLessonPdf: 'Lesson PDF',
+    cmgrLectureExists: 'Multilingual lecture present (auto-generated)',
+    cmgrQuestions: 'practice questions',
+    cmgrReadOnly: 'read-only',
+    cmgrNoBuiltIn: 'This is a custom level — no built-in curriculum. Use the form below to add resources.',
+    icmpModels: 'Models',
+    icmpModel: 'Model',
+    icmpModelDefault: 'default, fast & cheap',
+    icmpModelStronger: 'stronger reasoning',
+    icmpModelBest: 'highest quality',
+    icmpRun: 'Compare',
+    icmpRunning: 'Running models in parallel…',
+    icmpPickAtLeastOne: 'Please select at least one model.',
+    icmpNoResults: 'No results returned.',
+    icmpGroundedNote: 'Powered by Gemini, restricted to ONLY the 42-week curriculum (context-cached) — no outside grammatical knowledge.',
+    icmpAnalyze: 'Analyze', icmpCacheActive: 'Curriculum cache active', icmpCacheTokens: 'tokens cached',
+    icmpCacheExpires: 'expires', icmpCacheRefresh: 'Refresh cache', icmpCacheBuild: 'Build cache',
+    icmpCacheNone: 'No curriculum cache — grounded calls fall back to inline (slower/costlier).',
+    icmpCacheBuilding: 'Building cache… (~20s)',
+    cmgrStatusDone: '✓ AI read',
+    cmgrStatusPending: '⏳ Processing…',
+    cmgrStatusFailed: '✗ Extraction failed',
+    cmgrStatusDoneTooltip: 'AI extracted this file — used as Deep Learn context for this lesson',
+    cmgrStatusPendingTooltip: 'AI is reading this file in the background…',
+    cmgrStatusFailedTooltip: 'AI could not extract content from this file',
+    cmgrChooseFile: 'Choose file…',
+    cmgrClearFile: 'Cancel',
+    cmgrSavedAIReading: 'Saved — AI is reading the file in the background…',
+    cmgrRunByAI: '🤖 Run this by AI',
+    cmgrAddAudio: '+ Upload audio',
+    cmgrAddBasic: '+ Add resource',
+    cmgrReextract: 'Re-run AI extraction',
+    lessonAiGenerated: 'AI generated',
+    cmgrWeekShort: 'W',
     welcomeH1: 'Quranic Arabic Learning Portal',
     welcomeP: 'Select a level from the sidebar to explore its lessons, or choose a reference topic to browse vocabulary and grammar materials.',
     searchPlaceholder: 'Search lessons, topics, questions…',
@@ -959,6 +1200,10 @@ const I18N = {
     irabClear: 'Clear',
     irabNoLessons: 'No lesson references for this word.',
     irabNotes: 'Notes',
+    irabSrcOutside: 'Outside the 42-week curriculum',
+    irabSrcCurriculum: 'Grounded in the 42-week curriculum',
+    irabGroundAll: 'All {total} analysis points are grounded in the 42-week curriculum.',
+    irabGroundMixed: '{curriculum} of {total} analysis points are curriculum-grounded; {outside} use outside knowledge (flagged in amber below).',
     irabPickSurah: 'Surah',
     irabPickAyah: 'Ayah',
     irabPickLoad: 'Load Verse',
@@ -1067,6 +1312,61 @@ const I18N = {
     admModulesIntro: 'Özellik modüllerini aç veya kapat. Kapatılan bir modül tüm öğrencilerin kenar çubuğundan kaybolur ve açılamaz. Dersler ayrıca, sınıf bazında yönetilir.',
     admModuleOn: 'Açık', admModuleOff: 'Kapalı',
     admModuleActiveTag: 'etkin', admModuleInactiveTag: 'öğrencilerden gizli',
+    cmgrLevel: 'Seviye', cmgrWeek: 'Hafta',
+    cmgrTitle: 'Başlık',
+    cmgrAdd: '+ Kaynak ekle',
+    cmgrSaving: 'Kaydediliyor…', cmgrSaved: 'Kaydedildi',
+    cmgrLoading: 'Yükleniyor…',
+    cmgrEmpty: 'Bu ders için henüz ek kaynak yok.',
+    cmgrMax: 'En fazla 50 MB',
+    cmgrNoteBody: 'Not metnini yaz...',
+    cmgrErrTitle: 'Başlık gerekli',
+    cmgrErrFile: 'Lütfen bir dosya seç',
+    cmgrConfirmDelete: 'Bu kaynak silinsin mi?',
+    cmgrPromptRename: 'Yeni başlık:',
+    lessonAddResources: 'Ek kaynaklar',
+    admTabLevel: '🎓 Yeni seviye', admLevelName: 'Seviye adı', admLevelNamePlaceholder: 'örn. Tefsir, Fıkıh',
+    admLevelWeeks: 'Hafta sayısı', admCreateLevelBtn: 'Seviye oluştur',
+    admSecLevels: '🎓 Özel seviyeler', admEditWeeks: 'Hafta sayısı',
+    admEditWeeksPrompt: 'Hafta (1-52):',
+    admConfirmDeleteLevel: 'Seviyeyi sil:',
+    admDeleteLevelTail: 'Tüm kaynakları ve izinleri silinecek.',
+    cmgrBuiltIn: '📚 Mevcut müfredat',
+    cmgrAdminUploaded: '➕ Yönetici tarafından yüklenmiş kaynaklar',
+    cmgrLessonPdf: 'Ders PDF',
+    cmgrLectureExists: 'Çok dilli ders anlatımı mevcut (otomatik üretildi)',
+    cmgrQuestions: 'alıştırma sorusu',
+    cmgrReadOnly: 'salt okunur',
+    cmgrNoBuiltIn: 'Bu özel bir seviye — mevcut müfredat yok. Aşağıdaki formdan kaynak ekle.',
+    icmpModels: 'Modeller',
+    icmpModel: 'Model',
+    icmpModelDefault: 'varsayılan, hızlı ve ekonomik',
+    icmpModelStronger: 'daha güçlü akıl yürütme',
+    icmpModelBest: 'en yüksek kalite',
+    icmpRun: 'Karşılaştır',
+    icmpRunning: 'Modeller paralel çalışıyor…',
+    icmpPickAtLeastOne: 'Lütfen en az bir model seç.',
+    icmpNoResults: 'Sonuç dönmedi.',
+    icmpGroundedNote: 'Gemini ile çalışır, YALNIZCA 42 haftalık müfredatla sınırlı (bağlam önbellekli) — dışarıdan gramer bilgisi yok.',
+    icmpAnalyze: 'Analiz Et', icmpCacheActive: 'Müfredat önbelleği aktif', icmpCacheTokens: 'token önbellekte',
+    icmpCacheExpires: 'bitiş', icmpCacheRefresh: 'Önbelleği yenile', icmpCacheBuild: 'Önbellek oluştur',
+    icmpCacheNone: 'Müfredat önbelleği yok — sorgular satır içi gönderilir (daha yavaş/pahalı).',
+    icmpCacheBuilding: 'Önbellek oluşturuluyor… (~20sn)',
+    cmgrStatusDone: '✓ AI okudu',
+    cmgrStatusPending: '⏳ İşleniyor…',
+    cmgrStatusFailed: '✗ Okuma başarısız',
+    cmgrStatusDoneTooltip: 'Yapay zekâ bu dosyayı çıkardı — Derinlemesine Öğren bağlamında kullanılıyor',
+    cmgrStatusPendingTooltip: 'Yapay zekâ bu dosyayı arka planda okuyor…',
+    cmgrStatusFailedTooltip: 'Yapay zekâ bu dosyadan içerik çıkaramadı',
+    cmgrChooseFile: 'Dosya seç…',
+    cmgrClearFile: 'İptal',
+    cmgrSavedAIReading: 'Yüklendi — yapay zekâ arka planda dosyayı okuyor…',
+    cmgrRunByAI: '🤖 Yapay zekâ ile çalıştır',
+    cmgrAddAudio: '+ Ses yükle',
+    cmgrAddBasic: '+ Kaynak ekle',
+    cmgrReextract: 'Yapay zekâ ile yeniden işle',
+    lessonAiGenerated: 'Yapay zekâ ile üretildi',
+    cmgrWeekShort: 'H',
     welcomeH1: 'Kuran Arapçası Öğrenme Portalı',
     welcomeP: 'Derslerini keşfetmek için kenar çubuğundan bir seviye seçin veya kelime ve dilbilgisi materyallerine göz atmak için referans konusu seçin.',
     searchPlaceholder: 'Ders, konu, soru ara…',
@@ -1131,6 +1431,10 @@ const I18N = {
     irabClear: 'Temizle',
     irabNoLessons: 'Bu kelime için ders referansı yok.',
     irabNotes: 'Notlar',
+    irabSrcOutside: '42 haftalık müfredat dışında',
+    irabSrcCurriculum: '42 haftalık müfredata dayalı',
+    irabGroundAll: '{total} analiz noktasının tamamı 42 haftalık müfredata dayanıyor.',
+    irabGroundMixed: '{total} analiz noktasından {curriculum} tanesi müfredata dayalı; {outside} tanesi müfredat dışı bilgi kullanıyor (aşağıda turuncu ile işaretli).',
     irabPickSurah: 'Sûre',
     irabPickAyah: 'Ayet',
     irabPickLoad: 'Ayeti Yükle',
@@ -1239,6 +1543,61 @@ const I18N = {
     admModulesIntro: 'فعّل أو عطّل وحدات الميزات. الوحدة المعطّلة تختفي من الشريط الجانبي لكل الطلاب ولا يمكن فتحها. الدروس تُدار بشكل منفصل لكل فصل.',
     admModuleOn: 'مفعّل', admModuleOff: 'معطّل',
     admModuleActiveTag: 'مفعّلة', admModuleInactiveTag: 'مخفية عن الطلاب',
+    cmgrLevel: 'المستوى', cmgrWeek: 'الأسبوع',
+    cmgrTitle: 'العنوان',
+    cmgrAdd: '+ أضف مورداً',
+    cmgrSaving: 'جارٍ الحفظ…', cmgrSaved: 'تم الحفظ',
+    cmgrLoading: 'جارٍ التحميل…',
+    cmgrEmpty: 'لا توجد موارد إضافية لهذا الدرس بعد.',
+    cmgrMax: 'الحد الأقصى 50 ميغا',
+    cmgrNoteBody: 'اكتب نص الملاحظة...',
+    cmgrErrTitle: 'العنوان مطلوب',
+    cmgrErrFile: 'الرجاء اختيار ملف',
+    cmgrConfirmDelete: 'هل تريد حذف هذا المورد؟',
+    cmgrPromptRename: 'العنوان الجديد:',
+    lessonAddResources: 'موارد إضافية',
+    admTabLevel: '🎓 مستوى جديد', admLevelName: 'اسم المستوى', admLevelNamePlaceholder: 'مثال: التفسير، الفقه',
+    admLevelWeeks: 'عدد الأسابيع', admCreateLevelBtn: 'أنشئ المستوى',
+    admSecLevels: '🎓 المستويات المخصصة', admEditWeeks: 'تعديل الأسابيع',
+    admEditWeeksPrompt: 'الأسابيع (1-52):',
+    admConfirmDeleteLevel: 'حذف المستوى:',
+    admDeleteLevelTail: 'سيتم حذف جميع موارده وأذوناته.',
+    cmgrBuiltIn: '📚 المنهج الأساسي',
+    cmgrAdminUploaded: '➕ موارد المدير',
+    cmgrLessonPdf: 'ملف الدرس',
+    cmgrLectureExists: 'يوجد شرح متعدد اللغات (مُولَّد آلياً)',
+    cmgrQuestions: 'سؤال تدريب',
+    cmgrReadOnly: 'للقراءة فقط',
+    cmgrNoBuiltIn: 'هذا مستوى مخصص — لا يوجد منهج أساسي. استخدم النموذج أدناه لإضافة موارد.',
+    icmpModels: 'النماذج',
+    icmpModel: 'النموذج',
+    icmpModelDefault: 'الافتراضي، سريع واقتصادي',
+    icmpModelStronger: 'استدلال أقوى',
+    icmpModelBest: 'أعلى جودة',
+    icmpRun: 'قارن',
+    icmpRunning: 'تشغيل النماذج بالتوازي…',
+    icmpPickAtLeastOne: 'يرجى اختيار نموذج واحد على الأقل.',
+    icmpNoResults: 'لم تُرجع النماذج أي نتيجة.',
+    icmpGroundedNote: 'يعمل بمحرك Gemini، محصور في منهج الـ ٤٢ أسبوعاً فقط (ذاكرة سياق مخزّنة) — دون معرفة خارجية.',
+    icmpAnalyze: 'حلّل', icmpCacheActive: 'ذاكرة المنهج مفعّلة', icmpCacheTokens: 'رمز مخزّن',
+    icmpCacheExpires: 'تنتهي', icmpCacheRefresh: 'تحديث الذاكرة', icmpCacheBuild: 'إنشاء الذاكرة',
+    icmpCacheNone: 'لا توجد ذاكرة منهج — تُرسل الطلبات كاملة (أبطأ/أعلى تكلفة).',
+    icmpCacheBuilding: 'جارٍ إنشاء الذاكرة… (~٢٠ ثانية)',
+    cmgrStatusDone: '✓ قرأ الذكاء الاصطناعي',
+    cmgrStatusPending: '⏳ جارٍ المعالجة…',
+    cmgrStatusFailed: '✗ فشل الاستخراج',
+    cmgrStatusDoneTooltip: 'استخرج الذكاء الاصطناعي محتوى هذا الملف — يُستخدم في "تعلّم بعمق"',
+    cmgrStatusPendingTooltip: 'الذكاء الاصطناعي يقرأ الملف في الخلفية…',
+    cmgrStatusFailedTooltip: 'تعذّر على الذكاء الاصطناعي استخراج المحتوى من هذا الملف',
+    cmgrChooseFile: 'اختر ملفاً…',
+    cmgrClearFile: 'إلغاء',
+    cmgrSavedAIReading: 'تم الرفع — الذكاء الاصطناعي يقرأ الملف في الخلفية…',
+    cmgrRunByAI: '🤖 شغّله بالذكاء الاصطناعي',
+    cmgrAddAudio: '+ رفع صوت',
+    cmgrAddBasic: '+ أضف مورداً',
+    cmgrReextract: 'إعادة التشغيل بالذكاء الاصطناعي',
+    lessonAiGenerated: 'مُولَّد بالذكاء الاصطناعي',
+    cmgrWeekShort: 'أ',
     welcomeH1: 'بوابة تعلم العربية القرآنية',
     welcomeP: 'اختر مستوى من القائمة الجانبية لاستكشاف دروسه، أو اختر موضوعاً مرجعياً لتصفح مواد المفردات والنحو.',
     searchPlaceholder: 'ابحث في الدروس والمواضيع والأسئلة…',
@@ -1303,6 +1662,10 @@ const I18N = {
     irabClear: 'مسح',
     irabNoLessons: 'لا توجد إشارات لدروس لهذه الكلمة.',
     irabNotes: 'ملاحظات',
+    irabSrcOutside: 'خارج منهج الـ42 أسبوعًا',
+    irabSrcCurriculum: 'مستند إلى منهج الـ42 أسبوعًا',
+    irabGroundAll: 'جميع نقاط التحليل البالغة {total} مستندة إلى منهج الـ42 أسبوعًا.',
+    irabGroundMixed: '{curriculum} من أصل {total} نقطة تحليل مستندة إلى المنهج؛ و{outside} تستخدم معرفة خارجية (مميّزة بالبرتقالي أدناه).',
     irabPickSurah: 'السورة',
     irabPickAyah: 'الآية',
     irabPickLoad: 'حمّل الآية',
@@ -1410,8 +1773,10 @@ function setLang(l) {
   } else if (currentView.type === 'reference') {
     if (currentView.ref.quiz) renderQuizSetup(currentView.ref);
     else if (currentView.ref.irab) renderIrab(currentView.ref);
+    else if (currentView.ref.irabCompare) renderIrabCompare(currentView.ref);
     else if (currentView.ref.selfCheck) renderSelfCheck(currentView.ref);
     else if (currentView.ref.learnDeep) renderLearnDeep(currentView.ref);
+    else if (currentView.ref.contentMgr) renderContentManager(currentView.ref);
     else renderReference(currentView.ref);
   }
 }
@@ -1420,6 +1785,9 @@ function setLang(l) {
 
 function renderSidebar() {
   const levelIcons = { level1: '١', level2: '٢', level3: '٣' };
+  // Arabic-Indic numeral fallback for any custom level (level4+)
+  const arabicDigit = n => '٠١٢٣٤٥٦٧٨٩'[n] || String(n);
+  const iconForLevel = level => levelIcons[level.id] || (level.levelNum ? arabicDigit(level.levelNum) : '★');
   const escAttr = s => String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
   const q = escAttr(searchQuery);
   const searchHtml = `
@@ -1449,7 +1817,8 @@ function renderSidebar() {
   };
 
   // Power Learning — pinned at the top
-  const powerItems = REFERENCE_TOPICS.filter(r => r.group === 'power' && isModuleActive(r.id));
+  const isAdmin = CURRENT_USER && CURRENT_USER.role === 'admin';
+  const powerItems = REFERENCE_TOPICS.filter(r => r.group === 'power' && isModuleActive(r.id) && (!r.adminOnly || isAdmin));
   if (powerItems.length) {
     html += `<div class="sidebar-section">${t('groupPower')}</div>`;
     for (const ref of powerItems) html += renderRefItem(ref);
@@ -1457,7 +1826,7 @@ function renderSidebar() {
 
   html += `<div class="sidebar-section" style="margin-top:8px">${t('groupLessons')}</div>`;
 
-  for (const level of LEVELS) {
+  for (const level of getDisplayLevels()) {
     // Filter to only the lessons this user has unlocked
     const unlockedLessons = level.lessons
       .map((lesson, i) => ({ lesson, i }))
@@ -1468,7 +1837,7 @@ function renderSidebar() {
     const isActive = currentView && currentView.type === 'level' && currentView.level && currentView.level.id === level.id;
     html += `
       <div class="level-header ${isActive && !currentView.lesson ? 'active' : ''}" onclick="clickLevel('${level.id}')">
-        <div class="level-icon">${levelIcons[level.id]}</div>
+        <div class="level-icon">${iconForLevel(level)}</div>
         <div class="level-header-text">
           <div class="level-name">${level.title[lang]}</div>
           <div class="level-sub">${unlockedLessons.length} ${t('lessons')}</div>
@@ -1681,7 +2050,7 @@ function runSearch(rawQuery) {
   const langs = ['en', 'tr', 'ar'];
 
   // Levels
-  for (const level of LEVELS) {
+  for (const level of getDisplayLevels()) {
     const titleStr = level.title[lang] || level.title.en;
     if (langs.some(l => _hit(level.title[l], q)) || _hit(level.desc && level.desc[lang], q)) {
       results.push({
@@ -1802,7 +2171,7 @@ function runSearch(rawQuery) {
 // ─── Navigation ───────────────────────────────────────────────────────────────
 
 function clickLevel(levelId) {
-  const level = LEVELS.find(l => l.id === levelId);
+  const level = getDisplayLevels().find(l => l.id === levelId);
   if (expandedLevel === levelId) {
     expandedLevel = null;
     currentView = null;
@@ -1818,7 +2187,7 @@ function clickLevel(levelId) {
 }
 
 function clickLesson(levelId, index) {
-  const level = LEVELS.find(l => l.id === levelId);
+  const level = getDisplayLevels().find(l => l.id === levelId);
   const lesson = level.lessons[index];
   if (!isLessonUnlocked(level, lesson)) return;   // belt-and-suspenders: should already be hidden
   expandedLevel = levelId;
@@ -1838,8 +2207,10 @@ function clickReference(refId) {
   renderSidebar();
   if (ref.quiz) renderQuizSetup(ref);
   else if (ref.irab) renderIrab(ref);
+  else if (ref.irabCompare) renderIrabCompare(ref);
   else if (ref.selfCheck) renderSelfCheck(ref);
   else if (ref.learnDeep) renderLearnDeep(ref);
+  else if (ref.contentMgr) renderContentManager(ref);
   else renderReference(ref);
 }
 
@@ -1905,28 +2276,29 @@ function lookupLecture(level, lesson) {
 
 function renderLesson(level, lesson) {
   const main = document.getElementById('main');
+  const isExtra = !!level.extraLevel;
   const levelIndex = LEVELS.indexOf(level);
 
-  const encodedPath = lesson.pdf.split('/').map(encodeURIComponent).join('/');
-  const pdfHtml = `
-    <a class="pdf-card" href="/pdfs/${encodedPath}" target="_blank" rel="noopener">
-      <span class="pdf-icon">📄</span>
-      <span class="pdf-name">${t('week')} ${lesson.week} — ${lesson.title[lang]}</span>
-    </a>`;
+  const pdfHtml = (!isExtra && lesson.pdf)
+    ? `<a class="pdf-card" href="/pdfs/${lesson.pdf.split('/').map(encodeURIComponent).join('/')}" target="_blank" rel="noopener">
+         <span class="pdf-icon">📄</span>
+         <span class="pdf-name">${t('week')} ${lesson.week} — ${lesson.title[lang]}</span>
+       </a>`
+    : '';
 
-  const practiceHtml = lesson.questions && lesson.questions.length > 0
+  const practiceHtml = (!isExtra && lesson.questions && lesson.questions.length > 0)
     ? `<div class="practice-start">
         <h3>${t('practice')}</h3>
         <p>${t('practiceDesc')(lesson.questions.length)}</p>
         <button class="btn-primary" onclick="startPractice()">${t('startPractice')}</button>
       </div>`
-    : `<p style="color:var(--muted);font-size:0.9rem">${t('noPractice')}</p>`;
+    : '';
 
-  const lecture = lookupLecture(level, lesson);
+  const lecture = isExtra ? null : lookupLecture(level, lesson);
   const lectureHtml = lecture ? renderLecture(lecture) : '';
-  const lecturePlaceholder = lecture
-    ? ''
-    : `<div class="section"><div class="section-title">${t('lecture')}</div><div class="lecture-card" id="lecture-placeholder"><em style="color:var(--muted)">…</em></div></div>`;
+  const lecturePlaceholder = (!isExtra && !lecture)
+    ? `<div class="section"><div class="section-title">${t('lecture')}</div><div class="lecture-card" id="lecture-placeholder"><em style="color:var(--muted)">…</em></div></div>`
+    : '';
 
   main.innerHTML = `
     <div class="topic-header">
@@ -1934,14 +2306,30 @@ function renderLesson(level, lesson) {
       <h2>${lesson.title[lang]}</h2>
     </div>
     ${lectureHtml ? `<div class="section"><div class="section-title">${t('lecture')}</div>${lectureHtml}</div>` : lecturePlaceholder}
-    <div class="section">
-      <div class="section-title">${t('materials')}</div>
-      <div class="pdf-grid">${pdfHtml}</div>
-    </div>
-    <div class="section">
-      <div class="section-title">${t('practice')}</div>
-      ${practiceHtml}
-    </div>`;
+    ${pdfHtml ? `<div class="section"><div class="section-title">${t('materials')}</div><div class="pdf-grid">${pdfHtml}</div></div>` : ''}
+    ${practiceHtml ? `<div class="section"><div class="section-title">${t('practice')}</div>${practiceHtml}</div>` : ''}
+    <div class="section" id="lesson-resources-section"></div>`;
+
+  // Lazy-load extra admin-managed resources for this lesson
+  const lvlNum = level.levelNum || (LEVELS.indexOf(level) + 1);
+  loadLessonResources(lvlNum, lesson.week, 'lesson-resources-section').then(() => {
+    if (CURRENT_USER && CURRENT_USER.role === 'admin') {
+      const sec = document.getElementById('lesson-resources-section');
+      if (sec) {
+        const btn = document.createElement('button');
+        btn.className = 'btn-secondary';
+        btn.style.marginTop = '12px';
+        btn.textContent = '+ ' + (t('cmgrAdd') || 'Add resource');
+        btn.onclick = () => {
+          cmgrState.level = lvlNum;
+          cmgrState.week = lesson.week;
+          const ref = REFERENCE_TOPICS.find(r => r.id === 'content-mgr');
+          if (ref) clickReference('content-mgr');
+        };
+        sec.appendChild(btn);
+      }
+    }
+  });
 
   // If the lecture wasn't ready synchronously, fetch the bundle and rehydrate
   // the placeholder once it arrives.
@@ -2707,6 +3095,453 @@ function renderLdResult(data) {
     </div>`;
 }
 
+// ─── Content Manager (admin) + per-lesson resources ──────────────────────────
+
+let cmgrState = { level: 1, week: 1 };
+
+async function renderContentManager(ref) {
+  const main = document.getElementById('main');
+  main.innerHTML = `
+    <div class="topic-header">
+      <h2>${ref.title[lang]}</h2>
+      <p>${ref.desc[lang]}</p>
+    </div>
+    <div class="section">
+      <div class="cmgr-nav">
+        <div class="cmgr-nav-row" id="cmgr-level-tabs">${renderCmgrLevelTabs()}</div>
+        <div class="cmgr-nav-row cmgr-week-row" id="cmgr-week-pills">${renderCmgrWeekPills()}</div>
+      </div>
+      ${renderUploadFormHTML(cmgrState.level, cmgrState.week)}
+      <div id="cmgr-list">${t('cmgrLoading') || 'Loading…'}</div>
+    </div>`;
+  await cmgrReloadList();
+}
+
+function _allLevelsForPicker() {
+  return [
+    { level_num: 1, name: 'Level 1', week_count: 14, built_in: true },
+    { level_num: 2, name: 'Level 2', week_count: 14, built_in: true },
+    { level_num: 3, name: 'Level 3', week_count: 14, built_in: true },
+  ].concat(EXTRA_LEVELS || []);
+}
+
+function renderCmgrLevelTabs() {
+  return _allLevelsForPicker().map(l => {
+    const active = cmgrState.level === l.level_num;
+    const icon = l.built_in ? ['', '🟢', '🔵', '🟣'][l.level_num] : '🎓';
+    const label = l.built_in
+      ? `L${l.level_num}`
+      : `L${l.level_num} — ${escapeHtml(l.name)}`;
+    return `<button class="cmgr-tab ${active ? 'active' : ''}" onclick="cmgrSetLevel(${l.level_num})">
+      <span class="cmgr-tab-icon">${icon}</span>
+      <span class="cmgr-tab-label">${label}</span>
+    </button>`;
+  }).join('');
+}
+
+function renderCmgrWeekPills() {
+  const lvl = _allLevelsForPicker().find(l => l.level_num === cmgrState.level);
+  const wc = lvl ? lvl.week_count : 14;
+  return Array.from({ length: wc }, (_, i) => i + 1).map(w => {
+    const active = cmgrState.week === w;
+    return `<button class="cmgr-week-pill ${active ? 'active' : ''}" onclick="cmgrSetWeek(${w})">${t('cmgrWeekShort') || 'W'}${w}</button>`;
+  }).join('');
+}
+
+function cmgrSetLevel(v) {
+  cmgrState.level = parseInt(v);
+  cmgrState.week = 1;
+  const lvlEl = document.getElementById('cmgr-level-tabs');
+  const wkEl = document.getElementById('cmgr-week-pills');
+  if (lvlEl) lvlEl.innerHTML = renderCmgrLevelTabs();
+  if (wkEl) wkEl.innerHTML = renderCmgrWeekPills();
+  cmgrReloadList();
+  cmgrRefreshUploadHidden();
+}
+
+function cmgrSetWeek(v) {
+  cmgrState.week = parseInt(v);
+  const wkEl = document.getElementById('cmgr-week-pills');
+  if (wkEl) wkEl.innerHTML = renderCmgrWeekPills();
+  cmgrReloadList();
+  cmgrRefreshUploadHidden();
+}
+function cmgrRefreshUploadHidden() {
+  const lv = document.querySelector('#cmgr-upload-form input[name="level"]');
+  const wk = document.querySelector('#cmgr-upload-form input[name="week"]');
+  if (lv) lv.value = cmgrState.level;
+  if (wk) wk.value = cmgrState.week;
+}
+
+let _cmgrPollTimer = null;
+async function cmgrReloadList(targetEl) {
+  const el = targetEl || document.getElementById('cmgr-list');
+  if (!el) return;
+  try {
+    const res = await fetch(`/api/resources?level=${cmgrState.level}&week=${cmgrState.week}`, { credentials: 'same-origin' });
+    const data = await res.json();
+    const builtinHtml = renderBuiltInSection(cmgrState.level, cmgrState.week);
+    const adminHtml = renderResourceListHTML(data.resources || [], /*adminMode*/ true);
+    el.innerHTML = `
+      ${builtinHtml}
+      <div class="cmgr-section-head">${t('cmgrAdminUploaded') || '➕ Admin-uploaded resources'}</div>
+      ${adminHtml}`;
+    // Auto-poll while any resource is still extracting
+    const stillPending = (data.resources || []).some(r => r.extraction_status === 'pending');
+    if (_cmgrPollTimer) { clearTimeout(_cmgrPollTimer); _cmgrPollTimer = null; }
+    if (stillPending && currentView && currentView.ref && currentView.ref.contentMgr) {
+      _cmgrPollTimer = setTimeout(() => cmgrReloadList(), 5000);
+    }
+  } catch (e) {
+    el.innerHTML = `<div class="feedback-box error">${escapeHtml(e.message)}</div>`;
+  }
+}
+
+// Renders the read-only "what's already in the curriculum" panel for L/W
+// as a single tidy card with row entries (cleaner than separate cards).
+function renderBuiltInSection(level, week) {
+  if (level > 3) {
+    return `<div class="cmgr-section-head">${t('cmgrBuiltIn') || '📚 Built-in curriculum'}</div>
+            <div class="cmgr-empty">${t('cmgrNoBuiltIn') || 'This is a custom level — no built-in curriculum. Use the form below to add resources.'}</div>`;
+  }
+  const lvl = LEVELS[level - 1];
+  if (!lvl) return '';
+  const lesson = lvl.lessons.find(l => l.week === week);
+  if (!lesson) return '';
+
+  const rows = [];
+
+  if (lesson.pdf) {
+    const url = '/pdfs/' + lesson.pdf.split('/').map(encodeURIComponent).join('/');
+    rows.push(`
+      <div class="cmgr-bi-row">
+        <span class="cmgr-bi-icon">📄</span>
+        <div class="cmgr-bi-text">
+          <div class="cmgr-bi-label">${t('cmgrLessonPdf') || 'Lesson PDF'}</div>
+          <div class="cmgr-bi-meta">${escapeHtml(lesson.pdf.split('/').pop())}</div>
+        </div>
+        <a class="cmgr-bi-action" href="${url}" target="_blank" rel="noopener">${t('openPDF') || 'Open'}</a>
+      </div>`);
+  }
+
+  const hasLecture = !!(lesson.lecture || (LECTURES_BUNDLE && LECTURES_BUNDLE[`L${level}W${week}`]));
+  if (hasLecture) {
+    rows.push(`
+      <div class="cmgr-bi-row">
+        <span class="cmgr-bi-icon">📖</span>
+        <div class="cmgr-bi-text">
+          <div class="cmgr-bi-label">${t('lecture') || 'Lecture'}</div>
+          <div class="cmgr-bi-meta">${t('cmgrLectureExists') || 'Multilingual lecture (EN/TR/AR)'}</div>
+        </div>
+      </div>`);
+  }
+
+  const qcount = (lesson.questions || []).length;
+  if (qcount) {
+    rows.push(`
+      <div class="cmgr-bi-row">
+        <span class="cmgr-bi-icon">🎯</span>
+        <div class="cmgr-bi-text">
+          <div class="cmgr-bi-label">${t('practice') || 'Practice'}</div>
+          <div class="cmgr-bi-meta">${qcount} ${t('cmgrQuestions') || 'practice questions'}</div>
+        </div>
+      </div>`);
+  }
+
+  if (!rows.length) {
+    return `<div class="cmgr-section-head">${t('cmgrBuiltIn') || '📚 Built-in curriculum'}</div>
+            <div class="cmgr-empty">${t('cmgrNoBuiltIn') || 'No built-in content for this lesson.'}</div>`;
+  }
+
+  return `
+    <div class="cmgr-section-head">${t('cmgrBuiltIn') || '📚 Built-in curriculum'}</div>
+    <div class="cmgr-builtin-card">
+      <div class="cmgr-builtin-head">
+        <span>${escapeHtml(lesson.title[lang] || lesson.title.en)}</span>
+        <span class="cmgr-readonly">${t('cmgrReadOnly') || 'read-only'}</span>
+      </div>
+      ${rows.join('')}
+    </div>`;
+}
+
+function renderUploadFormHTML(level, week) {
+  return `
+    <div class="cmgr-upload" id="cmgr-upload-form">
+      <div class="cmgr-kind-tabs">
+        ${['pdf','image','audio','link','note'].map((k, i) => `<button class="cmgr-kind ${i===0?'active':''}" data-kind="${k}" onclick="cmgrSwitchKind('${k}')">${kindEmoji(k)} ${kindLabel(k)}</button>`).join('')}
+      </div>
+      <input type="hidden" name="level" value="${level}" />
+      <input type="hidden" name="week" value="${week}" />
+      <div class="cmgr-row">
+        <input type="text" id="cmgr-title" placeholder="${t('cmgrTitle') || 'Title'}" />
+      </div>
+      <div class="cmgr-row" id="cmgr-row-file">
+        <label class="cmgr-file-label" id="cmgr-file-label">
+          <input type="file" id="cmgr-file" onchange="cmgrOnFileSelected(this)" style="display:none" />
+          <span class="cmgr-file-trigger">📎 ${t('cmgrChooseFile') || 'Choose file…'}</span>
+        </label>
+        <span id="cmgr-file-info" class="cmgr-file-info" style="display:none">
+          <span id="cmgr-file-info-name"></span>
+          <button type="button" class="cmgr-icon-btn" onclick="cmgrClearFile()" title="${t('cmgrClearFile') || 'Cancel'}">✕</button>
+        </span>
+        <span class="cmgr-hint">${t('cmgrMax') || 'Max 50 MB'}</span>
+      </div>
+      <div class="cmgr-row" id="cmgr-row-url" style="display:none">
+        <input type="url" id="cmgr-url" placeholder="https://..." />
+      </div>
+      <div class="cmgr-row" id="cmgr-row-body" style="display:none">
+        <textarea id="cmgr-body" rows="3" placeholder="${t('cmgrNoteBody') || 'Write the note text...'}"></textarea>
+      </div>
+      <div class="cmgr-row">
+        <button class="btn-primary" id="cmgr-submit-btn" onclick="cmgrSubmitUpload()">${cmgrSubmitLabel()}</button>
+        <span id="cmgr-status" class="cmgr-hint" style="margin-left:10px"></span>
+      </div>
+    </div>`;
+}
+
+let cmgrCurrentKind = 'pdf';
+function cmgrSubmitLabel() {
+  // For file kinds that get AI-extracted, label the action as "Run by AI"
+  if (cmgrCurrentKind === 'pdf' || cmgrCurrentKind === 'image') {
+    return t('cmgrRunByAI') || '🤖 Run this by AI';
+  }
+  // Audio is stored but not AI-extracted (no vision model for audio yet)
+  if (cmgrCurrentKind === 'audio') return t('cmgrAddAudio') || '+ Upload audio';
+  return t('cmgrAddBasic') || '+ Add resource';
+}
+function cmgrSwitchKind(k) {
+  cmgrCurrentKind = k;
+  document.querySelectorAll('.cmgr-kind').forEach(b => b.classList.toggle('active', b.dataset.kind === k));
+  document.getElementById('cmgr-row-file').style.display = (k === 'pdf' || k === 'image' || k === 'audio') ? '' : 'none';
+  document.getElementById('cmgr-row-url').style.display  = (k === 'link') ? '' : 'none';
+  document.getElementById('cmgr-row-body').style.display = (k === 'note') ? '' : 'none';
+  const fi = document.getElementById('cmgr-file');
+  fi.accept = k === 'pdf' ? 'application/pdf' : k === 'image' ? 'image/*' : k === 'audio' ? 'audio/*' : '';
+  cmgrClearFile();
+  // Update the submit button label
+  const btn = document.getElementById('cmgr-submit-btn');
+  if (btn) btn.textContent = cmgrSubmitLabel();
+}
+
+function cmgrOnFileSelected(input) {
+  const f = input.files && input.files[0];
+  const info = document.getElementById('cmgr-file-info');
+  const nameSpan = document.getElementById('cmgr-file-info-name');
+  if (!f) { info.style.display = 'none'; return; }
+  // Show filename + size
+  const kb = Math.round(f.size / 1024);
+  nameSpan.textContent = `${f.name} (${kb} KB)`;
+  info.style.display = 'inline-flex';
+  document.getElementById('cmgr-file-label').style.display = 'none';
+  // Auto-fill the title with the filename (sans extension) if title is empty
+  const titleField = document.getElementById('cmgr-title');
+  if (!titleField.value.trim()) {
+    titleField.value = f.name.replace(/\.[^.]+$/, '');
+  }
+}
+
+function cmgrClearFile() {
+  const fi = document.getElementById('cmgr-file');
+  if (fi) fi.value = '';
+  const info = document.getElementById('cmgr-file-info');
+  if (info) info.style.display = 'none';
+  const label = document.getElementById('cmgr-file-label');
+  if (label) label.style.display = '';
+}
+
+function kindEmoji(k) { return {pdf:'📄', image:'🖼️', audio:'🔊', link:'🔗', note:'📝'}[k] || '•'; }
+function kindLabel(k) {
+  const labels = (lang === 'tr')
+    ? {pdf:'PDF', image:'Görsel', audio:'Ses', link:'Bağlantı', note:'Not'}
+    : (lang === 'ar')
+    ? {pdf:'PDF', image:'صورة', audio:'صوت', link:'رابط', note:'ملاحظة'}
+    : {pdf:'PDF', image:'Image', audio:'Audio', link:'Link', note:'Note'};
+  return labels[k] || k;
+}
+
+async function cmgrSubmitUpload() {
+  const status = document.getElementById('cmgr-status');
+  const title = document.getElementById('cmgr-title').value.trim();
+  if (!title) { status.textContent = t('cmgrErrTitle') || 'Title required'; return; }
+  status.textContent = t('cmgrSaving') || 'Saving…';
+
+  let res;
+  try {
+    if (cmgrCurrentKind === 'pdf' || cmgrCurrentKind === 'image' || cmgrCurrentKind === 'audio') {
+      const file = document.getElementById('cmgr-file').files[0];
+      if (!file) { status.textContent = t('cmgrErrFile') || 'File required'; return; }
+      const fd = new FormData();
+      fd.append('level', cmgrState.level);
+      fd.append('week', cmgrState.week);
+      fd.append('title', title);
+      fd.append('kind', cmgrCurrentKind);
+      fd.append('file', file);
+      res = await fetch('/api/admin/resources', { method: 'POST', credentials: 'same-origin', body: fd });
+    } else {
+      const body = { level: cmgrState.level, week: cmgrState.week, title, kind: cmgrCurrentKind };
+      if (cmgrCurrentKind === 'link') body.url = document.getElementById('cmgr-url').value.trim();
+      else body.body = document.getElementById('cmgr-body').value.trim();
+      res = await fetch('/api/admin/resources', {
+        method: 'POST', credentials: 'same-origin',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify(body),
+      });
+    }
+    const data = await res.json();
+    if (!res.ok) throw new Error(data.error || res.status);
+    // Reset form + reload
+    document.getElementById('cmgr-title').value = '';
+    cmgrClearFile();
+    if (document.getElementById('cmgr-url')) document.getElementById('cmgr-url').value = '';
+    if (document.getElementById('cmgr-body')) document.getElementById('cmgr-body').value = '';
+    // Different message for file uploads (AI will process) vs link/note (instant)
+    if (cmgrCurrentKind === 'pdf' || cmgrCurrentKind === 'image') {
+      status.innerHTML = `<span style="color:#78350f;background:#fef3c7;padding:4px 10px;border-radius:10px;font-weight:600;">⏳ ${t('cmgrSavedAIReading') || 'Saved — AI is reading the file in the background…'}</span>`;
+    } else if (cmgrCurrentKind === 'audio') {
+      status.innerHTML = `<span style="color:#14532d;background:#dcfce7;padding:4px 10px;border-radius:10px;font-weight:600;">✓ ${t('cmgrSaved') || 'Saved'}</span>`;
+    } else {
+      status.innerHTML = `<span style="color:#14532d;background:#dcfce7;padding:4px 10px;border-radius:10px;font-weight:600;">✓ ${t('cmgrSaved') || 'Saved'}</span>`;
+    }
+    setTimeout(() => { status.innerHTML = ''; }, 6000);
+    await cmgrReloadList();
+  } catch (e) {
+    status.textContent = '✗ ' + e.message;
+  }
+}
+
+async function cmgrReextract(rid) {
+  const res = await fetch(`/api/admin/resources/${rid}/reextract`, {
+    method: 'POST', credentials: 'same-origin',
+  });
+  if (res.ok) cmgrReloadList();
+  else alert((t('admErrFailed') || 'Failed:') + ' ' + res.status);
+}
+
+async function cmgrDelete(rid) {
+  if (!confirm(t('cmgrConfirmDelete') || 'Delete this resource?')) return;
+  const res = await fetch(`/api/admin/resources/${rid}`, { method: 'DELETE', credentials: 'same-origin' });
+  if (res.ok) cmgrReloadList();
+}
+
+async function cmgrRename(rid, currentTitle) {
+  const newTitle = prompt(t('cmgrPromptRename') || 'New title:', currentTitle);
+  if (!newTitle || newTitle.trim() === currentTitle) return;
+  const res = await fetch(`/api/admin/resources/${rid}`, {
+    method: 'PATCH', credentials: 'same-origin',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({ title: newTitle.trim() }),
+  });
+  if (res.ok) cmgrReloadList();
+}
+
+function renderResourceListHTML(resources, adminMode) {
+  if (!resources.length) {
+    return `<div class="cmgr-empty">${t('cmgrEmpty') || 'No additional resources for this lesson yet.'}</div>`;
+  }
+  // Folder-style file list: vertical entries with icon + title + status + actions
+  return `<div class="cmgr-folder">${resources.map(r => renderResourceRow(r, adminMode)).join('')}</div>`;
+}
+
+function _statusBadge(status) {
+  if (status === 'done')    return `<span class="cmgr-st done" title="${t('cmgrStatusDoneTooltip') || 'AI read this file — used as Deep Learn context'}">${t('cmgrStatusDone') || '✓ AI read'}</span>`;
+  if (status === 'pending') return `<span class="cmgr-st pending" title="${t('cmgrStatusPendingTooltip') || 'AI is reading this file…'}">${t('cmgrStatusPending') || '⏳ Processing…'}</span>`;
+  if (status === 'failed')  return `<span class="cmgr-st failed" title="${t('cmgrStatusFailedTooltip') || 'AI could not read this file'}">${t('cmgrStatusFailed') || '✗ Extraction failed'}</span>`;
+  return ''; // skip / link / note — no badge
+}
+
+function renderResourceRow(r, adminMode) {
+  const isFile = r.kind === 'pdf' || r.kind === 'image' || r.kind === 'audio';
+  const url = isFile ? `/uploads/${r.file_path}` : (r.kind === 'link' ? r.url : null);
+  const size = r.size ? ` · ${Math.round(r.size / 1024)} KB` : '';
+  const subline = r.kind === 'note'
+    ? escapeHtml((r.body || '').slice(0, 120)) + ((r.body || '').length > 120 ? '…' : '')
+    : (isFile ? escapeHtml(r.file_path.split('/').pop()) + size
+              : (r.kind === 'link' ? escapeHtml(r.url || '') : ''));
+
+  const statusHtml = adminMode ? _statusBadge(r.extraction_status) : '';
+  const openLink = url
+    ? `<a class="cmgr-row-open" href="${escapeHtml(url)}" target="_blank" rel="noopener">${t('openPDF') || 'Open'}</a>`
+    : '';
+  const canReextract = adminMode && (r.kind === 'pdf' || r.kind === 'image');
+  const adminBtns = adminMode
+    ? `
+      ${canReextract ? `<button class="cmgr-icon-btn" title="${t('cmgrReextract') || 'Re-run AI'}" onclick="cmgrReextract(${r.id})">🤖</button>` : ''}
+      <button class="cmgr-icon-btn" title="${t('admRename')}" onclick="cmgrRename(${r.id}, '${(r.title || '').replace(/'/g, "&#39;")}')">✏️</button>
+      <button class="cmgr-icon-btn" title="${t('admDelete')}" onclick="cmgrDelete(${r.id})">🗑️</button>`
+    : '';
+
+  // For note kinds (no URL to open), show body expanded
+  const expandedBody = r.kind === 'note' && (r.body || '').length > 0
+    ? `<div class="cmgr-row-note">${escapeHtml(r.body).replace(/\n/g, '<br>')}</div>` : '';
+
+  // For images, show small thumbnail
+  const thumb = (r.kind === 'image' && url)
+    ? `<a href="${url}" target="_blank" rel="noopener"><img src="${url}" class="cmgr-row-thumb"/></a>` : '';
+
+  // For audio, embed inline
+  const audio = (r.kind === 'audio' && url)
+    ? `<audio controls src="${url}" class="cmgr-row-audio"></audio>` : '';
+
+  return `
+    <div class="cmgr-row">
+      <span class="cmgr-row-icon">${kindEmoji(r.kind)}</span>
+      <div class="cmgr-row-main">
+        <div class="cmgr-row-title">${escapeHtml(r.title)}</div>
+        <div class="cmgr-row-meta">${subline}</div>
+        ${expandedBody}
+        ${thumb}
+        ${audio}
+      </div>
+      <div class="cmgr-row-tail">
+        ${statusHtml}
+        ${openLink}
+        ${adminBtns}
+      </div>
+    </div>`;
+}
+
+// Used by renderLesson to inject the Additional Resources block.
+async function loadLessonResources(level, week, containerId) {
+  try {
+    const res = await fetch(`/api/resources?level=${level}&week=${week}`, { credentials: 'same-origin' });
+    const data = await res.json();
+    const el = document.getElementById(containerId);
+    if (!el) return;
+    const items = data.resources || [];
+    if (!items.length) { el.innerHTML = ''; return; }
+
+    // Split into (a) AI-generated lectures from uploaded files and (b) the
+    // plain file list. Lecture panels render in the SAME format as built-in
+    // course lectures for visual consistency.
+    const lectureItems = items.filter(r => {
+      try { return r.lecture_data && JSON.parse(r.lecture_data).sections?.length; }
+      catch { return false; }
+    });
+
+    let html = '';
+    for (const r of lectureItems) {
+      try {
+        const lec = JSON.parse(r.lecture_data);
+        html += `
+          <div class="section">
+            <div class="section-title">${t('lecture') || 'Lecture'} — ${escapeHtml(r.title)}
+              <span style="font-size:0.7rem;color:#1e3a8a;background:#dbeafe;padding:2px 8px;border-radius:10px;margin-left:8px;font-weight:600">${t('lessonAiGenerated') || 'AI generated'}</span>
+            </div>
+            ${renderLecture(lec)}
+          </div>`;
+      } catch {}
+    }
+
+    html += `
+      <div class="section">
+        <div class="section-title">${t('lessonAddResources') || 'Additional resources'}</div>
+        ${renderResourceListHTML(items, /*adminMode*/ false)}
+      </div>`;
+
+    el.innerHTML = html;
+  } catch {}
+}
+
 // ─── Self-Check Verse Analysis ────────────────────────────────────────────────
 
 let scState = { surah: '', ayah: '' };
@@ -3077,6 +3912,338 @@ function scOverallBadge(scores) {
   return `<span class="sc-badge missing">${t('scLegendMissing')}</span>`;
 }
 
+// ─── I'rab AI Compare (multi-model side-by-side) ──────────────────────────────
+
+let icmpState = { surah: '', ayah: '', verse: '', models: ['gemini', 'claude', 'openai'],
+                  geminiModel: 'gemini-2.5-flash-lite' };
+let icmpLastResult = null;
+
+function renderIrabCompare(ref) {
+  const main = document.getElementById('main');
+  const grounded = !!ref.irabCompareGrounded;
+  const isAdmin = CURRENT_USER && CURRENT_USER.role === 'admin';
+  const groundedBanner = grounded
+    ? `<div class="icmp-grounded-banner">🎓 ${t('icmpGroundedNote') || 'Powered by Gemini, restricted to ONLY the 42-week curriculum (context-cached) — no outside grammatical knowledge.'}</div>
+       ${isAdmin ? `<div class="icmp-cache-strip" id="icmp-cache-strip">${t('cmgrLoading') || '…'}</div>` : ''}`
+    : '';
+  main.innerHTML = `
+    <div class="topic-header">
+      <h2>${ref.title[lang]}</h2>
+      <p>${ref.desc[lang]}</p>
+    </div>
+    ${groundedBanner}
+    <div class="section">
+      <div class="irab-picker">
+        <div class="irab-picker-field">
+          <label>${t('irabPickSurah')}</label>
+          <select id="icmp-surah" onchange="onIcmpSurahChange()" disabled>
+            <option value="">${t('irabPickLoading')}</option>
+          </select>
+        </div>
+        <div class="irab-picker-field" style="max-width: 130px">
+          <label>${t('irabPickAyah')}</label>
+          <select id="icmp-ayah" disabled><option value="">—</option></select>
+        </div>
+        <div class="irab-picker-field" style="flex: 0; min-width: 130px">
+          <label>&nbsp;</label>
+          <button class="btn-primary" id="icmp-load" onclick="icmpLoadVerse()" disabled style="padding:9px 18px">${t('irabPickLoad')}</button>
+        </div>
+        <div class="irab-picker-field" style="flex: 0; min-width: 100px">
+          <label>&nbsp;</label>
+          <div style="display:flex; gap:6px;">
+            <button class="btn-secondary" id="icmp-prev" onclick="icmpStepVerse(-1)" disabled style="padding:9px 12px; font-weight:700;">◀</button>
+            <button class="btn-secondary" id="icmp-next" onclick="icmpStepVerse(1)" disabled style="padding:9px 12px; font-weight:700;">▶</button>
+          </div>
+        </div>
+      </div>
+      <div class="irab-input">
+        <div style="font-size:0.78rem; color:var(--muted); margin-bottom:6px;">${t('irabOrPaste')}</div>
+        <textarea class="irab-textarea" id="icmp-input" placeholder="${escapeHtml(t('irabPlaceholder'))}"></textarea>
+        <div class="irab-actions" style="flex-wrap:wrap; gap:10px;">
+          ${grounded ? `
+          <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+            <span style="font-size:0.78rem; font-weight:700; color:var(--muted); text-transform:uppercase; letter-spacing:0.06em;">${t('icmpModel') || 'Model'}</span>
+            <select id="icmp-gemini-model" class="icmp-model-select">
+              <option value="gemini-2.5-flash-lite" ${icmpState.geminiModel === 'gemini-2.5-flash-lite' ? 'selected' : ''}>Gemini Flash-Lite — ${t('icmpModelDefault') || 'default, fast & cheap'}</option>
+              <option value="gemini-2.5-flash" ${icmpState.geminiModel === 'gemini-2.5-flash' ? 'selected' : ''}>Gemini Flash — ${t('icmpModelStronger') || 'stronger reasoning'}</option>
+              <option value="gemini-2.5-pro" ${icmpState.geminiModel === 'gemini-2.5-pro' ? 'selected' : ''}>Gemini Pro — ${t('icmpModelBest') || 'highest quality'}</option>
+            </select>
+          </div>` : `
+          <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+            <span style="font-size:0.78rem; font-weight:700; color:var(--muted); text-transform:uppercase; letter-spacing:0.06em;">${t('icmpModels') || 'Models'}</span>
+            <label class="icmp-pill"><input type="checkbox" id="icmp-model-gemini" ${icmpState.models.includes('gemini') ? 'checked' : ''}><span>Gemini</span></label>
+            <label class="icmp-pill"><input type="checkbox" id="icmp-model-claude" ${icmpState.models.includes('claude') ? 'checked' : ''}><span>Claude</span></label>
+            <label class="icmp-pill"><input type="checkbox" id="icmp-model-openai" ${icmpState.models.includes('openai') ? 'checked' : ''}><span>ChatGPT</span></label>
+          </div>`}
+          <span class="spacer"></span>
+          <button class="btn-secondary" onclick="icmpClear()">${t('irabClear')}</button>
+          <button class="btn-primary" id="icmp-go" onclick="icmpRun()">${grounded ? (t('icmpAnalyze') || 'Analyze') : (t('icmpRun') || 'Compare')}</button>
+        </div>
+      </div>
+      <div id="icmp-results">${icmpLastResult ? renderIcmpResults(icmpLastResult) : ''}</div>
+    </div>`;
+
+  const icmpInput = document.getElementById('icmp-input');
+  icmpInput.value = icmpState.verse || '';   // restore the verse text on re-entry
+  icmpInput.addEventListener('keydown', e => {
+    if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) icmpRun();
+  });
+  icmpInput.addEventListener('input', () => { icmpState.verse = icmpInput.value; });
+  icmpPopulateSurahDropdown();
+  if (grounded && isAdmin) icmpLoadCacheStatus();
+}
+
+// ── Curriculum context-cache status (admin only, grounded module) ─────────────
+async function icmpLoadCacheStatus() {
+  const el = document.getElementById('icmp-cache-strip');
+  if (!el) return;
+  try {
+    const res = await fetch('/api/admin/curriculum-cache', { credentials: 'same-origin' });
+    const d = await res.json();
+    if (d.status === 'active') {
+      const exp = (d.expires_at || '').slice(0, 16).replace('T', ' ');
+      el.innerHTML = `
+        <span class="icmp-cache-ok">✓ ${t('icmpCacheActive') || 'Curriculum cache active'}</span>
+        <span class="icmp-cache-meta">${(d.token_count || 0).toLocaleString()} ${t('icmpCacheTokens') || 'tokens cached'} · ${t('icmpCacheExpires') || 'expires'} ${exp}</span>
+        <button class="btn-secondary" style="padding:4px 12px;font-size:0.76rem" onclick="icmpBuildCache()">${t('icmpCacheRefresh') || 'Refresh'}</button>`;
+    } else {
+      el.innerHTML = `
+        <span class="icmp-cache-warn">⚠ ${t('icmpCacheNone') || 'No curriculum cache — grounded calls fall back to inline (slower/costlier).'}</span>
+        <button class="btn-primary" style="padding:4px 12px;font-size:0.76rem" onclick="icmpBuildCache()">${t('icmpCacheBuild') || 'Build cache'}</button>`;
+    }
+  } catch (e) {
+    el.innerHTML = `<span class="icmp-cache-warn">${escapeHtml(e.message)}</span>`;
+  }
+}
+
+async function icmpBuildCache() {
+  const el = document.getElementById('icmp-cache-strip');
+  if (el) el.innerHTML = `<span class="icmp-cache-meta">${t('icmpCacheBuilding') || 'Building cache… (~20s)'} <span class="spinner"></span></span>`;
+  try {
+    const res = await fetch('/api/admin/curriculum-cache/build', { method: 'POST', credentials: 'same-origin' });
+    const d = await res.json();
+    if (!res.ok) throw new Error(d.error || res.status);
+  } catch (e) {
+    if (el) el.innerHTML = `<span class="icmp-cache-warn">${escapeHtml(e.message)}</span>`;
+    return;
+  }
+  icmpLoadCacheStatus();
+}
+
+async function icmpPopulateSurahDropdown() {
+  const sel = document.getElementById('icmp-surah');
+  if (!sel) return;
+  try {
+    const chapters = await fetchChapters();
+    const opts = ['<option value="">—</option>'];
+    for (const c of chapters) {
+      const tname = c.translated_name?.name ? ` — ${c.translated_name.name}` : '';
+      opts.push(`<option value="${c.id}" data-verses="${c.verses_count}">${c.id}. ${escapeHtml(c.name_simple)}${escapeHtml(tname)}</option>`);
+    }
+    sel.innerHTML = opts.join('');
+    sel.disabled = false;
+    if (icmpState.surah) { sel.value = icmpState.surah; onIcmpSurahChange(true); }
+  } catch (e) {
+    sel.innerHTML = `<option value="">Failed: ${escapeHtml(e.message)}</option>`;
+  }
+}
+
+function onIcmpSurahChange(preserveAyah) {
+  const sSel = document.getElementById('icmp-surah');
+  const aSel = document.getElementById('icmp-ayah');
+  const loadBtn = document.getElementById('icmp-load');
+  icmpState.surah = sSel.value;
+  // preserveAyah is set only when restoring saved state on module re-entry.
+  if (!preserveAyah) icmpState.ayah = '';
+  icmpRefreshStepButtons();
+  if (!sSel.value) {
+    aSel.disabled = true; aSel.innerHTML = '<option value="">—</option>'; loadBtn.disabled = true;
+    return;
+  }
+  const versesCount = parseInt(sSel.options[sSel.selectedIndex].dataset.verses) || 0;
+  const opts = ['<option value="">—</option>'];
+  for (let i = 1; i <= versesCount; i++) opts.push(`<option value="${i}">${i}</option>`);
+  aSel.innerHTML = opts.join('');
+  aSel.disabled = false;
+  aSel.onchange = () => { icmpState.ayah = aSel.value; loadBtn.disabled = !aSel.value; icmpRefreshStepButtons(); };
+  if (preserveAyah && icmpState.ayah) {
+    aSel.value = icmpState.ayah;
+    loadBtn.disabled = !icmpState.ayah;
+    icmpRefreshStepButtons();
+  }
+}
+
+function icmpRefreshStepButtons() {
+  const prev = document.getElementById('icmp-prev');
+  const next = document.getElementById('icmp-next');
+  if (!prev || !next) return;
+  const s = parseInt(icmpState.surah), a = parseInt(icmpState.ayah);
+  const has = !!(s && a);
+  prev.disabled = !has || (s === 1 && a === 1);
+  next.disabled = !has || (quranChapters && s === quranChapters.length && a >= (quranChapters[quranChapters.length - 1].verses_count || 0));
+}
+
+async function icmpLoadVerse() {
+  const sSel = document.getElementById('icmp-surah');
+  const aSel = document.getElementById('icmp-ayah');
+  const loadBtn = document.getElementById('icmp-load');
+  if (!sSel.value || !aSel.value) return;
+  loadBtn.disabled = true;
+  loadBtn.textContent = t('irabPickLoading');
+  try {
+    const res = await fetch(`https://api.quran.com/api/v4/verses/by_key/${sSel.value}:${aSel.value}?fields=text_uthmani,text_imlaei`);
+    const data = await res.json();
+    const verseText = (data.verse && (data.verse.text_uthmani || data.verse.text_imlaei)) || '';
+    if (!verseText) throw new Error('No verse text returned');
+    document.getElementById('icmp-input').value = verseText;
+    icmpState.verse = verseText;
+    document.getElementById('icmp-input').focus();
+  } catch (e) {
+    document.getElementById('icmp-results').innerHTML = `<div class="feedback-box error">Failed: ${escapeHtml(e.message)}</div>`;
+  } finally {
+    loadBtn.disabled = false;
+    loadBtn.textContent = t('irabPickLoad');
+  }
+}
+
+async function icmpStepVerse(direction) {
+  if (!quranChapters) return;
+  let s = parseInt(icmpState.surah), a = parseInt(icmpState.ayah);
+  if (!s || !a) return;
+  if (direction > 0) {
+    const cur = quranChapters.find(c => c.id === s);
+    if (a < cur.verses_count) a += 1;
+    else if (s < quranChapters.length) { s += 1; a = 1; } else return;
+  } else {
+    if (a > 1) a -= 1;
+    else if (s > 1) { s -= 1; a = quranChapters.find(c => c.id === s).verses_count; } else return;
+  }
+  const sSel = document.getElementById('icmp-surah');
+  const aSel = document.getElementById('icmp-ayah');
+  if (parseInt(sSel.value) !== s) { sSel.value = String(s); onIcmpSurahChange(); }
+  aSel.value = String(a);
+  icmpState.ayah = String(a);
+  document.getElementById('icmp-load').disabled = false;
+  icmpRefreshStepButtons();
+  await icmpLoadVerse();
+}
+
+function icmpClear() {
+  document.getElementById('icmp-input').value = '';
+  document.getElementById('icmp-results').innerHTML = '';
+  icmpLastResult = null;
+  icmpState.verse = '';
+}
+
+async function icmpRun() {
+  const verse = document.getElementById('icmp-input').value.trim();
+  if (!verse) return;
+  // Grounded mode is determined by which module the user opened
+  const grounded = !!(currentView && currentView.ref && currentView.ref.irabCompareGrounded);
+  let models;
+  if (grounded) {
+    // Curriculum-Limited module is Gemini-only (the only model whose source
+    // can be truly restricted, via the context cache).
+    models = ['gemini'];
+  } else {
+    models = [];
+    if (document.getElementById('icmp-model-gemini').checked) models.push('gemini');
+    if (document.getElementById('icmp-model-claude').checked) models.push('claude');
+    if (document.getElementById('icmp-model-openai').checked) models.push('openai');
+    if (!models.length) { alert(t('icmpPickAtLeastOne') || 'Pick at least one model'); return; }
+  }
+  icmpState.models = models;
+  // Grounded module: user-selected Gemini model (defaults to Flash-Lite).
+  let geminiModel = '';
+  if (grounded) {
+    const mSel = document.getElementById('icmp-gemini-model');
+    geminiModel = (mSel && mSel.value) || 'gemini-2.5-flash-lite';
+    icmpState.geminiModel = geminiModel;
+  }
+  const btn = document.getElementById('icmp-go');
+  btn.disabled = true;
+  const orig = btn.textContent;
+  btn.textContent = t('icmpRunning') || 'Running…';
+  const results = document.getElementById('icmp-results');
+  results.innerHTML = `<div class="ld-empty">${t('icmpRunning') || 'Running…'} <span class="spinner"></span></div>`;
+  try {
+    const res = await fetch('/api/irab-compare', {
+      method: 'POST', credentials: 'same-origin',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ verse, language: lang, models, grounded, gemini_model: geminiModel }),
+    });
+    const data = await res.json();
+    if (!res.ok) throw new Error(data.error || res.status);
+    icmpLastResult = data;
+    results.innerHTML = renderIcmpResults(data);
+  } catch (err) {
+    results.innerHTML = `<div class="feedback-box error" style="white-space:pre-wrap">${linkify(escapeHtml(err.message))}</div>`;
+  } finally {
+    btn.disabled = false;
+    btn.textContent = orig;
+  }
+}
+
+function renderIcmpResults(data) {
+  const r = data.results || {};
+  const cols = Object.keys(r);
+  if (!cols.length) return `<div class="feedback-box error">${t('icmpNoResults') || 'No results.'}</div>`;
+
+  // Single model (Curriculum-Limited module) → render exactly like the Ayah
+  // I'rab page: translation banner + word cards flowing left-to-right.
+  if (cols.length === 1) {
+    const result = r[cols[0]];
+    if (result.error) {
+      return `<div class="feedback-box error" style="white-space:pre-wrap">${escapeHtml(result.error)}</div>`;
+    }
+    return `
+      <div class="icmp-single-head">${escapeHtml(result.model_label || cols[0])}</div>
+      ${renderIrabResult(result)}`;
+  }
+
+  // Multiple models → side-by-side columns
+  return `
+    <div class="icmp-grid" style="grid-template-columns: repeat(${cols.length}, minmax(0, 1fr));">
+      ${cols.map(name => renderIcmpColumn(name, r[name])).join('')}
+    </div>`;
+}
+
+function renderIcmpColumn(name, result) {
+  const header = result.model_label || name;
+  if (result.error) {
+    return `
+      <div class="icmp-col">
+        <div class="icmp-col-head">${escapeHtml(header)}</div>
+        <div class="feedback-box error" style="margin:10px">${escapeHtml(result.error)}</div>
+      </div>`;
+  }
+  const words = result.words || [];
+  const wordsHtml = words.map(w => {
+    const rows = [];
+    if (w.transliteration) rows.push(`<dt>${t('irabTranslit') || 'Transliteration'}</dt><dd>${escapeHtml(w.transliteration)}</dd>`);
+    if (w.meaning) rows.push(`<dt>${t('irabMeaning') || 'Meaning'}</dt><dd>${escapeHtml(w.meaning)}</dd>`);
+    if (w.type) rows.push(`<dt>${t('irabType') || 'Type'}</dt><dd>${escapeHtml(w.type)}</dd>`);
+    if (w.root) rows.push(`<dt>${t('irabRoot') || 'Root'}</dt><dd>${escapeHtml(w.root)}</dd>`);
+    if (w.form) rows.push(`<dt>${t('irabForm') || 'Form'}</dt><dd>${escapeHtml(w.form)}</dd>`);
+    if (w.case_mood) rows.push(`<dt>${t('irabCase') || 'Case/Mood'}</dt><dd>${escapeHtml(w.case_mood)}</dd>`);
+    if (w.role) rows.push(`<dt>${t('irabRole') || 'Role'}</dt><dd>${escapeHtml(w.role)}</dd>`);
+    const notes = w.notes ? `<div class="irab-word-notes"><strong>${t('irabNotes') || 'Notes'}:</strong> ${escapeHtml(w.notes)}</div>` : '';
+    return `
+      <div class="irab-word" style="margin-bottom:10px;">
+        <div class="irab-word-ar">${escapeHtml(w.word || w.ar || '')}</div>
+        <dl class="irab-word-grammar">${rows.join('')}</dl>
+        ${notes}
+      </div>`;
+  }).join('');
+  return `
+    <div class="icmp-col">
+      <div class="icmp-col-head">${escapeHtml(header)}</div>
+      ${result.translation ? `<div class="irab-translation"><strong>${t('irabTranslation') || 'Translation'}:</strong> ${escapeHtml(result.translation)}</div>` : ''}
+      <div class="irab-words" style="display:block;">${wordsHtml}</div>
+    </div>`;
+}
+
+
 // ─── Verse Analysis (I'rab) ───────────────────────────────────────────────────
 
 let lastIrabResult = null;
@@ -3266,21 +4433,46 @@ async function stepVerse(direction) {
   await loadVerse();
 }
 
+let irabLoadSeq = 0;          // monotonic token — newest load wins
+let irabLoadPending = false;  // a verse fetch is currently in flight
+
 async function loadVerse() {
   const sSel = document.getElementById('picker-surah');
   const aSel = document.getElementById('picker-ayah');
   const loadBtn = document.getElementById('picker-load');
+  const goBtn = document.getElementById('irab-go');
   if (!sSel.value || !aSel.value) return;
   const verseKey = `${sSel.value}:${aSel.value}`;
 
+  const mySeq = ++irabLoadSeq;   // claim this load; any older in-flight load is now stale
+  irabLoadPending = true;
   loadBtn.disabled = true;
   loadBtn.textContent = t('irabPickLoading');
+  if (goBtn) goBtn.disabled = true;   // block Analyze until the textarea is settled
+
+  let verseText = '';
+  let lastErr = null;
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      const res = await fetch(`https://api.quran.com/api/v4/verses/by_key/${verseKey}?fields=text_uthmani,text_imlaei`);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+      verseText = (data.verse && (data.verse.text_uthmani || data.verse.text_imlaei)) || '';
+      if (verseText) break;
+      throw new Error('No verse text returned');
+    } catch (e) {
+      lastErr = e;
+      if (attempt < 3) await new Promise(r => setTimeout(r, 400 * attempt));
+    }
+  }
+
+  // Discard if a newer load superseded this one — prevents a slow stale
+  // fetch from overwriting the textarea with the wrong ayah.
+  if (mySeq !== irabLoadSeq) return;
+  irabLoadPending = false;
 
   try {
-    const res = await fetch(`https://api.quran.com/api/v4/verses/by_key/${verseKey}?fields=text_uthmani,text_imlaei`);
-    const data = await res.json();
-    const verseText = (data.verse && (data.verse.text_uthmani || data.verse.text_imlaei)) || '';
-    if (!verseText) throw new Error('No verse text returned');
+    if (!verseText) throw lastErr || new Error('No verse text returned');
     const ta = document.getElementById('irab-input');
     ta.value = verseText;
     ta.focus();
@@ -3290,10 +4482,12 @@ async function loadVerse() {
   } finally {
     loadBtn.disabled = false;
     loadBtn.textContent = t('irabPickLoad');
+    if (goBtn) goBtn.disabled = false;
   }
 }
 
 async function analyzeVerse() {
+  if (irabLoadPending) return;   // a verse is still loading — ignore until settled
   const input = document.getElementById('irab-input');
   const verse = input.value.trim();
   if (!verse) { input.focus(); return; }
@@ -3353,7 +4547,17 @@ function renderIrabResult(data) {
       ? `<div class="irab-word-notes"><strong>${t('irabNotes')}:</strong> ${escapeHtml(w.notes)}</div>`
       : '';
 
-    return `<div class="irab-word">
+    // Curriculum-grounded modules tag each word with `source`. "outside" =
+    // the analysis used knowledge beyond the 42-week curriculum → flag it.
+    const isOutside = w.source === 'outside';
+    const sourceBadge = w.source
+      ? (isOutside
+          ? `<div class="irab-src-badge irab-src-outside">⚠ ${t('irabSrcOutside') || 'Outside the 42-week curriculum'}</div>`
+          : `<div class="irab-src-badge irab-src-curriculum">✓ ${t('irabSrcCurriculum') || 'Grounded in the 42-week curriculum'}</div>`)
+      : '';
+
+    return `<div class="irab-word${isOutside ? ' irab-word-outside' : ''}">
+      ${sourceBadge}
       <div class="irab-word-ar">${escapeHtml(arabic)}</div>
       ${w.transliteration ? `<div class="irab-word-translit">${escapeHtml(w.transliteration)}</div>` : ''}
       ${w.meaning ? `<div class="irab-word-meaning">${escapeHtml(w.meaning)}</div>` : ''}
@@ -3365,7 +4569,20 @@ function renderIrabResult(data) {
     </div>`;
   }).join('');
 
+  // Grounding summary banner — only present on curriculum-grounded results.
+  let groundingBanner = '';
+  if (data.grounding && data.grounding.total) {
+    const g = data.grounding;
+    const allGrounded = g.outside === 0;
+    const tmpl = allGrounded
+      ? (t('irabGroundAll') || 'All {total} analysis points are grounded in the 42-week curriculum.')
+      : (t('irabGroundMixed') || '{curriculum} of {total} analysis points are curriculum-grounded; {outside} use outside knowledge (flagged in amber below).');
+    const msg = tmpl.replace('{total}', g.total).replace('{curriculum}', g.curriculum).replace('{outside}', g.outside);
+    groundingBanner = `<div class="irab-ground-banner ${allGrounded ? 'ok' : 'warn'}">${escapeHtml(msg)}</div>`;
+  }
+
   return `
+    ${groundingBanner}
     ${data.translation ? `<div class="irab-translation"><strong>${t('irabTranslation')}:</strong> ${escapeHtml(data.translation)}</div>` : ''}
     <div class="irab-words">${wordsHtml}</div>
     ${data.overall_notes ? `<div class="irab-notes">${escapeHtml(data.overall_notes)}</div>` : ''}
@@ -3378,7 +4595,7 @@ function jumpToLesson(lessonId) {
   if (!m) return;
   const levelId = `level${m[1]}`;
   const weekIdx = parseInt(m[2]) - 1;
-  if (LEVELS.find(l => l.id === levelId)?.lessons[weekIdx]) {
+  if (getDisplayLevels().find(l => l.id === levelId)?.lessons[weekIdx]) {
     clickLesson(levelId, weekIdx);
   }
 }
@@ -3610,6 +4827,42 @@ function escapeHtml(str) {
 // ─── User session (auth) ──────────────────────────────────────────────────────
 
 let CURRENT_USER = null;   // { id, email, role, unlocks: [...] } when logged in
+let EXTRA_LEVELS = [];     // [{level_num, name, week_count, built_in:false}, ...] from /api/levels
+
+async function fetchAllLevels() {
+  try {
+    const res = await fetch('/api/levels', { credentials: 'same-origin' });
+    if (!res.ok) return;
+    const data = await res.json();
+    EXTRA_LEVELS = (data.levels || []).filter(l => !l.built_in);
+  } catch {}
+}
+
+// Synthetic LEVELS for extra (admin-defined) levels — empty lesson shells.
+function extraLevelToObj(lvl) {
+  return {
+    id: `level${lvl.level_num}`,
+    levelNum: lvl.level_num,
+    title: {
+      en: lvl.name,
+      tr: lvl.name_tr || lvl.name,
+      ar: lvl.name_ar || lvl.name,
+    },
+    desc: { en: '', tr: '', ar: '' },
+    extraLevel: true,
+    weekCount: lvl.week_count,
+    lessons: Array.from({ length: lvl.week_count }, (_, i) => ({
+      week: i + 1,
+      pdf: null,
+      title: { en: `Week ${i + 1}`, tr: `Hafta ${i + 1}`, ar: `الأسبوع ${i + 1}` },
+      questions: [],
+    })),
+  };
+}
+
+function getDisplayLevels() {
+  return [...LEVELS, ...EXTRA_LEVELS.map(extraLevelToObj)];
+}
 
 // Modules (REFERENCE_TOPICS feature areas) an admin has deactivated. A
 // deactivated module is hidden from the sidebar and cannot be opened.
@@ -3659,7 +4912,7 @@ function renderUserChip() {
 function isLessonUnlocked(level, lesson) {
   if (!CURRENT_USER) return false;
   if (CURRENT_USER.role === 'admin') return true;
-  const levelNum = LEVELS.indexOf(level) + 1;
+  const levelNum = level.levelNum || (LEVELS.indexOf(level) + 1);
   return CURRENT_USER.unlocks.includes(`L${levelNum}W${lesson.week}`);
 }
 
@@ -3726,6 +4979,12 @@ async function logout() {
 }
 
 // ─── Admin panel ──────────────────────────────────────────────────────────────
+function _weekCountFor(levelNum) {
+  if (levelNum <= 3) return 14;
+  const found = EXTRA_LEVELS.find(l => l.level_num === levelNum);
+  return found ? found.week_count : 14;
+}
+
 
 // Set of classroom IDs whose student cards are currently expanded.
 const expandedClassrooms = new Set();
@@ -3744,20 +5003,22 @@ async function openAdminPanel() {
   const main = document.getElementById('main');
   main.innerHTML = `<div class="topic-header"><h2>${t('admHeader')}</h2><p>${t('quizLoading') || '…'}</p></div>`;
   try {
-    const [u, c, m] = await Promise.all([
+    const [u, c, lvl, m] = await Promise.all([
       fetch('/api/admin/users', { credentials: 'same-origin' }).then(r => r.json()),
       fetch('/api/admin/classrooms', { credentials: 'same-origin' }).then(r => r.json()),
+      fetch('/api/levels', { credentials: 'same-origin' }).then(r => r.json()),
       fetch('/api/admin/modules', { credentials: 'same-origin' }).then(r => r.json()),
     ]);
-    renderAdminPanel(u.users, u.all_lessons, c.classrooms, (m && m.states) || {});
+    renderAdminPanel(u.users, u.all_lessons, c.classrooms, (lvl.levels || []), (m && m.states) || {});
   } catch (e) {
     main.innerHTML = `<div class="topic-header"><h2>Admin</h2><p style="color:#991b1b">Error: ${escapeHtml(e.message)}</p></div>`;
   }
 }
 
-function renderAdminPanel(users, allLessons, classrooms, moduleStates) {
+function renderAdminPanel(users, allLessons, classrooms, allLevels, moduleStates) {
   const main = document.getElementById('main');
   classrooms = classrooms || [];
+  allLevels = allLevels || [];
   moduleStates = moduleStates || {};
 
   // Module activation cards — one per REFERENCE_TOPICS entry. A module is
@@ -3778,16 +5039,18 @@ function renderAdminPanel(users, allLessons, classrooms, moduleStates) {
         </label>
       </div>`;
   }).join('');
-  // Group lesson IDs by level for compact rendering
-  const byLevel = {1:[], 2:[], 3:[]};
+  // Group lesson IDs by level for compact rendering — supports any level number
+  const byLevel = {};
+  for (const l of allLevels) byLevel[l.level_num] = [];
   for (const lid of allLessons) {
-    const m = lid.match(/^L(\d)W(\d+)$/);
-    if (m) byLevel[+m[1]].push(+m[2]);
+    const m = lid.match(/^L(\d+)W(\d+)$/);
+    if (m && byLevel[+m[1]]) byLevel[+m[1]].push(+m[2]);
   }
+  const levelOrder = allLevels.map(l => l.level_num);
 
   // ── Classroom cards ──
   const renderUnlockGrid = (scope, ownerId, unlockSet, toggleFn, levelAllFn) =>
-    [1,2,3].map(L => {
+    levelOrder.map(L => {
       const cells = byLevel[L].map(W => {
         const id = `L${L}W${W}`;
         const checked = unlockSet.has(id);
@@ -3816,7 +5079,7 @@ function renderAdminPanel(users, allLessons, classrooms, moduleStates) {
     const inheritedSet = u.classroom_id && classroomUnlockSet[u.classroom_id]
       ? classroomUnlockSet[u.classroom_id]
       : new Set();
-    const grids = [1,2,3].map(L => {
+    const grids = levelOrder.map(L => {
       const cells = byLevel[L].map(W => {
         const id = `L${L}W${W}`;
         const personalChecked = personalSet.has(id);
@@ -4057,6 +5320,7 @@ function renderAdminPanel(users, allLessons, classrooms, moduleStates) {
         <div class="ad-create-tabs">
           <button class="ad-create-tab active" id="ad-tab-user" onclick="adminSwitchCreateTab('user')">${t('admTabUser')}</button>
           <button class="ad-create-tab" id="ad-tab-classroom" onclick="adminSwitchCreateTab('classroom')">${t('admTabClassroom')}</button>
+          <button class="ad-create-tab" id="ad-tab-level" onclick="adminSwitchCreateTab('level')">${t('admTabLevel') || '🎓 New level'}</button>
         </div>
         <div class="ad-create-body" id="ad-tab-body-user">
           <div class="ad-create">
@@ -4075,11 +5339,40 @@ function renderAdminPanel(users, allLessons, classrooms, moduleStates) {
             <button class="btn-primary" onclick="adminCreateClassroom()" style="padding:9px 18px;">${t('admCreateClassroomBtn')}</button>
           </div>
         </div>
+        <div class="ad-create-body" id="ad-tab-body-level" style="display:none">
+          <div class="ad-create">
+            <div style="flex: 1; min-width: 200px;"><label>${t('admLevelNameEn') || 'Level name (EN)'}</label><input type="text" id="ad-new-level-name" placeholder="${t('admLevelNamePlaceholder') || 'e.g. Tafsir, Fiqh'}" style="width:100%;" /></div>
+            <div style="flex: 1; min-width: 200px;"><label>${t('admLevelNameTr') || 'Level name (TR)'}</label><input type="text" id="ad-new-level-name-tr" placeholder="örn. Tefsir, Fıkıh" style="width:100%;" /></div>
+            <div style="flex: 1; min-width: 200px;"><label>${t('admLevelNameAr') || 'Level name (AR)'}</label><input type="text" id="ad-new-level-name-ar" placeholder="مثال: التفسير، الفقه" style="width:100%;" /></div>
+            <div style="flex: 0; min-width: 110px;"><label>${t('admLevelWeeks') || 'Weeks'}</label><input type="number" id="ad-new-level-weeks" min="1" max="52" value="14" style="width:100%;" /></div>
+            <button class="btn-primary" onclick="adminCreateLevel()" style="padding:9px 18px;">${t('admCreateLevelBtn') || 'Create level'}</button>
+          </div>
+          <div class="ad-hint" style="margin-top:6px;">${t('admLevelNameHint') || 'Only the EN name is required. TR/AR fall back to EN if left blank.'}</div>
+        </div>
       </div>
 
       <div class="ad-section-head">${t('admSecModules')}</div>
       <p style="color:var(--muted); font-size:0.85rem; margin:2px 0 10px;">${escapeHtml(t('admModulesIntro'))}</p>
       <div class="ad-modules">${moduleCards}</div>
+
+      ${allLevels.filter(l => !l.built_in).length ? `
+        <div class="ad-section-head">${t('admSecLevels') || '🎓 Custom levels'}</div>
+        ${allLevels.filter(l => !l.built_in).map(l => `
+          <div class="ad-user" style="background:#fefce8; border-color:#facc15;">
+            <div class="ad-user-head">
+              <div>
+                <span class="ad-email">L${l.level_num} — ${escapeHtml(l.name)}</span>
+                <span class="ad-meta">${l.week_count} ${t('cmgrWeek') || 'weeks'}</span>
+              </div>
+              <div style="display:flex; gap:8px;">
+                <button class="btn-secondary" onclick="adminRenameLevel(${l.level_num}, '${escapeHtml(l.name).replace(/'/g, '&#39;')}', '${escapeHtml(l.name_tr || '').replace(/'/g, '&#39;')}', '${escapeHtml(l.name_ar || '').replace(/'/g, '&#39;')}')" style="padding:5px 12px; font-size:0.78rem;">${t('admRename')}</button>
+                <button class="btn-secondary" onclick="adminEditLevelWeeks(${l.level_num}, ${l.week_count})" style="padding:5px 12px; font-size:0.78rem;">${t('admEditWeeks') || 'Edit weeks'}</button>
+                <button class="btn-secondary" onclick="adminDeleteLevel(${l.level_num}, '${escapeHtml(l.name).replace(/'/g, '&#39;')}')" style="padding:5px 12px; font-size:0.78rem; color:#991b1b; border-color:#fecaca;">${t('admDelete')}</button>
+              </div>
+            </div>
+          </div>
+        `).join('')}
+      ` : ''}
 
       <div class="ad-section-head">${t('admSecClassrooms')}</div>
       ${classroomBlocks || `<p style="color:var(--muted);font-style:italic">${escapeHtml(t('admEmptyClassrooms'))}</p>`}
@@ -4092,10 +5385,61 @@ function renderAdminPanel(users, allLessons, classrooms, moduleStates) {
 }
 
 function adminSwitchCreateTab(which) {
-  document.getElementById('ad-tab-user').classList.toggle('active', which === 'user');
-  document.getElementById('ad-tab-classroom').classList.toggle('active', which === 'classroom');
-  document.getElementById('ad-tab-body-user').style.display = which === 'user' ? '' : 'none';
-  document.getElementById('ad-tab-body-classroom').style.display = which === 'classroom' ? '' : 'none';
+  ['user','classroom','level'].forEach(k => {
+    const tab = document.getElementById(`ad-tab-${k}`);
+    const body = document.getElementById(`ad-tab-body-${k}`);
+    if (tab) tab.classList.toggle('active', k === which);
+    if (body) body.style.display = (k === which) ? '' : 'none';
+  });
+}
+
+async function adminCreateLevel() {
+  const name = document.getElementById('ad-new-level-name').value.trim();
+  const name_tr = document.getElementById('ad-new-level-name-tr').value.trim();
+  const name_ar = document.getElementById('ad-new-level-name-ar').value.trim();
+  const weeks = parseInt(document.getElementById('ad-new-level-weeks').value) || 14;
+  if (!name) { alert(t('admLevelName') || 'Level name (EN) is required'); return; }
+  const res = await fetch('/api/admin/levels', {
+    method: 'POST', credentials: 'same-origin',
+    headers: {'Content-Type':'application/json'},
+    body: JSON.stringify({ name, name_tr, name_ar, week_count: weeks }),
+  });
+  const data = await res.json();
+  if (!res.ok) { alert((t('admErrCreate') || 'Error:') + ' ' + (data.error || res.status)); return; }
+  ['ad-new-level-name','ad-new-level-name-tr','ad-new-level-name-ar'].forEach(id => document.getElementById(id).value = '');
+  document.getElementById('ad-new-level-weeks').value = '14';
+  await fetchAllLevels();
+  openAdminPanel();
+}
+async function adminRenameLevel(levelNum, currentName, currentTr, currentAr) {
+  const en = prompt(t('admPromptNewName') || 'Name (EN):', currentName || '');
+  if (en === null) return;
+  const tr = prompt(t('admPromptNewNameTr') || 'Name (TR, optional):', currentTr || '');
+  if (tr === null) return;
+  const ar = prompt(t('admPromptNewNameAr') || 'Name (AR, optional):', currentAr || '');
+  if (ar === null) return;
+  const body = { name: en.trim(), name_tr: tr.trim(), name_ar: ar.trim() };
+  const res = await fetch(`/api/admin/levels/${levelNum}`, {
+    method: 'PATCH', credentials: 'same-origin',
+    headers: {'Content-Type':'application/json'}, body: JSON.stringify(body),
+  });
+  if (res.ok) { await fetchAllLevels(); openAdminPanel(); }
+}
+async function adminEditLevelWeeks(levelNum, currentWeeks) {
+  const ws = prompt(t('admEditWeeksPrompt') || 'Weeks (1-52):', String(currentWeeks));
+  if (!ws) return;
+  const n = parseInt(ws);
+  if (!(n >= 1 && n <= 52)) { alert('1-52'); return; }
+  const res = await fetch(`/api/admin/levels/${levelNum}`, {
+    method: 'PATCH', credentials: 'same-origin',
+    headers: {'Content-Type':'application/json'}, body: JSON.stringify({ week_count: n }),
+  });
+  if (res.ok) { await fetchAllLevels(); openAdminPanel(); }
+}
+async function adminDeleteLevel(levelNum, name) {
+  if (!confirm((t('admConfirmDeleteLevel') || 'Delete level') + ` "${name}"? ` + (t('admDeleteLevelTail') || 'All its resources and unlocks will be removed.'))) return;
+  const res = await fetch(`/api/admin/levels/${levelNum}`, { method: 'DELETE', credentials: 'same-origin' });
+  if (res.ok) { await fetchAllLevels(); openAdminPanel(); }
 }
 
 async function adminToggleModule(moduleId, active, inputEl) {
@@ -4139,7 +5483,7 @@ async function adminUnlockLevel(userId, level) {
   const checks = document.querySelectorAll(`.ad-cell input[data-uid="${userId}"]`);
   // Collect existing checked + add all 14 of this level
   const ids = new Set([...checks].filter(c => c.checked).map(c => c.dataset.lid));
-  for (let w = 1; w <= 14; w++) ids.add(`L${level}W${w}`);
+  for (let w = 1; w <= _weekCountFor(level); w++) ids.add(`L${level}W${w}`);
   const res = await fetch(`/api/admin/users/${userId}/unlocks`, {
     method: 'POST', credentials: 'same-origin',
     headers: { 'Content-Type': 'application/json' },
@@ -4262,7 +5606,7 @@ async function adminToggleClassroomUnlock(cid) {
 async function adminUnlockClassroomLevel(cid, level) {
   const checks = document.querySelectorAll(`.ad-cell input[data-cid="${cid}"]`);
   const ids = new Set([...checks].filter(c => c.checked).map(c => c.dataset.lid));
-  for (let w = 1; w <= 14; w++) ids.add(`L${level}W${w}`);
+  for (let w = 1; w <= _weekCountFor(level); w++) ids.add(`L${level}W${w}`);
   const res = await fetch(`/api/admin/classrooms/${cid}/unlocks`, {
     method: 'POST', credentials: 'same-origin',
     headers: { 'Content-Type': 'application/json' },
@@ -4312,7 +5656,10 @@ async function adminResetPassword(userId, email) {
     renderLoginScreen();
     return;
   }
-  await fetchModuleStates();
+  await Promise.all([
+    fetchModuleStates(),
+    fetchAllLevels(),   // populate EXTRA_LEVELS so sidebar can render dynamic levels
+  ]);
   setLang(lang);   // applies the default language (TR) to body class, sidebar, welcome text, etc.
 
   // Keep the FAB clearance accurate as the viewport resizes.

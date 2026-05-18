@@ -869,6 +869,47 @@ const REFERENCE_TOPICS = [
     pdfs: []
   },
   {
+    id: 'content-mgr',
+    icon: '🗂️',
+    contentMgr: true,
+    adminOnly: true,
+    group: 'power',
+    title: { en: 'Content Manager', tr: 'İçerik Yönetimi', ar: 'إدارة المحتوى' },
+    desc: {
+      en: 'Admin-only. Add per-lesson resources (PDFs, images, audio, links, notes) that students see in their unlocked lessons.',
+      tr: 'Yalnızca yönetici. Her ders için ek kaynak (PDF, görsel, ses, bağlantı, not) ekle. Öğrenciler kilidi açık derslerde bunları görür.',
+      ar: 'للمشرف فقط. أضف موارد لكل درس (PDF، صور، صوت، روابط، ملاحظات). يراها الطلاب في الدروس المفتوحة لهم.'
+    },
+    pdfs: []
+  },
+  {
+    id: 'irab-compare',
+    icon: '🔀',
+    irabCompare: true,
+    group: 'power',
+    title: { en: 'I\'rab AI Compare', tr: 'İ\'rab Yapay Zekâ Karşılaştırma', ar: 'مقارنة الإعراب بالذكاء الاصطناعي' },
+    desc: {
+      en: 'Run the same verse through Gemini and Claude (and ChatGPT later) side-by-side. See where the models agree and where they differ — useful for cross-checking grammatical analysis.',
+      tr: 'Aynı ayeti Gemini ve Claude (ileride ChatGPT de) ile yan yana analiz et. Modellerin nerede aynı, nerede farklı sonuç verdiğini gör — gramer analizini çapraz kontrol için kullanışlı.',
+      ar: 'حلّل نفس الآية بمحركَي Gemini و Claude (و ChatGPT لاحقاً) جنباً إلى جنب. شاهد أين تتفق النماذج وأين تختلف — مفيد للتحقق المتقاطع للتحليل النحوي.'
+    },
+    pdfs: []
+  },
+  {
+    id: 'irab-compare-grounded',
+    icon: '🎓',
+    irabCompare: true,
+    irabCompareGrounded: true,
+    group: 'power',
+    title: { en: 'Curriculum-Limited I\'rab', tr: 'Müfredatla Sınırlı İ\'rab', ar: 'الإعراب ضمن المنهج' },
+    desc: {
+      en: 'I\'rab analysis powered by Gemini, locked to ONLY the 42-week curriculum via a context cache — no outside grammatical knowledge. Targeted and consistent with exactly what students are taught.',
+      tr: 'Gemini ile İ\'rab analizi — bağlam önbelleği sayesinde YALNIZCA 42 haftalık müfredatla sınırlı, dışarıdan gramer bilgisi yok. Öğrencilere öğretilenle birebir tutarlı, hedefli sonuç.',
+      ar: 'تحليل الإعراب بمحرك Gemini، محصور في منهج الـ ٤٢ أسبوعاً فقط عبر ذاكرة سياق مخزّنة — دون معرفة نحوية خارجية. نتائج مركّزة ومتوافقة تماماً مع ما يتعلمه الطلاب.'
+    },
+    pdfs: []
+  },
+  {
     id: 'self-check',
     icon: '✍️',
     selfCheck: true,

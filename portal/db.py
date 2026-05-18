@@ -95,7 +95,46 @@ def init_db():
                 active     INTEGER NOT NULL DEFAULT 1,
                 updated_at TEXT NOT NULL
             );
+
+            CREATE TABLE IF NOT EXISTS resources (
+                id           INTEGER PRIMARY KEY AUTOINCREMENT,
+                level        INTEGER NOT NULL,
+                week         INTEGER NOT NULL,
+                title        TEXT NOT NULL,
+                kind         TEXT NOT NULL,           -- pdf | image | audio | link | note
+                file_path    TEXT,                    -- relative to portal/uploads/, NULL for link/note
+                url          TEXT,                    -- for kind=link
+                body         TEXT,                    -- for kind=note
+                mime         TEXT,
+                size         INTEGER,
+                uploaded_by  INTEGER REFERENCES users(id) ON DELETE SET NULL,
+                uploaded_at  TEXT NOT NULL
+            );
+            CREATE INDEX IF NOT EXISTS idx_resources_lesson ON resources(level, week);
+
+            -- Extra (admin-defined) levels beyond the built-in 1/2/3.
+            -- level_num is auto-assigned (max+1, starting at 4).
+            CREATE TABLE IF NOT EXISTS extra_levels (
+                level_num    INTEGER PRIMARY KEY,
+                name         TEXT NOT NULL,
+                week_count   INTEGER NOT NULL DEFAULT 14,
+                created_at   TEXT NOT NULL
+            );
         """)
+        # Migration: add per-language name columns
+        cols = {r["name"] for r in conn.execute("PRAGMA table_info(extra_levels)")}
+        if "name_tr" not in cols:
+            conn.execute("ALTER TABLE extra_levels ADD COLUMN name_tr TEXT")
+        if "name_ar" not in cols:
+            conn.execute("ALTER TABLE extra_levels ADD COLUMN name_ar TEXT")
+        # Migration: add extracted_text + extraction_status to resources
+        rcols = {r["name"] for r in conn.execute("PRAGMA table_info(resources)")}
+        if "extracted_text" not in rcols:
+            conn.execute("ALTER TABLE resources ADD COLUMN extracted_text TEXT")
+        if "extraction_status" not in rcols:
+            conn.execute("ALTER TABLE resources ADD COLUMN extraction_status TEXT")  # pending|done|failed|skip
+        if "lecture_data" not in rcols:
+            conn.execute("ALTER TABLE resources ADD COLUMN lecture_data TEXT")  # JSON: {sections: [...]}
         # Migrations
         cols = {r["name"] for r in conn.execute("PRAGMA table_info(users)")}
         if "classroom_id" not in cols:
@@ -424,6 +463,179 @@ def is_module_active(module_id: str) -> bool:
             "SELECT active FROM module_states WHERE module_id = ?", (module_id,)
         ).fetchone()
         return True if row is None else bool(row["active"])
+
+
+# ─── Levels (built-in 1-3 + admin-defined extras) ────────────────────────────
+
+BUILTIN_LEVELS = [
+    {"level_num": 1, "name": "Level 1 — Beginner",     "week_count": 14, "built_in": True},
+    {"level_num": 2, "name": "Level 2 — Intermediate", "week_count": 14, "built_in": True},
+    {"level_num": 3, "name": "Level 3 — Advanced",     "week_count": 14, "built_in": True},
+]
+
+
+def list_extra_levels() -> list[dict]:
+    with db() as conn:
+        rows = conn.execute("SELECT * FROM extra_levels ORDER BY level_num").fetchall()
+        out = []
+        for r in rows:
+            keys = r.keys()
+            out.append({
+                "level_num": r["level_num"],
+                "name": r["name"],
+                "name_tr": (r["name_tr"] if "name_tr" in keys else None) or r["name"],
+                "name_ar": (r["name_ar"] if "name_ar" in keys else None) or r["name"],
+                "week_count": r["week_count"],
+                "built_in": False,
+                "created_at": r["created_at"],
+            })
+        return out
+
+
+def list_all_levels() -> list[dict]:
+    """Built-in 1/2/3 followed by admin-added levels."""
+    return BUILTIN_LEVELS + list_extra_levels()
+
+
+def get_level(level_num: int) -> Optional[dict]:
+    for l in list_all_levels():
+        if l["level_num"] == level_num:
+            return l
+    return None
+
+
+def is_valid_lesson(level: int, week: int) -> bool:
+    l = get_level(level)
+    if not l:
+        return False
+    return 1 <= week <= l["week_count"]
+
+
+def all_lesson_ids() -> list[str]:
+    out = []
+    for l in list_all_levels():
+        for w in range(1, l["week_count"] + 1):
+            out.append(f"L{l['level_num']}W{w}")
+    return out
+
+
+def create_extra_level(name: str, week_count: int,
+                       name_tr: str = "", name_ar: str = "") -> int:
+    name = (name or "").strip()
+    if not name:
+        raise ValueError("name required")
+    if not (1 <= week_count <= 52):
+        raise ValueError("week_count must be 1-52")
+    name_tr = (name_tr or "").strip() or None
+    name_ar = (name_ar or "").strip() or None
+    with db() as conn:
+        # Next level_num = max(builtin max=3, extra max) + 1
+        row = conn.execute("SELECT MAX(level_num) AS m FROM extra_levels").fetchone()
+        next_num = max(3, row["m"] or 0) + 1
+        conn.execute(
+            "INSERT INTO extra_levels (level_num, name, name_tr, name_ar, week_count, created_at) VALUES (?, ?, ?, ?, ?, ?)",
+            (next_num, name, name_tr, name_ar, week_count, now_iso()),
+        )
+        return next_num
+
+
+def update_extra_level(level_num: int, name: Optional[str] = None, week_count: Optional[int] = None,
+                        name_tr: Optional[str] = None, name_ar: Optional[str] = None) -> None:
+    if level_num <= 3:
+        raise ValueError("built-in levels cannot be modified")
+    fields = []
+    args = []
+    if name is not None:
+        n = (name or "").strip()
+        if not n:
+            raise ValueError("name required")
+        fields.append("name = ?"); args.append(n)
+    if name_tr is not None:
+        fields.append("name_tr = ?"); args.append((name_tr or "").strip() or None)
+    if name_ar is not None:
+        fields.append("name_ar = ?"); args.append((name_ar or "").strip() or None)
+    if week_count is not None:
+        if not (1 <= week_count <= 52):
+            raise ValueError("week_count must be 1-52")
+        fields.append("week_count = ?"); args.append(week_count)
+    if not fields:
+        return
+    args.append(level_num)
+    with db() as conn:
+        conn.execute(f"UPDATE extra_levels SET {', '.join(fields)} WHERE level_num = ?", args)
+
+
+def delete_extra_level(level_num: int) -> None:
+    if level_num <= 3:
+        raise ValueError("built-in levels cannot be deleted")
+    with db() as conn:
+        # Cascade-clean associated data
+        prefix = f"L{level_num}W"
+        conn.execute("DELETE FROM unlocks WHERE lesson_id LIKE ?", (f"{prefix}%",))
+        conn.execute("DELETE FROM classroom_unlocks WHERE lesson_id LIKE ?", (f"{prefix}%",))
+        conn.execute("DELETE FROM resources WHERE level = ?", (level_num,))
+        conn.execute("DELETE FROM extra_levels WHERE level_num = ?", (level_num,))
+
+
+# ─── Resources ────────────────────────────────────────────────────────────────
+
+VALID_RESOURCE_KINDS = ("pdf", "image", "audio", "link", "note")
+
+
+def list_resources(level: Optional[int] = None, week: Optional[int] = None) -> list[dict]:
+    """Return resources, optionally filtered by level/week."""
+    sql = "SELECT * FROM resources"
+    args = []
+    if level is not None and week is not None:
+        sql += " WHERE level = ? AND week = ?"
+        args = [level, week]
+    sql += " ORDER BY level, week, id"
+    with db() as conn:
+        rows = conn.execute(sql, args).fetchall()
+        return [dict(r) for r in rows]
+
+
+def get_resource(rid: int) -> Optional[sqlite3.Row]:
+    with db() as conn:
+        return conn.execute("SELECT * FROM resources WHERE id = ?", (rid,)).fetchone()
+
+
+def create_resource(level: int, week: int, title: str, kind: str,
+                    file_path: Optional[str] = None,
+                    url: Optional[str] = None,
+                    body: Optional[str] = None,
+                    mime: Optional[str] = None,
+                    size: Optional[int] = None,
+                    uploaded_by: Optional[int] = None) -> int:
+    if kind not in VALID_RESOURCE_KINDS:
+        raise ValueError(f"kind must be one of {VALID_RESOURCE_KINDS}")
+    if not is_valid_lesson(level, week):
+        raise ValueError("invalid level/week")
+    if not title or not title.strip():
+        raise ValueError("title required")
+    with db() as conn:
+        cur = conn.execute(
+            """INSERT INTO resources (level, week, title, kind, file_path, url, body, mime, size, uploaded_by, uploaded_at)
+               VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+            (level, week, title.strip(), kind, file_path, url, body, mime, size, uploaded_by, now_iso()),
+        )
+        return cur.lastrowid
+
+
+def update_resource_title(rid: int, new_title: str) -> None:
+    new_title = (new_title or "").strip()
+    if not new_title:
+        raise ValueError("title required")
+    with db() as conn:
+        conn.execute("UPDATE resources SET title = ? WHERE id = ?", (new_title, rid))
+
+
+def delete_resource(rid: int) -> Optional[str]:
+    """Delete row; return file_path so the caller can unlink the file."""
+    with db() as conn:
+        row = conn.execute("SELECT file_path FROM resources WHERE id = ?", (rid,)).fetchone()
+        conn.execute("DELETE FROM resources WHERE id = ?", (rid,))
+        return row["file_path"] if row else None
 
 
 # ─── Seed admin ───────────────────────────────────────────────────────────────
