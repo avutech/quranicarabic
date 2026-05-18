@@ -2324,6 +2324,522 @@ const VOCAB_POOL = [
     "source": "Answer Key-10"
   },
   {
+    "ar": "اَلطَّيِّبَاتُ",
+    "tr": "Bütün temiz olanlar/ Her türlü mâlî ibadetler",
+    "en": "All pure/good things; all financial acts of worship",
+    "source": "Answer Key-12"
+  },
+  {
+    "ar": "سُبْحَانَكَ",
+    "tr": "Seni tesbîh ederim",
+    "en": "I glorify You",
+    "source": "Answer Key-12"
+  },
+  {
+    "ar": "اَلتَّحِيَّاتُ لِلَّهِ وَالصَّلَوَاتُ وَالطَّيِّبَاتُ",
+    "tr": "Her türlü kavlî, bedenî ve mâlî ibadetler Allâh'a mahsustur",
+    "en": "All greetings, prayers and good things belong to Allah",
+    "source": "Answer Key-12"
+  },
+  {
+    "ar": "اَللَّهُمَّ",
+    "tr": "Ey Allah'ım",
+    "en": "O Allah",
+    "source": "Answer Key-12"
+  },
+  {
+    "ar": "اَلسَّلَامُ عَلَيْكَ",
+    "tr": "Selâm üzerine olsun",
+    "en": "Peace be upon you",
+    "source": "Answer Key-12"
+  },
+  {
+    "ar": "بِحَمْدٍ",
+    "tr": "Hamd ile",
+    "en": "With praise",
+    "source": "Answer Key-12"
+  },
+  {
+    "ar": "أَيُّهَا النَّبِيُّ",
+    "tr": "Ey Peygamber, Ey Nebî",
+    "en": "O Prophet",
+    "source": "Answer Key-12"
+  },
+  {
+    "ar": "بِحَمْدِكَ",
+    "tr": "Seni hamd ile",
+    "en": "With Your praise",
+    "source": "Answer Key-12"
+  },
+  {
+    "ar": "رَحْمَةُ اللَّهِ",
+    "tr": "Allah'ın rahmeti",
+    "en": "The mercy of Allah",
+    "source": "Answer Key-12"
+  },
+  {
+    "ar": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ",
+    "tr": "Ey Allah'ım Seni hamd ile tesbîh ederim",
+    "en": "Glory be to You, O Allah, and with Your praise",
+    "source": "Answer Key-12"
+  },
+  {
+    "ar": "بَرَكَاتُهُ",
+    "tr": "Onun bereketleri",
+    "en": "His blessings",
+    "source": "Answer Key-12"
+  },
+  {
+    "ar": "تَعَالَى",
+    "tr": "Çok yücedir",
+    "en": "Is most exalted",
+    "source": "Answer Key-12"
+  },
+  {
+    "ar": "اَلسَّلَامُ عَلَيْكَ أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ",
+    "tr": "Ey Peygamber, selâm ve Allah'ın rahmetiyle bereketleri üzerine olsun",
+    "en": "Peace be upon you, O Prophet, and Allah's mercy and blessings",
+    "source": "Answer Key-12"
+  },
+  {
+    "ar": "جَدُّكَ",
+    "tr": "Senin şanın, azametin",
+    "en": "Your glory, Your majesty",
+    "source": "Answer Key-12"
+  },
+  {
+    "ar": "اَلسَّلَامُ عَلَيْنَا",
+    "tr": "Selâm bizlerin üzerine olsun",
+    "en": "Peace be upon us",
+    "source": "Answer Key-12"
+  },
+  {
+    "ar": "وَتَعَالَى جَدُّكَ",
+    "tr": "Senin azametin, şanın pek yücedir",
+    "en": "Your majesty is most exalted",
+    "source": "Answer Key-12"
+  },
+  {
+    "ar": "عَلَى عِبَادِ اللَّهِ",
+    "tr": "Allâh'ın kulları üzerine",
+    "en": "Upon the servants of Allah",
+    "source": "Answer Key-12"
+  },
+  {
+    "ar": "تَبَارَكَ",
+    "tr": "Mübarektir",
+    "en": "Is blessed",
+    "source": "Answer Key-12"
+  },
+  {
+    "ar": "اَلصَّالِحِينَ",
+    "tr": "Sâlih kimseler",
+    "en": "The righteous people",
+    "source": "Answer Key-12"
+  },
+  {
+    "ar": "اِسْمُكَ",
+    "tr": "Senin adın",
+    "en": "Your name",
+    "source": "Answer Key-12"
+  },
+  {
+    "ar": "عَلَى عِبَادِ اللَّهِ الصَّالِحِينَ",
+    "tr": "Allâh'ın sâlih kulları üzerine olsun",
+    "en": "Upon Allah's righteous servants",
+    "source": "Answer Key-12"
+  },
+  {
+    "ar": "وَتَبَارَكَ اسْمُكَ",
+    "tr": "Senin adın mübarektir",
+    "en": "Your name is blessed",
+    "source": "Answer Key-12"
+  },
+  {
+    "ar": "اَلسَّلَامُ عَلَيْنَا وَعَلَى عِبَادِ اللَّهِ الصَّالِحِينَ",
+    "tr": "Selâm bizlere ve Allâh'ın sâlih kullarına olsun",
+    "en": "Peace be upon us and upon Allah's righteous servants",
+    "source": "Answer Key-12"
+  },
+  {
+    "ar": "أَشْهَدُ",
+    "tr": "Ben şehâdet ederim",
+    "en": "I bear witness",
+    "source": "Answer Key-12"
+  },
+  {
+    "ar": "غَيْرُ",
+    "tr": "Başka",
+    "en": "Other than",
+    "source": "Answer Key-12"
+  },
+  {
+    "ar": "غَيْرُكَ",
+    "tr": "Senden başka",
+    "en": "Other than You",
+    "source": "Answer Key-12"
+  },
+  {
+    "ar": "لَا إِلَهَ إِلَّا اللَّهُ",
+    "tr": "Allâh'tan başka hiçbir ilâh yoktur",
+    "en": "There is no god but Allah",
+    "source": "Answer Key-12"
+  },
+  {
+    "ar": "إِلَهٌ",
+    "tr": "İlah",
+    "en": "God, deity",
+    "source": "Answer Key-12"
+  },
+  {
+    "ar": "أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللَّهُ",
+    "tr": "Allâh'tan başka hiçbir ilâh olmadığına şehâdet ederim",
+    "en": "I bear witness that there is no god but Allah",
+    "source": "Answer Key-12"
+  },
+  {
+    "ar": "وَلَا إِلَهَ غَيْرُكَ",
+    "tr": "Senden başka hiçbir ilah yoktur",
+    "en": "There is no god other than You",
+    "source": "Answer Key-12"
+  },
+  {
+    "ar": "عَبْدُهُ",
+    "tr": "O'nun kulu",
+    "en": "His servant",
+    "source": "Answer Key-12"
+  },
+  {
+    "ar": "اَلتَّحِيَّاتُ",
+    "tr": "Bütün selamlamalar/ Her türlü kavlî ibadetler",
+    "en": "All greetings; all verbal acts of worship",
+    "source": "Answer Key-12"
+  },
+  {
+    "ar": "رَسُولُهُ",
+    "tr": "O'nun Rasûlü",
+    "en": "His Messenger",
+    "source": "Answer Key-12"
+  },
+  {
+    "ar": "وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ",
+    "tr": "Hazret-i Muhammed'in O'nun kulu ve Rasûlü olduğuna şehâdet ederim",
+    "en": "I bear witness that Muhammad is His servant and Messenger",
+    "source": "Answer Key-12"
+  },
+  {
+    "ar": "اَلصَّلَوَاتُ",
+    "tr": "Bütün salâtlar/ Her türlü bedenî ibadetler",
+    "en": "All prayers; all physical acts of worship",
+    "source": "Answer Key-12"
+  },
+  {
+    "ar": "رَبَّنَا",
+    "tr": "Ey Rabbimiz",
+    "en": "Our Lord",
+    "source": "Answer Key-13"
+  },
+  {
+    "ar": "آتِنَا",
+    "tr": "Bize ver",
+    "en": "Give us",
+    "source": "Answer Key-13"
+  },
+  {
+    "ar": "صَلِّ",
+    "tr": "Salat eyle (Rahmet eyle, şerefini yücelt)",
+    "en": "Send blessings upon",
+    "source": "Answer Key-13"
+  },
+  {
+    "ar": "فِي الدُّنْيَا",
+    "tr": "Dünyada",
+    "en": "In the world",
+    "source": "Answer Key-13"
+  },
+  {
+    "ar": "عَلَى مُحَمَّدٍ",
+    "tr": "Hz.Muhammed (SAV)'e",
+    "en": "Upon Muhammad",
+    "source": "Answer Key-13"
+  },
+  {
+    "ar": "وَعَلَى آلِ مُحَمَّدٍ",
+    "tr": "Hz.Muhammed(SAV)'in âline, ümmetine",
+    "en": "And upon the family of Muhammad",
+    "source": "Answer Key-13"
+  },
+  {
+    "ar": "قِنَا",
+    "tr": "Bizi koru",
+    "en": "Protect us",
+    "source": "Answer Key-13"
+  },
+  {
+    "ar": "صَلَّيْتَ",
+    "tr": "Salat eyledin (Rahmet eyledin)",
+    "en": "You sent blessings",
+    "source": "Answer Key-13"
+  },
+  {
+    "ar": "عَذَابٌ",
+    "tr": "Azap",
+    "en": "Punishment, torment",
+    "source": "Answer Key-13"
+  },
+  {
+    "ar": "كَمَا صَلَّيْتَ عَلَى إِبْرَاهِيمَ",
+    "tr": "Hz.İbrahim(AS)'e rahmet eylediğin gibi",
+    "en": "As You sent blessings upon Ibrahim",
+    "source": "Answer Key-13"
+  },
+  {
+    "ar": "النَّارُ",
+    "tr": "Ateş (Cehennem)",
+    "en": "Fire, Hell",
+    "source": "Answer Key-13"
+  },
+  {
+    "ar": "عَذَابُ النَّارِ",
+    "tr": "Cehennem azabı",
+    "en": "Punishment of the Fire",
+    "source": "Answer Key-13"
+  },
+  {
+    "ar": "إِنَّكَ",
+    "tr": "Şüphesiz Sen",
+    "en": "Indeed You",
+    "source": "Answer Key-13"
+  },
+  {
+    "ar": "وَقِنَا عَذَابَ النَّارِ",
+    "tr": "Ve bizi cehennem azabından koru",
+    "en": "And protect us from the punishment of the Fire",
+    "source": "Answer Key-13"
+  },
+  {
+    "ar": "حَمِيدٌ",
+    "tr": "Övülmeye layık olan",
+    "en": "Praiseworthy",
+    "source": "Answer Key-13"
+  },
+  {
+    "ar": "اِغْفِرْ",
+    "tr": "Bağışla",
+    "en": "Forgive",
+    "source": "Answer Key-13"
+  },
+  {
+    "ar": "اِغْفِرْ لِي",
+    "tr": "Beni bağışla",
+    "en": "Forgive me",
+    "source": "Answer Key-13"
+  },
+  {
+    "ar": "وَالِدَيَّ",
+    "tr": "Annem ve babam",
+    "en": "My parents",
+    "source": "Answer Key-13"
+  },
+  {
+    "ar": "بَارِكْ",
+    "tr": "Hayır ve bereket ver",
+    "en": "Bestow blessings",
+    "source": "Answer Key-13"
+  },
+  {
+    "ar": "وَلِوَالِدَيَّ",
+    "tr": "Ve anne ve babamı",
+    "en": "And upon my parents",
+    "source": "Answer Key-13"
+  },
+  {
+    "ar": "وَلِلْمُؤْمِنِينَ",
+    "tr": "Ve bütün mü'minleri",
+    "en": "And all believers",
+    "source": "Answer Key-13"
+  },
+  {
+    "ar": "بَارَكْتَ",
+    "tr": "Hayır ve bereket verdin",
+    "en": "You bestowed blessings",
+    "source": "Answer Key-13"
+  },
+  {
+    "ar": "يَوْمَ يَقُومُ الْحِسَابُ",
+    "tr": "Hesabın görüleceği gün",
+    "en": "The Day of Reckoning",
+    "source": "Answer Key-13"
+  },
+  {
+    "ar": "كَمَا بَارَكْتَ عَلَى إِبْرَاهِيمَ",
+    "tr": "Hz.İbrahim(AS)'e hayır ve bereket verdiğin gibi",
+    "en": "As You blessed Ibrahim",
+    "source": "Answer Key-13"
+  },
+  {
+    "ar": "كَمَا بَارَكْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ",
+    "tr": "Hz.İbrahim(AS)'e ve Hz.İbrahim(AS)'in âline, ümmetine hayır ve bereket verdiğin gibi",
+    "en": "As You blessed Ibrahim and the family of Ibrahim",
+    "source": "Answer Key-13"
+  },
+  {
+    "ar": "وَلاَ نَكْفُرُكَ",
+    "tr": "Ve Sana nankörlük etmeyiz",
+    "en": "And we do not deny You",
+    "source": "Answer Key-14"
+  },
+  {
+    "ar": "إِنَّا",
+    "tr": "Şüphesiz biz",
+    "en": "Indeed we",
+    "source": "Answer Key-14"
+  },
+  {
+    "ar": "نَسْتَعِينُكَ",
+    "tr": "Senden yardım dileriz",
+    "en": "We seek Your help",
+    "source": "Answer Key-14"
+  },
+  {
+    "ar": "إِيَّاكَ نَعْبُدُ",
+    "tr": "Yalnız Sana kulluk ederiz",
+    "en": "You alone we worship",
+    "source": "Answer Key-14"
+  },
+  {
+    "ar": "نَسْتَغْفِرُكَ",
+    "tr": "Senden bağışlanma dileriz",
+    "en": "We seek Your forgiveness",
+    "source": "Answer Key-14"
+  },
+  {
+    "ar": "نَسْتَهْدِيكَ",
+    "tr": "Senden hidayet dileriz",
+    "en": "We seek Your guidance",
+    "source": "Answer Key-14"
+  },
+  {
+    "ar": "وَلَكَ نُصَلِّى",
+    "tr": "Ve namazı yalnız Senin için kılarız",
+    "en": "And we pray for You alone",
+    "source": "Answer Key-14"
+  },
+  {
+    "ar": "نُؤْمِنُ",
+    "tr": "İnanırız",
+    "en": "We believe",
+    "source": "Answer Key-14"
+  },
+  {
+    "ar": "وَإِلَيْكَ نَسْعَى",
+    "tr": "Ve yalnız Sana koşarız",
+    "en": "And we strive toward You",
+    "source": "Answer Key-14"
+  },
+  {
+    "ar": "نَتُوبُ",
+    "tr": "Tevbe ederiz",
+    "en": "We repent",
+    "source": "Answer Key-14"
+  },
+  {
+    "ar": "وَنَحْفِدُ",
+    "tr": "Ve yaklaşırız",
+    "en": "And we hasten to serve",
+    "source": "Answer Key-14"
+  },
+  {
+    "ar": "نَتَوَكَّلُ",
+    "tr": "Tevekkül ederiz",
+    "en": "We rely (on You)",
+    "source": "Answer Key-14"
+  },
+  {
+    "ar": "نَرْجُوا",
+    "tr": "Ümit ederiz",
+    "en": "We hope",
+    "source": "Answer Key-14"
+  },
+  {
+    "ar": "وَنُؤْمِنُ بِكَ",
+    "tr": "Ve Sana inanırız",
+    "en": "And we believe in You",
+    "source": "Answer Key-14"
+  },
+  {
+    "ar": "رَحْمَتَكَ",
+    "tr": "Senin rahmetin",
+    "en": "Your mercy",
+    "source": "Answer Key-14"
+  },
+  {
+    "ar": "وَنَتُوبُ إِلَيْكَ",
+    "tr": "Ve Sana tevbe ederiz",
+    "en": "And we repent to You",
+    "source": "Answer Key-14"
+  },
+  {
+    "ar": "وَنَخْشَى",
+    "tr": "Ve korkarız",
+    "en": "And we fear",
+    "source": "Answer Key-14"
+  },
+  {
+    "ar": "وَنَتَوَكَّلُ عَلَيْكَ",
+    "tr": "Ve Sana tevekkül ederiz",
+    "en": "And we rely on You",
+    "source": "Answer Key-14"
+  },
+  {
+    "ar": "عَذَابَكَ",
+    "tr": "Senin azabın",
+    "en": "Your punishment",
+    "source": "Answer Key-14"
+  },
+  {
+    "ar": "نُثْنِي",
+    "tr": "Sena ederiz, överiz",
+    "en": "We praise",
+    "source": "Answer Key-14"
+  },
+  {
+    "ar": "إِنَّ عَذَابَكَ",
+    "tr": "Şüphesiz Senin azabın",
+    "en": "Indeed Your punishment",
+    "source": "Answer Key-14"
+  },
+  {
+    "ar": "وَنُثْنِي عَلَيْكَ",
+    "tr": "Ve Seni sena ederiz, överiz",
+    "en": "And we praise You",
+    "source": "Answer Key-14"
+  },
+  {
+    "ar": "بِالْكُفَّارِ",
+    "tr": "Kafirleri/ Kafirlere",
+    "en": "To/upon the disbelievers",
+    "source": "Answer Key-14"
+  },
+  {
+    "ar": "وَنُثْنِي عَلَيْكَ الْخَيْرَ كُلَّهُ",
+    "tr": "Ve Seni bütün hayır ile överiz",
+    "en": "And we praise You with all good",
+    "source": "Answer Key-14"
+  },
+  {
+    "ar": "مُلْحِقٌ",
+    "tr": "Ulaşır/Yakalayan(dır)",
+    "en": "One who catches/reaches",
+    "source": "Answer Key-14"
+  },
+  {
+    "ar": "نَشْكُرُكَ",
+    "tr": "Sana şükrederiz",
+    "en": "We thank You",
+    "source": "Answer Key-14"
+  },
+  {
     "ar": "وَالضُّحٰى",
     "tr": "Kuşluk vaktine yemin olsun",
     "en": "By the morning brightness",
@@ -3528,12 +4044,6 @@ const VOCAB_POOL = [
     "tr": "İleride görülecek",
     "en": "Will soon be seen",
     "source": "Answer Key-19"
-  },
-  {
-    "ar": "إِنَّا",
-    "tr": "Muhakkak biz",
-    "en": "Indeed we",
-    "source": "Answer Key-2"
   },
   {
     "ar": "أَعْطَيْنَا",
@@ -5798,12 +6308,6 @@ const VOCAB_POOL = [
     "source": "Answer Key-27  "
   },
   {
-    "ar": "اَللَّهُمَّ",
-    "tr": "Ey Allah'ım",
-    "en": "O Allah",
-    "source": "Answer Key-27  "
-  },
-  {
     "ar": "يَذْكُرُونَ",
     "tr": "Zikrederler",
     "en": "They remember/glorify",
@@ -5951,12 +6455,6 @@ const VOCAB_POOL = [
     "ar": "يَغْفِرُ",
     "tr": "Bağışlar",
     "en": "He forgives",
-    "source": "Answer Key-28 "
-  },
-  {
-    "ar": "اِغْفِرْ",
-    "tr": "Bağışla",
-    "en": "Forgive!",
     "source": "Answer Key-28 "
   },
   {
@@ -6491,18 +6989,6 @@ const VOCAB_POOL = [
     "ar": "النَّهَارُ",
     "tr": "Gündüz",
     "en": "day",
-    "source": "Answer Key-3"
-  },
-  {
-    "ar": "رَبَّنَا",
-    "tr": "Bizim Rabbimiz",
-    "en": "our Lord",
-    "source": "Answer Key-3"
-  },
-  {
-    "ar": "آتِنَا",
-    "tr": "Bize ver",
-    "en": "give us",
     "source": "Answer Key-3"
   },
   {
@@ -9800,12 +10286,6 @@ const VOCAB_POOL = [
     "source": "Answer Key-5"
   },
   {
-    "ar": "صَلِّ",
-    "tr": "Namaz kıl",
-    "en": "pray",
-    "source": "Answer Key-5"
-  },
-  {
     "ar": "فَصَلِّ",
     "tr": "Öyleyse namaz kıl",
     "en": "so pray",
@@ -9926,33 +10406,9 @@ const VOCAB_POOL = [
     "source": "Answer Key-7"
   },
   {
-    "ar": "نَسْتَعِينُكَ",
-    "tr": "Senden yardım dileriz",
-    "en": "We seek Your help",
-    "source": "Answer Key-7"
-  },
-  {
-    "ar": "نَسْتَغْفِرُكَ",
-    "tr": "Senden bağışlanma dileriz",
-    "en": "We seek Your forgiveness",
-    "source": "Answer Key-7"
-  },
-  {
-    "ar": "نَسْتَهْدِيكَ",
-    "tr": "Senden hidayet dileriz",
-    "en": "We seek Your guidance",
-    "source": "Answer Key-7"
-  },
-  {
     "ar": "نَخْشَى",
     "tr": "Korkarız",
     "en": "We fear",
-    "source": "Answer Key-7"
-  },
-  {
-    "ar": "مُلْحِقٌ",
-    "tr": "Yakalar",
-    "en": "Catches, appends",
     "source": "Answer Key-7"
   },
   {
@@ -10098,12 +10554,6 @@ const VOCAB_POOL = [
     "tr": "-e, -a, doğru",
     "en": "to, towards",
     "source": "Answer Key-8"
-  },
-  {
-    "ar": "إِنَّكَ",
-    "tr": "Şüphesiz sen",
-    "en": "indeed you",
-    "source": "Answer Key-9"
   },
   {
     "ar": "الْقَتْلُ",
@@ -11822,12 +12272,6 @@ const VOCAB_POOL = [
     "source": "Kunut Duaları Kelimeler"
   },
   {
-    "ar": "إِيَّاكَ نَعْبُدُ",
-    "tr": "Yalnız Sana kulluk ederiz",
-    "en": "You alone we worship",
-    "source": "Kunut Duaları Kelimeler"
-  },
-  {
     "ar": "نَسْتَغْفِرَك",
     "tr": "Senden bağışlanma dileriz",
     "en": "we seek Your forgiveness",
@@ -11840,57 +12284,9 @@ const VOCAB_POOL = [
     "source": "Kunut Duaları Kelimeler"
   },
   {
-    "ar": "نُؤْمِنُ",
-    "tr": "İnanırız",
-    "en": "we believe",
-    "source": "Kunut Duaları Kelimeler"
-  },
-  {
-    "ar": "نَتُوبُ",
-    "tr": "Tevbe ederiz",
-    "en": "we repent",
-    "source": "Kunut Duaları Kelimeler"
-  },
-  {
-    "ar": "نَتَوَكَّلُ",
-    "tr": "Tevekkül ederiz",
-    "en": "we rely on You",
-    "source": "Kunut Duaları Kelimeler"
-  },
-  {
-    "ar": "وَلَكَ نُصَلِّى",
-    "tr": "Ve namazı yalnız Senin için kılarız",
-    "en": "and we pray for You alone",
-    "source": "Kunut Duaları Kelimeler"
-  },
-  {
-    "ar": "وَإِلَيْكَ نَسْعَى",
-    "tr": "Ve yalnız Sana koşarız",
-    "en": "and to You we hasten",
-    "source": "Kunut Duaları Kelimeler"
-  },
-  {
-    "ar": "وَنَحْفِدُ",
-    "tr": "Ve yaklaşırız",
-    "en": "and we serve eagerly",
-    "source": "Kunut Duaları Kelimeler"
-  },
-  {
-    "ar": "نَرْجُوا",
-    "tr": "Ümit ederiz",
-    "en": "we hope",
-    "source": "Kunut Duaları Kelimeler"
-  },
-  {
     "ar": "رَحْمَتَك",
     "tr": "Senin rahmetin",
     "en": "Your mercy",
-    "source": "Kunut Duaları Kelimeler"
-  },
-  {
-    "ar": "وَنَخْشَى",
-    "tr": "Ve korkarız",
-    "en": "and we fear",
     "source": "Kunut Duaları Kelimeler"
   },
   {
@@ -11903,12 +12299,6 @@ const VOCAB_POOL = [
     "ar": "إِنَّ عَذَابَك",
     "tr": "Şüphesiz Senin azabın",
     "en": "indeed Your punishment",
-    "source": "Kunut Duaları Kelimeler"
-  },
-  {
-    "ar": "بِالْكُفَّارِ",
-    "tr": "Kafirleri/ Kafirlere",
-    "en": "upon the disbelievers",
     "source": "Kunut Duaları Kelimeler"
   },
   {
@@ -11930,21 +12320,9 @@ const VOCAB_POOL = [
     "source": "Kunut Duaları Kelimeler"
   },
   {
-    "ar": "نُثْنِي",
-    "tr": "Sena ederiz, överiz",
-    "en": "we praise",
-    "source": "Kunut Duaları Kelimeler"
-  },
-  {
     "ar": "وَنُثْنِي عَلَيْك",
     "tr": "Ve Seni sena ederiz, överiz",
     "en": "and we praise You",
-    "source": "Kunut Duaları Kelimeler"
-  },
-  {
-    "ar": "وَنُثْنِي عَلَيْكَ الْخَيْرَ كُلَّهُ",
-    "tr": "Ve Seni bütün hayır ile överiz",
-    "en": "and we praise You with all good",
     "source": "Kunut Duaları Kelimeler"
   },
   {
@@ -13184,117 +13562,9 @@ const VOCAB_POOL = [
     "source": "Rahmân Sûresi 41-78 Vâkı'aSûresi 1-50 Fiiller"
   },
   {
-    "ar": "فِي الدُّنْيَا",
-    "tr": "Dünyada",
-    "en": "In this world",
-    "source": "Salli-Bârik ve Rabbenâ Duaları Kelimeler"
-  },
-  {
-    "ar": "قِنَا",
-    "tr": "Bizi koru",
-    "en": "Protect us",
-    "source": "Salli-Bârik ve Rabbenâ Duaları Kelimeler"
-  },
-  {
-    "ar": "عَذَابٌ",
-    "tr": "Azap",
-    "en": "Torment, punishment",
-    "source": "Salli-Bârik ve Rabbenâ Duaları Kelimeler"
-  },
-  {
-    "ar": "النَّارُ",
-    "tr": "Ateş (Cehennem)",
-    "en": "Fire (Hell)",
-    "source": "Salli-Bârik ve Rabbenâ Duaları Kelimeler"
-  },
-  {
-    "ar": "عَذَابُ النَّارِ",
-    "tr": "Cehennem azabı",
-    "en": "Punishment of hellfire",
-    "source": "Salli-Bârik ve Rabbenâ Duaları Kelimeler"
-  },
-  {
-    "ar": "اِغْفِرْ لِي",
-    "tr": "Beni bağışla",
-    "en": "Forgive me",
-    "source": "Salli-Bârik ve Rabbenâ Duaları Kelimeler"
-  },
-  {
-    "ar": "وَالِدَيَّ",
-    "tr": "Annem ve babam",
-    "en": "My parents",
-    "source": "Salli-Bârik ve Rabbenâ Duaları Kelimeler"
-  },
-  {
-    "ar": "وَلِوَالِدَيَّ",
-    "tr": "Ve anne ve babamı",
-    "en": "And my parents",
-    "source": "Salli-Bârik ve Rabbenâ Duaları Kelimeler"
-  },
-  {
-    "ar": "وَلِلْمُؤْمِنِينَ",
-    "tr": "Ve bütün mü'minleri",
-    "en": "And all believers",
-    "source": "Salli-Bârik ve Rabbenâ Duaları Kelimeler"
-  },
-  {
-    "ar": "يَوْمَ يَقُومُ الْحِسَابُ",
-    "tr": "Hesabın görüleceği gün",
-    "en": "Day of reckoning",
-    "source": "Salli-Bârik ve Rabbenâ Duaları Kelimeler"
-  },
-  {
-    "ar": "عَلَى مُحَمَّدٍ",
-    "tr": "Hz. Muhammed (SAV)'e",
-    "en": "Upon Muhammad",
-    "source": "Salli-Bârik ve Rabbenâ Duaları Kelimeler"
-  },
-  {
-    "ar": "وَعَلَى آلِ مُحَمَّدٍ",
-    "tr": "Hz. Muhammed (SAV)'in âline, ümmetine",
-    "en": "And upon the family of Muhammad",
-    "source": "Salli-Bârik ve Rabbenâ Duaları Kelimeler"
-  },
-  {
-    "ar": "صَلَّيْتَ",
-    "tr": "Salat eyledin (Rahmet eyledin)",
-    "en": "You sent blessings",
-    "source": "Salli-Bârik ve Rabbenâ Duaları Kelimeler"
-  },
-  {
-    "ar": "كَمَا صَلَّيْتَ عَلَى إِبْرَاهِيمَ",
-    "tr": "Hz. İbrahim (AS)'e rahmet eylediğin gibi",
-    "en": "As You blessed Ibrahim",
-    "source": "Salli-Bârik ve Rabbenâ Duaları Kelimeler"
-  },
-  {
     "ar": "وَعَلَى آلِ إِبْرَاهِيمَ",
     "tr": "Hz. İbrahim (AS)'in âline, ümmetine",
     "en": "And upon the family of Ibrahim",
-    "source": "Salli-Bârik ve Rabbenâ Duaları Kelimeler"
-  },
-  {
-    "ar": "حَمِيدٌ",
-    "tr": "Övülmeye layık olan",
-    "en": "Praiseworthy",
-    "source": "Salli-Bârik ve Rabbenâ Duaları Kelimeler"
-  },
-  {
-    "ar": "بَارِكْ",
-    "tr": "Hayır ve bereket ver",
-    "en": "Bestow blessings",
-    "source": "Salli-Bârik ve Rabbenâ Duaları Kelimeler"
-  },
-  {
-    "ar": "بَارَكْتَ",
-    "tr": "Hayır ve bereket verdin",
-    "en": "You bestowed blessings",
-    "source": "Salli-Bârik ve Rabbenâ Duaları Kelimeler"
-  },
-  {
-    "ar": "كَمَا بَارَكْتَ عَلَى إِبْرَاهِيمَ",
-    "tr": "Hz. İbrahim (AS)'e hayır ve bereket verdiğin gibi",
-    "en": "As You blessed Ibrahim",
     "source": "Salli-Bârik ve Rabbenâ Duaları Kelimeler"
   },
   {
@@ -13502,207 +13772,9 @@ const VOCAB_POOL = [
     "source": "Secde Sûresi 12-30 Ahzâb S 1-6"
   },
   {
-    "ar": "سُبْحَانَكَ",
-    "tr": "Seni tesbîh ederim",
-    "en": "Glory be to You",
-    "source": "Subhaneke, Tahiyyat Duaları Kelimeler"
-  },
-  {
-    "ar": "بِحَمْدٍ",
-    "tr": "Hamd ile",
-    "en": "with praise",
-    "source": "Subhaneke, Tahiyyat Duaları Kelimeler"
-  },
-  {
-    "ar": "بِحَمْدِكَ",
-    "tr": "Seni hamd ile",
-    "en": "with Your praise",
-    "source": "Subhaneke, Tahiyyat Duaları Kelimeler"
-  },
-  {
-    "ar": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ",
-    "tr": "Ey Allah'ım Seni hamd ile tesbîh ederim",
-    "en": "Glory be to You, O Allah, and with Your praise",
-    "source": "Subhaneke, Tahiyyat Duaları Kelimeler"
-  },
-  {
-    "ar": "تَعَالَى",
-    "tr": "Çok yücedir",
-    "en": "Most exalted / Most High",
-    "source": "Subhaneke, Tahiyyat Duaları Kelimeler"
-  },
-  {
-    "ar": "جَدُّكَ",
-    "tr": "Senin şanın, azametin",
-    "en": "Your majesty / Your glory",
-    "source": "Subhaneke, Tahiyyat Duaları Kelimeler"
-  },
-  {
-    "ar": "وَتَعَالَى جَدُّكَ",
-    "tr": "Senin azametin, şanın pek yücedir",
-    "en": "And Your majesty is Most High",
-    "source": "Subhaneke, Tahiyyat Duaları Kelimeler"
-  },
-  {
-    "ar": "تَبَارَكَ",
-    "tr": "Mübarektir",
-    "en": "Blessed is",
-    "source": "Subhaneke, Tahiyyat Duaları Kelimeler"
-  },
-  {
     "ar": "اسْمُكَ",
     "tr": "Senin adın",
     "en": "Your name",
-    "source": "Subhaneke, Tahiyyat Duaları Kelimeler"
-  },
-  {
-    "ar": "وَتَبَارَكَ اسْمُكَ",
-    "tr": "Senin adın mübarektir",
-    "en": "And blessed is Your name",
-    "source": "Subhaneke, Tahiyyat Duaları Kelimeler"
-  },
-  {
-    "ar": "غَيْرُ",
-    "tr": "Başka",
-    "en": "other than",
-    "source": "Subhaneke, Tahiyyat Duaları Kelimeler"
-  },
-  {
-    "ar": "غَيْرُكَ",
-    "tr": "Senden başka",
-    "en": "other than You",
-    "source": "Subhaneke, Tahiyyat Duaları Kelimeler"
-  },
-  {
-    "ar": "إِلَهٌ",
-    "tr": "İlah",
-    "en": "deity / god",
-    "source": "Subhaneke, Tahiyyat Duaları Kelimeler"
-  },
-  {
-    "ar": "وَلَا إِلَهَ غَيْرُكَ",
-    "tr": "Senden başka hiçbir ilah yoktur",
-    "en": "And there is no deity other than You",
-    "source": "Subhaneke, Tahiyyat Duaları Kelimeler"
-  },
-  {
-    "ar": "اَلتَّحِيَّاتُ",
-    "tr": "Bütün selamlamalar/ Her türlü kavlî ibadetler",
-    "en": "All greetings / all verbal acts of worship",
-    "source": "Subhaneke, Tahiyyat Duaları Kelimeler"
-  },
-  {
-    "ar": "اَلصَّلَوَاتُ",
-    "tr": "Bütün salâtlar/ Her türlü bedenî ibadetler",
-    "en": "All prayers / all bodily acts of worship",
-    "source": "Subhaneke, Tahiyyat Duaları Kelimeler"
-  },
-  {
-    "ar": "اَلطَّيِّبَاتُ",
-    "tr": "Bütün temiz olanlar/ Her türlü mâlî ibadetler",
-    "en": "All pure things / all financial acts of worship",
-    "source": "Subhaneke, Tahiyyat Duaları Kelimeler"
-  },
-  {
-    "ar": "اَلتَّحِيَّاتُ لِلَّهِ وَالصَّلَوَاتُ وَالطَّيِّبَاتُ",
-    "tr": "Her türlü kavlî, bedenî ve mâlî ibadetler Allâh'a mahsustur",
-    "en": "All greetings, prayers and pure things belong to Allah",
-    "source": "Subhaneke, Tahiyyat Duaları Kelimeler"
-  },
-  {
-    "ar": "اَلسَّلَامُ عَلَيْكَ",
-    "tr": "Selâm üzerine olsun",
-    "en": "Peace be upon you",
-    "source": "Subhaneke, Tahiyyat Duaları Kelimeler"
-  },
-  {
-    "ar": "أَيُّهَا النَّبِيُّ",
-    "tr": "Ey Peygamber, Ey Nebî",
-    "en": "O Prophet",
-    "source": "Subhaneke, Tahiyyat Duaları Kelimeler"
-  },
-  {
-    "ar": "رَحْمَةُ اللَّهِ",
-    "tr": "Allah'ın rahmeti",
-    "en": "the mercy of Allah",
-    "source": "Subhaneke, Tahiyyat Duaları Kelimeler"
-  },
-  {
-    "ar": "بَرَكَاتُهُ",
-    "tr": "Onun bereketleri",
-    "en": "His blessings",
-    "source": "Subhaneke, Tahiyyat Duaları Kelimeler"
-  },
-  {
-    "ar": "اَلسَّلَامُ عَلَيْكَ أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ",
-    "tr": "Ey Peygamber, selâm ve Allah'ın rahmetiyle bereketleri üzerine olsun",
-    "en": "Peace be upon you, O Prophet, and the mercy and blessings of Allah",
-    "source": "Subhaneke, Tahiyyat Duaları Kelimeler"
-  },
-  {
-    "ar": "اَلسَّلَامُ عَلَيْنَا",
-    "tr": "Selâm bizlerin üzerine olsun",
-    "en": "Peace be upon us",
-    "source": "Subhaneke, Tahiyyat Duaları Kelimeler"
-  },
-  {
-    "ar": "عَلَى عِبَادِ اللَّهِ",
-    "tr": "Allâh'ın kulları üzerine",
-    "en": "upon the servants of Allah",
-    "source": "Subhaneke, Tahiyyat Duaları Kelimeler"
-  },
-  {
-    "ar": "اَلصَّالِحِينَ",
-    "tr": "Sâlih kimseler",
-    "en": "the righteous ones",
-    "source": "Subhaneke, Tahiyyat Duaları Kelimeler"
-  },
-  {
-    "ar": "عَلَى عِبَادِ اللَّهِ الصَّالِحِينَ",
-    "tr": "Allâh'ın sâlih kulları üzerine olsun",
-    "en": "upon the righteous servants of Allah",
-    "source": "Subhaneke, Tahiyyat Duaları Kelimeler"
-  },
-  {
-    "ar": "اَلسَّلَامُ عَلَيْنَا وَعَلَى عِبَادِ اللَّهِ الصَّالِحِينَ",
-    "tr": "Selâm bizlere ve Allâh'ın sâlih kullarına olsun",
-    "en": "Peace be upon us and upon the righteous servants of Allah",
-    "source": "Subhaneke, Tahiyyat Duaları Kelimeler"
-  },
-  {
-    "ar": "أَشْهَدُ",
-    "tr": "Ben şehâdet ederim",
-    "en": "I bear witness",
-    "source": "Subhaneke, Tahiyyat Duaları Kelimeler"
-  },
-  {
-    "ar": "لَا إِلَهَ إِلَّا اللَّهُ",
-    "tr": "Allâh'tan başka hiçbir ilâh yoktur",
-    "en": "There is no deity but Allah",
-    "source": "Subhaneke, Tahiyyat Duaları Kelimeler"
-  },
-  {
-    "ar": "أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللَّهُ",
-    "tr": "Allâh'tan başka hiçbir ilâh olmadığına şehâdet ederim",
-    "en": "I bear witness that there is no deity but Allah",
-    "source": "Subhaneke, Tahiyyat Duaları Kelimeler"
-  },
-  {
-    "ar": "عَبْدُهُ",
-    "tr": "O'nun kulu",
-    "en": "His servant",
-    "source": "Subhaneke, Tahiyyat Duaları Kelimeler"
-  },
-  {
-    "ar": "رَسُولُهُ",
-    "tr": "O'nun Rasûlü",
-    "en": "His messenger",
-    "source": "Subhaneke, Tahiyyat Duaları Kelimeler"
-  },
-  {
-    "ar": "وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ",
-    "tr": "Hazret-i Muhammed'in O'nun kulu ve Rasûlü olduğuna şehâdet ederim",
-    "en": "And I bear witness that Muhammad is His servant and messenger",
     "source": "Subhaneke, Tahiyyat Duaları Kelimeler"
   },
   {

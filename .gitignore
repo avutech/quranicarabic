@@ -20,3 +20,6 @@ portal/lessons_index_cache.json
 # User auth DB (local; never commit)
 portal/users.db
 portal/users.db-*
+uploads/
+portal/uploads/
+portal/curriculum_cache.json
