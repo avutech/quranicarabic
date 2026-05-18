@@ -1178,6 +1178,39 @@ def admin_assign_classroom(user_id):
     return jsonify({"ok": True, "user_id": user_id, "classroom_id": cid})
 
 
+# ─── Module activation endpoints ──────────────────────────────────────────────
+
+@app.get("/api/modules")
+@login_required
+def list_module_states():
+    """Public (any logged-in user): which modules are turned off.
+    The frontend uses this to hide deactivated modules from the sidebar."""
+    return jsonify({"inactive": user_db.get_inactive_modules()})
+
+
+@app.get("/api/admin/modules")
+@admin_required
+def admin_list_modules():
+    """Admin: the full map of module_id -> active for modules that have an
+    explicit state. Modules not present here are active by default."""
+    return jsonify({"states": user_db.get_module_states()})
+
+
+@app.post("/api/admin/modules")
+@admin_required
+def admin_set_module():
+    """Body: {module_id: <str>, active: <bool>}."""
+    data = request.get_json(silent=True) or {}
+    module_id = (data.get("module_id") or "").strip()
+    active = data.get("active")
+    if not module_id:
+        return jsonify({"error": "module_id required"}), 400
+    if not isinstance(active, bool):
+        return jsonify({"error": "active (bool) required"}), 400
+    user_db.set_module_active(module_id, active)
+    return jsonify({"ok": True, "module_id": module_id, "active": active})
+
+
 if __name__ == "__main__":
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
@@ -1186,4 +1219,7 @@ if __name__ == "__main__":
     print(f"📂 PDF directory: {PDF_DIR}")
     print(f"🤖 Gemini model: {GEMINI_MODEL}")
     print(f"🌐 Portal running at: http://localhost:8081")
-    app.run(port=8081, debug=False)
+    # threaded=True: serve concurrent requests in parallel worker threads, so
+    # multiple users (or multiple sessions of one shared account) operate
+    # independently and simultaneously rather than being queued one-by-one.
+    app.run(port=8081, debug=False, threaded=True)

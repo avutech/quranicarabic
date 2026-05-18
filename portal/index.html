@@ -891,6 +891,10 @@ const I18N = {
     admErrCreate: 'Error:', admErrFailed: 'Failed:',
     admErrEmailPw: 'email + password required',
     admErrClassroomName: 'Classroom name required',
+    admSecModules: '🧩 Modules',
+    admModulesIntro: 'Turn feature modules on or off. A deactivated module disappears from the sidebar for all students and cannot be opened. Lessons are controlled separately, per classroom.',
+    admModuleOn: 'On', admModuleOff: 'Off',
+    admModuleActiveTag: 'active', admModuleInactiveTag: 'hidden from students',
     welcomeH1: 'Quranic Arabic Learning Portal',
     welcomeP: 'Select a level from the sidebar to explore its lessons, or choose a reference topic to browse vocabulary and grammar materials.',
     searchPlaceholder: 'Search lessons, topics, questions…',
@@ -1059,6 +1063,10 @@ const I18N = {
     admErrCreate: 'Hata:', admErrFailed: 'Hata:',
     admErrEmailPw: 'e-posta ve şifre gerekli',
     admErrClassroomName: 'Sınıf adı gerekli',
+    admSecModules: '🧩 Modüller',
+    admModulesIntro: 'Özellik modüllerini aç veya kapat. Kapatılan bir modül tüm öğrencilerin kenar çubuğundan kaybolur ve açılamaz. Dersler ayrıca, sınıf bazında yönetilir.',
+    admModuleOn: 'Açık', admModuleOff: 'Kapalı',
+    admModuleActiveTag: 'etkin', admModuleInactiveTag: 'öğrencilerden gizli',
     welcomeH1: 'Kuran Arapçası Öğrenme Portalı',
     welcomeP: 'Derslerini keşfetmek için kenar çubuğundan bir seviye seçin veya kelime ve dilbilgisi materyallerine göz atmak için referans konusu seçin.',
     searchPlaceholder: 'Ders, konu, soru ara…',
@@ -1227,6 +1235,10 @@ const I18N = {
     admErrCreate: 'خطأ:', admErrFailed: 'فشل:',
     admErrEmailPw: 'البريد وكلمة المرور مطلوبان',
     admErrClassroomName: 'اسم الفصل مطلوب',
+    admSecModules: '🧩 الوحدات',
+    admModulesIntro: 'فعّل أو عطّل وحدات الميزات. الوحدة المعطّلة تختفي من الشريط الجانبي لكل الطلاب ولا يمكن فتحها. الدروس تُدار بشكل منفصل لكل فصل.',
+    admModuleOn: 'مفعّل', admModuleOff: 'معطّل',
+    admModuleActiveTag: 'مفعّلة', admModuleInactiveTag: 'مخفية عن الطلاب',
     welcomeH1: 'بوابة تعلم العربية القرآنية',
     welcomeP: 'اختر مستوى من القائمة الجانبية لاستكشاف دروسه، أو اختر موضوعاً مرجعياً لتصفح مواد المفردات والنحو.',
     searchPlaceholder: 'ابحث في الدروس والمواضيع والأسئلة…',
@@ -1437,7 +1449,7 @@ function renderSidebar() {
   };
 
   // Power Learning — pinned at the top
-  const powerItems = REFERENCE_TOPICS.filter(r => r.group === 'power');
+  const powerItems = REFERENCE_TOPICS.filter(r => r.group === 'power' && isModuleActive(r.id));
   if (powerItems.length) {
     html += `<div class="sidebar-section">${t('groupPower')}</div>`;
     for (const ref of powerItems) html += renderRefItem(ref);
@@ -1476,7 +1488,7 @@ function renderSidebar() {
     }
   }
 
-  const referenceItems = REFERENCE_TOPICS.filter(r => r.group !== 'power');
+  const referenceItems = REFERENCE_TOPICS.filter(r => r.group !== 'power' && isModuleActive(r.id));
   if (referenceItems.length) {
     html += `<div class="sidebar-section" style="margin-top:8px">${t('groupReference')}</div>`;
     for (const ref of referenceItems) html += renderRefItem(ref);
@@ -1756,6 +1768,7 @@ function runSearch(rawQuery) {
 
   // Reference topics
   for (const ref of REFERENCE_TOPICS) {
+    if (!isModuleActive(ref.id)) continue;   // skip deactivated modules
     const refTitle = ref.title[lang] || ref.title.en;
     const titleHit = langs.some(l => _hit(ref.title[l], q));
     const descHit = langs.some(l => _hit(ref.desc && ref.desc[l], q));
@@ -1818,6 +1831,7 @@ function clickLesson(levelId, index) {
 
 function clickReference(refId) {
   const ref = REFERENCE_TOPICS.find(r => r.id === refId);
+  if (!ref || !isModuleActive(refId)) return;   // deactivated module — not openable
   expandedLevel = null;
   currentView = { type: 'reference', ref };
   practiceMode = false;
@@ -3597,6 +3611,21 @@ function escapeHtml(str) {
 
 let CURRENT_USER = null;   // { id, email, role, unlocks: [...] } when logged in
 
+// Modules (REFERENCE_TOPICS feature areas) an admin has deactivated. A
+// deactivated module is hidden from the sidebar and cannot be opened.
+let INACTIVE_MODULES = new Set();
+
+function isModuleActive(id) { return !INACTIVE_MODULES.has(id); }
+
+async function fetchModuleStates() {
+  try {
+    const res = await fetch('/api/modules', { credentials: 'same-origin' });
+    if (!res.ok) return;
+    const data = await res.json();
+    INACTIVE_MODULES = new Set(data.inactive || []);
+  } catch { /* on failure, leave all modules visible */ }
+}
+
 async function fetchCurrentUser() {
   try {
     const res = await fetch('/api/auth/me', { credentials: 'same-origin' });
@@ -3715,19 +3744,40 @@ async function openAdminPanel() {
   const main = document.getElementById('main');
   main.innerHTML = `<div class="topic-header"><h2>${t('admHeader')}</h2><p>${t('quizLoading') || '…'}</p></div>`;
   try {
-    const [u, c] = await Promise.all([
+    const [u, c, m] = await Promise.all([
       fetch('/api/admin/users', { credentials: 'same-origin' }).then(r => r.json()),
       fetch('/api/admin/classrooms', { credentials: 'same-origin' }).then(r => r.json()),
+      fetch('/api/admin/modules', { credentials: 'same-origin' }).then(r => r.json()),
     ]);
-    renderAdminPanel(u.users, u.all_lessons, c.classrooms);
+    renderAdminPanel(u.users, u.all_lessons, c.classrooms, (m && m.states) || {});
   } catch (e) {
     main.innerHTML = `<div class="topic-header"><h2>Admin</h2><p style="color:#991b1b">Error: ${escapeHtml(e.message)}</p></div>`;
   }
 }
 
-function renderAdminPanel(users, allLessons, classrooms) {
+function renderAdminPanel(users, allLessons, classrooms, moduleStates) {
   const main = document.getElementById('main');
   classrooms = classrooms || [];
+  moduleStates = moduleStates || {};
+
+  // Module activation cards — one per REFERENCE_TOPICS entry. A module is
+  // active unless an explicit `false` state has been stored for it.
+  const moduleCards = REFERENCE_TOPICS.map(m => {
+    const active = moduleStates[m.id] !== false;
+    return `
+      <div class="ad-module ${active ? '' : 'off'}">
+        <div class="ad-module-icon">${m.icon}</div>
+        <div class="ad-module-info">
+          <div class="ad-module-name">${escapeHtml(m.title[lang] || m.title.en)}</div>
+          <div class="ad-module-tag">${active ? t('admModuleActiveTag') : t('admModuleInactiveTag')}</div>
+        </div>
+        <label class="ad-switch" title="${active ? t('admModuleOn') : t('admModuleOff')}">
+          <input type="checkbox" ${active ? 'checked' : ''}
+                 onchange="adminToggleModule('${m.id}', this.checked, this)" />
+          <span class="ad-switch-track"><span class="ad-switch-thumb"></span></span>
+        </label>
+      </div>`;
+  }).join('');
   // Group lesson IDs by level for compact rendering
   const byLevel = {1:[], 2:[], 3:[]};
   for (const lid of allLessons) {
@@ -3836,12 +3886,14 @@ function renderAdminPanel(users, allLessons, classrooms) {
         <div class="cr-head">
           <div>
             <span class="cr-icon">🏫</span>
-            <span class="cr-name">${escapeHtml(c.name)}</span>
+            <span class="cr-name-wrap" id="cr-name-wrap-${c.id}">
+              <span class="cr-name" id="cr-name-${c.id}" data-name="${escapeHtml(c.name)}">${escapeHtml(c.name)}</span>
+              <button class="cr-name-edit" title="${t('admRename')}" onclick="adminStartRenameClassroom(${c.id})">✏</button>
+            </span>
             <span class="cr-meta">${members.length} ${t('admMembers')} · ${set.size} ${t('admUnlocks')}</span>
           </div>
           <div style="display:flex; gap:8px;">
             ${members.length ? `<button class="btn-secondary cr-expand-btn" onclick="adminToggleClassroom(${c.id})" style="padding:5px 12px; font-size:0.78rem;">${toggleLabel}</button>` : ''}
-            <button class="btn-secondary" onclick="adminRenameClassroom(${c.id}, '${escapeHtml(c.name).replace(/'/g, '&#39;')}')" style="padding:5px 12px; font-size:0.78rem;">${t('admRename')}</button>
             <button class="btn-secondary" onclick="adminDeleteClassroom(${c.id}, '${escapeHtml(c.name).replace(/'/g, '&#39;')}')" style="padding:5px 12px; font-size:0.78rem; color:#991b1b; border-color:#fecaca;">${t('admDelete')}</button>
           </div>
         </div>
@@ -3917,6 +3969,19 @@ function renderAdminPanel(users, allLessons, classrooms) {
       .cr-icon { font-size: 1.2rem; margin-right: 6px; }
       .cr-name { font-weight: 700; font-size: 1.05rem; color: #312e81; }
       .cr-meta { font-size: 0.82rem; color: #6b7280; margin-left: 8px; }
+      .cr-name-wrap { display: inline-flex; align-items: center; gap: 4px; }
+      .cr-name-edit {
+        border: none; background: none; cursor: pointer; padding: 2px 4px;
+        font-size: 0.85rem; line-height: 1; opacity: 0.45; border-radius: 5px;
+        transition: opacity .12s, background .12s;
+      }
+      .cr-name-edit:hover { opacity: 1; background: #e0e7ff; }
+      .cr-name-input {
+        font-weight: 700; font-size: 1.02rem; color: #312e81;
+        font-family: inherit; padding: 3px 8px;
+        border: 1.5px solid #6366f1; border-radius: 6px; outline: none;
+        min-width: 160px; max-width: 280px;
+      }
       .cr-grid-label, .cr-students-head {
         font-size: 0.74rem; font-weight: 700; color: #4338ca;
         text-transform: uppercase; letter-spacing: 0.06em;
@@ -3944,6 +4009,44 @@ function renderAdminPanel(users, allLessons, classrooms) {
       .cr-shell.collapsed .ad-user-head > div:nth-child(2) { display: none; }
       .cr-shell.collapsed .ad-email { font-size: 0.88rem; font-weight: 600; color: #312e81; }
       .cr-shell.collapsed .ad-role { font-size: 0.66rem; padding: 1px 6px; }
+
+      /* ── Module activation ── */
+      .ad-modules { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 10px; margin-bottom: 18px; }
+      .ad-module {
+        display: flex; align-items: center; gap: 12px;
+        background: #fff; border: 1.5px solid var(--border); border-radius: 12px;
+        padding: 10px 14px; transition: border-color .15s, background .15s;
+      }
+      .ad-module.off { background: #f8fafc; border-color: #e2e8f0; }
+      .ad-module-icon {
+        width: 38px; height: 38px; flex-shrink: 0; border-radius: 9px;
+        background: #eef2ff; color: #312e81;
+        display: flex; align-items: center; justify-content: center;
+        font-size: 1.15rem; font-weight: 700;
+      }
+      .ad-module.off .ad-module-icon { background: #f1f5f9; color: #94a3b8; }
+      .ad-module-info { flex: 1; min-width: 0; }
+      .ad-module-name { font-weight: 600; font-size: 0.9rem; color: #1e293b; }
+      .ad-module.off .ad-module-name { color: #64748b; }
+      .ad-module-tag { font-size: 0.7rem; color: var(--muted); margin-top: 1px; }
+      .ad-module.off .ad-module-tag { color: #b45309; }
+      /* toggle switch */
+      .ad-switch { position: relative; flex-shrink: 0; cursor: pointer; }
+      .ad-switch input { position: absolute; opacity: 0; width: 0; height: 0; }
+      .ad-switch-track {
+        display: block; width: 44px; height: 24px; border-radius: 999px;
+        background: #cbd5e1; transition: background .15s;
+      }
+      .ad-switch-thumb {
+        position: absolute; top: 3px; left: 3px;
+        width: 18px; height: 18px; border-radius: 50%;
+        background: #fff; box-shadow: 0 1px 3px rgba(0,0,0,.3);
+        transition: transform .15s;
+      }
+      .ad-switch input:checked + .ad-switch-track { background: #16a34a; }
+      .ad-switch input:checked + .ad-switch-track .ad-switch-thumb { transform: translateX(20px); }
+      body.rtl .ad-switch input:checked + .ad-switch-track .ad-switch-thumb { transform: translateX(-20px); }
+      body.rtl .ad-switch-thumb { left: auto; right: 3px; }
     </style>
     <div class="topic-header">
       <h2>${t('admHeader')}</h2>
@@ -3974,6 +4077,10 @@ function renderAdminPanel(users, allLessons, classrooms) {
         </div>
       </div>
 
+      <div class="ad-section-head">${t('admSecModules')}</div>
+      <p style="color:var(--muted); font-size:0.85rem; margin:2px 0 10px;">${escapeHtml(t('admModulesIntro'))}</p>
+      <div class="ad-modules">${moduleCards}</div>
+
       <div class="ad-section-head">${t('admSecClassrooms')}</div>
       ${classroomBlocks || `<p style="color:var(--muted);font-style:italic">${escapeHtml(t('admEmptyClassrooms'))}</p>`}
 
@@ -3989,6 +4096,29 @@ function adminSwitchCreateTab(which) {
   document.getElementById('ad-tab-classroom').classList.toggle('active', which === 'classroom');
   document.getElementById('ad-tab-body-user').style.display = which === 'user' ? '' : 'none';
   document.getElementById('ad-tab-body-classroom').style.display = which === 'classroom' ? '' : 'none';
+}
+
+async function adminToggleModule(moduleId, active, inputEl) {
+  const res = await fetch('/api/admin/modules', {
+    method: 'POST', credentials: 'same-origin',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ module_id: moduleId, active }),
+  });
+  if (!res.ok) {
+    alert(t('admErrFailed') + ' ' + res.status);
+    if (inputEl) inputEl.checked = !active;   // revert the toggle
+    return;
+  }
+  // Update the card in place + keep the live sidebar state in sync.
+  const card = inputEl ? inputEl.closest('.ad-module') : null;
+  if (card) {
+    card.classList.toggle('off', !active);
+    const tag = card.querySelector('.ad-module-tag');
+    if (tag) tag.textContent = active ? t('admModuleActiveTag') : t('admModuleInactiveTag');
+  }
+  if (active) INACTIVE_MODULES.delete(moduleId);
+  else INACTIVE_MODULES.add(moduleId);
+  renderSidebar();
 }
 
 async function adminToggleUnlock(userId) {
@@ -4074,15 +4204,38 @@ async function adminCreateClassroom() {
   openAdminPanel();
 }
 
-async function adminRenameClassroom(cid, currentName) {
-  const newName = prompt(t('admPromptNewName'), currentName);
-  if (!newName || newName.trim() === currentName) return;
+// Inline classroom rename: clicking the ✏ pencil swaps the name for a text
+// input. Enter or focus-loss saves; Escape cancels.
+function adminStartRenameClassroom(cid) {
+  const wrap = document.getElementById('cr-name-wrap-' + cid);
+  if (!wrap || wrap.querySelector('input')) return;   // already editing
+  const span = document.getElementById('cr-name-' + cid);
+  const current = span ? span.dataset.name : '';
+  wrap.innerHTML = `<input class="cr-name-input" type="text" value="${escapeHtml(current)}" data-cid="${cid}" data-orig="${escapeHtml(current)}" />`;
+  const input = wrap.querySelector('input');
+  input.focus();
+  input.select();
+  input.addEventListener('keydown', e => {
+    if (e.key === 'Enter') { e.preventDefault(); adminCommitRenameClassroom(input); }
+    else if (e.key === 'Escape') { e.preventDefault(); input.dataset.done = '1'; openAdminPanel(); }
+  });
+  input.addEventListener('blur', () => adminCommitRenameClassroom(input));
+}
+
+async function adminCommitRenameClassroom(input) {
+  if (!input || input.dataset.done) return;   // run once (guards Enter+blur)
+  input.dataset.done = '1';
+  const cid = input.dataset.cid;
+  const name = (input.value || '').trim();
+  const original = input.dataset.orig;
+  if (!name || name === original) { openAdminPanel(); return; }   // no change
   const res = await fetch(`/api/admin/classrooms/${cid}/rename`, {
     method: 'POST', credentials: 'same-origin',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ name: newName.trim() }),
+    body: JSON.stringify({ name }),
   });
-  if (res.ok) openAdminPanel(); else alert(t('admErrFailed') + ' ' + res.status);
+  if (!res.ok) alert(t('admErrFailed') + ' ' + res.status);
+  openAdminPanel();
 }
 
 async function adminDeleteClassroom(cid, name) {
@@ -4159,6 +4312,7 @@ async function adminResetPassword(userId, email) {
     renderLoginScreen();
     return;
   }
+  await fetchModuleStates();
   setLang(lang);   // applies the default language (TR) to body class, sidebar, welcome text, etc.
 
   // Keep the FAB clearance accurate as the viewport resizes.

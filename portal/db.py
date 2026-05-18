@@ -26,9 +26,17 @@ SESSION_TTL = timedelta(days=30)
 # ─── Connection helpers ───────────────────────────────────────────────────────
 
 def _connect() -> sqlite3.Connection:
-    conn = sqlite3.connect(str(DB_PATH))
+    # timeout=30: if another thread holds the write lock, wait up to 30s
+    # instead of immediately raising "database is locked".
+    conn = sqlite3.connect(str(DB_PATH), timeout=30.0)
     conn.row_factory = sqlite3.Row
     conn.execute("PRAGMA foreign_keys = ON")
+    # WAL mode lets readers and a writer proceed concurrently — essential when
+    # many users (including several sharing one account) hit the server at
+    # once. journal_mode is persisted in the DB file; the rest are per-conn.
+    conn.execute("PRAGMA journal_mode = WAL")
+    conn.execute("PRAGMA synchronous = NORMAL")
+    conn.execute("PRAGMA busy_timeout = 30000")
     return conn
 
 
@@ -80,6 +88,12 @@ def init_db():
                 lesson_id    TEXT NOT NULL,
                 granted_at   TEXT NOT NULL,
                 PRIMARY KEY (classroom_id, lesson_id)
+            );
+
+            CREATE TABLE IF NOT EXISTS module_states (
+                module_id  TEXT PRIMARY KEY,
+                active     INTEGER NOT NULL DEFAULT 1,
+                updated_at TEXT NOT NULL
             );
         """)
         # Migrations
@@ -367,6 +381,49 @@ def effective_unlocks(user_id: int) -> list[str]:
     if classroom_id:
         personal |= set(get_classroom_unlocks(classroom_id))
     return sorted(personal)
+
+
+# ─── Module activation ────────────────────────────────────────────────────────
+# Modules (the feature areas in REFERENCE_TOPICS — Letters, Verbs, Vocab Quiz,
+# I'rab, etc.) are active by default. A row in module_states only exists once an
+# admin has explicitly changed a module's state; absence of a row means active.
+
+def get_module_states() -> dict[str, bool]:
+    """Return {module_id: active_bool} for every module an admin has touched."""
+    with db() as conn:
+        rows = conn.execute("SELECT module_id, active FROM module_states").fetchall()
+        return {r["module_id"]: bool(r["active"]) for r in rows}
+
+
+def get_inactive_modules() -> list[str]:
+    """Module ids that have been explicitly turned off."""
+    with db() as conn:
+        rows = conn.execute(
+            "SELECT module_id FROM module_states WHERE active = 0 ORDER BY module_id"
+        ).fetchall()
+        return [r["module_id"] for r in rows]
+
+
+def set_module_active(module_id: str, active: bool) -> None:
+    module_id = (module_id or "").strip()
+    if not module_id:
+        raise ValueError("module_id required")
+    with db() as conn:
+        conn.execute(
+            """INSERT INTO module_states (module_id, active, updated_at)
+               VALUES (?, ?, ?)
+               ON CONFLICT(module_id) DO UPDATE SET active = excluded.active,
+                                                    updated_at = excluded.updated_at""",
+            (module_id, 1 if active else 0, now_iso()),
+        )
+
+
+def is_module_active(module_id: str) -> bool:
+    with db() as conn:
+        row = conn.execute(
+            "SELECT active FROM module_states WHERE module_id = ?", (module_id,)
+        ).fetchone()
+        return True if row is None else bool(row["active"])
 
 
 # ─── Seed admin ───────────────────────────────────────────────────────────────
