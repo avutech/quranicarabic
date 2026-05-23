@@ -1,32 +1,24 @@
-#!/bin/bash
-# Pull latest code from a branch and restart the service.
+#!/usr/bin/env bash
+# Server-side deploy: pull a branch and restart its service.
+# Invoked by .github/workflows/deploy.yml over SSH. Arg: staging | production
 #
-# Usage:  sudo bash update.sh [branch]    (default: production)
-
+# Safe by design: `git reset --hard` only touches TRACKED files, so the
+# server's gitignored data (.env, users.db, uploads/, PDFs, *_cache.json)
+# is never altered or deleted.
 set -euo pipefail
-BRANCH="${1:-production}"
-APP_DIR="/var/www/quranportal-${BRANCH}"
-SERVICE_NAME="quranportal-${BRANCH}"
 
-if [ ! -d "$APP_DIR" ]; then
-  echo "❌ ${APP_DIR} does not exist. Run setup_vps.sh first."
-  exit 1
-fi
+BRANCH="${1:?usage: update.sh <staging|production>}"
+case "$BRANCH" in
+  production) DIR=/srv/quran;         SVC=quran ;;
+  staging)    DIR=/srv/quran-staging; SVC=quran-staging ;;
+  *) echo "unknown branch: $BRANCH" >&2; exit 1 ;;
+esac
 
-echo "==> Pulling latest from ${BRANCH}..."
-cd "$APP_DIR"
-sudo -u quranportal git fetch origin
-sudo -u quranportal git checkout "$BRANCH"
-sudo -u quranportal git reset --hard "origin/$BRANCH"
+cd "$DIR"
+git fetch --prune origin
+git reset --hard "origin/$BRANCH"
 
-echo "==> Updating Python dependencies..."
-cd "$APP_DIR/portal"
-sudo -u quranportal venv/bin/pip install -r requirements.txt -q
-
-echo "==> Restarting service..."
-systemctl restart "$SERVICE_NAME"
-sleep 2
-systemctl status "$SERVICE_NAME" --no-pager | head -12
-
-echo ""
-echo "✅ Update complete. Tail logs with:  sudo journalctl -u ${SERVICE_NAME} -f"
+cd "$DIR/portal"
+venv/bin/pip install -q -r requirements.txt gunicorn
+systemctl restart "$SVC"
+echo "✓ deployed $BRANCH → $SVC ($(git -C "$DIR" rev-parse --short HEAD))"
