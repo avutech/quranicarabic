@@ -23,12 +23,12 @@ jobs:
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             BRANCH="${{ inputs.branch }}"
           else
-            BRANCH="${GITHUB_REF##*/}"
+            BRANCH="${GITHUB_REF_NAME}"
           fi
           echo "branch=$BRANCH" >> "$GITHUB_OUTPUT"
-          echo "🚀 Deploying branch: $BRANCH"
+          echo "🚀 Deploying $BRANCH"
 
-      - name: SSH into VPS and run update.sh
+      - name: SSH into VPS and deploy
         uses: appleboy/ssh-action@v1.2.0
         with:
           host: ${{ secrets.VPS_HOST }}
@@ -38,10 +38,5 @@ jobs:
           script: |
             set -e
             BRANCH="${{ steps.target.outputs.branch }}"
-            APP_DIR="/var/www/quranportal-${BRANCH}"
-            if [ ! -d "$APP_DIR" ]; then
-              echo "❌ $APP_DIR does not exist on the VPS."
-              exit 1
-            fi
-            sudo bash "$APP_DIR/deploy/update.sh" "$BRANCH"
-            echo "✅ Deployment complete."
+            if [ "$BRANCH" = "production" ]; then DIR=/srv/quran; else DIR=/srv/quran-staging; fi
+            bash "$DIR/deploy/update.sh" "$BRANCH"
