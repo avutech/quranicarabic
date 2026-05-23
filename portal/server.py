@@ -2,6 +2,7 @@ import os
 import sys
 import json
 import re
+import time
 from pathlib import Path
 from flask import Flask, send_from_directory, request, jsonify, abort
 from google import genai
@@ -39,8 +40,33 @@ def humanize_gemini_error(exc):
     # Auth error
     if "401" in msg or "API key" in msg or "invalid x-api-key" in msg.lower():
         return 401, "❌ Your GEMINI_API_KEY is invalid or expired. Update it in portal/.env and restart the server."
+    # Transient model overload (Gemini returns 503 UNAVAILABLE under high demand)
+    if "503" in msg or "UNAVAILABLE" in msg or "overloaded" in msg.lower():
+        return 503, (
+            "⚠️ The AI is busy right now (high demand). "
+            "Please wait a few seconds and try again — this usually clears up quickly."
+        )
     # Generic
     return 500, str(exc)
+
+
+def gemini_generate(client, *, model, contents, config=None, _retries=3):
+    """Wrapper around client.models.generate_content that automatically retries
+    transient 503/UNAVAILABLE (model-overloaded) errors with exponential backoff.
+    Non-transient errors propagate immediately to humanize_gemini_error()."""
+    delay = 1.0
+    for attempt in range(_retries):
+        try:
+            return client.models.generate_content(
+                model=model, contents=contents, config=config
+            )
+        except Exception as e:
+            msg = str(e)
+            transient = "503" in msg or "UNAVAILABLE" in msg or "overloaded" in msg.lower()
+            if not transient or attempt == _retries - 1:
+                raise
+            time.sleep(delay)
+            delay *= 2
 
 app = Flask(__name__)
 app.register_blueprint(auth_bp)
@@ -484,7 +510,7 @@ Format your response:
 - Be warm and encouraging
 - When referencing Arabic words, always include Arabic script with transliteration"""
 
-        response = client.models.generate_content(
+        response = gemini_generate(client,
             model=GEMINI_MODEL,
             contents=prompt,
             config=genai_types.GenerateContentConfig(max_output_tokens=600),
@@ -676,7 +702,7 @@ If a field has substantive correct content but the student left it blank, mark t
 
     try:
         client = genai.Client(api_key=api_key)
-        response = client.models.generate_content(
+        response = gemini_generate(client,
             model=GEMINI_MODEL,
             contents=prompt,
             config=genai_types.GenerateContentConfig(
@@ -822,7 +848,7 @@ NOW produce the JSON."""
 
     try:
         client = genai.Client(api_key=api_key)
-        response = client.models.generate_content(
+        response = gemini_generate(client,
             model=GEMINI_MODEL,
             contents=prompt,
             config=genai_types.GenerateContentConfig(
@@ -1061,7 +1087,7 @@ Write `meaning`, `notes`, `role`, `type`, `form`, `case_mood` (all human-readabl
 
     try:
         client = genai.Client(api_key=api_key)
-        response = client.models.generate_content(
+        response = gemini_generate(client,
             model=GEMINI_MODEL,
             contents=prompt,
             config=genai_types.GenerateContentConfig(
@@ -1873,7 +1899,7 @@ def _run_irab_gemini(prompt: str) -> dict:
         return {"error": "GEMINI_API_KEY not set", "model_label": f"Gemini ({GEMINI_MODEL})"}
     try:
         client = genai.Client(api_key=api_key)
-        resp = client.models.generate_content(
+        resp = gemini_generate(client,
             model=GEMINI_MODEL,
             contents=prompt,
             config=genai_types.GenerateContentConfig(
@@ -2097,7 +2123,7 @@ def _run_irab_gemini_cached(verse: str, language: str, model: str = None) -> dic
         # Gemini occasionally returns malformed/truncated JSON — retry up to 3x
         parsed = None
         for attempt in range(3):
-            resp = client.models.generate_content(model=use_model, contents=prompt, config=cfg)
+            resp = gemini_generate(client,model=use_model, contents=prompt, config=cfg)
             raw = (resp.text or "").strip()
             parsed = _parse_irab_json(raw)
             if parsed:
