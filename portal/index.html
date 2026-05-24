@@ -1157,6 +1157,9 @@ const I18N = {
     cmgrAddAudio: '+ Upload audio',
     cmgrAddBasic: '+ Add resource',
     cmgrReextract: 'Re-run AI extraction',
+    cmgrExtractModel: 'Extract with',
+    cmgrModelDefault: '(default)',
+    cmgrModelImagesOnly: '(images only)',
     lessonAiGenerated: 'AI generated',
     cmgrWeekShort: 'W',
     welcomeH1: 'Quranic Arabic Learning Portal',
@@ -1397,6 +1400,9 @@ const I18N = {
     cmgrAddAudio: '+ Ses yükle',
     cmgrAddBasic: '+ Kaynak ekle',
     cmgrReextract: 'Yapay zekâ ile yeniden işle',
+    cmgrExtractModel: 'Şununla işle',
+    cmgrModelDefault: '(varsayılan)',
+    cmgrModelImagesOnly: '(yalnızca görsel)',
     lessonAiGenerated: 'Yapay zekâ ile üretildi',
     cmgrWeekShort: 'H',
     welcomeH1: 'Kuran Arapçası Öğrenme Portalı',
@@ -1637,6 +1643,9 @@ const I18N = {
     cmgrAddAudio: '+ رفع صوت',
     cmgrAddBasic: '+ أضف مورداً',
     cmgrReextract: 'إعادة التشغيل بالذكاء الاصطناعي',
+    cmgrExtractModel: 'استخرج باستخدام',
+    cmgrModelDefault: '(افتراضي)',
+    cmgrModelImagesOnly: '(صور فقط)',
     lessonAiGenerated: 'مُولَّد بالذكاء الاصطناعي',
     cmgrWeekShort: 'أ',
     welcomeH1: 'بوابة تعلم العربية القرآنية',
@@ -3540,6 +3549,14 @@ function renderUploadFormHTML(level, week) {
         </span>
         <span class="cmgr-hint">${t('cmgrMax') || 'Max 50 MB'}</span>
       </div>
+      <div class="cmgr-row" id="cmgr-row-model">
+        <label style="font-size:0.8rem;color:var(--muted);font-weight:600;margin-right:8px;">${t('cmgrExtractModel') || 'Extract with'}</label>
+        <select id="cmgr-model" class="icmp-model-select">
+          <option value="gemini" selected>Gemini ${t('cmgrModelDefault') || '(default)'}</option>
+          <option value="claude">Claude</option>
+          <option value="openai">ChatGPT ${t('cmgrModelImagesOnly') || '(images only)'}</option>
+        </select>
+      </div>
       <div class="cmgr-row" id="cmgr-row-url" style="display:none">
         <input type="url" id="cmgr-url" placeholder="https://..." />
       </div>
@@ -3567,6 +3584,7 @@ function cmgrSwitchKind(k) {
   cmgrCurrentKind = k;
   document.querySelectorAll('.cmgr-kind').forEach(b => b.classList.toggle('active', b.dataset.kind === k));
   document.getElementById('cmgr-row-file').style.display = (k === 'pdf' || k === 'image' || k === 'audio') ? '' : 'none';
+  document.getElementById('cmgr-row-model').style.display = (k === 'pdf' || k === 'image') ? '' : 'none';
   document.getElementById('cmgr-row-url').style.display  = (k === 'link') ? '' : 'none';
   document.getElementById('cmgr-row-body').style.display = (k === 'note') ? '' : 'none';
   const fi = document.getElementById('cmgr-file');
@@ -3630,6 +3648,9 @@ async function cmgrSubmitUpload() {
       fd.append('title', title);
       fd.append('kind', cmgrCurrentKind);
       fd.append('file', file);
+      if (cmgrCurrentKind === 'pdf' || cmgrCurrentKind === 'image') {
+        fd.append('model', document.getElementById('cmgr-model')?.value || 'gemini');
+      }
       res = await fetch('/api/admin/resources', { method: 'POST', credentials: 'same-origin', body: fd });
     } else {
       const body = { level: cmgrState.level, week: cmgrState.week, title, kind: cmgrCurrentKind };
@@ -3664,8 +3685,11 @@ async function cmgrSubmitUpload() {
 }
 
 async function cmgrReextract(rid) {
+  const model = document.getElementById('cmgr-model')?.value || 'gemini';
   const res = await fetch(`/api/admin/resources/${rid}/reextract`, {
     method: 'POST', credentials: 'same-origin',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ model }),
   });
   if (res.ok) cmgrReloadList();
   else alert((t('admErrFailed') || 'Failed:') + ' ' + res.status);
