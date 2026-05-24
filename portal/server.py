@@ -3,6 +3,7 @@ import sys
 import json
 import re
 import time
+import unicodedata
 from pathlib import Path
 from flask import Flask, send_from_directory, request, jsonify, abort
 from google import genai
@@ -445,6 +446,20 @@ def _lesson_id_for_pdf(filename: str):
     return None
 
 
+def _resolve_pdf_name(filename):
+    """macOS stores filenames decomposed (NFD); data.js references the composed
+    (NFC) form. On a Linux server these don't match byte-for-byte, so a direct
+    lookup 404s on any name with Turkish/Arabic characters. Return whichever
+    Unicode form actually exists on disk, falling back to the original."""
+    base = Path(PDF_DIR)
+    for form in (filename,
+                 unicodedata.normalize("NFC", filename),
+                 unicodedata.normalize("NFD", filename)):
+        if (base / form).is_file():
+            return form
+    return filename
+
+
 @app.route("/pdfs/<path:filename>")
 def serve_pdf(filename):
     user = current_user_row()
@@ -458,7 +473,7 @@ def serve_pdf(filename):
         if lesson_id not in unlocks:
             return jsonify({"error": "this lesson is locked"}), 403
     try:
-        return send_from_directory(str(PDF_DIR), filename)
+        return send_from_directory(str(PDF_DIR), _resolve_pdf_name(filename))
     except Exception:
         abort(404)
 
