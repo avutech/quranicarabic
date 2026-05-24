@@ -932,6 +932,15 @@ const REFERENCE_TOPICS = [
     pdfs: []
   },
   {
+    id: 'flashcards',
+    icon: '🃏',
+    flashcards: true,
+    group: 'power',
+    title: { en: 'Flashcards', tr: 'Kelime Kartları', ar: 'بطاقات المفردات' },
+    desc: { en: 'Flip-card drill on the same vocabulary pool as the quiz: see the Arabic word, then tap to reveal its meaning.', tr: 'Kelime Sınavı ile aynı kelime havuzundan kart çalışması: Arapça kelimeyi gör, dokunarak anlamını ortaya çıkar.', ar: 'بطاقات تعلّم من نفس مجموعة مفردات الاختبار: شاهد الكلمة العربية ثم انقر لكشف معناها.' },
+    pdfs: []
+  },
+  {
     id: 'bablar',
     icon: 'ب',
     title: { en: 'Verb Paradigms (Bablar)', tr: 'Bâblar', ar: 'أبواب الأفعال' },

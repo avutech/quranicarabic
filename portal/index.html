@@ -475,6 +475,29 @@
     font-size: 0.78rem; color: var(--muted);
   }
 
+  /* Flashcards */
+  .flashcard-wrap { max-width: 560px; margin: 0 auto; text-align: center; perspective: 1400px; }
+  .flashcard {
+    position: relative; width: 100%; min-height: 260px; cursor: pointer;
+    transform-style: preserve-3d; transition: transform 0.5s; margin-bottom: 18px;
+  }
+  .flashcard.flipped { transform: rotateY(180deg); }
+  .flashcard-face {
+    position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+    padding: 28px; border-radius: var(--radius);
+    background: var(--card); border: 1px solid var(--border); box-shadow: var(--shadow);
+    backface-visibility: hidden; -webkit-backface-visibility: hidden;
+    font-size: 1.7rem; line-height: 1.5;
+  }
+  .flashcard-front { background: var(--green-pale); }
+  .flashcard-back { transform: rotateY(180deg); }
+  .flashcard-face.flash-arabic {
+    font-size: 3rem; direction: rtl; color: var(--green);
+    font-family: 'Amiri Quran', 'Amiri', 'Scheherazade New', serif;
+  }
+  .flashcard-hint { color: var(--muted); font-size: 0.85rem; margin-bottom: 16px; }
+  .flashcard-controls { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+
   /* Learn Deep */
   .ld-picker {
     background: var(--card); border: 1px solid var(--border);
@@ -1183,6 +1206,14 @@ const I18N = {
     quizScopeAnswerKeys: 'Lesson Answer Keys only',
     quizScopeSurah: 'Surah verbs only',
     quizPoolSize: words => `${words} unique words available`,
+    flashProgress: (n, total) => `Card ${n} of ${total}`,
+    flashTapReveal: 'Tap the card to reveal the meaning',
+    flashShowFront: 'Tap to flip back',
+    flashFlip: 'Flip',
+    flashNext: 'Next →',
+    flashPrev: '← Previous',
+    flashShuffle: '🔀 Shuffle',
+    flashEmpty: 'No vocabulary unlocked yet — complete lessons to build your deck.',
     quizStart: 'Start Quiz',
     quizScore: 'Score',
     quizCorrect: 'correct',
@@ -1414,6 +1445,14 @@ const I18N = {
     quizScopeAnswerKeys: 'Sadece Ders Cevap Anahtarları',
     quizScopeSurah: 'Sadece Sure fiilleri',
     quizPoolSize: words => `${words} benzersiz kelime mevcut`,
+    flashProgress: (n, total) => `Kart ${n} / ${total}`,
+    flashTapReveal: 'Anlamı görmek için karta dokun',
+    flashShowFront: 'Geri çevirmek için dokun',
+    flashFlip: 'Çevir',
+    flashNext: 'Sonraki →',
+    flashPrev: '← Önceki',
+    flashShuffle: '🔀 Karıştır',
+    flashEmpty: 'Henüz kelime kilidi açılmadı — desteyi oluşturmak için dersleri tamamla.',
     quizStart: 'Sınava Başla',
     quizScore: 'Skor',
     quizCorrect: 'doğru',
@@ -1645,6 +1684,14 @@ const I18N = {
     quizScopeAnswerKeys: 'مفاتيح الإجابات فقط',
     quizScopeSurah: 'مفردات السور فقط',
     quizPoolSize: words => `${words} كلمة فريدة متوفرة`,
+    flashProgress: (n, total) => `بطاقة ${n} من ${total}`,
+    flashTapReveal: 'انقر البطاقة لكشف المعنى',
+    flashShowFront: 'انقر للعودة',
+    flashFlip: 'اقلب',
+    flashNext: 'التالي ←',
+    flashPrev: '→ السابق',
+    flashShuffle: '🔀 خلط',
+    flashEmpty: 'لم تُفتح أي مفردات بعد — أكمل الدروس لبناء مجموعتك.',
     quizStart: 'ابدأ الاختبار',
     quizScore: 'النتيجة',
     quizCorrect: 'صحيحة',
@@ -1772,6 +1819,7 @@ function setLang(l) {
     else renderLesson(currentView.level, currentView.lesson);
   } else if (currentView.type === 'reference') {
     if (currentView.ref.quiz) renderQuizSetup(currentView.ref);
+    else if (currentView.ref.flashcards) renderFlashcards(currentView.ref);
     else if (currentView.ref.irab) renderIrab(currentView.ref);
     else if (currentView.ref.irabCompare) renderIrabCompare(currentView.ref);
     else if (currentView.ref.selfCheck) renderSelfCheck(currentView.ref);
@@ -1884,6 +1932,7 @@ function onSearchInput(val) {
     } else if (currentView.type === 'reference') {
       const ref = currentView.ref;
       if (ref.quiz) renderQuizSetup(ref);
+      else if (ref.flashcards) renderFlashcards(ref);
       else if (ref.irab) renderIrab(ref);
       else if (ref.selfCheck) renderSelfCheck(ref);
       else if (ref.learnDeep) renderLearnDeep(ref);
@@ -2206,6 +2255,7 @@ function clickReference(refId) {
   practiceMode = false;
   renderSidebar();
   if (ref.quiz) renderQuizSetup(ref);
+  else if (ref.flashcards) renderFlashcards(ref);
   else if (ref.irab) renderIrab(ref);
   else if (ref.irabCompare) renderIrabCompare(ref);
   else if (ref.selfCheck) renderSelfCheck(ref);
@@ -2642,14 +2692,14 @@ function userUnlockedWeeksOfLevel(level) {
   return out;
 }
 
-function filterPool(scope) {
+function filterPool(scope, cfg = quizConfig) {
   if (!VOCAB_POOL) return [];
   let all = VOCAB_POOL.filter(e => e.ar && e.tr);
   if (scope === 'answerkeys') all = all.filter(e => /Answer Key|ANSWER KEY/i.test(e.source || ''));
   else if (scope === 'surah') all = all.filter(e => /Sûresi|Surah/i.test(e.source || '') && !/Answer Key/i.test(e.source || ''));
 
   const unlocked = userUnlockedLessons();   // Set of "L{N}W{M}"
-  const weekFilter = Array.isArray(quizConfig.weeks) ? quizConfig.weeks : [];
+  const weekFilter = Array.isArray(cfg.weeks) ? cfg.weeks : [];
 
   const isAdmin = CURRENT_USER && CURRENT_USER.role === 'admin';
 
@@ -2659,7 +2709,7 @@ function filterPool(scope) {
       // Lesson-tagged vocab: must be from an unlocked lesson
       const lid = `L${meta.level}W${meta.week}`;
       if (!unlocked.has(lid)) return false;
-      if (quizConfig.level !== 'all' && meta.level !== quizConfig.level) return false;
+      if (cfg.level !== 'all' && meta.level !== cfg.level) return false;
       if (weekFilter.length > 0 && !weekFilter.includes(meta.week)) return false;
       return true;
     }
@@ -2667,7 +2717,7 @@ function filterPool(scope) {
     //   - admins: shown when no level/week narrowing is applied
     //   - non-admins: never shown (gated curriculum only)
     if (!isAdmin) return false;
-    if (quizConfig.level !== 'all' || weekFilter.length > 0) return false;
+    if (cfg.level !== 'all' || weekFilter.length > 0) return false;
     return true;
   });
   return all;
@@ -2901,6 +2951,101 @@ function showQuizScore() {
         </div>
       </div>
     </div>`;
+}
+
+// ─── Flashcards ─────────────────────────────────────────────────────────────
+// Same word pool as the Vocabulary Quiz (filterPool), presented as flip cards.
+let flashState = null;  // { refId, deck, idx, flipped }
+
+function flashcardFaces(e) {
+  // Meaning text in the viewer's language. EN can be missing → fall back to TR.
+  const meaning = (lang === 'en' || lang === 'ar') ? (e.en || e.tr) : (e.tr || e.en);
+  // Default (TR/EN UI): Arabic on the front, meaning revealed on flip.
+  // Arabic UI: reverse it — meaning on the front, Arabic revealed on flip.
+  if (lang === 'ar') {
+    return { front: meaning, frontArabic: false, back: e.ar, backArabic: true };
+  }
+  return { front: e.ar, frontArabic: true, back: meaning, backArabic: false };
+}
+
+function renderFlashcards(ref) {
+  const main = document.getElementById('main');
+
+  if (!VOCAB_POOL) {
+    main.innerHTML = `
+      <div class="topic-header"><h2>${ref.title[lang]}</h2><p>${ref.desc[lang]}</p></div>
+      <div class="section"><div class="practice-start" style="text-align:left">
+        <p style="color:var(--mid);line-height:1.7">${escapeHtml(t('quizNotReady'))}</p>
+      </div></div>`;
+    return;
+  }
+
+  // Build a fresh shuffled deck when first opening the module; keep position
+  // across re-renders (e.g. when the language toggle re-renders the view).
+  if (!flashState || flashState.refId !== ref.id) {
+    flashState = { refId: ref.id, deck: shuffle(filterPool('all', { level: 'all', weeks: [], scope: 'all' })), idx: 0, flipped: false };
+  }
+  const { deck, idx } = flashState;
+
+  if (deck.length === 0) {
+    main.innerHTML = `
+      <div class="topic-header"><h2>${ref.title[lang]}</h2><p>${ref.desc[lang]}</p></div>
+      <div class="section"><div class="practice-start" style="text-align:left">
+        <p style="color:var(--mid)">${escapeHtml(t('flashEmpty'))}</p>
+      </div></div>`;
+    return;
+  }
+
+  const f = flashcardFaces(deck[idx]);
+  const hint = flashState.flipped ? t('flashShowFront') : t('flashTapReveal');
+  main.innerHTML = `
+    <div class="topic-header">
+      <h2>${ref.title[lang]}</h2>
+      <p>${t('flashProgress')(idx + 1, deck.length)}</p>
+    </div>
+    <div class="section">
+      <div class="flashcard-wrap">
+        <div class="flashcard ${flashState.flipped ? 'flipped' : ''}" id="flashcard" onclick="flipFlashcard()">
+          <div class="flashcard-face flashcard-front ${f.frontArabic ? 'flash-arabic' : ''}">${escapeHtml(f.front || '—')}</div>
+          <div class="flashcard-face flashcard-back ${f.backArabic ? 'flash-arabic' : ''}">${escapeHtml(f.back || '—')}</div>
+        </div>
+        <div class="flashcard-hint">${escapeHtml(hint)}</div>
+        <div class="flashcard-controls">
+          <button class="btn-secondary" onclick="prevFlashcard()" ${idx === 0 ? 'disabled' : ''}>${t('flashPrev')}</button>
+          <button class="btn-primary" onclick="flipFlashcard()">${t('flashFlip')}</button>
+          <button class="btn-secondary" onclick="nextFlashcard()" ${idx >= deck.length - 1 ? 'disabled' : ''}>${t('flashNext')}</button>
+          <button class="btn-secondary" onclick="shuffleFlashcards()">${t('flashShuffle')}</button>
+        </div>
+      </div>
+    </div>`;
+}
+
+function flipFlashcard() {
+  if (!flashState) return;
+  flashState.flipped = !flashState.flipped;
+  const el = document.getElementById('flashcard');
+  if (el) el.classList.toggle('flipped', flashState.flipped);
+  const hintEl = document.querySelector('.flashcard-hint');
+  if (hintEl) hintEl.textContent = flashState.flipped ? t('flashShowFront') : t('flashTapReveal');
+}
+
+function nextFlashcard() {
+  if (!flashState || flashState.idx >= flashState.deck.length - 1) return;
+  flashState.idx++; flashState.flipped = false;
+  renderFlashcards(currentView.ref);
+}
+
+function prevFlashcard() {
+  if (!flashState || flashState.idx === 0) return;
+  flashState.idx--; flashState.flipped = false;
+  renderFlashcards(currentView.ref);
+}
+
+function shuffleFlashcards() {
+  if (!flashState) return;
+  flashState.deck = shuffle(flashState.deck);
+  flashState.idx = 0; flashState.flipped = false;
+  renderFlashcards(currentView.ref);
 }
 
 // ─── Learn Deep ───────────────────────────────────────────────────────────────
