@@ -1207,6 +1207,7 @@ const I18N = {
     quizScopeSurah: 'Surah verbs only',
     quizPoolSize: words => `${words} unique words available`,
     flashProgress: (n, total) => `Card ${n} of ${total}`,
+    flashCount: 'Cards',
     flashTapReveal: 'Tap the card to reveal the meaning',
     flashShowFront: 'Tap to flip back',
     flashFlip: 'Flip',
@@ -1446,6 +1447,7 @@ const I18N = {
     quizScopeSurah: 'Sadece Sure fiilleri',
     quizPoolSize: words => `${words} benzersiz kelime mevcut`,
     flashProgress: (n, total) => `Kart ${n} / ${total}`,
+    flashCount: 'Kart',
     flashTapReveal: 'Anlamı görmek için karta dokun',
     flashShowFront: 'Geri çevirmek için dokun',
     flashFlip: 'Çevir',
@@ -1685,6 +1687,7 @@ const I18N = {
     quizScopeSurah: 'مفردات السور فقط',
     quizPoolSize: words => `${words} كلمة فريدة متوفرة`,
     flashProgress: (n, total) => `بطاقة ${n} من ${total}`,
+    flashCount: 'بطاقات',
     flashTapReveal: 'انقر البطاقة لكشف المعنى',
     flashShowFront: 'انقر للعودة',
     flashFlip: 'اقلب',
@@ -2968,6 +2971,13 @@ function flashcardFaces(e) {
   return { front: e.ar, frontArabic: true, back: meaning, backArabic: false };
 }
 
+// Build a fresh shuffled deck for the given source scope, limited to `count`
+// cards. Same vocabulary pool as the quiz (filterPool), full level/week range.
+function buildFlashDeck(scope, count) {
+  const pool = shuffle(filterPool(scope, { level: 'all', weeks: [], scope }));
+  return pool.slice(0, count);
+}
+
 function renderFlashcards(ref) {
   const main = document.getElementById('main');
 
@@ -2980,30 +2990,44 @@ function renderFlashcards(ref) {
     return;
   }
 
-  // Build a fresh shuffled deck when first opening the module; keep position
-  // across re-renders (e.g. when the language toggle re-renders the view).
+  // Initialise (or re-init when switching to this module). Default: All / 10.
+  // Position/scope/count persist across re-renders (e.g. language toggle).
   if (!flashState || flashState.refId !== ref.id) {
-    flashState = { refId: ref.id, deck: shuffle(filterPool('all', { level: 'all', weeks: [], scope: 'all' })), idx: 0, flipped: false };
+    flashState = { refId: ref.id, scope: 'all', count: 10, deck: buildFlashDeck('all', 10), idx: 0, flipped: false };
   }
   const { deck, idx } = flashState;
 
-  if (deck.length === 0) {
-    main.innerHTML = `
-      <div class="topic-header"><h2>${ref.title[lang]}</h2><p>${ref.desc[lang]}</p></div>
-      <div class="section"><div class="practice-start" style="text-align:left">
-        <p style="color:var(--mid)">${escapeHtml(t('flashEmpty'))}</p>
-      </div></div>`;
-    return;
-  }
+  // Source (scope) + count selectors, mirroring the Vocabulary Quiz pills.
+  const scopes = [
+    ['all', t('quizScopeAll')],
+    ['answerkeys', t('quizScopeAnswerKeys')],
+    ['surah', t('quizScopeSurah')],
+  ];
+  const scopePills = scopes.map(([id, label]) =>
+    `<button class="quiz-pill ${flashState.scope === id ? 'active' : ''}" onclick="setFlashScope('${id}')">${escapeHtml(label)}</button>`
+  ).join('');
+  const countPills = [5, 10, 20].map(n =>
+    `<button class="quiz-pill ${flashState.count === n ? 'active' : ''}" onclick="setFlashCount(${n})">${n}</button>`
+  ).join('');
+  const setupRow = `
+    <div class="quiz-options" style="margin-bottom:20px">
+      <div class="quiz-option-group">
+        <span class="quiz-option-label">${t('quizScope')}</span>
+        <div class="quiz-pills">${scopePills}</div>
+      </div>
+      <div class="quiz-option-group">
+        <span class="quiz-option-label">${t('flashCount')}</span>
+        <div class="quiz-pills">${countPills}</div>
+      </div>
+    </div>`;
 
-  const f = flashcardFaces(deck[idx]);
-  const hint = flashState.flipped ? t('flashShowFront') : t('flashTapReveal');
-  main.innerHTML = `
-    <div class="topic-header">
-      <h2>${ref.title[lang]}</h2>
-      <p>${t('flashProgress')(idx + 1, deck.length)}</p>
-    </div>
-    <div class="section">
+  let cardArea;
+  if (deck.length === 0) {
+    cardArea = `<div class="practice-start" style="text-align:left"><p style="color:var(--mid)">${escapeHtml(t('flashEmpty'))}</p></div>`;
+  } else {
+    const f = flashcardFaces(deck[idx]);
+    const hint = flashState.flipped ? t('flashShowFront') : t('flashTapReveal');
+    cardArea = `
       <div class="flashcard-wrap">
         <div class="flashcard ${flashState.flipped ? 'flipped' : ''}" id="flashcard" onclick="flipFlashcard()">
           <div class="flashcard-face flashcard-front ${f.frontArabic ? 'flash-arabic' : ''}">${escapeHtml(f.front || '—')}</div>
@@ -3016,8 +3040,34 @@ function renderFlashcards(ref) {
           <button class="btn-secondary" onclick="nextFlashcard()" ${idx >= deck.length - 1 ? 'disabled' : ''}>${t('flashNext')}</button>
           <button class="btn-secondary" onclick="shuffleFlashcards()">${t('flashShuffle')}</button>
         </div>
-      </div>
+      </div>`;
+  }
+
+  main.innerHTML = `
+    <div class="topic-header">
+      <h2>${ref.title[lang]}</h2>
+      <p>${deck.length ? t('flashProgress')(idx + 1, deck.length) : ref.desc[lang]}</p>
+    </div>
+    <div class="section">
+      ${setupRow}
+      ${cardArea}
     </div>`;
+}
+
+function setFlashScope(scope) {
+  if (!flashState) return;
+  flashState.scope = scope;
+  flashState.deck = buildFlashDeck(scope, flashState.count);
+  flashState.idx = 0; flashState.flipped = false;
+  renderFlashcards(currentView.ref);
+}
+
+function setFlashCount(n) {
+  if (!flashState) return;
+  flashState.count = n;
+  flashState.deck = buildFlashDeck(flashState.scope, n);
+  flashState.idx = 0; flashState.flipped = false;
+  renderFlashcards(currentView.ref);
 }
 
 function flipFlashcard() {
@@ -3043,7 +3093,8 @@ function prevFlashcard() {
 
 function shuffleFlashcards() {
   if (!flashState) return;
-  flashState.deck = shuffle(flashState.deck);
+  // Draw a fresh random sample of `count` cards from the current source.
+  flashState.deck = buildFlashDeck(flashState.scope, flashState.count);
   flashState.idx = 0; flashState.flipped = false;
   renderFlashcards(currentView.ref);
 }
