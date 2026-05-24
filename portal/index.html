@@ -2971,10 +2971,10 @@ function flashcardFaces(e) {
   return { front: e.ar, frontArabic: true, back: meaning, backArabic: false };
 }
 
-// Build a fresh shuffled deck for the given source scope, limited to `count`
-// cards. Same vocabulary pool as the quiz (filterPool), full level/week range.
-function buildFlashDeck(scope, count) {
-  const pool = shuffle(filterPool(scope, { level: 'all', weeks: [], scope }));
+// Build a fresh shuffled deck for the given source/level/week, limited to
+// `count` cards. Same access-gated vocabulary pool as the quiz (filterPool).
+function buildFlashDeck(scope, count, level, weeks) {
+  const pool = shuffle(filterPool(scope, { level, weeks, scope }));
   return pool.slice(0, count);
 }
 
@@ -2993,11 +2993,11 @@ function renderFlashcards(ref) {
   // Initialise (or re-init when switching to this module). Default: All / 10.
   // Position/scope/count persist across re-renders (e.g. language toggle).
   if (!flashState || flashState.refId !== ref.id) {
-    flashState = { refId: ref.id, scope: 'all', count: 10, deck: buildFlashDeck('all', 10), idx: 0, flipped: false };
+    flashState = { refId: ref.id, scope: 'all', count: 10, level: 'all', weeks: [], deck: buildFlashDeck('all', 10, 'all', []), idx: 0, flipped: false };
   }
   const { deck, idx } = flashState;
 
-  // Source (scope) + count selectors, mirroring the Vocabulary Quiz pills.
+  // Source / level / week / count selectors, mirroring the Vocabulary Quiz.
   const scopes = [
     ['all', t('quizScopeAll')],
     ['answerkeys', t('quizScopeAnswerKeys')],
@@ -3009,11 +3009,47 @@ function renderFlashcards(ref) {
   const countPills = [5, 10, 20].map(n =>
     `<button class="quiz-pill ${flashState.count === n ? 'active' : ''}" onclick="setFlashCount(${n})">${n}</button>`
   ).join('');
+
+  // Level pills: only levels the user has unlocked (admin-panel access).
+  const allowedLevels = userUnlockedLevelSet();
+  const levelOptions = [{ id: 'all', label: t('quizAll') }].concat(
+    [1, 2, 3].filter(L => allowedLevels.has(L)).map(L => ({ id: L, label: String(L) }))
+  );
+  const levelPills = levelOptions.map(it =>
+    `<button class="quiz-pill ${flashState.level === it.id ? 'active' : ''}" onclick="setFlashLevel(${typeof it.id === 'string' ? `'${it.id}'` : it.id})">${escapeHtml(it.label)}</button>`
+  ).join('');
+
+  // Week pills: only weeks unlocked for the chosen level.
+  const selectedWeeks = Array.isArray(flashState.weeks) ? flashState.weeks : [];
+  let weekPills;
+  if (flashState.level === 'all') {
+    weekPills = `<span style="font-size:0.78rem;color:var(--muted);font-style:italic">${t('quizPickLevelFirst')}</span>`;
+  } else {
+    const allowedWeeks = [...userUnlockedWeeksOfLevel(flashState.level)].sort((a, b) => a - b);
+    if (allowedWeeks.length === 0) {
+      weekPills = `<span style="font-size:0.78rem;color:var(--muted);font-style:italic">—</span>`;
+    } else {
+      weekPills =
+        `<button class="quiz-pill ${selectedWeeks.length === 0 ? 'active' : ''}" onclick="clearFlashWeeks()">${escapeHtml(t('quizAll'))}</button>` +
+        allowedWeeks.map(w =>
+          `<button class="quiz-pill ${selectedWeeks.includes(w) ? 'active' : ''}" onclick="toggleFlashWeek(${w})">${w}</button>`
+        ).join('');
+    }
+  }
+
   const setupRow = `
     <div class="quiz-options" style="margin-bottom:20px">
       <div class="quiz-option-group">
         <span class="quiz-option-label">${t('quizScope')}</span>
         <div class="quiz-pills">${scopePills}</div>
+      </div>
+      <div class="quiz-option-group">
+        <span class="quiz-option-label">${t('quizLevel')}</span>
+        <div class="quiz-pills">${levelPills}</div>
+      </div>
+      <div class="quiz-option-group">
+        <span class="quiz-option-label">${t('quizWeek')}</span>
+        <div class="quiz-pills">${weekPills}</div>
       </div>
       <div class="quiz-option-group">
         <span class="quiz-option-label">${t('flashCount')}</span>
@@ -3054,20 +3090,44 @@ function renderFlashcards(ref) {
     </div>`;
 }
 
+function rebuildFlashDeck() {
+  flashState.deck = buildFlashDeck(flashState.scope, flashState.count, flashState.level, flashState.weeks);
+  flashState.idx = 0; flashState.flipped = false;
+  renderFlashcards(currentView.ref);
+}
+
 function setFlashScope(scope) {
   if (!flashState) return;
   flashState.scope = scope;
-  flashState.deck = buildFlashDeck(scope, flashState.count);
-  flashState.idx = 0; flashState.flipped = false;
-  renderFlashcards(currentView.ref);
+  rebuildFlashDeck();
 }
 
 function setFlashCount(n) {
   if (!flashState) return;
   flashState.count = n;
-  flashState.deck = buildFlashDeck(flashState.scope, n);
-  flashState.idx = 0; flashState.flipped = false;
-  renderFlashcards(currentView.ref);
+  rebuildFlashDeck();
+}
+
+function setFlashLevel(level) {
+  if (!flashState) return;
+  flashState.level = level;
+  flashState.weeks = [];   // reset week scope when the level changes
+  rebuildFlashDeck();
+}
+
+function toggleFlashWeek(w) {
+  if (!flashState) return;
+  const arr = Array.isArray(flashState.weeks) ? flashState.weeks.slice() : [];
+  const i = arr.indexOf(w);
+  if (i >= 0) arr.splice(i, 1); else arr.push(w);
+  flashState.weeks = arr.sort((a, b) => a - b);
+  rebuildFlashDeck();
+}
+
+function clearFlashWeeks() {
+  if (!flashState) return;
+  flashState.weeks = [];
+  rebuildFlashDeck();
 }
 
 function flipFlashcard() {
@@ -3093,10 +3153,8 @@ function prevFlashcard() {
 
 function shuffleFlashcards() {
   if (!flashState) return;
-  // Draw a fresh random sample of `count` cards from the current source.
-  flashState.deck = buildFlashDeck(flashState.scope, flashState.count);
-  flashState.idx = 0; flashState.flipped = false;
-  renderFlashcards(currentView.ref);
+  // Draw a fresh random sample from the current source/level/week selection.
+  rebuildFlashDeck();
 }
 
 // ─── Learn Deep ───────────────────────────────────────────────────────────────
