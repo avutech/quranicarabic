@@ -1179,7 +1179,7 @@ const I18N = {
     materials: 'Study Materials',
     lecture: 'Lesson',
     practice: 'Practice Questions',
-    practiceDesc: n => `Test your understanding with ${n} practice questions. Claude will review your answers and explain any grammatical points.`,
+    practiceDesc: n => `Test your understanding with ${n} practice questions. The AI will review your answers and explain any grammatical points.`,
     startPractice: 'Start Practice',
     question: 'Question',
     of: 'of',
@@ -1422,7 +1422,7 @@ const I18N = {
     materials: 'Çalışma Materyalleri',
     lecture: 'Ders Anlatımı',
     practice: 'Alıştırma Soruları',
-    practiceDesc: n => `${n} alıştırma sorusuyla anlayışınızı test edin. Claude cevaplarınızı değerlendirecek ve gramer noktalarını açıklayacak.`,
+    practiceDesc: n => `${n} alıştırma sorusuyla anlayışınızı test edin. Yapay zekâ cevaplarınızı değerlendirecek ve gramer noktalarını açıklayacak.`,
     startPractice: 'Alıştırmayı Başlat',
     question: 'Soru',
     of: '/',
@@ -1665,7 +1665,7 @@ const I18N = {
     materials: 'المواد الدراسية',
     lecture: 'الشرح',
     practice: 'أسئلة التدريب',
-    practiceDesc: n => `اختبر فهمك بـ ${n} أسئلة تدريبية. سيراجع كلود إجاباتك ويشرح النقاط النحوية.`,
+    practiceDesc: n => `اختبر فهمك بـ ${n} أسئلة تدريبية. سيراجع الذكاء الاصطناعي إجاباتك ويشرح النقاط النحوية.`,
     startPractice: 'ابدأ التدريب',
     question: 'سؤال',
     of: 'من',
@@ -3553,7 +3553,6 @@ function renderUploadFormHTML(level, week) {
         <label style="font-size:0.8rem;color:var(--muted);font-weight:600;margin-right:8px;">${t('cmgrExtractModel') || 'Extract with'}</label>
         <select id="cmgr-model" class="icmp-model-select">
           <option value="gemini" selected>Gemini ${t('cmgrModelDefault') || '(default)'}</option>
-          <option value="claude">Claude</option>
           <option value="openai">ChatGPT ${t('cmgrModelImagesOnly') || '(images only)'}</option>
         </select>
       </div>
@@ -4192,7 +4191,7 @@ function scOverallBadge(scores) {
 
 // ─── I'rab AI Compare (multi-model side-by-side) ──────────────────────────────
 
-let icmpState = { surah: '', ayah: '', verse: '', models: ['gemini', 'claude', 'openai'],
+let icmpState = { surah: '', ayah: '', verse: '', models: ['gemini', 'openai'],
                   geminiModel: 'gemini-2.5-flash-lite' };
 let icmpLastResult = null;
 
@@ -4250,7 +4249,6 @@ function renderIrabCompare(ref) {
           <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
             <span style="font-size:0.78rem; font-weight:700; color:var(--muted); text-transform:uppercase; letter-spacing:0.06em;">${t('icmpModels') || 'Models'}</span>
             <label class="icmp-pill"><input type="checkbox" id="icmp-model-gemini" ${icmpState.models.includes('gemini') ? 'checked' : ''}><span>Gemini</span></label>
-            <label class="icmp-pill"><input type="checkbox" id="icmp-model-claude" ${icmpState.models.includes('claude') ? 'checked' : ''}><span>Claude</span></label>
             <label class="icmp-pill"><input type="checkbox" id="icmp-model-openai" ${icmpState.models.includes('openai') ? 'checked' : ''}><span>ChatGPT</span></label>
           </div>`}
           <span class="spacer"></span>
@@ -4426,7 +4424,6 @@ async function icmpRun() {
   } else {
     models = [];
     if (document.getElementById('icmp-model-gemini').checked) models.push('gemini');
-    if (document.getElementById('icmp-model-claude').checked) models.push('claude');
     if (document.getElementById('icmp-model-openai').checked) models.push('openai');
     if (!models.length) { alert(t('icmpPickAtLeastOne') || 'Pick at least one model'); return; }
   }

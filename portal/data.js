@@ -889,9 +889,9 @@ const REFERENCE_TOPICS = [
     group: 'power',
     title: { en: 'I\'rab AI Compare', tr: 'İ\'rab Yapay Zekâ Karşılaştırma', ar: 'مقارنة الإعراب بالذكاء الاصطناعي' },
     desc: {
-      en: 'Run the same verse through Gemini and Claude (and ChatGPT later) side-by-side. See where the models agree and where they differ — useful for cross-checking grammatical analysis.',
-      tr: 'Aynı ayeti Gemini ve Claude (ileride ChatGPT de) ile yan yana analiz et. Modellerin nerede aynı, nerede farklı sonuç verdiğini gör — gramer analizini çapraz kontrol için kullanışlı.',
-      ar: 'حلّل نفس الآية بمحركَي Gemini و Claude (و ChatGPT لاحقاً) جنباً إلى جنب. شاهد أين تتفق النماذج وأين تختلف — مفيد للتحقق المتقاطع للتحليل النحوي.'
+      en: 'Run the same verse through Gemini and ChatGPT side-by-side. See where the models agree and where they differ — useful for cross-checking grammatical analysis.',
+      tr: 'Aynı ayeti Gemini ve ChatGPT ile yan yana analiz et. Modellerin nerede aynı, nerede farklı sonuç verdiğini gör — gramer analizini çapraz kontrol için kullanışlı.',
+      ar: 'حلّل نفس الآية بمحركَي Gemini و ChatGPT جنباً إلى جنب. شاهد أين تتفق النماذج وأين تختلف — مفيد للتحقق المتقاطع للتحليل النحوي.'
     },
     pdfs: []
   },

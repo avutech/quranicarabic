@@ -2174,7 +2174,7 @@ def irab_compare():
     data = request.get_json() or {}
     verse = (data.get("verse") or "").strip()
     language = data.get("language", "en")
-    models = data.get("models") or ["gemini", "claude"]
+    models = data.get("models") or ["gemini"]
     grounded = bool(data.get("grounded"))
     gemini_model = data.get("gemini_model")   # user-picked model for the grounded module
     if not verse:
@@ -2185,11 +2185,10 @@ def irab_compare():
     plain_prompt = _make_irab_prompt(verse, language) + _lang_trailer(language)
 
     if grounded:
-        claude_prompt = _grounding_preamble(CURRICULUM_FULL, language) + plain_prompt
         openai_prompt = _grounding_preamble(CURRICULUM_COMPACT, language) + plain_prompt
+        # Claude disabled system-wide — Gemini is the replacement engine.
         runners = {
             "gemini": lambda: _run_irab_gemini_cached(verse, language, gemini_model),
-            "claude": lambda: _audit_grounding(_run_irab_claude(claude_prompt)),
             # gpt-4o-mini: high tier-1 rate limits + 128k window — handles the
             # curriculum-injected prompt that gpt-4o's per-request cap rejects.
             "openai": lambda: _audit_grounding(_run_irab_openai(openai_prompt, model="gpt-4o-mini")),
@@ -2197,10 +2196,9 @@ def irab_compare():
     else:
         runners = {
             "gemini": lambda: _run_irab_gemini(plain_prompt),
-            "claude": lambda: _run_irab_claude(plain_prompt),
             "openai": lambda: _run_irab_openai(plain_prompt),
         }
-    selected = [m for m in models if m in runners] or ["gemini", "claude"]
+    selected = [m for m in models if m in runners] or ["gemini"]
 
     import concurrent.futures
     with concurrent.futures.ThreadPoolExecutor(max_workers=max(len(selected), 1)) as ex:
@@ -2295,7 +2293,7 @@ LECTURE RULES:
 Return ONLY the JSON object — no prose around it, no markdown fences.
 """
 
-EXTRACT_MODELS = ("gemini", "claude", "openai")
+EXTRACT_MODELS = ("gemini", "openai")   # Claude disabled system-wide
 
 
 def _parse_extract_json(raw):
@@ -2403,7 +2401,7 @@ def _extract_with_openai(rel_path, mime, kind):
     """ChatGPT (gpt-4o) vision. Images only — OpenAI's API can't read PDFs here."""
     if kind != "image":
         if kind == "pdf":
-            print("[extract] ChatGPT can't read PDFs — pick Gemini or Claude for PDF resources.", file=sys.stderr)
+            print("[extract] ChatGPT can't read PDFs — pick Gemini for PDF resources.", file=sys.stderr)
         return None
     api_key = os.environ.get("OPENAI_API_KEY")
     if not api_key:
@@ -2425,7 +2423,7 @@ def _extract_with_openai(rel_path, mime, kind):
     return _parse_extract_json((resp.choices[0].message.content or "").strip())
 
 
-_EXTRACTORS = {"gemini": _extract_with_gemini, "claude": _extract_with_claude, "openai": _extract_with_openai}
+_EXTRACTORS = {"gemini": _extract_with_gemini, "openai": _extract_with_openai}   # Claude disabled
 
 
 def _extract_resource(rel_path, mime, kind, model="gemini"):
