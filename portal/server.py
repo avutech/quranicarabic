@@ -1579,6 +1579,9 @@ def create_resource_endpoint():
             return jsonify({"error": "kind must be pdf, image, or audio for file uploads"}), 400
         if not user_db.is_valid_lesson(level, week):
             return jsonify({"error": "invalid level/week"}), 400
+        extract_model = (request.form.get("model") or "gemini").strip().lower()
+        if extract_model not in EXTRACT_MODELS:
+            extract_model = "gemini"
 
         f = request.files.get("file")
         if not f or not f.filename:
@@ -1616,7 +1619,7 @@ def create_resource_endpoint():
                          ("pending" if kind in ("pdf", "image") else "skip", rid))
         if kind in ("pdf", "image"):
             import threading
-            threading.Thread(target=_extract_and_store, args=(rid, rel_path, mime, kind), daemon=True).start()
+            threading.Thread(target=_extract_and_store, args=(rid, rel_path, mime, kind, extract_model), daemon=True).start()
         return jsonify({"id": rid, "file_path": rel_path}), 201
 
     # JSON path: link or note
@@ -1678,13 +1681,17 @@ def reextract_resource_endpoint(rid):
         return jsonify({"error": "only pdf/image resources can be re-extracted"}), 400
     if not row["file_path"]:
         return jsonify({"error": "missing file_path"}), 400
+    data = request.get_json(silent=True) or {}
+    extract_model = (data.get("model") or "gemini").strip().lower()
+    if extract_model not in EXTRACT_MODELS:
+        extract_model = "gemini"
     # Mark pending immediately + kick off background extraction
     with user_db.db() as conn:
         conn.execute("UPDATE resources SET extraction_status = ? WHERE id = ?", ("pending", rid))
     import threading
     threading.Thread(
         target=_extract_and_store,
-        args=(rid, row["file_path"], row["mime"], row["kind"]),
+        args=(rid, row["file_path"], row["mime"], row["kind"], extract_model),
         daemon=True,
     ).start()
     return jsonify({"ok": True})
@@ -2167,7 +2174,7 @@ def irab_compare():
     data = request.get_json() or {}
     verse = (data.get("verse") or "").strip()
     language = data.get("language", "en")
-    models = data.get("models") or ["gemini", "claude"]
+    models = data.get("models") or ["gemini"]
     grounded = bool(data.get("grounded"))
     gemini_model = data.get("gemini_model")   # user-picked model for the grounded module
     if not verse:
@@ -2178,11 +2185,10 @@ def irab_compare():
     plain_prompt = _make_irab_prompt(verse, language) + _lang_trailer(language)
 
     if grounded:
-        claude_prompt = _grounding_preamble(CURRICULUM_FULL, language) + plain_prompt
         openai_prompt = _grounding_preamble(CURRICULUM_COMPACT, language) + plain_prompt
+        # Claude disabled system-wide — Gemini is the replacement engine.
         runners = {
             "gemini": lambda: _run_irab_gemini_cached(verse, language, gemini_model),
-            "claude": lambda: _audit_grounding(_run_irab_claude(claude_prompt)),
             # gpt-4o-mini: high tier-1 rate limits + 128k window — handles the
             # curriculum-injected prompt that gpt-4o's per-request cap rejects.
             "openai": lambda: _audit_grounding(_run_irab_openai(openai_prompt, model="gpt-4o-mini")),
@@ -2190,10 +2196,9 @@ def irab_compare():
     else:
         runners = {
             "gemini": lambda: _run_irab_gemini(plain_prompt),
-            "claude": lambda: _run_irab_claude(plain_prompt),
             "openai": lambda: _run_irab_openai(plain_prompt),
         }
-    selected = [m for m in models if m in runners] or ["gemini", "claude"]
+    selected = [m for m in models if m in runners] or ["gemini"]
 
     import concurrent.futures
     with concurrent.futures.ThreadPoolExecutor(max_workers=max(len(selected), 1)) as ex:
@@ -2229,15 +2234,15 @@ _CLAUDE_MAX_PDF_BYTES = 32 * 1024 * 1024
 _CLAUDE_MAX_IMG_BYTES = 5 * 1024 * 1024
 
 
-def _extract_and_store(resource_id: int, rel_path: str, mime: str, kind: str) -> None:
-    """Background extractor: Claude reads the file, returns (a) plain text for
-    Deep-Learn context injection and (b) a structured multilingual lecture for
-    inline rendering on the lesson page. Both are stored on the row."""
+def _extract_and_store(resource_id: int, rel_path: str, mime: str, kind: str, model: str = "gemini") -> None:
+    """Background extractor: the admin-selected model reads the file, returns
+    (a) plain text for Deep-Learn context injection and (b) a structured
+    multilingual lecture for inline rendering. Both are stored on the row."""
     status = "failed"
     text = None
     lecture_json = None
     try:
-        result = _extract_with_claude(rel_path, mime, kind)
+        result = _extract_resource(rel_path, mime, kind, model)
         if result:
             text = result.get("text")
             lecture = result.get("lecture")
@@ -2256,42 +2261,8 @@ def _extract_and_store(resource_id: int, rel_path: str, mime: str, kind: str) ->
         print(f"[extract] db update failed for {resource_id}: {e}", file=sys.stderr)
 
 
-def _extract_with_claude(rel_path: str, mime: str, kind: str):
-    """Run Claude vision on a PDF or image and produce TWO outputs:
-      - "text": raw transcription (for Deep-Learn prompt injection)
-      - "lecture": structured multilingual lecture matching the lectures.json
-        schema (so the lesson page can render it identically to built-in lessons)
-    Returns {"text": ..., "lecture": {...}} or None on failure."""
-    if kind not in ("pdf", "image"):
-        return None
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
-    if not api_key:
-        return None
-    full = UPLOADS_DIR / rel_path
-    if not full.exists():
-        return None
-    size = full.stat().st_size
-    if kind == "pdf" and size > _CLAUDE_MAX_PDF_BYTES:
-        print(f"[extract] PDF too big ({size} bytes) — skipping", file=sys.stderr)
-        return None
-    if kind == "image" and size > _CLAUDE_MAX_IMG_BYTES:
-        print(f"[extract] image too big ({size} bytes) — skipping", file=sys.stderr)
-        return None
-
-    import base64
-    import anthropic
-
-    with open(full, "rb") as f:
-        b64 = base64.b64encode(f.read()).decode()
-
-    content_block = (
-        {"type": "document", "source": {"type": "base64",
-                                          "media_type": "application/pdf", "data": b64}}
-        if kind == "pdf"
-        else {"type": "image", "source": {"type": "base64", "media_type": mime, "data": b64}}
-    )
-
-    instruction = """Read this Quranic-Arabic study material and produce a single JSON object with TWO keys:
+# Shared extractor instruction — used by every provider so output is identical.
+_EXTRACT_INSTRUCTION = """Read this Quranic-Arabic study material and produce a single JSON object with TWO keys:
 
 1. "text" — full plain-text transcription. Preserve all Arabic, English, Turkish text. Include headings, lists, tables. Do NOT summarize — transcribe everything you can read.
 
@@ -2322,23 +2293,23 @@ LECTURE RULES:
 Return ONLY the JSON object — no prose around it, no markdown fences.
 """
 
-    client = anthropic.Anthropic(api_key=api_key)
-    msg = client.messages.create(
-        model="claude-sonnet-4-6",
-        max_tokens=16000,
-        messages=[{"role": "user", "content": [content_block, {"type": "text", "text": instruction}]}],
-    )
-    raw = "".join(b.text for b in msg.content if hasattr(b, "text")).strip()
+EXTRACT_MODELS = ("gemini", "openai")   # Claude disabled system-wide
+
+
+def _parse_extract_json(raw):
+    """Parse an extractor's JSON output ({text, lecture}), tolerating code
+    fences and surrounding prose. Returns {"text":…, "lecture":…} or None."""
     if not raw:
         return None
-    # Strip code fences if present
     if raw.startswith("```"):
-        raw = raw.strip("`").lstrip("json").strip()
+        raw = raw.strip("`")
+        if raw.lstrip().lower().startswith("json"):
+            raw = raw.lstrip()[4:]
+        raw = raw.strip()
     try:
         parsed = json.loads(raw)
     except json.JSONDecodeError:
-        # Salvage: locate outer { ... }
-        s = raw.find("{"); e = raw.rfind("}")
+        s, e = raw.find("{"), raw.rfind("}")
         if s >= 0 and e > s:
             try:
                 parsed = json.loads(raw[s:e + 1])
@@ -2350,6 +2321,115 @@ Return ONLY the JSON object — no prose around it, no markdown fences.
         "text": parsed.get("text") or None,
         "lecture": parsed.get("lecture") if isinstance(parsed.get("lecture"), dict) else None,
     }
+
+
+def _read_upload_b64(rel_path, kind):
+    """Read an uploaded file as base64, enforcing the per-kind size caps.
+    Returns the base64 string, or None if missing/oversized."""
+    full = UPLOADS_DIR / rel_path
+    if not full.exists():
+        return None
+    size = full.stat().st_size
+    if kind == "pdf" and size > _CLAUDE_MAX_PDF_BYTES:
+        print(f"[extract] PDF too big ({size} bytes) — skipping", file=sys.stderr)
+        return None
+    if kind == "image" and size > _CLAUDE_MAX_IMG_BYTES:
+        print(f"[extract] image too big ({size} bytes) — skipping", file=sys.stderr)
+        return None
+    import base64
+    with open(full, "rb") as f:
+        return base64.b64encode(f.read()).decode()
+
+
+def _extract_with_claude(rel_path, mime, kind):
+    """Claude Sonnet vision: transcription + structured lecture. PDF + image."""
+    if kind not in ("pdf", "image"):
+        return None
+    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    if not api_key:
+        return None
+    b64 = _read_upload_b64(rel_path, kind)
+    if not b64:
+        return None
+    import anthropic
+    content_block = (
+        {"type": "document", "source": {"type": "base64", "media_type": "application/pdf", "data": b64}}
+        if kind == "pdf"
+        else {"type": "image", "source": {"type": "base64", "media_type": mime, "data": b64}}
+    )
+    client = anthropic.Anthropic(api_key=api_key)
+    msg = client.messages.create(
+        model="claude-sonnet-4-6",
+        max_tokens=16000,
+        messages=[{"role": "user", "content": [content_block, {"type": "text", "text": _EXTRACT_INSTRUCTION}]}],
+    )
+    raw = "".join(b.text for b in msg.content if hasattr(b, "text")).strip()
+    return _parse_extract_json(raw)
+
+
+def _extract_with_gemini(rel_path, mime, kind):
+    """Gemini vision: transcription + structured lecture. PDF + image."""
+    if kind not in ("pdf", "image"):
+        return None
+    api_key = os.environ.get("GEMINI_API_KEY")
+    if not api_key:
+        return None
+    full = UPLOADS_DIR / rel_path
+    if not full.exists():
+        return None
+    size = full.stat().st_size
+    if kind == "pdf" and size > _CLAUDE_MAX_PDF_BYTES:
+        return None
+    if kind == "image" and size > _CLAUDE_MAX_IMG_BYTES:
+        return None
+    with open(full, "rb") as f:
+        raw_bytes = f.read()
+    part = genai_types.Part.from_bytes(
+        data=raw_bytes, mime_type=("application/pdf" if kind == "pdf" else mime)
+    )
+    client = genai.Client(api_key=api_key)
+    resp = gemini_generate(
+        client,
+        model="gemini-2.5-flash",
+        contents=[part, _EXTRACT_INSTRUCTION],
+        config=genai_types.GenerateContentConfig(response_mime_type="application/json", max_output_tokens=16000),
+    )
+    return _parse_extract_json((resp.text or "").strip())
+
+
+def _extract_with_openai(rel_path, mime, kind):
+    """ChatGPT (gpt-4o) vision. Images only — OpenAI's API can't read PDFs here."""
+    if kind != "image":
+        if kind == "pdf":
+            print("[extract] ChatGPT can't read PDFs — pick Gemini for PDF resources.", file=sys.stderr)
+        return None
+    api_key = os.environ.get("OPENAI_API_KEY")
+    if not api_key:
+        return None
+    b64 = _read_upload_b64(rel_path, kind)
+    if not b64:
+        return None
+    import openai
+    client = openai.OpenAI(api_key=api_key)
+    resp = client.chat.completions.create(
+        model=OPENAI_MODEL,
+        max_tokens=16000,
+        response_format={"type": "json_object"},
+        messages=[{"role": "user", "content": [
+            {"type": "text", "text": _EXTRACT_INSTRUCTION},
+            {"type": "image_url", "image_url": {"url": f"data:{mime};base64,{b64}"}},
+        ]}],
+    )
+    return _parse_extract_json((resp.choices[0].message.content or "").strip())
+
+
+_EXTRACTORS = {"gemini": _extract_with_gemini, "openai": _extract_with_openai}   # Claude disabled
+
+
+def _extract_resource(rel_path, mime, kind, model="gemini"):
+    """Run the admin-selected vision model over an uploaded PDF/image and return
+    {"text":…, "lecture":…} or None. Defaults to Gemini (cheapest, highest limits)."""
+    return _EXTRACTORS.get(model, _extract_with_gemini)(rel_path, mime, kind)
 
 
 def _lesson_instructor_context(level: int, week: int) -> str:
