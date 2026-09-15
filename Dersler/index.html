@@ -9,17 +9,66 @@
 <meta name="description" content="Tashîh-i Hurûf ders notları ve sunumları — 26 haftalık müfredat; kaynakları gösterilmiş tecvîd dersleri.">
 <link rel="stylesheet" href="assets/style.css">
 </head>
-<body>
+<body class="with-nav">
+
+<!-- NAV:BAŞ — sol ders menüsü (tüm ders sayfalarında aynıdır) -->
+<a class="nav-skip" href="#icerik">İçeriğe geç</a>
+<aside class="sidenav" id="sidenav" aria-label="Ders menüsü">
+  <div class="sidenav-head">
+    <a class="brand" href="index.html">Tashîh-i Hurûf<span>Ders notları ve sunumları</span></a>
+    <button class="nav-close" type="button" data-act="nav-close" aria-label="Menüyü kapat">×</button>
+  </div>
+  <nav class="sidenav-body">
+    <ul>
+      <li><a href="index.html" class="active" aria-current="page"><span class="n">⌂</span><span class="t">Ana Sayfa — Müfredat</span></a></li>
+    </ul>
+    <p class="nav-title">1. Seviye</p>
+    <ul>
+      <li><a href="s1-ders-01.html"><span class="n">1</span><span class="t">Harflerin Tanıtımı ve Lahn</span></a></li>
+      <li><a href="s1-ders-02.html"><span class="n">2</span><span class="t">İstiâze, Besmele, Zamîr ve Lafzatullah</span></a></li>
+      <li><a href="s1-ders-03.html"><span class="n">3</span><span class="t">Medlerin Taksimi</span></a></li>
+      <li><a href="s1-ders-04.html"><span class="n">4</span><span class="t">Med Sebepleri: Lâzım, Ârız, Lîn</span></a></li>
+      <li><a href="s1-ders-05.html"><span class="n">5</span><span class="t">Tenvin ve Sâkin Nûn</span></a></li>
+      <li><a href="s1-ders-06.html"><span class="n">6</span><span class="t">Sâkin Mîm ve İdgâm</span></a></li>
+      <li><a href="s1-ders-07.html"><span class="n">7</span><span class="t">Hükmü’r-Râ</span></a></li>
+      <li><a href="s1-ders-08.html"><span class="n">8</span><span class="t">Vakf, İbtidâ, Secâvend</span></a></li>
+      <li><a href="s1-ders-09.html"><span class="n">9</span><span class="t">Sekte ve Hâ-i Sekt</span></a></li>
+      <li><a href="s1-ders-10.html"><span class="n">10</span><span class="t">Hız Bakımından Okuyuş Şekilleri</span></a></li>
+      <li><a href="s1-ders-11.html"><span class="n">11</span><span class="t">Uygulama I: Kısa Sûreler</span></a></li>
+      <li><a href="s1-ders-12.html"><span class="n">12</span><span class="t">Uygulama II: Kısa Sûreler</span></a></li>
+      <li><a href="s1-ders-13.html"><span class="n">13</span><span class="t">Genel Tekrar ve Değerlendirme</span></a></li>
+    </ul>
+    <p class="nav-title">2. Seviye</p>
+    <ul>
+      <li><a href="s2-ders-01.html"><span class="n">1</span><span class="t">Sıfatlar: Genel Bilgi ve Taksim</span></a></li>
+      <li><a href="s2-ders-02.html"><span class="n">2</span><span class="t">İsti‘lâ ve İstifâle</span></a></li>
+      <li><a href="s2-ders-03.html"><span class="n">3</span><span class="t">Cehr ve Hems</span></a></li>
+      <li><a href="s2-ders-04.html"><span class="n">4</span><span class="t">Şiddet, Rihvet, Beyniyye</span></a></li>
+      <li><a href="s2-ders-05.html"><span class="n">5</span><span class="t">Itbâk ve İnfitâh</span></a></li>
+      <li><a href="s2-ders-06.html"><span class="n">6</span><span class="t">Zıtsız Sıfatlar I: Kalkale, Safîr, İstitâle</span></a></li>
+      <li><a href="s2-ders-07.html"><span class="n">7</span><span class="t">Zıtsız Sıfatlar II: Tekrîr, Tefeşşî, Gunne, Lîn</span></a></li>
+      <li><a href="s2-ders-08.html"><span class="n">8</span><span class="t">Harf Talimi I: İsti‘lâ / İstifâle</span></a></li>
+      <li><a href="s2-ders-09.html"><span class="n">9</span><span class="t">Harf Talimi II: Hems / Cehr</span></a></li>
+      <li><a href="s2-ders-10.html"><span class="n">10</span><span class="t">Harf Talimi III: Itbâk, İnfitâh, Kalkale</span></a></li>
+      <li><a href="s2-ders-11.html"><span class="n">11</span><span class="t">Harf Talimi IV: Şiddet, Rihvet, Beyniyye</span></a></li>
+      <li><a href="s2-ders-12.html"><span class="n">12</span><span class="t">Zıtsız Sıfatların Toplu Uygulaması</span></a></li>
+      <li><a href="s2-ders-13.html"><span class="n">13</span><span class="t">Genel Uygulama ve Sıfât Tablosu</span></a></li>
+    </ul>
+  </nav>
+</aside>
+<div class="nav-scrim" data-act="nav-close" hidden></div>
+<!-- NAV:SON -->
 
 <div class="progress"></div>
 
 <header class="topbar">
+  <button class="btn nav-toggle" type="button" data-act="nav" aria-controls="sidenav" aria-expanded="false" aria-label="Ders menüsü"><span></span><span></span><span></span></button>
   <span class="crumb"><b>Tashîh-i Hurûf Dersleri</b> · 1. ve 2. Seviye · 26 Hafta</span>
   <button class="btn" data-act="theme">Tema</button>
   <button class="btn" data-act="print">Yazdır</button>
 </header>
 
-<main class="wrap">
+<main class="wrap" id="icerik">
 
   <section class="hero">
     <div class="eyebrow">Ders Müfredatı · 1. ve 2. Seviye</div>
@@ -42,8 +91,9 @@
     <p style="margin-bottom:.6rem">Her ders sayfası iki modda çalışır:</p>
     <ul style="margin-bottom:.8rem">
       <li><strong>Belge modu</strong> (açılış modu) — baştan sona okunan, yazdırılabilen ders notu.</li>
-      <li><strong>Sol menü</strong> — her ders sayfasının solunda 26 dersin tamamı listelidir; ana sayfaya
-          dönmeden doğrudan başka bir derse geçebilirsiniz. Dar ekranda sol üstteki <span aria-hidden="true">☰</span>
+      <li><strong>Sol menü</strong> — bu sayfa dâhil her sayfanın solunda 26 dersin tamamı ve
+          <em>Ana Sayfa</em> listelidir; aradan ana sayfaya dönmeden doğrudan başka bir derse
+          geçebilirsiniz. Dar ekranda sol üstteki <span aria-hidden="true">☰</span>
           düğmesi veya <kbd>M</kbd> tuşu menüyü açar.</li>
       <li><strong>Sunum modu</strong> — sağ üstteki <em>Sunum modu</em> düğmesi veya <kbd>P</kbd> tuşu.
           Slaytlar arasında <kbd>→</kbd> / <kbd>←</kbd> ok tuşları veya <kbd>Boşluk</kbd> ile gezinilir.
