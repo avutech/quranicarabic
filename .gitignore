@@ -23,3 +23,8 @@ portal/users.db-*
 uploads/
 portal/uploads/
 portal/curriculum_cache.json
+
+# Source scans for the Tashîh-i Hurûf reference books. The four cited books
+# are committed under Dersler/kitaplar/ with clean ASCII names; this folder is
+# the local original (incl. a 99MB duplicate scan) and stays out of git.
+Books/

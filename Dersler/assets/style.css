@@ -470,6 +470,13 @@ body.with-nav { padding-inline-start: var(--nav-w); }
   font-size: .7rem; font-weight: 700; font-variant-numeric: tabular-nums;
   color: var(--muted); text-align: end;
 }
+/* kaynak kitap girdilerinde künye satırı */
+.sidenav-body a .t small {
+  display: block; margin-top: .1rem;
+  font-size: .68rem; font-weight: 400; color: var(--muted);
+}
+.sidenav-body a:hover .t small { color: inherit; }
+
 .sidenav-body a:hover { background: var(--accent-bg); color: var(--ink); }
 .sidenav-body a:hover .n { color: var(--accent); }
 .sidenav-body a.active {
