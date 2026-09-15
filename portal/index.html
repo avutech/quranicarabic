@@ -5215,10 +5215,14 @@ function isLessonUnlocked(level, lesson) {
 function renderLoginScreen(errorMsg) {
   const fbCredit = (I18N[lang] || I18N.en).footerCredit || '';
   const labels = {
-    tr: { title: 'Giriş Yap', email: 'E-posta', password: 'Şifre', submit: 'Giriş Yap', err: 'Geçersiz e-posta veya şifre.', tashih: 'Tashîh-i Hurûf Dersleri — giriş gerekmez' },
-    en: { title: 'Sign In',   email: 'Email',   password: 'Password', submit: 'Sign In',  err: 'Invalid email or password.', tashih: 'Tashîh-i Hurûf Lessons — no sign-in needed' },
-    ar: { title: 'تسجيل الدخول', email: 'البريد الإلكتروني', password: 'كلمة المرور', submit: 'تسجيل الدخول', err: 'بريد إلكتروني أو كلمة مرور غير صحيحة.', tashih: 'دروس تصحيح الحروف — بلا تسجيل دخول' },
-  }[lang] || { title: 'Sign In', email: 'Email', password: 'Password', submit: 'Sign In', err: 'Invalid login.', tashih: 'Tashîh-i Hurûf Lessons — no sign-in needed' };
+    tr: { title: 'Giriş Yap', email: 'E-posta', password: 'Şifre', submit: 'Giriş Yap', err: 'Geçersiz e-posta veya şifre.',
+          or: 'veya', guest: 'Tashîh-i Hurûf Dersleri', guestNote: 'Herkese açık · giriş gerekmez' },
+    en: { title: 'Sign In',   email: 'Email',   password: 'Password', submit: 'Sign In',  err: 'Invalid email or password.',
+          or: 'or', guest: 'Tashîh-i Hurûf Lessons', guestNote: 'Open to everyone · no sign-in needed' },
+    ar: { title: 'تسجيل الدخول', email: 'البريد الإلكتروني', password: 'كلمة المرور', submit: 'تسجيل الدخول', err: 'بريد إلكتروني أو كلمة مرور غير صحيحة.',
+          or: 'أو', guest: 'دروس تصحيح الحروف', guestNote: 'متاح للجميع · بلا تسجيل دخول' },
+  }[lang] || { title: 'Sign In', email: 'Email', password: 'Password', submit: 'Sign In', err: 'Invalid login.',
+               or: 'or', guest: 'Tashîh-i Hurûf Lessons', guestNote: 'Open to everyone · no sign-in needed' };
 
   document.body.innerHTML = `
     <style>
@@ -5233,12 +5237,29 @@ function renderLoginScreen(errorMsg) {
       .auth-card button:hover { background: #126b39; }
       .auth-error { color: #991b1b; background: #fee2e2; padding: 8px 12px; border-radius: 6px; font-size: 0.85rem; margin-top: 12px; display: ${errorMsg ? 'block' : 'none'}; }
       .auth-foot { margin-top: 18px; font-size: 0.72rem; color: #9ca3af; text-align: center; line-height: 1.5; font-style: italic; }
-      .auth-public { margin-top: 18px; padding-top: 16px; border-top: 1px solid #e5e7eb; text-align: center; }
-      .auth-public a { color: #0e4f29; font-size: 0.82rem; font-weight: 600; text-decoration: none; }
-      .auth-public a:hover { text-decoration: underline; }
+      /* Second way in: the public Tashîh-i Hurûf lessons, no account needed. */
+      .auth-or { display: flex; align-items: center; gap: 10px; margin: 18px 0 14px; color: #9ca3af; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; }
+      .auth-or::before, .auth-or::after { content: ''; flex: 1; height: 1px; background: #e5e7eb; }
+      .auth-guest {
+        display: flex; align-items: center; gap: 10px; width: 100%; box-sizing: border-box;
+        padding: 11px 14px; border: 1.5px solid #0e4f29; border-radius: 8px;
+        background: #fff; color: #0e4f29; text-decoration: none; transition: background 0.15s;
+      }
+      .auth-guest:hover { background: #f0f7f2; }
+      .auth-guest-icon {
+        width: 30px; height: 30px; border-radius: 7px; flex-shrink: 0;
+        background: #fef9ee; border: 1px solid #f0dfa0; color: #b8860b;
+        display: flex; align-items: center; justify-content: center; font-size: 0.95rem; font-weight: bold;
+      }
+      .auth-guest-text { text-align: left; line-height: 1.3; }
+      .auth-guest-title { font-size: 0.87rem; font-weight: 600; }
+      .auth-guest-note { font-size: 0.7rem; color: #6b7280; font-weight: 400; }
+      .auth-guest-arrow { margin-left: auto; font-size: 0.9rem; }
+      .auth-card[dir="rtl"] .auth-guest-text { text-align: right; }
+      .auth-card[dir="rtl"] .auth-guest-arrow { margin-left: 0; margin-right: auto; transform: scaleX(-1); }
     </style>
     <div class="auth-shell">
-      <form class="auth-card" onsubmit="event.preventDefault(); attemptLogin();">
+      <form class="auth-card"${lang === 'ar' ? ' dir="rtl"' : ''} onsubmit="event.preventDefault(); attemptLogin();">
         <div class="bismillah">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ</div>
         <h1>${labels.title}</h1>
         <label>${labels.email}</label>
@@ -5247,7 +5268,17 @@ function renderLoginScreen(errorMsg) {
         <input type="password" id="auth-password" required />
         <div class="auth-error" id="auth-error">${errorMsg ? labels.err : ''}</div>
         <button type="submit">${labels.submit}</button>
-        <div class="auth-public"><a href="/dersler/">${labels.tashih} &nbsp;&rarr;</a></div>
+
+        <div class="auth-or">${labels.or}</div>
+        <a class="auth-guest" href="/dersler/">
+          <span class="auth-guest-icon" aria-hidden="true">ت</span>
+          <span class="auth-guest-text">
+            <span class="auth-guest-title">${labels.guest}</span><br>
+            <span class="auth-guest-note">${labels.guestNote}</span>
+          </span>
+          <span class="auth-guest-arrow" aria-hidden="true">&rarr;</span>
+        </a>
+
         <div class="auth-foot">${escapeHtml(fbCredit)}</div>
       </form>
     </div>`;
