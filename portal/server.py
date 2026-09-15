@@ -5,7 +5,7 @@ import re
 import time
 import unicodedata
 from pathlib import Path
-from flask import Flask, send_from_directory, request, jsonify, abort
+from flask import Flask, send_from_directory, request, jsonify, abort, redirect
 from google import genai
 from google.genai import types as genai_types
 
@@ -84,6 +84,7 @@ if _seed_pw:
 
 BASE_DIR = Path(__file__).parent.parent
 PDF_DIR = BASE_DIR / "Kuran-Kerim Arapcasi"
+DERSLER_DIR = BASE_DIR / "Dersler"
 PORTAL_DIR = Path(__file__).parent
 LESSONS_INDEX_FILE = PORTAL_DIR / "lessons_index.json"
 ENV_FILE = PORTAL_DIR / ".env"
@@ -474,6 +475,28 @@ def serve_pdf(filename):
             return jsonify({"error": "this lesson is locked"}), 403
     try:
         return send_from_directory(str(PDF_DIR), _resolve_pdf_name(filename))
+    except Exception:
+        abort(404)
+
+
+# ─── Tashîh-i Hurûf lesson site (public) ─────────────────────────────────────
+# The 26-week Tashîh-i Hurûf curriculum in Dersler/ is deliberately OPEN: no
+# login, no per-lesson unlock. It is static reading material, unlike the graded
+# 42-lesson course, so it is served straight from disk with no auth check.
+# Pages inside it link to each other and to assets/ with RELATIVE paths, so the
+# trailing slash matters — /dersler alone would resolve assets/ against "/".
+
+@app.route("/dersler")
+def dersler_index_redirect():
+    return redirect("/dersler/", code=301)
+
+
+@app.route("/dersler/")
+@app.route("/dersler/<path:filename>")
+def serve_dersler(filename="index.html"):
+    # send_from_directory uses safe_join, so "../" escapes are rejected here.
+    try:
+        return send_from_directory(str(DERSLER_DIR), filename)
     except Exception:
         abort(404)
 
