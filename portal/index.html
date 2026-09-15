@@ -276,6 +276,10 @@
   }
   .ref-item.active .ref-icon { background: var(--gold); color: white; border-color: var(--gold); }
   .ref-name { font-size: 0.85rem; font-weight: 500; }
+  /* Tashîh-i Hurûf: a real <a> (separate static site), styled as a ref-item. */
+  a.ref-item { text-decoration: none; color: inherit; }
+  .ref-ext { margin-left: auto; font-size: 0.7rem; color: var(--muted); }
+  body.rtl .ref-ext { margin-left: 0; margin-right: auto; }
 
   /* Main content */
   .main { flex: 1; overflow-y: auto; padding: 0; }
@@ -1173,6 +1177,8 @@ const I18N = {
     searchNoResults: 'No matches found.',
     groupLessons: 'Course Levels',
     groupPower: 'Power Learning',
+    groupTashih: 'Tashîh-i Hurûf',
+    tashihDersler: 'Lessons (26 Weeks)',
     groupReference: 'Reference Materials',
     week: 'Week',
     lessons: 'Lessons',
@@ -1416,6 +1422,8 @@ const I18N = {
     searchNoResults: 'Eşleşme bulunamadı.',
     groupLessons: 'Kurs Seviyeleri',
     groupPower: 'Güçlü Öğrenme',
+    groupTashih: 'Tashîh-i Hurûf',
+    tashihDersler: 'Dersler (26 Hafta)',
     groupReference: 'Referans Materyalleri',
     week: 'Hafta',
     lessons: 'Dersler',
@@ -1659,6 +1667,8 @@ const I18N = {
     searchNoResults: 'لا توجد نتائج.',
     groupLessons: 'مستويات الدورة',
     groupPower: 'تعلّم متقدّم',
+    groupTashih: 'تصحيح الحروف',
+    tashihDersler: 'الدروس (٢٦ أسبوعاً)',
     groupReference: 'المواد المرجعية',
     week: 'الأسبوع',
     lessons: 'الدروس',
@@ -1883,6 +1893,17 @@ function renderSidebar() {
     html += `<div class="sidebar-section">${t('groupPower')}</div>`;
     for (const ref of powerItems) html += renderRefItem(ref);
   }
+
+  // Tashîh-i Hurûf — always shown, for everyone. This is the standalone static
+  // lesson site under /dersler/; it needs no login and no lesson unlock, so it
+  // is rendered unconditionally rather than going through REFERENCE_TOPICS.
+  html += `<div class="sidebar-section" style="margin-top:8px">${t('groupTashih')}</div>`;
+  html += `
+    <a class="ref-item" href="/dersler/" target="_blank" rel="noopener">
+      <div class="ref-icon">ت</div>
+      <div class="ref-name">${t('tashihDersler')}</div>
+      <span class="ref-ext" aria-hidden="true">↗</span>
+    </a>`;
 
   html += `<div class="sidebar-section" style="margin-top:8px">${t('groupLessons')}</div>`;
 
@@ -5194,10 +5215,14 @@ function isLessonUnlocked(level, lesson) {
 function renderLoginScreen(errorMsg) {
   const fbCredit = (I18N[lang] || I18N.en).footerCredit || '';
   const labels = {
-    tr: { title: 'Giriş Yap', email: 'E-posta', password: 'Şifre', submit: 'Giriş Yap', err: 'Geçersiz e-posta veya şifre.' },
-    en: { title: 'Sign In',   email: 'Email',   password: 'Password', submit: 'Sign In',  err: 'Invalid email or password.' },
-    ar: { title: 'تسجيل الدخول', email: 'البريد الإلكتروني', password: 'كلمة المرور', submit: 'تسجيل الدخول', err: 'بريد إلكتروني أو كلمة مرور غير صحيحة.' },
-  }[lang] || { title: 'Sign In', email: 'Email', password: 'Password', submit: 'Sign In', err: 'Invalid login.' };
+    tr: { title: 'Giriş Yap', email: 'E-posta', password: 'Şifre', submit: 'Giriş Yap', err: 'Geçersiz e-posta veya şifre.',
+          or: 'veya', guest: 'Tashîh-i Hurûf Dersleri', guestNote: 'Herkese açık · giriş gerekmez' },
+    en: { title: 'Sign In',   email: 'Email',   password: 'Password', submit: 'Sign In',  err: 'Invalid email or password.',
+          or: 'or', guest: 'Tashîh-i Hurûf Lessons', guestNote: 'Open to everyone · no sign-in needed' },
+    ar: { title: 'تسجيل الدخول', email: 'البريد الإلكتروني', password: 'كلمة المرور', submit: 'تسجيل الدخول', err: 'بريد إلكتروني أو كلمة مرور غير صحيحة.',
+          or: 'أو', guest: 'دروس تصحيح الحروف', guestNote: 'متاح للجميع · بلا تسجيل دخول' },
+  }[lang] || { title: 'Sign In', email: 'Email', password: 'Password', submit: 'Sign In', err: 'Invalid login.',
+               or: 'or', guest: 'Tashîh-i Hurûf Lessons', guestNote: 'Open to everyone · no sign-in needed' };
 
   document.body.innerHTML = `
     <style>
@@ -5212,9 +5237,29 @@ function renderLoginScreen(errorMsg) {
       .auth-card button:hover { background: #126b39; }
       .auth-error { color: #991b1b; background: #fee2e2; padding: 8px 12px; border-radius: 6px; font-size: 0.85rem; margin-top: 12px; display: ${errorMsg ? 'block' : 'none'}; }
       .auth-foot { margin-top: 18px; font-size: 0.72rem; color: #9ca3af; text-align: center; line-height: 1.5; font-style: italic; }
+      /* Second way in: the public Tashîh-i Hurûf lessons, no account needed. */
+      .auth-or { display: flex; align-items: center; gap: 10px; margin: 18px 0 14px; color: #9ca3af; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; }
+      .auth-or::before, .auth-or::after { content: ''; flex: 1; height: 1px; background: #e5e7eb; }
+      .auth-guest {
+        display: flex; align-items: center; gap: 10px; width: 100%; box-sizing: border-box;
+        padding: 11px 14px; border: 1.5px solid #0e4f29; border-radius: 8px;
+        background: #fff; color: #0e4f29; text-decoration: none; transition: background 0.15s;
+      }
+      .auth-guest:hover { background: #f0f7f2; }
+      .auth-guest-icon {
+        width: 30px; height: 30px; border-radius: 7px; flex-shrink: 0;
+        background: #fef9ee; border: 1px solid #f0dfa0; color: #b8860b;
+        display: flex; align-items: center; justify-content: center; font-size: 0.95rem; font-weight: bold;
+      }
+      .auth-guest-text { text-align: left; line-height: 1.3; }
+      .auth-guest-title { font-size: 0.87rem; font-weight: 600; }
+      .auth-guest-note { font-size: 0.7rem; color: #6b7280; font-weight: 400; }
+      .auth-guest-arrow { margin-left: auto; font-size: 0.9rem; }
+      .auth-card[dir="rtl"] .auth-guest-text { text-align: right; }
+      .auth-card[dir="rtl"] .auth-guest-arrow { margin-left: 0; margin-right: auto; transform: scaleX(-1); }
     </style>
     <div class="auth-shell">
-      <form class="auth-card" onsubmit="event.preventDefault(); attemptLogin();">
+      <form class="auth-card"${lang === 'ar' ? ' dir="rtl"' : ''} onsubmit="event.preventDefault(); attemptLogin();">
         <div class="bismillah">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ</div>
         <h1>${labels.title}</h1>
         <label>${labels.email}</label>
@@ -5223,6 +5268,17 @@ function renderLoginScreen(errorMsg) {
         <input type="password" id="auth-password" required />
         <div class="auth-error" id="auth-error">${errorMsg ? labels.err : ''}</div>
         <button type="submit">${labels.submit}</button>
+
+        <div class="auth-or">${labels.or}</div>
+        <a class="auth-guest" href="/dersler/">
+          <span class="auth-guest-icon" aria-hidden="true">ت</span>
+          <span class="auth-guest-text">
+            <span class="auth-guest-title">${labels.guest}</span><br>
+            <span class="auth-guest-note">${labels.guestNote}</span>
+          </span>
+          <span class="auth-guest-arrow" aria-hidden="true">&rarr;</span>
+        </a>
+
         <div class="auth-foot">${escapeHtml(fbCredit)}</div>
       </form>
     </div>`;
