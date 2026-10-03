@@ -155,9 +155,18 @@
    },
    "death_h": 437,
    "death_m": 1045,
-   "status": "pending",
-   "entries": 0,
-   "ayahs": 0
+   "status": "ready",
+   "source": {
+    "site": "shamela.ws/book/5538",
+    "code": "makki-mushkil",
+    "file": "irab_kutuphane_makki-mushkil.json",
+    "title_in_source": "مشكل إعراب القرآن",
+    "author_in_source": "مكي بن أبي طالب القيسي",
+    "downloaded_at": "2026-10-03T21:51:48.040217+00:00",
+    "note": "Metin: تحقيق حاتم صالح الضامن، مؤسسة الرسالة، ط2 1405. Sayfa ayraçları ve muhakkik dipnotları çıkarıldı; ayet sınırları otomatik belirlendi."
+   },
+   "entries": 1860,
+   "ayahs": 1877
   },
   {
    "kind": "irab",
@@ -174,9 +183,18 @@
    },
    "death_h": 616,
    "death_m": 1219,
-   "status": "pending",
-   "entries": 0,
-   "ayahs": 0
+   "status": "ready",
+   "source": {
+    "site": "shamela.ws/book/22928",
+    "code": "ukbari-tibyan",
+    "file": "irab_kutuphane_ukbari-tibyan.json",
+    "title_in_source": "التبيان في إعراب القرآن",
+    "author_in_source": "أبو البقاء عبد الله بن الحسين العكبري",
+    "downloaded_at": "2026-10-03T21:51:47.403891+00:00",
+    "note": "Metin: تحقيق علي محمد البجاوي، عيسى البابي الحلبي. Sayfa ayraçları ve muhakkik dipnotları çıkarıldı; ayet sınırları otomatik belirlendi."
+   },
+   "entries": 3013,
+   "ayahs": 3729
   },
   {
    "kind": "tafsir",

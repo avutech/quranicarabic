@@ -4479,7 +4479,9 @@ function libCitation(b, e, surah) {
   const range = e.e > e.s ? `${surah}:${e.s}–${e.e}` : `${surah}:${e.s}`;
   const died = b.death_h ? ` (${t('libDied')} ${b.death_h}/${b.death_m})` : '';
   let link = '';
-  if (ref.url) link = ` · <a href="${escapeHtml(ref.url)}" target="_blank" rel="noopener">${escapeHtml(ref.site)} ↗</a>`;
+  const pp = ref.print_pages;
+  const printPages = pp ? ` · ${escapeHtml(t('libPage'))} ${pp[0]}${pp[1] && pp[1] !== pp[0] ? `–${pp[1]}` : ''}` : '';
+  if (ref.url) link = `${printPages} · <a href="${escapeHtml(ref.url)}" target="_blank" rel="noopener">${escapeHtml(ref.site)} ↗</a>`;
   else if (ref.file) link = ` · ${escapeHtml(ref.file)}${ref.page_in_file ? `, ${escapeHtml(t('libPage'))} ${ref.page_in_file}` : ''}${ref.paragraph ? `, ¶${ref.paragraph}` : ''}`;
   else if (ref.site) link = ` · ${escapeHtml(ref.site)}`;
   return `<div class="lib-cite"><strong>${escapeHtml(t('libSource'))}:</strong> ${escapeHtml(libLocal(b.author))}${escapeHtml(died)}, <span dir="rtl">${escapeHtml(b.title.ar || '')}</span>, ${escapeHtml(range)}${link}</div>`;
