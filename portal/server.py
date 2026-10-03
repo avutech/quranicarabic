@@ -501,8 +501,15 @@ def serve_dersler(filename="index.html"):
         abort(404)
 
 
+# Only the frontend's own assets are public. portal/ also holds .env (API
+# keys), users.db and the server source, so this must stay an allowlist.
+PUBLIC_PORTAL_FILES = {"data.js", "vocab.js", "lessons_index.js", "lessons_index.json", "lectures.json"}
+
+
 @app.route("/<path:filename>")
 def static_files(filename):
+    if filename not in PUBLIC_PORTAL_FILES:
+        abort(404)
     try:
         return send_from_directory(str(PORTAL_DIR), filename)
     except Exception:
