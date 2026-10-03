@@ -22,6 +22,12 @@ bağlayıcıdır. Amaç: öğrencinin i'rab öğrenmesi. Bu yüzden çeviri **sa
    verilebilir: «hâl (الحال)».
 7. Dua formülleri: «Allah Teâlâ», «Hz. Peygamber (s.a.v.)», «Allah ondan razı olsun».
 8. Kaynak metinde [[…]] ile gösterilen dipnotlar «[Dipnot: …]» olarak çevrilir.
+9. **Kaynak metin sessizce düzeltilmez.** Yazım hatası, yanlış ayet numarası,
+   kesik metin, şüpheli okuma: yazılı olan çevrilir, yanına tek biçimde not
+   düşülür: «[Mütercim notu: …]». Açıklama için eklenen her şey de bu biçimde
+   işaretlenir.
+10. Derviş'in bölüm başlıkları: «* Lügat:», «* İ'rab:», «* Belâgat:»,
+    «* Fevâid:» (ayrı satırda).
 
 ## Terim sözlüğü
 
