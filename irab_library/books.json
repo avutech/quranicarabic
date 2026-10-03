@@ -249,9 +249,18 @@
    },
    "death_h": 1376,
    "death_m": 1956,
-   "status": "pending",
-   "entries": 0,
-   "ayahs": 0
+   "status": "ready",
+   "source": {
+    "site": "tafsir.app",
+    "code": "aljadwal",
+    "file": "irab_kutuphane_aljadwal.json",
+    "title_in_source": "الجدول في إعراب القرآن وصرفه وبيانه",
+    "author_in_source": "محمود بن عبد الرحيم الصافي",
+    "downloaded_at": "2026-10-03T21:39:19.992913+00:00",
+    "note": "Ham metin; [[...]] dipnotları korunmuştur."
+   },
+   "entries": 3257,
+   "ayahs": 6236
   },
   {
    "kind": "irab",
