@@ -1,6 +1,7 @@
 {
  "books": [
   {
+   "kind": "irab",
    "id": "farraa",
    "title": {
     "ar": "معاني القرآن",
@@ -28,6 +29,7 @@
    "ayahs": 2968
   },
   {
+   "kind": "irab",
    "id": "akhfash",
    "title": {
     "ar": "معاني القرآن",
@@ -55,6 +57,7 @@
    "ayahs": 1210
   },
   {
+   "kind": "irab",
    "id": "zajjaj",
    "title": {
     "ar": "معاني القرآن وإعرابه",
@@ -82,6 +85,7 @@
    "ayahs": 4054
   },
   {
+   "kind": "irab",
    "id": "nahhas-irab",
    "title": {
     "ar": "إعراب القرآن",
@@ -109,6 +113,7 @@
    "ayahs": 5109
   },
   {
+   "kind": "irab",
    "id": "nahhas-meani",
    "title": {
     "ar": "معاني القرآن",
@@ -136,6 +141,7 @@
    "ayahs": 2682
   },
   {
+   "kind": "irab",
    "id": "mekki-muskil",
    "title": {
     "ar": "مشكل إعراب القرآن",
@@ -154,6 +160,7 @@
    "ayahs": 0
   },
   {
+   "kind": "irab",
    "id": "ukberi-tibyan",
    "title": {
     "ar": "التبيان في إعراب القرآن",
@@ -172,6 +179,35 @@
    "ayahs": 0
   },
   {
+   "kind": "tafsir",
+   "id": "celaleyn",
+   "title": {
+    "ar": "تفسير الجلالين",
+    "tr": "Tefsîru'l-Celâleyn",
+    "en": "Tafsir al-Jalalayn"
+   },
+   "author": {
+    "ar": "جلال الدين المحلي وجلال الدين السيوطي",
+    "tr": "Celâleddîn el-Mahallî (ö. 864) ve Celâleddîn es-Suyûtî",
+    "en": "Jalal al-Din al-Mahalli (d. 864) & Jalal al-Din al-Suyuti"
+   },
+   "death_h": 911,
+   "death_m": 1505,
+   "status": "ready",
+   "source": {
+    "site": "local",
+    "code": "celaleyn_docx",
+    "file": "Celaleyn Arapca Sureler (Yeni Format)",
+    "title_in_source": "",
+    "author_in_source": "",
+    "downloaded_at": "",
+    "note": "Yerel .docx sûre dosyaları (114 dosya); ayet başına bir paragraf."
+   },
+   "entries": 6236,
+   "ayahs": 6236
+  },
+  {
+   "kind": "irab",
    "id": "semin-durr",
    "title": {
     "ar": "الدر المصون في علوم الكتاب المكنون",
@@ -199,6 +235,7 @@
    "ayahs": 4596
   },
   {
+   "kind": "irab",
    "id": "safi-cedvel",
    "title": {
     "ar": "الجدول في إعراب القرآن",
@@ -217,6 +254,7 @@
    "ayahs": 0
   },
   {
+   "kind": "irab",
    "id": "dervis-irab",
    "title": {
     "ar": "إعراب القرآن وبيانه",

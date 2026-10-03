@@ -811,6 +811,9 @@
   .lib-text-ar .q { color: var(--green); font-family: 'Amiri Quran', 'Amiri', serif; }
   .lib-text-tr { font-size: 0.98rem; line-height: 1.75; white-space: pre-wrap; margin-top: 10px; }
   .lib-tr-note { font-size: 0.75rem; color: var(--muted); margin-top: 10px; font-style: italic; }
+  .lib-section { font-size: 0.78rem; font-weight: 700; color: var(--green); text-transform: uppercase; letter-spacing: 0.06em; margin: 18px 0 8px; }
+  .lib-book.tafsir { border-color: var(--gold-light); }
+  .lib-book.tafsir[open] > summary { background: #fdf6e3; }
   .lib-cite { font-size: 0.75rem; color: var(--muted); margin-top: 12px; padding-top: 8px; border-top: 1px dashed var(--border); line-height: 1.6; }
   .lib-cite a { color: var(--green); }
   .lib-missing { font-size: 0.82rem; color: var(--muted); margin-top: 14px; line-height: 1.6; }
@@ -1270,6 +1273,9 @@ const I18N = {
     libTrUnreviewed: 'Turkish reading prepared for students; not yet reviewed by the teacher. The Arabic original is authoritative.',
     libTrReviewed: 'Turkish reading reviewed by the teacher.',
     libSource: 'Source',
+    libPage: 'page',
+    libTafsir: 'Tafsir',
+    libIrabBooks: 'I\'rab books',
     libTrBy: 'Turkish reading',
     libTrStale: 'The Arabic source changed after this translation — needs re-checking.',
     scSelfFill: 'Self Fill',
@@ -1513,6 +1519,9 @@ const I18N = {
     libTrUnreviewed: 'Öğrenciler için hazırlanan Türkçe okuma; henüz hoca tarafından gözden geçirilmedi. Esas olan Arapça metindir.',
     libTrReviewed: 'Türkçe okuma hoca tarafından gözden geçirildi.',
     libSource: 'Kaynak',
+    libPage: 'sayfa',
+    libTafsir: 'Tefsir',
+    libIrabBooks: 'İ\'rab kitapları',
     libTrBy: 'Türkçe okuma',
     libTrStale: 'Arapça kaynak bu çeviriden sonra değişti — yeniden kontrol gerekli.',
     scSelfFill: 'Kendin Doldur',
@@ -1756,6 +1765,9 @@ const I18N = {
     libTrUnreviewed: 'قراءة تركية للطلاب، لم يراجعها المدرّس بعد. المعتمد هو النص العربي.',
     libTrReviewed: 'راجع المدرّس القراءة التركية.',
     libSource: 'المصدر',
+    libPage: 'صفحة',
+    libTafsir: 'التفسير',
+    libIrabBooks: 'كتب الإعراب',
     libTrBy: 'القراءة التركية',
     libTrStale: 'تغيّر النص العربي بعد هذه الترجمة — تحتاج إلى مراجعة.',
     scSelfFill: 'املأ بنفسك',
@@ -4463,7 +4475,10 @@ function libCitation(b, e, surah) {
   const ref = e.ref || {};
   const range = e.e > e.s ? `${surah}:${e.s}–${e.e}` : `${surah}:${e.s}`;
   const died = b.death_h ? ` (${t('libDied')} ${b.death_h}/${b.death_m})` : '';
-  const link = ref.url ? ` · <a href="${escapeHtml(ref.url)}" target="_blank" rel="noopener">${escapeHtml(ref.site)} ↗</a>` : (ref.site ? ` · ${escapeHtml(ref.site)}` : '');
+  let link = '';
+  if (ref.url) link = ` · <a href="${escapeHtml(ref.url)}" target="_blank" rel="noopener">${escapeHtml(ref.site)} ↗</a>`;
+  else if (ref.file) link = ` · ${escapeHtml(ref.file)}${ref.page_in_file ? `, ${escapeHtml(t('libPage'))} ${ref.page_in_file}` : ''}${ref.paragraph ? `, ¶${ref.paragraph}` : ''}`;
+  else if (ref.site) link = ` · ${escapeHtml(ref.site)}`;
   return `<div class="lib-cite"><strong>${escapeHtml(t('libSource'))}:</strong> ${escapeHtml(libLocal(b.author))}${escapeHtml(died)}, <span dir="rtl">${escapeHtml(b.title.ar || '')}</span>, ${escapeHtml(range)}${link}</div>`;
 }
 
@@ -4479,8 +4494,11 @@ function renderLibraryAyah(surah, ayah, verse, entries, books) {
   const ch = quranChapters && quranChapters.find(c => c.id === surah);
   const surahName = ch ? `${ch.name_simple} (${ch.name_arabic})` : `${surah}`;
 
-  const cards = entries.map((e, i) => {
-    const b = byId[e.b] || { title: { ar: e.b }, author: {} };
+  const bookOf = e => byId[e.b] || { title: { ar: e.b }, author: {}, kind: 'irab' };
+  const tafsir = entries.filter(e => bookOf(e).kind === 'tafsir');
+  const irab = entries.filter(e => bookOf(e).kind !== 'tafsir');
+  const card = (e, open) => {
+    const b = bookOf(e);
     const range = e.e > e.s ? `<span class="lib-badge">${escapeHtml(t('libRange').replace('{from}', e.s).replace('{to}', e.e))}</span>` : '';
     const trBadge = e.tr ? `<span class="lib-badge tr">${escapeHtml(t('libHasTr'))}</span>` : '';
     const died = b.death_h ? ` · ${escapeHtml(t('libDied'))} ${b.death_h}/${b.death_m}` : '';
@@ -4497,7 +4515,7 @@ function renderLibraryAyah(surah, ayah, verse, entries, books) {
           <div class="lib-cite">${escapeHtml(t('libTrBy'))}: ${escapeHtml(e.tr.by || '—')}${e.tr.at ? ` · ${escapeHtml(e.tr.at.slice(0, 10))}` : ''} · ${escapeHtml(e.b)}:${e.s}-${e.e}</div>
         </div>` : '';
     return `
-      <details class="lib-book"${i === 0 ? ' open' : ''}>
+      <details class="lib-book${b.kind === 'tafsir' ? ' tafsir' : ''}"${open ? ' open' : ''}>
         <summary>
           <div class="lib-book-titles">
             <div class="lib-book-title"><span class="ar">${escapeHtml(b.title.ar || '')}</span>${subTitle}</div>
@@ -4510,11 +4528,14 @@ function renderLibraryAyah(surah, ayah, verse, entries, books) {
           ${libCitation(b, e, surah)}
         </div>
       </details>`;
-  }).join('');
+  };
+  const tafsirCards = tafsir.map(e => card(e, true)).join('');
+  const cards = irab.map((e, i) => card(e, i === 0)).join('');
 
   const present = new Set(entries.map(e => e.b));
-  const ready = books.filter(b => b.status === 'ready' && !present.has(b.id));
-  const pending = books.filter(b => b.status !== 'ready');
+  const irabBooks = books.filter(b => b.kind !== 'tafsir');
+  const ready = irabBooks.filter(b => b.status === 'ready' && !present.has(b.id));
+  const pending = irabBooks.filter(b => b.status !== 'ready');
   const names = list => list.map(b => `${escapeHtml(libLocal(b.author))} (${escapeHtml(b.title.ar)})`).join(' · ');
   const missing = [
     ready.length ? `<div><strong>${escapeHtml(t('libNotCovering'))}:</strong> ${names(ready)}</div>` : '',
@@ -4526,7 +4547,9 @@ function renderLibraryAyah(surah, ayah, verse, entries, books) {
       <div class="lib-verse-key">${escapeHtml(surahName)} · ${surah}:${ayah}</div>
       ${verse ? `<div class="lib-verse-ar">${escapeHtml(verse)}</div>` : ''}
     </div>
-    <div class="lib-summary">${escapeHtml(t('libCount').replace('{n}', entries.length))}</div>
+    ${tafsirCards ? `<div class="lib-section">${escapeHtml(t('libTafsir'))}</div>${tafsirCards}` : ''}
+    <div class="lib-section">${escapeHtml(t('libIrabBooks'))}</div>
+    <div class="lib-summary">${escapeHtml(t('libCount').replace('{n}', irab.length))}</div>
     ${cards || `<div class="feedback-box">${escapeHtml(t('libNoEntries'))}</div>`}
     ${missing ? `<div class="lib-missing">${missing}</div>` : ''}`;
 }

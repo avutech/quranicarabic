@@ -17,8 +17,10 @@ Run:  venv/bin/python build_irab_library.py
 """
 
 import hashlib
+import html
 import json
 import re
+import zipfile
 import sys
 from pathlib import Path
 
@@ -58,6 +60,12 @@ CATALOG = [
      "title": {"ar": "التبيان في إعراب القرآن", "tr": "et-Tibyân fî İ'râbi'l-Kur'ân", "en": "al-Tibyan fi I'rab al-Qur'an"},
      "author": {"ar": "أبو البقاء العكبري", "tr": "Ebü'l-Bekā el-Ukberî", "en": "Abu al-Baqa' al-'Ukbari"},
      "death_h": 616, "death_m": 1219},
+    {"id": "celaleyn", "source": None, "kind": "tafsir", "loader": "celaleyn_docx",
+     "title": {"ar": "تفسير الجلالين", "tr": "Tefsîru'l-Celâleyn", "en": "Tafsir al-Jalalayn"},
+     "author": {"ar": "جلال الدين المحلي وجلال الدين السيوطي",
+                "tr": "Celâleddîn el-Mahallî (ö. 864) ve Celâleddîn es-Suyûtî",
+                "en": "Jalal al-Din al-Mahalli (d. 864) & Jalal al-Din al-Suyuti"},
+     "death_h": 911, "death_m": 1505},
     {"id": "semin-durr", "source": "aldur-almasoon",
      "title": {"ar": "الدر المصون في علوم الكتاب المكنون", "tr": "ed-Dürrü'l-Masûn", "en": "al-Durr al-Masun"},
      "author": {"ar": "السمين الحلبي", "tr": "es-Semîn el-Halebî", "en": "al-Samin al-Halabi"},
@@ -71,6 +79,37 @@ CATALOG = [
      "author": {"ar": "محيي الدين الدرويش", "tr": "Muhyiddîn ed-Derviş", "en": "Muhyi al-Din al-Darwish"},
      "death_h": 1403, "death_m": 1982},
 ]
+
+CELALEYN_DIR = BASE_DIR / "Celaleyn Arapca Sureler (Yeni Format)"
+AR_DIGITS = str.maketrans("٠١٢٣٤٥٦٧٨٩", "0123456789")
+
+
+def load_celaleyn_docx():
+    """Parse the 114 Celâleyn surah files (one .docx per surah). Each ayah is
+    a paragraph "<n> – <tafsir>"; page headers "سورة … – (صفحة n)" mark the
+    page within that file, kept in the per-entry reference."""
+    ayah_par = re.compile(r"^\s*([٠-٩0-9]+)\s*[–-]\s*")
+    page_par = re.compile(r"\(صفحة\s*([٠-٩0-9]+)\)")
+    out = []
+    for f in sorted(CELALEYN_DIR.glob("[0-9][0-9][0-9]_*.docx")):
+        surah = int(f.name[:3])
+        xml = zipfile.ZipFile(f).read("word/document.xml").decode("utf-8")
+        page = None
+        for i, par in enumerate(re.findall(r"<w:p[ >].*?</w:p>", xml, re.S)):
+            text = html.unescape("".join(re.findall(r"<w:t[^>]*>([^<]*)</w:t>", par))).strip()
+            if (m := page_par.search(text)) and text.startswith("سورة"):
+                page = int(m.group(1).translate(AR_DIGITS))
+            elif m := ayah_par.match(text):
+                ayah = int(m.group(1).translate(AR_DIGITS))
+                out.append({"sure": surah, "ayet_bas": ayah, "ayet_son": ayah,
+                            "metin": text[m.end():],
+                            "ref": {"site": "local", "file": f"{CELALEYN_DIR.name}/{f.name}",
+                                    "page_in_file": page, "paragraph": i + 1}})
+    return {"kaynak": "local", "girdiler": out,
+            "not": "Yerel .docx sûre dosyaları (114 dosya); ayet başına bir paragraf."}
+
+
+LOADERS = {"celaleyn_docx": load_celaleyn_docx}
 
 PAGE_MARKER = re.compile(r"\(p-[٠-٩0-9]+\)")   # printed-page markers (zajjaj)
 MULTISPACE = re.compile(r"[ \t]{2,}")
@@ -91,11 +130,14 @@ def main():
     by_surah = {s: [] for s in range(1, 115)}
     books_out = []
     for book in CATALOG:
-        meta = {k: v for k, v in book.items() if k != "source"}
-        if not book["source"]:
+        meta = {"kind": "irab", **{k: v for k, v in book.items() if k not in ("source", "loader")}}
+        if book.get("loader"):
+            data = LOADERS[book["loader"]]()
+        elif not book["source"]:
             books_out.append({**meta, "status": "pending", "entries": 0, "ayahs": 0})
             continue
-        data = json.loads((SRC_DIR / f"irab_kutuphane_{book['source']}.json").read_text("utf-8"))
+        else:
+            data = json.loads((SRC_DIR / f"irab_kutuphane_{book['source']}.json").read_text("utf-8"))
         covered, n = set(), 0
         for e in data["girdiler"]:
             s, a, b = int(e["sure"]), int(e["ayet_bas"]), int(e["ayet_son"])
@@ -104,16 +146,17 @@ def main():
                 continue
             # Every entry carries its own source reference so any i'rab shown
             # can be traced to the exact book, source and page it came from.
-            ref = {"site": data.get("kaynak", ""), "code": book["source"],
-                   "file": f"irab_kutuphane_{book['source']}.json"}
+            ref = e.get("ref") or {"site": data.get("kaynak", ""), "code": book["source"],
+                                   "file": f"irab_kutuphane_{book['source']}.json"}
             if ref["site"] == "tafsir.app":
                 ref["url"] = f"https://tafsir.app/{book['source']}/{s}/{a}"
             by_surah[s].append({"b": book["id"], "s": a, "e": b, "t": text, "ref": ref})
             covered.update((s, x) for x in range(a, b + 1))
             n += 1
         books_out.append({**meta, "status": "ready",
-                          "source": {"site": data.get("kaynak", ""), "code": book["source"],
-                                     "file": f"irab_kutuphane_{book['source']}.json",
+                          "source": {"site": data.get("kaynak", ""), "code": book["source"] or book.get("loader"),
+                                     "file": (f"irab_kutuphane_{book['source']}.json" if book["source"]
+                                              else CELALEYN_DIR.name),
                                      "title_in_source": data.get("kitap", ""),
                                      "author_in_source": data.get("muellif", ""),
                                      "downloaded_at": data.get("indirilme", ""),
