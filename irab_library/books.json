@@ -347,9 +347,18 @@
     "tr": "Ahmed b. Muhammed el-Harrât",
     "en": "Ahmad al-Kharrat"
    },
-   "status": "pending",
-   "entries": 0,
-   "ayahs": 0
+   "status": "ready",
+   "source": {
+    "site": "tafsir.app",
+    "code": "mujtaba-mushkil-iraab",
+    "file": "irab_kutuphane_mujtaba-mushkil-iraab.json",
+    "title_in_source": "المجتبى من مشكل إعراب القرآن",
+    "author_in_source": "أحمد بن محمد الخراط",
+    "downloaded_at": "2026-10-03T22:39:55.937664+00:00",
+    "note": "Ham metin; [[...]] dipnotları korunmuştur."
+   },
+   "entries": 5895,
+   "ayahs": 5895
   },
   {
    "kind": "irab",
@@ -365,9 +374,18 @@
     "en": "— (author to be confirmed)"
    },
    "catalog_note": "tafsir.app müellif vermiyor. Yerel PDF (el-İ'râbu'l-Müyesser/141110p.pdf) üst verisi: «إعراب القرآن الكريم الميسر» — محمد الطيب الإبراهيم. Aynı eser olduğu doğrulanmadı.",
-   "status": "pending",
-   "entries": 0,
-   "ayahs": 0
+   "status": "ready",
+   "source": {
+    "site": "tafsir.app",
+    "code": "aliraab-almuyassar",
+    "file": "irab_kutuphane_aliraab-almuyassar.json",
+    "title_in_source": "الإعراب الميسر",
+    "author_in_source": "",
+    "downloaded_at": "2026-10-03T23:30:07.673877+00:00",
+    "note": "Ham metin; [[...]] dipnotları korunmuştur."
+   },
+   "entries": 6236,
+   "ayahs": 6236
   }
  ]
 }
