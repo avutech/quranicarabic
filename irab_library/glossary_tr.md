@@ -28,6 +28,8 @@ bağlayıcıdır. Amaç: öğrencinin i'rab öğrenmesi. Bu yüzden çeviri **sa
    işaretlenir.
 10. Derviş'in bölüm başlıkları: «* Lügat:», «* İ'rab:», «* Belâgat:»,
     «* Fevâid:» (ayrı satırda).
+11. Yazarın üzerinde durduğu Kur'an kelimeleri ve edatlar **her zaman Arap harfiyle**
+    yazılır (ör. «لم» ile meczûm, «ربك»in sıfatı); Latin harfle transliterasyon yapılmaz.
 
 ## Terim sözlüğü
 
