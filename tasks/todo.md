@@ -23,9 +23,9 @@ reading for students. AI i'rab removed. Celâleyn tafsir shown as its own line.
 | Sâfî, el-Cedvel | tafsir.app | ✅ indexed |
 | Ukberî, et-Tibyân | shamela.ws/book/22928 | ✅ indexed (with print pages) |
 | Mekkî, Müşkil | shamela.ws/book/5538 | ✅ indexed (with print pages) |
-| Da'âs et al. | tafsir.app | ⏳ downloading |
-| el-Harrât, el-Müctebâ | tafsir.app | ⏳ downloading |
-| el-İ'râbu'l-Müyesser | tafsir.app | ⏳ queued; author to be confirmed from the PDF |
+| Da'âs et al. | tafsir.app | ✅ indexed |
+| el-Harrât, el-Müctebâ | tafsir.app | ✅ indexed |
+| el-İ'râbu'l-Müyesser | tafsir.app | ✅ indexed; author not confirmed (local PDF says محمد الطيب الإبراهيم) |
 
 Provenance: every entry carries `ref` (site, code, file, URL; page numbers where they exist).
 
@@ -33,8 +33,9 @@ Provenance: every entry carries `ref` (site, code, file, URL; page numbers where
 - [x] Wave 1: Fatiha (6 books) + Juz 'Amma (Ferrâ, Ahfeş, Zeccâc, Nahhâs): 1142 entries
 - [x] Wave 2: Derviş + Celâleyn, Fatiha + Juz 'Amma: 619 entries
 - [x] Wave 3: Semîn, Juz 'Amma: 337 entries
-- [ ] Wave 4: el-Cedvel + Ukberî + Mekkî, Fatiha + Juz 'Amma (running)
-- [ ] Wave 5: Da'âs + el-Harrât + el-Müyesser, Fatiha + Juz 'Amma (after download)
+- [x] Wave 4: el-Cedvel + Ukberî + Mekkî, Fatiha + Juz 'Amma: 453 entries
+- [x] Wave 5: Da'âs, Fatiha + Juz 'Amma: 435 entries
+- [x] Wave 6: el-Harrât + el-Müyesser, Fatiha + Juz 'Amma: 1038 entries
 - [ ] Teacher review: `irab_library/tr_review_wave*.md`, then set `reviewed: true`
 - [ ] Next scope after Juz 'Amma: to be decided by the owner
 
@@ -43,3 +44,12 @@ Provenance: every entry carries `ref` (site, code, file, URL; page numbers where
 2. `git push origin staging-ready:staging`
 3. Rotate the keys in `portal/.env`; ask users to change their passwords
 4. On staging, enable the `irab` module if it is hidden
+
+## Review (2026-10-03)
+- Integrity check:
+  - 51,211 entries, all with a source `ref`.
+  - 4,024 Turkish readings, all matching an existing source entry by sha1.
+  - Rendering 112:1 shows 13 books with citations and Turkish tabs.
+  - Anonymous access is 401; `.env` and `users.db` return 404.
+- Not verified in a real browser on staging. That needs the owner to push.
+- Repo is 183 MB after the index rebuilds; the largest file is 8.9 MB.
