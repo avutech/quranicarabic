@@ -89,7 +89,9 @@ CATALOG = [
     # tafsir.app gives no author for this one; confirm from the local PDF's title page.
     {"id": "muyesser-irab", "source": "aliraab-almuyassar",
      "title": {"ar": "الإعراب الميسر", "tr": "el-İ'râbu'l-Müyesser", "en": "al-I'rab al-Muyassar"},
-     "author": {"ar": "—", "tr": "— (müellif bilgisi doğrulanacak)", "en": "— (author to be confirmed)"}},
+     "author": {"ar": "—", "tr": "— (müellif bilgisi doğrulanacak)", "en": "— (author to be confirmed)"},
+     "catalog_note": "tafsir.app müellif vermiyor. Yerel PDF (el-İ'râbu'l-Müyesser/141110p.pdf) üst verisi: "
+                     "«إعراب القرآن الكريم الميسر» — محمد الطيب الإبراهيم. Aynı eser olduğu doğrulanmadı."},
 ]
 
 CELALEYN_DIR = BASE_DIR / "Celaleyn Arapca Sureler (Yeni Format)"

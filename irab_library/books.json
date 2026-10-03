@@ -321,9 +321,18 @@
     "tr": "Da'âs – Humeydân – Kâsım",
     "en": "al-Da''as, Humaydan & al-Qasim"
    },
-   "status": "pending",
-   "entries": 0,
-   "ayahs": 0
+   "status": "ready",
+   "source": {
+    "site": "tafsir.app",
+    "code": "iraab-daas",
+    "file": "irab_kutuphane_iraab-daas.json",
+    "title_in_source": "إعراب القرآن الكريم",
+    "author_in_source": "قاسم - حميدان - دعاس",
+    "downloaded_at": "2026-10-03T22:04:09.766056+00:00",
+    "note": "Ham metin; [[...]] dipnotları korunmuştur."
+   },
+   "entries": 3639,
+   "ayahs": 6236
   },
   {
    "kind": "irab",
@@ -355,6 +364,7 @@
     "tr": "— (müellif bilgisi doğrulanacak)",
     "en": "— (author to be confirmed)"
    },
+   "catalog_note": "tafsir.app müellif vermiyor. Yerel PDF (el-İ'râbu'l-Müyesser/141110p.pdf) üst verisi: «إعراب القرآن الكريم الميسر» — محمد الطيب الإبراهيم. Aynı eser olduğu doğrulanmadı.",
    "status": "pending",
    "entries": 0,
    "ayahs": 0
