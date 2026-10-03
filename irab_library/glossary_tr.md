@@ -76,6 +76,10 @@ bağlayıcıdır. Amaç: öğrencinin i'rab öğrenmesi. Bu yüzden çeviri **sa
 | التقديم والتأخير / الحذف | takdîm-te'hîr / hazf |
 | القراءة / قرأ | kıraat / okudu |
 | البصريون / الكوفيون | Basralılar / Kûfeliler |
+| منصوب على نزع الخافض | nez'u'l-hâfıd ile mansûb |
+| شرط غير جازم | cezmetmeyen şart |
+| اللام المزحلقة | müzahlaka lâmı |
+| مقول القول | mekûlü'l-kavl |
 | أهل الحجاز / بنو تميم | Hicazlılar / Temîmoğulları |
 
 ## Çıktı biçimi (çevirmenler için)
