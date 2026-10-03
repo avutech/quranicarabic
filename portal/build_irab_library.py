@@ -70,14 +70,26 @@ CATALOG = [
      "title": {"ar": "الدر المصون في علوم الكتاب المكنون", "tr": "ed-Dürrü'l-Masûn", "en": "al-Durr al-Masun"},
      "author": {"ar": "السمين الحلبي", "tr": "es-Semîn el-Halebî", "en": "al-Samin al-Halabi"},
      "death_h": 756, "death_m": 1355},
-    {"id": "safi-cedvel", "source": None,
-     "title": {"ar": "الجدول في إعراب القرآن", "tr": "el-Cedvel fî İ'râbi'l-Kur'ân", "en": "al-Jadwal fi I'rab al-Qur'an"},
-     "author": {"ar": "محمود صافي", "tr": "Mahmûd Sâfî", "en": "Mahmud Safi"},
+    {"id": "safi-cedvel", "source": "aljadwal",
+     "title": {"ar": "الجدول في إعراب القرآن وصرفه وبيانه", "tr": "el-Cedvel fî İ'râbi'l-Kur'ân", "en": "al-Jadwal fi I'rab al-Qur'an"},
+     "author": {"ar": "محمود بن عبد الرحيم صافي", "tr": "Mahmûd Sâfî", "en": "Mahmud Safi"},
      "death_h": 1376, "death_m": 1956},
-    {"id": "dervis-irab", "source": None,
+    {"id": "dervis-irab", "source": "iraab-aldarweesh",
      "title": {"ar": "إعراب القرآن وبيانه", "tr": "İ'râbu'l-Kur'ân ve Beyânuhu", "en": "I'rab al-Qur'an wa Bayanuh"},
      "author": {"ar": "محيي الدين الدرويش", "tr": "Muhyiddîn ed-Derviş", "en": "Muhyi al-Din al-Darwish"},
      "death_h": 1403, "death_m": 1982},
+    # Contemporary works — no death dates.
+    {"id": "daas-irab", "source": "iraab-daas",
+     "title": {"ar": "إعراب القرآن الكريم", "tr": "İ'râbu'l-Kur'âni'l-Kerîm", "en": "I'rab al-Qur'an al-Karim"},
+     "author": {"ar": "أحمد عبيد الدعاس، أحمد محمد حميدان، إسماعيل محمود القاسم",
+                "tr": "Da'âs – Humeydân – Kâsım", "en": "al-Da''as, Humaydan & al-Qasim"}},
+    {"id": "harrat-mujtaba", "source": "mujtaba-mushkil-iraab",
+     "title": {"ar": "المجتبى من مشكل إعراب القرآن", "tr": "el-Müctebâ min Müşkili İ'râbi'l-Kur'ân", "en": "al-Mujtaba min Mushkil I'rab al-Qur'an"},
+     "author": {"ar": "أحمد بن محمد الخراط", "tr": "Ahmed b. Muhammed el-Harrât", "en": "Ahmad al-Kharrat"}},
+    # tafsir.app gives no author for this one; confirm from the local PDF's title page.
+    {"id": "muyesser-irab", "source": "aliraab-almuyassar",
+     "title": {"ar": "الإعراب الميسر", "tr": "el-İ'râbu'l-Müyesser", "en": "al-I'rab al-Muyassar"},
+     "author": {"ar": "—", "tr": "— (müellif bilgisi doğrulanacak)", "en": "— (author to be confirmed)"}},
 ]
 
 CELALEYN_DIR = BASE_DIR / "Celaleyn Arapca Sureler (Yeni Format)"
@@ -133,7 +145,7 @@ def main():
         meta = {"kind": "irab", **{k: v for k, v in book.items() if k not in ("source", "loader")}}
         if book.get("loader"):
             data = LOADERS[book["loader"]]()
-        elif not book["source"]:
+        elif not book["source"] or not (SRC_DIR / f"irab_kutuphane_{book['source']}.json").exists():
             books_out.append({**meta, "status": "pending", "entries": 0, "ayahs": 0})
             continue
         else:

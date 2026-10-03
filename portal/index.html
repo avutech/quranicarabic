@@ -808,6 +808,7 @@
     font-family: 'Amiri', 'Scheherazade New', serif; font-size: 1.3rem; line-height: 2;
     direction: rtl; text-align: right; white-space: pre-wrap; color: var(--dark); margin-top: 8px;
   }
+  .lib-text-ar .fn { color: var(--mid); font-size: 0.85em; }
   .lib-text-ar .q { color: var(--green); font-family: 'Amiri Quran', 'Amiri', serif; }
   .lib-text-tr { font-size: 0.98rem; line-height: 1.75; white-space: pre-wrap; margin-top: 10px; }
   .lib-tr-note { font-size: 0.75rem; color: var(--muted); margin-top: 10px; font-style: italic; }
@@ -4467,7 +4468,9 @@ function libLocal(obj) {
 
 function libHighlightQuran(escaped) {
   // Quranic quotations in the books are wrapped in ornate brackets ﴿…﴾
-  return escaped.replace(/﴿[^﴾]*﴾/g, m => `<span class="q">${m}</span>`);
+  // [[…]] are the book's own footnotes (kept verbatim in the source data)
+  return escaped.replace(/﴿[^﴾]*﴾/g, m => `<span class="q">${m}</span>`)
+                .replace(/\[\[([\s\S]*?)\]\]/g, (_, n) => `<span class="fn">[${n}]</span>`);
 }
 
 function libCitation(b, e, surah) {

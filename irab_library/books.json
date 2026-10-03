@@ -238,12 +238,12 @@
    "kind": "irab",
    "id": "safi-cedvel",
    "title": {
-    "ar": "الجدول في إعراب القرآن",
+    "ar": "الجدول في إعراب القرآن وصرفه وبيانه",
     "tr": "el-Cedvel fî İ'râbi'l-Kur'ân",
     "en": "al-Jadwal fi I'rab al-Qur'an"
    },
    "author": {
-    "ar": "محمود صافي",
+    "ar": "محمود بن عبد الرحيم صافي",
     "tr": "Mahmûd Sâfî",
     "en": "Mahmud Safi"
    },
@@ -268,6 +268,66 @@
    },
    "death_h": 1403,
    "death_m": 1982,
+   "status": "ready",
+   "source": {
+    "site": "tafsir.app",
+    "code": "iraab-aldarweesh",
+    "file": "irab_kutuphane_iraab-aldarweesh.json",
+    "title_in_source": "إعراب القرآن وبيانه",
+    "author_in_source": "محيي الدين درويش",
+    "downloaded_at": "2026-10-03T21:14:25.592733+00:00",
+    "note": "Ham metin; [[...]] dipnotları korunmuştur."
+   },
+   "entries": 1387,
+   "ayahs": 6236
+  },
+  {
+   "kind": "irab",
+   "id": "daas-irab",
+   "title": {
+    "ar": "إعراب القرآن الكريم",
+    "tr": "İ'râbu'l-Kur'âni'l-Kerîm",
+    "en": "I'rab al-Qur'an al-Karim"
+   },
+   "author": {
+    "ar": "أحمد عبيد الدعاس، أحمد محمد حميدان، إسماعيل محمود القاسم",
+    "tr": "Da'âs – Humeydân – Kâsım",
+    "en": "al-Da''as, Humaydan & al-Qasim"
+   },
+   "status": "pending",
+   "entries": 0,
+   "ayahs": 0
+  },
+  {
+   "kind": "irab",
+   "id": "harrat-mujtaba",
+   "title": {
+    "ar": "المجتبى من مشكل إعراب القرآن",
+    "tr": "el-Müctebâ min Müşkili İ'râbi'l-Kur'ân",
+    "en": "al-Mujtaba min Mushkil I'rab al-Qur'an"
+   },
+   "author": {
+    "ar": "أحمد بن محمد الخراط",
+    "tr": "Ahmed b. Muhammed el-Harrât",
+    "en": "Ahmad al-Kharrat"
+   },
+   "status": "pending",
+   "entries": 0,
+   "ayahs": 0
+  },
+  {
+   "kind": "irab",
+   "id": "muyesser-irab",
+   "title": {
+    "ar": "الإعراب الميسر",
+    "tr": "el-İ'râbu'l-Müyesser",
+    "en": "al-I'rab al-Muyassar"
+   },
+   "author": {
+    "ar": "—",
+    "tr": "— (müellif bilgisi doğrulanacak)",
+    "en": "— (author to be confirmed)"
+   },
    "status": "pending",
    "entries": 0,
    "ayahs": 0
