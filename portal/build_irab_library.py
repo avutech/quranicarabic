@@ -1,0 +1,124 @@
+"""Build the per-ayah I'rab library index from the classical i'rab books.
+
+Source:  Irab Kitaplari/irab_kutuphane_*.json   (local only, gitignored)
+         Schema: {kod, kitap, muellif, vefat, girdiler:[{sure, ayet_bas, ayet_son, metin}]}
+Output:  irab_library/books.json                 catalog (committed)
+         irab_library/s001.json … s114.json      entries per surah (committed)
+
+Each surah file is {"surah": N, "entries": [{"b": book_id, "s": first_ayah,
+"e": last_ayah, "t": text}]}. An entry that covers a range of ayahs (e.g. 1:1–3)
+is stored once; the client shows it for every ayah with s <= ayah <= e.
+
+The output lives at the repo root, NOT under portal/, because portal/ is served
+publicly by the catch-all static route. The server exposes it only via the
+login-protected /api/irab-library endpoints.
+
+Run:  venv/bin/python build_irab_library.py
+"""
+
+import json
+import re
+import sys
+from pathlib import Path
+
+BASE_DIR = Path(__file__).parent.parent
+SRC_DIR = BASE_DIR / "Irab Kitaplari"
+OUT_DIR = BASE_DIR / "irab_library"
+
+# Display catalog, ordered chronologically by the author's death (hijri).
+# `source` = json file code for books that are already digital; PDF-only
+# books are listed with status "pending" until their OCR text is indexed.
+CATALOG = [
+    {"id": "farraa", "source": "farraa",
+     "title": {"ar": "معاني القرآن", "tr": "Meâni'l-Kur'ân", "en": "Ma'ani al-Qur'an"},
+     "author": {"ar": "أبو زكريا الفراء", "tr": "Ebû Zekeriyyâ el-Ferrâ", "en": "Abu Zakariyya al-Farra'"},
+     "death_h": 207, "death_m": 822},
+    {"id": "akhfash", "source": "akhfash",
+     "title": {"ar": "معاني القرآن", "tr": "Meâni'l-Kur'ân", "en": "Ma'ani al-Qur'an"},
+     "author": {"ar": "الأخفش الأوسط", "tr": "Ahfeş el-Evsat", "en": "al-Akhfash al-Awsat"},
+     "death_h": 215, "death_m": 830},
+    {"id": "zajjaj", "source": "zajjaj",
+     "title": {"ar": "معاني القرآن وإعرابه", "tr": "Meâni'l-Kur'ân ve İ'râbuh", "en": "Ma'ani al-Qur'an wa I'rabuh"},
+     "author": {"ar": "أبو إسحاق الزجاج", "tr": "Ebû İshâk ez-Zeccâc", "en": "Abu Ishaq al-Zajjaj"},
+     "death_h": 311, "death_m": 923},
+    {"id": "nahhas-irab", "source": "iraab-alnahas",
+     "title": {"ar": "إعراب القرآن", "tr": "İ'râbü'l-Kur'ân", "en": "I'rab al-Qur'an"},
+     "author": {"ar": "أبو جعفر النحاس", "tr": "Ebû Ca'fer en-Nahhâs", "en": "Abu Ja'far al-Nahhas"},
+     "death_h": 338, "death_m": 950},
+    {"id": "nahhas-meani", "source": "nahaas-meanings",
+     "title": {"ar": "معاني القرآن", "tr": "Meâni'l-Kur'ân", "en": "Ma'ani al-Qur'an"},
+     "author": {"ar": "أبو جعفر النحاس", "tr": "Ebû Ca'fer en-Nahhâs", "en": "Abu Ja'far al-Nahhas"},
+     "death_h": 338, "death_m": 950},
+    {"id": "mekki-muskil", "source": None,
+     "title": {"ar": "مشكل إعراب القرآن", "tr": "Müşkilü İ'râbi'l-Kur'ân", "en": "Mushkil I'rab al-Qur'an"},
+     "author": {"ar": "مكي بن أبي طالب القيسي", "tr": "Mekkî b. Ebû Tâlib", "en": "Makki ibn Abi Talib"},
+     "death_h": 437, "death_m": 1045},
+    {"id": "ukberi-tibyan", "source": None,
+     "title": {"ar": "التبيان في إعراب القرآن", "tr": "et-Tibyân fî İ'râbi'l-Kur'ân", "en": "al-Tibyan fi I'rab al-Qur'an"},
+     "author": {"ar": "أبو البقاء العكبري", "tr": "Ebü'l-Bekā el-Ukberî", "en": "Abu al-Baqa' al-'Ukbari"},
+     "death_h": 616, "death_m": 1219},
+    {"id": "semin-durr", "source": "aldur-almasoon",
+     "title": {"ar": "الدر المصون في علوم الكتاب المكنون", "tr": "ed-Dürrü'l-Masûn", "en": "al-Durr al-Masun"},
+     "author": {"ar": "السمين الحلبي", "tr": "es-Semîn el-Halebî", "en": "al-Samin al-Halabi"},
+     "death_h": 756, "death_m": 1355},
+    {"id": "safi-cedvel", "source": None,
+     "title": {"ar": "الجدول في إعراب القرآن", "tr": "el-Cedvel fî İ'râbi'l-Kur'ân", "en": "al-Jadwal fi I'rab al-Qur'an"},
+     "author": {"ar": "محمود صافي", "tr": "Mahmûd Sâfî", "en": "Mahmud Safi"},
+     "death_h": 1376, "death_m": 1956},
+    {"id": "dervis-irab", "source": None,
+     "title": {"ar": "إعراب القرآن وبيانه", "tr": "İ'râbu'l-Kur'ân ve Beyânuhu", "en": "I'rab al-Qur'an wa Bayanuh"},
+     "author": {"ar": "محيي الدين الدرويش", "tr": "Muhyiddîn ed-Derviş", "en": "Muhyi al-Din al-Darwish"},
+     "death_h": 1403, "death_m": 1982},
+]
+
+PAGE_MARKER = re.compile(r"\(p-[٠-٩0-9]+\)")   # printed-page markers (zajjaj)
+MULTISPACE = re.compile(r"[ \t]{2,}")
+
+
+def clean(text: str) -> str:
+    text = PAGE_MARKER.sub("", text)
+    text = MULTISPACE.sub(" ", text)
+    text = re.sub(r"\n{3,}", "\n\n", text)
+    return text.strip()
+
+
+def main():
+    if not SRC_DIR.is_dir():
+        sys.exit(f"source folder missing: {SRC_DIR}")
+    OUT_DIR.mkdir(exist_ok=True)
+
+    by_surah = {s: [] for s in range(1, 115)}
+    books_out = []
+    for book in CATALOG:
+        meta = {k: v for k, v in book.items() if k != "source"}
+        if not book["source"]:
+            books_out.append({**meta, "status": "pending", "entries": 0, "ayahs": 0})
+            continue
+        data = json.loads((SRC_DIR / f"irab_kutuphane_{book['source']}.json").read_text("utf-8"))
+        covered, n = set(), 0
+        for e in data["girdiler"]:
+            s, a, b = int(e["sure"]), int(e["ayet_bas"]), int(e["ayet_son"])
+            text = clean(e["metin"])
+            if not text or not (1 <= s <= 114) or b < a:
+                continue
+            by_surah[s].append({"b": book["id"], "s": a, "e": b, "t": text})
+            covered.update((s, x) for x in range(a, b + 1))
+            n += 1
+        books_out.append({**meta, "status": "ready", "source_site": data.get("kaynak", ""),
+                          "entries": n, "ayahs": len(covered)})
+        print(f"  {book['id']:14} {n:5} entries, {len(covered):5} ayahs")
+
+    order = {b["id"]: i for i, b in enumerate(CATALOG)}
+    for s, entries in by_surah.items():
+        entries.sort(key=lambda x: (order[x["b"]], x["s"]))
+        (OUT_DIR / f"s{s:03d}.json").write_text(
+            json.dumps({"surah": s, "entries": entries}, ensure_ascii=False, separators=(",", ":")),
+            "utf-8")
+    (OUT_DIR / "books.json").write_text(
+        json.dumps({"books": books_out}, ensure_ascii=False, indent=1), "utf-8")
+    total = sum(f.stat().st_size for f in OUT_DIR.glob("s*.json"))
+    print(f"wrote {OUT_DIR}/ — 114 surah files, {total / 1e6:.1f} MB")
+
+
+if __name__ == "__main__":
+    main()

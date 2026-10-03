@@ -864,8 +864,12 @@ const REFERENCE_TOPICS = [
     icon: '📖',
     irab: true,
     group: 'power',
-    title: { en: 'Verse Analysis (I\'rab)', tr: 'Ayet İ\'rabı', ar: 'إعراب الآية' },
-    desc: { en: 'Paste any Quranic verse to get a word-by-word grammatical analysis. Each grammar phenomenon links back to the relevant lesson in the 42-lesson curriculum.', tr: 'Kelime kelime gramer analizi için herhangi bir Kur\'an ayetini yapıştırın. Her gramer olgusu, 42 derslik müfredattaki ilgili derse bağlanır.', ar: 'الصق أي آية لتحليلها نحوياً كلمة بكلمة. كل ظاهرة نحوية مرتبطة بالدرس المعني من بين الـ ٤٢ درساً.' },
+    title: { en: 'I\'rab Library', tr: 'İ\'rab Kütüphanesi', ar: 'مكتبة الإعراب' },
+    desc: {
+      en: 'Pick a surah and ayah to read what the classical i\'rab books say about it — each book listed with its title and author, in the original Arabic (with a Turkish reading where available).',
+      tr: 'Bir sûre ve ayet seç; klasik i\'rab kitaplarının o ayet hakkında söylediklerini oku — her kitap adı ve müellifiyle, Arapça aslıyla (hazır olanlarda Türkçe okumasıyla) listelenir.',
+      ar: 'اختر سورة وآية لتقرأ ما قالته كتب الإعراب المعتمدة فيها — كل كتاب بعنوانه ومؤلفه، بالنص العربي الأصلي (مع قراءة تركية حيث توفرت).'
+    },
     pdfs: []
   },
   {
@@ -879,33 +883,6 @@ const REFERENCE_TOPICS = [
       en: 'Admin-only. Add per-lesson resources (PDFs, images, audio, links, notes) that students see in their unlocked lessons.',
       tr: 'Yalnızca yönetici. Her ders için ek kaynak (PDF, görsel, ses, bağlantı, not) ekle. Öğrenciler kilidi açık derslerde bunları görür.',
       ar: 'للمشرف فقط. أضف موارد لكل درس (PDF، صور، صوت، روابط، ملاحظات). يراها الطلاب في الدروس المفتوحة لهم.'
-    },
-    pdfs: []
-  },
-  {
-    id: 'irab-compare',
-    icon: '🔀',
-    irabCompare: true,
-    group: 'power',
-    title: { en: 'I\'rab AI Compare', tr: 'İ\'rab Yapay Zekâ Karşılaştırma', ar: 'مقارنة الإعراب بالذكاء الاصطناعي' },
-    desc: {
-      en: 'Run the same verse through Gemini and ChatGPT side-by-side. See where the models agree and where they differ — useful for cross-checking grammatical analysis.',
-      tr: 'Aynı ayeti Gemini ve ChatGPT ile yan yana analiz et. Modellerin nerede aynı, nerede farklı sonuç verdiğini gör — gramer analizini çapraz kontrol için kullanışlı.',
-      ar: 'حلّل نفس الآية بمحركَي Gemini و ChatGPT جنباً إلى جنب. شاهد أين تتفق النماذج وأين تختلف — مفيد للتحقق المتقاطع للتحليل النحوي.'
-    },
-    pdfs: []
-  },
-  {
-    id: 'irab-compare-grounded',
-    icon: '🎓',
-    irabCompare: true,
-    irabCompareGrounded: true,
-    group: 'power',
-    title: { en: 'Curriculum-Limited I\'rab', tr: 'Müfredatla Sınırlı İ\'rab', ar: 'الإعراب ضمن المنهج' },
-    desc: {
-      en: 'I\'rab analysis powered by Gemini, locked to ONLY the 42-week curriculum via a context cache — no outside grammatical knowledge. Targeted and consistent with exactly what students are taught.',
-      tr: 'Gemini ile İ\'rab analizi — bağlam önbelleği sayesinde YALNIZCA 42 haftalık müfredatla sınırlı, dışarıdan gramer bilgisi yok. Öğrencilere öğretilenle birebir tutarlı, hedefli sonuç.',
-      ar: 'تحليل الإعراب بمحرك Gemini، محصور في منهج الـ ٤٢ أسبوعاً فقط عبر ذاكرة سياق مخزّنة — دون معرفة نحوية خارجية. نتائج مركّزة ومتوافقة تماماً مع ما يتعلمه الطلاب.'
     },
     pdfs: []
   },

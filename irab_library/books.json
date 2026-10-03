@@ -1,0 +1,190 @@
+{
+ "books": [
+  {
+   "id": "farraa",
+   "title": {
+    "ar": "معاني القرآن",
+    "tr": "Meâni'l-Kur'ân",
+    "en": "Ma'ani al-Qur'an"
+   },
+   "author": {
+    "ar": "أبو زكريا الفراء",
+    "tr": "Ebû Zekeriyyâ el-Ferrâ",
+    "en": "Abu Zakariyya al-Farra'"
+   },
+   "death_h": 207,
+   "death_m": 822,
+   "status": "ready",
+   "source_site": "tafsir.app",
+   "entries": 2779,
+   "ayahs": 2968
+  },
+  {
+   "id": "akhfash",
+   "title": {
+    "ar": "معاني القرآن",
+    "tr": "Meâni'l-Kur'ân",
+    "en": "Ma'ani al-Qur'an"
+   },
+   "author": {
+    "ar": "الأخفش الأوسط",
+    "tr": "Ahfeş el-Evsat",
+    "en": "al-Akhfash al-Awsat"
+   },
+   "death_h": 215,
+   "death_m": 830,
+   "status": "ready",
+   "source_site": "tafsir.app",
+   "entries": 1149,
+   "ayahs": 1210
+  },
+  {
+   "id": "zajjaj",
+   "title": {
+    "ar": "معاني القرآن وإعرابه",
+    "tr": "Meâni'l-Kur'ân ve İ'râbuh",
+    "en": "Ma'ani al-Qur'an wa I'rabuh"
+   },
+   "author": {
+    "ar": "أبو إسحاق الزجاج",
+    "tr": "Ebû İshâk ez-Zeccâc",
+    "en": "Abu Ishaq al-Zajjaj"
+   },
+   "death_h": 311,
+   "death_m": 923,
+   "status": "ready",
+   "source_site": "tafsir.app",
+   "entries": 3989,
+   "ayahs": 4054
+  },
+  {
+   "id": "nahhas-irab",
+   "title": {
+    "ar": "إعراب القرآن",
+    "tr": "İ'râbü'l-Kur'ân",
+    "en": "I'rab al-Qur'an"
+   },
+   "author": {
+    "ar": "أبو جعفر النحاس",
+    "tr": "Ebû Ca'fer en-Nahhâs",
+    "en": "Abu Ja'far al-Nahhas"
+   },
+   "death_h": 338,
+   "death_m": 950,
+   "status": "ready",
+   "source_site": "tafsir.app",
+   "entries": 4534,
+   "ayahs": 5109
+  },
+  {
+   "id": "nahhas-meani",
+   "title": {
+    "ar": "معاني القرآن",
+    "tr": "Meâni'l-Kur'ân",
+    "en": "Ma'ani al-Qur'an"
+   },
+   "author": {
+    "ar": "أبو جعفر النحاس",
+    "tr": "Ebû Ca'fer en-Nahhâs",
+    "en": "Abu Ja'far al-Nahhas"
+   },
+   "death_h": 338,
+   "death_m": 950,
+   "status": "ready",
+   "source_site": "tafsir.app",
+   "entries": 2641,
+   "ayahs": 2682
+  },
+  {
+   "id": "mekki-muskil",
+   "title": {
+    "ar": "مشكل إعراب القرآن",
+    "tr": "Müşkilü İ'râbi'l-Kur'ân",
+    "en": "Mushkil I'rab al-Qur'an"
+   },
+   "author": {
+    "ar": "مكي بن أبي طالب القيسي",
+    "tr": "Mekkî b. Ebû Tâlib",
+    "en": "Makki ibn Abi Talib"
+   },
+   "death_h": 437,
+   "death_m": 1045,
+   "status": "pending",
+   "entries": 0,
+   "ayahs": 0
+  },
+  {
+   "id": "ukberi-tibyan",
+   "title": {
+    "ar": "التبيان في إعراب القرآن",
+    "tr": "et-Tibyân fî İ'râbi'l-Kur'ân",
+    "en": "al-Tibyan fi I'rab al-Qur'an"
+   },
+   "author": {
+    "ar": "أبو البقاء العكبري",
+    "tr": "Ebü'l-Bekā el-Ukberî",
+    "en": "Abu al-Baqa' al-'Ukbari"
+   },
+   "death_h": 616,
+   "death_m": 1219,
+   "status": "pending",
+   "entries": 0,
+   "ayahs": 0
+  },
+  {
+   "id": "semin-durr",
+   "title": {
+    "ar": "الدر المصون في علوم الكتاب المكنون",
+    "tr": "ed-Dürrü'l-Masûn",
+    "en": "al-Durr al-Masun"
+   },
+   "author": {
+    "ar": "السمين الحلبي",
+    "tr": "es-Semîn el-Halebî",
+    "en": "al-Samin al-Halabi"
+   },
+   "death_h": 756,
+   "death_m": 1355,
+   "status": "ready",
+   "source_site": "tafsir.app",
+   "entries": 4596,
+   "ayahs": 4596
+  },
+  {
+   "id": "safi-cedvel",
+   "title": {
+    "ar": "الجدول في إعراب القرآن",
+    "tr": "el-Cedvel fî İ'râbi'l-Kur'ân",
+    "en": "al-Jadwal fi I'rab al-Qur'an"
+   },
+   "author": {
+    "ar": "محمود صافي",
+    "tr": "Mahmûd Sâfî",
+    "en": "Mahmud Safi"
+   },
+   "death_h": 1376,
+   "death_m": 1956,
+   "status": "pending",
+   "entries": 0,
+   "ayahs": 0
+  },
+  {
+   "id": "dervis-irab",
+   "title": {
+    "ar": "إعراب القرآن وبيانه",
+    "tr": "İ'râbu'l-Kur'ân ve Beyânuhu",
+    "en": "I'rab al-Qur'an wa Bayanuh"
+   },
+   "author": {
+    "ar": "محيي الدين الدرويش",
+    "tr": "Muhyiddîn ed-Derviş",
+    "en": "Muhyi al-Din al-Darwish"
+   },
+   "death_h": 1403,
+   "death_m": 1982,
+   "status": "pending",
+   "entries": 0,
+   "ayahs": 0
+  }
+ ]
+}
