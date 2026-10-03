@@ -15,7 +15,15 @@
    "death_h": 207,
    "death_m": 822,
    "status": "ready",
-   "source_site": "tafsir.app",
+   "source": {
+    "site": "tafsir.app",
+    "code": "farraa",
+    "file": "irab_kutuphane_farraa.json",
+    "title_in_source": "معاني القرآن",
+    "author_in_source": "أبو زكريا الفراء",
+    "downloaded_at": "2026-10-03T19:05:02.951Z",
+    "note": "Muhakkik dipnotları ([[...]]) çıkarıldı; yalnızca müellif metni."
+   },
    "entries": 2779,
    "ayahs": 2968
   },
@@ -34,7 +42,15 @@
    "death_h": 215,
    "death_m": 830,
    "status": "ready",
-   "source_site": "tafsir.app",
+   "source": {
+    "site": "tafsir.app",
+    "code": "akhfash",
+    "file": "irab_kutuphane_akhfash.json",
+    "title_in_source": "معاني القرآن",
+    "author_in_source": "أبو الحسن الأخفش الأوسط",
+    "downloaded_at": "2026-10-03T18:48:55.922Z",
+    "note": "Muhakkik dipnotları ([[...]]) çıkarıldı; yalnızca müellif metni."
+   },
    "entries": 1149,
    "ayahs": 1210
   },
@@ -53,7 +69,15 @@
    "death_h": 311,
    "death_m": 923,
    "status": "ready",
-   "source_site": "tafsir.app",
+   "source": {
+    "site": "tafsir.app",
+    "code": "zajjaj",
+    "file": "irab_kutuphane_zajjaj.json",
+    "title_in_source": "معاني القرآن وإعرابه",
+    "author_in_source": "أبو إسحاق الزجاج",
+    "downloaded_at": "2026-10-03T19:27:28.934Z",
+    "note": "Muhakkik dipnotları ([[...]]) çıkarıldı; yalnızca müellif metni."
+   },
    "entries": 3989,
    "ayahs": 4054
   },
@@ -72,7 +96,15 @@
    "death_h": 338,
    "death_m": 950,
    "status": "ready",
-   "source_site": "tafsir.app",
+   "source": {
+    "site": "tafsir.app",
+    "code": "iraab-alnahas",
+    "file": "irab_kutuphane_iraab-alnahas.json",
+    "title_in_source": "إعراب القرآن",
+    "author_in_source": "أبو جعفر النحاس",
+    "downloaded_at": "2026-10-03T19:53:17.946Z",
+    "note": "Muhakkik dipnotları ([[...]]) çıkarıldı; yalnızca müellif metni."
+   },
    "entries": 4534,
    "ayahs": 5109
   },
@@ -91,7 +123,15 @@
    "death_h": 338,
    "death_m": 950,
    "status": "ready",
-   "source_site": "tafsir.app",
+   "source": {
+    "site": "tafsir.app",
+    "code": "nahaas-meanings",
+    "file": "irab_kutuphane_nahaas-meanings.json",
+    "title_in_source": "معاني القرآن",
+    "author_in_source": "أبو جعفر النحاس",
+    "downloaded_at": "2026-10-03T20:07:36.529Z",
+    "note": "Muhakkik dipnotları ([[...]]) çıkarıldı; yalnızca müellif metni."
+   },
    "entries": 2641,
    "ayahs": 2682
   },
@@ -146,7 +186,15 @@
    "death_h": 756,
    "death_m": 1355,
    "status": "ready",
-   "source_site": "tafsir.app",
+   "source": {
+    "site": "tafsir.app",
+    "code": "aldur-almasoon",
+    "file": "irab_kutuphane_aldur-almasoon.json",
+    "title_in_source": "الدر المصون في علوم الكتاب المكنون",
+    "author_in_source": "السمين الحلبي",
+    "downloaded_at": "2026-10-03T20:22:52.945Z",
+    "note": "Muhakkik dipnotları ([[...]]) çıkarıldı; yalnızca müellif metni."
+   },
    "entries": 4596,
    "ayahs": 4596
   },

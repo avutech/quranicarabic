@@ -16,6 +16,7 @@ login-protected /api/irab-library endpoints.
 Run:  venv/bin/python build_irab_library.py
 """
 
+import hashlib
 import json
 import re
 import sys
@@ -101,23 +102,73 @@ def main():
             text = clean(e["metin"])
             if not text or not (1 <= s <= 114) or b < a:
                 continue
-            by_surah[s].append({"b": book["id"], "s": a, "e": b, "t": text})
+            # Every entry carries its own source reference so any i'rab shown
+            # can be traced to the exact book, source and page it came from.
+            ref = {"site": data.get("kaynak", ""), "code": book["source"],
+                   "file": f"irab_kutuphane_{book['source']}.json"}
+            if ref["site"] == "tafsir.app":
+                ref["url"] = f"https://tafsir.app/{book['source']}/{s}/{a}"
+            by_surah[s].append({"b": book["id"], "s": a, "e": b, "t": text, "ref": ref})
             covered.update((s, x) for x in range(a, b + 1))
             n += 1
-        books_out.append({**meta, "status": "ready", "source_site": data.get("kaynak", ""),
+        books_out.append({**meta, "status": "ready",
+                          "source": {"site": data.get("kaynak", ""), "code": book["source"],
+                                     "file": f"irab_kutuphane_{book['source']}.json",
+                                     "title_in_source": data.get("kitap", ""),
+                                     "author_in_source": data.get("muellif", ""),
+                                     "downloaded_at": data.get("indirilme", ""),
+                                     "note": data.get("not", "")},
                           "entries": n, "ayahs": len(covered)})
         print(f"  {book['id']:14} {n:5} entries, {len(covered):5} ayahs")
 
     order = {b["id"]: i for i, b in enumerate(CATALOG)}
     for s, entries in by_surah.items():
         entries.sort(key=lambda x: (order[x["b"]], x["s"]))
-        (OUT_DIR / f"s{s:03d}.json").write_text(
-            json.dumps({"surah": s, "entries": entries}, ensure_ascii=False, separators=(",", ":")),
-            "utf-8")
-    (OUT_DIR / "books.json").write_text(
-        json.dumps({"books": books_out}, ensure_ascii=False, indent=1), "utf-8")
+        write_atomic(OUT_DIR / f"s{s:03d}.json",
+                     json.dumps({"surah": s, "entries": entries}, ensure_ascii=False, separators=(",", ":")))
+    write_atomic(OUT_DIR / "books.json", json.dumps({"books": books_out}, ensure_ascii=False, indent=1))
     total = sum(f.stat().st_size for f in OUT_DIR.glob("s*.json"))
     print(f"wrote {OUT_DIR}/ — 114 surah files, {total / 1e6:.1f} MB")
+    merge_translations()
+
+
+def merge_translations():
+    """Merge irab_library/tr_parts/<book>/sNNN.json (written via tr_tool.py)
+    into irab_library/tr/sNNN.json, the file the server reads."""
+    merged, stale = {}, []
+    for f in sorted((OUT_DIR / "tr_parts").glob("*/s*.json")):
+        surah = int(f.stem[1:])
+        sources = {f"{e['b']}:{e['s']}-{e['e']}": e["t"]
+                   for e in json.loads((OUT_DIR / f.name).read_text("utf-8"))["entries"]}
+        for key, reading in json.loads(f.read_text("utf-8")).items():
+            if key not in sources:
+                stale.append(f"{key} (s{surah}): source entry no longer exists")
+                continue
+            sha = hashlib.sha1(sources[key].encode("utf-8")).hexdigest()
+            src = reading.get("src")
+            if not src:   # saved before provenance was recorded — backfill from the key
+                book, rng = key.split(":")
+                first, last = (int(x) for x in rng.split("-"))
+                src = {"book": book, "sure": surah, "ayet_bas": first, "ayet_son": last,
+                       "sha1": sha, "backfilled": True}
+            reading = {**reading, "src": src, "stale": src["sha1"] != sha}
+            if reading["stale"]:
+                stale.append(f"{key} (s{surah}): Arabic source changed since translation")
+            merged.setdefault(f.name, {})[key] = reading
+    tr_dir = OUT_DIR / "tr"
+    tr_dir.mkdir(exist_ok=True)
+    for name, readings in merged.items():
+        write_atomic(tr_dir / name, json.dumps(readings, ensure_ascii=False, separators=(",", ":")))
+    print(f"merged Turkish readings: {sum(len(r) for r in merged.values())} entries in {len(merged)} surahs")
+    for msg in stale:
+        print(f"  STALE {msg}")
+
+
+def write_atomic(path, text):
+    """Write via a temp file + rename so readers (server, tr_tool) never see a partial file."""
+    tmp = path.with_suffix(path.suffix + ".tmp")
+    tmp.write_text(text, "utf-8")
+    tmp.replace(path)
 
 
 if __name__ == "__main__":

@@ -811,6 +811,8 @@
   .lib-text-ar .q { color: var(--green); font-family: 'Amiri Quran', 'Amiri', serif; }
   .lib-text-tr { font-size: 0.98rem; line-height: 1.75; white-space: pre-wrap; margin-top: 10px; }
   .lib-tr-note { font-size: 0.75rem; color: var(--muted); margin-top: 10px; font-style: italic; }
+  .lib-cite { font-size: 0.75rem; color: var(--muted); margin-top: 12px; padding-top: 8px; border-top: 1px dashed var(--border); line-height: 1.6; }
+  .lib-cite a { color: var(--green); }
   .lib-missing { font-size: 0.82rem; color: var(--muted); margin-top: 14px; line-height: 1.6; }
   @media (max-width: 600px) {
     .lib-verse { padding: 14px 16px; }
@@ -1267,6 +1269,9 @@ const I18N = {
     libHasTr: 'Turkish',
     libTrUnreviewed: 'Turkish reading prepared for students; not yet reviewed by the teacher. The Arabic original is authoritative.',
     libTrReviewed: 'Turkish reading reviewed by the teacher.',
+    libSource: 'Source',
+    libTrBy: 'Turkish reading',
+    libTrStale: 'The Arabic source changed after this translation — needs re-checking.',
     scSelfFill: 'Self Fill',
     scAnalyze: 'Analyze My Answers',
     scAnalyzing: 'Checking…',
@@ -1507,6 +1512,9 @@ const I18N = {
     libHasTr: 'Türkçe',
     libTrUnreviewed: 'Öğrenciler için hazırlanan Türkçe okuma; henüz hoca tarafından gözden geçirilmedi. Esas olan Arapça metindir.',
     libTrReviewed: 'Türkçe okuma hoca tarafından gözden geçirildi.',
+    libSource: 'Kaynak',
+    libTrBy: 'Türkçe okuma',
+    libTrStale: 'Arapça kaynak bu çeviriden sonra değişti — yeniden kontrol gerekli.',
     scSelfFill: 'Kendin Doldur',
     scAnalyze: 'Cevaplarımı Analiz Et',
     scAnalyzing: 'Kontrol ediliyor…',
@@ -1747,6 +1755,9 @@ const I18N = {
     libHasTr: 'تركي',
     libTrUnreviewed: 'قراءة تركية للطلاب، لم يراجعها المدرّس بعد. المعتمد هو النص العربي.',
     libTrReviewed: 'راجع المدرّس القراءة التركية.',
+    libSource: 'المصدر',
+    libTrBy: 'القراءة التركية',
+    libTrStale: 'تغيّر النص العربي بعد هذه الترجمة — تحتاج إلى مراجعة.',
     scSelfFill: 'املأ بنفسك',
     scAnalyze: 'حلّل إجاباتي',
     scAnalyzing: 'جارٍ التحقق…',
@@ -4447,6 +4458,15 @@ function libHighlightQuran(escaped) {
   return escaped.replace(/﴿[^﴾]*﴾/g, m => `<span class="q">${m}</span>`);
 }
 
+function libCitation(b, e, surah) {
+  // Full reference for this exact entry — every i'rab shown must be traceable.
+  const ref = e.ref || {};
+  const range = e.e > e.s ? `${surah}:${e.s}–${e.e}` : `${surah}:${e.s}`;
+  const died = b.death_h ? ` (${t('libDied')} ${b.death_h}/${b.death_m})` : '';
+  const link = ref.url ? ` · <a href="${escapeHtml(ref.url)}" target="_blank" rel="noopener">${escapeHtml(ref.site)} ↗</a>` : (ref.site ? ` · ${escapeHtml(ref.site)}` : '');
+  return `<div class="lib-cite"><strong>${escapeHtml(t('libSource'))}:</strong> ${escapeHtml(libLocal(b.author))}${escapeHtml(died)}, <span dir="rtl">${escapeHtml(b.title.ar || '')}</span>, ${escapeHtml(range)}${link}</div>`;
+}
+
 function libSetTab(btn, which) {
   const body = btn.closest('.lib-body');
   body.querySelectorAll('.lib-tab').forEach(b => b.classList.toggle('active', b === btn));
@@ -4473,7 +4493,8 @@ function renderLibraryAyah(surah, ayah, verse, entries, books) {
     const trBlock = e.tr ? `
         <div class="lib-tr-wrap" hidden>
           <div class="lib-text-tr">${escapeHtml(e.tr.t)}</div>
-          <div class="lib-tr-note">${escapeHtml(e.tr.reviewed ? t('libTrReviewed') : t('libTrUnreviewed'))}</div>
+          <div class="lib-tr-note">${escapeHtml(e.tr.reviewed ? t('libTrReviewed') : t('libTrUnreviewed'))}${e.tr.stale ? ` <strong style="color:#b45309">${escapeHtml(t('libTrStale'))}</strong>` : ''}</div>
+          <div class="lib-cite">${escapeHtml(t('libTrBy'))}: ${escapeHtml(e.tr.by || '—')}${e.tr.at ? ` · ${escapeHtml(e.tr.at.slice(0, 10))}` : ''} · ${escapeHtml(e.b)}:${e.s}-${e.e}</div>
         </div>` : '';
     return `
       <details class="lib-book"${i === 0 ? ' open' : ''}>
@@ -4486,6 +4507,7 @@ function renderLibraryAyah(surah, ayah, verse, entries, books) {
         </summary>
         <div class="lib-body">${tabs}
           <div class="lib-text-ar">${libHighlightQuran(escapeHtml(e.t))}</div>${trBlock}
+          ${libCitation(b, e, surah)}
         </div>
       </details>`;
   }).join('');
