@@ -75,13 +75,17 @@ Provenance: every entry carries `ref` (site, code, file, URL; page numbers where
 - Celâleyn
 - el-Harrât
 - el-Cedvel (Sâfî)
+- Derviş
 - all 77,429 word meanings
 
-Review lists: `tr_review_wave7.md`, `tr_review_wave8.md` and `tr_review_wave9.md`.
+That is 28,428 Turkish book readings on staging. Review lists: `tr_review_wave7.md` … `tr_review_wave10.md`.
 
-**Still running when this was written:** Derviş, surahs 2–77.
+**Not started:** the classical commentaries for surahs 2–77. They are done only for Fatiha and Juz 'Amma.
+- **Books:** Ferrâ, Ahfeş, Zeccâc, Nahhâs ×2, Mekkî, Ukberî, Semîn.
+- **Size:** about 18M Arabic characters, roughly 270 agent packages. Semîn alone is about 7M.
+- **Your decision:** whether and which.
 
-**Not started:** the classical commentaries for surahs 2–77 (Ferrâ, Ahfeş, Zeccâc, Nahhâs ×2, Mekkî, Ukberî, Semîn). These are your decision; Semîn alone is very large.
+**Biggest recurring review decision:** a policy for short bracketed completions and translator notes (see waves 7–10). One decision covers every book.
 
 **Decisions for you:**
 1. Review lists `irab_library/tr_review_wave1.md` … `wave7.md`. The main open policies:
