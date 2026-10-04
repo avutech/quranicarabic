@@ -74,11 +74,14 @@ Provenance: every entry carries `ref` (site, code, file, URL; page numbers where
 - el-Müyesser
 - Celâleyn
 - el-Harrât
+- el-Cedvel (Sâfî)
 - all 77,429 word meanings
 
-Review lists: `tr_review_wave7.md` and `tr_review_wave8.md`.
+Review lists: `tr_review_wave7.md`, `tr_review_wave8.md` and `tr_review_wave9.md`.
 
-**Still running when this was written:** el-Cedvel (Sâfî), surahs 2–77.
+**Still running when this was written:** Derviş, surahs 2–77.
+
+**Not started:** the classical commentaries for surahs 2–77 (Ferrâ, Ahfeş, Zeccâc, Nahhâs ×2, Mekkî, Ukberî, Semîn). These are your decision; Semîn alone is very large.
 
 **Decisions for you:**
 1. Review lists `irab_library/tr_review_wave1.md` … `wave7.md`. The main open policies:
