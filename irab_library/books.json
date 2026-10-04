@@ -205,12 +205,10 @@
     "en": "Tafsir al-Jalalayn"
    },
    "author": {
-    "ar": "جلال الدين المحلي وجلال الدين السيوطي",
-    "tr": "Celâleddîn el-Mahallî (ö. 864) ve Celâleddîn es-Suyûtî",
-    "en": "Jalal al-Din al-Mahalli (d. 864) & Jalal al-Din al-Suyuti"
+    "ar": "جلال الدين المحلي (ت 864) وجلال الدين السيوطي (ت 911)",
+    "tr": "Celâleddîn el-Mahallî (ö. 864) ve Celâleddîn es-Suyûtî (ö. 911)",
+    "en": "Jalal al-Din al-Mahalli (d. 864) & Jalal al-Din al-Suyuti (d. 911)"
    },
-   "death_h": 911,
-   "death_m": 1505,
    "status": "ready",
    "source": {
     "site": "local",
@@ -369,11 +367,11 @@
     "en": "al-I'rab al-Muyassar"
    },
    "author": {
-    "ar": "—",
-    "tr": "— (müellif bilgisi doğrulanacak)",
-    "en": "— (author to be confirmed)"
+    "ar": "الدار العربية",
+    "tr": "ed-Dâru'l-Arabiyye",
+    "en": "Al-Dar Al-Arabiyya"
    },
-   "catalog_note": "tafsir.app müellif vermiyor. Yerel PDF (el-İ'râbu'l-Müyesser/141110p.pdf) üst verisi: «إعراب القرآن الكريم الميسر» — محمد الطيب الإبراهيم. Aynı eser olduğu doğrulanmadı.",
+   "catalog_note": "Müellif/yayıncı bilgisi tafsir.app'teki eser sayfasından alınmıştır.",
    "status": "ready",
    "source": {
     "site": "tafsir.app",
@@ -387,5 +385,53 @@
    "entries": 6236,
    "ayahs": 6236
   }
- ]
+ ],
+ "meals": [
+  {
+   "id": "77",
+   "name": "Diyanet İşleri",
+   "author": "Diyanet Isleri"
+  },
+  {
+   "id": "52",
+   "name": "Elmalılı Hamdi Yazır",
+   "author": "Elmalili Hamdi Yazir"
+  },
+  {
+   "id": "124",
+   "name": "Muslim Shahin",
+   "author": "Muslim Shahin"
+  },
+  {
+   "id": "112",
+   "name": "Shaban Britch",
+   "author": "Shaban Britch"
+  },
+  {
+   "id": "210",
+   "name": "Dar Al-Salam Center",
+   "author": "Dar Al-Salam Center"
+  }
+ ],
+ "word_sources": {
+  "words": {
+   "name": "quran.com",
+   "url": "https://quran.com",
+   "fields": "kelime, transliterasyon, İngilizce anlam, Türkçe mealler",
+   "fetched_at": "2026-10-04T02:11:27.641333+00:00"
+  },
+  "morphology": {
+   "name": "Quranic Arabic Corpus (v0.4, Kais Dukes, GNU GPL)",
+   "url": "https://corpus.quran.com",
+   "fields": "dilbilgisi etiketleri, kök"
+  },
+  "text": {
+   "name": "Tanzil Quran Text (Uthmani 1.0.2)",
+   "url": "https://tanzil.info"
+  },
+  "tr_words": {
+   "name": "Claude (makine çevirisi)",
+   "fields": "Türkçe kelime anlamları"
+  }
+ }
 }

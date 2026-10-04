@@ -1,0 +1,922 @@
+{
+ "1:1": {
+  "t": "-mi?",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "هَلْ",
+   "en": "Has",
+   "sha1": "df61b2aff76f0b8db2bc74b227a6277ce7aaa8ec"
+  }
+ },
+ "1:2": {
+  "t": "sana geldi",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "أَتَىٰكَ",
+   "en": "(there) come to you",
+   "sha1": "82429847835e380e1843165e745ec4b0f8c43d1d"
+  }
+ },
+ "1:3": {
+  "t": "haberi",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "حَدِيثُ",
+   "en": "(the) news",
+   "sha1": "5b6abcec988c66eef3412123bc325767ea0cacfb"
+  }
+ },
+ "1:4": {
+  "t": "Gâşiye'nin (kuşatıcı olayın)",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "ٱلْغَـٰشِيَةِ",
+   "en": "(of) the Overwhelming",
+   "sha1": "9d4d75125d25f1dc48f6fa25a275a82d8c6e1aff"
+  }
+ },
+ "2:1": {
+  "t": "yüzler",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "وُجُوهٌۭ",
+   "en": "Faces",
+   "sha1": "e6f93db420845408b54235ddcbe0a96e78b842f1"
+  }
+ },
+ "2:2": {
+  "t": "o gün",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "يَوْمَئِذٍ",
+   "en": "that Day",
+   "sha1": "9576c180c0319525132fa52efa80e091498c73af"
+  }
+ },
+ "2:3": {
+  "t": "zelil (boyun büküktür)",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "خَـٰشِعَةٌ",
+   "en": "(will be) humbled",
+   "sha1": "bc58cb17826b5bdcdea74720956960ed8ea431ed"
+  }
+ },
+ "3:1": {
+  "t": "çalışmış",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "عَامِلَةٌۭ",
+   "en": "Laboring",
+   "sha1": "38e3b7f67308bbe71f859184a620586f9dff754c"
+  }
+ },
+ "3:2": {
+  "t": "yorgun düşmüştür",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "نَّاصِبَةٌۭ",
+   "en": "exhausted",
+   "sha1": "ba936ca748ff22b7e89e766c7f04db47f1a1c141"
+  }
+ },
+ "4:1": {
+  "t": "girer",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "تَصْلَىٰ",
+   "en": "They will burn",
+   "sha1": "5d938e2257744339a3a65059128834bdf348a5fb"
+  }
+ },
+ "4:2": {
+  "t": "bir ateşe",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "نَارًا",
+   "en": "(in) a Fire",
+   "sha1": "60baddcba4c61e979cca88bb67f903fcffd5f555"
+  }
+ },
+ "4:3": {
+  "t": "kızgın",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "حَامِيَةًۭ",
+   "en": "intensely hot",
+   "sha1": "65f54f11638f2eb688b157e59c5949426406c904"
+  }
+ },
+ "5:1": {
+  "t": "içirilir",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "تُسْقَىٰ",
+   "en": "They will be given to drink",
+   "sha1": "2a3f9103bea2e66919b5cc3bc6e2951504f34454"
+  }
+ },
+ "5:2": {
+  "t": "-den",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "مِنْ",
+   "en": "from",
+   "sha1": "510da2689bdb4f4a74ad9d7089cdb9a3da651da5"
+  }
+ },
+ "5:3": {
+  "t": "bir kaynak",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "عَيْنٍ",
+   "en": "a spring",
+   "sha1": "f7ef9ef2ede6957701f704d00a76063fa7294187"
+  }
+ },
+ "5:4": {
+  "t": "kaynar",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "ءَانِيَةٍۢ",
+   "en": "boiling",
+   "sha1": "06b0eb0c2f9f935a1739426b490c8e1039ae7ebf"
+  }
+ },
+ "6:1": {
+  "t": "yoktur",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "لَّيْسَ",
+   "en": "Not is",
+   "sha1": "9268b341346395e097c59c4393f6cca1b9d760c7"
+  }
+ },
+ "6:2": {
+  "t": "onlar için",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "لَهُمْ",
+   "en": "for them",
+   "sha1": "be412e3a96f2859fa227581ca174d2c5173399d6"
+  }
+ },
+ "6:3": {
+  "t": "yiyecek",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "طَعَامٌ",
+   "en": "food",
+   "sha1": "665113ebe4662ec47fd1acac38fd48ec170b607a"
+  }
+ },
+ "6:4": {
+  "t": "başka",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "إِلَّا",
+   "en": "except",
+   "sha1": "1a80e7f48761e72a9708e5923e0d39a47ed558ee"
+  }
+ },
+ "6:5": {
+  "t": "-den",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "مِن",
+   "en": "from",
+   "sha1": "59d07841d539ea5b474fd0076fdcd79cab793b8a"
+  }
+ },
+ "6:6": {
+  "t": "darî' (dikenli bitki)",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "ضَرِيعٍۢ",
+   "en": "a bitter thorny plant",
+   "sha1": "4965b0739c1e4d41009ba46832c1819df20e0453"
+  }
+ },
+ "7:1": {
+  "t": "-mez",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "لَّا",
+   "en": "Not",
+   "sha1": "bec6ab19dcfd07880129b5e041d21cfc3b72e218"
+  }
+ },
+ "7:2": {
+  "t": "besle(mez)",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "يُسْمِنُ",
+   "en": "it nourishes",
+   "sha1": "8aeb1a68861eb0418bf3c24e9242b2b9a6144308"
+  }
+ },
+ "7:3": {
+  "t": "ve -mez",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "وَلَا",
+   "en": "and not",
+   "sha1": "ee2ced695d8cbd937bc0e60f0d1c203b41793d67"
+  }
+ },
+ "7:4": {
+  "t": "gider(mez)",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "يُغْنِى",
+   "en": "it avails",
+   "sha1": "325cd9e0c9cc8703936a6c32460700ea28302541"
+  }
+ },
+ "7:5": {
+  "t": "-i",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "مِن",
+   "en": "from",
+   "sha1": "59d07841d539ea5b474fd0076fdcd79cab793b8a"
+  }
+ },
+ "7:6": {
+  "t": "açlığ(ı)",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "جُوعٍۢ",
+   "en": "hunger",
+   "sha1": "ca613e5da3fc869502780b1c9588338579593e64"
+  }
+ },
+ "8:1": {
+  "t": "yüzler",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "وُجُوهٌۭ",
+   "en": "Faces",
+   "sha1": "e6f93db420845408b54235ddcbe0a96e78b842f1"
+  }
+ },
+ "8:2": {
+  "t": "o gün",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "يَوْمَئِذٍۢ",
+   "en": "that Day",
+   "sha1": "de85a3f384be6ed9329e5778a55cfef129868e27"
+  }
+ },
+ "8:3": {
+  "t": "nimetlerle sevinçlidir",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "نَّاعِمَةٌۭ",
+   "en": "(will be) joyful",
+   "sha1": "a74750ba579e150bf063ecf0ea2ad7fad959e423"
+  }
+ },
+ "9:1": {
+  "t": "çabasından dolayı",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "لِّسَعْيِهَا",
+   "en": "With their effort",
+   "sha1": "944a59ce6f5d090b5d1a4bffdb66d9cc1f747d0c"
+  }
+ },
+ "9:2": {
+  "t": "hoşnuttur",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "رَاضِيَةٌۭ",
+   "en": "satisfied",
+   "sha1": "1aea62e8a41d70b9828575dca352e65d3f12210a"
+  }
+ },
+ "10:1": {
+  "t": "-de",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "فِى",
+   "en": "In",
+   "sha1": "5c289446367fa57bd7041bd7a2ee891f0fe7f352"
+  }
+ },
+ "10:2": {
+  "t": "bir cennet",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "جَنَّةٍ",
+   "en": "a garden",
+   "sha1": "8a0a46cef722f956c408ef1eb1fec22c7db04745"
+  }
+ },
+ "10:3": {
+  "t": "yüce",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "عَالِيَةٍۢ",
+   "en": "elevated",
+   "sha1": "30256546d8b202badb48629fcf0f6e6b4ba98788"
+  }
+ },
+ "11:1": {
+  "t": "-mez",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "لَّا",
+   "en": "Not",
+   "sha1": "bec6ab19dcfd07880129b5e041d21cfc3b72e218"
+  }
+ },
+ "11:2": {
+  "t": "işit(mez)",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "تَسْمَعُ",
+   "en": "they will hear",
+   "sha1": "38135cd56c9566edf10ecb87bed9d945e726b417"
+  }
+ },
+ "11:3": {
+  "t": "orada",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "فِيهَا",
+   "en": "therein",
+   "sha1": "07bdfbef1101c701078e768a2ab5d1171524460c"
+  }
+ },
+ "11:4": {
+  "t": "boş bir söz",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "لَـٰغِيَةًۭ",
+   "en": "vain talk",
+   "sha1": "c506df51d832d5ea5f18724c9ca213992a3f4c6c"
+  }
+ },
+ "12:1": {
+  "t": "orada",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "فِيهَا",
+   "en": "Therein",
+   "sha1": "7a0547bfa38843b2d9fdac2b0e51182b9a356710"
+  }
+ },
+ "12:2": {
+  "t": "bir kaynak vardır",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "عَيْنٌۭ",
+   "en": "(will be) a spring",
+   "sha1": "a052b5523642d2712cc6b407089d099c78a34a14"
+  }
+ },
+ "12:3": {
+  "t": "akan",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "جَارِيَةٌۭ",
+   "en": "flowing",
+   "sha1": "431610ba8a981c41ea7e77e81f02fffb82942404"
+  }
+ },
+ "13:1": {
+  "t": "orada",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "فِيهَا",
+   "en": "Therein",
+   "sha1": "7a0547bfa38843b2d9fdac2b0e51182b9a356710"
+  }
+ },
+ "13:2": {
+  "t": "tahtlar vardır",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "سُرُرٌۭ",
+   "en": "(will be) thrones",
+   "sha1": "9cfdecca680e4990a87b3e9eef34ba302c1abc40"
+  }
+ },
+ "13:3": {
+  "t": "yükseltilmiş",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "مَّرْفُوعَةٌۭ",
+   "en": "raised high",
+   "sha1": "4764ca29e0142d89f20458dc045f5a7fc2994923"
+  }
+ },
+ "14:1": {
+  "t": "ve kadehler",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "وَأَكْوَابٌۭ",
+   "en": "And cups",
+   "sha1": "2f6d94e909bd1c873a921b8cf064b782705d9caf"
+  }
+ },
+ "14:2": {
+  "t": "konulmuş",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "مَّوْضُوعَةٌۭ",
+   "en": "put in place",
+   "sha1": "9b2e9964243d8ab56318e1fb7be8646b46c9e68c"
+  }
+ },
+ "15:1": {
+  "t": "ve yastıklar",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "وَنَمَارِقُ",
+   "en": "And cushions",
+   "sha1": "6d2985e3675549e9a88a9703f50174eedc87803a"
+  }
+ },
+ "15:2": {
+  "t": "sıra sıra dizilmiş",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "مَصْفُوفَةٌۭ",
+   "en": "lined up",
+   "sha1": "2800cd2fd9aee1920f9774b43d1067da6d1b5d86"
+  }
+ },
+ "16:1": {
+  "t": "ve halılar",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "وَزَرَابِىُّ",
+   "en": "And carpets",
+   "sha1": "0c8a8d7500b5a6e13f2d8bf4fb38b3e65b9154e6"
+  }
+ },
+ "16:2": {
+  "t": "serilmiş",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "مَبْثُوثَةٌ",
+   "en": "spread out",
+   "sha1": "689ef353d0a8940c55ff56e487058bae99d75b39"
+  }
+ },
+ "17:1": {
+  "t": "hâlâ -mazlar mı?",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "أَفَلَا",
+   "en": "Then do not",
+   "sha1": "e798c797e5f490508d938257198eee3eaeae0776"
+  }
+ },
+ "17:2": {
+  "t": "bakmıyorlar mı",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "يَنظُرُونَ",
+   "en": "they look",
+   "sha1": "066911f24e02e12982cc270a5c8ce78b23209b54"
+  }
+ },
+ "17:3": {
+  "t": "-e",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "إِلَى",
+   "en": "towards",
+   "sha1": "a98874162f24c36d6cd94f528dcd33dfa0ac26a0"
+  }
+ },
+ "17:4": {
+  "t": "develer(e)",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "ٱلْإِبِلِ",
+   "en": "the camels",
+   "sha1": "80852bf733275022d3a01749c2d0be4c1ab35458"
+  }
+ },
+ "17:5": {
+  "t": "nasıl",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "كَيْفَ",
+   "en": "how",
+   "sha1": "0b46f29caec8e0e3d78513acb468c5e5df47fdce"
+  }
+ },
+ "17:6": {
+  "t": "yaratıldı",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "خُلِقَتْ",
+   "en": "they are created",
+   "sha1": "f5bce43eb11be52312cf963b262be6ee9ef20c3c"
+  }
+ },
+ "18:1": {
+  "t": "ve -e",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "وَإِلَى",
+   "en": "And towards",
+   "sha1": "50d3f70c3b11501cfb7a6fccdbcf9f4cf002fb47"
+  }
+ },
+ "18:2": {
+  "t": "göğ(e)",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "ٱلسَّمَآءِ",
+   "en": "the sky",
+   "sha1": "805b1cf99084036449c1e08c9f8fa3fc295421fe"
+  }
+ },
+ "18:3": {
+  "t": "nasıl",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "كَيْفَ",
+   "en": "how",
+   "sha1": "0b46f29caec8e0e3d78513acb468c5e5df47fdce"
+  }
+ },
+ "18:4": {
+  "t": "yükseltildi",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "رُفِعَتْ",
+   "en": "it is raised",
+   "sha1": "4984988bd1bf4912b0e597d79b5a186e03dcbec4"
+  }
+ },
+ "19:1": {
+  "t": "ve -e",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "وَإِلَى",
+   "en": "And towards",
+   "sha1": "50d3f70c3b11501cfb7a6fccdbcf9f4cf002fb47"
+  }
+ },
+ "19:2": {
+  "t": "dağlar(a)",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "ٱلْجِبَالِ",
+   "en": "the mountains",
+   "sha1": "a8f3ff45fc57b58bf0e11abf54a842bcbbeb6899"
+  }
+ },
+ "19:3": {
+  "t": "nasıl",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "كَيْفَ",
+   "en": "how",
+   "sha1": "0b46f29caec8e0e3d78513acb468c5e5df47fdce"
+  }
+ },
+ "19:4": {
+  "t": "dikildi",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "نُصِبَتْ",
+   "en": "they are fixed",
+   "sha1": "4edb2aa048bdbdb7920162d38368b376dd8bc722"
+  }
+ },
+ "20:1": {
+  "t": "ve -e",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "وَإِلَى",
+   "en": "And towards",
+   "sha1": "50d3f70c3b11501cfb7a6fccdbcf9f4cf002fb47"
+  }
+ },
+ "20:2": {
+  "t": "yer(e)",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "ٱلْأَرْضِ",
+   "en": "the earth",
+   "sha1": "d8c44dca9b4c5ada76b7a9f5d636c6f00ba25900"
+  }
+ },
+ "20:3": {
+  "t": "nasıl",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "كَيْفَ",
+   "en": "how",
+   "sha1": "0b46f29caec8e0e3d78513acb468c5e5df47fdce"
+  }
+ },
+ "20:4": {
+  "t": "yayıldı",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "سُطِحَتْ",
+   "en": "it is spread out",
+   "sha1": "8695c1bae83c74387c5484a26d3e99ba456722d4"
+  }
+ },
+ "21:1": {
+  "t": "o halde öğüt ver",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "فَذَكِّرْ",
+   "en": "So remind",
+   "sha1": "f173e753576d594a83b8522072d51805bd9c874f"
+  }
+ },
+ "21:2": {
+  "t": "ancak",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "إِنَّمَآ",
+   "en": "only",
+   "sha1": "2167115e62b3b59a32569ca94df331f92665f615"
+  }
+ },
+ "21:3": {
+  "t": "sen",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "أَنتَ",
+   "en": "you",
+   "sha1": "3859d6c06b0cf9064046afb9237ac95b1135e08c"
+  }
+ },
+ "21:4": {
+  "t": "bir öğüt vericisin",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "مُذَكِّرٌۭ",
+   "en": "(are) a reminder",
+   "sha1": "96ac3f35cfd78a291268b8ca5dba7cf4eb094cc1"
+  }
+ },
+ "22:1": {
+  "t": "değilsin",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "لَّسْتَ",
+   "en": "You are not",
+   "sha1": "630258c8096cac4bfeedf0194400c30414b69a3e"
+  }
+ },
+ "22:2": {
+  "t": "onların üzerinde",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "عَلَيْهِم",
+   "en": "over them",
+   "sha1": "d25a748dfba8ef111d450eb8af1a4e4a1af92d89"
+  }
+ },
+ "22:3": {
+  "t": "bir zorba (zorlayıcı)",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "بِمُصَيْطِرٍ",
+   "en": "a controller",
+   "sha1": "4986dcd4e78607c93f65600855c2766e5ffb318d"
+  }
+ },
+ "23:1": {
+  "t": "ancak",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "إِلَّا",
+   "en": "But",
+   "sha1": "3349c5cf83b7186be1709e341eb9d15027e48aeb"
+  }
+ },
+ "23:2": {
+  "t": "kim",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "مَن",
+   "en": "whoever",
+   "sha1": "b2da6ed13f0205a97c72f6edcaef8c679218605a"
+  }
+ },
+ "23:3": {
+  "t": "yüz çevirir",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "تَوَلَّىٰ",
+   "en": "turns away",
+   "sha1": "f632817df90acd36484db3e7ce104eed2d91ce77"
+  }
+ },
+ "23:4": {
+  "t": "ve inkâr ederse",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "وَكَفَرَ",
+   "en": "and disbelieves",
+   "sha1": "8f52f259b4f33c321d93b493eae33c3db7904859"
+  }
+ },
+ "24:1": {
+  "t": "artık onu azaplandırır",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "فَيُعَذِّبُهُ",
+   "en": "Then will punish him",
+   "sha1": "b922bc93aa54468b93c7ade54229ea4829629834"
+  }
+ },
+ "24:2": {
+  "t": "Allah",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "ٱللَّهُ",
+   "en": "Allah",
+   "sha1": "ddee91d65b0f83b2d85af2fc5652dc6e7bfc3f83"
+  }
+ },
+ "24:3": {
+  "t": "azapla",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "ٱلْعَذَابَ",
+   "en": "(with) the punishment",
+   "sha1": "64b65aa830b68d1179afaf295b70951086978aa3"
+  }
+ },
+ "24:4": {
+  "t": "en büyük",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "ٱلْأَكْبَرَ",
+   "en": "greatest",
+   "sha1": "7a2df18682c18a66cb89b8bd005f8807ffdffaca"
+  }
+ },
+ "25:1": {
+  "t": "şüphesiz",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "إِنَّ",
+   "en": "Indeed",
+   "sha1": "e55db5bae7af62d6bd4968fb5744a46ff288b7f3"
+  }
+ },
+ "25:2": {
+  "t": "bizedir",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:16:58+00:00",
+  "src": {
+   "ar": "إِلَيْنَآ",
+   "en": "to Us",
+   "sha1": "a2e8323e5cc461612b27275ca92ba9367f915fe7"
+  }
+ },
+ "25:3": {
+  "t": "onların dönüşü",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "إِيَابَهُمْ",
+   "en": "(will be) their return",
+   "sha1": "373a6cb2cb0a0ccec7e20d61f849c0d99bf82f73"
+  }
+ },
+ "26:1": {
+  "t": "sonra",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "ثُمَّ",
+   "en": "Then",
+   "sha1": "bc4ae42e9bd6b890fcf1c754818bc9593bd924ea"
+  }
+ },
+ "26:2": {
+  "t": "şüphesiz",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "إِنَّ",
+   "en": "indeed",
+   "sha1": "51147cf9275e10785e23cafa5a0d449d6548beca"
+  }
+ },
+ "26:3": {
+  "t": "bize aittir",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:16:58+00:00",
+  "src": {
+   "ar": "عَلَيْنَا",
+   "en": "upon Us",
+   "sha1": "9610b772b28093394d023dc549100b9537aa1ac3"
+  }
+ },
+ "26:4": {
+  "t": "onların hesabı",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:15:00+00:00",
+  "src": {
+   "ar": "حِسَابَهُم",
+   "en": "(is) their account",
+   "sha1": "0ee152b455f1ce39f2e9e0c0a0e76582148f3ad0"
+  }
+ }
+}

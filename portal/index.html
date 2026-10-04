@@ -806,15 +806,50 @@
   .lib-tab.active { background: var(--green); border-color: var(--green); color: #fff; font-weight: 600; }
   .lib-text-ar {
     font-family: 'Amiri', 'Scheherazade New', serif; font-size: 1.3rem; line-height: 2;
-    direction: rtl; text-align: right; white-space: pre-wrap; color: var(--dark); margin-top: 8px;
+    direction: rtl; text-align: right; color: var(--dark); margin-top: 8px;
   }
   .lib-text-ar .fn { color: var(--mid); font-size: 0.85em; }
   .lib-text-ar .q { color: var(--green); font-family: 'Amiri Quran', 'Amiri', serif; }
-  .lib-text-tr { font-size: 0.98rem; line-height: 1.75; white-space: pre-wrap; margin-top: 10px; }
+  .lib-text-tr { line-height: 1.75; margin-top: 10px; }
   .lib-tr-note { font-size: 0.75rem; color: var(--muted); margin-top: 10px; font-style: italic; }
   .lib-section { font-size: 0.78rem; font-weight: 700; color: var(--green); text-transform: uppercase; letter-spacing: 0.06em; margin: 18px 0 8px; }
   .lib-book.tafsir { border-color: var(--gold-light); }
   .lib-book.tafsir[open] > summary { background: #fdf6e3; }
+
+  /* word-by-word grid (one box per word, in ayah order, right to left) */
+  .lib-words { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); margin: 0 0 16px; }
+  .lib-words > summary { cursor: pointer; padding: 12px 16px; font-weight: 700; color: var(--green); }
+  .wgrid { display: flex; flex-wrap: wrap; gap: 10px; padding: 4px 14px 14px; }
+  .wbox { flex: 0 1 132px; min-width: 112px; border-top: 2px dashed var(--border); padding: 8px 6px 4px; text-align: center;
+          display: flex; flex-direction: column; gap: 3px; direction: ltr; font-size: calc(0.82rem * var(--lib-scale, 1)); line-height: 1.35; }
+  .wbox .w-ar { font-family: 'Amiri Quran', 'Amiri', serif; font-size: calc(1.6rem * var(--lib-scale, 1)); color: var(--green); direction: rtl; line-height: 1.6; }
+  .wbox .w-tl { color: #7c3aed; font-style: italic; }
+  .wbox .w-tr { color: #b91c1c; font-weight: 600; }
+  .wbox .w-en { color: #15803d; }
+  .wbox .w-pa { color: #0f766e; font-family: 'Amiri', serif; font-size: 1.05em; }
+  .wbox .w-pt { color: #c2410c; }
+  .wbox .w-dt { color: #6b21a8; font-size: 0.92em; }
+  .wbox .w-root { font-family: 'Amiri', serif; font-weight: 700; color: var(--dark); letter-spacing: 0.15em; }
+  /* meal */
+  .lib-meal { margin-top: 12px; border-top: 1px dashed var(--border); padding-top: 10px; }
+  .lib-meal-head { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-size: 0.8rem; color: var(--muted); }
+  .lib-meal-head select { padding: 4px 8px; border: 1px solid var(--border); border-radius: 6px; font-family: inherit; background: var(--card); color: var(--dark); }
+  .lib-meal-text { margin-top: 6px; font-size: calc(1rem * var(--lib-scale, 1)); line-height: 1.6; }
+  /* book text, line by line */
+  .lib-line { margin: 2px 0 6px; }
+  .lib-line.lib-sec { font-weight: 700; color: var(--gold); margin-top: 12px; }
+  .lib-text-ar .lib-line { font-size: calc(1.3rem * var(--lib-scale, 1)); }
+  .lib-text-tr .lib-line { font-size: calc(0.98rem * var(--lib-scale, 1)); }
+  .lib-head { color: #1d4ed8; font-weight: 700; font-family: 'Amiri Quran', 'Amiri', serif; }
+  .lib-book-sub { font-weight: 500; color: var(--mid); }
+  .lib-tools { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+  .lib-tools .btn-secondary { padding: 5px 10px; font-size: 0.78rem; }
+  .lib-about { display: grid; grid-template-columns: max-content 1fr; gap: 4px 12px; font-size: 0.8rem; margin: 10px 0 0;
+               background: var(--bg); border-radius: 8px; padding: 10px 12px; }
+  .lib-about[hidden] { display: none; }
+  .lib-about dt { font-weight: 700; color: var(--muted); }
+  .lib-about dd { margin: 0; }
+  @media (max-width: 600px) { .wbox { flex-basis: 30%; min-width: 96px; } .lib-about { grid-template-columns: 1fr; } }
   .lib-cite { font-size: 0.75rem; color: var(--muted); margin-top: 12px; padding-top: 8px; border-top: 1px dashed var(--border); line-height: 1.6; }
   .lib-cite a { color: var(--green); }
   .lib-missing { font-size: 0.82rem; color: var(--muted); margin-top: 14px; line-height: 1.6; }
@@ -1274,6 +1309,13 @@ const I18N = {
     libTrUnreviewed: 'Turkish reading prepared for students; not yet reviewed by the teacher. The Arabic original is authoritative.',
     libTrReviewed: 'Turkish reading reviewed by the teacher.',
     libSource: 'Source',
+    libWords: 'Word by word', libMeal: 'Translation', libPrevSrc: 'Previous source', libNextSrc: 'Next source',
+    libCopy: 'Copy', libCopied: 'Copied ✓', libAbout: 'About the source',
+    libAboutTitle: 'Title', libAboutAuthor: 'Author', libAboutSource: 'Source', libAboutFile: 'File',
+    libAboutDownloaded: 'Downloaded', libAboutCoverage: 'Coverage', libAboutNote: 'Note',
+    libCoverage: '{entries} entries, {ayahs} ayahs',
+    libWordsSrcWords: 'words, transliteration, English', libWordsSrcMorph: 'grammar, root',
+    libWordsSrcText: 'Quran text', libWordsSrcTr: 'Turkish word meanings',
     libPage: 'page',
     libTafsir: 'Tafsir',
     libIrabBooks: 'I\'rab books',
@@ -1520,6 +1562,13 @@ const I18N = {
     libTrUnreviewed: 'Öğrenciler için hazırlanan Türkçe okuma; henüz hoca tarafından gözden geçirilmedi. Esas olan Arapça metindir.',
     libTrReviewed: 'Türkçe okuma hoca tarafından gözden geçirildi.',
     libSource: 'Kaynak',
+    libWords: 'Kelime kelime tahlil', libMeal: 'Meal', libPrevSrc: 'Önceki kaynak', libNextSrc: 'Sonraki kaynak',
+    libCopy: 'Kopyala', libCopied: 'Kopyalandı ✓', libAbout: 'Kaynak hakkında',
+    libAboutTitle: 'Eser', libAboutAuthor: 'Müellif', libAboutSource: 'Kaynak', libAboutFile: 'Dosya',
+    libAboutDownloaded: 'İndirilme', libAboutCoverage: 'Kapsam', libAboutNote: 'Not',
+    libCoverage: '{entries} kayıt, {ayahs} ayet',
+    libWordsSrcWords: 'kelime, okunuş, İngilizce', libWordsSrcMorph: 'dilbilgisi, kök',
+    libWordsSrcText: 'Kur\'an metni', libWordsSrcTr: 'Türkçe kelime anlamları',
     libPage: 'sayfa',
     libTafsir: 'Tefsir',
     libIrabBooks: 'İ\'rab kitapları',
@@ -1766,6 +1815,13 @@ const I18N = {
     libTrUnreviewed: 'قراءة تركية للطلاب، لم يراجعها المدرّس بعد. المعتمد هو النص العربي.',
     libTrReviewed: 'راجع المدرّس القراءة التركية.',
     libSource: 'المصدر',
+    libWords: 'إعراب الكلمات', libMeal: 'الترجمة', libPrevSrc: 'المصدر السابق', libNextSrc: 'المصدر التالي',
+    libCopy: 'نسخ', libCopied: 'تم النسخ ✓', libAbout: 'عن المصدر',
+    libAboutTitle: 'الكتاب', libAboutAuthor: 'المؤلف', libAboutSource: 'المصدر', libAboutFile: 'الملف',
+    libAboutDownloaded: 'تاريخ التنزيل', libAboutCoverage: 'التغطية', libAboutNote: 'ملاحظة',
+    libCoverage: '{entries} موضعًا، {ayahs} آية',
+    libWordsSrcWords: 'الكلمات والنطق والإنجليزية', libWordsSrcMorph: 'الصرف والجذر',
+    libWordsSrcText: 'نص القرآن', libWordsSrcTr: 'معاني الكلمات بالتركية',
     libPage: 'صفحة',
     libTafsir: 'التفسير',
     libIrabBooks: 'كتب الإعراب',
@@ -4292,6 +4348,7 @@ function renderIrab(ref) {
       <div class="irab-results" id="irab-results"></div>
     </div>`;
 
+  try { const sc = localStorage.getItem('lib_scale'); if (sc) document.getElementById('irab-results').style.setProperty('--lib-scale', sc); } catch (e) {}
   populateSurahDropdown();
   fetchLibraryBooks().catch(() => {});
 }
@@ -4411,7 +4468,7 @@ async function fetchLibraryBooks() {
   if (libraryBooks) return libraryBooks;
   const res = await fetch('/api/irab-library/books');
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
-  libraryBooks = (await res.json()).books || [];
+  libraryBooks = await res.json();   // {books, meals, word_sources}
   return libraryBooks;
 }
 
@@ -4449,7 +4506,7 @@ async function loadVerse() {
       fetch(`/api/irab-library/${surah}/${ayah}`).then(r => r.ok ? r.json() : Promise.reject(new Error(`HTTP ${r.status}`))),
     ]);
     if (mySeq !== irabLoadSeq) return;
-    results.innerHTML = renderLibraryAyah(surah, ayah, verse, lib.entries || [], books);
+    results.innerHTML = renderLibraryAyah(surah, ayah, verse, lib.entries || [], books, lib.words, lib.meals);
   } catch (e) {
     if (mySeq !== irabLoadSeq) return;
     results.innerHTML = `<div class="feedback-box error">${escapeHtml(e.message)}</div>`;
@@ -4473,6 +4530,39 @@ function libHighlightQuran(escaped) {
                 .replace(/\[\[([\s\S]*?)\]\]/g, (_, n) => `<span class="fn">[${n}]</span>`);
 }
 
+// Books whose entries are word-by-word lists written inline; a new line starts
+// at each discussed word so the text can be followed word by word.
+const LIB_INLINE_HEADS = {
+  'daas-irab': /([.،,؛]\s+)(?=﴿)/g,
+  'safi-cedvel': /(\s)(?=\((?![^)]{40})[^)]+\)\s)/g,
+};
+
+function libLines(text, bookId) {
+  // Split an entry into display lines; a leading ﴿…﴾ / «…» / (…) becomes the line's head.
+  let t = text;
+  const re = LIB_INLINE_HEADS[bookId];
+  if (re) {
+    // never split inside a [[…]] footnote
+    t = t.split(/(\[\[[\s\S]*?\]\])/).map((part, i) => i % 2 ? part : part.replace(re, '$1\n')).join('');
+  }
+  return t.split('\n').map(line => line.trim()).filter(Boolean).map(line => {
+    if (/^\*\s*\S.*:$/.test(line)) return `<div class="lib-line lib-sec">${escapeHtml(line.replace(/^\*\s*/, ''))}</div>`;
+    const m = line.match(/^(﴿[^﴾]{1,80}﴾|«[^»]{1,80}»|\([^)]{1,60}\))\s*:?\s*/);
+    if (!m) return `<div class="lib-line">${libHighlightQuran(escapeHtml(line))}</div>`;
+    return `<div class="lib-line"><span class="lib-head">${escapeHtml(m[1])}</span> ${libHighlightQuran(escapeHtml(line.slice(m[0].length)))}</div>`;
+  }).join('');
+}
+
+function libCitationText(b, e, surah) {
+  // Plain-text form of the citation (used for copy): book, author, ayah range, source location.
+  const ref = e.ref || {};
+  const range = e.e > e.s ? `${surah}:${e.s}–${e.e}` : `${surah}:${e.s}`;
+  const died = b.death_h ? ` (${t('libDied')} ${b.death_h}/${b.death_m})` : '';
+  const pp = ref.print_pages ? `, ${t('libPage')} ${ref.print_pages[0]}${ref.print_pages[1] !== ref.print_pages[0] ? '–' + ref.print_pages[1] : ''}` : '';
+  const loc = ref.url || [ref.file, ref.page_in_file ? `${t('libPage')} ${ref.page_in_file}` : '', ref.paragraph ? `¶${ref.paragraph}` : ''].filter(Boolean).join(', ');
+  return `${t('libSource')}: ${libLocal(b.author)}${died}, ${b.title.ar || ''}, ${range}${pp} — ${loc}`;
+}
+
 function libCitation(b, e, surah) {
   // Full reference for this exact entry — every i'rab shown must be traceable.
   const ref = e.ref || {};
@@ -4487,6 +4577,21 @@ function libCitation(b, e, surah) {
   return `<div class="lib-cite"><strong>${escapeHtml(t('libSource'))}:</strong> ${escapeHtml(libLocal(b.author))}${escapeHtml(died)}, <span dir="rtl">${escapeHtml(b.title.ar || '')}</span>, ${escapeHtml(range)}${link}</div>`;
 }
 
+function libAbout(b) {
+  // Everything the catalog knows about this source.
+  const src = b.source || {};
+  const rows = [
+    [t('libAboutTitle'), `<span dir="rtl">${escapeHtml(b.title.ar || '')}</span> — ${escapeHtml(libLocal(b.title))}`],
+    [t('libAboutAuthor'), `${escapeHtml(libLocal(b.author))}${b.death_h ? ` (${t('libDied')} ${b.death_h}/${b.death_m})` : ''}`],
+    [t('libAboutSource'), [src.site, src.code].filter(Boolean).map(escapeHtml).join(' · ')],
+    [t('libAboutFile'), escapeHtml(src.file || '')],
+    [t('libAboutDownloaded'), escapeHtml((src.downloaded_at || '').slice(0, 10))],
+    [t('libAboutCoverage'), escapeHtml(t('libCoverage').replace('{entries}', b.entries).replace('{ayahs}', b.ayahs))],
+    [t('libAboutNote'), escapeHtml([src.note, b.catalog_note].filter(Boolean).join(' · '))],
+  ].filter(([, v]) => v);
+  return `<dl class="lib-about" hidden>${rows.map(([k, v]) => `<dt>${escapeHtml(k)}</dt><dd>${v}</dd>`).join('')}</dl>`;
+}
+
 function libSetTab(btn, which) {
   const body = btn.closest('.lib-body');
   body.querySelectorAll('.lib-tab').forEach(b => b.classList.toggle('active', b === btn));
@@ -4494,8 +4599,82 @@ function libSetTab(btn, which) {
   body.querySelector('.lib-tr-wrap').hidden = which !== 'tr';
 }
 
-function renderLibraryAyah(surah, ayah, verse, entries, books) {
-  const byId = Object.fromEntries(books.map(b => [b.id, b]));
+function libStep(btn, dir) {
+  // Open and scroll to the previous / next source card.
+  const cards = [...document.querySelectorAll('#irab-results details.lib-book')];
+  const i = cards.indexOf(btn.closest('details.lib-book'));
+  const next = cards[i + dir];
+  if (!next) return;
+  next.open = true;
+  next.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function libFont(delta) {
+  const root = document.getElementById('irab-results');
+  const cur = parseFloat(getComputedStyle(root).getPropertyValue('--lib-scale')) || 1;
+  const v = Math.min(1.6, Math.max(0.8, Math.round((cur + delta) * 10) / 10));
+  root.style.setProperty('--lib-scale', v);
+  try { localStorage.setItem('lib_scale', String(v)); } catch (e) {}
+}
+
+function libCopy(btn) {
+  // Copies the visible text together with its citation, so a quote never travels without its source.
+  const body = btn.closest('.lib-body');
+  const trShown = body.querySelector('.lib-tr-wrap') && !body.querySelector('.lib-tr-wrap').hidden;
+  const textEl = trShown ? body.querySelector('.lib-text-tr') : body.querySelector('.lib-text-ar');
+  const lines = [...textEl.querySelectorAll('.lib-line')].map(l => l.innerText.trim());
+  const cite = body.dataset.cite || '';
+  const extra = trShown ? body.querySelector('.lib-tr-wrap .lib-cite').innerText : '';
+  const done = () => { const o = btn.textContent; btn.textContent = t('libCopied'); setTimeout(() => btn.textContent = o, 1500); };
+  navigator.clipboard.writeText([lines.join('\n'), '', cite, extra].filter(x => x !== undefined).join('\n').trim()).then(done, () => {});
+}
+
+function libToggleAbout(btn) {
+  const about = btn.closest('.lib-body').querySelector('.lib-about');
+  about.hidden = !about.hidden;
+}
+
+let libMealId = (() => { try { return localStorage.getItem('lib_meal') || '77'; } catch (e) { return '77'; } })();
+
+function libSetMeal(id) {
+  libMealId = id;
+  try { localStorage.setItem('lib_meal', id); } catch (e) {}
+  const box = document.getElementById('lib-meal-text');
+  if (box && box.dataset.meals) box.textContent = JSON.parse(box.dataset.meals)[id] || '';
+}
+
+function renderLibraryWords(words, books) {
+  if (!words || !words.length) return '';
+  const src = books.word_sources || {};
+  const hasTr = words.some(w => w.tr);
+  const boxes = words.map(w => `
+      <div class="wbox">
+        <div class="w-ar">${escapeHtml(w.ar)}</div>
+        <div class="w-tl">${escapeHtml(w.tl)}</div>
+        ${w.tr ? `<div class="w-tr">${escapeHtml(w.tr)}</div>` : ''}
+        <div class="w-en">${escapeHtml(w.en)}</div>
+        <div class="w-pa" dir="rtl">${escapeHtml(w.pa)}</div>
+        <div class="w-pt">${escapeHtml(w.pt)}</div>
+        ${w.dt ? `<div class="w-dt">${escapeHtml(w.dt)}</div>` : ''}
+        ${w.r ? `<div class="w-root" dir="rtl">${escapeHtml(w.r)}</div>` : ''}
+      </div>`).join('');
+  const s = (k) => src[k] ? `<a href="${escapeHtml(src[k].url || '#')}" target="_blank" rel="noopener">${escapeHtml(src[k].name)}</a>` : '';
+  return `
+    <details class="lib-words" open>
+      <summary>${escapeHtml(t('libWords'))}</summary>
+      <div class="wgrid" dir="rtl">${boxes}</div>
+      <div class="lib-cite"><strong>${escapeHtml(t('libSource'))}:</strong>
+        ${escapeHtml(t('libWordsSrcWords'))}: ${s('words')} ·
+        ${escapeHtml(t('libWordsSrcMorph'))}: ${s('morphology')} ·
+        ${escapeHtml(t('libWordsSrcText'))}: ${s('text')}
+        ${hasTr ? ` · ${escapeHtml(t('libWordsSrcTr'))}: ${escapeHtml((src.tr_words || {}).name || '')}` : ''}
+      </div>
+    </details>`;
+}
+
+function renderLibraryAyah(surah, ayah, verse, entries, books, words, meals) {
+  const catalog = books.books || books;
+  const byId = Object.fromEntries(catalog.map(b => [b.id, b]));
   const ch = quranChapters && quranChapters.find(c => c.id === surah);
   const surahName = ch ? `${ch.name_simple} (${ch.name_arabic})` : `${surah}`;
 
@@ -4507,7 +4686,7 @@ function renderLibraryAyah(surah, ayah, verse, entries, books) {
     const range = e.e > e.s ? `<span class="lib-badge">${escapeHtml(t('libRange').replace('{from}', e.s).replace('{to}', e.e))}</span>` : '';
     const trBadge = e.tr ? `<span class="lib-badge tr">${escapeHtml(t('libHasTr'))}</span>` : '';
     const died = b.death_h ? ` · ${escapeHtml(t('libDied'))} ${b.death_h}/${b.death_m}` : '';
-    const subTitle = lang === 'ar' ? '' : ` <span style="font-weight:500;color:var(--mid)">— ${escapeHtml(libLocal(b.title))}</span>`;
+    const subTitle = lang === 'ar' ? '' : ` <span class="lib-book-sub">— ${escapeHtml(libLocal(b.title))}</span>`;
     const tabs = e.tr ? `
         <div class="lib-tabs">
           <button class="lib-tab active" onclick="libSetTab(this,'ar')">العربية</button>
@@ -4515,7 +4694,7 @@ function renderLibraryAyah(surah, ayah, verse, entries, books) {
         </div>` : '';
     const trBlock = e.tr ? `
         <div class="lib-tr-wrap" hidden>
-          <div class="lib-text-tr">${escapeHtml(e.tr.t)}</div>
+          <div class="lib-text-tr">${libLines(e.tr.t, e.b)}</div>
           <div class="lib-tr-note">${escapeHtml(e.tr.reviewed ? t('libTrReviewed') : t('libTrUnreviewed'))}${e.tr.stale ? ` <strong style="color:#b45309">${escapeHtml(t('libTrStale'))}</strong>` : ''}</div>
           <div class="lib-cite">${escapeHtml(t('libTrBy'))}: ${escapeHtml(e.tr.by || '—')}${e.tr.at ? ` · ${escapeHtml(e.tr.at.slice(0, 10))}` : ''} · ${escapeHtml(e.b)}:${e.s}-${e.e}</div>
         </div>` : '';
@@ -4528,9 +4707,18 @@ function renderLibraryAyah(surah, ayah, verse, entries, books) {
           </div>
           ${range}${trBadge}
         </summary>
-        <div class="lib-body">${tabs}
-          <div class="lib-text-ar">${libHighlightQuran(escapeHtml(e.t))}</div>${trBlock}
+        <div class="lib-body" data-cite="${escapeHtml(libCitationText(b, e, surah))}">${tabs}
+          <div class="lib-text-ar">${libLines(e.t, e.b)}</div>${trBlock}
           ${libCitation(b, e, surah)}
+          ${libAbout(b)}
+          <div class="lib-tools">
+            <button class="btn-secondary" onclick="libStep(this,-1)">↑ ${escapeHtml(t('libPrevSrc'))}</button>
+            <button class="btn-secondary" onclick="libStep(this,1)">↓ ${escapeHtml(t('libNextSrc'))}</button>
+            <button class="btn-secondary" onclick="libFont(-0.1)" title="A−">A−</button>
+            <button class="btn-secondary" onclick="libFont(0.1)" title="A+">A+</button>
+            <button class="btn-secondary" onclick="libCopy(this)">${escapeHtml(t('libCopy'))}</button>
+            <button class="btn-secondary" onclick="libToggleAbout(this)">${escapeHtml(t('libAbout'))}</button>
+          </div>
         </div>
       </details>`;
   };
@@ -4538,7 +4726,7 @@ function renderLibraryAyah(surah, ayah, verse, entries, books) {
   const cards = irab.map((e, i) => card(e, i === 0)).join('');
 
   const present = new Set(entries.map(e => e.b));
-  const irabBooks = books.filter(b => b.kind !== 'tafsir');
+  const irabBooks = catalog.filter(b => b.kind !== 'tafsir');
   const ready = irabBooks.filter(b => b.status === 'ready' && !present.has(b.id));
   const pending = irabBooks.filter(b => b.status !== 'ready');
   const names = list => list.map(b => `${escapeHtml(libLocal(b.author))} (${escapeHtml(b.title.ar)})`).join(' · ');
@@ -4547,11 +4735,28 @@ function renderLibraryAyah(surah, ayah, verse, entries, books) {
     pending.length ? `<div><strong>${escapeHtml(t('libPending'))}:</strong> ${names(pending)}</div>` : '',
   ].join('');
 
+  // Meal (Turkish translation of the ayah), selectable; each option names its translator.
+  const mealList = (books.meals || []).filter(m => meals && meals[m.id]);
+  if (mealList.length && !meals[libMealId]) libMealId = mealList[0].id;
+  const mealBlock = mealList.length ? `
+      <div class="lib-meal">
+        <div class="lib-meal-head">
+          <label for="lib-meal-sel">${escapeHtml(t('libMeal'))}</label>
+          <select id="lib-meal-sel" onchange="libSetMeal(this.value)">
+            ${mealList.map(m => `<option value="${escapeHtml(m.id)}"${m.id === libMealId ? ' selected' : ''}>${escapeHtml(m.name)}</option>`).join('')}
+          </select>
+          <span class="lib-meal-src">quran.com</span>
+        </div>
+        <div class="lib-meal-text" id="lib-meal-text" data-meals="${escapeHtml(JSON.stringify(meals))}">${escapeHtml(meals[libMealId] || '')}</div>
+      </div>` : '';
+
   return `
     <div class="lib-verse">
       <div class="lib-verse-key">${escapeHtml(surahName)} · ${surah}:${ayah}</div>
       ${verse ? `<div class="lib-verse-ar">${escapeHtml(verse)}</div>` : ''}
+      ${mealBlock}
     </div>
+    ${renderLibraryWords(words, books)}
     ${tafsirCards ? `<div class="lib-section">${escapeHtml(t('libTafsir'))}</div>${tafsirCards}` : ''}
     <div class="lib-section">${escapeHtml(t('libIrabBooks'))}</div>
     <div class="lib-summary">${escapeHtml(t('libCount').replace('{n}', irab.length))}</div>

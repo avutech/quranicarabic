@@ -1,0 +1,942 @@
+{
+ "1:1": {
+  "t": "-medi",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "لَمْ",
+   "en": "Not",
+   "sha1": "19052b5a02e2900d90d98227f99ed16e9f744454"
+  }
+ },
+ "1:2": {
+  "t": "ol(madı)",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "يَكُنِ",
+   "en": "were",
+   "sha1": "58a57b978a79070d709dc8880078be0ed2df2215"
+  }
+ },
+ "1:3": {
+  "t": "o kimseler ki",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "ٱلَّذِينَ",
+   "en": "those who",
+   "sha1": "2995b6169bb453c93a912ad0797850679c3ec0ec"
+  }
+ },
+ "1:4": {
+  "t": "inkâr ettiler",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "كَفَرُوا۟",
+   "en": "disbelieved",
+   "sha1": "4d6638d77e18a6e00dbe6b910fc326399f9f76b0"
+  }
+ },
+ "1:5": {
+  "t": "-den",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "مِنْ",
+   "en": "from",
+   "sha1": "510da2689bdb4f4a74ad9d7089cdb9a3da651da5"
+  }
+ },
+ "1:6": {
+  "t": "ehli(nden)",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "أَهْلِ",
+   "en": "(the) People",
+   "sha1": "1b14d9ed89e0de7f4241d433fa775e69b847393f"
+  }
+ },
+ "1:7": {
+  "t": "kitap",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "ٱلْكِتَـٰبِ",
+   "en": "of the Book",
+   "sha1": "0c7d1a13b71e9ff83c242f48aaac292b89c15b18"
+  }
+ },
+ "1:8": {
+  "t": "ve müşrikler",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "وَٱلْمُشْرِكِينَ",
+   "en": "and the polytheists",
+   "sha1": "6cca355350e0fd3b9ea2863b92bca19b041c5573"
+  }
+ },
+ "1:9": {
+  "t": "ayrılacak (vazgeçecek)",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "مُنفَكِّينَ",
+   "en": "to be abandoned",
+   "sha1": "a9d290fb8f5e97cfc43021964635a35e8290878d"
+  }
+ },
+ "1:10": {
+  "t": "-e kadar",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "حَتَّىٰ",
+   "en": "until",
+   "sha1": "eee2ad47d958d9e13a854cc6a07d427109301e5b"
+  }
+ },
+ "1:11": {
+  "t": "kendilerine gel(ene kadar)",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "تَأْتِيَهُمُ",
+   "en": "(there) comes to them",
+   "sha1": "52455659219407d4450ba1ca191ad1b55723ed01"
+  }
+ },
+ "1:12": {
+  "t": "apaçık delil",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "ٱلْبَيِّنَةُ",
+   "en": "the clear evidence",
+   "sha1": "e5e9b7e5aa9c48574e90207c083dee565c979a8a"
+  }
+ },
+ "2:1": {
+  "t": "bir peygamber",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "رَسُولٌۭ",
+   "en": "A Messenger",
+   "sha1": "00b4cb94b721b4bdc32c18e5401c67599980e8d4"
+  }
+ },
+ "2:2": {
+  "t": "-den",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "مِّنَ",
+   "en": "from",
+   "sha1": "23c4319d49acf365730ceaa72a4e88f8db6eb538"
+  }
+ },
+ "2:3": {
+  "t": "Allah('tan)",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "ٱللَّهِ",
+   "en": "Allah",
+   "sha1": "3d493b144778fd6dc98bc038482d720602800ce6"
+  }
+ },
+ "2:4": {
+  "t": "okuyan",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "يَتْلُوا۟",
+   "en": "reciting",
+   "sha1": "01171263260d23bdabfc03e8c0bb96acae66370c"
+  }
+ },
+ "2:5": {
+  "t": "sayfalar",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "صُحُفًۭا",
+   "en": "pages",
+   "sha1": "0b0c414bc862ef9405249b353ee4c55e5899cf33"
+  }
+ },
+ "2:6": {
+  "t": "tertemiz",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "مُّطَهَّرَةًۭ",
+   "en": "purified",
+   "sha1": "b0661ab1b34105590268e7730425447640bc4cb9"
+  }
+ },
+ "3:1": {
+  "t": "onlarda vardır",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "فِيهَا",
+   "en": "Wherein",
+   "sha1": "c7d31adeb0e10df543fc6aa8760ba9b9ddb7be0d"
+  }
+ },
+ "3:2": {
+  "t": "yazılar (hükümler)",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "كُتُبٌۭ",
+   "en": "(are) writings",
+   "sha1": "d0811dded86067ca63580cade87c483ef355e12a"
+  }
+ },
+ "3:3": {
+  "t": "dosdoğru",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "قَيِّمَةٌۭ",
+   "en": "correct",
+   "sha1": "c6c6ffba339a613c00fd729d8f5685335e49d174"
+  }
+ },
+ "4:1": {
+  "t": "ve -medi",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "وَمَا",
+   "en": "And not",
+   "sha1": "d0350a7e9eaf0f9ad925d2a25a7d4ad5a88cd602"
+  }
+ },
+ "4:2": {
+  "t": "ayrılığa düşme(di)",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "تَفَرَّقَ",
+   "en": "became divided",
+   "sha1": "6955dcfc38c4984ac87aac916b8de2bca319f07c"
+  }
+ },
+ "4:3": {
+  "t": "o kimseler ki",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "ٱلَّذِينَ",
+   "en": "those who",
+   "sha1": "2995b6169bb453c93a912ad0797850679c3ec0ec"
+  }
+ },
+ "4:4": {
+  "t": "verildiler",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "أُوتُوا۟",
+   "en": "were given",
+   "sha1": "f14de47cbe8248e2ce2dca0f6ec089ea904f8b09"
+  }
+ },
+ "4:5": {
+  "t": "kitap",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "ٱلْكِتَـٰبَ",
+   "en": "the Book",
+   "sha1": "ae70b0ebc50eb55ece200bff3aae5eb4ee5254e2"
+  }
+ },
+ "4:6": {
+  "t": "ancak",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "إِلَّا",
+   "en": "until",
+   "sha1": "4d0b08cb3774bf64cdb951262998f63bef8fee34"
+  }
+ },
+ "4:7": {
+  "t": "-den",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "مِنۢ",
+   "en": "from",
+   "sha1": "cfe6a2290ced3ebea983d111880e63e26c187d69"
+  }
+ },
+ "4:8": {
+  "t": "sonra(dan)",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "بَعْدِ",
+   "en": "after",
+   "sha1": "07cf1815c196d2fc73bc6f33887e8910cbdcf818"
+  }
+ },
+ "4:9": {
+  "t": "-dikten (mâ masdariyye)",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "مَا",
+   "en": "what",
+   "sha1": "7631c3d5a6e7304b1b16bd99ccbf7afabdb74e73"
+  }
+ },
+ "4:10": {
+  "t": "kendilerine geldi(kten)",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "جَآءَتْهُمُ",
+   "en": "came (to) them",
+   "sha1": "5a1465c2a9205041c2406ef4dc900731f394bb0c"
+  }
+ },
+ "4:11": {
+  "t": "apaçık delil",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "ٱلْبَيِّنَةُ",
+   "en": "(of) the clear evidence",
+   "sha1": "3ee5693a591f49dcdb190a142e16b59a9d4b57fa"
+  }
+ },
+ "5:1": {
+  "t": "ve -medi",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "وَمَآ",
+   "en": "And not",
+   "sha1": "0b0e75c345d03fdcb555a9fce5d11b57bdebe73f"
+  }
+ },
+ "5:2": {
+  "t": "emrolunma(dılar)",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "أُمِرُوٓا۟",
+   "en": "they were commanded",
+   "sha1": "6822f97618d49ca8621b603ad0c3daa974ec3c5a"
+  }
+ },
+ "5:3": {
+  "t": "ancak",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "إِلَّا",
+   "en": "except",
+   "sha1": "1a80e7f48761e72a9708e5923e0d39a47ed558ee"
+  }
+ },
+ "5:4": {
+  "t": "kulluk etmeleri için",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "لِيَعْبُدُوا۟",
+   "en": "to worship",
+   "sha1": "f5291700aa2ac942db0f91d93b27bf445bc93722"
+  }
+ },
+ "5:5": {
+  "t": "Allah'a",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "ٱللَّهَ",
+   "en": "Allah",
+   "sha1": "380ba801440e73b33bbf3008e1288c97eb5e48cc"
+  }
+ },
+ "5:6": {
+  "t": "halis kılarak",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "مُخْلِصِينَ",
+   "en": "(being) sincere",
+   "sha1": "f9b0ae0cdaac4fbe4633869cf1bc4fae4086cdb6"
+  }
+ },
+ "5:7": {
+  "t": "O'na",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "لَهُ",
+   "en": "to Him",
+   "sha1": "8836eef5cf23a488ba1725bc8d58bfc5eb30cfc8"
+  }
+ },
+ "5:8": {
+  "t": "dini",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "ٱلدِّينَ",
+   "en": "(in) the religion",
+   "sha1": "80ae1904e69daf0c761d673350418267b1edbd5e"
+  }
+ },
+ "5:9": {
+  "t": "hanîfler olarak",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "حُنَفَآءَ",
+   "en": "upright",
+   "sha1": "ba9492c5216eccfb36b294697f0dd96dc4761170"
+  }
+ },
+ "5:10": {
+  "t": "ve kılmaları",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "وَيُقِيمُوا۟",
+   "en": "and to establish",
+   "sha1": "8f00f38849f179518db8aeb462ea52c686a30b8d"
+  }
+ },
+ "5:11": {
+  "t": "namazı",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "ٱلصَّلَوٰةَ",
+   "en": "the prayer",
+   "sha1": "0956c5afdcd76c8ac2dd1eb83ac5efe3c3218caf"
+  }
+ },
+ "5:12": {
+  "t": "ve vermeleri",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "وَيُؤْتُوا۟",
+   "en": "and to give",
+   "sha1": "3aa8d38d78a5b5581b83cd5ab26500a244667119"
+  }
+ },
+ "5:13": {
+  "t": "zekâtı",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "ٱلزَّكَوٰةَ ۚ",
+   "en": "the zakah",
+   "sha1": "5e8e2d05412e04e2e128f937d4600228180fc5d9"
+  }
+ },
+ "5:14": {
+  "t": "ve işte bu",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "وَذَٰلِكَ",
+   "en": "And that",
+   "sha1": "00ed7bb40fc4a8bf9c1a69bee5fb6abccd81c432"
+  }
+ },
+ "5:15": {
+  "t": "dinidir",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "دِينُ",
+   "en": "(is the) religion",
+   "sha1": "77b4b0371190e6d44d35a63194d9f31f512ca1e5"
+  }
+ },
+ "5:16": {
+  "t": "dosdoğru (milletin)",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "ٱلْقَيِّمَةِ",
+   "en": "the correct",
+   "sha1": "575d6ee85126353d1e09749585c7e93304ed6a26"
+  }
+ },
+ "6:1": {
+  "t": "şüphesiz",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "إِنَّ",
+   "en": "Indeed",
+   "sha1": "e55db5bae7af62d6bd4968fb5744a46ff288b7f3"
+  }
+ },
+ "6:2": {
+  "t": "o kimseler ki",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "ٱلَّذِينَ",
+   "en": "those who",
+   "sha1": "2995b6169bb453c93a912ad0797850679c3ec0ec"
+  }
+ },
+ "6:3": {
+  "t": "inkâr ettiler",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "كَفَرُوا۟",
+   "en": "disbelieve",
+   "sha1": "37a0edcd3c97fadfc024b7de4e475a1e9b14bc21"
+  }
+ },
+ "6:4": {
+  "t": "-den",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "مِنْ",
+   "en": "from",
+   "sha1": "510da2689bdb4f4a74ad9d7089cdb9a3da651da5"
+  }
+ },
+ "6:5": {
+  "t": "ehli(nden)",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "أَهْلِ",
+   "en": "(the) People",
+   "sha1": "1b14d9ed89e0de7f4241d433fa775e69b847393f"
+  }
+ },
+ "6:6": {
+  "t": "kitap",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "ٱلْكِتَـٰبِ",
+   "en": "(of) the Book",
+   "sha1": "060168aef92b6c0646df9ec9b306a20b9c002d19"
+  }
+ },
+ "6:7": {
+  "t": "ve müşrikler",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "وَٱلْمُشْرِكِينَ",
+   "en": "and the polytheists",
+   "sha1": "6cca355350e0fd3b9ea2863b92bca19b041c5573"
+  }
+ },
+ "6:8": {
+  "t": "içindedir",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "فِى",
+   "en": "(will be) in",
+   "sha1": "66e0b1b5ee413b26357e9e8e8ab66e61dbe32e12"
+  }
+ },
+ "6:9": {
+  "t": "ateşi",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "نَارِ",
+   "en": "(the) Fire",
+   "sha1": "f76d73b8478551501843106e690f1f0d2b9da59c"
+  }
+ },
+ "6:10": {
+  "t": "cehennem",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "جَهَنَّمَ",
+   "en": "(of) Hell",
+   "sha1": "fd534564836d5b1bdc4f24cbecc4b0553b44d230"
+  }
+ },
+ "6:11": {
+  "t": "ebedî kalıcılar olarak",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "خَـٰلِدِينَ",
+   "en": "abiding eternally",
+   "sha1": "27f0af566859c0d746280ed1304e654c5e04d12e"
+  }
+ },
+ "6:12": {
+  "t": "orada",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "فِيهَآ ۚ",
+   "en": "therein",
+   "sha1": "dbc7f15e0d55d627f26e01a7cce824d93a2095ba"
+  }
+ },
+ "6:13": {
+  "t": "işte onlar",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "أُو۟لَـٰٓئِكَ",
+   "en": "Those ",
+   "sha1": "6a127617e08ad582d57ee13518a6478ae03b66d4"
+  }
+ },
+ "6:14": {
+  "t": "onlar",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "هُمْ",
+   "en": "they",
+   "sha1": "93f50be202086e65d34fcbc0da5d35be857a08b9"
+  }
+ },
+ "6:15": {
+  "t": "en kötüsüdür",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "شَرُّ",
+   "en": "(are the) worst",
+   "sha1": "e1ddc057ef655695df7ff9d21273103ff072d1d8"
+  }
+ },
+ "6:16": {
+  "t": "yaratılmışların",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "ٱلْبَرِيَّةِ",
+   "en": "(of) the creatures",
+   "sha1": "2fd2e4dfe266436a14fcd7d9ff87fe275faf38d4"
+  }
+ },
+ "7:1": {
+  "t": "şüphesiz",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "إِنَّ",
+   "en": "Indeed",
+   "sha1": "e55db5bae7af62d6bd4968fb5744a46ff288b7f3"
+  }
+ },
+ "7:2": {
+  "t": "o kimseler ki",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "ٱلَّذِينَ",
+   "en": "those who",
+   "sha1": "2995b6169bb453c93a912ad0797850679c3ec0ec"
+  }
+ },
+ "7:3": {
+  "t": "iman ettiler",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "ءَامَنُوا۟",
+   "en": "believe",
+   "sha1": "fe5c21ca49c11a9fe8c4e1da8590dd3fbbd4bf84"
+  }
+ },
+ "7:4": {
+  "t": "ve yaptılar",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "وَعَمِلُوا۟",
+   "en": "and do",
+   "sha1": "d2bac87e9210231d52517a51ab37c66ecc29a7d5"
+  }
+ },
+ "7:5": {
+  "t": "salih amelleri",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "ٱلصَّـٰلِحَـٰتِ",
+   "en": "righteous deeds",
+   "sha1": "7c988072e78fb212e049477c265eeb09b09bb55b"
+  }
+ },
+ "7:6": {
+  "t": "işte onlar",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "أُو۟لَـٰٓئِكَ",
+   "en": "those ",
+   "sha1": "cda76b9ef7d62c2f4200821a7c84d43199e70963"
+  }
+ },
+ "7:7": {
+  "t": "onlar",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "هُمْ",
+   "en": "they",
+   "sha1": "93f50be202086e65d34fcbc0da5d35be857a08b9"
+  }
+ },
+ "7:8": {
+  "t": "en hayırlısıdır",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "خَيْرُ",
+   "en": "(are the) best",
+   "sha1": "23cf57b9e556e02853d135ca2ddb13c444afe3ba"
+  }
+ },
+ "7:9": {
+  "t": "yaratılmışların",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "ٱلْبَرِيَّةِ",
+   "en": "(of) the creatures",
+   "sha1": "2fd2e4dfe266436a14fcd7d9ff87fe275faf38d4"
+  }
+ },
+ "8:1": {
+  "t": "onların mükâfatı",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "جَزَآؤُهُمْ",
+   "en": "Their reward",
+   "sha1": "a17eae517dccad7bdfa96ae04e8143820d9bb0c7"
+  }
+ },
+ "8:2": {
+  "t": "katında",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "عِندَ",
+   "en": "(is) with",
+   "sha1": "c2b9c2a17ad2ade9d9e6364cff06d501d7417d58"
+  }
+ },
+ "8:3": {
+  "t": "Rableri(nin)",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "رَبِّهِمْ",
+   "en": "their Lord ",
+   "sha1": "439eb39371be4f3ed94ffe2a6fff928cee06878d"
+  }
+ },
+ "8:4": {
+  "t": "bahçeleridir",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "جَنَّـٰتُ",
+   "en": "Gardens",
+   "sha1": "58be76a02be046d731a671f8c0cf47cd5dad2d01"
+  }
+ },
+ "8:5": {
+  "t": "Adn",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "عَدْنٍۢ",
+   "en": "(of) Eternity",
+   "sha1": "9e688bb70d19d7b97e843db8f13fa307e8b83bce"
+  }
+ },
+ "8:6": {
+  "t": "akar",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "تَجْرِى",
+   "en": "flow",
+   "sha1": "1b5a3d65c42cd4e5c0c7e2fdc7221e56ef0ebcba"
+  }
+ },
+ "8:7": {
+  "t": "-den",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "مِن",
+   "en": "from",
+   "sha1": "59d07841d539ea5b474fd0076fdcd79cab793b8a"
+  }
+ },
+ "8:8": {
+  "t": "altların(dan)",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "تَحْتِهَا",
+   "en": "underneath them",
+   "sha1": "9a8e496b2c5676239904467210fa1618d74a5ee4"
+  }
+ },
+ "8:9": {
+  "t": "ırmaklar",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "ٱلْأَنْهَـٰرُ",
+   "en": "the rivers",
+   "sha1": "9655defd299dfaa9934d6d458566d02ab90920bf"
+  }
+ },
+ "8:10": {
+  "t": "ebedî kalıcılar olarak",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "خَـٰلِدِينَ",
+   "en": "will abide",
+   "sha1": "34dcfb8001299c785e160d16fd5344287c8ffd37"
+  }
+ },
+ "8:11": {
+  "t": "orada",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "فِيهَآ",
+   "en": "therein",
+   "sha1": "668715c4fdef10f70f4d0cf92bafc8f5435d2452"
+  }
+ },
+ "8:12": {
+  "t": "sonsuza dek",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "أَبَدًۭا ۖ",
+   "en": "forever",
+   "sha1": "35df0ff38bff78101e4260e9f1cd07fb80461847"
+  }
+ },
+ "8:13": {
+  "t": "razı oldu",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "رَّضِىَ",
+   "en": "(will be) pleased",
+   "sha1": "284e63c6b8ab9ee9914a27fcd269dc4f2f9ec617"
+  }
+ },
+ "8:14": {
+  "t": "Allah",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "ٱللَّهُ",
+   "en": "Allah",
+   "sha1": "ddee91d65b0f83b2d85af2fc5652dc6e7bfc3f83"
+  }
+ },
+ "8:15": {
+  "t": "onlardan",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "عَنْهُمْ",
+   "en": "with them",
+   "sha1": "cb48e77d7ce6f96e3d9e1ad3063f3fa69c6c5787"
+  }
+ },
+ "8:16": {
+  "t": "ve razı oldular",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "وَرَضُوا۟",
+   "en": "and they (will be) pleased",
+   "sha1": "e3fcb931c374c2c1d7bebb07b21e71642a554fa0"
+  }
+ },
+ "8:17": {
+  "t": "O'ndan",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "عَنْهُ ۚ",
+   "en": "with Him",
+   "sha1": "071c222ba95f687f86f8f9928064aae5fc10b741"
+  }
+ },
+ "8:18": {
+  "t": "bu",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "ذَٰلِكَ",
+   "en": "That",
+   "sha1": "2beb3738c5193b5df3f42719adc8d25b07755aa3"
+  }
+ },
+ "8:19": {
+  "t": "kimse içindir",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "لِمَنْ",
+   "en": "(is) for whoever",
+   "sha1": "2db2fa107ee4b81666de5cde0600a08714cf65a6"
+  }
+ },
+ "8:20": {
+  "t": "korkan",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "خَشِىَ",
+   "en": "feared",
+   "sha1": "099ba43fb0f1b094d62506cac3488064f8b0b96c"
+  }
+ },
+ "8:21": {
+  "t": "Rabbinden",
+  "by": "Claude (makine çevirisi)",
+  "at": "2026-10-04T02:14:59+00:00",
+  "src": {
+   "ar": "رَبَّهُۥ",
+   "en": "his Lord",
+   "sha1": "85517513b3e88a3fcaba88c21fbcfee24cd72a0c"
+  }
+ }
+}

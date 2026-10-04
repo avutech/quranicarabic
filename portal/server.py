@@ -375,7 +375,9 @@ def irab_library_ayah(surah, ayah):
             if reading:
                 item["tr"] = reading
             entries.append(item)
-    return jsonify({"surah": surah, "ayah": ayah, "entries": entries})
+    word_data = (_irab_library_file(f"w/s{surah:03d}.json") or {}).get(str(ayah), {})
+    return jsonify({"surah": surah, "ayah": ayah, "entries": entries,
+                    "words": word_data.get("w", []), "meals": word_data.get("m", {})})
 
 
 # Only the frontend's own assets are public. portal/ also holds .env (API
