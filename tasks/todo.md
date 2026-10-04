@@ -69,7 +69,16 @@ Provenance: every entry carries `ref` (site, code, file, URL; page numbers where
   - Quran text: Tanzil
   - all credited on the page.
 
-**Still running when this was written:** Turkish for el-Müyesser, Celâleyn and el-Harrât, surahs 2–77.
+**Complete in Turkish for the whole Quran** (each reading verified against the sha1 of its source):
+- Da'âs
+- el-Müyesser
+- Celâleyn
+- el-Harrât
+- all 77,429 word meanings
+
+Review lists: `tr_review_wave7.md` and `tr_review_wave8.md`.
+
+**Still running when this was written:** el-Cedvel (Sâfî), surahs 2–77.
 
 **Decisions for you:**
 1. Review lists `irab_library/tr_review_wave1.md` … `wave7.md`. The main open policies:
