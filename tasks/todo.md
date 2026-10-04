@@ -53,3 +53,30 @@ Provenance: every entry carries `ref` (site, code, file, URL; page numbers where
   - Anonymous access is 401; `.env` and `users.db` return 404.
 - Not verified in a real browser on staging. That needs the owner to push.
 - Repo is 183 MB after the index rebuilds; the largest file is 8.9 MB.
+
+## Overnight run 2026-10-03/04: morning summary
+
+**On staging (staging.learnirab.com → İ'rab Kütüphanesi):**
+- New layout:
+  - ayah header with selectable Turkish meal (Diyanet default, plus Elmalılı and three others)
+  - word-by-word grid, one box per word in ayah order: Arabic, transliteration, Turkish, English, grammar (Arabic + Turkish), root
+  - book cards with line-by-line text, previous/next source, A−/A+, copy (always includes the citation) and "Kaynak hakkında"
+- Turkish word meanings for **all 77,429 words** (machine translation, each with its source word and sha1).
+- **Da'âs i'rab fully in Turkish** (3,639 entries); review list in `irab_library/tr_review_wave7.md`.
+- Sources:
+  - grammar and roots: Quranic Arabic Corpus v0.4, the original unmodified file (GPL notice in `irab_library/w/`)
+  - words and meals: quran.com
+  - Quran text: Tanzil
+  - all credited on the page.
+
+**Still running when this was written:** Turkish for el-Müyesser, Celâleyn and el-Harrât, surahs 2–77.
+
+**Decisions for you:**
+1. Review lists `irab_library/tr_review_wave1.md` … `wave7.md`. The main open policies:
+   - how entries open («sözü» / «kavli»)
+   - translator-note policy
+   - term unification (lafza-i celâl / lafzatullah, nâfiye / nefy harfi)
+2. Promote staging to production when you're happy.
+3. el-Cedvel and Derviş for surahs 2–77 are very large (about 90 agent packages each). Do them next?
+4. kuranmeali.com: not scraped (no API or licence). Ask the owner for permission if you want their word meanings.
+5. Gemini appeal: AI feedback stays down until Google reinstates the project.
