@@ -20,9 +20,10 @@ from pathlib import Path
 
 OUT = Path(__file__).parent.parent / "Irab Kitaplari" / "_kelime" / "qurancom.json"
 API = "https://api.quran.com/api/v4"
-# Turkish meals on quran.com; the first is the default shown on the page.
-MEALS = [77, 52, 124, 112, 210]
+# Meals on quran.com: Turkish first (77 = default on the page), then English.
+MEALS = [77, 52, 124, 112, 210, 20, 85]
 TAG = re.compile(r"<[^>]+>")
+FOOTNOTE = re.compile(r"<sup[^>]*>.*?</sup>", re.S)   # translators' footnote markers
 
 
 def get(path):
@@ -39,8 +40,8 @@ def get(path):
 
 
 def main():
-    names = {t["id"]: {"name": t["name"], "author": t.get("author_name", "")}
-             for t in get("/resources/translations?language=tr")["translations"]}
+    names = {t["id"]: {"name": t["name"], "author": t.get("author_name", ""), "lang": t.get("language_name", "")}
+             for lang in ("tr", "en") for t in get(f"/resources/translations?language={lang}")["translations"]}
     meals = {str(m): names.get(m, {"name": str(m), "author": ""}) for m in MEALS}
     ayahs = {}
     for s in range(1, 115):
@@ -52,7 +53,7 @@ def main():
                 words = [[w["text_uthmani"], (w.get("transliteration") or {}).get("text") or "",
                           (w.get("translation") or {}).get("text") or ""]
                          for w in v["words"] if w.get("char_type_name") == "word"]
-                meal = {str(t["resource_id"]): TAG.sub("", t["text"]).strip() for t in v.get("translations", [])}
+                meal = {str(t["resource_id"]): TAG.sub("", FOOTNOTE.sub("", t["text"])).strip() for t in v.get("translations", [])}
                 ayahs[v["verse_key"]] = {"t": meal, "w": words}
             page = d["pagination"].get("next_page")
             time.sleep(0.3)

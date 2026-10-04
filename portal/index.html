@@ -771,7 +771,7 @@
   .lib-verse-key { font-size: 0.78rem; color: var(--muted); font-weight: 700; letter-spacing: 0.04em; }
   .lib-verse-ar {
     font-family: 'Amiri Quran', 'Amiri', 'Scheherazade New', serif; font-size: 1.9rem;
-    direction: rtl; text-align: right; color: var(--green); line-height: 2.1; margin-top: 6px;
+    direction: rtl; text-align: right; color: var(--ayah); line-height: 2.1; margin-top: 6px;
   }
   .lib-summary { font-size: 0.85rem; color: var(--muted); margin: 0 0 10px; }
   .lib-book {
@@ -809,7 +809,9 @@
     direction: rtl; text-align: right; color: var(--dark); margin-top: 8px;
   }
   .lib-text-ar .fn { color: var(--mid); font-size: 0.85em; }
-  .lib-text-ar .q { color: var(--green); font-family: 'Amiri Quran', 'Amiri', serif; }
+  :root { --ayah: #1d4ed8; }
+  .q, .lib-text-ar .q, .lib-text-tr .q { color: var(--ayah); font-family: 'Amiri Quran', 'Amiri', serif; }
+  .lib-langbar { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; margin: 16px 0 4px; font-size: 0.8rem; color: var(--muted); }
   .lib-text-tr { line-height: 1.75; margin-top: 10px; }
   .lib-tr-note { font-size: 0.75rem; color: var(--muted); margin-top: 10px; font-style: italic; }
   .lib-section { font-size: 0.78rem; font-weight: 700; color: var(--green); text-transform: uppercase; letter-spacing: 0.06em; margin: 18px 0 8px; }
@@ -822,7 +824,7 @@
   .wgrid { display: flex; flex-wrap: wrap; gap: 10px; padding: 4px 14px 14px; }
   .wbox { flex: 0 1 132px; min-width: 112px; border-top: 2px dashed var(--border); padding: 8px 6px 4px; text-align: center;
           display: flex; flex-direction: column; gap: 3px; direction: ltr; font-size: calc(0.82rem * var(--lib-scale, 1)); line-height: 1.35; }
-  .wbox .w-ar { font-family: 'Amiri Quran', 'Amiri', serif; font-size: calc(1.6rem * var(--lib-scale, 1)); color: var(--green); direction: rtl; line-height: 1.6; }
+  .wbox .w-ar { font-family: 'Amiri Quran', 'Amiri', serif; font-size: calc(1.6rem * var(--lib-scale, 1)); color: var(--ayah); direction: rtl; line-height: 1.6; }
   .wbox .w-tl { color: #7c3aed; font-style: italic; }
   .wbox .w-tr { color: #b91c1c; font-weight: 600; }
   .wbox .w-en { color: #15803d; }
@@ -840,7 +842,7 @@
   .lib-line.lib-sec { font-weight: 700; color: var(--gold); margin-top: 12px; }
   .lib-text-ar .lib-line { font-size: calc(1.3rem * var(--lib-scale, 1)); }
   .lib-text-tr .lib-line { font-size: calc(0.98rem * var(--lib-scale, 1)); }
-  .lib-head { color: #1d4ed8; font-weight: 700; font-family: 'Amiri Quran', 'Amiri', serif; }
+  .lib-head { color: var(--ayah); font-weight: 700; font-family: 'Amiri Quran', 'Amiri', serif; }
   .lib-book-sub { font-weight: 500; color: var(--mid); }
   .lib-tools { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
   .lib-tools .btn-secondary { padding: 5px 10px; font-size: 0.78rem; }
@@ -1309,6 +1311,7 @@ const I18N = {
     libTrUnreviewed: 'Turkish reading prepared for students; not yet reviewed by the teacher. The Arabic original is authoritative.',
     libTrReviewed: 'Turkish reading reviewed by the teacher.',
     libSource: 'Source',
+    libShowIn: 'Show books in', libEnBy: 'English reading',
     libWords: 'Word by word', libMeal: 'Translation', libPrevSrc: 'Previous source', libNextSrc: 'Next source',
     libCopy: 'Copy', libCopied: 'Copied ✓', libAbout: 'About the source',
     libAboutTitle: 'Title', libAboutAuthor: 'Author', libAboutSource: 'Source', libAboutFile: 'File',
@@ -1562,6 +1565,7 @@ const I18N = {
     libTrUnreviewed: 'Öğrenciler için hazırlanan Türkçe okuma; henüz hoca tarafından gözden geçirilmedi. Esas olan Arapça metindir.',
     libTrReviewed: 'Türkçe okuma hoca tarafından gözden geçirildi.',
     libSource: 'Kaynak',
+    libShowIn: 'Kitapları göster', libEnBy: 'İngilizce okuma',
     libWords: 'Kelime kelime tahlil', libMeal: 'Meal', libPrevSrc: 'Önceki kaynak', libNextSrc: 'Sonraki kaynak',
     libCopy: 'Kopyala', libCopied: 'Kopyalandı ✓', libAbout: 'Kaynak hakkında',
     libAboutTitle: 'Eser', libAboutAuthor: 'Müellif', libAboutSource: 'Kaynak', libAboutFile: 'Dosya',
@@ -1815,6 +1819,7 @@ const I18N = {
     libTrUnreviewed: 'قراءة تركية للطلاب، لم يراجعها المدرّس بعد. المعتمد هو النص العربي.',
     libTrReviewed: 'راجع المدرّس القراءة التركية.',
     libSource: 'المصدر',
+    libShowIn: 'عرض الكتب بـ', libEnBy: 'القراءة الإنجليزية',
     libWords: 'إعراب الكلمات', libMeal: 'الترجمة', libPrevSrc: 'المصدر السابق', libNextSrc: 'المصدر التالي',
     libCopy: 'نسخ', libCopied: 'تم النسخ ✓', libAbout: 'عن المصدر',
     libAboutTitle: 'الكتاب', libAboutAuthor: 'المؤلف', libAboutSource: 'المصدر', libAboutFile: 'الملف',
@@ -4507,6 +4512,7 @@ async function loadVerse() {
     ]);
     if (mySeq !== irabLoadSeq) return;
     results.innerHTML = renderLibraryAyah(surah, ayah, verse, lib.entries || [], books, lib.words, lib.meals);
+    results.querySelectorAll('.lib-body').forEach(b => libShowLang(b, libLang));
   } catch (e) {
     if (mySeq !== irabLoadSeq) return;
     results.innerHTML = `<div class="feedback-box error">${escapeHtml(e.message)}</div>`;
@@ -4519,14 +4525,20 @@ function linkify(html) {
     '<a href="$1" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">$1</a>');
 }
 
+const LIB_LANG_LABEL = { ar: 'العربية', tr: 'Türkçe', en: 'English' };
+
 function libLocal(obj) {
   return (obj && (obj[lang] || obj.tr || obj.en)) || '';
 }
 
 function libHighlightQuran(escaped) {
-  // Quranic quotations in the books are wrapped in ornate brackets ﴿…﴾
-  // [[…]] are the book's own footnotes (kept verbatim in the source data)
+  // Quranic text gets one colour everywhere. The books quote it as ﴿…﴾, {…} or «…»
+  // (the latter only when the quote is Arabic script, so Turkish/English quotes stay plain).
+  // [[…]] are the book's own footnotes (kept verbatim in the source data).
+  const AR = /[\u0600-\u06FF]/;
   return escaped.replace(/﴿[^﴾]*﴾/g, m => `<span class="q">${m}</span>`)
+                .replace(/\{[^{}]{1,120}\}/g, m => AR.test(m) ? `<span class="q">${m}</span>` : m)
+                .replace(/«[^«»]{1,120}»/g, m => AR.test(m) && !/[A-Za-zÇĞİÖŞÜçğıöşüâîû]/.test(m) ? `<span class="q">${m}</span>` : m)
                 .replace(/\[\[([\s\S]*?)\]\]/g, (_, n) => `<span class="fn">[${n}]</span>`);
 }
 
@@ -4548,7 +4560,8 @@ function libLines(text, bookId) {
   return t.split('\n').map(line => line.trim()).filter(Boolean).map(line => {
     if (/^\*\s*\S.*:$/.test(line)) return `<div class="lib-line lib-sec">${escapeHtml(line.replace(/^\*\s*/, ''))}</div>`;
     const m = line.match(/^(﴿[^﴾]{1,80}﴾|«[^»]{1,80}»|\([^)]{1,60}\))\s*:?\s*/);
-    if (!m) return `<div class="lib-line">${libHighlightQuran(escapeHtml(line))}</div>`;
+    // only an Arabic-script head is a quoted word of the ayah; a Turkish/English "(…)" stays plain text
+    if (!m || /[A-Za-zÇĞİÖŞÜçğıöşüâîû]/.test(m[1]) || !/[\u0600-\u06FF]/.test(m[1])) return `<div class="lib-line">${libHighlightQuran(escapeHtml(line))}</div>`;
     return `<div class="lib-line"><span class="lib-head">${escapeHtml(m[1])}</span> ${libHighlightQuran(escapeHtml(line.slice(m[0].length)))}</div>`;
   }).join('');
 }
@@ -4592,11 +4605,25 @@ function libAbout(b) {
   return `<dl class="lib-about" hidden>${rows.map(([k, v]) => `<dt>${escapeHtml(k)}</dt><dd>${v}</dd>`).join('')}</dl>`;
 }
 
+let libLang = (() => { try { return localStorage.getItem('lib_lang') || 'ar'; } catch (e) { return 'ar'; } })();
+
+function libShowLang(body, which) {
+  // Falls back to Arabic when this card has no reading in the chosen language.
+  const have = [...body.querySelectorAll('.lib-tab')].map(b => b.dataset.lang);
+  const lang = have.includes(which) ? which : 'ar';
+  body.querySelectorAll('.lib-tab').forEach(b => b.classList.toggle('active', b.dataset.lang === lang));
+  body.querySelectorAll('.lib-pane').forEach(p => { p.hidden = p.dataset.lang !== lang; });
+}
+
 function libSetTab(btn, which) {
-  const body = btn.closest('.lib-body');
-  body.querySelectorAll('.lib-tab').forEach(b => b.classList.toggle('active', b === btn));
-  body.querySelector('.lib-text-ar').hidden = which !== 'ar';
-  body.querySelector('.lib-tr-wrap').hidden = which !== 'tr';
+  libShowLang(btn.closest('.lib-body'), which);
+}
+
+function libSetLangAll(which) {
+  libLang = which;
+  try { localStorage.setItem('lib_lang', which); } catch (e) {}
+  document.querySelectorAll('#irab-results .lib-body').forEach(b => libShowLang(b, which));
+  document.querySelectorAll('.lib-langbar button').forEach(b => b.classList.toggle('active', b.dataset.lang === which));
 }
 
 function libStep(btn, dir) {
@@ -4620,11 +4647,10 @@ function libFont(delta) {
 function libCopy(btn) {
   // Copies the visible text together with its citation, so a quote never travels without its source.
   const body = btn.closest('.lib-body');
-  const trShown = body.querySelector('.lib-tr-wrap') && !body.querySelector('.lib-tr-wrap').hidden;
-  const textEl = trShown ? body.querySelector('.lib-text-tr') : body.querySelector('.lib-text-ar');
-  const lines = [...textEl.querySelectorAll('.lib-line')].map(l => l.innerText.trim());
+  const pane = [...body.querySelectorAll('.lib-pane')].find(p => !p.hidden) || body.querySelector('.lib-pane');
+  const lines = [...pane.querySelectorAll('.lib-line')].map(l => l.innerText.trim());
   const cite = body.dataset.cite || '';
-  const extra = trShown ? body.querySelector('.lib-tr-wrap .lib-cite').innerText : '';
+  const extra = pane.dataset.lang !== 'ar' ? pane.querySelector('.lib-cite').innerText : '';
   const done = () => { const o = btn.textContent; btn.textContent = t('libCopied'); setTimeout(() => btn.textContent = o, 1500); };
   navigator.clipboard.writeText([lines.join('\n'), '', cite, extra].filter(x => x !== undefined).join('\n').trim()).then(done, () => {});
 }
@@ -4684,20 +4710,24 @@ function renderLibraryAyah(surah, ayah, verse, entries, books, words, meals) {
   const card = (e, open) => {
     const b = bookOf(e);
     const range = e.e > e.s ? `<span class="lib-badge">${escapeHtml(t('libRange').replace('{from}', e.s).replace('{to}', e.e))}</span>` : '';
-    const trBadge = e.tr ? `<span class="lib-badge tr">${escapeHtml(t('libHasTr'))}</span>` : '';
+    const trBadge = ['tr', 'en'].filter(l => e[l]).map(l => `<span class="lib-badge tr">${LIB_LANG_LABEL[l]}</span>`).join('');
     const died = b.death_h ? ` · ${escapeHtml(t('libDied'))} ${b.death_h}/${b.death_m}` : '';
     const subTitle = lang === 'ar' ? '' : ` <span class="lib-book-sub">— ${escapeHtml(libLocal(b.title))}</span>`;
-    const tabs = e.tr ? `
+    const langs = ['ar', ...['tr', 'en'].filter(l => e[l])];
+    const tabs = langs.length > 1 ? `
         <div class="lib-tabs">
-          <button class="lib-tab active" onclick="libSetTab(this,'ar')">العربية</button>
-          <button class="lib-tab" onclick="libSetTab(this,'tr')">Türkçe</button>
+          ${langs.map(l => `<button class="lib-tab" data-lang="${l}" onclick="libSetTab(this,'${l}')">${LIB_LANG_LABEL[l]}</button>`).join('')}
         </div>` : '';
-    const trBlock = e.tr ? `
-        <div class="lib-tr-wrap" hidden>
-          <div class="lib-text-tr">${libLines(e.tr.t, e.b)}</div>
-          <div class="lib-tr-note">${escapeHtml(e.tr.reviewed ? t('libTrReviewed') : t('libTrUnreviewed'))}${e.tr.stale ? ` <strong style="color:#b45309">${escapeHtml(t('libTrStale'))}</strong>` : ''}</div>
-          <div class="lib-cite">${escapeHtml(t('libTrBy'))}: ${escapeHtml(e.tr.by || '—')}${e.tr.at ? ` · ${escapeHtml(e.tr.at.slice(0, 10))}` : ''} · ${escapeHtml(e.b)}:${e.s}-${e.e}</div>
-        </div>` : '';
+    const readingPane = l => {
+      const r = e[l];
+      return `
+        <div class="lib-pane lib-tr-wrap" data-lang="${l}" hidden>
+          <div class="lib-text-tr">${libLines(r.t, e.b)}</div>
+          <div class="lib-tr-note">${escapeHtml(r.reviewed ? t('libTrReviewed') : t('libTrUnreviewed'))}${r.stale ? ` <strong style="color:#b45309">${escapeHtml(t('libTrStale'))}</strong>` : ''}</div>
+          <div class="lib-cite">${escapeHtml(t(l === 'en' ? 'libEnBy' : 'libTrBy'))}: ${escapeHtml(r.by || '—')}${r.at ? ` · ${escapeHtml(r.at.slice(0, 10))}` : ''} · ${escapeHtml(e.b)}:${e.s}-${e.e}</div>
+        </div>`;
+    };
+    const trBlock = langs.slice(1).map(readingPane).join('');
     return `
       <details class="lib-book${b.kind === 'tafsir' ? ' tafsir' : ''}"${open ? ' open' : ''}>
         <summary>
@@ -4708,7 +4738,7 @@ function renderLibraryAyah(surah, ayah, verse, entries, books, words, meals) {
           ${range}${trBadge}
         </summary>
         <div class="lib-body" data-cite="${escapeHtml(libCitationText(b, e, surah))}">${tabs}
-          <div class="lib-text-ar">${libLines(e.t, e.b)}</div>${trBlock}
+          <div class="lib-pane lib-text-ar" data-lang="ar">${libLines(e.t, e.b)}</div>${trBlock}
           ${libCitation(b, e, surah)}
           ${libAbout(b)}
           <div class="lib-tools">
@@ -4743,7 +4773,7 @@ function renderLibraryAyah(surah, ayah, verse, entries, books, words, meals) {
         <div class="lib-meal-head">
           <label for="lib-meal-sel">${escapeHtml(t('libMeal'))}</label>
           <select id="lib-meal-sel" onchange="libSetMeal(this.value)">
-            ${mealList.map(m => `<option value="${escapeHtml(m.id)}"${m.id === libMealId ? ' selected' : ''}>${escapeHtml(m.name)}</option>`).join('')}
+            ${['tr', 'en'].map(l => mealList.filter(m => (m.lang || 'tr') === l)).filter(g => g.length).map(g => `<optgroup label="${LIB_LANG_LABEL[g[0].lang || 'tr']}">${g.map(m => `<option value="${escapeHtml(m.id)}"${m.id === libMealId ? ' selected' : ''}>${escapeHtml(m.name)}</option>`).join('')}</optgroup>`).join('')}
           </select>
           <span class="lib-meal-src">quran.com</span>
         </div>
@@ -4757,6 +4787,10 @@ function renderLibraryAyah(surah, ayah, verse, entries, books, words, meals) {
       ${mealBlock}
     </div>
     ${renderLibraryWords(words, books)}
+    <div class="lib-langbar">
+      <span>${escapeHtml(t('libShowIn'))}:</span>
+      ${['ar', 'tr', 'en'].map(l => `<button class="lib-tab${l === libLang ? ' active' : ''}" data-lang="${l}" onclick="libSetLangAll('${l}')">${LIB_LANG_LABEL[l]}</button>`).join('')}
+    </div>
     ${tafsirCards ? `<div class="lib-section">${escapeHtml(t('libTafsir'))}</div>${tafsirCards}` : ''}
     <div class="lib-section">${escapeHtml(t('libIrabBooks'))}</div>
     <div class="lib-summary">${escapeHtml(t('libCount').replace('{n}', irab.length))}</div>

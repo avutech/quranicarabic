@@ -189,10 +189,15 @@ def main():
 
 
 def merge_translations():
-    """Merge irab_library/tr_parts/<book>/sNNN.json (written via tr_tool.py)
-    into irab_library/tr/sNNN.json, the file the server reads."""
+    for lang in ("tr", "en"):
+        merge_lang(lang)
+
+
+def merge_lang(lang):
+    """Merge irab_library/<lang>_parts/<book>/sNNN.json (written via tr_tool.py)
+    into irab_library/<lang>/sNNN.json, the file the server reads."""
     merged, stale = {}, []
-    for f in sorted((OUT_DIR / "tr_parts").glob("*/s*.json")):
+    for f in sorted((OUT_DIR / f"{lang}_parts").glob("*/s*.json")):
         surah = int(f.stem[1:])
         sources = {f"{e['b']}:{e['s']}-{e['e']}": e["t"]
                    for e in json.loads((OUT_DIR / f.name).read_text("utf-8"))["entries"]}
@@ -211,11 +216,11 @@ def merge_translations():
             if reading["stale"]:
                 stale.append(f"{key} (s{surah}): Arabic source changed since translation")
             merged.setdefault(f.name, {})[key] = reading
-    tr_dir = OUT_DIR / "tr"
+    tr_dir = OUT_DIR / lang
     tr_dir.mkdir(exist_ok=True)
     for name, readings in merged.items():
         write_atomic(tr_dir / name, json.dumps(readings, ensure_ascii=False, separators=(",", ":")))
-    print(f"merged Turkish readings: {sum(len(r) for r in merged.values())} entries in {len(merged)} surahs")
+    print(f"merged {lang} readings: {sum(len(r) for r in merged.values())} entries in {len(merged)} surahs")
     for msg in stale:
         print(f"  STALE {msg}")
 
@@ -268,7 +273,8 @@ def build_words():
     notice = "".join(line for line in CORPUS_FILE.open(encoding="utf-8") if line.startswith("#"))
     write_atomic(out_dir / "NOTICE-quranic-corpus.txt", notice)
     meta = json.loads((OUT_DIR / "books.json").read_text("utf-8"))
-    meta["meals"] = [{"id": k, "name": MEAL_NAMES.get(k, m["name"]), "author": m["author"].strip()}
+    meta["meals"] = [{"id": k, "name": MEAL_NAMES.get(k, m["name"]), "author": m["author"].strip(),
+                      "lang": "en" if m.get("lang") == "english" else "tr"}
                      for k, m in qc["meals"].items()]
     meta["word_sources"] = {
         "words": {"name": "quran.com", "url": "https://quran.com",

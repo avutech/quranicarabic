@@ -4,6 +4,7 @@
     venv/bin/python tr_tool.py show <book> <surah> <key>      # one entry's Arabic text
     venv/bin/python tr_tool.py put  <book> <surah> <key> <txt-file>
     venv/bin/python tr_tool.py status                         # counts per book
+    venv/bin/python tr_tool.py --lang en <command> …          # English readings (en_parts/); default is Turkish
 
 <key> is "<first>-<last>" (e.g. 2-2). Translations are stored in
 irab_library/tr_parts/<book>/sNNN.json as {"<book>:<first>-<last>":
@@ -18,6 +19,8 @@ import json
 import sys
 from pathlib import Path
 
+import guardrails
+
 LIB = Path(__file__).parent.parent / "irab_library"
 
 
@@ -26,8 +29,13 @@ def entries(book, surah):
     return {f"{e['s']}-{e['e']}": e["t"] for e in data["entries"] if e["b"] == book}
 
 
+LANG = "tr"   # set by --lang; "en" readings live in en_parts/ with the same layout
+PARTS = {"tr": "tr_parts", "en": "en_parts"}
+BY = {"tr": "Claude (makine çevirisi)", "en": "Claude (machine translation)"}
+
+
 def part_path(book, surah):
-    return LIB / "tr_parts" / book / f"s{int(surah):03d}.json"
+    return LIB / PARTS[LANG] / book / f"s{int(surah):03d}.json"
 
 
 def load_part(book, surah):
@@ -54,8 +62,14 @@ def main(cmd, *args):
         if key not in entries(book, surah):
             sys.exit(f"unknown key {key} for {book} s{surah}")
         text = Path(txt).read_text("utf-8").strip()
-        if not text:
-            sys.exit("empty translation")
+        if key not in entries(book, surah):
+            sys.exit(f"unknown key {key} for {book} s{surah}")
+        # guardrails: hard errors block the save, warnings are shown so they can be fixed
+        errors, warnings = guardrails.check_entry(LANG, entries(book, surah)[key], text)
+        for w in warnings:
+            print(f"WARNING {book}:{key}: {w}")
+        if errors:
+            sys.exit("NOT SAVED — fix and put again:\n  " + "\n  ".join(errors))
         part_path(book, surah).parent.mkdir(parents=True, exist_ok=True)
         # several agents may save the same (book, surah) concurrently: lock around read-modify-write
         lock = open(part_path(book, surah).with_suffix(".lock"), "w")
@@ -69,7 +83,7 @@ def main(cmd, *args):
             # Arabic text) this reading was made from.
             "src": {"book": book, "sure": int(surah), "ayet_bas": first, "ayet_son": last,
                     "sha1": hashlib.sha1(entries(book, surah)[key].encode("utf-8")).hexdigest()},
-            "by": "Claude (makine çevirisi)",
+            "by": BY[LANG],
             "at": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
         }
         p = part_path(book, surah)
@@ -87,4 +101,9 @@ def main(cmd, *args):
 
 
 if __name__ == "__main__":
-    main(*sys.argv[1:]) if len(sys.argv) > 1 else sys.exit(__doc__)
+    argv = sys.argv[1:]
+    if argv[:1] == ["--lang"]:
+        LANG, argv = argv[1], argv[2:]
+        if LANG not in PARTS:
+            sys.exit(f"unknown language {LANG}")
+    main(*argv) if argv else sys.exit(__doc__)

@@ -390,27 +390,44 @@
   {
    "id": "77",
    "name": "Diyanet İşleri",
-   "author": "Diyanet Isleri"
+   "author": "Diyanet Isleri",
+   "lang": "tr"
   },
   {
    "id": "52",
    "name": "Elmalılı Hamdi Yazır",
-   "author": "Elmalili Hamdi Yazir"
+   "author": "Elmalili Hamdi Yazir",
+   "lang": "tr"
   },
   {
    "id": "124",
    "name": "Muslim Shahin",
-   "author": "Muslim Shahin"
+   "author": "Muslim Shahin",
+   "lang": "tr"
   },
   {
    "id": "112",
    "name": "Shaban Britch",
-   "author": "Shaban Britch"
+   "author": "Shaban Britch",
+   "lang": "tr"
   },
   {
    "id": "210",
    "name": "Dar Al-Salam Center",
-   "author": "Dar Al-Salam Center"
+   "author": "Dar Al-Salam Center",
+   "lang": "tr"
+  },
+  {
+   "id": "20",
+   "name": "Saheeh International",
+   "author": "Saheeh International",
+   "lang": "en"
+  },
+  {
+   "id": "85",
+   "name": "M.A.S. Abdel Haleem",
+   "author": "Abdul Haleem",
+   "lang": "en"
   }
  ],
  "word_sources": {
@@ -418,7 +435,7 @@
    "name": "quran.com",
    "url": "https://quran.com",
    "fields": "kelime, transliterasyon, İngilizce anlam, Türkçe mealler",
-   "fetched_at": "2026-10-04T02:11:27.641333+00:00"
+   "fetched_at": "2026-10-04T15:45:45.577977+00:00"
   },
   "morphology": {
    "name": "Quranic Arabic Corpus (v0.4, Kais Dukes, GNU GPL)",

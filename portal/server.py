@@ -338,7 +338,7 @@ def serve_dersler(filename="index.html"):
 # ─── I'rab library (classical i'rab books, per ayah) ─────────────────────────
 # Built by build_irab_library.py into <repo>/irab_library/ — deliberately
 # outside portal/ so the catch-all static route below can't serve it without
-# a login. Turkish readings live in irab_library/tr/sNNN.json, keyed
+# a login. Turkish / English readings live in irab_library/{tr,en}/sNNN.json, keyed
 # "<book>:<first>-<last>" → {"t": text, "reviewed": bool}.
 
 @functools.lru_cache(maxsize=None)
@@ -366,14 +366,15 @@ def irab_library_ayah(surah, ayah):
     data = _irab_library_file(f"s{surah:03d}.json")
     if data is None:
         return jsonify({"error": "irab library not built"}), 500
-    tr = _irab_library_file(f"tr/s{surah:03d}.json") or {}
+    readings = {lang: _irab_library_file(f"{lang}/s{surah:03d}.json") or {} for lang in ("tr", "en")}
     entries = []
     for e in data["entries"]:
         if e["s"] <= ayah <= e["e"]:
             item = dict(e)
-            reading = tr.get(f"{e['b']}:{e['s']}-{e['e']}")
-            if reading:
-                item["tr"] = reading
+            for lang, by_key in readings.items():
+                reading = by_key.get(f"{e['b']}:{e['s']}-{e['e']}")
+                if reading:
+                    item[lang] = reading
             entries.append(item)
     word_data = (_irab_library_file(f"w/s{surah:03d}.json") or {}).get(str(ayah), {})
     return jsonify({"surah": surah, "ayah": ayah, "entries": entries,
