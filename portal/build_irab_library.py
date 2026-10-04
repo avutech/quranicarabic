@@ -242,6 +242,7 @@ def build_words():
     qc = json.loads(QURANCOM_FILE.read_text("utf-8"))
     out_dir = OUT_DIR / "w"
     out_dir.mkdir(exist_ok=True)
+    stale_words = []
     for s in range(1, 115):
         tr_file = OUT_DIR / "words_tr" / f"s{s:03d}.json"
         tr_words = json.loads(tr_file.read_text("utf-8")) if tr_file.exists() else {}
@@ -253,6 +254,10 @@ def build_words():
             for i, (ar, tl, en) in enumerate(v["w"], start=1):
                 lab = morph_labels.word_labels(corpus[(s, a, i)])
                 tr = tr_words.get(f"{a}:{i}")
+                # provenance: a Turkish meaning is only used if it was made from this exact word
+                if tr and tr.get("src", {}).get("sha1") != hashlib.sha1((ar + "|" + en).encode("utf-8")).hexdigest():
+                    stale_words.append(f"{s}:{a}:{i}")
+                    tr = None
                 words.append({"ar": ar, "tl": tl, "en": en, "tr": tr["t"] if tr else "",
                               "pa": lab["pos_ar"], "pt": lab["pos_tr"],
                               "da": lab["det_ar"], "dt": lab["det_tr"], "r": lab["root"]})
@@ -277,6 +282,8 @@ def build_words():
     write_atomic(OUT_DIR / "books.json", json.dumps(meta, ensure_ascii=False, indent=1))
     total = sum(f.stat().st_size for f in out_dir.glob("s*.json"))
     print(f"word grid: 114 surah files, {total / 1e6:.1f} MB")
+    if stale_words:
+        print(f"  STALE word meanings (source changed, not shown): {len(stale_words)} e.g. {stale_words[:5]}")
 
 
 def write_atomic(path, text):

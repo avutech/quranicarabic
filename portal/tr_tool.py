@@ -1,6 +1,6 @@
 """Helper for preparing Turkish readings of i'rab library entries.
 
-    venv/bin/python tr_tool.py list <book> <surah>            # entries + status
+    venv/bin/python tr_tool.py list <book> <surah> [first-last]  # entries + status
     venv/bin/python tr_tool.py show <book> <surah> <key>      # one entry's Arabic text
     venv/bin/python tr_tool.py put  <book> <surah> <key> <txt-file>
     venv/bin/python tr_tool.py status                         # counts per book
@@ -12,6 +12,7 @@ irab_library/tr/sNNN.json. Style rules: irab_library/glossary_tr.md.
 """
 
 import datetime
+import fcntl
 import hashlib
 import json
 import sys
@@ -36,9 +37,13 @@ def load_part(book, surah):
 
 def main(cmd, *args):
     if cmd == "list":
-        book, surah = args
+        book, surah = args[:2]
+        lo, hi = (int(x) for x in args[2].split("-")) if len(args) > 2 else (1, 10**4)
         done = load_part(book, surah)
         for key, text in entries(book, surah).items():
+            first, last = (int(x) for x in key.split("-"))
+            if last < lo or first > hi:
+                continue
             mark = "✓" if f"{book}:{key}" in done else " "
             print(f"[{mark}] {key:>9}  {len(text):6} chars")
     elif cmd == "show":
@@ -51,6 +56,10 @@ def main(cmd, *args):
         text = Path(txt).read_text("utf-8").strip()
         if not text:
             sys.exit("empty translation")
+        part_path(book, surah).parent.mkdir(parents=True, exist_ok=True)
+        # several agents may save the same (book, surah) concurrently: lock around read-modify-write
+        lock = open(part_path(book, surah).with_suffix(".lock"), "w")
+        fcntl.flock(lock, fcntl.LOCK_EX)
         part = load_part(book, surah)
         first, last = (int(x) for x in key.split("-"))
         part[f"{book}:{key}"] = {
@@ -64,8 +73,10 @@ def main(cmd, *args):
             "at": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
         }
         p = part_path(book, surah)
-        p.parent.mkdir(parents=True, exist_ok=True)
-        p.write_text(json.dumps(part, ensure_ascii=False, indent=1), "utf-8")
+        tmp = p.with_suffix(".tmp")
+        tmp.write_text(json.dumps(part, ensure_ascii=False, indent=1), "utf-8")
+        tmp.replace(p)
+        fcntl.flock(lock, fcntl.LOCK_UN)
         print(f"saved {book}:{key} ({len(text)} chars)")
     elif cmd == "status":
         for d in sorted((LIB / "tr_parts").glob("*")):
