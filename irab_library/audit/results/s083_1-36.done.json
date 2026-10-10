@@ -1,0 +1,11 @@
+{
+ "surah": 83,
+ "chunk": "1-36",
+ "verdicts": {
+  "OK": 91,
+  "SOURCE_DEFECT": 2,
+  "GAP": 8
+ },
+ "summary": "Surah 83 ayahs 1-36: all 14 findings (4 high NEAR, 10 low) reviewed, semantic sample of all 13 books done. All TR/EN match their Arabic entries and ayahs. One source defect: muyesser-irab 83:18 clause says الفجار instead of الأبرار (already flagged by translator notes). Gaps recorded for 8 books. No translation edits needed.",
+ "at": "2026-10-10 15:15"
+}

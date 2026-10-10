@@ -1,0 +1,11 @@
+{
+ "surah": 75,
+ "chunk": "1-40",
+ "verdicts": {
+  "OK": 90,
+  "SOURCE_DEFECT": 3,
+  "GAP": 8
+ },
+ "summary": "Surah 75 (1-40): 8 high/medium findings all OK (false positives: cross-references/neighbouring-ayah discussion, X ratio from Turkish brevity); 13 books semantically sampled (all ayah ranges verified Arabic/TR/EN consistent); 11 low findings OK (spelling artefacts, xrefs); 8 GAP lines recorded. Real source issues: mekki-muskil 10-10 also holds 75:14 comment, 33-33 also holds 75:36 comment; ukberi-tibyan 26-27 prints verse numbers 16/17. No translation fixes needed.",
+ "at": "2026-10-10 15:14"
+}

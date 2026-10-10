@@ -1,0 +1,11 @@
+{
+ "surah": 35,
+ "chunk": "1-45",
+ "verdicts": {
+  "OK": 99,
+  "TRANSLATION_FIXED": 1,
+  "GAP": 9
+ },
+ "summary": "Surah 35 audited: 6 high NEAR flags all OK (author cross-refs to adjacent ayahs, explicit tags); 84 SEM checks across 14 books OK except harrat-mujtaba:45-45 TR had stray ayah-quote prefix, fixed; 10 low flags OK (spelling normalisation/cross-refs); gaps recorded for 9 books. No source misplacements.",
+ "at": "2026-10-10 15:07"
+}

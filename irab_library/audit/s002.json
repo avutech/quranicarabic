@@ -61,7 +61,7 @@
    "Q_unfound": 5,
    "P": 0,
    "T": 0,
-   "X": 2
+   "X": 1
   },
   "ukberi-tibyan": {
    "entries": 267,
@@ -120,7 +120,7 @@
    "Q_xref": 0,
    "Q_unfound": 2,
    "P": 0,
-   "T": 1,
+   "T": 0,
    "X": 0
   },
   "harrat-mujtaba": {
@@ -3649,16 +3649,6 @@
    ]
   },
   {
-   "key": "mekki-muskil:2-2",
-   "book": "mekki-muskil",
-   "surah": 2,
-   "from": 2,
-   "to": 2,
-   "check": "X",
-   "sev": "medium",
-   "msg": "Turkish and English differ: length ratio tr/en 0.51, quotations kept tr 0 / en 0 of 0"
-  },
-  {
    "key": "mekki-muskil:29-29",
    "book": "mekki-muskil",
    "surah": 2,
@@ -5908,19 +5898,6 @@
    "examples": [
     "ويسيلونك مذ ينفقون"
    ]
-  },
-  {
-   "key": "daas-irab:234-234",
-   "book": "daas-irab",
-   "surah": 2,
-   "from": 234,
-   "to": 234,
-   "check": "T",
-   "sev": "medium",
-   "lang": "en",
-   "quotes": 2,
-   "kept": 0,
-   "msg": "reading keeps fewer than 80% of the source's Quranic quotations"
   },
   {
    "key": "harrat-mujtaba:24-24",

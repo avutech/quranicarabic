@@ -1,0 +1,10 @@
+{
+ "surah": 10,
+ "chunk": "81-109",
+ "verdicts": {
+  "OK": 106,
+  "GAP": 9
+ },
+ "summary": "2 high NEAR findings (nahhas-meani 86, 99) false positives; SEM sample of all 14 books OK; 18 low XREF/UNFOUND OK (orthography/cross-refs); 9 GAP ranges recorded; no mismatches, no translation fixes.",
+ "at": "2026-10-10 15:00"
+}

@@ -1,0 +1,11 @@
+{
+ "surah": 16,
+ "chunk": "1-83",
+ "verdicts": {
+  "OK": 68,
+  "SOURCE_DEFECT": 1,
+  "GAP": 8
+ },
+ "summary": "Surah 16 ayahs 1-83: 20 high/medium NEAR findings all OK (author discusses adjacent ayah or cross-references; entries open on own ayah). 34 low XREF/UNFOUND all OK (cross-refs/mushaf-spelling). SEM sample of 14 books x 6 all OK in Arabic/TR/EN except nahhas-irab:60-60 SOURCE_DEFECT (gloss on الحكيم confused, translated faithfully with note). 8 GAP verdicts (selective books). No translation fixes needed.",
+ "at": "2026-10-10 15:01"
+}

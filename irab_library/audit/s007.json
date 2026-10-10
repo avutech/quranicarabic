@@ -111,7 +111,7 @@
    "Q_unfound": 0,
    "P": 0,
    "T": 0,
-   "X": 1
+   "X": 0
   },
   "daas-irab": {
    "entries": 198,
@@ -3402,16 +3402,6 @@
    "examples": [
     "ن هذ ل فك فتره"
    ]
-  },
-  {
-   "key": "dervis-irab:35-37",
-   "book": "dervis-irab",
-   "surah": 7,
-   "from": 35,
-   "to": 37,
-   "check": "X",
-   "sev": "medium",
-   "msg": "Turkish and English differ: length ratio tr/en 0.42, quotations kept tr 0 / en 0 of 0"
   },
   {
    "key": "daas-irab:65-65",

@@ -31,7 +31,7 @@
    "Q_unfound": 6,
    "P": 0,
    "T": 0,
-   "X": 1
+   "X": 0
   },
   "nahhas-irab": {
    "entries": 38,
@@ -575,16 +575,6 @@
    "examples": [
     "نم نت منذر من يخشه"
    ]
-  },
-  {
-   "key": "zajjaj:45-45",
-   "book": "zajjaj",
-   "surah": 79,
-   "from": 45,
-   "to": 45,
-   "check": "X",
-   "sev": "medium",
-   "msg": "Turkish and English differ: length ratio tr/en 0.52, quotations kept tr 1 / en 1 of 1"
   },
   {
    "key": "zajjaj:46-46",

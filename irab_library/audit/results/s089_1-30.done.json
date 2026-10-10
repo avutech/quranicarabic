@@ -1,0 +1,11 @@
+{
+ "surah": 89,
+ "chunk": "1-30",
+ "verdicts": {
+  "OK": 87,
+  "SOURCE_DEFECT": 1,
+  "GAP": 8
+ },
+ "summary": "Surah 89 ayahs 1-30: 2 high NEAR findings were false positives (back-references to 89:8 and 89:23); 15 low XREF/UNFOUND all OK (normalization/cross-refs); semantic check of all 13 books OK (TR/EN match Arabic ayah-wise) except mekki-muskil:22-22, which merges commentary on ayahs 9 and 18 (source defect); 8 book GAPs recorded.",
+ "at": "2026-10-10 15:16"
+}

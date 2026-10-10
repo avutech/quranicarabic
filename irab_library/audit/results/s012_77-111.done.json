@@ -1,0 +1,12 @@
+{
+ "surah": 12,
+ "chunk": "77-111",
+ "verdicts": {
+  "OK": 95,
+  "SOURCE_DEFECT": 3,
+  "TRANSLATION_FIXED": 1,
+  "GAP": 8
+ },
+ "summary": "Surah 12 ayahs 77-111: 1 high finding (harrat-mujtaba 107, OK), 14 low findings (all checker artifacts or legitimate cross-refs; nahhas-meani 81 flagged SOURCE_DEFECT for garbled quote), semantic sample of all 14 books OK. Real issues: zajjaj 105 source truncated mid-sentence (SOURCE_DEFECT) and its TR translator note wrongly pointed to a nonexistent 106 entry (TRANSLATION_FIXED); GAP verdicts recorded for 8 books. No misplacements found.",
+ "at": "2026-10-10 15:13"
+}

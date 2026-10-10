@@ -1,0 +1,11 @@
+{
+ "surah": 2,
+ "chunk": "260-286",
+ "verdicts": {
+  "OK": 113,
+  "SOURCE_DEFECT": 1,
+  "GAP": 9
+ },
+ "summary": "Audited 2:260-286 across 14 books: 3 high Q findings OK (farraa 278, nahhas-meani 284, mekki-muskil 270), 27 low XREF/UNFOUND OK, semantic sample of all 14 books OK; one SOURCE_DEFECT (safi-cedvel:286-286 truncated/jumbled with 285); GAPs recorded for 8 books. No translation fixes needed.",
+ "at": "2026-10-10 14:56"
+}

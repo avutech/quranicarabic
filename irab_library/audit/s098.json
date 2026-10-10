@@ -21,7 +21,7 @@
    "Q_unfound": 0,
    "P": 0,
    "T": 0,
-   "X": 2
+   "X": 0
   },
   "nahhas-irab": {
    "entries": 7,
@@ -165,16 +165,6 @@
    ]
   },
   {
-   "key": "zajjaj:1-1",
-   "book": "zajjaj",
-   "surah": 98,
-   "from": 1,
-   "to": 1,
-   "check": "X",
-   "sev": "medium",
-   "msg": "Turkish and English differ: length ratio tr/en 0.54, quotations kept tr 2 / en 2 of 2"
-  },
-  {
    "key": "zajjaj:2-2",
    "book": "zajjaj",
    "surah": 98,
@@ -190,16 +180,6 @@
     "في صحف مكرمه",
     "مرفوعه مطهره"
    ]
-  },
-  {
-   "key": "zajjaj:4-4",
-   "book": "zajjaj",
-   "surah": 98,
-   "from": 4,
-   "to": 4,
-   "check": "X",
-   "sev": "medium",
-   "msg": "Turkish and English differ: length ratio tr/en 0.47, quotations kept tr 1 / en 1 of 1"
   },
   {
    "key": "semin-durr:5-5",

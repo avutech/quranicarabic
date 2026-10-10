@@ -1,0 +1,12 @@
+{
+ "surah": 2,
+ "chunk": "199-259",
+ "verdicts": {
+  "OK": 138,
+  "TRANSLATION_FIXED": 4,
+  "SOURCE_DEFECT": 2,
+  "GAP": 9
+ },
+ "summary": "Chunk 2:199-259 audited: 5 high/medium findings, 84-entry semantic sample over 14 books, 51 low findings and 9 gap lines all given verdicts. Real problems found and fixed: daas-irab:234 EN was truncated (2 of 3 paragraphs) and daas-irab:235 EN began with those 2 stray paragraphs of 234; both re-put via tr_tool. daas-irab:242 EN lacked TR's translator note; added. Source defects reported: daas-irab:235 (cross-ref says 228, should be 229) and daas-irab:242 (cross-ref says 218, should be 219). No SOURCE_MISPLACED.",
+ "at": "2026-10-10 14:57"
+}

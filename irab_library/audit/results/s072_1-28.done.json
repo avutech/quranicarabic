@@ -1,0 +1,10 @@
+{
+ "surah": 72,
+ "chunk": "1-28",
+ "verdicts": {
+  "OK": 104,
+  "GAP": 8
+ },
+ "summary": "Surah 72: 6 high/medium findings OK (cross-refs, not misplacement); semantic sample of all 13 books OK; 10 low XREF OK; 8 GAP ranges recorded. No translation fixes or source problems. Early malformed SEM rows with combined keys were superseded by correct per-key rows.",
+ "at": "2026-10-10 15:16"
+}

@@ -1,0 +1,10 @@
+{
+ "surah": 97,
+ "chunk": "1-5",
+ "verdicts": {
+  "OK": 36,
+  "GAP": 7
+ },
+ "summary": "Surah 97 clean: 1 high NEAR (farraa 4-4) OK since it spills into ayah 5, 2 low OK, 33 SEM checks across all 13 books OK, 7 GAPs reported; no mismatches or translation fixes.",
+ "at": "2026-10-10 15:17"
+}

@@ -1,0 +1,11 @@
+{
+ "surah": 8,
+ "chunk": "1-72",
+ "verdicts": {
+  "OK": 111,
+  "SOURCE_DEFECT": 3,
+  "GAP": 8
+ },
+ "summary": "Surah 8 ayahs 1-72: all 12 high/medium and 24 low findings and 6+ SEM samples for all 14 books checked; no misplaced entries. Problems: mekki-muskil:27-27 mixes 8:20 text (SOURCE_DEFECT, TR note added to match EN); nahhas-irab:13-13 truncated opening; dervis-irab:1-4 source says الأغنام for الغنائم. 8 GAP records.",
+ "at": "2026-10-10 14:59"
+}

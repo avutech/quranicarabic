@@ -1,0 +1,11 @@
+{
+ "surah": 57,
+ "chunk": "1-29",
+ "verdicts": {
+  "OK": 89,
+  "TRANSLATION_FIXED": 1,
+  "GAP": 6
+ },
+ "summary": "No source misplacements or defects found. 13 books x 6 SEM samples all OK (ayah, Arabic, TR, EN agree). 11 low XREF/UNFOUND findings all OK (cross-references / matcher spelling artefacts). One translation fix: harrat-mujtaba:29-29 TR had a stray prefix and spurious translator note, removed. 6 GAP lines recorded.",
+ "at": "2026-10-10 15:13"
+}

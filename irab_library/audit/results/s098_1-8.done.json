@@ -1,0 +1,12 @@
+{
+ "surah": 98,
+ "chunk": "1-8",
+ "verdicts": {
+  "TRANSLATION_FIXED": 2,
+  "OK": 75,
+  "SOURCE_DEFECT": 1,
+  "GAP": 5
+ },
+ "summary": "Surah 98 audited: 3 high/medium findings, 4 low, full SEM check of all 12 books. Two Zajjaj Turkish readings (1-1, 4-4) fixed to carry the translator notes present in EN; Harrat 4-4 NEAR and all XREF/UNFOUND are false positives; Mekki 5-5 includes ayah 6 content (source defect); gaps recorded for 5 books.",
+ "at": "2026-10-10 15:17"
+}

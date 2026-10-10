@@ -1,0 +1,11 @@
+{
+ "surah": 91,
+ "chunk": "1-15",
+ "verdicts": {
+  "OK": 94,
+  "SOURCE_MISPLACED": 2,
+  "GAP": 7
+ },
+ "summary": "No high/medium findings. 30 low (UNFOUND/XREF) all OK (rasm-stripped quotations). Semantic sample of all 14 books OK. One SOURCE_MISPLACED: semin-durr:8-8 is really about 91:9. 7 GAP ranges recorded. No translation fixes needed.",
+ "at": "2026-10-10 15:16"
+}

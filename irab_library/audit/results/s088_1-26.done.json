@@ -1,0 +1,11 @@
+{
+ "surah": 88,
+ "chunk": "1-26",
+ "verdicts": {
+  "OK": 77,
+  "SOURCE_DEFECT": 1,
+  "GAP": 7
+ },
+ "summary": "Surah 88 audited: all 3 high/medium and 10 low findings OK; SEM sample of all 14 books OK; one SOURCE_DEFECT muyesser-irab:16-16 (parses أكواب from 88:14, already noted in TR/EN); 7 GAP reports.",
+ "at": "2026-10-10 15:15"
+}

@@ -1,0 +1,12 @@
+{
+ "surah": 59,
+ "chunk": "1-24",
+ "verdicts": {
+  "OK": 88,
+  "TRANSLATION_FIXED": 1,
+  "SOURCE_DEFECT": 1,
+  "GAP": 6
+ },
+ "summary": "Surah 59 ayahs 1-24: 3 high/medium findings (zajjaj 16 OK, harrat 8 OK, harrat 13 EN stray prefix fixed), 6 low verdicts OK, SEM sampled for all 13 books all OK; one source defect: mekki-muskil:21-21 runs on into ayah 24; GAPs recorded for 6 books.",
+ "at": "2026-10-10 15:11"
+}

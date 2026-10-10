@@ -1,0 +1,11 @@
+{
+ "surah": 28,
+ "chunk": "84-88",
+ "verdicts": {
+  "OK": 43,
+  "SOURCE_DEFECT": 2,
+  "GAP": 8
+ },
+ "summary": "28:84-88: 0 high/medium findings; 3 low XREF/UNFOUND reviewed (2 OK, UNFOUND was a detector artefact); semantic check OK for all 13 books present across all their keys; one source defect: semin-durr 86-86 also holds the 28:87 comment; 8 GAP lines recorded; no translation fixes needed.",
+ "at": "2026-10-10 15:05"
+}

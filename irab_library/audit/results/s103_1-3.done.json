@@ -1,0 +1,10 @@
+{
+ "surah": 103,
+ "chunk": "1-3",
+ "verdicts": {
+  "OK": 24,
+  "GAP": 5
+ },
+ "summary": "No high/medium/low findings; all 24 entries across 12 books checked semantically (SEM) and match ayah-to-ayah in Arabic/TR/EN; 5 source gaps reported (farraa 3, harrat-mujtaba 1, mekki-muskil 2, semin-durr 3, ukberi-tibyan 1-2).",
+ "at": "2026-10-10 15:17"
+}

@@ -1,0 +1,11 @@
+{
+ "surah": 68,
+ "chunk": "1-52",
+ "verdicts": {
+  "OK": 86,
+  "SOURCE_MISPLACED": 1,
+  "GAP": 7
+ },
+ "summary": "Surah 68 chunk 1-52: 3 high/medium and 11 low findings all OK (false positives: next-ayah quotes, cross-references, rasm-stripped quotes, translator-note length gap); SEM sample of all 13 books OK with one source issue: mekki-muskil:17-17 also holds comments on 68:6 and 68:15. GAPs recorded for 7 books. No translation fixes needed.",
+ "at": "2026-10-10 15:12"
+}

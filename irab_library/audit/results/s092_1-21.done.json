@@ -1,0 +1,11 @@
+{
+ "surah": 92,
+ "chunk": "1-21",
+ "verdicts": {
+  "OK": 76,
+  "SOURCE_DEFECT": 1,
+  "GAP": 8
+ },
+ "summary": "All 6 high NEAR findings and 8 low findings OK (legitimate cross-refs/paraphrases); semantic sample of all 13 books OK in AR/TR/EN. One source defect: mekki-muskil:20-20 contains stray 'inna sa'yakum' (ayah 4) jawab-al-qasam note (already flagged by translator notes). Gaps recorded for 8 books (source selective).",
+ "at": "2026-10-10 15:19"
+}

@@ -1,0 +1,11 @@
+{
+ "surah": 1,
+ "chunk": "1-7",
+ "verdicts": {
+  "OK": 87,
+  "SOURCE_DEFECT": 1,
+  "GAP": 5
+ },
+ "summary": "Surah 1 audited: 3 candidate findings OK, 12 XREF all OK, semantic sample of every entry of 14 books OK except nahhas-irab:6-6 (source heading 'إِنَّا هُدْنا' garbled, SOURCE_DEFECT); 5 GAP ranges recorded; no translation fixes needed.",
+ "at": "2026-10-10 14:55"
+}

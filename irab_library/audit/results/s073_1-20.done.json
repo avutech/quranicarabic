@@ -1,0 +1,10 @@
+{
+ "surah": 73,
+ "chunk": "1-20",
+ "verdicts": {
+  "OK": 95,
+  "GAP": 8
+ },
+ "summary": "73:1-20 audited: 3 high NEAR findings (zajjaj 1-2, 12, 17) are legitimate multi-ayah entries; 15 low XREF/UNFOUND are false positives from unvowelled matching or cross-references; semantic check of all sampled entries across 13 books found TR/EN faithful to Arabic and ayah. Minor: daas-irab:20-20 source has a stray next-surah heading. 8 GAP ranges recorded.",
+ "at": "2026-10-10 15:13"
+}

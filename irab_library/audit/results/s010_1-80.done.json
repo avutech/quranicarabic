@@ -1,0 +1,10 @@
+{
+ "surah": 10,
+ "chunk": "1-80",
+ "verdicts": {
+  "OK": 141,
+  "GAP": 9
+ },
+ "summary": "Chunk surah 10 ayahs 1-80: 6 high findings (all NEAR, entries legitimately cite adjacent/related ayahs) OK; 14 books semantic sample 6+ each all consistent (Quran/Diyanet/Arabic/TR/EN same ayah); 51 low findings OK (letter-normalisation artefacts or legitimate cross-refs); GAPs recorded for 9 books. No misplaced or defective source found; no translation fixes needed. Only notes: zajjaj:50 source garbled hā referent (translator note present); safi-cedvel 79-86 and dervis ranges extend past ayah 80.",
+ "at": "2026-10-10 15:00"
+}

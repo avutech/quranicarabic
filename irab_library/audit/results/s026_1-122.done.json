@@ -1,0 +1,11 @@
+{
+ "surah": 26,
+ "chunk": "1-122",
+ "verdicts": {
+  "OK": 125,
+  "TRANSLATION_FIXED": 1,
+  "GAP": 9
+ },
+ "summary": "Audited 26:1-122 across 14 books. All 18 high/medium and 27 low findings reviewed: all false positives (adjacent/cross-referenced ayahs, orthography) except harrat-mujtaba:114-114 where a stray Turkish prefix was removed (TRANSLATION_FIXED). Semantic sample of 6+ ayahs per book OK. GAPs recorded for 9 books. No source misplacements or defects.",
+ "at": "2026-10-10 15:05"
+}

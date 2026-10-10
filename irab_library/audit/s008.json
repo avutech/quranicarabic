@@ -61,7 +61,7 @@
    "Q_unfound": 0,
    "P": 0,
    "T": 0,
-   "X": 1
+   "X": 0
   },
   "ukberi-tibyan": {
    "entries": 50,
@@ -702,16 +702,6 @@
     "وولو لرحم بعضهم ولي ببعض",
     "وولو لرحم بعضهم"
    ]
-  },
-  {
-   "key": "mekki-muskil:27-27",
-   "book": "mekki-muskil",
-   "surah": 8,
-   "from": 27,
-   "to": 27,
-   "check": "X",
-   "sev": "medium",
-   "msg": "Turkish and English differ: length ratio tr/en 0.52, quotations kept tr 2 / en 2 of 2"
   },
   {
    "key": "semin-durr:2-2",

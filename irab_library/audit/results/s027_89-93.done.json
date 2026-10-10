@@ -1,0 +1,12 @@
+{
+ "surah": 27,
+ "chunk": "89-93",
+ "verdicts": {
+  "OK": 41,
+  "SOURCE_DEFECT": 1,
+  "TRANSLATION_FIXED": 2,
+  "GAP": 6
+ },
+ "summary": "Chunk 27:89-93: 0 candidate findings; every entry of all books semantically checked and consistent; fixed 2 translation issues (harrat-mujtaba 92 TR extra prefix, nahhas-irab 90 EN missing note); nahhas-irab 90 source entry truncated; 6 book gaps recorded.",
+ "at": "2026-10-10 15:05"
+}

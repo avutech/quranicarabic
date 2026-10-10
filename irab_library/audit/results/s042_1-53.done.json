@@ -1,0 +1,10 @@
+{
+ "surah": 42,
+ "chunk": "1-53",
+ "verdicts": {
+  "OK": 113,
+  "GAP": 8
+ },
+ "summary": "Surah 42 audited: 9 high/medium findings (8 NEAR where the entry spans/cross-refs adjacent ayahs, 1 TR/EN length ratio from translator notes) all OK; 14 books semantic sample (6+ each) all OK; 21 low XREF/UNFOUND OK; 8 GAP lines recorded. No source or translation problems found, no edits made.",
+ "at": "2026-10-10 15:08"
+}

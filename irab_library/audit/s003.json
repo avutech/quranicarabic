@@ -21,7 +21,7 @@
    "Q_unfound": 4,
    "P": 0,
    "T": 2,
-   "X": 1
+   "X": 0
   },
   "zajjaj": {
    "entries": 163,
@@ -1422,16 +1422,6 @@
    "examples": [
     "لن يضروكم ل ذي"
    ]
-  },
-  {
-   "key": "akhfash:125-125",
-   "book": "akhfash",
-   "surah": 3,
-   "from": 125,
-   "to": 125,
-   "check": "X",
-   "sev": "medium",
-   "msg": "Turkish and English differ: length ratio tr/en 2.18, quotations kept tr 1 / en 1 of 1"
   },
   {
    "key": "akhfash:144-144",

@@ -1,0 +1,10 @@
+{
+ "surah": 80,
+ "chunk": "1-42",
+ "verdicts": {
+  "OK": 87,
+  "GAP": 8
+ },
+ "summary": "Surah 80 ayahs 1-42: all 7 high/medium and 3 low findings are false positives (legitimate continuation/cross-reference quotations, or EN translator notes). Semantic sample for all 14 books checked, TR/EN/Arabic agree and match the ayah. Gaps recorded; no source or translation problems found.",
+ "at": "2026-10-10 15:14"
+}

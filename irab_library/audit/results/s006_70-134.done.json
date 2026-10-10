@@ -1,0 +1,10 @@
+{
+ "surah": 6,
+ "chunk": "70-134",
+ "verdicts": {
+  "OK": 153,
+  "GAP": 8
+ },
+ "summary": "Audited 6:70-134: 4 high NEAR findings OK, 61 low XREF/UNFOUND OK, 84 SEM samples across 14 books consistent in Arabic/TR/EN, 8 GAP ranges recorded; no translation fixes or source defects.",
+ "at": "2026-10-10 14:58"
+}

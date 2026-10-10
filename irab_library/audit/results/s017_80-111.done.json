@@ -1,0 +1,11 @@
+{
+ "surah": 17,
+ "chunk": "80-111",
+ "verdicts": {
+  "SOURCE_DEFECT": 1,
+  "OK": 102,
+  "GAP": 8
+ },
+ "summary": "All 7 high/medium findings reviewed (6 OK as legitimate continuation/cross-reference; farraa:94-94 SOURCE_DEFECT: 17:93 text embedded in the 94 entry, already handled by a translator's note). Semantic sample of all 14 books checked (Ar/TR/EN same ayah and meaning, no translation fixes needed), 15 low findings all OK (spelling/sandhi artefacts or cross-refs), 8 GAP lines recorded. No misplaced entries, no translation mismatches.",
+ "at": "2026-10-10 15:05"
+}

@@ -1,0 +1,10 @@
+{
+ "surah": 107,
+ "chunk": "1-7",
+ "verdicts": {
+  "OK": 56,
+  "GAP": 7
+ },
+ "summary": "Surah 107 audited: 1 medium and 1 low finding were false positives; semantic check of all entries of all 13 books matched ayah, TR and EN; 7 GAPs recorded (source silence); no source or translation problems.",
+ "at": "2026-10-10 15:18"
+}

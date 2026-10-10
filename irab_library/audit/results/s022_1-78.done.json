@@ -1,0 +1,11 @@
+{
+ "surah": 22,
+ "chunk": "1-78",
+ "verdicts": {
+  "OK": 116,
+  "TRANSLATION_FIXED": 1,
+  "GAP": 8
+ },
+ "summary": "Surah 22 ayahs 1-78: 9 high NEAR findings all OK (authors discuss adjacent ayahs); 84 SEM checks across 14 books OK except harrat-mujtaba:63-63 EN (extra stray phrase removed, TRANSLATION_FIXED); 24 low XREF/UNFOUND findings OK (cross-references or normalization artifacts); 8 GAP ranges recorded (akhfash, farraa, mekki-muskil, nahhas-irab, nahhas-meani, semin-durr, ukberi-tibyan, zajjaj). No source misplacement or defects found.",
+ "at": "2026-10-10 15:04"
+}

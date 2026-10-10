@@ -91,7 +91,7 @@
    "Q_unfound": 4,
    "P": 0,
    "T": 0,
-   "X": 1
+   "X": 0
   },
   "safi-cedvel": {
    "entries": 149,
@@ -2204,16 +2204,6 @@
     "فم لهم عن لتذكره معرضين",
     "و لطفل لذين لم يظهرو"
    ]
-  },
-  {
-   "key": "semin-durr:77-77",
-   "book": "semin-durr",
-   "surah": 4,
-   "from": 77,
-   "to": 77,
-   "check": "X",
-   "sev": "medium",
-   "msg": "Turkish and English differ: length ratio tr/en 2.07, quotations kept tr 2 / en 2 of 2"
   },
   {
    "key": "semin-durr:78-78",

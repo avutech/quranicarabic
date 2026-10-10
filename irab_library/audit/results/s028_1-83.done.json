@@ -1,0 +1,12 @@
+{
+ "surah": 28,
+ "chunk": "1-83",
+ "verdicts": {
+  "OK": 116,
+  "SOURCE_DEFECT": 1,
+  "TRANSLATION_FIXED": 3,
+  "GAP": 9
+ },
+ "summary": "Surah 28 ayahs 1-83: 8 high/medium findings checked (7 OK cross-references; SOURCE_DEFECT ukberi-tibyan:82-83 label covers only ayah 82 text while 83-83 also exists). Fixed systematic TR defect: harrat-mujtaba TR had a duplicated ayah quote plus 'tartisilan ifade' note absent from Arabic/EN in 18 entries (14,17,19,22,23,27,29,30,36,47,48,49,50,52,53,55,72,84), stripped via tr_tool put. Semantic sample of all 14 books OK; 28 low findings OK; GAPs recorded.",
+ "at": "2026-10-10 15:06"
+}

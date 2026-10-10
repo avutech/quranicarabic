@@ -121,7 +121,7 @@
    "Q_unfound": 0,
    "P": 0,
    "T": 0,
-   "X": 1
+   "X": 0
   },
   "muyesser-irab": {
    "entries": 24,
@@ -347,16 +347,6 @@
    "examples": [
     "ولذي لقربي"
    ]
-  },
-  {
-   "key": "harrat-mujtaba:13-13",
-   "book": "harrat-mujtaba",
-   "surah": 59,
-   "from": 13,
-   "to": 13,
-   "check": "X",
-   "sev": "medium",
-   "msg": "Turkish and English differ: length ratio tr/en 0.52, quotations kept tr 0 / en 0 of 0"
   }
  ]
 }

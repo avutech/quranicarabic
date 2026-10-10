@@ -1,0 +1,11 @@
+{
+ "surah": 45,
+ "chunk": "1-37",
+ "verdicts": {
+  "OK": 99,
+  "SOURCE_DEFECT": 2,
+  "GAP": 8
+ },
+ "summary": "Surah 45 ayahs 1-37: 5 high/medium findings (4 OK false positives from cross-refs to neighbouring ayahs; mekki-muskil 4-4 SOURCE_DEFECT: trailing paragraph on 45:14 and truncated), 13 low findings all OK (orthography artefacts/cross-refs), semantic sample of all 14 books OK, GAP lines recorded. No translation fixes needed.",
+ "at": "2026-10-10 15:12"
+}

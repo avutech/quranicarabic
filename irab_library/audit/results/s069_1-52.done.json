@@ -1,0 +1,12 @@
+{
+ "surah": 69,
+ "chunk": "1-52",
+ "verdicts": {
+  "OK": 95,
+  "TRANSLATION_FIXED": 1,
+  "SOURCE_DEFECT": 1,
+  "GAP": 7
+ },
+ "summary": "Surah 69 ayahs 1-52: 7 high/medium findings all OK (cross-references to neighbouring ayahs/parallels); 18 low findings checked (17 OK, 1 TRANSLATION_FIXED semin-durr:11-11 EN 'ships'->'girls' to match TR); SEM sample of all 13 books (about 70 entries) OK; 1 SOURCE_DEFECT mekki-muskil:43-43 (contains comment on 69:47 'عنه حاجزين'); 7 GAP lines recorded.",
+ "at": "2026-10-10 15:13"
+}

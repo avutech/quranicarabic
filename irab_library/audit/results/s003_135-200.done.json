@@ -1,0 +1,11 @@
+{
+ "surah": 3,
+ "chunk": "135-200",
+ "verdicts": {
+  "OK": 139,
+  "SOURCE_DEFECT": 2,
+  "GAP": 8
+ },
+ "summary": "Chunk 3:135-200 audited: 9 high/medium findings (7 OK, 2 SOURCE_DEFECT: mekki-muskil:140 carries a 3:143 reading; celaleyn:200 begins with the end of 3:199), 49 low findings OK, 84 semantic checks OK across 14 books, 8 GAP lines. No translation fixes needed.",
+ "at": "2026-10-10 15:00"
+}

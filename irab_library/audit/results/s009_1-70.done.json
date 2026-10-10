@@ -1,0 +1,11 @@
+{
+ "surah": 9,
+ "chunk": "1-70",
+ "verdicts": {
+  "OK": 135,
+  "SOURCE_DEFECT": 1,
+  "GAP": 9
+ },
+ "summary": "9:1-70: 7 high NEAR findings all OK; 31 low reviewed (1 SOURCE_DEFECT: mekki-muskil:36-36 has a paragraph on 9:25); semantic sample 72 keys all OK; 9 GAP records.",
+ "at": "2026-10-10 14:59"
+}

@@ -1,0 +1,10 @@
+{
+ "surah": 96,
+ "chunk": "1-19",
+ "verdicts": {
+  "OK": 73,
+  "GAP": 7
+ },
+ "summary": "All 8 findings (7 high NEAR + 1 low UNFOUND) are false positives: authors discuss adjacent ayahs or quote 96:9-14 within one entry; SEM sample of all 13 books OK (TR/EN faithful and on the right ayah); GAPs recorded for akhfash, farraa, harrat-mujtaba, mekki-muskil, semin-durr, ukberi-tibyan, zajjaj. No source or translation problems found.",
+ "at": "2026-10-10 15:17"
+}
