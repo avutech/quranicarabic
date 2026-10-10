@@ -557,5 +557,31 @@
   },
   "by": "Claude (machine translation)",
   "at": "2026-10-04T16:53:29+00:00"
+ },
+ "muyesser-irab:1-1": {
+  "t": "﴿الحمد لله فاطر السماوات والأرض﴾: الحمد: mubtadaʾ (subject); ولله: a preposition and its genitive noun, attached to (mutaʿalliq) an omitted khabar (predicate) of the mubtadaʾ; وفاطر: an adjective (ṣifa); والسماوات: muḍāf ilayhi (genitive construct); والأرض: conjoined to السماوات.\n﴿جاعل الملائكة رسلا أولي أجنحة مثنى وثلاث ورباع﴾: جاعل: a second adjective; والملائكة: muḍāf ilayhi; ورسلا: the second object of ﴿جاعل﴾, or an anticipated ḥāl (ḥāl muqaddara, circumstantial) if جاعل means \"creator\"; وأولي: an adjective (naʿt) of ﴿رسلا﴾; وأجنحة: muḍāf ilayhi; ومثنى: an adjective of أجنحة; وثلاث ورباع: conjoined to مثنى.\n﴿يزيد في الخلق ما يشاء﴾: resumptive speech with no grammatical position, and it confirms what precedes it. ويزيد: an imperfect verb; وفي الخلق: a preposition and its genitive noun, attached to ﴿يزيد﴾; وما: a relative noun, mafʿūl bihi (direct object); and the clause ﴿يشاء﴾ is the ṣila (relative clause), a clause with no grammatical position.\n﴿إن الله على كل شيء قدير﴾: إن: an abrogating particle; the Divine Name is the noun of إن; وعلى كل: a preposition and its genitive noun, attached to ﴿قدير﴾; وشيء: muḍāf ilayhi; وقدير: the khabar of إن; and the clause is causal (taʿlīliyya), with no grammatical position.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 35,
+   "ayet_bas": 1,
+   "ayet_son": 1,
+   "sha1": "4511ad0d6384600ab3475de4409691e129a3e11d"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:29:08+00:00"
+ },
+ "muyesser-irab:2-2": {
+  "t": "﴿ما يفتح الله للناس من رحمة فلا ممسك لها﴾: ما: a jussivising conditional noun in the position of accusative as a fronted mafʿūl bihi (direct object) of ﴿يفتح﴾; ويفتح: the protasis (fiʿl al-sharṭ), jussive (majzūm) with sukūn, its end being moved with kasra because of the meeting of two quiescent letters; والله: fāʿil (agent); وللناس: a preposition and its genitive noun, attached to (mutaʿalliq) ﴿يفتح﴾; ومن رحمة: a preposition and its genitive noun, attached to an omitted ḥāl (circumstantial) of the conditional noun; والفاء: linking the apodosis of the condition; ولا: the lā of generic negation; وممسك: the noun of لا; ولها: a preposition and its genitive noun, attached to an omitted khabar (predicate) of لا; and the clause ﴿لا ممسك لها﴾ is in the position of jussive as the apodosis (jawāb al-sharṭ).\n﴿وما يمسك فلا مرسل له من بعده﴾: الواو: a conjunction; وما: a jussivising conditional noun in the position of accusative as a fronted object of ﴿يمسك﴾; ويمسك: the protasis, jussive; والفاء: linking the apodosis of the condition; ولا: the lā of generic negation; ومرسل: the noun of لا; وله: a preposition and its genitive noun, attached to an omitted khabar of لا; ومن بعده: a preposition and its genitive noun, attached to what the khabar is attached to, by an omitted ḥāl of the pronoun concealed in the implied khabar of لا. [Translator's note: the Arabic phrase here («متعلقان بما تعلق به خبر بمحذوف حال من الضمير المستكن في خبر لا المقدر») appears garbled in the source, apparently conflating two alternatives: attachment to what the khabar is attached to, or to an omitted ḥāl of the pronoun latent in the implied khabar of لا.]\n﴿وهو العزيز الحكيم﴾: الواو: resumptive; وهو: mubtadaʾ (subject); والعزيز: first khabar; والحكيم: second khabar; and the clause is resumptive, with no grammatical position.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 35,
+   "ayet_bas": 2,
+   "ayet_son": 2,
+   "sha1": "f8196b82f0950ee95de830b8afa1b5af062e9a15"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:29:08+00:00"
  }
 }

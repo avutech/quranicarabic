@@ -388,5 +388,824 @@
   },
   "by": "Claude (machine translation)",
   "at": "2026-10-04T16:53:22+00:00"
+ },
+ "muyesser-irab:31-31": {
+  "t": "﴿ألا تعلوا علي﴾: ﴿أن﴾ is explicative (tafsīriyya), and لا is prohibitive (nāhiya). تعلوا is an imperfect verb, jussive (majzūm) by لا, and the wāw is the fāʿil (agent). علَيَّ is a preposition and its genitive noun, attached to (mutaʿalliq) ﴿تعلوا﴾. Or ﴿أن﴾ is maṣdariyya (infinitival), putting the verb in the accusative, and ﴿لا﴾ is negating; the interpreted maṣdar (verbal noun) from ﴿أن﴾ and what falls within its scope is a badal (substitute) from ﴿كتاب﴾, or the khabar (predicate) of an omitted mubtadaʾ (subject), i.e.: \"its content is that you not exalt yourselves\", or accusative by removal of the preposition, i.e.: \"that you not exalt yourselves\" (بأن لا تعلوا).\n﴿وأتوني مسلمين﴾: the wāw is a conjunction. وائتوني is an imperative verb, indeclinable (mabnī) on the dropping of the nūn; the wāw is the fāʿil, the nūn is for protection (lil-wiqāya), and the yāʾ is the mafʿūl bihi (direct object). مسلمين is a ḥāl (circumstantial).",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 31,
+   "ayet_son": 31,
+   "sha1": "af7b6165cdc086610100739e4678a9f52fb0af93"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:28:37+00:00"
+ },
+ "muyesser-irab:32-32": {
+  "t": "﴿قالت يا أيها الملأ أفتوني في أمري﴾: أفتوني is an imperative verb, indeclinable (mabnī) on the dropping of the nūn; the wāw is the fāʿil (agent), the nūn is for protection (lil-wiqāya), and the yāʾ is the mafʿūl bihi (direct object); في أمري is a preposition and its genitive noun, attached to (mutaʿalliq) ﴿أفتوني﴾.\n﴿ما كنت قاطعة أمرا حتى تشهدون﴾: ما is negating; and ﴿كنت قاطعة﴾: كان is a defective (nāqiṣ) past verb, the tāʾ is its noun (ism), and قاطعة is its khabar (predicate); أمرًا is a mafʿūl bihi; حتى is a particle of limit (ghāya) and of the genitive; تشهدون is an imperfect verb, accusative (manṣūb) by an implied (muḍmara) أن after حتى, the sign of its accusative being the dropping of the nūn; the nūn that is present is the nūn of protection, and the omitted first-person yāʾ is the mafʿūl bihi; the interpreted maṣdar (verbal noun) from أن and the verb is genitive (majrūr) by حتى, and the preposition and its genitive noun are attached to قاطعة.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 32,
+   "ayet_son": 32,
+   "sha1": "f4b1de22d8874e6b2b556105df6764f0ba82b4aa"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:28:37+00:00"
+ },
+ "muyesser-irab:33-33": {
+  "t": "﴿قالوا نحن أولو قوة وأولو بأس شديد﴾: قالوا is a past verb and the wāw is the fāʿil (agent); نحن is a mubtadaʾ (subject), and أولو is a nominative (marfūʿ) khabar (predicate), the sign of its nominative being the wāw, because it is treated like (mulḥaq bi-) the sound masculine plural; the clause ﴿نحن﴾ is the object of saying (maqūl al-qawl); قوة is muḍāf ilayhi (genitive construct); and ﴿أولو بأس شديد﴾ is conjoined (ʿaṭf) to what precedes.\n﴿والأمر إليك فانظري ماذا تأمرين﴾: the wāw is a conjunction; الأمر is a mubtadaʾ, and ﴿إليك﴾ is a preposition and its genitive noun, attached to (mutaʿalliq) an omitted khabar; ﴿فانظري﴾: the fāʾ is the fāʾ al-faṣīḥa; انظري is an imperative verb, and the yāʾ is the fāʿil; ماذا is an interrogative noun in the position of an accusative (naṣb) as a fronted mafʿūl bihi (direct object) of ﴿تأمرين﴾; تأمرين is an imperfect verb, nominative, the sign of its nominative being the retention of the nūn, and the yāʾ of the feminine addressee is the fāʿil.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 33,
+   "ayet_son": 33,
+   "sha1": "5c56837e895835cb99b9aa24433d85f6ce2a9657"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:28:37+00:00"
+ },
+ "muyesser-irab:34-34": {
+  "t": "﴿قالت إن الملوك إذا دخلوا قرية أفسدوها﴾: resumptive speech with no grammatical position; قالت is a past verb; إن is an abrogating particle (ḥarf nāsikh), and الملوك is its noun (ism); إذا is an adverb (ẓarf) of the future containing the sense of condition; the clause ﴿دخلوا﴾ is in the position of a genitive by the adverb being annexed to it; قرية is a mafʿūl bihi (direct object) by extension (ʿalā al-saʿa); the clause أفسدوها is the apodosis (jawāb al-sharṭ) of a non-jussive condition, with no grammatical position; and the conditional clause with its apodosis is the khabar (predicate) of إن.\n﴿وجعلوا أعزة أهلها أذلة﴾: the wāw is a conjunction; جعلوا is a verb and its fāʿil (agent); أعزة أهلها is the first object of جعلوا, and أذلة is the second object of جعلوا.\n﴿وكذلك يفعلون﴾: the wāw is a conjunction; and ﴿كذلك﴾: the kāf is a noun meaning \"like\" (mithl), indeclinable (mabnī) on the fatḥa, in the position of an accusative as a mafʿūl bihi of ﴿تفعلون﴾ [Translator's note: so in the source; the Quranic word is ﴿يفعلون﴾], or a naʿt (adjective) of an omitted maṣdar (verbal noun); and ﴿ذلك﴾: ﴿ذا﴾ is a demonstrative in the position of a genitive as muḍāf ilayhi (genitive construct), the lām is for distance, and the kāf is a particle of address; and ﴿يفعلون﴾ is an imperfect verb, nominative (marfūʿ) by the retention of the nūn, and the wāw is the fāʿil.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 34,
+   "ayet_son": 34,
+   "sha1": "7c602eaa2e8ac3394106e2355516cd04fe58b9db"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:28:37+00:00"
+ },
+ "muyesser-irab:35-35": {
+  "t": "﴿وإني مرسلة إليهم بهدية فناظرة بم يرجع المرسلون﴾: إن is an abrogating particle (ḥarf nāsikh), the yāʾ is its noun (ism), and مرسلة is its khabar (predicate); ﴿إليهم﴾ is a preposition and its genitive noun, attached to (mutaʿalliq) مرسلة; ﴿بهدية﴾ is a preposition and its genitive noun, attached to مرسلة; ﴿فناظرة﴾ is conjoined (ʿaṭf) to مرسلة; and ﴿بم﴾: the bāʾ is a preposition, and the interrogative ما, whose alif has been dropped, is in the position of a genitive by the bāʾ, and the preposition and its genitive noun are attached to ﴿يرجع﴾; ﴿يرجع المرسلون﴾ is a verb and its fāʿil (agent), and the clause is the mafʿūl bihi (direct object) of ﴿ناظرة﴾.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 35,
+   "ayet_son": 35,
+   "sha1": "3051cca997267349c795ae01ddb771e33b98d8a4"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:28:37+00:00"
+ },
+ "muyesser-irab:36-36": {
+  "t": "﴿فلما جاء سليمان قال أتمدونن بمال﴾: the fāʾ is a conjunction to something omitted; لما is temporal (ẓarfiyya ḥīniyya), or a linking particle (rābiṭa) containing the sense of condition; ﴿جاء سليمان﴾: a past verb, and the fāʿil (agent) is latent (mustatir), its implied form being \"he\", i.e. the messenger, and سليمان is the mafʿūl bihi (direct object); the clause ﴿قال﴾ has no grammatical position; the hamza is for interrogation; تمدونن is an imperfect verb, nominative (marfūʿ), the sign of its nominative being the retention of the nūn; the wāw is the fāʿil, the nūn is for protection (lil-wiqāya), and the omitted yāʾ is the mafʿūl bihi; ﴿بمال﴾ is a preposition and its genitive noun, attached to (mutaʿalliq) ﴿تمدونن﴾.\n﴿فما آتاني الله خير مما آتاكم﴾: the fāʾ is a particle of causation (taʿlīl) for his preceding disapproval of them; ﴿ما﴾ is a relative noun, mubtadaʾ (subject); the clause آتاني is the ṣila (relative clause), with no grammatical position; ﴿آتاني الله﴾ is a past verb and a fronted mafʿūl bihi, and the Name of Majesty is the postponed fāʿil; ﴿خير﴾ is the khabar (predicate) of ﴿ما﴾.\n﴿بل أنتم بهديتكم تفرحون﴾: بل is a particle of digression (iḍrāb); أنتم is a mubtadaʾ; ﴿بهديتكم﴾ is a preposition and its genitive noun, attached to ﴿تفرحون﴾; and the clause تفرحون is the khabar.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 36,
+   "ayet_son": 36,
+   "sha1": "f3621b06abef50d6c6bd9e9220ec7e2a42ec666b"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:28:37+00:00"
+ },
+ "muyesser-irab:37-37": {
+  "t": "﴿ارجع إليهم فلنأتينهم بجنود لا قبل لهم بها﴾: ارجع is an imperative verb, and its fāʿil (agent) is latent (mustatir), its implied form being \"you\" (أنت); ﴿إليهم﴾ is a preposition and its genitive noun, attached to (mutaʿalliq) ﴿ارجع﴾; the fāʾ is resumptive, and the clause after it is resumptive, with no grammatical position; the lām occurs in the response to an implied oath; ﴿نأتينهم﴾ is an imperfect verb, indeclinable (mabnī) on the fatḥa because it is joined to the heavy nūn of emphasis; the fāʿil is latent, its implied form being \"we\" (نحن), and the hāʾ is the mafʿūl bihi (direct object); ﴿بجنود﴾ is a preposition and its genitive noun, attached to ﴿نأتينهم﴾; لا is the lā of generic negation, and ﴿قبل﴾ is the noun (ism) of لا, indeclinable on the fatḥa; ﴿لهم﴾ is a preposition and its genitive noun, attached to its omitted khabar (predicate); and ﴿بها﴾ is a preposition and its genitive noun, attached to ﴿قبل﴾, because it contains the sense of a maṣdar (verbal noun).\n﴿ولنخرجنهم منها أذلة وهم صاغرون﴾: the wāw is a conjunction; لنخرجنهم is conjoined (ʿaṭf) to فلنأتينهم; ﴿منها﴾ is a preposition and its genitive noun, attached to ﴿نخرجنهم﴾, and the pronoun refers back to Sabaʾ; ﴿أذلة﴾ is a ḥāl (circumstantial); ﴿وهم﴾: the wāw is circumstantial (ḥāliyya), ﴿هم﴾ is a mubtadaʾ (subject), and صاغرون is the khabar; the clause is a second ḥāl from the hāʾ in ﴿لنخرجنهم﴾.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 37,
+   "ayet_son": 37,
+   "sha1": "4cf9213aa23fa356e04316f07fcb99657434fa94"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:28:37+00:00"
+ },
+ "muyesser-irab:38-38": {
+  "t": "﴿قال يا أيها الملأ أيكم يأتيني بعرشها قبل أن يأتوني مسلمين﴾: قال is a past verb, and the fāʿil (agent) is latent (mustatir); ﴿أيكم﴾ is a mubtadaʾ (subject); ﴿ويأتيني﴾ [Translator's note: so in the source, with a wāw; the Quranic word is ﴿يأتيني﴾] is an imperfect verb, nominative (marfūʿ), the fāʿil is latent, and the yāʾ is the mafʿūl bihi (direct object); ﴿بعرشها﴾ is a preposition and its genitive noun, attached to (mutaʿalliq) ﴿يأتيني﴾; the clause ﴿يأتيني بعرشها﴾ is the khabar (predicate); ﴿قبل﴾ is an adverb (ẓarf) attached to ﴿يأتيني﴾; ﴿أن يأتوني﴾: أن is maṣdariyya (infinitival), يأتوني is an imperfect verb, accusative (manṣūb), the wāw is the fāʿil, and the yāʾ is the mafʿūl bihi; the interpreted maṣdar (verbal noun) from أن and what falls within its scope is muḍāf ilayhi (genitive construct); and مسلمين is a ḥāl (circumstantial).",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 38,
+   "ayet_son": 38,
+   "sha1": "82eeee14dbf653757cdba918e93e817c764a0dde"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:28:37+00:00"
+ },
+ "muyesser-irab:39-39": {
+  "t": "﴿قال عفريت من الجن أنا آتيك به قبل أن تقوم من مقامك﴾: قال is a past verb, and عفريت is the fāʿil (agent); ﴿من الجن﴾ is a preposition and its genitive noun, attached to (mutaʿalliq) an omitted ṣifa (adjective); أنا is a mubtadaʾ (subject), and the clause ﴿آتيك به﴾ is the khabar (predicate); ﴿قبل﴾ is an adverb (ẓarf) attached to ﴿آتيك﴾; and ﴿من مقامك﴾ is a preposition and its genitive noun, attached to ﴿تقوم﴾.\n﴿وإني عليه لقوي أمين﴾: the wāw is a conjunction; إن is an abrogating particle (ḥarf nāsikh), and the yāʾ is its noun (ism); ﴿عليه﴾ is a preposition and its genitive noun, attached to ﴿قوي﴾; the lām is the shifted lām (al-lām al-muzaḥlaqa); قوي is the khabar of إن, and أمين is a second khabar.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 39,
+   "ayet_son": 39,
+   "sha1": "74bb61a0c05a54876f0f63d5c92144cbe4a390cd"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:28:37+00:00"
+ },
+ "muyesser-irab:40-40": {
+  "t": "﴿قال الذي عنده علم من الكتاب﴾: قال is a past verb, and الذي is the fāʿil (agent); ﴿عنده﴾ is an adverb (ẓarf) attached to (mutaʿalliq) an omitted fronted khabar (predicate), and علم is the postponed mubtadaʾ (subject); ﴿من الكتاب﴾ is a preposition and its genitive noun, attached to an omitted ṣifa (adjective) of ﴿علم﴾; and the clause ﴿عنده علم﴾ is the ṣila (relative clause), with no grammatical position.\n﴿أنا آتيك به قبل أن يرتد إليك طرفك﴾: أنا is a mubtadaʾ, and the clause آتيك به is the khabar; the clause is the object of saying (maqūl al-qawl); ﴿قبل﴾ is an adverb attached to ﴿آتيك﴾; أن and what falls within its scope is in the position of a genitive as muḍāf ilayhi (genitive construct); and طرفك is the fāʿil of يرتد.\n﴿فلما رآه مستقرا عنده قال هذا من فضل ربي﴾: the fāʾ is a conjunction to something omitted, to be supplied according to the context; لما is an adverb meaning \"when\" (ḥīna), or a linking particle (rābiṭa); رآه is a past verb, the fāʿil is latent (mustatir), and the hāʾ is the mafʿūl bihi (direct object); مستقرًّا is a ḥāl (circumstantial), because the seeing is visual; ﴿عنده﴾ is an adverb attached to ﴿مستقرًّا﴾; the clause ﴿قال﴾ has no grammatical position; ﴿هذا﴾ is a mubtadaʾ, and ﴿من فضل ربي﴾ is a preposition and its genitive noun, attached to an omitted khabar.\n﴿ليبلوني أأشكر أم أكفر﴾: the lām is for causation (taʿlīl); يبلوني is an imperfect verb, accusative (manṣūb) by an implied (muḍmara) أن after the lām of causation; the interpreted maṣdar (verbal noun) from أن and the verb is genitive by the lām, and the preposition and its genitive noun are attached to the maṣdar ﴿فضل﴾; the fāʿil of يبلوني is latent and refers back to ﴿ربي﴾, and the yāʾ is the object; ﴿أأشكر﴾: the hamza is for interrogation, أشكر is an imperfect verb, and its fāʿil is latent, its implied form being \"I\" (أنا); the clause ﴿أأشكر﴾ is a badal (substitute) from the yāʾ in ﴿يبلوني﴾, so it stands in the place of the mafʿūl bihi; and ﴿أم أكفر﴾ is conjoined (ʿaṭf) to أأشكر.\n﴿ومن شكر فإنما يشكر لنفسه﴾: the wāw is resumptive, and the clause after it is resumptive, with no grammatical position; مَن is a conditional noun, mubtadaʾ; شكر is a past verb in the position of a jussive (jazm) as the protasis (fiʿl al-sharṭ); the fāʾ is linking (rābiṭa); إن is an abrogating particle (ḥarf nāsikh), and ما is maṣdariyya; إن and what follows it are interpreted as a maṣdar, the noun (ism) of إن, i.e.: \"then the reward of his thankfulness\"; ﴿لنفسه﴾ is a preposition and its genitive noun, attached to an omitted khabar; and the protasis with its apodosis (jawāb al-sharṭ) is the khabar of مَن.\n﴿ومن كفر فإن ربي غني كريم﴾: a conjoined clause; مَن is a conditional noun, mubtadaʾ; كفر is a past verb in the position of a jussive as the protasis; the fāʾ is linking; إن is an abrogating particle, ربي is its noun, and غني كريم are two khabars of ﴿إن﴾; and the protasis with its apodosis is the khabar of مَن.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 40,
+   "ayet_son": 40,
+   "sha1": "223581d98ad7220653dfb0108bcc559bc99723a5"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:28:37+00:00"
+ },
+ "muyesser-irab:41-41": {
+  "t": "﴿قال نكروا لها عرشها ننظر أتهتدي أم تكون من الذين لا يهتدون﴾: نكروا is an imperative verb, and the wāw is the fāʿil (agent); ﴿لها﴾ is a preposition and its genitive noun, attached to (mutaʿalliq) ﴿نكروا﴾; عرشها is the mafʿūl bihi (direct object); ﴿ننظر﴾ is an imperfect verb, jussive (majzūm), because it is the response to the imperative; the clause ﴿أتهتدي﴾ is in the position of an accusative as object; أم is a conjunction; ﴿تكون﴾ is a defective (nāqiṣ), abrogating imperfect verb, conjoined (maʿṭūf) to ﴿أتهتدي﴾, and its noun (ism) is latent (mustatir), its implied form being \"she\" (هي); ﴿من الذين﴾ is a preposition and its genitive noun, attached to the omitted khabar (predicate) of ﴿تكون﴾; and the clause ﴿لا يهتدون﴾ is the ṣila (relative clause), with no grammatical position.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 41,
+   "ayet_son": 41,
+   "sha1": "9e7b66e24fc374dc890826611fec7cceb25d6bf6"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:28:37+00:00"
+ },
+ "muyesser-irab:42-42": {
+  "t": "﴿فلما جاءت قيل أهكذا عرشك قالت كأنه هو﴾: the fāʾ is a conjunction to something omitted; لما is temporal (ẓarfiyya ḥīniyya), or a linking particle (rābiṭa) containing the sense of condition; ﴿جاءت﴾ is a past verb, and the fāʿil (agent) is latent (mustatir), its implied form being \"she\" (هي); ﴿قيل﴾ is a past verb whose agent is not named (passive); ﴿أهكذا﴾: the hamza is for interrogation, ﴿ها﴾ is for drawing attention (tanbīh), the kāf is a noun meaning \"like\" (mithl), indeclinable (mabnī) on the fatḥa, in the position of a nominative as a fronted khabar (predicate), and ﴿ذا﴾ is a demonstrative in the position of a genitive as muḍāf ilayhi (genitive construct); عرشك is the postponed mubtadaʾ (subject); ﴿قالت﴾ is a past verb, and the fāʿil is latent, its implied form being \"she\"; and ﴿كأنه هو﴾: كأن is an abrogating particle (ḥarf nāsikh), the hāʾ is its noun (ism), and the pronoun ﴿هو﴾ is its khabar.\n﴿وأوتينا العلم من قبلها وكنا مسلمين﴾: the wāw is a conjunction to omitted speech; ﴿أوتينا﴾ is a past verb whose agent is not named (passive), and ﴿نا﴾ is the nāʾib fāʿil (deputy agent), referring back to Sulaymān, and it is said: to Bilqīs; العلم is the second object of أوتينا; ﴿من قبلها﴾ is a preposition and its genitive noun, attached to (mutaʿalliq) ﴿أوتينا﴾; ﴿وكنا﴾: the wāw is a conjunction, كان is a defective (nāqiṣ) past verb, ﴿نا﴾ is its noun, and مسلمين is its khabar.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 42,
+   "ayet_son": 42,
+   "sha1": "253aa36dd1c987a3ffca90b14e61e2a7c8be61d6"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:28:37+00:00"
+ },
+ "muyesser-irab:43-43": {
+  "t": "﴿وصدها ما كانت تعبد من دون الله﴾: the wāw is resumptive, and the clause after it is resumptive, with no grammatical position; صدها is a past verb, and the hāʾ is the mafʿūl bihi (direct object); ﴿ما﴾ is a relative noun, the fāʿil (agent); the clause ﴿كانت﴾ is the ṣila (relative clause), with no grammatical position. The noun (ism) of كانت is latent (mustatir), its implied form being \"she\" (هي), and the clause ﴿تعبد﴾ is its khabar (predicate); ﴿من دون الله﴾ is a preposition and its genitive noun, attached to (mutaʿalliq) an omitted ḥāl (circumstantial); or ﴿ما﴾ is maṣdariyya (infinitival), i.e.: \"and her worship of the sun barred her from Islam\".\n﴿إنها كانت من قوم كافرين﴾: إن is an abrogating particle (ḥarf nāsikh), ﴿ها﴾ is its noun, and the clause كانت is its khabar; the clause ﴿إنها﴾ is causal (taʿlīl); كانت is an abrogating past verb, and its noun is latent, its implied form being \"she\"; ﴿من قوم﴾ is a preposition and its genitive noun, attached to its omitted khabar; and كافرين is a ṣifa (adjective).",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 43,
+   "ayet_son": 43,
+   "sha1": "c8c2fd097960e32135b5db582e33b9789d32433c"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:29:27+00:00"
+ },
+ "muyesser-irab:44-44": {
+  "t": "﴿قيل لها ادخلي الصرح﴾: ﴿قيل﴾ is a past verb whose agent is not named (passive), and the clause is resumptive, with no grammatical position; the clause ﴿ادخلي الصرح﴾ is a verb, its fāʿil (agent) and its mafʿūl bihi (direct object), and it is the object of saying (maqūl al-qawl); الصرح is a mafʿūl bihi by extension (ʿalā al-saʿa).\n﴿فلما رأته حسبته لجة وكشفت عن ساقيها﴾: the fāʾ is a conjunction to something omitted, i.e.: \"so she entered it\"; لما is temporal (ḥīniyya), or a linking particle (rābiṭa); the clause ﴿حسبته﴾ has no grammatical position; it is a past verb, the hāʾ is the first object, and لجة is the second object; and ﴿كشفت عن ساقيها﴾ is conjoined (ʿaṭf) to حسبته.\n﴿قال إنه صرح ممرد من قوارير﴾: قال is a past verb; ﴿إنه﴾: إن is an abrogating particle (ḥarf nāsikh), the hāʾ is its noun (ism), and صرح is its khabar (predicate); ممرد is a ṣifa (adjective); and ﴿من قوارير﴾ is a preposition and its genitive noun, attached to (mutaʿalliq) an omitted second ṣifa.\n﴿قالت رب إني ظلمت نفسي وأسلمت مع سليمان لله رب العالمين﴾: رب is a muḍāf vocative (munādā), from which the vocative particle has been omitted; إن is an abrogating particle, the yāʾ is its noun, and the clause ﴿ظلمت نفسي﴾ is its khabar; it is a verb, its fāʿil and its mafʿūl bihi; أسلمت is conjoined to ظلمت; ﴿مع﴾ is an adverb of place attached to an omitted ḥāl (circumstantial), i.e.: \"being with Sulaymān\"; ﴿لله﴾ is a preposition and its genitive noun, attached to ﴿أسلمت﴾; and رب العالمين is a badal (substitute) from the Name of Majesty, or a ṣifa of it.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 44,
+   "ayet_son": 44,
+   "sha1": "d8a098ac72d5a23b339faff88b8ed184f886a643"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:29:27+00:00"
+ },
+ "muyesser-irab:45-45": {
+  "t": "﴿ولقد أرسلنا إلى ثمود أخاهم صالحا﴾: resumptive speech with no grammatical position; the lām is the response to the omitted oath; قد is a particle of verification (taḥqīq); أرسلنا is a past verb and its fāʿil (agent); ﴿إلى ثمود﴾ is a preposition and its genitive noun, attached to (mutaʿalliq) ﴿أرسلنا﴾; أخاهم is the mafʿūl bihi (direct object); and ﴿صالحًا﴾ is a badal (substitute) from أخاهم, or ʿaṭf bayān (explicative apposition).\n﴿أن اعبدوا الله﴾: ﴿أن﴾ is maṣdariyya (infinitival), interpreted together with what follows it as a maṣdar (verbal noun) that is accusative by removal of the preposition, i.e.: \"with: worship\" (بأن اعبدوا), and the preposition and its genitive noun are attached to ﴿أرسلنا﴾. The clause ﴿اعبدوا الله﴾ is the ṣila of the maṣdariyya ﴿أن﴾, with no grammatical position. Or ﴿أن﴾ is explicative (tafsīriyya), and the clause after it is explicative, with no grammatical position. ﴿اعبدوا الله﴾: an imperative verb; the wāw is the fāʿil, and the Name of Majesty is the mafʿūl bihi.\n﴿فإذا هم فريقان يختصمون﴾: the fāʾ is a conjunction; إذا is a particle of surprise (fujāʾa); ﴿هم﴾ is a mubtadaʾ (subject), and فريقان is the khabar (predicate); and the clause يختصمون is a naʿt (adjective) of ﴿فريقان﴾.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 45,
+   "ayet_son": 45,
+   "sha1": "6d94c52c42d52efa7bc28dfe5cd6a313abcb6a1d"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:29:27+00:00"
+ },
+ "muyesser-irab:46-46": {
+  "t": "﴿قال يا قوم لم تستعجلون بالسيئة قبل الحسنة﴾: قال is a past verb; ﴿يا﴾ is a vocative particle, and قوم is the one addressed (munādā), annexed to the omitted first-person yāʾ; ﴿لم﴾: the lām is a preposition, and ما is an interrogative noun whose alif was dropped because of the entry of the preposition, and the preposition and its genitive noun are attached to (mutaʿalliq) ﴿تستعجلون﴾; ﴿بالسيئة﴾ is a preposition and its genitive noun, attached to ﴿تستعجلون﴾; and ﴿قبل الحسنة﴾ is an adverb (ẓarf) attached to an omitted ḥāl (circumstantial).\n﴿لولا تستغفرون الله لعلكم ترحمون﴾: لولا is a particle of urging (taḥḍīḍ) meaning \"why not\" (هلا); ﴿تستغفرون الله﴾ is an imperfect verb, nominative (marfūʿ); the wāw is the fāʿil (agent), and the Name of Majesty is its object; ﴿لعلكم ترحمون﴾: لعل is an abrogating particle (ḥarf nāsikh), ﴿كم﴾ is its noun (ism), and the clause ترحمون is its khabar (predicate).",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 46,
+   "ayet_son": 46,
+   "sha1": "c75c2788f0656e4da75d488b8c81f028ed7d1173"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:29:27+00:00"
+ },
+ "muyesser-irab:47-47": {
+  "t": "﴿قالوا اطيرنا بك وبمن معك﴾: قالوا is a past verb, and the wāw is the fāʿil (agent); اطيرنا is a past verb, and ﴿نا﴾ is the fāʿil; ﴿بك﴾ is a preposition and its genitive noun, attached to (mutaʿalliq) ﴿اطيرنا﴾; ﴿بمن﴾ is conjoined (ʿaṭf) to ﴿بك﴾; ﴿معك﴾ is an adverb of place attached to an omitted ṣila (relative clause) of مَن, and the ṣila clause has no grammatical position. The clause ﴿اطيرنا...﴾ is the object of their saying (maqūl qawlihim).\n﴿قال طائركم عند الله بل أنتم قوم تفتنون﴾: قال is a past verb; طائركم is a mubtadaʾ (subject); ﴿عند الله﴾ is an adverb (ẓarf) attached to something omitted that is the khabar (predicate); the clause is the object of saying (maqūl al-qawl); ﴿بل﴾ is a particle of digression (iḍrāb); أنتم is a mubtadaʾ, and قوم is the khabar; and the clause تفتنون is a naʿt (adjective) of قوم.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 47,
+   "ayet_son": 47,
+   "sha1": "a19a64980f21d42b931c6190a41137014abc1c44"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:29:27+00:00"
+ },
+ "muyesser-irab:48-48": {
+  "t": "﴿وكان في المدينة تسعة رهط يفسدون في الأرض ولا يصلحون﴾: the wāw is resumptive; كان is a defective (nāqiṣ) past verb; ﴿في المدينة﴾ is a preposition and its genitive noun, attached to (mutaʿalliq) the omitted, fronted khabar (predicate) of كان; تسعة is its postponed noun (ism), and رهط is muḍāf ilayhi (genitive construct); the clause ﴿وكان في المدينة...﴾ is resumptive, with no grammatical position; the clause يفسدون is a ṣifa (adjective) of تسعة, or of رهط; and ﴿لا يصلحون﴾ is conjoined (ʿaṭf) to يفسدون.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 48,
+   "ayet_son": 48,
+   "sha1": "d7740f3b24fcfe5ca0e09afa46226d4ae1209f95"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:29:27+00:00"
+ },
+ "muyesser-irab:49-49": {
+  "t": "﴿قالوا تقاسموا بالله لنبيتنه وأهله﴾: قالوا: a past verb, and the wāw is the fāʿil (agent). ﴿تقاسموا﴾: an imperative verb, or a past verb, in which case it is an explanation of ﴿قالوا﴾, as though it were said: \"What did they say?\" and the answer was: \"Swear to one another.\" Or, together with its fāʿil, it is a clause in the position of an accusative as a ḥāl (circumstantial), with ﴿قد﴾ implied, i.e.: \"they said, swearing to one another\". بالله: a preposition and its genitive noun, attached to (mutaʿalliq) ﴿تقاسموا﴾. ﴿لنبيتنه﴾: the lām occurs in the response to the oath; ﴿نبيتنه﴾ is an imperfect verb, indeclinable (mabnī) on the fatḥa because it is joined to the heavy nūn of emphasis; the fāʿil is latent (mustatir), its implied form being \"we\" (نحن), and the hāʾ is the mafʿūl bihi (direct object). ﴿وأهله﴾: the wāw is a conjunction, or for accompaniment (maʿiyya); ﴿أهله﴾ is conjoined (maʿṭūf) to the hāʾ, or a mafʿūl maʿahu (object of accompaniment).\n﴿ثم لنقولن لوليه ما شهدنا مهلك أهله﴾: ثم: a conjunction denoting delay (tarākhī). The lām: it occurs in the response to the oath. ﴿نقولن﴾: an imperfect verb, indeclinable on the fatḥa because it is joined to the heavy nūn of emphasis, and the fāʿil is latent, its implied form being \"we\". ﴿لوليه﴾: a preposition and its genitive noun, attached to ﴿نقولن﴾; ما is negating; شهدنا is a past verb, and ﴿نا﴾ is the fāʿil; مهلك is the mafʿūl bihi, and أهله is muḍāf ilayhi (genitive construct).\n﴿وإنا لصادقون﴾: the wāw is a conjunction, or circumstantial (ḥāliyya); ﴿إنا﴾: إن is an abrogating particle (ḥarf nāsikh), and ﴿نا﴾ is its noun (ism); the lām is the shifted lām (al-lām al-muzaḥlaqa); and صادقون is the khabar (predicate) of إن.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 49,
+   "ayet_son": 49,
+   "sha1": "e72f00be41d93745836127bd49e5310b233c41be"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:29:27+00:00"
+ },
+ "muyesser-irab:50-50": {
+  "t": "﴿ومكروا مكرا ومكرنا مكرا وهم لا يشعرون﴾: the wāw is a conjunction; مكروا is a verb and its fāʿil (agent); مكرًا is a mafʿūl muṭlaq (absolute object); ومكرنا مكرًا is conjoined (ʿaṭf) to the preceding clause; the wāw is circumstantial (ḥāliyya); ﴿هم﴾ is a mubtadaʾ (subject), and the clause لا يشعرون is the khabar (predicate).",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 50,
+   "ayet_son": 50,
+   "sha1": "ffcb723b9d6cc485ca0cf168bf2b2d98d4f56645"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:29:27+00:00"
+ },
+ "muyesser-irab:51-51": {
+  "t": "﴿فانظر كيف كان عاقبة مكرهم أنا دمرناهم وقومهم أجمعين﴾: the fāʾ is resumptive; انظر is an imperative verb; كيف is the fronted khabar (predicate) of كان, and عاقبة is the postponed noun (ism) of كان; the clause is in the position of an accusative by removal of the preposition, and the preposition and its genitive noun are attached to (mutaʿalliq) ﴿انظر﴾, which is suspended (muʿallaqa) from governing by the interrogative; the clause ﴿فانظر كيف...﴾ is resumptive, with no grammatical position; the clause ﴿أنا﴾ is a badal (substitute) from العاقبة, or the khabar of an omitted mubtadaʾ (subject); أن is an abrogating particle (ḥarf nāsikh), ﴿نا﴾ is its noun, and the clause ﴿دمرناهم﴾ is its khabar; قومهم is conjoined (maʿṭūf) to the pronoun ﴿هم﴾ in ﴿دمرناهم﴾; and أجمعين is a tawkīd (emphasis) of both the conjoined and what it is conjoined to.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 51,
+   "ayet_son": 51,
+   "sha1": "9586c0df5d44cab8f7056f203f3c8a91ee7669d1"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:29:27+00:00"
+ },
+ "muyesser-irab:52-52": {
+  "t": "﴿فتلك بيوتهم خاوية بما ظلموا﴾: the fāʾ is a conjunction, and the clause is conjoined (maʿṭūf) to what precedes it; تلك is a mubtadaʾ (subject), and بيوتهم is the khabar (predicate); خاوية is a ḥāl (circumstantial) from بيوتهم, and what governs it is the sense of pointing (maʿnā al-ishāra); ﴿بما ظلموا﴾ is a preposition and its genitive noun, attached to (mutaʿalliq) ﴿خاوية﴾; ﴿ما﴾ is maṣdariyya (infinitival), and the bāʾ is causal (sababiyya), i.e.: \"because of their wrongdoing\".\n﴿إن في ذلك لآية لقوم يعلمون﴾: إن is an abrogating particle (ḥarf nāsikh); ﴿في ذلك﴾ is a preposition and its genitive noun, attached to its omitted fronted khabar; the lām is the shifted lām (al-lām al-muzaḥlaqa); آية is its noun (ism); ﴿لقوم﴾ is a preposition and its genitive noun, attached to an omitted ṣifa (adjective) of ﴿آية﴾; and the clause يعلمون is a ṣifa of قوم.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 52,
+   "ayet_son": 52,
+   "sha1": "582b3fab44515e225d8f5b23e1d47be7909c999b"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:29:27+00:00"
+ },
+ "muyesser-irab:53-53": {
+  "t": "﴿وأنجينا الذين آمنوا وكانوا يتقون﴾: ﴿أنجينا﴾ is a past verb, and ﴿نا﴾ is the fāʿil (agent); الذين is the mafʿūl bihi (direct object); the clause آمنوا is the ṣila (relative clause), with no grammatical position. ﴿كانوا﴾: كان is a defective (nāqiṣ), abrogating past verb, the wāw is its noun (ism), and يتقون is its khabar (predicate); the clause is conjoined (ʿaṭf) to آمنوا, so it falls within the scope of the ṣila.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 53,
+   "ayet_son": 53,
+   "sha1": "a949ba8649b3d4f2b13e362db932fae7226a3a19"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:29:27+00:00"
+ },
+ "muyesser-irab:54-54": {
+  "t": "﴿ولوطا إذ قال لقومه﴾: the wāw is resumptive; لوطًا is the mafʿūl bihi (direct object) of an omitted verb, its implied form being \"remember\" (اذكر), and the clause is resumptive, with no grammatical position; ﴿إذ﴾ is a noun, indeclinable (mabnī) on the sukūn, in the position of an accusative as a badal ishtimāl (substitute of inclusion) from ﴿لوطًا﴾; the clause ﴿قال﴾ is genitive by annexation (iḍāfa); and ﴿لقومه﴾ is a preposition and its genitive noun, attached to (mutaʿalliq) ﴿قال﴾.\n﴿أتأتون الفاحشة وأنتم تبصرون﴾: the hamza is for interrogation; ﴿تأتون﴾ is an imperfect verb, and the wāw is the fāʿil (agent); ﴿الفاحشة﴾ is the mafʿūl bihi, and the clause is the object of saying (maqūl al-qawl); ﴿وأنتم﴾: the wāw is circumstantial (ḥāliyya), أنتم is a mubtadaʾ (subject), and the clause تبصرون is the khabar (predicate) of أنتم.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 54,
+   "ayet_son": 54,
+   "sha1": "ee1ca5e77e4a9b9b970a8f1a209b432240c47173"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:29:27+00:00"
+ },
+ "muyesser-irab:55-55": {
+  "t": "﴿أئنكم لتأتون الرجال شهوة من دون النساء﴾: the hamza is for interrogation; إن is an abrogating particle (ḥarf nāsikh), and ﴿كم﴾ is its noun (ism); the lām is the shifted lām (al-lām al-muzaḥlaqa); the clause ﴿تأتون الرجال﴾ is its khabar (predicate); it is an imperfect verb, the wāw is the fāʿil (agent), and الرجال is the mafʿūl bihi (direct object); شهوة is a mafʿūl li-ajlihi (object of purpose), or a ḥāl (circumstantial) from the fāʿil or from the object; and ﴿من دون النساء﴾ is a preposition and its genitive noun, attached to (mutaʿalliq) an omitted ḥāl from the fāʿil.\n﴿بل أنتم قوم تجهلون﴾: بل is a particle of digression (iḍrāb); أنتم is a mubtadaʾ (subject), and قوم is the khabar; and تجهلون is a ṣifa (adjective) of قوم.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 55,
+   "ayet_son": 55,
+   "sha1": "361d39437d68e1f13015f306093150a0631f7fef"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:29:27+00:00"
+ },
+ "muyesser-irab:56-56": {
+  "t": "﴿فما كان جواب قومه إلا أن قالوا أخرجوا آل لوط من قريتكم إنهم أناس يتطهرون﴾: the fāʾ is a conjunction; ما is negating; كان is a defective (nāqiṣ) past verb; ﴿جواب قومه﴾ is the fronted khabar (predicate) of كان; إلا is a particle of restriction (ḥaṣr); the interpreted maṣdar (verbal noun) from ﴿أن قالوا﴾ is the postponed noun (ism) of كان; the clause أخرجوا is the object of saying (maqūl al-qawl), and it is an imperative verb and its fāʿil (agent); ﴿آل لوط﴾ is a mafʿūl bihi (direct object) and muḍāf ilayhi (genitive construct); ﴿من قريتكم﴾ is a preposition and its genitive noun, attached to (mutaʿalliq) ﴿أخرجوا﴾; ﴿إنهم﴾ gives the reason (taʿlīl) for expelling them; إن is an abrogating particle (ḥarf nāsikh), ﴿هم﴾ is its noun, and أناس is its khabar; and the clause يتطهرون is a ṣifa (adjective).",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 56,
+   "ayet_son": 56,
+   "sha1": "ac8eddebf6284d3d2582e97b44673f41a4ecfeae"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:30:16+00:00"
+ },
+ "muyesser-irab:57-57": {
+  "t": "﴿فأنجيناه وأهله إلا امرأته قدرناها من الغابرين﴾: the fāʾ is a conjunction to something implied and omitted that is understood from the context; ﴿أنجيناه﴾ is a past verb, its fāʿil (agent) and its mafʿūl bihi (direct object); أهله is conjoined (ʿaṭf) to the hāʾ, or a mafʿūl maʿahu (object of accompaniment); إلا is a particle of exception, and ﴿امرأته﴾ is the excepted (mustathnā); the clause ﴿قدرناها﴾ is resumptive, with no grammatical position; ﴿قدرناها﴾ is a past verb, its fāʿil and its mafʿūl bihi; and ﴿من الغابرين﴾ is a preposition and its genitive noun, attached to (mutaʿalliq) ﴿قدرناها﴾.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 57,
+   "ayet_son": 57,
+   "sha1": "36f687f81c68e7edbed83b7240d1f25093f0a014"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:30:16+00:00"
+ },
+ "muyesser-irab:58-58": {
+  "t": "﴿وأمطرنا عليهم مطرا فساء مطر المنذرين﴾: the wāw is a conjunction; أمطرنا is a verb and its fāʿil (agent); ﴿عليهم﴾ is a preposition and its genitive noun, attached to (mutaʿalliq) ﴿أمطرنا﴾; مطرًا is the mafʿūl bihi (direct object); ﴿فساء﴾: the fāʾ is a conjunction, and ساء is a past verb of blame (dhamm); and ﴿مطر المنذرين﴾ is the fāʿil and muḍāf ilayhi (genitive construct).",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 58,
+   "ayet_son": 58,
+   "sha1": "d987453ce608655a7d8373a689ef8a5c52461b97"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:30:16+00:00"
+ },
+ "muyesser-irab:59-59": {
+  "t": "﴿قل الحمد لله وسلام على عباده الذين اصطفى﴾: resumptive speech with no grammatical position; الحمد is a mubtadaʾ (subject); ﴿لله﴾ is a preposition and its genitive noun, attached to (mutaʿalliq) an omitted khabar (predicate); سلام is a mubtadaʾ, its use as a mubtadaʾ [though indefinite] being permitted by the sense of supplication (duʿāʾ) it contains [Translator's note: the bracketed words \"though indefinite\" are added for clarity]; على عباده is a preposition and its genitive noun, attached to an omitted khabar; الذين is a ṣifa (adjective) of عباده; the clause اصطفى is the ṣila (relative clause), with no grammatical position, and the referent pronoun (ʿāʾid) is omitted, i.e.: \"He chose them\".\n﴿آلله خير أما يشركون﴾: the hamza is for interrogation; الله is a mubtadaʾ, and خير is the khabar; أم is a conjunction; ما is a relative noun, and the clause يشركون is the ṣila, with no grammatical position.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 59,
+   "ayet_son": 59,
+   "sha1": "f2559260cbeeed94b714b75b437dd952b239e199"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:30:16+00:00"
+ },
+ "muyesser-irab:60-60": {
+  "t": "﴿أمن خلق السماوات والأرض وأنزل لكم من السماء ماء فأنبتنا به حدائق ذات بهجة﴾: أم: disconnected (munqaṭiʿa), meaning \"rather\" (بل); مَن is a mubtadaʾ (subject); the clause ﴿خلق السماوات والأرض﴾ is the ṣila (relative clause), with no grammatical position. The khabar (predicate) of مَن is omitted, its implied form being: ﴿خير أم ما يشركون﴾. ﴿أنزل﴾ is conjoined (ʿaṭf) to خلق; ﴿لكم﴾ is a preposition and its genitive noun, attached to (mutaʿalliq) an omitted ḥāl (circumstantial); من السماء is a preposition and its genitive noun, attached to ﴿أنزل﴾; ماء is the mafʿūl bihi (direct object); the fāʾ is a conjunction, and ﴿أنبتنا﴾ is conjoined to what precedes; ﴿به﴾ is a preposition and its genitive noun, attached to ﴿أنبتنا﴾; حدائق is the mafʿūl bihi; and ﴿ذات بهجة﴾ is a ṣifa (adjective) of حدائق.\n﴿ما كان لكم أن تنبتوا شجرها﴾: the clause is a second naʿt (adjective) of حدائق, or a ḥāl from it; ما is negating; كان is a defective (nāqiṣ) past verb; ﴿لكم﴾ is a preposition and its genitive noun, attached to the omitted, fronted khabar of كان; أن and what falls within its scope is its postponed noun (ism); ﴿تنبتوا﴾ is an imperfect verb, accusative (manṣūb) by أن, and the wāw is the fāʿil (agent); and شجرها is the object.\n﴿أإله مع الله بل هم قوم يعدلون﴾: the hamza is for interrogation; ﴿إله﴾ is a mubtadaʾ; ﴿مع الله﴾ is an adverb of place, accusative, attached to an omitted khabar; بل is a particle of digression (iḍrāb); ﴿هم﴾ is a mubtadaʾ, and قوم is the khabar; and the clause يعدلون is a ṣifa.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 60,
+   "ayet_son": 60,
+   "sha1": "3cec2dc2ddbcfb6d57caea71922ec95277ecf25a"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:30:16+00:00"
+ },
+ "muyesser-irab:61-61": {
+  "t": "﴿أمن جعل الأرض قرارا وجعل خلالها أنهارا﴾: أم: disconnected (munqaṭiʿa), meaning \"rather\" (بل); مَن is a mubtadaʾ (subject), and the clause ﴿جعل الأرض﴾ is the ṣila (relative clause), with no grammatical position. The khabar (predicate) of مَن is omitted; قرارًا is the second object of جعل; ﴿وجعل خلالها أنهارًا﴾ is conjoined (ʿaṭf) to the first clause; ﴿خلالها﴾ is an adverb (ẓarf) of ﴿جعل﴾ in the sense of \"created\" (خلق), which is transitive to one object, or it is attached to (mutaʿalliq) the omitted second object of ﴿جعل﴾, on the view that it means \"made into\" (صيّر); on the first view ﴿قرارًا﴾ is a ḥāl (circumstantial).\n﴿وجعل لها رواسي﴾: a conjoined clause.\n﴿وجعل بين البحرين حاجزا﴾: the clause is conjoined to what precedes; جعل is a past verb; ﴿بين البحرين﴾ is an adverb attached to the omitted second object of جعل; and حاجزا is the first object of جعل.\n﴿أإله مع الله بل أكثرهم لا يعلمون﴾: the hamza is for interrogation; ﴿إله﴾ is a mubtadaʾ; ﴿مع الله﴾ is an adverb attached to an omitted khabar; بل is a particle of digression (iḍrāb); أكثرهم is a mubtadaʾ, and ﴿لا يعلمون﴾ is the khabar.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 61,
+   "ayet_son": 61,
+   "sha1": "a614e4d32ba98f578c9d6fc0ec0f197b03f2bf4c"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:30:16+00:00"
+ },
+ "muyesser-irab:62-62": {
+  "t": "﴿أمن يجيب المضطر إذا دعاه ويكشف السوء﴾: أم: disconnected (munqaṭiʿa), meaning \"rather\" (بل); مَن is a mubtadaʾ (subject), and the clause ﴿يجيب المضطر﴾ is the ṣila (relative clause), with no grammatical position. The khabar (predicate) of مَن is omitted; the clause ﴿دعاه﴾ is in the position of a genitive by the adverb being annexed to it; and ويكشف السوء is conjoined (ʿaṭf) to what precedes it.\n﴿ويجعلكم خلفاء الأرض﴾: conjoined to the first clause; يجعلكم is an imperfect verb and its first object, and the fāʿil (agent) is a latent (mustatir) pronoun, its implied form being \"he\" (هو); خلفاء: the second object; and الأرض is muḍāf ilayhi (genitive construct).\n﴿أإله مع الله﴾: the hamza is for interrogation; ﴿إله﴾ is a mubtadaʾ; and ﴿مع الله﴾ is an adverb (ẓarf) attached to (mutaʿalliq) an omitted khabar.\n﴿قليلا﴾: standing in for the mafʿūl muṭlaq (absolute object), because it is an adjective of the omitted maṣdar (verbal noun), i.e.: \"you take heed with little heeding\" (تتذكرون تذكرا قليلا).\n﴿ما﴾: an additive (ṣila) to emphasise the paucity.\n﴿تذكرون﴾: an imperfect verb, nominative (marfūʿ), the sign of its nominative being the retention of the nūn, and the wāw is the fāʿil; the clause ﴿قليلا ما تذكرون﴾ is resumptive, with no grammatical position.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 62,
+   "ayet_son": 62,
+   "sha1": "b19c27c90dc268d0a87d7a9fd8c72d6c7fe7d997"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:30:16+00:00"
+ },
+ "muyesser-irab:63-63": {
+  "t": "﴿أمن يهديكم في ظلمات البر والبحر﴾: أم: disconnected (munqaṭiʿa), meaning \"rather\" (بل); مَن is a mubtadaʾ (subject); the clause يهديكم is the ṣila (relative clause), with no grammatical position; the khabar (predicate) of مَن is omitted; and ﴿في ظلمات البر والبحر﴾: the preposition and its genitive noun are attached to (mutaʿalliq) ﴿يهديكم﴾.\n﴿ومن يرسل الرياح بشرا بين يدي رحمته أإله مع الله تعالى الله عما يشركون﴾: conjoined (ʿaṭf) to what preceded; يرسل is an imperfect verb, and the fāʿil (agent) is latent (mustatir), its implied form being \"you\" (أنت) [Translator's note: so in the source; the context requires \"he\" (هو), referring back to مَن]; الرياح is the mafʿūl bihi (direct object); بشرا is a ḥāl (circumstantial); بين is an accusative adverb (ẓarf) attached to ﴿بشرا﴾, and ﴿يدي رحمته﴾ is muḍāf ilayhi (genitive construct); the hamza is for interrogation; ﴿إله﴾ is a mubtadaʾ; ﴿مع الله﴾ is an adverb attached to an omitted khabar; تعالى is a past verb, and the Name of Majesty is the fāʿil; عن is a preposition, and ما is a maṣdariyya particle; the interpreted maṣdar (verbal noun) from ﴿ما﴾ and the verb after it is genitive by ﴿عن﴾, and the preposition and its genitive noun are attached to ﴿تعالى﴾.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 63,
+   "ayet_son": 63,
+   "sha1": "5dfc802ae27d90d000a5ed8187be6db9b26b9634"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:30:16+00:00"
+ },
+ "muyesser-irab:64-64": {
+  "t": "﴿أمن يبدأ الخلق ثم يعيده ومن يرزقكم من السماء والأرض﴾: أم: disconnected (munqaṭiʿa), meaning \"rather\" (بل); مَن is a mubtadaʾ (subject), and the clause يبدأ الخلق is the ṣila (relative clause), with no grammatical position. The khabar (predicate) of مَن is omitted; ﴿ثم يعيده﴾ is conjoined (ʿaṭf) to the ṣila clause, and the pronoun is in the position of an accusative as the mafʿūl bihi (direct object); and the clause ﴿ومن يرزقكم﴾ is conjoined.\n﴿أإله مع الله قل هاتوا برهانكم إن كنتم صادقين﴾: the hamza is for interrogation; ﴿إله﴾ is a mubtadaʾ; ﴿مع الله﴾ is an adverb (ẓarf) attached to (mutaʿalliq) an omitted khabar; إن is conditional, and its apodosis (jawāb) is omitted, its implied form being: ﴿فهاتوا برهانكم﴾.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 64,
+   "ayet_son": 64,
+   "sha1": "05fe19d3f4d8b87972a1dd024b5d3f53bb8c6991"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:30:16+00:00"
+ },
+ "muyesser-irab:65-65": {
+  "t": "﴿قل لا يعلم من في السماوات والأرض الغيب إلا الله وما يشعرون أيان يبعثون﴾: the clause is resumptive, with no grammatical position; لا is negating; يعلم is an imperfect verb; مَن is a relative noun, the fāʿil (agent) of يعلم; ﴿في السماوات والأرض﴾ is a preposition and its genitive noun, attached to (mutaʿalliq) an omitted ṣila (relative clause) of ﴿مَن﴾, with no grammatical position. الغيب is the mafʿūl bihi (direct object); ﴿إلا﴾ is a particle of exception meaning \"but\" (لكن), indicating that the exception is disconnected (munqaṭiʿ); the Name of Majesty is a badal (substitute) from the relative noun, nominative with the ḍamma, i.e.: \"no one knows the unseen except Allah\"; the wāw is a conjunction; ما is negating; يشعرون is an imperfect verb and its fāʿil; أيان is an interrogative noun meaning [Translator's note: the word after \"meaning\" (بمعنى) is missing in the source; presumably \"when\" (متى)], in the position of an accusative as an adverb (ẓarfiyya), attached to ﴿يبعثون﴾, and it suspends (muʿalliqa) ﴿يشعرون﴾ from putting a mafʿūl bihi in the accusative, so the clause composed of ﴿أيان﴾ and what follows it is in the position of an accusative as mafʿūl bihi.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 65,
+   "ayet_son": 65,
+   "sha1": "3da50e6e82a35618e73a526f2606cd283dda8694"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:30:16+00:00"
+ },
+ "muyesser-irab:66-66": {
+  "t": "﴿بل ادارك علمهم في الآخرة بل هم في شك منها بل هم منها عمون﴾: بل is a particle of digression (iḍrāb), and it is said: it means \"is it?\" (هل); ﴿ادارك﴾ is a past verb, and علمهم is the fāʿil (agent); في الآخرة is a preposition and its genitive noun, attached to (mutaʿalliq) ﴿ادارك﴾, or to ﴿علمهم﴾; بل is a particle of digression; ﴿هم﴾ is a mubtadaʾ (subject); منها is a preposition and its genitive noun, attached to ﴿عمون﴾; and عمون is the khabar (predicate).",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 66,
+   "ayet_son": 66,
+   "sha1": "890088a34803d71acc90b0a3656d2b648f3fc87a"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:30:16+00:00"
+ },
+ "muyesser-irab:67-67": {
+  "t": "﴿وقال الذين كفروا أئذا كنا ترابا وآباؤنا أئنا لمخرجون﴾: the wāw is for conjunction; ﴿قال الذين﴾ is a verb and its fāʿil (agent), and the clause كفروا is the ṣila (relative clause) of الذين, with no grammatical position. The hamza is for interrogation; إذا is an adverb (ẓarf) of the future containing the sense of condition; the clause كنا is in the position of a genitive by the adverb being annexed to it; كان is a defective (nāqiṣ) past verb, ﴿نا﴾ is its noun (ism), and ترابًا is its khabar (predicate); آباؤنا is conjoined (ʿaṭf) to the noun of كان; the hamza is for interrogation; إن is an abrogating particle (ḥarf nāsikh), and ﴿نا﴾ is its noun; the lām is the shifted lām (al-lām al-muzaḥlaqa); مخرجون is the khabar of إن; and the clause is a tawkīd (emphasis) of the first clause.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 67,
+   "ayet_son": 67,
+   "sha1": "f21a7f2e5e6a9cc399c8e6d44bcc3c7e8df51dcc"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:30:16+00:00"
+ },
+ "muyesser-irab:68-68": {
+  "t": "﴿لقد وعدنا هذا نحن وآباؤنا من قبل إن هذا إلا أساطير الأولين﴾: the lām is the response to the omitted oath; قد is a particle of verification (taḥqīq); وعدنا is a past verb whose agent is not named (passive), and ﴿نا﴾ is the nāʾib fāʿil (deputy agent); هذا is the second object of ﴿وعدنا﴾; نحن is a tawkīd (emphasis) of ﴿نا﴾; آباؤنا is conjoined (ʿaṭf) to the overt pronoun in وعدنا; من قبل is a preposition and its genitive noun, attached to (mutaʿalliq) ﴿وعدنا﴾, and the adverb is indeclinable (mabnī) on the ḍamma because it is cut off from annexation in wording but not in meaning; إن is negating; هذا is a mubtadaʾ (subject); إلا is a particle of restriction (ḥaṣr); أساطير is the khabar (predicate) of هذا; and الأولين is muḍāf ilayhi (genitive construct).",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 68,
+   "ayet_son": 68,
+   "sha1": "74629c0fe2676ed16eaa7b007b7dcff9c45d4d28"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:30:16+00:00"
+ },
+ "muyesser-irab:69-69": {
+  "t": "﴿قل سيروا في الأرض فانظروا كيف كان عاقبة المجرمين﴾: سيروا is an imperative verb; في الأرض is a preposition and its genitive noun, attached to (mutaʿalliq) ﴿سيروا﴾; فانظروا is conjoined (ʿaṭf) to سيروا; كيف is an interrogative noun in the position of an accusative as the fronted khabar (predicate) of كان; and عاقبة المجرمين is the postponed noun (ism) of كان.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 69,
+   "ayet_son": 69,
+   "sha1": "2cef1474e4159929a50370de0bbf72f75e973d96"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:30:50+00:00"
+ },
+ "muyesser-irab:70-70": {
+  "t": "﴿ولا تحزن عليهم ولا تكن في ضيق مما يمكرون﴾: the wāw is a conjunction to قل; لا is prohibitive (nāhiya); تحزن is an imperfect verb, jussive (majzūm) by لا, and its fāʿil (agent) is latent (mustatir), its implied form being \"you\" (أنت); ﴿عليهم﴾ is a preposition and its genitive noun, attached to (mutaʿalliq) ﴿تحزن﴾; ﴿ولا تكن﴾ is conjoined (ʿaṭf) to لا تحزن, and the noun (ism) of تكن is latent, its implied form being \"you\"; ﴿في ضيق﴾ is the khabar (predicate); مما is a preposition and its genitive noun, attached to an omitted ṣifa (adjective) of ﴿ضيق﴾; and the clause يمكرون is the ṣila (relative clause), with no grammatical position.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 70,
+   "ayet_son": 70,
+   "sha1": "969c1a8743e4b35036bff792e26f62b418ae1e61"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:30:50+00:00"
+ },
+ "muyesser-irab:71-71": {
+  "t": "﴿ويقولون متى هذا الوعد إن كنتم صادقين﴾: the wāw is resumptive, and the clause after it is resumptive, with no grammatical position; يقولون is an imperfect verb and its fāʿil (agent); متى is an interrogative noun in the position of an accusative as an adverb of time (ẓarfiyya zamāniyya), and it is attached to (mutaʿalliq) an omitted fronted khabar (predicate); هذا is the postponed mubtadaʾ (subject), and الوعد is a badal (substitute); إن is conditional, and كنتم is the protasis (fiʿl al-sharṭ); كان is a defective (nāqiṣ) past verb, the tāʾ is its noun (ism), and صادقين is its khabar; and the apodosis (jawāb al-sharṭ) is omitted, indicated by what precedes it.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 71,
+   "ayet_son": 71,
+   "sha1": "48d677e28c5c07481945ebd3e014e9f4971984bd"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:30:50+00:00"
+ },
+ "muyesser-irab:72-72": {
+  "t": "﴿قل عسى أن يكون ردف لكم بعض الذي تستعجلون﴾: عسى is an inflexible (jāmid) past verb, one of the verbs of hope (rajāʾ); its noun (ism) is latent (mustatir), its implied form being \"it\" (هو), and the interpreted maṣdar (verbal noun) from ﴿أن يكون﴾ is its khabar (predicate); the noun of يكون is latent, its implied form being \"it\"; ﴿ردف﴾ is a past verb, ﴿بعض﴾ is the fāʿil (agent), and ﴿الذي﴾ is muḍāf ilayhi (genitive construct); the clause تستعجلون is the ṣila (relative clause), with no grammatical position. The clause ﴿ردف﴾ is the khabar of يكون.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 72,
+   "ayet_son": 72,
+   "sha1": "cf50f070692c8ff79c1fa46979431c064d20f30c"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:30:50+00:00"
+ },
+ "muyesser-irab:73-73": {
+  "t": "﴿وإن ربك لذو فضل على الناس﴾: the wāw is resumptive; إن is an abrogating particle (ḥarf nāsikh), and ربك is its noun (ism); the lām is the shifted lām (al-lām al-muzaḥlaqa); ﴿ذو فضل﴾ is its khabar (predicate); ﴿على الناس﴾ is a preposition and its genitive noun, attached to (mutaʿalliq) فضل, or an adjective of it; and the clause ﴿وإن ربك...﴾ is resumptive, with no grammatical position.\n﴿ولكن أكثرهم لا يشكرون﴾: the wāw is circumstantial (ḥāliyya); لكن is a particle of rectification (istidrāk) and of the accusative; أكثرهم is its noun, and the clause لا يشكرون is its khabar.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 73,
+   "ayet_son": 73,
+   "sha1": "a1a7f65cec419f5ba59a3d2f09f86cef37f360b0"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:30:50+00:00"
+ },
+ "muyesser-irab:74-74": {
+  "t": "﴿وإن ربك ليعلم ما تكن صدورهم وما يعلنون﴾: the wāw is a conjunction; إن is an abrogating particle (ḥarf nāsikh), and ربك is its noun (ism); the lām is the shifted lām (al-lām al-muzaḥlaqa); the clause يعلم is the khabar (predicate) of إن; ما is the mafʿūl bihi (direct object); the clause ﴿تكن صدروهم﴾ [Translator's note: so in the source; the Quranic word is ﴿صدورهم﴾] is the ṣila (relative clause), with no grammatical position. The referent pronoun (ʿāʾid) is omitted; and ﴿وما يعلنون﴾ is conjoined (ʿaṭf) to ﴿ما تكن﴾.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 74,
+   "ayet_son": 74,
+   "sha1": "46c14ac0b6af8b3cec6ee9b04e81689192cc3588"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:30:50+00:00"
+ },
+ "muyesser-irab:75-75": {
+  "t": "﴿وما من غائبة في السماء والأرض إلا في كتاب مبين﴾: the wāw is a conjunction; ما is negating; من is an additive particle (ḥarf ṣila); غائبة is genitive in wording and nominative in position, as a mubtadaʾ (subject); ﴿في السماء والأرض﴾ is a preposition and its genitive noun, attached to (mutaʿalliq) an omitted ṣifa (adjective) of غائبة; إلا is a particle of restriction (ḥaṣr); ﴿في كتاب﴾ is a preposition and its genitive noun, attached to the omitted khabar (predicate) of غائبة; and مبين is a ṣifa.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 75,
+   "ayet_son": 75,
+   "sha1": "f65ec1014e671482ec0fc4b743d020307a10a4a7"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:30:50+00:00"
+ },
+ "muyesser-irab:76-76": {
+  "t": "﴿إن هذا القرآن يقص على بني إسرائيل أكثر الذي هم فيه يختلفون﴾: the clause is resumptive, with no grammatical position; إن is an abrogating particle (ḥarf nāsikh), and هذا is its noun (ism); القرآن is a badal (substitute) from the demonstrative; the clause ﴿يقص﴾ is the khabar (predicate) of إن; ﴿على بني إسرائيل﴾ is a preposition and its genitive noun, attached to (mutaʿalliq) ﴿يقص﴾; أكثر is the mafʿūl bihi (direct object); الذي: muḍāf ilayhi (genitive construct). هم: an indeclinable (mabnī) pronoun in the position of a nominative as mubtadaʾ (subject). فيه: a preposition and its genitive noun, attached to ﴿يختلفون﴾; the clause ﴿يختلفون﴾ is in the position of a nominative as the khabar of the mubtadaʾ. The clause ﴿هم فيه يختلفون﴾ is the ṣila (relative clause) of ﴿الذي﴾, with no grammatical position.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 76,
+   "ayet_son": 76,
+   "sha1": "711c6155347b0bd83fda10603bf15d27ff34c621"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:30:50+00:00"
+ },
+ "muyesser-irab:77-77": {
+  "t": "﴿وإنه لهدى ورحمة للمؤمنين﴾: conjoined (ʿaṭf) to what precedes; إن is an abrogating particle (ḥarf nāsikh), and the hāʾ is its noun (ism); the lām is the shifted lām (al-lām al-muzaḥlaqa); هدى is its khabar (predicate); رحمة is conjoined to هدى; and للمؤمنين is a preposition and its genitive noun, attached to (mutaʿalliq) رحمة.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 77,
+   "ayet_son": 77,
+   "sha1": "9395438799935c4b7e9707535b3900de6da41465"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:30:50+00:00"
+ },
+ "muyesser-irab:78-78": {
+  "t": "﴿إن ربك يقضي بينهم بحكمه وهو العزيز العليم﴾: إن is an abrogating particle (ḥarf nāsikh), ربك is its noun (ism), and the clause ﴿يقضي﴾ is its khabar (predicate); the adverb (ẓarf) is attached to (mutaʿalliq) an omitted ḥāl (circumstantial); بحكمه is a preposition and its genitive noun, attached to ﴿يقضي﴾; ﴿هو﴾ is a mubtadaʾ (subject), ﴿العزيز﴾ is a first khabar, and ﴿العليم﴾ is a second khabar.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 78,
+   "ayet_son": 78,
+   "sha1": "ad3c32c7f3ffa0db50c039991a2f422c32546764"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:30:50+00:00"
+ },
+ "muyesser-irab:79-79": {
+  "t": "﴿فتوكل على الله إنك على الحق المبين﴾: the fāʾ is the fāʾ al-faṣīḥa; توكل is an imperative verb, and its fāʿil (agent) is latent (mustatir), its implied form being \"you\" (أنت); ﴿على الله﴾ is a preposition and its genitive noun, attached to (mutaʿalliq) ﴿توكل﴾; the clause ﴿إنك على الحق المبين﴾ has no grammatical position, because it is causal (taʿlīl); إن is an abrogating particle (ḥarf nāsikh), and the kāf is its noun (ism); على الحق is a preposition and its genitive noun, attached to an omitted khabar (predicate) of إن; and المبين is a ṣifa (adjective).",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 79,
+   "ayet_son": 79,
+   "sha1": "163f51c509facac33625f0e6151cdc0ceaa7359b"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:30:50+00:00"
+ },
+ "muyesser-irab:80-80": {
+  "t": "﴿إنك لا تسمع الموتى ولا تسمع الصم الدعاء إذا ولوا مدبرين﴾: إن is an abrogating particle (ḥarf nāsikh), and the kāf is its noun (ism); the clause ﴿لا تُسمع﴾ is the khabar (predicate) of أن [Translator's note: so in the source; the particle in the āya is إن]; الموتى is the mafʿūl bihi (direct object); ﴿لا تسمع﴾ الصم is conjoined (ʿaṭf) to the one before it; الصم is the first object, and الدعاء is the second object; إذا is an adverb (ẓarf) of the future containing the sense of condition; the clause ﴿ولوا﴾ is genitive by the adverb being annexed to it; and مدبرين is a ḥāl (circumstantial).",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 80,
+   "ayet_son": 80,
+   "sha1": "2bf89767d8e9caa25aabf92307fbe5ae44025b48"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:30:50+00:00"
+ },
+ "muyesser-irab:81-81": {
+  "t": "﴿وما أنت بهادي العمي عن ضلالتهم﴾: the wāw is a conjunction; ﴿ما﴾ is the Ḥijāzī negating mā, which operates like laysa; ﴿أنت﴾ is the noun (ism) of ما; ﴿بهادي﴾: the bāʾ is an additive preposition (ṣila), and ﴿هادي﴾ is the khabar (predicate) of the Ḥijāzī ﴿ما﴾, accusative in position and genitive in wording by the bāʾ; ﴿العمي﴾ is muḍāf ilayhi (genitive construct); ﴿عن ضلالتهم﴾ is a preposition and its genitive noun, attached to (mutaʿalliq) هادي, and it is made transitive with عن because it contains the sense of \"turning them away\" (تصرفهم).\n﴿إن تسمع إلا من يؤمن بآياتنا فهم مسلمون﴾: ﴿إن﴾ is negating; ﴿تسمع﴾ is an imperfect verb, and its fāʿil (agent) is latent (mustatir), its implied form being \"you\" (أنت); ﴿إلا﴾ is a particle of restriction (ḥaṣr); ﴿من﴾ is a relative noun in the position of an accusative as the mafʿūl bihi (direct object); the clause ﴿يؤمن﴾ is the ṣila (relative clause), with no grammatical position. ﴿بآياتنا﴾ is a preposition and its genitive noun, attached to ﴿يؤمن﴾; the fāʾ is the fāʾ al-faṣīḥa; ﴿هم﴾ is a mubtadaʾ (subject), and ﴿مسلمون﴾ is the khabar.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 81,
+   "ayet_son": 81,
+   "sha1": "e4b0fe91b4dd3c5a2990b6026cf42f225514000c"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:30:50+00:00"
+ },
+ "muyesser-irab:82-82": {
+  "t": "﴿وإذا وقع القول عليهم أخرجنا لهم دابة من الأرض﴾: the wāw is resumptive, and the clause after it is resumptive, with no grammatical position; إذا is an adverb (ẓarf) of the future containing the sense of condition; the clause ﴿وقع القول﴾ is in the position of a genitive by the adverb being annexed to it; ﴿القول﴾ is the fāʿil (agent) of وقع; ﴿عليهم﴾ is a preposition and its genitive noun, attached to (mutaʿalliq) ﴿وقع﴾; the clause ﴿أخرجنا﴾ has no grammatical position, because it is the apodosis (jawāb al-sharṭ) of a non-jussive condition; ﴿لهم﴾ is a preposition and its genitive noun, attached to ﴿أخرجنا﴾; دابة is the mafʿūl bihi (direct object); and ﴿من الأرض﴾ is a preposition and its genitive noun, attached to an omitted ṣifa (adjective) of دابة.\n﴿تكلمهم أن الناس كانوا بآياتنا لا يوقنون﴾: the clause تكلمهم is a second ṣifa of دابة, or a ḥāl (circumstantial) from it, because it has been qualified; أن is an abrogating particle (ḥarf nāsikh), الناس is its noun (ism), and the clause كانوا is the khabar (predicate) of أن; the clause is interpreted as a maṣdar (verbal noun) that is accusative by removal of the preposition, i.e.: \"that the people\" (بأن الناس), and the preposition and its genitive noun are attached to ﴿تكلمهم﴾; كان is a defective (nāqiṣ) past verb, and the wāw of the group is its noun; بآياتنا is a preposition and its genitive noun, attached to ﴿يوقنون﴾; لا is negating; and the clause ﴿لا يوقنون﴾ is the khabar of كانوا.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 82,
+   "ayet_son": 82,
+   "sha1": "6e842785a30175665a391ce285548ee1db97806e"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:31:48+00:00"
+ },
+ "muyesser-irab:83-83": {
+  "t": "﴿ويوم نحشر من كل أمة فوجا ممن يكذب بآياتنا فهم يوزعون﴾: the wāw is resumptive; ﴿يوم﴾ is the mafʿūl bihi (direct object) of an omitted verb, its implied form being \"remember\" (اذكر); the clause ﴿نحشر﴾ is in the position of a genitive as muḍāf ilayhi (genitive construct); ﴿من كل أمة﴾ is a preposition and its genitive noun, attached to (mutaʿalliq) ﴿نحشر﴾, and ﴿من﴾ here is partitive (tabʿīḍ); فوجًا is the mafʿūl bihi; ممن is a preposition and its genitive noun, attached to an omitted ṣifa (adjective) of ﴿فوجًا﴾; the clause ﴿يكذب﴾ is the ṣila (relative clause) of ﴿من﴾, with no grammatical position. ﴿بآياتنا﴾ is a preposition and its genitive noun, attached to ﴿يكذب﴾; the clause ﴿ويوم نحشر...﴾ is resumptive, with no grammatical position; the fāʾ is a conjunction; ﴿هم﴾ is a mubtadaʾ (subject), and the clause يوزعون is the khabar (predicate).",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 83,
+   "ayet_son": 83,
+   "sha1": "6630e50bce681e048d75ad577722b7a69b1da709"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:31:48+00:00"
+ },
+ "muyesser-irab:84-84": {
+  "t": "﴿حتى إذا جاءوا قال أكذبتم بآياتي ولم تحيطوا بها علما أماذا كنتم تعملون﴾: حتى is a particle of limit (ghāya); إذا is an adverb (ẓarf) of the future containing the sense of condition; the clause ﴿جاءوا﴾ is in the position of a genitive by the adverb being annexed to it; what جاءوا is attached to is omitted, i.e.: \"to the place of reckoning\"; قال is a past verb, and its fāʿil (agent) is latent (mustatir), referring back to Allah the Exalted. ﴿أكذبتم﴾: the hamza is for interrogation, and كذبتم is a verb and its fāʿil; ﴿بآياتي﴾ is a preposition and its genitive noun, attached to (mutaʿalliq) ﴿كذبتم﴾. ﴿ولم﴾: the wāw is circumstantial (ḥāliyya), and لم is a particle of negation, conversion [to the past] and the jussive; ﴿تحيطوا﴾ is an imperfect verb, jussive (majzūm) by لم; ﴿بها﴾ is a preposition and its genitive noun, attached to ﴿تحيطوا﴾; علمًا is a tamyīz (specification); the clause ﴿ولم تحيطوا ...﴾ is circumstantial (ḥāliyya); أم is a conjunction, and it is disconnected (munqaṭiʿa), supplied as ﴿بل﴾ only; ما is an interrogative noun, mubtadaʾ (subject), and ذا is a relative noun, khabar (predicate); or ﴿ماذا﴾ as a whole is an interrogative noun in the position of an accusative as a fronted object of ﴿تعملون﴾; كنتم: كان is a defective (nāqiṣ) past verb, the tāʾ is its noun (ism), and the clause تعملون is its khabar.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 84,
+   "ayet_son": 84,
+   "sha1": "e83ca9647cc02dcefd3e09c79592bd241e49aa72"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:31:48+00:00"
+ },
+ "muyesser-irab:85-85": {
+  "t": "﴿ووقع القول عليهم بما ظلموا فهم لا ينطقون﴾: the wāw is a conjunction; ﴿وقع القول﴾ is a verb and its fāʿil (agent); ﴿عليهم﴾ is a preposition and its genitive noun, attached to (mutaʿalliq) ﴿وقع﴾; ﴿بما ظلموا﴾ is a preposition and its genitive noun, also attached to ﴿وقع﴾, i.e.: \"because of their wrongdoing\", and ﴿ما﴾ is maṣdariyya (infinitival); the fāʾ is a conjunction; ﴿هم﴾ is a mubtadaʾ (subject), and the clause ﴿لا ينطقون﴾ is the khabar (predicate).",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 85,
+   "ayet_son": 85,
+   "sha1": "dc4f5adf952c74ab491c34cc73e62fc4a716e1c1"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:31:48+00:00"
+ },
+ "muyesser-irab:86-86": {
+  "t": "﴿ألم يروا أنا جعلنا الليل ليسكنوا فيه والنهار مبصرا إن في ذلك لآيات لقوم يؤمنون﴾: the hamza is for interrogation of affirmation (taqrīr) and of disapproval (inkār); لم is a particle of negation, conversion [to the past] and the jussive; يروا is an imperfect verb, jussive (majzūm) by لم, and the seeing here is mental, not visual; أن and what follows it stand in place of the two objects of يروا; أن is an abrogating particle (ḥarf nāsikh), ﴿نا﴾ is its noun (ism), and the clause ﴿جعلنا﴾ is its khabar (predicate); ﴿الليل﴾ is the object of جعلنا, and the second object of جعل is omitted, its implied form being \"dark\" (مظلما); the lām is for causation (taʿlīl); يسكنوا is an imperfect verb, accusative (manṣūb) by an implied (muḍmara) أن after the lām of causation, the sign of its accusative being the dropping of the nūn, and the wāw is the fāʿil (agent); the interpreted maṣdar (verbal noun) from أن and the verb is genitive by the lām, and the preposition and its genitive noun are attached to (mutaʿalliq) ﴿جعلنا﴾; ﴿فيه﴾ is a preposition and its genitive noun, attached to ﴿يسكنوا﴾. ﴿والنهار﴾: the wāw is a conjunction, and النهار is the first object of an omitted verb indicated by the one mentioned, its implied form being \"We made\" (جعلنا); ﴿مبصرًا﴾ is the second object of the omitted verb; إن is an abrogating particle; ﴿في ذلك﴾ is a preposition and its genitive noun, attached to the omitted, fronted khabar of إن; the lām is the shifted lām (al-lām al-muzaḥlaqa); آيات is its postponed noun; ﴿لقوم﴾ is a preposition and its genitive noun, attached to an omitted ṣifa (adjective); and the clause يؤمنون is a ṣifa of ﴿قوم﴾.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 86,
+   "ayet_son": 86,
+   "sha1": "2a03b755039d63877a75a043069e4d97b00e4312"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:31:48+00:00"
+ },
+ "muyesser-irab:87-87": {
+  "t": "﴿ويوم ينفخ في الصور ففزع من في السماوات ومن في الأرض﴾: the wāw is a conjunction; ﴿يوم﴾ is conjoined (maʿṭūf) to the preceding ﴿يوم﴾ in the saying of the Exalted ﴿ويوم نحشر﴾; the clause ﴿ينفخ﴾ is in the position of a genitive as muḍāf ilayhi (genitive construct), and the nāʾib fāʿil (deputy agent) is latent (mustatir), its implied form being \"it\" (هو); ﴿في الصور﴾ is a preposition and its genitive noun, attached to (mutaʿalliq) ﴿ينفخ﴾; ﴿ففزع﴾ is conjoined (ʿaṭf) to ﴿ينفخ﴾; ﴿مَن﴾ is the fāʿil (agent) of فزع; ﴿في السماوات﴾: the preposition and its genitive noun are attached to an omitted ṣila (relative clause), and the ṣila clause has no grammatical position. ﴿ومن في الأرض﴾ is conjoined to ﴿من في السماوات﴾.\n﴿إلا من شاء الله وكل أتوه داخرين﴾: إلا is a particle of exception, and ﴿من﴾ is the excepted (mustathnā); the clause ﴿شاء الله﴾ is the ṣila, with no grammatical position. ﴿وكل﴾: the wāw is circumstantial, or a conjunction; ﴿كل﴾ is a mubtadaʾ (subject), the clause ﴿أتوه﴾ is the khabar (predicate), and ﴿داخرين﴾ is a ḥāl (circumstantial).",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 87,
+   "ayet_son": 87,
+   "sha1": "56cfdede8242c66f3020d56bf57cf14921a561a2"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:31:48+00:00"
+ },
+ "muyesser-irab:88-88": {
+  "t": "﴿وترى الجبال تحسبها جامدة وهي تمر مر السحاب﴾: the wāw is a conjunction; ﴿ترى الجبال﴾ is a nominative (marfūʿ) imperfect verb, a latent (mustatir) fāʿil (agent), its implied form being \"you\" (أنت), and a mafʿūl bihi (direct object); the clause ﴿تحسبها﴾ is a ḥāl (circumstantial) from الجبال; ﴿ها﴾ is the first object of تحسبها, and ﴿جامدة﴾ is the second object of تحسبها. ﴿وهي﴾: the wāw is circumstantial (ḥāliyya); ﴿هي﴾ is a mubtadaʾ (subject), and the clause ﴿تمر﴾ is the khabar (predicate); the clause is a ḥāl from the latent pronoun in ﴿جامدة﴾; ﴿مر﴾ is an accusative mafʿūl muṭlaq (absolute object), and ﴿السحاب﴾ is muḍāf ilayhi (genitive construct).\n﴿صنع الله الذي أتقن كل شيء إنه خبير بما تفعلون﴾: ﴿صُنْعَ﴾ is the mafʿūl muṭlaq of an omitted verb, emphasising the content of the clause before it; the implied form is: \"Allah made that, a making\" (صنع الله ذلك صنعا); the maṣdar (verbal noun) is annexed to its fāʿil. ﴿الذي﴾ is in the position of a genitive as a ṣifa (adjective) of the Name of Majesty (﴿لفظ الجلالة﴾). The clause ﴿أتقن﴾ is the ṣila (relative clause), with no grammatical position. ﴿كل شيء﴾ is the object of أتقن. إن is an abrogating particle (ḥarf nāsikh), and the hāʾ is its noun (ism); خبير is its khabar. ﴿بما﴾ is a preposition and its genitive noun, attached to (mutaʿalliq) ﴿خبير﴾. The clause ﴿تفعلون﴾ is the ṣila of ﴿ما﴾, with no grammatical position.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 88,
+   "ayet_son": 88,
+   "sha1": "fbb2bc90f873c163f5b2f68c0c8d8c1137febd54"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:32:26+00:00"
+ },
+ "muyesser-irab:89-89": {
+  "t": "﴿من جاء بالحسنة فله خير منها وهم من فزع يومئذ آمنون﴾: resumptive speech with no grammatical position; ﴿مَن﴾ is a conditional noun putting the verb in the jussive (jāzim), mubtadaʾ (subject); ﴿بالحسنة﴾ is a preposition and its genitive noun, attached to (mutaʿalliq) ﴿جاء﴾, or to an omitted ḥāl (circumstantial) from the fāʿil (agent) of جاء, in which case the bāʾ is for accompaniment (mulābasa), i.e.: \"he came bearing it\"; the fāʾ links the apodosis (jawāb al-sharṭ); ﴿له﴾ is a preposition and its genitive noun, attached to an omitted fronted khabar (predicate), and ﴿خير﴾ is the postponed mubtadaʾ; ﴿منها﴾ is a preposition and its genitive noun, attached to an omitted ṣifa (adjective) of ﴿خير﴾, or attached to ﴿خير﴾ on the view that it is an elative (ism tafḍīl); ﴿هم﴾ is a mubtadaʾ; من فزع is a preposition and its genitive noun, attached to ﴿آمنون﴾; ﴿يومئذ﴾: يوم: an adverb of time attached to an omitted ṣifa of ﴿فزع﴾, i.e.: \"a terror occurring on that day\"; إذٍ: a noun indeclinable (mabnī) on an implied sukūn, because the place [of the vowel] is occupied by the tanwīn of compensation, in the position of a genitive as muḍāf ilayhi (genitive construct); the tanwīn compensates for an omitted clause, i.e.: \"on the day when he brings the good deed\", or \"on the day when the Horn is blown\". ﴿آمنون﴾ is the khabar of the mubtadaʾ ﴿هم﴾.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 89,
+   "ayet_son": 89,
+   "sha1": "aec741ddb846b9dc37189747f9f6f745b302418a"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:31:48+00:00"
+ },
+ "muyesser-irab:90-90": {
+  "t": "﴿ومن جاء بالسيئة فكبت وجوههم في النار هل تجزون إلا ما كنتم تعملون﴾: the wāw is a conjunction; مَن is conditional; ﴿جاء بالسيئة﴾ is the protasis (fiʿl al-sharṭ); the fāʾ is linking (rābiṭa), entering upon an omitted ﴿قد﴾, i.e.: \"قد كبت\", so that it is valid for the apodosis to be joined with it; كبت is a past verb whose agent is not named (passive), and ﴿وجوههم﴾ is the nāʾib fāʿil (deputy agent); ﴿في النار﴾ is a preposition and its genitive noun, attached to (mutaʿalliq) ﴿كبت﴾; the clause ﴿فكبت﴾ is in the position of a jussive (jazm) as the apodosis (jawāb al-sharṭ); ﴿هل﴾ is an interrogative particle; تجزون is a passive imperfect verb, nominative (marfūʿ) by the retention of the nūn, and the wāw is the nāʾib fāʿil; the clause is a ḥāl (circumstantial), i.e.: \"their faces will be cast down, it being said to them: Are you recompensed…\"; إلا is a particle of restriction (ḥaṣr); ﴿ما﴾ is the second object of ﴿تجزون﴾; the clause كنتم is the ṣila (relative clause), with no grammatical position. كان is a defective (nāqiṣ) past verb, the tāʾ is its noun (ism), and the clause تعملون is its khabar (predicate).",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 90,
+   "ayet_son": 90,
+   "sha1": "0abd41828d0ea95e5614987d461c1c334daf8238"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:31:48+00:00"
+ },
+ "muyesser-irab:91-91": {
+  "t": "﴿إنما أمرت أن أعبد رب هذه البلدة الذي حرمها﴾: the clause is the object of an omitted saying (maqūl qawl maḥdhūf), i.e.: \"Say to them: I have only been commanded\"; إنما is [إن] made inoperative (kāffa wa-makfūfa) [Translator's note: i.e. إنّ followed by the restraining ما]; أمرت is a past verb whose agent is not named (passive), and the tāʾ is the nāʾib fāʿil (deputy agent); ﴿أن أعبد﴾ is interpreted as a maṣdar (verbal noun) that is accusative by removal of the preposition, and the preposition and its genitive noun are attached to (mutaʿalliq) ﴿أمرت﴾; رب is the mafʿūl bihi (direct object), and ﴿هذه﴾ is muḍāf ilayhi (genitive construct); البلدة: a badal (substitute) from the demonstrative; الذي: a naʿt (adjective) of ﴿رب هذه البلدة﴾; the clause حرمها: the ṣila (relative clause), with no grammatical position.\n﴿وله كل شيء وأمرت أن أكون من المسلمين﴾: the wāw is circumstantial (lil-ḥāl); ﴿له﴾: a fronted khabar (predicate); كل: the postponed mubtadaʾ (subject); شيء: muḍāf ilayhi; أمرت: a passive past verb, and the tāʾ is the nāʾib fāʿil; أن أكون: interpreted as a maṣdar that is accusative by removal of the preposition, and the preposition and its genitive noun are attached to ﴿أمرت﴾; من المسلمين: a preposition and its genitive noun, attached to the omitted khabar of أكون.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 91,
+   "ayet_son": 91,
+   "sha1": "a293aa761b2e9688eb874c686179ad52374ef0b1"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:31:48+00:00"
+ },
+ "muyesser-irab:92-92": {
+  "t": "﴿وأن أتلو القرآن فمن اهتدى فإنما يهتدي لنفسه﴾: ﴿وأن أتلو﴾: conjoined (ʿaṭf) to أن أكون, i.e.: \"and I have been commanded to recite\"; القرآن: the mafʿūl bihi (direct object); فمن: the fāʾ is for consequence (tafrīʿiyya), and مَن: conditional, mubtadaʾ (subject); اهتدى: a past verb in the position of a jussive (jazm) as the protasis (fiʿl al-sharṭ); the fāʾ is linking (rābiṭa); إنما: [إن] made inoperative (kāffa wa-makfūfa); يهتدي: an imperfect verb, and its fāʿil (agent) is latent (mustatir), its implied form being \"he\" (هو); لنفسه: a preposition and its genitive noun, attached to (mutaʿalliq) ﴿يهتدي﴾; and the condition-and-apodosis clause is the khabar (predicate) of the mubtadaʾ.\n﴿ومن ضل فقل إنما أنا من المنذرين﴾: conjoined to the one before it; مَن: conditional, mubtadaʾ; ضل: a past verb in the position of a jussive as the protasis; the fāʾ is linking; قل: an imperative verb, and the fāʿil is latent, its implied form being \"you\" (أنت); إنما: made inoperative; أنا: mubtadaʾ; من المنذرين: a preposition and its genitive noun, attached to an omitted khabar; the clause is the object of saying (maqūl al-qawl); and the condition-and-apodosis clause is the khabar of the mubtadaʾ.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 92,
+   "ayet_son": 92,
+   "sha1": "27b8d0e712eb9f7523b028d0cdc39b04f4f470a3"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:31:48+00:00"
+ },
+ "muyesser-irab:93-93": {
+  "t": "﴿وقل الحمد لله سيريكم آياته فتعرفونها وما ربك بغافل عما تعملون﴾: the wāw is a conjunction; قل: an imperative verb, and the fāʿil (agent) is latent (mustatir), its implied form being \"you\" (أنت); الحمد: mubtadaʾ (subject); ﴿لله﴾: a preposition and its genitive noun, attached to (mutaʿalliq) an omitted khabar (predicate); the clause is the object of saying (maqūl al-qawl); سيريكم: the sīn is a particle of the future, يريكم is an imperfect verb, and the kāf is the first object; آياته: the second object; the clause is part of the completion of the object of saying, strung on the same thread; فتعرفونها: the fāʾ is a conjunction, and تعرفونها is an imperfect verb, its fāʿil and its mafʿūl bihi (direct object); the wāw is a conjunction; ﴿ما﴾ is the Ḥijāzī negating mā, which operates like laysa; ﴿ربك﴾ is the noun (ism) of ما; ﴿بغافل﴾: the bāʾ is an additive preposition (ṣila), and غافل is genitive in wording and accusative in position, as the khabar of the Ḥijāzī ﴿ما﴾; ﴿عما﴾: عن is a preposition, and ﴿ما﴾ is a relative noun in the position of a genitive, i.e.: \"about what you do\"; or ﴿ما﴾ is maṣdariyya (infinitival), and the interpreted maṣdar (verbal noun) from ﴿ما﴾ and the verb ﴿تعملون﴾ is genitive by ﴿عن﴾, i.e.: \"about your doing\"; the preposition and its genitive noun are attached to ﴿غافل﴾; and the clause ﴿تعملون﴾ is the ṣila (relative clause) of ﴿ما﴾, with no grammatical position.",
+  "reviewed": false,
+  "src": {
+   "book": "muyesser-irab",
+   "sure": 27,
+   "ayet_bas": 93,
+   "ayet_son": 93,
+   "sha1": "be4bb2eeebd68db3ee60a63a61f048a87d9fb202"
+  },
+  "by": "Claude (machine translation)",
+  "at": "2026-10-05T01:31:48+00:00"
  }
 }
