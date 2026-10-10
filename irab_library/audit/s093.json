@@ -1,0 +1,265 @@
+{
+ "surah": 93,
+ "ayahs": 11,
+ "entries": 81,
+ "per_book": {
+  "farraa": {
+   "entries": 9,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 1,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "zajjaj": {
+   "entries": 7,
+   "S": 0,
+   "Q_near": 1,
+   "Q_xref": 0,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "nahhas-irab": {
+   "entries": 8,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "mekki-muskil": {
+   "entries": 3,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "ukberi-tibyan": {
+   "entries": 2,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "celaleyn": {
+   "entries": 11,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 1,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "semin-durr": {
+   "entries": 7,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 2,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "safi-cedvel": {
+   "entries": 4,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "dervis-irab": {
+   "entries": 1,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "daas-irab": {
+   "entries": 10,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "harrat-mujtaba": {
+   "entries": 8,
+   "S": 0,
+   "Q_near": 1,
+   "Q_xref": 0,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "muyesser-irab": {
+   "entries": 11,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  }
+ },
+ "gaps": {
+  "farraa": [
+   4
+  ],
+  "harrat-mujtaba": [
+   1,
+   7,
+   8
+  ],
+  "mekki-muskil": [
+   1,
+   2,
+   4,
+   5,
+   6,
+   7,
+   8,
+   10
+  ],
+  "semin-durr": [
+   1,
+   5,
+   7,
+   10
+  ],
+  "ukberi-tibyan": [
+   1,
+   2,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "zajjaj": [
+   4,
+   5,
+   8
+  ]
+ },
+ "findings": [
+  {
+   "key": "farraa:1-2",
+   "book": "farraa",
+   "surah": 93,
+   "from": 1,
+   "to": 2,
+   "check": "Q",
+   "sev": "low",
+   "kind": "UNFOUND",
+   "quotes": 1,
+   "in_range": 0,
+   "msg": "quotations not found in the Quran text (garbled source or non-Quranic words)",
+   "examples": [
+    "ولضحي ولليل ذ سجي"
+   ]
+  },
+  {
+   "key": "zajjaj:1-2",
+   "book": "zajjaj",
+   "surah": 93,
+   "from": 1,
+   "to": 2,
+   "check": "Q",
+   "sev": "high",
+   "kind": "NEAR",
+   "quotes": 2,
+   "in_range": 0,
+   "msg": "quotations belong to a nearby ayah, not this range: possible misplacement",
+   "examples": [
+    "م ودعك ربك وم قلي"
+   ]
+  },
+  {
+   "key": "celaleyn:2-2",
+   "book": "celaleyn",
+   "surah": 93,
+   "from": 2,
+   "to": 2,
+   "check": "Q",
+   "sev": "low",
+   "kind": "UNFOUND",
+   "quotes": 1,
+   "in_range": 0,
+   "msg": "quotations not found in the Quran text (garbled source or non-Quranic words)",
+   "examples": [
+    "ولليل ذ سجي"
+   ]
+  },
+  {
+   "key": "semin-durr:4-4",
+   "book": "semin-durr",
+   "surah": 93,
+   "from": 4,
+   "to": 4,
+   "check": "Q",
+   "sev": "low",
+   "kind": "XREF",
+   "quotes": 1,
+   "in_range": 0,
+   "msg": "quotations come from elsewhere in the Quran (cross-reference?)",
+   "examples": [
+    "للي لله تحشرون"
+   ]
+  },
+  {
+   "key": "semin-durr:9-9",
+   "book": "semin-durr",
+   "surah": 93,
+   "from": 9,
+   "to": 9,
+   "check": "Q",
+   "sev": "low",
+   "kind": "XREF",
+   "quotes": 1,
+   "in_range": 0,
+   "msg": "quotations come from elsewhere in the Quran (cross-reference?)",
+   "examples": [
+    "ل يوم يتيهم ليس مصروف عنهم"
+   ]
+  },
+  {
+   "key": "harrat-mujtaba:10-10",
+   "book": "harrat-mujtaba",
+   "surah": 93,
+   "from": 10,
+   "to": 10,
+   "check": "Q",
+   "sev": "high",
+   "kind": "NEAR",
+   "quotes": 1,
+   "in_range": 0,
+   "msg": "quotations belong to a nearby ayah, not this range: possible misplacement",
+   "examples": [
+    "فم ليتيم فل تقهر"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,914 @@
+{
+ "1": {
+  "entries": 73,
+  "findings": 15,
+  "high": 1,
+  "medium": 2,
+  "low": 12,
+  "gap_books": 5
+ },
+ "2": {
+  "entries": 3136,
+  "findings": 320,
+  "high": 38,
+  "medium": 6,
+  "low": 276,
+  "gap_books": 9
+ },
+ "3": {
+  "entries": 2120,
+  "findings": 199,
+  "high": 34,
+  "medium": 3,
+  "low": 162,
+  "gap_books": 9
+ },
+ "4": {
+  "entries": 1842,
+  "findings": 131,
+  "high": 21,
+  "medium": 1,
+  "low": 109,
+  "gap_books": 9
+ },
+ "5": {
+  "entries": 1251,
+  "findings": 92,
+  "high": 10,
+  "medium": 3,
+  "low": 79,
+  "gap_books": 9
+ },
+ "6": {
+  "entries": 1764,
+  "findings": 142,
+  "high": 13,
+  "medium": 1,
+  "low": 128,
+  "gap_books": 9
+ },
+ "7": {
+  "entries": 1907,
+  "findings": 167,
+  "high": 19,
+  "medium": 5,
+  "low": 143,
+  "gap_books": 9
+ },
+ "8": {
+  "entries": 730,
+  "findings": 38,
+  "high": 12,
+  "medium": 1,
+  "low": 25,
+  "gap_books": 8
+ },
+ "9": {
+  "entries": 1262,
+  "findings": 70,
+  "high": 13,
+  "medium": 4,
+  "low": 53,
+  "gap_books": 9
+ },
+ "10": {
+  "entries": 929,
+  "findings": 77,
+  "high": 8,
+  "medium": 0,
+  "low": 69,
+  "gap_books": 9
+ },
+ "11": {
+  "entries": 1069,
+  "findings": 100,
+  "high": 16,
+  "medium": 2,
+  "low": 82,
+  "gap_books": 9
+ },
+ "12": {
+  "entries": 1004,
+  "findings": 68,
+  "high": 11,
+  "medium": 0,
+  "low": 57,
+  "gap_books": 9
+ },
+ "13": {
+  "entries": 404,
+  "findings": 19,
+  "high": 2,
+  "medium": 0,
+  "low": 17,
+  "gap_books": 8
+ },
+ "14": {
+  "entries": 454,
+  "findings": 40,
+  "high": 2,
+  "medium": 1,
+  "low": 37,
+  "gap_books": 8
+ },
+ "15": {
+  "entries": 685,
+  "findings": 41,
+  "high": 10,
+  "medium": 2,
+  "low": 29,
+  "gap_books": 9
+ },
+ "16": {
+  "entries": 1034,
+  "findings": 67,
+  "high": 21,
+  "medium": 0,
+  "low": 46,
+  "gap_books": 8
+ },
+ "17": {
+  "entries": 982,
+  "findings": 84,
+  "high": 14,
+  "medium": 2,
+  "low": 68,
+  "gap_books": 9
+ },
+ "18": {
+  "entries": 1024,
+  "findings": 50,
+  "high": 15,
+  "medium": 2,
+  "low": 33,
+  "gap_books": 9
+ },
+ "19": {
+  "entries": 830,
+  "findings": 80,
+  "high": 9,
+  "medium": 0,
+  "low": 71,
+  "gap_books": 9
+ },
+ "20": {
+  "entries": 1006,
+  "findings": 92,
+  "high": 12,
+  "medium": 0,
+  "low": 80,
+  "gap_books": 8
+ },
+ "21": {
+  "entries": 837,
+  "findings": 58,
+  "high": 7,
+  "medium": 0,
+  "low": 51,
+  "gap_books": 8
+ },
+ "22": {
+  "entries": 650,
+  "findings": 33,
+  "high": 9,
+  "medium": 0,
+  "low": 24,
+  "gap_books": 8
+ },
+ "23": {
+  "entries": 793,
+  "findings": 46,
+  "high": 5,
+  "medium": 5,
+  "low": 36,
+  "gap_books": 9
+ },
+ "24": {
+  "entries": 557,
+  "findings": 36,
+  "high": 6,
+  "medium": 1,
+  "low": 29,
+  "gap_books": 8
+ },
+ "25": {
+  "entries": 653,
+  "findings": 55,
+  "high": 10,
+  "medium": 0,
+  "low": 45,
+  "gap_books": 8
+ },
+ "26": {
+  "entries": 1237,
+  "findings": 74,
+  "high": 26,
+  "medium": 1,
+  "low": 47,
+  "gap_books": 9
+ },
+ "27": {
+  "entries": 750,
+  "findings": 47,
+  "high": 10,
+  "medium": 1,
+  "low": 36,
+  "gap_books": 8
+ },
+ "28": {
+  "entries": 747,
+  "findings": 39,
+  "high": 7,
+  "medium": 1,
+  "low": 31,
+  "gap_books": 9
+ },
+ "29": {
+  "entries": 544,
+  "findings": 25,
+  "high": 5,
+  "medium": 0,
+  "low": 20,
+  "gap_books": 9
+ },
+ "30": {
+  "entries": 506,
+  "findings": 34,
+  "high": 10,
+  "medium": 0,
+  "low": 24,
+  "gap_books": 9
+ },
+ "31": {
+  "entries": 294,
+  "findings": 18,
+  "high": 4,
+  "medium": 0,
+  "low": 14,
+  "gap_books": 9
+ },
+ "32": {
+  "entries": 252,
+  "findings": 23,
+  "high": 5,
+  "medium": 0,
+  "low": 18,
+  "gap_books": 9
+ },
+ "33": {
+  "entries": 649,
+  "findings": 49,
+  "high": 7,
+  "medium": 2,
+  "low": 40,
+  "gap_books": 9
+ },
+ "34": {
+  "entries": 482,
+  "findings": 21,
+  "high": 1,
+  "medium": 1,
+  "low": 19,
+  "gap_books": 8
+ },
+ "35": {
+  "entries": 374,
+  "findings": 16,
+  "high": 6,
+  "medium": 0,
+  "low": 10,
+  "gap_books": 9
+ },
+ "36": {
+  "entries": 689,
+  "findings": 43,
+  "high": 6,
+  "medium": 0,
+  "low": 37,
+  "gap_books": 8
+ },
+ "37": {
+  "entries": 1134,
+  "findings": 77,
+  "high": 30,
+  "medium": 4,
+  "low": 43,
+  "gap_books": 8
+ },
+ "38": {
+  "entries": 688,
+  "findings": 55,
+  "high": 13,
+  "medium": 3,
+  "low": 39,
+  "gap_books": 8
+ },
+ "39": {
+  "entries": 582,
+  "findings": 41,
+  "high": 10,
+  "medium": 1,
+  "low": 30,
+  "gap_books": 9
+ },
+ "40": {
+  "entries": 601,
+  "findings": 50,
+  "high": 10,
+  "medium": 1,
+  "low": 39,
+  "gap_books": 9
+ },
+ "41": {
+  "entries": 462,
+  "findings": 41,
+  "high": 11,
+  "medium": 1,
+  "low": 29,
+  "gap_books": 8
+ },
+ "42": {
+  "entries": 420,
+  "findings": 30,
+  "high": 8,
+  "medium": 1,
+  "low": 21,
+  "gap_books": 8
+ },
+ "43": {
+  "entries": 629,
+  "findings": 42,
+  "high": 9,
+  "medium": 1,
+  "low": 32,
+  "gap_books": 9
+ },
+ "44": {
+  "entries": 413,
+  "findings": 29,
+  "high": 8,
+  "medium": 0,
+  "low": 21,
+  "gap_books": 8
+ },
+ "45": {
+  "entries": 262,
+  "findings": 18,
+  "high": 5,
+  "medium": 0,
+  "low": 13,
+  "gap_books": 8
+ },
+ "46": {
+  "entries": 290,
+  "findings": 17,
+  "high": 2,
+  "medium": 0,
+  "low": 15,
+  "gap_books": 9
+ },
+ "47": {
+  "entries": 323,
+  "findings": 18,
+  "high": 3,
+  "medium": 0,
+  "low": 15,
+  "gap_books": 7
+ },
+ "48": {
+  "entries": 241,
+  "findings": 8,
+  "high": 4,
+  "medium": 0,
+  "low": 4,
+  "gap_books": 9
+ },
+ "49": {
+  "entries": 150,
+  "findings": 9,
+  "high": 1,
+  "medium": 0,
+  "low": 8,
+  "gap_books": 6
+ },
+ "50": {
+  "entries": 317,
+  "findings": 19,
+  "high": 5,
+  "medium": 0,
+  "low": 14,
+  "gap_books": 7
+ },
+ "51": {
+  "entries": 419,
+  "findings": 25,
+  "high": 7,
+  "medium": 2,
+  "low": 16,
+  "gap_books": 6
+ },
+ "52": {
+  "entries": 310,
+  "findings": 25,
+  "high": 5,
+  "medium": 0,
+  "low": 20,
+  "gap_books": 7
+ },
+ "53": {
+  "entries": 470,
+  "findings": 31,
+  "high": 5,
+  "medium": 0,
+  "low": 26,
+  "gap_books": 7
+ },
+ "54": {
+  "entries": 419,
+  "findings": 14,
+  "high": 4,
+  "medium": 0,
+  "low": 10,
+  "gap_books": 8
+ },
+ "55": {
+  "entries": 488,
+  "findings": 39,
+  "high": 1,
+  "medium": 14,
+  "low": 24,
+  "gap_books": 8
+ },
+ "56": {
+  "entries": 663,
+  "findings": 38,
+  "high": 9,
+  "medium": 3,
+  "low": 26,
+  "gap_books": 8
+ },
+ "57": {
+  "entries": 264,
+  "findings": 11,
+  "high": 0,
+  "medium": 0,
+  "low": 11,
+  "gap_books": 6
+ },
+ "58": {
+  "entries": 190,
+  "findings": 12,
+  "high": 1,
+  "medium": 0,
+  "low": 11,
+  "gap_books": 6
+ },
+ "59": {
+  "entries": 207,
+  "findings": 9,
+  "high": 2,
+  "medium": 1,
+  "low": 6,
+  "gap_books": 6
+ },
+ "60": {
+  "entries": 121,
+  "findings": 2,
+  "high": 0,
+  "medium": 0,
+  "low": 2,
+  "gap_books": 6
+ },
+ "61": {
+  "entries": 120,
+  "findings": 10,
+  "high": 1,
+  "medium": 0,
+  "low": 9,
+  "gap_books": 6
+ },
+ "62": {
+  "entries": 96,
+  "findings": 6,
+  "high": 1,
+  "medium": 0,
+  "low": 5,
+  "gap_books": 6
+ },
+ "63": {
+  "entries": 97,
+  "findings": 3,
+  "high": 1,
+  "medium": 0,
+  "low": 2,
+  "gap_books": 6
+ },
+ "64": {
+  "entries": 134,
+  "findings": 4,
+  "high": 1,
+  "medium": 0,
+  "low": 3,
+  "gap_books": 6
+ },
+ "65": {
+  "entries": 107,
+  "findings": 11,
+  "high": 1,
+  "medium": 0,
+  "low": 10,
+  "gap_books": 6
+ },
+ "66": {
+  "entries": 114,
+  "findings": 8,
+  "high": 2,
+  "medium": 0,
+  "low": 6,
+  "gap_books": 7
+ },
+ "67": {
+  "entries": 247,
+  "findings": 10,
+  "high": 1,
+  "medium": 0,
+  "low": 9,
+  "gap_books": 6
+ },
+ "68": {
+  "entries": 372,
+  "findings": 14,
+  "high": 2,
+  "medium": 1,
+  "low": 11,
+  "gap_books": 7
+ },
+ "69": {
+  "entries": 343,
+  "findings": 25,
+  "high": 5,
+  "medium": 2,
+  "low": 18,
+  "gap_books": 7
+ },
+ "70": {
+  "entries": 270,
+  "findings": 16,
+  "high": 7,
+  "medium": 0,
+  "low": 9,
+  "gap_books": 8
+ },
+ "71": {
+  "entries": 216,
+  "findings": 13,
+  "high": 4,
+  "medium": 3,
+  "low": 6,
+  "gap_books": 7
+ },
+ "72": {
+  "entries": 227,
+  "findings": 16,
+  "high": 5,
+  "medium": 1,
+  "low": 10,
+  "gap_books": 8
+ },
+ "73": {
+  "entries": 171,
+  "findings": 18,
+  "high": 3,
+  "medium": 0,
+  "low": 15,
+  "gap_books": 8
+ },
+ "74": {
+  "entries": 334,
+  "findings": 22,
+  "high": 4,
+  "medium": 0,
+  "low": 18,
+  "gap_books": 8
+ },
+ "75": {
+  "entries": 273,
+  "findings": 19,
+  "high": 6,
+  "medium": 2,
+  "low": 11,
+  "gap_books": 8
+ },
+ "76": {
+  "entries": 268,
+  "findings": 15,
+  "high": 4,
+  "medium": 0,
+  "low": 11,
+  "gap_books": 6
+ },
+ "77": {
+  "entries": 288,
+  "findings": 18,
+  "high": 6,
+  "medium": 0,
+  "low": 12,
+  "gap_books": 8
+ },
+ "78": {
+  "entries": 249,
+  "findings": 12,
+  "high": 4,
+  "medium": 0,
+  "low": 8,
+  "gap_books": 8
+ },
+ "79": {
+  "entries": 285,
+  "findings": 40,
+  "high": 6,
+  "medium": 2,
+  "low": 32,
+  "gap_books": 8
+ },
+ "80": {
+  "entries": 238,
+  "findings": 10,
+  "high": 6,
+  "medium": 1,
+  "low": 3,
+  "gap_books": 8
+ },
+ "81": {
+  "entries": 178,
+  "findings": 16,
+  "high": 6,
+  "medium": 0,
+  "low": 10,
+  "gap_books": 8
+ },
+ "82": {
+  "entries": 127,
+  "findings": 8,
+  "high": 0,
+  "medium": 0,
+  "low": 8,
+  "gap_books": 8
+ },
+ "83": {
+  "entries": 257,
+  "findings": 14,
+  "high": 4,
+  "medium": 0,
+  "low": 10,
+  "gap_books": 8
+ },
+ "84": {
+  "entries": 185,
+  "findings": 12,
+  "high": 4,
+  "medium": 0,
+  "low": 8,
+  "gap_books": 7
+ },
+ "85": {
+  "entries": 155,
+  "findings": 7,
+  "high": 3,
+  "medium": 0,
+  "low": 4,
+  "gap_books": 7
+ },
+ "86": {
+  "entries": 121,
+  "findings": 6,
+  "high": 1,
+  "medium": 1,
+  "low": 4,
+  "gap_books": 6
+ },
+ "87": {
+  "entries": 137,
+  "findings": 7,
+  "high": 1,
+  "medium": 1,
+  "low": 5,
+  "gap_books": 7
+ },
+ "88": {
+  "entries": 176,
+  "findings": 13,
+  "high": 2,
+  "medium": 1,
+  "low": 10,
+  "gap_books": 7
+ },
+ "89": {
+  "entries": 208,
+  "findings": 17,
+  "high": 2,
+  "medium": 0,
+  "low": 15,
+  "gap_books": 8
+ },
+ "90": {
+  "entries": 143,
+  "findings": 7,
+  "high": 2,
+  "medium": 1,
+  "low": 4,
+  "gap_books": 8
+ },
+ "91": {
+  "entries": 115,
+  "findings": 30,
+  "high": 0,
+  "medium": 0,
+  "low": 30,
+  "gap_books": 7
+ },
+ "92": {
+  "entries": 143,
+  "findings": 14,
+  "high": 6,
+  "medium": 0,
+  "low": 8,
+  "gap_books": 8
+ },
+ "93": {
+  "entries": 81,
+  "findings": 6,
+  "high": 2,
+  "medium": 0,
+  "low": 4,
+  "gap_books": 6
+ },
+ "94": {
+  "entries": 57,
+  "findings": 3,
+  "high": 0,
+  "medium": 1,
+  "low": 2,
+  "gap_books": 7
+ },
+ "95": {
+  "entries": 71,
+  "findings": 4,
+  "high": 2,
+  "medium": 0,
+  "low": 2,
+  "gap_books": 7
+ },
+ "96": {
+  "entries": 129,
+  "findings": 8,
+  "high": 7,
+  "medium": 0,
+  "low": 1,
+  "gap_books": 7
+ },
+ "97": {
+  "entries": 42,
+  "findings": 3,
+  "high": 1,
+  "medium": 0,
+  "low": 2,
+  "gap_books": 7
+ },
+ "98": {
+  "entries": 73,
+  "findings": 7,
+  "high": 1,
+  "medium": 2,
+  "low": 4,
+  "gap_books": 5
+ },
+ "99": {
+  "entries": 64,
+  "findings": 1,
+  "high": 0,
+  "medium": 0,
+  "low": 1,
+  "gap_books": 6
+ },
+ "100": {
+  "entries": 93,
+  "findings": 6,
+  "high": 0,
+  "medium": 0,
+  "low": 6,
+  "gap_books": 5
+ },
+ "101": {
+  "entries": 74,
+  "findings": 5,
+  "high": 1,
+  "medium": 0,
+  "low": 4,
+  "gap_books": 8
+ },
+ "102": {
+  "entries": 57,
+  "findings": 5,
+  "high": 1,
+  "medium": 1,
+  "low": 3,
+  "gap_books": 5
+ },
+ "103": {
+  "entries": 24,
+  "findings": 0,
+  "high": 0,
+  "medium": 0,
+  "low": 0,
+  "gap_books": 5
+ },
+ "104": {
+  "entries": 79,
+  "findings": 5,
+  "high": 0,
+  "medium": 0,
+  "low": 5,
+  "gap_books": 6
+ },
+ "105": {
+  "entries": 43,
+  "findings": 1,
+  "high": 1,
+  "medium": 0,
+  "low": 0,
+  "gap_books": 6
+ },
+ "106": {
+  "entries": 33,
+  "findings": 1,
+  "high": 0,
+  "medium": 0,
+  "low": 1,
+  "gap_books": 5
+ },
+ "107": {
+  "entries": 54,
+  "findings": 2,
+  "high": 0,
+  "medium": 1,
+  "low": 1,
+  "gap_books": 7
+ },
+ "108": {
+  "entries": 28,
+  "findings": 0,
+  "high": 0,
+  "medium": 0,
+  "low": 0,
+  "gap_books": 4
+ },
+ "109": {
+  "entries": 36,
+  "findings": 4,
+  "high": 2,
+  "medium": 0,
+  "low": 2,
+  "gap_books": 7
+ },
+ "110": {
+  "entries": 28,
+  "findings": 1,
+  "high": 0,
+  "medium": 0,
+  "low": 1,
+  "gap_books": 5
+ },
+ "111": {
+  "entries": 46,
+  "findings": 1,
+  "high": 0,
+  "medium": 0,
+  "low": 1,
+  "gap_books": 5
+ },
+ "112": {
+  "entries": 38,
+  "findings": 3,
+  "high": 2,
+  "medium": 0,
+  "low": 1,
+  "gap_books": 5
+ },
+ "113": {
+  "entries": 39,
+  "findings": 0,
+  "high": 0,
+  "medium": 0,
+  "low": 0,
+  "gap_books": 7
+ },
+ "114": {
+  "entries": 45,
+  "findings": 3,
+  "high": 1,
+  "medium": 0,
+  "low": 2,
+  "gap_books": 7
+ }
+}

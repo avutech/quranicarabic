@@ -1,0 +1,360 @@
+{
+ "surah": 82,
+ "ayahs": 19,
+ "entries": 127,
+ "per_book": {
+  "farraa": {
+   "entries": 6,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 1,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "akhfash": {
+   "entries": 2,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "zajjaj": {
+   "entries": 12,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 4,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "nahhas-irab": {
+   "entries": 14,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "mekki-muskil": {
+   "entries": 3,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "ukberi-tibyan": {
+   "entries": 6,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "celaleyn": {
+   "entries": 19,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 1,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "semin-durr": {
+   "entries": 10,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 1,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "safi-cedvel": {
+   "entries": 5,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "dervis-irab": {
+   "entries": 1,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "daas-irab": {
+   "entries": 15,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "harrat-mujtaba": {
+   "entries": 15,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "muyesser-irab": {
+   "entries": 19,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 1,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  }
+ },
+ "gaps": {
+  "akhfash": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18
+  ],
+  "farraa": [
+   2,
+   3,
+   6,
+   8,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   17,
+   18,
+   19
+  ],
+  "harrat-mujtaba": [
+   2,
+   4,
+   13,
+   14
+  ],
+  "mekki-muskil": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   18
+  ],
+  "nahhas-irab": [
+   18
+  ],
+  "semin-durr": [
+   1,
+   2,
+   5,
+   11,
+   13,
+   14,
+   16,
+   17,
+   18
+  ],
+  "ukberi-tibyan": [
+   2,
+   3,
+   4,
+   5,
+   9,
+   13,
+   16,
+   17,
+   18
+  ],
+  "zajjaj": [
+   10,
+   11,
+   12,
+   13,
+   14,
+   16
+  ]
+ },
+ "findings": [
+  {
+   "key": "farraa:7-7",
+   "book": "farraa",
+   "surah": 82,
+   "from": 7,
+   "to": 7,
+   "check": "Q",
+   "sev": "low",
+   "kind": "UNFOUND",
+   "quotes": 1,
+   "in_range": 0,
+   "msg": "quotations not found in the Quran text (garbled source or non-Quranic words)",
+   "examples": [
+    "لذي خلقك فسوك فعدلك"
+   ]
+  },
+  {
+   "key": "zajjaj:6-6",
+   "book": "zajjaj",
+   "surah": 82,
+   "from": 6,
+   "to": 6,
+   "check": "Q",
+   "sev": "low",
+   "kind": "UNFOUND",
+   "quotes": 1,
+   "in_range": 0,
+   "msg": "quotations not found in the Quran text (garbled source or non-Quranic words)",
+   "examples": [
+    "ي يه لنسن م غرك بربك لكريم"
+   ]
+  },
+  {
+   "key": "zajjaj:7-7",
+   "book": "zajjaj",
+   "surah": 82,
+   "from": 7,
+   "to": 7,
+   "check": "Q",
+   "sev": "low",
+   "kind": "UNFOUND",
+   "quotes": 1,
+   "in_range": 0,
+   "msg": "quotations not found in the Quran text (garbled source or non-Quranic words)",
+   "examples": [
+    "لذي خلقك فسوك فعدلك"
+   ]
+  },
+  {
+   "key": "zajjaj:17-18",
+   "book": "zajjaj",
+   "surah": 82,
+   "from": 17,
+   "to": 18,
+   "check": "Q",
+   "sev": "low",
+   "kind": "UNFOUND",
+   "quotes": 2,
+   "in_range": 0,
+   "msg": "quotations not found in the Quran text (garbled source or non-Quranic words)",
+   "examples": [
+    "وم درك م يوم لدين",
+    "ثم م درك م يوم لدين"
+   ]
+  },
+  {
+   "key": "zajjaj:19-19",
+   "book": "zajjaj",
+   "surah": 82,
+   "from": 19,
+   "to": 19,
+   "check": "Q",
+   "sev": "low",
+   "kind": "UNFOUND",
+   "quotes": 2,
+   "in_range": 0,
+   "msg": "quotations not found in the Quran text (garbled source or non-Quranic words)",
+   "examples": [
+    "يوم ل تملك نفس لنفس شيي",
+    "يوم ل تملك نفس لنفس شيي"
+   ]
+  },
+  {
+   "key": "celaleyn:18-18",
+   "book": "celaleyn",
+   "surah": 82,
+   "from": 18,
+   "to": 18,
+   "check": "Q",
+   "sev": "low",
+   "kind": "UNFOUND",
+   "quotes": 1,
+   "in_range": 0,
+   "msg": "quotations not found in the Quran text (garbled source or non-Quranic words)",
+   "examples": [
+    "ثم م درك م يوم لدين"
+   ]
+  },
+  {
+   "key": "semin-durr:3-3",
+   "book": "semin-durr",
+   "surah": 82,
+   "from": 3,
+   "to": 3,
+   "check": "Q",
+   "sev": "low",
+   "kind": "XREF",
+   "quotes": 1,
+   "in_range": 0,
+   "msg": "quotations come from elsewhere in the Quran (cross-reference?)",
+   "examples": [
+    "بينهم برزخ ل يبغين"
+   ]
+  },
+  {
+   "key": "muyesser-irab:16-16",
+   "book": "muyesser-irab",
+   "surah": 82,
+   "from": 16,
+   "to": 16,
+   "check": "Q",
+   "sev": "low",
+   "kind": "UNFOUND",
+   "quotes": 1,
+   "in_range": 0,
+   "msg": "quotations not found in the Quran text (garbled source or non-Quranic words)",
+   "examples": [
+    "م هم بغيبين"
+   ]
+  }
+ ]
+}
