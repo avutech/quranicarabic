@@ -1,0 +1,18 @@
+{
+  "sampling": false,
+  "required_passes_per_unit": 2,
+  "selected_model": "gpt-6-astra",
+  "reasoning_effort": "max",
+  "books": 14,
+  "surahs": 114,
+  "unit_counts": {
+    "entry": 51211,
+    "meaning": 43652,
+    "lookup": 87304
+  },
+  "total_units": 182167,
+  "required_review_decisions": 364334,
+  "lookups_with_no_source_entry": 24004,
+  "semantic_completion": false,
+  "note": "No-entry lookups remain explicit units; cache equality and historical samples do not close units."
+}

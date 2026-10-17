@@ -1,0 +1,82 @@
+{
+  "scope": "Complete adjudication of all 13 assigned resource52 Surah2 disputes; not a corpus-completion claim or a sampled review.",
+  "review_date": "2026-10-11",
+  "unit_ids": [
+    "meaning:2:59:52",
+    "meaning:2:61:52",
+    "meaning:2:71:52",
+    "meaning:2:90:52",
+    "meaning:2:105:52",
+    "meaning:2:140:52",
+    "meaning:2:171:52",
+    "meaning:2:176:52",
+    "meaning:2:187:52",
+    "meaning:2:215:52",
+    "meaning:2:221:52",
+    "meaning:2:271:52",
+    "meaning:2:282:52"
+  ],
+  "assigned": 13,
+  "adjudicated_for_mapping": 13,
+  "mapping_counts": {
+    "MATCH": 13,
+    "REMAP": 0,
+    "UNSURE": 0
+  },
+  "peer_verdict_counts": {
+    "1": {
+      "MATCH": 13
+    },
+    "2": {
+      "MISMATCH": 7,
+      "UNSURE": 6
+    }
+  },
+  "different_ayah_proposals_in_peer_reports": 0,
+  "pending_mapping_reviews": [],
+  "unresolved_mapping_expert_needed": [],
+  "pending_exact_upstream_print_edition_verification": [
+    "meaning:2:59:52",
+    "meaning:2:61:52",
+    "meaning:2:71:52",
+    "meaning:2:90:52",
+    "meaning:2:105:52",
+    "meaning:2:140:52",
+    "meaning:2:171:52",
+    "meaning:2:176:52",
+    "meaning:2:187:52",
+    "meaning:2:215:52",
+    "meaning:2:221:52",
+    "meaning:2:271:52",
+    "meaning:2:282:52"
+  ],
+  "original_author_text_or_commentary_checked": 13,
+  "exact_original_resource52_print_edition_authenticated": 0,
+  "first_edition_facsimile_read_directly": false,
+  "content_expert_review_only_if_future_content_edits_are_requested": [
+    "meaning:2:59:52",
+    "meaning:2:61:52",
+    "meaning:2:71:52",
+    "meaning:2:90:52",
+    "meaning:2:105:52",
+    "meaning:2:140:52",
+    "meaning:2:176:52",
+    "meaning:2:221:52",
+    "meaning:2:271:52",
+    "meaning:2:282:52"
+  ],
+  "no_new_corpus_or_content_edits": true,
+  "no_reassociations": true,
+  "no_deployment": true,
+  "verification": {
+    "all_13_saved_and_regenerated_packets_identical_including_neighbor_context": true,
+    "all_peer_packet_hashes_match_current": true,
+    "independent_archives_sha256": {
+      "tasks/MEANINGS_52_S002_ADJUDICATION_INDEPENDENT.jsonl": "cb1cca5f506255ac237c4e517e2cad5de4ad60fe89ffc590f238805e74de550a",
+      "tasks/MEANINGS_52_S002_ADJUDICATION_INDEPENDENT_SOURCE.jsonl": "c5c4d341af5280eef5d2edcaf72d4977297cd83326adcb7f16dbc069bd4b1ffa"
+    }
+  },
+  "sources": "tasks/MEANINGS_52_S002_ADJUDICATION_SOURCES.json",
+  "adjudication": "tasks/MEANINGS_52_S002_ADJUDICATION.jsonl",
+  "runtime_attestation": "Requested gpt-6-astra/max settings recorded only; backend identity and reasoning runtime were not exposed."
+}

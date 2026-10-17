@@ -1,0 +1,69 @@
+{
+  "retrieved_on": "2026-10-11",
+  "source_catalog": {
+    "yek2021": {
+      "title": "Hak Dini Kur’an Dili, İnceleme–Tenkitli Metin, cilt 1 (Fâtiha–el-Bakara)",
+      "author": "Elmalılı Muhammed Hamdi Yazır",
+      "editors": [
+        "Asım Cüneyd Köksal",
+        "Murat Kaya"
+      ],
+      "publisher": "Türkiye Yazma Eserler Kurumu Başkanlığı",
+      "year": 2021,
+      "edition": "1. baskı",
+      "isbn_volume": "978-975-17-4869-0",
+      "url": "https://can-ada.net/wp-content/uploads/2023/04/HAK-DINI-KURAN-DILI-Cilt-1.pdf",
+      "official_url_attempted": "https://ekitap.yek.gov.tr/Uploads/ProductsFiles/e3bcffae-94c8-4654-b97e-caeb01ca8dbb.pdf",
+      "retrieval": "Official endpoint failed; publisher-identifiable PDF read from mirror.",
+      "pdf_sha256": "f537a26406840643290d985d6fc71e33c1c4615d83baa851a93160dc38a546d6",
+      "method_pages": [
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ],
+      "method": "Critical edition collates first printed edition and three manuscripts; it is not a facsimile and does not always select the first-print reading.",
+      "visual_pages_read": [
+        79,
+        489,
+        491
+      ]
+    },
+    "azim_c1": {
+      "title": "Hak Dini Kur’an Dili, sadeleştirme, cilt 1",
+      "publisher_as_printed": "Zehraveyn; Azim Dağıtım",
+      "modernizers": [
+        "İsmail Karaçam",
+        "Emin Işık",
+        "Nusrettin Bolelli",
+        "Abdullah Yücel"
+      ],
+      "publication_year": null,
+      "limitation": "Specific printing year not established; modernizers’ preface is dated Haziran 1992. This scan is a related printed textual witness, not authenticated as Quran.com’s exact upstream edition.",
+      "url": "https://archive.org/download/hak-dini-kuran-dili-cilt-1-elmalili-hamdi-yazir/Hak%20Dini%20Kur%27an%20Dili%20-%20Cilt%201%20-%20Elmalili%20Hamdi%20Yazir.pdf",
+      "pdf_sha256": "032e63f1912eadfa6df44114727fa65984913186944ff8844d2ebbdd1a8916c2",
+      "visual_pdf_pages_read": [
+        329
+      ]
+    },
+    "azim_c2": {
+      "title": "Hak Dini Kur’an Dili, sadeleştirme, cilt 2",
+      "publisher_as_printed": "Zehraveyn; Azim Dağıtım",
+      "publication_year": null,
+      "url": "https://archive.org/download/hak-dini-kuran-dili-cilt-1-elmalili-hamdi-yazir/Hak%20Dini%20Kur%27an%20Dili%20-%20Cilt%202%20-%20Elmalili%20Hamdi%20Yazir.pdf",
+      "pdf_sha256": "533ad26ff6ef8507af45c94da568d1a098d303b9f112802dd1eb4a9cb615c98e",
+      "limitation": "Related printed modernization; exact upstream Quran.com edition remains unauthenticated."
+    }
+  },
+  "live_qurancom_resource_info_attempt": {
+    "url": "https://api.quran.com/api/v4/resources/translations/52/info",
+    "result": "HTTP 403; no live edition information obtained"
+  },
+  "local_source_provenance": "tasks/MEANINGS_52_S002_SOURCE_PROVENANCE.json",
+  "source_gate_definition": "original_source_verified is conservatively false unless the exact printed edition behind resource52 is authenticated. Verified original-author text/commentary through the critical edition is recorded separately.",
+  "no_kuranmeali_com_scraping": true,
+  "paid_apis_used": false
+}

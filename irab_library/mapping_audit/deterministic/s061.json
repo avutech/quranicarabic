@@ -1,0 +1,359 @@
+{
+ "surah": 61,
+ "ayahs": 14,
+ "entries": 120,
+ "per_book": {
+  "farraa": {
+   "entries": 7,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 1,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "akhfash": {
+   "entries": 2,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "zajjaj": {
+   "entries": 7,
+   "S": 0,
+   "Q_near": 1,
+   "Q_xref": 3,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "nahhas-irab": {
+   "entries": 11,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "mekki-muskil": {
+   "entries": 4,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "ukberi-tibyan": {
+   "entries": 8,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "celaleyn": {
+   "entries": 14,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 1,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "semin-durr": {
+   "entries": 11,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 2,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "safi-cedvel": {
+   "entries": 10,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "dervis-irab": {
+   "entries": 4,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "daas-irab": {
+   "entries": 14,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 1,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "harrat-mujtaba": {
+   "entries": 14,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "muyesser-irab": {
+   "entries": 14,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 1,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  }
+ },
+ "gaps": {
+  "akhfash": [
+   1,
+   2,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   14
+  ],
+  "farraa": [
+   1,
+   5,
+   6,
+   7,
+   9
+  ],
+  "mekki-muskil": [
+   1,
+   2,
+   4,
+   5,
+   7,
+   8,
+   9,
+   10,
+   12,
+   13
+  ],
+  "semin-durr": [
+   1,
+   2,
+   9
+  ],
+  "ukberi-tibyan": [
+   1,
+   2,
+   5,
+   7,
+   10
+  ],
+  "zajjaj": [
+   3,
+   4,
+   7,
+   8,
+   9,
+   10,
+   11
+  ]
+ },
+ "findings": [
+  {
+   "key": "farraa:10-11",
+   "book": "farraa",
+   "surah": 61,
+   "from": 10,
+   "to": 11,
+   "check": "Q",
+   "sev": "low",
+   "kind": "XREF",
+   "quotes": 3,
+   "in_range": 1,
+   "msg": "quotations come from elsewhere in the Quran (cross-reference?)",
+   "examples": [
+    "فلينظر لنسن لي طعمه",
+    "عقبه مكرهم ن"
+   ]
+  },
+  {
+   "key": "zajjaj:2-2",
+   "book": "zajjaj",
+   "surah": 61,
+   "from": 2,
+   "to": 2,
+   "check": "Q",
+   "sev": "high",
+   "kind": "NEAR",
+   "quotes": 6,
+   "in_range": 0,
+   "msg": "quotations belong to a nearby ayah, not this range: possible misplacement",
+   "examples": [
+    "كبر مقت عند لله ن تقولو م ل تفعلون",
+    "ن لله يحب لذين يقتلون في سبيله صف كنهم بنين مرصوص"
+   ]
+  },
+  {
+   "key": "zajjaj:6-6",
+   "book": "zajjaj",
+   "surah": 61,
+   "from": 6,
+   "to": 6,
+   "check": "Q",
+   "sev": "low",
+   "kind": "XREF",
+   "quotes": 3,
+   "in_range": 1,
+   "msg": "quotations come from elsewhere in the Quran (cross-reference?)",
+   "examples": [
+    "من نصري لي لله"
+   ]
+  },
+  {
+   "key": "zajjaj:13-13",
+   "book": "zajjaj",
+   "surah": 61,
+   "from": 13,
+   "to": 13,
+   "check": "Q",
+   "sev": "low",
+   "kind": "XREF",
+   "quotes": 3,
+   "in_range": 1,
+   "msg": "quotations come from elsewhere in the Quran (cross-reference?)",
+   "examples": [
+    "يتي من بعدي سمه حمد"
+   ]
+  },
+  {
+   "key": "zajjaj:14-14",
+   "book": "zajjaj",
+   "surah": 61,
+   "from": 14,
+   "to": 14,
+   "check": "Q",
+   "sev": "low",
+   "kind": "XREF",
+   "quotes": 3,
+   "in_range": 1,
+   "msg": "quotations come from elsewhere in the Quran (cross-reference?)",
+   "examples": [
+    "ولله متم نوره"
+   ]
+  },
+  {
+   "key": "celaleyn:6-6",
+   "book": "celaleyn",
+   "surah": 61,
+   "from": 6,
+   "to": 6,
+   "check": "Q",
+   "sev": "low",
+   "kind": "UNFOUND",
+   "quotes": 3,
+   "in_range": 1,
+   "msg": "quotations not found in the Quran text (garbled source or non-Quranic words)",
+   "examples": [
+    "ذ قل عيسي بن مريم ي بني سرييل",
+    "من لتوره ومبشر برسول يتي من بعدي سمه حمد"
+   ]
+  },
+  {
+   "key": "semin-durr:4-4",
+   "book": "semin-durr",
+   "surah": 61,
+   "from": 4,
+   "to": 4,
+   "check": "Q",
+   "sev": "low",
+   "kind": "XREF",
+   "quotes": 1,
+   "in_range": 0,
+   "msg": "quotations come from elsewhere in the Quran (cross-reference?)",
+   "examples": [
+    "ون طيفتن من لمومنين قتتلو"
+   ]
+  },
+  {
+   "key": "semin-durr:11-11",
+   "book": "semin-durr",
+   "surah": 61,
+   "from": 11,
+   "to": 11,
+   "check": "Q",
+   "sev": "low",
+   "kind": "XREF",
+   "quotes": 1,
+   "in_range": 0,
+   "msg": "quotations come from elsewhere in the Quran (cross-reference?)",
+   "examples": [
+    "قل لعبدي لذين منو يقيمو"
+   ]
+  },
+  {
+   "key": "daas-irab:10-10",
+   "book": "daas-irab",
+   "surah": 61,
+   "from": 10,
+   "to": 10,
+   "check": "Q",
+   "sev": "low",
+   "kind": "UNFOUND",
+   "quotes": 1,
+   "in_range": 0,
+   "msg": "quotations not found in the Quran text (garbled source or non-Quranic words)",
+   "examples": [
+    "ي يه لذين منو"
+   ]
+  },
+  {
+   "key": "muyesser-irab:6-6",
+   "book": "muyesser-irab",
+   "surah": 61,
+   "from": 6,
+   "to": 6,
+   "check": "Q",
+   "sev": "low",
+   "kind": "UNFOUND",
+   "quotes": 3,
+   "in_range": 1,
+   "msg": "quotations not found in the Quran text (garbled source or non-Quranic words)",
+   "examples": [
+    "وذ قل عيسي بن مريم ي بني سرييل ني رسول لله ليكم",
+    "مصدق لم بين يدي من لتوره ومبشر برسول يتي من بعدي سمه حمد"
+   ]
+  }
+ ]
+}

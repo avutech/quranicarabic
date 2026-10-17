@@ -1,0 +1,211 @@
+{
+ "surah": 94,
+ "ayahs": 8,
+ "entries": 57,
+ "per_book": {
+  "farraa": {
+   "entries": 6,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "zajjaj": {
+   "entries": 5,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 1
+  },
+  "nahhas-irab": {
+   "entries": 6,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "mekki-muskil": {
+   "entries": 1,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "ukberi-tibyan": {
+   "entries": 1,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "celaleyn": {
+   "entries": 8,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 1,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "semin-durr": {
+   "entries": 5,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 1,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "safi-cedvel": {
+   "entries": 3,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "dervis-irab": {
+   "entries": 1,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "daas-irab": {
+   "entries": 8,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "harrat-mujtaba": {
+   "entries": 5,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "muyesser-irab": {
+   "entries": 8,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  }
+ },
+ "gaps": {
+  "farraa": [
+   6,
+   8
+  ],
+  "harrat-mujtaba": [
+   1,
+   2,
+   4
+  ],
+  "mekki-muskil": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "nahhas-irab": [
+   8
+  ],
+  "semin-durr": [
+   2,
+   4,
+   6
+  ],
+  "ukberi-tibyan": [
+   1,
+   2,
+   3,
+   4,
+   7,
+   8
+  ],
+  "zajjaj": [
+   6,
+   7
+  ]
+ },
+ "findings": [
+  {
+   "key": "zajjaj:3-4",
+   "book": "zajjaj",
+   "surah": 94,
+   "from": 3,
+   "to": 4,
+   "check": "X",
+   "sev": "medium",
+   "msg": "Turkish and English differ: length ratio tr/en 0.54, quotations kept tr 2 / en 2 of 2"
+  },
+  {
+   "key": "celaleyn:3-3",
+   "book": "celaleyn",
+   "surah": 94,
+   "from": 3,
+   "to": 3,
+   "check": "Q",
+   "sev": "low",
+   "kind": "XREF",
+   "quotes": 1,
+   "in_range": 0,
+   "msg": "quotations come from elsewhere in the Quran (cross-reference?)",
+   "examples": [
+    "ليغفر لك لله م تقدم من ذنبك"
+   ]
+  },
+  {
+   "key": "semin-durr:1-1",
+   "book": "semin-durr",
+   "surah": 94,
+   "from": 1,
+   "to": 1,
+   "check": "Q",
+   "sev": "low",
+   "kind": "XREF",
+   "quotes": 1,
+   "in_range": 0,
+   "msg": "quotations come from elsewhere in the Quran (cross-reference?)",
+   "examples": [
+    "لم نربك فين وليد ولبثت"
+   ]
+  }
+ ]
+}

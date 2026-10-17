@@ -1,0 +1,45 @@
+{
+  "independent_artifact_coverage": {
+    "daas_mapping_review.jsonl": {
+      "records": 209,
+      "current_full_reviews": 209,
+      "verdicts": {
+        "MATCH": 191,
+        "UNSURE": 18
+      }
+    },
+    "semin_mapping_review.jsonl": {
+      "records": 133,
+      "current_full_reviews": 133,
+      "verdicts": {
+        "MATCH": 100,
+        "MISMATCH": 32,
+        "UNSURE": 1
+      }
+    },
+    "HISTORICAL_FIT_FLAGS_REVIEW.jsonl": {
+      "records": 66,
+      "current_full_reviews": 66,
+      "verdicts": {
+        "CORRECT_ASSOCIATION_SOURCE_FRAGMENT": 12,
+        "CORRECT_ASSOCIATION_SOURCE_HEADING_DEFECT": 1,
+        "AMBIGUOUS_FRAGMENT_REQUIRES_CONTEXT": 1,
+        "MIXED_COMMENTARY_SCOPE": 40,
+        "WRONG_ASSOCIATION_CONFIRMED": 1,
+        "SURAH_INTRODUCTION_MISASSOCIATED": 4,
+        "CORRECT_ASSOCIATION_CONTEXTUAL_CROSS_REFERENCE": 1,
+        "CORRECT_ASSOCIATION_SOURCE_BOUNDARY_FRAGMENT": 1,
+        "WRONG_ASSOCIATION_PRIMARY_SOURCE_CONFIRMED_BY_OTHER_REVIEWER": 1,
+        "OVERWIDE_AND_ADDITIONAL_SCOPE_REQUIRES_SOURCE": 1,
+        "OVERWIDE_RANGE_CONFIRMED": 1,
+        "CORRECT_ASSOCIATION_TRUNCATION_UNPROVEN": 2
+      }
+    }
+  },
+  "unique_current_fully_read_entries": 408,
+  "total_entries": 51211,
+  "remaining_without_new_full_review": 50803,
+  "protected_content_changes": [],
+  "semantic_audit_complete": false,
+  "note": "Includes source scope findings, not automatically proven misplacements; no proposed association applied."
+}

@@ -1,0 +1,81 @@
+{
+  "source_file": "Irab Kitaplari/_kelime/qurancom.json",
+  "file_sha256": "a284da2c020753ab0daa3d291823a8d125c839ae3414bdd5e44deb1e5d655d81",
+  "meta": {
+    "source": "api.quran.com/api/v4",
+    "fetched_at": "2026-10-04T15:45:45.577977+00:00",
+    "fields": "word text (Uthmani), transliteration, English word translation; Turkish meals"
+  },
+  "resource52": {
+    "name": "Elmalili Hamdi Yazir",
+    "author": "Elmalili Hamdi Yazir\t",
+    "lang": "turkish"
+  },
+  "matches": [
+    {
+      "unit_id": "meaning:2:59:52",
+      "exact_after_html_unescape": true,
+      "source_key": "2:59"
+    },
+    {
+      "unit_id": "meaning:2:61:52",
+      "exact_after_html_unescape": true,
+      "source_key": "2:61"
+    },
+    {
+      "unit_id": "meaning:2:71:52",
+      "exact_after_html_unescape": true,
+      "source_key": "2:71"
+    },
+    {
+      "unit_id": "meaning:2:90:52",
+      "exact_after_html_unescape": true,
+      "source_key": "2:90"
+    },
+    {
+      "unit_id": "meaning:2:105:52",
+      "exact_after_html_unescape": true,
+      "source_key": "2:105"
+    },
+    {
+      "unit_id": "meaning:2:140:52",
+      "exact_after_html_unescape": true,
+      "source_key": "2:140"
+    },
+    {
+      "unit_id": "meaning:2:171:52",
+      "exact_after_html_unescape": true,
+      "source_key": "2:171"
+    },
+    {
+      "unit_id": "meaning:2:176:52",
+      "exact_after_html_unescape": true,
+      "source_key": "2:176"
+    },
+    {
+      "unit_id": "meaning:2:187:52",
+      "exact_after_html_unescape": true,
+      "source_key": "2:187"
+    },
+    {
+      "unit_id": "meaning:2:215:52",
+      "exact_after_html_unescape": true,
+      "source_key": "2:215"
+    },
+    {
+      "unit_id": "meaning:2:221:52",
+      "exact_after_html_unescape": true,
+      "source_key": "2:221"
+    },
+    {
+      "unit_id": "meaning:2:271:52",
+      "exact_after_html_unescape": true,
+      "source_key": "2:271"
+    },
+    {
+      "unit_id": "meaning:2:282:52",
+      "exact_after_html_unescape": true,
+      "source_key": "2:282"
+    }
+  ]
+}

@@ -1,5 +1,27 @@
 # I'rab Library — replace AI i'rab with classical books
 
+## Mapping-only audit — authorized 2026-10-10
+
+Owner scope: all books, Arabic i‘rab, Turkish/English readings and ayah meanings.
+All content remains frozen; only associations may be proposed for correction.
+
+- [x] Verify read-only staging access and translation record completeness.
+- [x] Census all 51,211 entries / 43,652 meaning cells; preserve content hashes.
+- [x] Compare all 14 books with original local extracted mappings/text: no differences.
+- [x] Run fresh deterministic checks without overwriting historical reports.
+- [x] Check meaning-cache extraction and independent Arabic verse numbering.
+- [x] Build mapping-only queue, blind case packets, evidence-backed voting and escalation framework.
+- [x] Independently revisit all 20 previously reported misplaced entries.
+- [x] Escalate two ambiguous cases to a separately configured stronger model; obtain primary-source evidence.
+- [ ] Complete first full semantic mapping review of every book entry and every meaning cell.
+- [ ] Obtain independent second review and resolve competing target associations.
+- [ ] Verify any approved association overlay preserves every text and provenance record.
+- [ ] Resolve local merged-vs-parts differences and verify actual staging display after any authorized deployment.
+
+Progress and continuation: `tasks/HANDOVER_CLAUDE.md`, `tasks/MAPPING_AUDIT_FRAMEWORK.md`,
+`irab_library/mapping_audit/summary.json` and per-review JSONL artifacts. Automated
+coverage is complete; exhaustive semantic certification remains open.
+
 Goal: for any ayah, show every book in `Irab Kitaplari/` that comments on it
 (title + author + traceable source), with the book's i'rab text, plus a Turkish
 reading for students. AI i'rab removed. Celâleyn tafsir shown as its own line.

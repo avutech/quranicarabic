@@ -1,0 +1,244 @@
+{
+ "surah": 109,
+ "ayahs": 6,
+ "entries": 36,
+ "per_book": {
+  "farraa": {
+   "entries": 1,
+   "S": 0,
+   "Q_near": 1,
+   "Q_xref": 0,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "akhfash": {
+   "entries": 1,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "zajjaj": {
+   "entries": 2,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "nahhas-irab": {
+   "entries": 3,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "mekki-muskil": {
+   "entries": 1,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "ukberi-tibyan": {
+   "entries": 1,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "celaleyn": {
+   "entries": 6,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 1,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "semin-durr": {
+   "entries": 2,
+   "S": 0,
+   "Q_near": 1,
+   "Q_xref": 0,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "safi-cedvel": {
+   "entries": 1,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "dervis-irab": {
+   "entries": 1,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "daas-irab": {
+   "entries": 6,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "harrat-mujtaba": {
+   "entries": 5,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 0,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  },
+  "muyesser-irab": {
+   "entries": 6,
+   "S": 0,
+   "Q_near": 0,
+   "Q_xref": 0,
+   "Q_unfound": 1,
+   "P": 0,
+   "T": 0,
+   "X": 0
+  }
+ },
+ "gaps": {
+  "akhfash": [
+   1,
+   4,
+   5,
+   6
+  ],
+  "farraa": [
+   1,
+   3,
+   4,
+   5,
+   6
+  ],
+  "harrat-mujtaba": [
+   5
+  ],
+  "mekki-muskil": [
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "semin-durr": [
+   1,
+   3,
+   4,
+   5
+  ],
+  "ukberi-tibyan": [
+   3,
+   4,
+   5,
+   6
+  ],
+  "zajjaj": [
+   5
+  ]
+ },
+ "findings": [
+  {
+   "key": "farraa:2-2",
+   "book": "farraa",
+   "surah": 109,
+   "from": 2,
+   "to": 2,
+   "check": "Q",
+   "sev": "high",
+   "kind": "NEAR",
+   "quotes": 3,
+   "in_range": 1,
+   "msg": "quotations belong to a nearby ayah, not this range: possible misplacement",
+   "examples": [
+    "لكم دينكم"
+   ]
+  },
+  {
+   "key": "celaleyn:1-1",
+   "book": "celaleyn",
+   "surah": 109,
+   "from": 1,
+   "to": 1,
+   "check": "Q",
+   "sev": "low",
+   "kind": "UNFOUND",
+   "quotes": 1,
+   "in_range": 0,
+   "msg": "quotations not found in the Quran text (garbled source or non-Quranic words)",
+   "examples": [
+    "قل ي يه لكفرون"
+   ]
+  },
+  {
+   "key": "semin-durr:2-2",
+   "book": "semin-durr",
+   "surah": 109,
+   "from": 2,
+   "to": 2,
+   "check": "Q",
+   "sev": "high",
+   "kind": "NEAR",
+   "quotes": 20,
+   "in_range": 2,
+   "msg": "quotations belong to a nearby ayah, not this range: possible misplacement",
+   "examples": [
+    "ول ن عبد م عبدتم",
+    "ول نتم عبدون م عبد"
+   ]
+  },
+  {
+   "key": "muyesser-irab:1-1",
+   "book": "muyesser-irab",
+   "surah": 109,
+   "from": 1,
+   "to": 1,
+   "check": "Q",
+   "sev": "low",
+   "kind": "UNFOUND",
+   "quotes": 1,
+   "in_range": 0,
+   "msg": "quotations not found in the Quran text (garbled source or non-Quranic words)",
+   "examples": [
+    "ي يه لكفرون"
+   ]
+  }
+ ]
+}

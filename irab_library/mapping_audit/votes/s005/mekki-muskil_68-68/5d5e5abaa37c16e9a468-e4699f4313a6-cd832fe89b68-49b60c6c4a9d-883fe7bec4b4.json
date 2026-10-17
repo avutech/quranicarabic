@@ -1,0 +1,27 @@
+{
+  "surah": 5,
+  "key": "mekki-muskil:68-68",
+  "reviewer": "audit-framework-blind",
+  "model": "GPT-6 (Codex session; exact backend variant not exposed)",
+  "verdict": "REMAP",
+  "tr_mapping": "FOLLOWS_SOURCE",
+  "en_mapping": "FOLLOWS_SOURCE",
+  "targets": [
+    {
+      "surah": 5,
+      "from": 64,
+      "to": 64
+    }
+  ],
+  "evidence": "Independent scan evidence: local Müşkilü İ'râbi'l-Kur'ân/1.pdf, PDF page 313 (one-based), printed page 237, item 713 explicitly labels قوله تعالى ما أنزل as ayah 64; immediately following text contains وليزيدن and كلما ... أوقدوا ... أطفأها. Item 712 above is labelled ayah 61, item 714 below ayah 69. Current entry exactly follows item 713. Quran 5:64 contains both grammar clauses; 5:68 shares وليزيدن ... ما أنزل but lacks كلما أوقدوا ... أطفأها. This excludes an owning 5:68 or inflated 64–68 range. Full TR and EN discuss the same source clauses, and their existing notes name 64; notes are corroboration only and were not used as deciding evidence. Both FOLLOW_SOURCE. Correct association is 5:64 with all text frozen.",
+  "hashes": {
+    "ar": "e4699f4313a6900597e1a7b6261db106c82a7783d5fd820507e5e08894d9fde5",
+    "tr": "cd832fe89b6880690002a2e85b5f6457fabd743bead117ed3b3737c51a9d4c8d",
+    "en": "49b60c6c4a9d6f1b8190c03387f2995a866de7b9511e0ccc14b22906737b9f37",
+    "association": "883fe7bec4b4bcf1878ff360bba5bded48f142ffc2e2cde8a9dc11adb01ce288"
+  },
+  "context_file_hashes": {
+    "s005.json": "470334316ebdae06dfa276eb0bf6ed815bc966558080daf9a1cb17e02a8708be"
+  },
+  "recorded_at": "2026-10-10T16:39:11.055392-04:00"
+}
