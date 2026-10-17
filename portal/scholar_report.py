@@ -169,6 +169,16 @@ def main():
     warn = warnings_rows()
     mis, hum = cases_rows()
     chg = changed_rows(base)
+    mp = LIB / "audit_full" / "meal_pairs" / "result.json"
+    mrows = []
+    if mp.exists():
+        for cid, c in json.loads(mp.read_text("utf-8"))["cases"].items():
+            if c["status"] == "CLEAR":
+                continue
+            mrows.append([c["meal"], c["first"], c["second"], c["status"] + (f" ({c['class']})" if c.get("class") else ""),
+                          "\n\n".join(f"{j}: {v}\n{c['notes'].get(j, '')}" for j, v in c["votes"].items()), c["repeated_text"],
+                          "\n".join(f"{k}: {v}" for k, v in c["arabic"].items())])
+        mrows.sort(key=lambda r: (int(r[1].split(":")[0]), int(r[1].split(":")[1])))
     lines = [
         ["Quranic Arabic i'rab library — scholar review workbook"],
         [f"Baseline for 'old version': git commit {base} (the last state before the full-fidelity audit). 'New' = the current published readings."],
@@ -177,6 +187,7 @@ def main():
         ["Guardrail warnings", "Readings the automatic checker marked for attention (reading unusually short, Quranic quotation not found verbatim, footnote count differs). Warnings are signals, not errors: no check found a wrong reading, but a human should look.", len(warn)],
         ["Misplaced entries", "Entries that two independent judges (and a tie-break where needed) found to be listed under the wrong ayah(s), or to also cover further ayahs. The Arabic book text is never changed: only the ayah range it is LISTED under would change. Nothing has been moved yet — it awaits the owner's approval. 'Proposed listing' is the range the judges agreed on.", len(mis)],
         ["Cases for a scholar", "Cases the judges could not settle, or that need scholarly judgement (obscure/corrupt poetry lines, disputed glosses, unmarked additions in verses). Each shows both judges' evidence, the reviewers' notes, the Arabic and both current readings. Please give a ruling per row.", len(hum)],
+        ["Meal text repeats", "Turkish meals (translations) that print identical text under two consecutive ayahs: all 902 such pairs were audited (892 are legitimate merged renderings); the rows here are the 9 confirmed errors (the text under one ayah belongs to its neighbour, i.e. the source meal is shifted or corrupted) and 1 split decision. Meals are unmodified; a scholar should decide whether to withhold, as was done for 87:14.", len(mrows)],
         ["Translation changes", "Every Turkish/English reading that the audit changed, with the old text, the new text, the words removed / added, why it was changed, and the Arabic source for checking. Changes were made only to the translations, never to the Arabic.", len(chg)],
         [""],
         ["How the audit worked", "Every one of 51,211 entries was read in full against its Turkish and English reading by two independent reviewers (second pass: a stronger model with a checklist for negations, numbers, exceptions, conditions, attributions, quotations, endings). Deliberately damaged copies were planted to measure the reviewers: 96.9% were caught (237 of 7,580 missed), so the audit is strong but not infallible — hence this scholar review."],
@@ -194,6 +205,7 @@ def main():
     for row in readme.iter_rows():
         for c in row:
             c.alignment = Alignment(wrap_text=True, vertical="top")
+    sheet(wb, "Meal text repeats", ["Meal", "Ayah 1", "Ayah 2", "Outcome", "Judges' votes and evidence", "Repeated meal text", "Arabic (context)"], mrows, [14, 8, 8, 22, 90, 70, 80])
     sheet(wb, "Guardrail warnings", ["Lang", "Book", "Surah", "Ayah(s)", "Entry key", "Warning", "Arabic source", "Reading (as published)"], warn, [6, 38, 7, 10, 18, 50, 70, 70])
     sheet(wb, "Misplaced entries", ["Book", "Surah", "Entry key", "Currently listed under", "Proposed listing", "Judges' evidence", "Arabic source (unchanged)"], mis, [38, 7, 18, 14, 14, 90, 80])
     sheet(wb, "Cases for a scholar", ["Question about", "Book", "Surah", "Ayah(s)", "Entry key", "Judges' evidence", "Reviewers' notes", "Arabic source", "Turkish reading", "English reading"], hum, [22, 38, 7, 10, 18, 90, 60, 70, 60, 60])

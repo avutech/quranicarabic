@@ -1,0 +1,10045 @@
+{
+"audited": "2026-10-17",
+"method": "two independent Opus judges (+ tie-break), a known-wrong control in every batch (all caught)",
+"counts": {
+"CLEAR": 892,
+"ERROR": 9,
+"HUMAN": 1
+},
+"cases": {
+"77:2:26": {
+"meal": "Diyanet",
+"first": "2:26",
+"second": "2:27",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:2:45": {
+"meal": "Diyanet",
+"first": "2:45",
+"second": "2:46",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:2:65": {
+"meal": "Diyanet",
+"first": "2:65",
+"second": "2:66",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:2:159": {
+"meal": "Diyanet",
+"first": "2:159",
+"second": "2:160",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:2:183": {
+"meal": "Diyanet",
+"first": "2:183",
+"second": "2:184",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:2:204": {
+"meal": "Diyanet",
+"first": "2:204",
+"second": "2:205",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:3:3": {
+"meal": "Diyanet",
+"first": "3:3",
+"second": "3:4",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:3:3": {
+"meal": "Elmalılı",
+"first": "3:3",
+"second": "3:4",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:3:16": {
+"meal": "Diyanet",
+"first": "3:16",
+"second": "3:17",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:3:33": {
+"meal": "Diyanet",
+"first": "3:33",
+"second": "3:34",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:3:48": {
+"meal": "Diyanet",
+"first": "3:48",
+"second": "3:49",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:3:50": {
+"meal": "Diyanet",
+"first": "3:50",
+"second": "3:51",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:3:55": {
+"meal": "Diyanet",
+"first": "3:55",
+"second": "3:56",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:3:72": {
+"meal": "Diyanet",
+"first": "3:72",
+"second": "3:73",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:3:105": {
+"meal": "Diyanet",
+"first": "3:105",
+"second": "3:106",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:7:121": {
+"meal": "Diyanet",
+"first": "7:121",
+"second": "7:122",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:7:123": {
+"meal": "Diyanet",
+"first": "7:123",
+"second": "7:124",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:7:125": {
+"meal": "Diyanet",
+"first": "7:125",
+"second": "7:126",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:7:138": {
+"meal": "Diyanet",
+"first": "7:138",
+"second": "7:139",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:7:156": {
+"meal": "Diyanet",
+"first": "7:156",
+"second": "7:157",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:7:169": {
+"meal": "Diyanet",
+"first": "7:169",
+"second": "7:170",
+"status": "HUMAN",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "ONLY_FIRST",
+"J3": "COVERS_BOTH"
+},
+"notes": {
+"J1": "7:169 is rendered in full: خَلْفٌ وَرِثُوا۟ ٱلْكِتَـٰبَ / سَيُغْفَرُ لَنَا / مِّيثَـٰقُ ٱلْكِتَـٰبِ / دَرَسُوا۟ مَا فِيهِ / وَٱلدَّارُ ٱلْـَٔاخِرَةُ / أَفَلَا تَعْقِلُونَ. For 7:170, only إِنَّا لَا نُضِيعُ أَجْرَ ٱلْمُصْلِحِينَ is rendered ('iyiliğe çalışanların ecrini zayi etmeyiz'). The subject وَٱلَّذِينَ يُمَسِّكُونَ بِٱلْكِتَـٰبِ وَأَقَامُوا۟ ٱلصَّلَوٰةَ is omitted, so this is a loose and lossy merge but not a different ayah. Worth a reviewer's look.",
+"J2": "This is a partial omission. 7:169 is fully rendered. Of 7:170, only the closing clause إِنَّا لَا نُضِيعُ أَجْرَ ٱلْمُصْلِحِينَ appears ('iyiliğe çalışanların ecrini elbette zayi etmeyiz'). Its subject, وَٱلَّذِينَ يُمَسِّكُونَ بِٱلْكِتَـٰبِ وَأَقَامُوا۟ ٱلصَّلَوٰةَ ('those who hold fast to the Book and establish prayer'), is missing entirely, so the promise floats without the people it is made to. Elmalılı and the English both include it. The text is defective under 7:170 and likely a source truncation. A human should review it.",
+"J3": "The text fully renders 7:169 (فَخَلَفَ مِنۢ بَعْدِهِمْ خَلْفٌ وَرِثُوا ٱلْكِتَـٰبَ ... سَيُغْفَرُ لَنَا ... مِّيثَـٰقُ ٱلْكِتَـٰبِ ... وَدَرَسُوا مَا فِيهِ ... أَفَلَا تَعْقِلُونَ). It ends with 7:170's main clause, إِنَّا لَا نُضِيعُ أَجْرَ ٱلْمُصْلِحِينَ = 'Biz, iyiliğe çalışanların ecrini elbette zayi etmeyiz'. So it is a merged rendering of both ayahs, but a lossy one: it leaves out the subject of 7:170, وَٱلَّذِينَ يُمَسِّكُونَ بِٱلْكِتَـٰبِ وَأَقَامُوا ٱلصَّلَوٰةَ (those who hold fast to the Book and keep up prayer). Nothing in it is false under 7:170, but it is incomplete there. Flag it for review as a loose merge."
+},
+"repeated_text": "Ardlarından yerlerine gelen bir takım kötüler, Kitap'a mirasçı oldular. \"Biz nasıl olsa affedileceğiz\" diyerek Kitap'ın hükümlerini değiştirme karşılığı bu değersiz dünyanın mallarını alırlar; yine ona benzer geçici bir şey kendilerine gelince onu da kabul ederlerdi. Onlardan, Allah'a karşı ancak gerçeği söyleyeceklerine dair Kitap üzerine söz alınmamış mıydı? Kitap'da olanları okumamışlar mıydı? Allah'a karşı gelmekten sakınanlar için, ahiret yurdu vardır, düşünmüyor musunuz? Biz, iyiliğe çalışanların ecrini elbette zayi etmeyiz.",
+"arabic": {
+"7:168": "وَقَطَّعْنَـٰهُمْ فِى ٱلْأَرْضِ أُمَمًۭا ۖ مِّنْهُمُ ٱلصَّـٰلِحُونَ وَمِنْهُمْ دُونَ ذَٰلِكَ ۖ وَبَلَوْنَـٰهُم بِٱلْحَسَنَـٰتِ وَٱلسَّيِّـَٔاتِ لَعَلَّهُمْ يَرْجِعُونَ",
+"7:169": "فَخَلَفَ مِنۢ بَعْدِهِمْ خَلْفٌۭ وَرِثُوا۟ ٱلْكِتَـٰبَ يَأْخُذُونَ عَرَضَ هَـٰذَا ٱلْأَدْنَىٰ وَيَقُولُونَ سَيُغْفَرُ لَنَا وَإِن يَأْتِهِمْ عَرَضٌۭ مِّثْلُهُۥ يَأْخُذُوهُ ۚ أَلَمْ يُؤْخَذْ عَلَيْهِم مِّيثَـٰقُ ٱلْكِتَـٰبِ أَن لَّا يَقُولُوا۟ عَلَى ٱللَّهِ إِلَّا ٱلْحَقَّ وَدَرَسُوا۟ مَا فِيهِ ۗ وَٱلدَّارُ ٱلْـَٔاخِرَةُ خَيْرٌۭ لِّلَّذِينَ يَتَّقُونَ ۗ أَفَلَا تَعْقِلُونَ",
+"7:170": "وَٱلَّذِينَ يُمَسِّكُونَ بِٱلْكِتَـٰبِ وَأَقَامُوا۟ ٱلصَّلَوٰةَ إِنَّا لَا نُضِيعُ أَجْرَ ٱلْمُصْلِحِينَ",
+"7:171": "۞ وَإِذْ نَتَقْنَا ٱلْجَبَلَ فَوْقَهُمْ كَأَنَّهُۥ ظُلَّةٌۭ وَظَنُّوٓا۟ أَنَّهُۥ وَاقِعٌۢ بِهِمْ خُذُوا۟ مَآ ءَاتَيْنَـٰكُم بِقُوَّةٍۢ وَٱذْكُرُوا۟ مَا فِيهِ لَعَلَّكُمْ تَتَّقُونَ"
+}
+},
+"77:7:172": {
+"meal": "Diyanet",
+"first": "7:172",
+"second": "7:173",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:8:2": {
+"meal": "Diyanet",
+"first": "8:2",
+"second": "8:3",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:8:7": {
+"meal": "Diyanet",
+"first": "8:7",
+"second": "8:8",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:8:20": {
+"meal": "Diyanet",
+"first": "8:20",
+"second": "8:21",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:8:36": {
+"meal": "Diyanet",
+"first": "8:36",
+"second": "8:37",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:8:50": {
+"meal": "Diyanet",
+"first": "8:50",
+"second": "8:51",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:8:56": {
+"meal": "Diyanet",
+"first": "8:56",
+"second": "8:57",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:8:62": {
+"meal": "Diyanet",
+"first": "8:62",
+"second": "8:63",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:8:65": {
+"meal": "Diyanet",
+"first": "8:65",
+"second": "8:66",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:15:34": {
+"meal": "Diyanet",
+"first": "15:34",
+"second": "15:35",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:15:37": {
+"meal": "Diyanet",
+"first": "15:37",
+"second": "15:38",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:15:39": {
+"meal": "Diyanet",
+"first": "15:39",
+"second": "15:40",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:15:41": {
+"meal": "Diyanet",
+"first": "15:41",
+"second": "15:42",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:15:49": {
+"meal": "Diyanet",
+"first": "15:49",
+"second": "15:50",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:15:52": {
+"meal": "Diyanet",
+"first": "15:52",
+"second": "15:53",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:15:56": {
+"meal": "Diyanet",
+"first": "15:56",
+"second": "15:57",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:15:58": {
+"meal": "Diyanet",
+"first": "15:58",
+"second": "15:59",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:15:59": {
+"meal": "Diyanet",
+"first": "15:59",
+"second": "15:60",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:15:61": {
+"meal": "Diyanet",
+"first": "15:61",
+"second": "15:62",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:15:63": {
+"meal": "Diyanet",
+"first": "15:63",
+"second": "15:64",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:15:64": {
+"meal": "Diyanet",
+"first": "15:64",
+"second": "15:65",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:15:68": {
+"meal": "Diyanet",
+"first": "15:68",
+"second": "15:69",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:15:90": {
+"meal": "Diyanet",
+"first": "15:90",
+"second": "15:91",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:15:91": {
+"meal": "Diyanet",
+"first": "15:91",
+"second": "15:92",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:20:3": {
+"meal": "Diyanet",
+"first": "20:3",
+"second": "20:4",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:20:21": {
+"meal": "Diyanet",
+"first": "20:21",
+"second": "20:22",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:20:22": {
+"meal": "Diyanet",
+"first": "20:22",
+"second": "20:23",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:20:25": {
+"meal": "Diyanet",
+"first": "20:25",
+"second": "20:26",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:20:26": {
+"meal": "Diyanet",
+"first": "20:26",
+"second": "20:27",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:20:27": {
+"meal": "Diyanet",
+"first": "20:27",
+"second": "20:28",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:20:28": {
+"meal": "Diyanet",
+"first": "20:28",
+"second": "20:29",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:20:29": {
+"meal": "Diyanet",
+"first": "20:29",
+"second": "20:30",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:20:30": {
+"meal": "Diyanet",
+"first": "20:30",
+"second": "20:31",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:20:31": {
+"meal": "Diyanet",
+"first": "20:31",
+"second": "20:32",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:20:32": {
+"meal": "Diyanet",
+"first": "20:32",
+"second": "20:33",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:20:33": {
+"meal": "Diyanet",
+"first": "20:33",
+"second": "20:34",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:20:34": {
+"meal": "Diyanet",
+"first": "20:34",
+"second": "20:35",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:20:36": {
+"meal": "Diyanet",
+"first": "20:36",
+"second": "20:37",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:20:37": {
+"meal": "Diyanet",
+"first": "20:37",
+"second": "20:38",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:23:108": {
+"meal": "Diyanet",
+"first": "23:108",
+"second": "23:109",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:23:109": {
+"meal": "Diyanet",
+"first": "23:109",
+"second": "23:110",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:23:110": {
+"meal": "Diyanet",
+"first": "23:110",
+"second": "23:111",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:23:114": {
+"meal": "Diyanet",
+"first": "23:114",
+"second": "23:115",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:24:6": {
+"meal": "Diyanet",
+"first": "24:6",
+"second": "24:7",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:24:8": {
+"meal": "Diyanet",
+"first": "24:8",
+"second": "24:9",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:24:23": {
+"meal": "Diyanet",
+"first": "24:23",
+"second": "24:24",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:25:1": {
+"meal": "Diyanet",
+"first": "25:1",
+"second": "25:2",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:25:7": {
+"meal": "Diyanet",
+"first": "25:7",
+"second": "25:8",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:25:27": {
+"meal": "Diyanet",
+"first": "25:27",
+"second": "25:28",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:25:28": {
+"meal": "Diyanet",
+"first": "25:28",
+"second": "25:29",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:25:45": {
+"meal": "Diyanet",
+"first": "25:45",
+"second": "25:46",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:25:48": {
+"meal": "Diyanet",
+"first": "25:48",
+"second": "25:49",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:25:65": {
+"meal": "Diyanet",
+"first": "25:65",
+"second": "25:66",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:10": {
+"meal": "Diyanet",
+"first": "26:10",
+"second": "26:11",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:108": {
+"meal": "Diyanet",
+"first": "26:108",
+"second": "26:109",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:109": {
+"meal": "Diyanet",
+"first": "26:109",
+"second": "26:110",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:112": {
+"meal": "Diyanet",
+"first": "26:112",
+"second": "26:113",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:113": {
+"meal": "Diyanet",
+"first": "26:113",
+"second": "26:114",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:114": {
+"meal": "Diyanet",
+"first": "26:114",
+"second": "26:115",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:117": {
+"meal": "Diyanet",
+"first": "26:117",
+"second": "26:118",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:124": {
+"meal": "Diyanet",
+"first": "26:124",
+"second": "26:125",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:125": {
+"meal": "Diyanet",
+"first": "26:125",
+"second": "26:126",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:126": {
+"meal": "Diyanet",
+"first": "26:126",
+"second": "26:127",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:127": {
+"meal": "Diyanet",
+"first": "26:127",
+"second": "26:128",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:128": {
+"meal": "Diyanet",
+"first": "26:128",
+"second": "26:129",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:129": {
+"meal": "Diyanet",
+"first": "26:129",
+"second": "26:130",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:130": {
+"meal": "Diyanet",
+"first": "26:130",
+"second": "26:131",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:131": {
+"meal": "Diyanet",
+"first": "26:131",
+"second": "26:132",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:132": {
+"meal": "Diyanet",
+"first": "26:132",
+"second": "26:133",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:219": {
+"meal": "Diyanet",
+"first": "26:219",
+"second": "26:220",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:225": {
+"meal": "Diyanet",
+"first": "26:225",
+"second": "26:226",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:26:225": {
+"meal": "Elmalılı",
+"first": "26:225",
+"second": "26:226",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:27:2": {
+"meal": "Diyanet",
+"first": "27:2",
+"second": "27:3",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:27:10": {
+"meal": "Diyanet",
+"first": "27:10",
+"second": "27:11",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:27:11": {
+"meal": "Diyanet",
+"first": "27:11",
+"second": "27:12",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:27:20": {
+"meal": "Diyanet",
+"first": "27:20",
+"second": "27:21",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:27:22": {
+"meal": "Diyanet",
+"first": "27:22",
+"second": "27:23",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:27:23": {
+"meal": "Diyanet",
+"first": "27:23",
+"second": "27:24",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:27:24": {
+"meal": "Diyanet",
+"first": "27:24",
+"second": "27:25",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:27:25": {
+"meal": "Diyanet",
+"first": "27:25",
+"second": "27:26",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:27:29": {
+"meal": "Diyanet",
+"first": "27:29",
+"second": "27:30",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:27:30": {
+"meal": "Diyanet",
+"first": "27:30",
+"second": "27:31",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:27:34": {
+"meal": "Diyanet",
+"first": "27:34",
+"second": "27:35",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:27:36": {
+"meal": "Diyanet",
+"first": "27:36",
+"second": "27:37",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:36:60": {
+"meal": "Diyanet",
+"first": "36:60",
+"second": "36:61",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:36:60": {
+"meal": "Elmalılı",
+"first": "36:60",
+"second": "36:61",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:36:77": {
+"meal": "Diyanet",
+"first": "36:77",
+"second": "36:78",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:37:1": {
+"meal": "Diyanet",
+"first": "37:1",
+"second": "37:2",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:37:2": {
+"meal": "Diyanet",
+"first": "37:2",
+"second": "37:3",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:37:3": {
+"meal": "Diyanet",
+"first": "37:3",
+"second": "37:4",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:37:4": {
+"meal": "Diyanet",
+"first": "37:4",
+"second": "37:5",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:37:8": {
+"meal": "Diyanet",
+"first": "37:8",
+"second": "37:9",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:37:15": {
+"meal": "Diyanet",
+"first": "37:15",
+"second": "37:16",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:37:16": {
+"meal": "Diyanet",
+"first": "37:16",
+"second": "37:17",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:37:22": {
+"meal": "Diyanet",
+"first": "37:22",
+"second": "37:23",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:37:22": {
+"meal": "Elmalılı",
+"first": "37:22",
+"second": "37:23",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:37:41": {
+"meal": "Diyanet",
+"first": "37:41",
+"second": "37:42",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:37:42": {
+"meal": "Diyanet",
+"first": "37:42",
+"second": "37:43",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:37:42": {
+"meal": "Elmalılı",
+"first": "37:42",
+"second": "37:43",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:38:1": {
+"meal": "Diyanet",
+"first": "38:1",
+"second": "38:2",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:38:4": {
+"meal": "Diyanet",
+"first": "38:4",
+"second": "38:5",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:38:6": {
+"meal": "Diyanet",
+"first": "38:6",
+"second": "38:7",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:38:7": {
+"meal": "Diyanet",
+"first": "38:7",
+"second": "38:8",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:38:12": {
+"meal": "Diyanet",
+"first": "38:12",
+"second": "38:13",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:38:18": {
+"meal": "Diyanet",
+"first": "38:18",
+"second": "38:19",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:38:21": {
+"meal": "Diyanet",
+"first": "38:21",
+"second": "38:22",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:38:32": {
+"meal": "Diyanet",
+"first": "38:32",
+"second": "38:33",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:38:36": {
+"meal": "Diyanet",
+"first": "38:36",
+"second": "38:37",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:38:37": {
+"meal": "Diyanet",
+"first": "38:37",
+"second": "38:38",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:38:67": {
+"meal": "Diyanet",
+"first": "38:67",
+"second": "38:68",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:38:71": {
+"meal": "Diyanet",
+"first": "38:71",
+"second": "38:72",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:38:73": {
+"meal": "Diyanet",
+"first": "38:73",
+"second": "38:74",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:38:77": {
+"meal": "Diyanet",
+"first": "38:77",
+"second": "38:78",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:38:80": {
+"meal": "Diyanet",
+"first": "38:80",
+"second": "38:81",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:44:25": {
+"meal": "Diyanet",
+"first": "44:25",
+"second": "44:26",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:44:26": {
+"meal": "Diyanet",
+"first": "44:26",
+"second": "44:27",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:44:30": {
+"meal": "Diyanet",
+"first": "44:30",
+"second": "44:31",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:44:34": {
+"meal": "Diyanet",
+"first": "44:34",
+"second": "44:35",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:44:35": {
+"meal": "Diyanet",
+"first": "44:35",
+"second": "44:36",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:44:43": {
+"meal": "Diyanet",
+"first": "44:43",
+"second": "44:44",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:44:44": {
+"meal": "Diyanet",
+"first": "44:44",
+"second": "44:45",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:44:45": {
+"meal": "Diyanet",
+"first": "44:45",
+"second": "44:46",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:44:47": {
+"meal": "Diyanet",
+"first": "44:47",
+"second": "44:48",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:44:48": {
+"meal": "Diyanet",
+"first": "44:48",
+"second": "44:49",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:44:49": {
+"meal": "Diyanet",
+"first": "44:49",
+"second": "44:50",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:44:51": {
+"meal": "Diyanet",
+"first": "44:51",
+"second": "44:52",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:44:56": {
+"meal": "Diyanet",
+"first": "44:56",
+"second": "44:57",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:44:58": {
+"meal": "Diyanet",
+"first": "44:58",
+"second": "44:59",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:45:7": {
+"meal": "Diyanet",
+"first": "45:7",
+"second": "45:8",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:52:11": {
+"meal": "Diyanet",
+"first": "52:11",
+"second": "52:12",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:52:13": {
+"meal": "Diyanet",
+"first": "52:13",
+"second": "52:14",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:52:15": {
+"meal": "Diyanet",
+"first": "52:15",
+"second": "52:16",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:52:17": {
+"meal": "Diyanet",
+"first": "52:17",
+"second": "52:18",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:52:19": {
+"meal": "Diyanet",
+"first": "52:19",
+"second": "52:20",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:52:26": {
+"meal": "Diyanet",
+"first": "52:26",
+"second": "52:27",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:52:27": {
+"meal": "Diyanet",
+"first": "52:27",
+"second": "52:28",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:53:5": {
+"meal": "Diyanet",
+"first": "53:5",
+"second": "53:6",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:53:6": {
+"meal": "Diyanet",
+"first": "53:6",
+"second": "53:7",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:53:13": {
+"meal": "Diyanet",
+"first": "53:13",
+"second": "53:14",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:53:19": {
+"meal": "Diyanet",
+"first": "53:19",
+"second": "53:20",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:53:31": {
+"meal": "Diyanet",
+"first": "53:31",
+"second": "53:32",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:53:33": {
+"meal": "Diyanet",
+"first": "53:33",
+"second": "53:34",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:53:36": {
+"meal": "Diyanet",
+"first": "53:36",
+"second": "53:37",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:53:45": {
+"meal": "Diyanet",
+"first": "53:45",
+"second": "53:46",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:56:66": {
+"meal": "Diyanet",
+"first": "56:66",
+"second": "56:67",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:56:68": {
+"meal": "Diyanet",
+"first": "56:68",
+"second": "56:69",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:56:71": {
+"meal": "Diyanet",
+"first": "56:71",
+"second": "56:72",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:56:75": {
+"meal": "Diyanet",
+"first": "56:75",
+"second": "56:76",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:56:77": {
+"meal": "Diyanet",
+"first": "56:77",
+"second": "56:78",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:56:78": {
+"meal": "Diyanet",
+"first": "56:78",
+"second": "56:79",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:56:79": {
+"meal": "Diyanet",
+"first": "56:79",
+"second": "56:80",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:56:83": {
+"meal": "Diyanet",
+"first": "56:83",
+"second": "56:84",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:56:84": {
+"meal": "Diyanet",
+"first": "56:84",
+"second": "56:85",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:56:86": {
+"meal": "Diyanet",
+"first": "56:86",
+"second": "56:87",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:56:88": {
+"meal": "Diyanet",
+"first": "56:88",
+"second": "56:89",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:65:2": {
+"meal": "Diyanet",
+"first": "65:2",
+"second": "65:3",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:68:1": {
+"meal": "Diyanet",
+"first": "68:1",
+"second": "68:2",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:68:5": {
+"meal": "Diyanet",
+"first": "68:5",
+"second": "68:6",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:68:10": {
+"meal": "Diyanet",
+"first": "68:10",
+"second": "68:11",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:71:21": {
+"meal": "Diyanet",
+"first": "71:21",
+"second": "71:22",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:72:1": {
+"meal": "Diyanet",
+"first": "72:1",
+"second": "72:2",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:72:16": {
+"meal": "Diyanet",
+"first": "72:16",
+"second": "72:17",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:72:27": {
+"meal": "Diyanet",
+"first": "72:27",
+"second": "72:28",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:73:1": {
+"meal": "Diyanet",
+"first": "73:1",
+"second": "73:2",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:73:2": {
+"meal": "Diyanet",
+"first": "73:2",
+"second": "73:3",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:73:3": {
+"meal": "Diyanet",
+"first": "73:3",
+"second": "73:4",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:73:12": {
+"meal": "Diyanet",
+"first": "73:12",
+"second": "73:13",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:74:8": {
+"meal": "Diyanet",
+"first": "74:8",
+"second": "74:9",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:74:9": {
+"meal": "Diyanet",
+"first": "74:9",
+"second": "74:10",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:74:11": {
+"meal": "Diyanet",
+"first": "74:11",
+"second": "74:12",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:74:12": {
+"meal": "Diyanet",
+"first": "74:12",
+"second": "74:13",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:74:13": {
+"meal": "Diyanet",
+"first": "74:13",
+"second": "74:14",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:74:24": {
+"meal": "Diyanet",
+"first": "74:24",
+"second": "74:25",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:74:32": {
+"meal": "Diyanet",
+"first": "74:32",
+"second": "74:33",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:79:40": {
+"meal": "Diyanet",
+"first": "79:40",
+"second": "79:41",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:80:1": {
+"meal": "Diyanet",
+"first": "80:1",
+"second": "80:2",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:80:5": {
+"meal": "Diyanet",
+"first": "80:5",
+"second": "80:6",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:80:8": {
+"meal": "Diyanet",
+"first": "80:8",
+"second": "80:9",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:80:9": {
+"meal": "Diyanet",
+"first": "80:9",
+"second": "80:10",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:80:13": {
+"meal": "Diyanet",
+"first": "80:13",
+"second": "80:14",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:80:15": {
+"meal": "Diyanet",
+"first": "80:15",
+"second": "80:16",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:80:26": {
+"meal": "Diyanet",
+"first": "80:26",
+"second": "80:27",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:80:27": {
+"meal": "Diyanet",
+"first": "80:27",
+"second": "80:28",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:80:28": {
+"meal": "Diyanet",
+"first": "80:28",
+"second": "80:29",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:80:29": {
+"meal": "Diyanet",
+"first": "80:29",
+"second": "80:30",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:80:30": {
+"meal": "Diyanet",
+"first": "80:30",
+"second": "80:31",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:80:34": {
+"meal": "Diyanet",
+"first": "80:34",
+"second": "80:35",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:80:35": {
+"meal": "Diyanet",
+"first": "80:35",
+"second": "80:36",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:80:38": {
+"meal": "Diyanet",
+"first": "80:38",
+"second": "80:39",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:89:7": {
+"meal": "Diyanet",
+"first": "89:7",
+"second": "89:8",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:89:9": {
+"meal": "Diyanet",
+"first": "89:9",
+"second": "89:10",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:89:10": {
+"meal": "Diyanet",
+"first": "89:10",
+"second": "89:11",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:89:11": {
+"meal": "Diyanet",
+"first": "89:11",
+"second": "89:12",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:90:1": {
+"meal": "Diyanet",
+"first": "90:1",
+"second": "90:2",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:90:8": {
+"meal": "Diyanet",
+"first": "90:8",
+"second": "90:9",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:90:14": {
+"meal": "Diyanet",
+"first": "90:14",
+"second": "90:15",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:90:15": {
+"meal": "Diyanet",
+"first": "90:15",
+"second": "90:16",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:91:11": {
+"meal": "Diyanet",
+"first": "91:11",
+"second": "91:12",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:92:5": {
+"meal": "Diyanet",
+"first": "92:5",
+"second": "92:6",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:92:6": {
+"meal": "Diyanet",
+"first": "92:6",
+"second": "92:7",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:92:8": {
+"meal": "Diyanet",
+"first": "92:8",
+"second": "92:9",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:92:9": {
+"meal": "Diyanet",
+"first": "92:9",
+"second": "92:10",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:92:15": {
+"meal": "Diyanet",
+"first": "92:15",
+"second": "92:16",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:92:17": {
+"meal": "Diyanet",
+"first": "92:17",
+"second": "92:18",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:114:4": {
+"meal": "Diyanet",
+"first": "114:4",
+"second": "114:5",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:114:5": {
+"meal": "Diyanet",
+"first": "114:5",
+"second": "114:6",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:3:113": {
+"meal": "Diyanet",
+"first": "3:113",
+"second": "3:114",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:3:124": {
+"meal": "Diyanet",
+"first": "3:124",
+"second": "3:125",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:3:126": {
+"meal": "Diyanet",
+"first": "3:126",
+"second": "3:127",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:3:166": {
+"meal": "Diyanet",
+"first": "3:166",
+"second": "3:167",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:3:166": {
+"meal": "Elmalılı",
+"first": "3:166",
+"second": "3:167",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:3:169": {
+"meal": "Diyanet",
+"first": "3:169",
+"second": "3:170",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:3:196": {
+"meal": "Diyanet",
+"first": "3:196",
+"second": "3:197",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:4:55": {
+"meal": "Diyanet",
+"first": "4:55",
+"second": "4:56",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:4:67": {
+"meal": "Diyanet",
+"first": "4:67",
+"second": "4:68",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:4:95": {
+"meal": "Diyanet",
+"first": "4:95",
+"second": "4:96",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:4:117": {
+"meal": "Diyanet",
+"first": "4:117",
+"second": "4:118",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:4:118": {
+"meal": "Diyanet",
+"first": "4:118",
+"second": "4:119",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:4:118": {
+"meal": "Elmalılı",
+"first": "4:118",
+"second": "4:119",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:4:142": {
+"meal": "Diyanet",
+"first": "4:142",
+"second": "4:143",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:4:150": {
+"meal": "Diyanet",
+"first": "4:150",
+"second": "4:151",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:9:1": {
+"meal": "Diyanet",
+"first": "9:1",
+"second": "9:2",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:9:14": {
+"meal": "Diyanet",
+"first": "9:14",
+"second": "9:15",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:9:21": {
+"meal": "Diyanet",
+"first": "9:21",
+"second": "9:22",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:10:7": {
+"meal": "Diyanet",
+"first": "10:7",
+"second": "10:8",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:10:28": {
+"meal": "Diyanet",
+"first": "10:28",
+"second": "10:29",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:10:81": {
+"meal": "Diyanet",
+"first": "10:81",
+"second": "10:82",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:10:85": {
+"meal": "Diyanet",
+"first": "10:85",
+"second": "10:86",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:10:96": {
+"meal": "Diyanet",
+"first": "10:96",
+"second": "10:97",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:10:105": {
+"meal": "Diyanet",
+"first": "10:105",
+"second": "10:106",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:11:1": {
+"meal": "Diyanet",
+"first": "11:1",
+"second": "11:2",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:11:2": {
+"meal": "Diyanet",
+"first": "11:2",
+"second": "11:3",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:11:25": {
+"meal": "Diyanet",
+"first": "11:25",
+"second": "11:26",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:11:33": {
+"meal": "Diyanet",
+"first": "11:33",
+"second": "11:34",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:11:36": {
+"meal": "Diyanet",
+"first": "11:36",
+"second": "11:37",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:11:38": {
+"meal": "Diyanet",
+"first": "11:38",
+"second": "11:39",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:15:92": {
+"meal": "Diyanet",
+"first": "15:92",
+"second": "15:93",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:15:92": {
+"meal": "Elmalılı",
+"first": "15:92",
+"second": "15:93",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"112:15:92": {
+"meal": "res112",
+"first": "15:92",
+"second": "15:93",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:15:95": {
+"meal": "Diyanet",
+"first": "15:95",
+"second": "15:96",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:15:98": {
+"meal": "Diyanet",
+"first": "15:98",
+"second": "15:99",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:16:15": {
+"meal": "Diyanet",
+"first": "16:15",
+"second": "16:16",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:16:38": {
+"meal": "Diyanet",
+"first": "16:38",
+"second": "16:39",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:16:43": {
+"meal": "Diyanet",
+"first": "16:43",
+"second": "16:44",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:16:46": {
+"meal": "Diyanet",
+"first": "16:46",
+"second": "16:47",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:16:54": {
+"meal": "Diyanet",
+"first": "16:54",
+"second": "16:55",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:16:68": {
+"meal": "Diyanet",
+"first": "16:68",
+"second": "16:69",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:17:2": {
+"meal": "Diyanet",
+"first": "17:2",
+"second": "17:3",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:17:9": {
+"meal": "Diyanet",
+"first": "17:9",
+"second": "17:10",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:17:50": {
+"meal": "Diyanet",
+"first": "17:50",
+"second": "17:51",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:17:107": {
+"meal": "Diyanet",
+"first": "17:107",
+"second": "17:108",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:20:38": {
+"meal": "Diyanet",
+"first": "20:38",
+"second": "20:39",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:20:46": {
+"meal": "Diyanet",
+"first": "20:46",
+"second": "20:47",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:20:47": {
+"meal": "Diyanet",
+"first": "20:47",
+"second": "20:48",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:20:56": {
+"meal": "Diyanet",
+"first": "20:56",
+"second": "20:57",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:20:57": {
+"meal": "Diyanet",
+"first": "20:57",
+"second": "20:58",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:20:63": {
+"meal": "Diyanet",
+"first": "20:63",
+"second": "20:64",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:20:72": {
+"meal": "Diyanet",
+"first": "20:72",
+"second": "20:73",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:20:75": {
+"meal": "Diyanet",
+"first": "20:75",
+"second": "20:76",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:20:92": {
+"meal": "Diyanet",
+"first": "20:92",
+"second": "20:93",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:20:99": {
+"meal": "Diyanet",
+"first": "20:99",
+"second": "20:100",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:20:105": {
+"meal": "Diyanet",
+"first": "20:105",
+"second": "20:106",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:20:106": {
+"meal": "Diyanet",
+"first": "20:106",
+"second": "20:107",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:20:107": {
+"meal": "Diyanet",
+"first": "20:107",
+"second": "20:108",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:20:116": {
+"meal": "Diyanet",
+"first": "20:116",
+"second": "20:117",
+"status": "ERROR",
+"class": "ONLY_SECOND",
+"votes": {
+"J1": "ONLY_SECOND",
+"J2": "ONLY_SECOND"
+},
+"notes": {
+"J1": "The text renders 20:117-119 only: فَقُلْنَا يَـٰٓـَٔادَمُ إِنَّ هَـٰذَا عَدُوٌّ لَّكَ وَلِزَوْجِكَ فَلَا يُخْرِجَنَّكُمَا مِنَ ٱلْجَنَّةِ فَتَشْقَىٰٓ ('Ey Adem! ... düşmanıdır ... cennetten çıkarmasın ... bedbaht olursun') plus 118-119. The content of 20:116 is missing: وَإِذْ قُلْنَا لِلْمَلَـٰٓئِكَةِ ٱسْجُدُوا۟ لِـَٔادَمَ فَسَجَدُوٓا۟ إِلَّآ إِبْلِيسَ أَبَىٰ (the angels told to prostrate, all but Iblis). That rendering instead sits under 20:115 in this meal ('Adem'e secde edin ... İblis'ten başka hepsi secde etmiş'), which suggests a one-ayah shift. The text is wrong under 20:116.",
+"J2": "20:116's content is missing: وَإِذْ قُلْنَا لِلْمَلَـٰٓئِكَةِ ٱسْجُدُوا۟ لِـَٔادَمَ فَسَجَدُوٓا۟ إِلَّآ إِبْلِيسَ أَبَىٰ (angels, prostration, Iblis refused). The repeated text starts at 20:117 يَـٰٓـَٔادَمُ إِنَّ هَـٰذَا عَدُوٌّ لَّكَ وَلِزَوْجِكَ فَلَا يُخْرِجَنَّكُمَا مِنَ ٱلْجَنَّةِ فَتَشْقَىٰٓ and runs through 20:118-119. Diyanet's own 20:116 content appears under 20:115 instead, so the alignment is shifted. That leaves 20:115's own content (عَهِدْنَآ إِلَىٰٓ ءَادَمَ... فَنَسِىَ) also suspect. The text under 20:116 is wrong."
+},
+"repeated_text": "\"Ey Adem! Doğrusu bu, senin ve eşinin düşmanıdır. Sakın sizi cennetten çıkarmasın, yoksa bedbaht olursun. Doğrusu cennette ne acıkırsın, ne de çıplak kalırsın; orada ne susarsın ne de güneşin sıcağında kalırsın\" dedik.",
+"arabic": {
+"20:115": "وَلَقَدْ عَهِدْنَآ إِلَىٰٓ ءَادَمَ مِن قَبْلُ فَنَسِىَ وَلَمْ نَجِدْ لَهُۥ عَزْمًۭا",
+"20:116": "وَإِذْ قُلْنَا لِلْمَلَـٰٓئِكَةِ ٱسْجُدُوا۟ لِـَٔادَمَ فَسَجَدُوٓا۟ إِلَّآ إِبْلِيسَ أَبَىٰ",
+"20:117": "فَقُلْنَا يَـٰٓـَٔادَمُ إِنَّ هَـٰذَا عَدُوٌّۭ لَّكَ وَلِزَوْجِكَ فَلَا يُخْرِجَنَّكُمَا مِنَ ٱلْجَنَّةِ فَتَشْقَىٰٓ",
+"20:118": "إِنَّ لَكَ أَلَّا تَجُوعَ فِيهَا وَلَا تَعْرَىٰ"
+}
+},
+"77:20:117": {
+"meal": "Diyanet",
+"first": "20:117",
+"second": "20:118",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:12": {
+"meal": "Diyanet",
+"first": "26:12",
+"second": "26:13",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:13": {
+"meal": "Diyanet",
+"first": "26:13",
+"second": "26:14",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:15": {
+"meal": "Diyanet",
+"first": "26:15",
+"second": "26:16",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:16": {
+"meal": "Diyanet",
+"first": "26:16",
+"second": "26:17",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:18": {
+"meal": "Diyanet",
+"first": "26:18",
+"second": "26:19",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:20": {
+"meal": "Diyanet",
+"first": "26:20",
+"second": "26:21",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:21": {
+"meal": "Diyanet",
+"first": "26:21",
+"second": "26:22",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:34": {
+"meal": "Diyanet",
+"first": "26:34",
+"second": "26:35",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:36": {
+"meal": "Diyanet",
+"first": "26:36",
+"second": "26:37",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:46": {
+"meal": "Diyanet",
+"first": "26:46",
+"second": "26:47",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:47": {
+"meal": "Diyanet",
+"first": "26:47",
+"second": "26:48",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:50": {
+"meal": "Diyanet",
+"first": "26:50",
+"second": "26:51",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:53": {
+"meal": "Diyanet",
+"first": "26:53",
+"second": "26:54",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:54": {
+"meal": "Diyanet",
+"first": "26:54",
+"second": "26:55",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:55": {
+"meal": "Diyanet",
+"first": "26:55",
+"second": "26:56",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:133": {
+"meal": "Diyanet",
+"first": "26:133",
+"second": "26:134",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:134": {
+"meal": "Diyanet",
+"first": "26:134",
+"second": "26:135",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:137": {
+"meal": "Diyanet",
+"first": "26:137",
+"second": "26:138",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:142": {
+"meal": "Diyanet",
+"first": "26:142",
+"second": "26:143",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:143": {
+"meal": "Diyanet",
+"first": "26:143",
+"second": "26:144",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:144": {
+"meal": "Diyanet",
+"first": "26:144",
+"second": "26:145",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:145": {
+"meal": "Diyanet",
+"first": "26:145",
+"second": "26:146",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:146": {
+"meal": "Diyanet",
+"first": "26:146",
+"second": "26:147",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:147": {
+"meal": "Diyanet",
+"first": "26:147",
+"second": "26:148",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:148": {
+"meal": "Diyanet",
+"first": "26:148",
+"second": "26:149",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:149": {
+"meal": "Diyanet",
+"first": "26:149",
+"second": "26:150",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:150": {
+"meal": "Diyanet",
+"first": "26:150",
+"second": "26:151",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:151": {
+"meal": "Diyanet",
+"first": "26:151",
+"second": "26:152",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:26:151": {
+"meal": "Elmalılı",
+"first": "26:151",
+"second": "26:152",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:153": {
+"meal": "Diyanet",
+"first": "26:153",
+"second": "26:154",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:27:67": {
+"meal": "Diyanet",
+"first": "27:67",
+"second": "27:68",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:27:91": {
+"meal": "Diyanet",
+"first": "27:91",
+"second": "27:92",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:28:5": {
+"meal": "Diyanet",
+"first": "28:5",
+"second": "28:6",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:28:33": {
+"meal": "Diyanet",
+"first": "28:33",
+"second": "28:34",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:28:76": {
+"meal": "Diyanet",
+"first": "28:76",
+"second": "28:77",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:29:2": {
+"meal": "Diyanet",
+"first": "29:2",
+"second": "29:3",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:29:20": {
+"meal": "Diyanet",
+"first": "29:20",
+"second": "29:21",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:29:33": {
+"meal": "Diyanet",
+"first": "29:33",
+"second": "29:34",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:29:54": {
+"meal": "Diyanet",
+"first": "29:54",
+"second": "29:55",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:29:58": {
+"meal": "Diyanet",
+"first": "29:58",
+"second": "29:59",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:29:65": {
+"meal": "Diyanet",
+"first": "29:65",
+"second": "29:66",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:30:2": {
+"meal": "Diyanet",
+"first": "30:2",
+"second": "30:3",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:30:3": {
+"meal": "Diyanet",
+"first": "30:3",
+"second": "30:4",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:30:4": {
+"meal": "Diyanet",
+"first": "30:4",
+"second": "30:5",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:30:17": {
+"meal": "Diyanet",
+"first": "30:17",
+"second": "30:18",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:37:43": {
+"meal": "Diyanet",
+"first": "37:43",
+"second": "37:44",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:37:45": {
+"meal": "Diyanet",
+"first": "37:45",
+"second": "37:46",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:37:45": {
+"meal": "Elmalılı",
+"first": "37:45",
+"second": "37:46",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:37:46": {
+"meal": "Diyanet",
+"first": "37:46",
+"second": "37:47",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:37:48": {
+"meal": "Diyanet",
+"first": "37:48",
+"second": "37:49",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:37:51": {
+"meal": "Diyanet",
+"first": "37:51",
+"second": "37:52",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:37:52": {
+"meal": "Diyanet",
+"first": "37:52",
+"second": "37:53",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:37:58": {
+"meal": "Diyanet",
+"first": "37:58",
+"second": "37:59",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:37:58": {
+"meal": "Elmalılı",
+"first": "37:58",
+"second": "37:59",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:37:78": {
+"meal": "Diyanet",
+"first": "37:78",
+"second": "37:79",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:37:88": {
+"meal": "Diyanet",
+"first": "37:88",
+"second": "37:89",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:37:88": {
+"meal": "Elmalılı",
+"first": "37:88",
+"second": "37:89",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:37:91": {
+"meal": "Diyanet",
+"first": "37:91",
+"second": "37:92",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:37:95": {
+"meal": "Diyanet",
+"first": "37:95",
+"second": "37:96",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:37:103": {
+"meal": "Diyanet",
+"first": "37:103",
+"second": "37:104",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:38:80": {
+"meal": "Elmalılı",
+"first": "38:80",
+"second": "38:81",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:38:82": {
+"meal": "Diyanet",
+"first": "38:82",
+"second": "38:83",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:38:84": {
+"meal": "Diyanet",
+"first": "38:84",
+"second": "38:85",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:39:17": {
+"meal": "Diyanet",
+"first": "39:17",
+"second": "39:18",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:39:39": {
+"meal": "Diyanet",
+"first": "39:39",
+"second": "39:40",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:39:57": {
+"meal": "Diyanet",
+"first": "39:57",
+"second": "39:58",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:40:23": {
+"meal": "Diyanet",
+"first": "40:23",
+"second": "40:24",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:40:30": {
+"meal": "Diyanet",
+"first": "40:30",
+"second": "40:31",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:40:36": {
+"meal": "Diyanet",
+"first": "40:36",
+"second": "40:37",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:40:53": {
+"meal": "Diyanet",
+"first": "40:53",
+"second": "40:54",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:40:71": {
+"meal": "Diyanet",
+"first": "40:71",
+"second": "40:72",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:40:73": {
+"meal": "Diyanet",
+"first": "40:73",
+"second": "40:74",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:40:75": {
+"meal": "Diyanet",
+"first": "40:75",
+"second": "40:76",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:41:2": {
+"meal": "Diyanet",
+"first": "41:2",
+"second": "41:3",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:41:3": {
+"meal": "Diyanet",
+"first": "41:3",
+"second": "41:4",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:45:9": {
+"meal": "Diyanet",
+"first": "45:9",
+"second": "45:10",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:46:17": {
+"meal": "Diyanet",
+"first": "46:17",
+"second": "46:18",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:46:24": {
+"meal": "Diyanet",
+"first": "46:24",
+"second": "46:25",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:47:20": {
+"meal": "Diyanet",
+"first": "47:20",
+"second": "47:21",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:48:8": {
+"meal": "Diyanet",
+"first": "48:8",
+"second": "48:9",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:48:18": {
+"meal": "Diyanet",
+"first": "48:18",
+"second": "48:19",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:49:7": {
+"meal": "Diyanet",
+"first": "49:7",
+"second": "49:8",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:50:2": {
+"meal": "Diyanet",
+"first": "50:2",
+"second": "50:3",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:50:7": {
+"meal": "Diyanet",
+"first": "50:7",
+"second": "50:8",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:50:9": {
+"meal": "Diyanet",
+"first": "50:9",
+"second": "50:10",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:50:10": {
+"meal": "Diyanet",
+"first": "50:10",
+"second": "50:11",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:50:12": {
+"meal": "Diyanet",
+"first": "50:12",
+"second": "50:13",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:50:13": {
+"meal": "Diyanet",
+"first": "50:13",
+"second": "50:14",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:50:17": {
+"meal": "Diyanet",
+"first": "50:17",
+"second": "50:18",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:50:24": {
+"meal": "Diyanet",
+"first": "50:24",
+"second": "50:25",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:53:50": {
+"meal": "Diyanet",
+"first": "53:50",
+"second": "53:51",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:53:53": {
+"meal": "Diyanet",
+"first": "53:53",
+"second": "53:54",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:54:1": {
+"meal": "Diyanet",
+"first": "54:1",
+"second": "54:2",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:54:7": {
+"meal": "Diyanet",
+"first": "54:7",
+"second": "54:8",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:54:13": {
+"meal": "Diyanet",
+"first": "54:13",
+"second": "54:14",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:54:19": {
+"meal": "Diyanet",
+"first": "54:19",
+"second": "54:20",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:54:24": {
+"meal": "Diyanet",
+"first": "54:24",
+"second": "54:25",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:54:34": {
+"meal": "Diyanet",
+"first": "54:34",
+"second": "54:35",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:54:54": {
+"meal": "Diyanet",
+"first": "54:54",
+"second": "54:55",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:55:1": {
+"meal": "Diyanet",
+"first": "55:1",
+"second": "55:2",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:55:3": {
+"meal": "Diyanet",
+"first": "55:3",
+"second": "55:4",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:55:11": {
+"meal": "Diyanet",
+"first": "55:11",
+"second": "55:12",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:56:1": {
+"meal": "Diyanet",
+"first": "56:1",
+"second": "56:2",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:56:2": {
+"meal": "Diyanet",
+"first": "56:2",
+"second": "56:3",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:56:4": {
+"meal": "Diyanet",
+"first": "56:4",
+"second": "56:5",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:68:11": {
+"meal": "Diyanet",
+"first": "68:11",
+"second": "68:12",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:68:12": {
+"meal": "Diyanet",
+"first": "68:12",
+"second": "68:13",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:68:13": {
+"meal": "Diyanet",
+"first": "68:13",
+"second": "68:14",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:68:17": {
+"meal": "Diyanet",
+"first": "68:17",
+"second": "68:18",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:68:19": {
+"meal": "Diyanet",
+"first": "68:19",
+"second": "68:20",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:68:21": {
+"meal": "Diyanet",
+"first": "68:21",
+"second": "68:22",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:68:23": {
+"meal": "Diyanet",
+"first": "68:23",
+"second": "68:24",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:68:26": {
+"meal": "Diyanet",
+"first": "68:26",
+"second": "68:27",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:68:42": {
+"meal": "Diyanet",
+"first": "68:42",
+"second": "68:43",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:68:50": {
+"meal": "Diyanet",
+"first": "68:50",
+"second": "68:51",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:69:11": {
+"meal": "Diyanet",
+"first": "69:11",
+"second": "69:12",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:69:13": {
+"meal": "Diyanet",
+"first": "69:13",
+"second": "69:14",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:69:14": {
+"meal": "Diyanet",
+"first": "69:14",
+"second": "69:15",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:69:19": {
+"meal": "Diyanet",
+"first": "69:19",
+"second": "69:20",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:69:21": {
+"meal": "Diyanet",
+"first": "69:21",
+"second": "69:22",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:74:33": {
+"meal": "Diyanet",
+"first": "74:33",
+"second": "74:34",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:74:34": {
+"meal": "Diyanet",
+"first": "74:34",
+"second": "74:35",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:74:35": {
+"meal": "Diyanet",
+"first": "74:35",
+"second": "74:36",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:74:36": {
+"meal": "Diyanet",
+"first": "74:36",
+"second": "74:37",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:74:39": {
+"meal": "Diyanet",
+"first": "74:39",
+"second": "74:40",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:74:40": {
+"meal": "Diyanet",
+"first": "74:40",
+"second": "74:41",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:74:41": {
+"meal": "Diyanet",
+"first": "74:41",
+"second": "74:42",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:74:50": {
+"meal": "Diyanet",
+"first": "74:50",
+"second": "74:51",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:75:5": {
+"meal": "Diyanet",
+"first": "75:5",
+"second": "75:6",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:75:7": {
+"meal": "Diyanet",
+"first": "75:7",
+"second": "75:8",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:75:8": {
+"meal": "Diyanet",
+"first": "75:8",
+"second": "75:9",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:75:9": {
+"meal": "Diyanet",
+"first": "75:9",
+"second": "75:10",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:75:14": {
+"meal": "Diyanet",
+"first": "75:14",
+"second": "75:15",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:75:22": {
+"meal": "Diyanet",
+"first": "75:22",
+"second": "75:23",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:75:26": {
+"meal": "Diyanet",
+"first": "75:26",
+"second": "75:27",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:80:40": {
+"meal": "Diyanet",
+"first": "80:40",
+"second": "80:41",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:81:3": {
+"meal": "Diyanet",
+"first": "81:3",
+"second": "81:4",
+"status": "ERROR",
+"class": "ONLY_SECOND",
+"votes": {
+"J1": "ONLY_SECOND",
+"J2": "ONLY_SECOND"
+},
+"notes": {
+"J1": "The text renders only وَإِذَا ٱلْعِشَارُ عُطِّلَتْ (81:4, the camels). وَإِذَا ٱلْجِبَالُ سُيِّرَتْ (81:3, the mountains set in motion) is missing, so the text is wrong under 81:3.",
+"J2": "The text renders only وَإِذَا ٱلْعِشَارُ عُطِّلَتْ (81:4), the pregnant camels left untended. The 81:3 content وَإِذَا ٱلْجِبَالُ سُيِّرَتْ (the mountains set in motion) is missing, so the text is wrong under 81:3."
+},
+"repeated_text": "Doğurması yaklaşmış develer başıboş bırakıldığı zaman;",
+"arabic": {
+"81:2": "وَإِذَا ٱلنُّجُومُ ٱنكَدَرَتْ",
+"81:3": "وَإِذَا ٱلْجِبَالُ سُيِّرَتْ",
+"81:4": "وَإِذَا ٱلْعِشَارُ عُطِّلَتْ",
+"81:5": "وَإِذَا ٱلْوُحُوشُ حُشِرَتْ"
+}
+},
+"77:81:8": {
+"meal": "Diyanet",
+"first": "81:8",
+"second": "81:9",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:81:15": {
+"meal": "Diyanet",
+"first": "81:15",
+"second": "81:16",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:81:19": {
+"meal": "Diyanet",
+"first": "81:19",
+"second": "81:20",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:81:20": {
+"meal": "Diyanet",
+"first": "81:20",
+"second": "81:21",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:81:27": {
+"meal": "Diyanet",
+"first": "81:27",
+"second": "81:28",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:82:6": {
+"meal": "Diyanet",
+"first": "82:6",
+"second": "82:7",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:82:7": {
+"meal": "Diyanet",
+"first": "82:7",
+"second": "82:8",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:82:10": {
+"meal": "Diyanet",
+"first": "82:10",
+"second": "82:11",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:82:11": {
+"meal": "Diyanet",
+"first": "82:11",
+"second": "82:12",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:83:1": {
+"meal": "Diyanet",
+"first": "83:1",
+"second": "83:2",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:83:2": {
+"meal": "Diyanet",
+"first": "83:2",
+"second": "83:3",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:83:4": {
+"meal": "Diyanet",
+"first": "83:4",
+"second": "83:5",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:83:20": {
+"meal": "Diyanet",
+"first": "83:20",
+"second": "83:21",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:92:19": {
+"meal": "Diyanet",
+"first": "92:19",
+"second": "92:20",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:94:2": {
+"meal": "Diyanet",
+"first": "94:2",
+"second": "94:3",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:96:3": {
+"meal": "Diyanet",
+"first": "96:3",
+"second": "96:4",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:96:4": {
+"meal": "Diyanet",
+"first": "96:4",
+"second": "96:5",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:96:6": {
+"meal": "Diyanet",
+"first": "96:6",
+"second": "96:7",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:96:9": {
+"meal": "Diyanet",
+"first": "96:9",
+"second": "96:10",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:96:9": {
+"meal": "Elmalılı",
+"first": "96:9",
+"second": "96:10",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:96:11": {
+"meal": "Diyanet",
+"first": "96:11",
+"second": "96:12",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:96:12": {
+"meal": "Diyanet",
+"first": "96:12",
+"second": "96:13",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:96:15": {
+"meal": "Elmalılı",
+"first": "96:15",
+"second": "96:16",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:98:1": {
+"meal": "Diyanet",
+"first": "98:1",
+"second": "98:2",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:98:2": {
+"meal": "Diyanet",
+"first": "98:2",
+"second": "98:3",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:99:1": {
+"meal": "Diyanet",
+"first": "99:1",
+"second": "99:2",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:99:2": {
+"meal": "Diyanet",
+"first": "99:2",
+"second": "99:3",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:99:4": {
+"meal": "Diyanet",
+"first": "99:4",
+"second": "99:5",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:4:153": {
+"meal": "Diyanet",
+"first": "4:153",
+"second": "4:154",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:4:156": {
+"meal": "Diyanet",
+"first": "4:156",
+"second": "4:157",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:4:157": {
+"meal": "Diyanet",
+"first": "4:157",
+"second": "4:158",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:4:160": {
+"meal": "Diyanet",
+"first": "4:160",
+"second": "4:161",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:4:160": {
+"meal": "Elmalılı",
+"first": "4:160",
+"second": "4:161",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:4:164": {
+"meal": "Diyanet",
+"first": "4:164",
+"second": "4:165",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:4:168": {
+"meal": "Diyanet",
+"first": "4:168",
+"second": "4:169",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:5:83": {
+"meal": "Diyanet",
+"first": "5:83",
+"second": "5:84",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:5:116": {
+"meal": "Diyanet",
+"first": "5:116",
+"second": "5:117",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:6:61": {
+"meal": "Diyanet",
+"first": "6:61",
+"second": "6:62",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:6:71": {
+"meal": "Diyanet",
+"first": "6:71",
+"second": "6:72",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:6:84": {
+"meal": "Diyanet",
+"first": "6:84",
+"second": "6:85",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:6:85": {
+"meal": "Diyanet",
+"first": "6:85",
+"second": "6:86",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:6:112": {
+"meal": "Diyanet",
+"first": "6:112",
+"second": "6:113",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:6:155": {
+"meal": "Diyanet",
+"first": "6:155",
+"second": "6:156",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:11:54": {
+"meal": "Diyanet",
+"first": "11:54",
+"second": "11:55",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:11:55": {
+"meal": "Diyanet",
+"first": "11:55",
+"second": "11:56",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:11:56": {
+"meal": "Diyanet",
+"first": "11:56",
+"second": "11:57",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:11:82": {
+"meal": "Diyanet",
+"first": "11:82",
+"second": "11:83",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:11:96": {
+"meal": "Diyanet",
+"first": "11:96",
+"second": "11:97",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:11:118": {
+"meal": "Diyanet",
+"first": "11:118",
+"second": "11:119",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:11:121": {
+"meal": "Diyanet",
+"first": "11:121",
+"second": "11:122",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:12:11": {
+"meal": "Diyanet",
+"first": "12:11",
+"second": "12:12",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:12:16": {
+"meal": "Diyanet",
+"first": "12:16",
+"second": "12:17",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:12:26": {
+"meal": "Diyanet",
+"first": "12:26",
+"second": "12:27",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:12:28": {
+"meal": "Diyanet",
+"first": "12:28",
+"second": "12:29",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:12:82": {
+"meal": "Diyanet",
+"first": "12:82",
+"second": "12:83",
+"status": "ERROR",
+"class": "OTHER_AYAH",
+"votes": {
+"J1": "OTHER_AYAH",
+"J2": "OTHER_AYAH"
+},
+"notes": {
+"J1": "The text translates 12:84: وتولى عنهم وقال يا أسفى على يوسف وابيضت عيناه من الحزن فهو كظيم ('Onlara sırt çevirdi, Vah Yusuf'a yazık oldu... gözlerine ak düştü'). 12:82 (واسأل القرية التي كنا فيها والعير... وإنا لصادقون) and 12:83 (بل سولت لكم أنفسكم أمرا فصبر جميل عسى الله أن يأتيني بهم جميعا) are both missing. The rows are misaligned: Diyanet's 12:81 cell holds the 12:83 text ('Sizi nefsiniz... sabır... belki Allah hepsini birden'), and the 12:81 and 12:82 content is absent from this window.",
+"J2": "The text is the rendering of 12:84 (وَتَوَلَّىٰ عَنْهُمْ = 'Onlara sırt çevirdi', يَـٰٓأَسَفَىٰ عَلَىٰ يُوسُفَ = 'Vah, Yusuf'a yazık oldu', ٱبْيَضَّتْ عَيْنَاهُ = 'gözlerine ak düştü', كَظِيمٌ = 'acısını içinde saklıyordu'). Neither 12:82 nor 12:83 is translated. 12:82 (وَسْـَٔلِ ٱلْقَرْيَةَ ... وَٱلْعِيرَ ... وَإِنَّا لَصَـٰدِقُونَ, ask the town and the caravan) is missing entirely. 12:83 (بَلْ سَوَّلَتْ لَكُمْ أَنفُسُكُمْ ... عَسَى ٱللَّهُ أَن يَأْتِيَنِى بِهِمْ جَمِيعًا) appears instead in the 12:81 cell, which points to a shifted alignment in this stretch."
+},
+"repeated_text": "Onlara sırt çevirdi, \"Vah, Yusuf'a yazık oldu!\" dedi ve üzüntüden gözlerine ak düştü. Artık acısını içinde saklıyordu.",
+"arabic": {
+"12:81": "ٱرْجِعُوٓا۟ إِلَىٰٓ أَبِيكُمْ فَقُولُوا۟ يَـٰٓأَبَانَآ إِنَّ ٱبْنَكَ سَرَقَ وَمَا شَهِدْنَآ إِلَّا بِمَا عَلِمْنَا وَمَا كُنَّا لِلْغَيْبِ حَـٰفِظِينَ",
+"12:82": "وَسْـَٔلِ ٱلْقَرْيَةَ ٱلَّتِى كُنَّا فِيهَا وَٱلْعِيرَ ٱلَّتِىٓ أَقْبَلْنَا فِيهَا ۖ وَإِنَّا لَصَـٰدِقُونَ",
+"12:83": "قَالَ بَلْ سَوَّلَتْ لَكُمْ أَنفُسُكُمْ أَمْرًۭا ۖ فَصَبْرٌۭ جَمِيلٌ ۖ عَسَى ٱللَّهُ أَن يَأْتِيَنِى بِهِمْ جَمِيعًا ۚ إِنَّهُۥ هُوَ ٱلْعَلِيمُ ٱلْحَكِيمُ",
+"12:84": "وَتَوَلَّىٰ عَنْهُمْ وَقَالَ يَـٰٓأَسَفَىٰ عَلَىٰ يُوسُفَ وَٱبْيَضَّتْ عَيْنَاهُ مِنَ ٱلْحُزْنِ فَهُوَ كَظِيمٌۭ"
+}
+},
+"77:12:83": {
+"meal": "Diyanet",
+"first": "12:83",
+"second": "12:84",
+"status": "ERROR",
+"class": "ONLY_SECOND",
+"votes": {
+"J1": "ONLY_SECOND",
+"J2": "ONLY_SECOND"
+},
+"notes": {
+"J1": "The text is exactly 12:84 (وتولى عنهم وقال يا أسفى على يوسف وابيضت عيناه من الحزن فهو كظيم), so it is correct under 12:84. It is wrong under 12:83, whose content (قال بل سولت لكم أنفسكم أمرا فصبر جميل عسى الله أن يأتيني بهم جميعا إنه هو العليم الحكيم) does not appear. It sits misplaced in Diyanet's 12:81 cell.",
+"J2": "The text translates only 12:84 (وَتَوَلَّىٰ عَنْهُمْ وَقَالَ يَـٰٓأَسَفَىٰ عَلَىٰ يُوسُفَ وَٱبْيَضَّتْ عَيْنَاهُ مِنَ ٱلْحُزْنِ فَهُوَ كَظِيمٌ). 12:83's content is missing from it: بَلْ سَوَّلَتْ لَكُمْ أَنفُسُكُمْ أَمْرًا فَصَبْرٌ جَمِيلٌ عَسَى ٱللَّهُ أَن يَأْتِيَنِى بِهِمْ جَمِيعًا إِنَّهُۥ هُوَ ٱلْعَلِيمُ ٱلْحَكِيمُ. That content sits misplaced under 12:81, so the text is wrong under 12:83."
+},
+"repeated_text": "Onlara sırt çevirdi, \"Vah, Yusuf'a yazık oldu!\" dedi ve üzüntüden gözlerine ak düştü. Artık acısını içinde saklıyordu.",
+"arabic": {
+"12:82": "وَسْـَٔلِ ٱلْقَرْيَةَ ٱلَّتِى كُنَّا فِيهَا وَٱلْعِيرَ ٱلَّتِىٓ أَقْبَلْنَا فِيهَا ۖ وَإِنَّا لَصَـٰدِقُونَ",
+"12:83": "قَالَ بَلْ سَوَّلَتْ لَكُمْ أَنفُسُكُمْ أَمْرًۭا ۖ فَصَبْرٌۭ جَمِيلٌ ۖ عَسَى ٱللَّهُ أَن يَأْتِيَنِى بِهِمْ جَمِيعًا ۚ إِنَّهُۥ هُوَ ٱلْعَلِيمُ ٱلْحَكِيمُ",
+"12:84": "وَتَوَلَّىٰ عَنْهُمْ وَقَالَ يَـٰٓأَسَفَىٰ عَلَىٰ يُوسُفَ وَٱبْيَضَّتْ عَيْنَاهُ مِنَ ٱلْحُزْنِ فَهُوَ كَظِيمٌۭ",
+"12:85": "قَالُوا۟ تَٱللَّهِ تَفْتَؤُا۟ تَذْكُرُ يُوسُفَ حَتَّىٰ تَكُونَ حَرَضًا أَوْ تَكُونَ مِنَ ٱلْهَـٰلِكِينَ"
+}
+},
+"77:12:92": {
+"meal": "Diyanet",
+"first": "12:92",
+"second": "12:93",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:12:102": {
+"meal": "Diyanet",
+"first": "12:102",
+"second": "12:103",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:18:1": {
+"meal": "Diyanet",
+"first": "18:1",
+"second": "18:2",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:18:2": {
+"meal": "Diyanet",
+"first": "18:2",
+"second": "18:3",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:18:3": {
+"meal": "Diyanet",
+"first": "18:3",
+"second": "18:4",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:18:11": {
+"meal": "Diyanet",
+"first": "18:11",
+"second": "18:12",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:18:13": {
+"meal": "Diyanet",
+"first": "18:13",
+"second": "18:14",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:18:14": {
+"meal": "Diyanet",
+"first": "18:14",
+"second": "18:15",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:18:23": {
+"meal": "Diyanet",
+"first": "18:23",
+"second": "18:24",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:18:30": {
+"meal": "Diyanet",
+"first": "18:30",
+"second": "18:31",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:18:35": {
+"meal": "Diyanet",
+"first": "18:35",
+"second": "18:36",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:18:37": {
+"meal": "Diyanet",
+"first": "18:37",
+"second": "18:38",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:18:38": {
+"meal": "Diyanet",
+"first": "18:38",
+"second": "18:39",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:18:39": {
+"meal": "Diyanet",
+"first": "18:39",
+"second": "18:40",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:18:40": {
+"meal": "Diyanet",
+"first": "18:40",
+"second": "18:41",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:18:69": {
+"meal": "Diyanet",
+"first": "18:69",
+"second": "18:70",
+"status": "ERROR",
+"class": "ONLY_SECOND",
+"votes": {
+"J1": "ONLY_SECOND",
+"J2": "ONLY_SECOND"
+},
+"notes": {
+"J1": "The text renders only 18:70: قال فإن اتبعتني فلا تسألني عن شيء حتى أحدث لك منه ذكرا = 'bana uyacaksan, ben sana anlatmadıkça herhangi bir şey hakkında bana soru sormayacaksın'. 18:69 is Musa's promise, قال ستجدني إن شاء الله صابرا ولا أعصي لك أمرا, and it is missing here. In this meal, 18:69's content ('İnşallah sabrettiğimi göreceksin') sits under 18:68, so the alignment is shifted by one and the 18:69 cell is wrong. 18:68 وكيف تصبر is also missing from its own cell.",
+"J2": "The text 'O halde, bana uyacaksan, ... bana soru sormayacaksın' translates only 18:70 قال فإن اتبعتني فلا تسألني عن شيء حتى أحدث لك منه ذكرا. The content of 18:69, قال ستجدني إن شاء الله صابرا ولا أعصي لك أمرا (Musa: 'İnşallah sabrettiğimi göreceksin...'), is missing from it. That content is printed under 18:68 in this meal, whose own content وكيف تصبر على ما لم تحط به خبرا is missing there, so this looks like an off-by-one shift. The text is wrong under 18:69."
+},
+"repeated_text": "O da: \"O halde, bana uyacaksan, ben sana anlatmadıkça herhangi bir şey hakkında bana soru sormayacaksın\" dedi.",
+"arabic": {
+"18:68": "وَكَيْفَ تَصْبِرُ عَلَىٰ مَا لَمْ تُحِطْ بِهِۦ خُبْرًۭا",
+"18:69": "قَالَ سَتَجِدُنِىٓ إِن شَآءَ ٱللَّهُ صَابِرًۭا وَلَآ أَعْصِى لَكَ أَمْرًۭا",
+"18:70": "قَالَ فَإِنِ ٱتَّبَعْتَنِى فَلَا تَسْـَٔلْنِى عَن شَىْءٍ حَتَّىٰٓ أُحْدِثَ لَكَ مِنْهُ ذِكْرًۭا",
+"18:71": "فَٱنطَلَقَا حَتَّىٰٓ إِذَا رَكِبَا فِى ٱلسَّفِينَةِ خَرَقَهَا ۖ قَالَ أَخَرَقْتَهَا لِتُغْرِقَ أَهْلَهَا لَقَدْ جِئْتَ شَيْـًٔا إِمْرًۭا"
+}
+},
+"77:18:87": {
+"meal": "Diyanet",
+"first": "18:87",
+"second": "18:88",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:20:118": {
+"meal": "Diyanet",
+"first": "20:118",
+"second": "20:119",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:21:2": {
+"meal": "Diyanet",
+"first": "21:2",
+"second": "21:3",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:21:60": {
+"meal": "Diyanet",
+"first": "21:60",
+"second": "21:61",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:21:64": {
+"meal": "Diyanet",
+"first": "21:64",
+"second": "21:65",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:21:66": {
+"meal": "Diyanet",
+"first": "21:66",
+"second": "21:67",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:22:6": {
+"meal": "Diyanet",
+"first": "22:6",
+"second": "22:7",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:22:8": {
+"meal": "Diyanet",
+"first": "22:8",
+"second": "22:9",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:22:19": {
+"meal": "Diyanet",
+"first": "22:19",
+"second": "22:20",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:22:20": {
+"meal": "Diyanet",
+"first": "22:20",
+"second": "22:21",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:22:34": {
+"meal": "Diyanet",
+"first": "22:34",
+"second": "22:35",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:22:42": {
+"meal": "Diyanet",
+"first": "22:42",
+"second": "22:43",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:22:43": {
+"meal": "Diyanet",
+"first": "22:43",
+"second": "22:44",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:22:67": {
+"meal": "Diyanet",
+"first": "22:67",
+"second": "22:68",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:22:68": {
+"meal": "Diyanet",
+"first": "22:68",
+"second": "22:69",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:23:5": {
+"meal": "Diyanet",
+"first": "23:5",
+"second": "23:6",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:57": {
+"meal": "Diyanet",
+"first": "26:57",
+"second": "26:58",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:58": {
+"meal": "Diyanet",
+"first": "26:58",
+"second": "26:59",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:72": {
+"meal": "Diyanet",
+"first": "26:72",
+"second": "26:73",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:75": {
+"meal": "Diyanet",
+"first": "26:75",
+"second": "26:76",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:26:75": {
+"meal": "Elmalılı",
+"first": "26:75",
+"second": "26:76",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:76": {
+"meal": "Diyanet",
+"first": "26:76",
+"second": "26:77",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:77": {
+"meal": "Diyanet",
+"first": "26:77",
+"second": "26:78",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:78": {
+"meal": "Diyanet",
+"first": "26:78",
+"second": "26:79",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:79": {
+"meal": "Diyanet",
+"first": "26:79",
+"second": "26:80",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:80": {
+"meal": "Diyanet",
+"first": "26:80",
+"second": "26:81",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:81": {
+"meal": "Diyanet",
+"first": "26:81",
+"second": "26:82",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:82": {
+"meal": "Diyanet",
+"first": "26:82",
+"second": "26:83",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:84": {
+"meal": "Diyanet",
+"first": "26:84",
+"second": "26:85",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:85": {
+"meal": "Diyanet",
+"first": "26:85",
+"second": "26:86",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:86": {
+"meal": "Diyanet",
+"first": "26:86",
+"second": "26:87",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:155": {
+"meal": "Diyanet",
+"first": "26:155",
+"second": "26:156",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:161": {
+"meal": "Diyanet",
+"first": "26:161",
+"second": "26:162",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:162": {
+"meal": "Diyanet",
+"first": "26:162",
+"second": "26:163",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:163": {
+"meal": "Diyanet",
+"first": "26:163",
+"second": "26:164",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:164": {
+"meal": "Diyanet",
+"first": "26:164",
+"second": "26:165",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:165": {
+"meal": "Diyanet",
+"first": "26:165",
+"second": "26:166",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:168": {
+"meal": "Diyanet",
+"first": "26:168",
+"second": "26:169",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:170": {
+"meal": "Diyanet",
+"first": "26:170",
+"second": "26:171",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:177": {
+"meal": "Diyanet",
+"first": "26:177",
+"second": "26:178",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:178": {
+"meal": "Diyanet",
+"first": "26:178",
+"second": "26:179",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:179": {
+"meal": "Diyanet",
+"first": "26:179",
+"second": "26:180",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:180": {
+"meal": "Diyanet",
+"first": "26:180",
+"second": "26:181",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:181": {
+"meal": "Diyanet",
+"first": "26:181",
+"second": "26:182",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:182": {
+"meal": "Diyanet",
+"first": "26:182",
+"second": "26:183",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:183": {
+"meal": "Diyanet",
+"first": "26:183",
+"second": "26:184",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:30:31": {
+"meal": "Diyanet",
+"first": "30:31",
+"second": "30:32",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:30:33": {
+"meal": "Diyanet",
+"first": "30:33",
+"second": "30:34",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:30:48": {
+"meal": "Diyanet",
+"first": "30:48",
+"second": "30:49",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:31:2": {
+"meal": "Diyanet",
+"first": "31:2",
+"second": "31:3",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:31:8": {
+"meal": "Diyanet",
+"first": "31:8",
+"second": "31:9",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:32:7": {
+"meal": "Diyanet",
+"first": "32:7",
+"second": "32:8",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:32:8": {
+"meal": "Diyanet",
+"first": "32:8",
+"second": "32:9",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:32:15": {
+"meal": "Diyanet",
+"first": "32:15",
+"second": "32:16",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:33:18": {
+"meal": "Diyanet",
+"first": "33:18",
+"second": "33:19",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:33:45": {
+"meal": "Diyanet",
+"first": "33:45",
+"second": "33:46",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:33:64": {
+"meal": "Diyanet",
+"first": "33:64",
+"second": "33:65",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:33:67": {
+"meal": "Diyanet",
+"first": "33:67",
+"second": "33:68",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:33:70": {
+"meal": "Diyanet",
+"first": "33:70",
+"second": "33:71",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:34:4": {
+"meal": "Diyanet",
+"first": "34:4",
+"second": "34:5",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:34:7": {
+"meal": "Diyanet",
+"first": "34:7",
+"second": "34:8",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:37:104": {
+"meal": "Diyanet",
+"first": "37:104",
+"second": "37:105",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:37:108": {
+"meal": "Diyanet",
+"first": "37:108",
+"second": "37:109",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:37:119": {
+"meal": "Diyanet",
+"first": "37:119",
+"second": "37:120",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:37:124": {
+"meal": "Diyanet",
+"first": "37:124",
+"second": "37:125",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:37:124": {
+"meal": "Elmalılı",
+"first": "37:124",
+"second": "37:125",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:37:125": {
+"meal": "Diyanet",
+"first": "37:125",
+"second": "37:126",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:37:125": {
+"meal": "Elmalılı",
+"first": "37:125",
+"second": "37:126",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:37:127": {
+"meal": "Diyanet",
+"first": "37:127",
+"second": "37:128",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:37:129": {
+"meal": "Diyanet",
+"first": "37:129",
+"second": "37:130",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:37:134": {
+"meal": "Diyanet",
+"first": "37:134",
+"second": "37:135",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:37:137": {
+"meal": "Diyanet",
+"first": "37:137",
+"second": "37:138",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:37:137": {
+"meal": "Elmalılı",
+"first": "37:137",
+"second": "37:138",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:37:143": {
+"meal": "Diyanet",
+"first": "37:143",
+"second": "37:144",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:37:143": {
+"meal": "Elmalılı",
+"first": "37:143",
+"second": "37:144",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:37:151": {
+"meal": "Diyanet",
+"first": "37:151",
+"second": "37:152",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:41:4": {
+"meal": "Diyanet",
+"first": "41:4",
+"second": "41:5",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:41:30": {
+"meal": "Diyanet",
+"first": "41:30",
+"second": "41:31",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:41:31": {
+"meal": "Diyanet",
+"first": "41:31",
+"second": "41:32",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:41:41": {
+"meal": "Diyanet",
+"first": "41:41",
+"second": "41:42",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:42:1": {
+"meal": "Elmalılı",
+"first": "42:1",
+"second": "42:2",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:42:25": {
+"meal": "Diyanet",
+"first": "42:25",
+"second": "42:26",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:42:36": {
+"meal": "Diyanet",
+"first": "42:36",
+"second": "42:37",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:42:37": {
+"meal": "Diyanet",
+"first": "42:37",
+"second": "42:38",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:42:52": {
+"meal": "Diyanet",
+"first": "42:52",
+"second": "42:53",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:43:2": {
+"meal": "Diyanet",
+"first": "43:2",
+"second": "43:3",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:43:2": {
+"meal": "Elmalılı",
+"first": "43:2",
+"second": "43:3",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:43:12": {
+"meal": "Diyanet",
+"first": "43:12",
+"second": "43:13",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:43:13": {
+"meal": "Diyanet",
+"first": "43:13",
+"second": "43:14",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:43:26": {
+"meal": "Diyanet",
+"first": "43:26",
+"second": "43:27",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:43:33": {
+"meal": "Diyanet",
+"first": "43:33",
+"second": "43:34",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:50:25": {
+"meal": "Diyanet",
+"first": "50:25",
+"second": "50:26",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:50:28": {
+"meal": "Diyanet",
+"first": "50:28",
+"second": "50:29",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:50:32": {
+"meal": "Diyanet",
+"first": "50:32",
+"second": "50:33",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:50:32": {
+"meal": "Elmalılı",
+"first": "50:32",
+"second": "50:33",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:50:33": {
+"meal": "Diyanet",
+"first": "50:33",
+"second": "50:34",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:51:1": {
+"meal": "Diyanet",
+"first": "51:1",
+"second": "51:2",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:51:2": {
+"meal": "Diyanet",
+"first": "51:2",
+"second": "51:3",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:51:3": {
+"meal": "Diyanet",
+"first": "51:3",
+"second": "51:4",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:51:4": {
+"meal": "Diyanet",
+"first": "51:4",
+"second": "51:5",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:51:5": {
+"meal": "Diyanet",
+"first": "51:5",
+"second": "51:6",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:51:7": {
+"meal": "Diyanet",
+"first": "51:7",
+"second": "51:8",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:51:10": {
+"meal": "Diyanet",
+"first": "51:10",
+"second": "51:11",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:51:15": {
+"meal": "Diyanet",
+"first": "51:15",
+"second": "51:16",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:51:15": {
+"meal": "Elmalılı",
+"first": "51:15",
+"second": "51:16",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:51:20": {
+"meal": "Diyanet",
+"first": "51:20",
+"second": "51:21",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:56:5": {
+"meal": "Diyanet",
+"first": "56:5",
+"second": "56:6",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:56:6": {
+"meal": "Diyanet",
+"first": "56:6",
+"second": "56:7",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:56:11": {
+"meal": "Diyanet",
+"first": "56:11",
+"second": "56:12",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:56:13": {
+"meal": "Diyanet",
+"first": "56:13",
+"second": "56:14",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:56:15": {
+"meal": "Diyanet",
+"first": "56:15",
+"second": "56:16",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:56:17": {
+"meal": "Diyanet",
+"first": "56:17",
+"second": "56:18",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:56:18": {
+"meal": "Diyanet",
+"first": "56:18",
+"second": "56:19",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:56:19": {
+"meal": "Diyanet",
+"first": "56:19",
+"second": "56:20",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:56:20": {
+"meal": "Diyanet",
+"first": "56:20",
+"second": "56:21",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:56:22": {
+"meal": "Diyanet",
+"first": "56:22",
+"second": "56:23",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:56:23": {
+"meal": "Diyanet",
+"first": "56:23",
+"second": "56:24",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:56:27": {
+"meal": "Diyanet",
+"first": "56:27",
+"second": "56:28",
+"status": "ERROR",
+"class": "ONLY_SECOND",
+"votes": {
+"J1": "ONLY_SECOND",
+"J2": "ONLY_SECOND"
+},
+"notes": {
+"J1": "56:27 وَأَصْحَـٰبُ ٱلْيَمِينِ مَآ أَصْحَـٰبُ ٱلْيَمِينِ is missing from the text. Its rendering, 'Defterleri sağdan verilenler; ne mutlu o sağcılara!', sits under 56:26 instead. The repeated text begins with 56:28 فِى سِدْرٍ مَّخْضُودٍ = 'dikensiz sedir ağaçları' and continues through 56:34, so it is wrong under 56:27.",
+"J2": "The text starts at 'dikensiz sedir ağaçları' = فِى سِدْرٍ مَّخْضُودٍ (56:28) and goes on through about 56:34. It does not render وَأَصْحَـٰبُ ٱلْيَمِينِ مَآ أَصْحَـٰبُ ٱلْيَمِينِ (56:27). That rendering ('Defterleri sağdan verilenler; ne mutlu o sağcılara!') sits under 56:26, so the alignment is shifted. Wrong under 56:27."
+},
+"repeated_text": "Onlar dikensiz sedir ağaçları, salkımları sarkmış muz ağaçları, uzamış gölge altında, çağlayarak akan sular kenarlarında; bitip tükenmeyen ve yasak da edilmeyen bol meyveler arasında; yüksek döşekler üzerindedirler.",
+"arabic": {
+"56:26": "إِلَّا قِيلًۭا سَلَـٰمًۭا سَلَـٰمًۭا",
+"56:27": "وَأَصْحَـٰبُ ٱلْيَمِينِ مَآ أَصْحَـٰبُ ٱلْيَمِينِ",
+"56:28": "فِى سِدْرٍۢ مَّخْضُودٍۢ",
+"56:29": "وَطَلْحٍۢ مَّنضُودٍۢ"
+}
+},
+"77:56:28": {
+"meal": "Diyanet",
+"first": "56:28",
+"second": "56:29",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:56:29": {
+"meal": "Diyanet",
+"first": "56:29",
+"second": "56:30",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:56:30": {
+"meal": "Diyanet",
+"first": "56:30",
+"second": "56:31",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:69:22": {
+"meal": "Diyanet",
+"first": "69:22",
+"second": "69:23",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:69:25": {
+"meal": "Diyanet",
+"first": "69:25",
+"second": "69:26",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:69:26": {
+"meal": "Diyanet",
+"first": "69:26",
+"second": "69:27",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:69:27": {
+"meal": "Diyanet",
+"first": "69:27",
+"second": "69:28",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:69:28": {
+"meal": "Diyanet",
+"first": "69:28",
+"second": "69:29",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:69:36": {
+"meal": "Diyanet",
+"first": "69:36",
+"second": "69:37",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:69:38": {
+"meal": "Diyanet",
+"first": "69:38",
+"second": "69:39",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:69:39": {
+"meal": "Diyanet",
+"first": "69:39",
+"second": "69:40",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:69:44": {
+"meal": "Diyanet",
+"first": "69:44",
+"second": "69:45",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:69:45": {
+"meal": "Diyanet",
+"first": "69:45",
+"second": "69:46",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:70:1": {
+"meal": "Diyanet",
+"first": "70:1",
+"second": "70:2",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:70:2": {
+"meal": "Diyanet",
+"first": "70:2",
+"second": "70:3",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:70:11": {
+"meal": "Diyanet",
+"first": "70:11",
+"second": "70:12",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:70:12": {
+"meal": "Diyanet",
+"first": "70:12",
+"second": "70:13",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:70:13": {
+"meal": "Diyanet",
+"first": "70:13",
+"second": "70:14",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:75:31": {
+"meal": "Diyanet",
+"first": "75:31",
+"second": "75:32",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:75:32": {
+"meal": "Diyanet",
+"first": "75:32",
+"second": "75:33",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:76:9": {
+"meal": "Diyanet",
+"first": "76:9",
+"second": "76:10",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:77:1": {
+"meal": "Diyanet",
+"first": "77:1",
+"second": "77:2",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:77:2": {
+"meal": "Diyanet",
+"first": "77:2",
+"second": "77:3",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:77:3": {
+"meal": "Diyanet",
+"first": "77:3",
+"second": "77:4",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:77:4": {
+"meal": "Diyanet",
+"first": "77:4",
+"second": "77:5",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:77:5": {
+"meal": "Diyanet",
+"first": "77:5",
+"second": "77:6",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:77:6": {
+"meal": "Diyanet",
+"first": "77:6",
+"second": "77:7",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:77:16": {
+"meal": "Diyanet",
+"first": "77:16",
+"second": "77:17",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:77:20": {
+"meal": "Diyanet",
+"first": "77:20",
+"second": "77:21",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:77:21": {
+"meal": "Diyanet",
+"first": "77:21",
+"second": "77:22",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:77:25": {
+"meal": "Diyanet",
+"first": "77:25",
+"second": "77:26",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:77:30": {
+"meal": "Diyanet",
+"first": "77:30",
+"second": "77:31",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:77:32": {
+"meal": "Diyanet",
+"first": "77:32",
+"second": "77:33",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:83:22": {
+"meal": "Diyanet",
+"first": "83:22",
+"second": "83:23",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:83:25": {
+"meal": "Diyanet",
+"first": "83:25",
+"second": "83:26",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:83:27": {
+"meal": "Diyanet",
+"first": "83:27",
+"second": "83:28",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:83:35": {
+"meal": "Diyanet",
+"first": "83:35",
+"second": "83:36",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:84:1": {
+"meal": "Diyanet",
+"first": "84:1",
+"second": "84:2",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:84:3": {
+"meal": "Diyanet",
+"first": "84:3",
+"second": "84:4",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:84:4": {
+"meal": "Diyanet",
+"first": "84:4",
+"second": "84:5",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:84:7": {
+"meal": "Diyanet",
+"first": "84:7",
+"second": "84:8",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:84:8": {
+"meal": "Diyanet",
+"first": "84:8",
+"second": "84:9",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:84:10": {
+"meal": "Diyanet",
+"first": "84:10",
+"second": "84:11",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:84:11": {
+"meal": "Diyanet",
+"first": "84:11",
+"second": "84:12",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:85:4": {
+"meal": "Diyanet",
+"first": "85:4",
+"second": "85:5",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:85:5": {
+"meal": "Diyanet",
+"first": "85:5",
+"second": "85:6",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:85:6": {
+"meal": "Diyanet",
+"first": "85:6",
+"second": "85:7",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:85:8": {
+"meal": "Diyanet",
+"first": "85:8",
+"second": "85:9",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:99:4": {
+"meal": "Elmalılı",
+"first": "99:4",
+"second": "99:5",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:100:9": {
+"meal": "Diyanet",
+"first": "100:9",
+"second": "100:10",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:101:1": {
+"meal": "Elmalılı",
+"first": "101:1",
+"second": "101:2",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:101:2": {
+"meal": "Elmalılı",
+"first": "101:2",
+"second": "101:3",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:101:6": {
+"meal": "Diyanet",
+"first": "101:6",
+"second": "101:7",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:101:6": {
+"meal": "Elmalılı",
+"first": "101:6",
+"second": "101:7",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:101:8": {
+"meal": "Elmalılı",
+"first": "101:8",
+"second": "101:9",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:102:1": {
+"meal": "Diyanet",
+"first": "102:1",
+"second": "102:2",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:102:1": {
+"meal": "Elmalılı",
+"first": "102:1",
+"second": "102:2",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:102:5": {
+"meal": "Elmalılı",
+"first": "102:5",
+"second": "102:6",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:104:1": {
+"meal": "Diyanet",
+"first": "104:1",
+"second": "104:2",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:104:1": {
+"meal": "Elmalılı",
+"first": "104:1",
+"second": "104:2",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:104:6": {
+"meal": "Diyanet",
+"first": "104:6",
+"second": "104:7",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:104:6": {
+"meal": "Elmalılı",
+"first": "104:6",
+"second": "104:7",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:104:8": {
+"meal": "Diyanet",
+"first": "104:8",
+"second": "104:9",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:6:156": {
+"meal": "Diyanet",
+"first": "6:156",
+"second": "6:157",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:7:16": {
+"meal": "Diyanet",
+"first": "7:16",
+"second": "7:17",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:7:44": {
+"meal": "Diyanet",
+"first": "7:44",
+"second": "7:45",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:7:48": {
+"meal": "Diyanet",
+"first": "7:48",
+"second": "7:49",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:7:50": {
+"meal": "Diyanet",
+"first": "7:50",
+"second": "7:51",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:7:61": {
+"meal": "Diyanet",
+"first": "7:61",
+"second": "7:62",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:7:62": {
+"meal": "Diyanet",
+"first": "7:62",
+"second": "7:63",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:7:68": {
+"meal": "Diyanet",
+"first": "7:68",
+"second": "7:69",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:7:76": {
+"meal": "Diyanet",
+"first": "7:76",
+"second": "7:77",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:7:80": {
+"meal": "Diyanet",
+"first": "7:80",
+"second": "7:81",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:7:88": {
+"meal": "Diyanet",
+"first": "7:88",
+"second": "7:89",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:7:107": {
+"meal": "Diyanet",
+"first": "7:107",
+"second": "7:108",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:7:109": {
+"meal": "Diyanet",
+"first": "7:109",
+"second": "7:110",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:7:111": {
+"meal": "Diyanet",
+"first": "7:111",
+"second": "7:112",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:7:120": {
+"meal": "Diyanet",
+"first": "7:120",
+"second": "7:121",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:13:9": {
+"meal": "Diyanet",
+"first": "13:9",
+"second": "13:10",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:13:22": {
+"meal": "Diyanet",
+"first": "13:22",
+"second": "13:23",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:13:23": {
+"meal": "Diyanet",
+"first": "13:23",
+"second": "13:24",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:14:1": {
+"meal": "Diyanet",
+"first": "14:1",
+"second": "14:2",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:14:13": {
+"meal": "Diyanet",
+"first": "14:13",
+"second": "14:14",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:14:24": {
+"meal": "Diyanet",
+"first": "14:24",
+"second": "14:25",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:14:28": {
+"meal": "Diyanet",
+"first": "14:28",
+"second": "14:29",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:14:32": {
+"meal": "Diyanet",
+"first": "14:32",
+"second": "14:33",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:14:44": {
+"meal": "Diyanet",
+"first": "14:44",
+"second": "14:45",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:14:47": {
+"meal": "Diyanet",
+"first": "14:47",
+"second": "14:48",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:15:6": {
+"meal": "Diyanet",
+"first": "15:6",
+"second": "15:7",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:15:12": {
+"meal": "Diyanet",
+"first": "15:12",
+"second": "15:13",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:15:14": {
+"meal": "Diyanet",
+"first": "15:14",
+"second": "15:15",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:15:28": {
+"meal": "Diyanet",
+"first": "15:28",
+"second": "15:29",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:15:30": {
+"meal": "Diyanet",
+"first": "15:30",
+"second": "15:31",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:18:95": {
+"meal": "Diyanet",
+"first": "18:95",
+"second": "18:96",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:18:100": {
+"meal": "Diyanet",
+"first": "18:100",
+"second": "18:101",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:19:5": {
+"meal": "Diyanet",
+"first": "19:5",
+"second": "19:6",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:19:12": {
+"meal": "Diyanet",
+"first": "19:12",
+"second": "19:13",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:19:13": {
+"meal": "Diyanet",
+"first": "19:13",
+"second": "19:14",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:19:24": {
+"meal": "Diyanet",
+"first": "19:24",
+"second": "19:25",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:19:27": {
+"meal": "Diyanet",
+"first": "19:27",
+"second": "19:28",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:19:30": {
+"meal": "Diyanet",
+"first": "19:30",
+"second": "19:31",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:19:31": {
+"meal": "Diyanet",
+"first": "19:31",
+"second": "19:32",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:19:32": {
+"meal": "Diyanet",
+"first": "19:32",
+"second": "19:33",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:19:60": {
+"meal": "Diyanet",
+"first": "19:60",
+"second": "19:61",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:19:85": {
+"meal": "Diyanet",
+"first": "19:85",
+"second": "19:86",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:19:90": {
+"meal": "Diyanet",
+"first": "19:90",
+"second": "19:91",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:19:92": {
+"meal": "Diyanet",
+"first": "19:92",
+"second": "19:93",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:20:2": {
+"meal": "Diyanet",
+"first": "20:2",
+"second": "20:3",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:23:10": {
+"meal": "Diyanet",
+"first": "23:10",
+"second": "23:11",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:23:19": {
+"meal": "Diyanet",
+"first": "23:19",
+"second": "23:20",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:23:24": {
+"meal": "Diyanet",
+"first": "23:24",
+"second": "23:25",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:23:45": {
+"meal": "Diyanet",
+"first": "23:45",
+"second": "23:46",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:23:47": {
+"meal": "Diyanet",
+"first": "23:47",
+"second": "23:48",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:23:55": {
+"meal": "Diyanet",
+"first": "23:55",
+"second": "23:56",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:23:57": {
+"meal": "Diyanet",
+"first": "23:57",
+"second": "23:58",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:23:58": {
+"meal": "Diyanet",
+"first": "23:58",
+"second": "23:59",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:23:59": {
+"meal": "Diyanet",
+"first": "23:59",
+"second": "23:60",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:23:60": {
+"meal": "Diyanet",
+"first": "23:60",
+"second": "23:61",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:23:66": {
+"meal": "Diyanet",
+"first": "23:66",
+"second": "23:67",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:23:73": {
+"meal": "Diyanet",
+"first": "23:73",
+"second": "23:74",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:23:82": {
+"meal": "Diyanet",
+"first": "23:82",
+"second": "23:83",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:23:93": {
+"meal": "Diyanet",
+"first": "23:93",
+"second": "23:94",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:23:99": {
+"meal": "Diyanet",
+"first": "23:99",
+"second": "23:100",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:87": {
+"meal": "Diyanet",
+"first": "26:87",
+"second": "26:88",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:88": {
+"meal": "Diyanet",
+"first": "26:88",
+"second": "26:89",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:90": {
+"meal": "Diyanet",
+"first": "26:90",
+"second": "26:91",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:92": {
+"meal": "Diyanet",
+"first": "26:92",
+"second": "26:93",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:26:92": {
+"meal": "Elmalılı",
+"first": "26:92",
+"second": "26:93",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:94": {
+"meal": "Diyanet",
+"first": "26:94",
+"second": "26:95",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:26:95": {
+"meal": "Elmalılı",
+"first": "26:95",
+"second": "26:96",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:96": {
+"meal": "Diyanet",
+"first": "26:96",
+"second": "26:97",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:97": {
+"meal": "Diyanet",
+"first": "26:97",
+"second": "26:98",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:98": {
+"meal": "Diyanet",
+"first": "26:98",
+"second": "26:99",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:99": {
+"meal": "Diyanet",
+"first": "26:99",
+"second": "26:100",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:100": {
+"meal": "Diyanet",
+"first": "26:100",
+"second": "26:101",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:101": {
+"meal": "Diyanet",
+"first": "26:101",
+"second": "26:102",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:106": {
+"meal": "Diyanet",
+"first": "26:106",
+"second": "26:107",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:107": {
+"meal": "Diyanet",
+"first": "26:107",
+"second": "26:108",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:185": {
+"meal": "Diyanet",
+"first": "26:185",
+"second": "26:186",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:186": {
+"meal": "Diyanet",
+"first": "26:186",
+"second": "26:187",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:193": {
+"meal": "Diyanet",
+"first": "26:193",
+"second": "26:194",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:194": {
+"meal": "Diyanet",
+"first": "26:194",
+"second": "26:195",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:198": {
+"meal": "Diyanet",
+"first": "26:198",
+"second": "26:199",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:26:198": {
+"meal": "Elmalılı",
+"first": "26:198",
+"second": "26:199",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:200": {
+"meal": "Diyanet",
+"first": "26:200",
+"second": "26:201",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:26:200": {
+"meal": "Elmalılı",
+"first": "26:200",
+"second": "26:201",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:201": {
+"meal": "Diyanet",
+"first": "26:201",
+"second": "26:202",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:205": {
+"meal": "Diyanet",
+"first": "26:205",
+"second": "26:206",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:206": {
+"meal": "Diyanet",
+"first": "26:206",
+"second": "26:207",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:208": {
+"meal": "Diyanet",
+"first": "26:208",
+"second": "26:209",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:217": {
+"meal": "Diyanet",
+"first": "26:217",
+"second": "26:218",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:26:218": {
+"meal": "Diyanet",
+"first": "26:218",
+"second": "26:219",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"112:26:218": {
+"meal": "res112",
+"first": "26:218",
+"second": "26:219",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:34:10": {
+"meal": "Diyanet",
+"first": "34:10",
+"second": "34:11",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:34:51": {
+"meal": "Diyanet",
+"first": "34:51",
+"second": "34:52",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:35:19": {
+"meal": "Diyanet",
+"first": "35:19",
+"second": "35:20",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:35:20": {
+"meal": "Diyanet",
+"first": "35:20",
+"second": "35:21",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:35:42": {
+"meal": "Diyanet",
+"first": "35:42",
+"second": "35:43",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:36:2": {
+"meal": "Diyanet",
+"first": "36:2",
+"second": "36:3",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:36:2": {
+"meal": "Elmalılı",
+"first": "36:2",
+"second": "36:3",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:36:3": {
+"meal": "Diyanet",
+"first": "36:3",
+"second": "36:4",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:36:5": {
+"meal": "Diyanet",
+"first": "36:5",
+"second": "36:6",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:36:5": {
+"meal": "Elmalılı",
+"first": "36:5",
+"second": "36:6",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:36:16": {
+"meal": "Diyanet",
+"first": "36:16",
+"second": "36:17",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:36:26": {
+"meal": "Diyanet",
+"first": "36:26",
+"second": "36:27",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:36:28": {
+"meal": "Diyanet",
+"first": "36:28",
+"second": "36:29",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:36:41": {
+"meal": "Diyanet",
+"first": "36:41",
+"second": "36:42",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:36:59": {
+"meal": "Diyanet",
+"first": "36:59",
+"second": "36:60",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:37:151": {
+"meal": "Elmalılı",
+"first": "37:151",
+"second": "37:152",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:37:161": {
+"meal": "Diyanet",
+"first": "37:161",
+"second": "37:162",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:37:161": {
+"meal": "Elmalılı",
+"first": "37:161",
+"second": "37:162",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:37:162": {
+"meal": "Diyanet",
+"first": "37:162",
+"second": "37:163",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:37:162": {
+"meal": "Elmalılı",
+"first": "37:162",
+"second": "37:163",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:37:164": {
+"meal": "Diyanet",
+"first": "37:164",
+"second": "37:165",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:37:164": {
+"meal": "Elmalılı",
+"first": "37:164",
+"second": "37:165",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:37:165": {
+"meal": "Diyanet",
+"first": "37:165",
+"second": "37:166",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:37:165": {
+"meal": "Elmalılı",
+"first": "37:165",
+"second": "37:166",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:37:167": {
+"meal": "Diyanet",
+"first": "37:167",
+"second": "37:168",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:37:167": {
+"meal": "Elmalılı",
+"first": "37:167",
+"second": "37:168",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:37:168": {
+"meal": "Diyanet",
+"first": "37:168",
+"second": "37:169",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:37:168": {
+"meal": "Elmalılı",
+"first": "37:168",
+"second": "37:169",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:37:171": {
+"meal": "Elmalılı",
+"first": "37:171",
+"second": "37:172",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:37:172": {
+"meal": "Elmalılı",
+"first": "37:172",
+"second": "37:173",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:43:34": {
+"meal": "Diyanet",
+"first": "43:34",
+"second": "43:35",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:43:38": {
+"meal": "Diyanet",
+"first": "43:38",
+"second": "43:39",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:43:41": {
+"meal": "Diyanet",
+"first": "43:41",
+"second": "43:42",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:43:68": {
+"meal": "Elmalılı",
+"first": "43:68",
+"second": "43:69",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:43:88": {
+"meal": "Diyanet",
+"first": "43:88",
+"second": "43:89",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:44:2": {
+"meal": "Diyanet",
+"first": "44:2",
+"second": "44:3",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:44:2": {
+"meal": "Elmalılı",
+"first": "44:2",
+"second": "44:3",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:44:4": {
+"meal": "Diyanet",
+"first": "44:4",
+"second": "44:5",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:44:4": {
+"meal": "Elmalılı",
+"first": "44:4",
+"second": "44:5",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:44:5": {
+"meal": "Diyanet",
+"first": "44:5",
+"second": "44:6",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:44:5": {
+"meal": "Elmalılı",
+"first": "44:5",
+"second": "44:6",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:44:6": {
+"meal": "Diyanet",
+"first": "44:6",
+"second": "44:7",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:44:10": {
+"meal": "Diyanet",
+"first": "44:10",
+"second": "44:11",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:44:10": {
+"meal": "Elmalılı",
+"first": "44:10",
+"second": "44:11",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:44:13": {
+"meal": "Diyanet",
+"first": "44:13",
+"second": "44:14",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:51:20": {
+"meal": "Elmalılı",
+"first": "51:20",
+"second": "51:21",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:51:26": {
+"meal": "Diyanet",
+"first": "51:26",
+"second": "51:27",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:51:32": {
+"meal": "Diyanet",
+"first": "51:32",
+"second": "51:33",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:51:33": {
+"meal": "Diyanet",
+"first": "51:33",
+"second": "51:34",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:51:41": {
+"meal": "Diyanet",
+"first": "51:41",
+"second": "51:42",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:52:1": {
+"meal": "Diyanet",
+"first": "52:1",
+"second": "52:2",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:52:2": {
+"meal": "Diyanet",
+"first": "52:2",
+"second": "52:3",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:52:2": {
+"meal": "Elmalılı",
+"first": "52:2",
+"second": "52:3",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:52:3": {
+"meal": "Diyanet",
+"first": "52:3",
+"second": "52:4",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:52:4": {
+"meal": "Diyanet",
+"first": "52:4",
+"second": "52:5",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:52:5": {
+"meal": "Diyanet",
+"first": "52:5",
+"second": "52:6",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:52:6": {
+"meal": "Diyanet",
+"first": "52:6",
+"second": "52:7",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:52:7": {
+"meal": "Diyanet",
+"first": "52:7",
+"second": "52:8",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:52:9": {
+"meal": "Diyanet",
+"first": "52:9",
+"second": "52:10",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:52:10": {
+"meal": "Diyanet",
+"first": "52:10",
+"second": "52:11",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:56:31": {
+"meal": "Diyanet",
+"first": "56:31",
+"second": "56:32",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:56:32": {
+"meal": "Diyanet",
+"first": "56:32",
+"second": "56:33",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:56:33": {
+"meal": "Diyanet",
+"first": "56:33",
+"second": "56:34",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:56:35": {
+"meal": "Diyanet",
+"first": "56:35",
+"second": "56:36",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:56:36": {
+"meal": "Diyanet",
+"first": "56:36",
+"second": "56:37",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:56:37": {
+"meal": "Diyanet",
+"first": "56:37",
+"second": "56:38",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:56:39": {
+"meal": "Diyanet",
+"first": "56:39",
+"second": "56:40",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:56:42": {
+"meal": "Diyanet",
+"first": "56:42",
+"second": "56:43",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:56:43": {
+"meal": "Diyanet",
+"first": "56:43",
+"second": "56:44",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:56:45": {
+"meal": "Diyanet",
+"first": "56:45",
+"second": "56:46",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:56:49": {
+"meal": "Diyanet",
+"first": "56:49",
+"second": "56:50",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:56:58": {
+"meal": "Diyanet",
+"first": "56:58",
+"second": "56:59",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:56:60": {
+"meal": "Diyanet",
+"first": "56:60",
+"second": "56:61",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:56:63": {
+"meal": "Diyanet",
+"first": "56:63",
+"second": "56:64",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:56:65": {
+"meal": "Diyanet",
+"first": "56:65",
+"second": "56:66",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:70:15": {
+"meal": "Diyanet",
+"first": "70:15",
+"second": "70:16",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:70:16": {
+"meal": "Diyanet",
+"first": "70:16",
+"second": "70:17",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:70:17": {
+"meal": "Diyanet",
+"first": "70:17",
+"second": "70:18",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:70:22": {
+"meal": "Diyanet",
+"first": "70:22",
+"second": "70:23",
+"status": "ERROR",
+"class": "ONLY_FIRST",
+"votes": {
+"J1": "ONLY_FIRST",
+"J2": "ONLY_FIRST"
+},
+"notes": {
+"J1": "إِلَّا ٱلْمُصَلِّينَ (70:22) is rendered: 'Ancak namaz kılıp ... böyle değildir'. The text never expresses عَلَىٰ صَلَاتِهِمْ دَآئِمُونَ (70:23), the constancy in prayer ('devamlı'). It says only 'namazlarında', which then runs into the clause about giving a right. 70:23's own meaning is missing, so this looks like a corrupted text.",
+"J2": "70:22 'إِلَّا ٱلْمُصَلِّينَ' = 'Ancak namaz kılıp ... böyle değildir'. 70:23 'عَلَىٰ صَلَاتِهِمْ دَآئِمُونَ' (constant in their prayer) is missing: no 'devamlı'. The text reads 'namazlarında yoksul ve yoksuna belirli bir hak tanıyanlar', which looks like a corruption that dropped 'devamlı olanlar, mallarında'."
+},
+"repeated_text": "Ancak namaz kılıp namazlarında yoksul ve yoksuna belirli bir hak tanıyanlar, ceza gününü doğrulayanlar, Rablerinin azabından korkanlar böyle değildir.",
+"arabic": {
+"70:21": "وَإِذَا مَسَّهُ ٱلْخَيْرُ مَنُوعًا",
+"70:22": "إِلَّا ٱلْمُصَلِّينَ",
+"70:23": "ٱلَّذِينَ هُمْ عَلَىٰ صَلَاتِهِمْ دَآئِمُونَ",
+"70:24": "وَٱلَّذِينَ فِىٓ أَمْوَٰلِهِمْ حَقٌّۭ مَّعْلُومٌۭ"
+}
+},
+"77:70:23": {
+"meal": "Diyanet",
+"first": "70:23",
+"second": "70:24",
+"status": "ERROR",
+"class": "ONLY_SECOND",
+"votes": {
+"J1": "ONLY_SECOND",
+"J2": "ONLY_SECOND"
+},
+"notes": {
+"J1": "دَآئِمُونَ (70:23), constancy in prayer, is not rendered anywhere. حَقٌّ مَّعْلُومٌ (70:24) appears as 'belirli bir hak tanıyanlar'. However, فِىٓ أَمْوَٰلِهِمْ ('mallarında') is replaced by 'namazlarında', so 70:24 is also garbled. The text seems corrupted: the standard Diyanet wording has 'namazlarında devamlı olanlar, mallarında...'.",
+"J2": "70:23 'دَآئِمُونَ' (constancy in prayer) is not rendered anywhere. 70:24 'فِىٓ أَمْوَٰلِهِمْ حَقٌّ مَّعْلُومٌ' is rendered as 'belirli bir hak tanıyanlar', but 'أَمْوَٰلِهِمْ' is wrongly given as 'namazlarında' (in their prayers) instead of 'mallarında' (in their wealth). The text is corrupted."
+},
+"repeated_text": "Ancak namaz kılıp namazlarında yoksul ve yoksuna belirli bir hak tanıyanlar, ceza gününü doğrulayanlar, Rablerinin azabından korkanlar böyle değildir.",
+"arabic": {
+"70:22": "إِلَّا ٱلْمُصَلِّينَ",
+"70:23": "ٱلَّذِينَ هُمْ عَلَىٰ صَلَاتِهِمْ دَآئِمُونَ",
+"70:24": "وَٱلَّذِينَ فِىٓ أَمْوَٰلِهِمْ حَقٌّۭ مَّعْلُومٌۭ",
+"70:25": "لِّلسَّآئِلِ وَٱلْمَحْرُومِ"
+}
+},
+"77:70:24": {
+"meal": "Diyanet",
+"first": "70:24",
+"second": "70:25",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:70:25": {
+"meal": "Diyanet",
+"first": "70:25",
+"second": "70:26",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:70:26": {
+"meal": "Diyanet",
+"first": "70:26",
+"second": "70:27",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:70:29": {
+"meal": "Diyanet",
+"first": "70:29",
+"second": "70:30",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:70:36": {
+"meal": "Diyanet",
+"first": "70:36",
+"second": "70:37",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:70:40": {
+"meal": "Diyanet",
+"first": "70:40",
+"second": "70:41",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:70:43": {
+"meal": "Diyanet",
+"first": "70:43",
+"second": "70:44",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:71:3": {
+"meal": "Diyanet",
+"first": "71:3",
+"second": "71:4",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:71:10": {
+"meal": "Diyanet",
+"first": "71:10",
+"second": "71:11",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:71:19": {
+"meal": "Diyanet",
+"first": "71:19",
+"second": "71:20",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:78:2": {
+"meal": "Diyanet",
+"first": "78:2",
+"second": "78:3",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:78:6": {
+"meal": "Diyanet",
+"first": "78:6",
+"second": "78:7",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:78:14": {
+"meal": "Diyanet",
+"first": "78:14",
+"second": "78:15",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:78:15": {
+"meal": "Diyanet",
+"first": "78:15",
+"second": "78:16",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:78:21": {
+"meal": "Diyanet",
+"first": "78:21",
+"second": "78:22",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:78:24": {
+"meal": "Diyanet",
+"first": "78:24",
+"second": "78:25",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:78:25": {
+"meal": "Diyanet",
+"first": "78:25",
+"second": "78:26",
+"status": "ERROR",
+"class": "ONLY_FIRST",
+"votes": {
+"J1": "ONLY_FIRST",
+"J2": "ONLY_FIRST"
+},
+"notes": {
+"J1": "The text renders 78:24-25 only: 'sadece kaynar su ve irin' = إِلَّا حَمِيمًا وَغَسَّاقًا (78:25). Nothing renders جَزَآءً وِفَاقًا (78:26, 'a fitting recompense'), so the text is wrong under 78:26.",
+"J2": "The text covers إِلَّا حَمِيمًا وَغَسَّاقًا (78:25, 'sadece kaynar su ve irin') but nothing in it renders جَزَآءً وِفَاقًا (78:26, 'a fitting recompense'). The 'uygun ceza' meaning is missing, and the text ends in '....'. This text is wrong under 78:26."
+},
+"repeated_text": "Orada ne serinlik ne de içilecek bir şey tatmazlar; sadece kaynar su ve irin....",
+"arabic": {
+"78:24": "لَّا يَذُوقُونَ فِيهَا بَرْدًۭا وَلَا شَرَابًا",
+"78:25": "إِلَّا حَمِيمًۭا وَغَسَّاقًۭا",
+"78:26": "جَزَآءًۭ وِفَاقًا",
+"78:27": "إِنَّهُمْ كَانُوا۟ لَا يَرْجُونَ حِسَابًۭا"
+}
+},
+"77:78:31": {
+"meal": "Diyanet",
+"first": "78:31",
+"second": "78:32",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:78:32": {
+"meal": "Diyanet",
+"first": "78:32",
+"second": "78:33",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:78:33": {
+"meal": "Diyanet",
+"first": "78:33",
+"second": "78:34",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:79:4": {
+"meal": "Diyanet",
+"first": "79:4",
+"second": "79:5",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:79:27": {
+"meal": "Diyanet",
+"first": "79:27",
+"second": "79:28",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:79:34": {
+"meal": "Diyanet",
+"first": "79:34",
+"second": "79:35",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:79:37": {
+"meal": "Diyanet",
+"first": "79:37",
+"second": "79:38",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:79:38": {
+"meal": "Diyanet",
+"first": "79:38",
+"second": "79:39",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:85:14": {
+"meal": "Diyanet",
+"first": "85:14",
+"second": "85:15",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:85:17": {
+"meal": "Diyanet",
+"first": "85:17",
+"second": "85:18",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:85:21": {
+"meal": "Diyanet",
+"first": "85:21",
+"second": "85:22",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:86:6": {
+"meal": "Diyanet",
+"first": "86:6",
+"second": "86:7",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:86:8": {
+"meal": "Diyanet",
+"first": "86:8",
+"second": "86:9",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:86:11": {
+"meal": "Diyanet",
+"first": "86:11",
+"second": "86:12",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:87:14": {
+"meal": "Diyanet",
+"first": "87:14",
+"second": "87:15",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:87:18": {
+"meal": "Diyanet",
+"first": "87:18",
+"second": "87:19",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:88:6": {
+"meal": "Diyanet",
+"first": "88:6",
+"second": "88:7",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:88:17": {
+"meal": "Diyanet",
+"first": "88:17",
+"second": "88:18",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:88:18": {
+"meal": "Diyanet",
+"first": "88:18",
+"second": "88:19",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:88:19": {
+"meal": "Diyanet",
+"first": "88:19",
+"second": "88:20",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:88:23": {
+"meal": "Diyanet",
+"first": "88:23",
+"second": "88:24",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:89:4": {
+"meal": "Diyanet",
+"first": "89:4",
+"second": "89:5",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:89:6": {
+"meal": "Diyanet",
+"first": "89:6",
+"second": "89:7",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"52:104:8": {
+"meal": "Elmalılı",
+"first": "104:8",
+"second": "104:9",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:105:3": {
+"meal": "Diyanet",
+"first": "105:3",
+"second": "105:4",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:106:1": {
+"meal": "Diyanet",
+"first": "106:1",
+"second": "106:2",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:106:3": {
+"meal": "Diyanet",
+"first": "106:3",
+"second": "106:4",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:107:2": {
+"meal": "Diyanet",
+"first": "107:2",
+"second": "107:3",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:110:1": {
+"meal": "Diyanet",
+"first": "110:1",
+"second": "110:2",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:110:2": {
+"meal": "Diyanet",
+"first": "110:2",
+"second": "110:3",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:111:4": {
+"meal": "Diyanet",
+"first": "111:4",
+"second": "111:5",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:113:1": {
+"meal": "Diyanet",
+"first": "113:1",
+"second": "113:2",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:113:2": {
+"meal": "Diyanet",
+"first": "113:2",
+"second": "113:3",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:113:3": {
+"meal": "Diyanet",
+"first": "113:3",
+"second": "113:4",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:113:4": {
+"meal": "Diyanet",
+"first": "113:4",
+"second": "113:5",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:114:1": {
+"meal": "Diyanet",
+"first": "114:1",
+"second": "114:2",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:114:2": {
+"meal": "Diyanet",
+"first": "114:2",
+"second": "114:3",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+},
+"77:114:3": {
+"meal": "Diyanet",
+"first": "114:3",
+"second": "114:4",
+"status": "CLEAR",
+"class": "COVERS_BOTH",
+"votes": {
+"J1": "COVERS_BOTH",
+"J2": "COVERS_BOTH"
+}
+}
+}
+}
