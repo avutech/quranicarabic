@@ -169,6 +169,21 @@ def main():
     warn = warnings_rows()
     mis, hum = cases_rows()
     chg = changed_rows(base)
+    wrows = []
+    wf = LIB / "meals_withheld.json"
+    if wf.exists():
+        import build_irab_library as bl
+        import html
+        qc = json.loads(bl.QURANCOM_FILE.read_text("utf-8"))
+        wd = {k: v for k, v in json.loads(wf.read_text("utf-8")).items() if not k.startswith("_")}
+        meal_names = {m["id"]: m["name"] for m in json.loads((LIB / "books.json").read_text("utf-8"))["meals"]}
+        for ref in sorted(wd, key=lambda r: tuple(int(x) for x in r.split(":"))):
+            sn, an = (int(x) for x in ref.split(":"))
+            wj = json.loads((LIB / "w" / f"s{sn:03d}.json").read_text("utf-8"))[str(an)]
+            for mid, why in wd[ref].items():
+                stored = html.unescape(qc["ayahs"][ref]["t"].get(mid, ""))
+                wrows.append([meal_names.get(mid, mid), ref, "WITHHELD from the portal until scholar clearance", why,
+                              " ".join(x["ar"] for x in wj["w"]), stored])
     mp = LIB / "audit_full" / "meal_pairs" / "result.json"
     mrows = []
     if mp.exists():
@@ -188,11 +203,12 @@ def main():
         ["Misplaced entries", "Entries that two independent judges (and a tie-break where needed) found to be listed under the wrong ayah(s), or to also cover further ayahs. The Arabic book text is never changed: only the ayah range it is LISTED under would change. Nothing has been moved yet — it awaits the owner's approval. 'Proposed listing' is the range the judges agreed on.", len(mis)],
         ["Cases for a scholar", "Cases the judges could not settle, or that need scholarly judgement (obscure/corrupt poetry lines, disputed glosses, unmarked additions in verses). Each shows both judges' evidence, the reviewers' notes, the Arabic and both current readings. Please give a ruling per row.", len(hum)],
         ["Meal text repeats", "Turkish meals (translations) that print identical text under two consecutive ayahs: all 902 such pairs were audited (892 are legitimate merged renderings); the rows here are the 9 confirmed errors (the text under one ayah belongs to its neighbour, i.e. the source meal is shifted or corrupted) and 1 split decision. Meals are unmodified; a scholar should decide whether to withhold, as was done for 87:14.", len(mrows)],
+        ["Withheld meal cells", "Meal (Turkish translation) cells that are NOT shown on the portal because the text stored under that ayah belongs to another ayah or is corrupted at the source (the quran.com data; the source is never edited). They stay withheld until a scholar clears them. 'Stored meal text' is exactly what the source holds, shown here for the scholar's check; 'Why' says what is wrong. Includes the Dar Al-Salam duplicate at 87:14.", len(wrows)],
         ["Translation changes", "Every Turkish/English reading that the audit changed, with the old text, the new text, the words removed / added, why it was changed, and the Arabic source for checking. Changes were made only to the translations, never to the Arabic.", len(chg)],
         [""],
         ["How the audit worked", "Every one of 51,211 entries was read in full against its Turkish and English reading by two independent reviewers (second pass: a stronger model with a checklist for negations, numbers, exceptions, conditions, attributions, quotations, endings). Deliberately damaged copies were planted to measure the reviewers: 96.9% were caught (237 of 7,580 missed), so the audit is strong but not infallible — hence this scholar review."],
         ["Standards", "Unmarked additions must sit in «[Translator's note: …]» / «[Mütercim notu: …]». Quranic words stay in Arabic script. The source is never silently corrected."],
-        ["Known open items", "Meal (Turkish translation) 'Dar Al-Salam Center' at 87:14 repeats the 87:13 text at the source (the live quran.com API returns the same); it is withheld from the portal because the true text could not be sourced. All Quran text and book text are unmodified."],
+        ["Known open items", "All withheld meal cells (see that sheet) stay withheld until scholar clearance; for 87:14 (Dar Al-Salam) the true text could not be sourced (the live quran.com API returns the same duplicate). All Quran text and book text are unmodified."],
     ]
     for r in lines:
         readme.append(r)
@@ -206,6 +222,7 @@ def main():
         for c in row:
             c.alignment = Alignment(wrap_text=True, vertical="top")
     sheet(wb, "Meal text repeats", ["Meal", "Ayah 1", "Ayah 2", "Outcome", "Judges' votes and evidence", "Repeated meal text", "Arabic (context)"], mrows, [14, 8, 8, 22, 90, 70, 80])
+    sheet(wb, "Withheld meal cells", ["Meal", "Ayah", "Portal status", "Why", "Arabic of this ayah", "Stored meal text (NOT shown on the portal)"], wrows, [22, 8, 24, 80, 70, 70])
     sheet(wb, "Guardrail warnings", ["Lang", "Book", "Surah", "Ayah(s)", "Entry key", "Warning", "Arabic source", "Reading (as published)"], warn, [6, 38, 7, 10, 18, 50, 70, 70])
     sheet(wb, "Misplaced entries", ["Book", "Surah", "Entry key", "Currently listed under", "Proposed listing", "Judges' evidence", "Arabic source (unchanged)"], mis, [38, 7, 18, 14, 14, 90, 80])
     sheet(wb, "Cases for a scholar", ["Question about", "Book", "Surah", "Ayah(s)", "Entry key", "Judges' evidence", "Reviewers' notes", "Arabic source", "Turkish reading", "English reading"], hum, [22, 38, 7, 10, 18, 90, 60, 70, 60, 60])

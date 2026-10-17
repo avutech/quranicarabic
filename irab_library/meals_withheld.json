@@ -1,4 +1,63 @@
 {
- "_note": "Meal cells that are known to be wrong at the source and are therefore NOT shown. Key = surah:ayah, value = {meal id: reason}. The source file is never edited; the builder simply leaves the cell out.",
- "87:14": {"210": "Dar Al-Salam Center (resource 210) repeats the meaning of 87:13 ('Sonra onun içinde ne ölür, ne de yaşar') at 87:14, whose Arabic is قَدْ أَفْلَحَ مَن تَزَكَّىٰ. The same text is returned by the live quran.com API, so the defect is upstream. The true 87:14 text of that translation could not be sourced and is not invented. Verified 2026-10-17."}
+ "_note": "Meal cells that are known or suspected to be wrong at the source and are therefore NOT shown. Key = surah:ayah, value = {meal id: reason}. The source file is never edited; the builder leaves the cell out. Remove an entry only on scholar clearance.",
+ "87:14": {
+  "210": "Dar Al-Salam Center (resource 210) repeats the meaning of 87:13 ('Sonra onun içinde ne ölür, ne de yaşar') at 87:14, whose Arabic is قَدْ أَفْلَحَ مَن تَزَكَّىٰ. The same text is returned by the live quran.com API, so the defect is upstream. The true 87:14 text of that translation could not be sourced and is not invented. Verified 2026-10-17."
+ },
+ "12:81": {
+  "77": "Diyanet (meal 77) — Diyanet's text is shifted by one: 12:81 holds the rendering of 12:83 and 12:82-83 hold the rendering of 12:84; the content of 12:81 and 12:82 survives only inside the merged text under 12:80. Found by the meal audit of 2026-10-17 (two independent judges plus a neighbour check); withheld, not edited, until a scholar clears it."
+ },
+ "12:82": {
+  "77": "Diyanet (meal 77) — Diyanet's text is shifted by one: 12:81 holds the rendering of 12:83 and 12:82-83 hold the rendering of 12:84; the content of 12:81 and 12:82 survives only inside the merged text under 12:80. Found by the meal audit of 2026-10-17 (two independent judges plus a neighbour check); withheld, not edited, until a scholar clears it."
+ },
+ "12:83": {
+  "77": "Diyanet (meal 77) — Diyanet's text is shifted by one: 12:81 holds the rendering of 12:83 and 12:82-83 hold the rendering of 12:84; the content of 12:81 and 12:82 survives only inside the merged text under 12:80. Found by the meal audit of 2026-10-17 (two independent judges plus a neighbour check); withheld, not edited, until a scholar clears it."
+ },
+ "18:68": {
+  "77": "Diyanet (meal 77) — Shifted by one: 18:68 holds the rendering of 18:69 and 18:69 holds that of 18:70; the content of 18:68 survives only under 18:67. Found by the meal audit of 2026-10-17 (two independent judges plus a neighbour check); withheld, not edited, until a scholar clears it."
+ },
+ "18:69": {
+  "77": "Diyanet (meal 77) — Shifted by one: 18:68 holds the rendering of 18:69 and 18:69 holds that of 18:70; the content of 18:68 survives only under 18:67. Found by the meal audit of 2026-10-17 (two independent judges plus a neighbour check); withheld, not edited, until a scholar clears it."
+ },
+ "20:115": {
+  "77": "Diyanet (meal 77) — Shifted by one: 20:115 holds the rendering of 20:116 and 20:116 holds the merged 20:117-119 text; the meaning of 20:115 (the covenant with Adam) appears nowhere in this stretch. Found by the meal audit of 2026-10-17 (two independent judges plus a neighbour check); withheld, not edited, until a scholar clears it."
+ },
+ "20:116": {
+  "77": "Diyanet (meal 77) — Shifted by one: 20:115 holds the rendering of 20:116 and 20:116 holds the merged 20:117-119 text; the meaning of 20:115 (the covenant with Adam) appears nowhere in this stretch. Found by the meal audit of 2026-10-17 (two independent judges plus a neighbour check); withheld, not edited, until a scholar clears it."
+ },
+ "56:25": {
+  "77": "Diyanet (meal 77) — Shifted by one: 56:25 holds the rendering of 56:26, 56:26 that of 56:27 and 56:27 the merged 56:28-34 text. Found by the meal audit of 2026-10-17 (two independent judges plus a neighbour check); withheld, not edited, until a scholar clears it."
+ },
+ "56:26": {
+  "77": "Diyanet (meal 77) — Shifted by one: 56:25 holds the rendering of 56:26, 56:26 that of 56:27 and 56:27 the merged 56:28-34 text. Found by the meal audit of 2026-10-17 (two independent judges plus a neighbour check); withheld, not edited, until a scholar clears it."
+ },
+ "56:27": {
+  "77": "Diyanet (meal 77) — Shifted by one: 56:25 holds the rendering of 56:26, 56:26 that of 56:27 and 56:27 the merged 56:28-34 text. Found by the meal audit of 2026-10-17 (two independent judges plus a neighbour check); withheld, not edited, until a scholar clears it."
+ },
+ "70:22": {
+  "77": "Diyanet (meal 77) — One merged text is printed under 70:22-27 and it is corrupted: the words for 'devamlı' (70:23) are missing and 'mallarında' (70:24) became 'namazlarında'. Found by the meal audit of 2026-10-17 (two independent judges plus a neighbour check); withheld, not edited, until a scholar clears it."
+ },
+ "70:23": {
+  "77": "Diyanet (meal 77) — One merged text is printed under 70:22-27 and it is corrupted: the words for 'devamlı' (70:23) are missing and 'mallarında' (70:24) became 'namazlarında'. Found by the meal audit of 2026-10-17 (two independent judges plus a neighbour check); withheld, not edited, until a scholar clears it."
+ },
+ "70:24": {
+  "77": "Diyanet (meal 77) — One merged text is printed under 70:22-27 and it is corrupted: the words for 'devamlı' (70:23) are missing and 'mallarında' (70:24) became 'namazlarında'. Found by the meal audit of 2026-10-17 (two independent judges plus a neighbour check); withheld, not edited, until a scholar clears it."
+ },
+ "70:25": {
+  "77": "Diyanet (meal 77) — One merged text is printed under 70:22-27 and it is corrupted: the words for 'devamlı' (70:23) are missing and 'mallarında' (70:24) became 'namazlarında'. Found by the meal audit of 2026-10-17 (two independent judges plus a neighbour check); withheld, not edited, until a scholar clears it."
+ },
+ "70:26": {
+  "77": "Diyanet (meal 77) — One merged text is printed under 70:22-27 and it is corrupted: the words for 'devamlı' (70:23) are missing and 'mallarında' (70:24) became 'namazlarında'. Found by the meal audit of 2026-10-17 (two independent judges plus a neighbour check); withheld, not edited, until a scholar clears it."
+ },
+ "70:27": {
+  "77": "Diyanet (meal 77) — One merged text is printed under 70:22-27 and it is corrupted: the words for 'devamlı' (70:23) are missing and 'mallarında' (70:24) became 'namazlarında'. Found by the meal audit of 2026-10-17 (two independent judges plus a neighbour check); withheld, not edited, until a scholar clears it."
+ },
+ "78:26": {
+  "77": "Diyanet (meal 77) — The text under 78:26 is a copy of the 78:24-25 rendering; the meaning of 78:26 ('uygun bir ceza') is missing. Found by the meal audit of 2026-10-17 (two independent judges plus a neighbour check); withheld, not edited, until a scholar clears it."
+ },
+ "81:3": {
+  "77": "Diyanet (meal 77) — The text under 81:3 is a copy of 81:4 (the camels); 'the mountains are set in motion' appears nowhere. Found by the meal audit of 2026-10-17 (two independent judges plus a neighbour check); withheld, not edited, until a scholar clears it."
+ },
+ "7:170": {
+  "77": "Diyanet (meal 77) — Only the last clause of 7:170 is rendered; 'those who hold fast to the Book and establish prayer' is missing (split decision of the judges: pending a scholar). Found by the meal audit of 2026-10-17 (two independent judges plus a neighbour check); withheld, not edited, until a scholar clears it."
+ }
 }
