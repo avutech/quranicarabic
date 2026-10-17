@@ -1,0 +1,4 @@
+{
+ "_note": "Meal cells that are known to be wrong at the source and are therefore NOT shown. Key = surah:ayah, value = {meal id: reason}. The source file is never edited; the builder simply leaves the cell out.",
+ "87:14": {"210": "Dar Al-Salam Center (resource 210) repeats the meaning of 87:13 ('Sonra onun içinde ne ölür, ne de yaşar') at 87:14, whose Arabic is قَدْ أَفْلَحَ مَن تَزَكَّىٰ. The same text is returned by the live quran.com API, so the defect is upstream. The true 87:14 text of that translation could not be sourced and is not invented. Verified 2026-10-17."}
+}

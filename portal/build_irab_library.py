@@ -247,6 +247,8 @@ def build_words():
     qc = json.loads(QURANCOM_FILE.read_text("utf-8"))
     out_dir = OUT_DIR / "w"
     out_dir.mkdir(exist_ok=True)
+    withheld_file = OUT_DIR / "meals_withheld.json"          # meal cells known to be wrong at the source: left out, never edited
+    withheld = json.loads(withheld_file.read_text("utf-8")) if withheld_file.exists() else {}
     stale_words = []
     for s in range(1, 115):
         tr_file = OUT_DIR / "words_tr" / f"s{s:03d}.json"
@@ -266,7 +268,7 @@ def build_words():
                 words.append({"ar": ar, "tl": tl, "en": en, "tr": tr["t"] if tr else "",
                               "pa": lab["pos_ar"], "pt": lab["pos_tr"],
                               "da": lab["det_ar"], "dt": lab["det_tr"], "r": lab["root"]})
-            surah[str(a)] = {"m": {k: html.unescape(t) for k, t in v["t"].items()}, "w": words}
+            surah[str(a)] = {"m": {k: html.unescape(t) for k, t in v["t"].items() if k not in withheld.get(f"{s}:{a}", {})}, "w": words}
             a += 1
         write_atomic(out_dir / f"s{s:03d}.json", json.dumps(surah, ensure_ascii=False, separators=(",", ":")))
     # the corpus terms require its copyright notice alongside derived data
