@@ -1,0 +1,42 @@
+{
+"harrat-mujtaba:1-1": {
+"hs": [
+"ad36d8332fc2",
+"4359c7e346e6",
+"b6b8925ced17"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic taqdir: «والتقدير: لله الذي ما استقر في السموات كائن له» starts with «لله» only. English renders 'The implied form is: [Praise be] to Allah…' — '[Praise be]' is not in the Arabic (the Turkish correctly has just 'Allah'a') and is in plain brackets, not a [Translator's note: …]. Unmarked addition.",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "The Arabic taqdīr is «لله الذي ما استقر في السموات كائن له». It has no word for 'praise'. The English writes '[Praise be] to Allah ...', and the bracketed '[Praise be]' is not a Translator's note, so it is an unmarked addition. Note also that the Turkish does not add it.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "put the unmarked [Praise be] inside a Translator's note",
+"verified": "PASS",
+"verify_note": "'praise be' now inside Translator's note; taqdir otherwise faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"ad36d8332fc2",
+"4359c7e346e6",
+"ed0ef1df5ca4"
+],
+"dim": "en",
+"what": "put the unmarked [Praise be] inside a Translator's note",
+"at": "2026-10-17 00:45"
+}
+]
+}
+}

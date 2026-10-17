@@ -1,0 +1,52 @@
+{
+"dervis-irab:19-22": {
+"hs": [
+"9133cf953af5",
+"4c34a3b47667",
+"ae68120e7ac3"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "(1) «وهو مبتدأ أو ضمير فصل والسميع البصير خبر ان لهو أو لإن» reads خبرانِ لهو أو لإنّ: السميع and البصير are two khabars, of هو (if mubtadaʾ) or of إنّ (if هو is ḍamīr faṣl). EN 'السميع البصير is the khabar of إن, or of \"هو\" and of إن' garbles the alternatives (wrong order, an 'and' that is not in the text, loses 'two khabars'); TR 'هو'nun veya إنّ'nin iki haberidir' is right. (2) «ولا يكاد يقع ذو فكر سليم وذهن مستقيم على شبهها» = one of sound thought can hardly hit on its like; EN 'no one ... can hit on anything similar' drops يكاد and turns 'hardly' into an absolute negation.",
+"at": "2026-10-17 00:43"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "(1) «وهو مبتدأ أو ضمير فصل والسميع البصير خبر ان لهو أو لإن»: «خبر ان» is خبران (two khabars) - السميع and البصير are two khabars of هو (if هو is mubtadaʾ) or of إن (if هو is a separating pronoun). EN 'السميع البصير is the khabar of إن, or of \"هو\" and of إن' misreads خبران as خبر إن and garbles the two alternatives (TR «هو»nun veya «إنّ»nin iki haberidir is right). (2) «ولا يكاد يقع ذو فكر سليم وذهن مستقيم على شبهها» = 'hardly can anyone of sound thought ... hit on anything like it'; EN 'no one of sound thought and upright mind can hit on anything similar' omits يكاد and turns the near-negation into an absolute one.",
+"at": "2026-10-17 00:44"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked bracket additions: «by an implied [verb or word]» now «by an implied element» (بمقدر); all seven «are two [elements] attached to» for متعلقان now «X: the two are attached to»",
+"verify_note": "Flagged fixes done (السميع البصير now 'two khabars of هو or of إن' with a note on «خبر ان»; يكاد now 'can hardly hit on'). But unmarked bracket additions remain: «Al-Zamakhsharī made it accusative by an implied [verb or word]» (source: بمقدر), and the repeated «are two [elements] attached to…» for متعلقان (بالحق, من دونه, في الأرض, منهم, بذنوبهم, من الله, بالبينات). Put them in a Translator's note or render without the bracket (e.g. 'the two are attached').",
+"fix_failed": 1
+}
+},
+"history": [
+{
+"old_hs": [
+"9133cf953af5",
+"4c34a3b47667",
+"e13942e50132"
+],
+"dim": "en",
+"what": "السميع البصير now 'two khabars of هو or of إن' (with note on source spelling خبر ان); restored يكاد ('can hardly hit on')",
+"at": "2026-10-17 00:47"
+},
+{
+"old_hs": [
+"9133cf953af5",
+"4c34a3b47667",
+"4fc2381f94d8"
+],
+"dim": "en",
+"what": "Removed unmarked bracket additions: «by an implied [verb or word]» now «by an implied element» (بمقدر); all seven «are two [elements] attached to» for متعلقان now «X: the two are attached to»",
+"at": "2026-10-17 00:58"
+}
+]
+}
+}

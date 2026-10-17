@@ -1,0 +1,47 @@
+{
+"semin-durr:63-63": {
+"hs": [
+"9f06c00bf0d6",
+"15014687cb01",
+"71423a20d333"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Reviewer's stated reason is false: EN does translate the entry on {أَتَّخَذْنَاهُمْ} (38:63), not 38:6. But the EN has real defects: it transliterates the Quranic word «(ittakhadhnāhum)» in Latin letters; the Arabic of verses 3876, 3877 and 3778 is dropped and replaced by English only (glossary_en rule 3); and «الأخَوان» is silently rendered as names «Al-Kisāʾī, Ḥamza» without a Translator's note.",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Reviewer's claim (EN translates 38:6) is no longer true: EN now translates this {أَتَّخَذْنَاهُمْ} entry. But EN still has errors: the Quranic word is transliterated in Latin '(ittakhadhnāhum)', and «الأخَوان» is rendered as 'Al-Kisāʾī, Ḥamza' without a [Translator's note: …].",
+"at": "2026-10-17 00:41"
+},
+"J3": {
+"class": "CONFIRMED",
+"evidence": "Reviewer's stated reason is wrong: the English does translate this entry on {أَتَّخَذْنَاهُمْ} (38:63), not 38:6. But the English still needs a fix. (1) It adds a Latin transliteration of the Quranic word, '(ittakhadhnāhum)', which is not in the Arabic. That is an unmarked addition and also a forbidden Latin transliteration. (2) For «رجالاً مَقُولاً فيهم: أتخذناهم» it writes 'did we take them...' in English and drops the Arabic «أتخذناهم», so the parsed word is not kept in Arabic script. (3) «قرأ الأخَوان» is rendered 'Al-Kisāʾī, Ḥamza' with no marking, which silently replaces 'the two brothers' with an identification. The Turkish handles this with a parenthesis. (4) The translator's notes use '(Translator's note: …)' instead of the required «[Translator's note: …]». The rest is accurate: muttaṣila/munqaṭiʿa, «ما لنا», the 3778→3878 note.",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed Latin transliteration (ittakhadhnāhum); الأخوان rendered 'the two brothers' with Ḥamza/al-Kisāʾī in Translator's note; restored Arabic of verses 3876/3877/3778 with English glosses; kept أتخذناهم in Arabic; translator's notes put in [Translator's note: …] form",
+"verified": "PASS",
+"verify_note": "Transliteration removed, Arabic poetry and «أتخذناهم» kept, two brothers in [Translator's note], notes in correct format; faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"9f06c00bf0d6",
+"15014687cb01",
+"47c66301da53"
+],
+"dim": "en",
+"what": "Removed Latin transliteration (ittakhadhnāhum); الأخوان rendered 'the two brothers' with Ḥamza/al-Kisāʾī in Translator's note; restored Arabic of verses 3876/3877/3778 with English glosses; kept أتخذناهم in Arabic; translator's notes put in [Translator's note: …] form",
+"at": "2026-10-17 00:46"
+}
+]
+}
+}

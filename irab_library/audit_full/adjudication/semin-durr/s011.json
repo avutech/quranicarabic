@@ -1,0 +1,42 @@
+{
+"semin-durr:88-88": {
+"hs": [
+"a13cf09ba55b",
+"5c8296b4fdcd",
+"c9ec8d499ba3"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic «قال الشيخ: وتَسْمِيَةُ هذا جواباً...» has only الشيخ; TR «Şeyh (Ebû Hayyân) dedi ki» adds «(Ebû Hayyân)» as a plain parenthesis, not inside «[Mütercim notu: …]». Correct identification but an unmarked addition per glossary rule 9. Rest of TR checked against the Arabic and is otherwise faithful.",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic has only «قال الشيخ: وتَسْمِيَةُ هذا جواباً...». TR «Şeyh (Ebû Hayyân) dedi ki» adds the name «(Ebû Hayyân)» in plain parentheses, not inside «[Mütercim notu: …]»; unmarked addition. The rest of the TR is complete and faithful.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Unmarked '(Ebû Hayyân)' after Şeyh moved into Mütercim notu",
+"verified": "PASS",
+"verify_note": "'Şeyh [Mütercim notu: Ebû Hayyân]' now marked; rest checked sentence by sentence: Zamakhsharī's question/answer, Ebû Hayyân's objection, Havfî, İbn Atıyye ({أن كنت} kept as written), خالف senses, four إعراب options, Zajjāj, four وجوه of ما استطعت ('üç vecih' as in source), ikhtiṣāṣ - complete and faithful; parenthetical items only translate quoted Arabic."
+}
+},
+"history": [
+{
+"old_hs": [
+"a13cf09ba55b",
+"5aa1a55a4932",
+"c9ec8d499ba3"
+],
+"dim": "tr",
+"what": "Unmarked '(Ebû Hayyân)' after Şeyh moved into Mütercim notu",
+"at": "2026-10-17 00:44"
+}
+]
+}
+}

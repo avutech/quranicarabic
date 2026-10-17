@@ -1,0 +1,52 @@
+{
+"semin-durr:176-176": {
+"hs": [
+"8cbab6a842c0",
+"0891edb0c0c1",
+"d1da0c0d2b3e"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Entry is on {الأيكة} with Nafi'/Ibn Kathir/Ibn 'Amir «لَيْكَةَ ... مضافاً إليه أصحاب هنا، وفي ص خاصة» and al-Mubarrad's «كَذَّبَ أصحابُ لَيْكَة» - exactly 26:176 «كَذَّبَ أَصْحَابُ لْـَٔيْكَةِ ٱلْمُرْسَلِينَ». Hijr 78, Sad, Qaf are cited only as comparison. The small lacuna in the Zamakhshari quote («لأن. . .») is a local gap, not a garbled entry; placement is correct.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Entry «قوله: {الأيكة}: قرأ نافعٌ وابنُ كثير وابن عامر لَيْكَةَ ... مضافاً إليه أصحاب هنا» discusses the word of 26:176 «كَذَّبَ أَصْحَابُ لْئَيْكَةِ ٱلْمُرْسَلِينَ»; references to al-Ḥijr 78, Ṣād and Qāf are only comparison evidence. Correctly listed under 176. The small gap «لأن. . .» in the Zamakhshari quote is a local lacuna (both readings mark it), not a defect of the whole entry.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+},
+"semin-durr:225-225": {
+"hs": [
+"2b0a84dc49f6",
+"daa9db5caeff",
+"9b03ac3197f3"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Current EN is complete: it renders the whole simile «شبَّه جَوَلانَهم في أفانينِ القولِ ... بِهَيْمِ الهائمِ في كلِّ وادٍ وطريقٍ» and the full lexical paragraph («والهائِمُ ... هام على وجهه ... والهيمانُ ... الهُيام ... جمل أَهْيَمُ وناقةٌ هَيْماءُ ... هِيم ... {فَشَارِبُونَ شُرْبَ الهيم} [الواقعة: 55] ... والهَيام من الرَّمْلِ: اليابسُ»). No truncation; meaning faithful.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Current EN is complete: it renders the full simile «شبَّه جَوَلانَهم في أفانينِ القولِ ... بِهَيْمِ الهائمِ في كلِّ وادٍ وطريقٍ» ('to the wandering of the one who wanders in every valley and path') and the whole second paragraph (الهائم, هام على وجهه, العاشق, الهيمان, الهُيام, أهيم/هيماء, هِيم, {فَشَارِبُونَ شُرْبَ الهيم} [al-Wāqiʿa: 55], الهَيام من الرمل). The claimed break-off does not exist in the text under review.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

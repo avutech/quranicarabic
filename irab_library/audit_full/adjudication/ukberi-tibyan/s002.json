@@ -1,0 +1,143 @@
+{
+"ukberi-tibyan:64-64": {
+"hs": [
+"ba4844454786",
+"1e3dcfbb0ba5",
+"1874a92b2041"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Entry quotes 2:64 in full and parses «فلولا» and «فضل الله» of 2:64; citing «فلولا أنه كان من المسبحين» (37:143) is evidence only. The phrase «فالخبر في اللفظ لأنّ» is terse but readable (the overt khabar belongs to أنّ) and both readings render it with a note; placement is correct.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "The entry quotes 2:64 in full and parses فلولا and فضل الله (mubtada, khabar omitted) of 2:64; فلولا أنه كان من المسبحين is a cited parallel. The clause فالخبر في اللفظ لأنّ is at most a slightly elliptic sentence (readable as 'the khabar in wording belongs to أنّ'), already handled by translator notes; the rest is intact and correctly placed, so not a source defect and not misplaced.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+},
+"ukberi-tibyan:66-66": {
+"hs": [
+"dd4348df1295",
+"455bd05e34c1",
+"4f70ed366fbd"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Entry quotes 2:66 and parses «فجعلناها» (الضمير للعقوبة أو المسخة أو الأمة) and «نكالا مفعول ثان» - all from 2:66. A short ending is not a misplacement; it is correctly filed under 66.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Entry quotes 2:66 and parses فجعلناها (pronoun for العقوبة/المسخة/الأمة) and نكالا مفعول ثان, both words of 2:66. Ending at مفعول ثان is a complete statement, not garbled; placement is correct.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+},
+"ukberi-tibyan:283-283": {
+"hs": [
+"25b39ca60ab3",
+"f2f103e3c986",
+"09dc826ca2ea"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source prints «مثل سَقْفٍ وَسُقْفٍ» and «وَقِيلَ: رُهْنٌ جَمْعُ رِهَانٍ»; Turkish silently re-vocalizes to «سُقُف» and «رُهُن» with no Mütercim notu (silent correction of the source). Also «mariferdir» is a typo for «marifedir» (translating «لأنه معرفة»). Fix: render the source forms as printed, with any correction inside [Mütercim notu: …].",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source vocalizes سَقْفٍ وَسُقْفٍ وَأَسَدٍ وَأُسْدٍ and وَقِيلَ: رُهْنٌ جَمْعُ رِهَانٍ. Turkish silently changes سُقْف to «سُقُف» and رُهْنٌ to «رُهُن» (twice: «رُهُن»in «رِهان»ın çoğulu), and adds the parenthetical («رُهُن» ve «رُهْن») without a Mütercim notu. Quoted Arabic forms are altered without a note; should keep the source forms or mark the change in a Mütercim notu. Minor but a silent correction.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Kept printed form أُؤْتُمِنَ (pronunciation أُوتُمِن moved into Mütercim notu); moved unmarked additions («رِهان» ile, onun fâilidir, kelimeleri birleştirirsen, ولا يكتموا, sîgalar) into Mütercim notu",
+"verify_note": "Complete and faithful sentence by sentence; printed forms سُقْف/أُسْد/رُهْن/أُؤْتُمِنَ kept with corrections and pronunciation inside Mütercim notu; interpretive additions (رِهان ile, fâilidir, sîgalar) now marked; marifedir typo fixed; no new issues.",
+"fix_failed": 1,
+"verified": "PASS"
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source prints «سَقْفٍ وَسُقْفٍ وَأَسَدٍ وَأُسْدٍ» and «رُهْنٌ جَمْعُ رِهَانٍ»; English silently gives سُقُف, أُسُد and رُهُن without a Translator's note, and adds the unmarked bracket «[رُهُن / رُهْن]». Fix: keep printed forms; put the re-vocalization/additions in [Translator's note: …].",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source prints سَقْفٍ وَسُقْفٍ وَأَسَدٍ وَأُسْدٍ and رُهْنٌ جَمْعُ رِهَانٍ. English silently writes سُقُف and أُسُد (source سُقْف, أُسْد) and 'It has been said that رُهُن is the plural of رِهان' (source رُهْنٌ), with no Translator's note. Quoted Arabic forms altered without marking; needs source forms or a Translator's note.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Kept printed form أُؤْتُمِنَ (pronunciation أُوتُمِن in Translator's note); turned unmarked [as its fāʿil (agent)] into a Translator's note",
+"verify_note": "Complete and faithful sentence by sentence; printed forms سُقْف/أُسْد/رُهْن/أُؤْتُمِنَ kept with re-vocalization and pronunciation inside Translator's notes; fāʿil gloss now in a Translator's note; no unmarked additions or new issues.",
+"fix_failed": 1,
+"verified": "PASS"
+}
+},
+"history": [
+{
+"old_hs": [
+"25b39ca60ab3",
+"c42ae0798bf3",
+"5ad0c25ea6ac"
+],
+"dim": "tr",
+"what": "Restored printed forms سُقْف and رُهْن (were silently re-vocalized); moved added «رُهُن»/«رُهْن» parenthetical and the expected-vocalization remark into Mütercim notu; fixed typo mariferdir -> marifedir",
+"at": "2026-10-17 00:42"
+},
+{
+"old_hs": [
+"25b39ca60ab3",
+"8d8c138e9bb6",
+"82416307c6b0"
+],
+"dim": "en",
+"what": "Restored printed forms سُقْف, أُسْد and رُهْن (were silently re-vocalized); moved added [رُهُن / رُهْن] bracket and expected-vocalization remark into Translator's notes",
+"at": "2026-10-17 00:42"
+},
+{
+"old_hs": [
+"25b39ca60ab3",
+"8d8c138e9bb6",
+"82416307c6b0"
+],
+"dim": "tr",
+"what": "Kept printed form أُؤْتُمِنَ (pronunciation أُوتُمِن moved into Mütercim notu); moved unmarked additions («رِهان» ile, onun fâilidir, kelimeleri birleştirirsen, ولا يكتموا, sîgalar) into Mütercim notu",
+"at": "2026-10-17 00:44"
+},
+{
+"old_hs": [
+"25b39ca60ab3",
+"f2f103e3c986",
+"09dc826ca2ea"
+],
+"dim": "en",
+"what": "Kept printed form أُؤْتُمِنَ (pronunciation أُوتُمِن in Translator's note); turned unmarked [as its fāʿil (agent)] into a Translator's note",
+"at": "2026-10-17 00:44"
+}
+]
+}
+}

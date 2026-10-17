@@ -1,0 +1,82 @@
+{
+"farraa:1-1": {
+"p1": {
+"ar": "fff3efd2307d",
+"tr": "34fcf9721046",
+"en": "d270224fd410",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR had unmarked \"(Ebu l-Abbas)\" as subject of the unnamed \"قال\"; removed.",
+"by": "farraa-u22",
+"at": "2026-10-10 15:50",
+"fixed": true
+},
+"p2": {
+"ar": "fff3efd2307d",
+"tr": "34fcf9721046",
+"en": "d270224fd410",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p2-u4",
+"at": "2026-10-16 19:06",
+"fixed": false
+}
+},
+"farraa:2-2": {
+"p1": {
+"ar": "836d60778850",
+"tr": "ef17dc92efd9",
+"en": "f734bf6c7f5a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:50",
+"fixed": false
+}
+},
+"farraa:3-4": {
+"p1": {
+"ar": "f92a5d243fb3",
+"tr": "12c5ce5a003a",
+"en": "9e3ac11b8b98",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:50",
+"fixed": false
+}
+},
+"farraa:5-7": {
+"p1": {
+"ar": "84d26ca735de",
+"tr": "b1166b5d3e06",
+"en": "cf00dd7197bb",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:50",
+"fixed": false
+},
+"p2": {
+"ar": "84d26ca735de",
+"tr": "b1166b5d3e06",
+"en": "cf00dd7197bb",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p2-u4",
+"at": "2026-10-16 19:06",
+"fixed": false
+}
+}
+}

@@ -1,0 +1,208 @@
+{
+"safi-cedvel:1-5": {
+"p1": {
+"ar": "60748fc53aa4",
+"tr": "2c781edfc49c",
+"en": "be6cb7a99d9e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"safi-cedvel:6-8": {
+"p1": {
+"ar": "6274522e3b44",
+"tr": "63fb01862141",
+"en": "7a00b9b237b6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"safi-cedvel:9-17": {
+"p1": {
+"ar": "095371d5655a",
+"tr": "290e56ec46a7",
+"en": "2765cbaa0606",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"safi-cedvel:18-22": {
+"p1": {
+"ar": "30048ec52bb1",
+"tr": "8e8ced5e522c",
+"en": "9f7762ddb6e3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"safi-cedvel:23-25": {
+"p1": {
+"ar": "635fd7e8db37",
+"tr": "8ba148a7c98e",
+"en": "f44e3bc0ad7b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:34",
+"fixed": false
+},
+"p2": {
+"ar": "635fd7e8db37",
+"tr": "8ba148a7c98e",
+"en": "f44e3bc0ad7b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u23",
+"at": "2026-10-16 19:14",
+"fixed": false
+}
+},
+"safi-cedvel:26-32": {
+"p1": {
+"ar": "452cccda2be4",
+"tr": "3737ac7eb248",
+"en": "8e56901340b9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+},
+"safi-cedvel:33-40": {
+"p1": {
+"ar": "68ced26a4d61",
+"tr": "8780772c21c2",
+"en": "6c926c5cf6cb",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"safi-cedvel:41-42": {
+"p1": {
+"ar": "a816fb7ba342",
+"tr": "0096dee4470a",
+"en": "a0dbea6c1fb6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"safi-cedvel:43-46": {
+"p1": {
+"ar": "ffdd2b450760",
+"tr": "3815d8ccba67",
+"en": "6c2a28558f2c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"safi-cedvel:47-48": {
+"p1": {
+"ar": "5afc0f0a2519",
+"tr": "e171323cd82b",
+"en": "825bede47109",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"safi-cedvel:49-50": {
+"p1": {
+"ar": "00714204013c",
+"tr": "84a6b934e9de",
+"en": "00a771fd7a77",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+},
+"safi-cedvel:51-53": {
+"p1": {
+"ar": "ea906fe0e0d2",
+"tr": "13378c0a42c2",
+"en": "d7c1d1990ada",
+"fit": "PARTIAL",
+"trv": "FIXED",
+"env": "OK",
+"note": "Arabic source truncated after (الواو) عاطفة (52-53 word i'rab missing; translator noted). Turkish Sarf had unmarked \"(sülâsî mezîd)\" for السداسيّ; changed to südâsî and added Mütercim notu",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:34",
+"fixed": true
+},
+"p2": {
+"ar": "ea906fe0e0d2",
+"tr": "13378c0a42c2",
+"en": "d7c1d1990ada",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u23",
+"at": "2026-10-16 19:14",
+"fixed": false
+}
+},
+"safi-cedvel:54-55": {
+"p1": {
+"ar": "baad33c5324d",
+"tr": "8823bd7e4d14",
+"en": "ea3c2fe8d90c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+}
+}

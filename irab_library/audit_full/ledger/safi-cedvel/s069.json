@@ -1,0 +1,110 @@
+{
+"safi-cedvel:1-8": {
+"p1": {
+"ar": "972ab7e491e3",
+"tr": "b0b30a99cf2f",
+"en": "5ae7e3c6525d",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "(حسوما) entry: TR rendered \"تتابع الكلي\" as \"dağlamanın art arda yapılması\" (silently corrected to الكيّ); now translated as written with a translator note.",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:33",
+"fixed": true
+},
+"p2": {
+"ar": "972ab7e491e3",
+"tr": "b0b30a99cf2f",
+"en": "5ae7e3c6525d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u23",
+"at": "2026-10-16 19:13",
+"fixed": false
+}
+},
+"safi-cedvel:9-10": {
+"p1": {
+"ar": "ebcc64282f05",
+"tr": "51dfa89ba2a8",
+"en": "cb0463b32f2f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:33",
+"fixed": false
+}
+},
+"safi-cedvel:11-12": {
+"p1": {
+"ar": "3328fafe94e2",
+"tr": "daade2bf1a09",
+"en": "36231a077ad8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:33",
+"fixed": false
+}
+},
+"safi-cedvel:13-18": {
+"p1": {
+"ar": "5da11eb3b5b0",
+"tr": "ab27aae306c5",
+"en": "10741dab4e32",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:33",
+"fixed": false
+}
+},
+"safi-cedvel:19-37": {
+"p1": {
+"ar": "cd0c0e3e9d12",
+"tr": "7178c3f59e08",
+"en": "e03c40cf4b9d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p1-u7",
+"at": "2026-10-17 00:03",
+"fixed": false
+},
+"p2": {
+"ar": "cd0c0e3e9d12",
+"tr": "7178c3f59e08",
+"en": "e03c40cf4b9d",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR footnote rendered \"ما يحمّ البدن\" (what heats the body) as \"bedeni kaplayan\" (covers the body); corrected to \"bedeni ısıtan (yakan)\".",
+"by": "safi-cedvel-p2-u23",
+"at": "2026-10-16 19:13",
+"fixed": true
+}
+},
+"safi-cedvel:38-52": {
+"p1": {
+"ar": "9ab293e3bc6a",
+"tr": "5be5ad6ce2ec",
+"en": "72d13e716457",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+}
+}

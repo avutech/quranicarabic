@@ -1,0 +1,94 @@
+{
+"dervis-irab:1-10": {
+"p1": {
+"ar": "b23789f32d71",
+"tr": "2edd8e088727",
+"en": "09b5f8c034b6",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR: poem 2 said \"uzun\" (long) for ويوم كظل الرمح, which is a short day; fixed. EN: لهم rendered \"upon them\"; now \"for them\".",
+"by": "dervis-irab-u94",
+"at": "2026-10-10 19:45",
+"fixed": true
+},
+"p2": {
+"ar": "b23789f32d71",
+"tr": "2edd8e088727",
+"en": "09b5f8c034b6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u7",
+"at": "2026-10-17 00:04",
+"fixed": false
+}
+},
+"dervis-irab:11-23": {
+"p1": {
+"ar": "e73452287c21",
+"tr": "81af42a890aa",
+"en": "bfd3fb329658",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN: removed unmarked insertion [of the scalp] after \"stripper\" (not in the Arabic); TR clean.",
+"by": "dervis-irab-p1-u4",
+"at": "2026-10-17 00:23",
+"fixed": true
+},
+"p2": {
+"ar": "e73452287c21",
+"tr": "81af42a890aa",
+"en": "bfd3fb329658",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u6",
+"at": "2026-10-17 00:30",
+"fixed": false
+}
+},
+"dervis-irab:24-35": {
+"p1": {
+"ar": "e53cf38abd03",
+"tr": "4478daeb6b34",
+"en": "5e4bc4b08dad",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u94",
+"at": "2026-10-10 19:45",
+"fixed": false
+},
+"p2": {
+"ar": "e53cf38abd03",
+"tr": "4478daeb6b34",
+"en": "5e4bc4b08dad",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u7",
+"at": "2026-10-17 00:04",
+"fixed": false
+}
+},
+"dervis-irab:36-44": {
+"p1": {
+"ar": "db19b6fce863",
+"tr": "881d7eb4558f",
+"en": "8f183550a7d8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u94",
+"at": "2026-10-10 19:46",
+"fixed": false
+}
+}
+}

@@ -1,0 +1,29 @@
+{
+"mekki-muskil:68-68": {
+"hs": [
+"72343fd5ca80",
+"6b944f11b465",
+"d70e1605d9af"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "MISPLACED",
+"evidence": "Entry parses «كلما ظرف والعامل فيه أوقدوا ... وجوابه أطفأها» = 5:64 (كُلَّمَآ أَوْقَدُوا۟ نَارًا لِّلْحَرْبِ أَطْفَأَهَا ٱللَّهُ); the preceding «ما أنزل ... بفعله وهو وليزيدن» is the identical phrase of 5:64 (وَلَيَزِيدَنَّ كَثِيرًا مِّنْهُم مَّآ أُنزِلَ إِلَيْكَ), commented in sequence right before كلما of the same ayah. Nothing in it is specific to 5:68.",
+"at": "2026-10-17 00:39",
+"ayahs": "64-64"
+},
+"J2": {
+"class": "MISPLACED",
+"evidence": "«وَكلما ظرف وَالْعَامِل فِيهِ أوقدوا ... وَجَوَابه أطفأها» is «كُلَّمَا أَوْقَدُوا نَارًا لِّلْحَرْبِ أَطْفَأَهَا» of 5:64 only; the preceding «مَا أنزل ... رفع بِفِعْلِهِ وَهُوَ وليزيدن» is the identical phrase «وَلَيَزِيدَنَّ كَثِيرًا مِّنْهُم مَّا أُنزِلَ إِلَيْكَ» that opens the same stretch of 5:64 (Mekki's order ما أنزل then كلما follows 5:64); the book has no other entry for 5:64 (entries jump 61 -> 68). The entry is about 5:64; since the ما أنزل phrase also recurs verbatim in 5:68, 64-68 is the safe complete range.",
+"at": "2026-10-17 00:40",
+"ayahs": "64-68"
+}
+},
+"status": "DECIDED",
+"class": "HUMAN"
+}
+}
+}
+}

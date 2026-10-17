@@ -1,0 +1,42 @@
+{
+"akhfash:2-2": {
+"p1": {
+"ar": "fc094a85534b",
+"tr": "74e4da6d5df4",
+"en": "f7408d501406",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN rendered the example as an incomplete (… the wall lest it lean); completed as hold the wall lest it lean",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:48",
+"fixed": true
+},
+"p2": {
+"ar": "fc094a85534b",
+"tr": "74e4da6d5df4",
+"en": "f7408d501406",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-p2-u1",
+"at": "2026-10-16 18:52",
+"fixed": false
+}
+},
+"akhfash:13-13": {
+"p1": {
+"ar": "ce3fe5849352",
+"tr": "d26d2e883df9",
+"en": "d0a604cdbef0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:48",
+"fixed": false
+}
+}
+}

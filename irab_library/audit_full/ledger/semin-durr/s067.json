@@ -1,0 +1,380 @@
+{
+"semin-durr:2-2": {
+"p1": {
+"ar": "aa34c637489e",
+"tr": "566af271d057",
+"en": "491cf6397d09",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:40",
+"fixed": false
+}
+},
+"semin-durr:3-3": {
+"p1": {
+"ar": "1e6f44eb4677",
+"tr": "7313a887aa6e",
+"en": "17c0f4be5add",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR \"arka çıkma\" rendered تظاهُر wrongly and silently corrected «قبول» to kabir; EN fine-tuned تظاهُر",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:40",
+"fixed": true
+},
+"p2": {
+"ar": "1e6f44eb4677",
+"tr": "7313a887aa6e",
+"en": "17c0f4be5add",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u19",
+"at": "2026-10-17 00:10",
+"fixed": false
+}
+},
+"semin-durr:4-4": {
+"p1": {
+"ar": "04b1ec5c929a",
+"tr": "bda4c6b40192",
+"en": "ea05851d4a80",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:40",
+"fixed": false
+}
+},
+"semin-durr:5-5": {
+"p1": {
+"ar": "730ae736b1c7",
+"tr": "617d891eae8a",
+"en": "ab61d46a95b3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:40",
+"fixed": false
+}
+},
+"semin-durr:6-6": {
+"p1": {
+"ar": "4a47ff723d5c",
+"tr": "9c63273e2747",
+"en": "a49a9e7148ab",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:40",
+"fixed": false
+}
+},
+"semin-durr:7-7": {
+"p1": {
+"ar": "5cce4c35adc6",
+"tr": "8b5d34331e7c",
+"en": "e655dd3e4ac7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:40",
+"fixed": false
+}
+},
+"semin-durr:8-8": {
+"p1": {
+"ar": "d7a55e62476d",
+"tr": "095ca4feaa0c",
+"en": "9374c221ea1a",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR attributed the shadda reading to Talha as well; Arabic \"وبها\" = with two tāʾs, only al-Bazzī with shadda; fixed",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:40",
+"fixed": true
+},
+"p2": {
+"ar": "d7a55e62476d",
+"tr": "095ca4feaa0c",
+"en": "9374c221ea1a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u19",
+"at": "2026-10-17 00:10",
+"fixed": false
+}
+},
+"semin-durr:9-9": {
+"p1": {
+"ar": "5d821fcd05c6",
+"tr": "e92941cf9870",
+"en": "09eb263f8f8d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:40",
+"fixed": false
+}
+},
+"semin-durr:11-11": {
+"p1": {
+"ar": "998f8fffca6c",
+"tr": "8576c78c415d",
+"en": "47e40dd477cd",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p1-u10",
+"at": "2026-10-17 00:17",
+"fixed": false
+},
+"p2": {
+"ar": "998f8fffca6c",
+"tr": "8576c78c415d",
+"en": "47e40dd477cd",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Ibn Atiyya «فالوجه فيه الرفع» (the proper form is the nominative) weakened in TR to \"there is a raf' option\"; fixed.",
+"by": "semin-durr-p2-u19",
+"at": "2026-10-17 00:10",
+"fixed": true
+}
+},
+"semin-durr:12-12": {
+"p1": {
+"ar": "0b7d6eef71c2",
+"tr": "b8c0899ff2d3",
+"en": "d94336198a35",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:40",
+"fixed": false
+}
+},
+"semin-durr:14-14": {
+"p1": {
+"ar": "b7041f3ab70d",
+"tr": "7a5a92805e0b",
+"en": "ea564af84c7b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:57",
+"fixed": false
+}
+},
+"semin-durr:15-15": {
+"p1": {
+"ar": "6bb019a84bd0",
+"tr": "dd2434e4be3b",
+"en": "f9ac45fb948f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:40",
+"fixed": false
+}
+},
+"semin-durr:16-16": {
+"p1": {
+"ar": "ba881865137c",
+"tr": "181192ff4ad5",
+"en": "a8153564c69a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p1-u10",
+"at": "2026-10-17 00:17",
+"fixed": false
+},
+"p2": {
+"ar": "ba881865137c",
+"tr": "181192ff4ad5",
+"en": "a8153564c69a",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR silently corrected source typo «على صله» to \"aslı\"; added marked translator's note as EN has.",
+"by": "semin-durr-p2-u19",
+"at": "2026-10-17 00:10",
+"fixed": true
+}
+},
+"semin-durr:19-19": {
+"p1": {
+"ar": "25cb316f2c42",
+"tr": "eed0b158557e",
+"en": "16836782b8a5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:57",
+"fixed": false
+}
+},
+"semin-durr:20-20": {
+"p1": {
+"ar": "05829f102803",
+"tr": "5c2185cc21dc",
+"en": "c92510ee9523",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:57",
+"fixed": false
+},
+"p2": {
+"ar": "05829f102803",
+"tr": "5c2185cc21dc",
+"en": "c92510ee9523",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u19",
+"at": "2026-10-17 00:10",
+"fixed": false
+}
+},
+"semin-durr:21-21": {
+"p1": {
+"ar": "11af770e5b02",
+"tr": "902f698eef1f",
+"en": "d80d95c2e9bb",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:57",
+"fixed": false
+}
+},
+"semin-durr:22-22": {
+"p1": {
+"ar": "9ec99c584d8a",
+"tr": "53ad508df8d5",
+"en": "864e5740990f",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR renders السها as Süheyl yildizi (Canopus, a bright star) which inverts the simile; corrected to Suhâ",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:57",
+"fixed": true
+},
+"p2": {
+"ar": "9ec99c584d8a",
+"tr": "53ad508df8d5",
+"en": "864e5740990f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u19",
+"at": "2026-10-17 00:10",
+"fixed": false
+}
+},
+"semin-durr:23-23": {
+"p1": {
+"ar": "9623e46a3612",
+"tr": "0676bc5fd655",
+"en": "d8ae8293d596",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:57",
+"fixed": false
+},
+"p2": {
+"ar": "9623e46a3612",
+"tr": "0676bc5fd655",
+"en": "d8ae8293d596",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u19",
+"at": "2026-10-17 00:10",
+"fixed": false
+}
+},
+"semin-durr:27-27": {
+"p1": {
+"ar": "340b66094a05",
+"tr": "a6cf1843002b",
+"en": "f4a6d876608c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:57",
+"fixed": false
+}
+},
+"semin-durr:29-29": {
+"p1": {
+"ar": "aadb738842a7",
+"tr": "c0b421ce1114",
+"en": "da472fb20845",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:57",
+"fixed": false
+}
+},
+"semin-durr:30-30": {
+"p1": {
+"ar": "786391f94ee8",
+"tr": "9b925930c48c",
+"en": "f5b8d12ff8ee",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:57",
+"fixed": false
+}
+}
+}

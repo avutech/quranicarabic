@@ -1,0 +1,96 @@
+{
+"nahhas-irab:1-1": {
+"p1": {
+"ar": "cc2c7d6ea8ad",
+"tr": "1983935c8ec2",
+"en": "fca38d46b087",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:19",
+"fixed": false
+}
+},
+"nahhas-irab:2-2": {
+"p1": {
+"ar": "a2607a6e49e3",
+"tr": "29364e9ac795",
+"en": "b6fd5e700ca4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:19",
+"fixed": false
+}
+},
+"nahhas-irab:3-3": {
+"p1": {
+"ar": "11f07adc6495",
+"tr": "6fecbf1575f4",
+"en": "2ebef27db9fc",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:19",
+"fixed": false
+},
+"p2": {
+"ar": "11f07adc6495",
+"tr": "6fecbf1575f4",
+"en": "2ebef27db9fc",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 19:05",
+"fixed": false
+}
+},
+"nahhas-irab:4-4": {
+"p1": {
+"ar": "256c24a3c948",
+"tr": "8e1577e833dc",
+"en": "474bf27ecd9b",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR silently corrected أم جمل and the printed vowelling (notes added); EN had added unmarked \"(فِي جِيدِها حَبْلٌ)\" and \"(with a rope on her neck)\" which are not in the Arabic; removed.",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:19",
+"fixed": true
+},
+"p2": {
+"ar": "256c24a3c948",
+"tr": "8e1577e833dc",
+"en": "474bf27ecd9b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 19:05",
+"fixed": false
+}
+},
+"nahhas-irab:5-5": {
+"p1": {
+"ar": "df385de3eb46",
+"tr": "871b563ba1af",
+"en": "c4513dbc9034",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:19",
+"fixed": false
+}
+}
+}

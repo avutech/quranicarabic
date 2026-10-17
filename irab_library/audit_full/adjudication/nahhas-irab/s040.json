@@ -1,0 +1,192 @@
+{
+"nahhas-irab:1-1": {
+"hs": [
+"e7ca18c713b8",
+"ed857785d9f4",
+"b97763d9b6ee"
+],
+"dims": {
+"fit": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Entry 'بإسكان الميم الآخرة لأنها حروف هجاء ... وأما قراءة عيسى بن عمر حاميم تنزيل فمفتوحة' is entirely about the pronunciation/i'rab of حم, i.e. 40:1; it is correctly listed. The missing opening is a translation-note matter, not a placement issue; the text is intelligible, so not a source defect for placement.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Entry 'بإسكان الميم الآخرة لأنها حروف هجاء ... وأما قراءة عيسى بن عمر حاميم تنزيل فمفتوحة لالتقاء الساكنين' is entirely about حم of 40:1 (and its junction with تنزيل of 40:2). The missing opening is only the lemma header; content is placeable and correctly listed under 40:1.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+},
+"nahhas-irab:25-25": {
+"hs": [
+"5eb2a4866a3e",
+"61959832e220",
+"ba3c984d8bb5"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic 'وإن فعل بهم مثل هذا فكيف يذهب باطلا' has no negation and no explicit subject; Turkish 'o hâlde (kâfirlerin hilesi) nasıl boşa gitmesin?' adds an unmarked subject '(kâfirlerin hilesi)' and turns the sentence into a negated question - a recast of the text instead of translating what is written; any interpretation belongs in a Mütercim notu.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source: 'وإن فعل بهم مثل هذا فكيف يذهب باطلا' (an exclamation/question: so how it goes in vain!). Turkish 'o hâlde (kâfirlerin hilesi) nasıl boşa gitmesin?' introduces a negation not in يذهب and inserts the subject '(kâfirlerin hilesi)' without a Mütercim notu; translate what is written (e.g. 'nasıl da boşa gider!') and put any explanation of the subject in a note.",
+"at": "2026-10-17 00:40"
+},
+"J3": {
+"class": "CONFIRMED",
+"evidence": "Arabic ends: «أي إنّه لا يمتنع النّاس من الإيمان، وإن فعل بهم مثل هذا فكيف يذهب باطلا» = 'i.e. people do not refrain from faith even if the like of this is done to them; so that is how it (the plot) goes for nothing'. Turkish renders «فكيف يذهب باطلا» as 'o hâlde (kâfirlerin hilesi) nasıl boşa gitmesin?': it inserts a negation (gitmesin) absent from يذهب, turning the statement into a negated rhetorical question, and adds the subject '(kâfirlerin hilesi)' in plain parentheses rather than inside «[Mütercim notu: …]». Rest of the TR (جمع ابن على الأصل, Qatada's two killings) is accurate. Fix: e.g. 'İşte (hile) böyle boşa gider' with the supplied subject placed in a Mütercim notu.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "فكيف يذهب باطلا now 'nasıl da boşa gider!' without negation; subject moved into Mütercim notu",
+"verified": "PASS",
+"verify_note": "Ending now 'o hâlde nasıl da boşa gider!' (no inserted negation), with the supplied subject placed in a Mütercim notu; Qatada's two killings and جمع ابن على الأصل complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"5eb2a4866a3e",
+"48590011fca3",
+"ba3c984d8bb5"
+],
+"dim": "tr",
+"what": "فكيف يذهب باطلا now 'nasıl da boşa gider!' without negation; subject moved into Mütercim notu",
+"at": "2026-10-17 00:44"
+}
+]
+},
+"nahhas-irab:64-64": {
+"hs": [
+"8bdf29f0a8df",
+"6ea38f6c11b9",
+"cb7ea10b2a61"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source says 'ولا يقولون: في فعلة مفتوحة اللام إلا فعال'; English renders 'faʿla with a fatḥa on the first radical', silently changing اللام to the first radical; the general note about supplied vowels does not cover this change (Turkish flags it). Also '[as they did fuʿla on fuʿal]' is an unmarked bracket addition.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source: 'ولا يقولون: في فعلة مفتوحة اللام إلا فعال'. English 'for faʿla with a fatḥa on the first radical' silently changes 'اللام' (the lām) to 'first radical'; the general note about supplied vowels does not mark this change. Turkish keeps it and notes it. Silent correction: needs a Translator's note.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Kept 'fatḥa on the lām' with Translator's note; removed unmarked '[as they did fuʿla on fuʿal]'",
+"verified": "PASS",
+"verify_note": "'fatḥa on the lām' now kept as written with a Translator's note; '[as they did fuʿla on fuʿal]' removed; سورة/سور and vowel supply covered by notes; full paragraph rendered faithfully."
+}
+},
+"history": [
+{
+"old_hs": [
+"8bdf29f0a8df",
+"6ea38f6c11b9",
+"c9058b1bfbbd"
+],
+"dim": "en",
+"what": "Kept 'fatḥa on the lām' with Translator's note; removed unmarked '[as they did fuʿla on fuʿal]'",
+"at": "2026-10-17 00:44"
+}
+]
+},
+"nahhas-irab:75-75": {
+"hs": [
+"af87ab61b424",
+"1d7731a6aa41",
+"9dc77ebc3bf3"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic hadith 'لو لم يعذّب الله جلّ وعزّ إلّا على فرحنا بالمعاصي واستقامتها لنا' has no object and no apodosis; English adds '[us]' and '[it would have been enough]' as plain brackets, not inside a Translator's note: unmarked additions (the truncation should be noted).",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source hadith: 'لو لم يعذّب الله جلّ وعزّ إلّا على فرحنا بالمعاصي واستقامتها لنا' has no object and no apodosis. English adds '[us]' and '[it would have been enough]' in plain brackets, not inside a [Translator's note: …]; unmarked additions (the Turkish correctly marks the missing apodosis in a note).",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked '[us]' and '[it would have been enough]'; incomplete apodosis noted in Translator's note",
+"verified": "PASS",
+"verify_note": "'[us]' and '[it would have been enough]' removed; the missing apodosis is flagged in a Translator's note; rest (Qatāda-free tafsir, Mujāhid, تأشرون/تبطرون) complete."
+}
+},
+"history": [
+{
+"old_hs": [
+"af87ab61b424",
+"1d7731a6aa41",
+"de2c0355f0b3"
+],
+"dim": "en",
+"what": "Removed unmarked '[us]' and '[it would have been enough]'; incomplete apodosis noted in Translator's note",
+"at": "2026-10-17 00:44"
+}
+]
+},
+"nahhas-irab:82-82": {
+"hs": [
+"5e55a53de551",
+"c97a743eaca9",
+"7eaff92f3315"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic 'وزعم الكوفيون أن كل ما لا ينصرف يجوز أن ينصرف إلّا أفعل من كذا' has no 'في الشعر' qualifier at that point; English inserts '[in poetry]' unmarked. Unmarked addition.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source: 'وزعم الكوفيون أن كل ما لا ينصرف يجوز أن ينصرف إلّا أفعل من كذا' — no 'في الشعر' qualifier in the general statement. English 'may be declined [in poetry]' adds a restriction not in the Arabic, in plain brackets, not inside a [Translator's note: …]; unmarked addition.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked '[in poetry]'",
+"verified": "PASS",
+"verify_note": "'[in poetry]' removed from the Kufan general statement; 'in poetry or otherwise' now only where the Arabic has في شعر ولا غيره; Abū al-ʿAbbās argument complete."
+}
+},
+"history": [
+{
+"old_hs": [
+"5e55a53de551",
+"c97a743eaca9",
+"1399e6e88796"
+],
+"dim": "en",
+"what": "Removed unmarked '[in poetry]'",
+"at": "2026-10-17 00:44"
+}
+]
+}
+}

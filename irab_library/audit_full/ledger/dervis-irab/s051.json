@@ -1,0 +1,146 @@
+{
+"dervis-irab:1-14": {
+"p1": {
+"ar": "6db5c3198154",
+"tr": "1d8e8350e926",
+"en": "cb1d8e97e764",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u91",
+"at": "2026-10-10 19:45",
+"fixed": false
+}
+},
+"dervis-irab:15-23": {
+"p1": {
+"ar": "07414fa46c72",
+"tr": "eb59f8317d7d",
+"en": "959ae20f2951",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u91",
+"at": "2026-10-10 19:45",
+"fixed": false
+},
+"p2": {
+"ar": "07414fa46c72",
+"tr": "eb59f8317d7d",
+"en": "959ae20f2951",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u5",
+"at": "2026-10-17 00:04",
+"fixed": false
+}
+},
+"dervis-irab:24-37": {
+"p1": {
+"ar": "6e4a2ab71267",
+"tr": "a552dd0f9e0c",
+"en": "9d0537199bec",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN silently corrected source typos in the lugat (حر الجند rendered as heat of fever; الصحة rendered as the uproar and the cry) without a translator note, and rendered حاري as sand-hewn wall unlike the TR Hira reading; fixed",
+"by": "dervis-irab-u2",
+"at": "2026-10-11 01:40",
+"fixed": true
+},
+"p2": {
+"ar": "6e4a2ab71267",
+"tr": "a552dd0f9e0c",
+"en": "9d0537199bec",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u6",
+"at": "2026-10-17 00:02",
+"fixed": false
+}
+},
+"dervis-irab:38-42": {
+"p1": {
+"ar": "febfc75259e1",
+"tr": "1f21765dfcc6",
+"en": "5b7bcc35f9e8",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR: source run-on «ساحرَأَخَذْناهُ...» was silently split without a translator note (EN has one); added note",
+"by": "dervis-irab-p1-u3",
+"at": "2026-10-17 00:20",
+"fixed": true
+},
+"p2": {
+"ar": "febfc75259e1",
+"tr": "1f21765dfcc6",
+"en": "5b7bcc35f9e8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u4",
+"at": "2026-10-17 00:32",
+"fixed": false
+}
+},
+"dervis-irab:43-48": {
+"p1": {
+"ar": "fd6a21765811",
+"tr": "c0ce99f7ca5a",
+"en": "77f6e36466a1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u3",
+"at": "2026-10-17 00:20",
+"fixed": false
+},
+"p2": {
+"ar": "fd6a21765811",
+"tr": "c0ce99f7ca5a",
+"en": "77f6e36466a1",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN transliterated «يوسع بالتصحيح» as yasaʿu, contradicting «بالتصحيح» (wāw kept); corrected to yawsaʿu with a marked note.",
+"by": "dervis-irab-p2-u6",
+"at": "2026-10-17 00:02",
+"fixed": true
+}
+},
+"dervis-irab:49-60": {
+"p1": {
+"ar": "40d34d90258d",
+"tr": "d91323477cbf",
+"en": "eda09d878985",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR: Alqama verse «ضبطت بنعمة» rendered as \"nimet ulastirdin\" (the other reading khabatta) though note says source reads ضبطت; now translated as written",
+"by": "dervis-irab-p1-u3",
+"at": "2026-10-17 00:20",
+"fixed": true
+},
+"p2": {
+"ar": "40d34d90258d",
+"tr": "d91323477cbf",
+"en": "eda09d878985",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u5",
+"at": "2026-10-17 00:29",
+"fixed": false
+}
+}
+}

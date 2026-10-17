@@ -1,0 +1,134 @@
+{
+"ukberi-tibyan:1-1": {
+"p1": {
+"ar": "287fed86b1d4",
+"tr": "53fb17d59d3e",
+"en": "68228ae65a88",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-p1-u7",
+"at": "2026-10-16 17:08",
+"fixed": false
+},
+"p2": {
+"ar": "287fed86b1d4",
+"tr": "53fb17d59d3e",
+"en": "68228ae65a88",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR silently corrected source الْإِلَاءُ to الإلاه; now kept as written with a translator note (EN already had one).",
+"by": "ukberi-tibyan-u8",
+"at": "2026-10-11 04:08",
+"fixed": true
+}
+},
+"ukberi-tibyan:2-3": {
+"p1": {
+"ar": "66df7a6bcc86",
+"tr": "befaf3114cf7",
+"en": "7035c69e0c43",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u29",
+"at": "2026-10-10 15:52",
+"fixed": false
+}
+},
+"ukberi-tibyan:4-4": {
+"p1": {
+"ar": "17227b44ba40",
+"tr": "03059aabf0de",
+"en": "b4a6c6de0098",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u29",
+"at": "2026-10-10 15:52",
+"fixed": false
+}
+},
+"ukberi-tibyan:5-5": {
+"p1": {
+"ar": "644fdda2cfef",
+"tr": "79bdb29ef431",
+"en": "f4693c69f2cf",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u29",
+"at": "2026-10-10 15:52",
+"fixed": false
+},
+"p2": {
+"ar": "644fdda2cfef",
+"tr": "79bdb29ef431",
+"en": "f4693c69f2cf",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u8",
+"at": "2026-10-11 04:08",
+"fixed": false
+}
+},
+"ukberi-tibyan:6-7": {
+"p1": {
+"ar": "9e5536910381",
+"tr": "2bf78cc86073",
+"en": "759eebd841a9",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR silently corrected source typo بَلَغَهُ to yuttu; now translated as written with translator note",
+"by": "ukberi-tibyan-u29",
+"at": "2026-10-10 15:52",
+"fixed": true
+},
+"p2": {
+"ar": "9e5536910381",
+"tr": "2bf78cc86073",
+"en": "759eebd841a9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u8",
+"at": "2026-10-11 04:08",
+"fixed": false
+}
+},
+"ukberi-tibyan:7-7": {
+"p1": {
+"ar": "ad12b21412eb",
+"tr": "9e565c04f6a2",
+"en": "cdfca5138b29",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN removed unmarked bracketed additions [عَلَى زَيْدٍ] and [the imperative]",
+"by": "ukberi-tibyan-u29",
+"at": "2026-10-10 15:52",
+"fixed": true
+},
+"p2": {
+"ar": "ad12b21412eb",
+"tr": "9e565c04f6a2",
+"en": "cdfca5138b29",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u8",
+"at": "2026-10-11 04:08",
+"fixed": false
+}
+}
+}

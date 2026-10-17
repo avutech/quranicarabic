@@ -1,0 +1,47 @@
+{
+"harrat-mujtaba:46-46": {
+"hs": [
+"53aeb6efec55",
+"659273d49290",
+"0e4a9d37450e"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «أي: غَلْيًا مثلَ غَلْي» — 'a boiling like the boiling', no mention of الحميم. English 'a boiling like the boiling [of scalding water]' adds '[of scalding water]' in plain brackets, not in a Translator's note. Unmarked addition.",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "The Arabic paraphrase is only «أي: غَلْيًا مثلَ غَلْي» ('a boiling like the boiling'). The English adds '[of scalding water]', which is in plain brackets and not inside a Translator's note, so it is an unmarked addition. The Turkish keeps «غَلْيًا مثلَ غَلْي» as written.",
+"at": "2026-10-17 00:42"
+},
+"J3": {
+"class": "CONFIRMED",
+"evidence": "Arabic ends «أي: غَلْيًا مثلَ غَلْي» (a boiling like the boiling), with no mention of الحميم. English renders it 'a boiling like the boiling [of scalding water]': the bracketed '[of scalding water]' is an addition without the [Translator's note: ...] label, so it is an unmarked addition. Fix: put it inside a Translator's note (or keep the Arabic «غَلْيًا مثلَ غَلْي»). The rest (kāf a noun meaning «مثل», stand-in for the mafʿūl muṭlaq) is correct.",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "put [of scalding water] inside a Translator's note; moved the prefixed ayah quote inside the Translator's note",
+"verified": "PASS",
+"verify_note": "'of scalding water' now inside Translator's note; phrase heading inside note; faithful and complete."
+}
+},
+"history": [
+{
+"old_hs": [
+"53aeb6efec55",
+"659273d49290",
+"35c05c1e39bf"
+],
+"dim": "en",
+"what": "put [of scalding water] inside a Translator's note; moved the prefixed ayah quote inside the Translator's note",
+"at": "2026-10-17 00:45"
+}
+]
+}
+}

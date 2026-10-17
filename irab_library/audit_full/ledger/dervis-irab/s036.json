@@ -1,0 +1,306 @@
+{
+"dervis-irab:41-46": {
+"p1": {
+"ar": "354b3b7cd5a2",
+"tr": "dbbc0d7e548f",
+"en": "3403a1233d11",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u15",
+"at": "2026-10-17 00:06",
+"fixed": false
+},
+"p2": {
+"ar": "354b3b7cd5a2",
+"tr": "dbbc0d7e548f",
+"en": "3403a1233d11",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN: \"والأصول خلقت منها الفروع\" was rendered \"the ancestors were created from them [as source...]\" (reversed, unmarked bracket); \"شحنت الكلاب أي أبعدت الطرد\" rendered with \"I\" as subject instead of the dogs. Both fixed.",
+"by": "dervis-irab-p2-u34",
+"at": "2026-10-16 19:28",
+"fixed": true
+}
+},
+"dervis-irab:47-50": {
+"p1": {
+"ar": "2178ea31558f",
+"tr": "8f292ac9c965",
+"en": "ec88e92f2bfc",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u88",
+"at": "2026-10-10 19:41",
+"fixed": false
+}
+},
+"dervis-irab:51-54": {
+"p1": {
+"ar": "65b262ca2635",
+"tr": "f67c241d7da0",
+"en": "3b7f3d3cc261",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish added unmarked \"(sıladır)\" after «وعد الرحمن» cümlesi fiil ve fâildir; removed.",
+"by": "dervis-irab-u88",
+"at": "2026-10-10 19:40",
+"fixed": true
+},
+"p2": {
+"ar": "65b262ca2635",
+"tr": "f67c241d7da0",
+"en": "3b7f3d3cc261",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u34",
+"at": "2026-10-16 19:28",
+"fixed": false
+}
+},
+"dervis-irab:55-61": {
+"p1": {
+"ar": "92c76a768d63",
+"tr": "34da7cfa94c9",
+"en": "47e3a217c5b1",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish: \"افتضاض أبكار\" was rendered \"bakirelerle buluşmak\" (meeting), fixed to deflowering; also التخلية/التحلية both rendered \"tahliye\", now given in Arabic script.",
+"by": "dervis-irab-p1-u2",
+"at": "2026-10-17 00:18",
+"fixed": true
+},
+"p2": {
+"ar": "92c76a768d63",
+"tr": "34da7cfa94c9",
+"en": "47e3a217c5b1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u2",
+"at": "2026-10-17 00:31",
+"fixed": false
+}
+},
+"dervis-irab:62-67": {
+"p1": {
+"ar": "3e1b0d738c97",
+"tr": "5f19d932a3c3",
+"en": "a10b2762ad05",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English: \"عطف على ما\" (source breaks off) was silently completed as \"what preceded\", added translator note; \"يخلفوا الصراط\" rendered \"overtake\", changed to \"leave behind\" to match the Arabic and Turkish.",
+"by": "dervis-irab-p1-u2",
+"at": "2026-10-17 00:18",
+"fixed": true
+},
+"p2": {
+"ar": "3e1b0d738c97",
+"tr": "5f19d932a3c3",
+"en": "a10b2762ad05",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u2",
+"at": "2026-10-17 00:31",
+"fixed": false
+}
+},
+"dervis-irab:68-76": {
+"p1": {
+"ar": "812a91cadf57",
+"tr": "8ca75d4295c9",
+"en": "70b10dd0eeab",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u88",
+"at": "2026-10-10 19:41",
+"fixed": false
+}
+},
+"dervis-irab:77-83": {
+"p1": {
+"ar": "4dd605f739e9",
+"tr": "ff8957915f38",
+"en": "9852e9deb04b",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish: \"ولأخصمنه\" (I will defeat him in argument) was rendered \"onunla davalaşacağım\"; \"واختصموا تخاصموا\" had lost \"تخاصموا\"; an unmarked gloss on \"وهو شاذ\" was removed.",
+"by": "dervis-irab-p1-u2",
+"at": "2026-10-17 00:18",
+"fixed": true
+},
+"p2": {
+"ar": "4dd605f739e9",
+"tr": "ff8957915f38",
+"en": "9852e9deb04b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u2",
+"at": "2026-10-17 00:32",
+"fixed": false
+}
+},
+"dervis-irab:1-9": {
+"p1": {
+"ar": "4e71833d130e",
+"tr": "41dfd7c1b908",
+"en": "ecc926a95232",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u2",
+"at": "2026-10-17 00:18",
+"fixed": false
+},
+"p2": {
+"ar": "4e71833d130e",
+"tr": "41dfd7c1b908",
+"en": "ecc926a95232",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN: al-Karkhī quote dropped the restriction of \"لأنه إنما يقال محكوم به\" (\"because one would then say\"), now \"one only says\"; \"أي ذي الحكم\" was rendered \"possessor of wisdom\", now \"possessor of ḥukm (dhī al-ḥukm)\"; typo \"al-saddd\" corrected to \"al-sudd\".",
+"by": "dervis-irab-p2-u4",
+"at": "2026-10-17 00:03",
+"fixed": true
+}
+},
+"dervis-irab:10-12": {
+"p1": {
+"ar": "ecf3fb42cd13",
+"tr": "39f9db12d7ce",
+"en": "c225f2bc32ed",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u88",
+"at": "2026-10-10 19:44",
+"fixed": false
+}
+},
+"dervis-irab:13-19": {
+"p1": {
+"ar": "f71d8fc2527e",
+"tr": "de8f93553767",
+"en": "5b770e737a79",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u2",
+"at": "2026-10-17 00:19",
+"fixed": false
+},
+"p2": {
+"ar": "f71d8fc2527e",
+"tr": "de8f93553767",
+"en": "5b770e737a79",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "EN: Wahb attribution \"وقيل صادق ومصدوق\" rendered \"Ṣādiq and Muṣaddaq\" (wrong name), now \"Maṣdūq\"; omitted plural form \"قرى بضم القاف وكسرها\" restored. TR: \"شمعون الصفي\" rendered es-Safâ, now es-Safî as written.",
+"by": "dervis-irab-p2-u4",
+"at": "2026-10-17 00:04",
+"fixed": true
+}
+},
+"dervis-irab:20-29": {
+"p1": {
+"ar": "f603eb63942e",
+"tr": "86495a36f976",
+"en": "5feaa40dd1e2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u2",
+"at": "2026-10-17 00:16",
+"fixed": false
+},
+"p2": {
+"ar": "f603eb63942e",
+"tr": "86495a36f976",
+"en": "5feaa40dd1e2",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "EN dropped the negation in \"وما بعد ذلك غبطة لمستزيد\" (\"beyond that is a happiness\"), now \"nothing more to be envied\"; also unmarked silent reading of \"ليروعوا\" now noted, \"استئصال شأفتهم\" mistranslated as \"hair-lock\", duplicated unmarked parenthetical removed. TR inserted إذن into the source example \"لو زرتني لأكرمتك\"; restored as written with note.",
+"by": "dervis-irab-p2-u4",
+"at": "2026-10-17 00:04",
+"fixed": true
+}
+},
+"dervis-irab:30-32": {
+"p1": {
+"ar": "7730934db1ad",
+"tr": "572408b5fd9c",
+"en": "2f5022c06870",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u2",
+"at": "2026-10-11 00:54",
+"fixed": false
+}
+},
+"dervis-irab:33-36": {
+"p1": {
+"ar": "94a5bd357463",
+"tr": "c1c0647351dc",
+"en": "b96cdd158232",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u2",
+"at": "2026-10-17 00:18",
+"fixed": false
+},
+"p2": {
+"ar": "94a5bd357463",
+"tr": "b70743475995",
+"en": "b96cdd158232",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN Fevaid: plural forms of ثمر (\"بضمتين\" and \"بضمة فسكون\") were transliterated thamur/thumur contradicting the stated vowels; now thumur/thumr.",
+"by": "dervis-irab-p2-u4",
+"at": "2026-10-17 00:05",
+"fixed": true
+}
+},
+"dervis-irab:37-40": {
+"p1": {
+"ar": "181dcdbaa2ea",
+"tr": "3abdd854bb1c",
+"en": "4fc0121ba502",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u2",
+"at": "2026-10-11 00:54",
+"fixed": false
+}
+}
+}

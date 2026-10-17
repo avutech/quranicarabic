@@ -1,0 +1,258 @@
+{
+"mekki-muskil:1-1": {
+"p1": {
+"ar": "b83da430ce02",
+"tr": "9dc4376f8bd3",
+"en": "cf4585bc7c6c",
+"fit": "OK",
+"trv": "OMISSION",
+"env": "OK",
+"note": "Turkish cuts off after \"Yani «وما في الأرض» (ve ye\"; the rest (ma is an indefinite described noun, ṣila vs adjective, consensus) missing.",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:45",
+"fixed": false
+},
+"p2": {
+"ar": "b83da430ce02",
+"tr": "9dc4376f8bd3",
+"en": "cf4585bc7c6c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 17:07",
+"fixed": false
+}
+},
+"mekki-muskil:4-4": {
+"p1": {
+"ar": "13756a4992ca",
+"tr": "29149f92faaf",
+"en": "392c0d840cd0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"mekki-muskil:8-8": {
+"p1": {
+"ar": "bb9288819b8c",
+"tr": "ae03902a31c9",
+"en": "92628373a99c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"mekki-muskil:10-10": {
+"p1": {
+"ar": "df37c3e8bbce",
+"tr": "296fa3808e1f",
+"en": "c7d0e3be6635",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "Removed unmarked bracket addition [with an omitted referring pronoun].",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:45",
+"fixed": true
+},
+"p2": {
+"ar": "df37c3e8bbce",
+"tr": "296fa3808e1f",
+"en": "c7d0e3be6635",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 17:07",
+"fixed": false
+}
+},
+"mekki-muskil:11-11": {
+"p1": {
+"ar": "75a02f51dac7",
+"tr": "a3e82d53a502",
+"en": "a828a6265ffb",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"mekki-muskil:12-12": {
+"p1": {
+"ar": "bb12b73755e0",
+"tr": "fe02ef78e89b",
+"en": "125b6a124b5f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"mekki-muskil:13-13": {
+"p1": {
+"ar": "1623f328e0f2",
+"tr": "735e06907ff3",
+"en": "87203d274e22",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"mekki-muskil:16-16": {
+"p1": {
+"ar": "b500e59ad8b6",
+"tr": "64e9197601ad",
+"en": "f08aa2e9bd19",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"mekki-muskil:19-19": {
+"p1": {
+"ar": "2121a8c9cf06",
+"tr": "d90d5b0ea359",
+"en": "95ca059a3225",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"mekki-muskil:20-20": {
+"p1": {
+"ar": "540802906a76",
+"tr": "f30e502cdb13",
+"en": "e1061f6f1007",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:45",
+"fixed": false
+},
+"p2": {
+"ar": "540802906a76",
+"tr": "f30e502cdb13",
+"en": "e1061f6f1007",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 17:07",
+"fixed": false
+}
+},
+"mekki-muskil:21-21": {
+"p1": {
+"ar": "b0100d527490",
+"tr": "044cfc3501af",
+"en": "6f96eaf9572e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"mekki-muskil:22-22": {
+"p1": {
+"ar": "d986ad5b6b85",
+"tr": "098693da8084",
+"en": "09f52ff98900",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish silently corrected source تبرأها to «نَبْرَأَهَا»; now as printed with a translator note.",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:45",
+"fixed": true
+},
+"p2": {
+"ar": "d986ad5b6b85",
+"tr": "098693da8084",
+"en": "09f52ff98900",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 17:07",
+"fixed": false
+}
+},
+"mekki-muskil:24-24": {
+"p1": {
+"ar": "e7ea9add5d66",
+"tr": "de15148b0307",
+"en": "a5b22c246256",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"mekki-muskil:27-27": {
+"p1": {
+"ar": "01d96cc0bb78",
+"tr": "4d5cbe5baeb1",
+"en": "d0b330d1cdb3",
+"fit": "OK",
+"trv": "OK",
+"env": "OMISSION",
+"note": "English cuts off at \"an exception not of the same kind as the first (disco\"; the badal alternative missing.",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:45",
+"fixed": false
+},
+"p2": {
+"ar": "01d96cc0bb78",
+"tr": "4d5cbe5baeb1",
+"en": "d0b330d1cdb3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 17:07",
+"fixed": false
+}
+}
+}

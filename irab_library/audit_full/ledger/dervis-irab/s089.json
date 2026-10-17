@@ -1,0 +1,42 @@
+{
+"dervis-irab:1-14": {
+"p1": {
+"ar": "3283ca0006fd",
+"tr": "78bb4efc95db",
+"en": "0e0398169252",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u3",
+"at": "2026-10-11 01:28",
+"fixed": false
+}
+},
+"dervis-irab:15-30": {
+"p1": {
+"ar": "83a7c156a2d0",
+"tr": "c922b3f42ac8",
+"en": "1eb3074cb57c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u5",
+"at": "2026-10-17 00:17",
+"fixed": false
+},
+"p2": {
+"ar": "83a7c156a2d0",
+"tr": "c922b3f42ac8",
+"en": "1eb3074cb57c",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR: unmarked addition \"(Ahfeş)\" after Ebu'l-Hasen (Arabic only \"أبو الحسن\") moved into a translator note; both TR and EN silently corrected the source quotation \"إن ربك بالمرصاد\" to لبالمرصاد, now as written with a note. EN: \"لازمة للفظ أي وأية\" was mistranslated as \"inseparable from the word, i.e. and أية\" (أي read as i.e.), fixed; EN also silently dropped في in \"وادخلي في جنتي\", now noted.",
+"by": "dervis-irab-p2-u7",
+"at": "2026-10-17 00:03",
+"fixed": true
+}
+}
+}

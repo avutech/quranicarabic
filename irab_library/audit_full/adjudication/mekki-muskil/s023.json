@@ -1,0 +1,56 @@
+{
+"mekki-muskil:8-8": {
+"hs": [
+"a71ec65e6357",
+"b3306be28838",
+"88c66f69fb11"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "MISPLACED",
+"evidence": "First paragraph {لأماناتهم} ... وعهدهم is 23:8 «لأماناتهم وعهدهم راعون» (correct). Second paragraph {وشجرة} نصب عطف على {جنات من نخيل} ... وتخرج is 23:19-20: «وشجرة تخرج من طور سيناء» is 23:20 (and جنات من نخيل, cited as the conjunction target, is 23:19). The i'rab discussed is of وشجرة in 23:20, so the range must reach 20.",
+"at": "2026-10-17 00:39",
+"ayahs": "8-20"
+},
+"J2": {
+"class": "MISPLACED",
+"evidence": "First paragraph {لِأَمَانَاتِهِمْ} ... وعهدهم = 23:8; second paragraph «قَوْله {وشجرة} نصب عطف على {جنَّات من نخيل}... وَتخرج وَمَا بعْدهَا نعت للشجرة» parses وَشَجَرَةً تَخْرُجُ مِن طُورِ سَيْنَاءَ = 23:20 (جنات من نخيل is 23:19, cited as antecedent).",
+"at": "2026-10-17 00:39",
+"ayahs": "8-20"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+},
+"mekki-muskil:14-14": {
+"hs": [
+"a72cad022750",
+"3e158dfc2833",
+"71c0d224987a"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "MISPLACED",
+"evidence": "First part {ثم خلقنا النطفة علقة} (two objects of خلق) is 23:14 (correct). The long following discussion «قوله سيناء من فتح السين ... ومن كسر السين» concerns سيناء in 23:20 «وشجرة تخرج من طور سيناء»; {وطور سينين} (95:2) is only cited as a parallel. Entry substantively covers 23:14 and 23:20.",
+"at": "2026-10-17 00:39",
+"ayahs": "14-20"
+},
+"J2": {
+"class": "MISPLACED",
+"evidence": "First sentence {ثمَّ خلقنَا النُّطْفَة علقَة} = 23:14; the rest «قَوْله سيناء من فتح السِّين جعله كحمراء...» is a long discussion of سَيْنَاءَ in طُورِ سَيْنَاءَ = 23:20 (وطور سينين 95:2 is only a parallel). Entry covers 14 and 20.",
+"at": "2026-10-17 00:39",
+"ayahs": "14-20"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+}
+}

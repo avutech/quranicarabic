@@ -1,0 +1,42 @@
+{
+"safi-cedvel:139-148": {
+"hs": [
+"57f7fdbea70b",
+"ef8517235bdb",
+"747ebff8efee"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Benefits: Arabic «فقيل: ثلاثة، وقيل: سبعة، وقيل: عشرين، وقيل: أربعين» gives no unit (days/hours unspecified); EN renders 'it is said three days, it is said seven...' adding an unmarked 'days' (TR correctly has «Üç, yedi, yirmi, kırk» without unit). Must be removed or put in a [Translator's note: …]. The rest of the EN matches the Arabic.",
+"at": "2026-10-17 00:43"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic «واختلفت الأقوال في مدة لبثه في بطن الحوت، فقيل: ثلاثة، وقيل: سبعة، وقيل: عشرين، وقيل: أربعين» names no unit (the reports differ between hours/days); English 'it is said three days, it is said seven...' inserts an unmarked 'days'. Must be dropped or put in a [Translator's note: …]. Rest of the Benefits is faithful.",
+"at": "2026-10-17 00:44"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Benefits: removed unmarked 'days' from 'it is said three days'",
+"verified": "PASS",
+"verify_note": "Unmarked 'days' removed: now 'three... seven... twenty... forty' as in Arabic; rest of EN complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"57f7fdbea70b",
+"ef8517235bdb",
+"d69bb9a8ea9b"
+],
+"dim": "en",
+"what": "Benefits: removed unmarked 'days' from 'it is said three days'",
+"at": "2026-10-17 00:45"
+}
+]
+}
+}

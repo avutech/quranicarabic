@@ -1,0 +1,27 @@
+{
+"dervis-irab:11-18": {
+"hs": [
+"e69284f12233",
+"38e8ad778b05",
+"2d09d4d56538"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Entry is filed under 64:11-18 and parses exactly those ayahs in order: (ما أَصابَ مِنْ مُصِيبَةٍ) 11, (وَأَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ) 12, (اللَّهُ لا إِلهَ إِلَّا هُوَ) 13, (إِنَّ مِنْ أَزْواجِكُمْ) 14, (إِنَّما أَمْوالُكُمْ ... فِتْنَةٌ) 15, (فَاتَّقُوا اللَّهَ مَا اسْتَطَعْتُمْ) 16, (إِنْ تُقْرِضُوا اللَّهَ قَرْضاً حَسَناً) 17, (عالِمُ الْغَيْبِ وَالشَّهادَةِ) 18. The fused headings (وخبراهاِنَّما / خبرَ اللَّهُ) are a typesetting fault, but the content is complete and readable and both readings flag it in marked notes; placement is correct.",
+"at": "2026-10-17 00:43"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "The entry parses 64:11 (ما أَصابَ مِنْ مُصِيبَةٍ), 64:12 (وَأَطِيعُوا اللَّهَ ... الْبَلاغُ الْمُبِينُ), 64:13 (اللَّهُ لا إِلهَ إِلَّا هُوَ), 64:14 (إِنَّ مِنْ أَزْواجِكُمْ ... وَإِنْ تَعْفُوا), 64:15 (إِنَّما أَمْوالُكُمْ ... وَاللَّهُ عِنْدَهُ أَجْرٌ عَظِيمٌ), 64:16 (فَاتَّقُوا اللَّهَ مَا اسْتَطَعْتُمْ ... الْمُفْلِحُونَ), 64:17 (إِنْ تُقْرِضُوا اللَّهَ قَرْضاً حَسَناً ... شَكُورٌ حَلِيمٌ) and 64:18 (عالِمُ الْغَيْبِ وَالشَّهادَةِ). Range 11-18 is exact. The fused headings (وخبراهاِنَّما / خبرَ اللَّهُ) are a minor typesetting glitch; the content is complete and readable, so not a placement problem nor a SOURCE_DEFECT.",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

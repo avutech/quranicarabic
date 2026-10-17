@@ -1,0 +1,29 @@
+{
+"mekki-muskil:13-13": {
+"hs": [
+"cf4c6c05dda6",
+"3db184f93964",
+"a292366399c0"
+],
+"dims": {
+"fit": {
+"votes": {
+"J2": {
+"class": "MISPLACED",
+"evidence": "First paragraph {واضرب لهم مثلا أصحاب القرية} is 36:13; second paragraph قوله بما {غفر لي ربي} (ما مصدرية / بمعنى الذي / استفهام) substantively parses 36:27.",
+"at": "2026-10-17 00:39",
+"ayahs": "13-27"
+},
+"J1": {
+"class": "MISPLACED",
+"evidence": "First part {واضرب لهم مثلا أصحاب القرية} is 36:13; second part قوله بما {غفر لي ربي} تكون ما والفعل مصدرا ... is about 36:27 (بِمَا غَفَرَ لِى رَبِّى). Entry spans both.",
+"at": "2026-10-17 00:39",
+"ayahs": "13-27"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+}
+}

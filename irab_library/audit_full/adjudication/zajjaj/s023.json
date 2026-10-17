@@ -1,0 +1,111 @@
+{
+"zajjaj:36-36": {
+"hs": [
+"c2b19ddf6c67",
+"197bc6675b52",
+"8d3c3e0b2294"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «لِأنَّ تاءَ الفَتْحِ في الجَمْعِ كُسِرَ» has no mention of nasb/case; TR renders it «çoğuldaki fetha tâsının (nasb hâlinde) kesre almasındandır» - the parenthetical «(nasb hâlinde)» is an unmarked gloss and must go into a [Mütercim notu: …]. Rest of the TR is faithful (the فَتَحْتَ/كَسَرْتَ problem is handled in a marked note).",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «لِأنَّ تاءَ الفَتْحِ في الجَمْعِ كُسِرَ» says only that the fatha-taa in the plural takes kasra; TR inserts unmarked '(nasb hâlinde)', which is not in the source. Must go inside a [Mütercim notu: ...] or be removed. Rest of TR is faithful, and the كَسَرْتَ issue is handled by a marked note.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved unmarked (nasb hâlinde) gloss into a Mütercim notu",
+"verified": "PASS",
+"verify_note": "(nasb hâlinde) now inside Mütercim notu; فتحت/كسرت issue handled in a marked note with body translating as written; rest complete and faithful."
+},
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «لِأنَّ تاءَ الفَتْحِ في الجَمْعِ كُسِرَ» (literally: because the fatḥa-tāʾ in the plural is given kasra). EN: «because the feminine plural tāʾ takes kasra in place of fatḥa» - 'feminine' is not in the Arabic and is unmarked; it should be in a [Translator's note: …]. Also the supplied words «[but when you give kasra]» replace the source's «فَإذا فَتَحْتَ» in the running text in a plain bracket rather than translating what is written; the following Translator's note explains it, but the main text should render فَتَحْتَ as written with the conjecture only in the note.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic «لِأنَّ تاءَ الفَتْحِ في الجَمْعِ كُسِرَ» = 'because the taa of fatha in the plural takes kasra'; EN renders 'the feminine plural tāʾ takes kasra in place of fatḥa', adding the unmarked word 'feminine'. Also, the body text '[but when you give kasra] you pause' replaces the written «فَإذا فَتَحْتَ» in the body instead of translating it and putting the correction only in the note. Both need fixing.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Body now translates فَإذا فَتَحْتَ as written (conjecture kept only in the note); removed unmarked 'feminine/in place of fatḥa' from the body, literal 'tāʾ of fatḥa in the plural is given kasra' with the gloss in a Translator's note",
+"verified": "PASS",
+"verify_note": "Body now renders فإذا فتحت وقفت على التاء as written with the conjecture only in a Translator's note; 'feminine' moved into a Translator's note; rest complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"c2b19ddf6c67",
+"1425c3aa390b",
+"e003643d3caa"
+],
+"dim": "tr",
+"what": "Moved unmarked (nasb hâlinde) gloss into a Mütercim notu",
+"at": "2026-10-17 00:44"
+},
+{
+"old_hs": [
+"c2b19ddf6c67",
+"197bc6675b52",
+"8d3c3e0b2294"
+],
+"dim": "en",
+"what": "Body now translates فَإذا فَتَحْتَ as written (conjecture kept only in the note); removed unmarked 'feminine/in place of fatḥa' from the body, literal 'tāʾ of fatḥa in the plural is given kasra' with the gloss in a Translator's note",
+"at": "2026-10-17 00:44"
+}
+]
+},
+"zajjaj:35-35": {
+"hs": [
+"a4e77ccca33f",
+"b2d5db3c2155",
+"c6b8c5bb812c"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: ويَجُوزُ: ”أيَعِدُكم أنَّكم إذا مِتُّمْ أنَّكم مُخْرَجُونَ“، ولَمْ يُقْرَأْ بِها — written with أنَّكم, no mention of kasra. TR adds unmarked '(ikinci «إنَّ»nin kesresiyle)', which changes what the source says (it reads a different text); also unmarked '(vâki olacağını)' insertions. Must be a Mütercim notu.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: ويَجُوزُ: \"أيَعِدُكم أنَّكم إذا مِتُّمْ أنَّكم مُخْرَجُونَ\"، ولَمْ يُقْرَأْ بِها - the source text as written specifies no vowel change. TR adds '(ikinci «إنَّ»nin kesresiyle)' unmarked (an editorial reconstruction that differs from the written أنَّكم), and also '(rivayete bağlıdır)' after لِأنَّ القِراءَةَ سُنَّةٌ. Both must go into Mütercim notu.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Put unmarked (ikinci إنَّ'nin kesresiyle) into a Mütercim notu noting the source writes أنَّكم; also moved (vâki olacağını) x2, (O takdirde) and (rivayete bağlıdır) into Mütercim notları",
+"verified": "PASS",
+"verify_note": "kesre, vâki olacağını and rivayete bağlıdır now all inside Mütercim notu; translation complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"a4e77ccca33f",
+"c87db56f6dce",
+"c6b8c5bb812c"
+],
+"dim": "tr",
+"what": "Put unmarked (ikinci إنَّ'nin kesresiyle) into a Mütercim notu noting the source writes أنَّكم; also moved (vâki olacağını) x2, (O takdirde) and (rivayete bağlıdır) into Mütercim notları",
+"at": "2026-10-17 00:43"
+}
+]
+}
+}

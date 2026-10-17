@@ -1,0 +1,164 @@
+{
+"semin-durr:81-81": {
+"hs": [
+"db83e99cfd42",
+"866a404b2d94",
+"00608542b84b"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Makkī: «ويجوز في الكلامِ النصبُ على المصدر» - TR 'Sözde (Kur'an dışında) masdar olarak nasb da caizdir': 'في الكلام' is the grammarians' term for ordinary speech, so the sense is right, but the explanation '(Kur'an dışında)' is not in the Arabic and is unmarked. Likewise «قراءة عبد الله» is rendered 'Abdullah'ın (İbn Mes'ûd'un) kıraati' - the identification İbn Mes'ûd is an unmarked addition. Fix: put these glosses inside [Mütercim notu: …] (e.g. 'Kelâmda [Mütercim notu: yani Kur'an dışındaki sözde] …', 'Abdullah'ın [Mütercim notu: İbn Mes'ûd] kıraati'). Otherwise the TR matches the Arabic.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: قال مكي: «ويجوز في الكلامِ النصبُ على المصدر». TR: 'Sözde (Kur'an dışında) masdar olarak nasb da caizdir.' The parenthetical '(Kur'an dışında)' is an interpretive explanation of the technical phrase في الكلام; it is not in the Arabic and is not inside a [Mütercim notu: …]. The interpretation is correct, but per the standard an unmarked addition must be moved into a Mütercim notu (e.g. 'Sözde [Mütercim notu: yani Kur'an dışındaki kullanımda] …').",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved unmarked '(kurdular)' into [Mütercim notu: kurdular]",
+"verify_note": "Still unmarked: in «أي: غيرَ الذي تقول وترسم به يا محمد» the TR adds the verb '(kurdular)' in plain parentheses; it is not in the Arabic. Drop it or put it in [Mütercim notu: …]. (Earlier Kur'an dışında / İbn Mes'ûd notes are correctly marked.)",
+"fix_failed": 3,
+"verified": null
+}
+},
+"history": [
+{
+"old_hs": [
+"db83e99cfd42",
+"27b6cef0ec57",
+"00608542b84b"
+],
+"dim": "tr",
+"what": "'(Kur'an dışında)', '(İbn Mes'ûd'un)', '(kurdular)' put inside Mütercim notu",
+"at": "2026-10-17 00:43"
+},
+{
+"old_hs": [
+"db83e99cfd42",
+"866a404b2d94",
+"00608542b84b"
+],
+"dim": "tr",
+"what": "Moved unmarked glosses '(Kur'an dışında)' and '(İbn Mes'ûd'un)' into [Mütercim notu: …]",
+"at": "2026-10-17 00:43"
+},
+{
+"old_hs": [
+"db83e99cfd42",
+"8fe57ab3055f",
+"00608542b84b"
+],
+"dim": "tr",
+"what": "Moved unmarked '(kurdular)' into [Mütercim notu: kurdular]",
+"at": "2026-10-17 00:48"
+}
+]
+},
+"semin-durr:88-88": {
+"hs": [
+"b6a5d5fe8b26",
+"42842565426e",
+"455484f332b5"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic (Samīn on Abū al-Baqāʾ): «وكلامُ أبي البقاء مُخَلِّصٌ لأنه إنما ادَّعى أنه لا يَعْرِف ...» rendered 'Ebü'l-Bekâ'nın sözü (onu sorumluluktan) kurtarıcıdır'. The object '(onu sorumluluktan)' is not in the Arabic (مُخَلِّصٌ alone, 'exculpatory/saves him'); it is an interpretive supplement given in plain parentheses, not inside a [Mütercim notu: …]. Meaning is a reasonable reading, but it is an unmarked addition; fix by putting it in a Mütercim notu.",
+"at": "2026-10-17 00:40"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «وكلام أبي البقاء مُخَلِّصٌ» = 'Abū al-Baqāʾ's statement is a way out / is cleared'. TR 'Ebü'l-Bekâ'nın sözü (onu sorumluluktan) kurtarıcıdır' inserts '(onu sorumluluktan)' which is not in the Arabic and is not inside a Mütercim notu. Also «وقرأ عبد الله: ركَسَهم» is rendered 'Abdullah (İbn Mes'ûd)' - another unmarked identification. Fix: move both glosses into [Mütercim notu: …]. The rest of the TR (three وجوه for «في المنافقين», two for «فئتين», الإركاس lexicon, shawāhid) is faithful.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed remaining unmarked supplements: '(Şair)' before şöyle demiştir, '(vecih)' in 'ikinci üzere', '(sabit olma manasıdır)' after istikrardır; hadith quote now given as «إنها رِكْس» with translation instead of Latin 'rikstir'; dropped added '(dillere destan)' from verse gloss",
+"verify_note": "'(onu sorumluluktan)' and İbn Mes'ûd in Mütercim notu; '(Şair)', '(vecih)' and istikrar gloss removed; complete and faithful.",
+"fix_failed": 1,
+"verified": "PASS"
+},
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic says only «وارتكس هو أي: رجَع» (and irtakasa he himself, i.e. he went back). English renders it «ارتكس» is the intransitive, i.e. he went back: the grammatical term 'intransitive' is the translator's interpretation of «هو», not in the text, and is not inside a [Translator's note: ...]. Fix: render literally (e.g. 'and «ارتكس», [said of] him: i.e. he went back') and put the 'intransitive' gloss in a Translator's note. Rest of the entry checked and faithful.",
+"at": "2026-10-17 01:02"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic «وارتكس هو أي: رجَع» only says 'and irtakasa (he himself), i.e. he went back'. The English «ارتكس» is the intransitive, i.e. he went back' adds the grammatical label 'intransitive', which is not in the source. It is an interpretive gloss of «هو» and is unmarked. It should be translated literally, or 'intransitive' should go inside [Translator's note: …]. The rest of the English matches the Arabic.",
+"at": "2026-10-17 01:03"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Hadith quote 'It is a rikṣ' (wrong Latin transliteration) replaced by Arabic script: 'It is «رِكْس»'; rest unchanged",
+"verify_note": "EN checked sentence by sentence: hadith now 'It is «رِكْس»' in Arabic script; ارتكس 'intransitive' gloss inside Translator's note; three/two وجوه, الإركاس lexicon, shawahid, qira'at and Abu al-Baqa'/Raghib discussion complete and faithful; no unmarked additions.",
+"fix_failed": 1,
+"verified": "PASS"
+}
+},
+"history": [
+{
+"old_hs": [
+"b6a5d5fe8b26",
+"368de9c4901c",
+"daa7c886f735"
+],
+"dim": "tr",
+"what": "Unmarked '(onu sorumluluktan)' and '(İbn Mes'ûd)' moved into Mütercim notu",
+"at": "2026-10-17 00:44"
+},
+{
+"old_hs": [
+"b6a5d5fe8b26",
+"6bde3e3206dd",
+"daa7c886f735"
+],
+"dim": "tr",
+"what": "Moved unmarked glosses '(onu sorumluluktan)' and '(İbn Mes'ûd)' into Mütercim notu",
+"at": "2026-10-17 00:45"
+},
+{
+"old_hs": [
+"b6a5d5fe8b26",
+"6bde3e3206dd",
+"daa7c886f735"
+],
+"dim": "tr",
+"what": "Removed remaining unmarked supplements: '(Şair)' before şöyle demiştir, '(vecih)' in 'ikinci üzere', '(sabit olma manasıdır)' after istikrardır; hadith quote now given as «إنها رِكْس» with translation instead of Latin 'rikstir'; dropped added '(dillere destan)' from verse gloss",
+"at": "2026-10-17 00:50"
+},
+{
+"old_hs": [
+"b6a5d5fe8b26",
+"42842565426e",
+"daa7c886f735"
+],
+"dim": "en",
+"what": "Rendered «وارتكس هو أي: رجع» literally; moved the 'intransitive' gloss into a Translator's note",
+"at": "2026-10-17 01:05"
+},
+{
+"old_hs": [
+"b6a5d5fe8b26",
+"42842565426e",
+"c95a49b0aef1"
+],
+"dim": "en",
+"what": "Hadith quote 'It is a rikṣ' (wrong Latin transliteration) replaced by Arabic script: 'It is «رِكْس»'; rest unchanged",
+"at": "2026-10-17 01:09"
+}
+]
+}
+}

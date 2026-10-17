@@ -1,0 +1,554 @@
+{
+"nahhas-meani:1-3": {
+"p1": {
+"ar": "68cdb6d67623",
+"tr": "2f0d3805d1d4",
+"en": "441494db1759",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:55",
+"fixed": false
+}
+},
+"nahhas-meani:4-5": {
+"p1": {
+"ar": "9218142b5e7d",
+"tr": "c2bffcc28141",
+"en": "8db1c4a990b4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:55",
+"fixed": false
+}
+},
+"nahhas-meani:10-10": {
+"p1": {
+"ar": "5c8e3cffa497",
+"tr": "665243b8572e",
+"en": "5cd4acdeb16f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-p1-u3",
+"at": "2026-10-17 00:02",
+"fixed": false
+},
+"p2": {
+"ar": "5c8e3cffa497",
+"tr": "665243b8572e",
+"en": "5cd4acdeb16f",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "Ali report «يصيب المؤمنين الزكام» was rendered \"something like a cold\" (that is Masruq's man's wording «مثل الزكام»); corrected to \"a cold\".",
+"by": "nahhas-meani-p2-u5",
+"at": "2026-10-16 17:08",
+"fixed": true
+}
+},
+"nahhas-meani:15-15": {
+"p1": {
+"ar": "bdbd9aca69f3",
+"tr": "5d9bf4da1b86",
+"en": "072f498c5ea7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:55",
+"fixed": false
+},
+"p2": {
+"ar": "bdbd9aca69f3",
+"tr": "5d9bf4da1b86",
+"en": "072f498c5ea7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-p2-u5",
+"at": "2026-10-16 17:08",
+"fixed": false
+}
+},
+"nahhas-meani:16-16": {
+"p1": {
+"ar": "08346c378fb8",
+"tr": "755b4d416e14",
+"en": "039a95918acf",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:55",
+"fixed": false
+}
+},
+"nahhas-meani:17-17": {
+"p1": {
+"ar": "49e28721eb28",
+"tr": "46cbafc2d557",
+"en": "1276b8fcdb31",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR \"Mûsâ'yı (s.a.v.)\" gave the Prophet Muhammad honorific to Moses; now (aleyhisselâm).",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:55",
+"fixed": true
+},
+"p2": {
+"ar": "49e28721eb28",
+"tr": "46cbafc2d557",
+"en": "1276b8fcdb31",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-p2-u5",
+"at": "2026-10-16 17:08",
+"fixed": false
+}
+},
+"nahhas-meani:20-20": {
+"p1": {
+"ar": "71c660ab153f",
+"tr": "0ab23ebe1785",
+"en": "09fc792464c7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:55",
+"fixed": false
+}
+},
+"nahhas-meani:21-21": {
+"p1": {
+"ar": "f247b76e6042",
+"tr": "6d0c2bce3dbd",
+"en": "57d2be58450b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:55",
+"fixed": false
+}
+},
+"nahhas-meani:24-24": {
+"p1": {
+"ar": "aea68281e273",
+"tr": "d9168720b0cf",
+"en": "fe53246efe0f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:55",
+"fixed": false
+},
+"p2": {
+"ar": "aea68281e273",
+"tr": "d9168720b0cf",
+"en": "fe53246efe0f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-p2-u5",
+"at": "2026-10-16 17:08",
+"fixed": false
+}
+},
+"nahhas-meani:25-26": {
+"p1": {
+"ar": "4d9b55965cec",
+"tr": "f8d495d8dece",
+"en": "5044d39e2162",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:55",
+"fixed": false
+}
+},
+"nahhas-meani:29-29": {
+"p1": {
+"ar": "ed8677419bf0",
+"tr": "bc24165d945e",
+"en": "7ef68894dd72",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR of the verse (\"تبكي عليك نجوم الليل والقمرا\") said the sun outdoes stars and moon in weeping, which is not in the Arabic; now \"together with the stars and the moon\".",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:55",
+"fixed": true
+},
+"p2": {
+"ar": "ed8677419bf0",
+"tr": "bc24165d945e",
+"en": "7ef68894dd72",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-p2-u5",
+"at": "2026-10-16 17:08",
+"fixed": false
+}
+},
+"nahhas-meani:31-31": {
+"p1": {
+"ar": "3692ea73f32f",
+"tr": "962a64d02c1c",
+"en": "2983e07f4b7a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:55",
+"fixed": false
+}
+},
+"nahhas-meani:32-32": {
+"p1": {
+"ar": "ce0cfa5f2c49",
+"tr": "4fcdc30b5cb0",
+"en": "aa89af06cf3a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:55",
+"fixed": false
+}
+},
+"nahhas-meani:33-33": {
+"p1": {
+"ar": "a9fd07f2a0d2",
+"tr": "abf054ac2189",
+"en": "106605ca22c6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:55",
+"fixed": false
+}
+},
+"nahhas-meani:35-35": {
+"p1": {
+"ar": "652998bf5051",
+"tr": "d8ff7d01a707",
+"en": "ce5ceb6c678b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:55",
+"fixed": false
+},
+"p2": {
+"ar": "652998bf5051",
+"tr": "d8ff7d01a707",
+"en": "ce5ceb6c678b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-p2-u5",
+"at": "2026-10-16 17:08",
+"fixed": false
+}
+},
+"nahhas-meani:36-36": {
+"p1": {
+"ar": "b9260449baa9",
+"tr": "383d4e0e53d3",
+"en": "b508b65f282b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:55",
+"fixed": false
+}
+},
+"nahhas-meani:37-37": {
+"p1": {
+"ar": "59bddb755bcd",
+"tr": "a05b26706928",
+"en": "15de506227a5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:55",
+"fixed": false
+}
+},
+"nahhas-meani:39-39": {
+"p1": {
+"ar": "785b5023b39c",
+"tr": "e088158ed8d1",
+"en": "a4e64f8465a8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:55",
+"fixed": false
+}
+},
+"nahhas-meani:41-41": {
+"p1": {
+"ar": "793edc428acd",
+"tr": "55e2e5d8b3fe",
+"en": "1742265ffc8e",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR added unmarked \"(Yaban ineği)\" in poem; removed. TR said \"o (Hz. Peygamber, aleyhisselâm)\" and EN \"[the Prophet]\" though the Arabic only has \"فقال عليه السلام\"; made literal.",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:55",
+"fixed": true
+},
+"p2": {
+"ar": "793edc428acd",
+"tr": "55e2e5d8b3fe",
+"en": "1742265ffc8e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-p2-u5",
+"at": "2026-10-16 17:08",
+"fixed": false
+}
+},
+"nahhas-meani:44-44": {
+"p1": {
+"ar": "044b4e7622eb",
+"tr": "1ed13d288e39",
+"en": "0dee7086328b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-p1-u3",
+"at": "2026-10-17 00:02",
+"fixed": false
+},
+"p2": {
+"ar": "044b4e7622eb",
+"tr": "1ed13d288e39",
+"en": "0dee7086328b",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish added unmarked identification \"(el-A'meş)\" after «سليمن»; removed.",
+"by": "nahhas-meani-p2-u5",
+"at": "2026-10-16 17:08",
+"fixed": true
+}
+},
+"nahhas-meani:45-45": {
+"p1": {
+"ar": "0140516f7bea",
+"tr": "43f526429df1",
+"en": "0560f6783807",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:55",
+"fixed": false
+}
+},
+"nahhas-meani:47-47": {
+"p1": {
+"ar": "763c0ee04c30",
+"tr": "7f4bef86a027",
+"en": "1a177942dd2c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:55",
+"fixed": false
+},
+"p2": {
+"ar": "763c0ee04c30",
+"tr": "7f4bef86a027",
+"en": "1a177942dd2c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-p2-u5",
+"at": "2026-10-16 17:08",
+"fixed": false
+}
+},
+"nahhas-meani:49-49": {
+"p1": {
+"ar": "ca3e0097814f",
+"tr": "a6d8dea32a82",
+"en": "fd11da42c7b5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:55",
+"fixed": false
+}
+},
+"nahhas-meani:51-51": {
+"p1": {
+"ar": "5318ba7ad7a6",
+"tr": "954c8e6e01a5",
+"en": "2660ea6d1c85",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:55",
+"fixed": false
+},
+"p2": {
+"ar": "5318ba7ad7a6",
+"tr": "954c8e6e01a5",
+"en": "2660ea6d1c85",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-p2-u5",
+"at": "2026-10-16 17:08",
+"fixed": false
+}
+},
+"nahhas-meani:53-53": {
+"p1": {
+"ar": "4cd0163756c9",
+"tr": "8df593b3e953",
+"en": "02984a760e97",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:55",
+"fixed": false
+}
+},
+"nahhas-meani:54-54": {
+"p1": {
+"ar": "cbb75db99ac1",
+"tr": "ef9abeb36f03",
+"en": "3a4d782e9ef9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:55",
+"fixed": false
+}
+},
+"nahhas-meani:55-55": {
+"p1": {
+"ar": "7c42fef2eec8",
+"tr": "ed0c90386d45",
+"en": "42ab779676d3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:55",
+"fixed": false
+}
+},
+"nahhas-meani:56-56": {
+"p1": {
+"ar": "cf6e35d4793c",
+"tr": "367206ff0ba0",
+"en": "f1e5a251de73",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:55",
+"fixed": false
+},
+"p2": {
+"ar": "cf6e35d4793c",
+"tr": "367206ff0ba0",
+"en": "f1e5a251de73",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-p2-u5",
+"at": "2026-10-16 17:08",
+"fixed": false
+}
+},
+"nahhas-meani:57-57": {
+"p1": {
+"ar": "f72b148cff2c",
+"tr": "186cebffaff8",
+"en": "d2e9cf296642",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:55",
+"fixed": false
+}
+},
+"nahhas-meani:59-59": {
+"p1": {
+"ar": "9019615f2e3e",
+"tr": "e75517f585ff",
+"en": "c1416d92ac6c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:55",
+"fixed": false
+}
+}
+}

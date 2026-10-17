@@ -1,0 +1,124 @@
+{
+"mekki-muskil:2-2": {
+"p1": {
+"ar": "864bd92de749",
+"tr": "33bac4a7f446",
+"en": "7cd4ad99d982",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"mekki-muskil:3-3": {
+"p1": {
+"ar": "55b662a24e81",
+"tr": "4a8118f69172",
+"en": "3e8051a9f839",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English had \"[only]\" inserted into \"العود is not [only] that a person goes back\", changing the meaning; removed.",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:45",
+"fixed": true
+},
+"p2": {
+"ar": "55b662a24e81",
+"tr": "4a8118f69172",
+"en": "3e8051a9f839",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 17:08",
+"fixed": false
+}
+},
+"mekki-muskil:6-6": {
+"p1": {
+"ar": "25ec48b09bf8",
+"tr": "ebf9e4186e7b",
+"en": "05759e2bd724",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"mekki-muskil:7-7": {
+"p1": {
+"ar": "333a4c4910a4",
+"tr": "5882b8156931",
+"en": "cc71f0176917",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "Removed unmarked \"ordinary\" (twice) for فِي الْكَلَام.",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:45",
+"fixed": true
+},
+"p2": {
+"ar": "333a4c4910a4",
+"tr": "5882b8156931",
+"en": "cc71f0176917",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 17:08",
+"fixed": false
+}
+},
+"mekki-muskil:18-18": {
+"p1": {
+"ar": "6c78bbecb300",
+"tr": "66d27eb96300",
+"en": "646d4011cb6e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"mekki-muskil:19-19": {
+"p1": {
+"ar": "009c053764fa",
+"tr": "0971a03679d3",
+"en": "6690b119f70b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"mekki-muskil:22-22": {
+"p1": {
+"ar": "8f4f0c1aa31f",
+"tr": "137ddc9c2960",
+"en": "6fdf7ca47bfb",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+}
+}

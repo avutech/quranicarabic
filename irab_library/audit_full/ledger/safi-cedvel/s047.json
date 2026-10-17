@@ -1,0 +1,398 @@
+{
+"safi-cedvel:1-3": {
+"p1": {
+"ar": "11f649ee909f",
+"tr": "d60e881e0cd1",
+"en": "99eef53d04c3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p1-u7",
+"at": "2026-10-17 00:05",
+"fixed": false
+},
+"p2": {
+"ar": "11f649ee909f",
+"tr": "d60e881e0cd1",
+"en": "99eef53d04c3",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN footnote said 'attached to (بالحقّ)' where Arabic «متعلّق بالحقّ» means attached to (الحقّ); EN also silently corrected the source misspelling «المكينة», now marked with a translator's note.",
+"by": "safi-cedvel-p2-u22",
+"at": "2026-10-16 19:18",
+"fixed": true
+}
+},
+"safi-cedvel:4-6": {
+"p1": {
+"ar": "9d504f6e9846",
+"tr": "8c9e2b0a01a6",
+"en": "dfcb1d294ad0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:31",
+"fixed": false
+}
+},
+"safi-cedvel:7-7": {
+"p1": {
+"ar": "3a0616b721c4",
+"tr": "31b6b9ef6faa",
+"en": "28eff4faea03",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:31",
+"fixed": false
+}
+},
+"safi-cedvel:8-9": {
+"p1": {
+"ar": "f8204b0be18b",
+"tr": "82360f1b2b2e",
+"en": "0c149b5468e9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:31",
+"fixed": false
+}
+},
+"safi-cedvel:10-11": {
+"p1": {
+"ar": "dcabf1808a43",
+"tr": "52786e3a2536",
+"en": "45e58df18762",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:31",
+"fixed": false
+}
+},
+"safi-cedvel:12-12": {
+"p1": {
+"ar": "f975d043a13a",
+"tr": "5723f79f804a",
+"en": "3f296a8dc170",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:31",
+"fixed": false
+}
+},
+"safi-cedvel:13-13": {
+"p1": {
+"ar": "5f10a81f4386",
+"tr": "31c8b5b6b3da",
+"en": "8522529b2ae7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:31",
+"fixed": false
+}
+},
+"safi-cedvel:14-14": {
+"p1": {
+"ar": "bed1cd3269d0",
+"tr": "87b6bafeefa8",
+"en": "504a135464bd",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:31",
+"fixed": false
+}
+},
+"safi-cedvel:15-15": {
+"p1": {
+"ar": "8fc5fc98ce15",
+"tr": "4cd7e06df9d9",
+"en": "040836bc4f40",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:32",
+"fixed": false
+}
+},
+"safi-cedvel:16-16": {
+"p1": {
+"ar": "83fa82a2112b",
+"tr": "b8148edb1b62",
+"en": "35ecae9c5481",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:32",
+"fixed": false
+}
+},
+"safi-cedvel:17-17": {
+"p1": {
+"ar": "754fb85a140d",
+"tr": "6c84c1cc9adc",
+"en": "5481cd1d86ab",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:32",
+"fixed": false
+},
+"p2": {
+"ar": "754fb85a140d",
+"tr": "6c84c1cc9adc",
+"en": "5481cd1d86ab",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u22",
+"at": "2026-10-16 19:18",
+"fixed": false
+}
+},
+"safi-cedvel:18-18": {
+"p1": {
+"ar": "2b142845ff87",
+"tr": "a69a4255fb54",
+"en": "be49184ef369",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:32",
+"fixed": false
+}
+},
+"safi-cedvel:19-19": {
+"p1": {
+"ar": "7f14ce2c174d",
+"tr": "a9215d9320d6",
+"en": "acbe8df14e5f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:32",
+"fixed": false
+}
+},
+"safi-cedvel:20-21": {
+"p1": {
+"ar": "e219e5e3af82",
+"tr": "45d876cb36e9",
+"en": "5dce1b3f9c75",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:32",
+"fixed": false
+}
+},
+"safi-cedvel:22-22": {
+"p1": {
+"ar": "b41ad0f5469a",
+"tr": "b70bb25e9afe",
+"en": "9e21bf1711b5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:32",
+"fixed": false
+}
+},
+"safi-cedvel:23-23": {
+"p1": {
+"ar": "8c5634312695",
+"tr": "50bcf8588a92",
+"en": "ec504c4e7092",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:32",
+"fixed": false
+}
+},
+"safi-cedvel:24-24": {
+"p1": {
+"ar": "6174b2e30a06",
+"tr": "7d03af0f2b9a",
+"en": "48ef4bc37e2a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:32",
+"fixed": false
+},
+"p2": {
+"ar": "6174b2e30a06",
+"tr": "7d03af0f2b9a",
+"en": "48ef4bc37e2a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u22",
+"at": "2026-10-16 19:18",
+"fixed": false
+}
+},
+"safi-cedvel:25-28": {
+"p1": {
+"ar": "243479bc447c",
+"tr": "da9d76332737",
+"en": "ece550d9a74a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:32",
+"fixed": false
+}
+},
+"safi-cedvel:29-31": {
+"p1": {
+"ar": "de9c1cbccfce",
+"tr": "860b5672a327",
+"en": "4eb68981da8a",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English silently changed source typo «لله» to «الله»; added translator note",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:32",
+"fixed": true
+},
+"p2": {
+"ar": "de9c1cbccfce",
+"tr": "860b5672a327",
+"en": "4eb68981da8a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u22",
+"at": "2026-10-16 19:18",
+"fixed": false
+}
+},
+"safi-cedvel:32-32": {
+"p1": {
+"ar": "90074b0d9721",
+"tr": "256cf9d9d395",
+"en": "fe3fdd03f853",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:32",
+"fixed": false
+}
+},
+"safi-cedvel:33-33": {
+"p1": {
+"ar": "4dded1995e95",
+"tr": "c0c05af7062c",
+"en": "19103981e1cb",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:32",
+"fixed": false
+}
+},
+"safi-cedvel:34-34": {
+"p1": {
+"ar": "98ee775a9ddf",
+"tr": "fe6b1abf96ff",
+"en": "d795bb7e7bdb",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:32",
+"fixed": false
+}
+},
+"safi-cedvel:35-35": {
+"p1": {
+"ar": "767e2c6194b1",
+"tr": "d796529d0041",
+"en": "35ea3f0211ec",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English silently corrected source typo جمعيا to jamīʿan and transliterated parsed words; now Arabic script plus translator note",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:32",
+"fixed": true
+},
+"p2": {
+"ar": "767e2c6194b1",
+"tr": "d796529d0041",
+"en": "35ea3f0211ec",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u22",
+"at": "2026-10-16 19:18",
+"fixed": false
+}
+},
+"safi-cedvel:36-38": {
+"p1": {
+"ar": "b1e618327225",
+"tr": "bacfe9f7151b",
+"en": "a6ce0a02dfc7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:32",
+"fixed": false
+}
+}
+}

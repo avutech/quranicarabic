@@ -1,0 +1,286 @@
+{
+"semin-durr:20-20": {
+"p1": {
+"ar": "3ba6f5d8348d",
+"tr": "1d270b3bdd7d",
+"en": "75c714b8c93b",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR omitted the source repeated garbled list (والثلث وهو أدنى من النصف والربع ... ) in the Zamakhshari genitive quote; restored with translator note.",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:31",
+"fixed": true
+},
+"p2": {
+"ar": "3ba6f5d8348d",
+"tr": "1d270b3bdd7d",
+"en": "75c714b8c93b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u20",
+"at": "2026-10-17 00:08",
+"fixed": false
+}
+},
+"semin-durr:1-1": {
+"p1": {
+"ar": "0b68a71c7406",
+"tr": "c71fc66f8d5d",
+"en": "836f4e2298d9",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR rendered «نائمٍ عن ليلِها» as 'geceye uyumayıp ... uyuyan' (self-contradictory) and بِجاد as 'kalın aba'; corrected",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:57",
+"fixed": true
+},
+"p2": {
+"ar": "0b68a71c7406",
+"tr": "c71fc66f8d5d",
+"en": "836f4e2298d9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u20",
+"at": "2026-10-17 00:08",
+"fixed": false
+}
+},
+"semin-durr:2-2": {
+"p1": {
+"ar": "30f30806510c",
+"tr": "34f34a242cb7",
+"en": "d25fadb42f59",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:58",
+"fixed": false
+}
+},
+"semin-durr:3-3": {
+"p1": {
+"ar": "8c1549fa7350",
+"tr": "31f3f06d0cff",
+"en": "48a462306c68",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR dropped one of the two repeated clauses in Abu Ishaq's quote («أو زِد عليه قليلاً إلى الثلثِ»), rendered 'yani yarıdan' for «يعني النصف»; unmarked identification of the Shaykh as Abu Hayyan (TR, EN) and al-Zajjaj (EN) moved into translator notes",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:57",
+"fixed": true
+},
+"p2": {
+"ar": "8c1549fa7350",
+"tr": "31f3f06d0cff",
+"en": "48a462306c68",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u20",
+"at": "2026-10-17 00:08",
+"fixed": false
+}
+},
+"semin-durr:5-5": {
+"p1": {
+"ar": "b357b98ddcd8",
+"tr": "af95a98c4648",
+"en": "117fcfa38b48",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:57",
+"fixed": false
+}
+},
+"semin-durr:6-6": {
+"p1": {
+"ar": "3ff439164aff",
+"tr": "a9e636dc6f84",
+"en": "faf88587024f",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR omitted the second hemistich «وأَشْرَف منها مُشْرِفاتِ القَماحِدِ» of verse 4365; added",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:57",
+"fixed": true
+},
+"p2": {
+"ar": "3ff439164aff",
+"tr": "a9e636dc6f84",
+"en": "faf88587024f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u20",
+"at": "2026-10-17 00:08",
+"fixed": false
+}
+},
+"semin-durr:7-7": {
+"p1": {
+"ar": "a0134c44a705",
+"tr": "e6ce25b2f78b",
+"en": "429741767908",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:57",
+"fixed": false
+}
+},
+"semin-durr:8-8": {
+"p1": {
+"ar": "8a46317e9c42",
+"tr": "b34d14e002c8",
+"en": "e23ab60dc7a8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:57",
+"fixed": false
+}
+},
+"semin-durr:9-9": {
+"p1": {
+"ar": "a19556c4c0d6",
+"tr": "f95bff83aa8c",
+"en": "838c2ac00e60",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Unmarked identifications of readers (Hamza/al-Kisai, Shuba, ibn Masud) in TR and EN moved into translator notes; EN also dropped 'brothers' of «الأخوان»",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:58",
+"fixed": true
+},
+"p2": {
+"ar": "a19556c4c0d6",
+"tr": "f95bff83aa8c",
+"en": "838c2ac00e60",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u20",
+"at": "2026-10-17 00:08",
+"fixed": false
+}
+},
+"semin-durr:11-11": {
+"p1": {
+"ar": "78ab51b0bf09",
+"tr": "3bdf408617b4",
+"en": "0413802cc3ca",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:58",
+"fixed": false
+}
+},
+"semin-durr:12-12": {
+"p1": {
+"ar": "6322dfab78de",
+"tr": "3f4e76709bb8",
+"en": "e45d7c37e3e4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:58",
+"fixed": false
+}
+},
+"semin-durr:13-13": {
+"p1": {
+"ar": "cfd2502e8992",
+"tr": "7e1db73a2c20",
+"en": "a0acf8333ec2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:58",
+"fixed": false
+}
+},
+"semin-durr:14-14": {
+"p1": {
+"ar": "3a2beb7a511f",
+"tr": "8163b3a9c577",
+"en": "613328abd8f3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:58",
+"fixed": false
+}
+},
+"semin-durr:16-16": {
+"p1": {
+"ar": "65f7ec2f4feb",
+"tr": "4b3e149822ec",
+"en": "098cc2369d6c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:58",
+"fixed": false
+}
+},
+"semin-durr:17-17": {
+"p1": {
+"ar": "443e537b6a20",
+"tr": "e51d508aee99",
+"en": "173e07f82c6c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:58",
+"fixed": false
+}
+},
+"semin-durr:18-18": {
+"p1": {
+"ar": "4f8bd4d41c41",
+"tr": "130b9d7f533e",
+"en": "809d4425eed9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:58",
+"fixed": false
+}
+}
+}

@@ -1,0 +1,232 @@
+{
+"nahhas-irab:7-7": {
+"hs": [
+"896c71bf3346",
+"4b1c118e9b11",
+"7ee76e0e0ba4"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «قيل: هذا افتتاح كلام، وكلّ شيء لله». Turkish renders 'Bu, sözün başlangıcıdır (teberrüken zikredilmiştir)' - the parenthetical 'mentioned for blessing' is an interpretive addition not in the Arabic and not inside [Mütercim notu: ...]. Further unmarked parentheticals in the same reading: '(yüz) kıllarını' for «النامصة والمتنمّصة» and '(Bu kıraatte «تكون»un)' for «ويجوز أن يكون بمعنى يقع».",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: قيل: هذا افتتاح كلام، وكلّ شيء لله. TR 'Bu, sözün başlangıcıdır (teberrüken zikredilmiştir)' - '(teberrüken zikredilmiştir)' is an interpretive gloss not in the Arabic and outside the Mütercim notu; unmarked addition.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked '(teberrüken zikredilmiştir)' and '(yüz)'; '(Bu kıraatte «تكون»un)' replaced by 'Onun' + Mütercim notu",
+"verified": "PASS",
+"verify_note": "'(teberrüken zikredilmiştir)', '(yüz)' removed; تكون gloss in Mütercim notu; isnad/name and Baqara notes marked; long passage complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"896c71bf3346",
+"f3389a50cb46",
+"7ee76e0e0ba4"
+],
+"dim": "tr",
+"what": "Removed unmarked '(teberrüken zikredilmiştir)' and '(yüz)'; '(Bu kıraatte «تكون»un)' replaced by 'Onun' + Mütercim notu",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"nahhas-irab:9-9": {
+"hs": [
+"b9acdc6e7678",
+"e2bbfca4a712",
+"bb4d635d73b1"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Verse 475 «ترى اللّحز الشّحيح إذا أمرّت عليه» names no subject for أمرّت; Turkish supplies '(kadeh)' inside the verse translation without [Mütercim notu: ...]. Also '(illet harfinin) bırakılması' for «ولا يجوز إثباتها» adds an unmarked parenthetical, and 'bırakılması' is ambiguous (could read as 'leaving out') where the Arabic means retaining/keeping the letter (إثبات) - should be e.g. 'yerinde bırakılması/ispatı'. Needs fix.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Verse 475 ترى اللّحز الشّحيح إذا أمرّت عليه has no noun for the subject of أمرّت; TR inserts '(kadeh)' unmarked. Also 'ولا يجوز إثباتها' rendered '(illet harfinin) bırakılması caiz değildir' - unmarked '(illet harfinin)' though the Arabic refers to الألف, and 'bırakılması' is ambiguous (retain/drop) where the Arabic clearly says retaining (إثبات).",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Fixed ambiguous/unmarked rendering of ولا يجوز إثباتها; moved '(kadeh)' into a Mütercim notu",
+"verified": "PASS",
+"verify_note": "'(kadeh)' moved into Mütercim notu; إثبات rendered 'yerinde bırakmak (ispatı)'; passage complete and faithful."
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Verse 475 «إذا أمرّت عليه» has no expressed subject; English inserts '[the cup]' in plain brackets, not inside a [Translator's note: ...]. The referent is an interpretive supply from the poem's context (not in the Arabic quoted), so it is an unmarked addition. Rest of English (e.g. 'keeping it' for «إثباتها») is correct.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Verse 475 ترى اللّحز الشّحيح إذا أمرّت عليه: the Arabic gives no noun for the subject of أمرّت; EN inserts '[the cup]' as a plain bracket, not inside a [Translator's note: ...]; unmarked addition.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved unmarked '[the cup]' into a Translator's note",
+"verified": "PASS",
+"verify_note": "Complete and faithful sentence by sentence; 'the cup' supply is inside a Translator's note; 'keeping it' correctly renders إثباتها; both verses translated; no unmarked additions or Latin transliteration of Quranic words.",
+"fix_failed": 1
+}
+},
+"history": [
+{
+"old_hs": [
+"b9acdc6e7678",
+"3e3246984850",
+"56e316544e56"
+],
+"dim": "tr",
+"what": "Fixed ambiguous/unmarked rendering of ولا يجوز إثباتها; moved '(kadeh)' into a Mütercim notu",
+"at": "2026-10-17 00:44"
+},
+{
+"old_hs": [
+"b9acdc6e7678",
+"e2bbfca4a712",
+"56e316544e56"
+],
+"dim": "en",
+"what": "Moved unmarked '[the cup]' into a Translator's note",
+"at": "2026-10-17 00:44"
+}
+]
+},
+"nahhas-irab:15-15": {
+"hs": [
+"4db3bf02d4be",
+"2f41f91cbd11",
+"26585711f463"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «وقال مجاهد هم أهل بدر» and «قَرِيباً نعت لظرف». Turkish adds '(Bedir'de öldürülen müşriklerdir)' and '(mahzûf bir zarfın)' - neither is in the Arabic, neither is inside [Mütercim notu: ...]. Unmarked additions; English is faithful ('people of Badr', 'a naʿt of an adverb').",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: وقال مجاهد هم أهل بدر ... قَرِيباً نعت لظرف. TR adds unmarked '(Bedir'de öldürülen müşriklerdir)' and '(mahzûf bir zarfın)'; neither is in the Arabic nor inside a Mütercim notu.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved two unmarked glosses into Mütercim notları",
+"verified": "PASS",
+"verify_note": "Badr and mahzuf zarf glosses now inside Mütercim notu; rest faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"4db3bf02d4be",
+"7841b66060aa",
+"26585711f463"
+],
+"dim": "tr",
+"what": "Moved two unmarked glosses into Mütercim notları",
+"at": "2026-10-17 00:44"
+}
+]
+},
+"nahhas-irab:16-16": {
+"hs": [
+"d7f720751d7d",
+"b20a912d0960",
+"a55ddff91e12"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «ومثل بني النضير في قلوبهم منهم» (probably a corruption of في قبولهم منهم). Turkish renders 'kalplerindeki (beklentilerindeki) durumu' - the parenthetical '(beklentilerindeki)' is an interpretive addition/emendation not in the Arabic and not inside [Mütercim notu: ...]; English handles it with a Translator's note. Needs to be put in a note.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: ومثل بني النضير في قلوبهم منهم (problematic text). TR 'kalplerindeki (beklentilerindeki) durumu' - '(beklentilerindeki)' is an interpretive conjecture not in the Arabic and unmarked (EN puts its conjecture in a Translator's note).",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Replaced unmarked '(beklentilerindeki)' with a Mütercim notu on the text",
+"verified": "PASS",
+"verify_note": "'(beklentilerindeki)' removed; قلوبهم/قبولهم conjecture inside Mütercim notu; rest faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"d7f720751d7d",
+"214eee94cf9a",
+"a55ddff91e12"
+],
+"dim": "tr",
+"what": "Replaced unmarked '(beklentilerindeki)' with a Mütercim notu on the text",
+"at": "2026-10-17 00:44"
+}
+]
+},
+"nahhas-irab:21-21": {
+"hs": [
+"63c7305fa2db",
+"6d6eb72fc600",
+"180eb6a8f4bc"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic «منزها عمن يخالفه»: عمن = عن + مَن, i.e. 'from whoever (persons) opposes it'. Turkish 'ona muhalefet eden şeylerden' renders it as 'things', a wrong meaning (should be 'kimselerden'); English 'from whoever opposes it' is right. Also '(parçalanmış)' after «أي فزعا» is an unmarked parenthetical not in the Arabic.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: منزها عمن يخالفه - من denotes persons ('whoever opposes it'); TR 'ona muhalefet eden şeylerden' renders it as things - wrong meaning. Also فزعا rendered 'korku içinde (parçalanmış)' with unmarked addition '(parçalanmış)'.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked '(parçalanmış)'; عمن rendered as persons (kimselerden)",
+"verified": "PASS",
+"verify_note": "'(parçalanmış)' removed; عمن يخالفه now 'muhalefet eden kimselerden' (persons); rest faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"63c7305fa2db",
+"fe3cb82d9e29",
+"180eb6a8f4bc"
+],
+"dim": "tr",
+"what": "Removed unmarked '(parçalanmış)'; عمن rendered as persons (kimselerden)",
+"at": "2026-10-17 00:44"
+}
+]
+}
+}

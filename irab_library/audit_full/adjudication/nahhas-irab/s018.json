@@ -1,0 +1,27 @@
+{
+"nahhas-irab:62-62": {
+"hs": [
+"bfab47c92c01",
+"127867685252",
+"90cf361cb660"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "«فلما جاوزا ... مجمع البحرين», «قال لفتاه آتنا غداءنا مفعولان», «لقد لقينا من سفرنا هذا نصبا أي» are all 18:62. Source truncated after «أي», marked in both readings; placement correct.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "«فلما جاوزا», «قال لفتاه آتنا غداءنا», «لقد لقينا من سفرنا هذا نصبا» are all 18:62; placement correct. Source truncation after «نصبا أي» is marked in both readings.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

@@ -1,0 +1,42 @@
+{
+"ukberi-tibyan:52-52": {
+"hs": [
+"5cb4657d930b",
+"8413e0029252",
+"0c41b77dec9c"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: وَالثَّانِي: لَا يَضِلُّ الْكِتَابُ رَبِّي ; أَيْ عَنْهُ ; فَيَكُونُ (رَبِّي) مَفْعُولًا — intransitive ضَلَّ عَنْ with عَنْ dropped: 'the Book does not go missing from (escape) my Lord'. TR 'Kitap Rabbimi şaşırtmaz' ('the Book does not lead my Lord astray/confuse my Lord') gives a causative meaning, i.e. a different sense (that would be يُضِلُّ). EN 'the book does not escape my Lord' is right. TR needs e.g. 'Kitap Rabbimden kaybolmaz (gözden kaçmaz)'.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "For the second view, لَا يَضِلُّ الْكِتَابُ رَبِّي ; أَيْ عَنْهُ ; فَيَكُونُ (رَبِّي) مَفْعُولًا, the verb is the form-I يَضِلُّ ('the book does not go missing from / escape my Lord'), as the gloss أَيْ عَنْهُ shows. TR 'Kitap Rabbimi şaşırtmaz' ('the book does not lead my Lord astray') renders the causative يُضِلُّ, which is the meaning of the separate ḍamma reading that follows. So it gives a different meaning. EN 'the book does not escape my Lord' is correct.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Second view: replaced causative 'Kitap Rabbimi şaşırtmaz' with intransitive 'Kitap Rabbimden kaybolmaz (لَا يَضِلُّ الْكِتَابُ رَبِّي)'",
+"verified": "PASS",
+"verify_note": "The second view is now 'Kitap Rabbimden kaybolmaz', the correct intransitive sense of لا يضل الكتاب ربي أي عنه with ربي as object; all khabar views, both ḍamma readings, the fāʿil view and the يَنسى object are complete; [lâ] is explained in a Mütercim notu; no new problem."
+}
+},
+"history": [
+{
+"old_hs": [
+"5cb4657d930b",
+"14b698df0bef",
+"0c41b77dec9c"
+],
+"dim": "tr",
+"what": "Second view: replaced causative 'Kitap Rabbimi şaşırtmaz' with intransitive 'Kitap Rabbimden kaybolmaz (لَا يَضِلُّ الْكِتَابُ رَبِّي)'",
+"at": "2026-10-17 00:43"
+}
+]
+}
+}

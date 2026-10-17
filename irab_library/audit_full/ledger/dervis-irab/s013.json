@@ -1,0 +1,228 @@
+{
+"dervis-irab:15-18": {
+"p1": {
+"ar": "70a0f9da2ed3",
+"tr": "e37ce2a97aca",
+"en": "ba3a49361755",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR poem line 3 \"كلّيّ\" (my kidneys) rendered as added bracket without kidneys, and \"أمرّ ولا أحلي\" rendered as tasting; fixed with note. EN Abu Hayyan \"لا يمكن أن يكون له عقل\" negation was reversed to \"can only have\"; fixed with note.",
+"by": "dervis-irab-u77",
+"at": "2026-10-10 19:37",
+"fixed": true
+},
+"p2": {
+"ar": "70a0f9da2ed3",
+"tr": "e37ce2a97aca",
+"en": "ba3a49361755",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u28",
+"at": "2026-10-16 19:19",
+"fixed": false
+}
+},
+"dervis-irab:19-24": {
+"p1": {
+"ar": "d234f2c35318",
+"tr": "ebeaf21eeaad",
+"en": "c96171b42a0a",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Verse \"ولا يرد بكاي زندا\": TR rendered zandan as \"çakmak taşı bile\" (added), EN as name Zand; both now keep «زندا» with a translator note.",
+"by": "dervis-irab-u77",
+"at": "2026-10-10 19:38",
+"fixed": true
+},
+"p2": {
+"ar": "d234f2c35318",
+"tr": "ebeaf21eeaad",
+"en": "c96171b42a0a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u28",
+"at": "2026-10-16 19:20",
+"fixed": false
+}
+},
+"dervis-irab:25-29": {
+"p1": {
+"ar": "8fe061fc1ca5",
+"tr": "f9cf6caa3e6c",
+"en": "c456d6aae108",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u77",
+"at": "2026-10-10 19:38",
+"fixed": false
+},
+"p2": {
+"ar": "8fe061fc1ca5",
+"tr": "f9cf6caa3e6c",
+"en": "c456d6aae108",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u28",
+"at": "2026-10-16 19:20",
+"fixed": false
+}
+},
+"dervis-irab:30-31": {
+"p1": {
+"ar": "78fbb418844d",
+"tr": "2dfb03d1a571",
+"en": "6a6c307af968",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR poem \"إذ ييسرونني\" rendered \"esir ettiklerinde\" (that is يأسرونني); EN has \"dividing me up\"; TR now \"paylaşırlarken\".",
+"by": "dervis-irab-u77",
+"at": "2026-10-10 19:38",
+"fixed": true
+},
+"p2": {
+"ar": "78fbb418844d",
+"tr": "2dfb03d1a571",
+"en": "6a6c307af968",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u28",
+"at": "2026-10-16 19:20",
+"fixed": false
+}
+},
+"dervis-irab:32-34": {
+"p1": {
+"ar": "66150527e641",
+"tr": "1d6017d98679",
+"en": "6e5f1453f0c5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u77",
+"at": "2026-10-10 19:39",
+"fixed": false
+}
+},
+"dervis-irab:35-37": {
+"p1": {
+"ar": "31b5ef67244e",
+"tr": "e5759359a327",
+"en": "0b017f8618de",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u77",
+"at": "2026-10-10 19:39",
+"fixed": false
+}
+},
+"dervis-irab:38-43": {
+"p1": {
+"ar": "7d6e92c4ac2f",
+"tr": "1c9870d7fd4b",
+"en": "fb54a8ef143b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u77",
+"at": "2026-10-10 19:39",
+"fixed": false
+}
+},
+"dervis-irab:1-4": {
+"p1": {
+"ar": "2b998458a7ad",
+"tr": "c6cfb20b77ea",
+"en": "17a837681a39",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN: «أو وفيه الأكل» was left as an ellipsis (omission); now translated with note. TR ok.",
+"by": "dervis-irab-u76",
+"at": "2026-10-10 19:40",
+"fixed": true
+},
+"p2": {
+"ar": "2b998458a7ad",
+"tr": "c6cfb20b77ea",
+"en": "17a837681a39",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u28",
+"at": "2026-10-16 19:18",
+"fixed": false
+}
+},
+"dervis-irab:5-6": {
+"p1": {
+"ar": "8eed0183bba1",
+"tr": "dd54b1ee11f1",
+"en": "9e1d2fc3de9f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u76",
+"at": "2026-10-10 19:40",
+"fixed": false
+}
+},
+"dervis-irab:7-11": {
+"p1": {
+"ar": "64cf6ea6da0f",
+"tr": "8d918b3ce844",
+"en": "592b594e7ab6",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR: \"لأنهم يقدرون أن يدفعوا\" rendered \"takdir ederler\" (estimate) instead of \"are able\"; Hassan verse turned into a question; EN: source typo تسمة silently corrected, now noted.",
+"by": "dervis-irab-u76",
+"at": "2026-10-10 19:41",
+"fixed": true
+},
+"p2": {
+"ar": "64cf6ea6da0f",
+"tr": "8d918b3ce844",
+"en": "592b594e7ab6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u28",
+"at": "2026-10-16 19:18",
+"fixed": false
+}
+},
+"dervis-irab:12-14": {
+"p1": {
+"ar": "09bcb1c73a89",
+"tr": "5c31e1cca611",
+"en": "90406737f0b0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "Re-read after my fixes; both readings complete and faithful.",
+"by": "dervis-irab-u76",
+"at": "2026-10-10 19:42",
+"fixed": false
+}
+}
+}

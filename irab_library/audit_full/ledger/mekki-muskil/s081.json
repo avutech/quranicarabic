@@ -1,0 +1,70 @@
+{
+"mekki-muskil:1-1": {
+"p1": {
+"ar": "c9e67b92e47a",
+"tr": "486e853716c3",
+"en": "8dc7201326d1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:48",
+"fixed": false
+}
+},
+"mekki-muskil:21-21": {
+"p1": {
+"ar": "b71535d12074",
+"tr": "7625cb5b8744",
+"en": "28b3083518f3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:48",
+"fixed": false
+}
+},
+"mekki-muskil:24-24": {
+"p1": {
+"ar": "d47f8c1c4aba",
+"tr": "d6d32bf83152",
+"en": "236b6156d352",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English heading silently changed the quoted بظنين to بضنين and silently corrected the source «بالياء» to bāʾ; restored the quote and added a translator note.",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:48",
+"fixed": true
+},
+"p2": {
+"ar": "d47f8c1c4aba",
+"tr": "d6d32bf83152",
+"en": "236b6156d352",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "Second paragraph \"قوله إلا أن يشاء الله\" belongs to 81:29; translations complete and faithful.",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 18:52",
+"fixed": false
+}
+},
+"mekki-muskil:26-26": {
+"p1": {
+"ar": "0d5cebe36f05",
+"tr": "a9f318dbcff2",
+"en": "59be29bfe8c4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:48",
+"fixed": false
+}
+}
+}

@@ -1,0 +1,27 @@
+{
+"muyesser-irab:32-32": {
+"hs": [
+"bbc2e01b4739",
+"43fced58f88c",
+"cbe940f463b0"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Arabic «والله منصوب على التعظيم» is rendered «الله ta'zîm üzere mansûbdur»; the explanation that the author avoids calling لفظ الجلالة mafʿūl bihi out of reverence is properly marked as [Mütercim notu: …] and reflects the well-known convention behind the phrase منصوب على التعظيم. Rest of Turkish is complete and accurate.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Arabic «والله منصوب على التعظيم» is translated faithfully as «الله ta'zîm üzere mansûbdur»; the explanation of why the author avoids «مفعول به» for the Divine Name is properly inside a [Mütercim notu: …] and reflects the well-known convention of i'rab authors; no unmarked addition or error. Rest of the Turkish matches the Arabic.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

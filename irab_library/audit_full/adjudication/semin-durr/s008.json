@@ -1,0 +1,29 @@
+{
+"semin-durr:8-8": {
+"hs": [
+"04cd4fdbcce1",
+"a2dc133ce34c",
+"18a6b41effc3"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "MISPLACED",
+"evidence": "{لِيُحِقَّ} and Zamakhsharī on the delayed omitted element concern 8:8; but the third paragraph «قوله: {أَنَّها لكم} منصوبُ المحل على البدل من إحدى ... بدلُ اشتمال» parses «وَإِذْ يَعِدُكُمُ اللَّهُ إِحْدَى الطَّائِفَتَيْنِ أَنَّهَا لَكُمْ» of 8:7; 8:8 has neither أنها لكم nor إحدى. Covers 7-8.",
+"at": "2026-10-17 00:41",
+"ayahs": "7-8"
+},
+"J2": {
+"class": "MISPLACED",
+"evidence": "«{لِيُحِقَّ}» paragraphs are 8:8. Last paragraph «قوله: {أَنَّها لكم} منصوبُ المحل على البدل من إحدى أي: يَعِدُكم أن إحدى الطائفتين كائنة لكم» is the i'rab of 8:7 «وإذ يعدكم الله إحدى الطائفتين أنها لكم»; 8:8 has neither word.",
+"at": "2026-10-17 00:41",
+"ayahs": "7-8"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+}
+}

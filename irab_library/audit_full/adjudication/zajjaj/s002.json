@@ -1,0 +1,302 @@
+{
+"zajjaj:85-85": {
+"hs": [
+"0863e258a2a2",
+"7c862fcfabef",
+"bbf0f5b112b7"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic «ولِغَيْرِهِمْ مِن سائِرِ الكُفّارِ الخِزْيُ في الدُّنْيا القَتْلُ» = for others than them (Qurayza/Nadir) among the rest of the disbelievers. TR «Diğer bütün kâfirlerden başkaları için» means 'for those other than all the other disbelievers', i.e. excludes the disbelievers - wrong meaning. Should be e.g. «Diğer bütün kâfirlerden onların dışındakiler için»/«Onların dışındaki diğer kâfirler için».",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic «ولِغَيْرِهِمْ مِن سائِرِ الكُفّارِ الخِزْيُ في الدُّنْيا القَتْلُ» = for others (than Qurayza/Nadir) among the rest of the disbelievers. TR «Diğer bütün kâfirlerden başkaları için» means 'for those other than all the other disbelievers', i.e. excludes the disbelievers - reverses the meaning. Should be e.g. «Diğer bütün kâfirlerden olan başkaları için».",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "«Diğer bütün kâfirlerden başkaları için» (excluded the disbelievers) -> «Diğer bütün kâfirlerden onların dışında kalanlar için» (ولِغَيْرِهِمْ مِن سائِرِ الكُفّارِ)",
+"verified": "PASS",
+"verify_note": "Fixed: «Diğer bütün kâfirlerden onların dışında kalanlar için» now correctly renders ولِغَيْرِهِمْ مِن سائِرِ الكُفّارِ; rest of TR complete and faithful; only minor referent glosses in parentheses."
+}
+},
+"history": [
+{
+"old_hs": [
+"0863e258a2a2",
+"38617cdbbcd2",
+"bbf0f5b112b7"
+],
+"dim": "tr",
+"what": "«Diğer bütün kâfirlerden başkaları için» (excluded the disbelievers) -> «Diğer bütün kâfirlerden onların dışında kalanlar için» (ولِغَيْرِهِمْ مِن سائِرِ الكُفّارِ)",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"zajjaj:90-90": {
+"hs": [
+"573673f4c3a7",
+"2bff64aab6c6",
+"4b879dde4604"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "The final paragraph on ﴿فَباءُوا بِغَضَبٍ عَلى غَضَبٍ﴾ is present in the English: «باؤُوا» = 'they bore', «قَدْ بُؤْتُ بِهَذا الذَّنْبِ» = I have borne it, and both views (wrath for disbelief in the Prophet upon wrath for disbelief in ʿĪsā; sin deserving the Fire upon a previous sin). Rest of entry complete; additions are inside [Translator's note].",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Reviewer's omission claim is FALSE: the EN does contain the last paragraph on «فَباءُوا بِغَضَبٍ عَلى غَضَبٍ» (meaning 'they bore', both views). But the EN has other defects: (1) «المَعْنى: كَفَرُوا بَغْيًا، لِأنْ نَزَّلَ اللَّهُ الفَضْلَ» is rendered 'they disbelieved out of envy' - the Arabic says بَغْيًا (transgression), not حسد; TR correctly 'haddi aşarak'. Likewise «كَفَرُوا بَغْيًا وعَداوَةً» -> 'envious transgression' adds 'envious'. (2) 'Abū Isḥāq [al-Zajjāj]' is an unmarked addition; should be [Translator's note: …]. Fix: 'out of transgression (baghy)' and mark the identification as a translator's note.",
+"at": "2026-10-17 00:39"
+},
+"J3": {
+"class": "FALSE_ALARM",
+"evidence": "Claimed omission is not real: the English ends with the full final paragraph on ﴿فَباءُوا بِغَضَبٍ عَلى غَضَبٍ﴾: «باؤُوا» = 'they bore' (اِحْتَمَلُوا), the example «قَدْ بُؤْتُ بِهَذا الذَّنْبِ» = 'I have borne it', and both views (wrath for disbelief in the Prophet upon wrath for disbelief in Isa, meaning the Jews; and وقِيلَ: بِإثْمٍ اسْتَحَقُّوا بِهِ النّارَ عَلى إثْمٍ تَقَدَّمَ = a sin deserving the Fire upon a previous sin). The rest also matches the Arabic, and the source slips (نِعْمَ زَيْدٌ نِعْمَ الرَّجُلُ; وأتَكَرَّمُ عَلى الكَرِيمِ) are flagged in Translator's notes without changing the text.",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "HUMAN"
+}
+}
+},
+"zajjaj:213-213": {
+"hs": [
+"40e740823bf2",
+"3202772bb097",
+"fdf3587e7ca1"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "In al-Nābigha's verse «وهَلْ يَأْثَمَن ذُو أُمَّةٍ وهْوَ طائِعُ», «يَأْثَمَن» means 'incur sin / be guilty'; EN renders 'commit perjury', which narrows the word to a specific sin the text does not state (perjury is only the contextual implication of «حَلَفْتُ»). Should read 'would a man of umma incur sin when acting of his own will?', with any perjury gloss inside [Translator's note]. Rest of the entry is complete.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Verse «حَلَفْتُ فَلَمْ أتْرُكْ لِنَفْسِكَ رِيبَةً ∗∗∗ وهَلْ يَأْثَمَن ذُو أُمَّةٍ وهْوَ طائِعُ»: the first hemistich is about swearing (حَلَفْتُ), so the sin meant by «يَأْثَمَن» is that of a false oath; 'commit perjury' in the short parenthetical poetry gloss conveys the contextual meaning correctly (glossary rule 3 allows a short gloss). The rest of the EN (umma meanings, Zayd ibn ʿAdī note marked, بَغْيًا as mafʿūl lahu, بِإذْنِهِ = بِعِلْمِهِ) matches the Arabic. Optional refinement 'incur sin', not an error.",
+"at": "2026-10-17 00:39"
+},
+"J3": {
+"class": "CONFIRMED",
+"evidence": "In al-Nabigha's verse «وهَلْ يَأْثَمَن ذُو أُمَّةٍ وهْوَ طائِعُ», the verb يَأْثَمَنْ (أَثِمَ + energic nun) means 'to sin / incur guilt'. The English gives 'commit perjury', which narrows the meaning to a false oath. That idea is only an inference from حَلَفْتُ and is not in the Arabic. It is an unmarked interpretive change of meaning. Fix: 'would a man of umma commit a sin (incur guilt) when acting of his own will?' The Turkish 'günaha girer mi' is correct. If the oath context is wanted, put it in a [Translator's note: ...]. The rest of the English for 213 matches the Arabic.",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Nabigha verse: يَأْثَمَن 'commit perjury' -> 'incur sin'",
+"verified": "PASS",
+"verify_note": "Fixed: يَأْثَمَن now 'incur sin' (no 'perjury'); rest complete and faithful, Zayd ibn ʿAdī note marked."
+}
+},
+"history": [
+{
+"old_hs": [
+"40e740823bf2",
+"3202772bb097",
+"3b755b18f30c"
+],
+"dim": "en",
+"what": "Nabigha verse: يَأْثَمَن 'commit perjury' -> 'incur sin'",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"zajjaj:225-225": {
+"hs": [
+"4e8ebf056509",
+"197370a72d68",
+"d02f4a70e5d2"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic simply reads «ويَجُوزُ أنْ يَكُونَ مَوْضِعُ أنْ رَفْعًا»; the English prefixes '(Returning to ﴿أنْ تَبَرُّوا﴾:)', an editorial addition with no counterpart in the Arabic, not inside a [Translator's note]. Likewise '(nominative)' in 'mentioned this (nominative) view' for «ذَكَرَ هَذا المَذْهَبَ» is an unmarked gloss. Both must be moved into [Translator's note: …].",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "The Arabic simply says «ويَجُوزُ أنْ يَكُونَ مَوْضِعُ ”أنْ“، رَفْعًا»; the EN prefixes an unmarked '(Returning to ﴿أنْ تَبَرُّوا﴾:)' which is not in the source (it even introduces a Quranic citation the author did not write). Also 'this (nominative) view' glosses «هَذا المَذْهَبَ» without marking. Both are additions that must go inside [Translator's note: …] (e.g. the reference is to 2:224 أنْ تَبَرُّوا). Rest of EN (four kinds of oath, laghw forms, أوْلى omitted) is accurate.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Unmarked '(Returning to ﴿أنْ تَبَرُّوا﴾:)' and '(nominative)' moved into «[Translator's note: …]»",
+"verified": "PASS",
+"verify_note": "Fixed: the 'Returning to أنْ تَبَرُّوا' and 'nominative' glosses now inside [Translator's note]; rest complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"4e8ebf056509",
+"197370a72d68",
+"461d2871011f"
+],
+"dim": "en",
+"what": "Unmarked '(Returning to ﴿أنْ تَبَرُّوا﴾:)' and '(nominative)' moved into «[Translator's note: …]»",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"zajjaj:228-228": {
+"hs": [
+"8b9a6e2c7d5d",
+"1b4f6ce0431c",
+"98d7fe948db0"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic «اَلْقِرْدُ يُقْرِئُ، أيْ: يَجْمَعُ ما يَأْكُلُ في بَيْتِهِ» = gathers what it eats in its house/den; EN 'in its cheek-pouch' translates a different text (silent correction). Also «وإنْ كانَ قَدْ أُلْزِمَ الماءَ» is rendered 'even though the (yāʾ form) has become fixed for water' - an unmarked emendation (the source says الماء, not الياء); the Turkish properly puts that conjecture in a Mütercim notu. Both need fixing (literal text + any conjecture in [Translator's note]).",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic «اَلْقِرْدُ يُقْرِئُ، أيْ: يَجْمَعُ ما يَأْكُلُ في بَيْتِهِ» = gathers what it eats 'in its house/den'; EN 'in its cheek-pouch' translates a different text (silent correction). Also «وإنْ كانَ قَدْ أُلْزِمَ الماءَ» is rendered 'even though the (yāʾ form) has become fixed for water' - a silent emendation (TR correctly flags it as a Mütercim notu); and 'al-iqrāʾ (sic)' is an unmarked comment. Fix: 'in its house', translate أُلْزِمَ الماءَ as written with a [Translator's note: …] for the suspected يَاء reading, and put (sic) into a translator's note.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "'in its cheek-pouch' -> 'in its house' (في بَيْتِهِ); '(yāʾ form) has become fixed for water' -> literal 'it has been made binding on water' + Translator's note on suspected ألزم الياء; unmarked '(sic)' moved into Translator's note",
+"verified": "PASS",
+"verify_note": "Fixed: 'in its house' as written; أُلْزِمَ الماءَ translated as written with الياء conjecture in a Translator's note; (sic) moved into a note; rest complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"8b9a6e2c7d5d",
+"1b4f6ce0431c",
+"a469f14a9971"
+],
+"dim": "en",
+"what": "'in its cheek-pouch' -> 'in its house' (في بَيْتِهِ); '(yāʾ form) has become fixed for water' -> literal 'it has been made binding on water' + Translator's note on suspected ألزم الياء; unmarked '(sic)' moved into Translator's note",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"zajjaj:245-245": {
+"hs": [
+"5424324f622e",
+"bd14bc985a68",
+"5b3fef0f8d3e"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "«ولَكِنَّهُ يَبْلُو الأخْبارَ» is rendered «haberleri (kulların hallerini) sınar»: the parenthetical '(kulların hallerini)' is an interpretive gloss of a doubtful word (possibly الأخيار) that is not in the Arabic and is not inside a [Mütercim notu]. It should be translated literally with any interpretation in a Mütercim notu (the English does this). Other similar unmarked glosses, e.g. '(rızkı)' for «يُقَتِّرُ، ويُوَسِّعُ» and '(mudârebe ortaklığı)' for «اَلْقِراضُ», should be marked the same way.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic «ولَكِنَّهُ يَبْلُو الأخْبارَ» (word itself doubtful, likely الأخْيار) is rendered «haberleri (kulların hallerini) sınar»: the parenthesis is an unmarked interpretive addition not in the source and the doubtful reading is not flagged. It must go into «[Mütercim notu: …]» (e.g. noting الأخْيار 'iyileri' as possible reading, as the EN does). Also «(rızkı) daraltır» adds an unmarked object to «يُقَتِّرُ». Rest of TR (qarḍ = بلاء, nasb/raf' note marked, قراض) is fine.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Unmarked '(kulların hallerini)' gloss on doubtful الأخْبارَ replaced by Mütercim notu (possible الأخْيارَ); '(rızkı)' moved into Mütercim notu",
+"verified": "PASS",
+"verify_note": "Fixed: unmarked '(kulların hallerini)' removed, الأخْبارَ/الأخْيارَ interpretation and '(rızkı)' now inside Mütercim notu; rest complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"5424324f622e",
+"c5c330a16aa0",
+"5b3fef0f8d3e"
+],
+"dim": "tr",
+"what": "Unmarked '(kulların hallerini)' gloss on doubtful الأخْبارَ replaced by Mütercim notu (possible الأخْيارَ); '(rızkı)' moved into Mütercim notu",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"zajjaj:5-5": {
+"hs": [
+"1b2d868473a7",
+"e39fff1764a1",
+"5e1bfb4e1eb4"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic reads 'و\"اَلْعالِمُ\"، خَبَرًا لِـ\"زَيْدٌ\"'; TR renders '[\"هو اَلْعالِمُ\"] de \"زَيْدٌ\"un haberi olur', silently correcting the source (EN correctly keeps the text and adds a Translator's note). TR also adds unmarked '[b. el-Ebras]' after 'وقالَ عَبِيدٌ'. Both must be handled with [Mütercim notu: …].",
+"at": "2026-10-17 00:40"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source says 'وتَرْفَعُ \"اَلْعالِمُ\"، خَبَرًا لِـ\"هو\"، و\"اَلْعالِمُ\"، خَبَرًا لِـ\"زَيْدٌ\"' (the text literally makes العالم the khabar of زيد). TR writes '[\"هو اَلْعالِمُ\"] de \"زَيْدٌ\"un haberi olur', silently replacing the source's \"اَلْعالِمُ\" with \"هو العالم\" in bare brackets, without [Mütercim notu: ...]; this is a silent correction of the source (EN correctly translates as written and adds a marked note). Also unmarked addition '[b. el-Ebras]' after 'وقالَ عَبِيدٌ' (the source gives only عبيد). Needs fix: translate as written and put the correction/identification in a Mütercim notu.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Translated as written ('اَلْعالِمُ' khabar of زيد) with Mütercim notu instead of silent '[هو العالم]'; '[b. el-Ebras]' put in a Mütercim notu",
+"verified": "PASS",
+"verify_note": "Silent correction removed: العالم is rendered as the khabar of زيد as written, with the analysis in a Mütercim notu; 'b. el-Ebras' is now inside a note; the rest is complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"1b2d868473a7",
+"c01961c9cf43",
+"5e1bfb4e1eb4"
+],
+"dim": "tr",
+"what": "Translated as written ('اَلْعالِمُ' khabar of زيد) with Mütercim notu instead of silent '[هو العالم]'; '[b. el-Ebras]' put in a Mütercim notu",
+"at": "2026-10-17 00:46"
+}
+]
+},
+"zajjaj:55-55": {
+"hs": [
+"ca7728b448af",
+"9f95e2ecd2ee",
+"f373f55b8c4f"
+],
+"dims": {
+"fit": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Entry quotes and explains 2:55 itself (﴿وَإذْ قُلْتُمْ يا مُوسى ... جَهْرَةً فَأخَذَتْكُمُ الصّاعِقَةُ﴾, meaning of جهرة and الصاعقة). It breaks off at 'الدَّلِيلُ عَلى أنَّهم ماتُوا' but the existing text is translatable and correctly placed; the truncation is already noted, not a placement issue.",
+"at": "2026-10-17 00:40"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "The entry discusses only 2:55: '﴿وَإذْ قُلْتُمْ يا مُوسى لَنْ نُؤْمِنَ لَكَ حَتّى نَرى اللَّهَ جَهْرَةً﴾' (meaning of جهرة) and '﴿فَأخَذَتْكُمُ الصّاعِقَةُ﴾' (meaning of الصاعقة). It breaks off at 'الدَّلِيلُ عَلى أنَّهم ماتُوا' but what is there is complete enough to place and translate (both readings note the break), and it does not yet discuss 2:56 (ثم بعثناكم is not quoted). Listing under 55 is correct.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

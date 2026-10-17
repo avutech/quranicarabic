@@ -1,0 +1,82 @@
+{
+"zajjaj:1-1": {
+"hs": [
+"d37aa478d38d",
+"dae5fba1b994",
+"3c89a322e16b"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic «بِالمَوَدَّةِ الَّتِي بَيْنَكم وبَيْنَهُمْ» = 'the affection that is between you and them'. TR 'Aranızdaki ve onlarla aranızdaki sevgi' adds 'Aranızdaki' (affection among yourselves), a wrong/duplicated meaning; should be 'sizinle onlar arasındaki sevgi'. Also the TR inserts unmarked '[onlara gizlice iletirsiniz]' after the gloss of «﴿تُسِرُّونَ إلَيْهِمْ﴾، ما يَسْتُرُهُ النَّبِيُّ ... بِالمَوَدَّةِ»; that must be inside a [Mütercim notu: …].",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic «بِالمَوَدَّةِ الَّتِي بَيْنَكم وبَيْنَهُمْ» = 'the affection between you and them'; TR 'Aranızdaki ve onlarla aranızdaki sevgi' adds 'among yourselves', which distorts the meaning ('sizinle onlar arasındaki sevgi' is needed). TR also adds unmarked '[onlara gizlice iletirsiniz]' after «ما يَسْتُرُهُ النَّبِيُّ بِالمَوَدَّةِ».",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "بالمودة التي بينكم وبينهم now 'Sizinle onlar arasındaki sevgi'; [onlara gizlice iletirsiniz] moved into a Mütercim notu",
+"verified": "PASS",
+"verify_note": "'sizinle onlar arasındaki sevgi' now correct for بالمودة التي بينكم وبينهم; the gizlice iletirsiniz gloss is inside a Mütercim notu; يلقون translated as written; rest complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"d37aa478d38d",
+"45f67195c077",
+"3c89a322e16b"
+],
+"dim": "tr",
+"what": "بالمودة التي بينكم وبينهم now 'Sizinle onlar arasındaki sevgi'; [onlara gizlice iletirsiniz] moved into a Mütercim notu",
+"at": "2026-10-17 00:44"
+}
+]
+},
+"zajjaj:13-13": {
+"hs": [
+"587e5ad19760",
+"9e121adba7ab",
+"a973e774d448"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic second view: «أيْ: مِنَ الَّذِينَ في القُبُورِ، يَعْلَمُونَ أنَّهم لا حَظَّ لَهم في الآخِرَةِ» = 'i.e. [despaired] of those who are in the graves; they know that they have no share in the Hereafter'. TR 'kabirlerde olan [kâfirlerin], âhirette kendileri için hiçbir pay olmadığını bildikleri [gibi, onlardan ümit kestiler]' inserts unmarked words '[kâfirlerin]' and '[gibi, onlardan ümit kestiler]' and recasts the syntax into a comparison the Arabic does not state. Must be rendered literally ('yani kabirlerde olanlardan; âhirette kendileri için hiçbir pay olmadığını bilirler') with any interpretation inside a [Mütercim notu: …]. First view is rendered correctly.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic second view: «أيْ: مِنَ الَّذِينَ في القُبُورِ، يَعْلَمُونَ أنَّهم لا حَظَّ لَهم في الآخِرَةِ». TR inserts unmarked '[kâfirlerin]' and '[gibi, onlardan ümit kestiler]', which are not in the source and reshape the sentence. They must be put in a [Mütercim notu: ...] or removed.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Second view rendered literally ('kabirlerde olanlardan; ... bilirler'), unmarked [kâfirlerin]/[gibi, onlardan ümit kestiler] removed, interpretation put in a Mütercim notu",
+"verified": "PASS",
+"verify_note": "Second view now rendered literally ('yani kabirlerde olanlardan; âhirette kendileri için hiçbir pay olmadığını bilirler') with interpretation only in a Mütercim notu; rest complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"587e5ad19760",
+"a8a091aef192",
+"a973e774d448"
+],
+"dim": "tr",
+"what": "Second view rendered literally ('kabirlerde olanlardan; ... bilirler'), unmarked [kâfirlerin]/[gibi, onlardan ümit kestiler] removed, interpretation put in a Mütercim notu",
+"at": "2026-10-17 00:44"
+}
+]
+}
+}

@@ -1,0 +1,138 @@
+{
+"ukberi-tibyan:1-4": {
+"p1": {
+"ar": "10a2b84bfa52",
+"tr": "2873610f61df",
+"en": "8e00cc18d6c4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:01",
+"fixed": false
+}
+},
+"ukberi-tibyan:6-7": {
+"p1": {
+"ar": "4ab98d1bd4db",
+"tr": "4e21821a2762",
+"en": "678e1b528d02",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:01",
+"fixed": false
+}
+},
+"ukberi-tibyan:9-10": {
+"p1": {
+"ar": "ab958fcbd0a0",
+"tr": "b9034c4fd8c1",
+"en": "30937895f1d2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:01",
+"fixed": false
+}
+},
+"ukberi-tibyan:11-11": {
+"p1": {
+"ar": "d359096b4e8f",
+"tr": "5bb362bd55b3",
+"en": "412c2961b71c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-p1-u3",
+"at": "2026-10-17 00:03",
+"fixed": false
+},
+"p2": {
+"ar": "d359096b4e8f",
+"tr": "5bb362bd55b3",
+"en": "412c2961b71c",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English had the unmarked addition \"[ʿĀd, Thamūd and Pharaoh]\" after صِفَةٌ لِلْجَمْعِ; recast as a marked Translator's note.",
+"by": "ukberi-tibyan-p2-u6",
+"at": "2026-10-16 18:52",
+"fixed": true
+}
+},
+"ukberi-tibyan:15-15": {
+"p1": {
+"ar": "348ca77f5025",
+"tr": "1f8c6203a867",
+"en": "c15952de9c7b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:02",
+"fixed": false
+}
+},
+"ukberi-tibyan:18-18": {
+"p1": {
+"ar": "cf1effa490f6",
+"tr": "fcd693b747db",
+"en": "f41b6e472b9d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:02",
+"fixed": false
+}
+},
+"ukberi-tibyan:22-24": {
+"p1": {
+"ar": "d2e55690ebd3",
+"tr": "1f80495ecdea",
+"en": "864041e6cbda",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:01",
+"fixed": false
+}
+},
+"ukberi-tibyan:25-28": {
+"p1": {
+"ar": "599f401fee78",
+"tr": "3ed16e81a47e",
+"en": "6d65cb7f10eb",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR added unmarked gloss (masdar yerine kullanilan isimlerdir); removed.",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:01",
+"fixed": true
+},
+"p2": {
+"ar": "599f401fee78",
+"tr": "3ed16e81a47e",
+"en": "6d65cb7f10eb",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-p2-u6",
+"at": "2026-10-16 18:52",
+"fixed": false
+}
+}
+}

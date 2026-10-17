@@ -1,0 +1,29 @@
+{
+"nahhas-irab:2-2": {
+"hs": [
+"ccb740acf7c8",
+"5c62f0fc3abf",
+"c41ae92cb818"
+],
+"dims": {
+"fit": {
+"votes": {
+"J2": {
+"class": "MISPLACED",
+"evidence": "First sentence parses 25:2 «الَّذِي لَهُ مُلْكُ السَّماواتِ وَالْأَرْضِ» (naʿt/badal of the preceding الذي), but the second paragraph substantively explains «فَقَدْ جاؤُ ظُلْماً» (Abū Isḥāq: بظلم; others: فقد آتوا ظلما وزورا), which is 25:4 «فَقَدْ جَآءُو ظُلْمًا وَزُورًا». The entry must be listed under 2-4.",
+"at": "2026-10-17 00:39",
+"ayahs": "2-4"
+},
+"J1": {
+"class": "MISPLACED",
+"evidence": "First sentence «الَّذِي لَهُ مُلْكُ السَّماواتِ وَالْأَرْضِ في موضع رفع نعتا أو بدلا» is about 25:2, but the second paragraph «قال أبو إسحاق: فَقَدْ جاؤُ ظُلْماً أي بظلم ... فقد آتوا ظلما وزورا» comments on 25:4 «فَقَدْ جَآءُو ظُلْمًۭا وَزُورًۭا». The entry substantively covers 25:2 and 25:4, so the listing range must be 2-4.",
+"at": "2026-10-17 00:40",
+"ayahs": "2-4"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+}
+}

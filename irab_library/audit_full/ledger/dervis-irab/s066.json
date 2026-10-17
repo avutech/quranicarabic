@@ -1,0 +1,56 @@
+{
+"dervis-irab:1-5": {
+"p1": {
+"ar": "f5432eca1e57",
+"tr": "75b64b94463e",
+"en": "ec7c6ae96cb1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u93",
+"at": "2026-10-10 19:45",
+"fixed": false
+}
+},
+"dervis-irab:6-8": {
+"p1": {
+"ar": "d3627525b926",
+"tr": "daea3b74adf3",
+"en": "98b567912bfd",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u93",
+"at": "2026-10-10 19:45",
+"fixed": false
+}
+},
+"dervis-irab:9-12": {
+"p1": {
+"ar": "07082fe29fa3",
+"tr": "0e89c823a6fe",
+"en": "f83aec3436d4",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR: removed unmarked inserted spellings (والهة) and (والعة) after \"the reverse\" (not in the Arabic).",
+"by": "dervis-irab-p1-u4",
+"at": "2026-10-17 00:19",
+"fixed": true
+},
+"p2": {
+"ar": "07082fe29fa3",
+"tr": "0e89c823a6fe",
+"en": "f83aec3436d4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u5",
+"at": "2026-10-17 00:31",
+"fixed": false
+}
+}
+}

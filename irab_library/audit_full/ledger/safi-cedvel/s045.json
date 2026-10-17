@@ -1,0 +1,250 @@
+{
+"safi-cedvel:16-20": {
+"p1": {
+"ar": "1ddaa1c0179f",
+"tr": "b397f964b6c9",
+"en": "d78b98a90a96",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u61",
+"at": "2026-10-10 19:32",
+"fixed": false
+}
+},
+"safi-cedvel:21-21": {
+"p1": {
+"ar": "77ca09fc93ba",
+"tr": "08d94323db3e",
+"en": "867a31c26a86",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u61",
+"at": "2026-10-10 19:32",
+"fixed": false
+}
+},
+"safi-cedvel:22-22": {
+"p1": {
+"ar": "7ab1d547470e",
+"tr": "e1aeefc4fd34",
+"en": "e097870e4e2f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u61",
+"at": "2026-10-10 19:32",
+"fixed": false
+}
+},
+"safi-cedvel:23-23": {
+"p1": {
+"ar": "a23e57a95ff2",
+"tr": "d79602d2c837",
+"en": "9f609ff452d8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u61",
+"at": "2026-10-10 19:32",
+"fixed": false
+}
+},
+"safi-cedvel:24-25": {
+"p1": {
+"ar": "79ae6ae9b02c",
+"tr": "c45452c9fe44",
+"en": "17f352fe6f90",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u61",
+"at": "2026-10-10 19:32",
+"fixed": false
+}
+},
+"safi-cedvel:26-26": {
+"p1": {
+"ar": "d20affe806ab",
+"tr": "04439141bbc0",
+"en": "51c22002835c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p1-u7",
+"at": "2026-10-17 00:04",
+"fixed": false
+},
+"p2": {
+"ar": "d20affe806ab",
+"tr": "04439141bbc0",
+"en": "51c22002835c",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN silently supplied 'the khabar of' where the Arabic reads «في محلّ رفع المبتدأ (الله)»; added a marked translator's note as the Turkish has.",
+"by": "safi-cedvel-p2-u22",
+"at": "2026-10-16 19:06",
+"fixed": true
+}
+},
+"safi-cedvel:27-35": {
+"p1": {
+"ar": "77dd9034c145",
+"tr": "448ba61aba86",
+"en": "a08106cd539f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u61",
+"at": "2026-10-10 19:32",
+"fixed": false
+}
+},
+"safi-cedvel:36-37": {
+"p1": {
+"ar": "fdafa6c26705",
+"tr": "cbb052adcaff",
+"en": "c0717c825201",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u61",
+"at": "2026-10-10 19:32",
+"fixed": false
+}
+},
+"safi-cedvel:1-2": {
+"p1": {
+"ar": "11f3f256c1a5",
+"tr": "16a7165a3ce1",
+"en": "0441f57db9ca",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u61",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+},
+"safi-cedvel:3-5": {
+"p1": {
+"ar": "e584d0e3fc72",
+"tr": "b88bfec5f895",
+"en": "bed9fa3dd152",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u61",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+},
+"safi-cedvel:6-6": {
+"p1": {
+"ar": "add16750245e",
+"tr": "f11eec66d6d0",
+"en": "794081ca2096",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u61",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+},
+"safi-cedvel:7-10": {
+"p1": {
+"ar": "1b9710b7f0e6",
+"tr": "bf5a40d3063a",
+"en": "12f515191b69",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u61",
+"at": "2026-10-10 19:35",
+"fixed": false
+},
+"p2": {
+"ar": "1b9710b7f0e6",
+"tr": "bf5a40d3063a",
+"en": "12f515191b69",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u22",
+"at": "2026-10-16 19:06",
+"fixed": false
+}
+},
+"safi-cedvel:11-11": {
+"p1": {
+"ar": "ea990b9c221a",
+"tr": "a2bfe961b346",
+"en": "bd4e699a1a53",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u61",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+},
+"safi-cedvel:12-13": {
+"p1": {
+"ar": "7151f7e2eb3c",
+"tr": "cce53c4e7283",
+"en": "32f11dc7303f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u61",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+},
+"safi-cedvel:14-14": {
+"p1": {
+"ar": "e68756cffdd8",
+"tr": "526abac3c278",
+"en": "8eb75f5fb415",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u61",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+},
+"safi-cedvel:15-15": {
+"p1": {
+"ar": "620e8eb8ef52",
+"tr": "1d442d13c49b",
+"en": "c600b3a91036",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u61",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+}
+}

@@ -1,0 +1,166 @@
+{
+"farraa:1-1": {
+"p1": {
+"ar": "89fe008fd788",
+"tr": "1f05c433a758",
+"en": "feb2bbcddc95",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:57",
+"fixed": false
+},
+"p2": {
+"ar": "89fe008fd788",
+"tr": "1f05c433a758",
+"en": "feb2bbcddc95",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p2-u4",
+"at": "2026-10-16 19:05",
+"fixed": false
+}
+},
+"farraa:2-2": {
+"p1": {
+"ar": "dd8524dc3eea",
+"tr": "1790bd1d8b35",
+"en": "a74370ac21a7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:57",
+"fixed": false
+}
+},
+"farraa:3-3": {
+"p1": {
+"ar": "dc53e173874c",
+"tr": "6d6ddbc0eaed",
+"en": "bd654305b43b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:57",
+"fixed": false
+}
+},
+"farraa:8-8": {
+"p1": {
+"ar": "83547ed8c313",
+"tr": "0c4c151c78f7",
+"en": "237b1b91468d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:57",
+"fixed": false
+}
+},
+"farraa:9-9": {
+"p1": {
+"ar": "ea9da54b8586",
+"tr": "0ce202105948",
+"en": "88552279709a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:57",
+"fixed": false
+}
+},
+"farraa:11-11": {
+"p1": {
+"ar": "60b2b135e665",
+"tr": "1fa0d200017c",
+"en": "dbc4e5da20e1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:57",
+"fixed": false
+}
+},
+"farraa:12-12": {
+"p1": {
+"ar": "c6dc8f95d8bb",
+"tr": "c277aa283d0f",
+"en": "aab2da38f1f5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:57",
+"fixed": false
+}
+},
+"farraa:13-13": {
+"p1": {
+"ar": "19c525b92102",
+"tr": "a149a321e0e5",
+"en": "cb0b494e65eb",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:57",
+"fixed": false
+}
+},
+"farraa:14-14": {
+"p1": {
+"ar": "f05b2148e306",
+"tr": "4d4411467e67",
+"en": "4bebb32ab97c",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Unmarked insertions \"(yeri)\" in TR and \"[the earth]\" in EN for أرجف بهم / فسواها عليهم; removed.",
+"by": "farraa-u22",
+"at": "2026-10-10 15:57",
+"fixed": true
+},
+"p2": {
+"ar": "f05b2148e306",
+"tr": "4d4411467e67",
+"en": "4bebb32ab97c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p2-u4",
+"at": "2026-10-16 19:05",
+"fixed": false
+}
+},
+"farraa:15-15": {
+"p1": {
+"ar": "6b23b6b7885b",
+"tr": "2ec682fbf2b0",
+"en": "abf7217dd3d5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:57",
+"fixed": false
+}
+}
+}

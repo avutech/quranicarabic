@@ -1,0 +1,42 @@
+{
+"harrat-mujtaba:23-23": {
+"hs": [
+"7f39a62dff9c",
+"2555ac15a9d2",
+"d341bd05ecff"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «جملة التنزيه صلة الموصول» — does not name the clause. English inserts '[«لا إله إلا هو»]' after 'the clause of transcendence' in plain brackets, not in a [Translator's note: …]. The identification is plausible but it is an unmarked addition.",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "The Arabic says only «جملة التنزيه صلة الموصول». The English inserts '[«لا إله إلا هو»]' after 'the clause of transcendence', which is in plain brackets and not in a Translator's note, so it is an unmarked addition. The identification is correct, but it must be put inside a note.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "put the unmarked [«لا إله إلا هو»] inside a Translator's note",
+"verified": "PASS",
+"verify_note": "Identification of the clause now inside Translator's note; rest faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"7f39a62dff9c",
+"2555ac15a9d2",
+"2503de0174ea"
+],
+"dim": "en",
+"what": "put the unmarked [«لا إله إلا هو»] inside a Translator's note",
+"at": "2026-10-17 00:45"
+}
+]
+}
+}

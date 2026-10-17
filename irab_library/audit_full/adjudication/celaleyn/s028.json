@@ -1,0 +1,107 @@
+{
+"celaleyn:52-52": {
+"hs": [
+"17406da1eff0",
+"369837453002",
+"eeb7fe121587"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Claim of omission is false: Turkish contains 've başkaları' (وَغَيْرِهِ) and 'Hristiyanlardan Habeşistan'dan ve Şam'dan gelmiş olanlar' (وَمِنَ النَّصَارَى قَدِمُوا مِنَ الْحَبَشَةِ وَمِنَ الشَّامِ); أَيِ الْقُرْآنِ and أَيْضًا (yine) also rendered. Complete.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Turkish is complete: it has 'Abdullah b. Selâm ve başkaları gibi' (كَعَبْدِ اللَّهِ بْنِ سَلَامٍ وَغَيْرِهِ) and 'Hristiyanlardan Habeşistan'dan ve Şam'dan gelmiş olanlar' (وَمِنَ النَّصَارَى قَدِمُوا مِنَ الْحَبَشَةِ وَمِنَ الشَّامِ); 'yine' renders أَيْضًا. The claimed omission does not exist.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+},
+"celaleyn:82-82": {
+"hs": [
+"f2e7716b2ec5",
+"1b3376abb31b",
+"43d14ea975a1"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Parsed word وَيْ (وَوَيْ اسْمُ فِعْلٍ بِمَعْنَى أَعْجَبُ) is rendered in Latin transliteration 'Way is a verbal noun' instead of Arabic script «وَيْ» (Turkish correctly keeps «وَيْ»). Also 'I [do]' for أَيْ أَنَا adds an unmarked bracket. Needs fix.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "The parsed word وَوَيْ اسْمُ فِعْلٍ is rendered as the Latin transliteration 'Way is a verbal noun' instead of keeping «وَيْ» in Arabic script (the Turkish keeps «وَيْ»). Also 'i.e. I [do]' adds an unmarked bracket '[do]' for أَيْ أَنَا. Fix: «وَيْ» in Arabic script; put '[do]' in a Translator's note or drop it.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Transliterated 'Way' replaced by Arabic-script «وَيْ» (with «أَعْجَبُ» kept in Arabic); unmarked addition '[do]' removed",
+"verified": "PASS",
+"verify_note": "«وَيْ» now in Arabic script, no unmarked bracket; all glosses (يوسع, يضيق, ism fiʿl, أي أنا, kāf=lām, active/passive, لنعمة الله كقارون) rendered faithfully."
+}
+},
+"history": [
+{
+"old_hs": [
+"f2e7716b2ec5",
+"1b3376abb31b",
+"f7bbd3a37367"
+],
+"dim": "en",
+"what": "Transliterated 'Way' replaced by Arabic-script «وَيْ» (with «أَعْجَبُ» kept in Arabic); unmarked addition '[do]' removed",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"celaleyn:12-12": {
+"hs": [
+"359fe8a2f64c",
+"04bb53d35ea8",
+"2a3d71d8e015"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "«فَأَذِنَ لَهَا فِي إِرْضَاعِهِ» has no named subject; the source only mentions «الْمَلِكِ» earlier. TR inserts '(Firavun)' as a bare parenthetical, not inside [Mütercim notu: ...]. The meaning is consistent, but under the standard an unmarked addition is an error. Fix: put Pharaoh's identification in a translator's note, or render as 'hükümdar'. Other bare parentheticals ('(Teklifi)', '(alıp)') are grammatical fillers.",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: فَأَذِنَ لَهَا فِي إِرْضَاعِهِ فِي بَيْتِهَا - no subject named (the text earlier only says فَسَّرَتْ ضَمِيرَ لَهُ بِالْمَلِكِ). TR '(Firavun) ona ... izin verdi' adds the name Pharaoh as a bare parenthetical, an addition not in the Arabic and not inside «[Mütercim notu: …]». Under the binding rule this is an unmarked addition; fix by rendering 'hükümdar ona izin verdi' or moving the identification into a Mütercim notu.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Replaced bare '(Firavun)' with implicit subject 'O' plus [Mütercim notu: hükümdar, yani Firavun]",
+"verified": "PASS",
+"verify_note": "Bare (Firavun) replaced by subject 'O' with identification inside [Mütercim notu: hükümdar, yani Firavun]; rest complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"359fe8a2f64c",
+"942524ee2317",
+"2a3d71d8e015"
+],
+"dim": "tr",
+"what": "Replaced bare '(Firavun)' with implicit subject 'O' plus [Mütercim notu: hükümdar, yani Firavun]",
+"at": "2026-10-17 01:14"
+}
+]
+}
+}

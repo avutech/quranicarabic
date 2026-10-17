@@ -1,0 +1,27 @@
+{
+"nahhas-meani:38-38": {
+"hs": [
+"e2cde95d919f",
+"6eb26bc4385a",
+"1c9d54ec83bf"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "HUMAN",
+"evidence": "Arabic «مدنيةٌ في رواية مجاهد ... نزلت سورةُ الفتح بين مكة والمدينة، كلُّها في شأن الحديبية» is the introduction to Surat al-Fath (48); it discusses nothing of 47:38 or any ayah of surah 47, so no correct range exists in this surah; must go to surah 48 intro, which this tool cannot express.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "HUMAN",
+"evidence": "Arabic «مدنيةٌ ... نزلت سورةُ الفتح بين مكة والمدينة كلُّها في شأن الحديبية» is the introduction to Surat al-Fath (48), not about 47:38 «هَا أَنتُمْ هَؤُلَاءِ تُدْعَوْنَ»; no correct range exists in surah 47, cross-surah relocation needs a human decision.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "HUMAN"
+}
+}
+}
+}

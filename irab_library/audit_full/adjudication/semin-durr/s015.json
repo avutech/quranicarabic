@@ -1,0 +1,29 @@
+{
+"semin-durr:38-38": {
+"hs": [
+"0357c1c571b0",
+"88213e662d2e",
+"c838723775e7"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "MISPLACED",
+"evidence": "The entry «قوله تعالى: {إلى يَوْمِ} يجوز أن يتعلَّقَ بالاستقرار في «عليك» ... بنفسِ اللعنةِ» explicitly links {إلى يوم} to «عليك» and «اللعنة», which occur only in 15:35 وَإِنَّ عَلَيْكَ اللَّعْنَةَ إِلَىٰ يَوْمِ الدِّينِ; 15:38 إلى يوم الوقت المعلوم has neither عليك nor اللعنة.",
+"at": "2026-10-17 00:39",
+"ayahs": "35-35"
+},
+"J2": {
+"class": "MISPLACED",
+"evidence": "Entry {إلى يَوْمِ} attaches it to the istiqrār in «عليك» or to «اللعنة» itself; that is 15:35 وَإِنَّ عَلَيْكَ اللَّعْنَةَ إِلَىٰ يَوْمِ الدِّينِ. 15:38 (إِلَىٰ يَوْمِ الْوَقْتِ الْمَعْلُومِ) has neither عليك nor اللعنة.",
+"at": "2026-10-17 00:40",
+"ayahs": "35-35"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+}
+}

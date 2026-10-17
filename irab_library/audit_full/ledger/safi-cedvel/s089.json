@@ -1,0 +1,126 @@
+{
+"safi-cedvel:1-4": {
+"p1": {
+"ar": "fc26ef067887",
+"tr": "4dec085645e9",
+"en": "21b4c0f98ff3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u65",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"safi-cedvel:5-5": {
+"p1": {
+"ar": "e1625bf44ccb",
+"tr": "eb964cd76ab7",
+"en": "08888bdb8fe2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u65",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"safi-cedvel:6-14": {
+"p1": {
+"ar": "03413fa17ff7",
+"tr": "434990404c83",
+"en": "16c37f4ee37b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u65",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"safi-cedvel:15-16": {
+"p1": {
+"ar": "f8e962b7d2a9",
+"tr": "135621e3f2d5",
+"en": "c7bcb765b32a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u65",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"safi-cedvel:17-20": {
+"p1": {
+"ar": "eebe66df78bd",
+"tr": "cb3fdcbd49f6",
+"en": "01a34fb2a37c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u65",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"safi-cedvel:21-24": {
+"p1": {
+"ar": "4f3be817a306",
+"tr": "9cff5eb78bf1",
+"en": "54cf59fa5b8a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u65",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"safi-cedvel:25-26": {
+"p1": {
+"ar": "976e00520a80",
+"tr": "682376c76052",
+"en": "5dd2139beb92",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u65",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"safi-cedvel:27-30": {
+"p1": {
+"ar": "9e61b70217cf",
+"tr": "b675f9270dbd",
+"en": "45d9e0c277ec",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p1-u7",
+"at": "2026-10-17 00:04",
+"fixed": false
+},
+"p2": {
+"ar": "9e61b70217cf",
+"tr": "b675f9270dbd",
+"en": "45d9e0c277ec",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN footnote translated the Quranic words \"يأيّتها النفس\" as \"O soul\" instead of keeping them in Arabic script; restored the Arabic.",
+"by": "safi-cedvel-p2-u23",
+"at": "2026-10-16 19:28",
+"fixed": true
+}
+}
+}

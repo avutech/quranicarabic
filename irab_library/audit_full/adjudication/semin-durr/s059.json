@@ -1,0 +1,29 @@
+{
+"semin-durr:21-21": {
+"hs": [
+"8a6dcf1e5a6c",
+"69905f6d9c66",
+"043d547cf5cd"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "MISPLACED",
+"evidence": "{خَاشِعاً} and «مُصَّدِّعاً» are 59:21, but the second part discusses readings of «القَدُّوس» and «المُؤْمِنُ» (الملك القدوس السلام المؤمن), which is 59:23. Range must include 23.",
+"at": "2026-10-17 00:41",
+"ayahs": "21-23"
+},
+"J2": {
+"class": "MISPLACED",
+"evidence": "First lines are 59:21 ({خَاشِعاً}, Ṭalḥa's «مُصَّدِّعاً» for مُّتَصَدِّعًا), but the remainder substantively discusses 59:23: readings of «القَدُّوس» with fatha on qāf and «المُؤْمِنُ» with kasra/fatha of the mīm, al-Zamakhsharī vs Abū Ḥātim; ٱلْقُدُّوسُ ٱلسَّلَـٰمُ ٱلْمُؤْمِنُ are in 59:23. Range must cover 21-23.",
+"at": "2026-10-17 00:41",
+"ayahs": "21-23"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+}
+}

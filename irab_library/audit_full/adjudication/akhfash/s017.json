@@ -1,0 +1,42 @@
+{
+"akhfash:78-78": {
+"hs": [
+"398871d293cd",
+"05ca14908110",
+"acb373e2c11d"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source: 'أي: وَعَلَيْكَ قرآن الفَجْر' (i.e. [hold to] the recitation/Qur'an of dawn). TR gloss '(sabah namazındaki Kur'an okumaya da devam et)' renders عليك acceptably (devam et = hold to), but adds 'namazındaki' (in the morning PRAYER), an interpretation not in the Arabic, which only says قرآن الفجر. Unmarked interpretive addition; should be 'sabahın Kur'an'ına (okunuşuna) da devam et' or the prayer reading put in [Mütercim notu: ...].",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: 'أي: وَعَلَيْكَ قرآن الفَجْر' (i.e. [hold to] the Quran/recitation of dawn). TR gloss '(sabah namazındaki Kur'an okumaya da devam et)' adds unmarked 'sabah namazındaki' (prayer is not in the text) and an interpretive 'devam et'. Should be a literal gloss, with any interpretation in [Mütercim notu: …].",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Literal gloss of وعليك قرآن الفجر; the 'sabah namazı' interpretation moved into a Mütercim notu",
+"verified": "PASS",
+"verify_note": "Gloss of 'وعليك قرآن الفجر' is now literal ('fecrin Kur'ân'ı da senin üzerine olsun'); the morning-prayer interpretation is inside a Mütercim notu; nothing unmarked added."
+}
+},
+"history": [
+{
+"old_hs": [
+"398871d293cd",
+"29b6251d6f73",
+"acb373e2c11d"
+],
+"dim": "tr",
+"what": "Literal gloss of وعليك قرآن الفجر; the 'sabah namazı' interpretation moved into a Mütercim notu",
+"at": "2026-10-17 00:46"
+}
+]
+}
+}

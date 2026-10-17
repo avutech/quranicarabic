@@ -1,0 +1,192 @@
+{
+"nahhas-irab:1-1": {
+"p1": {
+"ar": "cc8637cb7f16",
+"tr": "d6fcfd9c9a52",
+"en": "1a137f5ff1d2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u44",
+"at": "2026-10-10 16:04",
+"fixed": false
+}
+},
+"nahhas-irab:2-2": {
+"p1": {
+"ar": "8e78572d37a9",
+"tr": "8260b9fba9b7",
+"en": "fe3dc3e9606d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u44",
+"at": "2026-10-10 16:04",
+"fixed": false
+}
+},
+"nahhas-irab:3-3": {
+"p1": {
+"ar": "67788fcdddf1",
+"tr": "a19158092dbb",
+"en": "32f8786d2991",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p1-u4",
+"at": "2026-10-17 00:07",
+"fixed": false
+},
+"p2": {
+"ar": "67788fcdddf1",
+"tr": "a19158092dbb",
+"en": "32f8786d2991",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR \"Hiç kimse ancak ... söylesin\" lacked the negative verb for \"ألّا يقول أحد شيئا إلا\"; now \"söylemesin\".",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 17:37",
+"fixed": true
+}
+},
+"nahhas-irab:4-4": {
+"p1": {
+"ar": "9569642ca6b1",
+"tr": "3c535cff6f1f",
+"en": "2596f2936e76",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u44",
+"at": "2026-10-10 16:04",
+"fixed": false
+}
+},
+"nahhas-irab:5-5": {
+"p1": {
+"ar": "cf96aae87aff",
+"tr": "fbbf5331dbd2",
+"en": "7a610a50b268",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u44",
+"at": "2026-10-10 16:04",
+"fixed": false
+}
+},
+"nahhas-irab:6-6": {
+"p1": {
+"ar": "5cbb6e3ca007",
+"tr": "bafdf98cf1f7",
+"en": "b438de97bb99",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u44",
+"at": "2026-10-10 16:04",
+"fixed": false
+}
+},
+"nahhas-irab:7-7": {
+"p1": {
+"ar": "cfe24b178a73",
+"tr": "7321ba07dedd",
+"en": "bafa3fc56267",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p1-u7",
+"at": "2026-10-17 00:58",
+"fixed": false
+},
+"p2": {
+"ar": "cfe24b178a73",
+"tr": "aeda73d0318c",
+"en": "bafa3fc56267",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 17:37",
+"fixed": false
+}
+},
+"nahhas-irab:8-8": {
+"p1": {
+"ar": "860b0029c6fa",
+"tr": "de798717a35b",
+"en": "d69948c4f8b0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u44",
+"at": "2026-10-10 16:04",
+"fixed": false
+}
+},
+"nahhas-irab:9-9": {
+"p1": {
+"ar": "74ab4767aa55",
+"tr": "c0e086064d05",
+"en": "a0f91eeb8b02",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u44",
+"at": "2026-10-10 16:04",
+"fixed": false
+}
+},
+"nahhas-irab:10-13": {
+"p1": {
+"ar": "c818326022be",
+"tr": "76682af55769",
+"en": "e4d5f752d621",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u44",
+"at": "2026-10-10 16:04",
+"fixed": false
+}
+},
+"nahhas-irab:14-14": {
+"p1": {
+"ar": "2897333ae447",
+"tr": "98ed645a8e6f",
+"en": "1c9d352fa990",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish had unmarked addition (Ibn Kuteybe) after القتبي and rendered أيّدهم الله محمد as \"with Muhammad\" without a note; fixed",
+"by": "nahhas-irab-p1-u4",
+"at": "2026-10-17 00:07",
+"fixed": true
+},
+"p2": {
+"ar": "2897333ae447",
+"tr": "98ed645a8e6f",
+"en": "1c9d352fa990",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u7",
+"at": "2026-10-17 00:16",
+"fixed": false
+}
+}
+}

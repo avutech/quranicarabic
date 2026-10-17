@@ -1,0 +1,27 @@
+{
+"nahhas-irab:59-59": {
+"hs": [
+"a3680a634cb8",
+"01b567db4537",
+"9c0bbc3a8282"
+],
+"dims": {
+"fit": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "The entry discusses only 24:59: «الحلم» (Hasan's reading الحُلْم) and «فَلْيَسْتَأْذِنُوا» contrasted with «لِيَسْتَأْذِنْكُمُ» of 24:58, cited as comparison. Listed under the right ayah. The closing «ولا متعبّدين ...» ellipsis leaves a complete, translatable statement, and both readings follow it; nothing to re-place.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "The entry comments on «الحلم» (Hasan's reading) and «فَلْيَسْتَأْذِنُوا» vs «لِيَسْتَأْذِنْكُمُ», all words of 24:59 (with 24:58 cited for comparison). It is correctly listed under 24:59; the trailing «ولا متعبّدين ...» ellipsis is a truncation of the end, not a placement issue, and the readings translate what is there.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

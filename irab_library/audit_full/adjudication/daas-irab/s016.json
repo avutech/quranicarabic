@@ -1,0 +1,27 @@
+{
+"daas-irab:32-33": {
+"hs": [
+"cbd7116cc29b",
+"e0e86f94f829",
+"8dd8b2670da9"
+],
+"dims": {
+"fit": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Entry parses 16:32 (﴿الَّذِينَ﴾ ﴿تَتَوَفَّاهُمُ الْمَلائِكَةُ﴾ ... ﴿تَعْمَلُونَ﴾) and 16:33 (garbled «َلْ» = هل, «نْظُرُونَ», «تَأْتِيَهُمُ الْمَلائِكَةُ», «أَمْرُ», «ذلِكَ», «ظَلَمَهُمُ اللَّهُ», «ظْلِمُونَ»), exactly the range 32-33. Garbling is limited to brackets/first letters; analysis legible and translated, restoration marked in notes; placement correct.",
+"at": "2026-10-17 00:40"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Entry parses 16:32 (﴿الَّذِينَ﴾ ﴿تَتَوَفَّاهُمُ الْمَلائِكَةُ﴾ ... ﴿بِما﴾ ﴿كُنْتُمْ﴾ ﴿تَعْمَلُونَ﴾) and then 16:33 (َلْ = هل, نْظُرُونَ, لَّا, َنْ تَأْتِيَهُمُ الْمَلائِكَةُ, وْ يَأْتِيَ أَمْرُ, بِّكَ, ذلِكَ, عَلَ, لَّذِينَ, نْ قَبْلِهِمْ, ما ظَلَمَهُمُ اللَّهُ, لكِنْ, انُوا, نْفُسَهُمْ, ظْلِمُونَ) - exactly 32-33 as filed. The 33 part has corrupted markup but its content is fully identifiable and translated, so placement is correct and it is not a nothing-to-place source defect.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

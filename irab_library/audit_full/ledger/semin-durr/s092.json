@@ -1,0 +1,178 @@
+{
+"semin-durr:3-3": {
+"p1": {
+"ar": "f63b540f63f6",
+"tr": "a92250e93d73",
+"en": "8f9c8e2e44fd",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:35",
+"fixed": false
+}
+},
+"semin-durr:4-4": {
+"p1": {
+"ar": "e6d6ab4cdd8c",
+"tr": "64b15b7465e6",
+"en": "a651ff36a3e6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:35",
+"fixed": false
+}
+},
+"semin-durr:5-5": {
+"p1": {
+"ar": "c31e6dfb82cd",
+"tr": "12ef38142911",
+"en": "555bd5f6e038",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:35",
+"fixed": false
+},
+"p2": {
+"ar": "c31e6dfb82cd",
+"tr": "12ef38142911",
+"en": "555bd5f6e038",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u20",
+"at": "2026-10-17 00:08",
+"fixed": false
+}
+},
+"semin-durr:11-11": {
+"p1": {
+"ar": "fbe4b9b16bdb",
+"tr": "90b077a5785d",
+"en": "d0a1db3a8a98",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:35",
+"fixed": false
+}
+},
+"semin-durr:14-14": {
+"p1": {
+"ar": "5c7fefbe7e25",
+"tr": "e123f313447c",
+"en": "ba2fa9aa714f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:35",
+"fixed": false
+}
+},
+"semin-durr:15-15": {
+"p1": {
+"ar": "7b943ffab485",
+"tr": "f9eece80383d",
+"en": "6ef5c505202a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:35",
+"fixed": false
+},
+"p2": {
+"ar": "7b943ffab485",
+"tr": "f9eece80383d",
+"en": "6ef5c505202a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u20",
+"at": "2026-10-17 00:08",
+"fixed": false
+}
+},
+"semin-durr:18-18": {
+"p1": {
+"ar": "39d9bd988e12",
+"tr": "d4d275507cf6",
+"en": "b3780927c7b7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:35",
+"fixed": false
+}
+},
+"semin-durr:19-19": {
+"p1": {
+"ar": "010dce61ead7",
+"tr": "e37c06a6b60a",
+"en": "52017698151a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:35",
+"fixed": false
+}
+},
+"semin-durr:20-20": {
+"p1": {
+"ar": "8dd331b0d8b9",
+"tr": "1b2c51c698dc",
+"en": "6377ca89e09e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p1-u10",
+"at": "2026-10-17 00:21",
+"fixed": false
+},
+"p2": {
+"ar": "8dd331b0d8b9",
+"tr": "1b2c51c698dc",
+"en": "6377ca89e09e",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR added unmarked \"(b. Vessâb)\" after \"يحيى\", now a Mütercim notu; EN silently supplied the missing «لا» in verse 4587 \"أنيس بها\", now marked with a translator note.",
+"by": "semin-durr-p2-u20",
+"at": "2026-10-17 00:08",
+"fixed": true
+}
+},
+"semin-durr:21-21": {
+"p1": {
+"ar": "0d878cb0df5a",
+"tr": "e56aa4332233",
+"en": "25f0998415e9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:35",
+"fixed": false
+}
+}
+}

@@ -1,0 +1,166 @@
+{
+"safi-cedvel:1-5": {
+"p1": {
+"ar": "d62fba1296c0",
+"tr": "024c5a637369",
+"en": "68d1ccfc01d9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"safi-cedvel:6-11": {
+"p1": {
+"ar": "b37da8772831",
+"tr": "4adb9dbdbe23",
+"en": "922f5ffd1e8e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+},
+"safi-cedvel:12-12": {
+"p1": {
+"ar": "e622d51b8d13",
+"tr": "1b7ece578823",
+"en": "0d2ec162202b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"safi-cedvel:13-14": {
+"p1": {
+"ar": "8896aa66ea3b",
+"tr": "384cb00a0ac2",
+"en": "c5f7474f0992",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"safi-cedvel:15-26": {
+"p1": {
+"ar": "ada3f15017a8",
+"tr": "08c27ad1125c",
+"en": "aba6691eb415",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"safi-cedvel:27-29": {
+"p1": {
+"ar": "c4e6bc4f31a4",
+"tr": "8bc7e7215b7b",
+"en": "70d0102fee8a",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Removed unmarked addition \"(doğuşu)\"/\"rising\" in duha definition; Arabic says \"بين الشمس والظهر\"",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:34",
+"fixed": true
+},
+"p2": {
+"ar": "c4e6bc4f31a4",
+"tr": "8bc7e7215b7b",
+"en": "70d0102fee8a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u23",
+"at": "2026-10-16 19:18",
+"fixed": false
+}
+},
+"safi-cedvel:30-33": {
+"p1": {
+"ar": "29a8110fb400",
+"tr": "4ae11784c093",
+"en": "bbdd1bdffdcc",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"safi-cedvel:34-36": {
+"p1": {
+"ar": "88e6b37f711c",
+"tr": "194cae804a7e",
+"en": "6d7c8c3fbcb7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"safi-cedvel:37-41": {
+"p1": {
+"ar": "a050efbf6cdf",
+"tr": "6ddd180b5f90",
+"en": "8f6a3b7b3c88",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN had unmarked gloss \"(a verb with two weak letters adjacent)\" after lafif maqrun; removed",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:34",
+"fixed": true
+},
+"p2": {
+"ar": "a050efbf6cdf",
+"tr": "6ddd180b5f90",
+"en": "8f6a3b7b3c88",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u23",
+"at": "2026-10-16 19:18",
+"fixed": false
+}
+},
+"safi-cedvel:42-46": {
+"p1": {
+"ar": "9fac2c4d1870",
+"tr": "7474e188fb82",
+"en": "c5995e659db4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+}
+}

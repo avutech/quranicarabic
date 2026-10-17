@@ -1,0 +1,124 @@
+{
+"farraa:2-2": {
+"p1": {
+"ar": "9ba97475eb52",
+"tr": "73bd2ebc1549",
+"en": "c2d6583fc07b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:56",
+"fixed": false
+}
+},
+"farraa:3-3": {
+"p1": {
+"ar": "6a0a7351133c",
+"tr": "92fa5172ae39",
+"en": "3ce3adcc40b7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:56",
+"fixed": false
+}
+},
+"farraa:4-4": {
+"p1": {
+"ar": "98850d59d842",
+"tr": "0b0e05097519",
+"en": "51e171663e88",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:56",
+"fixed": false
+},
+"p2": {
+"ar": "98850d59d842",
+"tr": "0b0e05097519",
+"en": "51e171663e88",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p2-u4",
+"at": "2026-10-16 19:05",
+"fixed": false
+}
+},
+"farraa:6-6": {
+"p1": {
+"ar": "a956af19a449",
+"tr": "39125f9c43b2",
+"en": "546c75c6b2b8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:56",
+"fixed": false
+}
+},
+"farraa:10-10": {
+"p1": {
+"ar": "0c59b92c2deb",
+"tr": "57e65b66bb6b",
+"en": "46f83197a49c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:56",
+"fixed": false
+}
+},
+"farraa:11-11": {
+"p1": {
+"ar": "b175437dc538",
+"tr": "2030ea2df64c",
+"en": "86da07932750",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR had unmarked gloss \"(mâzî fiil üzerinde)\" and an unlabeled bracketed note; removed gloss and labeled note as Mütercim notu.",
+"by": "farraa-u22",
+"at": "2026-10-10 15:56",
+"fixed": true
+},
+"p2": {
+"ar": "b175437dc538",
+"tr": "2030ea2df64c",
+"en": "86da07932750",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p2-u4",
+"at": "2026-10-16 19:05",
+"fixed": false
+}
+},
+"farraa:14-14": {
+"p1": {
+"ar": "64661a738e8c",
+"tr": "f2bfcb72593c",
+"en": "3762243803b9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:56",
+"fixed": false
+}
+}
+}

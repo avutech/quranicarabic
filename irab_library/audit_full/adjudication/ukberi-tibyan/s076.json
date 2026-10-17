@@ -1,0 +1,42 @@
+{
+"ukberi-tibyan:4-4": {
+"hs": [
+"d12416ea437a",
+"653da1609caa",
+"b81e117fa8bc"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Reviewer's specific claim is false: TR quotes the ayah ending (٤), not (5). However TR has unmarked additions not in the Arabic: «Kendisinden sonrakine (أَغْلَالًا) uydurulması» (source only إتباعه ما بعده; naming أغلالا is interpretive), «(yeniden) çoğul yapılmış», «Kıraat tenvinsiz olarak (yapılmış)tır», and the verse gloss «[yani uğurlu fal verdi]» in plain brackets. Per the binding standard these must be inside [Mütercim notu: …], so a fix is needed.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Reviewer's specific claim is false: the TR quotation ends with (٤), not (5). But the TR reading contains unmarked additions not in the Arabic: «Kendisinden sonrakine (أَغْلَالًا)» (source has only «إِتْبَاعُهُ مَا بَعْدَهُ»), «fâsılalarda (mısra sonlarında)», «bu çoğulun (yeniden) çoğul yapılmış», «Kıraat tenvinsiz olarak (yapılmış)tır», and the verse gloss «[yani uğurlu fal verdi]» for «قَدْ جَرَتِ الطَّيْرُ أَيَامِنِينَا». Each must be moved into «[Mütercim notu: …]».",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved unmarked additions into [Mütercim notu]: identification of ما بعده as أغلالا, 'mısra sonlarında' gloss, 'uğurlu fal' gloss; removed '(yapılmış)' and '(yeniden)' additions; quote number (٤) was already correct.",
+"verified": "PASS",
+"verify_note": "Complete and faithful; former unmarked glosses (أغلالا, mısra sonları, uğurlu fal) now inside Mütercim notu; no new additions."
+}
+},
+"history": [
+{
+"old_hs": [
+"d12416ea437a",
+"8ee8ba62f09d",
+"b81e117fa8bc"
+],
+"dim": "tr",
+"what": "Moved unmarked additions into [Mütercim notu]: identification of ما بعده as أغلالا, 'mısra sonlarında' gloss, 'uğurlu fal' gloss; removed '(yapılmış)' and '(yeniden)' additions; quote number (٤) was already correct.",
+"at": "2026-10-17 00:45"
+}
+]
+}
+}

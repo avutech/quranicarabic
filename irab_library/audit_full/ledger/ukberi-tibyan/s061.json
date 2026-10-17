@@ -1,0 +1,138 @@
+{
+"ukberi-tibyan:3-3": {
+"p1": {
+"ar": "c83b509be221",
+"tr": "2c4f8f6e70f8",
+"en": "ad1822363f73",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 15:59",
+"fixed": false
+}
+},
+"ukberi-tibyan:4-4": {
+"p1": {
+"ar": "312ca7b705c2",
+"tr": "3a951a4eb00b",
+"en": "758c4e8a0636",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 15:59",
+"fixed": false
+}
+},
+"ukberi-tibyan:6-6": {
+"p1": {
+"ar": "0ac64570faae",
+"tr": "5d51329e00fb",
+"en": "87c6142a50b0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 15:59",
+"fixed": false
+}
+},
+"ukberi-tibyan:8-9": {
+"p1": {
+"ar": "4ace46e4e646",
+"tr": "4d187df1e4c4",
+"en": "41a1c42b0241",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 15:59",
+"fixed": false
+}
+},
+"ukberi-tibyan:11-11": {
+"p1": {
+"ar": "80281f7082c2",
+"tr": "114bf92cb3f5",
+"en": "5cd75ff7e8ef",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 15:59",
+"fixed": false
+},
+"p2": {
+"ar": "80281f7082c2",
+"tr": "114bf92cb3f5",
+"en": "5cd75ff7e8ef",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-p2-u6",
+"at": "2026-10-16 17:37",
+"fixed": false
+}
+},
+"ukberi-tibyan:12-12": {
+"p1": {
+"ar": "e788433c2446",
+"tr": "87f36949f92f",
+"en": "88eb2ce93fe6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-p1-u3",
+"at": "2026-10-17 00:02",
+"fixed": false
+},
+"p2": {
+"ar": "e788433c2446",
+"tr": "87f36949f92f",
+"en": "88eb2ce93fe6",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish inserted an unmarked attribution \"(Hz. Peygamber'in)\" for دَلَالَتَهُ (the speaker of هَلْ أَدُلُّكُمْ is Allah); replaced with the neutral \"onun\".",
+"by": "ukberi-tibyan-p2-u6",
+"at": "2026-10-16 17:37",
+"fixed": true
+}
+},
+"ukberi-tibyan:13-13": {
+"p1": {
+"ar": "f7d6c5bb8eff",
+"tr": "bbbb874eeae3",
+"en": "ddbaafe808ef",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 15:59",
+"fixed": false
+}
+},
+"ukberi-tibyan:14-14": {
+"p1": {
+"ar": "01b5fdc53ace",
+"tr": "c18bc61c5805",
+"en": "23b186091d78",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 15:59",
+"fixed": false
+}
+}
+}

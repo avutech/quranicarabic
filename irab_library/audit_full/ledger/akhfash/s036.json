@@ -1,0 +1,136 @@
+{
+"akhfash:1-1": {
+"p1": {
+"ar": "edd620c9253e",
+"tr": "6ce4d929ff5d",
+"en": "2c0bddc5869c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:45",
+"fixed": false
+},
+"p2": {
+"ar": "edd620c9253e",
+"tr": "6ce4d929ff5d",
+"en": "2c0bddc5869c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-p2-u1",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"akhfash:6-6": {
+"p1": {
+"ar": "de959e9a18d8",
+"tr": "319679d5ca7e",
+"en": "9a278d5e8564",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"akhfash:19-19": {
+"p1": {
+"ar": "91e73feb4d14",
+"tr": "131578e823c0",
+"en": "2c10a2c435d0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:45",
+"fixed": false
+},
+"p2": {
+"ar": "91e73feb4d14",
+"tr": "131578e823c0",
+"en": "2c10a2c435d0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-p2-u1",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"akhfash:40-40": {
+"p1": {
+"ar": "65111ced5865",
+"tr": "ee35e5bd5315",
+"en": "06a67ed7f92a",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR said nekire olsa da onu nasb etmez (even if indefinite) which reverses the sense of ان تكون نكرة and disagrees with EN; made literal and consistent",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:45",
+"fixed": true
+},
+"p2": {
+"ar": "65111ced5865",
+"tr": "ee35e5bd5315",
+"en": "06a67ed7f92a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-p2-u1",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"akhfash:57-57": {
+"p1": {
+"ar": "23bcb96c6a89",
+"tr": "e92af70e6a3e",
+"en": "98eb4ed239de",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"akhfash:58-58": {
+"p1": {
+"ar": "e0b68146f4b4",
+"tr": "520a378760e2",
+"en": "74cd81d751c1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"akhfash:72-72": {
+"p1": {
+"ar": "a3d2a6bda50f",
+"tr": "b925c2fe030b",
+"en": "9cdf9d73bedd",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+}
+}

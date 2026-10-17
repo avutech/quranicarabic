@@ -1,0 +1,52 @@
+{
+"dervis-irab:71-74": {
+"hs": [
+"229563873175",
+"fb01511a63e0",
+"a48bd6b2a144"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Buḥturī describes a crucified man on a beam («يركب عودا مركّبا في عود»). In «تحسد الطير فيه ضبع البوادي ... وهو في غير حالة المحسود» the subject is ضبع البوادي and the object الطير: the desert hyenas envy the birds for him, since only the birds can reach the raised corpse ('though he is in no enviable state'). TR «Kuşlar onun hakkında çöl sırtlanlarını kıskanır» inverts subject and object and makes the image senseless; EN 'The hyenas of the desert envy the birds for him' is correct. TR needs fixing.",
+"at": "2026-10-17 00:42"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Buḥturī on the crucified man: «تحسد الطير فيه ضبع البوادي ... وهو في غير حالة المحسود». The sense (and the vocalisation تحسدُ الطيرَ فيه ضبعُ البوادي) is that the desert hyenas envy the birds over him, because he hangs on the beam («يركب عودا مركبا في عود») where birds can reach his body and hyenas cannot; the second hemistich 'though he is not in an enviable state' fits only this. Also the flow of the poem (bird image of the outstretched arms) supports it. TR 'Kuşlar onun hakkında çöl sırtlanlarını kıskanır' reverses subject and object; EN 'The hyenas of the desert envy the birds for him' is right. TR must be fixed to 'Çöl sırtlanları onun yüzünden kuşları kıskanır'.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked parenthetical additions: (ter) now a Mütercim notu; dropped (Kalp), (ak saç), (kâhin), (parlak), (söz), (köşesin), (kendisi), (bulutlandığında), (sıtma), (seki), (ikincisi), (ocak demiri), (sinek ve yaratma), (aynısı), (sözü), (imtidâd), (orijinal buluş); sitâm gloss moved into Mütercim notu; السطام gloss rendered from source «وهو الحد»",
+"verify_note": "Flagged fix done (Buhturî: 'Çöl sırtlanları onun hakkında kuşları kıskanır'). But unmarked interpretive additions remain in plain parentheses: Mütenebbî humma verse «dört kanaldan akar (ter)»; Ebû Temmâm ak saç verse «(Kalp) kederlerin…» and «o (ak saç)»; «Satîh (kâhin)»; Antere «dirhem gibi (parlak)»; «o (söz) onun ağzından». None is in the Arabic; put them in «[Mütercim notu: …]» or drop them.",
+"fix_failed": 1
+}
+},
+"history": [
+{
+"old_hs": [
+"229563873175",
+"e2da10e7c9b6",
+"a48bd6b2a144"
+],
+"dim": "tr",
+"what": "Buhturi line: subject/object corrected to 'Çöl sırtlanları onun hakkında kuşları kıskanır'",
+"at": "2026-10-17 00:47"
+},
+{
+"old_hs": [
+"229563873175",
+"3d6b1043866c",
+"a48bd6b2a144"
+],
+"dim": "tr",
+"what": "Removed unmarked parenthetical additions: (ter) now a Mütercim notu; dropped (Kalp), (ak saç), (kâhin), (parlak), (söz), (köşesin), (kendisi), (bulutlandığında), (sıtma), (seki), (ikincisi), (ocak demiri), (sinek ve yaratma), (aynısı), (sözü), (imtidâd), (orijinal buluş); sitâm gloss moved into Mütercim notu; السطام gloss rendered from source «وهو الحد»",
+"at": "2026-10-17 00:56"
+}
+]
+}
+}

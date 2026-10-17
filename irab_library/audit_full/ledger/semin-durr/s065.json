@@ -1,0 +1,180 @@
+{
+"semin-durr:1-1": {
+"p1": {
+"ar": "c0b2881949ba",
+"tr": "edf2f1b844ff",
+"en": "b7cafc420bdc",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:2-2": {
+"p1": {
+"ar": "a31228c2a33c",
+"tr": "3ebd75b0c953",
+"en": "363f66aa7be4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:3-3": {
+"p1": {
+"ar": "b828af9cf7da",
+"tr": "48297a482c54",
+"en": "4c555f33a037",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:4-4": {
+"p1": {
+"ar": "52fdedf4f7df",
+"tr": "b6a86d4a431c",
+"en": "5a47be0dda60",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:5-5": {
+"p1": {
+"ar": "7efea9a12408",
+"tr": "8a0a30d06887",
+"en": "5607e57f3968",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:6-6": {
+"p1": {
+"ar": "b2643fbc8321",
+"tr": "501d565267f3",
+"en": "fd1871cf7c9c",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN \"ifʿalū\" for الأمر افتعلوا (iftaʿalū); corrected",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:33",
+"fixed": true
+},
+"p2": {
+"ar": "b2643fbc8321",
+"tr": "501d565267f3",
+"en": "fd1871cf7c9c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u19",
+"at": "2026-10-17 00:10",
+"fixed": false
+}
+},
+"semin-durr:7-7": {
+"p1": {
+"ar": "2ee95686f292",
+"tr": "2dcbf52993f6",
+"en": "2cb9dda3670b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:8-8": {
+"p1": {
+"ar": "e661cf4bf3cb",
+"tr": "fd87776ac42e",
+"en": "dab457c6e846",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:10-10": {
+"p1": {
+"ar": "41d814d1b862",
+"tr": "01174a6b3c17",
+"en": "77df2ac86651",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:34",
+"fixed": false
+}
+},
+"semin-durr:11-11": {
+"p1": {
+"ar": "e99bac3aa201",
+"tr": "9985b689de8f",
+"en": "63b0f0d8b408",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR added unmarked \"(sorun kalmaz)\" after the dangling clause; removed",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:33",
+"fixed": true
+},
+"p2": {
+"ar": "e99bac3aa201",
+"tr": "9985b689de8f",
+"en": "63b0f0d8b408",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u19",
+"at": "2026-10-17 00:09",
+"fixed": false
+}
+},
+"semin-durr:12-12": {
+"p1": {
+"ar": "bd08f81b4f8c",
+"tr": "f90369f02749",
+"en": "5009adc801c7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+}
+}

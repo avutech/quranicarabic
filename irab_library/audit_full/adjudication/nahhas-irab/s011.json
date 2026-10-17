@@ -1,0 +1,27 @@
+{
+"nahhas-irab:123-123": {
+"hs": [
+"f36cc741af18",
+"f8f56028cf04",
+"e42f3937d210"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Arabic «وما ربك بغافل عما يعملون إذا لم يخاطب النبي ... معهم»; current EN reads 'when the Prophet ﷺ is not addressed together with them' — negation preserved; «تعملون لأنه خاطب النبي معهم أو قال قل لهم» rendered correctly. The claimed error is not present in the current reading.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Arabic «إذا لم يخاطب النبي صلّى الله عليه وسلّم معهم» - current EN reads 'when the Prophet ﷺ is not addressed together with them': negation is present; «لأنه خاطب النبي معهم» = 'because He addressed the Prophet together with them' correct. The reported error is no longer in the reading.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

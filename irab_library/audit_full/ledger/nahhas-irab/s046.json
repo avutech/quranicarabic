@@ -1,0 +1,512 @@
+{
+"nahhas-irab:1-3": {
+"p1": {
+"ar": "e1fbf77fd46a",
+"tr": "53d64f268301",
+"en": "ebd0c9d80d55",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u43",
+"at": "2026-10-10 16:01",
+"fixed": false
+}
+},
+"nahhas-irab:4-4": {
+"p1": {
+"ar": "ed89931ca00a",
+"tr": "86485893c82f",
+"en": "59e5c50c30bf",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR rendered ذاكرا as \"kendiliğimden\" (on my own) instead of \"mentioning/uttering\"; corrected to \"anarak\".",
+"by": "nahhas-irab-u43",
+"at": "2026-10-10 16:01",
+"fixed": true
+},
+"p2": {
+"ar": "ed89931ca00a",
+"tr": "86485893c82f",
+"en": "59e5c50c30bf",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 17:27",
+"fixed": false
+}
+},
+"nahhas-irab:5-5": {
+"p1": {
+"ar": "74fb49716f99",
+"tr": "e7bba21eb744",
+"en": "17b4a130d6f1",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR tightened: removed the doubled \"haktan daha uzak\" gloss; now matches أضل عن الحق.",
+"by": "nahhas-irab-u43",
+"at": "2026-10-10 16:02",
+"fixed": true
+},
+"p2": {
+"ar": "74fb49716f99",
+"tr": "e7bba21eb744",
+"en": "17b4a130d6f1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 17:27",
+"fixed": false
+}
+},
+"nahhas-irab:6-6": {
+"p1": {
+"ar": "a6967e18eece",
+"tr": "0fce9855d107",
+"en": "5f1ffabf2a26",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u43",
+"at": "2026-10-10 16:01",
+"fixed": false
+}
+},
+"nahhas-irab:7-7": {
+"p1": {
+"ar": "b6184df2f8d2",
+"tr": "67a6b37e279a",
+"en": "756611aa6f3c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u43",
+"at": "2026-10-10 16:01",
+"fixed": false
+}
+},
+"nahhas-irab:8-8": {
+"p1": {
+"ar": "fa1ed0967291",
+"tr": "b3c9ebfc0c22",
+"en": "e3930612c1d9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u43",
+"at": "2026-10-10 16:01",
+"fixed": false
+}
+},
+"nahhas-irab:9-9": {
+"p1": {
+"ar": "e01c3ebec44c",
+"tr": "ab8642d94c9a",
+"en": "95b2ed579500",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u43",
+"at": "2026-10-10 16:01",
+"fixed": false
+}
+},
+"nahhas-irab:10-10": {
+"p1": {
+"ar": "cb2422378fce",
+"tr": "102ebe21ae21",
+"en": "efd0cab2e2f8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u43",
+"at": "2026-10-10 16:01",
+"fixed": false
+}
+},
+"nahhas-irab:11-11": {
+"p1": {
+"ar": "e0c6f32328ba",
+"tr": "3165de2fb994",
+"en": "cc145e2826c9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u43",
+"at": "2026-10-10 16:01",
+"fixed": false
+}
+},
+"nahhas-irab:12-12": {
+"p1": {
+"ar": "98031498aacd",
+"tr": "7bfc43aaa0bb",
+"en": "86e6eb2d80e6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p1-u5",
+"at": "2026-10-17 00:48",
+"fixed": false
+},
+"p2": {
+"ar": "98031498aacd",
+"tr": "7bfc43aaa0bb",
+"en": "f91bce165450",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 17:37",
+"fixed": false
+}
+},
+"nahhas-irab:13-14": {
+"p1": {
+"ar": "b5f13cfc2e5c",
+"tr": "a3f02348ec27",
+"en": "6bc829072e28",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u43",
+"at": "2026-10-10 16:02",
+"fixed": false
+}
+},
+"nahhas-irab:15-15": {
+"p1": {
+"ar": "8e6e0b883d84",
+"tr": "48d98aa618cf",
+"en": "95167358e66b",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR added unmarked (Müberred) after Muhammad b. Yazid and (hükmü) in the hadith لا رضاع بعد فصال; removed",
+"by": "nahhas-irab-p1-u5",
+"at": "2026-10-17 00:48",
+"fixed": true
+},
+"p2": {
+"ar": "8e6e0b883d84",
+"tr": "48d98aa618cf",
+"en": "95167358e66b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u4",
+"at": "2026-10-17 00:55",
+"fixed": false
+}
+},
+"nahhas-irab:16-16": {
+"p1": {
+"ar": "4b2a569e6398",
+"tr": "01843d486ec3",
+"en": "1badabef5b2c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p1-u5",
+"at": "2026-10-17 00:48",
+"fixed": false
+},
+"p2": {
+"ar": "4b2a569e6398",
+"tr": "01843d486ec3",
+"en": "34069e3254a5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 17:27",
+"fixed": false
+}
+},
+"nahhas-irab:17-17": {
+"p1": {
+"ar": "9162f06e7216",
+"tr": "801d3e8dc576",
+"en": "274ce82eec76",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Turkish: 'kendisine' misassigned «لهما» and '(ayakta)' added; English '[on his heels]' added for «بوال»; all corrected.",
+"by": "nahhas-irab-u43",
+"at": "2026-10-10 16:02",
+"fixed": true
+},
+"p2": {
+"ar": "9162f06e7216",
+"tr": "801d3e8dc576",
+"en": "274ce82eec76",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 17:27",
+"fixed": false
+}
+},
+"nahhas-irab:20-20": {
+"p1": {
+"ar": "90ff359a0c45",
+"tr": "60f2f520428a",
+"en": "873a08665079",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u43",
+"at": "2026-10-10 16:02",
+"fixed": false
+}
+},
+"nahhas-irab:21-23": {
+"p1": {
+"ar": "0b8c7ebd647a",
+"tr": "ea847efae170",
+"en": "a093092e70b9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u43",
+"at": "2026-10-10 16:02",
+"fixed": false
+},
+"p2": {
+"ar": "0b8c7ebd647a",
+"tr": "ea847efae170",
+"en": "a093092e70b9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 17:27",
+"fixed": false
+}
+},
+"nahhas-irab:24-24": {
+"p1": {
+"ar": "a50f8579d9e0",
+"tr": "295525232370",
+"en": "78fd4b65c970",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English rendered «ممطر لنا» as \"raining upon us\"; لنا is \"for us\" (fixed); also second word now kept as printed «ويمنى» with the translator note instead of silently printing «تُمنى».",
+"by": "nahhas-irab-p1-u2",
+"at": "2026-10-17 01:06",
+"fixed": true
+},
+"p2": {
+"ar": "a50f8579d9e0",
+"tr": "295525232370",
+"en": "78fd4b65c970",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u1",
+"at": "2026-10-17 01:09",
+"fixed": false
+}
+},
+"nahhas-irab:25-25": {
+"p1": {
+"ar": "14db0bd14cad",
+"tr": "0f723dc7746d",
+"en": "2d566f2c8ee4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u43",
+"at": "2026-10-10 16:03",
+"fixed": false
+}
+},
+"nahhas-irab:26-26": {
+"p1": {
+"ar": "08ed8acf7b9a",
+"tr": "9bc332b36b58",
+"en": "a9371080c4f9",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English silently supplied a negation in the explanation that the source lacks; added Translator's note.",
+"by": "nahhas-irab-u43",
+"at": "2026-10-10 16:02",
+"fixed": true
+},
+"p2": {
+"ar": "08ed8acf7b9a",
+"tr": "9bc332b36b58",
+"en": "a9371080c4f9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 17:37",
+"fixed": false
+}
+},
+"nahhas-irab:27-27": {
+"p1": {
+"ar": "f987e0290271",
+"tr": "2faada5ea768",
+"en": "44870111bcda",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR added unmarked (teşvik/kınama edatı) and (saymıyor musunuz) in the verse translation; replaced with marked note",
+"by": "nahhas-irab-p1-u5",
+"at": "2026-10-17 00:48",
+"fixed": true
+},
+"p2": {
+"ar": "f987e0290271",
+"tr": "2faada5ea768",
+"en": "44870111bcda",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u4",
+"at": "2026-10-17 00:55",
+"fixed": false
+}
+},
+"nahhas-irab:28-28": {
+"p1": {
+"ar": "4e4d074e0561",
+"tr": "a7d9e978c616",
+"en": "e0d9ced39e81",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u43",
+"at": "2026-10-10 16:02",
+"fixed": false
+}
+},
+"nahhas-irab:29-29": {
+"p1": {
+"ar": "5010f257d60e",
+"tr": "3bd5a5ec634e",
+"en": "4c4040825737",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u43",
+"at": "2026-10-10 16:02",
+"fixed": false
+},
+"p2": {
+"ar": "5010f257d60e",
+"tr": "3bd5a5ec634e",
+"en": "4c4040825737",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 17:27",
+"fixed": false
+}
+},
+"nahhas-irab:30-30": {
+"p1": {
+"ar": "6cbd8f4d13ca",
+"tr": "6b91b2d77c83",
+"en": "efdfe7c05c00",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u43",
+"at": "2026-10-10 16:02",
+"fixed": false
+}
+},
+"nahhas-irab:31-32": {
+"p1": {
+"ar": "c30296fff302",
+"tr": "0a80d8e56167",
+"en": "d90a001ab370",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u43",
+"at": "2026-10-10 16:02",
+"fixed": false
+}
+},
+"nahhas-irab:33-33": {
+"p1": {
+"ar": "c53eeba15fdb",
+"tr": "64cd54d3a690",
+"en": "224ad3e7d8d4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u43",
+"at": "2026-10-10 16:03",
+"fixed": false
+}
+},
+"nahhas-irab:34-34": {
+"p1": {
+"ar": "3ed40928449f",
+"tr": "62690cd468cc",
+"en": "a061b8e6a73a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u43",
+"at": "2026-10-10 16:03",
+"fixed": false
+}
+},
+"nahhas-irab:35-35": {
+"p1": {
+"ar": "a6905dcf059e",
+"tr": "b881d0a69189",
+"en": "1f3f3a8785f2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u43",
+"at": "2026-10-10 16:03",
+"fixed": false
+}
+}
+}

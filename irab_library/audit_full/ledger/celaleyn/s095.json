@@ -1,0 +1,150 @@
+{
+"celaleyn:1-1": {
+"p1": {
+"ar": "5a192d9c4cf0",
+"tr": "203877352c6e",
+"en": "4251341ddf6a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u16",
+"at": "2026-10-10 15:49",
+"fixed": false
+},
+"p2": {
+"ar": "5a192d9c4cf0",
+"tr": "203877352c6e",
+"en": "4251341ddf6a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-p2-u3",
+"at": "2026-10-16 19:05",
+"fixed": false
+}
+},
+"celaleyn:2-2": {
+"p1": {
+"ar": "bc63c9d3bd11",
+"tr": "6b0f6bbf1cc0",
+"en": "ec411d648572",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u16",
+"at": "2026-10-10 15:49",
+"fixed": false
+}
+},
+"celaleyn:3-3": {
+"p1": {
+"ar": "51d560af3372",
+"tr": "a34f80668221",
+"en": "b1d760d27f0c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u16",
+"at": "2026-10-10 15:49",
+"fixed": false
+}
+},
+"celaleyn:4-4": {
+"p1": {
+"ar": "3fd904f86c4e",
+"tr": "e19620ed7da8",
+"en": "9e800455ed55",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u16",
+"at": "2026-10-10 15:49",
+"fixed": false
+},
+"p2": {
+"ar": "3fd904f86c4e",
+"tr": "e19620ed7da8",
+"en": "9e800455ed55",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-p2-u3",
+"at": "2026-10-16 19:05",
+"fixed": false
+}
+},
+"celaleyn:5-5": {
+"p1": {
+"ar": "e3f9a5e84560",
+"tr": "d8dd518cd27f",
+"en": "3b22d33a5689",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u16",
+"at": "2026-10-10 15:49",
+"fixed": false
+}
+},
+"celaleyn:6-6": {
+"p1": {
+"ar": "8849cf888f13",
+"tr": "f5b494ca9fd6",
+"en": "45360c360503",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u16",
+"at": "2026-10-10 15:49",
+"fixed": false
+}
+},
+"celaleyn:7-7": {
+"p1": {
+"ar": "22447612776c",
+"tr": "d52e74095756",
+"en": "eb0ea3a9afc6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u16",
+"at": "2026-10-10 15:49",
+"fixed": false
+}
+},
+"celaleyn:8-8": {
+"p1": {
+"ar": "a19d9da02e50",
+"tr": "5d58ceb5f5b1",
+"en": "35baa446a1be",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN 'most just of judges' rendered أقضى القاضين loosely; changed to foremost of judges in deciding.",
+"by": "celaleyn-u16",
+"at": "2026-10-10 15:49",
+"fixed": true
+},
+"p2": {
+"ar": "a19d9da02e50",
+"tr": "5d58ceb5f5b1",
+"en": "35baa446a1be",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-p2-u3",
+"at": "2026-10-16 19:05",
+"fixed": false
+}
+}
+}

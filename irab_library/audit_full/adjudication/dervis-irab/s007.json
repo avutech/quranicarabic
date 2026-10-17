@@ -1,0 +1,250 @@
+{
+"dervis-irab:4-7": {
+"hs": [
+"de404391889e",
+"6c0acb9d39a8",
+"e64a2f594385"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Verse «كن للخليل نصيرا جاد أو عدلا ... ولا تشحّ عليه جار أم بخلا»: TR renders it as written (جاد=cömert, جار=zulmetsin, بخلا=cimrilik); عَدَلَ also means 'turned aside/deviated' (عدل عن), so 'haktan ayrılsın' paired against جاد is a defensible reading, not a different text. Antara: «قسما لعمر أبيك ليس بمزعم» -> 'babanın ömrüne yemin olsun ki bu ... umulacak bir şey değildir': قسما IS rendered ('yemin olsun'), and مزعم = مطمع (object of hope) is the classical gloss (al-Zawzani), so TR is correct; EN's 'no false claim' is an alternative, not proof TR is wrong.",
+"at": "2026-10-17 00:42"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Antara verse «علقتها عرضا وأقتل قومها ... قسما لعمر أبيك ليس بمزعم»: TR inserts an unmarked bracket «[vuslatı] umulacak bir şey değildir» — «[vuslatı]» is not in the Arabic and is not in a Mütercim notu (the rendering of مزعم as 'something hoped for' = مطمع is itself a legitimate classical gloss, and قسما is rendered via 'yemin olsun'). Also in «كن للخليل نصيرا جاد أو عدلا» the source as written says 'generous or just'; TR renders عدلا as 'haktan ayrılsın' (deviated from right), which is not what عدلا without عن means and reads a different (corrected/swapped) verse without a note. Needs fix: put additions in a note and translate عدلا as written.",
+"at": "2026-10-17 00:42"
+},
+"J3": {
+"class": "CONFIRMED",
+"evidence": "Verse «كن للخليل نصيرا جاد أو عدلا ... ولا تشحّ عليه جار أم بخلا»: bare «عدل» (no «عن») means 'acted justly' (the verse pairs just/unjust and generous/miserly). TR renders «عدلا» as 'haktan ayrılsın' (deviated from right), the opposite meaning: wrong meaning. Fix: 'ister cömert davransın ister adil olsun' (optionally a Mütercim notu that the common version is «جار أو عدلا ... جاد أو بخلا»). Antara verse: TR 'umulacak bir şey değildir' for «ليس بمزعم» matches the classic gloss (مزعم = مطمع) and 'babanın ömrüne yemin olsun' covers «قسما لعمر أبيك»; these are acceptable.",
+"at": "2026-10-17 00:46"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed or converted all remaining unmarked square-bracket additions (haberi olan, anlatacağız, zamir ile, cümle, şudur, vâvın x2, dolayıdır, vâv, Zemahşerî, tertip, bu/zamanda/söylenir) into Mütercim notu or literal wording",
+"verify_note": "All previously listed unmarked brackets removed or moved into Mütercim notu (haberi olan, vâvın, Zemahşerî, gece, etc.); عدلا rendered as written; full TR read against Arabic sentence by sentence: complete, faithful, no remaining unmarked additions.",
+"fix_failed": 1,
+"verified": "PASS"
+},
+"en": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "EN renders the line exactly as printed: «جاد أو عدلا» 'whether he was generous or just', «جار أم بخلا» 'whether he was unjust or miserly' - translating what is written, no silent swap to the jār/jād order. Antara «قسما لعمر أبيك ليس بمزعم» 'an oath, by your father's life, that is no false claim' is a recognised reading of مزعم (from زعم). No error shown.",
+"at": "2026-10-17 00:42"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "The flagged verse renderings are fine: «جاد أو عدلا» = 'whether he was generous or just' translates the source as written (the swap jad/jar vs the known verse could be noted, but is not mis-rendered), and «ليس بمزعم» as 'no false claim' is a legitimate reading of زعم. However EN contains unmarked clarity additions in square brackets that are not in the Arabic, e.g. «أن تكون ماضية بعد إلا» -> 'When it is a past [verbal clause] after إلا', 'a past [verbal clause] before «أو»', 'an affirmative imperfect [verbal clause]'; per glossary_en rule anything added for clarity must be inside «[Translator's note: …]». Fix: convert these brackets into translator's notes or drop them.",
+"at": "2026-10-17 00:42"
+},
+"J3": {
+"class": "FALSE_ALARM",
+"evidence": "EN translates the verse exactly as printed: «جاد أو عدلا» = 'whether he was generous or just', «جار أم بخلا» = 'whether he was unjust or miserly'; «عدلا» = 'just' is the correct sense of bare عدل. The swap جاد/جار versus the usual version is in the source and translating as written is required. Antara: «قسما لعمر أبيك ليس بمزعم» = 'an oath, by your father's life, that is no false claim' renders every word (قسما = oath, مزعم from زعم = claim) and is a defensible reading of the printed text. Rest of entry checked; existing additions are marked as Translator's notes.",
+"at": "2026-10-17 00:46"
+}
+},
+"status": "DECIDED",
+"class": "HUMAN"
+}
+},
+"history": [
+{
+"old_hs": [
+"de404391889e",
+"637bf7fbf82f",
+"e64a2f594385"
+],
+"dim": "tr",
+"what": "عدلا now rendered 'adil davransın' (was 'haktan ayrılsın'); unmarked additions [vuslatı], [emzikliyken gebe kalan kadının sütü], [hevdeclerden dökülen], [gece], [suyunu] moved into Mütercim notu",
+"at": "2026-10-17 00:48"
+},
+{
+"old_hs": [
+"de404391889e",
+"726a53782cfb",
+"e64a2f594385"
+],
+"dim": "tr",
+"what": "Removed or converted all remaining unmarked square-bracket additions (haberi olan, anlatacağız, zamir ile, cümle, şudur, vâvın x2, dolayıdır, vâv, Zemahşerî, tertip, bu/zamanda/söylenir) into Mütercim notu or literal wording",
+"at": "2026-10-17 00:56"
+}
+]
+},
+"dervis-irab:94-96": {
+"hs": [
+"622304ac474a",
+"1cdfbae7d199",
+"11833e6eee71"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic takdir «إلا حال كوننا قد أخذنا» has no object, TR adds '(ehlini)' unmarked. Arabic last item «وجملة الكون صلة «ما» أو المصدر المؤول، لا محل له بعد الموصول الحرفي» is rendered with unmarked interpretive insertions '(ما masdariyye ise)' and '(sılası)' that the source does not state. These are additions outside a [Mütercim notu: …]; fix: move them into a Mütercim notu or drop them.",
+"at": "2026-10-17 00:43"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "TR has unmarked additions not in the Arabic: (1) takdir «إلا حال كوننا قد أخذنا» rendered '... ancak (ehlini) yakalamış olduğumuz hâlde' — '(ehlini)' added; (2) «وجملة الكون صلة «ما» أو المصدر المؤول، لا محل له بعد الموصول الحرفي» rendered with inserted '(ما masdariyye ise)' and '(sılası)', which also restructures the source's statement; (3) «وهذا ما منع من نصبه على الظرفية» gets '(مكان'ın)'. None is inside a Mütercim notu. Meaning otherwise faithful; fix by moving these glosses into notes or removing them (EN renders these literally).",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked '(ehlini)' from takdir and '(mahallin)'; '(مكان'ın)' moved into Mütercim notu; last sentence retranslated literally per «وجملة الكون صلة ما أو المصدر المؤول لا محل له بعد الموصول الحرفي» without inserted '(ما masdariyye ise)'/'(sılası)'",
+"verified": "PASS",
+"verify_note": "Previously flagged unmarked additions are gone: takdir now 'ancak yakalamış olduğumuz hâlde' with no '(ehlini)'; مكان gloss moved into a Mütercim notu; final sentence rendered without the inserted '(ما masdariyye ise)'/'(sılası)'. Source oddities (الأضداء, المجرور بأن, الضراء/السراء as ma'tuf) are kept and flagged in notes. Rest checked sentence by sentence: complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"622304ac474a",
+"7c79e9f89626",
+"11833e6eee71"
+],
+"dim": "tr",
+"what": "Removed unmarked '(ehlini)' from takdir and '(mahallin)'; '(مكان'ın)' moved into Mütercim notu; last sentence retranslated literally per «وجملة الكون صلة ما أو المصدر المؤول لا محل له بعد الموصول الحرفي» without inserted '(ما masdariyye ise)'/'(sılası)'",
+"at": "2026-10-17 00:48"
+}
+]
+},
+"dervis-irab:155-157": {
+"hs": [
+"f30118f537c5",
+"f4979dc1bae7",
+"352eb82a8c81"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic «الفاء استئنافية والجملة مستأنفة مسوقة للتعريض بقومه» is rendered 'onun (Mûsâ'nın) kavmine ta'rîz için' — '(Mûsâ'nın)' is an interpretive addition resolving the pronoun, not in the source and not in a Mütercim notu. Also «أو خبر هم، والجملة الاسمية خبر أولئك» gets the unmarked insertion '(bu ikinci durumda)'. Both are unmarked additions; meaning otherwise faithful. Fix: move into Mütercim notu.",
+"at": "2026-10-17 00:43"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic «والجملة مستأنفة مسوقة للتعريض بقومه» -> TR 'onun (Mûsâ'nın) kavmine ta'rîz': '(Mûsâ'nın)' resolves the pronoun without a Mütercim notu (EN keeps 'his people'). Arabic «والمفلحون خبر أولئك، أو خبر «هم» ، والجملة الاسمية خبر أولئك» -> TR inserts '(bu ikinci durumda)', an interpretive gloss not in the source. Both are unmarked additions; meaning is otherwise correct; fix by putting them in [Mütercim notu: …].",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked parenthetical additions: (kullanılır) moved into Mütercim notu; dropped (yapılırken meydana gelen), (doğrudan) x2, (şiirler), (okuyup yazan biri); rewrote ezberlemekle (mükellef kılındığını) literally per وبأن يحفظه المسلمون لا أن يكتبوه",
+"verify_note": "Previously listed parentheticals are gone/moved to notes, but one unmarked addition remains: in the Fevâid gloss of «وقالوا: أساطير الأولين اكتتبها...» TR writes 'Dediler ki: (Bunlar) öncekilerin masallarıdır' - '(Bunlar)' is not in the Arabic and not in a Mütercim notu (the same verse later is rendered without it). Drop it or move it into [Mütercim notu: …]. Rest of TR checked sentence by sentence: complete and faithful.",
+"fix_failed": 2,
+"verified": null
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic «واكتفى بالمفعول الأول، أي: وفي الآخرة حسنة» is rendered 'i.e. \"and in the Hereafter a good (reward)\"' — '(reward)' is not in the Arabic (حسنة = 'a good thing/good'), an unmarked clarity addition; per glossary it must be inside «[Translator's note: …]» or the Arabic «وفي الآخرة حسنة» kept with a literal gloss 'a good thing'.",
+"at": "2026-10-17 00:43"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic «وفي الآخرة معطوف ... واكتفى بالمفعول الأول، أي: وفي الآخرة حسنة» – the source's gloss has only «حسنة»; EN 'and in the Hereafter a good (reward)' adds 'reward', a word not in the Arabic, without a Translator's note (TR renders literally 'âhirette de bir iyilik'). Minor but an unmarked addition; fix: 'a good thing' or move 'reward' into a Translator's note.",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Gloss of «وفي الآخرة حسنة» changed from 'a good (reward)' to 'a good thing' (removed unmarked addition 'reward')",
+"verified": "PASS",
+"verify_note": "حسنة gloss now 'a good thing' with no '(reward)'. Read sentence by sentence: complete and faithful; Quranic quotes in Arabic script; source oddities (واكتبها, الباجه جي) flagged in Translator's notes; remaining parentheses are term glosses."
+}
+},
+"history": [
+{
+"old_hs": [
+"f30118f537c5",
+"d01e087df6bb",
+"d4f137085f53"
+],
+"dim": "tr",
+"what": "Unmarked '(Mûsâ'nın)' and '(bu ikinci durumda)' moved into Mütercim notu",
+"at": "2026-10-17 00:49"
+},
+{
+"old_hs": [
+"f30118f537c5",
+"74c0595579e7",
+"352eb82a8c81"
+],
+"dim": "en",
+"what": "Gloss of «وفي الآخرة حسنة» changed from 'a good (reward)' to 'a good thing' (removed unmarked addition 'reward')",
+"at": "2026-10-17 00:49"
+},
+{
+"old_hs": [
+"f30118f537c5",
+"74c0595579e7",
+"352eb82a8c81"
+],
+"dim": "tr",
+"what": "Removed unmarked parenthetical additions: (kullanılır) moved into Mütercim notu; dropped (yapılırken meydana gelen), (doğrudan) x2, (şiirler), (okuyup yazan biri); rewrote ezberlemekle (mükellef kılındığını) literally per وبأن يحفظه المسلمون لا أن يكتبوه",
+"at": "2026-10-17 00:57"
+}
+]
+},
+"dervis-irab:189-192": {
+"hs": [
+"2e25b84c20ad",
+"f7ba550395a5",
+"b73b0b582e82"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Verse «فيا لقصيّ ما زوى الله عنكم ... به من فخار لا يبارى وسؤدد» is rendered 'Allah onunla (onu sizden uzaklaştırmakla) sizden ... uzak tuttu' — the parenthetical '(onu sizden uzaklaştırmakla)' is an interpretive gloss of «به» not in the Arabic and not inside a Mütercim notu. Further unmarked insertions of the same kind: '(bu hitapla)' for «أن يكون المراد», '(şeyler)' in «جرى من الجنسين كذا وكذا», '(oradaki)' in «مقام فتاتهم». Fix: move these into Mütercim notu or drop them.",
+"at": "2026-10-17 00:43"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Verse «فيا لقصيّ ما زوى الله عنكم ... به من فخار لا يبارى وسؤدد»: TR 'Allah onunla (onu sizden uzaklaştırmakla) sizden ... uzak tuttu' inserts the interpretive gloss '(onu sizden uzaklaştırmakla)' for «به», which the Arabic does not state; unmarked addition (EN literal 'through him'). Fix: drop it or place it in a [Mütercim notu: …].",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked '(cevap:)' addition; the clarification now sits in a Mütercim notu",
+"verify_note": "'(cevap:)' now inside a Mütercim notu; earlier glosses removed; full TR read against the Arabic sentence by sentence: complete, faithful, source slips (معفول, خروجها) flagged in notes, no unmarked additions.",
+"fix_failed": 1,
+"verified": "PASS"
+}
+},
+"history": [
+{
+"old_hs": [
+"2e25b84c20ad",
+"6cf443e889d7",
+"b73b0b582e82"
+],
+"dim": "tr",
+"what": "Dropped unmarked interpretive insertions '(onu sizden uzaklaştırmakla)' in the Ümmü Ma'bed verse, '(bu hitapla)', '(şeyler)', '(oradaki)'; text now renders the Arabic as written",
+"at": "2026-10-17 00:49"
+},
+{
+"old_hs": [
+"2e25b84c20ad",
+"6bbb3eb7cdbf",
+"b73b0b582e82"
+],
+"dim": "tr",
+"what": "Removed unmarked '(cevap:)' addition; the clarification now sits in a Mütercim notu",
+"at": "2026-10-17 00:57"
+}
+]
+}
+}

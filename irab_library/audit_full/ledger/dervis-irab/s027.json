@@ -1,0 +1,296 @@
+{
+"dervis-irab:89-93": {
+"p1": {
+"ar": "899cf5a6865d",
+"tr": "834b2c2099aa",
+"en": "905e54abf4a3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u85",
+"at": "2026-10-10 19:38",
+"fixed": false
+}
+},
+"dervis-irab:15-19": {
+"p1": {
+"ar": "19f180e6110f",
+"tr": "3a17694aa3e5",
+"en": "57a67c591390",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR and EN rendered \"بينه وبين أبي الطيب\" (between him [Ibn Kayghalagh] and Abu al-Tayyib) as between the three men and Abu al-Tayyib; corrected. EN also had unmarked gloss on طيطوى and silent renumbering of ح-; fixed with note.",
+"by": "dervis-irab-p1-u5",
+"at": "2026-10-17 00:31",
+"fixed": true
+},
+"p2": {
+"ar": "19f180e6110f",
+"tr": "3a17694aa3e5",
+"en": "57a67c591390",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u3",
+"at": "2026-10-17 00:40",
+"fixed": false
+}
+},
+"dervis-irab:45-53": {
+"p1": {
+"ar": "0d7d36a43f55",
+"tr": "07d87ce07346",
+"en": "ea0e30233017",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u5",
+"at": "2026-10-17 00:31",
+"fixed": false
+},
+"p2": {
+"ar": "0d7d36a43f55",
+"tr": "07d87ce07346",
+"en": "ea0e30233017",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN silently corrected source typos «فعلية» (as faʿīla), «نشاءمت» and «نحملوا» without notes; translator notes added as in TR.",
+"by": "dervis-irab-p2-u19",
+"at": "2026-10-17 00:18",
+"fixed": true
+}
+},
+"dervis-irab:20-26": {
+"p1": {
+"ar": "833088d207f2",
+"tr": "26044e7b8b54",
+"en": "2bb11edbfa24",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR: unmarked addition \"(farklı harekelerle)\" after الهدهد replaced by a marked translator note (as the EN already had). Rest checked against Arabic through the end (Amr Muzayqiya / ذهبوا أيدي سبا); no omissions.",
+"by": "dervis-irab-p1-u14",
+"at": "2026-10-17 00:07",
+"fixed": true
+},
+"p2": {
+"ar": "833088d207f2",
+"tr": "26044e7b8b54",
+"en": "2bb11edbfa24",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u19",
+"at": "2026-10-17 00:17",
+"fixed": false
+}
+},
+"dervis-irab:54-58": {
+"p1": {
+"ar": "651f788dc09e",
+"tr": "c163180e0d81",
+"en": "ef9372250ec7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u85",
+"at": "2026-10-10 19:41",
+"fixed": false
+}
+},
+"dervis-irab:59-64": {
+"p1": {
+"ar": "acec6091c291",
+"tr": "f5b3c5befc52",
+"en": "e19a7ca52356",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u85",
+"at": "2026-10-10 19:41",
+"fixed": false
+}
+},
+"dervis-irab:27-33": {
+"p1": {
+"ar": "84eeb31a822f",
+"tr": "d1c2288c6785",
+"en": "3c8009e80393",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u84",
+"at": "2026-10-10 19:41",
+"fixed": false
+}
+},
+"dervis-irab:34-37": {
+"p1": {
+"ar": "d126a632164a",
+"tr": "14e47c14b9ec",
+"en": "40e69f17a93f",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English said al-Mundhir and another were both \"men of intelligence and judgment\"; Arabic ذا عقل ورأي qualifies only the other man. Corrected to \"a man of intelligence and judgment\".",
+"by": "dervis-irab-u84",
+"at": "2026-10-10 19:41",
+"fixed": true
+},
+"p2": {
+"ar": "d126a632164a",
+"tr": "14e47c14b9ec",
+"en": "40e69f17a93f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u33",
+"at": "2026-10-16 19:20",
+"fixed": false
+}
+},
+"dervis-irab:1-6": {
+"p1": {
+"ar": "10c6f84cbefa",
+"tr": "e540a174175c",
+"en": "c552aea12e75",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u14",
+"at": "2026-10-17 00:09",
+"fixed": false
+},
+"p2": {
+"ar": "10c6f84cbefa",
+"tr": "e540a174175c",
+"en": "c552aea12e75",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN Benefits gave the Quranic quotations «وزين لهم الشيطان أعمالهم» and «ولكن متعتهم وآباءهم حتى نسوا الذكر» only in English; restored Arabic script.",
+"by": "dervis-irab-p2-u32",
+"at": "2026-10-16 19:18",
+"fixed": true
+}
+},
+"dervis-irab:38-44": {
+"p1": {
+"ar": "e096959463ee",
+"tr": "363a11894343",
+"en": "3c7c4ac9ba9e",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Both readings rendered \"ونظر نحو اليمين\" as \"looked towards Yemen\", silently correcting the source (اليمين = the right); now translated as written with a note. English also changed \"bore him children\" to \"offspring\" (ولدت له is number-neutral).",
+"by": "dervis-irab-u84",
+"at": "2026-10-10 19:42",
+"fixed": true
+},
+"p2": {
+"ar": "e096959463ee",
+"tr": "363a11894343",
+"en": "3c7c4ac9ba9e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u33",
+"at": "2026-10-16 19:20",
+"fixed": false
+}
+},
+"dervis-irab:7-14": {
+"p1": {
+"ar": "abc4d0034b99",
+"tr": "3b52f325794e",
+"en": "23a21a47da9e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u14",
+"at": "2026-10-17 00:10",
+"fixed": false
+},
+"p2": {
+"ar": "abc4d0034b99",
+"tr": "3b52f325794e",
+"en": "23a21a47da9e",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN Vocabulary transliterated the Quranic word «والجانّ» in the Qamus quote as \"al-jānn\"; restored Arabic script.",
+"by": "dervis-irab-p2-u32",
+"at": "2026-10-16 19:20",
+"fixed": true
+}
+},
+"dervis-irab:65-70": {
+"p1": {
+"ar": "3948edbb7022",
+"tr": "7eeaa8b0b2dd",
+"en": "9467c5550569",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u85",
+"at": "2026-10-10 19:43",
+"fixed": false
+}
+},
+"dervis-irab:71-78": {
+"p1": {
+"ar": "2a91652e9060",
+"tr": "e83d930bd33f",
+"en": "110e3745771c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u85",
+"at": "2026-10-10 19:43",
+"fixed": false
+}
+},
+"dervis-irab:79-82": {
+"p1": {
+"ar": "1313bf38b7b8",
+"tr": "3e28ec643d44",
+"en": "b764f65cbf95",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u85",
+"at": "2026-10-10 19:43",
+"fixed": false
+}
+},
+"dervis-irab:83-88": {
+"p1": {
+"ar": "ac4246a247c3",
+"tr": "67911f2041dc",
+"en": "2100e4c835b2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u85",
+"at": "2026-10-10 19:43",
+"fixed": false
+}
+}
+}

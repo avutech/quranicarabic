@@ -1,0 +1,28 @@
+{
+"dervis-irab:1-8": {
+"p1": {
+"ar": "e4483d3c369d",
+"tr": "7944b134a7c0",
+"en": "9cb8df1a4174",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR and EN silently corrected source «يعرف» to «يعرب» (notes added); EN rendered «لم يشار» as \"not consulted\" (changed to trade, with note on uncertainty)",
+"by": "dervis-irab-p1-u5",
+"at": "2026-10-17 00:20",
+"fixed": true
+},
+"p2": {
+"ar": "e4483d3c369d",
+"tr": "7944b134a7c0",
+"en": "9cb8df1a4174",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u7",
+"at": "2026-10-17 00:31",
+"fixed": false
+}
+}
+}

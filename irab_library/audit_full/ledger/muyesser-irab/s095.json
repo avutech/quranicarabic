@@ -1,0 +1,126 @@
+{
+"muyesser-irab:1-1": {
+"p1": {
+"ar": "4791919663d3",
+"tr": "c5a32c3c3ece",
+"en": "0568e9b484a7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "muyesser-irab-u38",
+"at": "2026-10-10 19:25",
+"fixed": false
+}
+},
+"muyesser-irab:2-2": {
+"p1": {
+"ar": "46b23a3eee5f",
+"tr": "387571b319d4",
+"en": "ba3f79173b4b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "muyesser-irab-u38",
+"at": "2026-10-10 19:25",
+"fixed": false
+}
+},
+"muyesser-irab:3-3": {
+"p1": {
+"ar": "6c6aec0a5b97",
+"tr": "8953ea5763f2",
+"en": "0ee95e96c962",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "muyesser-irab-u38",
+"at": "2026-10-10 19:25",
+"fixed": false
+}
+},
+"muyesser-irab:4-4": {
+"p1": {
+"ar": "6a41eb532fda",
+"tr": "738ed1e068c6",
+"en": "31f9d61aa134",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "muyesser-irab-u38",
+"at": "2026-10-10 19:25",
+"fixed": false
+}
+},
+"muyesser-irab:5-5": {
+"p1": {
+"ar": "9682ed5bc459",
+"tr": "cdee5b74d17b",
+"en": "73eab550c88a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "muyesser-irab-u38",
+"at": "2026-10-10 19:25",
+"fixed": false
+}
+},
+"muyesser-irab:6-6": {
+"p1": {
+"ar": "c8a8356e8350",
+"tr": "e1c49653d453",
+"en": "8ac086bdf940",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "muyesser-irab-u38",
+"at": "2026-10-10 19:25",
+"fixed": false
+}
+},
+"muyesser-irab:7-7": {
+"p1": {
+"ar": "3332988a44ea",
+"tr": "ce5997b97764",
+"en": "b94b8a74681a",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR of ﴿بعد﴾ said \"Lafzen değil de mânen izâfetten kesildiği\" (not in wording but in meaning), reversing the Arabic لفظًا لا معنًى (cut off in wording, not in meaning); corrected.",
+"by": "muyesser-irab-u38",
+"at": "2026-10-10 19:26",
+"fixed": true
+},
+"p2": {
+"ar": "3332988a44ea",
+"tr": "ce5997b97764",
+"en": "b94b8a74681a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "muyesser-irab-p2-u16",
+"at": "2026-10-16 19:02",
+"fixed": false
+}
+},
+"muyesser-irab:8-8": {
+"p1": {
+"ar": "e49301ec0238",
+"tr": "06b6fb169897",
+"en": "c677554f3d7f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "muyesser-irab-u38",
+"at": "2026-10-10 19:25",
+"fixed": false
+}
+}
+}

@@ -1,0 +1,126 @@
+{
+"safi-cedvel:1-7": {
+"p1": {
+"ar": "1ee75fb5c20f",
+"tr": "43bfaf20e21a",
+"en": "f6e4dd27e3cf",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u65",
+"at": "2026-10-10 19:32",
+"fixed": false
+}
+},
+"safi-cedvel:8-9": {
+"p1": {
+"ar": "f3f4899084e5",
+"tr": "ed40f2bf943b",
+"en": "16f81fa4069b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u65",
+"at": "2026-10-10 19:32",
+"fixed": false
+}
+},
+"safi-cedvel:10-10": {
+"p1": {
+"ar": "becf5dc7380a",
+"tr": "53aca6d9795d",
+"en": "f84d5f39cc56",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u65",
+"at": "2026-10-10 19:32",
+"fixed": false
+}
+},
+"safi-cedvel:11-11": {
+"p1": {
+"ar": "5b8dd3aa4937",
+"tr": "55a9eef2c80f",
+"en": "d52aa48ba8fb",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u65",
+"at": "2026-10-10 19:32",
+"fixed": false
+}
+},
+"safi-cedvel:12-16": {
+"p1": {
+"ar": "edefb872d864",
+"tr": "7c326c2a59bb",
+"en": "161c02105811",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u65",
+"at": "2026-10-10 19:32",
+"fixed": false
+}
+},
+"safi-cedvel:17-18": {
+"p1": {
+"ar": "2512ca23f3e1",
+"tr": "7b365d74b0f5",
+"en": "66ed23558380",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u65",
+"at": "2026-10-10 19:32",
+"fixed": false
+}
+},
+"safi-cedvel:19-20": {
+"p1": {
+"ar": "f6e5257bb152",
+"tr": "4ba46fc7507a",
+"en": "8f01aa7376fc",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u65",
+"at": "2026-10-10 19:32",
+"fixed": false
+}
+},
+"safi-cedvel:21-22": {
+"p1": {
+"ar": "988aeace1134",
+"tr": "774de217e168",
+"en": "7dfb9c92b5dd",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u65",
+"at": "2026-10-10 19:32",
+"fixed": false
+},
+"p2": {
+"ar": "988aeace1134",
+"tr": "774de217e168",
+"en": "7dfb9c92b5dd",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u23",
+"at": "2026-10-16 19:21",
+"fixed": false
+}
+}
+}

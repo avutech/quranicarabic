@@ -1,0 +1,29 @@
+{
+"nahhas-irab:162-162": {
+"hs": [
+"c2c2434269a0",
+"95c7ea1a6e65",
+"1432397903ae"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "MISPLACED",
+"evidence": "Main body is 6:162 («قُلْ إِنَّ صَلاتِي ... وَمَحْيايَ وَمَماتِي»). The tail «خبر. قال الأخفش: يقال: وزر يوزر ووزر يزر ... ويجوز إزرا» discusses the root وزر of 6:164 «وَلا تَزِرُ وازِرَةٌ وِزْرَ أُخْرى», so the entry also covers 6:164.",
+"at": "2026-10-17 00:39",
+"ayahs": "162-164"
+},
+"J2": {
+"class": "MISPLACED",
+"evidence": "Most of the entry is about 6:162 («قُلْ إِنَّ صَلاتِي اسم «إنّ»», «وَمَحْيايَ وَمَماتِي» readings). But the source then jumps (text missing in between) to «... خبر. قال الأخفش: يقال: وزر يوزر ووزر يزر ووزر يوزر وزرا ويجوز إزرا كما يقال: إسادة», a morphological discussion of وِزْر that belongs to 6:164 «وَلا تَزِرُ وازِرَةٌ وِزْرَ أُخْرى»; the dangling «خبر» also comes from the lost discussion of 6:163-164. Since the entry substantively covers 6:164 material as well, the listing must cover the full range, i.e. 162-164 (book text unchanged; both readings already note the gap).",
+"at": "2026-10-17 00:40",
+"ayahs": "162-164"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+}
+}

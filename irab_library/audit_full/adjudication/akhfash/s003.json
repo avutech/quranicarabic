@@ -1,0 +1,119 @@
+{
+"akhfash:7-7": {
+"hs": [
+"c7520ab12226",
+"2868edb2ea65",
+"31ef356f2ede"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "MISPLACED",
+"evidence": "Entry starts with 3:7 ('﴿هُنَّ أُمُّ ٱلْكِتَابِ﴾', '﴿كُلٌّ مِّنْ عِندِ رَبِّنَا﴾') but then substantively parses further ayahs of surah 3: '﴿كَدَأْبِ آلِ فِرْعَوْنَ﴾' (3:11), '﴿قُلْ لِّلَّذِينَ كَفَرُواْ سَتُغْلَبُونَ وَتُحْشَرُونَ إِلَىٰ جَهَنَّمَ﴾' with reading سيغلبون (3:12), '﴿قَدْ كَانَ لَكُمْ آيَةٌ فِي فِئَتَيْنِ ٱلْتَقَتَا فِئَةٌ تُقَاتِلُ﴾' raf'/jarr of فئة (3:13), and '﴿قُلْ أَؤُنَبِّئُكُمْ بِخَيْرٍ مِّن ذٰلِكُمْ ... جَنَّاتٌ﴾' (3:15). Other ayahs (8:38, 38:49-50, 6:100, 6:112, 96:15-16, 5:60, 22:72) are cited as parallels only. Full range 7-15.",
+"at": "2026-10-17 00:40",
+"ayahs": "7-15"
+},
+"J2": {
+"class": "MISPLACED",
+"evidence": "Only the opening (﴿هُنَّ أُمُّ ٱلْكِتَابِ﴾ ولم يقل أمهات; ﴿كُلٌّ مِّنْ عِندِ رَبِّنَا﴾) is on 3:7. Then: ﴿كَدَأْبِ آلِ فِرْعَوْنَ﴾ = 3:11; ﴿قُلْ لِّلَّذِينَ كَفَرُواْ سَتُغْلَبُونَ وَتُحْشَرُونَ﴾ = 3:12; ﴿قَدْ كَانَ لَكُمْ آيَةٌ فِي فِئَتَيْنِ ٱلْتَقَتَا فِئَةٌ تُقَاتِلُ﴾ = 3:13; ﴿قُلْ أَؤُنَبِّئُكُمْ بِخَيْرٍ مِّن ذٰلِكُمْ لِلَّذِينَ ٱتَّقَوْا﴾ = 3:15, each analysed substantively.",
+"at": "2026-10-17 00:40",
+"ayahs": "7-15"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+},
+"akhfash:64-64": {
+"hs": [
+"07cee4055c18",
+"4137a9bad2b1",
+"be35556a1aa8"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "The reviewer's negation point is wrong: in 'وهو اسم ليس بصفة فيُجْرى على الأول' the فـ + subjunctive (فاء السببية after negation) means 'it is a noun, not an adjective so as to be made to follow the first', so the TR 'sıfat olmayan bir isimdir ki birinciye göre yürütülsün' is acceptable. But TR contains unmarked explanatory additions not in the Arabic: '(burada ٱلْعَاكِفُ merfûdur)' (the source only says 'لأن السَّواء للآخر') and '(ref' kıraatinde)' after 'فهذا المبتدأ'. These must be inside [Mütercim notu: ...].",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Reviewer's 'no negation' point is wrong ('وهو اسم ليس بصفة فيُجْرى على الأول' = not an adjective so as to follow the former; TR 'sıfat olmayan bir isimdir ki birinciye göre yürütülsün' is fine). But TR has unmarked interpretive additions not in the Arabic: '(burada ٱلْعَاكِفُ merfûdur)' and '(ref' kıraatinde)' after 'فهذا المبتدأ'. These must be put in [Mütercim notu: …].",
+"at": "2026-10-17 00:40"
+},
+"J3": {
+"class": "CONFIRMED",
+"evidence": "The reviewer's negation point is wrong: in «وهو اسم ليس بصفة فيُجْرى على الأول» the فـ clause falls under the negation (it is not an adjective that would follow the first), so «sıfat olmayan bir isimdir ki birinciye göre yürütülsün» is correct. But TR has unmarked additions that are not in the Arabic: «(burada ٱلْعَاكِفُ merfûdur)» after the ayah ٱلْعَاكِفُ فِيهِ (the source only says «لأن السَّواء للآخر») and «(ref' kıraatinde)» after «فهذا المبتدأ». These are explanatory claims and must go inside [Mütercim notu: …]. The end «كما فسرته لك من قوله ﴿ألا نعبد﴾ فهو بدل» is rendered as a new topic («sözüne gelince»). Because of the فهو that is a defensible reading, and the existing note already flags the passage as obscure. Fix: move the two parenthetical additions into a Mütercim notu.",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Quoted source paraphrase restored to 'إلاّ اللّهُ' as written; existing Mütercim notu keeps the remark",
+"verify_note": "TR complete and faithful: the two former unmarked additions (العاكف merfu, ref' kıraati) are in Mütercim notu; final quote now keeps source 'إلاّ اللّهُ' as written with the oddity noted; negation in 'ليس بصفة فيجرى على الأول' rendered correctly; remaining parentheticals are terminology glosses or Turkish syntax fillers; no new problem.",
+"fix_failed": 1,
+"verified": "PASS"
+},
+"en": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "The claimed error is not one: 'وهو اسم ليس بصفة فيُجْرى على الأول' has فيُجْرى in the subjunctive after negation (فاء السببية), so the negation governs it: 'a noun, not an adjective [such that] it would be made to follow the former' = EN 'so it is not made to follow the former'. This is also the only reading consistent with the argument (ٱلْعَاكِفُ is nominative, not following لِلنَّاسِ/the first). Rest of EN is complete: سواء = العدل 'just', مستوية/استواء, الخلق, محياهم ومماتهم mubtada, ألا نعبد badal. The handling of 'كما فسرته لك من قوله ﴿أَلاَّ نَعْبُدَ﴾ فهو بدل' as a new topic ('As for His saying') is a defensible reading of an awkward source sentence (فهو shows a new topic).",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Negation claim is wrong (EN 'so it is not made to follow the former' correctly renders 'ليس بصفة فيُجْرى على الأول'). However EN paraphrase 'Come to [the word] that we worship none but Allah' adds an unmarked '[the word]' to 'تَعَالَوْا إلى أنْ لا نَعْبُدَ إلاّ اللّهُ', which reinserts the replaced noun and undoes the author's badal demonstration; also unmarked 'and [then]'. Needs a Translator's note or removal.",
+"at": "2026-10-17 00:40"
+},
+"J3": {
+"class": "CONFIRMED",
+"evidence": "The reviewer's claim of an inserted negation is wrong: in «وهو اسم ليس بصفة فيُجْرى على الأول» the فـ clause falls under ليس (a noun, not an adjective such that it would follow the first), so «so it is not made to follow the former» is a correct reading. But EN has unmarked additions: the final paraphrase «تَعَالَوْا إلى أنْ لا نَعْبُدَ إلاّ اللّهُ» is rendered «Come to [the word] that we worship none but Allah». The source deliberately puts the badal in place of كلمة, and adding «[the word]» undoes that illustration. «[then]» in «[then] the nominative is the proper way» is also added. Additions must go inside [Translator's note: …]. The source's «اللّهُ» (nominative) oddity also gets no note, unlike TR. Fix: drop «[the word]» (or put it in a translator's note) and note «[then]».",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked '[the word]' and '[then]'; added the Arabic paraphrase تعالوا إلى أن لا نعبد إلا اللهُ with a Translator's note on the nominative اللّهُ; restored ** in quotation as in source",
+"verified": "PASS",
+"verify_note": "Unmarked '[the word]' and '[then]' removed; badal paraphrase now matches the source; nominative اللّهُ kept as written with a Translator's note; complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"07cee4055c18",
+"861f78e1ae0a",
+"98c64533892c"
+],
+"dim": "tr",
+"what": "Moved unmarked '(burada ٱلْعَاكِفُ merfûdur)' and '(ref' kıraatinde)' into Mütercim notları",
+"at": "2026-10-17 00:46"
+},
+{
+"old_hs": [
+"07cee4055c18",
+"142395792b5f",
+"be35556a1aa8"
+],
+"dim": "en",
+"what": "Removed unmarked '[the word]' and '[then]'; added the Arabic paraphrase تعالوا إلى أن لا نعبد إلا اللهُ with a Translator's note on the nominative اللّهُ; restored ** in quotation as in source",
+"at": "2026-10-17 00:46"
+},
+{
+"old_hs": [
+"07cee4055c18",
+"142395792b5f",
+"be35556a1aa8"
+],
+"dim": "tr",
+"what": "Quoted source paraphrase restored to 'إلاّ اللّهُ' as written; existing Mütercim notu keeps the remark",
+"at": "2026-10-17 00:48"
+}
+]
+}
+}

@@ -1,0 +1,42 @@
+{
+"dervis-irab:1-14": {
+"p1": {
+"ar": "ee4de39e6524",
+"tr": "1d90ed26d28b",
+"en": "d9843f79100f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u94",
+"at": "2026-10-10 19:42",
+"fixed": false
+}
+},
+"dervis-irab:15-20": {
+"p1": {
+"ar": "38aa5cc00601",
+"tr": "0373b424777b",
+"en": "8f6b1057d716",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN Benefits: reader name أبو الشمائل rendered \"Abu al-Samail\" (now Abu al-Shamail + translator note) and أبو عمرو الجرمي rendered \"Abu Umar\" (now Abu Amr)",
+"by": "dervis-irab-u94",
+"at": "2026-10-10 19:42",
+"fixed": true
+},
+"p2": {
+"ar": "38aa5cc00601",
+"tr": "0373b424777b",
+"en": "8f6b1057d716",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u7",
+"at": "2026-10-17 00:04",
+"fixed": false
+}
+}
+}

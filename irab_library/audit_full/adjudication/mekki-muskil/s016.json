@@ -1,0 +1,27 @@
+{
+"mekki-muskil:127-127": {
+"hs": [
+"f9085e7ad2f7",
+"173fc75e5202",
+"77bff2467714"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Whole entry parses 16:127: «ولا تحزن عليهم» and «يمكرون», «الضيق بالفتح ... وبالكسر» (وَلَا تَكُ فِى ضَيْقٍ). «وإن عاقبتم إلى آخر السورة» (16:126) is only cited as context for the pronoun. Trailing «بسم الله الرحمن» is a stray start of the next surah's basmala, already flagged by translator notes; nothing to relocate.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Entry discusses «{وَلَا تحزن عَلَيْهِم}», «يمكرون» and «الضيق», all in 16:127; «وَإِن عَاقَبْتُمْ إِلَى آخر السُّورَة» is only cited as context for the alternative referent. The trailing «بِسم الله الرَّحْمَن» is a stray fragment of the next sura's basmala, not discussion of another ayah, and both readings mark it with a note; listing under 127 is correct.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

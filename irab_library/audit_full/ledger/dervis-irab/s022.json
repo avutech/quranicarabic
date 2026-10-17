@@ -1,0 +1,336 @@
+{
+"dervis-irab:8-13": {
+"p1": {
+"ar": "9785cc1f4254",
+"tr": "b22fe645cac3",
+"en": "3a03010816ea",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u1",
+"at": "2026-10-17 00:20",
+"fixed": false
+},
+"p2": {
+"ar": "9785cc1f4254",
+"tr": "b22fe645cac3",
+"en": "3a03010816ea",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR: unmarked explanatory addition \"(nekrenin sıfatı öne geçince hâl olur)\" now marked; Zamakhshari \"أنه يستشفع به\" silently corrected to \"faydalanacağına\" (now as written + note). EN: \"وعطفه مضاف\" silently changed to muḍāf ilayhi (now as written + note).",
+"by": "dervis-irab-p2-u3",
+"at": "2026-10-17 00:03",
+"fixed": true
+}
+},
+"dervis-irab:14-17": {
+"p1": {
+"ar": "806fb3e74201",
+"tr": "ec5f15dadda2",
+"en": "71912e5391b4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u2",
+"at": "2026-10-17 00:16",
+"fixed": false
+},
+"p2": {
+"ar": "806fb3e74201",
+"tr": "9f12d28e21f2",
+"en": "a6fd983ecd1a",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR: unmarked gloss \"(Endülüs ve Mağrib'in)\" now marked as note; EN: source «شرفا» silently corrected to \"east\" (note added).",
+"by": "dervis-irab-p2-u3",
+"at": "2026-10-17 00:03",
+"fixed": true
+}
+},
+"dervis-irab:18-22": {
+"p1": {
+"ar": "8ae08d5cabbf",
+"tr": "df28617f3349",
+"en": "457a756ff8fe",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR: the Asas flies \"التي تغنى\" was silently emended to \"bürür\" (covers) in the translation; now rendered as written (vızıldayan) with a marked note; also an unmarked parenthetical \"(deki câr ve mecrûrlar)\" after \"من في الأرض\" replaced by a marked translator note.",
+"by": "dervis-irab-p1-u4",
+"at": "2026-10-17 00:34",
+"fixed": true
+},
+"p2": {
+"ar": "8ae08d5cabbf",
+"tr": "df28617f3349",
+"en": "457a756ff8fe",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u3",
+"at": "2026-10-17 00:39",
+"fixed": false
+}
+},
+"dervis-irab:23-25": {
+"p1": {
+"ar": "39a7403a69b6",
+"tr": "f7e93ac20442",
+"en": "754d7094cc48",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u82",
+"at": "2026-10-10 19:38",
+"fixed": false
+}
+},
+"dervis-irab:26-29": {
+"p1": {
+"ar": "3b3b8b11bb4a",
+"tr": "7d75246fddbd",
+"en": "d4d8c2f55aaa",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN: poem \"تقول\" rendered \"do you think\" (now \"say\"); first Benefits heading number corrected to 1.",
+"by": "dervis-irab-p1-u13",
+"at": "2026-10-17 00:08",
+"fixed": true
+},
+"p2": {
+"ar": "3b3b8b11bb4a",
+"tr": "7d75246fddbd",
+"en": "d4d8c2f55aaa",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u18",
+"at": "2026-10-17 00:17",
+"fixed": false
+}
+},
+"dervis-irab:30-33": {
+"p1": {
+"ar": "cd37431623de",
+"tr": "fce5d940664e",
+"en": "32e250d5b116",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR: removed unmarked glosses \"(kible)\" after المنارة and \"(onun kalbinin takvasindan)\" for the omitted pronoun. EN: removed unmarked gloss \"(unslaughtered)\".",
+"by": "dervis-irab-u82",
+"at": "2026-10-10 19:39",
+"fixed": true
+},
+"p2": {
+"ar": "cd37431623de",
+"tr": "fce5d940664e",
+"en": "32e250d5b116",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u31",
+"at": "2026-10-16 19:17",
+"fixed": false
+}
+},
+"dervis-irab:34-38": {
+"p1": {
+"ar": "0bdc2e015b3d",
+"tr": "47b327d401e9",
+"en": "5d403b8adbdf",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u82",
+"at": "2026-10-10 19:39",
+"fixed": false
+}
+},
+"dervis-irab:42-46": {
+"p1": {
+"ar": "3c90cac210e3",
+"tr": "4af0088345fe",
+"en": "a7aeab9577c6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u82",
+"at": "2026-10-10 19:39",
+"fixed": false
+},
+"p2": {
+"ar": "3c90cac210e3",
+"tr": "4af0088345fe",
+"en": "a7aeab9577c6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u31",
+"at": "2026-10-16 19:17",
+"fixed": false
+}
+},
+"dervis-irab:39-41": {
+"p1": {
+"ar": "42aeb025f78f",
+"tr": "c1d1125b2d28",
+"en": "2ebbcfd7d3db",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR: removed unmarked addition \"(ya da mücahit)\" in the last hadith sentence (يحمل عليها).",
+"by": "dervis-irab-u82",
+"at": "2026-10-10 19:39",
+"fixed": true
+},
+"p2": {
+"ar": "42aeb025f78f",
+"tr": "c1d1125b2d28",
+"en": "2ebbcfd7d3db",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u31",
+"at": "2026-10-16 19:17",
+"fixed": false
+}
+},
+"dervis-irab:47-53": {
+"p1": {
+"ar": "f7c9d9495674",
+"tr": "bb570903ddc1",
+"en": "02ae3cb26650",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u82",
+"at": "2026-10-10 19:40",
+"fixed": false
+}
+},
+"dervis-irab:71-74": {
+"p1": {
+"ar": "229563873175",
+"tr": "fb01511a63e0",
+"en": "7acc52a2c7fa",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English had unmarked bracketed glosses (\"[difficulty]\" for «في العمر», \"[the incapacity to]\", \"[in meaning]\", \"[other]\", \"[for rain]\", \"[by clouds]\", \"[i.e. Hell]\", \"[i.e. not a fire of hospitality]\", \"[i.e. hands that reach out and take]\"); removed or turned into Translator's notes, and «في العمر» now translated as written. Otherwise complete and faithful.",
+"by": "dervis-irab-p1-u14",
+"at": "2026-10-17 01:00",
+"fixed": true
+},
+"p2": {
+"ar": "229563873175",
+"tr": "fb01511a63e0",
+"en": "7acc52a2c7fa",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u11",
+"at": "2026-10-17 01:06",
+"fixed": false
+}
+},
+"dervis-irab:75-78": {
+"p1": {
+"ar": "c21a0625b13d",
+"tr": "26cb08371ac4",
+"en": "c4b79e015795",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u82",
+"at": "2026-10-10 19:40",
+"fixed": false
+}
+},
+"dervis-irab:54-60": {
+"p1": {
+"ar": "dbedb829ccf4",
+"tr": "2cada44598d8",
+"en": "e7fbb38f74a7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u82",
+"at": "2026-10-10 19:41",
+"fixed": false
+}
+},
+"dervis-irab:61-65": {
+"p1": {
+"ar": "06814c295093",
+"tr": "abeeaa9c8c09",
+"en": "152440534c68",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u82",
+"at": "2026-10-10 19:41",
+"fixed": false
+}
+},
+"dervis-irab:66-70": {
+"p1": {
+"ar": "90c0cf3897b9",
+"tr": "42a03ed8c197",
+"en": "13038b6c14ff",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u82",
+"at": "2026-10-10 19:41",
+"fixed": false
+}
+},
+"dervis-irab:1-4": {
+"p1": {
+"ar": "5684e56eb8fe",
+"tr": "858c001accf9",
+"en": "45dde1468771",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u82",
+"at": "2026-10-10 19:42",
+"fixed": false
+}
+},
+"dervis-irab:5-7": {
+"p1": {
+"ar": "476917c8330f",
+"tr": "0da5b0d92105",
+"en": "2e7111e87b08",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u82",
+"at": "2026-10-10 19:43",
+"fixed": false
+}
+}
+}

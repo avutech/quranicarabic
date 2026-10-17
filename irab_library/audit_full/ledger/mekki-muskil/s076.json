@@ -1,0 +1,268 @@
+{
+"mekki-muskil:1-1": {
+"p1": {
+"ar": "b5e89505aa68",
+"tr": "50f4c2fefd9d",
+"en": "226c82ad8779",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English silently corrected source typo «قدو»; translator note added.",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:46",
+"fixed": true
+},
+"p2": {
+"ar": "b5e89505aa68",
+"tr": "50f4c2fefd9d",
+"en": "226c82ad8779",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"mekki-muskil:3-3": {
+"p1": {
+"ar": "f19b2fc02b1d",
+"tr": "96924c89ba50",
+"en": "7ca7e6e157c5",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English silently corrected source typos «فلار» and «كم ينصرف»; translator notes added.",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:46",
+"fixed": true
+},
+"p2": {
+"ar": "f19b2fc02b1d",
+"tr": "96924c89ba50",
+"en": "7ca7e6e157c5",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "After the 76:3 discussion the entry continues with \"قوله سلاسلا وقواريرا\", which belongs to 76:4 and 76:15-16; translations complete and faithful.",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"mekki-muskil:5-6": {
+"p1": {
+"ar": "d00836757fee",
+"tr": "47e6b74b5cb4",
+"en": "a998c8056764",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+},
+"mekki-muskil:11-11": {
+"p1": {
+"ar": "aa54daa20433",
+"tr": "115496ad07df",
+"en": "251eb1e21825",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+},
+"mekki-muskil:12-12": {
+"p1": {
+"ar": "f50ee93b4364",
+"tr": "5d74c6f1aae5",
+"en": "8aba2e0fcbae",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+},
+"mekki-muskil:14-14": {
+"p1": {
+"ar": "fbd3a2670524",
+"tr": "d3de31e635c0",
+"en": "2cff0c475b5a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:46",
+"fixed": false
+},
+"p2": {
+"ar": "fbd3a2670524",
+"tr": "d3de31e635c0",
+"en": "2cff0c475b5a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"mekki-muskil:17-18": {
+"p1": {
+"ar": "d7496af5d996",
+"tr": "6c93e24ebfa3",
+"en": "3f5010652b73",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+},
+"mekki-muskil:20-20": {
+"p1": {
+"ar": "ab085d0d777e",
+"tr": "2b4c9a70bbf7",
+"en": "8fa234146d2b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:46",
+"fixed": false
+},
+"p2": {
+"ar": "ab085d0d777e",
+"tr": "2b4c9a70bbf7",
+"en": "8fa234146d2b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"mekki-muskil:21-21": {
+"p1": {
+"ar": "2d33b19ad029",
+"tr": "1afb18be4806",
+"en": "8e6b26b76908",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Turkish had unmarked gloss \"(izafetin lafzî olması)\" after infisâl; removed. English silently read «بفعلهم» as \"its verbal force\"; now as written plus note.",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:46",
+"fixed": true
+},
+"p2": {
+"ar": "2d33b19ad029",
+"tr": "1afb18be4806",
+"en": "8e6b26b76908",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"mekki-muskil:23-23": {
+"p1": {
+"ar": "b38e3318494f",
+"tr": "67d4cf9dd0a0",
+"en": "ff490d0674e2",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "Second paragraph (ويذرون وراءهم يوما) comments on 76:27, not 76:23.",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:46",
+"fixed": false
+},
+"p2": {
+"ar": "b38e3318494f",
+"tr": "67d4cf9dd0a0",
+"en": "ff490d0674e2",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "Second paragraph \"ويذرون وراءهم يوما\" belongs to 76:27; translations complete and faithful.",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"mekki-muskil:24-24": {
+"p1": {
+"ar": "a28a5a9a8890",
+"tr": "5559c70b161a",
+"en": "c95e302cc607",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+},
+"mekki-muskil:30-30": {
+"p1": {
+"ar": "7ac62d2018ec",
+"tr": "eec066d180fe",
+"en": "44269afaa363",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+},
+"mekki-muskil:31-31": {
+"p1": {
+"ar": "35adda6bdf16",
+"tr": "830e053e12d8",
+"en": "5891c0536a74",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English had an unmarked inserted phrase \"[noun of the] predication\" for الخبر; removed.",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:46",
+"fixed": true
+},
+"p2": {
+"ar": "35adda6bdf16",
+"tr": "830e053e12d8",
+"en": "5891c0536a74",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+}
+}

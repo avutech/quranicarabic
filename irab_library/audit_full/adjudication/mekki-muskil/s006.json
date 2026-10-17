@@ -1,0 +1,71 @@
+{
+"mekki-muskil:143-143": {
+"hs": [
+"294d19e2bcdf",
+"393d07a14b11",
+"8279b5f096e0"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "MISPLACED",
+"evidence": "«ثمانية أزواج» and «آلذكرين حرم ... أم ما اشتملت عليه» are 6:143 (حمولة وفرش / كلوا مما رزقكم الله are cited from 6:142 only as evidence), but «قرأ أبو جعفر على طاعم يطعمه بتشديد الطاء ...» is a substantive reading note on 6:145 (عَلَىٰ طَاعِمٍۢ يَطْعَمُهُۥٓ).",
+"at": "2026-10-17 00:39",
+"ayahs": "143-145"
+},
+"J2": {
+"class": "MISPLACED",
+"evidence": "«{ثَمَانِيَة أَزوَاج}» and «{آلذكرين حرم} ... أم مَا اشْتَمَلت عَلَيْهِ» are 6:143, but «قَرَأَ أَبُو جَعْفَر على طاعم يطعمهُ بتَشْديد الطَّاء» comments «عَلَىٰ طَاعِمٍ يَطْعَمُهُ» of 6:145. Entry spans 143 and 145.",
+"at": "2026-10-17 00:40",
+"ayahs": "143-145"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Reviewer's omission claim is false: EN does render «وقيل هو منصوب على البدل من ما في قوله كلوا مما رزقكم الله على الموضع» and the whole «آلذكرين حرم» paragraph. But EN inserts an unmarked addition: «بتشديد الطاء وكسر العين» is followed by '(يَطَّعِمُه)', a vocalized form not in the Arabic, not inside [Translator's note: …]; needs marking.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Reviewer's omission claim is refuted: EN now contains the «بدل من ما فِي قَوْله كلوا مِمَّا رزقكم الله» clause and the whole «آلذكرين حرم» paragraph. But EN adds an unmarked vocalized form '(يَطَّعِمُه)' after 'with a shadda on the ṭāʾ and a kasra on the ʿayn' - the Arabic «بتَشْديد الطَّاء وَكسر الْعين وتخفيفها» does not write that form; it must go inside [Translator's note: ...] (and EN, unlike TR, gives no note that this reading belongs to 6:145).",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Arabic taqdir restored: أنشأ ثَمَانِيَة and كلوا لحم ثَمَانِيَة أَزوَاج with English gloss",
+"verify_note": "Taqdirs أنشأ ثمانية and كلوا لحم ثمانية أزواج now in Arabic with English gloss; يطّعمه inside Translator's note; badal gloss follows glossary; complete and faithful.",
+"fix_failed": 1,
+"verified": "PASS"
+}
+},
+"history": [
+{
+"old_hs": [
+"294d19e2bcdf",
+"393d07a14b11",
+"906d7bd924a0"
+],
+"dim": "en",
+"what": "Unmarked '(يَطَّعِمُه)' placed inside [Translator's note: i.e. يَطَّعِمُه]",
+"at": "2026-10-17 00:42"
+},
+{
+"old_hs": [
+"294d19e2bcdf",
+"393d07a14b11",
+"bf8f34d0276c"
+],
+"dim": "en",
+"what": "Arabic taqdir restored: أنشأ ثَمَانِيَة and كلوا لحم ثَمَانِيَة أَزوَاج with English gloss",
+"at": "2026-10-17 00:46"
+}
+]
+}
+}

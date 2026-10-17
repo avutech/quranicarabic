@@ -1,0 +1,68 @@
+{
+"nahhas-irab:1-2": {
+"p1": {
+"ar": "aaecb1102f92",
+"tr": "bfd803472eb7",
+"en": "e2dd530cd929",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Unmarked identification of the referent of بهم (People of the Elephant) in both; turned into a translator note",
+"by": "nahhas-irab-p1-u4",
+"at": "2026-10-17 00:11",
+"fixed": true
+},
+"p2": {
+"ar": "aaecb1102f92",
+"tr": "bfd803472eb7",
+"en": "e2dd530cd929",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u7",
+"at": "2026-10-17 00:17",
+"fixed": false
+}
+},
+"nahhas-irab:3-3": {
+"p1": {
+"ar": "d5880f9d02d1",
+"tr": "c7dec260a1b0",
+"en": "0f41c58499d7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p1-u4",
+"at": "2026-10-17 00:11",
+"fixed": false
+},
+"p2": {
+"ar": "d5880f9d02d1",
+"tr": "c7dec260a1b0",
+"en": "0f41c58499d7",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR silently changed the printed «إِيلافِهِمْ» to إِيلافَهُمْ (now noted); EN transliterated the paradigm examples (alifa yaʾlafu, ḥalama ḥilman ... katabtu kitāban); restored Arabic script.",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 19:03",
+"fixed": true
+}
+},
+"nahhas-irab:4-4": {
+"p1": {
+"ar": "36346bbed0b0",
+"tr": "cfad999803a9",
+"en": "f330afe612de",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u45",
+"at": "2026-10-10 16:04",
+"fixed": false
+}
+}
+}

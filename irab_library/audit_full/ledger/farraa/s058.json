@@ -1,0 +1,194 @@
+{
+"farraa:1-1": {
+"p1": {
+"ar": "715bf2e10a29",
+"tr": "3f699b959749",
+"en": "d55695cf7b11",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u21",
+"at": "2026-10-10 15:50",
+"fixed": false
+},
+"p2": {
+"ar": "715bf2e10a29",
+"tr": "3f699b959749",
+"en": "d55695cf7b11",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u6",
+"at": "2026-10-11 04:07",
+"fixed": false
+}
+},
+"farraa:2-2": {
+"p1": {
+"ar": "0eb35ff2b486",
+"tr": "17612694a095",
+"en": "d3924353c54c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u21",
+"at": "2026-10-10 15:50",
+"fixed": false
+}
+},
+"farraa:3-3": {
+"p1": {
+"ar": "5915c2e0834f",
+"tr": "1a7529bf92ca",
+"en": "94cf633325aa",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u21",
+"at": "2026-10-10 15:50",
+"fixed": false
+}
+},
+"farraa:5-5": {
+"p1": {
+"ar": "217c1c174bc3",
+"tr": "57969974cb1e",
+"en": "0d24aae3ee45",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u21",
+"at": "2026-10-10 15:50",
+"fixed": false
+}
+},
+"farraa:7-7": {
+"p1": {
+"ar": "fe2b62dbecb8",
+"tr": "9ae59ca61293",
+"en": "a2164de3a402",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish rendered the defective 'على أنها لكان' as an unmarked guess 'kâne'nin (haberi)'; replaced with source wording plus translator's note.",
+"by": "farraa-u21",
+"at": "2026-10-10 15:50",
+"fixed": true
+},
+"p2": {
+"ar": "fe2b62dbecb8",
+"tr": "9ae59ca61293",
+"en": "a2164de3a402",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u6",
+"at": "2026-10-11 04:07",
+"fixed": false
+}
+},
+"farraa:8-10": {
+"p1": {
+"ar": "e93def145a93",
+"tr": "b5f3c88f7cf9",
+"en": "ef5d1c79c101",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u21",
+"at": "2026-10-10 15:50",
+"fixed": false
+}
+},
+"farraa:11-11": {
+"p1": {
+"ar": "b1998c61ba87",
+"tr": "36a54f489dcb",
+"en": "05e0cfa65f37",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u21",
+"at": "2026-10-10 15:50",
+"fixed": false
+}
+},
+"farraa:12-13": {
+"p1": {
+"ar": "f5f3b42f7fdf",
+"tr": "bb51fd270c2d",
+"en": "1203e8499dcc",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u21",
+"at": "2026-10-10 15:50",
+"fixed": false
+}
+},
+"farraa:14-14": {
+"p1": {
+"ar": "f09664e89f95",
+"tr": "d4f8ab09f727",
+"en": "523d84034b6f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u21",
+"at": "2026-10-10 15:50",
+"fixed": false
+}
+},
+"farraa:19-19": {
+"p1": {
+"ar": "0e1821acdb34",
+"tr": "2cd8855b8d44",
+"en": "41157139ef6c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u21",
+"at": "2026-10-10 15:50",
+"fixed": false
+}
+},
+"farraa:21-21": {
+"p1": {
+"ar": "dbba3481d1c3",
+"tr": "e0ae101fa681",
+"en": "f21a81fad211",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u21",
+"at": "2026-10-10 15:50",
+"fixed": false
+}
+},
+"farraa:22-22": {
+"p1": {
+"ar": "3652479ef443",
+"tr": "63da0793ef1b",
+"en": "bbc89c214fbd",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u21",
+"at": "2026-10-10 15:50",
+"fixed": false
+}
+}
+}

@@ -1,0 +1,70 @@
+{
+"mekki-muskil:1-1": {
+"p1": {
+"ar": "87ca6200e65e",
+"tr": "664054e27ace",
+"en": "9cc33626a100",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u6",
+"at": "2026-10-10 15:41",
+"fixed": false
+}
+},
+"mekki-muskil:5-5": {
+"p1": {
+"ar": "ce89b03fe136",
+"tr": "a2db44bd25cf",
+"en": "d4a2cdd29580",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English printed the origin of يره as يرآه (with madda); source has يراه; corrected.",
+"by": "mekki-muskil-u6",
+"at": "2026-10-10 15:41",
+"fixed": true
+},
+"p2": {
+"ar": "ce89b03fe136",
+"tr": "a2db44bd25cf",
+"en": "d4a2cdd29580",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 18:52",
+"fixed": false
+}
+},
+"mekki-muskil:12-13": {
+"p1": {
+"ar": "44d49f56d96f",
+"tr": "84a0d45077fe",
+"en": "9a5c6b745dd4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u6",
+"at": "2026-10-10 15:41",
+"fixed": false
+}
+},
+"mekki-muskil:15-15": {
+"p1": {
+"ar": "87237cb6b03c",
+"tr": "031416f074a4",
+"en": "180986d9ae53",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u6",
+"at": "2026-10-10 15:41",
+"fixed": false
+}
+}
+}

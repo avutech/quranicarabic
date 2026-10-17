@@ -1,0 +1,175 @@
+{
+"safi-cedvel:4-6": {
+"hs": [
+"3254524e1d68",
+"1e26d242af29",
+"6da81dcb7cf6"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "The parenthesised renderings follow the poetry verses (e.g. «وكنت جلاء للعيون من القذى ... فأصبحت تقذى بشيبي وترمد», «يا نسيب التغام ذنبك أبقى ...»); glossary_tr rule 3 requires exactly this: «Şiir beyitleri Arapça aynen bırakılır, altına parantez içinde kısa Türkçe anlamı verilir». The التغام/الثغام issue is properly in a [Mütercim notu]. «طيب الله ثرى شوقي» is rendered literally «Allah Şevkî'nin toprağını hoş etsin». Prose matches the Arabic.",
+"at": "2026-10-17 00:42"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "The parenthetical renderings after the verses («وكنت جلاء للعيون من القذى ...», «يا نسيب التغام ذنبك أبقى ...», «لو رأى الله ...», «رأين الغواني ...», «شيّعت أحلامي ...») are the short Turkish meanings that glossary_tr rule 3 requires under poetry; they are accurate, and the التغام/الثغام issue is properly in a Mütercim notu. I'rab, Sarf, Belâgat and Fevâid are complete; «طيب الله ثرى شوقي» = 'Allah Şevkî'nin toprağını hoş etsin' is exact. No unmarked addition.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+},
+"en": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Poetry glosses after «وكنت جلاء للعيون من القذى ...», «يا نسيب التغام ...» etc. are mandated by glossary_en rule 3 («Poetry stays in Arabic, followed by a short English gloss in parentheses»); the التغام/الثغام remark is in a Translator's note. 'the soil of Shawqī's grave' for «طيب الله ثرى شوقي» renders the fixed formula: ثرى in طيب الله ثراه denotes the earth of the deceased's resting place, so 'grave' conveys the meaning rather than adding content; not a wrong statement.",
+"at": "2026-10-17 00:42"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "The poem glosses in parentheses after each verse are prescribed by glossary_en rule 3 and are accurate; the التغام/الثغام point is in a Translator's note. 'May Allah make the soil of Shawqī's grave fragrant' for «وطيب الله ثرى شوقي» is the standard sense of the formula طيب الله ثراه (ثرى = the earth over the deceased), not a new claim. The entry is otherwise complete and faithful.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+},
+"safi-cedvel:7-7": {
+"hs": [
+"ff33e27dce66",
+"9959aa27d451",
+"f8ce1c83d04f"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "«سمّيته عليّا» is kept in Arabic and followed by '(I named him ʿAlī)', which is just the literal meaning of the words present in the source (same convention as the mandated poetry glosses); it adds no content absent from the Arabic and is accurate. The rest of the EN (I'rab, Morphology, Benefits incl. «ويجوز جره بحرف الجر» = 'permissible to put it in the genitive with a preposition') matches the Arabic.",
+"at": "2026-10-17 00:42"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "'(I named him ʿAlī)' is simply the translation of the example sentence «سمّيته عليّا» that IS in the Arabic (kept in Arabic script, meaning given beside it); it adds no content absent from the source. The rest of the English (i'rab, morphology, benefits on الاسم and قبل/بعد) is complete and faithful.",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+},
+"safi-cedvel:30-33": {
+"hs": [
+"d423f63a1b11",
+"8fff4d982aea",
+"1d9b48dee853"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "The line «يخاطبني السفيه بكل قبح ... وأكره أن أكون له مجيبا» is a poetry verse introduced by «فقال» (the poet); glossary_tr rule 3 mandates a parenthetical short Turkish meaning under verses. «(Beyinsiz bana her türlü çirkinlikle hitap eder; ben ise ona cevap veren olmaktan hoşlanmam.)» is accurate. Rest of TR follows the Arabic.",
+"at": "2026-10-17 00:42"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "The verse «يخاطبني السفيه بكل قبح ... وأكره أن أكون له مجيبا» stays in Arabic and is followed by a short parenthetical meaning, as glossary_tr rule 3 requires for poetry; 'Beyinsiz bana her türlü çirkinlikle hitap eder; ben ise ona cevap veren olmaktan hoşlanmam' is accurate. The stored reading also covers the full i'rab of 30-33, Sarf (أوصاني) and both Fevâid. No unmarked addition.",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+},
+"en": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "«يخاطبني السفيه بكل قبح ... وأكره أن أكون له مجيبا» is poetry; glossary_en rule 3 mandates a short English gloss in parentheses. «(The fool addresses me with every vileness, and I dislike being one who answers him.)» is accurate; not an unmarked addition.",
+"at": "2026-10-17 00:42"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "The parenthetical '(The fool addresses me with every vileness, and I dislike being one who answers him.)' after «يخاطبني السفيه بكل قبح ... وأكره أن أكون له مجيبا» is the short poetry gloss prescribed by glossary_en rule 3, and it is accurate. The stored English contains the full i'rab of 30-33 and the Benefits; no unmarked addition.",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+},
+"safi-cedvel:34-34": {
+"hs": [
+"197300910d99",
+"bd1c89f75fd5",
+"72686f140ae1"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "The expressions «ابن مخاض», «ابن لبون», «ابن عرس», «ابن السبيل», «ابن الحرب», «ابن الدنيا» are kept in Arabic and followed by their English meanings (camel in its 2nd/3rd year, weasel, wayfarer, man of war, worldly man), which are the correct standard meanings of the very words in the source; this is translation of source words, not added content, and none of it is wrong. The rest of the EN (I'rab, notes, rules a-e and Remark) matches the Arabic.",
+"at": "2026-10-17 00:42"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "The parentheticals render the Arabic expressions the author cites, which are kept in Arabic script: «ابن مخاض» = camel in its second year, «ابن لبون» = camel in its third year, ابن عرس = weasel, «ابن السبيل» = wayfarer, «ابن الحرب» = man of war, «ابن الدنيا» = worldly man. All are the standard lexical meanings of those very words, i.e. translation of source text, not new claims; nothing is attributed to the author that he did not cite. The i'rab and Benefits are otherwise complete and faithful.",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+},
+"safi-cedvel:38-39": {
+"hs": [
+"18aa581c9475",
+"60a327318bbe",
+"c072b35fc958"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "The only flagged item is the parenthesis after the verse «فما رجعت بخائبة ركاب ... حكيم بن المسيّب منتهاها»; glossary_tr rule 3 mandates a short Turkish meaning in parentheses under poetry, and «(Varış noktası Hakîm b. el-Müseyyeb olan binekler eli boş dönmedi.)» is accurate. The بجزع/بجذع misprint is properly in a [Mütercim notu]; the rest (six places of زيادة الباء, البغي a-c) is complete and faithful.",
+"at": "2026-10-17 00:42"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "The only parenthetical is the poetry gloss after «فما رجعت بخائبة ركاب ... حكيم بن المسيّب منتهاها» ('Varış noktası Hakîm b. el-Müseyyeb olan binekler eli boş دönmedi'), which glossary_tr rule 3 requires and which is accurate; the بجزع/بجذع issue is in a Mütercim notu. The six places of redundant bāʾ and the البغي discussion are fully and faithfully rendered.",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+},
+"en": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Poem «فما رجعت بخائبة ركاب ...» gloss is mandated by glossary_en rule 3 and accurate. The other parentheses ('how good ʿUmar is!' for «أحسن بعمر», 'a dirham suffices you' for «بحسبك درهم», 'Zayd is not standing' for «ليس زيد بقائم», 'I saw Khālid himself' for «رأيت خالدا بنفسه وبعينه», 'an unchaste woman' for «امرأة بغي») only render the meaning of Arabic example phrases present in the source; they add no new content and are correct. بجزع misprint handled in a Translator's note.",
+"at": "2026-10-17 00:42"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "The poem gloss after «فما رجعت بخائبة ركاب ...» is prescribed by glossary_en rule 3 and accurate. The other parentheticals translate example sentences that are in the Arabic and kept in Arabic script: «أحسن بعمر» 'how good ʿUmar is!', «بحسبك درهم» 'a dirham suffices you', «ليس زيد بقائم» 'Zayd is not standing', رأيت خالدا بنفسه وبعينه 'I saw Khālid himself', امرأة بغي 'an unchaste woman' - all correct renderings, no content beyond the source. بجزع is flagged in a Translator's note.",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

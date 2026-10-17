@@ -1,0 +1,58 @@
+{
+"safi-cedvel:49-56": {
+"hs": [
+"62e21bbf37fa",
+"6ad1c7f0fb35",
+"d9de1712d1c0"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Belagat «فلا تزال تعب في الشراب»: unvowelled تعب is simply تَعُبّ (from عبّ, to gulp) written without shadda, so TR 'durmadan kana kana içerler' translates what is written; no silent correction occurred. The other point (auditory masdar) concerns EN only. Rest of TR checked (i'rab, sarf, fawaid) and matches the Arabic.",
+"at": "2026-10-17 00:42"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Arabic «فلا تزال تعب في الشراب» is unvocalized تَعُبّ (to gulp) written without shadda, not a defect; TR 'suyu durmadan kana kana içerler' translates what is written, no correction and no note needed. TR Sarf '(55) شرب: ... semâî masdarıdır' correctly renders مصدر سماعي.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Morphology «(55) شرب: مصدر سماعي للثلاثي شرب» is rendered 'an auditory maṣdar'; سماعي here means non-analogical/transmitted (as opposed to قياسي), and 'auditory' (relating to hearing) gives a wrong meaning. Should be e.g. 'a non-analogical (samāʿī) maṣdar'. (The EN note on تعب is marked and harmless.)",
+"at": "2026-10-17 00:42"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "EN Morphology renders «مصدر سماعي» as 'an auditory maṣdar'; سماعي here means non-analogical (transmitted/heard from the Arabs, vs قياسي), 'auditory' misleads. Also the EN Translator's note falsely claims the source reads تعب 'to be wearied': «تعب في الشراب» is simply unpointed تعبّ (gulp), so the note misstates the source and should be removed.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Morphology: مصدر سماعي 'auditory maṣdar' -> 'non-analogical (samāʿī) maṣdar'; removed translator's note that misstated the source (unpointed تعب = تعبّ)",
+"verified": "PASS",
+"verify_note": "مصدر سماعي now 'non-analogical (samāʿī) maṣdar'; erroneous translator's note on تعب removed; EN complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"62e21bbf37fa",
+"6ad1c7f0fb35",
+"e3bdde3ecc29"
+],
+"dim": "en",
+"what": "Morphology: مصدر سماعي 'auditory maṣdar' -> 'non-analogical (samāʿī) maṣdar'; removed translator's note that misstated the source (unpointed تعب = تعبّ)",
+"at": "2026-10-17 00:45"
+}
+]
+}
+}

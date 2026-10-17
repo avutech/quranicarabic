@@ -1,0 +1,91 @@
+{
+"harrat-mujtaba:7-7": {
+"hs": [
+"2730a7c405c6",
+"3f137206b612",
+"7a6f028f787a"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «وجمع التكسير أكثر من الإفراد» with nothing before it. Turkish prefixes '(Bu durumda sıfatın)' — an explanatory insertion not in the source and not in a Mütercim notu. Unmarked addition (interpretation may be correct but must be placed in a note).",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "The Arabic reads only «وجمع التكسير أكثر من الإفراد». The Turkish inserts '(Bu durumda sıfatın)', which is not in the source and is not inside a [Mütercim notu: …]. That is an unmarked addition.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Unmarked '(Bu durumda sıfatın)' is now inside [Mütercim notu: bu durumda sıfatın] (reading found already in this form; verified, no further change)",
+"verified": "PASS",
+"verify_note": "'bu durumda sıfatın' is now inside a Mütercim notu; the rest is complete and faithful."
+},
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «وجمع التكسير أكثر من الإفراد» only. English prefixes '[In such cases]' in plain brackets, not in a [Translator's note: …]. Unmarked addition.",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "The Arabic reads only «وجمع التكسير أكثر من الإفراد». The English inserts '[In such cases]', which is in plain brackets and not in a Translator's note, so it is an unmarked addition.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Unmarked '[In such cases]' is now inside [Translator's note: in such cases] (reading found already in this form; verified, no further change)",
+"verified": "PASS",
+"verify_note": "'in such cases' is now inside a Translator's note; the glosses only translate the book's own Arabic examples; the rest is complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"2730a7c405c6",
+"975ac2b0c966",
+"6653cddf57e0"
+],
+"dim": "tr",
+"what": "put the unmarked insertion (Bu durumda sıfatın) inside a Mütercim notu",
+"at": "2026-10-17 00:45"
+},
+{
+"old_hs": [
+"2730a7c405c6",
+"3f137206b612",
+"7a6f028f787a"
+],
+"dim": "en",
+"what": "put the unmarked insertion [In such cases] inside a Translator's note",
+"at": "2026-10-17 00:45"
+},
+{
+"old_hs": [
+"2730a7c405c6",
+"3f137206b612",
+"7a6f028f787a"
+],
+"dim": "tr",
+"what": "Unmarked '(Bu durumda sıfatın)' is now inside [Mütercim notu: bu durumda sıfatın] (reading found already in this form; verified, no further change)",
+"at": "2026-10-17 00:45"
+},
+{
+"old_hs": [
+"2730a7c405c6",
+"3f137206b612",
+"7a6f028f787a"
+],
+"dim": "en",
+"what": "Unmarked '[In such cases]' is now inside [Translator's note: in such cases] (reading found already in this form; verified, no further change)",
+"at": "2026-10-17 00:45"
+}
+]
+}
+}

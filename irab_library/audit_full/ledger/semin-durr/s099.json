@@ -1,0 +1,98 @@
+{
+"semin-durr:1-1": {
+"p1": {
+"ar": "7499a597edb9",
+"tr": "fe523288891c",
+"en": "0d0fd88725f1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u34",
+"at": "2026-10-11 02:40",
+"fixed": false
+}
+},
+"semin-durr:3-3": {
+"p1": {
+"ar": "a99a5a3fa292",
+"tr": "703d4ec0a21e",
+"en": "30b89fbb8e12",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u34",
+"at": "2026-10-11 02:40",
+"fixed": false
+}
+},
+"semin-durr:4-4": {
+"p1": {
+"ar": "97eefe58506f",
+"tr": "460cd90b9120",
+"en": "3b506aea35a7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u34",
+"at": "2026-10-11 02:40",
+"fixed": false
+}
+},
+"semin-durr:5-5": {
+"p1": {
+"ar": "cfc80ee0c3c7",
+"tr": "b55114dd52fd",
+"en": "eeacdb8777e4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p1-u10",
+"at": "2026-10-17 00:21",
+"fixed": false
+},
+"p2": {
+"ar": "cfc80ee0c3c7",
+"tr": "b55114dd52fd",
+"en": "eeacdb8777e4",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN unmarked identification \"The Shaykh [Abū Ḥayyān]\" moved into a translator note.",
+"by": "semin-durr-p2-u20",
+"at": "2026-10-17 00:09",
+"fixed": true
+}
+},
+"semin-durr:6-6": {
+"p1": {
+"ar": "5392650bb08e",
+"tr": "b7238702fa48",
+"en": "e783fe714723",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u34",
+"at": "2026-10-11 02:40",
+"fixed": false
+}
+},
+"semin-durr:7-7": {
+"p1": {
+"ar": "ac8ae985d2f3",
+"tr": "00b44d53dc82",
+"en": "def88f10bbc2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u34",
+"at": "2026-10-11 02:40",
+"fixed": false
+}
+}
+}

@@ -1,0 +1,136 @@
+{
+"semin-durr:1-1": {
+"p1": {
+"ar": "0fb1e52f4ab1",
+"tr": "1acfa49f731f",
+"en": "8fe15f90d8e9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p1-u10",
+"at": "2026-10-17 00:21",
+"fixed": false
+},
+"p2": {
+"ar": "0fb1e52f4ab1",
+"tr": "1acfa49f731f",
+"en": "8fe15f90d8e9",
+"fit": "OK",
+"trv": "OK",
+"env": null,
+"note": "EN as served drops the negation of \"فلذلك لم يحتج إلى خبر\" (\"so it does need a khabar\"; stored text has \"does not\"); also fixed: unmarked \"[Abū Ḥayyān]\" moved to a note and silently renumbered verse \"461 - 2-\" restored as printed with a note.",
+"by": "semin-durr-p2-u20",
+"at": "2026-10-17 00:09",
+"fixed": true
+}
+},
+"semin-durr:2-2": {
+"p1": {
+"ar": "22cd0d7f749a",
+"tr": "207d73e3c0c3",
+"en": "13344624d2e9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u34",
+"at": "2026-10-11 02:35",
+"fixed": false
+}
+},
+"semin-durr:3-3": {
+"p1": {
+"ar": "d01ca35eecdf",
+"tr": "0fcb06132c3a",
+"en": "66aa054fe077",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u34",
+"at": "2026-10-11 02:35",
+"fixed": false
+}
+},
+"semin-durr:5-5": {
+"p1": {
+"ar": "f6af94ee1762",
+"tr": "d53ca29e829a",
+"en": "8b088ae9903a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p1-u10",
+"at": "2026-10-17 00:21",
+"fixed": false
+},
+"p2": {
+"ar": "f6af94ee1762",
+"tr": "d53ca29e829a",
+"en": "8b088ae9903a",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN unmarked identification \"ʿAbd Allāh [ibn Masʿūd]\" moved into a translator note.",
+"by": "semin-durr-p2-u20",
+"at": "2026-10-17 00:09",
+"fixed": true
+}
+},
+"semin-durr:6-6": {
+"p1": {
+"ar": "401413f67e27",
+"tr": "80f0d2a90546",
+"en": "4b58a5b07e0e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u34",
+"at": "2026-10-11 02:35",
+"fixed": false
+}
+},
+"semin-durr:7-7": {
+"p1": {
+"ar": "a9156715c474",
+"tr": "f8d5116f917a",
+"en": "d2b19a106813",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English silently corrected source typos «فيه فعليةٌ» and «تحفيفُها»; added translator's notes as Turkish has",
+"by": "semin-durr-u34",
+"at": "2026-10-11 02:35",
+"fixed": true
+},
+"p2": {
+"ar": "a9156715c474",
+"tr": "f8d5116f917a",
+"en": "d2b19a106813",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u20",
+"at": "2026-10-17 00:09",
+"fixed": false
+}
+},
+"semin-durr:8-8": {
+"p1": {
+"ar": "3301a258dd3f",
+"tr": "17e327efc75d",
+"en": "2ba4a45a8900",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u34",
+"at": "2026-10-11 02:35",
+"fixed": false
+}
+}
+}

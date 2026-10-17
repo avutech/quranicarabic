@@ -1,0 +1,29 @@
+{
+"mekki-muskil:176-176": {
+"hs": [
+"1b6c21ac1143",
+"6e601e0513bd",
+"8bcfb8fe36c0"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "MISPLACED",
+"evidence": "First paragraph {أصحاب الأيكة} (ليكة/الأيكة readings) is 26:176 «كذب أصحاب الأيكة المرسلين» (correct). Second paragraph {ما أغنى عنهم} (ما interrogative or negative, second ما nominative by أغنى) is 26:207 «ما أغنى عنهم ما كانوا يمتعون»; range must include 207.",
+"at": "2026-10-17 00:39",
+"ayahs": "176-207"
+},
+"J2": {
+"class": "MISPLACED",
+"evidence": "First paragraph {أَصْحَاب الأيكة} = 26:176; second «قَوْله {مَا أغْنى عَنْهُم} مَا اسْتِفْهَام ... وَمَا الثَّانِيَة» parses مَآ أَغْنَىٰ عَنْهُم مَّا كَانُوا۟ يُمَتَّعُونَ = 26:207. Entry covers 176 and 207.",
+"at": "2026-10-17 00:39",
+"ayahs": "176-207"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+}
+}

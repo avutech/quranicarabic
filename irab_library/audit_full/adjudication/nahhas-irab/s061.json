@@ -1,0 +1,42 @@
+{
+"nahhas-irab:7-7": {
+"hs": [
+"cfe24b178a73",
+"7321ba07dedd",
+"bafa3fc56267"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «وهذا سحر مبين أي مبين لمن راه أنه سحر» - no 'they claim'. Turkish appends '(diye iddia ederler)', an interpretive addition not in the source and not inside [Mütercim notu: ...]. English ('manifest to whoever sees it as sorcery') is faithful.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: وهذا سحر مبين أي مبين لمن راه أنه سحر. TR adds '(diye iddia ederler)' - not in the Arabic and not inside a Mütercim notu; unmarked addition.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked '(diye iddia ederler)'",
+"verified": "PASS",
+"verify_note": "'(diye iddia ederler)' removed; مبين لمن راه أنه سحر rendered faithfully; rest complete."
+}
+},
+"history": [
+{
+"old_hs": [
+"cfe24b178a73",
+"aeda73d0318c",
+"bafa3fc56267"
+],
+"dim": "tr",
+"what": "Removed unmarked '(diye iddia ederler)'",
+"at": "2026-10-17 00:45"
+}
+]
+}
+}

@@ -1,0 +1,104 @@
+{
+"daas-irab:172-173": {
+"hs": [
+"f20253a7c1d4",
+"84463ee75426",
+"20c5e9546b08"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "The entry covers 4:172 with the damaged but recognizable headings لَنْ يَسْتَنْكِفَ الْمَسِيحُ / أَنْ يَكُونَ عَبْداً لِلَّهِ / وَلَا الْمَلائِكَةُ الْمُقَرَّبُونَ / وَمَنْ يَسْتَنْكِفْ عَنْ عِبادَتِهِ وَيَسْتَكْبِرْ فَسَيَحْشُرُهُمْ إِلَيْهِ جَمِيعاً. It covers 4:173 through ﴿فَأَمَّا الَّذِينَ آمَنُوا﴾ ... ﴿وَلا نَصِيراً﴾. Nothing beyond these two ayahs is analysed. The damage is only lost brackets and initial letters, the analysis is intact, and both readings mark it. The listing 172-173 is correct.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "The entry parses لن يستنكف المسيح، أن يكون عبدا، لله، ولا الملائكة المقربون، ومن يستنكف عن عبادته ويستكبر فسيحشرهم إليه جميعا (4:172), then ﴿فَأَمَّا الَّذِينَ آمَنُوا﴾ ... ﴿وَلا نَصِيراً﴾ (4:173). The opening is typographically damaged but readable. Listing under 172-173 is correct.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+},
+"daas-irab:92-92": {
+"hs": [
+"50e6b269bd7a",
+"c56cc34b3296",
+"d62df987c8d5"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source: واسمها ضمير مستتر تقديره: هو عدو لكم متعلقان بمحذوف صفة عدو. Turkish gives 'takdiri «هو» olan müstetir zamirdir; «لكم» (câr ve mecrûr) «عدو»nun mahzûf sıfatına müteallik'. It silently drops the written word عدو after هو and silently turns the sequence into «لكم», with no Mütercim notu. That is an omission plus a silent correction. Fix: render عدو as written and put the 'لكم is meant' interpretation inside a Mütercim notu, as the English does. The rest of the Turkish is complete.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: واسمها ضمير مستتر تقديره: هو عدو لكم متعلقان بمحذوف صفة عدو. The Turkish gives 'ismi takdiri «هو» olan müstetir zamirdir; «لكم» (câr ve mecrûr) «عدو»nun mahzûf sıfatına mütealliktir'. The word عدو that follows هو in the source is silently dropped and the text is restructured without a Mütercim notu. That is an omission and a silent correction. It must translate 'هو عدو لكم' as written and put any interpretation in a note.",
+"at": "2026-10-17 00:42"
+},
+"J3": {
+"class": "CONFIRMED",
+"evidence": "Source: 'واسمها ضمير مستتر تقديره: هو عدو لكم متعلقان بمحذوف صفة عدو'. The most natural reading is that the implied noun is 'هو' and 'عدو لكم' starts the next item, with the dual 'متعلقان' referring to 'لكم'. That reading is fine, but TR drops the word 'عدو' completely and re-labels the item as «لكم» (câr ve mecrûr) without a Mütercim notu. That is a silent correction/omission of 'عدو'. Fix: keep 'عدو' and explain the re-segmentation inside a [Mütercim notu: ...].",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked identifications '(تحرير)' and '(يجد)' not present in the source",
+"verify_note": "Unmarked (tahrir)/(yajid) identifications removed; 'adw kept with segmentation explained in Mutercim notu; full parsing rendered faithfully, no omissions or unmarked additions.",
+"fix_failed": 1,
+"verified": "PASS"
+},
+"en": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Source: تقديره: هو عدو لكم متعلقان بمحذوف صفة عدو. English keeps every written word: 'its implied form being: \"هو\"; (عدو) [Translator's note: (لكم) is evidently meant here] is attached to an omitted naʿt of (عدو)'. The word عدو is not dropped, and the interpretive suggestion is properly inside a Translator's note. The other note, on the fāʾ being called resumptive, is also properly marked. The rest of the English is complete and accurate.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: تقديره: هو عدو لكم متعلقان بمحذوف صفة عدو. The English gives 'its implied form being: \"هو\"; (عدو) [Translator's note: (لكم) is evidently meant here] is attached…'. The word لكم, which is in the source, is dropped from the body, and the note wrongly implies the source lacks it. The body also turns عدو into the head of 'is attached'. This misrepresents what is written. It should render 'هو عدو لكم' and explain the probable missing bracket (لكم متعلقان) in a note.",
+"at": "2026-10-17 00:42"
+},
+"J3": {
+"class": "FALSE_ALARM",
+"evidence": "Source: 'تقديره: هو عدو لكم متعلقان بمحذوف صفة عدو'. The dual 'متعلقان' and 'بمحذوف صفة عدو' show that 'عدو لكم' is the next parsed item (the jar-majrur 'لكم' attached to an omitted naʿt of 'عدو'). It is not part of the implied form, so the implied noun of كان is just 'هو'. EN gives the implied form as 'هو', keeps the source word '(عدو)', and explains in a marked [Translator's note: (لكم) is evidently meant here]. Nothing is silently dropped or added, and the interpretation is correct. The reviewer's reading of 'هو عدو لكم' as the whole implied form is not supported by 'متعلقان'.",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "HUMAN"
+}
+},
+"history": [
+{
+"old_hs": [
+"50e6b269bd7a",
+"ca5f27c641bc",
+"d62df987c8d5"
+],
+"dim": "tr",
+"what": "Source words عدو لكم no longer dropped/silently re-labelled: implied form «هو», then «عدو لكم» rendered as written; segmentation (لكم is the jar-majrur, per dual متعلقان) explained in a Mütercim notu",
+"at": "2026-10-17 00:46"
+},
+{
+"old_hs": [
+"50e6b269bd7a",
+"3cf43edbb36e",
+"d62df987c8d5"
+],
+"dim": "tr",
+"what": "Removed unmarked identifications '(تحرير)' and '(يجد)' not present in the source",
+"at": "2026-10-17 00:49"
+}
+]
+}
+}

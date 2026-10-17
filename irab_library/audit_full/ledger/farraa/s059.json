@@ -1,0 +1,140 @@
+{
+"farraa:2-2": {
+"p1": {
+"ar": "0d323eb9cdc8",
+"tr": "aec13afc4041",
+"en": "1cb4e98ac75c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u21",
+"at": "2026-10-10 15:51",
+"fixed": false
+}
+},
+"farraa:5-5": {
+"p1": {
+"ar": "2ea41a61d552",
+"tr": "1cef3deefab1",
+"en": "6fa98aad8e98",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u21",
+"at": "2026-10-10 15:51",
+"fixed": false
+}
+},
+"farraa:6-6": {
+"p1": {
+"ar": "a1e10f84c42a",
+"tr": "71f65440b8ea",
+"en": "1f0e73413937",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u21",
+"at": "2026-10-10 15:51",
+"fixed": false
+}
+},
+"farraa:7-7": {
+"p1": {
+"ar": "85921884afba",
+"tr": "b6737b0bf058",
+"en": "9693e80c9e3d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u21",
+"at": "2026-10-10 15:51",
+"fixed": false
+}
+},
+"farraa:9-9": {
+"p1": {
+"ar": "513cc0a40b07",
+"tr": "f09241848668",
+"en": "23df18729b2d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u21",
+"at": "2026-10-10 15:51",
+"fixed": false
+}
+},
+"farraa:10-10": {
+"p1": {
+"ar": "ec4982aae862",
+"tr": "9d148776e532",
+"en": "79b58faeca79",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u21",
+"at": "2026-10-10 15:51",
+"fixed": false
+}
+},
+"farraa:13-14": {
+"p1": {
+"ar": "88fccd5d16d3",
+"tr": "b2e08de00bb7",
+"en": "9c150806bd86",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u21",
+"at": "2026-10-10 15:51",
+"fixed": false
+}
+},
+"farraa:17-17": {
+"p1": {
+"ar": "c6bd36d2d545",
+"tr": "06f2c2c101dc",
+"en": "c3134eee005b",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English turned 'ألا ترى الصفة الآخرة تتقدم قبل الأولى' into a conditional question; reworded.",
+"by": "farraa-u21",
+"at": "2026-10-10 15:51",
+"fixed": true
+},
+"p2": {
+"ar": "c6bd36d2d545",
+"tr": "06f2c2c101dc",
+"en": "c3134eee005b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u6",
+"at": "2026-10-11 04:07",
+"fixed": false
+}
+},
+"farraa:20-20": {
+"p1": {
+"ar": "d257dc33263f",
+"tr": "fa1493e9d588",
+"en": "7a80a45db974",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u21",
+"at": "2026-10-10 15:51",
+"fixed": false
+}
+}
+}

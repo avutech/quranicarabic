@@ -1,0 +1,178 @@
+{
+"semin-durr:4-4": {
+"p1": {
+"ar": "f933c2e53941",
+"tr": "7a1839475547",
+"en": "632716d89f7d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:39",
+"fixed": false
+}
+},
+"semin-durr:5-5": {
+"p1": {
+"ar": "1d4cb289479e",
+"tr": "10d17601f198",
+"en": "ee251d963afb",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:39",
+"fixed": false
+}
+},
+"semin-durr:6-6": {
+"p1": {
+"ar": "81d19528d02f",
+"tr": "b8ec8b72f891",
+"en": "7a59b900d840",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:39",
+"fixed": false
+}
+},
+"semin-durr:8-8": {
+"p1": {
+"ar": "d72a9af903cc",
+"tr": "6c0f4873fa8a",
+"en": "806be1305ce2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:39",
+"fixed": false
+}
+},
+"semin-durr:10-10": {
+"p1": {
+"ar": "d0a6889bf1ef",
+"tr": "bcfa8d42fe4d",
+"en": "45f74f3fd20b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:40",
+"fixed": false
+}
+},
+"semin-durr:14-14": {
+"p1": {
+"ar": "a148e56dfea6",
+"tr": "e9c1bbdda749",
+"en": "b853d37ebe39",
+"fit": "OK",
+"trv": "UNSURE",
+"env": "OK",
+"note": "Turkish verse gloss renders لِقاحاً as 'gebe kalmamış'; cannot verify that meaning of لقاحاً, English says milch-mare",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:39",
+"fixed": false
+},
+"p2": {
+"ar": "a148e56dfea6",
+"tr": "e9c1bbdda749",
+"en": "b853d37ebe39",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u20",
+"at": "2026-10-17 00:05",
+"fixed": false
+}
+},
+"semin-durr:15-15": {
+"p1": {
+"ar": "2c1c31441e07",
+"tr": "3dfd0983eb51",
+"en": "0221160f5134",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p1-u10",
+"at": "2026-10-17 00:19",
+"fixed": false
+},
+"p2": {
+"ar": "2c1c31441e07",
+"tr": "3dfd0983eb51",
+"en": "0221160f5134",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN rendered \"الأخوان\" as \"the two Kufan masters (Ḥamza and al-Kisāʾī)\" with unmarked addition; now \"the two brothers\" with marked translator note.",
+"by": "semin-durr-p2-u20",
+"at": "2026-10-17 00:05",
+"fixed": true
+}
+},
+"semin-durr:18-18": {
+"p1": {
+"ar": "11a6d10afe12",
+"tr": "17ffaed24895",
+"en": "f6d80ae068f8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:39",
+"fixed": false
+}
+},
+"semin-durr:21-21": {
+"p1": {
+"ar": "9d1088850370",
+"tr": "69aef7cca53c",
+"en": "b041a60b5f05",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:39",
+"fixed": false
+}
+},
+"semin-durr:22-22": {
+"p1": {
+"ar": "9cd6217eb7e5",
+"tr": "5f669bae2ebe",
+"en": "5e6b72fa71d8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p1-u10",
+"at": "2026-10-17 00:20",
+"fixed": false
+},
+"p2": {
+"ar": "9cd6217eb7e5",
+"tr": "5f669bae2ebe",
+"en": "5e6b72fa71d8",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN transliterated \"اللُّوح\" (with ḍamma, the point of the reading) as \"al-lawḥ\"; now kept in Arabic script.",
+"by": "semin-durr-p2-u20",
+"at": "2026-10-17 00:06",
+"fixed": true
+}
+}
+}

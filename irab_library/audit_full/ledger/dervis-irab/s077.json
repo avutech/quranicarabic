@@ -1,0 +1,56 @@
+{
+"dervis-irab:1-19": {
+"p1": {
+"ar": "bbb972aeba1c",
+"tr": "eaefb83a81b6",
+"en": "e38e455c5ea0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u94",
+"at": "2026-10-10 19:45",
+"fixed": false
+}
+},
+"dervis-irab:20-34": {
+"p1": {
+"ar": "b10dd9080f75",
+"tr": "98ee7199678a",
+"en": "3e5c37b78c3b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u4",
+"at": "2026-10-17 00:16",
+"fixed": false
+},
+"p2": {
+"ar": "b10dd9080f75",
+"tr": "98ee7199678a",
+"en": "a3d595871ba0",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR gloss of «كالقصر» («من البناء في عظمه وارتفاعه») had an unmarked addition «(kinâyedir)» (calling it a metonymy); removed.",
+"by": "dervis-irab-p2-u7",
+"at": "2026-10-17 00:02",
+"fixed": true
+}
+},
+"dervis-irab:35-50": {
+"p1": {
+"ar": "1e7855b44880",
+"tr": "e307ede003bd",
+"en": "190c3ddb84fa",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u94",
+"at": "2026-10-10 19:46",
+"fixed": false
+}
+}
+}

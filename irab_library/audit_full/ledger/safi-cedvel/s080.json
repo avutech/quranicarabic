@@ -1,0 +1,126 @@
+{
+"safi-cedvel:1-4": {
+"p1": {
+"ar": "25acd7b1e297",
+"tr": "2d93857b06a4",
+"en": "c4d896a58140",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+},
+"safi-cedvel:5-10": {
+"p1": {
+"ar": "ec57c65db92c",
+"tr": "37c299f3eacb",
+"en": "2fef4e1e279e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+},
+"safi-cedvel:11-16": {
+"p1": {
+"ar": "81bb704816c1",
+"tr": "1c4bd97738a5",
+"en": "c4692b133914",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+},
+"safi-cedvel:17-22": {
+"p1": {
+"ar": "75d050e42a3c",
+"tr": "a3bc4eec610f",
+"en": "32e22afe4930",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+},
+"safi-cedvel:23-23": {
+"p1": {
+"ar": "45c7f5d661bb",
+"tr": "e977fcb3d171",
+"en": "ce099c7bea9f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+},
+"safi-cedvel:24-32": {
+"p1": {
+"ar": "e7f486c67246",
+"tr": "7690202a8523",
+"en": "b684879b7466",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN silently corrected source typo «أردتهم»; added Translator note as in TR",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:35",
+"fixed": true
+},
+"p2": {
+"ar": "e7f486c67246",
+"tr": "7690202a8523",
+"en": "b684879b7466",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u23",
+"at": "2026-10-16 19:19",
+"fixed": false
+}
+},
+"safi-cedvel:33-37": {
+"p1": {
+"ar": "4b32321e13a4",
+"tr": "11ffd97030ec",
+"en": "d02d2f850904",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+},
+"safi-cedvel:38-42": {
+"p1": {
+"ar": "bd52e5332235",
+"tr": "abf57cf53793",
+"en": "28623d884f13",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+}
+}

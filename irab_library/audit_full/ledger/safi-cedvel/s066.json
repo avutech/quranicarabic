@@ -1,0 +1,140 @@
+{
+"safi-cedvel:1-1": {
+"p1": {
+"ar": "b551e84c1936",
+"tr": "c21697f36ef3",
+"en": "48aeb6243117",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u63",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+},
+"safi-cedvel:2-2": {
+"p1": {
+"ar": "b36480abcadb",
+"tr": "f14ed321396b",
+"en": "6811120b4dbe",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u63",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+},
+"safi-cedvel:3-3": {
+"p1": {
+"ar": "0b7798a9a69a",
+"tr": "faa9853ca0b8",
+"en": "a66c3784392c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u63",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+},
+"safi-cedvel:4-5": {
+"p1": {
+"ar": "d6abfe72f30d",
+"tr": "122de66f830d",
+"en": "559afe40b85f",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish had an unmarked addition \"(gönülce)\" in the gloss of «ملتما مع نفسيكما»; removed.",
+"by": "safi-cedvel-u63",
+"at": "2026-10-10 19:35",
+"fixed": true
+},
+"p2": {
+"ar": "d6abfe72f30d",
+"tr": "122de66f830d",
+"en": "559afe40b85f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u23",
+"at": "2026-10-16 19:21",
+"fixed": false
+}
+},
+"safi-cedvel:6-6": {
+"p1": {
+"ar": "02a21c577c59",
+"tr": "983f76853160",
+"en": "c1be0037a709",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u63",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+},
+"safi-cedvel:7-7": {
+"p1": {
+"ar": "4e2c82ec21ec",
+"tr": "b3d3b0c4f153",
+"en": "94b7e0c18951",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u63",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+},
+"safi-cedvel:8-8": {
+"p1": {
+"ar": "ab620994f26d",
+"tr": "5a49ec39921c",
+"en": "9029ede86b6e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u63",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+},
+"safi-cedvel:9-9": {
+"p1": {
+"ar": "385e940f55ee",
+"tr": "f6ce808aac4b",
+"en": "346273a449f5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u63",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+},
+"safi-cedvel:10-12": {
+"p1": {
+"ar": "f4d6c5e40fa9",
+"tr": "114349caaed5",
+"en": "a64feb347d97",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u63",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+}
+}

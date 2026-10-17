@@ -1,0 +1,242 @@
+{
+"nahhas-irab:18-18": {
+"hs": [
+"ebadd89244f1",
+"8610ebd9acd0",
+"8e4af73764e2"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic «بسنة واحدة» , «وإنما قيل: شرط» , «وبالصفة على قول الكوفيين» carry no glosses; TR adds unmarked '(ي'siz yazımla)', '(polis/muhafızlar)' and '(zarf/câr-mecrûr, yani «لهم»)'; these interpretive additions must be in Mütercim notu.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source: «إن تأتهم» بسنة واحدة ; شرط لأن لهم علامات ; وبالصفة على قول الكوفيين. TR adds unmarked glosses '(ي'siz yazımla)', '(polis/muhafızlar)' and '(zarf/câr-mecrûr, yani «لهم»)', none present in the Arabic and none inside a Mütercim notu. Fix: move them into a Mütercim notu.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked '(karşı)' from 'onlara okumuştu' (لأنه عليهم قرأ) and added Mütercim notu that he learned the reading under them; moved unmarked '(ne fayda)' gloss for فأنّى لهم into the existing Mütercim notu.",
+"verify_note": "Sentence-by-sentence check: complete and faithful; earlier unmarked glosses (ي'siz yazımla, polis/muhafızlar, zarf/câr-mecrûr, ne fayda) now inside Mütercim notu; '(karşı)' removed, 'onlara okumuştu' with note; «أن تأتيهم» kept as printed with note; remaining parentheses only supply implied subjects (kıyametin, kıraat, Hz. Peygamber). No new problems.",
+"fix_failed": 1,
+"verified": "PASS"
+},
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic «بسنة واحدة» and «وبالصفة على قول الكوفيين» only; EN adds unmarked '[i.e. with one letter-stroke for the yāʾ]' and '[i.e. the preposition phrase]' (plus '[the Qur'an]'); must be Translator's notes.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source: بسنة واحدة ; وبالصفة على قول الكوفيين ; أنّ في بعض مصاحف الكوفيين أن تأتيهم. EN adds unmarked '[i.e. with one letter-stroke for the yāʾ]' and '[i.e. the preposition phrase]', and in the running text replaces the source's «أن تأتيهم» with «إن تأتهم» (silent correction of the main text, only justified in a note after the fact). Fix: translate as written, put supplements in Translator's notes.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Translated codex form as written (أن تأتيهم) with note; moved unmarked glosses into Translator's notes",
+"verified": "PASS",
+"verify_note": "Glosses for بسنة واحدة, الصفة and عليهم قرأ now in Translator's notes; أن تأتيهم kept as printed with note; faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"ebadd89244f1",
+"8b2ae438db23",
+"0ce51cc97311"
+],
+"dim": "tr",
+"what": "Moved unmarked glosses (ي'siz yazımla, polis/muhafızlar, zarf/câr-mecrûr لهم) into Mütercim notları",
+"at": "2026-10-17 00:44"
+},
+{
+"old_hs": [
+"ebadd89244f1",
+"0fe70dbb3595",
+"0ce51cc97311"
+],
+"dim": "en",
+"what": "Translated codex form as written (أن تأتيهم) with note; moved unmarked glosses into Translator's notes",
+"at": "2026-10-17 00:44"
+},
+{
+"old_hs": [
+"ebadd89244f1",
+"0fe70dbb3595",
+"8e4af73764e2"
+],
+"dim": "tr",
+"what": "Removed unmarked '(karşı)' from 'onlara okumuştu' (لأنه عليهم قرأ) and added Mütercim notu that he learned the reading under them; moved unmarked '(ne fayda)' gloss for فأنّى لهم into the existing Mütercim notu.",
+"at": "2026-10-17 00:47"
+}
+]
+},
+"nahhas-irab:21-21": {
+"hs": [
+"e45b9bcc4859",
+"4f5290cc887c",
+"14b0bf648afd"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic «نعتا لسورة بمعنى ذات طاعة» = 'possessing obedience'; EN 'possessing [a command of] obedience' inserts unmarked words not in the source; must be a Translator's note.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source: أن يكون «طاعة» نعتا لسورة بمعنى ذات طاعة. EN 'possessing [a command of] obedience' inserts '[a command of]', not in the Arabic (ذات طاعة = possessing obedience) and not a Translator's note. Rest faithful. Fix: Translator's note or drop.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked '[a command of]'",
+"verified": "PASS",
+"verify_note": "'[a command of]' removed; 'possessing obedience' = ذات طاعة; rest faithful and complete."
+}
+},
+"history": [
+{
+"old_hs": [
+"e45b9bcc4859",
+"4f5290cc887c",
+"bdc09fa591d2"
+],
+"dim": "en",
+"what": "Removed unmarked '[a command of]'",
+"at": "2026-10-17 00:44"
+}
+]
+},
+"nahhas-irab:23-24": {
+"hs": [
+"e435c1865f26",
+"4755d9827c0c",
+"231aec18713e"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic «يخبرون بتأدية الأعمال إلى الموتى» = deeds are conveyed to the dead; EN 'report that [the reward of] deeds reaches the dead' adds an unmarked interpretive element (also unmarked '[likewise]'); must be a Translator's note.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source: يخبرون بتأدية الأعمال إلى الموتى ('the conveying of deeds to the dead'). EN 'report that [the reward of] deeds reaches the dead' inserts '[the reward of]', an interpretive addition not in the Arabic and unmarked (also unmarked '[likewise]'). Fix: Translator's note.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked '[likewise]' and '[the reward of]'; rendered تأدية الأعمال literally",
+"verified": "PASS",
+"verify_note": "'[the reward of]' and '[likewise]' removed; 'conveying of deeds to the dead' matches; complete."
+}
+},
+"history": [
+{
+"old_hs": [
+"e435c1865f26",
+"4755d9827c0c",
+"45ee8452a167"
+],
+"dim": "en",
+"what": "Removed unmarked '[likewise]' and '[the reward of]'; rendered تأدية الأعمال literally",
+"at": "2026-10-17 00:44"
+}
+]
+},
+"nahhas-irab:35-35": {
+"hs": [
+"930b44de4184",
+"d781e5d9cf0d",
+"31435c7e6c43"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic «حذفت الواو تباعا» , «ويجوز أن يكون جوابا» , «حذفت إلى مفعولين» are bare; EN adds unmarked '[the pattern of the imperfect, as in yaʿidu]', '[i.e. accusative after the wāw of accompaniment]', and '[The preposition] was dropped [so that it took]' silently repairing the defective «حذفت إلى مفعولين» (TR flags it in a Mütercim notu); all need Translator's notes.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source: حذفت الواو تباعا ; ويجوز أن يكون جوابا ; حذفت إلى مفعولين. EN adds unmarked '[the pattern of the imperfect, as in yaʿidu]', '[i.e. accusative after the wāw of accompaniment]' (the Arabic only says جوابا) and reconstructs the defective حذفت إلى مفعولين as '[The preposition] was dropped [so that it took] two objects' without a Translator's note (TR flags the defect in a Mütercim notu). Fix: Translator's notes.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved unmarked glosses and silent reconstruction of defective حذفت إلى مفعولين into Translator's notes",
+"verified": "PASS",
+"verify_note": "تباعا, جوابا glosses and defective حذفت إلى مفعولين now in Translator's notes, defect translated as written; faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"930b44de4184",
+"d781e5d9cf0d",
+"1a515185a756"
+],
+"dim": "en",
+"what": "Moved unmarked glosses and silent reconstruction of defective حذفت إلى مفعولين into Translator's notes",
+"at": "2026-10-17 00:44"
+}
+]
+},
+"nahhas-irab:36-36": {
+"hs": [
+"24dac751fd7d",
+"40bb9bfe7f59",
+"2b7adf6b6149"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic «ويجوز وَلا يَسْئَلْكُمْ أَمْوالَكُمْ يريد على أن يجعله خبرا» does not state 'nominative'; EN inserts unmarked '[with the nominative]'; it is a correct inference but must be a Translator's note (as TR does).",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source: قال: ويجوز وَلا يَسْئَلْكُمْ أَمْوالَكُمْ يريد على أن يجعله خبرا والجزم على العطف — the nominative form is not written. EN inserts '[with the nominative]' unmarked; TR correctly handles the same gap in a Mütercim notu. Fix: Translator's note.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved unmarked '[with the nominative]' into a Translator's note",
+"verified": "PASS",
+"verify_note": "Nominative form now in Translator's note; rest faithful and complete."
+}
+},
+"history": [
+{
+"old_hs": [
+"24dac751fd7d",
+"40bb9bfe7f59",
+"087abc6b9d22"
+],
+"dim": "en",
+"what": "Moved unmarked '[with the nominative]' into a Translator's note",
+"at": "2026-10-17 00:44"
+}
+]
+}
+}

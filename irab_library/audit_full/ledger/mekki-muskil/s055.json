@@ -1,0 +1,192 @@
+{
+"mekki-muskil:5-5": {
+"p1": {
+"ar": "aed4c4eacb43",
+"tr": "8976b30474d9",
+"en": "4f5e361d8f1a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:44",
+"fixed": false
+}
+},
+"mekki-muskil:8-8": {
+"p1": {
+"ar": "56ef47310831",
+"tr": "25ad43291f56",
+"en": "d92c47a37195",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:44",
+"fixed": false
+}
+},
+"mekki-muskil:12-12": {
+"p1": {
+"ar": "68e649eb8f55",
+"tr": "17e2ef76c2cb",
+"en": "9062819740e9",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "Removed unmarked \"ordinary\" for فِي الْكَلَام.",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:44",
+"fixed": true
+},
+"p2": {
+"ar": "68e649eb8f55",
+"tr": "17e2ef76c2cb",
+"en": "9062819740e9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u2",
+"at": "2026-10-11 04:09",
+"fixed": false
+}
+},
+"mekki-muskil:22-22": {
+"p1": {
+"ar": "12eef7d77b18",
+"tr": "86bad8df4ef4",
+"en": "a96375b16d96",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:44",
+"fixed": false
+}
+},
+"mekki-muskil:35-35": {
+"p1": {
+"ar": "9f428425ac33",
+"tr": "4db1f6fee5b3",
+"en": "0832c1e8c411",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:44",
+"fixed": false
+},
+"p2": {
+"ar": "9f428425ac33",
+"tr": "4db1f6fee5b3",
+"en": "0832c1e8c411",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u2",
+"at": "2026-10-11 04:09",
+"fixed": false
+}
+},
+"mekki-muskil:41-41": {
+"p1": {
+"ar": "04aa6bed5ada",
+"tr": "37b96f6170b8",
+"en": "0905e2e80efb",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:44",
+"fixed": false
+}
+},
+"mekki-muskil:48-48": {
+"p1": {
+"ar": "ff5d9b05365d",
+"tr": "5c447b3b1155",
+"en": "4c642214c5ee",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:44",
+"fixed": false
+}
+},
+"mekki-muskil:54-54": {
+"p1": {
+"ar": "725d0455ac05",
+"tr": "7de00b1a5896",
+"en": "c82baaf81eb7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:44",
+"fixed": false
+}
+},
+"mekki-muskil:58-58": {
+"p1": {
+"ar": "a7ca72b870c4",
+"tr": "ebf25a4dbb73",
+"en": "c5ac85492970",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:44",
+"fixed": false
+}
+},
+"mekki-muskil:70-70": {
+"p1": {
+"ar": "9338dc601413",
+"tr": "20c4d6b78296",
+"en": "61a4e7207a84",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English silently altered source «هن» to هيْن; now as written with note.",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:44",
+"fixed": true
+},
+"p2": {
+"ar": "9338dc601413",
+"tr": "20c4d6b78296",
+"en": "61a4e7207a84",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u2",
+"at": "2026-10-11 04:09",
+"fixed": false
+}
+},
+"mekki-muskil:76-76": {
+"p1": {
+"ar": "ca4a8cdcee2e",
+"tr": "902d32a5c884",
+"en": "0fd04dfb1a7e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:44",
+"fixed": false
+}
+}
+}

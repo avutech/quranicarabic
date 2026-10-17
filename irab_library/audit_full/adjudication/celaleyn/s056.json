@@ -1,0 +1,42 @@
+{
+"celaleyn:61-61": {
+"hs": [
+"2b7e23b08a49",
+"4cc151300f07",
+"6064dffeeee5"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic ﴿عَلَى﴾ عَنْ glosses عَلَى as meaning عَنْ ('from/about'); English '(meaning: to)' gives a wrong sense and hides the gloss; should say it means «عَنْ» (from), as Turkish '«عَنْ» mânâsında'.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic ﴿عَلَى﴾ عَنْ glosses على as عَنْ ('from/away from': not incapable of / not outrun from replacing you). English '(meaning: to)' gives a different preposition and loses the gloss word; the Turkish correctly has «عَنْ» mânâsında and 'kılmaktan ... yaratmaktan'. Fix: '(in the sense of «عَنْ», from)' with the following verbs rendered accordingly.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Gloss of عَلَى corrected from '(meaning: to)' to 'in the sense of «عَنْ» (from)' as in the Arabic",
+"verified": "PASS",
+"verify_note": "على now glossed as «عَنْ» (from) per source; نجعل, مكانكم, نخلقكم, من الصور كالقردة والخنازير all rendered."
+}
+},
+"history": [
+{
+"old_hs": [
+"2b7e23b08a49",
+"4cc151300f07",
+"f3151edd99cd"
+],
+"dim": "en",
+"what": "Gloss of عَلَى corrected from '(meaning: to)' to 'in the sense of «عَنْ» (from)' as in the Arabic",
+"at": "2026-10-17 00:45"
+}
+]
+}
+}

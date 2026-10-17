@@ -1,0 +1,42 @@
+{
+"nahhas-irab:162-162": {
+"hs": [
+"0c4dd9e38e0b",
+"5c765b1d2566",
+"e67e2e147373"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Verse «الظّاعنين ولمّا يظعنوا أحدا»: ظعن is intransitive ('to depart'), so الظاعنين = 'those who move off/depart (before having made anyone depart)'. TR 'göç ettirenler' (those who cause to depart) gives the wrong meaning, and adds unmarked '[olarak]'. EN 'those who move off' is correct.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "«الظّاعنين» is the participle of intransitive ظَعَنَ = 'those who depart/move off'; «ولمّا يظعنوا أحدا» = 'though they have not yet made anyone depart'. TR 'Henüz kimseyi göç ettirmemişken göç ettirenler' renders الظاعنين as causative ('those who make others depart'), a wrong meaning; it should be 'göç edenler'. In addition the TR carries several unmarked bracket insertions that resolve the text on the translator's authority: '«[الراسخون] zamir ile merfûdur»' for the ambiguous «رفع بالضمير» (the Kufan claim may concern يؤمنون/the subject), '[المقيمين] medih üzere nasb edilemez', '[helâk olmasın]', '[iffetliler]'; these belong in a [Mütercim notu: …].",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "الظاعنين now 'göç edenler' (not causative), unmarked [olarak] removed; [الراسخون], [المقيمين], [helâk olmasın], [iffetliler], [Taberî], [منهم] moved into Mütercim notları",
+"verified": "PASS",
+"verify_note": "الظاعنين now 'göç edenler' (correct, intransitive); former unmarked brackets ([الراسخون], [المقيمين], helâk olmasın, iffetliler, Taberî, منهم) are all inside Mütercim notu; rest complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"0c4dd9e38e0b",
+"e9e3d1286bd6",
+"e67e2e147373"
+],
+"dim": "tr",
+"what": "الظاعنين now 'göç edenler' (not causative), unmarked [olarak] removed; [الراسخون], [المقيمين], [helâk olmasın], [iffetliler], [Taberî], [منهم] moved into Mütercim notları",
+"at": "2026-10-17 00:44"
+}
+]
+}
+}

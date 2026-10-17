@@ -1,0 +1,27 @@
+{
+"daas-irab:86-87": {
+"hs": [
+"c851e3996777",
+"6489cefcbd6d",
+"315367afa815"
+],
+"dims": {
+"fit": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Entry parses 12:86 (garbled «الَ» = قال, «ِنَّما», «َشْكُوا», «َثِّي», «حُزْنِي», «أَعْلَمُ», «تَعْلَمُونَ») and 12:87 (﴿يا﴾ ﴿بَنِيَّ﴾ ﴿اذْهَبُوا﴾ ﴿فَتَحَسَّسُوا﴾ ... ﴿الْكافِرُونَ﴾) - exactly the range 86-87 it is filed under. The damage is only lost brackets/first letters; the analysis is fully legible, and both readings flag the restoration in marked notes, so placement is right.",
+"at": "2026-10-17 00:40"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Entry parses 12:86 (الَ = قال, ِنَّما, َشْكُوا, َثِّي, حُزْنِي, لَى اللَّهِ, أَعْلَمُ, ِنَ اللَّهِ, تَعْلَمُونَ) and 12:87 (﴿يا﴾ ﴿بَنِيَّ﴾ ﴿اذْهَبُوا﴾ ﴿فَتَحَسَّسُوا﴾ ... ﴿الْقَوْمُ﴾ ﴿الْكافِرُونَ﴾), exactly the range 86-87 it is filed under. The opening of the source is garbled (lost first letters and brackets), but the content is fully identifiable and translatable, so it is not a SOURCE_DEFECT in the sense of nothing to place; placement is correct.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

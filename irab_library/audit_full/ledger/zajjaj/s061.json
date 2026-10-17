@@ -1,0 +1,124 @@
+{
+"zajjaj:1-1": {
+"p1": {
+"ar": "2e9766892a95",
+"tr": "2aa5b6d7ad87",
+"en": "e6c09f3e3079",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u9",
+"at": "2026-10-10 19:14",
+"fixed": false
+}
+},
+"zajjaj:2-2": {
+"p1": {
+"ar": "f203ab166305",
+"tr": "466a4bcdc5fa",
+"en": "452863acca85",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u9",
+"at": "2026-10-10 19:14",
+"fixed": false
+},
+"p2": {
+"ar": "f203ab166305",
+"tr": "466a4bcdc5fa",
+"en": "452863acca85",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-p2-u12",
+"at": "2026-10-16 18:52",
+"fixed": false
+}
+},
+"zajjaj:5-5": {
+"p1": {
+"ar": "d29660272fbc",
+"tr": "6ff0a4fab863",
+"en": "fa5634fb1534",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u9",
+"at": "2026-10-10 19:14",
+"fixed": false
+}
+},
+"zajjaj:6-6": {
+"p1": {
+"ar": "fb657286e361",
+"tr": "8df306da1aab",
+"en": "df8220c45f8d",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "\"إلى نَصْرِ اللَّهِ\" (to/towards the help of Allah) was rendered in Turkish as \"Allah'a yardım etmek için\" (to help Allah), reversing who helps whom; corrected",
+"by": "zajjaj-p1-u4",
+"at": "2026-10-17 00:05",
+"fixed": true
+},
+"p2": {
+"ar": "fb657286e361",
+"tr": "8df306da1aab",
+"en": "df8220c45f8d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-p2-u8",
+"at": "2026-10-17 00:16",
+"fixed": false
+}
+},
+"zajjaj:12-12": {
+"p1": {
+"ar": "9d0939c3a007",
+"tr": "0aad5935e36a",
+"en": "e5fdcdaa5f6d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u9",
+"at": "2026-10-10 19:14",
+"fixed": false
+}
+},
+"zajjaj:13-13": {
+"p1": {
+"ar": "41e9e61bb720",
+"tr": "ed505700c36b",
+"en": "bc8526a3d3fd",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u9",
+"at": "2026-10-10 19:14",
+"fixed": false
+}
+},
+"zajjaj:14-14": {
+"p1": {
+"ar": "e16ec12b8d9b",
+"tr": "e18bb7414227",
+"en": "b35690bb992b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u9",
+"at": "2026-10-10 19:14",
+"fixed": false
+}
+}
+}

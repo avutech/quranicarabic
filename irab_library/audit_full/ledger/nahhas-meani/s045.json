@@ -1,0 +1,300 @@
+{
+"nahhas-meani:3-3": {
+"p1": {
+"ar": "39ccfe0a4e78",
+"tr": "f9e17d60231a",
+"en": "164e74e1dbaa",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR added unmarked \"(bu sûrede ele alınanlardan)\" to \"من ذلك\"; removed.",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:56",
+"fixed": true
+},
+"p2": {
+"ar": "39ccfe0a4e78",
+"tr": "f9e17d60231a",
+"en": "164e74e1dbaa",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-p2-u5",
+"at": "2026-10-16 17:09",
+"fixed": false
+}
+},
+"nahhas-meani:4-4": {
+"p1": {
+"ar": "365d75266f5b",
+"tr": "7af8a3ae3858",
+"en": "881d62028549",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:56",
+"fixed": false
+}
+},
+"nahhas-meani:5-5": {
+"p1": {
+"ar": "ed1ec30b14e1",
+"tr": "c179aacd6bc7",
+"en": "3eaaacb521d2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:56",
+"fixed": false
+}
+},
+"nahhas-meani:6-6": {
+"p1": {
+"ar": "a22d2a69a17c",
+"tr": "226f4ef0f75b",
+"en": "26c6948c2f01",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR unmarked parenthetical \"(muzâf hazfedilmiştir)\" made a Mütercim notu.",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:56",
+"fixed": true
+},
+"p2": {
+"ar": "a22d2a69a17c",
+"tr": "226f4ef0f75b",
+"en": "26c6948c2f01",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-p2-u5",
+"at": "2026-10-16 17:09",
+"fixed": false
+}
+},
+"nahhas-meani:7-7": {
+"p1": {
+"ar": "8f172f5a0f70",
+"tr": "1d6f83f7dd1d",
+"en": "3339a6a09c0d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:56",
+"fixed": false
+}
+},
+"nahhas-meani:13-13": {
+"p1": {
+"ar": "f88574a96f18",
+"tr": "6bed6576e5cf",
+"en": "19ed19b0ace5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:56",
+"fixed": false
+}
+},
+"nahhas-meani:14-14": {
+"p1": {
+"ar": "eda1a0ade3c5",
+"tr": "021ef08a6526",
+"en": "305c519ce850",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:56",
+"fixed": false
+}
+},
+"nahhas-meani:18-18": {
+"p1": {
+"ar": "018a63d9e26b",
+"tr": "3180031bdec5",
+"en": "ae425f50246c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:56",
+"fixed": false
+}
+},
+"nahhas-meani:20-20": {
+"p1": {
+"ar": "cbde51f3549f",
+"tr": "7e3c137ed6df",
+"en": "cad775d51003",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:56",
+"fixed": false
+}
+},
+"nahhas-meani:21-21": {
+"p1": {
+"ar": "83e1040cf40e",
+"tr": "3fc3cfe34f9b",
+"en": "81c48306127c",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR and EN added unmarked \"hunting animals/limbs\" glosses to \"الكواسب\"; removed.",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:56",
+"fixed": true
+},
+"p2": {
+"ar": "83e1040cf40e",
+"tr": "3fc3cfe34f9b",
+"en": "81c48306127c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-p2-u5",
+"at": "2026-10-16 17:09",
+"fixed": false
+}
+},
+"nahhas-meani:23-23": {
+"p1": {
+"ar": "10077954b9d4",
+"tr": "86a5162320c0",
+"en": "bb329c4dd81a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:56",
+"fixed": false
+}
+},
+"nahhas-meani:24-24": {
+"p1": {
+"ar": "aa62433073b8",
+"tr": "417d8a9316f1",
+"en": "028ac62d4fa6",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR unmarked \"(muzâf hazfedilmiştir)\" made a note. EN \"Allah did [such] by time\" misrenders the imprecation \"فعل اللهُ بالزمان\" as past tense; now \"May Allah do [such] to time\".",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:56",
+"fixed": true
+},
+"p2": {
+"ar": "aa62433073b8",
+"tr": "417d8a9316f1",
+"en": "028ac62d4fa6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-p2-u5",
+"at": "2026-10-16 17:09",
+"fixed": false
+}
+},
+"nahhas-meani:28-28": {
+"p1": {
+"ar": "477a85aaaec4",
+"tr": "a0b3cae2fa5e",
+"en": "a84b77da20f9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:56",
+"fixed": false
+},
+"p2": {
+"ar": "477a85aaaec4",
+"tr": "a0b3cae2fa5e",
+"en": "a84b77da20f9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-p2-u5",
+"at": "2026-10-16 17:09",
+"fixed": false
+}
+},
+"nahhas-meani:29-29": {
+"p1": {
+"ar": "b8caadf03266",
+"tr": "3fbb4cd877f0",
+"en": "edda17d0787b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:56",
+"fixed": false
+}
+},
+"nahhas-meani:31-31": {
+"p1": {
+"ar": "36a37f733765",
+"tr": "e9f98aa897be",
+"en": "8619516076ee",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:56",
+"fixed": false
+}
+},
+"nahhas-meani:34-34": {
+"p1": {
+"ar": "718391208e62",
+"tr": "9f45d28646d8",
+"en": "5c0ada77be83",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:56",
+"fixed": false
+}
+},
+"nahhas-meani:37-37": {
+"p1": {
+"ar": "9d803db50655",
+"tr": "0de19660b562",
+"en": "c3a6bc69ccfb",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:56",
+"fixed": false
+}
+}
+}

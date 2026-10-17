@@ -1,0 +1,192 @@
+{
+"nahhas-irab:1-1": {
+"p1": {
+"ar": "2a2a2f521736",
+"tr": "f9d49b8ece50",
+"en": "16c518010dc3",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN rendered Aisha's وعاتب في الإيلاء as \"given expiation\" with an invented expected wording وكفّر; corrected to reproached with a note",
+"by": "nahhas-irab-u44",
+"at": "2026-10-10 16:01",
+"fixed": true
+},
+"p2": {
+"ar": "2a2a2f521736",
+"tr": "f9d49b8ece50",
+"en": "16c518010dc3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 18:25",
+"fixed": false
+}
+},
+"nahhas-irab:2-2": {
+"p1": {
+"ar": "7894cd212d7c",
+"tr": "9b3c1a5808d9",
+"en": "2bfe9d8aaa14",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u44",
+"at": "2026-10-10 16:01",
+"fixed": false
+}
+},
+"nahhas-irab:3-3": {
+"p1": {
+"ar": "4619f225c85b",
+"tr": "728c98c68796",
+"en": "12b05ea8839a",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "Entry also contains commentary on 66:4 (إِنْ تَتُوبا ... ) embedded after the 66:3 block in the source; readings complete",
+"by": "nahhas-irab-u44",
+"at": "2026-10-10 16:02",
+"fixed": false
+},
+"p2": {
+"ar": "4619f225c85b",
+"tr": "728c98c68796",
+"en": "12b05ea8839a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 18:25",
+"fixed": false
+}
+},
+"nahhas-irab:5-5": {
+"p1": {
+"ar": "e0f5f8e709c5",
+"tr": "d67460450401",
+"en": "05e43d095a34",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u44",
+"at": "2026-10-10 16:01",
+"fixed": false
+}
+},
+"nahhas-irab:6-6": {
+"p1": {
+"ar": "c6a8687a715e",
+"tr": "d5379e6850ee",
+"en": "c3fe62db4559",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u44",
+"at": "2026-10-10 16:02",
+"fixed": false
+}
+},
+"nahhas-irab:7-7": {
+"p1": {
+"ar": "02bc0bb6966f",
+"tr": "be4eb51548ed",
+"en": "463b7d951d7a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u44",
+"at": "2026-10-10 16:02",
+"fixed": false
+}
+},
+"nahhas-irab:8-8": {
+"p1": {
+"ar": "4d00eb4dfe5d",
+"tr": "02c1cb7c91ac",
+"en": "5b79e820a6e5",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN vowelled the jussive as «ويدخلَكم» (fatha) though the Arabic says jussive; corrected to «ويدخلْكم»",
+"by": "nahhas-irab-u44",
+"at": "2026-10-10 16:01",
+"fixed": true
+},
+"p2": {
+"ar": "4d00eb4dfe5d",
+"tr": "02c1cb7c91ac",
+"en": "5b79e820a6e5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 18:25",
+"fixed": false
+}
+},
+"nahhas-irab:9-9": {
+"p1": {
+"ar": "1365060479e7",
+"tr": "9ec9c4097296",
+"en": "632cd05bf7a6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u44",
+"at": "2026-10-10 16:01",
+"fixed": false
+}
+},
+"nahhas-irab:10-10": {
+"p1": {
+"ar": "1eb81e9ea910",
+"tr": "da44502a2bd2",
+"en": "3847c066c551",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u44",
+"at": "2026-10-10 16:01",
+"fixed": false
+}
+},
+"nahhas-irab:11-11": {
+"p1": {
+"ar": "9610219ab09e",
+"tr": "95f84e37a97b",
+"en": "436ac32f36f2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u44",
+"at": "2026-10-10 16:01",
+"fixed": false
+}
+},
+"nahhas-irab:12-12": {
+"p1": {
+"ar": "f05c2a7265b7",
+"tr": "6b7d2526d081",
+"en": "ee594e46f43f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u44",
+"at": "2026-10-10 16:01",
+"fixed": false
+}
+}
+}

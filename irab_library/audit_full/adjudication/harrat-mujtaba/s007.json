@@ -1,0 +1,177 @@
+{
+"harrat-mujtaba:6-6": {
+"hs": [
+"66be536ed439",
+"7dccc6513681",
+"d9235b900c9f"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "The leading (فلنسألن الذين أرسل إليهم) is an accurate quotation of the ayah words the entry discusses and it is immediately labelled by the adjacent translator's note ('phrase discussed'), so the reader can tell it is the translator's addition, not source text; the rest of the reading matches the Arabic sentence by sentence. (e.g. «والنون للتوكيد» = 'the nūn is for emphasis', «معطوفة على جواب القسم» = 'conjoined to the answer to the oath').",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic source begins «الفاء مستأنفة...» with no quoted heading; EN prefixes '(فلنسألن الذين أرسل إليهم)' — the bracket only says 'phrase discussed' while the quoted ayah words themselves stand outside the note; per the standard the addition must be inside the note (fix: move the phrase into the note).",
+"at": "2026-10-17 00:41"
+},
+"J3": {
+"class": "CONFIRMED",
+"evidence": "Arabic source has no lemma/heading phrase; it begins directly with «الفاء مستأنفة، واللام واقعة في جواب القسم». EN adds «(فلنسألن الذين أرسل إليهم)». The reading prefixes the quoted ayah phrase in parentheses OUTSIDE the note brackets; only the label \"phrase discussed\" is inside the note, so the quoted words themselves are an addition not enclosed in a note. Rest of the translation matches the Arabic. Fix: move the phrase inside the note, e.g. [note: phrase discussed: (...)].",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "moved the quoted ayah phrase inside the translator's note (it was an unmarked addition outside the note)",
+"verified": "PASS",
+"verify_note": "Quoted ayah phrase inside Translator's note; fāʾ, lām of oath answer, mabnī on fatḥa, nūn of emphasis, fāʿil نحن, both clauses faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"66be536ed439",
+"7dccc6513681",
+"799b2fda67c4"
+],
+"dim": "en",
+"what": "moved the quoted ayah phrase inside the translator's note (it was an unmarked addition outside the note)",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"harrat-mujtaba:34-34": {
+"hs": [
+"1112ca660f1c",
+"3f2fed966964",
+"c3eea372f614"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "The leading (فإذا جاء أجلهم لا يستأخرون ساعة ولا يستقدمون) is an accurate quotation of the ayah words the entry discusses and it is immediately labelled by the adjacent translator's note ('phrase discussed'), so the reader can tell it is the translator's addition, not source text; the rest of the reading matches the Arabic sentence by sentence. («وجزاء الشرط مجموع الجملتين، لا كل واحدة على حِدة» = 'Şartın cezâsı iki cümlenin toplamıdır; her biri ayrı ayrı değil').",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic source begins «جملة الشرط معطوفة على المستأنفة» with no quoted heading; TR prefixes '(فإذا جاء أجلهم لا يستأخرون ساعة ولا يستقدمون)' — the bracket only says 'phrase discussed' while the quoted ayah words themselves stand outside the note; per the standard the addition must be inside the note (fix: move the phrase into the note).",
+"at": "2026-10-17 00:41"
+},
+"J3": {
+"class": "CONFIRMED",
+"evidence": "Arabic source has no lemma/heading phrase; it begins directly with «جملة الشرط معطوفة على المستأنفة». TR adds «(فإذا جاء أجلهم لا يستأخرون ساعة ولا يستقدمون)». The reading prefixes the quoted ayah phrase in parentheses OUTSIDE the note brackets; only the label \"phrase discussed\" is inside the note, so the quoted words themselves are an addition not enclosed in a note. Rest of the translation matches the Arabic. Fix: move the phrase inside the note, e.g. [note: phrase discussed: (...)].",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "moved the quoted ayah phrase inside the translator's note (it was an unmarked addition outside the note)",
+"verified": "PASS",
+"verify_note": "Quoted phrase inside Mütercim notu; translation complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"1112ca660f1c",
+"f08a9321f8cd",
+"c3eea372f614"
+],
+"dim": "tr",
+"what": "moved the quoted ayah phrase inside the translator's note (it was an unmarked addition outside the note)",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"harrat-mujtaba:50-50": {
+"hs": [
+"1dfbb6c3ef8c",
+"be09326c0150",
+"aa712415735e"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "The leading (أن أفيضوا علينا من الماء) is an accurate quotation of the ayah words the entry discusses and it is immediately labelled by the adjacent translator's note ('phrase discussed'), so the reader can tell it is the translator's addition, not source text; the rest of the reading matches the Arabic sentence by sentence. («أن» تفسيرية / «أفيضوا» مفسرة فسَّرت المناداة / «قالوا» مستأنفة all rendered correctly).",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic source is only «أن تفسيرية. وجملة أفيضوا مفسرة...»; EN prefixes '(أن أفيضوا علينا من الماء)' — the bracket only says 'phrase discussed' while the quoted ayah words themselves stand outside the note; per the standard the addition must be inside the note (fix: move the phrase into the note).",
+"at": "2026-10-17 00:41"
+},
+"J3": {
+"class": "CONFIRMED",
+"evidence": "Arabic source has no lemma/heading phrase; it begins directly with ««أن» تفسيرية». EN adds «(أن أفيضوا علينا من الماء)». The reading prefixes the quoted ayah phrase in parentheses OUTSIDE the note brackets; only the label \"phrase discussed\" is inside the note, so the quoted words themselves are an addition not enclosed in a note. Rest of the translation matches the Arabic. Fix: move the phrase inside the note, e.g. [note: phrase discussed: (...)].",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "moved the quoted ayah phrase inside the translator's note (it was an unmarked addition outside the note)",
+"verified": "PASS",
+"verify_note": "Quoted phrase now inside Translator's note; three sentences rendered faithfully."
+}
+},
+"history": [
+{
+"old_hs": [
+"1dfbb6c3ef8c",
+"be09326c0150",
+"bbf2b180c779"
+],
+"dim": "en",
+"what": "moved the quoted ayah phrase inside the translator's note (it was an unmarked addition outside the note)",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"harrat-mujtaba:64-64": {
+"hs": [
+"e4bb54ef2f66",
+"1fc4447fcd04",
+"efc26a3fa8f6"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic «عمين» نعت خبر كان is an iḍāfa: 'a naʿt of the khabar of kāna' (عمين describes قوما, the khabar of كانوا), which is grammatically correct. EN renders it 'a naʿt [Translator's note: so in the source; presumably meant: khabar] — the khabar of kāna', which wrongly treats عمين as the khabar itself and adds a note claiming the source erred. Correct: «عمين» is a naʿt (adjective) of the khabar of kāna (as the TR 'kâne'nin haberinin sıfatı' has it).",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic «عمين نعت خبر كان» is an iḍāfa: عمين is the naʿt of the khabar of kāna (قوما), which is grammatically correct. EN renders 'a naʿt [Translator's note: so in the source; presumably meant: khabar] — the khabar of kāna', wrongly claiming a source error and making عمين itself the khabar; should be 'a naʿt of the khabar of kāna' (as TR has).",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "translated «عمين نعت خبر كان» as written: 'a naʿt of the khabar of kāna'; removed the wrong 'so in the source; presumably meant: khabar' note",
+"verified": "PASS",
+"verify_note": "عمين now correctly 'a naʿt of the khabar of kāna'; erroneous source-error note removed; rest faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"e4bb54ef2f66",
+"1fc4447fcd04",
+"fe0262b3e89b"
+],
+"dim": "en",
+"what": "translated «عمين نعت خبر كان» as written: 'a naʿt of the khabar of kāna'; removed the wrong 'so in the source; presumably meant: khabar' note",
+"at": "2026-10-17 00:45"
+}
+]
+}
+}

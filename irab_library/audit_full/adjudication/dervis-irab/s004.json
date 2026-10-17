@@ -1,0 +1,27 @@
+{
+"dervis-irab:172-173": {
+"hs": [
+"714928b93317",
+"b8b5df7a7b2b",
+"4f307ffc012f"
+],
+"dims": {
+"fit": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Entry parses «لَنْ يَسْتَنْكِفَ الْمَسِيحُ أَنْ يَكُونَ عَبْداً لِلَّهِ», «وَلَا الْمَلائِكَةُ الْمُقَرَّبُونَ», «فَسَيَحْشُرُهُمْ إِلَيْهِ جَمِيعاً» (4:172) and «فَأَمَّا الَّذِينَ آمَنُوا ... فَيُوَفِّيهِمْ أُجُورَهُمْ», «وَلا يَجِدُونَ لَهُمْ مِنْ دُونِ اللَّهِ وَلِيًّا وَلا نَصِيراً» (4:173): exactly the filed range. The lost first letters of headings («َسْتَنْكِفَ)», «َنْ يَسْتَنْكِفَ») are a minor OCR loss, the text is complete and translatable, not a SOURCE_DEFECT.",
+"at": "2026-10-17 00:42"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Entry parses «لَنْ يَسْتَنْكِفَ الْمَسِيحُ أَنْ يَكُونَ عَبْداً لِلَّهِ» ... «فَسَيَحْشُرُهُمْ إِلَيْهِ جَمِيعاً» (4:172) and «فَأَمَّا الَّذِينَ آمَنُوا ... فَيُوَفِّيهِمْ أُجُورَهُمْ» ... «وَلا يَجِدُونَ لَهُمْ مِنْ دُونِ اللَّهِ وَلِيًّا وَلا نَصِيراً» (4:173); the Fawaid on angels vs prophets is about 4:172. Listing 172-173 is correct. The defects «َسْتَنْكِفَ)» / «َنْ يَسْتَنْكِفَ» / «َ لَا الْمَلائِكَةُ» are only lost opening letters/brackets of headings; the full text is intact and translatable, so not a SOURCE_DEFECT.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

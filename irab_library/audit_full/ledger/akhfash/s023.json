@@ -1,0 +1,138 @@
+{
+"akhfash:14-14": {
+"p1": {
+"ar": "492f3245d2ad",
+"tr": "eca9e093d96d",
+"en": "602e5393369e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:42",
+"fixed": false
+}
+},
+"akhfash:20-20": {
+"p1": {
+"ar": "193812280e42",
+"tr": "7d55736d68f8",
+"en": "179e89f0c3dc",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:42",
+"fixed": false
+}
+},
+"akhfash:52-52": {
+"p1": {
+"ar": "ce02489cbce3",
+"tr": "e493cef5a584",
+"en": "156275a1e5dd",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:42",
+"fixed": false
+}
+},
+"akhfash:61-61": {
+"p1": {
+"ar": "42474f92fdaf",
+"tr": "8260bab1e7da",
+"en": "f3ccf09fc0e1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:42",
+"fixed": false
+}
+},
+"akhfash:64-64": {
+"p1": {
+"ar": "8bdc2a838e8a",
+"tr": "c74f1ddea2da",
+"en": "0d9179990590",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:42",
+"fixed": false
+},
+"p2": {
+"ar": "8bdc2a838e8a",
+"tr": "c74f1ddea2da",
+"en": "0d9179990590",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-p2-u1",
+"at": "2026-10-16 18:32",
+"fixed": false
+}
+},
+"akhfash:66-66": {
+"p1": {
+"ar": "31be16527b14",
+"tr": "5c9573de251d",
+"en": "688801fd276d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:42",
+"fixed": false
+}
+},
+"akhfash:108-108": {
+"p1": {
+"ar": "abb14ec50f8e",
+"tr": "a02704e1ff85",
+"en": "396fa0332ef4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:42",
+"fixed": false
+}
+},
+"akhfash:114-114": {
+"p1": {
+"ar": "3870e93a8db5",
+"tr": "89cd43fa5f27",
+"en": "67ebf15e9ffc",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR verse rendered \"Sen ancak bir Muslimani\" (only) for لمسلماً after إن (light inna, as EN: indeed); changed to \"gercekten\"",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:42",
+"fixed": true
+},
+"p2": {
+"ar": "3870e93a8db5",
+"tr": "89cd43fa5f27",
+"en": "67ebf15e9ffc",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-p2-u1",
+"at": "2026-10-16 18:32",
+"fixed": false
+}
+}
+}

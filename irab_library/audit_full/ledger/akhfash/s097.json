@@ -1,0 +1,28 @@
+{
+"akhfash:5-5": {
+"p1": {
+"ar": "80eb27e781c8",
+"tr": "24cb02eade80",
+"en": "b57d3a542029",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish '(Ahfes) dedi ki' for qala changed to buyurdu; removed added '(Bununla)'.",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:46",
+"fixed": true
+},
+"p2": {
+"ar": "80eb27e781c8",
+"tr": "24cb02eade80",
+"en": "b57d3a542029",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-p2-u1",
+"at": "2026-10-16 19:13",
+"fixed": false
+}
+}
+}

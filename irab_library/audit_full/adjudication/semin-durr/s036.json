@@ -1,0 +1,502 @@
+{
+"semin-durr:1-1": {
+"hs": [
+"86225a0cd92d",
+"98fd65db4e86",
+"7e48b030293d"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: وأمال الياءَ ... الأخَوان and قال الشيخ only. TR 'iki kardeş [Hamza ve Kisâî]' and 'Şeyh [Ebû Hayyân]' add identifications in plain brackets, not inside [Mütercim notu: ...]; also '[Mısranın başı metinde noktalarla bırakılmıştır.]' is a translator remark not marked as Mütercim notu. Unmarked additions.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic has only «وأمال الياءَ مِنْ يس الأخَوان» and «قال الشيخ». TR adds 'iki kardeş [Hamza ve Kisâî]' and 'Şeyh [Ebû Hayyân]' in plain brackets. It also adds an editorial remark in plain brackets under verse 3774, '[Mısranın başı metinde noktalarla bırakılmıştır.]', which is not marked as Mütercim notu. All three are additions without the required «[Mütercim notu: …]» marking (glossary rule 9), so they count as unmarked additions. Fix: mark them as Mütercim notu.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Identifications [Hamza ve Kisâî], [Ebû Hayyân], the verse-3774 editorial remark and the gloss [ekmekli yemek] moved into Mütercim notu",
+"verified": null,
+"verify_note": "The three flagged items are now Mütercim notları, but an unmarked addition and an omission remain: «Ben derim ki: Son itiraz doğrudur; [âlimler] şer'an...» adds «[âlimler]» in a plain bracket (Arabic just «نصُّوا»), and the last paragraph drops «أيضاً» from «واقرأ ابنُ أبي إسحاق أيضاً وأبو السَّمَّال» (TR: 'İbn Ebî İshâk ve Ebü's-Semmâl ... okumuştur', without 'de/ayrıca'). Mark the addition as [Mütercim notu: …] and render أيضاً.",
+"fix_failed": 3
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: الأخَوان, قال الشيخ, قلت only. EN 'The two brothers (Ḥamza and al-Kisāʾī)', 'The Shaykh (Abū Ḥayyān)', 'I (al-Samīn) say' add identifications not in the Arabic without a Translator's note. Unmarked additions.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «الأخَوان», «قال الشيخ», «قلت». EN adds '(Ḥamza and al-Kisāʾī)', 'The Shaykh (Abū Ḥayyān)' and 'I (al-Samīn) say'. None of these names is in the source. They are unmarked parenthetical identifications, against glossary_en rule 9, which requires [Translator's note: …] for anything added for clarity. The identifications are likely correct, but they must be marked.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "(Ḥamza and al-Kisāʾī) and (Abū Ḥayyān) moved into Translator's notes; 'I (al-Samīn) say' -> 'I say' (قلت)",
+"verified": "PASS",
+"verify_note": "The identifications (two brothers, the Shaykh) are now Translator's notes and 'I (al-Samīn)' was removed; the reading is complete and faithful and keeps the discussed words in Arabic script."
+}
+},
+"history": [
+{
+"old_hs": [
+"86225a0cd92d",
+"0cd0499fa09f",
+"79a5129da314"
+],
+"dim": "tr",
+"what": "Identifications [Hamza ve Kisâî], [Ebû Hayyân], the verse-3774 editorial remark and the gloss [ekmekli yemek] moved into Mütercim notu",
+"at": "2026-10-17 00:44"
+},
+{
+"old_hs": [
+"86225a0cd92d",
+"98fd65db4e86",
+"7e48b030293d"
+],
+"dim": "en",
+"what": "(Ḥamza and al-Kisāʾī) and (Abū Ḥayyān) moved into Translator's notes; 'I (al-Samīn) say' -> 'I say' (قلت)",
+"at": "2026-10-17 00:44"
+}
+]
+},
+"semin-durr:14-14": {
+"hs": [
+"9b4a4584a091",
+"51c2b3dbf93c",
+"908c20f538e5"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: وقرأ عبد الله, فقال (no name), وقال الشيخ. TR 'Abdullah [İbn Mes'ûd]', '[Kindî] «O nedir?» dedi', 'Şeyh [Ebû Hayyân]' add identifications in plain brackets, not inside [Mütercim notu: ...]. Unmarked additions.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «وقرأ عبد الله بالثالث», «قال: وما ذاك؟» and «وقال الشيخ». TR adds 'Abdullah [İbn Mes'ûd]', '[Kindî] «O nedir?» dedi' and 'Şeyh [Ebû Hayyân] dedi'. These identifications are not in the Arabic and are in plain brackets rather than «[Mütercim notu: …]». Glossary rule 9 requires that marking, so they are unmarked additions. Fix: mark them as Mütercim notu.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Put the unstated speakers 'Adam' and 'Kindî' (for قال: يقولون / فقال: كلا) inside [Mütercim notu: …]",
+"verify_note": "İbn Mes'ûd, Kindî and Ebû Hayyân identifications now inside Mütercim notu; TR complete and faithful to the Arabic.",
+"fix_failed": 1,
+"verified": "PASS"
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: قرأ أبو بكر بتخفيفِ الزاي (no vocalised form given), وقرأ عبد الله, لأنَّهم (no subject named), قلت, وقال الشيخ. EN adds '(فعَزَزْنا)', 'ʿAbd Allāh (Ibn Masʿūd)', 'they (the townsfolk)', 'I (al-Samīn) say', 'The Shaykh (Abū Ḥayyān)' — none in the Arabic, none marked as Translator's note. Unmarked additions.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic has «قرأ أبو بكر بتخفيفِ الزاي», «لأنَّهم في الأولى», «وقرأ عبد الله», «قلت» and «وقال الشيخ». EN adds five things that are not in the source: the vocalised form '(فعَزَزْنا)', '(the townsfolk)', 'ʿAbd Allāh (Ibn Masʿūd)', 'I (al-Samīn) say' and 'The Shaykh (Abū Ḥayyān)'. All are unmarked parenthetical additions, against glossary_en rule 9, which requires [Translator's note: …]. Fix: put them in Translator's notes.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked '[Sūrat]' in 'beginning of al-Māʾida'",
+"verify_note": "فعَزَزْنا, the townsfolk, Ibn Masʿūd and Abū Ḥayyān now in Translator's notes; 'I say' without added name; EN complete and faithful.",
+"fix_failed": 1,
+"verified": "PASS"
+}
+},
+"history": [
+{
+"old_hs": [
+"9b4a4584a091",
+"3584bb6ae28d",
+"084a32043543"
+],
+"dim": "tr",
+"what": "Identifications [İbn Mes'ûd], [Kindî], [Ebû Hayyân] moved into Mütercim notu",
+"at": "2026-10-17 00:44"
+},
+{
+"old_hs": [
+"9b4a4584a091",
+"0fdc60b98f91",
+"1d45eb55dc28"
+],
+"dim": "en",
+"what": "(فعَزَزْنا), (Ibn Masʿūd), (the townsfolk), (Abū Ḥayyān) moved into Translator's notes; 'I (al-Samīn) say' -> 'I say'",
+"at": "2026-10-17 00:44"
+},
+{
+"old_hs": [
+"9b4a4584a091",
+"0fdc60b98f91",
+"1d45eb55dc28"
+],
+"dim": "tr",
+"what": "Put the unstated speakers 'Adam' and 'Kindî' (for قال: يقولون / فقال: كلا) inside [Mütercim notu: …]",
+"at": "2026-10-17 00:49"
+},
+{
+"old_hs": [
+"9b4a4584a091",
+"51c2b3dbf93c",
+"908c20f538e5"
+],
+"dim": "en",
+"what": "Removed unmarked '[Sūrat]' in 'beginning of al-Māʾida'",
+"at": "2026-10-17 00:49"
+}
+]
+},
+"semin-durr:21-21": {
+"hs": [
+"4bfb59e9a6fa",
+"89af246a8363",
+"e68ad65b53e8"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: إلاَّ أنَّ الشيخَ قال only. TR 'Ancak Şeyh [Ebû Hayyân] dedi ki' adds the identification '[Ebû Hayyân]' in plain brackets, not inside [Mütercim notu: ...]. Unmarked addition; rest of TR faithful.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «إلاَّ أنَّ الشيخَ قال». TR writes 'Ancak Şeyh [Ebû Hayyân] dedi ki'. The name is not in the source and is in plain brackets rather than «[Mütercim notu: …]», so it is an unmarked addition (glossary rule 9). The rest of the TR is faithful, and the EN correctly keeps just 'the Shaykh'. Fix: mark it as Mütercim notu or drop it.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "'Şeyh [Ebû Hayyân]' -> identification moved into Mütercim notu",
+"verified": "PASS",
+"verify_note": "'Şeyh [Mütercim notu: Ebû Hayyân]' is properly marked; the rest of the TR is faithful to the Arabic."
+}
+},
+"history": [
+{
+"old_hs": [
+"4bfb59e9a6fa",
+"739306118dbc",
+"e68ad65b53e8"
+],
+"dim": "tr",
+"what": "'Şeyh [Ebû Hayyân]' -> identification moved into Mütercim notu",
+"at": "2026-10-17 00:44"
+}
+]
+},
+"semin-durr:23-23": {
+"hs": [
+"3290c878722c",
+"726c09b41d35",
+"ce5b3b189dd5"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: قلت: وهذا رجلٌ ثقةٌ ... only 'قلت'. EN 'I (al-Samīn) say' adds the author identification '(al-Samīn)' without a Translator's note. Unmarked addition (minor); rest of EN faithful.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «قلت: وهذا رجلٌ ثقةٌ» = 'I say: this is a trustworthy man'. EN 'I (al-Samīn) say' adds the author's name, which is not in the source. It is an unmarked parenthetical addition, against glossary_en rule 9: additions go in [Translator's note: …]. The rest is faithful: Ṭalḥa al-Sulamī / Ṭalḥa ibn Muṣarrif is as in the source, and the Zamakhsharī and Shaykh quotations are complete. Fix: 'I say' or a Translator's note.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "'I (al-Samīn) say' -> 'I say' (قلت)",
+"verified": "PASS",
+"verify_note": "'I say' without the added (al-Samīn); EN complete and faithful (Ṭalḥa variants, Zamakhsharī and Shaykh quotations intact)."
+}
+},
+"history": [
+{
+"old_hs": [
+"3290c878722c",
+"726c09b41d35",
+"06686bf4b746"
+],
+"dim": "en",
+"what": "'I (al-Samīn) say' -> 'I say' (قلت)",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"semin-durr:28-28": {
+"hs": [
+"b400d52f69ae",
+"94b14319a896",
+"b8240cbcd3a1"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: قلت: فالذي يَنْبغي ... only 'قلت'. EN 'I (al-Samīn) say' adds '(al-Samīn)', not in the Arabic and not inside a Translator's note. Unmarked addition (minor); rest of EN faithful.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «قلت: فالذي يَنْبغي عند مَنْ يقولُ بذلك…» = 'I say: what should be done…'. EN 'I (al-Samīn) say' inserts the author's name, which is not in the source. It is an unmarked parenthetical addition, against glossary_en rule 9, which requires [Translator's note: …]. The rest of the entry (three views on «ما», Abū l-Baqāʾ, Ibn ʿAṭiyya, the Shaykh's refutation and the reply) is faithful. Fix: 'I say'.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "'I (al-Samīn) say' -> 'I say' (قلت)",
+"verified": "PASS",
+"verify_note": "'I say' without the added (al-Samīn); EN complete and faithful (three views on ما, Abū l-Baqāʾ, Ibn ʿAṭiyya, Shaykh's refutation and reply)."
+}
+},
+"history": [
+{
+"old_hs": [
+"b400d52f69ae",
+"94b14319a896",
+"909b87ed44f8"
+],
+"dim": "en",
+"what": "'I (al-Samīn) say' -> 'I say' (قلت)",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"semin-durr:31-31": {
+"hs": [
+"0708958377a9",
+"4485cc85c748",
+"352edba94f6f"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: قال الشيخ only. TR 'Şeyh [Ebû Hayyân] dedi ki' adds '[Ebû Hayyân]' in plain brackets, not in [Mütercim notu: ...]; also '[gözle görmedir]' and '[metin burada bozuktur: ...]' are translator insertions outside a Mütercim notu marker. Unmarked additions.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «قال الشيخ: وهذا لا يَصِحُّ». TR writes 'Şeyh [Ebû Hayyân] dedi ki'. The name is not in the source and is in a plain bracket rather than «[Mütercim notu: …]», so it is an unmarked addition (glossary rule 9). The TR also opens a plain bracket, '[metin burada bozuktur: «...نَ التي أهلكناها»; …', before its Mütercim notu, so that remark is likewise partly outside the required format. The content is otherwise complete. Fix: mark both as Mütercim notu.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "[Ebû Hayyân], [gözle görmedir] and the garbled-text remark moved fully into Mütercim notu; unmarked conjectures [ve]/[bedel] removed from al-Zajjāj's garbled quote",
+"verified": "PASS",
+"verify_note": "Şeyh [Mütercim notu: Ebû Hayyân], basarî gloss and both garbled-text remarks now inside Mütercim notu; TR complete and faithful."
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: قلت: وهذا الإِنحاءُ تحاملٌ عليه. EN 'I (al-Samīn) say' adds '(al-Samīn)' not in the Arabic, unmarked; also '[of the generations]' supplied before the garbled «نَ التي أهلكناها» outside the Translator's note. Unmarked additions.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «قلت: وهذا الإِنحاءُ تحاملٌ عليه». EN 'I (al-Samīn) say' adds the author's name, which is not in the source, as an unmarked parenthetical (glossary_en rule 9). EN also adds '[of the generations]' before the garbled «نَ التي أهلكناها» and '[and that they]' inside al-Zajjāj's quote, in plain brackets. Those are conjectural reconstructions, and only the following Translator's notes are marked. Fix: put the name and the conjectures inside Translator's notes.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "'I (al-Samīn) say' -> 'I say'; conjectural [of the generations] moved into the Translator's note; unmarked [and that they] and [and] removed",
+"verified": "PASS",
+"verify_note": "(al-Samīn) removed, [of the generations]/[and that they] conjectures removed; garbled passages handled in Translator's notes; EN complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"0708958377a9",
+"aaee8b9ead9f",
+"99083a5469e2"
+],
+"dim": "tr",
+"what": "[Ebû Hayyân], [gözle görmedir] and the garbled-text remark moved fully into Mütercim notu; unmarked conjectures [ve]/[bedel] removed from al-Zajjāj's garbled quote",
+"at": "2026-10-17 00:45"
+},
+{
+"old_hs": [
+"0708958377a9",
+"4485cc85c748",
+"352edba94f6f"
+],
+"dim": "en",
+"what": "'I (al-Samīn) say' -> 'I say'; conjectural [of the generations] moved into the Translator's note; unmarked [and that they] and [and] removed",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"semin-durr:35-35": {
+"hs": [
+"48df40e52c2c",
+"8645280674e3",
+"f3c6b602101d"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic has only «وقرأ الأخَوان» and «فقيل له. فقال: أَرَدْتُ...»; TR inserts bare brackets «[Hamza ve Kisâî]» and «[niçin «كأنهما» demediği]», which are not in the Arabic and not inside [Mütercim notu: …] (glossary_tr rule: every clarifying addition must be so marked). Also «onun failini Allah Teâlâ'dır» is ungrammatical for «بل الفاعلُ له هو اللَّهُ». Fix: move the glosses into Mütercim notu.",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic has only «وقرأ الأخَوان» and «فقيل له. فقال: أَرَدْتُ» ; TR inserts unmarked brackets «[Hamza ve Kisâî]» and «[niçin «كأنهما» demediği]» which are not in the source; must go into [Mütercim notu: …].",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "[Hamza ve Kisâî], [niçin «كأنهما» demediği] and [vitiligo] moved into Mütercim notu; 'failini' -> 'faili'",
+"verified": "PASS",
+"verify_note": "Hamza ve Kisâî and the كأنهما explanation now in Mütercim notu; 'onun faili Allah Teâlâ'dır' grammatical; TR complete and faithful."
+},
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic «وقرأ الأخَوان وأبو بكر» only says 'the two brothers'; EN adds «(Ḥamza and al-Kisāʾī)» unmarked, not in a [Translator's note: …] as glossary_en rule 9 requires. Rest of the reading (pronoun of ثمره, four aspects of ما, rasm discussion) matches the Arabic.",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic «وقرأ الأخَوان وأبو بكر» names no one; EN adds unmarked '(Ḥamza and al-Kisāʾī)'. Identification is correct but is an addition and must be inside [Translator's note: …].",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "(Ḥamza and al-Kisāʾī) moved into Translator's note",
+"verified": "PASS",
+"verify_note": "The two brothers [Translator's note: Ḥamza and al-Kisāʾī] now marked; EN complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"48df40e52c2c",
+"5e699075e15c",
+"5ffd1a28e81e"
+],
+"dim": "tr",
+"what": "[Hamza ve Kisâî], [niçin «كأنهما» demediği] and [vitiligo] moved into Mütercim notu; 'failini' -> 'faili'",
+"at": "2026-10-17 00:45"
+},
+{
+"old_hs": [
+"48df40e52c2c",
+"8645280674e3",
+"f3c6b602101d"
+],
+"dim": "en",
+"what": "(Ḥamza and al-Kisāʾī) moved into Translator's note",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"semin-durr:38-38": {
+"hs": [
+"b3be57191134",
+"3fb16cb9fcda",
+"ee66088b7e34"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic takdir is «تجري لجَرْي مستقرٍ لها» / «لأجل جَرْيِ مستقرٍ لها»; TR inserts «[belirlenmiş]» (determined) in a bare bracket, an addition not in the Arabic and not in [Mütercim notu: …]. Rest of the reading (لا مستقرَّ / لا مستقرٌ readings, verse 3786) is correct.",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic «تقديره: تجري لجَرْي مستقرٍ لها» has nothing corresponding to TR's unmarked '[belirlenmiş]' in «onun için [belirlenmiş] bir karar yerine akışı»; the addition must be removed or put in [Mütercim notu: …].",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked '[belirlenmiş]' from the takdir",
+"verified": "PASS",
+"verify_note": "The unmarked '[belirlenmiş]' was removed; the takdir now follows «تجري لجَرْي مستقرٍ لها» and the rest (readings, verse 3786) is faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"b3be57191134",
+"d5f41cd4dba7",
+"ee66088b7e34"
+],
+"dim": "tr",
+"what": "Removed unmarked '[belirlenmiş]' from the takdir",
+"at": "2026-10-17 00:46"
+}
+]
+},
+"semin-durr:49-49": {
+"hs": [
+"8ef2018c8c71",
+"77bc4418c7ee",
+"4224a426d5a7"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic «ولم يَحْكِها هو عنه» has an unnamed pronoun هو; TR resolves it as «[Şeyh]» in a bare bracket, an unmarked interpretive addition (the EN correctly puts the same inference in a Translator's note). Needs to be inside [Mütercim notu: …].",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic «ولم يَحْكِها هو عنه» has an unclear antecedent for هو; TR inserts unmarked '[Şeyh]' ('[Şeyh] onu ondan hikâye etmemiştir'). Plausible interpretation but an unmarked addition; must be a [Mütercim notu: …] as the EN does.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"verify_note": "Fixed: referent of هو in «ولم يحكها هو عنه» now inside Mütercim notu; rest complete and faithful.",
+"fix_failed": 1,
+"fixed_note": "Bare '[Şeyh]' replaced by literal 'o' plus [Mütercim notu: …] explaining the unclear antecedent (probably the Shaykh/Abû Hayyân)",
+"verified": "PASS"
+}
+},
+"history": [
+{
+"old_hs": [
+"8ef2018c8c71",
+"6f11718e6109",
+"4224a426d5a7"
+],
+"dim": "tr",
+"what": "Bare '[Şeyh]' replaced by literal 'o' plus [Mütercim notu: …] explaining the unclear antecedent (probably the Shaykh/Abû Hayyân)",
+"at": "2026-10-17 00:49"
+}
+]
+}
+}

@@ -1,0 +1,68 @@
+{
+"akhfash:1-1": {
+"p1": {
+"ar": "15518c2c0366",
+"tr": "22e55f44890c",
+"en": "53f46f3092e0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"akhfash:2-2": {
+"p1": {
+"ar": "def9f311b578",
+"tr": "945b0801ab06",
+"en": "784a52672569",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish '(Ahfes) dedi ki' for qala (He said) changed to buyurdu.",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:45",
+"fixed": true
+},
+"p2": {
+"ar": "def9f311b578",
+"tr": "945b0801ab06",
+"en": "784a52672569",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-p2-u1",
+"at": "2026-10-16 19:10",
+"fixed": false
+}
+},
+"akhfash:23-23": {
+"p1": {
+"ar": "d410e7e82090",
+"tr": "9043648ca8db",
+"en": "49605e33121d",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish '[(Ahfes) dedi ki]' for [wa-qala] changed to [Ve buyurdu ki:].",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:45",
+"fixed": true
+},
+"p2": {
+"ar": "d410e7e82090",
+"tr": "9043648ca8db",
+"en": "49605e33121d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-p2-u1",
+"at": "2026-10-16 19:10",
+"fixed": false
+}
+}
+}

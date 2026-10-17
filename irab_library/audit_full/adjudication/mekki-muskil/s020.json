@@ -1,0 +1,27 @@
+{
+"mekki-muskil:63-63": {
+"hs": [
+"cc7cb43fb281",
+"e1baca3258f6",
+"1d0d41c9a1d9"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "HUMAN",
+"evidence": "The only disputed sentence is «وَفِي تَأَخّر اللَّام مَعَ لفظ ان بعض الْقُوَّة على نعم». The Turkish reads it as strength AGAINST taking إن as نعم («(إن)'yi (نعم) anlamına almaya karşı bir miktar kuvvet vardır»), the English as strength FOR نعم. My own reading leans toward the English (the lām delayed after a word shaped like إنّ, which normally takes lām al-muzaḥlaqa in its khabar, lends some support to the نعم view; قوة على most naturally = support/capacity for), which would make the Turkish «karşı» wrong; but the sentence is terse and the direction is a matter of interpreting Makkī's argument. The rest of the Turkish (Banū al-Ḥārith dialect, إنه هذان, Sībawayh/Kufan views, the note on «أصلة») is faithful. Needs a scholar to fix the direction.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «وَفِي تَأَخّر اللَّام مَعَ لفظ ان بعض الْقُوَّة على نعم» — after objecting that lam in the khabar makes the نعم-view remote, the author concedes that the lam coming late together with the outward form إنّ (which normally takes the delayed lam on its khabar) gives the نعم view some strength, i.e. support FOR it (English: 'some strength for نعم' is right). Turkish renders it '(إن)'yi (نعم) anlamına almaya karşı bir miktar kuvvet vardır' = strength AGAINST the نعم reading, reversing the direction. Fix: '...(إن)'yi (نعم) anlamına almak için bir miktar destek/kuvvet vardır'. Rest of the Turkish is faithful; the أصلة note is properly marked.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "HUMAN"
+}
+}
+}
+}

@@ -1,0 +1,128 @@
+{
+"dervis-irab:12-15": {
+"hs": [
+"0f0db3fa38d3",
+"7bc1dbc9470a",
+"be1a7d6fad8b"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "The entry parses 45:12 (اللَّهُ الَّذِي سَخَّرَ لَكُمُ الْبَحْرَ), 45:13 (وَسَخَّرَ لَكُمْ ما فِي السَّماواتِ... جَمِيعاً مِنْهُ), 45:14 (قُلْ لِلَّذِينَ آمَنُوا يَغْفِرُوا) and begins 45:15 (مَنْ عَمِلَ صالِحاً فَلِنَفْسِهِ). It discusses exactly ayahs 12-15; the source merely stops after صالحا (incomplete coverage, already noted by TR), which does not make the listing wrong.",
+"at": "2026-10-17 00:42"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "The entry parses 45:12 (اللَّهُ الَّذِي سَخَّرَ لَكُمُ الْبَحْرَ), 45:13 (وَسَخَّرَ لَكُمْ ما فِي السَّماواتِ ... جَمِيعاً مِنْهُ), 45:14 (قُلْ لِلَّذِينَ آمَنُوا يَغْفِرُوا ... لِيَجْزِيَ قَوْماً) and 45:15 (مَنْ عَمِلَ صالِحاً فَلِنَفْسِهِ); balagha/fawaid concern 45:14. Range 12-15 is exactly right. The reviewer's point (source i'rab of 45:15 stops after صالحا) is a source-coverage note, not a placement error; TR already notes it.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+},
+"dervis-irab:27-31": {
+"hs": [
+"c61b52737db2",
+"1f822563280f",
+"3a76010fdca9"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source: والمعنى ألم يأتكم رسلي فلم تكن، وآياتي اسم تكن. TR renders «Size elçilerim gelmedi mi de [âyetlerim size okunmadı mı]?» - the bracketed completion «âyetlerim size okunmadı mı» is not in the Arabic (which stops at فلم تكن) and is not inside a [Mütercim notu: …]; unmarked addition. Fix: put it in a Mütercim notu or render only «...gelmedi mi de [...] olmadı mı». (Similarly «mülk [O'nundur]» in 45:27 is a bracketed supplement for والملك يوم القيامة.)",
+"at": "2026-10-17 00:42"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: والمعنى ألم يأتكم رسلي فلم تكن — it stops at فلم تكن. TR renders «Size elçilerim gelmedi mi de [âyetlerim size okunmadı mı]?», supplying in plain brackets content not in the Arabic (âyetlerim ... okunmadı) without a Mütercim notu. Unmarked addition; fix: translate only «...gelmedi mi de [...] olmadı» and put the completion in «[Mütercim notu: …]». (Same pattern in 45:27 part: والملك يوم القيامة rendered «kıyamet günü de mülk [O'nundur]» with unmarked bracket.)",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "unmarked [âyetlerim size okunmadı mı] moved into Mütercim notu; 'mülk [O'nundur]' rephrased without addition",
+"verified": "PASS",
+"verify_note": "Both supplements now marked: «فلم تكن» rendered literally with the completion inside a Mütercim notu, and «والملك يوم القيامة» rendered without the bracketed addition. Rest of TR complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"c61b52737db2",
+"4d7b2b196f27",
+"3a76010fdca9"
+],
+"dim": "tr",
+"what": "unmarked [âyetlerim size okunmadı mı] moved into Mütercim notu; 'mülk [O'nundur]' rephrased without addition",
+"at": "2026-10-17 00:47"
+}
+]
+},
+"dervis-irab:32-37": {
+"hs": [
+"ebdf3b6cb16f",
+"26dd1be4cda6",
+"4215e84276bc"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source: واختار بعضهم أن يتعلق بنفس لأنه مصدر - the word after بنفس is missing in the Arabic. EN renders «attached to (الكبرياء) itself», silently supplying الكبرياء as if in the text, with no [Translator's note: …] (TR does mark it). Unmarked addition / silent correction of the source. Also EN inserts «The clause [ما الساعة]» where the source has only والجملة, again an unmarked supplement.",
+"at": "2026-10-17 00:42"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: واختار بعضهم أن يتعلق بنفس لأنه مصدر — no noun follows بنفس in the Arabic. EN renders 'some chose that it be attached to (الكبرياء) itself', inserting الكبرياء as if in the text, with no Translator's note (TR flags it with a Mütercim notu). Unmarked supplement; fix: put the supplied الكبرياء inside «[Translator's note: …]». (EN also has unmarked '[ما الساعة]' for والجملة ... سدّت مسدّ مفعولي ندري and '[notion of]'.)",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked '[for the exception]' in Abu Hayyan's quote; Latin transliterations 'in nahnu illa nazunnu zannan' and 'makr al-layl' replaced with Arabic (إن نحن إلا نظن ظنا, مكر الليل)",
+"verify_note": "Flagged fixes done: '[for the exception]' removed from Abu Hayyan's quote; إن نحن إلا نظن ظنا and مكر الليل now in Arabic script. Read in full against the Arabic: complete and faithful; the supplied الكبرياء and ما الساعة are inside Translator's notes; remaining parentheses are glossary term glosses. No new problems.",
+"fix_failed": 2,
+"verified": "PASS"
+}
+},
+"history": [
+{
+"old_hs": [
+"ebdf3b6cb16f",
+"26dd1be4cda6",
+"e22389990e81"
+],
+"dim": "en",
+"what": "supplied (الكبرياء) after بنفس moved into Translator's note; [ما الساعة] marked as Translator's note; '[notion of]' removed",
+"at": "2026-10-17 00:47"
+},
+{
+"old_hs": [
+"ebdf3b6cb16f",
+"26dd1be4cda6",
+"90e4d72784b7"
+],
+"dim": "en",
+"what": "Supplied الكبرياء after بنفس and [ما الساعة] put inside Translator's notes; [notion of] replaced by الاستقرار from the source",
+"at": "2026-10-17 00:47"
+},
+{
+"old_hs": [
+"ebdf3b6cb16f",
+"26dd1be4cda6",
+"90e4d72784b7"
+],
+"dim": "en",
+"what": "Removed unmarked '[for the exception]' in Abu Hayyan's quote; Latin transliterations 'in nahnu illa nazunnu zannan' and 'makr al-layl' replaced with Arabic (إن نحن إلا نظن ظنا, مكر الليل)",
+"at": "2026-10-17 00:53"
+}
+]
+}
+}

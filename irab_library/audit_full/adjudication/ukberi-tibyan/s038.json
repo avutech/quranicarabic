@@ -1,0 +1,29 @@
+{
+"ukberi-tibyan:24-24": {
+"hs": [
+"de92596e72f4",
+"103565d49067",
+"4d690f621a7c"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "MISPLACED",
+"evidence": "The entry quotes and parses (يَا دَاوُدُ إِنَّا جَعَلْنَاكَ خَلِيفَةً فِي الْأَرْضِ ... فَيُضِلَّكَ عَنْ سَبِيلِ اللَّهِ ... يَوْمَ الْحِسَابِ) and comments on (فَيُضِلَّكَ) — this is 38:26, numbered (٢٤) only in the source. 38:24 is already covered by the 23-25 entry (فَتَنَّاهُ, رَاكِعًا). Listing should be 26-26.",
+"at": "2026-10-17 00:40",
+"ayahs": "26-26"
+},
+"J2": {
+"class": "MISPLACED",
+"evidence": "The entry quotes and parses (يَا دَاوُدُ إِنَّا جَعَلْنَاكَ خَلِيفَةً فِي الْأَرْضِ ... فَيُضِلَّكَ عَنْ سَبِيلِ اللَّهِ ... يَوْمَ الْحِسَابِ), which is 38:26, not 38:24 (قَالَ لَقَدْ ظَلَمَكَ بِسُؤَالِ نَعْجَتِكَ). The source's numbering (٢٤) is wrong; nothing in 38:24 is discussed. The only word parsed, فَيُضِلَّكَ, is in 38:26.",
+"at": "2026-10-17 00:40",
+"ayahs": "26-26"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+}
+}

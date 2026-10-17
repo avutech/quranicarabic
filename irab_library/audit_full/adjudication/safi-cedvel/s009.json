@@ -1,0 +1,27 @@
+{
+"safi-cedvel:1-1": {
+"hs": [
+"f19cef734f81",
+"371d94e1e2c9",
+"bd346f9a6b1a"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Claimed omission is not true: the English has a full '* Benefits:' section rendering «تضاربت الأقوال عن سبب عدم ذكر التسمية...», the Muhammad ibn al-Hanafiyya / ʿAlī report «إن براءة نزلت بالسيف ... وإن بسم الله الرحمن الرحيم أمان», and «وسئل سفيان بن عينية ...» with a translator note on the misspelling, through «تنبيها على من يقول هما سورة واحدة». I'rab, footnote and Sarf also match. Minor side observation only: «فتركوا بينهما فرصة» is rendered 'gap' (intended فرجة) without a note.",
+"at": "2026-10-17 00:42"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Claim refuted: EN has a complete '* Benefits:' section rendering «تضاربت الأقوال عن سبب عدم ذكر التسمية... محمد بن الحنفية... وسئل سفيان بن عينية... ولم يذكروا التسمية، تنبيها على من يقول هما سورة واحدة» in full, ending 'they did not mention the basmala, as an indication for whoever says they are one sūra', with the عينية misprint flagged in a Translator's note. Nothing omitted.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

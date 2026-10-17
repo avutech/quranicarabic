@@ -1,0 +1,28 @@
+{
+"dervis-irab:1-19": {
+"p1": {
+"ar": "e376de71fa02",
+"tr": "aac98c1e0090",
+"en": "f8a06c2a46ca",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English silently corrected source typo «وآخر» (for وأخر) in Ibn Hisham quote \"حالا من المرعى وآخر\"; added marked Translator note.",
+"by": "dervis-irab-p1-u16",
+"at": "2026-10-17 00:59",
+"fixed": true
+},
+"p2": {
+"ar": "e376de71fa02",
+"tr": "aac98c1e0090",
+"en": "f8a06c2a46ca",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u12",
+"at": "2026-10-17 01:07",
+"fixed": false
+}
+}
+}

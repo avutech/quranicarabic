@@ -1,0 +1,232 @@
+{
+"mekki-muskil:1-1": {
+"p1": {
+"ar": "bf03862b6452",
+"tr": "f6fe7b640701",
+"en": "6be326f37318",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:47",
+"fixed": false
+}
+},
+"mekki-muskil:3-3": {
+"p1": {
+"ar": "cdfc4c136675",
+"tr": "3be8a6e828ac",
+"en": "f1df8f4dc275",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:47",
+"fixed": false
+}
+},
+"mekki-muskil:5-5": {
+"p1": {
+"ar": "ef30b24497d6",
+"tr": "ae5f030b489e",
+"en": "86dcc9887b8a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:47",
+"fixed": false
+}
+},
+"mekki-muskil:7-7": {
+"p1": {
+"ar": "530bbc4ec13b",
+"tr": "29226b6b283b",
+"en": "577a379e625e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:47",
+"fixed": false
+}
+},
+"mekki-muskil:8-8": {
+"p1": {
+"ar": "8182ce57dcf6",
+"tr": "4911d63548ea",
+"en": "ba66d6208d95",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "Second paragraph on يرفعه (35:10) belongs to another ayah; the Turkish translator's note says so",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:47",
+"fixed": false
+},
+"p2": {
+"ar": "8182ce57dcf6",
+"tr": "4911d63548ea",
+"en": "ba66d6208d95",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "The sentence on the hāʾ in \"يرفعه\" and العمل belongs to ayah 35:10, not 35:8 (Turkish notes this); translations are faithful.",
+"by": "mekki-muskil-p2-u1",
+"at": "2026-10-16 18:53",
+"fixed": false
+}
+},
+"mekki-muskil:10-10": {
+"p1": {
+"ar": "527971c96072",
+"tr": "120be9e64732",
+"en": "2fc400953669",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:47",
+"fixed": false
+},
+"p2": {
+"ar": "527971c96072",
+"tr": "120be9e64732",
+"en": "2fc400953669",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u1",
+"at": "2026-10-16 18:53",
+"fixed": false
+}
+},
+"mekki-muskil:18-18": {
+"p1": {
+"ar": "a6a83149ecad",
+"tr": "b780b38d67b9",
+"en": "4fc7c966001d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:47",
+"fixed": false
+}
+},
+"mekki-muskil:28-28": {
+"p1": {
+"ar": "f6f3fbf8e2c0",
+"tr": "48e244b4a0bf",
+"en": "37d05b3286fb",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:47",
+"fixed": false
+}
+},
+"mekki-muskil:33-33": {
+"p1": {
+"ar": "0f34d01d7b2a",
+"tr": "eabb13d58f76",
+"en": "702e9708627d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:47",
+"fixed": false
+}
+},
+"mekki-muskil:35-35": {
+"p1": {
+"ar": "a74e8f958d3e",
+"tr": "5d56dae6656c",
+"en": "1df08f6f48f6",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English silently corrected source typos «خب» and «فوله»; translator's notes added",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:47",
+"fixed": true
+},
+"p2": {
+"ar": "a74e8f958d3e",
+"tr": "5d56dae6656c",
+"en": "1df08f6f48f6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u1",
+"at": "2026-10-16 18:53",
+"fixed": false
+}
+},
+"mekki-muskil:41-41": {
+"p1": {
+"ar": "c6ca363ec185",
+"tr": "6bffd8398efa",
+"en": "118a4dca08fe",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:47",
+"fixed": false
+}
+},
+"mekki-muskil:43-43": {
+"p1": {
+"ar": "b67f7d9ecdbe",
+"tr": "57e2a0479905",
+"en": "455016466e07",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:47",
+"fixed": false
+},
+"p2": {
+"ar": "b67f7d9ecdbe",
+"tr": "57e2a0479905",
+"en": "455016466e07",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u1",
+"at": "2026-10-16 18:53",
+"fixed": false
+}
+},
+"mekki-muskil:45-45": {
+"p1": {
+"ar": "4559688ce9b1",
+"tr": "65073ed367f6",
+"en": "290186d9be1e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:47",
+"fixed": false
+}
+}
+}

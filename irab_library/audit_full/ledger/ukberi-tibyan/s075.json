@@ -1,0 +1,176 @@
+{
+"ukberi-tibyan:1-1": {
+"p1": {
+"ar": "5bd89bb06581",
+"tr": "b0e72d9cb3c9",
+"en": "42e933d5ceb9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 15:56",
+"fixed": false
+}
+},
+"ukberi-tibyan:4-6": {
+"p1": {
+"ar": "e6a618512256",
+"tr": "6cd9a966b9a0",
+"en": "e38de4cb60b0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 15:56",
+"fixed": false
+},
+"p2": {
+"ar": "e6a618512256",
+"tr": "6cd9a966b9a0",
+"en": "e38de4cb60b0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-p2-u6",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"ukberi-tibyan:12-12": {
+"p1": {
+"ar": "ca3b84736430",
+"tr": "6d52483b0b2e",
+"en": "759c0c4e5b22",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN had unmarked bracket addition about maṣdar not governing what precedes; removed.",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 15:56",
+"fixed": true
+},
+"p2": {
+"ar": "ca3b84736430",
+"tr": "6d52483b0b2e",
+"en": "759c0c4e5b22",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-p2-u6",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"ukberi-tibyan:14-14": {
+"p1": {
+"ar": "82639234099c",
+"tr": "0c9f96a8fd96",
+"en": "c8a950dcece2",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN rendered بَصِيرٌ as \"keen witness\"; corrected to one who sees clearly.",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 15:56",
+"fixed": true
+},
+"p2": {
+"ar": "82639234099c",
+"tr": "0c9f96a8fd96",
+"en": "c8a950dcece2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-p2-u6",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"ukberi-tibyan:22-23": {
+"p1": {
+"ar": "e053d2f5efe7",
+"tr": "47a11f35f5db",
+"en": "0bb2306e5a72",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR/EN silently changed source ثُمَّ to ثَمَّ; now as written with translator note.",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 15:56",
+"fixed": true
+},
+"p2": {
+"ar": "e053d2f5efe7",
+"tr": "47a11f35f5db",
+"en": "0bb2306e5a72",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-p2-u6",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"ukberi-tibyan:26-27": {
+"p1": {
+"ar": "ed2aa74a4e15",
+"tr": "cedc5742c081",
+"en": "6945dc49dac2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 15:56",
+"fixed": false
+}
+},
+"ukberi-tibyan:31-33": {
+"p1": {
+"ar": "2ad476bc7d74",
+"tr": "49c9f2287804",
+"en": "5cc1bfb62549",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 15:56",
+"fixed": false
+}
+},
+"ukberi-tibyan:34-34": {
+"p1": {
+"ar": "3c4f340e2486",
+"tr": "b130457669ef",
+"en": "3b44c5beb09b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 15:56",
+"fixed": false
+}
+},
+"ukberi-tibyan:36-40": {
+"p1": {
+"ar": "07fcae7d99e0",
+"tr": "0b1dc4488aae",
+"en": "feb7586e9bf4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 15:56",
+"fixed": false
+}
+}
+}

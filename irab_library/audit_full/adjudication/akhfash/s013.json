@@ -1,0 +1,29 @@
+{
+"akhfash:10-10": {
+"hs": [
+"f7cb8f496673",
+"97524752199b",
+"6ecffeb65f48"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "MISPLACED",
+"evidence": "Entry begins with 13:10 ('﴿مُسْتَخْفٍ بِٱلْلَّيْلِ وَسَارِبٌ بِٱلنَّهَارِ﴾'), then has (أَخِفْيها)/(أَكادُ) material belonging to Ta-Ha 20:15 (another surah, cannot be placed here), and ends with a substantive comment on 13:11: 'وَأمّا \"المُعَقِّباتُ\" فإِنما أُنِّثَت ... ثم ذكر ... فقال (يَحْفَظُونُه مِنْ أَمْرِ اللهِ)' (= لَهُۥ مُعَقِّبَٰتٌ ... يَحْفَظُونَهُۥ مِنْ أَمْرِ ٱللَّهِ, 13:11). So within surah 13 the entry covers 10-11.",
+"at": "2026-10-17 00:40",
+"ayahs": "10-11"
+},
+"J2": {
+"class": "MISPLACED",
+"evidence": "Opening is on 13:10 (﴿مُسْتَخْفٍ بِٱلْلَّيْلِ وَسَارِبٌ بِٱلنَّهَارِ﴾). The (أَخِفْيها)/(أَكادُ) material is Taha 20:15 (other surah, cannot be placed here). The closing 'وَأمّا المُعَقِّباتُ فإنما أُنِّثَت ... فقال (يَحْفَظُونُه مِنْ أَمْرِ اللهِ)' is substantively about 13:11, so the entry must also be listed under 13:11.",
+"at": "2026-10-17 00:40",
+"ayahs": "10-11"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+}
+}

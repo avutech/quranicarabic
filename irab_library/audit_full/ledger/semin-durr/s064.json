@@ -1,0 +1,126 @@
+{
+"semin-durr:1-1": {
+"p1": {
+"ar": "8a45eff543f1",
+"tr": "7c4a556bb7ab",
+"en": "6a19f00193c9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:32",
+"fixed": false
+}
+},
+"semin-durr:3-3": {
+"p1": {
+"ar": "0ec1669751d8",
+"tr": "05dbf4d7c16f",
+"en": "5c9b68e6519c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:32",
+"fixed": false
+}
+},
+"semin-durr:4-4": {
+"p1": {
+"ar": "10941be1d0d2",
+"tr": "1ddbf6e1e49c",
+"en": "42d5e5d13d55",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:6-6": {
+"p1": {
+"ar": "490bf4b8c30c",
+"tr": "6b9a1ff63a03",
+"en": "01f7b137e502",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:32",
+"fixed": false
+}
+},
+"semin-durr:7-7": {
+"p1": {
+"ar": "83b949cf9c61",
+"tr": "b2235beb872e",
+"en": "4444000bddc2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:32",
+"fixed": false
+}
+},
+"semin-durr:9-9": {
+"p1": {
+"ar": "da5f626fa47a",
+"tr": "bd165d27bd0f",
+"en": "81a7d74f08dd",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR \"gününüzde derece farkı olursunuz\" for تتفاوتون يوم يجمعكم was garbled and added \"derece\"; EN \"in rank\" added; both corrected",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:32",
+"fixed": true
+},
+"p2": {
+"ar": "da5f626fa47a",
+"tr": "bd165d27bd0f",
+"en": "81a7d74f08dd",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u19",
+"at": "2026-10-17 00:09",
+"fixed": false
+}
+},
+"semin-durr:11-11": {
+"p1": {
+"ar": "34a314a367dc",
+"tr": "d34a73afff4d",
+"en": "09ad09df7b18",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:32",
+"fixed": false
+}
+},
+"semin-durr:16-16": {
+"p1": {
+"ar": "646a86452987",
+"tr": "0b93ed402d71",
+"en": "06ab6a6c344a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:32",
+"fixed": false
+}
+}
+}

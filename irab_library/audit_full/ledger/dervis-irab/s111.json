@@ -1,0 +1,28 @@
+{
+"dervis-irab:1-5": {
+"p1": {
+"ar": "c3acd085d068",
+"tr": "15f32bcdf3f2",
+"en": "80789cb2f6c9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u5",
+"at": "2026-10-17 00:18",
+"fixed": false
+},
+"p2": {
+"ar": "c3acd085d068",
+"tr": "15f32bcdf3f2",
+"en": "80789cb2f6c9",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "EN: «الفضل بن العباس، ابن عتبة بن أبي لهب» rendered with an invented \"or\"; «فحرثي همّه أكل الجراد» mistranslated; «بينا» silently emended to bayt; poem «عزتها كانت سليلة» given an added \"such that\". TR made al-Fadl the son of Utba; lineage corrected.",
+"by": "dervis-irab-p2-u8",
+"at": "2026-10-17 00:04",
+"fixed": true
+}
+}
+}

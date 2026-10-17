@@ -1,0 +1,286 @@
+{
+"safi-cedvel:1-3": {
+"p1": {
+"ar": "30db1cd18b95",
+"tr": "45af1648321d",
+"en": "a9e19e3d2a50",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u63",
+"at": "2026-10-10 19:33",
+"fixed": false
+},
+"p2": {
+"ar": "30db1cd18b95",
+"tr": "45af1648321d",
+"en": "a9e19e3d2a50",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u23",
+"at": "2026-10-16 19:21",
+"fixed": false
+}
+},
+"safi-cedvel:4-7": {
+"p1": {
+"ar": "5a79b91e675a",
+"tr": "7eb1fd791742",
+"en": "2011fbbe2b7d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u63",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"safi-cedvel:8-26": {
+"p1": {
+"ar": "b4dea87501dc",
+"tr": "adaa9dd3c98d",
+"en": "21f8aa691858",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u63",
+"at": "2026-10-10 19:33",
+"fixed": false
+}
+},
+"safi-cedvel:27-40": {
+"p1": {
+"ar": "6b7b416e0297",
+"tr": "4bcf85c35810",
+"en": "5845ce883801",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u63",
+"at": "2026-10-10 19:33",
+"fixed": false
+}
+},
+"safi-cedvel:41-48": {
+"p1": {
+"ar": "b5d75dfd8aaf",
+"tr": "19b2cc3523ae",
+"en": "4b764e9d9ea0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p1-u7",
+"at": "2026-10-17 00:01",
+"fixed": false
+},
+"p2": {
+"ar": "b5d75dfd8aaf",
+"tr": "19b2cc3523ae",
+"en": "4b764e9d9ea0",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN silently corrected the source's «تهكم بأصحاب الشأن» to \"the people of the left\"; now translated as written with a marked translator's note.",
+"by": "safi-cedvel-p2-u23",
+"at": "2026-10-16 19:21",
+"fixed": true
+}
+},
+"safi-cedvel:49-56": {
+"p1": {
+"ar": "62e21bbf37fa",
+"tr": "967268d298ca",
+"en": "d5ae38470a9c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p1-u3",
+"at": "2026-10-17 01:09",
+"fixed": false
+},
+"p2": {
+"ar": "62e21bbf37fa",
+"tr": "967268d298ca",
+"en": "d5ae38470a9c",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN silently rendered the source typo «وضربوا الأهوال» as \"strokes of terrors\"; now kept as written in Arabic with a marked translator's note (as TR already does).",
+"by": "safi-cedvel-p2-u9",
+"at": "2026-10-17 01:07",
+"fixed": true
+}
+},
+"safi-cedvel:57-62": {
+"p1": {
+"ar": "d71bdeac9b1e",
+"tr": "ea3cba1d5ec7",
+"en": "15c4e6a5b7e7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u63",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"safi-cedvel:63-67": {
+"p1": {
+"ar": "4f5708a26076",
+"tr": "4ce788628c5e",
+"en": "3ebf100301bf",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u63",
+"at": "2026-10-10 19:34",
+"fixed": false
+},
+"p2": {
+"ar": "4f5708a26076",
+"tr": "4ce788628c5e",
+"en": "3ebf100301bf",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u23",
+"at": "2026-10-16 19:21",
+"fixed": false
+}
+},
+"safi-cedvel:68-70": {
+"p1": {
+"ar": "6254f72d00e7",
+"tr": "2d7cefa1e1fe",
+"en": "869f095d032a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u63",
+"at": "2026-10-10 19:34",
+"fixed": false
+},
+"p2": {
+"ar": "6254f72d00e7",
+"tr": "2d7cefa1e1fe",
+"en": "869f095d032a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u23",
+"at": "2026-10-16 19:21",
+"fixed": false
+}
+},
+"safi-cedvel:71-74": {
+"p1": {
+"ar": "b1e3ee8d6cc8",
+"tr": "0856d070e9e7",
+"en": "2d9a307a6f2d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u63",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"safi-cedvel:75-80": {
+"p1": {
+"ar": "c84c1a28d748",
+"tr": "4ea4668e51cc",
+"en": "eb76384791b1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u63",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"safi-cedvel:81-82": {
+"p1": {
+"ar": "0587397a7236",
+"tr": "2f0ed465f096",
+"en": "15de9cd75fb5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u63",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"safi-cedvel:83-87": {
+"p1": {
+"ar": "23b7a716fe25",
+"tr": "151f56916379",
+"en": "c0e11987d973",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u63",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"safi-cedvel:88-91": {
+"p1": {
+"ar": "cec133424f02",
+"tr": "e3b3e69e226d",
+"en": "00880d5c7f92",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u63",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"safi-cedvel:92-94": {
+"p1": {
+"ar": "074c8258d5a0",
+"tr": "eca3aef556b8",
+"en": "5d22a1a9df88",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u63",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"safi-cedvel:95-96": {
+"p1": {
+"ar": "a510f0ce84ac",
+"tr": "1e5387c2d3f5",
+"en": "0b8b4f555cbb",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u63",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+}
+}

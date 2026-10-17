@@ -1,0 +1,98 @@
+{
+"farraa:3-3": {
+"p1": {
+"ar": "389011836c39",
+"tr": "9894d936f5b1",
+"en": "2eb73516190d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u21",
+"at": "2026-10-10 15:52",
+"fixed": false
+}
+},
+"farraa:5-5": {
+"p1": {
+"ar": "44bd6194ba2d",
+"tr": "7cb0c51008c2",
+"en": "eb7b4bbfa4b2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u21",
+"at": "2026-10-10 15:52",
+"fixed": false
+}
+},
+"farraa:8-8": {
+"p1": {
+"ar": "7261c095f070",
+"tr": "87e3606805a7",
+"en": "63a6c41a3002",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u21",
+"at": "2026-10-10 15:52",
+"fixed": false
+}
+},
+"farraa:9-9": {
+"p1": {
+"ar": "1d3bc0f4f08e",
+"tr": "bcdd8333baf5",
+"en": "fff6cc6a98a6",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish silently turned source 'خفضها' into 'hafifletti'; added translator's note as in the English.",
+"by": "farraa-u21",
+"at": "2026-10-10 15:52",
+"fixed": true
+},
+"p2": {
+"ar": "1d3bc0f4f08e",
+"tr": "bcdd8333baf5",
+"en": "fff6cc6a98a6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u6",
+"at": "2026-10-11 04:07",
+"fixed": false
+}
+},
+"farraa:10-10": {
+"p1": {
+"ar": "371d9dd21939",
+"tr": "38021e295126",
+"en": "b1e4f9ae212e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u21",
+"at": "2026-10-10 15:52",
+"fixed": false
+}
+},
+"farraa:11-11": {
+"p1": {
+"ar": "3a77cc7347b0",
+"tr": "414773620d7a",
+"en": "1b95b35234c3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u21",
+"at": "2026-10-10 15:52",
+"fixed": false
+}
+}
+}

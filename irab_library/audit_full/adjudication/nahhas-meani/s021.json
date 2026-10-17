@@ -1,0 +1,27 @@
+{
+"nahhas-meani:112-112": {
+"hs": [
+"7c0e6f484eb7",
+"c0bbd54f9b03",
+"fef33c95f0f3"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "HUMAN",
+"evidence": "Arabic is the introduction to Surat al-Hajj («سورةُ الحجِّ نزلتْ بمكة، سِوَى ثلاثِ آياتٍ منها» ... «هَذَانِ خَصْمَانِ اخْتَصَمُوْا في رَبِّهِمْ» = 22:19-21); it discusses no ayah of surah 21 (not 21:112), so no correct range exists within this surah; it must be moved to surah 22 (intro / 22:19-21), which this tool cannot express.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "HUMAN",
+"evidence": "Arabic «سورةُ الحجِّ نزلتْ بمكة سِوَى ثلاثِ آياتٍ ... ﴿هَذَانِ خَصْمَانِ اخْتَصَمُوْا في رَبِّهِمْ﴾» is the introduction to Surat al-Hajj (22:19-21), nothing about 21:112; it belongs to surah 22, so no correct range exists in surah 21 - cross-surah relocation needs a human decision.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "HUMAN"
+}
+}
+}
+}

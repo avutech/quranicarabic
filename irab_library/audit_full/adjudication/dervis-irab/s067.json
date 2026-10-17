@@ -1,0 +1,82 @@
+{
+"dervis-irab:1-4": {
+"hs": [
+"667a322c5bd3",
+"e3093e169a56",
+"5a74a74d4f30"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Glosses that translate quoted Arabic (فطره فانفطر → (onu yardı, o da yarıldı); ما ترى فيهنّ → (onlarda görmezsin)) or define a term (terâhî (gecikme)) are fine. But interpretive parentheticals with no Arabic counterpart are unmarked additions: «حسر بصره انقطع نظره» → «bakışı kesildi (yoruldu)»; «لأن بعض الأجزاء يفوت الآخر» → «çünkü (öyle bir şeyde) parçaların bir kısmı diğerinden kaçar (ona yetişemez)». Meaning is faithful; minor fix: put these inside [Mütercim notu: …] or drop them.",
+"at": "2026-10-17 00:43"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Several flagged items are legitimate translations of cited Arabic: فطره فانفطر → (onu yardı, o da yarıldı); ما ترى فيهنّ → (onlarda görmezsin); ثم للترتيب والتراخي → terâhî (gecikme); علقت → muallak (amelden). But two are interpretive insertions not in the Arabic and unmarked: حسر بصره انقطع نظره → 'bakışı kesildi (yoruldu)' (the Arabic says only انقطع نظره), and التفاوت عدم التناسب لأن بعض الأجزاء يفوت الآخر → 'çünkü (öyle bir şeyde) parçaların ...' — '(öyle bir şeyde)' is not in the source. Fix: drop them or put them inside «[Mütercim notu: …]».",
+"at": "2026-10-17 00:44"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "removed unmarked '(yoruldu)', '(öyle bir şeyde)', '(ona yetişemez)'",
+"verified": "PASS",
+"verify_note": "Unmarked '(yoruldu)' and '(öyle bir şeyde)/(ona yetişemez)' are gone; حسر بصره and التفاوت sentences now match the Arabic. Remaining parentheses translate quoted Arabic or gloss terms; بتري typo marked in a Mütercim notu. Read sentence by sentence: complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"667a322c5bd3",
+"92e3b28d93fc",
+"5a74a74d4f30"
+],
+"dim": "tr",
+"what": "removed unmarked '(yoruldu)', '(öyle bir şeyde)', '(ona yetişemez)'",
+"at": "2026-10-17 00:47"
+}
+]
+},
+"dervis-irab:5-11": {
+"hs": [
+"b3eb2dba3d01",
+"63e49c5302a0",
+"b9f4ae3e7df7"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Glosses that translate quoted Arabic are fine: ألزمهم الله سحقا → (Allah onlara uzaklığı gerekli kıldı), فلان يتميز غيظا → (filan öfkeden çatlıyor), ذات رجوم → (taşlama vasıtası olan). But the source says only فجاء بالمصدر على المحذوف and TR renders «masdar mahzûf (sülâsî) fiile göre getirilmiştir» - «sülâsî» is an interpretive addition not in the Arabic and not inside [Mütercim notu: …]. Likewise لشدة غليانها بهم → «onları içine alıp şiddetle kaynaması» adds «içine alıp». Minor; meaning otherwise faithful and complete.",
+"at": "2026-10-17 00:43"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Three flagged glosses are faithful translations of Arabic phrases quoted in the text: ألزمهم الله سحقا → (Allah onlara uzaklığı gerekli kıldı); فلان يتميز غيظا → (filan öfkeden çatlıyor); ذات رجوم → (taşlama vasıtası olan). However فجاء بالمصدر على المحذوف is rendered 'masdar mahzûf (sülâsî) fiile göre getirilmiştir' — '(sülâsî)' is an interpretation the Arabic does not state, unmarked. Also شبّه جهنم بالمغتاظة عليهم لشدة غليانها بهم → 'onları içine alıp şiddetle kaynaması' adds 'içine alıp'. Fix: put these in «[Mütercim notu: …]».",
+"at": "2026-10-17 00:44"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "'(sülâsî)' moved into Mütercim notu; 'içine alıp' removed (لشدة غليانها بهم)",
+"verified": "PASS",
+"verify_note": "'sülâsî' moved into a Mütercim notu; 'içine alıp' removed (now 'onlarla şiddetle kaynaması'). Rest of TR complete and faithful; و. لقوا defect noted."
+}
+},
+"history": [
+{
+"old_hs": [
+"b3eb2dba3d01",
+"c72eae23c517",
+"b9f4ae3e7df7"
+],
+"dim": "tr",
+"what": "'(sülâsî)' moved into Mütercim notu; 'içine alıp' removed (لشدة غليانها بهم)",
+"at": "2026-10-17 00:47"
+}
+]
+}
+}

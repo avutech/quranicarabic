@@ -1,0 +1,27 @@
+{
+"ukberi-tibyan:50-50": {
+"hs": [
+"ed104c987524",
+"0f99f649ce25",
+"bcd637d07290"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "The entry quotes 53:50 (وَأَنَّهُ أَهْلَكَ عَادًا الْأُولَى) and discusses only (عَادًا الْأُولَى): tanwīn / no tanwīn / tanwīn with idghām (لَحْمَرُ). It is under the right ayah. The text is truncated (وَفِيهِ تَقْدِيرَانِ gives only أَحَدُهُمَا) but there is substantive content to place and translate, and both readings mark the gap in notes; placement is correct.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "The entry is wholly about 53:50 (وَأَنَّهُ أَهْلَكَ عَادًا الْأُولَى: tanwīn / no tanwīn / idghām as in لَحْمَرُ), so it is listed correctly. The source stops after أَحَدُهُمَا of تَقْدِيرَانِ, but most of the text is intact and translatable, and both readings flag the gap in marked notes. The truncation is not a placement error.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

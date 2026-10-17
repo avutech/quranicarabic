@@ -1,0 +1,246 @@
+{
+"nahhas-irab:1-1": {
+"p1": {
+"ar": "d9c8528adaf7",
+"tr": "47aaacdcc0de",
+"en": "0d46950a0061",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:16",
+"fixed": false
+}
+},
+"nahhas-irab:2-2": {
+"p1": {
+"ar": "a687d9e4001c",
+"tr": "a370ff1551c6",
+"en": "e9fb85bb8d57",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:16",
+"fixed": false
+}
+},
+"nahhas-irab:3-3": {
+"p1": {
+"ar": "4ddfcc81eb4d",
+"tr": "a6766e0880ec",
+"en": "47b8960dc31c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:16",
+"fixed": false
+},
+"p2": {
+"ar": "4ddfcc81eb4d",
+"tr": "a6766e0880ec",
+"en": "47b8960dc31c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"nahhas-irab:4-4": {
+"p1": {
+"ar": "83648d2b7ee3",
+"tr": "d81ceed591b3",
+"en": "01da5edb1659",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:16",
+"fixed": false
+}
+},
+"nahhas-irab:5-5": {
+"p1": {
+"ar": "f21918ecb197",
+"tr": "f274b8d198f0",
+"en": "6f04d6efb0ce",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:16",
+"fixed": false
+}
+},
+"nahhas-irab:6-6": {
+"p1": {
+"ar": "584abcab7e57",
+"tr": "d000b570a1d3",
+"en": "d6a9ddcdb666",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:16",
+"fixed": false
+}
+},
+"nahhas-irab:7-7": {
+"p1": {
+"ar": "d1ec60e83798",
+"tr": "e7dd488953d3",
+"en": "5e4e1fdf9856",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:16",
+"fixed": false
+}
+},
+"nahhas-irab:8-9": {
+"p1": {
+"ar": "80bfe522bfbc",
+"tr": "035b35ce71eb",
+"en": "22124b28e271",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish had unmarked \"(Bir alim)\" as subject of قال; replaced with Dedi ki",
+"by": "nahhas-irab-p1-u4",
+"at": "2026-10-17 00:08",
+"fixed": true
+},
+"p2": {
+"ar": "80bfe522bfbc",
+"tr": "035b35ce71eb",
+"en": "22124b28e271",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u7",
+"at": "2026-10-17 00:17",
+"fixed": false
+}
+},
+"nahhas-irab:10-10": {
+"p1": {
+"ar": "682f2b230b23",
+"tr": "67bd286e915c",
+"en": "f44564ab4e14",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:16",
+"fixed": false
+}
+},
+"nahhas-irab:11-11": {
+"p1": {
+"ar": "0ec15823d17f",
+"tr": "07c4bf6578ef",
+"en": "8e8f15e66d04",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:16",
+"fixed": false
+}
+},
+"nahhas-irab:12-13": {
+"p1": {
+"ar": "bfbdf993997b",
+"tr": "318fc26729a2",
+"en": "be04677f9a9c",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR added translator note for silent source-text normalization.",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:16",
+"fixed": true
+},
+"p2": {
+"ar": "bfbdf993997b",
+"tr": "318fc26729a2",
+"en": "be04677f9a9c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"nahhas-irab:17-17": {
+"p1": {
+"ar": "20739be5a7d3",
+"tr": "d9e9cd401bf3",
+"en": "bd19e0b43f9e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:16",
+"fixed": false
+}
+},
+"nahhas-irab:18-18": {
+"p1": {
+"ar": "00e6acb38a31",
+"tr": "f434a150efcb",
+"en": "b3a3e93db851",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:16",
+"fixed": false
+},
+"p2": {
+"ar": "00e6acb38a31",
+"tr": "f434a150efcb",
+"en": "b3a3e93db851",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"nahhas-irab:20-20": {
+"p1": {
+"ar": "8909a16f04f7",
+"tr": "6c445f96c8c5",
+"en": "6df5523b9e2d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:16",
+"fixed": false
+}
+}
+}

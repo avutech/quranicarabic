@@ -1,0 +1,172 @@
+{
+"semin-durr:7-7": {
+"p1": {
+"ar": "20e3b6a96e54",
+"tr": "d356655c4e3c",
+"en": "2169be0ec986",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u97",
+"at": "2026-10-10 19:45",
+"fixed": false
+}
+},
+"semin-durr:1-1": {
+"p1": {
+"ar": "7a8bcb44f202",
+"tr": "5a6f5b103f2e",
+"en": "6d875eafd047",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish verse 33 rendered «رخمان» as \"Rahmân\" (the Name), losing the خ the verse is cited for; changed to «رَخْمان»",
+"by": "semin-durr-p1-u5",
+"at": "2026-10-17 00:16",
+"fixed": true
+},
+"p2": {
+"ar": "7a8bcb44f202",
+"tr": "5a6f5b103f2e",
+"en": "6d875eafd047",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u8",
+"at": "2026-10-17 00:30",
+"fixed": false
+}
+},
+"semin-durr:2-2": {
+"p1": {
+"ar": "de78171377aa",
+"tr": "aa275134c0d9",
+"en": "e9fe0850e60f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p1-u3",
+"at": "2026-10-17 00:39",
+"fixed": false
+},
+"p2": {
+"ar": "de78171377aa",
+"tr": "aa275134c0d9",
+"en": "e9fe0850e60f",
+"fit": "OK",
+"trv": "FIXED",
+"env": null,
+"note": "TR: Raghib passage reordered the examples so \"ikincisinde\" pointed to height/beauty (Arabic \"والحمد يكون في الثاني دون الأول\" = spending/courage); order restored. EN: the English text is the commentary on 1:7 (\"صراط الذين\", badal kinds, أنعمت, غير المغضوب, آمين), not 1:2 (الحمد لله رب العالمين).",
+"by": "semin-durr-p2-u8",
+"at": "2026-10-17 00:30",
+"fixed": true
+}
+},
+"semin-durr:3-3": {
+"p1": {
+"ar": "492721c7e8ea",
+"tr": "da5e6551beeb",
+"en": "2dc4b254df22",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u3",
+"at": "2026-10-11 01:13",
+"fixed": false
+},
+"p2": {
+"ar": "492721c7e8ea",
+"tr": "da5e6551beeb",
+"en": "2dc4b254df22",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u8",
+"at": "2026-10-17 00:03",
+"fixed": false
+}
+},
+"semin-durr:4-4": {
+"p1": {
+"ar": "e4324a97e189",
+"tr": "c1c3ea2e2bf5",
+"en": "0cd0cbd2c769",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p1-u5",
+"at": "2026-10-17 00:18",
+"fixed": false
+},
+"p2": {
+"ar": "e4324a97e189",
+"tr": "c1c3ea2e2bf5",
+"en": "0cd0cbd2c769",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Both silently corrected the printed «مَلْك ومُلْك ومَلْك» to «ومِلْك» (now as printed + note); TR also silently changed «إذا مل» to «ما» and verse no. «5 - 6-» to 56, and added an unmarked lemma heading; EN added \"only\" to «يُضاف إلى غيرِ الملوك» and dropped «إنما» in verse 54. All fixed.",
+"by": "semin-durr-p2-u8",
+"at": "2026-10-17 00:03",
+"fixed": true
+}
+},
+"semin-durr:5-5": {
+"p1": {
+"ar": "b03e72b4b05d",
+"tr": "b6c42165896d",
+"en": "72ae3f724e27",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p1-u5",
+"at": "2026-10-17 00:19",
+"fixed": false
+},
+"p2": {
+"ar": "b03e72b4b05d",
+"tr": "b6c42165896d",
+"en": "72ae3f724e27",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR: unmarked bracket gloss on the Laylā anecdote (ADDITION) now marked, and silent correction of printed «الحمد الله» now noted; EN: gloss of «أي: رَجَع» was rendered as \"said: we belong to Allah…\" while the note claimed \"translated as written\"; now literal with an accurate note.",
+"by": "semin-durr-p2-u8",
+"at": "2026-10-17 00:04",
+"fixed": true
+}
+},
+"semin-durr:6-6": {
+"p1": {
+"ar": "9a387d795399",
+"tr": "00cde0a55180",
+"en": "3e05038cb6d5",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR: \"Zamirlerden başka hiçbiri\" reversed «غيره من الضمائر» (no OTHER pronoun), now \"Diğer zamirlerden hiçbiri\"; EN: omitted «عنده» in «إبدالها صاداً مطرد عنده», now \"regular in his view\"",
+"by": "semin-durr-p1-u5",
+"at": "2026-10-17 00:19",
+"fixed": true
+},
+"p2": {
+"ar": "9a387d795399",
+"tr": "00cde0a55180",
+"en": "3e05038cb6d5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u8",
+"at": "2026-10-17 00:31",
+"fixed": false
+}
+}
+}

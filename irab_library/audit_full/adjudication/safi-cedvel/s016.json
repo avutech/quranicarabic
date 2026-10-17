@@ -1,0 +1,42 @@
+{
+"safi-cedvel:4-8": {
+"hs": [
+"af9b61556ed4",
+"aa6f63575113",
+"ce1b918a8406"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Sarf (الإنسان): source «وإذا قالوا أنا سين فهو جمع بيّن مثل بستان وبساتين». EN prints 'When they say أناسين' and so silently corrects the source's «أنا سين» with no Translator's note (TR marks it with a Mütercim notu). In the same sentence EN also turns «وإذا قالوا أناسيّ كثيرا» (the Quranic phrase أناسيّ كثيرا, 25:49) into 'when they say أناسيّ often', which is wrong meaning, since كثيرا is part of the quoted phrase, as TR keeps it. Both need fixing.",
+"at": "2026-10-17 00:42"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic Sarf: «وإذا قالوا أنا سين فهو جمع بيّن» - written as two words أنا سين. English prints 'When they say أناسين' - a silent correction of the source with no «[Translator's note: …]» (Turkish keeps «أنا سين» and notes it). Fix: keep what is written and add a translator note. Also note: «وإذا قالوا أناسيّ كثيرا فخففوا» quotes the phrase أناسيّ كثيرا (cf. 25:49) but English renders 'when they say أناسيّ often', turning كثيرا into an adverb - should keep «أناسيّ كثيرا» as the quoted phrase.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Morphology الإنسان: kept source's «أنا سين» with Translator's note (أناسين meant); kept quoted phrase أناسيّ كثيرا instead of 'أناسيّ often'",
+"verified": "PASS",
+"verify_note": "Morphology (الإنسان) now keeps the written «أنا سين» with أناسين in a Translator's note, and keeps the quoted phrase «أناسيّ كثيرا» intact; rest of EN complete and faithful"
+}
+},
+"history": [
+{
+"old_hs": [
+"af9b61556ed4",
+"aa6f63575113",
+"147cddd01a66"
+],
+"dim": "en",
+"what": "Morphology الإنسان: kept source's «أنا سين» with Translator's note (أناسين meant); kept quoted phrase أناسيّ كثيرا instead of 'أناسيّ often'",
+"at": "2026-10-17 00:45"
+}
+]
+}
+}

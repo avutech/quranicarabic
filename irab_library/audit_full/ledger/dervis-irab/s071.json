@@ -1,0 +1,56 @@
+{
+"dervis-irab:1-9": {
+"p1": {
+"ar": "8caee44bd8fc",
+"tr": "29d0eaac6563",
+"en": "7941b35ef970",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u2",
+"at": "2026-10-11 01:12",
+"fixed": false
+}
+},
+"dervis-irab:10-20": {
+"p1": {
+"ar": "75c118e0b8e4",
+"tr": "e7f0ca71f0d3",
+"en": "e495104dca96",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Abu Hayyan quote \"wa-talqa'ahu\" (toward/in front of Him) had been rendered as \"O'na kavusmaya\" / \"your encounter with Him\"; changed to literal \"O'na dogru (talqa'ahu)\" / \"toward Him (talqa'ahu)\" in both languages. Rest checked complete and faithful.",
+"by": "dervis-irab-p1-u16",
+"at": "2026-10-17 00:08",
+"fixed": true
+},
+"p2": {
+"ar": "75c118e0b8e4",
+"tr": "e7f0ca71f0d3",
+"en": "e495104dca96",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u21",
+"at": "2026-10-17 00:19",
+"fixed": false
+}
+},
+"dervis-irab:21-28": {
+"p1": {
+"ar": "c7c5b09e8eb5",
+"tr": "c3de612f407b",
+"en": "de0d9cffaa19",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u2",
+"at": "2026-10-11 01:13",
+"fixed": false
+}
+}
+}

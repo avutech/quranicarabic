@@ -1,0 +1,42 @@
+{
+"safi-cedvel:1-1": {
+"p1": {
+"ar": "48471993f85c",
+"tr": "b9d9f7096539",
+"en": "3658e71052e2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p1-u7",
+"at": "2026-10-17 00:06",
+"fixed": false
+},
+"p2": {
+"ar": "48471993f85c",
+"tr": "b9d9f7096539",
+"en": "3658e71052e2",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR added unmarked \"(acı çekerek)\" to \"ومات أبرهة حتى انصدع صدره\"; removed. EN rendered \"حال عامله فعل\" as \"governed by a verb\" (the source means the verb فعل) and transliterated (الهمزة); both fixed.",
+"by": "safi-cedvel-p2-u23",
+"at": "2026-10-16 19:14",
+"fixed": true
+}
+},
+"safi-cedvel:2-5": {
+"p1": {
+"ar": "c8976e433741",
+"tr": "9538b55ec905",
+"en": "cdfed5b78877",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u65",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+}
+}

@@ -1,0 +1,82 @@
+{
+"farraa:1-1": {
+"p1": {
+"ar": "5db68c9458b9",
+"tr": "afbf83a498b8",
+"en": "2087a90276de",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:53",
+"fixed": false
+},
+"p2": {
+"ar": "5db68c9458b9",
+"tr": "afbf83a498b8",
+"en": "2087a90276de",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p2-u4",
+"at": "2026-10-16 19:02",
+"fixed": false
+}
+},
+"farraa:2-3": {
+"p1": {
+"ar": "e2ee85c91c48",
+"tr": "e770a4727e6c",
+"en": "269be4bde64b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:53",
+"fixed": false
+}
+},
+"farraa:4-4": {
+"p1": {
+"ar": "f51f804c8811",
+"tr": "dafb100400a8",
+"en": "6fc754522b00",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Both silently corrected source typos بالخير->بالخبر and مالك->ملك; TR also changed quoted قَتْلَ أَوْلاَدِهِمْ to قَتْلُ. Restored as written with notes.",
+"by": "farraa-u22",
+"at": "2026-10-10 15:53",
+"fixed": true
+},
+"p2": {
+"ar": "f51f804c8811",
+"tr": "dafb100400a8",
+"en": "6fc754522b00",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p2-u4",
+"at": "2026-10-16 19:02",
+"fixed": false
+}
+},
+"farraa:15-15": {
+"p1": {
+"ar": "fd01bd33bab4",
+"tr": "edc617220df3",
+"en": "881bfe0849cb",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:53",
+"fixed": false
+}
+}
+}

@@ -1,0 +1,42 @@
+{
+"zajjaj:3-3": {
+"hs": [
+"42c5605e8811",
+"fe0f04e88f2a",
+"d55db32f74cd"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: «فَلَمّا حُذِفَ المُضافُ بُنِيَ عَلى الوَقْفِ». EN body reads 'when the muḍāf ilayhi ... was omitted', i.e. the source is corrected in the running text instead of translated as written (TR correctly has 'muzâf'). The emendation is also not certain: from «لَيْسَ حِينَ أوانِنا» to «لاتَ أوانَ» the dropped element can be read as the muḍāf «حِينَ» as written. Fix: body 'when the muḍāf was omitted', with any conjecture kept only inside the [Translator's note: …].",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic «فَلَمّا حُذِفَ المُضافُ» says 'the muḍāf'; EN body writes 'when the muḍāf ilayhi was omitted', so the body corrects the source instead of translating it (TR correctly says 'muzâf'). The body should read 'muḍāf', and the observation should stay only in the translator's note.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Body now says 'muḍāf' as in the source, conjecture about muḍāf ilayhi kept only in the note; removed unmarked [with nominative] and [proper]; [لات] moved into a Translator's note",
+"verified": "PASS",
+"verify_note": "Body says 'the muḍāf' as written, muḍāf ilayhi conjecture only in Translator's note; unanswered-objection note marked; rest complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"42c5605e8811",
+"fe0f04e88f2a",
+"0418af07c777"
+],
+"dim": "en",
+"what": "Body now says 'muḍāf' as in the source, conjecture about muḍāf ilayhi kept only in the note; removed unmarked [with nominative] and [proper]; [لات] moved into a Translator's note",
+"at": "2026-10-17 00:44"
+}
+]
+}
+}

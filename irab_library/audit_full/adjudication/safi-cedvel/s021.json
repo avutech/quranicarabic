@@ -1,0 +1,42 @@
+{
+"safi-cedvel:63-63": {
+"hs": [
+"edc758348e63",
+"92c311593219",
+"6ccc4ec3f43f"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "The reviewer's omission claim is wrong: the EN does contain the whole Rhetoric/al-taʿrīḍ section. But the EN has a real meaning error there: Arabic «وإنما قصد تقريره لنفسه، وإثباته لها» (لها = نفسه, i.e. himself) is rendered 'to establish it for himself and affirm it for them'; it must be 'affirm it for himself'. Also the source's «أأنت كتب هذا؟» (misprint for كتبت) is silently corrected to 'Did you write this?' without the required [Translator's note] (TR flags it). Needs a fix.",
+"at": "2026-10-17 00:43"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "The claimed omission is not real: the stored English contains the whole Rhetoric (التعريض) section through «لا نفية عنك وإثباته للأميّ أو المخربش». But the reading has a wrong-meaning error there: «وإنما قصد تقريره لنفسه، وإثباته لها» means 'he intended to establish it for himself and affirm it for himself (لها = نفسه)', whereas the English says 'establish it for himself and affirm it for them', assigning the affirmation to the idolaters. Needs fixing to 'affirm it for himself'.",
+"at": "2026-10-17 00:44"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Rhetoric: 'affirm it for them' -> 'affirm it for himself' (لها = نفسه); added Translator's note that the source's أأنت كتب should be كتبت",
+"verified": "PASS",
+"verify_note": "Now 'affirm it for himself' (لها = نفسه); misprint كتب flagged in Translator's note instead of silent correction; EN complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"edc758348e63",
+"92c311593219",
+"a16d55506afe"
+],
+"dim": "en",
+"what": "Rhetoric: 'affirm it for them' -> 'affirm it for himself' (لها = نفسه); added Translator's note that the source's أأنت كتب should be كتبت",
+"at": "2026-10-17 00:45"
+}
+]
+}
+}

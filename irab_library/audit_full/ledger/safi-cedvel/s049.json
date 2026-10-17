@@ -1,0 +1,194 @@
+{
+"safi-cedvel:1-1": {
+"p1": {
+"ar": "7c2303f23fac",
+"tr": "6db0b9dbe535",
+"en": "0dabc8c02a7d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:31",
+"fixed": false
+}
+},
+"safi-cedvel:2-3": {
+"p1": {
+"ar": "0668a3596d9d",
+"tr": "3f5259a4788d",
+"en": "302c1df7e178",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:31",
+"fixed": false
+}
+},
+"safi-cedvel:4-5": {
+"p1": {
+"ar": "1dd30d415d7f",
+"tr": "12fcf71c6b8b",
+"en": "e51b0e686f35",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:31",
+"fixed": false
+}
+},
+"safi-cedvel:6-8": {
+"p1": {
+"ar": "8a0aca175388",
+"tr": "6a9f089c1f5a",
+"en": "12af593d7a1c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:32",
+"fixed": false
+}
+},
+"safi-cedvel:9-10": {
+"p1": {
+"ar": "89cb2ce33df6",
+"tr": "8a6cf3aeb144",
+"en": "7aa5eb1a8335",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:31",
+"fixed": false
+}
+},
+"safi-cedvel:11-11": {
+"p1": {
+"ar": "95a9bd1df143",
+"tr": "d25657fd9b04",
+"en": "57e882ea5042",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:32",
+"fixed": false
+}
+},
+"safi-cedvel:12-12": {
+"p1": {
+"ar": "b9e5b87f3133",
+"tr": "8a473abe09e7",
+"en": "bba68eba8ace",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN hadith of Anas said scratching their faces and their chests; Arabic says وجوههم ولحومهم (faces and flesh); corrected",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:32",
+"fixed": true
+},
+"p2": {
+"ar": "b9e5b87f3133",
+"tr": "8a473abe09e7",
+"en": "bba68eba8ace",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u22",
+"at": "2026-10-16 19:20",
+"fixed": false
+}
+},
+"safi-cedvel:13-13": {
+"p1": {
+"ar": "1f9eb64a5de6",
+"tr": "bfb025760fa6",
+"en": "6d1df2e3f065",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:32",
+"fixed": false
+}
+},
+"safi-cedvel:14-15": {
+"p1": {
+"ar": "d08e965a4fe3",
+"tr": "8ca7664d11b0",
+"en": "5e4acbf33fa4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:32",
+"fixed": false
+}
+},
+"safi-cedvel:16-16": {
+"p1": {
+"ar": "9b9c2c4c3392",
+"tr": "7519636ec9d7",
+"en": "91fa71467c99",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:32",
+"fixed": false
+}
+},
+"safi-cedvel:17-17": {
+"p1": {
+"ar": "2c48fff19dd7",
+"tr": "8bd483ce46b6",
+"en": "0659c4502a2d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:32",
+"fixed": false
+},
+"p2": {
+"ar": "2c48fff19dd7",
+"tr": "8bd483ce46b6",
+"en": "0659c4502a2d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u22",
+"at": "2026-10-16 19:20",
+"fixed": false
+}
+},
+"safi-cedvel:18-18": {
+"p1": {
+"ar": "05279a50e8df",
+"tr": "7a9efb8abb6f",
+"en": "3543def075b4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:32",
+"fixed": false
+}
+}
+}

@@ -1,0 +1,190 @@
+{
+"mekki-muskil:1-1": {
+"p1": {
+"ar": "1ec39d092121",
+"tr": "42a4df21c90f",
+"en": "15fec47047d7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:42",
+"fixed": false
+}
+},
+"mekki-muskil:14-14": {
+"p1": {
+"ar": "f9f6984ffeac",
+"tr": "4cb4d7f85d75",
+"en": "94b39aa32b12",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:42",
+"fixed": false
+},
+"p2": {
+"ar": "f9f6984ffeac",
+"tr": "4cb4d7f85d75",
+"en": "94b39aa32b12",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 17:37",
+"fixed": false
+}
+},
+"mekki-muskil:17-17": {
+"p1": {
+"ar": "9ea0faef005b",
+"tr": "5cfbf63c8fbf",
+"en": "3f193d2051fe",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "Only the first paragraph (مصبحين) is 68:17; the rest comments on 68:6 (بأيكم المفتون) and 68:15 (قال أساطير الأولين).",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:42",
+"fixed": false
+},
+"p2": {
+"ar": "9ea0faef005b",
+"tr": "5cfbf63c8fbf",
+"en": "3f193d2051fe",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "Only \"مصبحين\" is about 68:17; \"بأيكم المفتون\" (with the Mushaf-orthography excursus) belongs to 68:6 and \"قال أساطير الأولين\" to 68:15; translations complete and faithful.",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 17:37",
+"fixed": false
+}
+},
+"mekki-muskil:33-33": {
+"p1": {
+"ar": "d1c368113acc",
+"tr": "aad46f9386d3",
+"en": "91503aa29413",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:42",
+"fixed": false
+}
+},
+"mekki-muskil:39-39": {
+"p1": {
+"ar": "3bdb48ccff54",
+"tr": "d15b9794b968",
+"en": "1f0bf31a67e7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:42",
+"fixed": false
+}
+},
+"mekki-muskil:42-42": {
+"p1": {
+"ar": "5ac49a42d268",
+"tr": "0e4c4702ce06",
+"en": "c8d807c68fc8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:42",
+"fixed": false
+}
+},
+"mekki-muskil:43-43": {
+"p1": {
+"ar": "0f0a85c0c250",
+"tr": "2a98cc9363e8",
+"en": "4863882b42f8",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Removed unmarked glosses \"(olan خاشعة)\", \"(müstakil)\" in TR and bracketed \"[i.e. ...]\" in EN.",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:42",
+"fixed": true
+},
+"p2": {
+"ar": "0f0a85c0c250",
+"tr": "2a98cc9363e8",
+"en": "4863882b42f8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 17:37",
+"fixed": false
+}
+},
+"mekki-muskil:44-44": {
+"p1": {
+"ar": "b17d8fae1127",
+"tr": "56df44a7528f",
+"en": "78c8c5eb48cc",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:42",
+"fixed": false
+}
+},
+"mekki-muskil:49-49": {
+"p1": {
+"ar": "92f642548c64",
+"tr": "8ad7e7ef54e0",
+"en": "7755c5bbf49a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:42",
+"fixed": false
+}
+},
+"mekki-muskil:51-51": {
+"p1": {
+"ar": "f426524bf908",
+"tr": "9974128660de",
+"en": "3daad882024f",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish had unmarked parenthetical paraphrase after the takdir (inkâr edenler neredeyse seni (gözleriyle) devirecekler) which adds \"gözleriyle\" and drops the \"nothing but\" sense; removed.",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:42",
+"fixed": true
+},
+"p2": {
+"ar": "f426524bf908",
+"tr": "9974128660de",
+"en": "3daad882024f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 17:37",
+"fixed": false
+}
+}
+}

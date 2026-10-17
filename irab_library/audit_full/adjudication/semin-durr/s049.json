@@ -1,0 +1,42 @@
+{
+"semin-durr:12-12": {
+"hs": [
+"d1ef850611ee",
+"2a386b7ef3d9",
+"6999b0ad7eee"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic says only «وقد قرأ هنا بالحاء الحسنُ وأبو رجاء وابن سيرين» (read it here with ḥāʾ) and gives no word form. TR adds unmarked «(حَسَّسوا)» after 'ha ile'; this gloss is not in the source and moreover is not the correct reading form (it would be ولا تَحَسَّسوا, with the ta). Must be removed or put in a [Mütercim notu: ...] with the correct form تَحَسَّسوا.",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic says only: وقد قرأ هنا بالحاء الحسنُ وأبو رجاء وابن سيرين. TR adds unmarked '(حَسَّسوا)' after '«ha» ile', supplying the reading form that the source does not write. Must be placed inside [Mütercim notu: ...].",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Unmarked '(حَسَّسوا)' removed; reading form given inside a Mütercim notu with the correct form «ولا تَحَسَّسوا»",
+"verified": "PASS",
+"verify_note": "The reading form is now given only in [Mütercim notu: yani «ولا تَحَسَّسوا».], with the correct form; the rest is faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"d1ef850611ee",
+"b011e0b7a269",
+"6999b0ad7eee"
+],
+"dim": "tr",
+"what": "Unmarked '(حَسَّسوا)' removed; reading form given inside a Mütercim notu with the correct form «ولا تَحَسَّسوا»",
+"at": "2026-10-17 00:47"
+}
+]
+}
+}

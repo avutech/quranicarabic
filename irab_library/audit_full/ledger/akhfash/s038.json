@@ -1,0 +1,96 @@
+{
+"akhfash:1-1": {
+"p1": {
+"ar": "f2f0565b61cc",
+"tr": "f6bb4623547c",
+"en": "1b516d2eeaa0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+},
+"akhfash:3-3": {
+"p1": {
+"ar": "c0fdfeb831ae",
+"tr": "1f8c947f9770",
+"en": "9399eb61bb6b",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR verse gloss rendered بقاء as \"beka (baris)\"; baris is not in the Arabic; changed to ayakta kalma (beka)",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:46",
+"fixed": true
+},
+"p2": {
+"ar": "c0fdfeb831ae",
+"tr": "1f8c947f9770",
+"en": "9399eb61bb6b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-p2-u1",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"akhfash:5-5": {
+"p1": {
+"ar": "3fd1b8f395b5",
+"tr": "ca7e2961f1d0",
+"en": "425d3fbf163c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+},
+"akhfash:33-33": {
+"p1": {
+"ar": "f6dfef41249f",
+"tr": "7602b090885f",
+"en": "4ce3a3701805",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+},
+"akhfash:36-36": {
+"p1": {
+"ar": "52f8ab6e4c5d",
+"tr": "3acd6d2587ea",
+"en": "4439ffafbfe8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:46",
+"fixed": false
+},
+"p2": {
+"ar": "52f8ab6e4c5d",
+"tr": "3acd6d2587ea",
+"en": "4439ffafbfe8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-p2-u1",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+}
+}

@@ -1,0 +1,68 @@
+{
+"dervis-irab:10-19": {
+"p1": {
+"ar": "fe72a8e86a37",
+"tr": "14259dbb3d72",
+"en": "cc092410bc6b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u16",
+"at": "2026-10-17 00:09",
+"fixed": false
+},
+"p2": {
+"ar": "fe72a8e86a37",
+"tr": "14259dbb3d72",
+"en": "cc092410bc6b",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR dropped the restriction in \"وإنما فتح لإضافته إلى غير متمكن\" (added \"ancak\"); EN silently normalised the source spelling \"واحدها لا بدّ\" to \"lābid\" (now kept as written with a marked translator note).",
+"by": "dervis-irab-p2-u37",
+"at": "2026-10-16 19:21",
+"fixed": true
+}
+},
+"dervis-irab:20-28": {
+"p1": {
+"ar": "5aa783aa654f",
+"tr": "f39f9fc4d125",
+"en": "442154560d90",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u16",
+"at": "2026-10-17 00:06",
+"fixed": false
+},
+"p2": {
+"ar": "5aa783aa654f",
+"tr": "f39f9fc4d125",
+"en": "442154560d90",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Both reversed Ibn al-Munayyir's restriction \"ولا يكون كرامة وخارق العادة إلا الاطلاع على الغيب لا غير\" into \"is not only\"; now rendered as written with notes. Also EN silently corrected \"الانفعال\" and both silently corrected \"أبلغ عند الله\" (now marked notes); TR weakened \"وما القدرية إلا ولهم شبهة\".",
+"by": "dervis-irab-p2-u37",
+"at": "2026-10-16 19:28",
+"fixed": true
+}
+},
+"dervis-irab:1-9": {
+"p1": {
+"ar": "47b20c6b6d27",
+"tr": "a3ee655b94ea",
+"en": "c3f7aaa0b0d4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u2",
+"at": "2026-10-11 01:38",
+"fixed": false
+}
+}
+}

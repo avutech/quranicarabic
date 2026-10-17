@@ -1,0 +1,27 @@
+{
+"safi-cedvel:10-11": {
+"hs": [
+"79f2811faeab",
+"b3a6174b9e3c",
+"0e79fcd6d0b3"
+],
+"dims": {
+"fit": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Entry parses 15:10 «أرسلنا... من قبلك... في شيع الأوّلين» and 15:11 «ما يأتيهم من رسول... كانوا.. يستهزئون», Sarf on (شيع) of 15:10; the Balagha cites 15:9 «إنا نحن نزلنا الذكر» only as the context for «ولقد أرسلنا من قبلك» (15:10). The dangling «يطلق على:» at the end is a small truncation already flagged in both readings; the entry is complete enough to place and is correctly filed under 10-11.",
+"at": "2026-10-17 00:42"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Entry parses exactly 10-11: «أرسلنا ... من قبلك ... في شيع الأوّلين» (15:10) and «ما يأتيهم من رسول إلّا كانوا به يستهزئون» (15:11); Sarf on (شيع) belongs to 10; the Balagha cites «إنا نحن نزلنا الذكر» (9) only as the link to «ولقد أرسلنا من قبلك» (10). Placement is correct. The dangling «يطلق على:» is a trailing truncation of one sentence, not a garbled entry, and both readings flag it.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

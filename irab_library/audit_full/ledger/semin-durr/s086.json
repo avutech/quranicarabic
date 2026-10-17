@@ -1,0 +1,140 @@
+{
+"semin-durr:1-1": {
+"p1": {
+"ar": "3190ba1e077e",
+"tr": "b2d89995389f",
+"en": "c2146a4f55dd",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:40",
+"fixed": false
+}
+},
+"semin-durr:4-4": {
+"p1": {
+"ar": "ca303f7d5994",
+"tr": "c117a4c33cf7",
+"en": "983e844225bc",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:40",
+"fixed": false
+}
+},
+"semin-durr:6-6": {
+"p1": {
+"ar": "d0f91ef3b33d",
+"tr": "452d1d725feb",
+"en": "501f132ccf7a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:40",
+"fixed": false
+}
+},
+"semin-durr:7-7": {
+"p1": {
+"ar": "38e852f520bc",
+"tr": "11de528f3452",
+"en": "0f63c368115a",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish verse 4543 gloss said 'bir belde' (a town) for في صَلَبٍ (in a back); corrected to 'bel'",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:40",
+"fixed": true
+},
+"p2": {
+"ar": "38e852f520bc",
+"tr": "11de528f3452",
+"en": "0f63c368115a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u20",
+"at": "2026-10-17 00:06",
+"fixed": false
+}
+},
+"semin-durr:8-8": {
+"p1": {
+"ar": "4c6f6d959315",
+"tr": "d83fa036eedc",
+"en": "a4253ead6181",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:40",
+"fixed": false
+}
+},
+"semin-durr:9-9": {
+"p1": {
+"ar": "ddb49b7528c0",
+"tr": "2fa1ca3c8a98",
+"en": "13ba21cc763b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:40",
+"fixed": false
+}
+},
+"semin-durr:11-11": {
+"p1": {
+"ar": "1c3dbcf3fc39",
+"tr": "e71a293efa15",
+"en": "0703545e8ea3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:40",
+"fixed": false
+}
+},
+"semin-durr:13-13": {
+"p1": {
+"ar": "64cb964e14b1",
+"tr": "ffc333aa0ded",
+"en": "caecd47c447a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:40",
+"fixed": false
+}
+},
+"semin-durr:17-17": {
+"p1": {
+"ar": "f7cf1f4f61ef",
+"tr": "d25cf8249721",
+"en": "07d1f311b2c7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:40",
+"fixed": false
+}
+}
+}

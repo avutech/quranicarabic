@@ -1,0 +1,103 @@
+{
+"zajjaj:3-3": {
+"hs": [
+"1a91bfbf1caf",
+"e5b40021f3e1",
+"fa3a4de81d2b"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic «قالَ أصْحابُنا: إنَّهُ اجْتَمَعَ فِيهِ عِلَّتانِ» says only 'our colleagues/our school said'; TR «Bizim mezhebimizdekiler (Basralılar) şöyle demiştir» adds '(Basralılar)', an identification not in the Arabic and not inside a [Mütercim notu]. It must be moved into «[Mütercim notu: …]».",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic «قالَ أصْحابُنا: إنَّهُ اجْتَمَعَ فِيهِ عِلَّتانِ» is rendered «Bizim mezhebimizdekiler (Basralılar) şöyle demiştir»: '(Basralılar)' is an identification not in the source and not marked; it must be in «[Mütercim notu: …]» (or omitted). Similar unmarked glosses: «Ebü'l-Abbâs Muhammed b. Yezîd (Müberred)» for «أبُو العَبّاسِ مُحَمَّدُ بْنُ يَزِيدَ», and «hafif saymamız (munsarif kılmamız)» for «نُخَفِّفَهُ». The underlying meaning is otherwise accurate.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked addition '(de buna delildir)' after Nisa 127 citation; removed unmarked '(sayıda)' (ما ذكر الله -> andığı kimselerle) and '(sayıda)' in ونحو ذلك; '(Bir diğer) anlam' -> 'Anlam ayrıca şudur' for ومعنى",
+"verify_note": "Earlier points fixed (Basralılar, Müberred, munsarif now in Mütercim notu; '(sayıda)' and 'kavli (de buna delildir)' removed). But content additions not in the Arabic are still unmarked in parentheses: 'müennes (bir lafız)dan' for عُدِلَ عَنْ تَأْنِيثٍ; 'Bize dokuz (kadın)' for أُحِلَّ لَنا تِسْعٌ; 'tek bir kadın da (kocasına) aile yükü getirir' for الواحِدَةَ تُعَوِّلُ; 'sağ elin sahip olduğu (câriye)lerin' for ما مَلَكَتِ اليَمِينُ. Each must go inside [Mütercim notu: …] or be removed.",
+"fix_failed": 3,
+"verified": null
+}
+},
+"history": [
+{
+"old_hs": [
+"1a91bfbf1caf",
+"fa24813d9f96",
+"fa3a4de81d2b"
+],
+"dim": "tr",
+"what": "Moved unmarked glosses (Basralılar), (Müberred), (munsarif kılmamız) into Mütercim notları",
+"at": "2026-10-17 00:44"
+},
+{
+"old_hs": [
+"1a91bfbf1caf",
+"e1a5b7ad73a6",
+"fa3a4de81d2b"
+],
+"dim": "tr",
+"what": "Removed unmarked addition '(de buna delildir)' after Nisa 127 citation; removed unmarked '(sayıda)' (ما ذكر الله -> andığı kimselerle) and '(sayıda)' in ونحو ذلك; '(Bir diğer) anlam' -> 'Anlam ayrıca şudur' for ومعنى",
+"at": "2026-10-17 00:47"
+}
+]
+},
+"zajjaj:80-80": {
+"hs": [
+"12da29858f60",
+"5653e06c9483",
+"6e7c0b05dd6b"
+],
+"dims": {
+"fit": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Both paragraphs explain 4:80 only: «مَن يُطِعِ الرَّسُولَ فَقَدْ أطاعَ اللَّهَ» and «وَمَن تَوَلّى فَما أرْسَلْناكَ عَلَيْهِمْ حَفِيظًا». The final «والدَّلِيلُ عَلى ذَلِكَ ما يَتْلُوهُ، وهو قَوْلُهُ:» merely announces the following ayah as evidence (continued in the next entry), which is permitted; 4:81 is not discussed here. Placement 80-80 is correct.",
+"at": "2026-10-17 00:40"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Both paragraphs explain 4:80: ﴿مَن يُطِعِ الرَّسُولَ فَقَدْ أطاعَ اللَّهَ﴾ and ﴿وَمَن تَوَلّى فَما أرْسَلْناكَ عَلَيْهِمْ حَفِيظًا﴾. The closing «والدَّلِيلُ عَلى ذَلِكَ ما يَتْلُوهُ، وهو قَوْلُهُ:» merely points to the following ayah (continued in the next entry), which is allowed; filing under 80-80 is correct.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+},
+"zajjaj:105-105": {
+"hs": [
+"9265a56c7f44",
+"f90fa4efb617",
+"4b515e050d92"
+],
+"dims": {
+"fit": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "The entry glosses «إنّا أنْـزَلْنا إلَيْكَ الكِتابَ بِالحَقِّ لِتَحْكُمَ بَيْنَ النّاسِ بِما أراكَ اللَّهُ» and «وَلا تَكُنْ لِلْخائِنِينَ خَصِيمًا», then gives the Ṭuʿma story as the occasion of «خَصِيمًا». The closing «وأمَرَهُ بِالِاسْتِغْفارِ ... فَقالَ:» only introduces the next ayah (4:106 واسْتَغْفِرِ اللَّهَ), which is quoted and treated in the following entry; the ayah is not discussed here. Ending at «فَقالَ:» is an entry boundary, not garbling. Placement 105-105 is correct.",
+"at": "2026-10-17 00:40"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "The entry explains 4:105: ﴿إنّا أنْـزَلْنا إلَيْكَ الكِتابَ بِالحَقِّ لِتَحْكُمَ بَيْنَ النّاسِ بِما أراكَ اللَّهُ﴾ and ﴿وَلا تَكُنْ لِلْخائِنِينَ خَصِيمًا﴾, plus the Ṭuʿma occasion of revelation for that prohibition. The closing «وأمَرَهُ بِالِاسْتِغْفارِ ... فَقالَ:» only leads into the next ayah (4:106), whose quotation continues in the next entry; this is commenting toward a following ayah, not substantive discussion of it. Filing 105-105 is correct.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

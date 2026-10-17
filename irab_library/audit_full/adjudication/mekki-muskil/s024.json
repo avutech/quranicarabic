@@ -1,0 +1,29 @@
+{
+"mekki-muskil:40-40": {
+"hs": [
+"8d4f580451b6",
+"2ace17849141",
+"e27027458425"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "MISPLACED",
+"evidence": "First paragraph {ظلمات} ... بعضها/من فوقه ... السحاب is 24:40 «ظلمات بعضها فوق بعض ... من فوقه سحاب» (correct). Second paragraph {لا تحسبن الذين كفروا معجزين} (yāʾ/tāʾ readings, objects of حسب) is 24:57 «لا تحسبن الذين كفروا معجزين في الأرض», a substantive discussion of another ayah; range must include 57.",
+"at": "2026-10-17 00:39",
+"ayahs": "40-57"
+},
+"J2": {
+"class": "MISPLACED",
+"evidence": "First paragraph {ظلمات}... والسحاب مرفوع ... ومن فوقه = 24:40; second paragraph «قَوْله {لَا تحسبن الَّذين كفرُوا معجزين}» parses لَا تَحْسَبَنَّ ٱلَّذِينَ كَفَرُوا۟ مُعْجِزِينَ فِى ٱلْأَرْضِ = 24:57. Entry covers 40 and 57.",
+"at": "2026-10-17 00:39",
+"ayahs": "40-57"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+}
+}

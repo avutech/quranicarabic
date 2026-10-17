@@ -1,0 +1,374 @@
+{
+"dervis-irab:52-68": {
+"p1": {
+"ar": "1b14c629c734",
+"tr": "5858b44a3048",
+"en": "61c4b718bf5f",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "Amr letter: \"وطما في درته\" was rendered \"withdraws within its bounds\" (opposite sense); changed to \"swells in its flow\".",
+"by": "dervis-irab-u84",
+"at": "2026-10-10 19:37",
+"fixed": true
+},
+"p2": {
+"ar": "1b14c629c734",
+"tr": "5858b44a3048",
+"en": "61c4b718bf5f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u32",
+"at": "2026-10-16 19:28",
+"fixed": false
+}
+},
+"dervis-irab:69-89": {
+"p1": {
+"ar": "f8b39808bde1",
+"tr": "85175a61ccbc",
+"en": "fcf06c03e30e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u4",
+"at": "2026-10-17 01:07",
+"fixed": false
+},
+"p2": {
+"ar": "f8b39808bde1",
+"tr": "85175a61ccbc",
+"en": "fcf06c03e30e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u3",
+"at": "2026-10-17 01:10",
+"fixed": false
+}
+},
+"dervis-irab:90-104": {
+"p1": {
+"ar": "85db62333e63",
+"tr": "984f3c3d9f54",
+"en": "a27cd6e21f78",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u84",
+"at": "2026-10-10 19:38",
+"fixed": false
+}
+},
+"dervis-irab:105-122": {
+"p1": {
+"ar": "f8877ec88b7b",
+"tr": "0c15c5638f05",
+"en": "9109e23e8cd0",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English silently changed source typo «الفاء» (before وأطيعون) to wāw; now rendered as written with a translator note.",
+"by": "dervis-irab-u84",
+"at": "2026-10-10 19:38",
+"fixed": true
+},
+"p2": {
+"ar": "f8877ec88b7b",
+"tr": "0c15c5638f05",
+"en": "9109e23e8cd0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u3",
+"at": "2026-10-17 00:03",
+"fixed": false
+}
+},
+"dervis-irab:123-140": {
+"p1": {
+"ar": "84bb891d2ab7",
+"tr": "f64e00b7f5cc",
+"en": "170fcbc5aa31",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u84",
+"at": "2026-10-10 19:38",
+"fixed": false
+}
+},
+"dervis-irab:141-159": {
+"p1": {
+"ar": "9345109422aa",
+"tr": "984e8b406ecb",
+"en": "d714581736e2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u4",
+"at": "2026-10-17 01:08",
+"fixed": false
+},
+"p2": {
+"ar": "9345109422aa",
+"tr": "984e8b406ecb",
+"en": "d714581736e2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u3",
+"at": "2026-10-17 01:10",
+"fixed": false
+}
+},
+"dervis-irab:160-175": {
+"p1": {
+"ar": "07bb7fac1c2a",
+"tr": "0ad7c86bb441",
+"en": "63394d1d3bee",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English silently corrected source typo «إقبالهنّ» to fronts; now rendered as written with translator note.",
+"by": "dervis-irab-u84",
+"at": "2026-10-10 19:39",
+"fixed": true
+},
+"p2": {
+"ar": "07bb7fac1c2a",
+"tr": "0ad7c86bb441",
+"en": "63394d1d3bee",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u3",
+"at": "2026-10-17 00:04",
+"fixed": false
+}
+},
+"dervis-irab:176-191": {
+"p1": {
+"ar": "985e2adabe01",
+"tr": "ad9880104afb",
+"en": "2d48c317abda",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN: unmarked \"(i.e. the sin)\" after the ayn moved into a Translator note",
+"by": "dervis-irab-u84",
+"at": "2026-10-10 19:39",
+"fixed": true
+},
+"p2": {
+"ar": "985e2adabe01",
+"tr": "ad9880104afb",
+"en": "2d48c317abda",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u3",
+"at": "2026-10-17 00:05",
+"fixed": false
+}
+},
+"dervis-irab:192-203": {
+"p1": {
+"ar": "33bba71ac21e",
+"tr": "15cdade33fa4",
+"en": "154b24afd860",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u84",
+"at": "2026-10-10 19:40",
+"fixed": false
+}
+},
+"dervis-irab:204-220": {
+"p1": {
+"ar": "085ce350bec8",
+"tr": "d98203e7620a",
+"en": "83d48da16340",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR: unmarked additions \"(azabi)\", \"(Ikinci)\" and tenazu gloss removed. EN: unmarked gloss \"(of the implied condition)\" removed.",
+"by": "dervis-irab-p1-u2",
+"at": "2026-10-17 00:19",
+"fixed": true
+},
+"p2": {
+"ar": "085ce350bec8",
+"tr": "d98203e7620a",
+"en": "83d48da16340",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u1",
+"at": "2026-10-17 00:32",
+"fixed": false
+}
+},
+"dervis-irab:221-227": {
+"p1": {
+"ar": "ea2f22f96e6c",
+"tr": "f5838bd486c4",
+"en": "b8146d348769",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR: unmarked insertion \"(saçını sakalını)\" removed (Hasan dyed, mukhtadib). EN: unmarked \"(with henna)\" removed and \"[in rhymed prose]\" moved into a Translator note.",
+"by": "dervis-irab-u84",
+"at": "2026-10-10 19:41",
+"fixed": true
+},
+"p2": {
+"ar": "ea2f22f96e6c",
+"tr": "f5838bd486c4",
+"en": "b8146d348769",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u32",
+"at": "2026-10-16 19:17",
+"fixed": false
+}
+},
+"dervis-irab:1-9": {
+"p1": {
+"ar": "5f4d5abc4da8",
+"tr": "95c3bbc5d35e",
+"en": "3cb2b01c5720",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u84",
+"at": "2026-10-10 19:42",
+"fixed": false
+}
+},
+"dervis-irab:10-17": {
+"p1": {
+"ar": "568b999df99e",
+"tr": "3ac676e4973b",
+"en": "765daa7754a2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u84",
+"at": "2026-10-10 19:42",
+"fixed": false
+}
+},
+"dervis-irab:18-22": {
+"p1": {
+"ar": "bb2b2b424ca1",
+"tr": "0efd6c1e7b37",
+"en": "abfd1d22fe70",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR rendered «نضحك منه» as \"onunla eğleniriz\" (with him); now \"ona güleriz\". EN had an unsupported insertion \"[al-Suyūṭī]\" after al-Jalāl; removed.",
+"by": "dervis-irab-u84",
+"at": "2026-10-10 19:42",
+"fixed": true
+},
+"p2": {
+"ar": "bb2b2b424ca1",
+"tr": "0efd6c1e7b37",
+"en": "abfd1d22fe70",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u3",
+"at": "2026-10-17 00:02",
+"fixed": false
+}
+},
+"dervis-irab:23-31": {
+"p1": {
+"ar": "e0537bfc973d",
+"tr": "09d6b26b33a1",
+"en": "12461ab9492e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u84",
+"at": "2026-10-10 19:43",
+"fixed": false
+}
+},
+"dervis-irab:32-37": {
+"p1": {
+"ar": "3253637e3422",
+"tr": "31fa1543c390",
+"en": "489a2390401f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u4",
+"at": "2026-10-17 01:10",
+"fixed": false
+},
+"p2": {
+"ar": "3253637e3422",
+"tr": "31fa1543c390",
+"en": "489a2390401f",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "Abu Duad verse gloss rendered «وكل قائمة» as \"Every one standing\"; قائمة here is a leg (as in the preceding verse and the Turkish), corrected to \"Every leg\".",
+"by": "dervis-irab-p2-u11",
+"at": "2026-10-17 01:07",
+"fixed": true
+}
+},
+"dervis-irab:38-44": {
+"p1": {
+"ar": "9ce09a6ea35c",
+"tr": "59ea060d60e5",
+"en": "a64c3e045f10",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u84",
+"at": "2026-10-10 19:43",
+"fixed": false
+}
+},
+"dervis-irab:45-51": {
+"p1": {
+"ar": "81726318e8e1",
+"tr": "1f3ca2887765",
+"en": "a4e3a0335089",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u84",
+"at": "2026-10-10 19:43",
+"fixed": false
+}
+}
+}

@@ -1,0 +1,42 @@
+{
+"safi-cedvel:84-86": {
+"hs": [
+"2a62fd207a49",
+"ff9e7fb0ec96",
+"93faa02c02be"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Sarf: «(بقيّة) ، رسمت في المصحف بالتاء المفتوحة، وليس في القرآن غيرها رسمت كذلك». EN: 'written in the Muṣḥaf with the open tāʾ (بقيت)' - '(بقيت)' is not in the Arabic and not inside a [Translator's note: ...]; unmarked addition. Fix: remove or move into the existing Translator's note. TR has no such addition.",
+"at": "2026-10-17 00:42"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic Sarf: «(بقيّة) ، رسمت في المصحف بالتاء المفتوحة، وليس في القرآن غيرها رسمت كذلك» - no spelled form is given. English: 'written in the Muṣḥaf with the open tāʾ (بقيت)' adds the form «(بقيت)» outside any «[Translator's note: …]», an unmarked addition. Fix: remove it or move it into the existing translator note.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Morphology بقيّة: removed unmarked '(بقيت)'",
+"verified": "PASS",
+"verify_note": "'(بقيت)' addition removed from Morphology; EN complete and faithful, remaining note is marked Translator's note"
+}
+},
+"history": [
+{
+"old_hs": [
+"2a62fd207a49",
+"ff9e7fb0ec96",
+"18e4c0676162"
+],
+"dim": "en",
+"what": "Morphology بقيّة: removed unmarked '(بقيت)'",
+"at": "2026-10-17 00:45"
+}
+]
+}
+}

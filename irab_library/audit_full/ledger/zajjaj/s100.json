@@ -1,0 +1,152 @@
+{
+"zajjaj:1-1": {
+"p1": {
+"ar": "133522f729eb",
+"tr": "1fc5d3fcc35a",
+"en": "68b6f1da1234",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u10",
+"at": "2026-10-10 19:15",
+"fixed": false
+}
+},
+"zajjaj:2-2": {
+"p1": {
+"ar": "9fcd84f148e3",
+"tr": "4ee594e283f6",
+"en": "50e31da051f6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u10",
+"at": "2026-10-10 19:15",
+"fixed": false
+}
+},
+"zajjaj:3-3": {
+"p1": {
+"ar": "483e630e3bd1",
+"tr": "2fe2447f3135",
+"en": "10ac9470bb2a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u10",
+"at": "2026-10-10 19:15",
+"fixed": false
+},
+"p2": {
+"ar": "483e630e3bd1",
+"tr": "2fe2447f3135",
+"en": "10ac9470bb2a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-p2-u12",
+"at": "2026-10-16 19:05",
+"fixed": false
+}
+},
+"zajjaj:4-4": {
+"p1": {
+"ar": "a54b53c8a675",
+"tr": "c92b03c20cd8",
+"en": "12c28330c888",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u10",
+"at": "2026-10-10 19:15",
+"fixed": false
+}
+},
+"zajjaj:5-5": {
+"p1": {
+"ar": "8925a8bdf1df",
+"tr": "e7b18d670997",
+"en": "894d32a13509",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u10",
+"at": "2026-10-10 19:15",
+"fixed": false
+}
+},
+"zajjaj:6-6": {
+"p1": {
+"ar": "2857d6f39a5f",
+"tr": "3be0a649cb98",
+"en": "78b604b8c2ca",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u10",
+"at": "2026-10-10 19:15",
+"fixed": false
+}
+},
+"zajjaj:8-8": {
+"p1": {
+"ar": "b7a96659c16c",
+"tr": "ac866a8a8139",
+"en": "c72ecd7935aa",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u10",
+"at": "2026-10-10 19:15",
+"fixed": false
+}
+},
+"zajjaj:9-9": {
+"p1": {
+"ar": "35c8e397d19b",
+"tr": "9ab099bf33a5",
+"en": "ea880aaf01ec",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u10",
+"at": "2026-10-10 19:15",
+"fixed": false
+}
+},
+"zajjaj:11-11": {
+"p1": {
+"ar": "1e299b9fc044",
+"tr": "92f5d639d1c9",
+"en": "050e099da324",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish translator note guessed that \"يَتْرُكُ مُجازاتِهِمْ\" means postponing punishment, contradicting the argument (requital by His knowledge) and the English note; the note now reads as a tentative sense consistent with the context",
+"by": "zajjaj-p1-u4",
+"at": "2026-10-17 00:06",
+"fixed": true
+},
+"p2": {
+"ar": "1e299b9fc044",
+"tr": "92f5d639d1c9",
+"en": "050e099da324",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-p2-u8",
+"at": "2026-10-17 00:16",
+"fixed": false
+}
+}
+}

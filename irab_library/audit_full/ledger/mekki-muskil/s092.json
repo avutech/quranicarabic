@@ -1,0 +1,84 @@
+{
+"mekki-muskil:3-3": {
+"p1": {
+"ar": "b19be1db7c8a",
+"tr": "70c559e6ef01",
+"en": "0e6ac6c7de59",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u6",
+"at": "2026-10-10 15:41",
+"fixed": false
+}
+},
+"mekki-muskil:5-5": {
+"p1": {
+"ar": "f128db3e04d6",
+"tr": "510ff23c1ebb",
+"en": "34c0bf4fa366",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u6",
+"at": "2026-10-10 15:41",
+"fixed": false
+}
+},
+"mekki-muskil:11-11": {
+"p1": {
+"ar": "355ceef33567",
+"tr": "c8a3e3816c73",
+"en": "3d536cc09077",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u6",
+"at": "2026-10-10 15:41",
+"fixed": false
+}
+},
+"mekki-muskil:12-12": {
+"p1": {
+"ar": "a72f1e6476b4",
+"tr": "37671eb2810e",
+"en": "0472503bb402",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u6",
+"at": "2026-10-10 15:41",
+"fixed": false
+}
+},
+"mekki-muskil:20-20": {
+"p1": {
+"ar": "e7df07271cbc",
+"tr": "d963a417f9f3",
+"en": "124cb14a405d",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "Second comment (إن سعيكم هو جواب القسم) belongs to 92:4, not 92:20; already flagged by the English translator note.",
+"by": "mekki-muskil-u6",
+"at": "2026-10-10 15:41",
+"fixed": false
+},
+"p2": {
+"ar": "e7df07271cbc",
+"tr": "d963a417f9f3",
+"en": "124cb14a405d",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "Second sentence \"قوله إن سعيكم هو جواب القسم\" belongs to 92:4; translations complete and faithful.",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 18:52",
+"fixed": false
+}
+}
+}

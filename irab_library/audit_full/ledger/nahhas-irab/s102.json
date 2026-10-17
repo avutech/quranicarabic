@@ -1,0 +1,108 @@
+{
+"nahhas-irab:1-2": {
+"p1": {
+"ar": "484ff7b13ae6",
+"tr": "e13a81f8a644",
+"en": "e2368b2a6ac3",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish silently vowelled the unvowelled forms of the Farra remark; note added",
+"by": "nahhas-irab-p1-u4",
+"at": "2026-10-17 00:11",
+"fixed": true
+},
+"p2": {
+"ar": "484ff7b13ae6",
+"tr": "e13a81f8a644",
+"en": "e2368b2a6ac3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u7",
+"at": "2026-10-17 00:17",
+"fixed": false
+}
+},
+"nahhas-irab:3-4": {
+"p1": {
+"ar": "128944fd6b80",
+"tr": "ae9dc9b00c52",
+"en": "068188e203fa",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u45",
+"at": "2026-10-10 16:04",
+"fixed": false
+}
+},
+"nahhas-irab:5-6": {
+"p1": {
+"ar": "a9e4222e6fae",
+"tr": "234b1dc948bc",
+"en": "97b79009c1e1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p1-u4",
+"at": "2026-10-17 00:11",
+"fixed": false
+},
+"p2": {
+"ar": "a9e4222e6fae",
+"tr": "234b1dc948bc",
+"en": "97b79009c1e1",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR silently re-vowelled the source «لَتَرَوُنَّ» as لَتُرَوُنَّ for al-Kisaʾi; marked note added.",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 19:02",
+"fixed": true
+}
+},
+"nahhas-irab:7-7": {
+"p1": {
+"ar": "c91607ea4391",
+"tr": "2df31d40ba25",
+"en": "4bbf5b93cbe7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u45",
+"at": "2026-10-10 16:04",
+"fixed": false
+}
+},
+"nahhas-irab:8-8": {
+"p1": {
+"ar": "b5cd3dc86d63",
+"tr": "261b9220e0c9",
+"en": "51155e7ce227",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish wrote Muhammed b. Useym for the isnad name محمد بن عيثم; replaced with Aysem plus translator note.",
+"by": "nahhas-irab-u45",
+"at": "2026-10-10 16:04",
+"fixed": true
+},
+"p2": {
+"ar": "b5cd3dc86d63",
+"tr": "261b9220e0c9",
+"en": "51155e7ce227",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 19:02",
+"fixed": false
+}
+}
+}

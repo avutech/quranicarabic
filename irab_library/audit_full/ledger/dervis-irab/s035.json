@@ -1,0 +1,294 @@
+{
+"dervis-irab:32-35": {
+"p1": {
+"ar": "ffa6dad6b53b",
+"tr": "c29df8c1675f",
+"en": "9034e23cbb50",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u2",
+"at": "2026-10-17 00:18",
+"fixed": false
+},
+"p2": {
+"ar": "ffa6dad6b53b",
+"tr": "c29df8c1675f",
+"en": "9034e23cbb50",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR: إنما restriction (\"وإنما قدم المفعول الثاني\") added; Hud 11:105 quote restored to source wording \"يوم تأتي\" with note; \"هشام بن عمر\" was silently changed to Amr, now as printed with note. EN: \"وأستاذ الكعبي\" was rendered \"the teacher al-Kaʿbī\" (wrong person role), now \"the teacher of al-Kaʿbī\"; note glossed \"وليملك\" wrongly as \"be destroyed\"; \"عمر\"/\"المزداد\" silently altered, now as printed with notes.",
+"by": "dervis-irab-p2-u4",
+"at": "2026-10-17 00:02",
+"fixed": true
+}
+},
+"dervis-irab:36-38": {
+"p1": {
+"ar": "fb8a462f377b",
+"tr": "3f59f1cf59af",
+"en": "1c6c5cdf44ca",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u88",
+"at": "2026-10-10 19:42",
+"fixed": false
+}
+},
+"dervis-irab:39-40": {
+"p1": {
+"ar": "eb3dc408241b",
+"tr": "93f10b9645b0",
+"en": "d4cb5cf69b4b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u88",
+"at": "2026-10-10 19:42",
+"fixed": false
+}
+},
+"dervis-irab:41-43": {
+"p1": {
+"ar": "8a59546eef72",
+"tr": "e13613c407c7",
+"en": "c7042143857d",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "zubya gloss \"yirtici hayvan icin kazilan\"/\"a pit dug to trap a lion\" was not in the Arabic (كالزبية); removed from both",
+"by": "dervis-irab-u88",
+"at": "2026-10-10 19:43",
+"fixed": true
+},
+"p2": {
+"ar": "8a59546eef72",
+"tr": "e13613c407c7",
+"en": "c7042143857d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u4",
+"at": "2026-10-17 00:02",
+"fixed": false
+}
+},
+"dervis-irab:44-45": {
+"p1": {
+"ar": "4fd41d8ba400",
+"tr": "42e54a35c020",
+"en": "0fc41e2d5069",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR silently corrected source typo «ولزاده» to Seyhzade; now translator note added",
+"by": "dervis-irab-u88",
+"at": "2026-10-10 19:43",
+"fixed": true
+},
+"p2": {
+"ar": "4fd41d8ba400",
+"tr": "42e54a35c020",
+"en": "0fc41e2d5069",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u4",
+"at": "2026-10-17 00:02",
+"fixed": false
+}
+},
+"dervis-irab:1-3": {
+"p1": {
+"ar": "341aae1c0ac7",
+"tr": "47f2fc03e056",
+"en": "e75063cef8da",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR: removed unmarked additions \"(Lafzatullah'ın)\" and \"(ism-i fâil)\"",
+"by": "dervis-irab-p1-u15",
+"at": "2026-10-17 00:09",
+"fixed": true
+},
+"p2": {
+"ar": "341aae1c0ac7",
+"tr": "47f2fc03e056",
+"en": "e75063cef8da",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u20",
+"at": "2026-10-17 00:17",
+"fixed": false
+}
+},
+"dervis-irab:4-7": {
+"p1": {
+"ar": "7a2a27d01475",
+"tr": "fb7caac1a471",
+"en": "c574bd2effad",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u87",
+"at": "2026-10-10 19:44",
+"fixed": false
+}
+},
+"dervis-irab:8-8": {
+"p1": {
+"ar": "0b3dce598878",
+"tr": "1102e9b462ba",
+"en": "a58bd4de114a",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR: removed unmarked \"(kalbinin)\" before pas kaplamış; verse gloss omitted من الزند (now added). EN: verse gloss added unmarked \"piece by piece\" (not in the Arabic), removed",
+"by": "dervis-irab-p1-u15",
+"at": "2026-10-17 00:09",
+"fixed": true
+},
+"p2": {
+"ar": "0b3dce598878",
+"tr": "1102e9b462ba",
+"en": "a58bd4de114a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u20",
+"at": "2026-10-17 00:17",
+"fixed": false
+}
+},
+"dervis-irab:9-10": {
+"p1": {
+"ar": "5d20829b7f74",
+"tr": "663b420fb4d7",
+"en": "4b395066b4fe",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR: removed unmarked \"(bilinmekten)\" added after العلم",
+"by": "dervis-irab-p1-u15",
+"at": "2026-10-17 00:09",
+"fixed": true
+},
+"p2": {
+"ar": "5d20829b7f74",
+"tr": "663b420fb4d7",
+"en": "4b395066b4fe",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u20",
+"at": "2026-10-17 00:17",
+"fixed": false
+}
+},
+"dervis-irab:11-14": {
+"p1": {
+"ar": "bb2f9323d030",
+"tr": "98250ea22f29",
+"en": "056c3cbebcdd",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR: removed unmarked glosses (ışık titreşimi), (ince iplik), (çukurcuk), (gözle görülen), (Allah); القمع sap changed to başlık; added notes for stray ز and the garbled تلبسوننا/لحية. EN: \"He likened\" changed to \"you have likened\" (شبهت is 1st/2nd person); note added for the corrupt استطراد sentence",
+"by": "dervis-irab-p1-u15",
+"at": "2026-10-17 00:11",
+"fixed": true
+},
+"p2": {
+"ar": "bb2f9323d030",
+"tr": "98250ea22f29",
+"en": "056c3cbebcdd",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u20",
+"at": "2026-10-17 00:18",
+"fixed": false
+}
+},
+"dervis-irab:15-18": {
+"p1": {
+"ar": "3d55d6eab0da",
+"tr": "eb25b512c706",
+"en": "86c686ece60f",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR: removed unmarked \"(Asmaî)\" and \"(Cevap:)\" (the Arabic has فإن, \"for\"). EN: \"The answer is that\" replaced by \"for\" (فإن), unmarked addition",
+"by": "dervis-irab-p1-u15",
+"at": "2026-10-17 00:11",
+"fixed": true
+},
+"p2": {
+"ar": "3d55d6eab0da",
+"tr": "eb25b512c706",
+"en": "86c686ece60f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u20",
+"at": "2026-10-17 00:18",
+"fixed": false
+}
+},
+"dervis-irab:19-24": {
+"p1": {
+"ar": "947f229f3b07",
+"tr": "b7612e132b9f",
+"en": "0f20ad6d6451",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u87",
+"at": "2026-10-10 19:46",
+"fixed": false
+}
+},
+"dervis-irab:25-28": {
+"p1": {
+"ar": "1ca4434bfc9a",
+"tr": "4bfab24a14f1",
+"en": "222a9276aaa4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u87",
+"at": "2026-10-10 19:45",
+"fixed": false
+}
+},
+"dervis-irab:29-31": {
+"p1": {
+"ar": "e64b03d2d54f",
+"tr": "a67082649a7a",
+"en": "12f7b57f6ab4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u87",
+"at": "2026-10-10 19:45",
+"fixed": false
+}
+}
+}

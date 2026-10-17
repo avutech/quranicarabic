@@ -1,0 +1,28 @@
+{
+"dervis-irab:1-8": {
+"p1": {
+"ar": "14108327259e",
+"tr": "1e24636b0871",
+"en": "07036963c217",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR: Ibn al-Subki comment \"لا يكون مأخوذا من السنة أو من الآية بطريق القياس\" was rendered as \"alinmis olabilir\" (affirmative); corrected to \"olamaz\". Also \"vizir\" (vizier) used for الوزر in Belagat; changed to vizr. Rest of Turkish (second half) complete and faithful.",
+"by": "dervis-irab-u3",
+"at": "2026-10-11 01:41",
+"fixed": true
+},
+"p2": {
+"ar": "14108327259e",
+"tr": "1e24636b0871",
+"en": "07036963c217",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u8",
+"at": "2026-10-17 00:01",
+"fixed": false
+}
+}
+}

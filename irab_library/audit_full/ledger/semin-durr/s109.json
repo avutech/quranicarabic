@@ -1,0 +1,42 @@
+{
+"semin-durr:2-2": {
+"p1": {
+"ar": "f556214803d2",
+"tr": "1afb47f94143",
+"en": "356becd6e064",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p1-u18",
+"at": "2026-10-17 01:05",
+"fixed": false
+},
+"p2": {
+"ar": "f556214803d2",
+"tr": "1afb47f94143",
+"en": "356becd6e064",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "EN dropped the restriction in \"إنما هو من حيث المعنى\" (repetition is only in the meaning), added \"only\"; TR had unmarked \"Şeyh (Ebû Hayyân)\" x2 and \"(Ahfeş/Zemahşerî'nin sözü) bitti\" for bare \"انتهى\", now marked/removed.",
+"by": "semin-durr-p2-u2",
+"at": "2026-10-17 00:47",
+"fixed": true
+}
+},
+"semin-durr:6-6": {
+"p1": {
+"ar": "20e75f418242",
+"tr": "7263699fb6f5",
+"en": "b860eda2661d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u34",
+"at": "2026-10-11 02:34",
+"fixed": false
+}
+}
+}

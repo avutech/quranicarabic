@@ -1,0 +1,27 @@
+{
+"farraa:38-38": {
+"hs": [
+"8acb20411bee",
+"e66ba00c5e30",
+"2da5c5504384"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Kisai's example إنَّ قائم = إنْ أنا قائم: here إنْ is the negating particle (= ما أنا قائم), so the gloss '(I am not standing)' is the correct translation of the quoted Arabic phrase, not an addition; parenthetical renderings of quoted Arabic are used throughout the entry (e.g. لكن أنا والله 'but I, by Allah'). Rest of the English is faithful.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Kisai's example 'إنَّ قائم' = 'إنْ أنا قائم' is the well-known case of negative إنْ (= ما أنا قائم); the English parenthetical '(I am not standing)' is simply the translation of the cited Arabic phrase, as all other example phrases are glossed, not an added claim. Rest of EN (لكن أنا, أنَهْ, Abu Tharwan verse) faithful.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

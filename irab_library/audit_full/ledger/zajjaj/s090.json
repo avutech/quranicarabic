@@ -1,0 +1,248 @@
+{
+"zajjaj:1-1": {
+"p1": {
+"ar": "05d4eba35e73",
+"tr": "4e4eeb614318",
+"en": "80061ed38c63",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u10",
+"at": "2026-10-10 19:13",
+"fixed": false
+}
+},
+"zajjaj:2-2": {
+"p1": {
+"ar": "072c4b15bad2",
+"tr": "55b5bcdbccb4",
+"en": "8f871f86c366",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u10",
+"at": "2026-10-10 19:13",
+"fixed": false
+}
+},
+"zajjaj:3-3": {
+"p1": {
+"ar": "617fa208324e",
+"tr": "228207909c8b",
+"en": "040298706c27",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u10",
+"at": "2026-10-10 19:13",
+"fixed": false
+},
+"p2": {
+"ar": "617fa208324e",
+"tr": "228207909c8b",
+"en": "040298706c27",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-p2-u12",
+"at": "2026-10-16 18:53",
+"fixed": false
+}
+},
+"zajjaj:4-4": {
+"p1": {
+"ar": "40a88929abe4",
+"tr": "5f5d600e671c",
+"en": "a469524fcf3b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u10",
+"at": "2026-10-10 19:13",
+"fixed": false
+}
+},
+"zajjaj:5-5": {
+"p1": {
+"ar": "a2405f79a7fd",
+"tr": "5fdbeddd0e88",
+"en": "31bc65493ffe",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u10",
+"at": "2026-10-10 19:13",
+"fixed": false
+}
+},
+"zajjaj:6-6": {
+"p1": {
+"ar": "19b14cf2073f",
+"tr": "3d0602a83a9f",
+"en": "abf181504de5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u10",
+"at": "2026-10-10 19:13",
+"fixed": false
+}
+},
+"zajjaj:7-7": {
+"p1": {
+"ar": "b1a76b21ece6",
+"tr": "8d9b16ad6d55",
+"en": "04972a73b4f9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u10",
+"at": "2026-10-10 19:13",
+"fixed": false
+}
+},
+"zajjaj:8-9": {
+"p1": {
+"ar": "2aca09ae7c75",
+"tr": "a802e071b619",
+"en": "25986365bc20",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u10",
+"at": "2026-10-10 19:13",
+"fixed": false
+}
+},
+"zajjaj:10-10": {
+"p1": {
+"ar": "600dd13c6584",
+"tr": "08f360cce2fc",
+"en": "384df486952f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u10",
+"at": "2026-10-10 19:13",
+"fixed": false
+}
+},
+"zajjaj:11-11": {
+"p1": {
+"ar": "e0ed8004ee1a",
+"tr": "4f12b56b1aef",
+"en": "aafe57e3cd75",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-p1-u4",
+"at": "2026-10-17 00:06",
+"fixed": false
+},
+"p2": {
+"ar": "e0ed8004ee1a",
+"tr": "4f12b56b1aef",
+"en": "aafe57e3cd75",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish silently added the first لا in the example حَيَّيْتَنِي ولا زُرْتَنِي (written «لا حَيَّيْتَنِي ولا زُرْتَنِي»); now shows [لا] with a Mütercim notu as the English does.",
+"by": "zajjaj-p2-u12",
+"at": "2026-10-16 18:53",
+"fixed": true
+}
+},
+"zajjaj:13-14": {
+"p1": {
+"ar": "9b1e82a23c2c",
+"tr": "151a8534a47d",
+"en": "4f8a83576c71",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u10",
+"at": "2026-10-10 19:13",
+"fixed": false
+}
+},
+"zajjaj:15-15": {
+"p1": {
+"ar": "4a23ce1b8a02",
+"tr": "e142055cadb0",
+"en": "bf41a25e4136",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u10",
+"at": "2026-10-10 19:13",
+"fixed": false
+}
+},
+"zajjaj:17-17": {
+"p1": {
+"ar": "bb6852e6fdd2",
+"tr": "cd53739d3bf5",
+"en": "fdfd3a1982f4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u10",
+"at": "2026-10-10 19:13",
+"fixed": false
+},
+"p2": {
+"ar": "bb6852e6fdd2",
+"tr": "cd53739d3bf5",
+"en": "fdfd3a1982f4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-p2-u12",
+"at": "2026-10-16 18:53",
+"fixed": false
+}
+},
+"zajjaj:19-19": {
+"p1": {
+"ar": "7590ea6df347",
+"tr": "34381a579a89",
+"en": "c07a2a85878b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u10",
+"at": "2026-10-10 19:13",
+"fixed": false
+}
+},
+"zajjaj:20-20": {
+"p1": {
+"ar": "4df97e802ec4",
+"tr": "1d1a5bab5957",
+"en": "3d7c96f30c01",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u10",
+"at": "2026-10-10 19:13",
+"fixed": false
+}
+}
+}

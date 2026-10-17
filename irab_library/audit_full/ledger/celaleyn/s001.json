@@ -1,0 +1,136 @@
+{
+"celaleyn:1-1": {
+"p1": {
+"ar": "7aa4edfae037",
+"tr": "c1349c99bfcb",
+"en": "d9e0f79fcfdb",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u10",
+"at": "2026-10-10 15:40",
+"fixed": false
+},
+"p2": {
+"ar": "7aa4edfae037",
+"tr": "c1349c99bfcb",
+"en": "d9e0f79fcfdb",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u4",
+"at": "2026-10-11 03:51",
+"fixed": false
+}
+},
+"celaleyn:2-2": {
+"p1": {
+"ar": "4bd8bd6132d5",
+"tr": "e735d2bb6e93",
+"en": "6171e39e0480",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u10",
+"at": "2026-10-10 15:40",
+"fixed": false
+}
+},
+"celaleyn:3-3": {
+"p1": {
+"ar": "3616e18e0af2",
+"tr": "a50c19016b8e",
+"en": "4cdcf9995ab0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u10",
+"at": "2026-10-10 15:40",
+"fixed": false
+}
+},
+"celaleyn:4-4": {
+"p1": {
+"ar": "6ab9fcc71d4e",
+"tr": "8f79af3f7e49",
+"en": "22cbc3f021c2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u10",
+"at": "2026-10-10 15:40",
+"fixed": false
+},
+"p2": {
+"ar": "6ab9fcc71d4e",
+"tr": "8f79af3f7e49",
+"en": "22cbc3f021c2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u4",
+"at": "2026-10-11 03:51",
+"fixed": false
+}
+},
+"celaleyn:5-5": {
+"p1": {
+"ar": "306e4f5cc83d",
+"tr": "0bf28decf84f",
+"en": "df961a1d0c07",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR added unmarked \"(yalnız senden)\" after the ibadet clause; removed",
+"by": "celaleyn-u10",
+"at": "2026-10-10 15:40",
+"fixed": true
+},
+"p2": {
+"ar": "306e4f5cc83d",
+"tr": "0bf28decf84f",
+"en": "df961a1d0c07",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u4",
+"at": "2026-10-11 03:51",
+"fixed": false
+}
+},
+"celaleyn:6-6": {
+"p1": {
+"ar": "b831657a464f",
+"tr": "f28ab78f3d7f",
+"en": "342f7217be02",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u10",
+"at": "2026-10-10 15:40",
+"fixed": false
+}
+},
+"celaleyn:7-7": {
+"p1": {
+"ar": "fcfe082cdc6a",
+"tr": "2b6e2f455c44",
+"en": "9eb3e1860b34",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u10",
+"at": "2026-10-10 15:40",
+"fixed": false
+}
+}
+}

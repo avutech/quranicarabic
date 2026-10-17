@@ -1,0 +1,42 @@
+{
+"celaleyn:14-14": {
+"hs": [
+"83981f6b0bdb",
+"46a2c809660b",
+"5aff2f895f28"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic مُقْبِلِينَ عَلَيْهِمْ وَمُدْبِرِينَ عَنْهُمْ = 'onlara yönelerek ve onlardan dönerek'; the following '(her taraftan)' has no counterpart in the Arabic and is not inside a [Mütercim notu: …]: unmarked addition. Fix: put it in a note or remove.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic مُقْبِلِينَ عَلَيْهِمْ وَمُدْبِرِينَ عَنْهُمْ = 'onlara yönelerek ve onlardan dönerek' only; the Turkish adds '(her taraftan)', which is not in the Arabic and is not inside a [Mütercim notu: …]. Unmarked addition; fix by moving it into a note or deleting it.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked addition '(her taraftan)'",
+"verified": "PASS",
+"verify_note": "Unmarked '(her taraftan)' removed; مقبلين/مدبرين, فكفروا كما سيأتي, الإهلاك في زمنه فقط (pronoun note marked), بأن, علينا, على زعمكم all rendered."
+}
+},
+"history": [
+{
+"old_hs": [
+"83981f6b0bdb",
+"e77d61a4c6c2",
+"5aff2f895f28"
+],
+"dim": "tr",
+"what": "Removed unmarked addition '(her taraftan)'",
+"at": "2026-10-17 00:45"
+}
+]
+}
+}

@@ -1,0 +1,68 @@
+{
+"mekki-muskil:3-3": {
+"p1": {
+"ar": "dd4b2a41ace0",
+"tr": "a9be4c9661f4",
+"en": "caf0a0a145f2",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "Entry also covers comments on 93:6-8 (ألم يجدك يتيما, ووجدك ضالا, ووجدك عائلا), noted in the Turkish translator note.",
+"by": "mekki-muskil-u6",
+"at": "2026-10-10 15:42",
+"fixed": false
+},
+"p2": {
+"ar": "dd4b2a41ace0",
+"tr": "a9be4c9661f4",
+"en": "caf0a0a145f2",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "Middle paragraph \"ألم يجدك يتيما ... ووجدك ضالا ووجدك عائلا\" belongs to 93:6-8; translations complete and faithful.",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 18:52",
+"fixed": false
+}
+},
+"mekki-muskil:9-9": {
+"p1": {
+"ar": "a46ce6d09e9f",
+"tr": "cecd02afee00",
+"en": "c774e76d3388",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u6",
+"at": "2026-10-10 15:42",
+"fixed": false
+}
+},
+"mekki-muskil:11-11": {
+"p1": {
+"ar": "ab7ea52160aa",
+"tr": "a21d9f0624b2",
+"en": "c7975a049918",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "Second comment (ولسوف يعطيك ربك) belongs to 93:5; Turkish has a note.",
+"by": "mekki-muskil-u6",
+"at": "2026-10-10 15:42",
+"fixed": false
+},
+"p2": {
+"ar": "ab7ea52160aa",
+"tr": "a21d9f0624b2",
+"en": "c7975a049918",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "Second paragraph \"ولسوف يعطيك ربك\" belongs to 93:5; translations complete and faithful.",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 18:52",
+"fixed": false
+}
+}
+}

@@ -1,0 +1,82 @@
+{
+"safi-cedvel:7-7": {
+"hs": [
+"da11cdddd053",
+"a08abd400a8a",
+"b4790d46b7f9"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Sarf: Arabic «اسم مفعول من السداسيّ استخلف» says only 'six-letter'; TR 'altılı (sülâsî mezîd) استخلف' adds '(sülâsî mezîd)' as an unmarked parenthesis not in the source. Fix: put it in [Mütercim notu: …] or drop it.",
+"at": "2026-10-17 00:42"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic Sarf: «اسم مفعول من السداسيّ استخلف» only says 'six-letter'; TR 'altılı (sülâsî mezîd) استخلف' adds '(sülâsî mezîd)' unmarked. Correct classification, but an unmarked addition: must go in [Mütercim notu: …].",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Sarf: removed unmarked '(sülâsî mezîd)' after 'altılı'",
+"verified": "PASS",
+"verify_note": "Unmarked '(sülâsî mezîd)' removed; Sarf reads 'altılı استخلف' as in Arabic; TR complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"da11cdddd053",
+"e50edaa799e2",
+"b4790d46b7f9"
+],
+"dim": "tr",
+"what": "Sarf: unmarked '(sülâsî mezîd)' moved into [Mütercim notu: …]",
+"at": "2026-10-17 00:45"
+},
+{
+"old_hs": [
+"da11cdddd053",
+"c31d19b6e791",
+"b4790d46b7f9"
+],
+"dim": "tr",
+"what": "Sarf: removed unmarked '(sülâsî mezîd)' after 'altılı'",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"safi-cedvel:11-14": {
+"hs": [
+"782a4c8a11df",
+"61a3f56d464f",
+"2a1edd8b05f6"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Fawaid, 9th attribute: Arabic «وأن يكون من أحب أموالك إليك» = 'that it be of your wealth dearest to you'; TR 'onun mallarının sana en sevimli olanından olması' uses 3rd-person possessive (mallarının = his/its goods) instead of 2nd person 'mallarının' -> 'mallarının' should be 'senin mallarının / malların'. Wrong person.",
+"at": "2026-10-17 00:42"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Arabic «وأن يكون من أحب أموالك إليك». TR 'onun mallarının sana en sevimli olanından olması' parses as onun (=the sadaqa, subject of olması) + mallar-ın-ın (YOUR goods, 2sg possessive + genitive), reinforced by 'sana': 'its being from the most beloved to you of your goods' - correct meaning; at most a stylistic ambiguity (could be clarified as 'mallarından sana en sevimli olanından').",
+"at": "2026-10-17 00:42"
+},
+"J3": {
+"class": "FALSE_ALARM",
+"evidence": "Arabic «وأن يكون من أحب أموالك إليك» = that it be among the possessions dearest to you. TR «onun mallarının sana en sevimli olanından olması» parses as onun (the charity, subject of olması) + mallar-ın-ın (genitive of 'your goods', 2sg possessive), i.e. 'its being among your goods most beloved to you', the same pattern as the neighbouring items «Malın helalden olması». 'Your' is expressed, so the claim fails. The rest of the TR (i'rab, footnotes, belagat, the ten attributes in fevaid) matches the Arabic with no omissions or unmarked additions.",
+"at": "2026-10-17 00:44"
+}
+},
+"status": "DECIDED",
+"class": "HUMAN"
+}
+}
+}
+}

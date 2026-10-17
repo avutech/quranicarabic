@@ -1,0 +1,56 @@
+{
+"nahhas-irab:1-1": {
+"p1": {
+"ar": "2b170fa1b804",
+"tr": "eabd84ec0036",
+"en": "fdb9afdf1b7d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:19",
+"fixed": false
+}
+},
+"nahhas-irab:2-2": {
+"p1": {
+"ar": "d10dce8d8ab8",
+"tr": "7ce40b2ac695",
+"en": "aef4097dd4bb",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:19",
+"fixed": false
+}
+},
+"nahhas-irab:3-3": {
+"p1": {
+"ar": "eb6cfc52d635",
+"tr": "2247e33dc1e7",
+"en": "4d82a549dffe",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR smoothed the disjointed Ibn Abbas sentence with unmarked additions; replaced with literal rendering plus translator note.",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:19",
+"fixed": true
+},
+"p2": {
+"ar": "eb6cfc52d635",
+"tr": "2247e33dc1e7",
+"en": "4d82a549dffe",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 19:05",
+"fixed": false
+}
+}
+}

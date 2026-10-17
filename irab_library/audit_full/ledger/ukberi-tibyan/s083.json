@@ -1,0 +1,126 @@
+{
+"ukberi-tibyan:3-3": {
+"p1": {
+"ar": "f46d800ac755",
+"tr": "2eb8e3167e7d",
+"en": "fb91639fdc71",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:00",
+"fixed": false
+}
+},
+"ukberi-tibyan:4-4": {
+"p1": {
+"ar": "d7045b054749",
+"tr": "0416cdde4bf2",
+"en": "453782cb7f66",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:00",
+"fixed": false
+}
+},
+"ukberi-tibyan:5-7": {
+"p1": {
+"ar": "608d2a891040",
+"tr": "9ebd58c3362e",
+"en": "53c5fec8709c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:00",
+"fixed": false
+}
+},
+"ukberi-tibyan:9-9": {
+"p1": {
+"ar": "20c1073680c8",
+"tr": "4fab5f4a48a6",
+"en": "f4517c292a85",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:00",
+"fixed": false
+}
+},
+"ukberi-tibyan:17-19": {
+"p1": {
+"ar": "3938b8b708f2",
+"tr": "e886fed6bc01",
+"en": "0b9741118219",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:00",
+"fixed": false
+}
+},
+"ukberi-tibyan:23-23": {
+"p1": {
+"ar": "57176f25c505",
+"tr": "8a3f508cfe73",
+"en": "ca21496bb044",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:00",
+"fixed": false
+}
+},
+"ukberi-tibyan:28-28": {
+"p1": {
+"ar": "8320065cdc30",
+"tr": "5963b23c4328",
+"en": "fe62cb0f0514",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR rendered يُسْقَوْنَ عَيْنًا as from a spring; made literal.",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:00",
+"fixed": true
+},
+"p2": {
+"ar": "8320065cdc30",
+"tr": "5963b23c4328",
+"en": "fe62cb0f0514",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-p2-u6",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"ukberi-tibyan:36-36": {
+"p1": {
+"ar": "0f87e9c484ff",
+"tr": "611086a8710f",
+"en": "61b11c6ce17a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:00",
+"fixed": false
+}
+}
+}

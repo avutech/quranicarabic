@@ -1,0 +1,42 @@
+{
+"muyesser-irab:37-37": {
+"hs": [
+"35e42886550c",
+"e2c9051e1749",
+"2430f2cbfd9d"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic reads «والمحسنين مفعول بهن والجملة مستأنفة» (typo بهن). English silently writes 'mafʿūl bihi' with no translator's note, i.e. a silent correction of the source; Turkish marks it. The English needs a [Translator's note: …] recording the source reading.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source reads «والمحسنين مفعول بهن والجملة مستأنفة» (typo for «مفعول به،»). English renders 'المحسنين is the mafʿūl bihi' silently correcting the source with no translator's note (the Turkish has one). Under the standard the source is never silently corrected; a [Translator's note: the source has «مفعول بهن», a typo for «مفعول به»] is needed. Minor.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Added [Translator's note] recording source typo «مفعول بهن» for «مفعول به»",
+"verified": "PASS",
+"verify_note": "Complete and faithful; the source typo «مفعول بهن» is now recorded in a [Translator's note: …] instead of being silently corrected; no new problem."
+}
+},
+"history": [
+{
+"old_hs": [
+"35e42886550c",
+"e2c9051e1749",
+"cb4e75659961"
+],
+"dim": "en",
+"what": "Added [Translator's note] recording source typo «مفعول بهن» for «مفعول به»",
+"at": "2026-10-17 00:43"
+}
+]
+}
+}

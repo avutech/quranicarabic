@@ -1,0 +1,40 @@
+{
+"semin-durr:16-16": {
+"hs": [
+"1df15ddf123c",
+"3924b7267177",
+"728627c303e7"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source «لزم اجتماعُ حرفَيْ معنى» = two meaning-particles (ḥurūf al-maʿānī, i.e. hamza and هل). EN renders 'two particles of [the same] meaning': the bracketed '[the same]' is not in the Arabic and is not inside a [Translator's note: …], so it is an unmarked addition (and narrows the sense). Fix: 'two particles of meaning' or move the gloss into a Translator's note. Rest of EN is complete and faithful.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source «لزم اجتماعُ حرفَيْ معنى» says only 'two particles of meaning'; EN 'two particles of [the same] meaning' inserts an interpretive bracket not marked as Translator's note. Interpretation is plausible but the unmarked addition is an error per standards; fix by moving it into a Translator's note.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "'[the same]' removed from text; gloss moved into Translator's note"
+}
+},
+"history": [
+{
+"old_hs": [
+"1df15ddf123c",
+"3924b7267177",
+"5c2c9bc6aaba"
+],
+"dim": "en",
+"what": "'[the same]' removed from text; gloss moved into Translator's note",
+"at": "2026-10-17 00:44"
+}
+]
+}
+}

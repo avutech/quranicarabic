@@ -1,0 +1,98 @@
+{
+"mekki-muskil:1-1": {
+"p1": {
+"ar": "3d3ef6e36dfc",
+"tr": "879ec3cce58c",
+"en": "770ca2f3e8b9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u6",
+"at": "2026-10-10 15:43",
+"fixed": false
+}
+},
+"mekki-muskil:2-2": {
+"p1": {
+"ar": "04814d712f24",
+"tr": "0f3a7d018a93",
+"en": "0965af772b32",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u6",
+"at": "2026-10-10 15:43",
+"fixed": false
+}
+},
+"mekki-muskil:3-3": {
+"p1": {
+"ar": "d4bbc6573489",
+"tr": "394fa71a2b7e",
+"en": "4bbf27cb7d4a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u6",
+"at": "2026-10-10 15:43",
+"fixed": false
+}
+},
+"mekki-muskil:4-4": {
+"p1": {
+"ar": "1bad53c6cf41",
+"tr": "71ce1051d4f9",
+"en": "d46610e87655",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u6",
+"at": "2026-10-10 15:43",
+"fixed": false
+}
+},
+"mekki-muskil:5-5": {
+"p1": {
+"ar": "f343bb3240be",
+"tr": "31158a0264b9",
+"en": "835eb3f73478",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u6",
+"at": "2026-10-10 15:43",
+"fixed": false
+}
+},
+"mekki-muskil:9-9": {
+"p1": {
+"ar": "ab600382d7bb",
+"tr": "57bcae95319b",
+"en": "51be35f99168",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English said \"And as for (يعلم): what comes after (إنّ) does not govern what precedes it\", wrongly attributing the إن rule to يعلم (it explains why خبير cannot govern إذا); reworded and clarified in the translator note.",
+"by": "mekki-muskil-u6",
+"at": "2026-10-10 15:43",
+"fixed": true
+},
+"p2": {
+"ar": "ab600382d7bb",
+"tr": "57bcae95319b",
+"en": "51be35f99168",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u2",
+"at": "2026-10-11 04:08",
+"fixed": false
+}
+}
+}

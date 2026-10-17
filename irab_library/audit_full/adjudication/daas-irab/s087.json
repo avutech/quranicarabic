@@ -1,0 +1,27 @@
+{
+"daas-irab:11-11": {
+"hs": [
+"0377d7b6c8cb",
+"474997a5593b",
+"b76cf954ed23"
+],
+"dims": {
+"fit": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Entry parses «يَتَجَنَّبُهَا» مضارع ومفعوله and «لْأَشْقَى» فاعل = 87:11 وَيَتَجَنَّبُهَا ٱلْأَشْقَى, exactly where filed. Only brackets/first letters lost; analysis complete and translated, restoration marked in notes.",
+"at": "2026-10-17 00:40"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Entry parses 87:11 only: «يَتَجَنَّبُهَا» مضارع ومفعوله, «لْأَشْقَى» فاعل والجملة معطوفة. The markup is garbled but both words of وَيَتَجَنَّبُهَا الْأَشْقَى are identifiable and the analysis is complete, so it is correctly filed under 11-11 and not a nothing-to-place source defect.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

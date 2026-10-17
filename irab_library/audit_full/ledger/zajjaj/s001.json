@@ -1,0 +1,122 @@
+{
+"zajjaj:1-1": {
+"p1": {
+"ar": "c1b695e13351",
+"tr": "bdc1b0d024c8",
+"en": "1900c6e40124",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN had ID 2 text (Sura al-Hamd, alhamdu/rabbi al-alamin passages) appended after the end; removed",
+"by": "zajjaj-u45",
+"at": "2026-10-10 16:01",
+"fixed": true
+},
+"p2": {
+"ar": "c1b695e13351",
+"tr": "bdc1b0d024c8",
+"en": "1900c6e40124",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-p2-u9",
+"at": "2026-10-16 17:07",
+"fixed": false
+}
+},
+"zajjaj:2-2": {
+"p1": {
+"ar": "06ab6535e72f",
+"tr": "d98b29ddf034",
+"en": "247dd041fd0e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u45",
+"at": "2026-10-10 16:01",
+"fixed": false
+}
+},
+"zajjaj:4-4": {
+"p1": {
+"ar": "811639129531",
+"tr": "7d948353fdb6",
+"en": "7727813c003b",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR silently corrected taml-ika to taml-iku in the quote; restored source vowel with translator note",
+"by": "zajjaj-u45",
+"at": "2026-10-10 16:01",
+"fixed": true
+},
+"p2": {
+"ar": "811639129531",
+"tr": "7d948353fdb6",
+"en": "7727813c003b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-p2-u9",
+"at": "2026-10-16 17:07",
+"fixed": false
+}
+},
+"zajjaj:5-5": {
+"p1": {
+"ar": "419a3068e478",
+"tr": "c88e5d0ae871",
+"en": "007628633a1a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u45",
+"at": "2026-10-10 16:02",
+"fixed": false
+}
+},
+"zajjaj:6-6": {
+"p1": {
+"ar": "dcec53e850c5",
+"tr": "2bccea2326a8",
+"en": "612fe6335d6c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u45",
+"at": "2026-10-10 16:01",
+"fixed": false
+}
+},
+"zajjaj:7-7": {
+"p1": {
+"ar": "12386c96af96",
+"tr": "39e0bae57626",
+"en": "e245be575a5d",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR silently normalised printed 3alayhim to 3alayhumo-vowelled form and bâ for the printed yâ (al-yâ al-munkasira) without marking; added translator notes",
+"by": "zajjaj-u45",
+"at": "2026-10-10 16:02",
+"fixed": true
+},
+"p2": {
+"ar": "12386c96af96",
+"tr": "39e0bae57626",
+"en": "e245be575a5d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-p2-u9",
+"at": "2026-10-16 17:07",
+"fixed": false
+}
+}
+}

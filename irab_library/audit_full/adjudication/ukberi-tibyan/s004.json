@@ -1,0 +1,132 @@
+{
+"ukberi-tibyan:46-46": {
+"hs": [
+"3d3fd9fcf759",
+"2342f7240d93",
+"e9707f95c9db"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: وَالْأَصْلُ فِي لَيٍّ لَوَى فَقُلِبَتِ الْوَاوُ يَاءً. EN writes 'The original of لَيّ is لَوْي' with no note: a silent correction of the printed لَوَى (TR marks it in a Mütercim notu). EN must give the source form or mark the change in a [Translator's note]. Also 'not listened to (by us) from you' adds '(by us)' to غَيْرَ مَسْمُوعٍ مِنْكَ unmarked.",
+"at": "2026-10-17 00:40"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: وَالْأَصْلُ فِي لَيٍّ لَوَى. EN writes 'The original of لَيّ is لَوْي' with no note: the source wording is silently changed (TR keeps a Mütercim notu that the source has «لَوَى»). EN must translate as written or flag the change in a Translator's note.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Restored 'Exalted is He' for قَوْلُهُ تَعَالَى; marked the reading of وَذُكِرَ as ذُكِّرَ ('masculine') in a Translator's note",
+"verify_note": "لَوَى and 'by us' are now marked in Translator's notes, but EN opens 'His saying:' omitting تَعَالَى of قَوْلُهُ تَعَالَى (should be 'His saying, Exalted is He'). Also وَذُكِرَ الضَّمِيرُ (as vowelled: 'was mentioned') is rendered 'is masculine' (ذُكِّرَ) without a note; mark that reading in a [Translator's note].",
+"fix_failed": 1
+}
+},
+"history": [
+{
+"old_hs": [
+"3d3fd9fcf759",
+"2342f7240d93",
+"1982133df5c8"
+],
+"dim": "en",
+"what": "Body now gives the source form لَوَى with the لَوْي correction in a Translator's note; unmarked '(by us)' moved into a note",
+"at": "2026-10-17 00:44"
+},
+{
+"old_hs": [
+"3d3fd9fcf759",
+"2342f7240d93",
+"d1f3259ebb9f"
+],
+"dim": "en",
+"what": "Restored 'Exalted is He' for قَوْلُهُ تَعَالَى; marked the reading of وَذُكِرَ as ذُكِّرَ ('masculine') in a Translator's note",
+"at": "2026-10-17 00:46"
+}
+]
+},
+"ukberi-tibyan:121-121": {
+"hs": [
+"0a5025eb38a0",
+"9dd6f7e93fc6",
+"339f38d2e611"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: وَهُوَ الَّذِي يُسَمَّى تَبْيِينًا؛ أَيْ: غِنًى عَنْهَا. EN body renders the gloss as 'i.e. [I mean] from it', which is not what is written; the actual gloss غِنًى عَنْهَا ('independence from it') appears only in a translator's note. Body substitutes the translator's interpretation for the source wording; it should translate أَيْ: غِنًى عَنْهَا in the body, any comment in a note.",
+"at": "2026-10-17 00:40"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: وَهُوَ الَّذِي يُسَمَّى تَبْيِينًا؛ أَيْ: غِنًى عَنْهَا. EN body renders this as 'i.e. [I mean] from it', which is not what the text says; the actual gloss غِنًى عَنْهَا ('independence from it') appears only in the Translator's note. Body misstates the source; it should translate غِنًى عَنْهَا and put any comment in the note.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Body now translates the written gloss أَيْ: غِنًى عَنْهَا ('independence from it'); the '[I mean] from it' interpretation moved into the Translator's note",
+"verified": "PASS",
+"verify_note": "Body now translates أَيْ: غِنًى عَنْهَا as written ('independence (غِنًى) from it'); interpretation moved to a Translator's note; heading anomaly noted; complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"0a5025eb38a0",
+"9dd6f7e93fc6",
+"6eb4c67d8c8e"
+],
+"dim": "en",
+"what": "Body now translates the written gloss أَيْ: غِنًى عَنْهَا ('independence from it'); the '[I mean] from it' interpretation moved into the Translator's note",
+"at": "2026-10-17 00:44"
+}
+]
+},
+"ukberi-tibyan:140-140": {
+"hs": [
+"f0accda62504",
+"7ecb45810828",
+"ab131639bc34"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: وَأَفْرَدَ «مَثَلًا» ؛ لِأَنَّهَا فِي مَعْنَى الْمَصْدَرِ. EN writes '«مِثْلًا» is singular' — silently re-vowels the source word without a note (TR marks this in a Mütercim notu). Source wording must be kept or the change marked in a [Translator's note]. EN also adds unmarked '[to you]' to وَقَدْ قِيلَ.",
+"at": "2026-10-17 00:40"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: وَأَفْرَدَ «مَثَلًا» ؛ لِأَنَّهَا فِي مَعْنَى الْمَصْدَرِ. EN writes «مِثْلًا» in the body without any note, silently correcting the source spelling (TR flags it with a Mütercim notu). Must keep «مَثَلًا» or mark the change in a Translator's note.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Body keeps the source's «مَثَلًا» with a Translator's note; unmarked '[to you]' and '[agent]' moved into Translator's notes",
+"verified": "PASS",
+"verify_note": "«مَثَلًا» kept as written with a Translator's note; 'to you' now inside a note; complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"f0accda62504",
+"7ecb45810828",
+"4369615287ce"
+],
+"dim": "en",
+"what": "Body keeps the source's «مَثَلًا» with a Translator's note; unmarked '[to you]' and '[agent]' moved into Translator's notes",
+"at": "2026-10-17 00:44"
+}
+]
+}
+}

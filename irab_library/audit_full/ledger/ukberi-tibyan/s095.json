@@ -1,0 +1,96 @@
+{
+"ukberi-tibyan:2-2": {
+"p1": {
+"ar": "e354ebb55707",
+"tr": "0e72049d0c8c",
+"en": "518325badc7a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:02",
+"fixed": false
+}
+},
+"ukberi-tibyan:4-4": {
+"p1": {
+"ar": "0365732787b9",
+"tr": "fbf0c7a23b34",
+"en": "7a2a87a2775d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:03",
+"fixed": false
+}
+},
+"ukberi-tibyan:5-5": {
+"p1": {
+"ar": "1f5440dda1f3",
+"tr": "92b5186baf61",
+"en": "1b02d605627b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:02",
+"fixed": false
+},
+"p2": {
+"ar": "1f5440dda1f3",
+"tr": "92b5186baf61",
+"en": "1b02d605627b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u10",
+"at": "2026-10-11 03:51",
+"fixed": false
+}
+},
+"ukberi-tibyan:7-7": {
+"p1": {
+"ar": "a41eed0541ca",
+"tr": "ee079d9b599e",
+"en": "6da92c4c9777",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:02",
+"fixed": false
+}
+},
+"ukberi-tibyan:8-8": {
+"p1": {
+"ar": "e9d6fed98c69",
+"tr": "d745d4eb0adf",
+"en": "294ec309e936",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR rendered أَحْكَمُ الْحَاكِمِينَ as hakimlerin en hakimi losing the sense of wisdom; corrected.",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:02",
+"fixed": true
+},
+"p2": {
+"ar": "e9d6fed98c69",
+"tr": "d745d4eb0adf",
+"en": "294ec309e936",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u10",
+"at": "2026-10-11 03:51",
+"fixed": false
+}
+}
+}

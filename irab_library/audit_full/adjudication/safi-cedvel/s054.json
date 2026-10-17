@@ -1,0 +1,27 @@
+{
+"safi-cedvel:51-53": {
+"hs": [
+"ea906fe0e0d2",
+"13378c0a42c2",
+"d7c1d1990ada"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "The entry discusses exactly ayahs 51-53: «أهلكنا» / «هل من مدّكر» (54:51), «كلّ» mubtada' with «في الزبر» and «فعلوه» as its naʿt (54:52), «كلّ صغير ... مستطر» and Sarf «(53) مستطر» (54:53). The reference to «إنّا كلّ شيء» (54:49) in the footnote is only comparative evidence. The source is partly abbreviated after «(الواو) عاطفة» but still has translatable content for every ayah, so it is correctly placed and not a SOURCE_DEFECT.",
+"at": "2026-10-17 00:43"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "The entry covers exactly 51-53: «أهلكنا ...» and «هل من مدّكر» (51), «كلّ شيء ... فعلوه ... في الزبر» (52), «كلّ صغير ... مستطر» and the Sarf of (53) مستطر (53). It is correctly filed under 51-53. The word-by-word i'rab breaks off after «(الواو) عاطفة» but the clause analysis and Sarf continue, so the text is placeable and translatable (both readings mark the gap); this is not a SOURCE_DEFECT that leaves nothing to place.",
+"at": "2026-10-17 00:44"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

@@ -1,0 +1,56 @@
+{
+"mekki-muskil:6-7": {
+"p1": {
+"ar": "84fbb28f7973",
+"tr": "4220b0152fea",
+"en": "b218d26120d4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u6",
+"at": "2026-10-10 15:41",
+"fixed": false
+}
+},
+"mekki-muskil:22-22": {
+"p1": {
+"ar": "eb3e75680b8e",
+"tr": "73b649a98b84",
+"en": "ee28ebc3ded2",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "FIXED",
+"note": "Second and third comments (وثمود الذين = 89:9, ولا يحضون = 89:18) belong to other ayahs; English translator note wrongly said verses 15-18 and 20, corrected to 9 and 18.",
+"by": "mekki-muskil-u6",
+"at": "2026-10-10 15:41",
+"fixed": true
+},
+"p2": {
+"ar": "eb3e75680b8e",
+"tr": "73b649a98b84",
+"en": "ee28ebc3ded2",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "Only \"صفا صفا\" is 89:22; \"وثمود الذين\" belongs to 89:9 and \"ولا يحضون على طعام المسكين\" to 89:18; translations complete and faithful.",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 18:52",
+"fixed": false
+}
+},
+"mekki-muskil:23-23": {
+"p1": {
+"ar": "d3d2c169ecef",
+"tr": "c117be50dee8",
+"en": "a7dfc96b33aa",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u6",
+"at": "2026-10-10 15:41",
+"fixed": false
+}
+}
+}

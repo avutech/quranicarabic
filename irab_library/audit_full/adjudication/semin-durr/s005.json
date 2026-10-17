@@ -1,0 +1,147 @@
+{
+"semin-durr:16-16": {
+"hs": [
+"99614a70b473",
+"46d0b99c6191",
+"4cbab106e73c"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «والضميرُ في «به» يعودُ على مَنْ جَعَلَ «يَهْدي» حالاً منه أو صفة له». TR: '«به»deki zamir, «يَهْدي»yi kendisinden hâl veya kendisine sıfat kılanın (o kimsenin kabul ettiği kelimeye) döner.' The parenthetical '(o kimsenin kabul ettiği kelimeye)' is not in the Arabic; it is the translator's explanation of the elliptical على مَنْ جعل ('according to whoever makes يهدي a ḥāl of / ṣifa of it, [it refers to that word]') given unmarked. Must be inside a [Mütercim notu: …] (the same entry already uses a Mütercim notu for «السلام», showing the convention).",
+"at": "2026-10-17 00:40"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «والضميرُ في» به «يعودُ على مَنْ جَعَلَ» يَهْدي «حالاً منه أو صفة له» = the pronoun returns to whichever [word, نور or كتاب] يهدي is made a ḥāl of or ṣifa of. TR '«يَهْدي»yi kendisinden hâl veya kendisine sıfat kılanın (o kimsenin kabul ettiği kelimeye) döner' adds the explanatory phrase '(o kimsenin kabul ettiği kelimeye)', which is not in the Arabic and is not marked as a Mütercim notu. Fix: render the sentence literally and move the explanation into [Mütercim notu: …]. The rest (five وجوه, Abū al-Baqāʾ, readings «بهُ», «سُبْل», بدل analyses, «بإذنه»; marked note on «السلام») is faithful.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Unmarked gloss '(o kimsenin kabul ettiği kelimeye)' removed; sentence rendered literally and explanation moved into Mütercim notu",
+"verified": "PASS",
+"verify_note": "Explanatory clause now inside [Mütercim notu]; the rest (five views, Abu al-Baqa, readings, badal types, bi-idhnihi) is complete and faithful, nothing unmarked added."
+}
+},
+"history": [
+{
+"old_hs": [
+"99614a70b473",
+"07cf971577cf",
+"4cbab106e73c"
+],
+"dim": "tr",
+"what": "Unmarked gloss '(o kimsenin kabul ettiği kelimeye)' removed; sentence rendered literally and explanation moved into Mütercim notu",
+"at": "2026-10-17 00:43"
+}
+]
+},
+"semin-durr:33-33": {
+"hs": [
+"ff24462cc5a5",
+"3ecbf222d6a2",
+"374ecae70ed3"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic third view: «الثالث: أنه منصوبٌ على المصدر اي: إنه نوع من العامل قبله». EN: 'that it is accusative as a maṣdar [i.e. mafʿūl muṭlaq (absolute object)], i.e. it is a kind of the governor before it'. The bracket '[i.e. mafʿūl muṭlaq (absolute object)]' is not in the Arabic and is not a [Translator's note: …]; correct in substance, but an unmarked addition per the standard. Fix: move it into a Translator's note.",
+"at": "2026-10-17 00:40"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «الثالث: أنه منصوبٌ على المصدر اي: إنه نوع من العامل قبله» - only 'accusative as a maṣdar'. EN 'accusative as a maṣdar [i.e. mafʿūl muṭlaq (absolute object)]' adds the term mafʿūl muṭlaq, which is not in the Arabic; the gloss is correct in substance but is an unmarked addition (glossary_en rule 9: anything added for clarity must be a [Translator's note: …]). Fix: turn it into '[Translator's note: i.e. mafʿūl muṭlaq (absolute object)]' or drop it. The rest of the EN entry matches the Arabic.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved remaining unmarked bracket supplements: 'emphasising [maṣdar]' now a Translator's note; '[the land]' replaced by literal 'that'; '[verb of] settledness' moved into a Translator's note",
+"verify_note": "mafʿūl muṭlaq gloss, emphasising maṣdar and istiqrār glosses now in Translator's notes, '[the land]' removed; complete and faithful.",
+"fix_failed": 1,
+"verified": "PASS"
+}
+},
+"history": [
+{
+"old_hs": [
+"ff24462cc5a5",
+"3ecbf222d6a2",
+"69791593eeb0"
+],
+"dim": "en",
+"what": "Unmarked gloss '[i.e. mafʿūl muṭlaq (absolute object)]' turned into a Translator's note",
+"at": "2026-10-17 00:44"
+},
+{
+"old_hs": [
+"ff24462cc5a5",
+"3ecbf222d6a2",
+"5e74a04b9f45"
+],
+"dim": "en",
+"what": "Moved remaining unmarked bracket supplements: 'emphasising [maṣdar]' now a Translator's note; '[the land]' replaced by literal 'that'; '[verb of] settledness' moved into a Translator's note",
+"at": "2026-10-17 00:49"
+}
+]
+},
+"semin-durr:64-64": {
+"hs": [
+"2de0382eccca",
+"a22d47bd8fe4",
+"10469cc9bc9a"
+],
+"dims": {
+"fit": {
+"votes": {
+"J2": {
+"class": "MISPLACED",
+"evidence": "Bulk is 5:64 (يد الله مغلولة، غلت أيديهم ولعنوا، بل يداه مبسوطتان، ينفق كيف يشاء، ما أنزل إليك، للحرب، فساداً), but the entry also contains «والظاهر أن الضميرَ في «كانوا» عائدٌ على الأحبار والرهبان، ويجوز أن يعودَ على المتقدمين», which is the referent of كانوا in 5:63 «لولا ينهاهم الربانيون والأحبار ... لبئس ما كانوا يصنعون»; 5:64 has no كانوا. So the entry is about 63-64.",
+"at": "2026-10-17 00:41",
+"ayahs": "63-64"
+},
+"J1": {
+"class": "MISPLACED",
+"evidence": "Entry opens with «والظاهر أن الضميرَ في «كانوا» عائدٌ على الأحبار والرهبان، ويجوز أن يعودَ على المتقدمين» - «كانوا» does not occur in 5:64; it is the «لَبِئْسَ مَا كَانُوا يَصْنَعُونَ» of 5:63 (whose subject is الربانيون والأحبار). The rest ({يَدُ الله مَغْلُولَةٌ}, «ولُعنوا», {يُنفِقُ كَيْفَ يَشَآءُ}, {مَّآ أُنزِلَ}, {لِّلْحَرْبِ}, {فَسَاداً}) is 5:64. Entry substantively covers 63 and 64.",
+"at": "2026-10-17 00:41",
+"ayahs": "63-64"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+},
+"semin-durr:100-100": {
+"hs": [
+"058e74470f0f",
+"9e896236cc52",
+"961426818b89"
+],
+"dims": {
+"fit": {
+"votes": {
+"J2": {
+"class": "MISPLACED",
+"evidence": "First paragraph «{وَلَوْ أَعْجَبَكَ كَثْرَةُ}: جوابُها محذوف» is 5:100; second paragraph «والبلاغُ يُحتمل أن يكون مصدراً ل بَلَّغ ... ما عليه إلا التبليغ» comments on 5:99 «ما على الرسول إلا البلاغ»; 5:100 has no البلاغ.",
+"at": "2026-10-17 00:41",
+"ayahs": "99-100"
+},
+"J1": {
+"class": "MISPLACED",
+"evidence": "First paragraph {وَلَوْ أَعْجَبَكَ كَثْرَةُ} is 5:100, but the second paragraph «والبلاغُ يُحتمل أن يكون مصدراً ل بَلَّغ ... ما عليه إلا التبليغُ» parses «البلاغ» of 5:99 {مَّا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ}; 5:100 has no البلاغ. Entry covers 99-100.",
+"at": "2026-10-17 00:41",
+"ayahs": "99-100"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+}
+}

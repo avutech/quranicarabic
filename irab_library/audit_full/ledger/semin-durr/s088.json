@@ -1,0 +1,206 @@
+{
+"semin-durr:1-1": {
+"p1": {
+"ar": "bb1f8fefbd16",
+"tr": "7ecfdb6a2136",
+"en": "ad4f0057eb23",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:58",
+"fixed": false
+}
+},
+"semin-durr:2-2": {
+"p1": {
+"ar": "5620267c32f2",
+"tr": "b0ff9dfbedce",
+"en": "f6ce69ae4234",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:58",
+"fixed": false
+}
+},
+"semin-durr:5-5": {
+"p1": {
+"ar": "74d21ad5a83c",
+"tr": "ac8b4be2d314",
+"en": "7880cbc04c7d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:58",
+"fixed": false
+}
+},
+"semin-durr:6-6": {
+"p1": {
+"ar": "558d81ba29df",
+"tr": "978ad863a5be",
+"en": "4fb8ddce9400",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p1-u10",
+"at": "2026-10-17 00:20",
+"fixed": false
+},
+"p2": {
+"ar": "558d81ba29df",
+"tr": "978ad863a5be",
+"en": "4fb8ddce9400",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR added unmarked \"(ed-Dîneverî)\" after \"أبو حنيفة\"; now inside a Mütercim notu.",
+"by": "semin-durr-p2-u20",
+"at": "2026-10-17 00:06",
+"fixed": true
+}
+},
+"semin-durr:7-7": {
+"p1": {
+"ar": "3458acb9ff36",
+"tr": "b1a3a8ade99a",
+"en": "a60efdc0786e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:58",
+"fixed": false
+}
+},
+"semin-durr:11-11": {
+"p1": {
+"ar": "d9757d385486",
+"tr": "3fa562c77e28",
+"en": "6fd77ea9c5af",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:58",
+"fixed": false
+}
+},
+"semin-durr:15-15": {
+"p1": {
+"ar": "82a0e176484c",
+"tr": "d93e23e426f9",
+"en": "334c82406775",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:58",
+"fixed": false
+}
+},
+"semin-durr:16-16": {
+"p1": {
+"ar": "e4535ac86488",
+"tr": "0c2b2e8e8d27",
+"en": "e99ea88b9179",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:58",
+"fixed": false
+}
+},
+"semin-durr:17-17": {
+"p1": {
+"ar": "90cf7d0ff54d",
+"tr": "035c85cbf0cd",
+"en": "b428a7d50f2b",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "أمير المؤمنين was glossed as Hz. Ali / [ʿAlī] without marking; changed to a translator's note",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:58",
+"fixed": true
+},
+"p2": {
+"ar": "90cf7d0ff54d",
+"tr": "035c85cbf0cd",
+"en": "b428a7d50f2b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u20",
+"at": "2026-10-17 00:06",
+"fixed": false
+}
+},
+"semin-durr:22-22": {
+"p1": {
+"ar": "19abec9f1e26",
+"tr": "ac3cce793281",
+"en": "c8646b294804",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:58",
+"fixed": false
+}
+},
+"semin-durr:23-23": {
+"p1": {
+"ar": "e3eabf38f6a2",
+"tr": "20cffb8d398e",
+"en": "24c373e48725",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:58",
+"fixed": false
+},
+"p2": {
+"ar": "e3eabf38f6a2",
+"tr": "20cffb8d398e",
+"en": "24c373e48725",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u20",
+"at": "2026-10-17 00:06",
+"fixed": false
+}
+},
+"semin-durr:25-25": {
+"p1": {
+"ar": "4302817424d4",
+"tr": "23eef2fbe767",
+"en": "e791b272dfa8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:58",
+"fixed": false
+}
+}
+}

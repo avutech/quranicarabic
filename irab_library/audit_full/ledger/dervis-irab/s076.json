@@ -1,0 +1,80 @@
+{
+"dervis-irab:1-12": {
+"p1": {
+"ar": "6c073a97d272",
+"tr": "168b3595fa6f",
+"en": "642938e33409",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u16",
+"at": "2026-10-17 00:58",
+"fixed": false
+},
+"p2": {
+"ar": "6c073a97d272",
+"tr": "168b3595fa6f",
+"en": "24d1bc431ca2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u38",
+"at": "2026-10-16 19:28",
+"fixed": false
+}
+},
+"dervis-irab:13-22": {
+"p1": {
+"ar": "ca162b19099c",
+"tr": "4fef38199cc9",
+"en": "8825e914a03d",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English silently corrected the source typo «بالعبد» to \"the far\"; now translated as written with a translator note.",
+"by": "dervis-irab-u94",
+"at": "2026-10-10 19:44",
+"fixed": true
+},
+"p2": {
+"ar": "ca162b19099c",
+"tr": "4fef38199cc9",
+"en": "8825e914a03d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u38",
+"at": "2026-10-16 19:29",
+"fixed": false
+}
+},
+"dervis-irab:23-31": {
+"p1": {
+"ar": "19fc133bc2dc",
+"tr": "f066a97a7d68",
+"en": "aa5b7e4e22d2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u4",
+"at": "2026-10-17 00:15",
+"fixed": false
+},
+"p2": {
+"ar": "19fc133bc2dc",
+"tr": "f066a97a7d68",
+"en": "aa5b7e4e22d2",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN silently dropped the source word «عدم» in «رد على عدم ما قاله»; added a translator note as the Turkish has.",
+"by": "dervis-irab-p2-u7",
+"at": "2026-10-17 00:02",
+"fixed": true
+}
+}
+}

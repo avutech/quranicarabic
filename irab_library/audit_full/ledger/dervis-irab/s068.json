@@ -1,0 +1,84 @@
+{
+"dervis-irab:1-7": {
+"p1": {
+"ar": "b845499f9e21",
+"tr": "e632ce158f40",
+"en": "cb993b624b5a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u93",
+"at": "2026-10-10 19:45",
+"fixed": false
+}
+},
+"dervis-irab:8-16": {
+"p1": {
+"ar": "bc89dbf0a0b2",
+"tr": "45256f632230",
+"en": "543b818173e6",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR had unmarked \"on sekiz (yeni)\" for \"ثماني عشرة\" with the unit not in the source; replaced with a Mutercim notu as the EN already does.",
+"by": "dervis-irab-u93",
+"at": "2026-10-10 19:45",
+"fixed": true
+},
+"p2": {
+"ar": "bc89dbf0a0b2",
+"tr": "45256f632230",
+"en": "543b818173e6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u7",
+"at": "2026-10-17 00:02",
+"fixed": false
+}
+},
+"dervis-irab:17-33": {
+"p1": {
+"ar": "6505f5fb87eb",
+"tr": "2aa84a459ce7",
+"en": "03cdc24b74ca",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u2",
+"at": "2026-10-11 00:54",
+"fixed": false
+}
+},
+"dervis-irab:34-43": {
+"p1": {
+"ar": "2cc5c801dbdf",
+"tr": "1e405faccd58",
+"en": "6d031c5fa809",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u2",
+"at": "2026-10-11 00:54",
+"fixed": false
+}
+},
+"dervis-irab:44-52": {
+"p1": {
+"ar": "971525de3e97",
+"tr": "c929faea3de8",
+"en": "876967b0bff2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u2",
+"at": "2026-10-11 00:54",
+"fixed": false
+}
+}
+}

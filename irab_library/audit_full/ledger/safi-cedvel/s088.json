@@ -1,0 +1,84 @@
+{
+"safi-cedvel:1-1": {
+"p1": {
+"ar": "d9708a9cc879",
+"tr": "849cb8d5ecca",
+"en": "7bc7c3f337c5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u65",
+"at": "2026-10-10 19:33",
+"fixed": false
+}
+},
+"safi-cedvel:2-7": {
+"p1": {
+"ar": "da76722e8fe2",
+"tr": "98fc8fa77b49",
+"en": "9cd8d793bbec",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u65",
+"at": "2026-10-10 19:33",
+"fixed": false
+}
+},
+"safi-cedvel:8-16": {
+"p1": {
+"ar": "1ef4096b59a6",
+"tr": "459982d7a2ab",
+"en": "e3a6903746e9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p1-u7",
+"at": "2026-10-17 00:04",
+"fixed": false
+},
+"p2": {
+"ar": "1ef4096b59a6",
+"tr": "459982d7a2ab",
+"en": "e3a6903746e9",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN said (سرر) \"is conjoined to it\", but \"عطف عليه (أكواب، نمارق، زرابيّ)\" means those three are conjoined to سرر; corrected.",
+"by": "safi-cedvel-p2-u23",
+"at": "2026-10-16 19:28",
+"fixed": true
+}
+},
+"safi-cedvel:17-20": {
+"p1": {
+"ar": "710e85b93733",
+"tr": "6fb6ab568f21",
+"en": "8d9f63db9dae",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u65",
+"at": "2026-10-10 19:33",
+"fixed": false
+}
+},
+"safi-cedvel:21-26": {
+"p1": {
+"ar": "239e13c27777",
+"tr": "fe4b0d8a5d59",
+"en": "e49668457e02",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u65",
+"at": "2026-10-10 19:33",
+"fixed": false
+}
+}
+}

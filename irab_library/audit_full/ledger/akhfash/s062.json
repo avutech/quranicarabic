@@ -1,0 +1,42 @@
+{
+"akhfash:5-5": {
+"p1": {
+"ar": "6c4221c7dd74",
+"tr": "f8151f019b72",
+"en": "b6b045bd9e68",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:41",
+"fixed": false
+}
+},
+"akhfash:9-9": {
+"p1": {
+"ar": "66343f0b9a7f",
+"tr": "9313266038df",
+"en": "1ab7fe0b869e",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "Second paragraph (la yakunu lil-asfar wahid, ababil, asatir) belongs to 62:5 asfaran; translator note already flags it.",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:41",
+"fixed": false
+},
+"p2": {
+"ar": "66343f0b9a7f",
+"tr": "9313266038df",
+"en": "1ab7fe0b869e",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "Second paragraph (\"لا يكون لـالأَسْفارِ واحد\") concerns ﴿أَسْفَاراً﴾ of 62:5, not 62:9; both readings flag it with a note.",
+"by": "akhfash-p2-u1",
+"at": "2026-10-16 19:05",
+"fixed": false
+}
+}
+}

@@ -1,0 +1,33 @@
+{
+"nahhas-irab:25-25": {
+"hs": [
+"c02cf0d3446c",
+"e2be8b006f02",
+"879d58e34a44"
+],
+"dims": {
+"fit": {
+"votes": {
+"J2": {
+"class": "SOURCE_DEFECT",
+"evidence": "Source starts mid-sentence: «عليهم من الأول وأدنى إلى أفهامهم من الأول. فخاطب موسى ... الجماعة بما هو أقرب». The comparative head (e.g. أبين) and the quoted Quranic words are missing; the fragment is about Moses' reply (26:26 «رَبُّكُمْ وَرَبُّ ءَابَآئِكُمُ ٱلْأَوَّلِينَ»), not 26:25's «أَلَا تَسْتَمِعُونَ», but with its beginning lost there is no complete entry to place; it is a truncated source.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "MISPLACED",
+"evidence": "The fragment «عليهم من الأول وأدنى إلى أفهامهم من الأول. فخاطب موسى ... الجماعة بما هو أقرب» explains that Moses' second answer, 26:26 «رَبُّكُمْ وَرَبُّ ءَابَآئِكُمُ ٱلْأَوَّلِينَ» (addressed in the plural to the group Pharaoh turned to in 26:25 «لِمَنْ حَوْلَهُ»), was clearer and nearer to their understanding than the first answer (26:24). The following entry 26-26 «فجاء بدليل يفهمونه» continues it. It concerns 26:25-26, not 26:25 alone; the beginning is missing in the source but the remaining text is placeable.",
+"at": "2026-10-17 00:40",
+"ayahs": "25-26"
+},
+"J3": {
+"class": "FALSE_ALARM",
+"evidence": "The fragment «عليهم من الأول وأدنى إلى أفهامهم من الأول. فخاطب موسى صلّى الله عليه وسلّم الجماعة بما هو أقرب» is truncated at the start, but what remains is coherent, translatable and belongs here: «الجماعة» are «لِمَنْ حَوْلَهُ» of 26:25 (Pharaoh turning to his entourage with «أَلَا تَسْتَمِعُونَ»), and the entry explains how Moses then turned to that group with a clearer proof than his first answer «رَبُّ السَّمَاوَاتِ وَالْأَرْضِ» (24). It leads into Moses's reply in 26:26, and the next entry (26-26) continues «فجاء بدليل يفهمونه...آباء». That reference to the following ayah is allowed. The 24 answer is only the point of comparison («من الأول»). Filing it under 25-25 is correct. Both readings translate what is present and mark the missing start in a translator's note, so it is not a SOURCE_DEFECT and does not need to be moved.",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "HUMAN"
+}
+}
+}
+}

@@ -1,0 +1,262 @@
+{
+"semin-durr:1-1": {
+"p1": {
+"ar": "7e61056b2506",
+"tr": "fbf78cb68673",
+"en": "9433b3169683",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u30",
+"at": "2026-10-11 02:41",
+"fixed": false
+}
+},
+"semin-durr:2-2": {
+"p1": {
+"ar": "250c913a63ed",
+"tr": "7861a39b8c6f",
+"en": "310cfebb629f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u30",
+"at": "2026-10-11 02:41",
+"fixed": false
+}
+},
+"semin-durr:3-3": {
+"p1": {
+"ar": "45bb0ae48950",
+"tr": "16c6c724f875",
+"en": "a0d0a2a5ccd3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u30",
+"at": "2026-10-11 02:41",
+"fixed": false
+}
+},
+"semin-durr:4-4": {
+"p1": {
+"ar": "352697e075c0",
+"tr": "8cca44fb8330",
+"en": "4e1e302c3a56",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u30",
+"at": "2026-10-11 02:41",
+"fixed": false
+}
+},
+"semin-durr:5-5": {
+"p1": {
+"ar": "51076ac71e63",
+"tr": "c710c2192979",
+"en": "36719c0cd365",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u30",
+"at": "2026-10-11 02:41",
+"fixed": false
+}
+},
+"semin-durr:6-6": {
+"p1": {
+"ar": "05019a83d415",
+"tr": "cddaf7d7da17",
+"en": "2691b4764f78",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u30",
+"at": "2026-10-11 02:41",
+"fixed": false
+}
+},
+"semin-durr:7-7": {
+"p1": {
+"ar": "5bbdf97e0036",
+"tr": "bcf4accec74f",
+"en": "093c2fa2b323",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u30",
+"at": "2026-10-11 02:41",
+"fixed": false
+}
+},
+"semin-durr:8-8": {
+"p1": {
+"ar": "a5bd7b148304",
+"tr": "93ae6f26be07",
+"en": "01029ee720cb",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u30",
+"at": "2026-10-11 02:41",
+"fixed": false
+},
+"p2": {
+"ar": "a5bd7b148304",
+"tr": "93ae6f26be07",
+"en": "01029ee720cb",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u19",
+"at": "2026-10-17 00:10",
+"fixed": false
+}
+},
+"semin-durr:9-9": {
+"p1": {
+"ar": "7c5df14bb548",
+"tr": "b205effbf2bb",
+"en": "a5112c274068",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u30",
+"at": "2026-10-11 02:41",
+"fixed": false
+}
+},
+"semin-durr:10-10": {
+"p1": {
+"ar": "b15be5f2adeb",
+"tr": "e65ddf2f3080",
+"en": "68a77f609ae7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p1-u10",
+"at": "2026-10-17 00:24",
+"fixed": false
+},
+"p2": {
+"ar": "b15be5f2adeb",
+"tr": "e65ddf2f3080",
+"en": "68a77f609ae7",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Turkish reversed the exception in \"وفَعْل ليس من أبنية التكسير إلاَّ عند الأخفش\" (made al-Akhfash deny it, with رَكْب/صَحْب as exceptions); fixed. English added an unmarked, inaccurate gloss \"(i.e. as a regular verb with suffixes)\" to «ناقصة»; removed.",
+"by": "semin-durr-p2-u19",
+"at": "2026-10-17 00:10",
+"fixed": true
+}
+},
+"semin-durr:12-12": {
+"p1": {
+"ar": "d1ef850611ee",
+"tr": "2a386b7ef3d9",
+"en": "6999b0ad7eee",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p1-u18",
+"at": "2026-10-17 01:03",
+"fixed": false
+},
+"p2": {
+"ar": "d1ef850611ee",
+"tr": "b011e0b7a269",
+"en": "6999b0ad7eee",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u19",
+"at": "2026-10-17 00:05",
+"fixed": false
+}
+},
+"semin-durr:13-13": {
+"p1": {
+"ar": "984ac25776a6",
+"tr": "aea5bd70cb47",
+"en": "65f86beeb6dd",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u30",
+"at": "2026-10-11 02:57",
+"fixed": false
+}
+},
+"semin-durr:14-14": {
+"p1": {
+"ar": "a155175aab94",
+"tr": "47b36bcef452",
+"en": "a1a9ada8285b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u30",
+"at": "2026-10-11 02:41",
+"fixed": false
+}
+},
+"semin-durr:16-16": {
+"p1": {
+"ar": "3265a0b5bd1e",
+"tr": "ea62230da9f9",
+"en": "74865be0f2fa",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u30",
+"at": "2026-10-11 02:41",
+"fixed": false
+}
+},
+"semin-durr:17-17": {
+"p1": {
+"ar": "369f8eab6bb9",
+"tr": "27b9ec440eb7",
+"en": "4382719d9efe",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u30",
+"at": "2026-10-11 02:41",
+"fixed": false
+}
+},
+"semin-durr:18-18": {
+"p1": {
+"ar": "45bdb28d8792",
+"tr": "5e72bc41ff20",
+"en": "494616509848",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u30",
+"at": "2026-10-11 02:41",
+"fixed": false
+}
+}
+}

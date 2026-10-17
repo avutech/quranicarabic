@@ -1,0 +1,154 @@
+{
+"semin-durr:2-2": {
+"p1": {
+"ar": "8886d171eda9",
+"tr": "58655bea8eec",
+"en": "998b2d34415d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:3-3": {
+"p1": {
+"ar": "18eca707a817",
+"tr": "88a221a1c6f4",
+"en": "91b527868fe1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:4-4": {
+"p1": {
+"ar": "bf1315ca4ac6",
+"tr": "71a67d7226aa",
+"en": "0b78fe31d018",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:6-6": {
+"p1": {
+"ar": "dea08311ab52",
+"tr": "95857d0f6b9c",
+"en": "c994f3700983",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:9-9": {
+"p1": {
+"ar": "64de1e83c529",
+"tr": "503e162d9bbf",
+"en": "4c2554ee758c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:10-10": {
+"p1": {
+"ar": "e5a27f091bbb",
+"tr": "b36c5b0d5cb5",
+"en": "a6859d7c423d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:11-11": {
+"p1": {
+"ar": "90af0bdf57ef",
+"tr": "92b0b871ceeb",
+"en": "04c15c939a0e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:13-13": {
+"p1": {
+"ar": "e2fc77052ce6",
+"tr": "8b9b9ab33d00",
+"en": "259f7fd0af62",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:17-17": {
+"p1": {
+"ar": "5bfc88d618dc",
+"tr": "72b770431943",
+"en": "2d28f6bc1bf4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:20-20": {
+"p1": {
+"ar": "bf8fcb7121a1",
+"tr": "bb7028637457",
+"en": "e274460a94c6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p1-u10",
+"at": "2026-10-17 00:21",
+"fixed": false
+},
+"p2": {
+"ar": "bf8fcb7121a1",
+"tr": "bb7028637457",
+"en": "e274460a94c6",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR added unmarked identification \"(Şu'be)\" after \"أبو بكر\"; now inside a Mütercim notu.",
+"by": "semin-durr-p2-u20",
+"at": "2026-10-17 00:07",
+"fixed": true
+}
+}
+}

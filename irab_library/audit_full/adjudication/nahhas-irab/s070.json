@@ -1,0 +1,82 @@
+{
+"nahhas-irab:1-1": {
+"hs": [
+"fe5692887acd",
+"fe9e9677b296",
+"ff6e7c65b390"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source: «أن سيبويه حكى: سلت أسأل بمعنى سألت» (hamza in أسأل). TR writes «سلت أسال» without hamza and without a Mütercim notu: silent correction of the source. The change is linguistically sensible (سِلْتُ أَسَالُ) but must be marked in a note while quoting what is written.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: «سيبويه حكى: سلت أسأل بمعنى سألت» (أسأل with hamza). TR writes «سلت أسال» without hamza and without a Mütercim notu. Likely the correct form of Sibawayh's dialect, but this silently corrects the printed source; needs a note.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Dropped unmarked '(bir lügat)' and 'doğru'; dropped '(türemiş)' and gloss 'aktı'; rendered لأن هذا ليس بتخفيف الهمز literally; سلت أسأل kept as printed with note",
+"verify_note": "'(bir lügat)' and 'doğru' removed; سلت أسأل kept as printed with Mütercim notu; complete and faithful, no unmarked additions.",
+"fix_failed": 2,
+"verified": "PASS"
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source: «سلت أسأل بمعنى سألت»; EN writes «سِلْتُ أسالُ» (no hamza) without a note: silent correction. EN also has unmarked bracketed additions outside notes: '[i.e. «سالَ سائلٌ»]', '[by lightening]', 'hamzated [root]'. These must go inside [Translator's note: ...].",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: «سلت أسأل بمعنى سألت»; EN writes «سِلْتُ أسالُ» (no hamza) with no Translator's note. Silent correction of the source text; must be marked in a note.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Kept source «سلت أسأل» with Translator's note; moved '[i.e. سال سائل]' into note; removed unmarked '[by lightening]' and '[root]'",
+"verified": "PASS",
+"verify_note": "«سلت أسأل» kept as printed with a Translator's note; earlier plain brackets removed or moved into notes; complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"fe5692887acd",
+"1543efd75bd8",
+"b45b79cf1b30"
+],
+"dim": "tr",
+"what": "Kept source «سلت أسأل» with Mütercim notu on hamza-less reading",
+"at": "2026-10-17 00:44"
+},
+{
+"old_hs": [
+"fe5692887acd",
+"d75e710887fd",
+"ff6e7c65b390"
+],
+"dim": "en",
+"what": "Kept source «سلت أسأل» with Translator's note; moved '[i.e. سال سائل]' into note; removed unmarked '[by lightening]' and '[root]'",
+"at": "2026-10-17 00:44"
+},
+{
+"old_hs": [
+"fe5692887acd",
+"d75e710887fd",
+"ff6e7c65b390"
+],
+"dim": "tr",
+"what": "Dropped unmarked '(bir lügat)' and 'doğru'; dropped '(türemiş)' and gloss 'aktı'; rendered لأن هذا ليس بتخفيف الهمز literally; سلت أسأل kept as printed with note",
+"at": "2026-10-17 00:47"
+}
+]
+}
+}

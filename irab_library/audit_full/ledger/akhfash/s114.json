@@ -1,0 +1,68 @@
+{
+"akhfash:2-2": {
+"p1": {
+"ar": "be7fb6ecea55",
+"tr": "05e49322350b",
+"en": "ee1050668edd",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish '(Ahfes) dedi ki' for qala changed to buyurdu; quoted word al-malk restored as written in the source (Turkish had altered it to al-milk).",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:47",
+"fixed": true
+},
+"p2": {
+"ar": "be7fb6ecea55",
+"tr": "05e49322350b",
+"en": "ee1050668edd",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-p2-u1",
+"at": "2026-10-16 19:17",
+"fixed": false
+}
+},
+"akhfash:3-3": {
+"p1": {
+"ar": "0759f5a84a6f",
+"tr": "496bcca20e8c",
+"en": "c81da1d3df7a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:47",
+"fixed": false
+},
+"p2": {
+"ar": "0759f5a84a6f",
+"tr": "496bcca20e8c",
+"en": "c81da1d3df7a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-p2-u1",
+"at": "2026-10-16 19:17",
+"fixed": false
+}
+},
+"akhfash:6-6": {
+"p1": {
+"ar": "816af15afda3",
+"tr": "4616dc3237b4",
+"en": "ea420bf43645",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:47",
+"fixed": false
+}
+}
+}

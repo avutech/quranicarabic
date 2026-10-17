@@ -1,0 +1,27 @@
+{
+"semin-durr:14-14": {
+"hs": [
+"a148e56dfea6",
+"e9c1bbdda749",
+"b853d37ebe39"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Verse gloss renders لِقاحاً as 'gebe kalmamış' (not having conceived). لقاح/لَقوح relates to conception or milch camels (ناقة لقوح = milch), or in حيّ لقاح 'not subjugated'. It never means 'not pregnant', so the gloss gives the opposite of the word. Also the Mütercim notu says the number 4573 'should be 4537', but the neighbouring entry 91:10 has 4580-4582, so 4573 is in sequence and the note's claim is false. Fix: gloss لقاحاً correctly (e.g. süt veren) and drop or correct the numbering note.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "HUMAN",
+"evidence": "Verse gloss renders لِقاحاً as 'gebe kalmamış' (not having conceived). Lexically لِقاح (kasra) is the plural of لَقُوح (milch/pregnant she-camel) and لَقاح relates to conception or to 'never subjugated' (حيّ لقاح); 'not having conceived' is the opposite of the root sense, yet al-Samin's own gloss (أي: لا ولدَ لها تَحِنُّ إليه) makes the poet's intended sense debatable. Rest of the Turkish (الوُدّ mübalağa, Ibn Abbas, Mubarrad, فَعُول بمعنى مَفْعول) is accurate. The meaning of لقاحا in this verse needs a lexicographer's decision.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "HUMAN"
+}
+}
+}
+}

@@ -1,0 +1,152 @@
+{
+"mekki-muskil:27-28": {
+"p1": {
+"ar": "1dc8fbe1edfd",
+"tr": "4e0fb3e6fa9f",
+"en": "a627419ebca0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u6",
+"at": "2026-10-10 15:40",
+"fixed": false
+}
+},
+"mekki-muskil:1-1": {
+"p1": {
+"ar": "67299c1e6901",
+"tr": "4bffe99bb834",
+"en": "834774642288",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English silently corrected source «لاتفتوا» to «لا تفتروا»; translator note added.",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:48",
+"fixed": true
+},
+"p2": {
+"ar": "67299c1e6901",
+"tr": "4bffe99bb834",
+"en": "834774642288",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 18:52",
+"fixed": false
+}
+},
+"mekki-muskil:3-3": {
+"p1": {
+"ar": "8dad21cf60c2",
+"tr": "a511a5646f5a",
+"en": "e4d7d82b0e75",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:48",
+"fixed": false
+}
+},
+"mekki-muskil:6-6": {
+"p1": {
+"ar": "f5c16b4117c3",
+"tr": "fdb06faa08f3",
+"en": "196f014536de",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:48",
+"fixed": false
+}
+},
+"mekki-muskil:7-7": {
+"p1": {
+"ar": "102e9cf81e5f",
+"tr": "2f710f862a61",
+"en": "92bb413dd181",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:48",
+"fixed": false
+}
+},
+"mekki-muskil:8-8": {
+"p1": {
+"ar": "602b50445bbb",
+"tr": "0223235e46e8",
+"en": "102f9e51c987",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:48",
+"fixed": false
+}
+},
+"mekki-muskil:9-9": {
+"p1": {
+"ar": "0a4ffbecb42b",
+"tr": "72595bffc043",
+"en": "797db5f53d95",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "The second paragraph (ثم يقال هذا الذي) comments on 83:17, not 83:9.",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:49",
+"fixed": false
+},
+"p2": {
+"ar": "0a4ffbecb42b",
+"tr": "72595bffc043",
+"en": "797db5f53d95",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "Second paragraph \"ثم يقال هذا الذي\" belongs to 83:17; translations complete and faithful.",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 18:52",
+"fixed": false
+}
+},
+"mekki-muskil:13-13": {
+"p1": {
+"ar": "67b5b4132b48",
+"tr": "c5924278cf7c",
+"en": "cca045a58789",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:48",
+"fixed": false
+}
+},
+"mekki-muskil:18-18": {
+"p1": {
+"ar": "03b083110ced",
+"tr": "6ad2d9661800",
+"en": "5e919681018a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:48",
+"fixed": false
+}
+}
+}

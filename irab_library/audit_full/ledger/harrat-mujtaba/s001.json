@@ -1,0 +1,98 @@
+{
+"harrat-mujtaba:1-1": {
+"p1": {
+"ar": "881eb2cdcade",
+"tr": "a3ba8ec44abf",
+"en": "138c7554264d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "harrat-mujtaba-u6",
+"at": "2026-10-10 15:40",
+"fixed": false
+}
+},
+"harrat-mujtaba:2-2": {
+"p1": {
+"ar": "10ae2ce8c44e",
+"tr": "b672e9b6e20b",
+"en": "d4356dc6568c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "harrat-mujtaba-u6",
+"at": "2026-10-10 15:40",
+"fixed": false
+}
+},
+"harrat-mujtaba:4-4": {
+"p1": {
+"ar": "0498329a07e8",
+"tr": "66cb93e4f436",
+"en": "18ec34d55e83",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "harrat-mujtaba-u6",
+"at": "2026-10-10 15:40",
+"fixed": false
+}
+},
+"harrat-mujtaba:5-5": {
+"p1": {
+"ar": "04f2db2f6a09",
+"tr": "9a4ef9519a80",
+"en": "d823e5578fc5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "harrat-mujtaba-u6",
+"at": "2026-10-10 15:40",
+"fixed": false
+}
+},
+"harrat-mujtaba:6-6": {
+"p1": {
+"ar": "f3274fa77790",
+"tr": "9b18be1cc626",
+"en": "736dc60a7c21",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "The sentence on {نَسْتَعِينُ} (origin from العون) belongs to 1:5, not 1:6.",
+"by": "harrat-mujtaba-u6",
+"at": "2026-10-10 15:40",
+"fixed": false
+},
+"p2": {
+"ar": "f3274fa77790",
+"tr": "9b18be1cc626",
+"en": "736dc60a7c21",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "harrat-mujtaba-u3",
+"at": "2026-10-11 03:51",
+"fixed": false
+}
+},
+"harrat-mujtaba:7-7": {
+"p1": {
+"ar": "671f4f7e695f",
+"tr": "dd022f6731d4",
+"en": "f38ad9d8b622",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "harrat-mujtaba-u6",
+"at": "2026-10-10 15:40",
+"fixed": false
+}
+}
+}

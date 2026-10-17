@@ -1,0 +1,53 @@
+{
+"dervis-irab:1-3": {
+"hs": [
+"2c6cb19b7591",
+"1bedfdd52e8d",
+"c127dd3b52e6"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Letter text: source بجيش كالليل يسير كالسيل; TR «gece gibi (karanlık ve kalabalık) bir orduyla» adds the interpretation «karanlık ve kalabalık», not in the Arabic and not inside [Mütercim notu: …]. Also «binek verdiler ve (mal) verدiler» for وحملوها وأعطوها adds «mal». Glosses like «(Rasûlullah (s.a.v.)'in haberlerini)» merely translate the quoted إخبار رسول الله and are fine, but the interpretive parentheticals are unmarked additions; rest is faithful.",
+"at": "2026-10-17 00:42"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Most parenthetical items are acceptable glosses of cited Arabic: «إخبار رسول الله» → (Rasûlullah (s.a.v.)'in haberlerini); ملصقا → 'sonradan iliştirilmiş (dışarıdan katılmış)'; يدا → 'iyilik (minnet)'. But in Hâtıb's letter بجيش كالليل يسير كالسيل TR gives 'gece gibi (karanlık ve kalabalık) bir orduyla' — '(karanlık ve kalabalık)' is an interpretation of the simile not in the Arabic, unmarked; likewise وأعطوها → 've (mal) verdiler' supplies an unstated object. Fix: move these into «[Mütercim notu: …]» or drop them.",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked additions '(okunur)' after munsarif/gayr-i munsarif and '(sanatı)' in 'eşsiz ifade türündendir'",
+"verify_note": "Flagged fixes OK ('(okunur)' and '(sanatı)' removed). Remaining: (1) wrong meaning in the hadith: «لتخرجنّ الكتاب أو لتلقين الثياب» (you will bring out the letter or you will cast off the clothes - both 2nd person fem.) is rendered 'ya da elbiselerini çıkarırız' (or WE will take off your clothes) - should be e.g. 'ya da elbiseleri çıkarıp atarsın'; (2) unmarked addition: «فقال عليه الصلاة والسلام» -> '(Peygamber) aleyhissalâtü vesselâm' - '(Peygamber)' is not in the Arabic; drop it or put it in a Mütercim notu; (3) in Belâgat «لاعتباره قد كان» -> 'onun (vuku bulmuş) olmuş gibi' - '(vuku bulmuş)' is an unmarked parenthetical; drop it.",
+"fix_failed": 2,
+"verified": null
+}
+},
+"history": [
+{
+"old_hs": [
+"2c6cb19b7591",
+"02781a50c243",
+"c127dd3b52e6"
+],
+"dim": "tr",
+"what": "removed unmarked '(karanlık ve kalabalık)'; وأعطوها rendered 'ona ihsanda bulundular' instead of '(mal) verdiler'",
+"at": "2026-10-17 00:47"
+},
+{
+"old_hs": [
+"2c6cb19b7591",
+"67938db20e1e",
+"c127dd3b52e6"
+],
+"dim": "tr",
+"what": "Removed unmarked additions '(okunur)' after munsarif/gayr-i munsarif and '(sanatı)' in 'eşsiz ifade türündendir'",
+"at": "2026-10-17 00:53"
+}
+]
+}
+}

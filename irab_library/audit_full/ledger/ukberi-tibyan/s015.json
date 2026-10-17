@@ -1,0 +1,680 @@
+{
+"ukberi-tibyan:40-40": {
+"p1": {
+"ar": "0042d2c568b2",
+"tr": "51473a0fc801",
+"en": "0d386578ad7c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u33",
+"at": "2026-10-10 15:55",
+"fixed": false
+}
+},
+"ukberi-tibyan:41-41": {
+"p1": {
+"ar": "fa4a9a8fa02f",
+"tr": "99003c3fd94d",
+"en": "c0f36ef209f4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u33",
+"at": "2026-10-10 15:55",
+"fixed": false
+}
+},
+"ukberi-tibyan:42-42": {
+"p1": {
+"ar": "76973ab45659",
+"tr": "6e37bb7b355e",
+"en": "7e5fa3bfd646",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u33",
+"at": "2026-10-10 15:55",
+"fixed": false
+}
+},
+"ukberi-tibyan:43-43": {
+"p1": {
+"ar": "1e426d0879e1",
+"tr": "574d9b552698",
+"en": "e7ba32ae61a1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u33",
+"at": "2026-10-10 15:55",
+"fixed": false
+}
+},
+"ukberi-tibyan:44-44": {
+"p1": {
+"ar": "9e08ca0d5d6a",
+"tr": "91b5bf8718c5",
+"en": "dd1f78323f85",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u33",
+"at": "2026-10-10 15:55",
+"fixed": false
+}
+},
+"ukberi-tibyan:45-46": {
+"p1": {
+"ar": "760b2a8ee0fd",
+"tr": "e6f6a3a1744f",
+"en": "f90016c07505",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u33",
+"at": "2026-10-10 15:55",
+"fixed": false
+}
+},
+"ukberi-tibyan:47-47": {
+"p1": {
+"ar": "85655384581d",
+"tr": "54d213766ae2",
+"en": "5a85af9ae77d",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish rendered مُتَصَافِّينَ as \"birbirine samimi dostlar\" but with shadda it means lined up in rows; fixed to \"saf saf dizilmiş olanlar\".",
+"by": "ukberi-tibyan-u33",
+"at": "2026-10-10 15:55",
+"fixed": true
+},
+"p2": {
+"ar": "85655384581d",
+"tr": "54d213766ae2",
+"en": "5a85af9ae77d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-p2-u5",
+"at": "2026-10-16 18:25",
+"fixed": false
+}
+},
+"ukberi-tibyan:48-48": {
+"p1": {
+"ar": "6263e48eb640",
+"tr": "b88e04d058c9",
+"en": "d37429850ffa",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u33",
+"at": "2026-10-10 15:55",
+"fixed": false
+}
+},
+"ukberi-tibyan:49-50": {
+"p1": {
+"ar": "03237b736f6a",
+"tr": "40c6cd0524d3",
+"en": "878ffdb28412",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u33",
+"at": "2026-10-10 15:55",
+"fixed": false
+}
+},
+"ukberi-tibyan:52-52": {
+"p1": {
+"ar": "e18ae67106a0",
+"tr": "2486be55e981",
+"en": "60e9d3286114",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u33",
+"at": "2026-10-10 15:55",
+"fixed": false
+}
+},
+"ukberi-tibyan:54-54": {
+"p1": {
+"ar": "03634913d27d",
+"tr": "90002332adcd",
+"en": "bb45b2fd211e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u33",
+"at": "2026-10-10 15:55",
+"fixed": false
+}
+},
+"ukberi-tibyan:56-56": {
+"p1": {
+"ar": "fda17eb067e3",
+"tr": "7722cb1bea97",
+"en": "df868bb28cc3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u33",
+"at": "2026-10-10 15:55",
+"fixed": false
+},
+"p2": {
+"ar": "fda17eb067e3",
+"tr": "7722cb1bea97",
+"en": "df868bb28cc3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-p2-u5",
+"at": "2026-10-16 18:25",
+"fixed": false
+}
+},
+"ukberi-tibyan:58-59": {
+"p1": {
+"ar": "9bc886805452",
+"tr": "c75d747e88ac",
+"en": "573a464c4bb1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u33",
+"at": "2026-10-10 15:55",
+"fixed": false
+}
+},
+"ukberi-tibyan:66-66": {
+"p1": {
+"ar": "e6e4ff980c71",
+"tr": "6ab3344381c1",
+"en": "728b516f92f3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u33",
+"at": "2026-10-10 15:55",
+"fixed": false
+}
+},
+"ukberi-tibyan:70-70": {
+"p1": {
+"ar": "42c49222b4f4",
+"tr": "9f0a79e00762",
+"en": "c3c9884dbc56",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u33",
+"at": "2026-10-10 15:55",
+"fixed": false
+}
+},
+"ukberi-tibyan:71-71": {
+"p1": {
+"ar": "7950fc5ad950",
+"tr": "81e63750cd81",
+"en": "cf4bf6a1c081",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u33",
+"at": "2026-10-10 15:55",
+"fixed": false
+}
+},
+"ukberi-tibyan:72-72": {
+"p1": {
+"ar": "0b425d0aad07",
+"tr": "889803072fb5",
+"en": "04a0fa33ffdc",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u33",
+"at": "2026-10-10 15:55",
+"fixed": false
+},
+"p2": {
+"ar": "0b425d0aad07",
+"tr": "889803072fb5",
+"en": "04a0fa33ffdc",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-p2-u5",
+"at": "2026-10-16 18:25",
+"fixed": false
+}
+},
+"ukberi-tibyan:90-91": {
+"p1": {
+"ar": "4045f66ab05c",
+"tr": "b097fef98177",
+"en": "e8aaa12620d3",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish added unmarked \"(dünyada)\" after \"Bir kısmını\" which is not in the Arabic نَعَّمْنَا بَعْضَهُمْ; removed.",
+"by": "ukberi-tibyan-u33",
+"at": "2026-10-10 15:55",
+"fixed": true
+},
+"p2": {
+"ar": "4045f66ab05c",
+"tr": "b097fef98177",
+"en": "e8aaa12620d3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-p2-u5",
+"at": "2026-10-16 18:25",
+"fixed": false
+}
+},
+"ukberi-tibyan:94-94": {
+"p1": {
+"ar": "a8939d81bd3f",
+"tr": "1d187c9742c3",
+"en": "faf8f8adac10",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u33",
+"at": "2026-10-10 15:55",
+"fixed": false
+}
+},
+"ukberi-tibyan:96-96": {
+"p1": {
+"ar": "6fc5c66851f7",
+"tr": "93c78ba8d211",
+"en": "1e3aacc6cfd6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u33",
+"at": "2026-10-10 15:55",
+"fixed": false
+},
+"p2": {
+"ar": "6fc5c66851f7",
+"tr": "93c78ba8d211",
+"en": "1e3aacc6cfd6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-p2-u5",
+"at": "2026-10-16 18:25",
+"fixed": false
+}
+},
+"ukberi-tibyan:1-1": {
+"p1": {
+"ar": "1cd24041fa31",
+"tr": "9a780aba6e12",
+"en": "9c2f122b5a2a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u33",
+"at": "2026-10-10 15:59",
+"fixed": false
+}
+},
+"ukberi-tibyan:2-2": {
+"p1": {
+"ar": "717a161e70ac",
+"tr": "286020498215",
+"en": "0c3aa80eff9b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u33",
+"at": "2026-10-10 15:59",
+"fixed": false
+}
+},
+"ukberi-tibyan:4-4": {
+"p1": {
+"ar": "ddb56f9709b4",
+"tr": "83ce5ecdd800",
+"en": "00f99538e0aa",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN silently corrected the source typo «إِلًّا» to «إِلَّا»; translator's note added.",
+"by": "ukberi-tibyan-u33",
+"at": "2026-10-10 15:59",
+"fixed": true
+},
+"p2": {
+"ar": "ddb56f9709b4",
+"tr": "83ce5ecdd800",
+"en": "00f99538e0aa",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-p2-u5",
+"at": "2026-10-16 18:25",
+"fixed": false
+}
+},
+"ukberi-tibyan:7-7": {
+"p1": {
+"ar": "bb3d5efe5e6b",
+"tr": "ace13538b2e8",
+"en": "85f3e84536d8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u33",
+"at": "2026-10-10 15:59",
+"fixed": false
+}
+},
+"ukberi-tibyan:8-8": {
+"p1": {
+"ar": "4bc780f87f1c",
+"tr": "b84de6a98a78",
+"en": "4427f2e8a912",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u33",
+"at": "2026-10-10 15:59",
+"fixed": false
+},
+"p2": {
+"ar": "4bc780f87f1c",
+"tr": "b84de6a98a78",
+"en": "4427f2e8a912",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-p2-u5",
+"at": "2026-10-16 18:25",
+"fixed": false
+}
+},
+"ukberi-tibyan:9-9": {
+"p1": {
+"ar": "935bb0e84442",
+"tr": "a14f5882219e",
+"en": "2563e71efa26",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u33",
+"at": "2026-10-10 15:59",
+"fixed": false
+}
+},
+"ukberi-tibyan:11-11": {
+"p1": {
+"ar": "6fddff3e02c8",
+"tr": "362308bdb2ac",
+"en": "284a71e66d3c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u33",
+"at": "2026-10-10 15:59",
+"fixed": false
+},
+"p2": {
+"ar": "6fddff3e02c8",
+"tr": "362308bdb2ac",
+"en": "284a71e66d3c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-p2-u5",
+"at": "2026-10-16 18:25",
+"fixed": false
+}
+},
+"ukberi-tibyan:12-12": {
+"p1": {
+"ar": "ace5c059e187",
+"tr": "e8c6e4acd7bf",
+"en": "02dec09cb318",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u33",
+"at": "2026-10-10 15:59",
+"fixed": false
+},
+"p2": {
+"ar": "ace5c059e187",
+"tr": "e8c6e4acd7bf",
+"en": "02dec09cb318",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-p2-u5",
+"at": "2026-10-16 18:32",
+"fixed": false
+}
+},
+"ukberi-tibyan:14-15": {
+"p1": {
+"ar": "f3d16fd16800",
+"tr": "05011fb177b0",
+"en": "f0a50e7aaafc",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u33",
+"at": "2026-10-10 15:59",
+"fixed": false
+}
+},
+"ukberi-tibyan:17-18": {
+"p1": {
+"ar": "f05689e83f6a",
+"tr": "59f789aebf0e",
+"en": "1777ff0f7c0e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u33",
+"at": "2026-10-10 15:59",
+"fixed": false
+},
+"p2": {
+"ar": "f05689e83f6a",
+"tr": "59f789aebf0e",
+"en": "1777ff0f7c0e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-p2-u5",
+"at": "2026-10-16 18:25",
+"fixed": false
+}
+},
+"ukberi-tibyan:19-19": {
+"p1": {
+"ar": "f654deb7aab8",
+"tr": "77c7cd899715",
+"en": "8ef04ab05d34",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u33",
+"at": "2026-10-10 15:59",
+"fixed": false
+}
+},
+"ukberi-tibyan:20-20": {
+"p1": {
+"ar": "989da65f8352",
+"tr": "065f9a712c85",
+"en": "ab5eeb642817",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u33",
+"at": "2026-10-10 15:59",
+"fixed": false
+}
+},
+"ukberi-tibyan:21-21": {
+"p1": {
+"ar": "afe1fe3f2906",
+"tr": "8eda3f70adae",
+"en": "0b747d71a2bc",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u33",
+"at": "2026-10-10 15:59",
+"fixed": false
+}
+},
+"ukberi-tibyan:22-22": {
+"p1": {
+"ar": "cb9b092e40cf",
+"tr": "627607c227ce",
+"en": "09da51c053c1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u33",
+"at": "2026-10-10 15:59",
+"fixed": false
+}
+},
+"ukberi-tibyan:23-23": {
+"p1": {
+"ar": "b7ed86a0fa29",
+"tr": "788a2c480e85",
+"en": "33554f9f50f6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u33",
+"at": "2026-10-10 15:59",
+"fixed": false
+}
+},
+"ukberi-tibyan:26-26": {
+"p1": {
+"ar": "2ccdfa92572e",
+"tr": "d1f46714cc84",
+"en": "b12b866cc040",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u33",
+"at": "2026-10-10 15:59",
+"fixed": false
+}
+},
+"ukberi-tibyan:27-27": {
+"p1": {
+"ar": "c5a08021cee9",
+"tr": "93372b497177",
+"en": "0a9871208846",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u33",
+"at": "2026-10-10 15:59",
+"fixed": false
+}
+},
+"ukberi-tibyan:30-30": {
+"p1": {
+"ar": "facaf0e35231",
+"tr": "537099ff1171",
+"en": "3e1c85b4ba0e",
+"fit": "OK",
+"trv": "OK",
+"env": "WRONG",
+"note": "EN says «أَجْمَعُونَ» conveys what «كُلُّهُمْ» 'did convey'; Arabic says مَا لَمْ تُفِدْهُ (did NOT convey) - negation lost, meaning reversed.",
+"by": "ukberi-tibyan-u33",
+"at": "2026-10-10 15:59",
+"fixed": false
+},
+"p2": {
+"ar": "facaf0e35231",
+"tr": "537099ff1171",
+"en": "3e1c85b4ba0e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-p2-u5",
+"at": "2026-10-16 18:25",
+"fixed": false
+}
+},
+"ukberi-tibyan:39-39": {
+"p1": {
+"ar": "c833c7e7d156",
+"tr": "5d9ba398e161",
+"en": "f51868d296c0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u33",
+"at": "2026-10-10 15:59",
+"fixed": false
+}
+}
+}

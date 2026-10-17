@@ -1,0 +1,42 @@
+{
+"dervis-irab:1-17": {
+"p1": {
+"ar": "ee3dc63fa110",
+"tr": "d3ba8009116f",
+"en": "64e04da786db",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Source «واسم أبيه زائد» (his father's name is Zāʾid): EN read it as \"is an addition\" (wrong), TR silently changed it to \"Zâide\"; both now give Zâid/Zāʾid with a marked translator note. Minor: unmarked parenthetical glosses in TR i'rab.",
+"by": "dervis-irab-u95",
+"at": "2026-10-10 19:45",
+"fixed": true
+},
+"p2": {
+"ar": "ee3dc63fa110",
+"tr": "d3ba8009116f",
+"en": "64e04da786db",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u7",
+"at": "2026-10-17 00:04",
+"fixed": false
+}
+},
+"dervis-irab:18-42": {
+"p1": {
+"ar": "3443178ea747",
+"tr": "6a2239fc4dc5",
+"en": "b07cd1fbc91b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u3",
+"at": "2026-10-11 00:54",
+"fixed": false
+}
+}
+}

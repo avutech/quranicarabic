@@ -1,0 +1,54 @@
+{
+"zajjaj:28-28": {
+"hs": [
+"772542e7875f",
+"009abd094038",
+"fa8c519633c2"
+],
+"dims": {
+"fit": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Entry quotes and explains only 6:28 (﴿بَلْ بَدا لَهم ما كانُوا يُخْفُونَ مِن قَبْلُ﴾ = ظهر للذين اتبعوا الغواة...). Source breaks off at لِأنَّ المُتَّصِلَ but there is translatable content, and TR/EN both mark the break in a translator's note; placement under 28 is correct.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "The entry quotes ﴿بَلْ بَدا لَهم ما كانُوا يُخْفُونَ مِن قَبْلُ﴾ and explains it (ظَهَرَ لِلَّذِينِ اتَّبَعُوا الغُواةَ ...); it is about 6:28 only. The source breaks off at لِأنَّ المُتَّصِلَ but the surviving text is translatable and both readings mark the break in a translator's note; placement 28-28 is correct.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+},
+"zajjaj:135-135": {
+"hs": [
+"1bdfe63d9582",
+"8b22271195ad",
+"c47fe10715ad"
+],
+"dims": {
+"fit": {
+"votes": {
+"J2": {
+"class": "MISPLACED",
+"evidence": "First two paragraphs are on 6:135 (﴿قُلْ يا قَوْمِ اعْمَلُوا عَلى مَكانَتِكُمْ﴾, ﴿فَسَوْفَ تَعْلَمُونَ مَن تَكُونُ لَهُ عاقِبَةُ الدّارِ﴾). The final paragraph (اَلْحامِي ... ﴿وَأنْعامٌ لا يَذْكُرُونَ اسْمَ اللَّهِ عَلَيْها﴾ [الأنعام: ١٣٨] ... افْتِراءً عَلَيْهِ ... مَفْعُولًا لَهُ) substantively parses 6:138 (افتراء عليه as maf'ul lahu). Entry must also be listed under 138.",
+"at": "2026-10-17 00:39",
+"ayahs": "135-138"
+},
+"J1": {
+"class": "MISPLACED",
+"evidence": "Paragraphs 1-2 discuss 6:135 (﴿قُلْ يا قَوْمِ اعْمَلُوا عَلى مَكانَتِكُمْ﴾, ﴿فَسَوْفَ تَعْلَمُونَ مَن تَكُونُ لَهُ عاقِبَةُ الدّارِ﴾). The last paragraph (اَلْحامِي ... ﴿وَأنْعامٌ لا يَذْكُرُونَ اسْمَ اللَّهِ عَلَيْها﴾ [الأنعام: ١٣٨] ... افْتِراءً ... مَفْعُولًا لَهُ) substantively parses 6:138 (افْتِراءً عَلَيْهِ), so the listing must include 138.",
+"at": "2026-10-17 00:39",
+"ayahs": "135-138"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+}
+}

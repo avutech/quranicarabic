@@ -1,0 +1,242 @@
+{
+"nahhas-irab:4-4": {
+"p1": {
+"ar": "36fba38d40c1",
+"tr": "1d872273f4e3",
+"en": "2f56c966fec6",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR had unmarked \"(on gün)\" after \"dört ay\" where Arabic says only أربعة أشهر; removed",
+"by": "nahhas-irab-u44",
+"at": "2026-10-10 16:00",
+"fixed": true
+},
+"p2": {
+"ar": "36fba38d40c1",
+"tr": "1d872273f4e3",
+"en": "2f56c966fec6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 18:09",
+"fixed": false
+}
+},
+"nahhas-irab:5-5": {
+"p1": {
+"ar": "bf3d9031f132",
+"tr": "b3befdb11a86",
+"en": "c9a0b1219515",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN quoted «أعظم الله أجرك» but Arabic has «عظّم الله أجرك»; corrected",
+"by": "nahhas-irab-u44",
+"at": "2026-10-10 16:00",
+"fixed": true
+},
+"p2": {
+"ar": "bf3d9031f132",
+"tr": "b3befdb11a86",
+"en": "c9a0b1219515",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 18:25",
+"fixed": false
+}
+},
+"nahhas-irab:6-6": {
+"p1": {
+"ar": "50849e7716c4",
+"tr": "2dab379017b1",
+"en": "693ff6b805e3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u44",
+"at": "2026-10-10 16:00",
+"fixed": false
+}
+},
+"nahhas-irab:7-7": {
+"p1": {
+"ar": "ccdd57cf94cf",
+"tr": "da5ff2800116",
+"en": "da0e1238ceda",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN altered the quoted Arabic (added vowels, آتيه->آتاه) and added unmarked \"[with kasra on the lām]\"; replaced with source wording and a marked translator note",
+"by": "nahhas-irab-u44",
+"at": "2026-10-10 16:00",
+"fixed": true
+},
+"p2": {
+"ar": "ccdd57cf94cf",
+"tr": "da5ff2800116",
+"en": "da0e1238ceda",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 18:09",
+"fixed": false
+}
+},
+"nahhas-irab:8-8": {
+"p1": {
+"ar": "fbdb2f3fe68a",
+"tr": "9a7952385757",
+"en": "c3c2ecee4466",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p1-u4",
+"at": "2026-10-17 00:07",
+"fixed": false
+},
+"p2": {
+"ar": "fbdb2f3fe68a",
+"tr": "9a7952385757",
+"en": "c3c2ecee4466",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN quoted «كأيّن» where the Arabic says \"وصارت كأيّ\"; corrected.",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 18:09",
+"fixed": true
+}
+},
+"nahhas-irab:9-9": {
+"p1": {
+"ar": "468baa3afc6c",
+"tr": "c115fd30dfef",
+"en": "f33ea8b01005",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u44",
+"at": "2026-10-10 16:00",
+"fixed": false
+}
+},
+"nahhas-irab:10-10": {
+"p1": {
+"ar": "283db8a2239e",
+"tr": "7d9343031770",
+"en": "b37b8a04791b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u44",
+"at": "2026-10-10 16:00",
+"fixed": false
+}
+},
+"nahhas-irab:11-11": {
+"p1": {
+"ar": "725954787159",
+"tr": "3121ced7e588",
+"en": "64cb86df8590",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u44",
+"at": "2026-10-10 16:00",
+"fixed": false
+}
+},
+"nahhas-irab:12-12": {
+"p1": {
+"ar": "c570916c0aa2",
+"tr": "fe6f54cd730d",
+"en": "d61d73290d51",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u44",
+"at": "2026-10-10 16:00",
+"fixed": false
+}
+},
+"nahhas-irab:1-1": {
+"p1": {
+"ar": "604527b40715",
+"tr": "fcb397a6bd9a",
+"en": "1025e6d02de7",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English rendered السدي: احفظوها as \"keep count of it\"; corrected to \"preserve it\"",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:15",
+"fixed": true
+},
+"p2": {
+"ar": "604527b40715",
+"tr": "fcb397a6bd9a",
+"en": "1025e6d02de7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 18:09",
+"fixed": false
+}
+},
+"nahhas-irab:2-2": {
+"p1": {
+"ar": "2b4b495ab8b5",
+"tr": "0112967616f9",
+"en": "73fdd25bc4a5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:15",
+"fixed": false
+}
+},
+"nahhas-irab:3-3": {
+"p1": {
+"ar": "fade778bae2c",
+"tr": "032b49ba092d",
+"en": "01b1c963f211",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p1-u4",
+"at": "2026-10-17 00:07",
+"fixed": false
+},
+"p2": {
+"ar": "fade778bae2c",
+"tr": "032b49ba092d",
+"en": "01b1c963f211",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Both added a negation to Qatada's \"من حيث يرجو ولا يأمل\" (printed without لا before يرجو); now translated as printed with a marked note.",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 18:09",
+"fixed": true
+}
+}
+}

@@ -1,0 +1,138 @@
+{
+"ukberi-tibyan:1-2": {
+"p1": {
+"ar": "82e5d85bdf45",
+"tr": "c7cbbf231685",
+"en": "061ea2d6e4d1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:01",
+"fixed": false
+}
+},
+"ukberi-tibyan:4-5": {
+"p1": {
+"ar": "1228739f5652",
+"tr": "febf15b66351",
+"en": "45b4ecdd5f1c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:01",
+"fixed": false
+}
+},
+"ukberi-tibyan:9-10": {
+"p1": {
+"ar": "abf3ace40067",
+"tr": "d84b64ef06d8",
+"en": "64f26ae5e123",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:01",
+"fixed": false
+}
+},
+"ukberi-tibyan:11-12": {
+"p1": {
+"ar": "c403c3ae7e7e",
+"tr": "72305aeb72ee",
+"en": "495a2417b333",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:01",
+"fixed": false
+},
+"p2": {
+"ar": "c403c3ae7e7e",
+"tr": "72305aeb72ee",
+"en": "495a2417b333",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-p2-u6",
+"at": "2026-10-16 18:50",
+"fixed": false
+}
+},
+"ukberi-tibyan:16-16": {
+"p1": {
+"ar": "6c7684575451",
+"tr": "edb6aa8d0b36",
+"en": "aee9b7d0fb94",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:01",
+"fixed": false
+}
+},
+"ukberi-tibyan:19-19": {
+"p1": {
+"ar": "5ffd8b6d8489",
+"tr": "4bf78fc873cc",
+"en": "ac8eadeba618",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN wrote «صُوَّم» where the Arabic has «صُوِّمَ»; corrected to the Arabic wording",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:01",
+"fixed": true
+},
+"p2": {
+"ar": "5ffd8b6d8489",
+"tr": "4bf78fc873cc",
+"en": "ac8eadeba618",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-p2-u6",
+"at": "2026-10-16 18:50",
+"fixed": false
+}
+},
+"ukberi-tibyan:23-24": {
+"p1": {
+"ar": "99a1bd870b75",
+"tr": "ea6c06feb7ed",
+"en": "9ba4ffce3b7f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:01",
+"fixed": false
+}
+},
+"ukberi-tibyan:26-28": {
+"p1": {
+"ar": "bf0800fa2945",
+"tr": "b2aa75d621e9",
+"en": "f66bd87a5a9b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:01",
+"fixed": false
+}
+}
+}

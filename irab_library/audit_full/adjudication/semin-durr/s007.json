@@ -1,0 +1,56 @@
+{
+"semin-durr:25-25": {
+"hs": [
+"fffb171d59ea",
+"8badb82ada47",
+"f37689468957"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "MISPLACED",
+"evidence": "First paragraph {وَمِنْهَا تُخْرَجُونَ} (readings تَخْرُجون) is 7:25. Second paragraph «و [في] قوله: {قَالاَ رَبَّنَا} [الروم: 23]: فائدةُ حَذْفِ حرف النداء» discusses قَالَا رَبَّنَا ظَلَمْنَا أَنفُسَنَا = 7:23 (the source's [الروم: 23] is a misprint). Entry substantively discusses 7:23 and 7:25; the only contiguous range containing both is 23-25.",
+"at": "2026-10-17 00:41",
+"ayahs": "23-25"
+},
+"J2": {
+"class": "MISPLACED",
+"evidence": "First paragraph «{وَمِنْهَا تُخْرَجُونَ}: قرأ الأَخَوان وابن ذكوان تَخْرُجون» is 7:25. Second paragraph «و[في] قوله: {قَالاَ رَبَّنَا} : فائدةُ حَذْفِ حرف النداء» plus Makkī's quote discusses 7:23 «قالا ربنا ظلمنا أنفسنا» (misprinted [الروم: 23]). The entry substantively covers 7:23 and 7:25; the contiguous range is 23-25.",
+"at": "2026-10-17 00:41",
+"ayahs": "23-25"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+},
+"semin-durr:204-204": {
+"hs": [
+"bfbeb91caf02",
+"1eef3f363b6d",
+"ef087c588623"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "MISPLACED",
+"evidence": "First paragraph {لَهُ} متعلَّقٌ ب استمعوا is 7:204 (فَاسْتَمِعُوا لَهُ). Second paragraph «والاجتباء: افتعال مِنْ جَبَاه ... هلا اجتمعتها افتعالاً من عند نفسك» explains «لَوْلَا اجْتَبَيْتَهَا» of 7:203, a substantive separate entry. Covers 203-204.",
+"at": "2026-10-17 00:41",
+"ayahs": "203-204"
+},
+"J2": {
+"class": "MISPLACED",
+"evidence": "First paragraph «{لَهُ}: متعلَّقٌ ب استمعوا» is 7:204. Second paragraph «والاجتباء: افتعال مِنْ جَبَاه يَجْبيه ... والمعنى: هلا اجتمعتها افتعالاً من عند نفسك» explains «لَوْلَا اجْتَبَيْتَهَا» of 7:203; 7:204 has no اجتباء.",
+"at": "2026-10-17 00:41",
+"ayahs": "203-204"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+}
+}

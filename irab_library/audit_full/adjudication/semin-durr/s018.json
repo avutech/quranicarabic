@@ -1,0 +1,141 @@
+{
+"semin-durr:7-7": {
+"hs": [
+"cdccfbb146ec",
+"68c8c5bf3bcf",
+"3238c9cd716e"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "EN inserts plain-bracket glosses not in the Arabic and not inside [Translator's note: …]: after the shādhdh reading {أَيُّهُمْ أَشَدُّ عَلَى الرحمن} it adds '[i.e. أيَّهم]', and after «المرادُ بذلك الرُّعاة» it adds '[i.e. those in charge]' (also '[testing]' for «لأنه سببُ العلم» and '[instances of]'). These are unmarked additions; the substance of the grammatical analysis is otherwise rendered faithfully.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "EN adds unmarked brackets not in the Arabic: '[i.e. أيَّهم]' after the shādhdh reading {أَيُّهُمْ أَشَدُّ عَلَى الرحمن}, '[i.e. those in charge]' after «الرُّعاة», plus '[testing]' and '[instances of]'. The source gives no such glosses; they must be in Translator's notes.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Unmarked brackets '[testing]', '[instances of]', '[i.e. أيَّهم]', '[i.e. those in charge]' moved into Translator's notes",
+"verified": "PASS",
+"verify_note": "The glosses for testing, the declined instances, أيَّهم and 'those in charge' are now inside [Translator's note: …]; the reading is complete and faithful, with no unmarked additions."
+}
+},
+"history": [
+{
+"old_hs": [
+"cdccfbb146ec",
+"68c8c5bf3bcf",
+"b436136d5a2e"
+],
+"dim": "en",
+"what": "Unmarked brackets [testing], [instances of], [i.e. أيَّهم], [i.e. those in charge] put inside Translator's notes",
+"at": "2026-10-17 00:45"
+},
+{
+"old_hs": [
+"cdccfbb146ec",
+"68c8c5bf3bcf",
+"b1a435a87e35"
+],
+"dim": "en",
+"what": "Unmarked brackets '[testing]', '[instances of]', '[i.e. أيَّهم]', '[i.e. those in charge]' moved into Translator's notes",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"semin-durr:15-15": {
+"hs": [
+"f1d5423e9367",
+"dc898d3b38db",
+"11be619b0fb1"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source writes «تخصيصٌ فيه معنى الإِنكار» and «الجملةُ التخضيضية» (miswritten forms of تحضيض); TR renders both as 'tahdîd (teşvik)' / 'tahdîdî', silently correcting the source without a [Mütercim notu]; TR's only note covers «صفوً». The correction is right in substance but must be marked. Rest of TR faithful.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source writes «تخصيصٌ فيه معنى الإِنكار» and «التخضيضية» (misprints for تحضيض); TR silently renders 'tahdîd (teşvik)' with no Mütercim notu, contrary to the no-silent-correction rule (TR does note «صفوً» but not this). Correction is right in substance but must be marked.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Added Mütercim notu marking the correction of source «تخصيص»/«التخضيضية» to تحضيض",
+"verified": "PASS",
+"verify_note": "The misspellings تخصيص/التخضيضية and صفوً are now flagged in [Mütercim notu: …] instead of being silently corrected; the rest of the TR is complete and faithful."
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "EN silently corrects the source: «تخصيصٌ» and «التخضيضية» rendered 'an urging (taḥḍīḍ)' / 'This urging clause', and garbled «صفوً ل آلهةً» rendered 'an adjective of' — none with a [Translator's note]. EN also has unmarked bracket additions '[as gods]', '[a verb of]', '[of which one would say:]', '[basis]'. Needs notes.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source «تخصيصٌ» / «التخضيضية» silently corrected to 'taḥḍīḍ' with no Translator's note; «صفوً ل آلهةً» silently rendered 'adjective' without a note (TR has one). EN also has unmarked brackets '[as gods]', '[a verb of]', '[of which one would say:]', '[basis]'.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Added Translator's notes for the تخصيص/التخضيضية and صفوً corrections; unmarked brackets '[as gods]', '[a verb of]', '[of which one would say:]', '[basis]' moved into Translator's notes",
+"verified": "PASS",
+"verify_note": "The تخصيص/التخضيضية and صفوً misspellings are flagged in Translator's notes, and the former plain brackets (as gods, verb of saying, the wolf verse, basis) are all marked notes; complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"f1d5423e9367",
+"b1e6e8929e5b",
+"17fa573c4471"
+],
+"dim": "tr",
+"what": "Source «تخصيصٌ» / «التخضيضية» rendered as tahdîd: added Mütercim notları stating what the source writes and that تحضيض is understood",
+"at": "2026-10-17 00:45"
+},
+{
+"old_hs": [
+"f1d5423e9367",
+"4ce697361077",
+"17fa573c4471"
+],
+"dim": "en",
+"what": "Added Translator's notes on source «تخصيصٌ»/«التخضيضية» (read as تحضيض) and on garbled «صفوً»; unmarked brackets [as gods], [a verb of], [of which one would say:], [basis] put inside Translator's notes",
+"at": "2026-10-17 00:45"
+},
+{
+"old_hs": [
+"f1d5423e9367",
+"4ce697361077",
+"2d117a7da803"
+],
+"dim": "tr",
+"what": "Added Mütercim notu marking the correction of source «تخصيص»/«التخضيضية» to تحضيض",
+"at": "2026-10-17 00:45"
+},
+{
+"old_hs": [
+"f1d5423e9367",
+"dc898d3b38db",
+"11be619b0fb1"
+],
+"dim": "en",
+"what": "Added Translator's notes for the تخصيص/التخضيضية and صفوً corrections; unmarked brackets '[as gods]', '[a verb of]', '[of which one would say:]', '[basis]' moved into Translator's notes",
+"at": "2026-10-17 00:45"
+}
+]
+}
+}

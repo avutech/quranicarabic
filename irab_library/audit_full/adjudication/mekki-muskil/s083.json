@@ -1,0 +1,29 @@
+{
+"mekki-muskil:9-9": {
+"hs": [
+"0a4ffbecb42b",
+"72595bffc043",
+"797db5f53d95"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "MISPLACED",
+"evidence": "First paragraph «قوله كتاب رفع على أنه خبر ان» is on 83:9 (كِتَٰبٌ مَّرْقُومٌ as khabar of إن in 83:7). Second paragraph «قوله ثم يقال هذا الذي ابتداء وخبر في موضع المفعول الذي لم يسم فاعله» comments on 83:17 (ثُمَّ يُقَالُ هَٰذَا ٱلَّذِي كُنتُم بِهِ تُكَذِّبُونَ). Range must cover 9 and 17.",
+"at": "2026-10-17 00:39",
+"ayahs": "9-17"
+},
+"J2": {
+"class": "MISPLACED",
+"evidence": "First comment قوله كتاب رفع على أنه خبر ان is on 83:9 (كتاب مرقوم after إن كتاب الفجار لفي سجين). Second paragraph قوله ثم يقال هذا الذي (Sibawayh/Mubarrad on the na'ib fa'il) comments on 83:17 ثم يقال هذا الذي كنتم به تكذبون. Entry substantively covers 9 and 17.",
+"at": "2026-10-17 00:39",
+"ayahs": "9-17"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+}
+}

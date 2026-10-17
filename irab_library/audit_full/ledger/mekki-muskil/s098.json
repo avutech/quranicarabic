@@ -1,0 +1,84 @@
+{
+"mekki-muskil:1-1": {
+"p1": {
+"ar": "c43d999ab5c6",
+"tr": "8f70c3684299",
+"en": "c16582459d9f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u6",
+"at": "2026-10-10 15:42",
+"fixed": false
+}
+},
+"mekki-muskil:2-2": {
+"p1": {
+"ar": "00a95f91d6e0",
+"tr": "04feab5800a1",
+"en": "5724246608e9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u6",
+"at": "2026-10-10 15:42",
+"fixed": false
+}
+},
+"mekki-muskil:3-3": {
+"p1": {
+"ar": "8acb2836fac9",
+"tr": "be3dc59fbb87",
+"en": "44f06daff50a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u6",
+"at": "2026-10-10 15:42",
+"fixed": false
+}
+},
+"mekki-muskil:5-5": {
+"p1": {
+"ar": "e2c23717d675",
+"tr": "b97a04c9e453",
+"en": "cae2d8f3745c",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "Last part (والمشركين الثاني ... عطف على أهل) belongs to 98:6; translator notes mark it.",
+"by": "mekki-muskil-p1-u2",
+"at": "2026-10-16 17:37",
+"fixed": false
+},
+"p2": {
+"ar": "e2c23717d675",
+"tr": "b97a04c9e453",
+"en": "cae2d8f3745c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u1",
+"at": "2026-10-17 00:01",
+"fixed": false
+}
+},
+"mekki-muskil:8-8": {
+"p1": {
+"ar": "e72ba6644710",
+"tr": "94ab69deb828",
+"en": "6289ed37b367",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u6",
+"at": "2026-10-10 15:42",
+"fixed": false
+}
+}
+}

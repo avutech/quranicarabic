@@ -1,0 +1,398 @@
+{
+"dervis-irab:1-8": {
+"p1": {
+"ar": "dc0a1cc72651",
+"tr": "909b3cbe7161",
+"en": "653bfa6c2c32",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "EN: Tubba verse \"إن لم ألقها جرزا\" rendered \"if I do not leave it barren\" (should be find); unmarked \"[Zamakhsharī]\" inserted before al-Kashshaf quote. TR: Al-Mutanabbi verse \"وانه\" glossed \"[bırak]\" changed to \"[nehyet]\" (imperative of nahy).",
+"by": "dervis-irab-u79",
+"at": "2026-10-10 19:37",
+"fixed": true
+},
+"p2": {
+"ar": "dc0a1cc72651",
+"tr": "909b3cbe7161",
+"en": "653bfa6c2c32",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u29",
+"at": "2026-10-16 19:18",
+"fixed": false
+}
+},
+"dervis-irab:9-12": {
+"p1": {
+"ar": "1b9e38f8959e",
+"tr": "d51103870409",
+"en": "46d8e57521ef",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u79",
+"at": "2026-10-10 19:38",
+"fixed": false
+},
+"p2": {
+"ar": "1b9e38f8959e",
+"tr": "d51103870409",
+"en": "46d8e57521ef",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u29",
+"at": "2026-10-16 19:18",
+"fixed": false
+}
+},
+"dervis-irab:13-15": {
+"p1": {
+"ar": "d9cb1e3d1692",
+"tr": "cf7ab9f902d7",
+"en": "1d6136efc948",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u79",
+"at": "2026-10-10 19:38",
+"fixed": false
+},
+"p2": {
+"ar": "d9cb1e3d1692",
+"tr": "cf7ab9f902d7",
+"en": "1d6136efc948",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u29",
+"at": "2026-10-16 19:18",
+"fixed": false
+}
+},
+"dervis-irab:16-18": {
+"p1": {
+"ar": "95493021580c",
+"tr": "77b080f56a8e",
+"en": "3e0bf7b00924",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN: removed unmarked insertions \"[al-Zamakhsharī]\" before the Asas al-Balagha quote and \"(i.e. إذما)\" after \"only when joined with ما\"; now complete and faithful.",
+"by": "dervis-irab-u79",
+"at": "2026-10-10 19:39",
+"fixed": true
+},
+"p2": {
+"ar": "95493021580c",
+"tr": "77b080f56a8e",
+"en": "3e0bf7b00924",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u29",
+"at": "2026-10-16 19:19",
+"fixed": false
+}
+},
+"dervis-irab:19-20": {
+"p1": {
+"ar": "3c1d4014473d",
+"tr": "62f97bf8e8d2",
+"en": "e45a1db2ce8d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u79",
+"at": "2026-10-10 19:38",
+"fixed": false
+}
+},
+"dervis-irab:21-26": {
+"p1": {
+"ar": "773ecef948ae",
+"tr": "7876c430bfd5",
+"en": "0c69a980c4e4",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English: \"more sleepy than a lynx (fahd)\" corrected to leopard (Arabic فهد); rest complete and faithful.",
+"by": "dervis-irab-p1-u12",
+"at": "2026-10-17 00:04",
+"fixed": true
+},
+"p2": {
+"ar": "773ecef948ae",
+"tr": "7876c430bfd5",
+"en": "0c69a980c4e4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u16",
+"at": "2026-10-17 00:17",
+"fixed": false
+}
+},
+"dervis-irab:71-82": {
+"p1": {
+"ar": "9ae41eb3b077",
+"tr": "7cbe97c91936",
+"en": "fca3447fe80d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u80",
+"at": "2026-10-10 19:39",
+"fixed": false
+}
+},
+"dervis-irab:27-28": {
+"p1": {
+"ar": "372c67da9f59",
+"tr": "3645225e10e7",
+"en": "5da4d834d9dd",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English: \"prepositions do not attach [to anything]\" for حروف الجر لا تعلق corrected to \"not subject to suspension (taʿlīq)\"; rest faithful.",
+"by": "dervis-irab-p1-u12",
+"at": "2026-10-17 00:05",
+"fixed": true
+},
+"p2": {
+"ar": "372c67da9f59",
+"tr": "3645225e10e7",
+"en": "5da4d834d9dd",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u17",
+"at": "2026-10-17 00:16",
+"fixed": false
+}
+},
+"dervis-irab:83-88": {
+"p1": {
+"ar": "d2077c1bd2bb",
+"tr": "81976e31793f",
+"en": "41abb563a350",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u80",
+"at": "2026-10-10 19:40",
+"fixed": false
+}
+},
+"dervis-irab:32-44": {
+"p1": {
+"ar": "0a8aadfb95f2",
+"tr": "8b3f096edf8d",
+"en": "94b4f90ec83c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u79",
+"at": "2026-10-10 19:40",
+"fixed": false
+},
+"p2": {
+"ar": "0a8aadfb95f2",
+"tr": "8b3f096edf8d",
+"en": "94b4f90ec83c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u30",
+"at": "2026-10-16 19:21",
+"fixed": false
+}
+},
+"dervis-irab:29-31": {
+"p1": {
+"ar": "100683e82948",
+"tr": "d9c77e299c27",
+"en": "99f61ad31394",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u79",
+"at": "2026-10-10 19:40",
+"fixed": false
+}
+},
+"dervis-irab:89-98": {
+"p1": {
+"ar": "7b6195307f23",
+"tr": "21182a44da03",
+"en": "62094ec291ec",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN silently corrected three source typos (خرف for حرف; فبكون; يطوع) that the Turkish marks; added translator notes.",
+"by": "dervis-irab-p1-u13",
+"at": "2026-10-17 00:04",
+"fixed": true
+},
+"p2": {
+"ar": "7b6195307f23",
+"tr": "21182a44da03",
+"en": "62094ec291ec",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u17",
+"at": "2026-10-17 00:17",
+"fixed": false
+}
+},
+"dervis-irab:99-106": {
+"p1": {
+"ar": "d30b4feaafd9",
+"tr": "49ecaa60d0a6",
+"en": "895e6799db4d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u1",
+"at": "2026-10-17 00:39",
+"fixed": false
+},
+"p2": {
+"ar": "d30b4feaafd9",
+"tr": "49ecaa60d0a6",
+"en": "895e6799db4d",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN inserted \"[uncle's]\" into the source claim «والشنفري اسمه ثابت», changing the attribution in the running text; removed, the translator's note kept.",
+"by": "dervis-irab-p2-u1",
+"at": "2026-10-17 00:31",
+"fixed": true
+}
+},
+"dervis-irab:45-51": {
+"p1": {
+"ar": "2696567daf8a",
+"tr": "21f9671173d9",
+"en": "7c00359558ad",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u12",
+"at": "2026-10-17 00:05",
+"fixed": false
+},
+"p2": {
+"ar": "2696567daf8a",
+"tr": "21f9671173d9",
+"en": "7c00359558ad",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN rhetoric item 3 silently corrected the source typo «وما كنتت» to «كنت»; restored as printed with a marked translator note.",
+"by": "dervis-irab-p2-u30",
+"at": "2026-10-16 19:20",
+"fixed": true
+}
+},
+"dervis-irab:107-110": {
+"p1": {
+"ar": "d2b433716ada",
+"tr": "1a5c3df9f075",
+"en": "508e18103c17",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u80",
+"at": "2026-10-10 19:41",
+"fixed": false
+}
+},
+"dervis-irab:52-59": {
+"p1": {
+"ar": "a0a22aa5a2aa",
+"tr": "801011f4f09b",
+"en": "7f46ae5af2ef",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u12",
+"at": "2026-10-17 00:06",
+"fixed": false
+},
+"p2": {
+"ar": "a0a22aa5a2aa",
+"tr": "801011f4f09b",
+"en": "7f46ae5af2ef",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN silently changed the source «وأن شرطية» to إن; restored as printed with a marked translator note (TR already notes it).",
+"by": "dervis-irab-p2-u30",
+"at": "2026-10-16 19:21",
+"fixed": true
+}
+},
+"dervis-irab:60-63": {
+"p1": {
+"ar": "ef211d786012",
+"tr": "1287a6883cee",
+"en": "2de37b072508",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u79",
+"at": "2026-10-10 19:42",
+"fixed": false
+}
+},
+"dervis-irab:64-70": {
+"p1": {
+"ar": "9b0b644ca205",
+"tr": "d01a24886a81",
+"en": "ea294d61c965",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR: Qutami verse gloss rendered \"شبّ\" as \"gençleştiği\" (became young again); corrected to \"gençliğe erdiği\".",
+"by": "dervis-irab-p1-u4",
+"at": "2026-10-17 00:32",
+"fixed": true
+},
+"p2": {
+"ar": "9b0b644ca205",
+"tr": "d01a24886a81",
+"en": "ea294d61c965",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u3",
+"at": "2026-10-17 00:39",
+"fixed": false
+}
+}
+}

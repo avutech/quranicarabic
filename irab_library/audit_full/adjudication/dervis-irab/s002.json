@@ -1,0 +1,436 @@
+{
+"dervis-irab:234-237": {
+"hs": [
+"065bc32b773a",
+"4334e5882ba5",
+"00c1e99b8b50"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic rhetoric section: «في قوله تعالى: «فيما عرضتم به من خطبة النساء» كأنه يقول لمن يريد خطبتها: إنك جملة». EN gives the Quranic quotation only in English («concerning what you hint at of the proposal to women») instead of Arabic script, and renders «إنك جملة» as \"You are beautiful\", silently correcting the source (جملة -> جميلة) without a Translator's note (TR marks it with a Mütercim notu). Fix: keep «فيما عرضتم به من خطبة النساء» in Arabic and put the جميلة reading in a Translator's note.",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source (ta'rid note): «وهو هنا في قوله تعالى: «فيما عرضتم به من خطبة النساء» كأنه يقول لمن يريد خطبتها: إنك جملة». EN renders the Quranic quote only in English («concerning what you hint at of the proposal to women») instead of keeping «فيما عرضتم به من خطبة النساء» in Arabic script, and renders «إنك جملة» as \"You are beautiful\" (i.e. reading إنك جميلة) with no Translator's note, silently correcting the source; TR correctly marks this with a Mütercim notu. Needs Arabic quote restored and the correction moved into a [Translator's note: ...].",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved bracketed '[in the feminine form]' addition into a Translator's note; added Translator's note that source المسوسات should be الممسوسات",
+"verify_note": "Rhetoric quote now in Arabic and the جملة/جميلة note is present, but EN still has unmarked additions/silent corrections: (1) 'He mentioned the number [in the feminine form]' - bracketed addition not in the Arabic (وذكر العدد) and not inside a [Translator's note: ...]; (2) source «المسوسات» is silently rendered 'the touched women' (= الممسوسات) with no Translator's note (TR marks it with a Mütercim notu). Put the bracket in a Translator's note (or drop it) and add a note for المسوسات.",
+"fix_failed": 1
+}
+},
+"history": [
+{
+"old_hs": [
+"065bc32b773a",
+"4334e5882ba5",
+"1087f6cbe99f"
+],
+"dim": "en",
+"what": "Restored Quranic quotes «فيما عرضتم به من خطبة النساء» and «وإن طلقتموهن» in Arabic script; added Translator's note that source prints «إنك جملة» (probably «إنك جميلة») instead of silent correction",
+"at": "2026-10-17 00:47"
+},
+{
+"old_hs": [
+"065bc32b773a",
+"4334e5882ba5",
+"e9e5e9eaf530"
+],
+"dim": "en",
+"what": "Moved bracketed '[in the feminine form]' addition into a Translator's note; added Translator's note that source المسوسات should be الممسوسات",
+"at": "2026-10-17 00:56"
+}
+]
+},
+"dervis-irab:284-286": {
+"hs": [
+"b7a319f78849",
+"d881e04f5f6e",
+"a385bdfacb13"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "«ويشهد لمن أبدعها بالحول والطّول والانفراد بالوحدانية ... فبالفكر وحده يحيا الإنسان وبالفكر استدل على وجوده»: the preceding sentences are about the Bestower (المنعم / لمن أبدعها) and 'استدل على وجوده' is the classical phrase for inferring God's existence; the Descartes mention is in item 2, not here. TR «O'nun varlığına da düşünceyle istidlal etmiştir» is a correct reading; the rest of TR (with its Mütercim notları for العب, تعلمون, الأبيات, التشريع البيان, فقا) matches.",
+"at": "2026-10-17 00:42"
+},
+"J1": {
+"class": "HUMAN",
+"evidence": "Source: «فبالفكر وحده يحيا الإنسان وبالفكر استدل على وجوده». The pronoun in «وجوده» is grammatically ambiguous: it can refer to God (context: «ويشهد لمن أبدعها بالحول والطّول والانفراد بالوحدانية») or to man himself (parallel subject الإنسان, and the later Descartes allusion «ومن الغزالي وديكارت» suggests the cogito: by thought man proved his own existence). TR commits to God («O'nun varlığına») without a note. Not demonstrably wrong but not certain; needs scholarly judgement whether to keep the ambiguity or mark the interpretation in a Mütercim notu.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "HUMAN"
+},
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "The flagged «استدل على وجوده» -> 'he infers His existence' is right (antecedent is المنعم / من أبدعها). But reading the whole entry: «وانطوت على التشريع البيان» is rendered 'encompasses legislation and clarification', silently inserting a conjunction not in the source (TR marks the defect with a Mütercim notu: probably التشريع البيّن). This translates a different text without a Translator's note; fix: render as written with a Translator's note on البيان/البيّن.",
+"at": "2026-10-17 00:42"
+},
+"J1": {
+"class": "HUMAN",
+"evidence": "Source: «فبالفكر وحده يحيا الإنسان وبالفكر استدل على وجوده». EN \"by thought he infers His existence\" capitalises His, committing the ambiguous pronoun of «وجوده» to God; the Arabic can equally mean man's own existence (subject الإنسان; the Descartes allusion «ومن الغزالي وديكارت» points to the cogito). Also the past tense استدل is rendered present \"infers\". Not certainly wrong; a lowercase \"his\" would preserve the ambiguity. Needs scholarly decision.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "HUMAN"
+}
+}
+},
+"dervis-irab:18-20": {
+"hs": [
+"aaf11ab4798e",
+"34ba9f4f2f59",
+"d742ea2fc54b"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Poem «صم إذا سمعوا خيرا ذكرت به ... وإن ذكرت بسوء عندهم دفنوا» is the known verse (Qaʿnab ibn Umm Ṣāḥib) with first person ذُكِرْتُ ('I am mentioned'), as TR renders ('Benim hayırla anıldığımı'). EN 'a good thing mentioned of you ... if you are mentioned' switches to second person, a different meaning, with no note. Should be 'of me / if I am mentioned'.",
+"at": "2026-10-17 00:42"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Poem «صم إذا سمعوا خيرا ذكرت به ... وإن ذكرت بسوء عندهم» is the well-known verse (Qa'nab ibn Umm Sahib) in the first person ذُكِرْتُ: the poet complains people are deaf to good said of him. EN 'mentioned of you ... if you are mentioned' reads ذُكِرْتَ, a different text; TR 'Benim ... anılırsam' is right. EN should be 'of me / if I am mentioned'.",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Vocabulary (صيّب): replaced Latin 'ṣayyūb' with the source's Arabic form 'صيوب' (its origin is صيوب); poem already first person (of me / if I am mentioned)",
+"verify_note": "Vocabulary now keeps صيوب in Arabic script and the Rhetoric poem is first person; the EN reading is complete and faithful, source problems are flagged in Translator's notes, and nothing unmarked was added.",
+"fix_failed": 1,
+"verified": "PASS"
+}
+},
+"history": [
+{
+"old_hs": [
+"aaf11ab4798e",
+"34ba9f4f2f59",
+"91bcb3e5582d"
+],
+"dim": "en",
+"what": "Poem ذكرت: second person 'of you / if you are mentioned' -> first person 'of me / if I am mentioned'",
+"at": "2026-10-17 00:46"
+},
+{
+"old_hs": [
+"aaf11ab4798e",
+"34ba9f4f2f59",
+"a8180adb7e3e"
+],
+"dim": "en",
+"what": "Vocabulary (صيّب): replaced Latin 'ṣayyūb' with the source's Arabic form 'صيوب' (its origin is صيوب); poem already first person (of me / if I am mentioned)",
+"at": "2026-10-17 00:49"
+}
+]
+},
+"dervis-irab:197-197": {
+"hs": [
+"e45fe6aaa473",
+"0df8db2b8c84",
+"48066936acbb"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Arabic «فهو لم يقصد من التماسه من صاحبيه أن يكتما عن سيف الدولة ... رفقا به وحذرا» most naturally parses with أن يكتما as object of التماسه and رفقا/حذرا as object of يقصد (likely a dropped إلا in the source). EN 'He did not mean, in asking his two companions to conceal..., to be gentle with him and to fear' follows that parse and translates what is written, negation included; it does not alter the text. A note would help but its absence is not an error under the rules.",
+"at": "2026-10-17 00:42"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic «فهو لم يقصد من التماسه من صاحبيه أن يكتما ... رفقا به وحذرا أن يدفعه الشوق» - context (Mutanabbi forbidding them to tell Sayf al-Dawla lest he rush into danger) shows the concealment was out of gentleness; the text is evidently defective (missing إلا). EN 'He did not mean ... to be gentle with him and to fear' publishes the opposite of the passage's point with no Translator's note; needs a literal rendering plus a note, as TR has.",
+"at": "2026-10-17 00:43"
+},
+"J3": {
+"class": "CONFIRMED",
+"evidence": "Arabic «فهو لم يقصد من التماسه من صاحبيه أن يكتما عن سيف الدولة ما سمعاه ... رفقا به وحذرا أن يدفعه الشوق» negates the intent that they conceal (out of kindness and caution). EN «He did not mean, in asking his two companions to conceal ..., to be gentle with him and to fear ...» makes the concealment the presupposed request and moves the negation onto the motive (gentleness/fear). That says something the Arabic does not say and contradicts the passage's point. The source's evidently problematic «لم يقصد» also gets no Translator's note (TR has one). Fix: translate literally ('He did not intend, by his request to his two companions, that they conceal ... out of kindness to him and caution ...') and add a [Translator's note: ...] on the apparent contradiction.",
+"at": "2026-10-17 00:44"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Restored source's (الْحَجُّ) with Translator's note on the ḍamma; dropped unmarked '(latent)' after هو; 'annexed to' -> 'treated like (mulḥaq bi-)' the sound masculine plural",
+"verify_note": "The source's (الْحَجُّ) is kept with a Translator's note, '(latent)' is gone, ملحق is now 'treated like (mulḥaq bi-)', and the لم يقصد passage is literal with a note; the full reading is complete and faithful.",
+"fix_failed": 1,
+"verified": "PASS"
+}
+},
+"history": [
+{
+"old_hs": [
+"e45fe6aaa473",
+"0df8db2b8c84",
+"f21d0c2c64f8"
+],
+"dim": "en",
+"what": "Belagat 1: negation restored to the intent to conceal (literal rendering of لم يقصد ... أن يكتما ... رفقا به وحذرا) plus Translator's note on the contextual contradiction",
+"at": "2026-10-17 00:46"
+},
+{
+"old_hs": [
+"e45fe6aaa473",
+"0df8db2b8c84",
+"e185f730ceb5"
+],
+"dim": "en",
+"what": "Restored source's (الْحَجُّ) with Translator's note on the ḍamma; dropped unmarked '(latent)' after هو; 'annexed to' -> 'treated like (mulḥaq bi-)' the sound masculine plural",
+"at": "2026-10-17 00:49"
+}
+]
+},
+"dervis-irab:213-213": {
+"hs": [
+"2efbcafb4231",
+"01b6e97e581c",
+"fe4a5e230dbc"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Rhetoric: the qalb example «فديت بنفسه نفسي» literally means 'I ransomed my soul with his soul'; the book then says its original is «فديت نفسه بنفسي». EN renders the verse as 'I ransomed his soul with my soul', i.e. already the un-inverted original, so the example and the following explanation ('not the reverse as the apparent sense of the verse suggests') no longer make sense. TR is literal and correct.",
+"at": "2026-10-17 00:42"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Verse «فديت بنفسه نفسي» is cited as an example of qalb; literally 'I ransomed my soul with his soul', the book then gives the original «فديت نفسه بنفسي». EN renders the verse already as 'I ransomed his soul with my soul', identical to the 'original', so the inversion example is lost: wrong rendering of what is written.",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "(مَا) 'maṣdar' -> 'maṣdariyya (maṣdar-forming)' for مصدرية",
+"verify_note": "(مَا) is now 'maṣdariyya (maṣdar-forming)' and the ʿUrwa qalb verse is literal; the whole I'rab and Rhetoric is complete and faithful, with no unmarked additions.",
+"fix_failed": 1,
+"verified": "PASS"
+}
+},
+"history": [
+{
+"old_hs": [
+"2efbcafb4231",
+"01b6e97e581c",
+"09567a199fbd"
+],
+"dim": "en",
+"what": "Rhetoric: ʿUrwa verse فديت بنفسه نفسي rendered literally ('I ransomed my soul and my wealth with his soul') so the qalb example is preserved",
+"at": "2026-10-17 00:46"
+},
+{
+"old_hs": [
+"2efbcafb4231",
+"01b6e97e581c",
+"87e9a6142bf6"
+],
+"dim": "en",
+"what": "(مَا) 'maṣdar' -> 'maṣdariyya (maṣdar-forming)' for مصدرية",
+"at": "2026-10-17 00:50"
+}
+]
+},
+"dervis-irab:215-215": {
+"hs": [
+"2153b695082f",
+"f4a524c24e84",
+"7a456580c570"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Fawaid: Arabic «حيثما في محل نصب ظرف زمان» (adverb of TIME) is rendered in the EN text as 'adverb of place', silently correcting the source, while the attached note claims it is 'rendered as written'. Text must say 'adverb of time' with the note explaining the usual view.",
+"at": "2026-10-17 00:42"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic «حيثما في محل نصب ظرف زمان»; EN main text says 'an adverb of place', while its own note claims it is 'rendered as written'. Silent correction; main text must say 'adverb of time' with the note on usual parsing (as TR does).",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Fawaid: حيثما main text 'adverb of place' -> 'adverb of time' as written (ظرف زمان); note keeps the usual view",
+"verified": "PASS",
+"verify_note": "حيثما now rendered 'adverb of time' as written, with a Translator's note on the usual parsing; EN complete and faithful otherwise."
+}
+},
+"history": [
+{
+"old_hs": [
+"2153b695082f",
+"f4a524c24e84",
+"3bc5d6d427ed"
+],
+"dim": "en",
+"what": "Fawaid: حيثما main text 'adverb of place' -> 'adverb of time' as written (ظرف زمان); note keeps the usual view",
+"at": "2026-10-17 00:46"
+}
+]
+},
+"dervis-irab:219-220": {
+"hs": [
+"4f2c951f2036",
+"45fef3bba2ae",
+"649f791f13c8"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Maysir paragraph: Arabic «لأنها مفسدة ما بعدها مفسدة» ('a corruption after which there is no corruption'); TR 'kendisinden sonra (daha büyük) bir fesat olmayan' inserts '(daha büyük)' as an unmarked parenthesis not in the Arabic. Must go into [Mütercim notu: …] or be removed.",
+"at": "2026-10-17 00:42"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic «لأنها مفسدة ما بعدها مفسدة» ('a corruption beyond which there is no corruption'); TR 'kendisinden sonra (daha büyük) bir fesat olmayan' inserts '(daha büyük)' unmarked - must be inside [Mütercim notu: …] or dropped.",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Maysir paragraph: unmarked '(daha büyük)' moved into [Mütercim notu: …]",
+"verified": "PASS",
+"verify_note": "'(daha büyük)' moved into a Mütercim notu; TR complete and faithful, source misprints (الدّزّ, 'the waw is a mubtadaʾ') flagged in notes."
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "(1) Poem «قالت: أنا قمرته ... قلت: اسكتي فهو قمر»: the pun is قمر = moon (beautiful); EN 'for he is a gambler' gives a wrong meaning (TR 'o bir aydır' correct). (2) Fawaid gives the Quranic quotations «ومن ثمرات النخيل والأعناب تتخذون منه سكرا», «قل فيهما إثم كبير», «قل يا أيها الكافرون أعبد ما تعبدون», «يا أيها الذين آمنوا لا تقربوا الصلاة...», «إنما الخمر والميسر»...«فهل أنتم منتهون» only in English, not Arabic script, and adds unmarked references (Q 16:67, Q 4:43, Q 5:90-91). (3) «عاقرت الدّزّ» rendered 'the dregs' without note on the misprint.",
+"at": "2026-10-17 00:42"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "EN Benefits gives Quranic quotations only in English: «ومن ثمرات النخيل والأعناب تتخذون منه سكرا» -> 'and from the fruits of the date palms ... you take intoxicant', «يا أيها الذين آمنوا لا تقربوا الصلاة ...», «إنما الخمر والميسر ... فهل أنتم منتهون» - Quranic words must stay in Arabic script; and adds unmarked references (Q 16:67), (Q 4:43), (Q 5:90-91) not in the Arabic. Also «عاقرت الدّزّ» rendered 'the dregs' without a note on the source word.",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Vocabulary: transliterated 'khamr' (x2) -> الخمر and 'al-maysir' -> الميسر in Arabic script; فجدّد به عهدا -> imperative 'so renew your acquaintance with it'",
+"verify_note": "The earlier fixes hold: الخمر/الميسر are in Arabic script and the line reads 'renew your acquaintance'. Remaining wrong meaning in Vocabulary (الخمر): «للمبالغة في تضييعها للعقول وسترها وإخفائها» is rendered 'to stress how it covers, hides and conceals the intellect'. تضييعها means its wasting/ruining (of intellects), not 'covers', so the sense of loss is missing. Fix: 'to stress how it wastes intellects and covers and conceals them'.",
+"fix_failed": 2,
+"verified": null
+}
+},
+"history": [
+{
+"old_hs": [
+"4f2c951f2036",
+"b03570a587e9",
+"29f2f28c18fe"
+],
+"dim": "en",
+"what": "Poem: فهو قمر 'gambler' -> 'moon' with pun note; الدّزّ kept as written with note (was silently 'dregs'); Benefits Quranic quotations restored in Arabic script with English glosses; unmarked Q-references removed",
+"at": "2026-10-17 00:46"
+},
+{
+"old_hs": [
+"4f2c951f2036",
+"b03570a587e9",
+"7332dd838a45"
+],
+"dim": "tr",
+"what": "Maysir paragraph: unmarked '(daha büyük)' moved into [Mütercim notu: …]",
+"at": "2026-10-17 00:46"
+},
+{
+"old_hs": [
+"4f2c951f2036",
+"45fef3bba2ae",
+"7332dd838a45"
+],
+"dim": "en",
+"what": "Vocabulary: transliterated 'khamr' (x2) -> الخمر and 'al-maysir' -> الميسر in Arabic script; فجدّد به عهدا -> imperative 'so renew your acquaintance with it'",
+"at": "2026-10-17 00:50"
+}
+]
+},
+"dervis-irab:224-225": {
+"hs": [
+"de231124512f",
+"f192f4485d77",
+"cf758ef0f2fa"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Arabic «وهو عرضة للناس، أي: لا يزالون يقعون فيه»: وقع في فلان is an idiom for speaking ill of / attacking someone verbally, so TR 'İnsanlar onu dillerine dolamaktan geri durmazlar' is a correct idiomatic rendering, not a wrong meaning. Rest of TR checked and matches.",
+"at": "2026-10-17 00:42"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "«هو عرضة للناس، أي: لا يزالون يقعون فيه» - وقع في فلان is the Arabic idiom for maligning / speaking ill of someone; TR 'İnsanlar onu dillerine dolamaktan geri durmazlar' (they never stop maligning him) renders the idiom correctly. 'Falling into it' would be a literal mistranslation.",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+},
+"dervis-irab:232-232": {
+"hs": [
+"f7c21251ebc2",
+"34626349e8fa",
+"763dd2a3d268"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Rhetoric: Arabic «فتسمية المطلقين لهن بالأزواج» = 'calling the men who divorced them husbands'; EN 'The naming of the women as their husbands by those who divorced them' reverses who is named (TR correct). Also I'rab: source «متعلقان بأزكى أو أظهر» is silently rendered 'أزكى or أطهر' in EN without note (TR notes it).",
+"at": "2026-10-17 00:42"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic «فتسمية المطلقين لهن بالأزواج مجاز مرسل علاقته اعتبار ما كان» = calling the men who divorced them 'husbands' (أزواجهن); EN 'The naming of the women as \"their husbands\" by those who divorced them' reverses who is named. TR is correct.",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Rhetoric: تسمية المطلقين لهن بالأزواج now 'calling those who divorced them their husbands' (was reversed); I'rab: source أظهر kept as written with note (was silently أطهر)",
+"verified": "PASS",
+"verify_note": "Rhetoric now correctly says calling those who divorced them 'their husbands'; أظهر kept as in source with Translator's note; EN complete and faithful. (Minor: 'nāʾib fāʾil' typo for fāʿil.)"
+}
+},
+"history": [
+{
+"old_hs": [
+"f7c21251ebc2",
+"34626349e8fa",
+"6e0692fb34a3"
+],
+"dim": "en",
+"what": "Rhetoric: تسمية المطلقين لهن بالأزواج now 'calling those who divorced them their husbands' (was reversed); I'rab: source أظهر kept as written with note (was silently أطهر)",
+"at": "2026-10-17 00:46"
+}
+]
+}
+}

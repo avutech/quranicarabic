@@ -1,0 +1,232 @@
+{
+"safi-cedvel:31-31": {
+"p1": {
+"ar": "b2d3a68faa55",
+"tr": "4b230c5956a7",
+"en": "2fb80375ae56",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:33",
+"fixed": false
+}
+},
+"safi-cedvel:32-37": {
+"p1": {
+"ar": "b208ffd13b92",
+"tr": "4a8d03baf2ff",
+"en": "4623262c6fa3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:33",
+"fixed": false
+},
+"p2": {
+"ar": "b208ffd13b92",
+"tr": "4a8d03baf2ff",
+"en": "4623262c6fa3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u23",
+"at": "2026-10-16 19:16",
+"fixed": false
+}
+},
+"safi-cedvel:38-42": {
+"p1": {
+"ar": "4180be671074",
+"tr": "954e64113639",
+"en": "a34903054516",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:33",
+"fixed": false
+}
+},
+"safi-cedvel:43-47": {
+"p1": {
+"ar": "769ac391aad0",
+"tr": "ddb9ebdfd2ed",
+"en": "4eff3f73f317",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:33",
+"fixed": false
+}
+},
+"safi-cedvel:48-48": {
+"p1": {
+"ar": "be90fa36aa09",
+"tr": "b4c6d8bdc727",
+"en": "48fab59fc4e0",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR added unmarked \"(asıl şeydir)\" for والمنفي حقيقة في باطن الكلام; replaced with faithful wording",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:33",
+"fixed": true
+},
+"p2": {
+"ar": "be90fa36aa09",
+"tr": "b4c6d8bdc727",
+"en": "48fab59fc4e0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u23",
+"at": "2026-10-16 19:16",
+"fixed": false
+}
+},
+"safi-cedvel:49-51": {
+"p1": {
+"ar": "dcdbbec31f66",
+"tr": "fa01623a9341",
+"en": "cf764d45393b",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "source footnote on فرّت contains a stray part (وقت مشيئة الله ... يذكرون) that belongs to ayah 56; translators already flagged it",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:33",
+"fixed": false
+},
+"p2": {
+"ar": "dcdbbec31f66",
+"tr": "fa01623a9341",
+"en": "cf764d45393b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u23",
+"at": "2026-10-16 19:16",
+"fixed": false
+}
+},
+"safi-cedvel:52-53": {
+"p1": {
+"ar": "e97ce532d5bd",
+"tr": "5073b23688e9",
+"en": "91027a161214",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:33",
+"fixed": false
+}
+},
+"safi-cedvel:54-56": {
+"p1": {
+"ar": "0443a30dbb6e",
+"tr": "185f2ea7f239",
+"en": "605dea441b64",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:33",
+"fixed": false
+}
+},
+"safi-cedvel:1-7": {
+"p1": {
+"ar": "ef3fe7ded785",
+"tr": "d2f5f2dae1b9",
+"en": "1e0e3b05a30d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:33",
+"fixed": false
+}
+},
+"safi-cedvel:8-10": {
+"p1": {
+"ar": "83f286762d77",
+"tr": "06980447b486",
+"en": "6bccdd6733c8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:33",
+"fixed": false
+},
+"p2": {
+"ar": "83f286762d77",
+"tr": "06980447b486",
+"en": "6bccdd6733c8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u23",
+"at": "2026-10-16 19:16",
+"fixed": false
+}
+},
+"safi-cedvel:11-15": {
+"p1": {
+"ar": "f3c4ae83a25f",
+"tr": "9503c31eee1b",
+"en": "9e0c71f67949",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:33",
+"fixed": false
+}
+},
+"safi-cedvel:16-25": {
+"p1": {
+"ar": "8cf0ce9aea0d",
+"tr": "6555827d3b22",
+"en": "e3c53a4006d3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:33",
+"fixed": false
+}
+},
+"safi-cedvel:26-30": {
+"p1": {
+"ar": "a14ea52ad5d7",
+"tr": "eaa17ec089ed",
+"en": "10b9a323a773",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:33",
+"fixed": false
+}
+}
+}

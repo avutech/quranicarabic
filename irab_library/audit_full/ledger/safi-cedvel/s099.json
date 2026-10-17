@@ -1,0 +1,42 @@
+{
+"safi-cedvel:1-6": {
+"p1": {
+"ar": "be7c35dcba43",
+"tr": "65774955c27a",
+"en": "c76d17df01ee",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u65",
+"at": "2026-10-10 19:33",
+"fixed": false
+}
+},
+"safi-cedvel:7-8": {
+"p1": {
+"ar": "486427be644a",
+"tr": "bf637c4f3438",
+"en": "5d0b5e3b235e",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish had unmarked addition \"(harama)\" before \"bakmak\" for النظرة; removed.",
+"by": "safi-cedvel-u65",
+"at": "2026-10-10 19:33",
+"fixed": true
+},
+"p2": {
+"ar": "486427be644a",
+"tr": "bf637c4f3438",
+"en": "5d0b5e3b235e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u23",
+"at": "2026-10-16 19:10",
+"fixed": false
+}
+}
+}

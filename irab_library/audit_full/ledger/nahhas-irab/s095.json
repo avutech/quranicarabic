@@ -1,0 +1,126 @@
+{
+"nahhas-irab:1-1": {
+"p1": {
+"ar": "29ac0c715e90",
+"tr": "ed53cb57b8bf",
+"en": "8f07f082f964",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u45",
+"at": "2026-10-10 16:01",
+"fixed": false
+}
+},
+"nahhas-irab:2-2": {
+"p1": {
+"ar": "e31ca32c6156",
+"tr": "72f57fea20f4",
+"en": "47be526574e0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u45",
+"at": "2026-10-10 16:01",
+"fixed": false
+}
+},
+"nahhas-irab:3-3": {
+"p1": {
+"ar": "e29622021065",
+"tr": "b9ce8131bf69",
+"en": "801f5d9ec9e5",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish had unmarked (ذلك) guess after كسر اللام; replaced with Mutercim notu matching the English note",
+"by": "nahhas-irab-p1-u4",
+"at": "2026-10-17 00:10",
+"fixed": true
+},
+"p2": {
+"ar": "e29622021065",
+"tr": "b9ce8131bf69",
+"en": "801f5d9ec9e5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u7",
+"at": "2026-10-17 00:17",
+"fixed": false
+}
+},
+"nahhas-irab:4-4": {
+"p1": {
+"ar": "904923e25622",
+"tr": "9b9fd0fa2b53",
+"en": "4d6a19d15607",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u45",
+"at": "2026-10-10 16:01",
+"fixed": false
+}
+},
+"nahhas-irab:5-5": {
+"p1": {
+"ar": "3fcd1abde76a",
+"tr": "6a8519e8545e",
+"en": "0aa301fc7194",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u45",
+"at": "2026-10-10 16:01",
+"fixed": false
+}
+},
+"nahhas-irab:6-6": {
+"p1": {
+"ar": "32e5fbe19925",
+"tr": "98cacb7f4be0",
+"en": "76088fdbd4fc",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u45",
+"at": "2026-10-10 16:01",
+"fixed": false
+}
+},
+"nahhas-irab:7-7": {
+"p1": {
+"ar": "1d8feecac783",
+"tr": "84a706e861a7",
+"en": "333360d4dfe3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u45",
+"at": "2026-10-10 16:01",
+"fixed": false
+}
+},
+"nahhas-irab:8-8": {
+"p1": {
+"ar": "79fc676539e9",
+"tr": "6b07b4d880b8",
+"en": "d925dfaad8f7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u45",
+"at": "2026-10-10 16:01",
+"fixed": false
+}
+}
+}

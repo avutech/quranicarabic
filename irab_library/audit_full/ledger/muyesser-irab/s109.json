@@ -1,0 +1,98 @@
+{
+"muyesser-irab:1-1": {
+"p1": {
+"ar": "a8b325efa22a",
+"tr": "ab6c2dc0728b",
+"en": "2632ce804d41",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "muyesser-irab-u38",
+"at": "2026-10-10 19:23",
+"fixed": false
+}
+},
+"muyesser-irab:2-2": {
+"p1": {
+"ar": "209ab0db0546",
+"tr": "e76380b64a5e",
+"en": "5675df1a6453",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish added unmarked gloss \"(sizin ibadet ettiğiniz gibi)\" for عبادتكم; removed.",
+"by": "muyesser-irab-u38",
+"at": "2026-10-10 19:23",
+"fixed": true
+},
+"p2": {
+"ar": "209ab0db0546",
+"tr": "e76380b64a5e",
+"en": "5675df1a6453",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "muyesser-irab-p2-u16",
+"at": "2026-10-16 19:03",
+"fixed": false
+}
+},
+"muyesser-irab:3-3": {
+"p1": {
+"ar": "6350ab44d5f3",
+"tr": "e28de28734b6",
+"en": "6c83f60c5aa8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "muyesser-irab-u38",
+"at": "2026-10-10 19:23",
+"fixed": false
+}
+},
+"muyesser-irab:4-4": {
+"p1": {
+"ar": "d63b012b9b8c",
+"tr": "f662c3fa66ce",
+"en": "75363d306a53",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "muyesser-irab-u38",
+"at": "2026-10-10 19:23",
+"fixed": false
+}
+},
+"muyesser-irab:5-5": {
+"p1": {
+"ar": "6350ab44d5f3",
+"tr": "e28de28734b6",
+"en": "c0bc0732b8a8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "muyesser-irab-u38",
+"at": "2026-10-10 19:23",
+"fixed": false
+}
+},
+"muyesser-irab:6-6": {
+"p1": {
+"ar": "aa5857797fe1",
+"tr": "9e9d8939dadf",
+"en": "c892be5b87b3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "muyesser-irab-u38",
+"at": "2026-10-10 19:23",
+"fixed": false
+}
+}
+}

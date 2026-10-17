@@ -1,0 +1,194 @@
+{
+"mekki-muskil:1-1": {
+"p1": {
+"ar": "b386de920254",
+"tr": "45bfa323beb5",
+"en": "992d26dc04ea",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:47",
+"fixed": false
+}
+},
+"mekki-muskil:2-2": {
+"p1": {
+"ar": "43b5b521a6f0",
+"tr": "ef244a4bda32",
+"en": "e3a14f8eb36a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:47",
+"fixed": false
+}
+},
+"mekki-muskil:6-6": {
+"p1": {
+"ar": "38f4279e7551",
+"tr": "4254ccb7e596",
+"en": "83738b2179d8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:47",
+"fixed": false
+}
+},
+"mekki-muskil:13-13": {
+"p1": {
+"ar": "02df21fc873d",
+"tr": "71ecfd17f2ef",
+"en": "cfd49abc316e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:47",
+"fixed": false
+}
+},
+"mekki-muskil:16-16": {
+"p1": {
+"ar": "738c78e4a3d1",
+"tr": "56c3683c6990",
+"en": "2a2c0b900d08",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:47",
+"fixed": false
+}
+},
+"mekki-muskil:18-18": {
+"p1": {
+"ar": "b47719f3281f",
+"tr": "ec46def98d00",
+"en": "98e29b3ba62e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:47",
+"fixed": false
+}
+},
+"mekki-muskil:23-23": {
+"p1": {
+"ar": "90a17cf6abba",
+"tr": "64e7c803fd23",
+"en": "b8e9e8c7246e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:47",
+"fixed": false
+}
+},
+"mekki-muskil:24-24": {
+"p1": {
+"ar": "ff55907c2d91",
+"tr": "e26dd54bbc7b",
+"en": "36fbfe7326d8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:47",
+"fixed": false
+}
+},
+"mekki-muskil:25-25": {
+"p1": {
+"ar": "922c3b7749fa",
+"tr": "b4a40e593411",
+"en": "916beb7339f5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:47",
+"fixed": false
+}
+},
+"mekki-muskil:28-28": {
+"p1": {
+"ar": "19463f790085",
+"tr": "4693d09dc556",
+"en": "aedcc5a4a55e",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English silently corrected source typo «وذل»; translator note added.",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:47",
+"fixed": true
+},
+"p2": {
+"ar": "19463f790085",
+"tr": "4693d09dc556",
+"en": "aedcc5a4a55e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"mekki-muskil:29-29": {
+"p1": {
+"ar": "96a61cbf6645",
+"tr": "ea273caedaa8",
+"en": "b4d32d324df9",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "Only the first paragraph (كتابا) is 78:29; the others comment on 78:36 (جزاء وعطاء حسابا) and 78:37 (رب السموات والأرض).",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:47",
+"fixed": false
+},
+"p2": {
+"ar": "96a61cbf6645",
+"tr": "ea273caedaa8",
+"en": "b4d32d324df9",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "\"جزاء وعطاء ... حسابا\" (78:36) and \"رب السموات ... الرحمن\" (78:37) do not belong to 78:29; translations complete and faithful.",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"mekki-muskil:38-38": {
+"p1": {
+"ar": "bea33ce0a963",
+"tr": "fcd94e9afd2c",
+"en": "43674e4f683e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:47",
+"fixed": false
+}
+}
+}

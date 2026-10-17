@@ -1,0 +1,97 @@
+{
+"harrat-mujtaba:58-58": {
+"hs": [
+"e172acdbcb5b",
+"47ae580ebb1f",
+"1e3d5bf9a041"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: والرابط مقدر أي: لها منهم — the implied linker is 'for it/them (لها, feminine, i.e. the dwellings) from them'. The English renders it 'of them from them', which mistranslates لها (lām = 'for', referent the fem. مساكن) and makes the gloss garbled. Fix: keep لها منهم in Arabic with a correct gloss like 'for it (the dwellings), of them'. Rest of the reading is faithful.",
+"at": "2026-10-17 00:42"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source: «والرابط مقدر أي: لها منهم» - the implied link is لها (for it, i.e. the fem. مساكن/the dwellings) منهم (from/of them). The English 'of them from them' mistranslates لها (لِ + fem. sing. هاء referring to the dwellings) as 'of them', producing a garbled, meaningless gloss. Should be e.g. 'for it (the dwellings) from them'. Rest of the English is faithful.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "corrected the garbled gloss of لها منهم ('of them from them') to «لها منهم» ('for it, from them'), with the referent (the dwellings) in a Translator's note",
+"verified": "PASS",
+"verify_note": "لها منهم now glossed for it, from them with referent inside Translator's note; rest faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"e172acdbcb5b",
+"47ae580ebb1f",
+"9befffcf6ec5"
+],
+"dim": "en",
+"what": "corrected the garbled gloss of لها منهم ('of them from them') to «لها منهم» ('for it, from them'), with the referent (the dwellings) in a Translator's note",
+"at": "2026-10-17 00:45"
+},
+{
+"old_hs": [
+"e172acdbcb5b",
+"47ae580ebb1f",
+"9befffcf6ec5"
+],
+"dim": "en",
+"what": "corrected the garbled gloss of لها منهم ('of them from them') to «لها منهم» ('for it, from them'), with the referent (the dwellings) in a Translator's note",
+"at": "2026-10-17 00:46"
+}
+]
+},
+"harrat-mujtaba:72-72": {
+"hs": [
+"4c2291829b37",
+"56f1e95c1a33",
+"84d4b5292245"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic source is only: مثل الآية المتقدمة مفردات وجملا. The English prefixes (قل أرأيتم إن جعل الله عليكم النهار سرمدا) outside the brackets of [Translator's note: phrase discussed]; an addition not inside the note is unmarked per the binding rule. Fix: move it inside the translator's note. The translation of the sentence itself is correct.",
+"at": "2026-10-17 00:42"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "The Arabic is only «مثل الآية المتقدمة مفردات وجملا», rendered correctly as 'Like the preceding verse, in its single words and its clauses'. The prefixed (قل أرأيتم إن جعل الله عليكم النهار سرمدا) is in Arabic script and explicitly labeled by [Translator's note: phrase discussed], so it is a marked translator heading, not an unmarked addition.",
+"at": "2026-10-17 00:42"
+},
+"J3": {
+"class": "CONFIRMED",
+"evidence": "Arabic source is only «مثل الآية المتقدمة مفردات وجملا»; English prefixes «(قل أرأيتم إن جعل الله عليكم النهار سرمدا)» outside «[Translator's note: phrase discussed]» — unmarked addition. Fix: move the phrase inside the note. The translated sentence itself is correct (Turkish has no such prefix).",
+"at": "2026-10-17 00:44"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "moved the quoted ayah phrase that stood outside the note inside the translator's note; rest unchanged",
+"verified": "PASS",
+"verify_note": "Quoted phrase inside Translator's note; sentence faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"4c2291829b37",
+"56f1e95c1a33",
+"239d2100549e"
+],
+"dim": "en",
+"what": "moved the quoted ayah phrase that stood outside the note inside the translator's note; rest unchanged",
+"at": "2026-10-17 00:46"
+}
+]
+}
+}

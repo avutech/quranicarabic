@@ -1,0 +1,215 @@
+{
+"akhfash:17-18": {
+"hs": [
+"64677253c66a",
+"44ec3515389b",
+"563c132abb7b"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Verse gloss: TR renders 'ما بالُها بالليلِ زالَ زوالَها' as 'Allah onun gidişini gidersin' (may Allah remove her departure), which contradicts the author's own explanation right after: 'كأنه قال: أزالَ اللَّهُ الليلَ زوالَها' (may Allah make the NIGHT pass away as she passes away; الليل is the object, زوالها a cognate accusative). TR thus glosses the verse against the text it is cited for (EN 'may [the night] pass away as she passes' follows the source). Also 'أزال الله الليل زوالها' itself is left untranslated in TR. Rest of TR (أوقد = yaktı, الذي = çoğul, هم صم بكم عمي ref' ibtida, حوله zarf) is faithful.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Verse gloss of 'ما بالُها بالليلِ زالَ زوالَها' is rendered 'Allah onun gidişini gidersin' (God remove HER departure), but the source itself glosses it 'أزالَ اللَّهُ الليلَ زوالَها' (God made the NIGHT pass, as her passing): TR makes زوالها the thing removed and drops الليل as object. TR also turns هذا النهار into the subject ('Bu gündüz ... görünür oldu') although the author says 'نصب النهارَ على الظرف', and adds unmarked '(gitmek)'. Needs correction / note.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "First hemistich gloss corrected (النهار as zarf, 'onun kaygısından'); unmarked additions (mahzûf mübtedânın haberi, bina edilmiş, zaman ya da mekân, zamiri) moved into Mütercim notu",
+"verify_note": "TR complete and faithful sentence by sentence: verse 28 gloss now treats النهار as zarf and gives الليل as what passes (per author's أزال الله الليل زوالها, which is now translated); interpretive additions (mahzuf mubtada, zaman/mekan, zamir takdiri, النهارُ/النهارَ discrepancy) are inside Mütercim notu; Arabic quoted as written; no new issues.",
+"fix_failed": 1,
+"verified": "PASS"
+}
+},
+"history": [
+{
+"old_hs": [
+"64677253c66a",
+"15d2b2ecc6e3",
+"563c132abb7b"
+],
+"dim": "tr",
+"what": "Re-glossed verse 'هذا النهار ... زال زوالها' per the author's analysis (النهار zarf; night made to pass), removed unmarked '(gitmek)', added Mütercim notu; translated 'أزال الله الليل زوالها'",
+"at": "2026-10-17 00:46"
+},
+{
+"old_hs": [
+"64677253c66a",
+"ca2bd2e09148",
+"563c132abb7b"
+],
+"dim": "tr",
+"what": "First hemistich gloss corrected (النهار as zarf, 'onun kaygısından'); unmarked additions (mahzûf mübtedânın haberi, bina edilmiş, zaman ya da mekân, zamiri) moved into Mütercim notu",
+"at": "2026-10-17 00:48"
+}
+]
+},
+"akhfash:45-45": {
+"hs": [
+"a32ded0302b6",
+"f6a260e03287",
+"2c32925f9d22"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "MISPLACED",
+"evidence": "First part is about 2:45 ('﴿وَٱسْتَعِينُواْ بِٱلصَّبْرِ وَٱلصَّلاَةِ وَإِنَّهَا لَكَبِيرَةٌ﴾', pronoun referred to الصلاة; other ayahs only cited as parallels). From 'وأما قوله ﴿بِٱتِّخَاذِكُمُ ٱلْعِجْلَ فَتُوبُوۤاْ إِلَىٰ بَارِئِكُمْ﴾' to the end, the entry substantively parses 2:54: ٱلْعِجْلَ as مفعول به, the hamza of بَارِئِكُمْ, its takhfif and the sukun 'بارئْكُم' (with 'جاءت رسلنا' and verses as evidence). So it covers 2:45 and 2:54; full range 45-54.",
+"at": "2026-10-17 00:39",
+"ayahs": "45-54"
+},
+"J2": {
+"class": "MISPLACED",
+"evidence": "First part is on 2:45 'وَٱسْتَعِينُواْ بِٱلصَّبْرِ وَٱلصَّلاَةِ وَإِنَّهَا لَكَبِيرَةٌ' (حمل الكلام على الصلاة). From 'وأما قوله ﴿بِٱتِّخَاذِكُمُ ٱلْعِجْلَ فَتُوبُوۤاْ إِلَىٰ بَارِئِكُمْ﴾' to the end (نصب العجل، همز بارئكم، تخفيف/إسكان 'بارئْكم') substantively discusses 2:54. Entry must also cover 2:54.",
+"at": "2026-10-17 00:40",
+"ayahs": "45-54"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+},
+"akhfash:208-208": {
+"hs": [
+"598b263daa3a",
+"3e3e5b17f327",
+"4c51de261973"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "TR inserts '(Burada ikinci harf dammelidir;)' before 'çünkü فُعْلَة vezninde...'; the Arabic only has 'وقال ﴿وَلاَ تَتَّبِعُواْ خُطُوَاتِ ٱلشَّيْطَانِ﴾ لان كل اسم على فُعْلَة...' - the explanatory clause is an unmarked addition (must be inside [Mütercim notu: ...]). The rendering of 'فلا يضعف ... ولولا انه حرك لضعف' as 'zayıf olmaz / zayıf olurdu' is a defensible literal reading; the addition alone requires a fix.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "TR inserts '(Burada ikinci harf dammelidir;)' before 'çünkü فُعْلَة vezninde...'; the Arabic 'وقال ﴿وَلاَ تَتَّبِعُواْ خُطُوَاتِ ٱلشَّيْطَانِ﴾ لان كل اسم على فُعْلَة...' has no such sentence. Also unmarked '(bitişik olan)' in 'şu (bitişik olan) hâl' for 'فذلك أخلق'. Unmarked additions must go into [Mütercim notu: …].",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved unmarked '(Burada ikinci harf dammelidir;)' and '(bitişik olan)' into Mütercim notları; 'فذلك أخلق' rendered literally",
+"verified": "PASS",
+"verify_note": "Former unmarked '(Burada ikinci harf dammelidir;)' and '(bitişik olan)' now inside Mütercim notu; added notes on الظُلُمات and كِسْره; text complete and faithful, no new problem."
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "EN adds an unmarked Latin transliteration '\"أذْكُر\" [i.e. Udhkur]' - not in the Arabic ('وقد دعاهم ذلك إلى أَن قالوا \"أذْكُر\" فضموا الالف') and not in a Translator's note. In addition, 'فلا يضعف ... ولولا انه حرك لضعف' is rendered 'it is not doubled ... it would be doubled', a sense (gemination) that the context about عِضَة/عِضات does not clearly support (TR: zayıf = weak); this sense should be checked, but the unmarked addition alone requires a fix.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "EN carries unmarked additions: 'أذْكُر [i.e. Udhkur]' (added Latin transliteration, not in the Arabic), 'they said \"[we declare our] freedom from you\"' for 'قالوا بَراءَةً مِنْكُم', 'this ... [means]: they said something good'. These must be Translator's notes. The reviewer's other point (يضعف rendered 'doubled' vs TR 'zayıf' in 'فلا يضعف ... ولولا انه حرك لضعف') is ambiguous and I do not rest the vote on it.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed Latin transliteration '[i.e. Udhkur]'; replaced unmarked bracket additions ('[we declare our]', '[we declare]', '[means]', '[word] salām', 'My stance is salām', '[the meaning]', '[the second letter]') with the Arabic quotes/literal wording or a Translator's note",
+"verified": "PASS",
+"verify_note": "'[i.e. Udhkur]' transliteration removed; '[we declare our]' and '[means]' additions gone; 'the second letter' clarification is in a Translator's note; complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"598b263daa3a",
+"b44c6ae2c0cf",
+"afd436ebd9c5"
+],
+"dim": "tr",
+"what": "Moved unmarked '(Burada ikinci harf dammelidir;)' and '(bitişik olan)' into Mütercim notları; 'فذلك أخلق' rendered literally",
+"at": "2026-10-17 00:46"
+},
+{
+"old_hs": [
+"598b263daa3a",
+"3e3e5b17f327",
+"4c51de261973"
+],
+"dim": "en",
+"what": "Removed Latin transliteration '[i.e. Udhkur]'; replaced unmarked bracket additions ('[we declare our]', '[we declare]', '[means]', '[word] salām', 'My stance is salām', '[the meaning]', '[the second letter]') with the Arabic quotes/literal wording or a Translator's note",
+"at": "2026-10-17 00:46"
+}
+]
+},
+"akhfash:6-6": {
+"hs": [
+"803e5bf29047",
+"cd335b43dba8",
+"0f616f7f5770"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Alqama's verse وما القلب أَمْ ما ذكرُهُ رَبَعِيَّةً: رَبَعِيَّة is the nisba of the tribe Rabīʿa (a woman of Rabīʿa), and the source itself explains it يريد ما ذكرُهُ ربيعةً. TR renders it 'bahar mevsimli (rebîiyye) bir kadın' (a spring-born/seasonal woman), which is a wrong meaning not supported by the Arabic or by the author's gloss. EN 'a woman of Rabīʿa' is right. Fix TR to 'Rebîa kabilesinden bir kadın'.",
+"at": "2026-10-17 00:40"
+},
+"J1": {
+"class": "HUMAN",
+"evidence": "Alqama verse 'وما القلب أَمْ ما ذكرُهُ رَبَعِيَّةً': رَبَعِيّة can mean a woman of the spring encampment or a woman of (the tribe) Rabīʿa (nisba ربعي); Akhfash's paraphrase 'ما ذكرُهُ ربيعةً' points to the latter but is itself odd, and TR notes the discrepancy. Choosing TR 'bahar mevsimli' vs EN 'a woman of Rabīʿa' needs scholarly judgement.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "HUMAN"
+}
+}
+},
+"akhfash:8-8": {
+"hs": [
+"7828189b449b",
+"756647314983",
+"5ee4a6944fff"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "In لان ايا ها هنا اسم the word ايا is not a typo: it is أيًّا, the accusative of أيّ as ism of لأنّ (cf. يا أيُّها الرجل just before). Quoting the particle in its citation form 'أيّ' is a correct rendering of the same word, not a silent correction of the source. Rest of TR (مَن lafẓ/maʿnā, ومن تقنت, ما جاءت حاجتك, رُبّ من / رُبّ ما, هذا ما لدي عتيد, نعمّا, the كمثل الذي استوقد note) is faithful.",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Source 'لان ايا ها هنا اسم' is not a typo: أيًّا is the regular accusative of أيّ as the noun of لأنّ. Writing the word in citation form 'أيّ' when referring to it is a correct translation, not a silent correction. Rest faithful.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+},
+"en": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "لان ايا ها هنا اسم: ايا = أيًّا, accusative of أيّ as the noun of لأنّ, grammatically correct in the source; EN '\"أي\" here is a noun' names the same word in citation form, so nothing is silently corrected. Rest of EN is faithful, with the asterisks and the omitted فلما flagged in translator's notes.",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Source 'لان ايا ها هنا اسم': أيًّا is the grammatically required accusative after لأنّ, not a misspelling; EN '\"أي\" here is a noun' correctly names the word أيّ. No silent correction.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

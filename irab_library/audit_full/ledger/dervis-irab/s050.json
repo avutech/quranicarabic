@@ -1,0 +1,134 @@
+{
+"dervis-irab:1-8": {
+"p1": {
+"ar": "7f210e2967a0",
+"tr": "2b096b6f7dee",
+"en": "cf7a7a26780c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u91",
+"at": "2026-10-10 19:44",
+"fixed": false
+},
+"p2": {
+"ar": "7f210e2967a0",
+"tr": "2b096b6f7dee",
+"en": "cf7a7a26780c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u5",
+"at": "2026-10-17 00:03",
+"fixed": false
+}
+},
+"dervis-irab:9-15": {
+"p1": {
+"ar": "70782ecd8ca0",
+"tr": "a9b421bf65ca",
+"en": "013aa609f815",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR: \"كل رسول من المذكورين\" rendered garbled \"zikredilenlerden her biri, her rasul\"; fixed. EN: «كأنه قال: في لبس أي» completed with unmarked \"[grave]\" and dropped \"أي\"; fixed",
+"by": "dervis-irab-p1-u3",
+"at": "2026-10-17 00:19",
+"fixed": true
+},
+"p2": {
+"ar": "70782ecd8ca0",
+"tr": "a9b421bf65ca",
+"en": "013aa609f815",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u4",
+"at": "2026-10-17 00:31",
+"fixed": false
+}
+},
+"dervis-irab:16-20": {
+"p1": {
+"ar": "5ca2e5f721d2",
+"tr": "3d89aefcdc80",
+"en": "b60122b3072a",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN \"singular in form and in meaning two watchers\" for واحد في اللفظ والمعنى رقيبان made unambiguous.",
+"by": "dervis-irab-u91",
+"at": "2026-10-10 19:44",
+"fixed": true
+},
+"p2": {
+"ar": "5ca2e5f721d2",
+"tr": "3d89aefcdc80",
+"en": "b60122b3072a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u5",
+"at": "2026-10-17 00:03",
+"fixed": false
+}
+},
+"dervis-irab:21-30": {
+"p1": {
+"ar": "b457cee28be9",
+"tr": "f89addb1c3cb",
+"en": "b38c2c6a6aff",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR translator note claimed el-Keshshaf reads المميد (unverifiable); replaced with neutral note that the repeated word is translated as written.",
+"by": "dervis-irab-u91",
+"at": "2026-10-10 19:44",
+"fixed": true
+},
+"p2": {
+"ar": "b457cee28be9",
+"tr": "f89addb1c3cb",
+"en": "b38c2c6a6aff",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u5",
+"at": "2026-10-17 00:04",
+"fixed": false
+}
+},
+"dervis-irab:31-37": {
+"p1": {
+"ar": "8d077d50cbbe",
+"tr": "a2b340d8cf57",
+"en": "3472218403aa",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u91",
+"at": "2026-10-10 19:45",
+"fixed": false
+}
+},
+"dervis-irab:38-45": {
+"p1": {
+"ar": "d4202585da8a",
+"tr": "ac4cd0fc64a6",
+"en": "f48f3f2411a0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u2",
+"at": "2026-10-11 00:55",
+"fixed": false
+}
+}
+}

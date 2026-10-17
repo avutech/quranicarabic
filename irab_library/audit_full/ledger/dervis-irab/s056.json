@@ -1,0 +1,172 @@
+{
+"dervis-irab:1-16": {
+"p1": {
+"ar": "b4755d27dbf6",
+"tr": "3f251e5df3e8",
+"en": "87ef27886a52",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u16",
+"at": "2026-10-17 00:07",
+"fixed": false
+},
+"p2": {
+"ar": "b4755d27dbf6",
+"tr": "3f251e5df3e8",
+"en": "87ef27886a52",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR: \"واختار الجلال\" rendered \"Celâl (es-Suyûtî)\", but Surah 56 in al-Jalalayn is by al-Mahalli; corrected. EN: Abu Hayyan \"ليس في النفي كما وما لا تعمل\" rendered \"like (ما) and (لا), which do not govern\", which adds a particle (لا); corrected to \"like (ما), and (ما) does not govern\".",
+"by": "dervis-irab-p2-u36",
+"at": "2026-10-16 19:28",
+"fixed": true
+}
+},
+"dervis-irab:17-26": {
+"p1": {
+"ar": "acdd7492f1f5",
+"tr": "45487f6e72df",
+"en": "794e61a658f6",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR Balagha poem gloss: يهلّ rendered tekbir getirir (not in Arabic); changed to sevinc cigligi atar",
+"by": "dervis-irab-u92",
+"at": "2026-10-10 19:44",
+"fixed": true
+},
+"p2": {
+"ar": "acdd7492f1f5",
+"tr": "45487f6e72df",
+"en": "794e61a658f6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u36",
+"at": "2026-10-16 19:28",
+"fixed": false
+}
+},
+"dervis-irab:27-40": {
+"p1": {
+"ar": "95fe7d23d46d",
+"tr": "f1ba49dede25",
+"en": "a594053c1cc6",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN Rhetoric: source typo والعرب (for العرب) silently corrected to Al-urub; added translator note",
+"by": "dervis-irab-u92",
+"at": "2026-10-10 19:44",
+"fixed": true
+},
+"p2": {
+"ar": "95fe7d23d46d",
+"tr": "f1ba49dede25",
+"en": "a594053c1cc6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u36",
+"at": "2026-10-16 19:28",
+"fixed": false
+}
+},
+"dervis-irab:41-56": {
+"p1": {
+"ar": "f3caf8d837d4",
+"tr": "a210ad056052",
+"en": "7d9f35b437eb",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u16",
+"at": "2026-10-17 00:07",
+"fixed": false
+},
+"p2": {
+"ar": "f3caf8d837d4",
+"tr": "a210ad056052",
+"en": "7d9f35b437eb",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR: \"مسوق للشروع في تفصيل ما أجمله من أحوالهم\" rendered \"onların özetle söylediği hâllerini\" (what they said in summary), making the people the subject instead of Allah; corrected.",
+"by": "dervis-irab-p2-u36",
+"at": "2026-10-16 19:29",
+"fixed": true
+}
+},
+"dervis-irab:57-74": {
+"p1": {
+"ar": "9e913bf5a07f",
+"tr": "870671b84d44",
+"en": "4a704ff362c7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u92",
+"at": "2026-10-10 19:45",
+"fixed": false
+},
+"p2": {
+"ar": "9e913bf5a07f",
+"tr": "870671b84d44",
+"en": "4a704ff362c7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u6",
+"at": "2026-10-17 00:03",
+"fixed": false
+}
+},
+"dervis-irab:75-87": {
+"p1": {
+"ar": "a4c116c1a0eb",
+"tr": "1767fa6b10e9",
+"en": "97fbc8dd571d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u4",
+"at": "2026-10-17 00:16",
+"fixed": false
+},
+"p2": {
+"ar": "a4c116c1a0eb",
+"tr": "1767fa6b10e9",
+"en": "97fbc8dd571d",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR rendered the source negation «ولا يقع بعدها الفعل» positively in the main text (\"fiil gelmesi gerekir\") with the source only in a note; now translated as written (\"fiil gelmez\") with the likely intended sense in the translator note, matching EN.",
+"by": "dervis-irab-p2-u6",
+"at": "2026-10-17 00:03",
+"fixed": true
+}
+},
+"dervis-irab:88-96": {
+"p1": {
+"ar": "7f8cb1bf05f5",
+"tr": "c7687bfad1ca",
+"en": "529e51bdb94f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u92",
+"at": "2026-10-10 19:45",
+"fixed": false
+}
+}
+}

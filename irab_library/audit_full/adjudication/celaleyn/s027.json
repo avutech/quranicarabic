@@ -1,0 +1,42 @@
+{
+"celaleyn:21-21": {
+"hs": [
+"b1cc07ff8de4",
+"d6ecabd8e866",
+"9fe009bfe11b"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "«بِنُونٍ مُشَدَّدَةٍ مَكْسُورَةٍ أَوْ مَفْتُوحَةٍ يَلِيهَا نُونٌ مَكْسُورَةٌ»: مفتوحة qualifies the same نون مشددة, so the second reading is a doubled nūn with fatḥa followed by a nūn with kasra (لَيَأْتِيَنَّنِي). TR inserts an unmarked '(şeddesiz)' (without shadda), which contradicts the Arabic. Fix: remove '(şeddesiz)' (the fatha nūn is also şeddeli).",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: بِنُونٍ مُشَدَّدَةٍ مَكْسُورَةٍ أَوْ مَفْتُوحَةٍ يَلِيهَا نُونٌ مَكْسُورَةٌ - مفتوحة is coordinated with مكسورة as a description of the same doubled nūn (Ibn Kathīr's لَيَأْتِيَنَّنِي: doubled nūn with fatḥa, then nūn with kasra). TR inserts unmarked '(şeddesiz)' making the fatḥa nūn undoubled - wrong meaning and unmarked addition. EN 'or [a nūn] with fatḥa' is acceptable by comparison.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked '(şeddesiz)'; the fatha nûn is now rendered as şeddeli per مُشَدَّدَةٍ مَكْسُورَةٍ أَوْ مَفْتُوحَةٍ",
+"verified": "PASS",
+"verify_note": "Unmarked (şeddesiz) removed; second reading now correctly a doubled nūn with fatḥa followed by a nūn with kasra; rest faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"b1cc07ff8de4",
+"9ff528a4ec05",
+"9fe009bfe11b"
+],
+"dim": "tr",
+"what": "Removed unmarked '(şeddesiz)'; the fatha nûn is now rendered as şeddeli per مُشَدَّدَةٍ مَكْسُورَةٍ أَوْ مَفْتُوحَةٍ",
+"at": "2026-10-17 01:14"
+}
+]
+}
+}

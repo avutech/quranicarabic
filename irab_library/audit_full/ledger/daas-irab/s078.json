@@ -1,0 +1,180 @@
+{
+"daas-irab:1-5": {
+"p1": {
+"ar": "02359a2f53c2",
+"tr": "32b6321a1981",
+"en": "42c5c19500e2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-u22",
+"at": "2026-10-10 19:19",
+"fixed": false
+}
+},
+"daas-irab:6-11": {
+"p1": {
+"ar": "c0b2d42c7774",
+"tr": "4eb2fc5b1e5b",
+"en": "2ec872dee987",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-u22",
+"at": "2026-10-10 19:19",
+"fixed": false
+}
+},
+"daas-irab:12-16": {
+"p1": {
+"ar": "6f45dcaf6f78",
+"tr": "91125c12d0aa",
+"en": "204629167369",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-u22",
+"at": "2026-10-10 19:19",
+"fixed": false
+}
+},
+"daas-irab:17-20": {
+"p1": {
+"ar": "7d3dbdea7f20",
+"tr": "d8bb85359931",
+"en": "38b18d325f6f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-u22",
+"at": "2026-10-10 19:19",
+"fixed": false
+}
+},
+"daas-irab:21-26": {
+"p1": {
+"ar": "918a4ff83c8b",
+"tr": "0060765ee666",
+"en": "8103e358af63",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-u22",
+"at": "2026-10-10 19:19",
+"fixed": false
+}
+},
+"daas-irab:27-30": {
+"p1": {
+"ar": "450a3016e9c3",
+"tr": "2e7825adb13f",
+"en": "754bab1e549a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-u22",
+"at": "2026-10-10 19:19",
+"fixed": false
+},
+"p2": {
+"ar": "450a3016e9c3",
+"tr": "2e7825adb13f",
+"en": "754bab1e549a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-p2-u14",
+"at": "2026-10-16 19:13",
+"fixed": false
+}
+},
+"daas-irab:31-36": {
+"p1": {
+"ar": "e68ccb9bb793",
+"tr": "d59601916494",
+"en": "79d25f51602f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-u22",
+"at": "2026-10-10 19:19",
+"fixed": false
+}
+},
+"daas-irab:37-37": {
+"p1": {
+"ar": "de9fb8c52ef9",
+"tr": "429efeb92180",
+"en": "5275a00594b0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-u22",
+"at": "2026-10-10 19:19",
+"fixed": false
+}
+},
+"daas-irab:38-38": {
+"p1": {
+"ar": "b03ff7bb0971",
+"tr": "c33f15d467d0",
+"en": "e307e8b7988b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-u22",
+"at": "2026-10-10 19:19",
+"fixed": false
+}
+},
+"daas-irab:39-39": {
+"p1": {
+"ar": "f0e9e19e92a1",
+"tr": "8b0ed8dfc0bf",
+"en": "22ebba147308",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-u22",
+"at": "2026-10-10 19:19",
+"fixed": false
+}
+},
+"daas-irab:40-40": {
+"p1": {
+"ar": "96b8b31cc9fc",
+"tr": "2fa8000678d2",
+"en": "33bf7850cfdb",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "Arabic source is garbled (first letters of quoted words lost); translators note flags it and restores words.",
+"by": "daas-irab-u22",
+"at": "2026-10-10 19:19",
+"fixed": false
+},
+"p2": {
+"ar": "96b8b31cc9fc",
+"tr": "2fa8000678d2",
+"en": "33bf7850cfdb",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "Arabic source garbled (first letters and brackets of most quoted words lost, e.g. «ِنَّا», «وا»); both readings mark the restoration with a translator note and render the analysis faithfully.",
+"by": "daas-irab-p2-u14",
+"at": "2026-10-16 19:13",
+"fixed": false
+}
+}
+}

@@ -1,0 +1,54 @@
+{
+"mekki-muskil:14-14": {
+"hs": [
+"468b100dd726",
+"cc73fcbf66bf",
+"c1de323c5e54"
+],
+"dims": {
+"fit": {
+"votes": {
+"J2": {
+"class": "MISPLACED",
+"evidence": "First paragraph {ألف سنة} ... خمسين نصب على الاستثناء is 29:14; second paragraph under {ولقد أرسلنا نوحا} says أي وأرسلنا ابراهيم / واذكر ابراهيم, i.e. it parses وإبراهيم of 29:16. Entry substantively covers 14 and 16.",
+"at": "2026-10-17 00:39",
+"ayahs": "14-16"
+},
+"J1": {
+"class": "MISPLACED",
+"evidence": "First paragraph {ألف سنة} ... وخمسين نصب على الاستثناء is 29:14, but the second paragraph {ولقد أرسلنا نوحا} أي وأرسلنا ابراهيم وقيل هو منصوب باضمار فعل أي واذكر ابراهيم is the i'rab of وإبراهيم (29:16): it is the continuation of the 29:16 entry, which breaks off at 'معطوف على نوح في قوله'. Entry substantively covers 29:14 and 29:16.",
+"at": "2026-10-17 00:39",
+"ayahs": "14-16"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+},
+"mekki-muskil:16-16": {
+"hs": [
+"f0abb83215bf",
+"a96c187dd6c6",
+"b580849be90a"
+],
+"dims": {
+"fit": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Entry {وإبراهيم إذ قال} نصب ابراهيم على العطف على الهاء في فأنجيناه / معطوف على نوح is about 29:16; فأنجيناه (15) and نوح (14) are cited only as antecedents. The trailing cut-off في قوله is a source truncation already flagged in TR/EN notes, not a placement problem.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Entry {وإبراهيم إذ قال} نصب ابراهيم على العطف على الهاء في فأنجيناه ... معطوف على نوح في قوله is entirely about وإبراهيم of 29:16 and is correctly listed there; it breaks off at 'في قوله' (its tail sits in the 29:14 entry), but the listing itself is right.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

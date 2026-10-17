@@ -1,0 +1,27 @@
+{
+"nahhas-irab:56-56": {
+"hs": [
+"ed6bb33a912d",
+"66749f2696df",
+"564a2ca32575"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Entry discusses «قريب» in «إنّ رحمة الله قريب من المحسنين» (six views on why not قريبة), which is 7:56. Opening «اسم إنّ وخبرها فأما قريب» is garbled but the subject is unambiguously 7:56; both readings mark the garbling in notes. Placement correct.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Entry discusses «إنّ رحمة الله قريب» (why قريب and not قريبة, six views), which is exactly 7:56 «إِنَّ رَحْمَتَ ٱللَّهِ قَرِيبٌۭ مِّنَ ٱلْمُحْسِنِينَ». Opening «اسم إنّ وخبرها فأما قريب» is garbled but placement is correct; both readings mark the garbling.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

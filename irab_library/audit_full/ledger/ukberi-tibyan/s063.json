@@ -1,0 +1,82 @@
+{
+"ukberi-tibyan:4-4": {
+"p1": {
+"ar": "8a360b9927cc",
+"tr": "d1267d659425",
+"en": "1db16efc900c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 15:59",
+"fixed": false
+}
+},
+"ukberi-tibyan:5-5": {
+"p1": {
+"ar": "338c1f5cf349",
+"tr": "09b483239d9a",
+"en": "fd104ae7294f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 15:59",
+"fixed": false
+},
+"p2": {
+"ar": "338c1f5cf349",
+"tr": "09b483239d9a",
+"en": "fd104ae7294f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-p2-u6",
+"at": "2026-10-16 18:09",
+"fixed": false
+}
+},
+"ukberi-tibyan:8-8": {
+"p1": {
+"ar": "1484fc952153",
+"tr": "ee77c70e181b",
+"en": "839af779e5bd",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-p1-u2",
+"at": "2026-10-17 00:29",
+"fixed": false
+},
+"p2": {
+"ar": "1484fc952153",
+"tr": "ee77c70e181b",
+"en": "839af779e5bd",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English inserted an unmarked vocalized form \"[لَيُخْرَجَنَّ]\" after \"read with the agent unnamed\" that the Arabic (\"وَيُقْرَأُ عَلَى تَرْكِ التَّسْمِيَةِ\") does not contain; removed it.",
+"by": "ukberi-tibyan-p2-u6",
+"at": "2026-10-17 00:15",
+"fixed": true
+}
+},
+"ukberi-tibyan:10-10": {
+"p1": {
+"ar": "c6da4aa1a24d",
+"tr": "64fa86ff1276",
+"en": "2f1da7d88358",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 15:59",
+"fixed": false
+}
+}
+}

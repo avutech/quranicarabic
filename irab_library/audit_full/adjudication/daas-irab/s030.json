@@ -1,0 +1,27 @@
+{
+"daas-irab:47-47": {
+"hs": [
+"c3e99493069e",
+"94c8809d4fae",
+"cea0a20b21cb"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Entry parses only 30:47: لَقَدْ, رْسَلْنا, نْ قَبْلِكَ, سُلًا, لى قَوْمِهِمْ, جاؤُهُمْ, الْبَيِّناتِ, انْتَقَمْنا, نَ الَّذِينَ, جْرَمُوا, كانَ, قًّا, لَيْنا, صْرُ الْمُؤْمِنِينَ. Markup is garbled (first letters/brackets) but every word is identifiable and the analysis complete, so it is correctly filed under 47-47 and not a nothing-to-place source defect.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Entry parses only 30:47: «لَقَدْ», «رْسَلْنا», «نْ قَبْلِكَ», «سُلًا», «لى قَوْمِهِمْ», «جاؤُهُمْ», «الْبَيِّناتِ», «انْتَقَمْنا», «جْرَمُوا», «كانَ», «قًّا», «لَيْنا», «نَصْرُ الْمُؤْمِنِينَ» - exactly the words of 30:47. Garbling is limited to brackets/first letters, analysis legible and fully translated with marked notes; placement correct.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

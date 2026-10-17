@@ -1,0 +1,29 @@
+{
+"mekki-muskil:3-3": {
+"hs": [
+"fbf2dd153c1b",
+"6ee93f62f2eb",
+"9b2c4b3f12dc"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "MISPLACED",
+"evidence": "«وهذا البلد الاسم من هذا ذا عند البصريين» is 95:3; «فما يكذبك بعد ما استفهام رفع بالابتداء ويكذبك الخبر» parses 95:7 (فَمَا يُكَذِّبُكَ بَعْدُ بِٱلدِّينِ). Range 3-7.",
+"at": "2026-10-17 00:39",
+"ayahs": "3-7"
+},
+"J2": {
+"class": "MISPLACED",
+"evidence": "The long discussion of وهذا البلد (ذا / الذال, mabni) is 95:3, but the final قوله فما يكذبك بعد ما استفهام رفع بالابتداء is 95:7 (فما يكذبك بعد بالدين). Entry covers 3 and 7.",
+"at": "2026-10-17 00:39",
+"ayahs": "3-7"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+}
+}

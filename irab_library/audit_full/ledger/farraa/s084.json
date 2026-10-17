@@ -1,0 +1,254 @@
+{
+"farraa:1-1": {
+"p1": {
+"ar": "90ff8575555a",
+"tr": "f21c380de937",
+"en": "a853943526df",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:53",
+"fixed": false
+},
+"p2": {
+"ar": "90ff8575555a",
+"tr": "f21c380de937",
+"en": "a853943526df",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p2-u4",
+"at": "2026-10-16 19:02",
+"fixed": false
+}
+},
+"farraa:2-2": {
+"p1": {
+"ar": "d97d777f8e60",
+"tr": "56c276ea15c4",
+"en": "f6094f484088",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:53",
+"fixed": false
+},
+"p2": {
+"ar": "d97d777f8e60",
+"tr": "56c276ea15c4",
+"en": "f6094f484088",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p2-u4",
+"at": "2026-10-16 19:02",
+"fixed": false
+}
+},
+"farraa:3-3": {
+"p1": {
+"ar": "d9806992f9fc",
+"tr": "2e7174e61beb",
+"en": "0abf25b3705e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:53",
+"fixed": false
+}
+},
+"farraa:10-10": {
+"p1": {
+"ar": "844cf02023a6",
+"tr": "0789bc2b8ba3",
+"en": "8381aaffd57e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:53",
+"fixed": false
+}
+},
+"farraa:11-11": {
+"p1": {
+"ar": "d34e23ced9d6",
+"tr": "e3695f5dac8d",
+"en": "2776b899bbf2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:53",
+"fixed": false
+}
+},
+"farraa:12-12": {
+"p1": {
+"ar": "8388049a7d9e",
+"tr": "0ec447f983e3",
+"en": "f456805261dc",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:53",
+"fixed": false
+}
+},
+"farraa:14-15": {
+"p1": {
+"ar": "b0f11fd8ecb5",
+"tr": "9462e9684ae7",
+"en": "2a2f175edc12",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:53",
+"fixed": false
+}
+},
+"farraa:16-16": {
+"p1": {
+"ar": "0969eb782c8a",
+"tr": "7ceb8ee99de2",
+"en": "b38489b31c28",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN \"One of the jurists\" for بعض الفقهاء; changed to Some.",
+"by": "farraa-u22",
+"at": "2026-10-10 15:53",
+"fixed": true
+},
+"p2": {
+"ar": "0969eb782c8a",
+"tr": "7ceb8ee99de2",
+"en": "b38489b31c28",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p2-u4",
+"at": "2026-10-16 19:02",
+"fixed": false
+}
+},
+"farraa:17-17": {
+"p1": {
+"ar": "54fb058643ca",
+"tr": "1734f88a077b",
+"en": "aed90e3a9971",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:53",
+"fixed": false
+},
+"p2": {
+"ar": "54fb058643ca",
+"tr": "1734f88a077b",
+"en": "aed90e3a9971",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p2-u4",
+"at": "2026-10-16 19:02",
+"fixed": false
+}
+},
+"farraa:18-18": {
+"p1": {
+"ar": "3066d46fdd35",
+"tr": "0e7fe0460207",
+"en": "541b1c863d18",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:53",
+"fixed": false
+},
+"p2": {
+"ar": "3066d46fdd35",
+"tr": "0e7fe0460207",
+"en": "541b1c863d18",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p2-u4",
+"at": "2026-10-16 19:02",
+"fixed": false
+}
+},
+"farraa:19-19": {
+"p1": {
+"ar": "8f10ebb702d5",
+"tr": "0d1a22d1cf9a",
+"en": "26e0f57ba453",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN had unmarked insertion \"[explaining:]\"; removed.",
+"by": "farraa-u22",
+"at": "2026-10-10 15:53",
+"fixed": true
+},
+"p2": {
+"ar": "8f10ebb702d5",
+"tr": "0d1a22d1cf9a",
+"en": "26e0f57ba453",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p2-u4",
+"at": "2026-10-16 19:02",
+"fixed": false
+}
+},
+"farraa:23-23": {
+"p1": {
+"ar": "8ef064a0c39e",
+"tr": "b69e3dc682dc",
+"en": "ebaa61b1f35d",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Both silently changed source بما يوعون to يعون; restored as written with translator note.",
+"by": "farraa-u22",
+"at": "2026-10-10 15:53",
+"fixed": true
+},
+"p2": {
+"ar": "8ef064a0c39e",
+"tr": "b69e3dc682dc",
+"en": "ebaa61b1f35d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p2-u4",
+"at": "2026-10-16 19:02",
+"fixed": false
+}
+}
+}

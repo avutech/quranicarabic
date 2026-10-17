@@ -1,0 +1,28 @@
+{
+"dervis-irab:1-21": {
+"p1": {
+"ar": "d38981ce80b7",
+"tr": "0f1185db3278",
+"en": "e1431d3b0ee3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u16",
+"at": "2026-10-17 00:07",
+"fixed": false
+},
+"p2": {
+"ar": "d38981ce80b7",
+"tr": "0f1185db3278",
+"en": "e1431d3b0ee3",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN rendered al-Misbah's pattern \"فعلى\" for شتى as fuʿlā; corrected to faʿlā. Negations, exceptions, attributions, poems checked.",
+"by": "dervis-irab-p2-u38",
+"at": "2026-10-16 19:29",
+"fixed": true
+}
+}
+}

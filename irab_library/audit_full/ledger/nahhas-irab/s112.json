@@ -1,0 +1,94 @@
+{
+"nahhas-irab:1-1": {
+"p1": {
+"ar": "462e06908761",
+"tr": "1ef127172193",
+"en": "4c25fc72b40e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:20",
+"fixed": false
+}
+},
+"nahhas-irab:2-2": {
+"p1": {
+"ar": "1eaf6ce9b026",
+"tr": "f4728a6a195e",
+"en": "c8e7f4567a2a",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR silently corrected several source readings (جرير, وإني, أَحَدٌ vs أَحَدُ, يا قوم); translator notes added.",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:20",
+"fixed": true
+},
+"p2": {
+"ar": "1eaf6ce9b026",
+"tr": "f4728a6a195e",
+"en": "c8e7f4567a2a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 17:07",
+"fixed": false
+}
+},
+"nahhas-irab:3-3": {
+"p1": {
+"ar": "5d8365ac796c",
+"tr": "61656e92e50b",
+"en": "01a195ac6a26",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:20",
+"fixed": false
+},
+"p2": {
+"ar": "5d8365ac796c",
+"tr": "61656e92e50b",
+"en": "01a195ac6a26",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 17:07",
+"fixed": false
+}
+},
+"nahhas-irab:4-4": {
+"p1": {
+"ar": "1c3e8e34d4cb",
+"tr": "d64dc336b6fc",
+"en": "1a4ee180774f",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR rendered Sulayman al-Hashimi reading as «كِفاءً» whereas the Arabic reads «كفئا»; corrected to the source.",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:20",
+"fixed": true
+},
+"p2": {
+"ar": "1c3e8e34d4cb",
+"tr": "d64dc336b6fc",
+"en": "1a4ee180774f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 17:07",
+"fixed": false
+}
+}
+}

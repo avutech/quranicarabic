@@ -1,0 +1,71 @@
+{
+"nahhas-irab:11-11": {
+"hs": [
+"6c81a7dbff8f",
+"86d267e1ce5c",
+"360a1a7ddf22"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source prints «على أن الأصل فيه يهدى قلبه أي يسكّن» (with ى). TR writes «يهدأ قلبه» (hamza) silently; its Mütercim notu only covers the يَهْدَ قَلْبُهُ vocalization, not this change. Silent correction of the source; the hamza reading is plausible (فأبدل من الهمزة ألفا) but must be given as written with the correction in a Mütercim notu.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source prints «على أن الأصل فيه يهدى قلبه» (with ى); TR writes «يهدأ قلبه» as the quoted form with no Mütercim notu (its note only covers the vowelling of Ikrima's reading). Even if يهدأ is the intended form (cf. «فأبدل من الهمزة ألفا»), changing the quoted Arabic form silently corrects the source; needs a note.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Quote source form «يهدى قلبه» as printed, with Mütercim notu that «يهدأ» is meant",
+"verified": "PASS",
+"verify_note": "«يهدى قلبه» now quoted as printed with the يهدأ reading in a Mütercim notu; Ikrima's vowelling disclosed in the closing note; complete and faithful."
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source prints «الأصل فيه يهدى قلبه» (with ى). EN writes «يهدأ قلبُه» with hamza and no Translator's note: silent correction of the source text. Should keep يهدى as written and put the hamza form (implied by فأبدل من الهمزة ألفا) in a [Translator's note: ...].",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source prints «الأصل فيه يهدى قلبه» (ى); EN gives «يهدأ قلبُه» with no Translator's note. Silent correction of the quoted source form (likely the intended reading given «فأبدل من الهمزة ألفا», but must be flagged in a note).",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Quote source form «يهدى قلبه» as printed, with Translator's note that «يهدأ قلبه» is meant",
+"verified": "PASS",
+"verify_note": "«يهدى قلبه» now quoted as printed with «يهدأ قلبه» in a Translator's note; complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"6c81a7dbff8f",
+"b9b812953925",
+"c84da9a04e34"
+],
+"dim": "tr",
+"what": "Quote source form «يهدى قلبه» as printed, with Mütercim notu that «يهدأ» is meant",
+"at": "2026-10-17 00:45"
+},
+{
+"old_hs": [
+"6c81a7dbff8f",
+"86d267e1ce5c",
+"360a1a7ddf22"
+],
+"dim": "en",
+"what": "Quote source form «يهدى قلبه» as printed, with Translator's note that «يهدأ قلبه» is meant",
+"at": "2026-10-17 00:45"
+}
+]
+}
+}

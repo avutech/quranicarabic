@@ -1,0 +1,53 @@
+{
+"muyesser-irab:25-25": {
+"hs": [
+"5476af784f0c",
+"00ab0b22e06f",
+"9de2aa378442"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «وأعربه بعضهم بدل اشتمال من الهدي، أي: مسددًا بلوغ الهدي محله». English renders «مسددًا» as 'barring' without the Arabic and without a note — a silent emendation (مسدّدًا normally means 'directing/setting right', not 'barring'). Needs the source word kept and a [Translator's note: …] like the Turkish has.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «وأعربه بعضهم بدل اشتمال من الهدي، أي: مسددًا بلوغ الهدي محله». مسدِّدًا does not mean 'barring'; English renders it 'barring the offering's reaching its place' silently emending the source (as if صادًّا/سادًّا) without a translator's note and without keeping the Arabic. Needs the word kept/translated as written with a [Translator's note: …] on the probable slip (Turkish does this).",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "In ليدخل section: replaced unmarked bracketed additions '[your being given]' and '[so that…]' with literal 'the absence of domination over the people of Mecca came about' (كان انتفاء التسليط على أهل مكة) and moved clarification into a [Translator's note: …]; مسددًا note kept.",
+"verify_note": "English now complete and faithful: مسددًا translated as written ('directing') with a Translator's note on the probable slip; ليدخل section renders «كان انتفاء التسليط على أهل مكة» literally with the clarification inside a Translator's note; no unmarked additions, Arabic kept in script, all six segments covered.",
+"fix_failed": 1,
+"verified": "PASS"
+}
+},
+"history": [
+{
+"old_hs": [
+"5476af784f0c",
+"00ab0b22e06f",
+"973a0c43c21e"
+],
+"dim": "en",
+"what": "Kept source «مسددًا بلوغ الهدي محله», translated as written, and added [Translator's note] on the probable slip instead of silent emendation to 'barring'",
+"at": "2026-10-17 00:43"
+},
+{
+"old_hs": [
+"5476af784f0c",
+"00ab0b22e06f",
+"e1748d406c8c"
+],
+"dim": "en",
+"what": "In ليدخل section: replaced unmarked bracketed additions '[your being given]' and '[so that…]' with literal 'the absence of domination over the people of Mecca came about' (كان انتفاء التسليط على أهل مكة) and moved clarification into a [Translator's note: …]; مسددًا note kept.",
+"at": "2026-10-17 00:45"
+}
+]
+}
+}

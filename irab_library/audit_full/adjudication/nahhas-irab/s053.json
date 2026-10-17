@@ -1,0 +1,71 @@
+{
+"nahhas-irab:9-9": {
+"hs": [
+"62ff9ba8d020",
+"93edfe5f3366",
+"c860742f5771"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic only lists: «القاد والقيد والقاب والقيب والقدر والقدر». Turkish adds '(hepsi «miktar» anlamındadır)', a gloss not in the source and not inside [Mütercim notu: ...]. Unmarked addition; rest of the passage is faithful.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic only lists: القاد والقيد والقاب والقيب والقدر والقدر. TR appends '(hepsi «miktar» anlamındadır)' - a gloss not in the Arabic, not inside a Mütercim notu; unmarked addition.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved unmarked 'hepsi miktar anlamındadır' gloss into a Mütercim notu",
+"verified": "PASS",
+"verify_note": "'hepsi miktar anlamındadır' now inside Mütercim notu; rest faithful."
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic only lists: «القاد والقيد والقاب والقيب والقدر والقدر». English adds '[all mean \"measure\"]' in plain brackets, not in the source and not inside a [Translator's note: ...]. Unmarked addition.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic only lists: القاد والقيد والقاب والقيب والقدر والقدر. EN appends '[all mean measure]' as plain bracket, not a Translator's note; unmarked addition.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Marked 'all mean measure' gloss as a Translator's note",
+"verified": "PASS",
+"verify_note": "'all mean measure' now inside Translator's note; rest faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"62ff9ba8d020",
+"407473cdb26a",
+"0968c3429b56"
+],
+"dim": "tr",
+"what": "Moved unmarked 'hepsi miktar anlamındadır' gloss into a Mütercim notu",
+"at": "2026-10-17 00:44"
+},
+{
+"old_hs": [
+"62ff9ba8d020",
+"93edfe5f3366",
+"0968c3429b56"
+],
+"dim": "en",
+"what": "Marked 'all mean measure' gloss as a Translator's note",
+"at": "2026-10-17 00:44"
+}
+]
+}
+}

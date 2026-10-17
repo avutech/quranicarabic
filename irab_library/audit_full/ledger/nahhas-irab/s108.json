@@ -1,0 +1,68 @@
+{
+"nahhas-irab:1-1": {
+"p1": {
+"ar": "e02e58f16877",
+"tr": "b7750a19909d",
+"en": "a3ad9adfafc9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:18",
+"fixed": false
+}
+},
+"nahhas-irab:2-2": {
+"p1": {
+"ar": "e6806c6f4eb8",
+"tr": "8c933d28921e",
+"en": "68a89ccdc26d",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Additions unmarked: (Abi) Shayba, (Bakir), (koyun gibi), inserted guess for the disrupted Wail quote in Turkish; fixed",
+"by": "nahhas-irab-p1-u4",
+"at": "2026-10-17 00:11",
+"fixed": true
+},
+"p2": {
+"ar": "e6806c6f4eb8",
+"tr": "8c933d28921e",
+"en": "68a89ccdc26d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u7",
+"at": "2026-10-17 00:18",
+"fixed": false
+}
+},
+"nahhas-irab:3-3": {
+"p1": {
+"ar": "da962e522ffd",
+"tr": "5e14ade1e08c",
+"en": "e3680cd4040e",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Unmarked identification (al-Asi / Âs) as referent of له removed",
+"by": "nahhas-irab-p1-u4",
+"at": "2026-10-17 00:11",
+"fixed": true
+},
+"p2": {
+"ar": "da962e522ffd",
+"tr": "5e14ade1e08c",
+"en": "e3680cd4040e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u7",
+"at": "2026-10-17 00:18",
+"fixed": false
+}
+}
+}

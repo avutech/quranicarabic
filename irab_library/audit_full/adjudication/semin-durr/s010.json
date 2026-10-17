@@ -1,0 +1,60 @@
+{
+"semin-durr:6-6": {
+"hs": [
+"66762bfe1b66",
+"47a412d4c6b9",
+"8c54c7c05a52"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "MISPLACED",
+"evidence": "Nothing in the entry is from 10:6: {لِتَعْلَمُواْ} متعلق ب «قَدَّره», «الحساب» vs «عَددَ»/«السنين», «ما خلق الله ذلك إلا بالحق», and the reading «يُفَصِّل» / نفصّل all belong to 10:5 (وَقَدَّرَهُ مَنَازِلَ لِتَعْلَمُوا عَدَدَ السِّنِينَ وَالْحِسَابَ مَا خَلَقَ اللَّهُ ذَلِكَ إِلَّا بِالْحَقِّ يُفَصِّلُ الْآيَاتِ).",
+"at": "2026-10-17 00:41",
+"ayahs": "5-5"
+},
+"J2": {
+"class": "MISPLACED",
+"evidence": "Nothing in the entry is from 10:6 (اختلاف الليل والنهار ... لقوم يتقون). It treats «{لِتَعْلَمُواْ}: متعلق ب قَدَّره», Abū ʿAmr on «الحساب» (عدد السنين والحساب), «ما خلق الله ذلك إلا بالحق», and the reading «يُفَصِّل» / نفصل الآيات — all words of 10:5 «وقدره منازل لتعلموا عدد السنين والحساب ما خلق الله ذلك إلا بالحق يفصل الآيات». Belongs to 10:5 only.",
+"at": "2026-10-17 00:41",
+"ayahs": "5-5"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+},
+"semin-durr:63-63": {
+"hs": [
+"6cf28de61b3b",
+"e6a747ce4dda",
+"ad048f26c4f9"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "The entry parses {الذين آمَنُواْ} = 10:63 (nine positions), citing «أولياء» and «عليهم» of 10:62 and «لهم البشرى» of 10:64 only as related evidence. It is listed correctly. The garbled spot «في اعتبار المحل/ محلِّ الجر بدلاً» is a local lacuna that both readings mark with a note; it does not make the whole entry a source defect.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "MISPLACED",
+"evidence": "The entry is on «{الذين آمَنُواْ}» of 10:63 (its nine i'rab positions, citing «أولياء» and «عليهم» of 10:62 as reference points, which is fine). The garble at «في اعتبار المحل/ محلِّ الجر» is local and marked, not a SOURCE_DEFECT of the entry. However the closing sentence «وإذا لم تجعلِ الجملةَ من قوله: لهم البشرى خبراً للذين جاز فيها الاستئنافُ، وأن تكونَ خبراً ثانياً ل إنَّ أو ثالثاً» gives the i'rab of the clause «لهم البشرى», which is 10:64, so the entry also substantively covers 10:64.",
+"at": "2026-10-17 00:41",
+"ayahs": "63-64"
+},
+"J3": {
+"class": "FALSE_ALARM",
+"evidence": "The entry parses {الذين آمَنُواْ}, the opening words of 10:63 (ٱلَّذِينَ ءَامَنُوا۟ وَكَانُوا۟ يَتَّقُونَ), giving nine i'rab views (رفع/جر/نصب; النعت/البدل من «أولياء» of 10:62, بدل من «عليهم», «أمدح»). Mentioning «لهم البشرى» (10:64) as a possible khabar is only a following-ayah link and is fine. The local garble at «في اعتبار المحل/ محلِّ الجر» is one break inside an otherwise intact, translatable entry, not a source defect for placement; both readings mark it with a translator's note. Filed correctly under 63-63.",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "HUMAN"
+}
+}
+}
+}

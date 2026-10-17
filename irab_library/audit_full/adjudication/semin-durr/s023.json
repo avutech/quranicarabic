@@ -1,0 +1,27 @@
+{
+"semin-durr:21-21": {
+"hs": [
+"26cada899870",
+"2d1e628f0649",
+"53d8eae83c83"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "«وقُرِىء تَسْقيكم بالتاءِ مِنْ فوقُ» - «مِنْ فوقُ» is only the Arabic letter-disambiguator (tāʾ with dots above vs yāʾ/nūn); in Latin transliteration 'with the tāʾ' already names exactly that letter, so no content or meaning is lost and nothing is wrong. Rest of EN («أي: الأنعام» -> 'the cattle (al-anʿām)') faithful.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "«وقُرِىء تَسْقيكم بالتاءِ مِنْ فوقُ أي: الأنعام»: 'من فوق' is the standard way of saying the letter is tāʾ (ت, dotted above) and not yāʾ; EN 'with the tāʾ' already names exactly that letter, and the Arabic form «تَسْقيكم» is quoted, so no information is lost. Meaning complete; an explicit '(dotted above)' would be optional stylistic gain, not a fix of an error.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

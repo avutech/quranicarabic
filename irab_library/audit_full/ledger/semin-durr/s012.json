@@ -1,0 +1,1742 @@
+{
+"semin-durr:90-90": {
+"p1": {
+"ar": "1bd36b69350a",
+"tr": "c4a881c02fb8",
+"en": "d545afc3cb00",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 01:42",
+"fixed": false
+}
+},
+"semin-durr:91-91": {
+"p1": {
+"ar": "ba0d3bdbc697",
+"tr": "7e16c75c1302",
+"en": "3332b4d22a60",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:00",
+"fixed": false
+},
+"p2": {
+"ar": "ba0d3bdbc697",
+"tr": "7e16c75c1302",
+"en": "3332b4d22a60",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u16",
+"at": "2026-10-17 00:06",
+"fixed": false
+}
+},
+"semin-durr:92-92": {
+"p1": {
+"ar": "14c875a4ccae",
+"tr": "d2ad00af2983",
+"en": "73123e7cf7d4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 01:42",
+"fixed": false
+}
+},
+"semin-durr:93-93": {
+"p1": {
+"ar": "e5d787989609",
+"tr": "42b6118fb36f",
+"en": "9aefe670091c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 01:42",
+"fixed": false
+}
+},
+"semin-durr:94-94": {
+"p1": {
+"ar": "e734faff3685",
+"tr": "4e4132c37ab4",
+"en": "f3ef5b7330e5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 01:42",
+"fixed": false
+}
+},
+"semin-durr:96-96": {
+"p1": {
+"ar": "27e16e042d19",
+"tr": "b2c2504bea77",
+"en": "e4bcbd7daf9a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 01:42",
+"fixed": false
+}
+},
+"semin-durr:100-100": {
+"p1": {
+"ar": "98139c86ed31",
+"tr": "06a21bdd8a22",
+"en": "d8b07ff85c96",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 01:42",
+"fixed": false
+}
+},
+"semin-durr:101-101": {
+"p1": {
+"ar": "2b21167715b5",
+"tr": "db9f45a975bf",
+"en": "df262bc60967",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR added unmarked '(İbn Mes'ûd)' to عبد اللَّه and 'pay' for عظيماً من الملك: removed.",
+"by": "semin-durr-u21",
+"at": "2026-10-11 01:42",
+"fixed": true
+},
+"p2": {
+"ar": "2b21167715b5",
+"tr": "db9f45a975bf",
+"en": "df262bc60967",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u16",
+"at": "2026-10-17 00:06",
+"fixed": false
+}
+},
+"semin-durr:102-102": {
+"p1": {
+"ar": "12ef818439ba",
+"tr": "03577a2ba5fa",
+"en": "f3def5c284c2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 01:42",
+"fixed": false
+}
+},
+"semin-durr:103-103": {
+"p1": {
+"ar": "5fce0ab56ab1",
+"tr": "2c982947718b",
+"en": "9e6218518e37",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 01:42",
+"fixed": false
+}
+},
+"semin-durr:106-106": {
+"p1": {
+"ar": "ed3050df7cc7",
+"tr": "0e20d6e4c9bb",
+"en": "8fb7ba8d4310",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 01:42",
+"fixed": false
+},
+"p2": {
+"ar": "ed3050df7cc7",
+"tr": "0e20d6e4c9bb",
+"en": "8fb7ba8d4310",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u16",
+"at": "2026-10-17 00:06",
+"fixed": false
+}
+},
+"semin-durr:107-107": {
+"p1": {
+"ar": "9717ea7506da",
+"tr": "d9979fd6e7e7",
+"en": "644473d7824a",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "Paragraphs 2-4 (جر الأرض عطفاً على السماوات, عليها, قراءة السدي والأرضَ, عكرمة والأرضُ) belong to 12:105 وكأين من آية في السماوات والأرض; only paragraph 1 and the last (يأتيهم الساعة) are 12:107.",
+"by": "semin-durr-u21",
+"at": "2026-10-11 01:42",
+"fixed": false
+},
+"p2": {
+"ar": "9717ea7506da",
+"tr": "d9979fd6e7e7",
+"en": "644473d7824a",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "Only the first and last paragraphs concern 12:107; the middle part (جر «الأرض» ... «يمرون عليها», readings of al-Suddi, Ikrima) is about 12:105.",
+"by": "semin-durr-p2-u16",
+"at": "2026-10-17 00:07",
+"fixed": false
+}
+},
+"semin-durr:108-108": {
+"p1": {
+"ar": "ad7a388ca8b5",
+"tr": "71d28e58c8aa",
+"en": "c747719a834f",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR 'insanları davet etmem' reads as a negation for أنْ أدعوَ الناس; clarified; also removed unmarked '(İbn Mes'ûd)'.",
+"by": "semin-durr-u21",
+"at": "2026-10-11 01:42",
+"fixed": true
+},
+"p2": {
+"ar": "ad7a388ca8b5",
+"tr": "71d28e58c8aa",
+"en": "c747719a834f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u16",
+"at": "2026-10-17 00:07",
+"fixed": false
+}
+},
+"semin-durr:109-109": {
+"p1": {
+"ar": "0177ae752619",
+"tr": "6920cc3707b3",
+"en": "14ec1c013cb7",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR had unmarked '(Hamza ve Kisâî)' for الأخَوان: put in a Mütercim notu.",
+"by": "semin-durr-u21",
+"at": "2026-10-11 01:42",
+"fixed": true
+},
+"p2": {
+"ar": "0177ae752619",
+"tr": "6920cc3707b3",
+"en": "14ec1c013cb7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u16",
+"at": "2026-10-17 00:07",
+"fixed": false
+}
+},
+"semin-durr:43-43": {
+"p1": {
+"ar": "1ee648a66982",
+"tr": "7450f895d22b",
+"en": "28a6d995bf6d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:08",
+"fixed": false
+}
+},
+"semin-durr:44-44": {
+"p1": {
+"ar": "e553f688314d",
+"tr": "b4868dca0d11",
+"en": "807055783180",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish rendered \"الأضغاث\" in the Zamakhshari quote as transliterated \"Esbag\"; replaced with Arabic script",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:00",
+"fixed": true
+},
+"p2": {
+"ar": "e553f688314d",
+"tr": "b4868dca0d11",
+"en": "807055783180",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u16",
+"at": "2026-10-17 00:06",
+"fixed": false
+}
+},
+"semin-durr:45-45": {
+"p1": {
+"ar": "9756b41b6dbf",
+"tr": "ae0ca8e18815",
+"en": "186eaa6fc872",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:00",
+"fixed": false
+}
+},
+"semin-durr:46-46": {
+"p1": {
+"ar": "960a281fe3f6",
+"tr": "1da9e8a59c4d",
+"en": "2e259fa0f1f2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:00",
+"fixed": false
+}
+},
+"semin-durr:47-47": {
+"p1": {
+"ar": "b93e6a7ff139",
+"tr": "92b1048c4211",
+"en": "ef3d91938cab",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:00",
+"fixed": false
+}
+},
+"semin-durr:48-48": {
+"p1": {
+"ar": "51ff5d53e395",
+"tr": "bf532759c4b5",
+"en": "c4792dcb7f83",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p1-u9",
+"at": "2026-10-17 00:19",
+"fixed": false
+},
+"p2": {
+"ar": "51ff5d53e395",
+"tr": "bf532759c4b5",
+"en": "c4792dcb7f83",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR reversed the cause of ellipsis: Arabic «لدلالة ما تقدَّم عليه» (because what preceded indicates it) was rendered as the omitted word indicating what preceded; corrected.",
+"by": "semin-durr-p2-u16",
+"at": "2026-10-17 00:06",
+"fixed": true
+}
+},
+"semin-durr:49-49": {
+"p1": {
+"ar": "d3830f2f2968",
+"tr": "6c01603e3dbe",
+"en": "fbf7c964ee15",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:00",
+"fixed": false
+}
+},
+"semin-durr:50-50": {
+"p1": {
+"ar": "ce1f9ccb3f85",
+"tr": "ed73d504b7ea",
+"en": "524174b1b4f0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:00",
+"fixed": false
+},
+"p2": {
+"ar": "ce1f9ccb3f85",
+"tr": "ed73d504b7ea",
+"en": "524174b1b4f0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u16",
+"at": "2026-10-17 00:06",
+"fixed": false
+}
+},
+"semin-durr:51-51": {
+"p1": {
+"ar": "27418f038c94",
+"tr": "ca46c1ec8246",
+"en": "3e33c3cd08d3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:00",
+"fixed": false
+},
+"p2": {
+"ar": "27418f038c94",
+"tr": "ca46c1ec8246",
+"en": "3e33c3cd08d3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u16",
+"at": "2026-10-17 00:06",
+"fixed": false
+}
+},
+"semin-durr:110-110": {
+"p1": {
+"ar": "db7b3c3f3132",
+"tr": "64067a6e972a",
+"en": "7a51eac15e50",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "EN first view: 'given false word' misrendered كذَّبهم مَنْ أُرْسِلوا إليه (they denied them): fixed; source typo «الرسل» (for الرسم) was silently rendered as script in both: added translator's note; TR verse-gap note marked as Mütercim notu.",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:00",
+"fixed": true
+},
+"p2": {
+"ar": "db7b3c3f3132",
+"tr": "64067a6e972a",
+"en": "7a51eac15e50",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u16",
+"at": "2026-10-17 00:07",
+"fixed": false
+}
+},
+"semin-durr:111-111": {
+"p1": {
+"ar": "f02d744e9da8",
+"tr": "f226f391a9d1",
+"en": "850c759dd85b",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR 'Başkasının' wrongly gave the subject of وحكى أنه يجوز (Zamakhshari) and garbled the Shaykh quote; TR completed 'uydurulan' unmarked; source typo مختلفاً (for مختلقاً) silently corrected in TR and EN: fixed with notes.",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:00",
+"fixed": true
+},
+"p2": {
+"ar": "f02d744e9da8",
+"tr": "f226f391a9d1",
+"en": "850c759dd85b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u16",
+"at": "2026-10-17 00:07",
+"fixed": false
+}
+},
+"semin-durr:12-12": {
+"p1": {
+"ar": "4ecc3467a34c",
+"tr": "7017c3937f5b",
+"en": "9a574353dac4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p1-u9",
+"at": "2026-10-17 00:18",
+"fixed": false
+},
+"p2": {
+"ar": "4ecc3467a34c",
+"tr": "7017c3937f5b",
+"en": "9a574353dac4",
+"fit": "OK",
+"trv": null,
+"env": "OK",
+"note": "TR specified \"hazif vechinde\" for «في أحد الوجهين عنه» and garbled the name «الغضبان بن القبعثرى»; corrected.",
+"by": "semin-durr-p2-u15",
+"at": "2026-10-17 00:07",
+"fixed": true
+}
+},
+"semin-durr:13-13": {
+"p1": {
+"ar": "71206b16e4ba",
+"tr": "99a9f6a3aa67",
+"en": "740c4ef200be",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:08",
+"fixed": false
+}
+},
+"semin-durr:14-14": {
+"p1": {
+"ar": "677622ecab59",
+"tr": "2513f9898152",
+"en": "02495945ac4b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:07",
+"fixed": false
+}
+},
+"semin-durr:15-15": {
+"p1": {
+"ar": "5539024b2b4f",
+"tr": "2d7165c8ce31",
+"en": "ab8b0ff478e4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:07",
+"fixed": false
+}
+},
+"semin-durr:16-16": {
+"p1": {
+"ar": "e164998d0132",
+"tr": "cf7502cae5e3",
+"en": "49665e2d19f8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:07",
+"fixed": false
+}
+},
+"semin-durr:17-17": {
+"p1": {
+"ar": "694d73c21b92",
+"tr": "52e01faeaf0f",
+"en": "aed9127a54a1",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN had stray \"ifʿāl-type\" before «افتعال»; removed",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:07",
+"fixed": true
+},
+"p2": {
+"ar": "694d73c21b92",
+"tr": "52e01faeaf0f",
+"en": "aed9127a54a1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u15",
+"at": "2026-10-17 00:07",
+"fixed": false
+}
+},
+"semin-durr:18-18": {
+"p1": {
+"ar": "12de6e69bfa4",
+"tr": "71efea7695a3",
+"en": "dd2bf6ec467e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:07",
+"fixed": false
+}
+},
+"semin-durr:19-19": {
+"p1": {
+"ar": "b8811970179b",
+"tr": "00b63544e7b9",
+"en": "428e051ef45d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:07",
+"fixed": false
+}
+},
+"semin-durr:20-20": {
+"p1": {
+"ar": "2894c01c4168",
+"tr": "bde8e5e5f91f",
+"en": "069339e00f1a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:07",
+"fixed": false
+},
+"p2": {
+"ar": "2894c01c4168",
+"tr": "bde8e5e5f91f",
+"en": "069339e00f1a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u15",
+"at": "2026-10-17 00:07",
+"fixed": false
+}
+},
+"semin-durr:21-21": {
+"p1": {
+"ar": "f5a93daf289a",
+"tr": "3d02b7b070d4",
+"en": "a09e43239d99",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:07",
+"fixed": false
+}
+},
+"semin-durr:22-22": {
+"p1": {
+"ar": "a181af6e734a",
+"tr": "3ee38a6acdd3",
+"en": "625f47ef142c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:08",
+"fixed": false
+}
+},
+"semin-durr:23-23": {
+"p1": {
+"ar": "54007fc9da01",
+"tr": "0208de3085f1",
+"en": "cbbcd4b558c3",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN had unmarked addition \"(kohl-stick)\" after المِرْوَدُ and rendered لتعدُّد المجال as \"multiplicity of rooms\"; corrected via put (instrument; places).",
+"by": "semin-durr-p1-u9",
+"at": "2026-10-17 00:18",
+"fixed": true
+},
+"p2": {
+"ar": "54007fc9da01",
+"tr": "0208de3085f1",
+"en": "cbbcd4b558c3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u13",
+"at": "2026-10-17 00:34",
+"fixed": false
+}
+},
+"semin-durr:24-24": {
+"p1": {
+"ar": "446f06b705f2",
+"tr": "15943ae9e4d8",
+"en": "0f9e974ef738",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:08",
+"fixed": false
+}
+},
+"semin-durr:25-25": {
+"p1": {
+"ar": "1aa4c34455ec",
+"tr": "b009288f224f",
+"en": "ba139ddc940a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:08",
+"fixed": false
+}
+},
+"semin-durr:26-26": {
+"p1": {
+"ar": "af200ba6c587",
+"tr": "56230db60967",
+"en": "de8d4f6eefbb",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "Opening part (Ibn Atiyya on «قُطَّ» and Yaqub on القط, ما جزاء, أو عذاب أليم) belongs to ayah 25; هي راودتني and إن كان are 26",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:08",
+"fixed": false
+},
+"p2": {
+"ar": "af200ba6c587",
+"tr": "56230db60967",
+"en": "de8d4f6eefbb",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "FIT: the قُطَّ مِنْ دُبُر reading and {مَا جَزَآءُ ... أَوْ عَذَابٌ أَلِيمٌ} belong to 12:25; translations are complete and faithful.",
+"by": "semin-durr-p2-u15",
+"at": "2026-10-17 00:07",
+"fixed": false
+}
+},
+"semin-durr:27-27": {
+"p1": {
+"ar": "65f6d0884fba",
+"tr": "00049c702791",
+"en": "4bc7a75de12f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:08",
+"fixed": false
+}
+},
+"semin-durr:52-52": {
+"p1": {
+"ar": "1310d7aaf9e9",
+"tr": "deea5a81200b",
+"en": "a62082a75c33",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:08",
+"fixed": false
+}
+},
+"semin-durr:53-53": {
+"p1": {
+"ar": "31d396689d35",
+"tr": "b4d7f0ee08a7",
+"en": "1d1a2d05116f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:29",
+"fixed": false
+}
+},
+"semin-durr:54-54": {
+"p1": {
+"ar": "c9a8b0dd3001",
+"tr": "444e5b0a6541",
+"en": "efcd9e77dde0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:08",
+"fixed": false
+}
+},
+"semin-durr:56-56": {
+"p1": {
+"ar": "42db55371354",
+"tr": "36f35c01edb4",
+"en": "92ea65ec93cb",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:29",
+"fixed": false
+}
+},
+"semin-durr:59-59": {
+"p1": {
+"ar": "f5fce2a65552",
+"tr": "4652c873d780",
+"en": "e8876d9bfdeb",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Turkish had \"onu tanimadiklarini\" (they did not know him) and English \"he did not [show that he] know them\" for \"عَدَم تَعَرُّفِه بهم\" (his lack of acquaintance with them); both corrected",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:08",
+"fixed": true
+},
+"p2": {
+"ar": "f5fce2a65552",
+"tr": "4652c873d780",
+"en": "e8876d9bfdeb",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u16",
+"at": "2026-10-17 00:06",
+"fixed": false
+}
+},
+"semin-durr:60-60": {
+"p1": {
+"ar": "088d0abaf525",
+"tr": "97a63e7062c9",
+"en": "354cff039908",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:29",
+"fixed": false
+}
+},
+"semin-durr:62-62": {
+"p1": {
+"ar": "9101bc6659a5",
+"tr": "2b4e9795400e",
+"en": "f463b9854f15",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:29",
+"fixed": false
+}
+},
+"semin-durr:63-63": {
+"p1": {
+"ar": "f79647c6157a",
+"tr": "735b9c78ff30",
+"en": "c154d2ecdd11",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:08",
+"fixed": false
+}
+},
+"semin-durr:64-64": {
+"p1": {
+"ar": "3ff914a6df47",
+"tr": "2886eaca44f2",
+"en": "1bd4d240a202",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:08",
+"fixed": false
+}
+},
+"semin-durr:65-65": {
+"p1": {
+"ar": "311c7b2fcbb1",
+"tr": "eb45214e0d2a",
+"en": "3bfc5deccc8f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:08",
+"fixed": false
+}
+},
+"semin-durr:29-29": {
+"p1": {
+"ar": "f23e2cd1712e",
+"tr": "d88cba7079ce",
+"en": "324081b30243",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:24",
+"fixed": false
+}
+},
+"semin-durr:30-30": {
+"p1": {
+"ar": "f64df1a2e418",
+"tr": "08e5162fb706",
+"en": "eb6965c0f01c",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR had unmarked additions \"(Ebû Hayyân)\" (5x) and \"(es-Semîn)\" (6x) after Şeyh / Ben, absent in the Arabic; removed via put. EN complete and faithful.",
+"by": "semin-durr-p1-u9",
+"at": "2026-10-17 00:19",
+"fixed": true
+},
+"p2": {
+"ar": "f64df1a2e418",
+"tr": "08e5162fb706",
+"en": "eb6965c0f01c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u14",
+"at": "2026-10-17 00:32",
+"fixed": false
+}
+},
+"semin-durr:1-1": {
+"p1": {
+"ar": "df31db33e0d9",
+"tr": "f0c35a8bdc41",
+"en": "7ae3055050f0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:29",
+"fixed": false
+}
+},
+"semin-durr:2-2": {
+"p1": {
+"ar": "79cc49bc786b",
+"tr": "99335c4dff2e",
+"en": "f75a13d7ab8d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:29",
+"fixed": false
+}
+},
+"semin-durr:3-3": {
+"p1": {
+"ar": "133311c436ea",
+"tr": "ebb2d750ca5a",
+"en": "133bb31c9869",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR typo \"mensûs\" corrected to \"menkûs\" (المنقوص)",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:29",
+"fixed": true
+},
+"p2": {
+"ar": "133311c436ea",
+"tr": "ebb2d750ca5a",
+"en": "133bb31c9869",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u15",
+"at": "2026-10-17 00:07",
+"fixed": false
+}
+},
+"semin-durr:4-4": {
+"p1": {
+"ar": "f034fa209276",
+"tr": "118305286ddd",
+"en": "f92f8567f8ab",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:31",
+"fixed": false
+}
+},
+"semin-durr:5-5": {
+"p1": {
+"ar": "84bcce7b287d",
+"tr": "e036ba25f8ca",
+"en": "731e38628fc9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:31",
+"fixed": false
+}
+},
+"semin-durr:6-6": {
+"p1": {
+"ar": "7a579eddc16b",
+"tr": "b270b61f64d2",
+"en": "001449837f2e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:29",
+"fixed": false
+}
+},
+"semin-durr:7-7": {
+"p1": {
+"ar": "2a2c400f9e2a",
+"tr": "9c9fac2225cc",
+"en": "60e850227a0b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:29",
+"fixed": false
+}
+},
+"semin-durr:66-66": {
+"p1": {
+"ar": "030f02e5a1b0",
+"tr": "cd05c6b83cb5",
+"en": "9b8b70de9ecd",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:29",
+"fixed": false
+}
+},
+"semin-durr:68-68": {
+"p1": {
+"ar": "8c6e8724e0bb",
+"tr": "408b43e7889b",
+"en": "4baa2f3da401",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:31",
+"fixed": false
+}
+},
+"semin-durr:70-70": {
+"p1": {
+"ar": "6abe9e5f2ecb",
+"tr": "d861076ff3ed",
+"en": "21b338e3eb49",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR added \"yük taşır\" not in source for تعير; EN added unmarked gloss [i.e. without the feminine ending] for فعل دون ياء. Both fixed.",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:29",
+"fixed": true
+},
+"p2": {
+"ar": "6abe9e5f2ecb",
+"tr": "d861076ff3ed",
+"en": "21b338e3eb49",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u16",
+"at": "2026-10-17 00:06",
+"fixed": false
+}
+},
+"semin-durr:71-71": {
+"p1": {
+"ar": "70eabbaaf345",
+"tr": "79c0325ee1ca",
+"en": "8f887d3e3a52",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:29",
+"fixed": false
+}
+},
+"semin-durr:72-72": {
+"p1": {
+"ar": "76ce987138da",
+"tr": "ffc21c20ddf6",
+"en": "c345a9ba36d4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:29",
+"fixed": false
+}
+},
+"semin-durr:73-73": {
+"p1": {
+"ar": "b2362ae9a1d2",
+"tr": "bd5871546bfc",
+"en": "8565c47951ca",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR omitted \"وغيره ذلك\" and added \"(meşhur)\" in the Ibn Atiyya quote; fixed.",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:29",
+"fixed": true
+},
+"p2": {
+"ar": "b2362ae9a1d2",
+"tr": "bd5871546bfc",
+"en": "8565c47951ca",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u16",
+"at": "2026-10-17 00:06",
+"fixed": false
+}
+},
+"semin-durr:74-74": {
+"p1": {
+"ar": "a9bea7c3bc1b",
+"tr": "428839ab87aa",
+"en": "b9dd9aba049d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:29",
+"fixed": false
+}
+},
+"semin-durr:32-32": {
+"p1": {
+"ar": "f393a74311d7",
+"tr": "e4590bfa216d",
+"en": "ab2400114984",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR had \"İstismâm (استعصام)\" for الاستعصام (transliteration error), corrected to İsti sâm.",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:29",
+"fixed": true
+},
+"p2": {
+"ar": "f393a74311d7",
+"tr": "e4590bfa216d",
+"en": "ab2400114984",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u16",
+"at": "2026-10-17 00:06",
+"fixed": false
+}
+},
+"semin-durr:33-33": {
+"p1": {
+"ar": "103f0f0c01a5",
+"tr": "aba54ce19191",
+"en": "5833a75cc0a3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:29",
+"fixed": false
+}
+},
+"semin-durr:35-35": {
+"p1": {
+"ar": "b718bb98bd31",
+"tr": "aea83d73ae27",
+"en": "1e3318d46e20",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:29",
+"fixed": false
+}
+},
+"semin-durr:36-36": {
+"p1": {
+"ar": "55859088e3fe",
+"tr": "5e6cae063e00",
+"en": "ca54133800da",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:29",
+"fixed": false
+}
+},
+"semin-durr:37-37": {
+"p1": {
+"ar": "528de51df7d1",
+"tr": "42f921ac3b68",
+"en": "41c9265962e6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:29",
+"fixed": false
+}
+},
+"semin-durr:38-38": {
+"p1": {
+"ar": "7abbdce66bc4",
+"tr": "372623883c75",
+"en": "ab595f254b2b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:29",
+"fixed": false
+},
+"p2": {
+"ar": "7abbdce66bc4",
+"tr": "372623883c75",
+"en": "ab595f254b2b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u16",
+"at": "2026-10-17 00:06",
+"fixed": false
+}
+},
+"semin-durr:39-39": {
+"p1": {
+"ar": "e08611959955",
+"tr": "3168d7297c89",
+"en": "532b4657a94d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:29",
+"fixed": false
+}
+},
+"semin-durr:40-40": {
+"p1": {
+"ar": "c283ffc00d00",
+"tr": "1cb6117e371f",
+"en": "cd27f621e6af",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:30",
+"fixed": false
+}
+},
+"semin-durr:41-41": {
+"p1": {
+"ar": "9ba0b6f59740",
+"tr": "2eaae1b6b56e",
+"en": "c8eb6c9ceee6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:29",
+"fixed": false
+}
+},
+"semin-durr:42-42": {
+"p1": {
+"ar": "ae0fb56b23d5",
+"tr": "9b3e3224487c",
+"en": "0445f6bfaf7e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:29",
+"fixed": false
+}
+},
+"semin-durr:75-75": {
+"p1": {
+"ar": "d5de5b3189e8",
+"tr": "2d775b45cdd1",
+"en": "03111318fc80",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p1-u9",
+"at": "2026-10-17 00:16",
+"fixed": false
+},
+"p2": {
+"ar": "d5de5b3189e8",
+"tr": "093e71e2b1b6",
+"en": "03111318fc80",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN silently corrected the source slip «أو البقاء» to Abū al-Baqāʾ; now kept as written with a marked translator note.",
+"by": "semin-durr-p2-u16",
+"at": "2026-10-17 00:06",
+"fixed": true
+}
+},
+"semin-durr:76-76": {
+"p1": {
+"ar": "ddbc8dafb0ec",
+"tr": "8b0a21eb7e19",
+"en": "d6762ca42255",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:31",
+"fixed": false
+}
+},
+"semin-durr:77-77": {
+"p1": {
+"ar": "c81c0cc9e0bc",
+"tr": "9d497859dd39",
+"en": "e7b8bb5a3e1b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:31",
+"fixed": false
+}
+},
+"semin-durr:78-78": {
+"p1": {
+"ar": "9287d272f618",
+"tr": "748c37872247",
+"en": "11b312b4e8b5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:32",
+"fixed": false
+},
+"p2": {
+"ar": "9287d272f618",
+"tr": "748c37872247",
+"en": "11b312b4e8b5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u16",
+"at": "2026-10-17 00:06",
+"fixed": false
+}
+},
+"semin-durr:79-79": {
+"p1": {
+"ar": "70ef9bfa8806",
+"tr": "eeeae4614120",
+"en": "6c05f940c5fc",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:31",
+"fixed": false
+}
+},
+"semin-durr:8-8": {
+"p1": {
+"ar": "0a76c88e952c",
+"tr": "31a584097873",
+"en": "da6308217076",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Imru al-Qays verse: closing words فافرسٍ حَمِرْ were rendered by invented readings (TR: guessed \"ata ... agzi kokmus\", EN: \"so go off, you wretched ass!\"); replaced with literal text plus translator note. Also removed unmarked bracketed identifications [Hz. Ali], [Ebu Hayyan], [Muberred] from TR",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:31",
+"fixed": true
+},
+"p2": {
+"ar": "0a76c88e952c",
+"tr": "31a584097873",
+"en": "da6308217076",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u15",
+"at": "2026-10-17 00:07",
+"fixed": false
+}
+},
+"semin-durr:9-9": {
+"p1": {
+"ar": "2f01562133b9",
+"tr": "bcef019008f3",
+"en": "6fe66d1d0532",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p1-u9",
+"at": "2026-10-17 00:18",
+"fixed": false
+},
+"p2": {
+"ar": "2f01562133b9",
+"tr": "bcef019008f3",
+"en": "6fe66d1d0532",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR added unmarked \"(meczûmdur)\" after «يَخْلُ لكم جوابُ الأمر»; removed.",
+"by": "semin-durr-p2-u15",
+"at": "2026-10-17 00:07",
+"fixed": true
+}
+},
+"semin-durr:10-10": {
+"p1": {
+"ar": "e9eaaa2e23a6",
+"tr": "4fa400db8a12",
+"en": "2ef4cd26d4b3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:31",
+"fixed": false
+}
+},
+"semin-durr:11-11": {
+"p1": {
+"ar": "826e9ffc8b4c",
+"tr": "948025331d10",
+"en": "472629b13475",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:31",
+"fixed": false
+}
+},
+"semin-durr:80-80": {
+"p1": {
+"ar": "a627e7d95cd9",
+"tr": "03e83c7ad0a2",
+"en": "a58e28a57b86",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR gave the examples \"والسفر بعدُ\" without the negation (source: ولا تقول) ; TR said \"dönmesine\" for الانصراف (departure); fixed.",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:32",
+"fixed": true
+},
+"p2": {
+"ar": "a627e7d95cd9",
+"tr": "03e83c7ad0a2",
+"en": "a58e28a57b86",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u16",
+"at": "2026-10-17 00:07",
+"fixed": false
+}
+},
+"semin-durr:81-81": {
+"p1": {
+"ar": "5d51cee7f2a0",
+"tr": "b4e668a8161e",
+"en": "63e00e341ee9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:32",
+"fixed": false
+},
+"p2": {
+"ar": "5d51cee7f2a0",
+"tr": "b4e668a8161e",
+"en": "63e00e341ee9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u16",
+"at": "2026-10-17 00:06",
+"fixed": false
+}
+},
+"semin-durr:82-82": {
+"p1": {
+"ar": "e4c20e9bbaca",
+"tr": "765923d09b79",
+"en": "d51091fdef1e",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR rendered Razi \"فهما متباينان\" as \"birbirlerine zıt değildirler\" (opposite) and لغير ما هي له wrongly; EN silently corrected source typo وأهل والعير; fixed both.",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:32",
+"fixed": true
+},
+"p2": {
+"ar": "e4c20e9bbaca",
+"tr": "765923d09b79",
+"en": "d51091fdef1e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u16",
+"at": "2026-10-17 00:06",
+"fixed": false
+}
+},
+"semin-durr:83-83": {
+"p1": {
+"ar": "5eadf76338ef",
+"tr": "88a2f3edae4c",
+"en": "47601369d40d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:32",
+"fixed": false
+}
+},
+"semin-durr:84-84": {
+"p1": {
+"ar": "d9ef81f45d48",
+"tr": "ea34dd920cd2",
+"en": "90c6cdb19423",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:32",
+"fixed": false
+}
+},
+"semin-durr:85-85": {
+"p1": {
+"ar": "b36d75027dbc",
+"tr": "3521292dd8f8",
+"en": "516c88d4cd66",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p1-u9",
+"at": "2026-10-17 00:16",
+"fixed": false
+},
+"p2": {
+"ar": "b36d75027dbc",
+"tr": "3521292dd8f8",
+"en": "516c88d4cd66",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR silently corrected the source word «أَفْذَيْتُه» (al-Raghib quote) to «أَقْذَيْتُه»; restored as written with a marked translator note.",
+"by": "semin-durr-p2-u16",
+"at": "2026-10-17 00:06",
+"fixed": true
+}
+},
+"semin-durr:86-86": {
+"p1": {
+"ar": "7685e98ecdc2",
+"tr": "81250ec95ce1",
+"en": "874b1a0741e5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:32",
+"fixed": false
+}
+},
+"semin-durr:87-87": {
+"p1": {
+"ar": "11e08f729b47",
+"tr": "3ad07561f10f",
+"en": "d850856d17c8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:32",
+"fixed": false
+}
+},
+"semin-durr:88-88": {
+"p1": {
+"ar": "bb11a14554cf",
+"tr": "1c492204dc5c",
+"en": "5ce23c76331a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p1-u9",
+"at": "2026-10-17 00:16",
+"fixed": false
+},
+"p2": {
+"ar": "bb11a14554cf",
+"tr": "1c492204dc5c",
+"en": "5ce23c76331a",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR rendered «من الحاجِ» in verse 2825 as 'of the pilgrims'; here it is the plural of حاجة (needs), corrected.",
+"by": "semin-durr-p2-u16",
+"at": "2026-10-17 00:06",
+"fixed": true
+}
+},
+"semin-durr:89-89": {
+"p1": {
+"ar": "867733aac8b0",
+"tr": "f36290249a9d",
+"en": "286e3195245b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u21",
+"at": "2026-10-11 02:32",
+"fixed": false
+}
+}
+}

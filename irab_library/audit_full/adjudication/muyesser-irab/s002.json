@@ -1,0 +1,69 @@
+{
+"muyesser-irab:35-35": {
+"hs": [
+"b3ccb8e1ae0f",
+"3f1d1c649304",
+"1d134431ebf5"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "MISPLACED",
+"evidence": "Lines 1-16 parse 2:35 (يا آدم اسكن ... فتكونا من الظالمين). The final line «وقلنا: معطوف على ما تقدم، وجملة كان لا محل لها من الإعراب، لأنها صلة الموصول» parses 2:36: «وقلنا اهبطوا» and «مما كانا فيه» (ما relative, كانا clause its sila) occur only in 2:36; 2:35 has no relative noun or كان. Entry therefore also substantively covers 2:36.",
+"at": "2026-10-17 00:41",
+"ayahs": "35-36"
+},
+"J2": {
+"class": "MISPLACED",
+"evidence": "Lines 1-16 parse 2:35 (يا آدم اسكن أنت وزوجك الجنة ... فتكونا من الظالمين). The final line «﴿وقلنا﴾: معطوف على ما تقدم، وجملة كان لا محل لها من الإعراب، لأنها صلة الموصول» is about 2:36: 2:35 has no relative noun nor كان; 2:36 has «مما كانا فيه وقلنا اهبطوا», and the identical line appears in the 2:36 entry. So the entry as filed also discusses 2:36 (a copied line); readings already flag it in marked notes.",
+"at": "2026-10-17 00:41",
+"ayahs": "35-36"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+},
+"muyesser-irab:236-236": {
+"hs": [
+"6529a4780794",
+"08b875630445",
+"7c945f10be52"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic for ﴿على المحسنين﴾ says only «جار ومجرور متعلقان بالمصدر» without naming which masdar (could be حقا or متاعا). Turkish «masdara (حقا) müteallik» adds an unmarked interpretive identification; must be put in [Mütercim notu: …]. Also «ومتعوهن: ... (takdirine) ma'tûftur» is a further small unmarked addition.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic for ﴿على المحسنين﴾ says only «جار ومجرور متعلقان بالمصدر» without naming which maṣdar; Turkish writes «masdara (حقا) mütealliktir», an unmarked interpretive addition (the maṣdar could equally be read as متاعا). Must be put in a [Mütercim notu: …] or removed. English ('attached to the maṣdar') is faithful.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved unmarked (حقا) identification of the masdar and '(takdirine)' gloss into [Mütercim notu: …]",
+"verified": "PASS",
+"verify_note": "Complete and faithful; the interpretive identification of the masdar and the takdir clarification are now inside [Mütercim notu: …]; no unmarked additions remain."
+}
+},
+"history": [
+{
+"old_hs": [
+"6529a4780794",
+"630f4c0a928b",
+"7c945f10be52"
+],
+"dim": "tr",
+"what": "Moved unmarked (حقا) identification of the masdar and '(takdirine)' gloss into [Mütercim notu: …]",
+"at": "2026-10-17 00:43"
+}
+]
+}
+}

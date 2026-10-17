@@ -1,0 +1,27 @@
+{
+"dervis-irab:54-56": {
+"hs": [
+"6c99445e09fb",
+"9666fb1e80d3",
+"8be8f99299d2"
+],
+"dims": {
+"fit": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "The entry parses exactly 33:54-56 in order: «إن تبدوا شيئا أو تخفوه» (54), «لا جناح عليهن في آبائهن ... واتقين الله إن الله كان على كل شيء شهيدا» (55), «إن الله وملائكته يصلون على النبي ... وسلموا تسليما» (56). It is listed under the right ayahs. The final «تسليما مصدر مؤكد» is a complete parsing statement, not a garbled fragment; the iltifāt explanation promised with «وسيأتي سر هذا الالتفات في باب البلاغة» belongs to a separate balagha entry, so its absence here does not make this entry misplaced or defective.",
+"at": "2026-10-17 00:43"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "The entry parses exactly 33:54 «إِنْ تُبْدُوا شَيْئاً أَوْ تُخْفُوهُ», 33:55 «لا جُناحَ عَلَيْهِنَّ فِي آبائِهِنَّ ... وَاتَّقِينَ اللَّهَ» and 33:56 «إِنَّ اللَّهَ وَمَلائِكَتَهُ يُصَلُّونَ عَلَى النَّبِيِّ ... وَسَلِّمُوا تَسْلِيماً», so 54-56 is the right listing. The ending «تسليما مصدر مؤكد» is a complete statement; the promised balāgha note is merely absent from this entry, which does not make it misplaced or untranslatable.",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

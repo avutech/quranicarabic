@@ -1,0 +1,27 @@
+{
+"zajjaj:62-62": {
+"hs": [
+"cac9b84d7aad",
+"af15ef631f41",
+"631b55c5a02a"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "The current EN is complete: it gives Zuhayr's verse «بِها العَيْنُ والآرامُ يَمْشِينَ خِلْفَةً ...» with a correct rendering, then «وَجاءَ أيْضًا في التَّفْسِيرِ: خِلْفَةً: مُخْتَلِفانِ» as 'the two differ from each other', and the citation of Āl ʿImrān 190-191 «إنَّ في خَلْقِ السَّماواتِ ...» «الَّذِينَ يَذْكُرُونَ اللَّهَ قِيامًا» 'to the end of the verse' (اَلْآيَةَ). Nothing cut off; al-Ḥasan's statement and the variant «يَذْكُرَ» also rendered faithfully.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Reviewer claims EN stops at 'verse of Zuhayr'; it does not. EN contains the verse «بِها العَيْنُ والآرامُ يَمْشِينَ خِلْفَةً...» with its translation and the final paragraph «خِلْفَةً: مُخْتَلِفانِ» with Āl ʿImrān 190-191. It is complete and accurate.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

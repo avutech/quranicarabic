@@ -1,0 +1,27 @@
+{
+"nahhas-irab:13-13": {
+"hs": [
+"e901bed741e4",
+"3712d27a31e1",
+"049dc5c0c760"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Entry covers «ذلك بأنهم شاقّوا الله», «ومن يشاقق الله» (jussive by condition, يشاقّ variant) and «شديد العقاب له» — all words of 8:13. Truncations («ِكَ», «والتقديردِيدُ») are source defects marked by notes; placement correct.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Entry treats «ذلك بأنهم شاقوا الله», «من يشاقق الله» and «شديد العقاب له» - all words of 8:13. Truncations («ِكَ», «والتقديردِيدُ») are source defects already marked in both readings; placement correct.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

@@ -1,0 +1,162 @@
+{
+"nahhas-irab:2-2": {
+"hs": [
+"4613918eb246",
+"cdab6540de0c",
+"e55083afa9ed"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic ends: «التقدير: إلى صراط ثم حذفت إلى» only. English appends '[i.e. accusative by removal of the preposition]', an explanatory addition not in the source and not inside a [Translator's note: ...]; glossary_en rule: anything added for clarity must be so marked. Rest of the English is faithful.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic ends: التقدير: إلى صراط ثم حذفت إلى - nothing about case. EN appends '[i.e. accusative by removal of the preposition]' as a plain bracket, not inside a [Translator's note: ...]; unmarked addition. Rest of EN faithful.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Kept Arabic words in Arabic script: 'li-an' -> «لأن», 'al-ṣirāṭ' -> «الصراط», 'kay' -> «كي», 'to a path' -> «إلى صراط»; accusative explanation stays inside Translator's note",
+"verify_note": "EN now complete and faithful sentence by sentence: lām of كي / meaning لأن, Mujāhid before/after prophethood, al-Shaʿbī 'until he died', ʿaṭf, blessing 'on him' in this world by victory and Hereafter by reward, path of the Garden, Muḥammad ibn Yazīd on «الصراط» (kept in Arabic script), Abū Jaʿfar's implied إلى صراط with إلى omitted. Case explanation now inside [Translator's note: ...]; short glosses (purpose)/(in order that) are permitted term glosses per glossary rule 6. No Latin transliteration of Quranic words; nothing unmarked added.",
+"fix_failed": 1,
+"verified": "PASS"
+}
+},
+"history": [
+{
+"old_hs": [
+"4613918eb246",
+"cdab6540de0c",
+"4a658d8cbe3d"
+],
+"dim": "en",
+"what": "Moved unmarked '[i.e. accusative by removal of the preposition]' into a Translator's note",
+"at": "2026-10-17 00:45"
+},
+{
+"old_hs": [
+"4613918eb246",
+"cdab6540de0c",
+"bcc6c165f03a"
+],
+"dim": "en",
+"what": "Kept Arabic words in Arabic script: 'li-an' -> «لأن», 'al-ṣirāṭ' -> «الصراط», 'kay' -> «كي», 'to a path' -> «إلى صراط»; accusative explanation stays inside Translator's note",
+"at": "2026-10-17 00:49"
+}
+]
+},
+"nahhas-irab:24-25": {
+"hs": [
+"5f3355cfac75",
+"e8f6b13bacb6",
+"60836e24aafb"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «وقيل: لأذن لكم في دخول مكة» and «لِيُدْخِلَ اللَّهُ فِي رَحْمَتِهِ مَنْ يَشاءُ من أهل مكة بالوطء». Turkish inserts '(Cevap mahzûftur:)' and '(onların) çiğnenmesi (önlenerek)' - neither in the Arabic, neither inside [Mütercim notu: ...]; '(önlenerek)' even supplies an interpretation of the out-of-place «بالوطء». Unmarked additions.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: وقيل: لأذن لكم في دخول مكة ... لِيُدْخِلَ اللَّهُ فِي رَحْمَتِهِ مَنْ يَشاءُ من أهل مكة بالوطء. TR inserts unmarked '(Cevap mahzûftur:)' and renders من أهل مكة بالوطء as 'Mekkelilerden, (onların) çiğnenmesi (önlenerek)' - '(önlenerek)' adds an interpretation absent from the Arabic; also '(ve fiili)'. None inside a Mütercim notu.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked '(ve fiili)', '(Cevap mahzûftur:)', '(onların)...(önlenerek)'; apodosis and بالوطء explained in Mütercim notu",
+"verified": "PASS",
+"verify_note": "Apodosis remark and out-of-place بالوطء inside Mütercim notu; '(önlenerek)' gone; full passage rendered faithfully."
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «وقيل: لأذن لكم في دخول مكة ولكنه حال بينكم وبين ذلك». English renders 'And it is said: [the omitted apodosis is] \"He would have permitted you...\"' - the bracketed grammatical gloss is not in the source and not inside a [Translator's note: ...]. Unmarked addition (the later note on «بالوطء» is correctly marked).",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: وقيل: لأذن لكم في دخول مكة. EN: 'And it is said: [the omitted apodosis is] He would have permitted you...' - the bracket '[the omitted apodosis is]' is an explanatory addition not in the Arabic and not inside a [Translator's note: ...].",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved '[the omitted apodosis is]' into a Translator's note",
+"verified": "PASS",
+"verify_note": "'[the omitted apodosis is]' now a Translator's note; تطؤهم and بالوطء anomalies noted; complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"5f3355cfac75",
+"8ee3221dc417",
+"76ec6f81070d"
+],
+"dim": "tr",
+"what": "Removed unmarked '(ve fiili)', '(Cevap mahzûftur:)', '(onların)...(önlenerek)'; apodosis and بالوطء explained in Mütercim notu",
+"at": "2026-10-17 00:44"
+},
+{
+"old_hs": [
+"5f3355cfac75",
+"e8f6b13bacb6",
+"60836e24aafb"
+],
+"dim": "en",
+"what": "Moved '[the omitted apodosis is]' into a Translator's note",
+"at": "2026-10-17 00:44"
+}
+]
+},
+"nahhas-irab:26-26": {
+"hs": [
+"048001742401",
+"b32bf3dfc400",
+"64aed7f006b4"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source reads «وقالوا من محمد عبد الله» (no ابن). Turkish gives 'Abdullah'ın oğlu Muhammed'den' - adds 'oğlu' silently, correcting the source without a [Mütercim notu: ...], whereas the English marks the dropped «ابن» in a Translator's note. Silent correction/unmarked addition.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: وقالوا من محمد عبد الله (no ابن). TR 'Abdullah'ın oğlu Muhammed'den' silently supplies 'son of' without a Mütercim notu, i.e. silently corrects the source (EN discloses this in a Translator's note). Fix: add note.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Added Mütercim notu that the source has «من محمد عبد الله» (ابن apparently dropped), disclosing the supplied 'oğlu'",
+"verified": "PASS",
+"verify_note": "Dropped ابن now disclosed in a Mütercim notu; passage complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"048001742401",
+"36b1fd8b5de3",
+"64aed7f006b4"
+],
+"dim": "tr",
+"what": "Added Mütercim notu that the source has «من محمد عبد الله» (ابن apparently dropped), disclosing the supplied 'oğlu'",
+"at": "2026-10-17 00:45"
+}
+]
+}
+}

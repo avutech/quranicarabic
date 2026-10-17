@@ -1,0 +1,124 @@
+{
+"farraa:1-1": {
+"p1": {
+"ar": "04231f8c5f82",
+"tr": "39c54478d8ae",
+"en": "5451ef9271f6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p1-u2",
+"at": "2026-10-17 00:04",
+"fixed": false
+},
+"p2": {
+"ar": "04231f8c5f82",
+"tr": "39c54478d8ae",
+"en": "5451ef9271f6",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish dropped the restriction «إنما نزلت» (added «ancak») and had unmarked «(İbn Mes'ûd'un)»; now a marked translator note.",
+"by": "farraa-p2-u4",
+"at": "2026-10-16 17:08",
+"fixed": true
+}
+},
+"farraa:2-2": {
+"p1": {
+"ar": "38e3d71594d0",
+"tr": "39b8a54af793",
+"en": "811c4fb826f0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:52",
+"fixed": false
+}
+},
+"farraa:3-3": {
+"p1": {
+"ar": "b7eae4126321",
+"tr": "3cc1b0482b47",
+"en": "389fd6e009e2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p1-u2",
+"at": "2026-10-17 00:04",
+"fixed": false
+},
+"p2": {
+"ar": "b7eae4126321",
+"tr": "3cc1b0482b47",
+"en": "389fd6e009e2",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish rendered past «ما أنجاك ... إلا الطاعة» as present and «ما ينجيك» without its negation («seni kurtaracak»); corrected to «kurtardı» / «seni kurtarmaz».",
+"by": "farraa-p2-u4",
+"at": "2026-10-16 17:08",
+"fixed": true
+}
+},
+"farraa:4-4": {
+"p1": {
+"ar": "3260eca4cdbb",
+"tr": "1880b8401cab",
+"en": "903c0d1090a2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:52",
+"fixed": false
+}
+},
+"farraa:7-7": {
+"p1": {
+"ar": "ab65af99f93c",
+"tr": "05fdc65d0882",
+"en": "1a54108be8f3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:51",
+"fixed": false
+}
+},
+"farraa:8-8": {
+"p1": {
+"ar": "43a3cde1f20e",
+"tr": "39ca42c34882",
+"en": "eb465f564d38",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:51",
+"fixed": false
+}
+},
+"farraa:9-9": {
+"p1": {
+"ar": "ba575ecec24f",
+"tr": "8773945101b8",
+"en": "23cce0241662",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:51",
+"fixed": false
+}
+}
+}

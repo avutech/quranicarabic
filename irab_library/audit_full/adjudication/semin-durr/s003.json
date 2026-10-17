@@ -1,0 +1,210 @@
+{
+"semin-durr:3-3": {
+"hs": [
+"2ceb7f4e1e24",
+"b227c013f50a",
+"75c9770eccb2"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Shāhid 1159 «... بحِرْبٍ كناصاة الأغَرِّ المُشَهَّرِ» is the known Ṭayyiʾ line (لقد آذنت أهلَ اليمامة طيِّئٌ ... بحربٍ كناصاة الحصان المشهَّر) cited for ناصاة = ناصية; حرب here is 'war' (a war as conspicuous as the forelock of a famous blazed horse). Even as vocalized «حِرْب» the word means war/enemy, never 'spear' (that is حَرْبة). TR translates it flatly 'bir mızrakla' (with a spear): wrong meaning. Fix: '…bir savaşla…' (optionally with a Mütercim notu on the vocalization). Rest of the TR passage checked and faithful.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Verse 1159 «... بحِرْبٍ كناصاة الأغَرِّ المُشَهَّرِ» (cited by al-Farrāʾ for Ṭayyiʾ ناصاة = ناصية) is the known line of Ṭayyiʾ «...بحربٍ كناصاة الحصان المشهَّر»: حَرْب = war, a conspicuous war likened to the famous horse's forelock. حِرْب/حرب does not mean 'spear' (that is حَرْبة). TR '…meşhur atın perçemi gibi bir mızrakla…' translates a different word; it should be 'bir savaşla' (with any doubt about the vocalization بحِرْب put in a Mütercim notu). Rest of the TR passage (fawʿala/tafʿila discussion) is faithful.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed remaining unmarked supplements: '(ve aslı)' and '(harfsiz)' dropped; '(vavın)' and '(yâdan)' moved into Mütercim notu; 'âid (mübtedâya dönen zamir)' reduced to 'âid (dönen zamir)'. Shāhid 1159 'bir savaşla' kept",
+"verify_note": "Shahid 1159 now 'bir savaşla'; 'Vezni hakkında', vâv/yâ supplements now in Mütercim notu or removed, 'bizzat kendisiyle müteaddî' clean; complete and faithful.",
+"fix_failed": 1,
+"verified": "PASS"
+}
+},
+"history": [
+{
+"old_hs": [
+"2ceb7f4e1e24",
+"1f564a64bfbc",
+"75c9770eccb2"
+],
+"dim": "tr",
+"what": "Verse 1159 بحِرْبٍ: 'bir mızrakla' (spear) corrected to 'bir savaşla' (war)",
+"at": "2026-10-17 00:44"
+},
+{
+"old_hs": [
+"2ceb7f4e1e24",
+"3b65580237cd",
+"75c9770eccb2"
+],
+"dim": "tr",
+"what": "Removed remaining unmarked supplements: '(ve aslı)' and '(harfsiz)' dropped; '(vavın)' and '(yâdan)' moved into Mütercim notu; 'âid (mübtedâya dönen zamir)' reduced to 'âid (dönen zamir)'. Shāhid 1159 'bir savaşla' kept",
+"at": "2026-10-17 00:50"
+}
+]
+},
+"semin-durr:90-90": {
+"hs": [
+"1c076ceae5da",
+"b319c9f4f6f6",
+"57ee02f43212"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "MISPLACED",
+"evidence": "First part is on 3:90 ({كُفْراً}, «لن تقبل توبتهم», {وأولئك هُمُ الضآلون}), but from «وقوله: {فَلَن يُقْبَلَ}» onward it substantively parses 3:91: «مِل الأرض», «ذَهَبا» تمييز, {وَلَوِ افتدى بِهِ}, the hāʾ of «به», {أولئك لَهُمْ عَذَابٌ أَلِيمٌ}, {وَمَا لَهُمْ مِّن نَّاصِرِينَ} - all words of 3:91. Range must be 90-91.",
+"at": "2026-10-17 00:39",
+"ayahs": "90-91"
+},
+"J2": {
+"class": "MISPLACED",
+"evidence": "First part is 3:90 ({كُفْراً} of ثُمَّ ازْدَادُوا كُفْرًا, «لن» without fāʾ = لَّن تُقْبَلَ تَوْبَتُهُمْ, {وأولئك هُمُ الضآلون}). From «وقوله: {فَلَن يُقْبَلَ}» on, the entry discusses 3:91 at length: «مِل الأرض»/«ملء», «و «ذَهَبا» العامة على نصبه تمييزاً», {وَلَوِ افتدى}, «والهاءُ في «به»», {أولئك لَهُمْ عَذَابٌ أَلِيمٌ}, {وَمَا لَهُمْ مِّن نَّاصِرِينَ} - all words of 3:91 (فَلَن يُقْبَلَ مِنْ أَحَدِهِم مِّلْءُ الْأَرْضِ ذَهَبًا وَلَوِ افْتَدَىٰ بِهِ ... وَمَا لَهُم مِّن نَّاصِرِينَ). Entry covers 90-91.",
+"at": "2026-10-17 00:41",
+"ayahs": "90-91"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+},
+"semin-durr:120-120": {
+"hs": [
+"76d50daf6b25",
+"4c89a6172b72",
+"82830d02f8dd"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "MISPLACED",
+"evidence": "Entry opens on 3:120 ({إِن تَمْسَسْكُمْ}) and ends on 3:120 ({لاَ يَضُرُّكُمْ}, «كيد», «شيئاً», «بما يعملون محيط»), but the second paragraph substantively parses {إِنَّ الله عَلِيمٌ بِذَاتِ الصدور} (meaning of «ذات», pause with tāʾ/hāʾ per al-Akhfash, al-Farrāʾ, al-Kisāʾī), which is the end of 3:119 (قُلْ مُوتُوا بِغَيْظِكُمْ إِنَّ اللَّهَ عَلِيمٌ بِذَاتِ الصُّدُورِ), not 3:120. Range must be 119-120.",
+"at": "2026-10-17 00:39",
+"ayahs": "119-120"
+},
+"J2": {
+"class": "MISPLACED",
+"evidence": "Most of the entry is 3:120 («إِن تَمْسَسْكُمْ» readings, {لاَ يَضُرُّكُمْ} readings, الكيد, «شيئاً», «بما يعملون محيطٌ»). But the paragraph «قوله: {إِنَّ الله عَلِيمٌ بِذَاتِ الصدور} يُحتمل أن تكون هذه الجملة مستأنفةً ... أي: قل لهم كذا وكذا» plus the dispute «واختلفوا على الوقف على هذه اللفظة: هل يُوقف عليها بالتاء أو بالهاء؟» concerns the closing words of 3:119 (قُلْ مُوتُوا بِغَيْظِكُمْ إِنَّ اللَّهَ عَلِيمٌ بِذَاتِ الصُّدُورِ), a substantive analysis, not a citation. Entry covers 119-120.",
+"at": "2026-10-17 00:41",
+"ayahs": "119-120"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+},
+"semin-durr:161-161": {
+"hs": [
+"5ba11b8979b1",
+"d35809ab7541",
+"0af036dd74ae"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "MISPLACED",
+"evidence": "Most of the entry is on 3:161 ({وَمَا كَانَ لِنَبِيٍّ أَنْ يَغُلَّ}, الغُلول, {وَمَن يَغْلُلْ}, {ثُمَّ توفى}), but the paragraph «والخَذْلِ والخِذْلاَنِ ضد النصر ... خَذَلَتِ الظَّبْيَةُ ولدَها» with shawāhid 1485-1487 explains the word of 3:160 (وَإِن يَخْذُلْكُمْ فَمَن ذَا الَّذِي يَنصُرُكُم); 3:161 has no خذل word. Range must be 160-161.",
+"at": "2026-10-17 00:39",
+"ayahs": "160-161"
+},
+"J2": {
+"class": "MISPLACED",
+"evidence": "Bulk is 3:161 ({وَمَا كَانَ لِنَبِيٍّ أَنْ يَغُلَّ}, الغُلول, {ثُمَّ توفى}). But the paragraph «والخَذْلِ والخِذْلاَنِ ضد النصر ... خَذَلَتِ الظَّبْيَةُ ولدَها ... قال بُجَيْر ... قال الأعشى ... ومعنى المادة: هذا الترك الخاص» is a substantive lexical discussion of وَإِن يَخْذُلْكُمْ in 3:160 (no word خذل occurs in 3:161); the TR itself notes it belongs to 160. Entry covers 160-161.",
+"at": "2026-10-17 00:41",
+"ayahs": "160-161"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+},
+"semin-durr:180-180": {
+"hs": [
+"f8dd230eaf29",
+"7a85951ae6cf",
+"7d09c8c885ff"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Everything parsed belongs to 3:180: {وَلاَ يَحْسَبَنَّ الذين يَبْخَلُونَ}, «هو» فصل, «خيراً», «ميراث» (وَلِلَّهِ مِيرَاثُ السَّمَاوَاتِ), «يَعْمَلُون» غيبة/خطاب (وَاللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ). {وَإِن تُؤْمِنُواْ وَتَتَّقُواْ} (3:179) is only cited as the antecedent for the second-person reading. The missing Makki quotation after «وذكر مكي ترجيحَ كلٍّ مِن القراءتين فقال:» is a local lacuna, not a placement problem; the entry is correctly filed under 180.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Everything discussed is in 3:180: {وَلاَ يَحْسَبَنَّ الذين يَبْخَلُونَ} (Ḥamza's reading, «هو» faṣl, iʿmāl), «وميراث مصدرٌ كالمِيعاد» (وَلِلَّهِ مِيرَاثُ السَّمَاوَاتِ), «وقرأ أبو عمرو وابن كثير: يَعْمَلُون بالغَيْبة» (بِمَا تَعْمَلُونَ خَبِيرٌ); {وَإِن تُؤْمِنُواْ وَتَتَّقُواْ} (3:179) is only cited as the referent of the address. The missing Makki quotation after «وذكر مكي ترجيحَ كلٍّ مِن القراءتين فقال:» is a local source gap already marked by translator notes; it does not affect placement and the entry is otherwise fully translatable, so neither MISPLACED nor SOURCE_DEFECT.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+},
+"semin-durr:198-198": {
+"hs": [
+"8319ebfe7df2",
+"afa14c970028",
+"7750d5058db0"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Arabic: «وإنْ جَعَلْتَه جمعاً ... أحدهما: جَعْلُه حالاً من الضمير المحذوف تقديره: نُزُلاً إياها». TR keeps «نُزُلاً إياها» in Arabic script and adds the parenthetical rendering '(orada konaklayanlar olarak)', which is simply the translation of that Arabic implied form under the plural reading (نُزُل = plural of نازِل, 'lodgers', إياها = the gardens): 'as those lodging there'. A parenthetical translation of quoted Arabic is not new content; meaning is correct.",
+"at": "2026-10-17 00:40"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Arabic: «أحدهما: جَعْلُه حالاً من الضمير المحذوف تقديره: نُزُلاً إياها» on the view that نُزُل is plural of نازل. TR keeps «نُزُلاً إياها» in Arabic and adds '(orada konaklayanlar olarak)' = a translation of that very phrase (نُزُلاً = نازلين, إياها = the gardens), not new content; it matches the plural-of-نازل reading the source states. Rest of TR checked against the Arabic (six وجوه of نُزُلاً, للأبرار analyses, notes on «جَعَلهم لهم» and «والجهور» are marked as Mütercim notu) and is faithful.",
+"at": "2026-10-17 00:40"
+},
+"J3": {
+"class": "FALSE_ALARM",
+"evidence": "Arabic: «وإنْ جَعَلْتَه جمعاً ... حالاً من الضمير المحذوف تقديره: نُزُلاً إياها». In the plural branch نُزُل = plural of نازل, so «نُزُلاً إياها» means 'as ones alighting in it (the gardens)'. The Turkish keeps the Arabic «نُزُلاً إياها» and gives '(orada konaklayanlar olarak)' as its parenthetical translation, the same convention used for «ذلك من عند الله» (bu Allah katındandır). It is a correct rendering of the quoted phrase, not added content.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+},
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «تقديره: نُزُلاً إياها» under the reading where نُزُل is a plural (of نازِل). EN drops the Arabic implied form entirely (parsed words should stay in Arabic script) and gives only 'lodging in them [lit. lodging (in) it]': 'lodging' reads as the maṣdar/noun, losing the plural 'lodgers' that this view depends on, 'in' is supplied (إياها is a direct object), and the bracket '[lit. lodging (in) it]' is translator material outside a [Translator's note: …]. Fix: 'its implied form being: «نُزُلاً إياها» (as lodgers in them, i.e. the gardens)' with explanatory material in a translator's note.",
+"at": "2026-10-17 00:40"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Arabic «تقديره: نُزُلاً إياها» is rendered 'its implied form being: lodging in them [lit. lodging (in) it]' - this is the translation of the quoted Arabic phrase itself (إياها = 'it', i.e. the gardens), with a literal-rendering bracket; no content beyond the Arabic is introduced. The rest of the EN (incl. 'He made them for them a lodging' for «جَعَلهم لهم» as written, Translator's note on «والجهور») is faithful.",
+"at": "2026-10-17 00:40"
+},
+"J3": {
+"class": "FALSE_ALARM",
+"evidence": "Arabic: «تقديره: نُزُلاً إياها» in the branch «وإنْ جَعَلْتَه جمعاً» (نُزُل as plural of نازل). The English 'lodging in them [lit. lodging (in) it]' translates this phrase: 'lodging' as participle (those alighting), 'them/it' = إياها referring to جنات; the bracket only gives the literal form of the same Arabic words. This is translation of what is written, not an unmarked addition of new content.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "HUMAN"
+}
+}
+}
+}

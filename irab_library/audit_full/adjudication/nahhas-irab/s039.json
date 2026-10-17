@@ -1,0 +1,82 @@
+{
+"nahhas-irab:24-25": {
+"hs": [
+"fa8a63b8a609",
+"2d0d3c636368",
+"b21de0d4ecba"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic 'أفضل أم من سعد' = 'better, or one who is happy'; English adds '[in the Garden]', which is not in the Arabic and is not inside a Translator's note: unmarked addition.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source: 'أفمن يتّقي بوجهه سوء العذاب أفضل أم من سعد'. English 'or one who is happy [in the Garden]?' adds '[in the Garden]', which is not in the Arabic and is not inside a [Translator's note: …]; unmarked addition.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked '[in the Garden]'",
+"verified": "PASS",
+"verify_note": "'[in the Garden]' removed; 'better, or one who is happy' matches أفضل أم من سعد; apodosis remark and Akhfash quote complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"fa8a63b8a609",
+"2d0d3c636368",
+"d53c1a4aae9a"
+],
+"dim": "en",
+"what": "Removed unmarked '[in the Garden]'",
+"at": "2026-10-17 00:44"
+}
+]
+},
+"nahhas-irab:65-65": {
+"hs": [
+"8a5015372c01",
+"ca719bdcb71e",
+"b5376a15a53d"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic 'حبط بطنه يحبط وحبج يحبج إذا فسد من داء بعينه' = when it is corrupted by a particular disease; Turkish inserts '(hayvanın karnı şişip)' (the animal's belly swelling) - 'animal' and 'swelling' are not in the text; unmarked addition outside a Mütercim notu.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source: 'إذا فسد من داء بعينه' (when it is corrupted by a particular disease). Turkish adds '(hayvanın karnı şişip)' (the animal's belly swelling) — 'animal' and 'swelling' are not in the Arabic and are not inside a Mütercim notu; unmarked addition.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked '(hayvanın karnı şişip)'",
+"verified": "PASS",
+"verify_note": "'(hayvanın karnı şişip)' removed; now 'belirli bir hastalıktan dolayı bozulduğu zaman söylenir' = إذا فسد من داء بعينه; complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"8a5015372c01",
+"9aaf57dd8b1d",
+"b5376a15a53d"
+],
+"dim": "tr",
+"what": "Removed unmarked '(hayvanın karnı şişip)'",
+"at": "2026-10-17 00:44"
+}
+]
+}
+}

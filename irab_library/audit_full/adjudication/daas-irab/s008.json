@@ -1,0 +1,77 @@
+{
+"daas-irab:64-64": {
+"hs": [
+"94b21deff01f",
+"03be87631668",
+"fd46a71856ee"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "The English reading is the parsing of 8:64, not 8:20: it covers ﴿يا أَيُّهَا﴾ ﴿النَّبِيُّ﴾ بدل مرفوع, ﴿حَسْبُكَ﴾ مبتدأ, ﴿اللَّهُ﴾ خبر, ﴿وَمَنِ﴾ خبر لمبتدأ محذوف تقديره وحسب من اتبعك, ﴿اتَّبَعَكَ﴾, ﴿مِنَ الْمُؤْمِنِينَ﴾ متعلقان بمحذوف حال - exactly as in the Arabic source, complete and accurate; the parenthetical gloss only renders the quoted Arabic.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "English parses exactly the 8:64 entry: ﴿يا أَيُّهَا﴾ ﴿النَّبِيُّ﴾ بدل, ﴿حَسْبُكَ﴾ مبتدأ, ﴿اللَّهُ﴾ خبر, ﴿وَمَنِ﴾ خبر لمبتدأ محذوف تقديره وحسب من اتبعك, ﴿اتَّبَعَكَ﴾, ﴿مِنَ الْمُؤْمِنِينَ﴾ - nothing from 8:20 (أطيعوا الله); reviewer's claim is wrong, translation is complete and accurate.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+},
+"daas-irab:67-67": {
+"hs": [
+"586e73d89c21",
+"0748b9f09348",
+"c98c931e5dd7"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Turkish covers the whole Arabic through the end (﴿حَتَّى﴾, ﴿يُثْخِنَ﴾, ﴿فِي الْأَرْضِ﴾, ﴿تُرِيدُونَ﴾ ... ﴿وَاللَّهُ عَزِيزٌ حَكِيمٌ﴾ خبراه والجملة معطوفة أو مستأنفة); nothing cut off. The ﴿كانَ﴾ وما استقام لنبي كون أسرى له.. segment is translated as written, and the comment about it is properly inside [Mütercim notu: ...].",
+"at": "2026-10-17 00:40"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Turkish is not cut off: after the marked [Mütercim notu] at ﴿كانَ﴾ «وما استقام لنبي كون أسرى له..» it continues with ﴿حَتَّى﴾ حرف غاية وجر..., ﴿يُثْخِنَ﴾, ﴿فِي الْأَرْضِ﴾, ﴿تُرِيدُونَ﴾, ﴿عَرَضَ﴾, ﴿الدُّنْيا﴾, ﴿وَاللَّهُ﴾ ﴿يُرِيدُ الْآخِرَةَ﴾ and ﴿وَاللَّهُ عَزِيزٌ حَكِيمٌ﴾ خبراه والجملة معطوفة أو مستأنفة - every sentence of the Arabic is rendered; the only addition is inside a proper Mütercim notu.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+},
+"daas-irab:71-71": {
+"hs": [
+"9ea3c77eed60",
+"93584bac0e87",
+"c3c2f8657531"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "The Turkish reading is the parsing of 8:71, not 8:35: it renders ﴿وَإِنْ﴾ إن شرطية, ﴿يُرِيدُوا﴾ مجزوم بحذف النون, ﴿خِيانَتَكَ﴾ مفعول به, ﴿فَقَدْ﴾, ﴿خانُوا اللَّهَ﴾ في محل جزم جواب الشرط, ﴿مِنْ﴾ ﴿قَبْلُ﴾ مبني على الضم لانقطاعه عن الإضافة, ﴿فَأَمْكَنَ مِنْهُمْ﴾, ﴿وَاللَّهُ عَلِيمٌ حَكِيمٌ﴾ - sentence by sentence and accurately, nothing omitted or added.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Turkish parses exactly the 8:71 entry (﴿وَإِنْ﴾ شرطية, ﴿يُرِيدُوا﴾, ﴿خِيانَتَكَ﴾, ﴿فَقَدْ﴾, ﴿خانُوا اللَّهَ﴾, ﴿مِنْ﴾ ﴿قَبْلُ﴾, ﴿فَأَمْكَنَ مِنْهُمْ﴾, ﴿وَاللَّهُ عَلِيمٌ حَكِيمٌ﴾), complete and accurate; nothing from 8:35 (وما كان صلاتهم عند البيت). Reviewer's claim is wrong.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

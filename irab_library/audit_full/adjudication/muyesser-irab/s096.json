@@ -1,0 +1,27 @@
+{
+"muyesser-irab:3-3": {
+"hs": [
+"b6735e6c84e1",
+"d6ca83002a09",
+"de905cf22f10"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Claim refuted: EN contains the full ﴿الأكرم﴾ line: 'khabar (predicate); the clause ﴿اقرأ﴾ is resumptive for emphasis, with no grammatical position, and the clause ﴿وربك الأكرم﴾ ... ḥāl from the agent of ﴿اقرأ﴾' = خبر، وجملة اقرأ مستأنفة للتوكيد لا محل لها ... في محل نصب حال من فاعل اقرأ. Complete and correct.",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "The claimed omission is not present: the EN has the full ﴿الأكرم﴾ line - 'khabar (predicate); the clause ﴿اقرأ﴾ is resumptive for emphasis, with no grammatical position, and the clause ﴿وربك الأكرم﴾ is in the position of accusative as a ḥāl from the agent of ﴿اقرأ﴾' = خبر، وجملة اقرأ مستأنفة للتوكيد لا محل لها، وجملة وربك الأكرم في محل نصب حال من فاعل اقرأ. ﴿اقرأ﴾ and ﴿وربك﴾ lines also faithful.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

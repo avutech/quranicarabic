@@ -1,0 +1,122 @@
+{
+"akhfash:1-3": {
+"hs": [
+"d8406a650b7f",
+"a5b5b614f1ac",
+"1d39603c26f4"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic ends: وهذا يشبه \"هذاجُحرُ ضبٍّ خَرِبٍ\" فافهم — no explanation of the phrase is given. TR inserts '(bitişiklik sebebiyle cer)' (genitive by adjacency/jiwār), a grammatical analysis that is not in the Arabic, in plain parentheses without [Mütercim notu: …]. Fix: put it in a Mütercim notu.",
+"at": "2026-10-17 00:40"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: 'وهذا يشبه \"هذا جُحرُ ضبٍّ خَرِبٍ\" فافهم' — no explanation given. TR adds '(bitişiklik sebebiyle cer)' in plain parentheses, an unmarked interpretive addition; must be inside [Mütercim notu: …].",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed/marked unmarked parenthetical additions: (ifade), (tasğîrde) x2, (böyledir), (fiil), (öncesine), (elif), (ٱتَّخَذْنَاهُمْ), (mübtedâyı), (yani), (Yine), (elifi), (ölümle), (vasl elifini kat' etmek), (sabit); interpretive ones now in Mütercim notu",
+"verify_note": "The previously flagged items are fixed. Unmarked interpretive additions in plain parentheses remain: 'فُعِلَ (meçhul) kalıbındaki' (the Arabic is only ما كان على فُعِلَ), '\"أَفعَلُ أنا\" (birinci tekil şahıs muzâri) kalıbında' (not in the Arabic), and in the منتن paragraph 'ism-i fâili \"مُنْتِن\"dir' and 'مُكْرِم ... ism-i fâilinin' for فهو منتن / فهو مكرم (the term ism-i fâil is added) plus the gloss '(kokmuş)'. Move these into [Mütercim notu: ...] or render the Arabic literally (e.g. 'o \"مُنْتِن\"dir').",
+"fix_failed": 2,
+"verified": null
+},
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: وهذا يشبه \"هذاجُحرُ ضبٍّ خَرِبٍ\" فافهم. EN renders the phrase ('this is the hole of a lizard, ruined') correctly but adds '[with \"ruined\" given genitive by attraction]', an analysis not in the Arabic, in bare brackets rather than a [Translator's note: …]. Fix: move it into a translator's note.",
+"at": "2026-10-17 00:40"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: 'وهذا يشبه \"هذا جُحرُ ضبٍّ خَرِبٍ\" فافهم' — no explanation. EN adds 'ruined [with \"ruined\" given genitive by attraction]', an unmarked interpretive addition; must be inside [Translator's note: …].",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved unmarked gloss '[with ruined given genitive by attraction]' into a [Translator's note: …]",
+"verified": "PASS",
+"verify_note": "The jiwār explanation for خَرِبٍ is now in [Translator's note: ...]. I read the whole entry against the Arabic: it is complete and faithful. The source's own [..] insertions are kept, the problems in the source are flagged in translator's notes, and the parenthetical items only gloss Arabic words that are quoted. I found no new problem."
+}
+},
+"history": [
+{
+"old_hs": [
+"d8406a650b7f",
+"977a00886acf",
+"adaa55887abf"
+],
+"dim": "tr",
+"what": "Moved unmarked gloss '(bitişiklik sebebiyle cer)' on هذا جحر ضب خرب into a [Mütercim notu: …]",
+"at": "2026-10-17 00:46"
+},
+{
+"old_hs": [
+"d8406a650b7f",
+"480239786588",
+"adaa55887abf"
+],
+"dim": "en",
+"what": "Moved unmarked gloss '[with ruined given genitive by attraction]' into a [Translator's note: …]",
+"at": "2026-10-17 00:46"
+},
+{
+"old_hs": [
+"d8406a650b7f",
+"480239786588",
+"1d39603c26f4"
+],
+"dim": "tr",
+"what": "Removed/marked unmarked parenthetical additions: (ifade), (tasğîrde) x2, (böyledir), (fiil), (öncesine), (elif), (ٱتَّخَذْنَاهُمْ), (mübtedâyı), (yani), (Yine), (elifi), (ölümle), (vasl elifini kat' etmek), (sabit); interpretive ones now in Mütercim notu",
+"at": "2026-10-17 00:50"
+}
+]
+},
+"akhfash:7-7": {
+"hs": [
+"ccd9fd9b39f1",
+"c2ca0d67ef1e",
+"d6bdc9595c2c"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: وقد قرأ قوم ﴿غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِم﴾ جعلوه على الاستثناء — it prints genitive غَيْرِ; TR adds unmarked '(nasb ile)', silently correcting the source (EN handles it in a translator's note). Also وان كانوا قد اضهروهما is a garbled word (أظهروهما or أضمروهما) and TR silently picks 'açıkça söylemiş' with no note; and adds '(istisnâ-i munkatı')' unmarked. Fix: put these in [Mütercim notu: …].",
+"at": "2026-10-17 00:40"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source prints 'وقد قرأ قوم ﴿غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِم﴾' (genitive); TR inserts unmarked '(nasb ile)', silently changing what is written (EN correctly uses a translator note). Also 'وان كانوا قد اضهروهما' (corrupt word) is silently rendered 'açıkça söylemiş olsalar da' without a Mütercim notu. Both need marking.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked '(nasb ile)' and '(istisnâ-i munkatı')', '(cinsinden)', '(ikinci lügatin sahibi)'; put them in Mütercim notları; added note on source typo اضهروهما (أضمروهما/أظهروهما) and on genitive غَيْرِ printed for the exception reading",
+"verified": "PASS",
+"verify_note": "The '(nasb ile)' silent correction has been replaced by a Mütercim notu stating that the source prints genitive غَيْرِ. The اضهروهما corruption is now flagged in a Mütercim notu, and istisnâ-i munkatı' is now inside a note. I read the rest sentence by sentence: it is complete and faithful. Quranic words stay in Arabic script."
+}
+},
+"history": [
+{
+"old_hs": [
+"ccd9fd9b39f1",
+"50f5245fd68f",
+"d6bdc9595c2c"
+],
+"dim": "tr",
+"what": "Removed unmarked '(nasb ile)' and '(istisnâ-i munkatı')', '(cinsinden)', '(ikinci lügatin sahibi)'; put them in Mütercim notları; added note on source typo اضهروهما (أضمروهما/أظهروهما) and on genitive غَيْرِ printed for the exception reading",
+"at": "2026-10-17 00:46"
+}
+]
+}
+}

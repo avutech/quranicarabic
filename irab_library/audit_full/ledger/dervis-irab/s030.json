@@ -1,0 +1,256 @@
+{
+"dervis-irab:1-7": {
+"p1": {
+"ar": "75b612a5e5f3",
+"tr": "713687a9f97e",
+"en": "3468419cae5f",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR: removed unmarked addition (Basrî) after وعن الحسن. Otherwise complete and faithful incl. the Abu Bakr / Ubayy wager narrative to the end (فقال له تصدق به).",
+"by": "dervis-irab-p1-u14",
+"at": "2026-10-17 00:10",
+"fixed": true
+},
+"p2": {
+"ar": "75b612a5e5f3",
+"tr": "713687a9f97e",
+"en": "3468419cae5f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u19",
+"at": "2026-10-17 00:18",
+"fixed": false
+}
+},
+"dervis-irab:8-10": {
+"p1": {
+"ar": "bc04561b972c",
+"tr": "ebd6469e7a1d",
+"en": "4cc10d5bd54b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u2",
+"at": "2026-10-17 00:21",
+"fixed": false
+},
+"p2": {
+"ar": "bc04561b972c",
+"tr": "ebd6469e7a1d",
+"en": "4cc10d5bd54b",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English silently changed the source's «ويسيروا فعل مضارع منصوب» to ينظروا; restored as written with a marked translator note.",
+"by": "dervis-irab-p2-u3",
+"at": "2026-10-17 00:03",
+"fixed": true
+}
+},
+"dervis-irab:11-16": {
+"p1": {
+"ar": "a83d4c5d5fd8",
+"tr": "071bc79f5c1e",
+"en": "f64a75f11cc0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u86",
+"at": "2026-10-10 19:40",
+"fixed": false
+}
+},
+"dervis-irab:17-22": {
+"p1": {
+"ar": "ecb4783efcb0",
+"tr": "0a97d35bd00e",
+"en": "39b27cefee8b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u86",
+"at": "2026-10-10 19:40",
+"fixed": false
+}
+},
+"dervis-irab:23-26": {
+"p1": {
+"ar": "22f05c2cee98",
+"tr": "a58f9fd82a36",
+"en": "2fe3a2799d25",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u86",
+"at": "2026-10-10 19:41",
+"fixed": false
+}
+},
+"dervis-irab:27-29": {
+"p1": {
+"ar": "3de2ff6fb3eb",
+"tr": "17ca3eb8817e",
+"en": "ad2478cdf52f",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR silently corrected source typo الهم to ihtiyar adama; added translator note",
+"by": "dervis-irab-u86",
+"at": "2026-10-10 19:41",
+"fixed": true
+},
+"p2": {
+"ar": "3de2ff6fb3eb",
+"tr": "17ca3eb8817e",
+"en": "ad2478cdf52f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u3",
+"at": "2026-10-17 00:03",
+"fixed": false
+}
+},
+"dervis-irab:30-32": {
+"p1": {
+"ar": "40807f27ed2a",
+"tr": "c12f59b5e253",
+"en": "5f8ce1f2010d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u86",
+"at": "2026-10-10 19:41",
+"fixed": false
+}
+},
+"dervis-irab:33-37": {
+"p1": {
+"ar": "2d41eb5996b2",
+"tr": "712a13922c2a",
+"en": "5add84065d49",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR: Belagat sentence misattributed the Quran-has-spoken sentence to the \"demen gibi\" clause; split; two unmarked glosses removed.",
+"by": "dervis-irab-p1-u2",
+"at": "2026-10-17 00:21",
+"fixed": true
+},
+"p2": {
+"ar": "2d41eb5996b2",
+"tr": "712a13922c2a",
+"en": "5add84065d49",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u2",
+"at": "2026-10-17 00:30",
+"fixed": false
+}
+},
+"dervis-irab:38-40": {
+"p1": {
+"ar": "db6f0b2d92dd",
+"tr": "c1539962162f",
+"en": "a0df94732db8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u86",
+"at": "2026-10-10 19:42",
+"fixed": false
+}
+},
+"dervis-irab:41-45": {
+"p1": {
+"ar": "acb3dba576ba",
+"tr": "877d271eca19",
+"en": "06f7ba2c7f1e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u2",
+"at": "2026-10-17 00:21",
+"fixed": false
+},
+"p2": {
+"ar": "acb3dba576ba",
+"tr": "877d271eca19",
+"en": "06f7ba2c7f1e",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English «لئلا تنبوبهم فتتجافى مضاجعهم ويتنغص عيشهم» read \"lest they fail to suit them, so that their sleeping places draw away\", letting the last two clauses read as purpose; reworded so all stay under the negative purpose.",
+"by": "dervis-irab-p2-u3",
+"at": "2026-10-17 00:04",
+"fixed": true
+}
+},
+"dervis-irab:46-50": {
+"p1": {
+"ar": "5683d8da2e3b",
+"tr": "918b353fd810",
+"en": "7b0b1cabf553",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u86",
+"at": "2026-10-10 19:43",
+"fixed": false
+}
+},
+"dervis-irab:51-54": {
+"p1": {
+"ar": "f78178d1b840",
+"tr": "3085c8468e40",
+"en": "a3fc72a0ae12",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u86",
+"at": "2026-10-10 19:43",
+"fixed": false
+}
+},
+"dervis-irab:55-60": {
+"p1": {
+"ar": "4d2c7f78b48e",
+"tr": "e075e647d149",
+"en": "9163498a33d6",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR: order of the two comparison clauses in the kadhalika gloss reversed vs Arabic; takhallatu bi-l-Khalil wordplay marked. EN: Abu Tammam ahd verse gloss mislabelled the senses (bequest vs bond); takhallatu bi-l-Khalil rendering marked approximate.",
+"by": "dervis-irab-p1-u2",
+"at": "2026-10-17 00:22",
+"fixed": true
+},
+"p2": {
+"ar": "4d2c7f78b48e",
+"tr": "e075e647d149",
+"en": "9163498a33d6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u2",
+"at": "2026-10-17 00:30",
+"fixed": false
+}
+}
+}

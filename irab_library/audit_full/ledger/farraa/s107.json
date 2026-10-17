@@ -1,0 +1,96 @@
+{
+"farraa:1-1": {
+"p1": {
+"ar": "7672a5f6e4c0",
+"tr": "fda42d810794",
+"en": "3e75c909216d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:53",
+"fixed": false
+},
+"p2": {
+"ar": "7672a5f6e4c0",
+"tr": "fda42d810794",
+"en": "3e75c909216d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p2-u4",
+"at": "2026-10-16 18:09",
+"fixed": false
+}
+},
+"farraa:2-2": {
+"p1": {
+"ar": "60380639abe1",
+"tr": "9b6a80c80640",
+"en": "144ec104aafd",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:53",
+"fixed": false
+}
+},
+"farraa:3-3": {
+"p1": {
+"ar": "b8905ea1f396",
+"tr": "0786f71a1d52",
+"en": "62b4380b3ada",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:53",
+"fixed": false
+}
+},
+"farraa:4-4": {
+"p1": {
+"ar": "7f38d9c0d6a4",
+"tr": "6b6e70e7efa7",
+"en": "07b911d11831",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:53",
+"fixed": false
+}
+},
+"farraa:6-7": {
+"p1": {
+"ar": "2fa5cb0a571f",
+"tr": "59d69366680f",
+"en": "7c3d361669e8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p1-u2",
+"at": "2026-10-17 00:05",
+"fixed": false
+},
+"p2": {
+"ar": "2fa5cb0a571f",
+"tr": "59d69366680f",
+"en": "7c3d361669e8",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish added unmarked interpretive gloss «(ödünç verilen eşyanın)» to «المعروف كله»; removed.",
+"by": "farraa-p2-u4",
+"at": "2026-10-16 18:09",
+"fixed": true
+}
+}
+}

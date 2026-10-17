@@ -1,0 +1,28 @@
+{
+"dervis-irab:1-11": {
+"p1": {
+"ar": "edd7cf41da7b",
+"tr": "b96781660c41",
+"en": "ca2cb3a71e95",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u5",
+"at": "2026-10-17 00:34",
+"fixed": false
+},
+"p2": {
+"ar": "edd7cf41da7b",
+"tr": "69f1689fa007",
+"en": "17b6e99ce493",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR: unmarked addition \"(şeddesiz kıraatte)\" after ﴿ما ودعك﴾ moved into a translator note; source \"قلوب البسر والسويق\" was silently corrected to kalavtu, now as written with a note. EN: ﴿ما ودعك﴾ was vocalized with shadda, contradicting the author (who means the light reading), fixed; source \"وخير خير\" was silently rendered \"the khabar\", now as written with a note.",
+"by": "dervis-irab-p2-u7",
+"at": "2026-10-17 00:05",
+"fixed": true
+}
+}
+}

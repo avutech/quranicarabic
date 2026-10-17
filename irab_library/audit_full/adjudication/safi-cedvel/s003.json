@@ -1,0 +1,52 @@
+{
+"safi-cedvel:23-23": {
+"hs": [
+"3106f09db4d1",
+"6310fa677d14",
+"ffb2fa93d62b"
+],
+"dims": {
+"fit": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Everything parsed is from 3:23: «(تر) ... (الذين) (أوتوا) (نصيبا) (من الكتاب) (يدعون) (إلى كتاب) (الله) (اللام) (يحكم) (بين) (ثمّ) (يتولّى) (فريق) (من) (هم) ... (معرضون)», clauses «ألم تر / أوتوا / يدعون / يتولّى فريق / هم معرضون», Fawaid on «لِيَحْكُمَ بَيْنَهُمْ» and «مِنَ الْكِتابِ». The garbled insertion «(هم) ضمير ل (نصيبا) ، (يدعون) ... (إلى في محلّ جرّ» repeats words of the same ayah (a copy slip inside the 3:23 parsing, flagged by notes in the readings); it does not bring in another ayah. Listing under 3:23 is correct.",
+"at": "2026-10-17 00:42"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Entry parses 3:23 throughout: (تر) (الذين) (أوتوا) (نصيبا) (من الكتاب) (يدعون) (إلى كتاب) (يحكم) (بين) (يتولّى) (فريق) (معرضون), jumal «ألم تر..»، «يدعون..»، «هم معرضون», Fawa'id on لِيَحْكُمَ بَيْنَهُمْ and مِنَ الْكِتابِ. The garbled splice «(هم) ضمير ل (نصيبا) ، (يدعون) ... (إلى» only repeats words of this same ayah; nothing belongs to another ayah, so 23-23 is correct (the garbling is handled by translator notes).",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+},
+"safi-cedvel:68-68": {
+"hs": [
+"cadc5cec09b2",
+"9a9a4b335be4",
+"176815c82ba0"
+],
+"dims": {
+"fit": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "All content is 3:68: «(إنّ) (أولى) (الناس) (بإبراهيم) ... لامتناعه من», then (after a stray «* الصرف:» heading) «(اللام) هي المزحلقة (الذين) (اتبعوا) ... (ها) (ذا) (النبيّ) (الذين) (آمنوا) (الله) (وليّ) (المؤمنين)», clauses «إنّ أولى الناس / اتّبعوه / آمنوا / الله وليّ», morphology of «أولى». The truncation at «لامتناعه من» and misplaced heading are internal source defects already marked by notes; nothing from another ayah is included, so the listing under 3:68 is correct.",
+"at": "2026-10-17 00:42"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "All content is 3:68: (إنّ) (أولى) (الناس) (بإبراهيم) ... then after a stray «* الصرف:» heading the i'rab continues with (اللام) المزحلقة (الذين) (اتبعوا) (ها) (ذا) (النبيّ) (آمنوا) (الله) (وليّ) (المؤمنين), jumal «إنّ أولى الناس..»، «اتّبعوه»، «الله وليّ», sarf (أولى). The truncation at «لامتناعه من» and misplaced heading are internal defects; placement under 68-68 is correct.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

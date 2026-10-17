@@ -1,0 +1,92 @@
+{
+"zajjaj:15-15": {
+"hs": [
+"16af17b6b6dc",
+"d6f7ae17cd88",
+"50c7b7ad9b51"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Every part of the entry discusses 3:15: ﴿قُلْ أأُنَبِّئُكم بِخَيْرٍ مِن ذَلِكم ... جَنّاتٌ تَجْرِي مِن تَحْتِها الأنْهارُ خالِدِينَ فِيها﴾, ﴿وَأزْواجٌ مُطَهَّرَةٌ﴾, ﴿وَرِضْوانٌ مِنَ اللَّهِ﴾. The trailing «ومَوْضِعُ» is only a split point (the sentence continues in the next entry, which both readings note); the entry itself is correctly filed and translatable, so not a placement problem.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Everything in the entry is about 3:15: «قُلْ أأُنَبِّئُكم بِخَيْرٍ مِن ذَلِكم ... جَنّاتٌ» (raf'/badal from خَيْرٍ), «وَأزْواجٌ مُطَهَّرَةٌ», «وَرِضْوانٌ مِنَ اللَّهِ» (Abū Bakr from ʿĀṣim رُضْوان). Only the last word «ومَوْضِعُ» is a dangling start of the next discussion (continues with الَّذِينَ يَقُولُونَ of 3:16), contributing no substance about 3:16; both readings flag it with a note. The entry is not garbled - placement 15-15 is correct.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+},
+"zajjaj:37-37": {
+"hs": [
+"a5e96e316ee4",
+"983bb8f9ea21",
+"d9faaa239583"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "The flagged point itself is acceptable: in «خافَ أنْ يَأْتِيَها مِن غَيْرِ جِهَتِهِ» the pronoun most naturally refers to Zakariyyā (her guardian), so 'from some source other than through him' is a defensible rendering. However the English has an unmarked addition elsewhere: «فَمَن قَرَأ: كَفَلَها زَكَرِيّاءُ، رَفَعَهُ بِفِعْلِهِ» is rendered 'put it in the nominative by its verb (as its fāʿil (agent))' - 'as its fāʿil' is not in the Arabic (no term فاعل there to gloss) and is not in a [Translator's note]; similarly '(i.e. being a diptote)' is an added explanation. These need to be put in [Translator's note: …].",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Reviewer's pronoun claim is a false alarm: in «خافَ أنْ يَأْتِيَها مِن غَيْرِ جِهَتِهِ» the pronoun refers to Zakariyyā, her guardian (كَفَّلَها), so 'from some source other than through him' is right (TR agrees). However the EN contains an unmarked addition: «رَفَعَهُ بِفِعْلِهِ» is rendered 'put it in the nominative by its verb (as its fāʿil (agent))' - 'as its fāʿil' is not in the Arabic; likewise '(i.e. being a diptote)' for «تَرْكُ صَرْفِهِ». Per the binding rule these explanatory additions must be inside [Translator's note: …]. Otherwise the translation is accurate.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Unmarked '(i.e. being a diptote)' and '(as its fāʿil (agent))' moved into «[Translator's note: …]»",
+"verified": "PASS",
+"verify_note": "Fixed: 'as its fāʿil' and 'diptote' explanations now inside [Translator's note]; rest complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"a5e96e316ee4",
+"983bb8f9ea21",
+"1b378f412960"
+],
+"dim": "en",
+"what": "Unmarked '(i.e. being a diptote)' and '(as its fāʿil (agent))' moved into «[Translator's note: …]»",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"zajjaj:90-90": {
+"hs": [
+"29af662e7ce0",
+"e503fbcf6b3a",
+"4b4991a2b1eb"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "The entry quotes and explains ﴿إنَّ الَّذِينَ كَفَرُوا بَعْدَ إيمانِهِمْ ثُمَّ ازْدادُوا كُفْرًا لَنْ تُقْبَلَ تَوْبَتُهم وأُولَئِكَ هُمُ الضّالُّونَ﴾ = 3:90 exactly. Ending at «ويَدُلُّ عَلى ذَلِكَ» is a split into the next entry (3:91), noted in both readings; the content is correctly filed under 3:90.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "The entry quotes and explains only 3:90: «إنَّ الَّذِينَ كَفَرُوا بَعْدَ إيمانِهِمْ ثُمَّ ازْدادُوا كُفْرًا لَنْ تُقْبَلَ تَوْبَتُهم وأُولَئِكَ هُمُ الضّالُّونَ» (the apostate band, evidence from «وَأُولَئِكَ هُمُ الضّالُّونَ»). It breaks off at «ويَدُلُّ عَلى ذَلِكَ», which is continued in the next entry; nothing of 3:91 is discussed here. Both readings mark the break. Listing under 90-90 is correct; the text is readable, not garbled.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

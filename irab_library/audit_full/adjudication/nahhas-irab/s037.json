@@ -1,0 +1,340 @@
+{
+"nahhas-irab:20-20": {
+"hs": [
+"94f9d0043456",
+"e1308f196d12",
+"f6b477bc4306"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source is unvowelled: «ومن قال: ويل الشيطان جاء به على الأصل، ومن قال: ويل الشيطان فالأصل عنده ويل للشيطان ثم حذف لكثرة اللامات». TR assigns «ويلُ الشيطان» to the 'original' and «ويلِ الشيطان» to the dropped-lām form. That reverses the logic: dropping the lām from «ويلٌ للشيطان» keeps the nominative ويلُ (as with إنّ وليّيَ الله, the remaining word keeps its vowel), while «على الأصل» is the form keeping the lām's original kasra (ويلِ), as Farrāʾ's يا لَبكر analysis implies; the EN reading has it this way. TR also adds unmarked parentheticals '(yazılmış)', '(daha fazlasını)', '(tek yâ ile)'. Needs correction / marking.",
+"at": "2026-10-17 00:40"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "The vowel assignment is right. «ومن قال: ويل الشيطان فالأصل عنده ويل للشيطان ثم حذف لكثرة اللامات» is compared with dropping a yāʾ in «إنّ وليّي الله», so the dropped-lām form keeps the jarr kasra (ويلِ الشيطان), and the 'original' iḍāfa form is ويلُ الشيطان, as TR has it. But TR adds unmarked parenthetical material that is not in the Arabic: «(tek yâ ile)», «(daha fazlasını)», «(yazılmış)» and «(ses isimlerine)». These belong in a Mütercim notu.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "al-Jahdari gloss now translates both occurrences of الذي نزّل الكتاب: 'Kitabı indiren Allah'ın velisi, kitabı indiren Cebrâil'dir (a.s.)'",
+"verify_note": "Al-Jahdari gloss now renders both occurrences of الذي نزّل الكتاب; parentheticals moved to Mütercim notları; vowelling flagged as inferred; complete and faithful.",
+"fix_failed": 1,
+"verified": "PASS"
+},
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "EN's vowel assignment (ويلِ = على الأصل, ويلُ = from ويل للشيطان with lām dropped) fits the Arabic logic and is marked as inferred in a Translator's note. But EN carries several unmarked bare-bracket additions not in the Arabic: '[written]' for «منفصلا», 'the [other] «ويل للشيطان»', '[the lām] was dropped' for «ثم حذف», 'with [one yāʾ] dropped' for «فحذف لكثرة الياءات». Glossary rule 9 requires them to be inside «[Translator's note: …]».",
+"at": "2026-10-17 00:40"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "EN reverses the forms: 'Whoever says «ويلِ الشيطان» brought it according to the original; and whoever says «ويلُ الشيطان», the original … is «ويل للشيطان» … dropped'. The Arabic compares the lām-dropped form with «إنّ وليّي الله» read with one yāʾ dropped. The surviving kasra is the jarr lām's, so the reduced form is ويلِ الشيطان and the original is ويلُ الشيطان (the analysis TR gives). Unmarked bracket additions «[written]», «[other]», «[the lām]» and «[one yāʾ]» also appear outside a Translator's note.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Swapped ويلُ/ويلِ so ويلُ = original and ويلِ = lām-dropped form (consistent with TR and the وليّي analogy); bare brackets [written], [other], [the lām], [one yāʾ] removed or moved into Translator's notes",
+"verified": "PASS",
+"verify_note": "Former bare-bracket additions now in Translator's notes; vowel assignment flagged as inferred and consistent with TR; Jahdari gloss complete; faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"94f9d0043456",
+"6953141ff911",
+"0e49cca37ae9"
+],
+"dim": "tr",
+"what": "Moved unmarked parentheticals (yazılmış), (ses isimlerine), (tek yâ ile) into Mütercim notları, dropped '(daha fazlasını)'; added note that ويلُ/ويلِ vowelling is inferred (assignment kept)",
+"at": "2026-10-17 00:43"
+},
+{
+"old_hs": [
+"94f9d0043456",
+"9e93b819fdfb",
+"8a1585908273"
+],
+"dim": "en",
+"what": "Swapped ويلُ/ويلِ so ويلُ = original and ويلِ = lām-dropped form (consistent with TR and the وليّي analogy); bare brackets [written], [other], [the lām], [one yāʾ] removed or moved into Translator's notes",
+"at": "2026-10-17 00:43"
+},
+{
+"old_hs": [
+"94f9d0043456",
+"9e93b819fdfb",
+"8a1585908273"
+],
+"dim": "tr",
+"what": "al-Jahdari gloss now translates both occurrences of الذي نزّل الكتاب: 'Kitabı indiren Allah'ın velisi, kitabı indiren Cebrâil'dir (a.s.)'",
+"at": "2026-10-17 00:46"
+}
+]
+},
+"nahhas-irab:27-28": {
+"hs": [
+"76d48379e8dd",
+"06050884d1c4",
+"620b37d1bd92"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «فربما توهم الجاهل أن هذا من قول جلّ وعزّ: فَلا أَنْسابَ ... وَلا يَتَساءَلُونَ ... وليس منه في شيء» = the ignorant may imagine this belongs to / is of the same matter as that verse, and it has nothing to do with it. TR renders it 'sözüyle çeliştiğini sanır' (imagines it contradicts), a meaning not in the Arabic. TR also adds an unmarked '(demezler)' after the quoted kinship plea, not in the Arabic and not inside «[Mütercim notu: …]». Wrong meaning plus an unmarked addition: needs a fix.",
+"at": "2026-10-17 00:40"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic «فربما توهم الجاهل أن هذا من قول جلّ وعزّ: فَلا أَنْسابَ ... وَلا يَتَساءَلُونَ» says the ignorant imagines this is connected to / of the same kind as that verse. TR «bunun ... sözüyle çeliştiğini sanır» ('thinks it contradicts') changes the wording. TR also adds an unmarked «(demezler)» after «فيقول أحدهم ...» that is not in the Arabic. Fix: render as 'onunla ilgili/ondan olduğunu sanır' and mark any explanation as a Mütercim notu.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "'çeliştiğini sanır' -> 'ilgili olduğunu sanır' (من قول); removed unmarked additions (demezler), (hak), (ondan), (rivayet edilmiştir)",
+"verified": "PASS",
+"verify_note": "Now 'sözüyle ilgili olduğunu sanır' (= من قول), unmarked '(demezler)' removed; stray bracket and missing قوله flagged in notes; hadiths and Qatada/Ibn Abbas views complete."
+}
+},
+"history": [
+{
+"old_hs": [
+"76d48379e8dd",
+"4c75e32052ac",
+"620b37d1bd92"
+],
+"dim": "tr",
+"what": "'çeliştiğini sanır' -> 'ilgili olduğunu sanır' (من قول); removed unmarked additions (demezler), (hak), (ondan), (rivayet edilmiştir)",
+"at": "2026-10-17 00:46"
+}
+]
+},
+"nahhas-irab:44-44": {
+"hs": [
+"38d9df6d5082",
+"74200296ffae",
+"56049ec4e037"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: «ويجوز سرر لثقل الضمة مع التضعيف», unvowelled. TR's sense is right: the lightened variant of سُرُر is سُرَر with fatḥa on the rāʾ (sukūn is impossible with the doubled rāʾ). But TR inserts '(râ'nın fethasıyla)' as a plain parenthetical; the vowel is not in the Arabic. Under the binding rule an unmarked addition is an error: it must go inside «[Mütercim notu: …]». The content itself is correct.",
+"at": "2026-10-17 00:40"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source «ويجوز سرر لثقل الضمة مع التضعيف» has no vowels on سرر. The lightened form with fatḥa (سُرَر, the known Kalb usage, since sukūn is impossible with the doubled rāʾ) is the right understanding. But TR writes «سُرَر» «(râ'nın fethasıyla)» as an unmarked parenthetical addition. That vowel identification must go inside a Mütercim notu (the opening note about the lemma is correctly marked).",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Unmarked '(râ'nın fethasıyla)' moved into a Mütercim notu; سرر written as in source with سُرَر in the note",
+"verified": "PASS",
+"verify_note": "Vowel identification سُرَر now inside a Mütercim notu; Ikrima statement and rule translated fully."
+},
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source «ويجوز سرر لثقل الضمة مع التضعيف» has no vowels. EN adds unmarked '(with the rāʾ unvowelled)', which is wrong as well as unmarked: lightening the heavy ḍamma with a doubled letter gives سُرَر (fatḥa on the rāʾ), and a sukūn on the first rāʾ would not be possible before an identical rāʾ without assimilation. It must be corrected and put in a «[Translator's note: …]».",
+"at": "2026-10-17 00:40"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "For «ويجوز سرر لثقل الضمة مع التضعيف», EN adds an unmarked «(with the rāʾ unvowelled)», and it is likely wrong. Lightening the two ḍammas of سُرُر with a doubled rāʾ gives سُرَر with fatḥa (sukūn would clash with the doubling, hence «مع التضعيف»). EN misdescribes the variant and puts it outside a Translator's note.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Wrong unmarked '(with the rāʾ unvowelled)' replaced by a Translator's note: سُرَر with fatḥa on the first rāʾ",
+"verified": "PASS",
+"verify_note": "Wrong unmarked '(with the rāʾ unvowelled)' replaced by a Translator's note identifying سُرَر with fatḥa; complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"38d9df6d5082",
+"8330642f3f9d",
+"85f409fd88e4"
+],
+"dim": "tr",
+"what": "Unmarked '(râ'nın fethasıyla)' moved into a Mütercim notu; سرر written as in source with سُرَر in the note",
+"at": "2026-10-17 00:46"
+},
+{
+"old_hs": [
+"38d9df6d5082",
+"74200296ffae",
+"56049ec4e037"
+],
+"dim": "en",
+"what": "Wrong unmarked '(with the rāʾ unvowelled)' replaced by a Translator's note: سُرَر with fatḥa on the first rāʾ",
+"at": "2026-10-17 00:46"
+}
+]
+},
+"nahhas-irab:91-94": {
+"hs": [
+"8d1585c55394",
+"b6da7a8e1b06",
+"24a678ad31f3"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Verse gloss «تمنّى حصين أن يسود جذاعه»: the lexicons (Ṣiḥāḥ/Lisān, citing this very verse of al-Mukhabbal) give جِذاع as a man's people/clan (أحياء من بني سعد), not his peers, so 'kendi akranlarına' is unsupported. TR also carries several unmarked additions that are not in the Arabic and not in a Mütercim notu: '(يُزِفّون)' after «بضم الياء», '(kovulmuş olma hâline)' for «صيّرته إلى ذلك», '(يَزِفُون şeklinde)' for the Kisāʾī report, and '(Ancak) ... (bu şekilde)' in «ولا أعلم أحدا قرأ يزفون». Needs a fix.",
+"at": "2026-10-17 00:40"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "«جذاعه» in «تمنّى حصين أن يسود جذاعه» is rendered 'kendi akranlarına'. Lexicons (Lisān, s.v. جذع) cite this verse of al-Mukhabbal for جِذاع as clans/kin of Sa'd, not 'peers'; at minimum this is disputed. TR also has unmarked additions not in the Arabic: «(kovulmuş olma hâline)», «(Ancak)», «(bu şekilde)», «(يُزِفّون)», «(يَزِفُون şeklinde)», «(şeddesiz)». These should be inside a Mütercim notu.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "جذاعه 'akranlarına' -> 'kabilelerine'; unmarked (يُزِفّون), (kovulmuş olma hâline), (Zeccâc), (يَزِفُون şeklinde), (şeddesiz), (bu şekilde) moved into Mütercim notları; (söylemiştir), (Ancak) removed",
+"verified": "PASS",
+"verify_note": "جذاعه now glossed as 'kendi kabileleri'; former unmarked parentheticals (يُزِفّون, kovulmuş olma hâli, şeddesiz) now in Mütercim notları; all Kisai/Farra/Zajjaj reports rendered."
+},
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Verse gloss: 'his clan' for جذاعه matches the lexicons (جِذاع = a man's people, clans of Saʿd), but 'of Judhāʿ' turns it into a proper name with the wrong vowel (جِذاع, not Judhāʿ). More decisively, EN has unmarked bare-bracket additions not in the Arabic: '[state of being driven out]' for «صيّرته إلى ذلك» and '[in this way]' in «ولا أعلم أحدا قرأ يزفون». Glossary rule 9 requires these to be inside «[Translator's note: …]».",
+"at": "2026-10-17 00:40"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "EN renders «جذاعه» as 'his clan of Judhāʿ'. The lexical sense (جِذاع, kin/clans of Saʿd) is close, but the name is mis-vocalised (Jidhāʿ) and presented as fact. EN also has unmarked bracket additions outside a Translator's note: «[state of being driven out]» after «أطردت الرجل أي صيّرته إلى ذلك» and «[in this way]» after «ولا أعلم أحدا قرأ «يزفون»». These need to be moved into Translator's notes.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "'his clan of Judhāʿ' -> 'his clans'; bare brackets [state of being driven out] and [in this way] moved into Translator's notes",
+"verified": "PASS",
+"verify_note": "Verse gloss now 'his clans' (no Judhāʿ); bracketed additions moved into Translator's notes; all reports complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"8d1585c55394",
+"fd26b142bcf2",
+"e343f2d399e3"
+],
+"dim": "tr",
+"what": "جذاعه 'akranlarına' -> 'kabilelerine'; unmarked (يُزِفّون), (kovulmuş olma hâline), (Zeccâc), (يَزِفُون şeklinde), (şeddesiz), (bu şekilde) moved into Mütercim notları; (söylemiştir), (Ancak) removed",
+"at": "2026-10-17 00:46"
+},
+{
+"old_hs": [
+"8d1585c55394",
+"b6da7a8e1b06",
+"24a678ad31f3"
+],
+"dim": "en",
+"what": "'his clan of Judhāʿ' -> 'his clans'; bare brackets [state of being driven out] and [in this way] moved into Translator's notes",
+"at": "2026-10-17 00:46"
+}
+]
+},
+"nahhas-irab:153-154": {
+"hs": [
+"d7ee7cc52f39",
+"c677f6168e75",
+"e1a2c2d4536a"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "The Arabic has only «عن أبي جعفر وشيبة ونافع» and «قال أبو جعفر». TR adds '(el-Kârî)' and '(en-Nahhâs)' as plain parentheticals. Both identifications are correct (the Medinan reader Abū Jaʿfar beside Shayba and Nāfiʿ; the author), but they are not in the Arabic and are not inside «[Mütercim notu: …]». The same holds for '(görevli)' in «لأنهم على الجنان». Under the binding rule these unmarked additions are errors; the fix is to mark them as notes.",
+"at": "2026-10-17 00:40"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "The Arabic has only «عن أبي جعفر وشيبة ونافع» and «قال أبو جعفر». TR adds identifications «(el-Kârî)» and «(en-Nahhâs)», and also «(görevli)» in «لأنهم على الجنان», as unmarked parentheticals. The identifications are plausible, but under the binding rule they must be inside «[Mütercim notu: …]».",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Unmarked (el-Kârî), (en-Nahhâs), (görevli) moved into Mütercim notları",
+"verified": "PASS",
+"verify_note": "el-Kârî / en-Nahhâs identifications and the 'görevli' explanation now inside Mütercim notları; translation complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"d7ee7cc52f39",
+"03378a828c37",
+"e1a2c2d4536a"
+],
+"dim": "tr",
+"what": "Unmarked (el-Kârî), (en-Nahhâs), (görevli) moved into Mütercim notları",
+"at": "2026-10-17 00:46"
+}
+]
+},
+"nahhas-irab:163-163": {
+"hs": [
+"a3c4ea55dae3",
+"5d3e2ef14790",
+"b3a9bea4d473"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "«فالتقدير: فيه صالون» becomes 'Takdir «صالون»dur', dropping «فيه». This minor omission alone would be tolerable. However, TR also adds an unmarked «(صالُ)» after «بضم اللام» and vowels «هذا قاضُ» although the source has «قاض», while EN correctly puts صالُ in a Translator's note. The added vowelled form must be inside a Mütercim notu, and «فيه» should be rendered.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «فالتقدير: فيه صالون». TR 'Takdir «صالون»dur' drops «فيه» (the implied form in it / in this reading), a small omission. More clearly, TR adds '(صالُ)' after «بضم اللام» while the source prints صالِ, and does not mark it as «[Mütercim notu: …]». EN marks the same thing as a Translator's note. The vowelled form is correct, but it is an unmarked addition. Needs a fix: restore «فيه» and put the vowelled form in a note.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Unmarked (صالُ) moved to a Mütercim notu; قاضُ restored to source قاض with note; 'فيه' restored (Takdir şudur: «فيه صالون»)",
+"verified": "PASS",
+"verify_note": "«فيه صالون» restored; vowelled صالُ and قاضُ now in Mütercim notları; rest complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"a3c4ea55dae3",
+"0eb7746bf576",
+"b3a9bea4d473"
+],
+"dim": "tr",
+"what": "Unmarked (صالُ) moved to a Mütercim notu; قاضُ restored to source قاض with note; 'فيه' restored (Takdir şudur: «فيه صالون»)",
+"at": "2026-10-17 00:46"
+}
+]
+}
+}

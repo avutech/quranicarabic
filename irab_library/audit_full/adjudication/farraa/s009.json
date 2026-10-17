@@ -1,0 +1,43 @@
+{
+"farraa:70-70": {
+"hs": [
+"3b419818c819",
+"66e7bca88421",
+"13850e645a85"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "HUMAN",
+"evidence": "«قتلت الفُدَيكات» is unvocalised: it can be قُتِلَت (passive, TR 'Füdeykîler öldürüldü') or قتلتُ (EN 'I killed'). The «كما قيل» framing and the history (the Kharijite followers of Abu Fudayk were killed) favour the passive, but the vocalisation needs checking against an edited edition. Everything else in TR (قريات قوم لوط وهود وصالح; أصحاب لوط خاصة; الشيع والطوائف) is correct.",
+"at": "2026-10-10 15:59"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "'كما قيل: قتلت الفُدَيكات، نسبوا إلى رئيسهم أبى فديك' refers to the historical Kharijite faction of Abu Fudayk, who were killed. The feminine-marked passive قُتِلَت with the feminine plural subject الفديكات is the natural reading and matches Farra's point that the تاء plural refers to groups. TR 'Füdeykîler öldürüldü' is correct, and the rest of the TR (قريات قوم لوط وهود وصالح، أصحاب لوط خاصة، الشيع والطوائف) is faithful.",
+"at": "2026-10-10 15:59"
+}
+},
+"status": "DECIDED",
+"class": "HUMAN"
+},
+"en": {
+"votes": {
+"J1": {
+"class": "HUMAN",
+"evidence": "«قتلت الفُدَيكات» is unvocalised. EN reads قتلتُ 'I killed the Fudaykāt'. The «كما قيل» framing and the history make the passive قُتِلَت ('the Fudaykites were killed') more likely, but an edited, vocalised edition is needed to decide. The rest of the EN entry is accurate.",
+"at": "2026-10-10 15:59"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "EN 'I killed the Fudaykāt' reads قتلت as first person قتلتُ. That is implausible: Farra quotes a common saying (كما قيل) about the historical Fudaykiyya, followers of Abu Fudayk who were killed, so the expression is passive قُتِلَت الفديكات, 'the Fudaykāt were killed'. Rendering Farra as saying 'I killed' gives a wrong statement. The rest of the EN is accurate.",
+"at": "2026-10-10 15:59"
+}
+},
+"status": "DECIDED",
+"class": "HUMAN"
+}
+}
+}
+}

@@ -1,0 +1,356 @@
+{
+"safi-cedvel:1-2": {
+"p1": {
+"ar": "0628b52c262a",
+"tr": "56d5ce2f6572",
+"en": "efad80d8ef46",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u61",
+"at": "2026-10-10 19:33",
+"fixed": false
+}
+},
+"safi-cedvel:3-3": {
+"p1": {
+"ar": "05475c77bf40",
+"tr": "77362adec4c0",
+"en": "b2ddd6e0d0af",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u61",
+"at": "2026-10-10 19:33",
+"fixed": false
+}
+},
+"safi-cedvel:4-4": {
+"p1": {
+"ar": "fcd221b9d3c9",
+"tr": "caa412415b74",
+"en": "217b504119b4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u61",
+"at": "2026-10-10 19:33",
+"fixed": false
+}
+},
+"safi-cedvel:5-6": {
+"p1": {
+"ar": "5b39b47d3b47",
+"tr": "0f4e3a8806a2",
+"en": "53acdae2fffd",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u61",
+"at": "2026-10-10 19:33",
+"fixed": false
+}
+},
+"safi-cedvel:7-8": {
+"p1": {
+"ar": "b39e85107401",
+"tr": "687d4dc80d31",
+"en": "fd34cc7ba6b8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u61",
+"at": "2026-10-10 19:33",
+"fixed": false
+}
+},
+"safi-cedvel:9-9": {
+"p1": {
+"ar": "7fe9db6ac3ed",
+"tr": "ae760c2c680d",
+"en": "c52d4895b545",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u61",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+},
+"safi-cedvel:10-10": {
+"p1": {
+"ar": "d406f2cf42cb",
+"tr": "ea713367d106",
+"en": "fcd7febf8cde",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR had an unmarked gloss \"(ucundaki parça)\" after balık ciğerinin fazlası; removed",
+"by": "safi-cedvel-u61",
+"at": "2026-10-10 19:33",
+"fixed": true
+},
+"p2": {
+"ar": "d406f2cf42cb",
+"tr": "ea713367d106",
+"en": "fcd7febf8cde",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u22",
+"at": "2026-10-16 19:07",
+"fixed": false
+}
+},
+"safi-cedvel:11-11": {
+"p1": {
+"ar": "2287efd33b65",
+"tr": "8e2b930d0b40",
+"en": "d1768f78a4ac",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u61",
+"at": "2026-10-10 19:33",
+"fixed": false
+}
+},
+"safi-cedvel:12-12": {
+"p1": {
+"ar": "b2b6b64aa916",
+"tr": "8b4d802427dd",
+"en": "603ba6ea963d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u61",
+"at": "2026-10-10 19:33",
+"fixed": false
+}
+},
+"safi-cedvel:13-14": {
+"p1": {
+"ar": "d4e48aeddebc",
+"tr": "2442caeb6d73",
+"en": "551931a58535",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u61",
+"at": "2026-10-10 19:33",
+"fixed": false
+}
+},
+"safi-cedvel:15-16": {
+"p1": {
+"ar": "96b65524aaa2",
+"tr": "67610aa8649a",
+"en": "52634b6e5536",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR added unmarked gloss \"(hasat vakti geldi)\" after أحصد الزرع; removed",
+"by": "safi-cedvel-u61",
+"at": "2026-10-10 19:34",
+"fixed": true
+},
+"p2": {
+"ar": "96b65524aaa2",
+"tr": "67610aa8649a",
+"en": "52634b6e5536",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u22",
+"at": "2026-10-16 19:07",
+"fixed": false
+}
+},
+"safi-cedvel:17-19": {
+"p1": {
+"ar": "365d9e60284b",
+"tr": "1c1b396e4dd4",
+"en": "1a693cdcb281",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u61",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"safi-cedvel:20-20": {
+"p1": {
+"ar": "eb95bb589f4e",
+"tr": "778ec37dd8a0",
+"en": "c660ae6b91eb",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u61",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"safi-cedvel:21-21": {
+"p1": {
+"ar": "0259ef805908",
+"tr": "3730c79acd8b",
+"en": "fb61f434a254",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u61",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+},
+"safi-cedvel:22-22": {
+"p1": {
+"ar": "6846eeca4bf4",
+"tr": "09329138a55c",
+"en": "a295a070284f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u61",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"safi-cedvel:23-23": {
+"p1": {
+"ar": "d757dcb05a18",
+"tr": "edfc3a3b0656",
+"en": "70b5b219b251",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u61",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"safi-cedvel:24-28": {
+"p1": {
+"ar": "c75fa22c147b",
+"tr": "8b37ee692848",
+"en": "a0d656b9b0d1",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Unmarked translations of the Jarir verse and of the example لولا المشقة ساد الناس كلهم were added in parentheses; wrapped them in translator notes in both languages",
+"by": "safi-cedvel-u61",
+"at": "2026-10-10 19:35",
+"fixed": true
+},
+"p2": {
+"ar": "c75fa22c147b",
+"tr": "8b37ee692848",
+"en": "a0d656b9b0d1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u22",
+"at": "2026-10-16 19:14",
+"fixed": false
+}
+},
+"safi-cedvel:29-32": {
+"p1": {
+"ar": "3a92012ba18a",
+"tr": "8b5c8ba271fd",
+"en": "0ef3da6abe08",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u61",
+"at": "2026-10-10 19:35",
+"fixed": false
+},
+"p2": {
+"ar": "3a92012ba18a",
+"tr": "8b5c8ba271fd",
+"en": "0ef3da6abe08",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u22",
+"at": "2026-10-16 19:14",
+"fixed": false
+}
+},
+"safi-cedvel:33-33": {
+"p1": {
+"ar": "9c1521a9e828",
+"tr": "7d9b2263f5d2",
+"en": "83639cbdd0ea",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u61",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+},
+"safi-cedvel:34-34": {
+"p1": {
+"ar": "3b3bf323463b",
+"tr": "7e67f18e28b4",
+"en": "a67506c26903",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u61",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+},
+"safi-cedvel:35-35": {
+"p1": {
+"ar": "f2b9979075a0",
+"tr": "8334391c3cba",
+"en": "264dc2cf1cbe",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u61",
+"at": "2026-10-10 19:35",
+"fixed": false
+},
+"p2": {
+"ar": "f2b9979075a0",
+"tr": "8334391c3cba",
+"en": "264dc2cf1cbe",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u22",
+"at": "2026-10-16 19:14",
+"fixed": false
+}
+}
+}

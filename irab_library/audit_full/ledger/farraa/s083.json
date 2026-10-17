@@ -1,0 +1,228 @@
+{
+"farraa:1-1": {
+"p1": {
+"ar": "df7bea2d35e3",
+"tr": "7c0e0863dd96",
+"en": "01a387490acc",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:52",
+"fixed": false
+},
+"p2": {
+"ar": "df7bea2d35e3",
+"tr": "7c0e0863dd96",
+"en": "01a387490acc",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p2-u4",
+"at": "2026-10-16 18:53",
+"fixed": false
+}
+},
+"farraa:2-2": {
+"p1": {
+"ar": "b3a710b58349",
+"tr": "04a94d4fa55d",
+"en": "cb91e9c77a45",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:52",
+"fixed": false
+}
+},
+"farraa:3-3": {
+"p1": {
+"ar": "8d00728588ee",
+"tr": "3081cca5456c",
+"en": "2a5dcaa16135",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Unmarked insertions \"(hacdan)\" in TR and \"[from the watering place]\" in EN after إذا صدر الناس; removed.",
+"by": "farraa-u22",
+"at": "2026-10-10 15:52",
+"fixed": true
+},
+"p2": {
+"ar": "8d00728588ee",
+"tr": "3081cca5456c",
+"en": "2a5dcaa16135",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p2-u4",
+"at": "2026-10-16 18:53",
+"fixed": false
+}
+},
+"farraa:6-6": {
+"p1": {
+"ar": "a4950b703410",
+"tr": "99730b515635",
+"en": "d3e286bb1a90",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR added unmarked \"(o da caiz olurdu)\" to the incomplete sentence ولو رفع على ذلك; now a translator note.",
+"by": "farraa-u22",
+"at": "2026-10-10 15:52",
+"fixed": true
+},
+"p2": {
+"ar": "a4950b703410",
+"tr": "99730b515635",
+"en": "d3e286bb1a90",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p2-u4",
+"at": "2026-10-16 18:53",
+"fixed": false
+}
+},
+"farraa:8-8": {
+"p1": {
+"ar": "b50b8497a678",
+"tr": "3552afe1521a",
+"en": "b852ed0f239d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:52",
+"fixed": false
+}
+},
+"farraa:14-14": {
+"p1": {
+"ar": "3422bb54f28a",
+"tr": "9fdbaab41013",
+"en": "6a62174c53e8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:52",
+"fixed": false
+}
+},
+"farraa:18-18": {
+"p1": {
+"ar": "758b2f199e6d",
+"tr": "7cdc9a2a10a6",
+"en": "dcf3cf181c99",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:52",
+"fixed": false
+},
+"p2": {
+"ar": "758b2f199e6d",
+"tr": "7cdc9a2a10a6",
+"en": "dcf3cf181c99",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p2-u4",
+"at": "2026-10-16 18:53",
+"fixed": false
+}
+},
+"farraa:24-24": {
+"p1": {
+"ar": "90ee7965a5fb",
+"tr": "f9ff3587632b",
+"en": "1ab89e5c2621",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:52",
+"fixed": false
+}
+},
+"farraa:26-26": {
+"p1": {
+"ar": "d9817701015d",
+"tr": "a995135c6aa8",
+"en": "48eee749156a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:52",
+"fixed": false
+}
+},
+"farraa:27-27": {
+"p1": {
+"ar": "704245685cf7",
+"tr": "aac46d4903ac",
+"en": "7297b3ad627c",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR had unmarked muddled \"(marifeden çıkmıştır)\" and silently dropped the editorial [لم]; now translator note and [değil].",
+"by": "farraa-u22",
+"at": "2026-10-10 15:52",
+"fixed": true
+},
+"p2": {
+"ar": "704245685cf7",
+"tr": "aac46d4903ac",
+"en": "7297b3ad627c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p2-u4",
+"at": "2026-10-16 18:58",
+"fixed": false
+}
+},
+"farraa:31-31": {
+"p1": {
+"ar": "5749ae7b542e",
+"tr": "6f2005d5e738",
+"en": "827f969a671c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:52",
+"fixed": false
+},
+"p2": {
+"ar": "5749ae7b542e",
+"tr": "6f2005d5e738",
+"en": "827f969a671c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p2-u4",
+"at": "2026-10-16 18:53",
+"fixed": false
+}
+}
+}

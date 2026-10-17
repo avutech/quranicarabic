@@ -1,0 +1,54 @@
+{
+"dervis-irab:17-40": {
+"p1": {
+"ar": "cd73eb684ad4",
+"tr": "ef0971e52af4",
+"en": "9e88c82fa81d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u16",
+"at": "2026-10-17 00:58",
+"fixed": false
+},
+"p2": {
+"ar": "cd73eb684ad4",
+"tr": "5e189e262f80",
+"en": "9e88c82fa81d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u7",
+"at": "2026-10-17 00:03",
+"fixed": false
+}
+},
+"dervis-irab:1-16": {
+"p1": {
+"ar": "e8e119064346",
+"tr": "4bc0a1b262a3",
+"en": "a653e1a993ab",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English glossed the poem lines of Ibn Zaydun (يكتمان/يغشينا) and Mutanabbi (يغري) per the known forms without a note; added Translator notes",
+"by": "dervis-irab-u2",
+"at": "2026-10-11 01:39",
+"fixed": true
+},
+"p2": {
+"ar": "e8e119064346",
+"tr": "4bc0a1b262a3",
+"en": "a653e1a993ab",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u7",
+"at": "2026-10-17 00:02",
+"fixed": false
+}
+}
+}

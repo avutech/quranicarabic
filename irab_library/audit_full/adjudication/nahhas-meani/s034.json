@@ -1,0 +1,93 @@
+{
+"nahhas-meani:16-16": {
+"hs": [
+"0650decec75f",
+"f3348647d857",
+"68690f344bb3"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic «ويُقال: الخَمْطةُ التي أخذت شيئاً من الريح» names no substance; TR adds unmarked '(sütün)' (of milk) — not in the Arabic and also inconsistent with the wine context of the cited verse «عُقَارٌ ... لَيْسَتْ بِخَمْطَةٍ». Must be removed or placed in [Mütercim notu: …].",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic «ويُقال: الخَمْطةُ التي أخذت شيئاً من الريح» names no noun; TR '(sütün) biraz koku almış olanına' adds unmarked '(sütün)' (milk), which is not in the text and also clashes with the wine verse (عُقَارٌ) quoted; needs removal or a Mütercim notu.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Arim -> «العَرِم», \"arim\" -> «عَرِم»; removed unmarked (Sel); poem gloss additions (et/kırmızı, keskinliği) put in Mütercim notu",
+"verify_note": "'(sütün)' and '(Sel)' removed; العرم/عرمهم now in Arabic script; emendation and poem glosses marked as Mütercim notu; complete and faithful.",
+"fix_failed": 1,
+"verified": "PASS"
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic «يُقال للحامضة خَمْطَةٌ ... التي أخذت شيئاً من الريح» does not say 'wine'; EN inserts '[wine]' twice and '[of souring]' in plain brackets, i.e. clarifying additions not marked as [Translator's note: …] as glossary_en rule 8 requires. Meaning is plausible but the additions are unmarked.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic «يُقال للحامضة خَمْطَةٌ ... الخَمْطةُ التي أخذت شيئاً من الريح» has no noun 'wine'; EN 'a sour [wine]' and '[wine] that has taken on something of the smell [of souring]' supplies bracketed additions not marked as Translator's note; must be put inside [Translator's note: ...].",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Latin al-ʿarim/ʿarim/al-ukul/al-khamṭ/khamṭa replaced with Arabic script; raw [meat] marked as Translator's note; 'fiery sharpness' -> 'flame'",
+"verify_note": "العرم, الأكل, الخمط, خمطة now in Arabic script; wine/souring/raw-meat glosses inside Translator's notes; complete and faithful.",
+"fix_failed": 1,
+"verified": "PASS"
+}
+},
+"history": [
+{
+"old_hs": [
+"0650decec75f",
+"cadb4ced69d7",
+"ee7842ab4731"
+],
+"dim": "tr",
+"what": "Removed unmarked '(sütün)' addition",
+"at": "2026-10-17 00:42"
+},
+{
+"old_hs": [
+"0650decec75f",
+"11f0de51d88a",
+"b9ea0a86469c"
+],
+"dim": "en",
+"what": "Unmarked '[wine]' x2 and '[of souring]' replaced by neutral wording plus [Translator's note: ...] markings",
+"at": "2026-10-17 00:42"
+},
+{
+"old_hs": [
+"0650decec75f",
+"11f0de51d88a",
+"b9ea0a86469c"
+],
+"dim": "tr",
+"what": "Arim -> «العَرِم», \"arim\" -> «عَرِم»; removed unmarked (Sel); poem gloss additions (et/kırmızı, keskinliği) put in Mütercim notu",
+"at": "2026-10-17 00:46"
+},
+{
+"old_hs": [
+"0650decec75f",
+"f3348647d857",
+"68690f344bb3"
+],
+"dim": "en",
+"what": "Latin al-ʿarim/ʿarim/al-ukul/al-khamṭ/khamṭa replaced with Arabic script; raw [meat] marked as Translator's note; 'fiery sharpness' -> 'flame'",
+"at": "2026-10-17 00:46"
+}
+]
+}
+}

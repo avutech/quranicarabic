@@ -1,0 +1,56 @@
+{
+"semin-durr:26-26": {
+"hs": [
+"af200ba6c587",
+"56230db60967",
+"de8d4f6eefbb"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "MISPLACED",
+"evidence": "Opening part discusses 12:25: the reading «قُطَّ مِنْ دُبُر» (ayah 25 وَقَدَّتْ قَمِيصَهُ مِن دُبُرٍ), {مَا جَزَآءُ ... إِلاَّ أَن يُسْجَنَ أَوْ عَذَابٌ أَلِيمٌ} are all words of 12:25; only {هِيَ}, «مِنْ أهلها», {إِن كَانَ} belong to 12:26. Entry covers 25-26.",
+"at": "2026-10-17 00:39",
+"ayahs": "25-26"
+},
+"J2": {
+"class": "MISPLACED",
+"evidence": "Opening part discusses the reading «قُطَّ مِنْ دُبُر» (ayah 25: وَقَدَّتْ قَمِيصَهُ مِن دُبُرٍ) and {مَا جَزَآءُ ... إِلاَّ أَن يُسْجَنَ أَوْ عَذَابٌ أَلِيمٌ} which is 12:25; the rest ({هِيَ}, «مِنْ أهلها», {إِن كَانَ}) is 12:26. Entry covers 25-26.",
+"at": "2026-10-17 00:40",
+"ayahs": "25-26"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+},
+"semin-durr:107-107": {
+"hs": [
+"9717ea7506da",
+"d9979fd6e7e7",
+"644473d7824a"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "MISPLACED",
+"evidence": "Paragraph 1 ({مِّنْ عَذَابِ الله} صفة لغاشية, بغتة حال) and last («أو يَأْتيهم الساعة») are 12:107, but the middle paragraphs (جر «الأرض» عطفاً على «السماوات», الضمير في «عليها», «يمرون», readings of al-Suddī «والأرضَ» and ʿIkrima «والأرضُ») discuss 12:105 وَكَأَيِّن مِّنْ آيَةٍ فِي السَّمَاوَاتِ وَالْأَرْضِ يَمُرُّونَ عَلَيْهَا. Entry covers 105-107.",
+"at": "2026-10-17 00:39",
+"ayahs": "105-107"
+},
+"J2": {
+"class": "MISPLACED",
+"evidence": "First paragraph ({مِّنْ عَذَابِ الله}, «بَغْتة») and last («أو يَأْتيهم الساعة») are 12:107, but middle paragraphs on جر «الأرض» عطفاً على «السماوات», «عليها», «يمرُّون» and readings «والأرضَ»/«والأرضُ» are about 12:105 (وَكَأَيِّن مِّنْ آيَةٍ فِي السَّمَاوَاتِ وَالْأَرْضِ يَمُرُّونَ عَلَيْهَا). Range must include 105.",
+"at": "2026-10-17 00:40",
+"ayahs": "105-107"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+}
+}

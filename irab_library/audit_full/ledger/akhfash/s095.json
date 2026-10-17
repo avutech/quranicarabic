@@ -1,0 +1,54 @@
+{
+"akhfash:2-2": {
+"p1": {
+"ar": "9cb07c46bbd8",
+"tr": "5f48bf45d18d",
+"en": "4197c116fadc",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish 'Ahfes dedi ki' for qala changed to buyurdu.",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:46",
+"fixed": true
+},
+"p2": {
+"ar": "9cb07c46bbd8",
+"tr": "5f48bf45d18d",
+"en": "4197c116fadc",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-p2-u1",
+"at": "2026-10-16 19:13",
+"fixed": false
+}
+},
+"akhfash:7-7": {
+"p1": {
+"ar": "08134f5d28b6",
+"tr": "39c6bb002316",
+"en": "6487ea2d1eeb",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish 'Ahfes dedi ki' for wa-qala changed to buyurdu.",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:46",
+"fixed": true
+},
+"p2": {
+"ar": "08134f5d28b6",
+"tr": "39c6bb002316",
+"en": "6487ea2d1eeb",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-p2-u1",
+"at": "2026-10-16 19:13",
+"fixed": false
+}
+}
+}

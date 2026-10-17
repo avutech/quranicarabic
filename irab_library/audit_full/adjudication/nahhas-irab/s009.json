@@ -1,0 +1,107 @@
+{
+"nahhas-irab:4-5": {
+"hs": [
+"41c00a8655a5",
+"9b95a2b28e80",
+"c672fdad63f6"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "«إلا الذين عاهدتم من المشركين ... نصب بالاستثناء» is 9:4; «واقعدوا لهم على كل مرصد ... كلّ مرصد نصبه على الظرف» is 9:5. Range 4-5 correct; source break after «كما تقول:» is marked in both readings.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "«إلا الذين عاهدتم من المشركين» is 9:4 and «واقعدوا لهم كل مرصد» is 9:5; range 4-5 covers exactly what is discussed. Source break after «كما تقول:» is marked in both readings.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+},
+"nahhas-irab:30-30": {
+"hs": [
+"f85b8597c04e",
+"a7a5776e44e3",
+"38014bb5c516"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «والتقدير صاحبنا عزير» — EN renders 'our master is ʿUzayr, [son …]': '[son …]' is an unmarked addition. Also 'derived [from the root ʿ-z-r]' is unmarked addition for «اسم عربيّ مشتق». Also for «كنهبلا فنعلل» / «قرنفلا فعنلل» EN writes 'a faʿalla pattern' in the text (a different text than the source), relegating the actual source wording to a note.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic «والتقدير صاحبنا عزير» - EN adds unmarked '[son …]' (not in source; must be a Translator's note or removed); also unmarked '[from the root ʿ-z-r]'. Further, source «كما أن كنهبلا فنعلل ... قرنفلا فعنلل» is rendered 'a faʿalla pattern' - this changes the source's correct patterns (fanʿalal/faʿanlal) to a wrong one; TR keeps فنعلل/فعنلل correctly.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked '[son …]' after 'our master is ʿUzayr' (added «صاحبنا عزير»); put '[from the root ʿ-z-r]' inside a Translator's note; rendered كنهبل/قرنفل patterns as source's «فنعلل»/«فعنلل» instead of 'faʿalla'",
+"verified": "PASS",
+"verify_note": "Unmarked '[son …]' removed; root derivation now inside a Translator's note; كنهبل/قرنفل patterns now fanʿalal/faʿanlal as in source; reading complete and faithful, remaining notes properly marked."
+}
+},
+"history": [
+{
+"old_hs": [
+"f85b8597c04e",
+"a7a5776e44e3",
+"bbefe62b13f7"
+],
+"dim": "en",
+"what": "Removed unmarked '[son …]' after 'our master is ʿUzayr' (added «صاحبنا عزير»); put '[from the root ʿ-z-r]' inside a Translator's note; rendered كنهبل/قرنفل patterns as source's «فنعلل»/«فعنلل» instead of 'faʿalla'",
+"at": "2026-10-17 00:43"
+}
+]
+},
+"nahhas-irab:49-49": {
+"hs": [
+"48ce6209e22d",
+"23d6e2d9e9c3",
+"98ed51001aa4"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source reads «بألف وباء قبل الذال»; EN silently renders 'with an alif and a yāʾ' (silent correction of باء→ياء, no Translator's note; TR has one). Also unmarked bracket '[i.e. … yaqūlu ʾdhan lī]' adds Latin transliteration of the Quranic words not in the source.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source reads «بألف وباء قبل الذال»; EN silently renders 'an alif and a yāʾ' (correction without Translator's note; TR has one). Also unmarked '[i.e. … yaqūlu ʾdhan lī]' and Latin transliteration '(īdhan lī)' of the Quranic words «ائذن لي».",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Added Translator's note on source «بألف وباء» (yāʾ meant); removed Latin transliterations '(īdhan lī)' and '[i.e. … yaqūlu ʾdhan lī]'; marked '[to what precedes]' as Translator's note",
+"verified": "PASS",
+"verify_note": "باء→ياء now flagged in a Translator's note; unmarked '[i.e. …]' and Latin transliteration of the Quranic words removed; the Quranic words stay in Arabic script; complete and faithful, additions marked."
+}
+},
+"history": [
+{
+"old_hs": [
+"48ce6209e22d",
+"23d6e2d9e9c3",
+"b5e765b3772b"
+],
+"dim": "en",
+"what": "Added Translator's note on source «بألف وباء» (yāʾ meant); removed Latin transliterations '(īdhan lī)' and '[i.e. … yaqūlu ʾdhan lī]'; marked '[to what precedes]' as Translator's note",
+"at": "2026-10-17 00:43"
+}
+]
+}
+}

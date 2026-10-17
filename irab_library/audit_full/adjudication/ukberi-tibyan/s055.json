@@ -1,0 +1,27 @@
+{
+"ukberi-tibyan:22-22": {
+"hs": [
+"35195036a833",
+"2d08cb2fd94e",
+"9f0e72134a0a"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Entry quotes (يَخْرُجُ مِنْهُمَا اللُّؤْلُؤُ وَالْمَرْجَانُ (٢٢)) and comments on (يَخْرُجُ مِنْهُمَا): التقدير من أحدهما. It is about 55:22 and filed under 22; placement is correct. The source breaks off after the colon, but the existing part is translatable and both readings already mark the truncation in a translator's note, so this is not a placement defect.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Entry quotes (يَخْرُجُ مِنْهُمَا اللُّؤْلُؤُ وَالْمَرْجَانُ (٢٢)) and comments on (يَخْرُجُ مِنْهُمَا): التقدير من أحدهما — it is about 55:22 only, so the listing is right. The source breaks off after «مِنْ أَحَدِهِمَا:» but there is a real comment to place and translate; both readings mark the truncation in a proper note, so no relisting needed.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

@@ -1,0 +1,317 @@
+{
+"semin-durr:61-61": {
+"hs": [
+"2e24a6e40e0c",
+"ae72bdd4e003",
+"7bcf119d0d57"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic «في بيتٍ لم تَزَلِ الرُّكَبُ تَصْطَكُّ في تسويةِ إعرابه»: الرُّكَب = knees (plural of رُكْبة), TR renders «Eyerler» (saddles) - wrong meaning (should be dizler); TR also omits «في بيتٍ» (in a verse). Additionally source «حفص عن عصام» silently rendered «Âsım» with no Mütercim notu (EN marks it).",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Zamakhshari quote «في بيتٍ لم تَزَلِ الرُّكَبُ تَصْطَكُّ في تسويةِ إعرابه»: الرُّكَب (plural of رُكْبة) = knees (idiom of knees knocking in dispute); TR renders 'Eyerler' (saddles) = wrong meaning, and omits «في بيتٍ» (in a verse). Also source reads «حفص عن عصام» and TR silently writes 'Âsım'dan' without a Mütercim notu (EN marks it). Needs fix: 'Dizler', add 'bir beyitte', note on عصام.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Zamakhshari quote: 'Eyerler' -> 'dizler' and restored omitted «في بيتٍ» ('Öyle bir beyitte ki'); source «عصام» kept with Mütercim notu instead of silent 'Âsım'; '(Hamza ve Kisâî)' moved into Mütercim notu",
+"verified": "PASS",
+"verify_note": "الرُّكَب is now 'dizler', «في بيتٍ» is rendered ('Öyle bir beyitte ki'), and عصام has a Mütercim notu. The rest is faithful, the existing notes are properly marked, and no new problem was introduced."
+}
+},
+"history": [
+{
+"old_hs": [
+"2e24a6e40e0c",
+"a987b4535f87",
+"7bcf119d0d57"
+],
+"dim": "tr",
+"what": "Zamakhshari quote: 'Eyerler' -> 'dizler' and restored omitted «في بيتٍ» ('Öyle bir beyitte ki'); source «عصام» kept with Mütercim notu instead of silent 'Âsım'; '(Hamza ve Kisâî)' moved into Mütercim notu",
+"at": "2026-10-17 00:44"
+}
+]
+},
+"semin-durr:72-72": {
+"hs": [
+"1fd0db768049",
+"7397b4914294",
+"e545eebe9400"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Verse 3306 «أحْلامُكُمْ لِسَقَامِ الجَهْلِ شافيةٌ» is second person plural (your minds/forbearance), TR renders «Akılları» (their minds) while the same line has «kanlarınızın» - wrong person. Also the final takdir in the Arabic reads «إنَّ تَقْضِيه هذه الحياةُ» but TR quotes it as «إنَّ ما تَقْضِيه» - silent change of the source without Mütercim notu. («mahfûz» for «مخفوضاً» is ambiguous Ottoman spelling of mahfûd; glossary prefers mecrûr.)",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Verse 3306 «أحْلامُكُمْ لِسَقَامِ الجَهْلِ شافيةٌ ... كما دِماؤُكُمُ» = your (2nd pl.) minds/forbearance; TR 'Akılları' (their minds) is wrong person, inconsistent with 'kanlarınızın'. Also the source takdir is «إنَّ تَقْضِيه هذه الحياةُ لا غيرُها» but TR quotes it in Arabic as «إنَّ ما تَقْضِيه» — silent correction of the source without Mütercim notu. (The rendering 'mahfûz' for «مخفوضاً» is at least misleading; 'mecrûr/mahfûd' is clearer.)",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Poem 3306: 'Akılları' -> 'Akıllarınız'; 'mahfûz' -> 'mecrûr (mahfûd)' for مخفوضاً; final takdir restored to source «إنَّ تَقْضِيه» with Mütercim notu instead of silent insertion of ما",
+"verified": "PASS",
+"verify_note": "Verse 3306 now reads 'Akıllarınız' (2nd person plural), consistent with 'kanlarınızın'. The final takdir is quoted as in the source «إنَّ تَقْضِيه» with a Mütercim notu on the intended «إنَّ ما». مخفوضاً is now mecrûr (mahfûd). The rest is faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"1fd0db768049",
+"536912ed868e",
+"e545eebe9400"
+],
+"dim": "tr",
+"what": "Poem 3306: 'Akılları' -> 'Akıllarınız'; 'mahfûz' -> 'mecrûr (mahfûd)' for مخفوضاً; final takdir restored to source «إنَّ تَقْضِيه» with Mütercim notu instead of silent insertion of ما",
+"at": "2026-10-17 00:44"
+}
+]
+},
+"semin-durr:77-77": {
+"hs": [
+"4130f8bef0e1",
+"310f2792160f",
+"3274c42be6fe"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "«ومِعَىً جِياعاً»: مِعًى is a SINGULAR noun (gut; plural أمعاء) described by the plural جِياع - that is exactly the book's point («وُصِف به الواحدُ مبالغةً ... أي: كجماعةٍ جِياع، وَصَفَ به لفَرْط جوعه»). EN «and a hungry gut» (singular) is correct; the TR plural «bağırsaklar» is the less accurate one. Rest of EN entry checked and faithful.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "In «ومِعَىً جِياعاً» the noun مِعًى is singular (gut) and only the adjective جِياع is plural; this is exactly the author's point: a singular described with a plural for intensification («وُصِف به الواحدُ مبالغةً ... أي: كجماعةٍ جِياع»). EN 'and a hungry gut' correctly keeps مِعًى singular, and the following gloss 'like a hungry company' conveys the plural adjective. Reviewer's 'plural bowels' is a misreading.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+},
+"semin-durr:81-81": {
+"hs": [
+"1fc4e4de4713",
+"2ac0eb9d79e7",
+"4a255450cb9b"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic has only «قلت: فعنده أنَّ حَلَّ متعدٍّ بنفسِه»; TR writes «(Semîn der ki:) Ben derim ki:» - the attribution «(Semîn der ki:)» is not in the Arabic and is not inside «[Mütercim notu: …]», an unmarked addition. Fix: remove it or put it in a Mütercim notu. Rest of TR is faithful.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic has only «قلت: فعنده أنَّ حَلَّ متعدٍّ بنفسِه»; TR renders '(Semîn der ki:) Ben derim ki:' - the attribution '(Semîn der ki:)' is not in the source and is not inside a [Mütercim notu: …]; unmarked addition. Rest of entry is faithful. Fix: remove it or put it in a Mütercim notu.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked '(Semîn der ki:)'; identification '(غضبي)' moved into Mütercim notu",
+"verified": "PASS",
+"verify_note": "'(Semîn der ki:)' removed; qultu = 'Ben derim ki'. Rest faithful and complete."
+}
+},
+"history": [
+{
+"old_hs": [
+"1fc4e4de4713",
+"251b1fc213b2",
+"4a255450cb9b"
+],
+"dim": "tr",
+"what": "Removed unmarked addition '(Semîn der ki:)' before 'Ben derim ki'",
+"at": "2026-10-17 00:44"
+},
+{
+"old_hs": [
+"1fc4e4de4713",
+"05a6fcfd57b3",
+"4a255450cb9b"
+],
+"dim": "tr",
+"what": "Removed unmarked '(Semîn der ki:)'; identification '(غضبي)' moved into Mütercim notu",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"semin-durr:83-83": {
+"hs": [
+"c624cf29c80d",
+"1e7093480645",
+"501e1394e69a"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Zamakhshari's quote opens with the objection frame «فإن قلت: ما أَعْجلك سؤالٌ عن سببِ العَجَلة» answered by «قلت: قد تَضَمَّنَ…». TR drops «فإن قلت» (Eğer dersen ki) and presents the objection as Zamakhshari's assertion while keeping «Derim ki» - omission that distorts the dialectic structure (EN keeps 'If you say').",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Zamakhshari quote opens «فإن قلت: ما أَعْجلك سؤالٌ عن سببِ العَجَلة...» and answers with «قلت: قد تَضَمَّنَ...». TR omits «فإن قلت» (Eğer dersen ki) and presents the objection as Zamakhshari's direct assertion, while keeping 'Derim ki' for the answer, so the objection/answer structure is lost. Omission; EN keeps 'If you say'.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Restored omitted objection frame «فإن قلت» ('Eğer dersen ki:'); وقوله {هُمْ أولاء على أَثَرِي} no longer misattributed to Allah ('Onun … sözü'); unmarked 'Mûsâ'ya' -> 'ona' per source",
+"verified": "PASS",
+"verify_note": "«فإن قلت» is now rendered 'Eğer dersen ki', so the objection/answer structure ('Derim ki') is restored. The rest of Zamakhshari's quote is complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"c624cf29c80d",
+"ad534ef70dad",
+"501e1394e69a"
+],
+"dim": "tr",
+"what": "Restored omitted objection frame «فإن قلت» ('Eğer dersen ki:'); وقوله {هُمْ أولاء على أَثَرِي} no longer misattributed to Allah ('Onun … sözü'); unmarked 'Mûsâ'ya' -> 'ona' per source",
+"at": "2026-10-17 00:44"
+}
+]
+},
+"semin-durr:121-121": {
+"hs": [
+"696d7b61d565",
+"1f2fd0aa20c4",
+"8af43d6e5684"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic «كأنه لم يَطَّلِعْ على أنه قُرِىء بكسر الواو، ولو اطَّلع عليها لَرَدَّها» = had he known of it he WOULD HAVE REJECTED it; TR «öğrenseydi onu reddetmezdi» (would not have rejected it) inverts the meaning. Should be «reddederdi». (Minor: «وفسَّروها» plural rendered singular «tefsir etmiştir».)",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: «كأنه لم يَطَّلِعْ على أنه قُرِىء بكسر الواو، ولو اطَّلع عليها لَرَدَّها» = had he known of it he would have rejected it. TR 'öğrenseydi onu reddetmezdi' inserts a negation and reverses the meaning. Should be 'öğrenseydi onu reddederdi'. EN is correct.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed inserted negation: 'reddetmezdi' -> 'reddederdi' (لَرَدَّها); وفسَّروها rendered plural 'tefsir etmişlerdir'",
+"verified": "PASS",
+"verify_note": "«لَرَدَّها» now 'reddederdi' (meaning no longer inverted) and «وفسَّروها» plural; complete and faithful, no unmarked additions."
+}
+},
+"history": [
+{
+"old_hs": [
+"696d7b61d565",
+"b77d338d70a7",
+"8af43d6e5684"
+],
+"dim": "tr",
+"what": "Removed inserted negation: 'reddetmezdi' -> 'reddederdi' (لَرَدَّها); وفسَّروها rendered plural 'tefsir etmişlerdir'",
+"at": "2026-10-17 00:44"
+}
+]
+},
+"semin-durr:29-29": {
+"hs": [
+"8538ac30efdd",
+"1c23e8763868",
+"bb31d232b629"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "«فلمَّا قُلِبت في أخيه» rendered 'in its sister [form]' - أخيه is 'its brother/counterpart' and '[form]' is an unmarked addition. Further unmarked brackets: '[from them]', '[an indefinite]', '[Hārūn]', '[the poet]'. Also «كأنه قال: أخصُّ من بينهِم هارون» rendered 'as though He said' (capital He = God) though the speaker is Mūsā - wrong attribution.",
+"at": "2026-10-17 00:40"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "«فلمَّا قُلِبت في أخيه قُلِبَتْ فيه» rendered 'when it was changed in its sister [form] it was changed in it': 'sister' for أخيه is an acceptable idiomatic rendering of 'its counterpart' (not itself a wrong meaning), but '[form]' is an unmarked bracket addition. EN has further unmarked brackets not in the Arabic and not inside [Translator's note: …]: '[from them]' and '[an indefinite]' in the nawāsikh argument, '[Hārūn]' in «لما جعله عنه عطف بيان قبل ذلك», '[the poet]' for «وقال». Content otherwise faithful; fix by moving these into Translator's notes (or 'its brother/counterpart').",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "'in its sister [form]' -> 'in its brother' + Translator's note; unmarked '[from them]', '[an indefinite]', '[Hārūn]' moved into Translator's notes; '[the poet]' removed ('he said'); 'He said' -> 'he said' (speaker is Mūsā)",
+"verified": "PASS",
+"verify_note": "Brackets (from them, indefinite, Hārūn, brother/counterpart) now in Translator's notes; 'the poet' bracket removed; Musa's saying now 'he said'. Complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"8538ac30efdd",
+"1c23e8763868",
+"9ef45baa27d6"
+],
+"dim": "en",
+"what": "'in its sister [form]' -> 'in its brother' + Translator's note; unmarked '[from them]', '[an indefinite]', '[Hārūn]' moved into Translator's notes; '[the poet]' removed ('he said'); 'He said' -> 'he said' (speaker is Mūsā)",
+"at": "2026-10-17 00:46"
+}
+]
+},
+"semin-durr:59-59": {
+"hs": [
+"10fc3855d83b",
+"3024fc422a28",
+"0baa3b74b4e5"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "«والضَّحاء بالمد وفتح الضاد» means with madd (long vowel); TR '(mem ile ve dâdın fethasıyla)' says 'with the letter mīm', a wrong meaning; should be 'med ile'. EN 'with the long vowel' is correct.",
+"at": "2026-10-17 00:40"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "«والضَّحاء بالمد وفتح الضاد» means 'with madd (long vowel) and fatḥa on the ḍād'; TR writes '«الضَّحاء» (mem ile ve dâdın fethasıyla)' — 'mem ile' (with the letter mīm) is a wrong meaning; should be 'med ile'. Rest of TR (readings, three vecih for nasb, وأن يحشر two positions, Ibn Masʿūd reading) is faithful.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "'mem ile' -> 'med ile' for بالمد",
+"verified": "PASS",
+"verify_note": "'mem ile' corrected to 'med ile'; rest of TR (readings, three views, wa-an yuhshara, Ibn Mas'ud reading, ḍuḥā/ḍaḥāʾ) faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"10fc3855d83b",
+"6af1e1b4df20",
+"0baa3b74b4e5"
+],
+"dim": "tr",
+"what": "'mem ile' -> 'med ile' for بالمد",
+"at": "2026-10-17 00:46"
+}
+]
+}
+}

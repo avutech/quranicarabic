@@ -1,0 +1,126 @@
+{
+"safi-cedvel:1-4": {
+"p1": {
+"ar": "1ee68cd5d6bc",
+"tr": "967e1d6bae10",
+"en": "159540e00946",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+},
+"safi-cedvel:5-10": {
+"p1": {
+"ar": "770750069ea5",
+"tr": "4a4da84576d6",
+"en": "b01bfc6b028d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+},
+"safi-cedvel:11-14": {
+"p1": {
+"ar": "642b81695f6e",
+"tr": "eb941bb3a5ca",
+"en": "3ed05fdf70c9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+},
+"safi-cedvel:19-35": {
+"p1": {
+"ar": "3e47031ccc53",
+"tr": "2819112abdfc",
+"en": "a81121210c27",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+},
+"safi-cedvel:36-39": {
+"p1": {
+"ar": "8f937b3d96a0",
+"tr": "8527149280cf",
+"en": "943fc9924c99",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+},
+"safi-cedvel:40-41": {
+"p1": {
+"ar": "2df65b3007fb",
+"tr": "30f51629d3cc",
+"en": "7c1f229e031e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:35",
+"fixed": false
+},
+"p2": {
+"ar": "2df65b3007fb",
+"tr": "30f51629d3cc",
+"en": "7c1f229e031e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u23",
+"at": "2026-10-16 19:13",
+"fixed": false
+}
+},
+"safi-cedvel:15-18": {
+"p1": {
+"ar": "860aadaaddd4",
+"tr": "7661842071ea",
+"en": "96a921ffc16c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+},
+"safi-cedvel:42-44": {
+"p1": {
+"ar": "6f7f9cbcd287",
+"tr": "914c24517a80",
+"en": "a32f41b6d7c1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+}
+}

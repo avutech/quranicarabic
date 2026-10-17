@@ -1,0 +1,54 @@
+{
+"muyesser-irab:130-130": {
+"hs": [
+"d3ee0be5cf8f",
+"e147a5b94a18",
+"a079f90cd3b6"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "MISPLACED",
+"evidence": "Header ﴿ونقص من الثمرات لعلهم يذكرون﴾ belongs to 7:130, but the body after «متعلقان بنقص» — «وجملة قالوا لا محل لها ... ولنا جار ومجرور ... وهذه اسم إشارة ... مقول قولهم» — parses «قالوا لنا هذه», words found only in 7:131 (﴿فإذا جاءتهم الحسنة قالوا لنا هذه﴾); لعلهم يذكرون is not parsed. Entry substantively covers 7:131 as well.",
+"at": "2026-10-17 00:41",
+"ayahs": "130-131"
+},
+"J2": {
+"class": "MISPLACED",
+"evidence": "First line parses 7:130 (ولقد أخذنا آل فرعون بالسنين), and «ونقص عطف على السنين، ومن الثمرات...» too; but the rest of the second line «وجملة قالوا لا محل لها ... جواب شرط غير جازم، ولنا ... وهذه اسم إشارة ... مقول قولهم» parses «قالوا لنا هذه» of 7:131 (not in 7:130). The entry thus also discusses 7:131; لعلهم يذكرون is left unparsed. Readings mark this in notes.",
+"at": "2026-10-17 00:41",
+"ayahs": "130-131"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+},
+"muyesser-irab:131-131": {
+"hs": [
+"ce5c2f6a2e72",
+"f66c599e759f",
+"f3a5796fe774"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "All four lines parse 7:131 words (فإذا جاءتهم الحسنة قالوا لنا هذه / وإن تصبهم سيئة يطيروا بموسى / ألا إنما طائرهم عند الله / ولكن أكثرهم لا يعلمون). The dropped words about هذه («متعلقان بمحذوف خبر مقدم في محل رفع مبتدأ») are an internal source gap, not a placement problem; both readings mark it in a note.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "All lines parse 7:131: «فإذا جاءتهم الحسنة قالوا لنا هذه», «وإن تصبهم سيئة يطيروا بموسى ومن معه», «ألا إنما طائرهم عند الله», «ولكن أكثرهم لا يعلمون». The dropped words on هذه («متعلقان بمحذوف خبر مقدم في محل رفع مبتدأ») are an internal source gap already noted in both readings, not a placement problem.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

@@ -1,0 +1,42 @@
+{
+"dervis-irab:14-18": {
+"hs": [
+"142dd707171e",
+"dd4c73715f10",
+"5c8210fbd750"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Lügat: source glosses (يَلِتْكُمْ) ينقصكم ويظلمكم - affirmative ('diminishes you and wrongs you'). TR renders «Sizi eksiltmez, size zulmetmez», adding a negation not in the Arabic (wrong meaning; should be «Sizi eksiltir, size zulmeder»). Also in i'rab, «[öne geçince hâl oldu]» after «شيئا»nın sıfatı idi» is an unmarked addition (source: لأنه كان صفة لشيئا).",
+"at": "2026-10-17 00:42"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Lugha: (يَلِتْكُمْ) ينقصكم ويظلمكم is an affirmative gloss of the word ('diminishes you and wrongs you'), as EN has it. TR renders «Sizi eksiltmez, size zulmetmez», adding a negation not in the Arabic (the negation لا belongs to the ayah, not the gloss). Should be «Sizi eksiltir ve size zulmeder». (Also in i'rab: لأنه كان صفة لشيئا is followed by unmarked «[öne geçince hâl oldu]».)",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Lügat gloss of يلتكم made affirmative (eksiltir, zulmeder); [öne geçince hâl oldu] put in Mütercim notu",
+"verified": "PASS",
+"verify_note": "Lugha gloss now affirmative ('Sizi eksiltir, size zulmeder'); «[öne geçince hâl olmuştur]» moved into a Mütercim notu. Rest of TR complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"142dd707171e",
+"1f1ada270326",
+"5c8210fbd750"
+],
+"dim": "tr",
+"what": "Lügat gloss of يلتكم made affirmative (eksiltir, zulmeder); [öne geçince hâl oldu] put in Mütercim notu",
+"at": "2026-10-17 00:47"
+}
+]
+}
+}

@@ -1,0 +1,53 @@
+{
+"zajjaj:79-79": {
+"hs": [
+"ad653c30291f",
+"7b5c2d7292bc",
+"ffa7b5fe1dac"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic ends: والأُخْرى عَلى مَعْنى: ”يُسَبِّحْنَ مَعَ الطَّيْرِ“ — no grammatical term given. EN appends unmarked '[as a mafʿūl maʿahu (object of accompaniment)]', an interpretive addition not in the source; must be a Translator's note.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic ends: والأُخْرى عَلى مَعْنى: يُسَبِّحْنَ مَعَ الطَّيْرِ. EN appends '[as a mafʿūl maʿahu (object of accompaniment)]' - a grammatical classification not in the source and not in a Translator's note: unmarked addition. Rest of the EN matches the Arabic.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Unmarked '(nominative)' moved into a Translator's note; unmarked '[Allah]' dropped; 'what is in يُسَبِّحْنَ' kept literal",
+"verify_note": "maf'ul ma'ahu label removed; 'coordination upon what is in يُسَبِّحْنَ' matches عَلى ما في; only addition (nominative) is in a Translator's note; complete and faithful.",
+"fix_failed": 1,
+"verified": "PASS"
+}
+},
+"history": [
+{
+"old_hs": [
+"ad653c30291f",
+"7b5c2d7292bc",
+"3498d2d6a79d"
+],
+"dim": "en",
+"what": "Put unmarked gloss [as a mafʿūl maʿahu (object of accompaniment)] inside a Translator's note",
+"at": "2026-10-17 00:42"
+},
+{
+"old_hs": [
+"ad653c30291f",
+"7b5c2d7292bc",
+"4054a4cc7edd"
+],
+"dim": "en",
+"what": "Unmarked '(nominative)' moved into a Translator's note; unmarked '[Allah]' dropped; 'what is in يُسَبِّحْنَ' kept literal",
+"at": "2026-10-17 00:46"
+}
+]
+}
+}

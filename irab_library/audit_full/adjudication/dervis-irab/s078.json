@@ -1,0 +1,53 @@
+{
+"dervis-irab:17-40": {
+"hs": [
+"cd73eb684ad4",
+"ef0971e52af4",
+"9e88c82fa81d"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Unmarked additions confirmed: (1) source «وتبعه الجلال» → TR «Celâl (Mahallî/Suyûtî) de ona uymuştur» - the parenthetical «Mahallî/Suyûtî» is not in the Arabic (and is imprecise: this part of al-Jalalayn is al-Mahalli's); (2) verse «فصدقتها وكذّبتها» → «Ona [nefsime] doğru da söyledim» - «[nefsime]» is an interpretive supplement outside a Mütercim notu; (3) lughah «يعني أنها تصير شيئا كلا شيء» → «Yani (dağlar)…» adds the referent unmarked. Fix: move these into [Mütercim notu: …] or drop them. Otherwise TR is complete and faithful, and the source defects (ونفخ, المضي/المضارع, غير متناد, fused headings) are properly flagged in notes.",
+"at": "2026-10-17 00:43"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Confirmed: (1) the verse فصدقتها وكذّبتها ... والمرء ينفعه كذابه is rendered 'Ona [nefsime] doğru da söyledim' — '[nefsime]' is not in the Arabic and is in plain brackets, not a Mütercim notu; (2) وتبعه الجلال → 'Celâl (Mahallî/Suyûtî) de ona uymuştur' adds an unmarked identification. Additionally Quranic words are transliterated in Latin: Abū Ḥayyān's الظاهر أنه متصل من قوله ولا شرابا → '\"ve lâ şerâben\" sözünden' and the reading كذابا → '\"kizâben\" şeklinde de okunmuştur' (also 'tekzîben' for تكذيبا); these must stay in Arabic script.",
+"at": "2026-10-17 00:44"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Latin transliterations replaced by Arabic: futtihat (now 'teşdidle de okunmuştur' as in source), Ahkâb/ahkâb -> «الأحقاب», berd -> «البرد», el-Mefâz -> «المفاز»; al-Hasan's quoted ayah kept as «لابثين فيها أحقابا» and the paraphrase in point 2 uses «أحقابا» / «بردا ولا شرابا إلا حميما وغساقا»",
+"verify_note": "Flagged fixes OK (فتحت reading, الأحقاب, البرد, المفاز now in Arabic; al-Hasan's quote keeps «لابثين فيها أحقابا»). Remaining: (1) Latin transliteration of the ayah word under discussion: «والمرصاد في معاجم اللغة: الطريق والممر، وعبارة الزمخشري: المرصاد الحدّ...» is rendered 'Lügat sözlüklerinde el-mirsâd ... Zemahşerî'nin ibaresi: \"el-Mirsâd, ...\"' - keep «المرصاد» in Arabic script (same class as the el-Mefâz fix); likewise the singular of the ayah word in the Lügat entry ('\"Hukb\"un ... \"ahkub\"' for حقب/أحقب) should be «حقب»/«أحقب»; (2) unmarked parenthetical '(aynı zamanda)' in the عطاء passage («تفضّل وعطاء وجزاء مبني على الاستحقاق») - not in the Arabic; drop it or mark it.",
+"fix_failed": 2,
+"verified": null
+}
+},
+"history": [
+{
+"old_hs": [
+"cd73eb684ad4",
+"5e189e262f80",
+"9e88c82fa81d"
+],
+"dim": "tr",
+"what": "removed [nefsime]; Mahallî/Suyûtî and (dağlar) moved into Mütercim notu; Latin transliterations replaced by Arabic (ولا شرابا, تكذيبا, كذب; كِذَابًا in note)",
+"at": "2026-10-17 00:47"
+},
+{
+"old_hs": [
+"cd73eb684ad4",
+"d0220f27d8dd",
+"9e88c82fa81d"
+],
+"dim": "tr",
+"what": "Latin transliterations replaced by Arabic: futtihat (now 'teşdidle de okunmuştur' as in source), Ahkâb/ahkâb -> «الأحقاب», berd -> «البرد», el-Mefâz -> «المفاز»; al-Hasan's quoted ayah kept as «لابثين فيها أحقابا» and the paraphrase in point 2 uses «أحقابا» / «بردا ولا شرابا إلا حميما وغساقا»",
+"at": "2026-10-17 00:53"
+}
+]
+}
+}

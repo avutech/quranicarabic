@@ -1,0 +1,164 @@
+{
+"mekki-muskil:1-1": {
+"p1": {
+"ar": "a0d6bf8a8729",
+"tr": "38aee0e3ad11",
+"en": "4ed823b493de",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+},
+"mekki-muskil:3-3": {
+"p1": {
+"ar": "76025786e555",
+"tr": "af619494b888",
+"en": "a7fb6dd92d12",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Turkish gloss turned the quoted fragment قالوا ما نعبدهم (we do not worship them) into a positive statement; English ليفعل rendered precisely",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:46",
+"fixed": true
+},
+"p2": {
+"ar": "76025786e555",
+"tr": "af619494b888",
+"en": "a7fb6dd92d12",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "The passage on \"أم من هو قانت\" belongs to ayah 39:9, not 39:3 (English notes this); translations are faithful.",
+"by": "mekki-muskil-p2-u1",
+"at": "2026-10-16 19:05",
+"fixed": false
+}
+},
+"mekki-muskil:10-10": {
+"p1": {
+"ar": "b99330ea8879",
+"tr": "d31dfd0908af",
+"en": "bfa857b06716",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:46",
+"fixed": false
+},
+"p2": {
+"ar": "b99330ea8879",
+"tr": "d31dfd0908af",
+"en": "bfa857b06716",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u1",
+"at": "2026-10-16 19:05",
+"fixed": false
+}
+},
+"mekki-muskil:28-28": {
+"p1": {
+"ar": "7289777aecf0",
+"tr": "da24e7c1f3bd",
+"en": "f3ed75cfaa3b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+},
+"mekki-muskil:44-44": {
+"p1": {
+"ar": "e8586775dacc",
+"tr": "f515dd4f8c5a",
+"en": "03823cb48d18",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+},
+"mekki-muskil:66-66": {
+"p1": {
+"ar": "0f8a0cc0ccdb",
+"tr": "8c3d02e51d91",
+"en": "eb47be1d13f8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+},
+"mekki-muskil:67-67": {
+"p1": {
+"ar": "e34de7585809",
+"tr": "0231e4548b49",
+"en": "f08dd1ba6250",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish had unmarked gloss [Kur an disindaki] for في الكلام (twice); removed",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:46",
+"fixed": true
+},
+"p2": {
+"ar": "e34de7585809",
+"tr": "0231e4548b49",
+"en": "f08dd1ba6250",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u1",
+"at": "2026-10-16 19:05",
+"fixed": false
+}
+},
+"mekki-muskil:71-71": {
+"p1": {
+"ar": "2ac1ba64e727",
+"tr": "abcb48eba670",
+"en": "267615a30949",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+},
+"mekki-muskil:75-75": {
+"p1": {
+"ar": "13eb0d3fa993",
+"tr": "ca606ce26651",
+"en": "b0b4745e4515",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+}
+}

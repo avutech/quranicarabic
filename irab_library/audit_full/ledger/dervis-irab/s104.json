@@ -1,0 +1,28 @@
+{
+"dervis-irab:1-9": {
+"p1": {
+"ar": "8ef761e76419",
+"tr": "c531cc95b0a9",
+"en": "19eb603b6a90",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u5",
+"at": "2026-10-17 00:16",
+"fixed": false
+},
+"p2": {
+"ar": "8ef761e76419",
+"tr": "c531cc95b0a9",
+"en": "19eb603b6a90",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Balagha: negation in \"لئلا يأخذه السامع لنفسه\" dropped in both TR and EN (rendered \"so that the hearer takes it\"); now translated as written with notes. EN also had an unmarked claim \"[with ضننوا unassimilated in the original]\" though source prints \"ضنّوا\"; now a marked note.",
+"by": "dervis-irab-p2-u8",
+"at": "2026-10-17 00:04",
+"fixed": true
+}
+}
+}

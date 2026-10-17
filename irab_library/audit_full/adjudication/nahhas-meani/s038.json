@@ -1,0 +1,27 @@
+{
+"nahhas-meani:88-88": {
+"hs": [
+"2331571356db",
+"943759d153e9",
+"18f260afb041"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "HUMAN",
+"evidence": "Arabic is the introduction to Surat al-Zumar («فليقرأ سورة الغُرَفِ» ... «هي مكيةٌ إلاَّ ثلاثَ آياتٍ» ... «قُلْ يٰعِبَادِيَ ٱلَّذِينَ أَسْرَفُواْ» = 39:53); it discusses no ayah of surah 38 (not 38:88), so no correct range exists in this surah; belongs to surah 39 intro, which this tool cannot express.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "HUMAN",
+"evidence": "Arabic «فليقرأ سورة الغُرَفِ ... هي مكيةٌ إلاَّ ثلاثَ آياتٍ ... ﴿قُلْ يٰعِبَادِيَ ٱلَّذِينَ أَسْرَفُواْ﴾» is the introduction to Surat al-Zumar (39, 39:53ff), not about 38:88 «وَلَتَعْلَمُنَّ نَبَأَهُ»; no correct range exists in surah 38, cross-surah relocation needs a human decision.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "HUMAN"
+}
+}
+}
+}

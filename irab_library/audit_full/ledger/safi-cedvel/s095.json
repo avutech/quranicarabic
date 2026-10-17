@@ -1,0 +1,70 @@
+{
+"safi-cedvel:1-5": {
+"p1": {
+"ar": "63173a7456e5",
+"tr": "cbdf7341bd0c",
+"en": "37697b7412ea",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u65",
+"at": "2026-10-10 19:31",
+"fixed": false
+}
+},
+"safi-cedvel:6-6": {
+"p1": {
+"ar": "2f79d7795367",
+"tr": "9ff8c299b872",
+"en": "0906ab7a6435",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u65",
+"at": "2026-10-10 19:31",
+"fixed": false
+}
+},
+"safi-cedvel:7-7": {
+"p1": {
+"ar": "a055d3cf25e5",
+"tr": "056fbf7162ab",
+"en": "ae12aa2df79f",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish had unmarked addition \"(hesap)\" after \"ceza\" (Arabic بسبب الجزاء); removed.",
+"by": "safi-cedvel-u65",
+"at": "2026-10-10 19:31",
+"fixed": true
+},
+"p2": {
+"ar": "a055d3cf25e5",
+"tr": "056fbf7162ab",
+"en": "ae12aa2df79f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u23",
+"at": "2026-10-16 19:06",
+"fixed": false
+}
+},
+"safi-cedvel:8-8": {
+"p1": {
+"ar": "8b64c97da6ee",
+"tr": "8b7af06a5586",
+"en": "be74fd728c8d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u65",
+"at": "2026-10-10 19:31",
+"fixed": false
+}
+}
+}

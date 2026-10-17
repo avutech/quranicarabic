@@ -1,0 +1,27 @@
+{
+"ukberi-tibyan:79-79": {
+"hs": [
+"73b81ecfa7a9",
+"e74ccb4a5b95",
+"e76b3d179df4"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "The entry quotes 6:79 (إِنِّي وَجَّهْتُ وَجْهِيَ لِلَّذِي فَطَرَ السَّمَاوَاتِ) and comments on (لِلَّذِي فَطَرَ السَّمَاوَاتِ): أَوْ لِعِبَادَتِهِ أَوْ لِرِضَاهُ. Though the comment opens abruptly with أَوْ (possibly a lost/misread word), it is placed under the only ayah it discusses; the gap is already flagged in the TR note. Listing is correct.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Entry quotes and comments only on 6:79 (لِلَّذِي فَطَرَ السَّمَاوَاتِ ... أَوْ لِعِبَادَتِهِ أَوْ لِرِضَاهُ); it is listed under the ayah it discusses. The odd opening أَوْ (likely for أَيْ) is a textual oddity, not a placement problem, and the text is translatable.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

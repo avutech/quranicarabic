@@ -1,0 +1,1390 @@
+{
+"semin-durr:153-153": {
+"p1": {
+"ar": "76dffb7f958f",
+"tr": "1457d70bd29b",
+"en": "2dc57bc8d75c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u29",
+"at": "2026-10-11 02:29",
+"fixed": false
+}
+},
+"semin-durr:154-154": {
+"p1": {
+"ar": "2812c6a5c6f7",
+"tr": "408898beb183",
+"en": "e6a478400e1d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u29",
+"at": "2026-10-11 02:29",
+"fixed": false
+}
+},
+"semin-durr:160-160": {
+"p1": {
+"ar": "05cddcd89056",
+"tr": "eafc4141471d",
+"en": "9ce8848f6514",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u29",
+"at": "2026-10-11 02:29",
+"fixed": false
+}
+},
+"semin-durr:161-161": {
+"p1": {
+"ar": "3cefc9abc4b2",
+"tr": "797b599eef52",
+"en": "937f2a6f171d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u29",
+"at": "2026-10-11 02:29",
+"fixed": false
+},
+"p2": {
+"ar": "3cefc9abc4b2",
+"tr": "797b599eef52",
+"en": "937f2a6f171d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u18",
+"at": "2026-10-17 00:09",
+"fixed": false
+}
+},
+"semin-durr:163-163": {
+"p1": {
+"ar": "7deb9f5f06b9",
+"tr": "c6ed24ec188b",
+"en": "7d746a886d24",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p1-u4",
+"at": "2026-10-17 00:39",
+"fixed": false
+},
+"p2": {
+"ar": "7deb9f5f06b9",
+"tr": "c6ed24ec188b",
+"en": "7d746a886d24",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN gave verse 3825 (\"وأيقظ من كان منكم نياما\") only in English, dropping the Arabic line; restored.",
+"by": "semin-durr-p2-u15",
+"at": "2026-10-17 00:35",
+"fixed": true
+}
+},
+"semin-durr:164-164": {
+"p1": {
+"ar": "daf0da29342f",
+"tr": "a949e1043615",
+"en": "118d8aeb4790",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u29",
+"at": "2026-10-11 02:29",
+"fixed": false
+}
+},
+"semin-durr:172-172": {
+"p1": {
+"ar": "6f660c0ad2e9",
+"tr": "c59ca06f07a9",
+"en": "f68ce5eff5d7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u29",
+"at": "2026-10-11 02:29",
+"fixed": false
+}
+},
+"semin-durr:177-177": {
+"p1": {
+"ar": "f5a438d57083",
+"tr": "5040dd1d43b8",
+"en": "da9d2c8a42d7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u29",
+"at": "2026-10-11 02:29",
+"fixed": false
+}
+},
+"semin-durr:180-180": {
+"p1": {
+"ar": "d019f6ea1798",
+"tr": "2d3228e51925",
+"en": "28a481f7662a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u29",
+"at": "2026-10-11 02:29",
+"fixed": false
+}
+},
+"semin-durr:1-1": {
+"p1": {
+"ar": "e593f84a4bf2",
+"tr": "cffd2aa162ef",
+"en": "a971985d074a",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English: 'rise from the excellent to the more excellent to the preferred' reversed the sense of «من أفضلَ إلى فاضلٍ إلى مَفْضولٍ»; corrected to more excellent -> excellent -> less excellent.",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:31",
+"fixed": true
+},
+"p2": {
+"ar": "e593f84a4bf2",
+"tr": "cffd2aa162ef",
+"en": "a971985d074a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u18",
+"at": "2026-10-17 00:09",
+"fixed": false
+}
+},
+"semin-durr:5-5": {
+"p1": {
+"ar": "374bc36c965c",
+"tr": "81ae33ddb789",
+"en": "30f8411534d2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:31",
+"fixed": false
+}
+},
+"semin-durr:6-6": {
+"p1": {
+"ar": "2ab75cf99443",
+"tr": "ad8b6cfdaf2f",
+"en": "f6addc23453c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:31",
+"fixed": false
+}
+},
+"semin-durr:7-7": {
+"p1": {
+"ar": "2e79457c0fb5",
+"tr": "5d74e4ce9d8f",
+"en": "6d01199362c9",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish rendered «حَفِظْناها حِفْظاً» as 'onları gerçekten korudu' (wrong person/number); corrected to 'onu bir koruyuşla koruduk'.",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:31",
+"fixed": true
+},
+"p2": {
+"ar": "2e79457c0fb5",
+"tr": "5d74e4ce9d8f",
+"en": "6d01199362c9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u18",
+"at": "2026-10-17 00:09",
+"fixed": false
+}
+},
+"semin-durr:8-8": {
+"p1": {
+"ar": "6bb9093ad5f4",
+"tr": "aed184f12924",
+"en": "2f77424f4a23",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:31",
+"fixed": false
+}
+},
+"semin-durr:9-9": {
+"p1": {
+"ar": "af1e97e0f688",
+"tr": "b9f5ca9a3fcc",
+"en": "d5be435a5ada",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish rendered «مَدْحورين»/«ذَوي دُحورٍ» as 'mahrum edilenler' (deprived); corrected to kovulma sahipleri / kovulmuşlar.",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:31",
+"fixed": true
+},
+"p2": {
+"ar": "af1e97e0f688",
+"tr": "b9f5ca9a3fcc",
+"en": "d5be435a5ada",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u18",
+"at": "2026-10-17 00:09",
+"fixed": false
+}
+},
+"semin-durr:10-10": {
+"p1": {
+"ar": "21ac22d99809",
+"tr": "52cf41fbd9f9",
+"en": "2f5b6fbcdf0e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:31",
+"fixed": false
+}
+},
+"semin-durr:11-11": {
+"p1": {
+"ar": "be4b04c56fc8",
+"tr": "0fb0bfd23b26",
+"en": "eed867246370",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:31",
+"fixed": false
+}
+},
+"semin-durr:12-12": {
+"p1": {
+"ar": "54d0e2f24f97",
+"tr": "3996afae0213",
+"en": "9a8fdc8952c1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:31",
+"fixed": false
+}
+},
+"semin-durr:17-17": {
+"p1": {
+"ar": "81e82976db79",
+"tr": "abc30f944e79",
+"en": "e5699f2298a5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:31",
+"fixed": false
+}
+},
+"semin-durr:18-18": {
+"p1": {
+"ar": "488d7f106e1f",
+"tr": "5a4a7fdef532",
+"en": "fa631967d748",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:19-19": {
+"p1": {
+"ar": "82761ea1b0e5",
+"tr": "490d3d784896",
+"en": "76eb5a1a558e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:34",
+"fixed": false
+}
+},
+"semin-durr:20-20": {
+"p1": {
+"ar": "507adba94b7f",
+"tr": "13e269a100d5",
+"en": "9c8659a702e7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:31",
+"fixed": false
+},
+"p2": {
+"ar": "507adba94b7f",
+"tr": "13e269a100d5",
+"en": "9c8659a702e7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u18",
+"at": "2026-10-17 00:09",
+"fixed": false
+}
+},
+"semin-durr:22-22": {
+"p1": {
+"ar": "0d8af60aad2d",
+"tr": "c1379a3629ea",
+"en": "7933727defd6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:31",
+"fixed": false
+}
+},
+"semin-durr:24-24": {
+"p1": {
+"ar": "f1464d1e8c66",
+"tr": "d947c37742a4",
+"en": "c6545b02ec21",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:31",
+"fixed": false
+}
+},
+"semin-durr:25-25": {
+"p1": {
+"ar": "70d09dba45a2",
+"tr": "3b3882c38753",
+"en": "293979d0e10d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:31",
+"fixed": false
+}
+},
+"semin-durr:28-28": {
+"p1": {
+"ar": "b8b6b1fdd45f",
+"tr": "5155b8a915d4",
+"en": "d97f6dd7b6ee",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:31",
+"fixed": false
+},
+"p2": {
+"ar": "b8b6b1fdd45f",
+"tr": "5155b8a915d4",
+"en": "d97f6dd7b6ee",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u18",
+"at": "2026-10-17 00:09",
+"fixed": false
+}
+},
+"semin-durr:31-31": {
+"p1": {
+"ar": "81f60eca5d75",
+"tr": "0fb8cd4c484e",
+"en": "d419e1a3a730",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:31",
+"fixed": false
+}
+},
+"semin-durr:33-33": {
+"p1": {
+"ar": "83f09ea5b7c2",
+"tr": "0bb969805d09",
+"en": "8ddfdb44c2a4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:31",
+"fixed": false
+}
+},
+"semin-durr:37-37": {
+"p1": {
+"ar": "5d9c3c8a8ea8",
+"tr": "106f46b8d912",
+"en": "1ed458a3dda9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:31",
+"fixed": false
+}
+},
+"semin-durr:38-38": {
+"p1": {
+"ar": "5db8d068895b",
+"tr": "723f228339e1",
+"en": "a1bbfb3a3a3f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:31",
+"fixed": false
+},
+"p2": {
+"ar": "5db8d068895b",
+"tr": "723f228339e1",
+"en": "a1bbfb3a3a3f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u18",
+"at": "2026-10-17 00:09",
+"fixed": false
+}
+},
+"semin-durr:39-39": {
+"p1": {
+"ar": "bcd54af1205e",
+"tr": "112ab977bf17",
+"en": "75360ca03879",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:31",
+"fixed": false
+}
+},
+"semin-durr:40-40": {
+"p1": {
+"ar": "89f19ea9d02c",
+"tr": "1a6326446011",
+"en": "2378ab38625e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:31",
+"fixed": false
+}
+},
+"semin-durr:41-41": {
+"p1": {
+"ar": "0bceb4a758de",
+"tr": "70051c161144",
+"en": "5d9a37dcc70a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:31",
+"fixed": false
+}
+},
+"semin-durr:42-42": {
+"p1": {
+"ar": "fa648a1b0f90",
+"tr": "13c1e6df5bb5",
+"en": "cb54bf2cae1a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:31",
+"fixed": false
+}
+},
+"semin-durr:44-44": {
+"p1": {
+"ar": "79665dca1852",
+"tr": "77195313efa4",
+"en": "ba566a8b89c8",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Source says السماعَ وَرَدَ في الجوامد (non-derived nouns); translations said \"inanimate/cansiz\" so reworded to rigid non-derived (jawamid / camid) nouns",
+"by": "semin-durr-p1-u18",
+"at": "2026-10-17 01:02",
+"fixed": true
+},
+"p2": {
+"ar": "79665dca1852",
+"tr": "77195313efa4",
+"en": "ba566a8b89c8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u13",
+"at": "2026-10-17 01:08",
+"fixed": false
+}
+},
+"semin-durr:46-46": {
+"p1": {
+"ar": "fa24ea8af2f5",
+"tr": "3d70dd2ed168",
+"en": "984a6d4777ad",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p1-u18",
+"at": "2026-10-17 01:02",
+"fixed": false
+},
+"p2": {
+"ar": "fa24ea8af2f5",
+"tr": "151f8a7e22f6",
+"en": "5d5a5dac5923",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u18",
+"at": "2026-10-17 00:09",
+"fixed": false
+}
+},
+"semin-durr:47-47": {
+"p1": {
+"ar": "5b6f75c4b20a",
+"tr": "c64acb0401b3",
+"en": "e3d952ff9839",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:48-48": {
+"p1": {
+"ar": "ec25ab6b2741",
+"tr": "5a0d4ea20139",
+"en": "5afa56ac9885",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:50-50": {
+"p1": {
+"ar": "e817e59c6c87",
+"tr": "2a3abeed341e",
+"en": "5e4c5023ab04",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:33",
+"fixed": false
+},
+"p2": {
+"ar": "e817e59c6c87",
+"tr": "2a3abeed341e",
+"en": "5e4c5023ab04",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u18",
+"at": "2026-10-17 00:09",
+"fixed": false
+}
+},
+"semin-durr:52-52": {
+"p1": {
+"ar": "995f4570d53a",
+"tr": "4f678fdb5b80",
+"en": "8853d19b62fc",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:54-54": {
+"p1": {
+"ar": "eefb87d5d463",
+"tr": "597b64953a22",
+"en": "b3a1f862f239",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:55-55": {
+"p1": {
+"ar": "ca9a9feaf48a",
+"tr": "004dc21b0fbd",
+"en": "76e981a9db38",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p1-u10",
+"at": "2026-10-17 00:18",
+"fixed": false
+},
+"p2": {
+"ar": "ca9a9feaf48a",
+"tr": "004dc21b0fbd",
+"en": "76e981a9db38",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Unmarked glosses of «حتى ينقطعَ سَوائي»: EN added \"[i.e. until the middle of my ink-pot ran out]\" and TR \"(ortam/benim tarafım)\", neither in the Arabic and wrong in sense; replaced by marked translator notes.",
+"by": "semin-durr-p2-u18",
+"at": "2026-10-17 00:09",
+"fixed": true
+}
+},
+"semin-durr:56-56": {
+"p1": {
+"ar": "518788fd8470",
+"tr": "69a301c19de9",
+"en": "a74df6ec248e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:58-58": {
+"p1": {
+"ar": "89a86e65b39d",
+"tr": "520aaa9186e9",
+"en": "86c75036e319",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:59-59": {
+"p1": {
+"ar": "12baae0a2ec8",
+"tr": "aa75d68190c0",
+"en": "48b3737e60e0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:60-60": {
+"p1": {
+"ar": "46e91f699b52",
+"tr": "2258fe41c118",
+"en": "8e2f17a3ba98",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:62-62": {
+"p1": {
+"ar": "0aeb91825b65",
+"tr": "f7d96369268c",
+"en": "e51117926c66",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:65-65": {
+"p1": {
+"ar": "6d470e8f4193",
+"tr": "9e91ac2b2a08",
+"en": "dc3813bc83a2",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish gloss of poem 3812 rendered the tree name «أَسْتَن» as 'üstün ağaç'; corrected to «أَسْتَن» ağacı.",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:33",
+"fixed": true
+},
+"p2": {
+"ar": "6d470e8f4193",
+"tr": "9e91ac2b2a08",
+"en": "dc3813bc83a2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u18",
+"at": "2026-10-17 00:09",
+"fixed": false
+}
+},
+"semin-durr:67-67": {
+"p1": {
+"ar": "f29e6b05276b",
+"tr": "bd31e74f0251",
+"en": "5f99d25be196",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:33",
+"fixed": false
+},
+"p2": {
+"ar": "f29e6b05276b",
+"tr": "bd31e74f0251",
+"en": "5f99d25be196",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u18",
+"at": "2026-10-17 00:09",
+"fixed": false
+}
+},
+"semin-durr:74-74": {
+"p1": {
+"ar": "113479d2b35b",
+"tr": "ad851a3f3c0b",
+"en": "1980c3aa50a0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:75-75": {
+"p1": {
+"ar": "c09d463d3130",
+"tr": "e469a956c7ce",
+"en": "e72c36314b33",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:79-79": {
+"p1": {
+"ar": "16320330a03b",
+"tr": "85d93be8bafd",
+"en": "9ed40e48dbd4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:83-83": {
+"p1": {
+"ar": "38490ba3aa3b",
+"tr": "b8d41558d51a",
+"en": "2564230ccf7c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:84-84": {
+"p1": {
+"ar": "47437d8b6ed2",
+"tr": "38ee2d5aaee0",
+"en": "8cab762c94d1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:85-85": {
+"p1": {
+"ar": "a8a10bcf8e0e",
+"tr": "3c2b70a5e056",
+"en": "57ceb7372350",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish rendered «سَلِمَ عليه» as 'kendisine selam verildi' (greeted); it means he was safe/sound; corrected to 'buna karşı salim kaldı'.",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:33",
+"fixed": true
+},
+"p2": {
+"ar": "a8a10bcf8e0e",
+"tr": "3c2b70a5e056",
+"en": "57ceb7372350",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u18",
+"at": "2026-10-17 00:09",
+"fixed": false
+}
+},
+"semin-durr:86-86": {
+"p1": {
+"ar": "bbcc04487c27",
+"tr": "5d4d20577497",
+"en": "19ac70dd7f49",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:91-91": {
+"p1": {
+"ar": "885f2eeda53a",
+"tr": "7373c77bab40",
+"en": "da94bb4fda22",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:33",
+"fixed": false
+},
+"p2": {
+"ar": "885f2eeda53a",
+"tr": "7373c77bab40",
+"en": "da94bb4fda22",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u18",
+"at": "2026-10-17 00:09",
+"fixed": false
+}
+},
+"semin-durr:93-93": {
+"p1": {
+"ar": "86a0e1d2d202",
+"tr": "72ba01ab18f6",
+"en": "82769c19eea1",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish gave the estimation as «يَضْرِب ضَرْباً فراغَ», reversing the Arabic «فراغَ يَضْرِب ضَرْباً»; corrected.",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:33",
+"fixed": true
+},
+"p2": {
+"ar": "86a0e1d2d202",
+"tr": "72ba01ab18f6",
+"en": "82769c19eea1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u18",
+"at": "2026-10-17 00:09",
+"fixed": false
+}
+},
+"semin-durr:94-94": {
+"p1": {
+"ar": "54a093753e43",
+"tr": "907403495d3a",
+"en": "edca3f0e1536",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:96-96": {
+"p1": {
+"ar": "55941adf5f4d",
+"tr": "9afc6278c496",
+"en": "3019e8f74d76",
+"fit": "OK",
+"trv": "UNSURE",
+"env": "UNSURE",
+"note": "The last sentence: «استفرضَ الزمخشري هذه المقالةَ... وشَنَّع على قائلها»: Turkish 'çürüttü' and English 'took up' render the unclear verb «استفرض» differently; cannot verify which is right, source verb may be garbled.",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:33",
+"fixed": false
+},
+"p2": {
+"ar": "55941adf5f4d",
+"tr": "9afc6278c496",
+"en": "3019e8f74d76",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u18",
+"at": "2026-10-17 00:09",
+"fixed": false
+}
+},
+"semin-durr:102-102": {
+"p1": {
+"ar": "5357fedf492d",
+"tr": "8f8d5b351849",
+"en": "3376c066755e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:103-103": {
+"p1": {
+"ar": "98dbd50553b6",
+"tr": "a701a278cd14",
+"en": "2f6390aea5d7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:112-112": {
+"p1": {
+"ar": "a323146603e2",
+"tr": "93c6b42561d5",
+"en": "ea1a56af33e7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:116-116": {
+"p1": {
+"ar": "6a6cadcc1325",
+"tr": "01914c02ee14",
+"en": "4d5e6c626250",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:123-123": {
+"p1": {
+"ar": "add3ef90f6f2",
+"tr": "077682d84eed",
+"en": "3cc596b5eb4f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:124-124": {
+"p1": {
+"ar": "6b86a801e078",
+"tr": "f638815df7c9",
+"en": "6c4d4c6169cf",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:125-125": {
+"p1": {
+"ar": "ea2b4ffba456",
+"tr": "97b16d43b94a",
+"en": "f29277d15ea4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:126-126": {
+"p1": {
+"ar": "5be7cb1b9c9c",
+"tr": "ec2243552c46",
+"en": "679da1d19841",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:33",
+"fixed": false
+},
+"p2": {
+"ar": "5be7cb1b9c9c",
+"tr": "ec2243552c46",
+"en": "679da1d19841",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u18",
+"at": "2026-10-17 00:09",
+"fixed": false
+}
+},
+"semin-durr:128-128": {
+"p1": {
+"ar": "8ce5366ac7d2",
+"tr": "d1cf5f658fa5",
+"en": "58921f595669",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:130-130": {
+"p1": {
+"ar": "daadbc06745c",
+"tr": "00c44bba32dd",
+"en": "ed223d9e0af0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:137-137": {
+"p1": {
+"ar": "f9da7418bb15",
+"tr": "71d9698fd7e4",
+"en": "5040792893ff",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:34",
+"fixed": false
+}
+},
+"semin-durr:138-138": {
+"p1": {
+"ar": "0f7279c631c0",
+"tr": "548749642191",
+"en": "38787dad5af4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:140-140": {
+"p1": {
+"ar": "03f267bc4c56",
+"tr": "7dfbacc3949d",
+"en": "60a38cc82d62",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:141-141": {
+"p1": {
+"ar": "2f82a6878d84",
+"tr": "2e5462756d9b",
+"en": "01e78c624d1b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:142-142": {
+"p1": {
+"ar": "797de52c8fe8",
+"tr": "62679803d46d",
+"en": "2771fb7de81e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:144-144": {
+"p1": {
+"ar": "e25bb2afade0",
+"tr": "d8a10411bc78",
+"en": "32b081137a13",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:145-145": {
+"p1": {
+"ar": "6bf13cb886d8",
+"tr": "1e375cc0b861",
+"en": "c24005781308",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:34",
+"fixed": false
+}
+},
+"semin-durr:146-146": {
+"p1": {
+"ar": "aef36b47f863",
+"tr": "9482ba67e7bd",
+"en": "da844b8cde40",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:34",
+"fixed": false
+}
+},
+"semin-durr:147-147": {
+"p1": {
+"ar": "cd4369834a1a",
+"tr": "1ea91dd395be",
+"en": "d0c2a3b5d72c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:34",
+"fixed": false
+}
+},
+"semin-durr:149-149": {
+"p1": {
+"ar": "71e600e43718",
+"tr": "5640d5f6a6a1",
+"en": "067097299f7f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:34",
+"fixed": false
+}
+},
+"semin-durr:150-150": {
+"p1": {
+"ar": "bb8e918e912b",
+"tr": "5698bf417670",
+"en": "4db6b7b3e2ff",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:34",
+"fixed": false
+},
+"p2": {
+"ar": "bb8e918e912b",
+"tr": "5698bf417670",
+"en": "4db6b7b3e2ff",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u18",
+"at": "2026-10-17 00:09",
+"fixed": false
+}
+},
+"semin-durr:152-152": {
+"p1": {
+"ar": "bc2d697a0d25",
+"tr": "596a6a6c369c",
+"en": "fe3ac167f6c4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u28",
+"at": "2026-10-11 02:34",
+"fixed": false
+}
+}
+}

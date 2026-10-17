@@ -1,0 +1,27 @@
+{
+"mekki-muskil:8-8": {
+"hs": [
+"c7e54efbcbc4",
+"55bd15984468",
+"b377e9a5051f"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Current Turkish is complete: it renders ما ابتداء ثان استفهام معناه التعجب والتعظيم, ما هم, الحاقة ما الحاقة / القارعة ما القارعة, the clause وإنما ظهير الاسم الثاني ... ليكون أجل في التعظيم والتعجب وأبلغ (with a marked note on ظهير), and the final ومثله أيضا وأصحاب المشأمة ما أصحاب المشأمة. The claimed truncation is not present.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Turkish is now complete: it renders ومثله الحاقة ما الحاقة والقارعة ما القارعة, وإنما ظهير الاسم الثاني وحقه أن يكون مضمرا ... أجل في التعظيم والتعجب وأبلغ (with a marked Mütercim notu on ظهير), and ومثله أيضا وأصحاب المشأمة ما أصحاب المشأمة. No omission; parse is faithful.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

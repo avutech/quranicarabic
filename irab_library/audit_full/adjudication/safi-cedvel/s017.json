@@ -1,0 +1,42 @@
+{
+"safi-cedvel:100-100": {
+"hs": [
+"4e663291d9b6",
+"cc39e640f217",
+"834c19af9f1b"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Fawa'id: source only «لو ذات سوار لطمتني» والتقدير «لو لطمتني ذات سوار». TR gloss '(Keşke bilezik sahibi [hür] bir kadın bana tokat atsaydı)' adds '[hür]' (free), which is not in the Arabic and is not inside a [Mütercim notu: ...]; unmarked interpretive addition. EN 'if a woman wearing a bracelet had slapped me' has no such addition. Fix: drop '[hür]' or put it in a Mütercim notu; a conditional 'eğer' rendering would also match EN.",
+"at": "2026-10-17 00:42"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Fevaid 1: Arabic only quotes «لو ذات سوار لطمتني» with its taqdir «لو لطمتني ذات سوار». Turkish gloss '(Keşke bilezik sahibi [hür] bir kadın bana tokat atsaydı)' adds '[hür]' in bare brackets (not a Mütercim notu) and renders conditional لو as a wish 'Keşke', while the passage itself is about لو as a conditional needing an implied verb - wrong sense. Also Fevaid 2: «ليست الناصبة للفعل المضارع» becomes 'muzâri fiili nasbeden (إذن) olmadığını' - '(إذن)' is not in the Arabic and is unmarked. Fix: 'Eğer bilezik sahibi bir kadın bana tokat atsaydı' and move clarifications into «[Mütercim notu: …]».",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Fevaid 1: gloss now 'Eğer bilezik sahibi bir kadın...' (removed unmarked [hür], conditional not wish); Fevaid 2: moved unmarked '(إذن)' into a Mütercim notu",
+"verified": "PASS",
+"verify_note": "Fevaid 1 gloss now 'Eğer bilezik sahibi bir kadın...' with no '[hür]'; Fevaid 2 إذن clarification moved into a Mütercim notu; rest of TR complete and faithful"
+}
+},
+"history": [
+{
+"old_hs": [
+"4e663291d9b6",
+"74a4b5d57d21",
+"834c19af9f1b"
+],
+"dim": "tr",
+"what": "Fevaid 1: gloss now 'Eğer bilezik sahibi bir kadın...' (removed unmarked [hür], conditional not wish); Fevaid 2: moved unmarked '(إذن)' into a Mütercim notu",
+"at": "2026-10-17 00:45"
+}
+]
+}
+}

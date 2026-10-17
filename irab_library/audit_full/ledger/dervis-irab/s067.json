@@ -1,0 +1,108 @@
+{
+"dervis-irab:12-17": {
+"p1": {
+"ar": "ce82d30604da",
+"tr": "6fe18d4e923d",
+"en": "0c4cd3be3c3a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u93",
+"at": "2026-10-10 19:44",
+"fixed": false
+}
+},
+"dervis-irab:18-22": {
+"p1": {
+"ar": "762661ada5c9",
+"tr": "86eead242885",
+"en": "c091d0eba791",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR: Zamakhshari quote «من الغرائب والشواذ» had the critics doing the calling (sayiyorlar); fixed to the source meaning (this is among the rarities and anomalies); removed unmarked additions [kitlikta] and (manalari).",
+"by": "dervis-irab-p1-u4",
+"at": "2026-10-17 00:20",
+"fixed": true
+},
+"p2": {
+"ar": "762661ada5c9",
+"tr": "86eead242885",
+"en": "c091d0eba791",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u6",
+"at": "2026-10-17 00:29",
+"fixed": false
+}
+},
+"dervis-irab:23-30": {
+"p1": {
+"ar": "5f7c3b05efe7",
+"tr": "742487739bdb",
+"en": "08f4de493b14",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u93",
+"at": "2026-10-10 19:44",
+"fixed": false
+}
+},
+"dervis-irab:1-4": {
+"p1": {
+"ar": "667a322c5bd3",
+"tr": "e3093e169a56",
+"en": "de944d02f8fe",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English silently corrected source typo «بتري» (for بترى) in the sentence \"في خلق الرحمن متعلقان بتري\"; added marked Translator note.",
+"by": "dervis-irab-p1-u16",
+"at": "2026-10-17 00:57",
+"fixed": true
+},
+"p2": {
+"ar": "667a322c5bd3",
+"tr": "e3093e169a56",
+"en": "de944d02f8fe",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u12",
+"at": "2026-10-17 01:06",
+"fixed": false
+}
+},
+"dervis-irab:5-11": {
+"p1": {
+"ar": "b3eb2dba3d01",
+"tr": "63e49c5302a0",
+"en": "b9f4ae3e7df7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u16",
+"at": "2026-10-17 00:57",
+"fixed": false
+},
+"p2": {
+"ar": "b3eb2dba3d01",
+"tr": "c72eae23c517",
+"en": "b9f4ae3e7df7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u6",
+"at": "2026-10-17 00:04",
+"fixed": false
+}
+}
+}

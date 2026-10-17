@@ -1,0 +1,152 @@
+{
+"farraa:1-2": {
+"p1": {
+"ar": "5eeb2f38ed1f",
+"tr": "975d77d77b15",
+"en": "e222b2b624be",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:57",
+"fixed": false
+}
+},
+"farraa:3-3": {
+"p1": {
+"ar": "3f7906c0ad33",
+"tr": "c7f170254da9",
+"en": "3455b5cf7395",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR added unmarked \"(cin)\" for التابع; removed.",
+"by": "farraa-u22",
+"at": "2026-10-10 15:57",
+"fixed": true
+},
+"p2": {
+"ar": "3f7906c0ad33",
+"tr": "c7f170254da9",
+"en": "3455b5cf7395",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p2-u4",
+"at": "2026-10-16 19:05",
+"fixed": false
+}
+},
+"farraa:5-5": {
+"p1": {
+"ar": "87fcd29778c5",
+"tr": "224932ad9f1a",
+"en": "687f8eff85cf",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:57",
+"fixed": false
+}
+},
+"farraa:6-6": {
+"p1": {
+"ar": "68b3e250eede",
+"tr": "c94a1c6e7979",
+"en": "67ffe63089f6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:57",
+"fixed": false
+}
+},
+"farraa:7-7": {
+"p1": {
+"ar": "bc2abd8a639b",
+"tr": "eabdc71701cb",
+"en": "229cf95328cc",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:57",
+"fixed": false
+}
+},
+"farraa:8-8": {
+"p1": {
+"ar": "1e731481fab6",
+"tr": "08a2e06e1e66",
+"en": "4c891a383632",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:57",
+"fixed": false
+}
+},
+"farraa:9-9": {
+"p1": {
+"ar": "18290c71c9c0",
+"tr": "3924a39a2332",
+"en": "6a222e10b553",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:57",
+"fixed": false
+}
+},
+"farraa:10-10": {
+"p1": {
+"ar": "ae7d00b38eaa",
+"tr": "62c6acc8a9dc",
+"en": "be900b17b5a0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:57",
+"fixed": false
+}
+},
+"farraa:11-11": {
+"p1": {
+"ar": "d65969e53d29",
+"tr": "0804942792af",
+"en": "5a72e785a7f5",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR silently corrected source ويغيره; added marked note.",
+"by": "farraa-u22",
+"at": "2026-10-10 15:57",
+"fixed": true
+},
+"p2": {
+"ar": "d65969e53d29",
+"tr": "0804942792af",
+"en": "5a72e785a7f5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p2-u4",
+"at": "2026-10-16 19:05",
+"fixed": false
+}
+}
+}

@@ -1,0 +1,192 @@
+{
+"semin-durr:1-1": {
+"p1": {
+"ar": "13aa31911db4",
+"tr": "1e3143ce2dd1",
+"en": "2590ade8c746",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u31",
+"at": "2026-10-11 02:40",
+"fixed": false
+}
+},
+"semin-durr:2-2": {
+"p1": {
+"ar": "d22c2042be28",
+"tr": "db2133ec0e42",
+"en": "c4b1c47eb07c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u31",
+"at": "2026-10-11 02:40",
+"fixed": false
+}
+},
+"semin-durr:3-3": {
+"p1": {
+"ar": "79cb145f725b",
+"tr": "4ae8f4965f69",
+"en": "e47c6d4b15b5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p1-u10",
+"at": "2026-10-17 00:16",
+"fixed": false
+},
+"p2": {
+"ar": "79cb145f725b",
+"tr": "4ae8f4965f69",
+"en": "e47c6d4b15b5",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "«وقرأ أيضاً وزيد بن علي»: TR dropped the first reader (\"he also read\") and attributed the reading to Zayd alone; fixed.",
+"by": "semin-durr-p2-u19",
+"at": "2026-10-17 00:09",
+"fixed": true
+}
+},
+"semin-durr:4-4": {
+"p1": {
+"ar": "743778b6ee75",
+"tr": "5063db23f510",
+"en": "2f9bba388f67",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR rendered Zamakhshari question ممَّ استثنى قولَه {إلا قول إبراهيم} as \"why excepted from \\\"Şüphesiz ki size onlarda...\\\"\" adding a quotation not in the Arabic and changing from-what to why. Fixed.",
+"by": "semin-durr-u31",
+"at": "2026-10-11 02:40",
+"fixed": true
+},
+"p2": {
+"ar": "743778b6ee75",
+"tr": "5063db23f510",
+"en": "2f9bba388f67",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u19",
+"at": "2026-10-17 00:09",
+"fixed": false
+}
+},
+"semin-durr:5-5": {
+"p1": {
+"ar": "79512387b8e5",
+"tr": "645b46407a55",
+"en": "9268b3352d0c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u31",
+"at": "2026-10-11 02:40",
+"fixed": false
+}
+},
+"semin-durr:6-6": {
+"p1": {
+"ar": "b3edd12ddc88",
+"tr": "23f7ce96a138",
+"en": "27cb4b562de4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u31",
+"at": "2026-10-11 02:40",
+"fixed": false
+}
+},
+"semin-durr:8-8": {
+"p1": {
+"ar": "27536192ea51",
+"tr": "14de263bd6ef",
+"en": "4c47872452de",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u31",
+"at": "2026-10-11 02:40",
+"fixed": false
+}
+},
+"semin-durr:10-10": {
+"p1": {
+"ar": "77054f4b1a87",
+"tr": "92c174ffa8f1",
+"en": "c476a94e13c4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u31",
+"at": "2026-10-11 02:40",
+"fixed": false
+}
+},
+"semin-durr:11-11": {
+"p1": {
+"ar": "e003bd33112d",
+"tr": "fccf2aac7fe7",
+"en": "2bce9e74d7f0",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR added unmarked \"(Zemahşerî'den alıntı)\" before انتهى; reduced to \"Sona erdi.\"",
+"by": "semin-durr-u31",
+"at": "2026-10-11 02:40",
+"fixed": true
+},
+"p2": {
+"ar": "e003bd33112d",
+"tr": "fccf2aac7fe7",
+"en": "2bce9e74d7f0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u19",
+"at": "2026-10-17 00:09",
+"fixed": false
+}
+},
+"semin-durr:12-12": {
+"p1": {
+"ar": "cf01acc8dbea",
+"tr": "12178e7fa3d9",
+"en": "8c043a0bf573",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u31",
+"at": "2026-10-11 02:40",
+"fixed": false
+}
+},
+"semin-durr:13-13": {
+"p1": {
+"ar": "c687dc0dc6ec",
+"tr": "02e6be62dceb",
+"en": "54b8c3013154",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u31",
+"at": "2026-10-11 02:40",
+"fixed": false
+}
+}
+}
