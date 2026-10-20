@@ -900,6 +900,15 @@ const REFERENCE_TOPICS = [
     pdfs: []
   },
   {
+    id: 'master-exam',
+    icon: '🏆',
+    tests: true,
+    group: 'power',
+    title: { en: 'Master Exam', tr: 'Ana Sınav', ar: 'الاختبار الشامل' },
+    desc: { en: 'A 50-question exam drawn from all three levels together, with a report of your strongest and weakest topics.', tr: 'Üç seviyenin tamamından 50 soruluk sınav; en güçlü ve en zayıf konularınızın raporuyla.', ar: 'اختبار من ٥٠ سؤالاً من المستويات الثلاثة معاً مع تقرير بأقوى موضوعاتك وأضعفها.' },
+    pdfs: []
+  },
+  {
     id: 'vocab-quiz',
     icon: '🧠',
     quiz: true,

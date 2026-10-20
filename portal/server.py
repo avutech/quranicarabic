@@ -12,6 +12,7 @@ from google.genai import types as genai_types
 
 import db as user_db
 from auth import auth_bp, login_required, admin_required, current_user_row, current_user_dict
+from tests_api import tests_bp, init_tables as init_test_tables
 
 
 def humanize_gemini_error(exc):
@@ -72,9 +73,11 @@ def gemini_generate(client, *, model, contents, config=None, _retries=3):
 
 app = Flask(__name__)
 app.register_blueprint(auth_bp)
+app.register_blueprint(tests_bp)
 
 # Seed admin on startup if the users table is empty.
 user_db.init_db()
+init_test_tables()
 _seed_pw = user_db.ensure_seed_admin("ahmugur@gmail.com")
 if _seed_pw:
     print("=" * 70, file=sys.stderr)
@@ -383,7 +386,7 @@ def irab_library_ayah(surah, ayah):
 
 # Only the frontend's own assets are public. portal/ also holds .env (API
 # keys), users.db and the server source, so this must stay an allowlist.
-PUBLIC_PORTAL_FILES = {"data.js", "vocab.js", "lessons_index.js", "lessons_index.json", "lectures.json"}
+PUBLIC_PORTAL_FILES = {"data.js", "vocab.js", "tests.js", "lessons_index.js", "lessons_index.json", "lectures.json"}
 
 
 @app.route("/<path:filename>")

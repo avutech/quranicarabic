@@ -1,3 +1,29 @@
+# Practice Tests & Master Exam (started 2026-10-17)
+
+Owner decisions: EN + TR content (Arabic UI later) · 100–200 questions per chapter ·
+hint costs 25% of a point, retry earns 50% · "report this question" button for students
+only (no scholar queue) · Master Exam is never locked.
+
+| Test | Count | Length | Pool |
+|---|---|---|---|
+| Chapter practice test | 42 | 20 | 100–200 per chapter, balanced across the chapter's topics |
+| Level exam | 3 | 20 | drawn from the 14 chapter pools of that level |
+| Master Exam (all 3 levels) | 1 | 50 | own pool, 400–600 integrative questions |
+
+Report after every test: strongest/weakest topics, link to the lecture section, 10-question drill, level summary, history.
+Every question: MCQ (4 options), real ayah (snapped to the local Uthmani text), explanation for every option.
+Generated in-session by subagents (no paid API). Data: `portal/testbank/<L#W#>.json`.
+
+- [x] Phase 0: schema + `portal/testbank_tool.py` (validate / snap ayah text / coverage report); authoring rules in `tasks/testbank_brief.md`
+- [x] Phase 1: pilot chapter L1W1 accepted after 11 independent review rounds (blocking findings per round: 26, 34, 26+, 15, 15, ~10, 5, 3, 2, 4, 0; no wrong answer keys in any round). Lessons are in `tasks/testbank_brief.md` (rules 1-20) and `tasks/testbank_pipeline.md`.
+- [x] Phase 2 (done, 13 tests: `portal/test_tests_api.py`): backend: balanced sampler, server-side grading (answers never sent to the browser), results + per-topic history tables, question reports
+- [x] Phase 3 (done; browser-tested with Playwright against a throwaway DB): frontend (`portal/tests.js` + hooks in index.html/data.js): Tests entries, test runner (hint, retry, per-option explanations), report page, drills
+- [~] Phase 4 (workflow wf_e88a1ae3-94d running): generate remaining 41 chapter pools (one agent per topic batch), validate each
+- [ ] Phase 5: level exams (sampler only) + Master Exam pool
+- [ ] Phase 6: verify (pool validation, sampling balance over 1000 draws, UI end to end)
+
+---
+
 # I'rab Library — replace AI i'rab with classical books
 
 ## Mapping-only audit — authorized 2026-10-10

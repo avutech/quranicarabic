@@ -1115,6 +1115,7 @@
 
 <script src="data.js"></script>
 <script src="vocab.js" onerror="window.VOCAB_POOL = null;"></script>
+<script src="tests.js"></script>
 <script src="lessons_index.js" onerror="window.LESSON_INDEX = null;"></script>
 <script>
 if (typeof VOCAB_POOL === 'undefined') { window.VOCAB_POOL = null; }
@@ -2375,7 +2376,8 @@ function clickReference(refId) {
   currentView = { type: 'reference', ref };
   practiceMode = false;
   renderSidebar();
-  if (ref.quiz) renderQuizSetup(ref);
+  if (ref.tests) TestsUI.renderMaster(ref);
+  else if (ref.quiz) renderQuizSetup(ref);
   else if (ref.flashcards) renderFlashcards(ref);
   else if (ref.irab) renderIrab(ref);
   else if (ref.selfCheck) renderSelfCheck(ref);
@@ -2419,7 +2421,9 @@ function renderLevelOverview(level) {
     <div class="section">
       <div class="section-title">${t('levelOverview')}</div>
       <div class="lesson-cards-grid">${cardsHtml}</div>
-    </div>`;
+    </div>
+    ${level.extraLevel ? '' : '<div class="section" id="level-exam-slot"></div>'}`;
+  if (!level.extraLevel && (typeof TestsUI !== 'undefined')) TestsUI.mountLevel(levelIndex + 1);
 }
 
 // Lazy-load the auto-generated lecture bundle on first lesson render.
@@ -2478,7 +2482,9 @@ function renderLesson(level, lesson) {
     ${lectureHtml ? `<div class="section"><div class="section-title">${t('lecture')}</div>${lectureHtml}</div>` : lecturePlaceholder}
     ${pdfHtml ? `<div class="section"><div class="section-title">${t('materials')}</div><div class="pdf-grid">${pdfHtml}</div></div>` : ''}
     ${practiceHtml ? `<div class="section"><div class="section-title">${t('practice')}</div>${practiceHtml}</div>` : ''}
+    ${isExtra ? '' : '<div class="section" id="lesson-tests-section"></div>'}
     <div class="section" id="lesson-resources-section"></div>`;
+  if (!isExtra && (typeof TestsUI !== 'undefined')) TestsUI.mountChapter(levelIndex + 1, lesson.week);
 
   // Lazy-load extra admin-managed resources for this lesson
   const lvlNum = level.levelNum || (LEVELS.indexOf(level) + 1);
@@ -2593,7 +2599,7 @@ function renderLectureMarkdown(text) {
 function renderLecture(lecture) {
   if (!lecture || !lecture.sections) return '';
   return `<div class="lecture-card">${
-    lecture.sections.map(sec => {
+    lecture.sections.map((sec, secIdx) => {
       const title = sec.title?.[lang] || sec.title?.en || '';
       const body = sec.body?.[lang] || sec.body?.en || '';
       const examplesHtml = sec.examples?.length
@@ -2606,7 +2612,7 @@ function renderLecture(lecture) {
           }</div>`
         : '';
       return `
-        <div class="lecture-section">
+        <div class="lecture-section" id="lec-sec-${secIdx}">
           <h3>${escapeHtml(title)}</h3>
           <div class="lecture-body">${renderLectureMarkdown(body)}</div>
           ${examplesHtml}
