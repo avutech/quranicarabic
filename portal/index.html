@@ -2016,14 +2016,17 @@ function renderSidebar() {
       </div>`;
 
     if (isExpanded) {
+      const tqLevel = level.extraLevel ? 0 : LEVELS.indexOf(level) + 1;   // practice tests exist for the 3 built-in levels
       for (const { lesson, i } of unlockedLessons) {
         const isLessonActive = currentView && currentView.type === 'lesson' && currentView.lesson === lesson;
         html += `
           <div class="lesson-item ${isLessonActive ? 'active' : ''}" onclick="clickLesson('${level.id}', ${i})">
             <div class="lesson-week-badge">${t('week')} ${lesson.week}</div>
             <div class="lesson-item-title">${lesson.title[lang]}</div>
+            ${(typeof TestsUI !== 'undefined') ? TestsUI.lessonBadge(tqLevel, lesson.week) : ''}
           </div>`;
       }
+      if (typeof TestsUI !== 'undefined') html += TestsUI.levelItem(tqLevel);
     }
   }
 
@@ -2407,7 +2410,7 @@ function renderLevelOverview(level) {
     .map((lesson, i) => ({ lesson, i }))
     .filter(({ lesson }) => isLessonUnlocked(level, lesson))
     .map(({ lesson, i }) => `
-    <div class="lesson-card" onclick="clickLesson('${level.id}', ${i})">
+    <div class="lesson-card" data-lw="${levelIndex + 1}-${lesson.week}" onclick="clickLesson('${level.id}', ${i})">
       <div class="lesson-card-week">${t('week')} ${lesson.week}</div>
       <div class="lesson-card-title">${lesson.title[lang]}</div>
       <div class="lesson-card-arrow">→ ${t('openPDF')} &amp; ${t('practice')}</div>

@@ -210,5 +210,54 @@ class Flow(unittest.TestCase):
         self.assertEqual(app.test_client().post("/api/tests/start", json={"kind": "chapter"}).status_code, 401)
 
 
+def fake_bank(ch, per_topic=12):
+    topics = [{"id": f"t{i}", "section": i, "title": {"en": f"T{i}", "tr": f"T{i}"}, "rule": {"en": "r", "tr": "r"}} for i in (1, 2)]
+    qs = [{"id": f"{ch}-{t['id']}-{k:02d}", "topic": t["id"], "chapter": ch, "difficulty": 1, "ref": "1:1", "quote": "x",
+           "stem": {"en": "s", "tr": "s"}, "correct": 0,
+           "options": [{"ar": f"a{j}", "why": {"en": "w", "tr": "w"}} for j in range(4)]}
+          for t in topics for k in range(per_topic)]
+    return {"chapter": ch, "topics": topics, "topic_by_id": {t["id"]: t for t in topics}, "questions": qs,
+            "q_by_id": {q["id"]: q for q in qs}}
+
+
+class Clearance(unittest.TestCase):
+    """Level exam / Master Exam only draw from chapters the student is cleared for (same unlocks as the lessons)."""
+
+    def banks(self):
+        from unittest import mock
+        b = {f"L{L}W{W}": fake_bank(f"L{L}W{W}") for L in (1, 2, 3) for W in range(1, 15)}
+        b["MASTER"] = {"chapter": "MASTER", "topics": [], "topic_by_id": {}, "questions": [], "q_by_id": {}}
+        for ch in ("L1W1", "L1W2", "L2W5"):                  # integrative questions tagged with their primary chapter
+            for q in fake_bank(ch)["questions"]:
+                q = dict(q, id="M-" + q["id"]); b["MASTER"]["questions"].append(q); b["MASTER"]["q_by_id"][q["id"]] = q
+        return mock.patch.object(T, "load_banks", return_value=b)
+
+    def test_level_exam_only_uses_unlocked_chapters(self):
+        c, _ = client(email="cl1@x.com", unlocks=("L1W1", "L1W2"))
+        with self.banks():
+            code, d = start(c, kind="level", level=1)
+            self.assertEqual(code, 200)
+            self.assertEqual({i["chapter"] for i in d["items"]}, {"L1W1", "L1W2"})
+            self.assertEqual(len(d["items"]), 20)
+            self.assertEqual(start(c, kind="level", level=2)[0], 403)           # no Level 2 clearance
+            cat = c.get("/api/tests/catalog").get_json()
+            self.assertEqual(cat["levels"]["1"], {"exam": True, "open": True, "cleared": 2})
+            self.assertFalse(cat["levels"]["2"]["open"])
+
+    def test_master_exam_respects_levels_and_needs_some_clearance(self):
+        c, _ = client(email="cl2@x.com", unlocks=("L1W1", "L2W5"))
+        none, _ = client(email="cl3@x.com", unlocks=())
+        adm, _ = client(role="admin", email="cl4@x.com", unlocks=())
+        with self.banks():
+            code, d = start(c, kind="master")
+            self.assertEqual(code, 200)
+            self.assertEqual({i["chapter"] for i in d["items"]}, {"L1W1", "L2W5"})   # L1W2 questions excluded
+            self.assertEqual(start(none, kind="master")[0], 403)
+            code, d = start(adm, kind="master")
+            self.assertEqual({i["chapter"] for i in d["items"]}, {"L1W1", "L1W2", "L2W5"})
+            self.assertTrue(c.get("/api/tests/catalog").get_json()["master"]["open"])
+            self.assertFalse(none.get("/api/tests/catalog").get_json()["master"]["open"])
+
+
 if __name__ == "__main__":
     unittest.main()

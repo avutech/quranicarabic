@@ -5,8 +5,8 @@ const TestsUI = (() => {
     en: {
       chapterTitle: 'Chapter Test', levelTitle: 'Level Exam', masterTitle: 'Master Exam', drillTitle: 'Topic Practice',
       chapterDesc: (n, k, q) => `${q} questions, mixed fresh every time from a pool of ${n} questions, balanced across the ${k} topics of this chapter. Every example is from the Qur'an.`,
-      levelDesc: (c, q) => `${q} questions from the ${c} chapters of this level, balanced across chapters and topics.`,
-      masterDesc: (q) => `The capstone: ${q} questions from all three levels together, balanced across levels, chapters and topics. Take it whenever you like.`,
+      levelDesc: (c, q) => `${q} questions from the ${c} chapter(s) of this level that are unlocked for you, balanced across chapters and topics.`,
+      masterDesc: (q) => `The capstone: ${q} questions across the levels and chapters you are unlocked for, balanced across levels, chapters and topics. Take it whenever you like.`,
       start: 'Start', startNew: 'New test', best: 'Best', attempts: 'attempts', learnNote: 'This is for learning, not for grading you: every answer comes with an explanation, and a hint costs only a little.',
       question: 'Question', of: 'of', points: 'points', pts: 'pts',
       hint: '💡 Hint (costs 25% of this question)', hintTitle: 'Rule from the lesson', endTest: 'End test',
@@ -21,13 +21,13 @@ const TestsUI = (() => {
       hintsUsed: 'Hints used', retries: 'Retries', weak: 'Topics to strengthen', strong: 'Your strongest topics', noWeak: 'No weak topics this time. Excellent! Take another test to keep them sharp.',
       study: 'Study this topic', drill: 'Practice this topic', byLevel: 'By level', allTopics: 'All topics in this test', history: 'Your earlier scores on this test',
       tryNewTest: 'Take a new test', back: 'Back', week: 'Week', level: 'Level', firstTry: 'first try', lifetime: 'overall', loading: 'Loading…',
-      locked: 'This chapter is not unlocked yet.', unavailable: 'Questions for this test are not available yet.', error: 'Something went wrong. Please try again.',
+      locked: 'This chapter is not unlocked yet.', masterLocked: 'The Master Exam opens once you have at least one unlocked lesson.', openLesson: 'Open the lesson', unavailable: 'Questions for this test are not available yet.', error: 'Something went wrong. Please try again.',
     },
     tr: {
       chapterTitle: 'Bölüm Testi', levelTitle: 'Seviye Sınavı', masterTitle: 'Ana Sınav', drillTitle: 'Konu Alıştırması',
       chapterDesc: (n, k, q) => `${q} soru; her seferinde ${n} soruluk havuzdan yeniden karıştırılır ve bölümün ${k} konusuna dengeli dağıtılır. Tüm örnekler Kur'an'dandır.`,
-      levelDesc: (c, q) => `Bu seviyenin ${c} bölümünden, bölümlere ve konulara dengeli dağıtılmış ${q} soru.`,
-      masterDesc: (q) => `Büyük final: üç seviyeden birlikte ${q} soru; seviyelere, bölümlere ve konulara dengeli dağıtılır. İstediğiniz zaman çözebilirsiniz.`,
+      levelDesc: (c, q) => `Bu seviyede kilidi açık ${c} bölümden, bölümlere ve konulara dengeli dağıtılmış ${q} soru.`,
+      masterDesc: (q) => `Büyük final: kilidini açtığınız seviye ve bölümlerden ${q} soru; seviyelere, bölümlere ve konulara dengeli dağıtılır. İstediğiniz zaman çözebilirsiniz.`,
       start: 'Başla', startNew: 'Yeni test', best: 'En iyi', attempts: 'deneme', learnNote: 'Amaç sizi notlamak değil öğretmektir: her cevabın açıklaması vardır, ipucunun bedeli de küçüktür.',
       question: 'Soru', of: '/', points: 'puan', pts: 'p',
       hint: '💡 İpucu (bu sorunun %25\'ine mal olur)', hintTitle: 'Dersten kural', endTest: 'Testi bitir',
@@ -42,7 +42,7 @@ const TestsUI = (() => {
       hintsUsed: 'Kullanılan ipucu', retries: 'Tekrar deneme', weak: 'Güçlendirilecek konular', strong: 'En güçlü konularınız', noWeak: 'Bu sefer zayıf konu yok. Harika! Taze kalmaları için yeni bir test çözün.',
       study: 'Bu konuyu çalış', drill: 'Bu konuyu alıştır', byLevel: 'Seviyeye göre', allTopics: 'Bu testteki tüm konular', history: 'Bu testteki önceki puanlarınız',
       tryNewTest: 'Yeni test çöz', back: 'Geri', week: 'Hafta', level: 'Seviye', firstTry: 'ilk deneme', lifetime: 'genel', loading: 'Yükleniyor…',
-      locked: 'Bu bölümün kilidi henüz açılmadı.', unavailable: 'Bu test için sorular henüz hazır değil.', error: 'Bir şeyler ters gitti. Lütfen tekrar deneyin.',
+      locked: 'Bu bölümün kilidi henüz açılmadı.', masterLocked: 'Ana Sınav, en az bir dersin kilidi açıldığında açılır.', openLesson: 'Dersi aç', unavailable: 'Bu test için sorular henüz hazır değil.', error: 'Bir şeyler ters gitti. Lütfen tekrar deneyin.',
     },
   };
   const L = () => (lang === 'tr' ? 'tr' : 'en');          // question content exists in en + tr; Arabic UI shows English
@@ -97,13 +97,62 @@ const TestsUI = (() => {
   }
 
   async function mountLevel(levelNum) {
+    await loadCatalog();
+    // a test button on every lesson card the student is cleared for
+    document.querySelectorAll('.lesson-card[data-lw]').forEach(el => {
+      const [L, W] = el.dataset.lw.split('-').map(Number);
+      const ch = catalog.chapters[`L${L}W${W}`];
+      if (!ch || !ch.open || el.querySelector('.tq-card-btn')) return;
+      el.insertAdjacentHTML('beforeend', `<button class="tq-card-btn" onclick="event.stopPropagation();TestsUI.openChapter(${L},${W})">📝 ${esc(tx('chapterTitle'))}</button>`);
+    });
     const slot = document.getElementById('level-exam-slot');
     if (!slot) return;
-    await loadCatalog();
-    const n = catalog.chaptersPerLevel[String(levelNum)] || 0;
-    if (n < 14) { slot.remove(); return; }       // a level exam needs all 14 chapters of the level
+    const li = catalog.levels && catalog.levels[String(levelNum)];
+    if (!li || !li.exam || !li.open) { slot.remove(); return; }
     slot.innerHTML = `<div class="section-title">${tx('levelTitle')}</div>` +
-      card(tx('levelTitle'), tx('levelDesc')(n, catalog.lengths.level), `level:L${levelNum}`, { kind: 'level', level: levelNum });
+      card(tx('levelTitle'), tx('levelDesc')(li.cleared, catalog.lengths.level), `level:L${levelNum}`, { kind: 'level', level: levelNum });
+  }
+
+  // Sidebar helpers (synchronous: they use the cached catalog and refresh the sidebar once it has loaded).
+  let loadingCatalog = false;
+  function ensureCatalog() {
+    if (catalog || loadingCatalog) return;
+    loadingCatalog = true;
+    loadCatalog().then(() => { loadingCatalog = false; if (typeof renderSidebar === 'function') renderSidebar(); });
+  }
+  function lessonBadge(L, W) {
+    if (!L) return '';
+    if (!catalog) { ensureCatalog(); return ''; }
+    const ch = catalog.chapters[`L${L}W${W}`];
+    if (!ch || !ch.open) return '';
+    return `<span class="tq-side" title="${esc(tx('chapterTitle'))}" onclick="event.stopPropagation();TestsUI.openChapter(${L},${W})">📝</span>`;
+  }
+  function levelItem(L) {
+    if (!L) return '';
+    if (!catalog) { ensureCatalog(); return ''; }
+    const li = catalog.levels && catalog.levels[String(L)];
+    if (!li || !li.exam || !li.open) return '';
+    return `<div class="lesson-item tq-level-exam" onclick="TestsUI.openLevel(${L})"><div class="lesson-week-badge">🎯</div><div class="lesson-item-title">${esc(tx('levelTitle'))}</div></div>`;
+  }
+
+  // Intro screens opened from the sidebar / level cards.
+  async function openChapter(L, W) {
+    await loadCatalog();
+    const ch = catalog.chapters[`L${L}W${W}`];
+    const lv = LEVELS[L - 1], lesson = lv && lv.lessons.find(x => x.week === W);
+    if (!ch || !ch.open || !lesson) return;
+    document.getElementById('main').innerHTML = `
+      <div class="topic-header"><div class="week-num">${esc(lv.title[lang])} · ${tx('week')} ${W}</div><h2>${esc(lesson.title[lang])}</h2></div>
+      <div class="section">${card(tx('chapterTitle'), tx('chapterDesc')(ch.pool, ch.topics.length, catalog.lengths.chapter), `chapter:L${L}W${W}`, { kind: 'chapter', chapter: `L${L}W${W}` })}
+        <div style="margin-top:14px"><button class="btn-secondary" onclick="clickLesson('${lv.id}',${lv.lessons.indexOf(lesson)})">📖 ${tx('openLesson')}</button></div></div>`;
+  }
+  async function openLevel(L) {
+    await loadCatalog();
+    const li = catalog.levels && catalog.levels[String(L)], lv = LEVELS[L - 1];
+    if (!li || !li.exam || !li.open || !lv) return;
+    document.getElementById('main').innerHTML = `
+      <div class="topic-header"><h2>${esc(lv.title[lang])} · ${tx('levelTitle')}</h2></div>
+      <div class="section">${card(tx('levelTitle'), tx('levelDesc')(li.cleared, catalog.lengths.level), `level:L${L}`, { kind: 'level', level: L })}</div>`;
   }
 
   async function renderMaster(ref) {
@@ -112,6 +161,7 @@ const TestsUI = (() => {
     await loadCatalog(true);
     const slot = document.getElementById('master-slot');
     if (!catalog.master.pool) { slot.innerHTML = `<div class="tq-entry"><p>${tx('unavailable')}</p></div>`; return; }
+    if (!catalog.master.open) { slot.innerHTML = `<div class="tq-entry"><p>${tx('masterLocked')}</p></div>`; return; }
     slot.innerHTML = card(tx('masterTitle'), tx('masterDesc')(catalog.lengths.master), 'master:ALL', { kind: 'master' });
   }
 
@@ -321,10 +371,13 @@ const TestsUI = (() => {
     .tq-hist{font-size:.82rem;color:var(--muted);margin-bottom:16px}.tq-all summary{cursor:pointer;color:var(--green);font-weight:600;margin-bottom:12px}
     .tq-flash{animation:tqflash 2.4s ease}@keyframes tqflash{0%,60%{background:#fff4c2}100%{background:transparent}}
     body.rtl .tq-opt{text-align:right}
+    .tq-side{margin-left:auto;font-size:.8rem;opacity:.65;padding:0 4px;cursor:pointer}.tq-side:hover{opacity:1}
+    .tq-level-exam .lesson-week-badge{background:var(--gold-light)}
+    .tq-card-btn{display:block;margin-top:10px;padding:5px 12px;border:1.5px solid var(--green);border-radius:16px;background:transparent;color:var(--green);font-size:.78rem;font-weight:600;cursor:pointer}.tq-card-btn:hover{background:var(--green-pale)}
   `;
   const style = document.createElement('style');
   style.textContent = css;
   document.head.appendChild(style);
 
-  return { mountChapter, mountLevel, renderMaster, start, answer, hint, next, end, reportQuestion, study, leave };
+  return { mountChapter, mountLevel, renderMaster, lessonBadge, levelItem, openChapter, openLevel, start, answer, hint, next, end, reportQuestion, study, leave };
 })();

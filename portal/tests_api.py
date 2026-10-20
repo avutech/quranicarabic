@@ -127,7 +127,16 @@ def build_tree(questions, levels):
     return root
 
 
-def pool_for(kind, banks, level=None, chapter=None, topic=None):
+def allowed_chapters(user, banks):
+    """Chapters this student is cleared for (same lesson unlocks as the lessons themselves; admins: all)."""
+    have = {c for c in banks if c != "MASTER"}
+    if user["role"] == "admin":
+        return have
+    return have & set(user_db.effective_unlocks(user["id"]))
+
+
+def pool_for(kind, banks, level=None, chapter=None, topic=None, allowed=None):
+    """Questions a test may draw from. Level exams and the Master Exam only use chapters in `allowed`."""
     qs = []
     if kind in ("chapter", "drill"):
         b = banks.get(chapter)
@@ -135,15 +144,16 @@ def pool_for(kind, banks, level=None, chapter=None, topic=None):
         if kind == "drill":
             qs = [q for q in qs if q["topic"] == topic]
     elif kind == "level":
-        qs = [q for cid, b in banks.items() if chapter_level(cid)[0] == level for q in b["questions"]]
+        qs = [q for cid, b in banks.items() if chapter_level(cid)[0] == level and (allowed is None or cid in allowed)
+              for q in b["questions"]]
     elif kind == "master":
         b = banks.get("MASTER")
-        qs = list(b["questions"]) if b else []
+        qs = [q for q in (b["questions"] if b else []) if allowed is None or q.get("chapter") in allowed]
     return qs
 
 
-def sample_test(kind, banks, rng, seen, level=None, chapter=None, topic=None):
-    qs = pool_for(kind, banks, level, chapter, topic)
+def sample_test(kind, banks, rng, seen, level=None, chapter=None, topic=None, allowed=None):
+    qs = pool_for(kind, banks, level, chapter, topic, allowed)
     n = LENGTHS[kind]
     if kind == "master":
         tree = build_tree(qs, [lambda q: chapter_level(q["chapter"])[0], lambda q: q["chapter"], lambda q: q["topic"]])
@@ -256,14 +266,19 @@ def catalog():
                          "topics": [{"id": t["id"], "title": t["title"], "section": t.get("section"),
                                      "n": sum(1 for q in b["questions"] if q["topic"] == t["id"])} for t in b["topics"]]}
     levels = {str(L): sum(1 for c in chapters if chapter_level(c)[0] == L) for L in (1, 2, 3)}
+    cleared = allowed_chapters(user, banks)
+    level_info = {str(L): {"exam": levels[str(L)] >= 14,                      # all 14 chapters have question banks
+                           "open": any(chapter_level(c)[0] == L for c in cleared),   # student is cleared for >= 1 chapter
+                           "cleared": sum(chapter_level(c)[0] == L for c in cleared)} for L in (1, 2, 3)}
+    master_pool = len(banks["MASTER"]["questions"]) if "MASTER" in banks else 0
     with user_db.db() as conn:
         best = {}
         for r in conn.execute(
                 "SELECT kind, scope, MAX(100.0 * points / max_points) p, COUNT(*) n FROM tests_attempts "
                 "WHERE user_id = ? AND finished_at IS NOT NULL AND max_points > 0 GROUP BY kind, scope", (user["id"],)):
             best[f"{r['kind']}:{r['scope']}"] = {"best": round(r["p"]), "attempts": r["n"]}
-    return jsonify({"chapters": chapters, "chaptersPerLevel": levels,
-                    "master": {"pool": len(banks["MASTER"]["questions"]) if "MASTER" in banks else 0},
+    return jsonify({"chapters": chapters, "chaptersPerLevel": levels, "levels": level_info,
+                    "master": {"pool": master_pool, "open": bool(master_pool and cleared)},
                     "lengths": LENGTHS, "best": best})
 
 
@@ -290,13 +305,17 @@ def start():
         if level not in (1, 2, 3) or sum(chapter_level(c)[0] == level for c in banks) < 14:
             return jsonify({"error": "the level exam opens when all 14 chapters of the level have questions"}), 404
         scope = f"L{level}"
+        if not any(chapter_level(c)[0] == level for c in allowed_chapters(user, banks)):
+            return jsonify({"error": "level locked"}), 403
     else:
         if "MASTER" not in banks:
             return jsonify({"error": "Master Exam is not available yet"}), 404
         scope = "ALL"
+        if not allowed_chapters(user, banks):
+            return jsonify({"error": "no unlocked lessons"}), 403
     with user_db.db() as conn:
         seen = seen_counts(conn, user["id"])
-        picked = sample_test(kind, banks, random.Random(), seen, level, chapter, topic)
+        picked = sample_test(kind, banks, random.Random(), seen, level, chapter, topic, allowed_chapters(user, banks))
         if not picked:
             return jsonify({"error": "no questions available"}), 404
         cur = conn.execute("INSERT INTO tests_attempts (user_id, kind, scope, total, created_at) VALUES (?,?,?,?,?)",
