@@ -1,11 +1,11 @@
 """
-Build a vocabulary pool from extracted PDF text using Claude.
+Build a vocabulary pool from extracted PDF text using Gemini (free tier).
 
 Input:  portal/vocab_raw/*.txt  (one file per source PDF)
 Output: portal/vocab.js         (one JS array of {ar, tr, en, source} entries)
 
 Run with:
-  export ANTHROPIC_API_KEY=...
+  export GEMINI_API_KEY=...
   cd portal && venv/bin/python build_vocab.py
 """
 
@@ -15,7 +15,10 @@ import re
 import sys
 import time
 from pathlib import Path
-import anthropic
+from google import genai
+from google.genai import types as genai_types
+
+MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.5-flash")
 
 ROOT = Path(__file__).parent
 RAW_DIR = ROOT / "vocab_raw"
@@ -63,12 +66,11 @@ def extract_pairs(client, text, filename):
     if len(text) > 18000:
         text = text[:18000]
     prompt = PROMPT_TEMPLATE.format(filename=filename, text=text)
-    msg = client.messages.create(
-        model="claude-sonnet-4-6",
-        max_tokens=8000,
-        messages=[{"role": "user", "content": prompt}],
+    msg = client.models.generate_content(
+        model=MODEL, contents=prompt,
+        config=genai_types.GenerateContentConfig(max_output_tokens=8000),
     )
-    raw = msg.content[0].text.strip()
+    raw = (msg.text or "").strip()
     # Strip code fences if present
     raw = re.sub(r"^```(?:json)?\s*", "", raw)
     raw = re.sub(r"\s*```$", "", raw)
@@ -88,12 +90,12 @@ def extract_pairs(client, text, filename):
 
 
 def main():
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
-        print("ERROR: set ANTHROPIC_API_KEY", file=sys.stderr)
+        print("ERROR: set GEMINI_API_KEY", file=sys.stderr)
         sys.exit(1)
 
-    client = anthropic.Anthropic(api_key=api_key)
+    client = genai.Client(api_key=api_key)
     cache = load_cache()
     txt_files = sorted(RAW_DIR.glob("*.txt"))
     print(f"📚 {len(txt_files)} source files; {len(cache)} already cached")

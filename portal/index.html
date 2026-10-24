@@ -1201,7 +1201,7 @@ const I18N = {
     openPDF: 'Open PDF',
     levelOverview: 'All Lessons',
     noPractice: 'No practice questions for this topic.',
-    quizNotReady: 'Vocabulary pool not built yet. Run `python build_vocab.py` (with ANTHROPIC_API_KEY set) inside the portal/ folder, then reload this page.',
+    quizNotReady: 'Vocabulary pool not built yet. Run `python build_vocab.py` inside the portal/ folder, then reload this page.',
     quizDirection: 'Quiz Direction',
     quizDirArTr: 'Arabic → Turkish',
     quizDirArEn: 'Arabic → English',
@@ -1446,7 +1446,7 @@ const I18N = {
     openPDF: 'PDF Aç',
     levelOverview: 'Tüm Dersler',
     noPractice: 'Bu konu için alıştırma sorusu yok.',
-    quizNotReady: 'Kelime havuzu henüz oluşturulmadı. portal/ klasöründe ANTHROPIC_API_KEY ayarlıyken `python build_vocab.py` komutunu çalıştırıp sayfayı yenileyin.',
+    quizNotReady: 'Kelime havuzu henüz oluşturulmadı. portal/ klasöründe `python build_vocab.py` komutunu çalıştırıp sayfayı yenileyin.',
     quizDirection: 'Sınav Yönü',
     quizDirArTr: 'Arapça → Türkçe',
     quizDirArEn: 'Arapça → İngilizce',
@@ -1691,7 +1691,7 @@ const I18N = {
     openPDF: 'فتح PDF',
     levelOverview: 'جميع الدروس',
     noPractice: 'لا توجد أسئلة تدريبية لهذا الموضوع.',
-    quizNotReady: 'لم يتم بناء مجموعة المفردات بعد. شغّل `python build_vocab.py` داخل مجلد portal/ مع ضبط ANTHROPIC_API_KEY ثم أعد تحميل الصفحة.',
+    quizNotReady: 'لم يتم بناء مجموعة المفردات بعد. شغّل `python build_vocab.py` داخل مجلد portal/ ثم أعد تحميل الصفحة.',
     quizDirection: 'اتجاه الاختبار',
     quizDirArTr: 'عربي → تركي',
     quizDirArEn: 'عربي → إنجليزي',
@@ -2768,9 +2768,7 @@ function renderQuizSetup(ref) {
       <div class="section">
         <div class="practice-start" style="text-align:left">
           <p style="color:var(--mid);line-height:1.7">${escapeHtml(t('quizNotReady'))}</p>
-          <pre style="margin-top:14px;background:#1a1a1a;color:#a8e6c0;padding:14px 16px;border-radius:8px;font-size:0.82rem;overflow-x:auto"><code>cd portal
-export ANTHROPIC_API_KEY=...
-venv/bin/python build_vocab.py</code></pre>
+          <pre style="margin-top:14px;background:#1a1a1a;color:#a8e6c0;padding:14px 16px;border-radius:8px;font-size:0.82rem;overflow-x:auto"><code>Vocabulary pool is built by the site administrator.</code></pre>
         </div>
       </div>`;
     return;
@@ -3574,7 +3572,6 @@ function renderUploadFormHTML(level, week) {
         <label style="font-size:0.8rem;color:var(--muted);font-weight:600;margin-right:8px;">${t('cmgrExtractModel') || 'Extract with'}</label>
         <select id="cmgr-model" class="icmp-model-select">
           <option value="gemini" selected>Gemini ${t('cmgrModelDefault') || '(default)'}</option>
-          <option value="openai">ChatGPT ${t('cmgrModelImagesOnly') || '(images only)'}</option>
         </select>
       </div>
       <div class="cmgr-row" id="cmgr-row-url" style="display:none">
@@ -4212,8 +4209,8 @@ function scOverallBadge(scores) {
 
 // ─── I'rab AI Compare (multi-model side-by-side) ──────────────────────────────
 
-let icmpState = { surah: '', ayah: '', verse: '', models: ['gemini', 'openai'],
-                  geminiModel: 'gemini-2.5-flash-lite' };
+let icmpState = { surah: '', ayah: '', verse: '', models: ['gemini'],
+                  geminiModel: 'gemini-3.5-flash-lite' };
 let icmpLastResult = null;
 
 function renderIrabCompare(ref) {
@@ -4262,15 +4259,13 @@ function renderIrabCompare(ref) {
           <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
             <span style="font-size:0.78rem; font-weight:700; color:var(--muted); text-transform:uppercase; letter-spacing:0.06em;">${t('icmpModel') || 'Model'}</span>
             <select id="icmp-gemini-model" class="icmp-model-select">
-              <option value="gemini-2.5-flash-lite" ${icmpState.geminiModel === 'gemini-2.5-flash-lite' ? 'selected' : ''}>Gemini Flash-Lite — ${t('icmpModelDefault') || 'default, fast & cheap'}</option>
-              <option value="gemini-2.5-flash" ${icmpState.geminiModel === 'gemini-2.5-flash' ? 'selected' : ''}>Gemini Flash — ${t('icmpModelStronger') || 'stronger reasoning'}</option>
-              <option value="gemini-2.5-pro" ${icmpState.geminiModel === 'gemini-2.5-pro' ? 'selected' : ''}>Gemini Pro — ${t('icmpModelBest') || 'highest quality'}</option>
+              <option value="gemini-3.5-flash-lite" ${icmpState.geminiModel === 'gemini-3.5-flash-lite' ? 'selected' : ''}>Gemini Flash-Lite — ${t('icmpModelDefault') || 'default, fast & cheap'}</option>
+              <option value="gemini-3.5-flash" ${icmpState.geminiModel === 'gemini-3.5-flash' ? 'selected' : ''}>Gemini Flash — ${t('icmpModelStronger') || 'stronger reasoning'}</option>
             </select>
           </div>` : `
           <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
             <span style="font-size:0.78rem; font-weight:700; color:var(--muted); text-transform:uppercase; letter-spacing:0.06em;">${t('icmpModels') || 'Models'}</span>
             <label class="icmp-pill"><input type="checkbox" id="icmp-model-gemini" ${icmpState.models.includes('gemini') ? 'checked' : ''}><span>Gemini</span></label>
-            <label class="icmp-pill"><input type="checkbox" id="icmp-model-openai" ${icmpState.models.includes('openai') ? 'checked' : ''}><span>ChatGPT</span></label>
           </div>`}
           <span class="spacer"></span>
           <button class="btn-secondary" onclick="icmpClear()">${t('irabClear')}</button>
@@ -4445,7 +4440,6 @@ async function icmpRun() {
   } else {
     models = [];
     if (document.getElementById('icmp-model-gemini').checked) models.push('gemini');
-    if (document.getElementById('icmp-model-openai').checked) models.push('openai');
     if (!models.length) { alert(t('icmpPickAtLeastOne') || 'Pick at least one model'); return; }
   }
   icmpState.models = models;
@@ -4453,7 +4447,7 @@ async function icmpRun() {
   let geminiModel = '';
   if (grounded) {
     const mSel = document.getElementById('icmp-gemini-model');
-    geminiModel = (mSel && mSel.value) || 'gemini-2.5-flash-lite';
+    geminiModel = (mSel && mSel.value) || 'gemini-3.5-flash-lite';
     icmpState.geminiModel = geminiModel;
   }
   const btn = document.getElementById('icmp-go');

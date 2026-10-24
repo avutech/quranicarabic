@@ -40,15 +40,17 @@ def humanize_gemini_error(exc):
         )
     # Auth error
     if "401" in msg or "API key" in msg or "invalid x-api-key" in msg.lower():
-        return 401, "❌ Your GEMINI_API_KEY is invalid or expired. Update it in portal/.env and restart the server."
+        print(f"[gemini] auth error: {msg[:300]}", file=sys.stderr)
+        return 502, "⚠️ The AI service is temporarily unavailable. Please try again later."
     # Transient model overload (Gemini returns 503 UNAVAILABLE under high demand)
     if "503" in msg or "UNAVAILABLE" in msg or "overloaded" in msg.lower():
         return 503, (
             "⚠️ The AI is busy right now (high demand). "
             "Please wait a few seconds and try again — this usually clears up quickly."
         )
-    # Generic
-    return 500, str(exc)
+    # Generic: log details server-side, never echo raw SDK errors to the browser
+    print(f"[gemini] error: {msg[:500]}", file=sys.stderr)
+    return 500, "⚠️ The AI service hit an error. Please try again."
 
 
 def gemini_generate(client, *, model, contents, config=None, _retries=3):
@@ -91,7 +93,7 @@ ENV_FILE = PORTAL_DIR / ".env"
 
 
 def load_env_file():
-    """If portal/.env exists and ANTHROPIC_API_KEY isn't already set, read it
+    """If portal/.env exists, set any variable not already in the environment
     from there. File format: KEY=value (one per line, # for comments)."""
     if not ENV_FILE.exists():
         return
@@ -109,21 +111,19 @@ def load_env_file():
 load_env_file()
 
 # Model selection — overridable via .env
-# Free tier limits per model (AI Studio, no billing):
-#   gemini-2.5-flash       : 10 RPM, 250 RPD   (best quality)
-#   gemini-2.5-flash-lite  : 30 RPM, 1500 RPD  (good quality, much higher free quota)
-#   gemini-2.5-pro         : 5  RPM, 100 RPD   (highest quality, paid recommended)
-GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash-lite")
+# Free tier only (AI Studio key from a project WITHOUT billing) — never paid APIs.
+# gemini-2.5-* is retired for new keys; gemini-3.5-flash-lite is the free default.
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.5-flash-lite")
 # The Curriculum-Limited (grounded) module lets the user pick the Gemini model
 # per analysis. GEMINI_GROUNDED_MODEL is the DEFAULT (used when none selected)
 # and is the model the context cache is built for. Picking a non-default model
 # still works — it runs with the full curriculum inlined instead of cached.
-GEMINI_GROUNDED_MODEL = os.environ.get("GEMINI_GROUNDED_MODEL", "gemini-2.5-flash-lite")
+GEMINI_GROUNDED_MODEL = os.environ.get("GEMINI_GROUNDED_MODEL", "gemini-3.5-flash-lite")
+GEMINI_EXTRACT_MODEL = os.environ.get("GEMINI_EXTRACT_MODEL", "gemini-3.5-flash")
 # Models the user is allowed to select for the grounded module.
 GROUNDED_MODEL_CHOICES = {
-    "gemini-2.5-flash-lite",
-    "gemini-2.5-flash",
-    "gemini-2.5-pro",
+    "gemini-3.5-flash-lite",
+    "gemini-3.5-flash",
 }
 
 
@@ -262,8 +262,7 @@ def load_lessons_index():
 
 LESSONS_INDEX, LESSONS_INDEX_SUMMARY = load_lessons_index()
 
-# OpenAI / curriculum-grounded model settings
-OPENAI_MODEL = os.environ.get("OPENAI_MODEL", "gpt-4o")
+# curriculum-grounded settings
 
 
 def load_curriculum_text(compact=False):
@@ -350,6 +349,7 @@ def _cache_meta_save(meta):
 def build_curriculum_cache():
     """Create (or replace) the Gemini context cache holding the full curriculum.
     Returns the meta dict, or raises on failure."""
+    raise RuntimeError("Context caching is disabled (free tier only) - the curriculum is sent inline instead")
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
         raise RuntimeError("GEMINI_API_KEY not set")
@@ -407,6 +407,7 @@ def ensure_curriculum_cache():
     """Return a valid cache meta — self-healing: if none exists or it expired,
     rebuild it automatically. Thread-safe so concurrent grounded calls don't
     each kick off a build. Returns None only if the build itself fails."""
+    return None   # explicit caching bills storage; free tier only -> inline curriculum
     meta = get_curriculum_cache()
     if meta:
         return meta
@@ -568,6 +569,7 @@ Format your response:
 
 
 @app.route("/api/feedback-issue", methods=["POST"])
+@login_required
 def feedback_issue():
     """Create a GitHub issue (and optionally upload a screenshot) using a
     repo-scoped Personal Access Token stored in .env as GITHUB_TOKEN."""
@@ -1972,60 +1974,6 @@ def _run_irab_gemini(prompt: str) -> dict:
         return {"error": friendly, "model_label": f"Gemini ({GEMINI_MODEL})"}
 
 
-def _run_irab_claude(prompt: str) -> dict:
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
-    if not api_key:
-        return {"error": "ANTHROPIC_API_KEY not set", "model_label": "Claude Sonnet 4.6"}
-    try:
-        import anthropic
-        client = anthropic.Anthropic(api_key=api_key)
-        msg = client.messages.create(
-            model="claude-sonnet-4-6",
-            max_tokens=16000,
-            messages=[{"role": "user", "content": prompt}],
-        )
-        raw = "".join(b.text for b in msg.content if hasattr(b, "text")).strip()
-        if raw.startswith("```"):
-            raw = raw.strip("`").lstrip("json").strip()
-        parsed = _parse_irab_json(raw)
-        if not parsed:
-            return {"error": "Claude returned unparseable output", "model_label": "Claude Sonnet 4.6"}
-        if isinstance(parsed, list):
-            parsed = {"words": parsed}
-        parsed["model_label"] = "Claude Sonnet 4.6"
-        return parsed
-    except Exception as e:
-        return {"error": str(e), "model_label": "Claude Sonnet 4.6"}
-
-
-def _run_irab_openai(prompt: str, model: str = None) -> dict:
-    api_key = os.environ.get("OPENAI_API_KEY")
-    use_model = model or OPENAI_MODEL
-    label = f"ChatGPT ({use_model})"
-    if not api_key:
-        return {"error": "OPENAI_API_KEY not set — add it to portal/.env to enable ChatGPT.",
-                "model_label": label}
-    try:
-        import openai
-        client = openai.OpenAI(api_key=api_key)
-        resp = client.chat.completions.create(
-            model=use_model,
-            max_tokens=16000,
-            response_format={"type": "json_object"},
-            messages=[{"role": "user", "content": prompt}],
-        )
-        raw = (resp.choices[0].message.content or "").strip()
-        parsed = _parse_irab_json(raw)
-        if not parsed:
-            return {"error": "ChatGPT returned unparseable output", "model_label": label}
-        if isinstance(parsed, list):
-            parsed = {"words": parsed}
-        parsed["model_label"] = label
-        return parsed
-    except Exception as e:
-        return {"error": str(e), "model_label": label}
-
-
 def _lang_trailer(language: str) -> str:
     """A final language directive appended AFTER the prompt's worked example.
     The example is in English and is the last thing the model reads before
@@ -2145,7 +2093,7 @@ def _run_irab_gemini_cached(verse: str, language: str, model: str = None) -> dic
     built for, the cache is used (cheap); otherwise the full curriculum is
     inlined so grounding stays intact for any selected model."""
     use_model = model if model in GROUNDED_MODEL_CHOICES else GEMINI_GROUNDED_MODEL
-    short = use_model.replace("gemini-2.5-", "")          # "flash-lite", "flash", "pro"
+    short = use_model.replace("gemini-3.5-", "")          # "flash-lite", "flash"
     label = f"Gemini {short}"
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
@@ -2198,9 +2146,7 @@ def _run_irab_gemini_cached(verse: str, language: str, model: str = None) -> dic
 def irab_compare():
     """Run the same verse through multiple models, side-by-side.
     grounded=true → models are constrained to the 42-week curriculum:
-      - Gemini uses the context CACHE (cheap, no re-send)
-      - Claude gets the full curriculum inline
-      - OpenAI gets the compact curriculum inline (fits its context window)"""
+      - Gemini gets the full curriculum inline (free tier; no paid context cache)"""
     data = request.get_json() or {}
     verse = (data.get("verse") or "").strip()
     language = data.get("language", "en")
@@ -2215,18 +2161,12 @@ def irab_compare():
     plain_prompt = _make_irab_prompt(verse, language) + _lang_trailer(language)
 
     if grounded:
-        openai_prompt = _grounding_preamble(CURRICULUM_COMPACT, language) + plain_prompt
-        # Claude disabled system-wide — Gemini is the replacement engine.
         runners = {
             "gemini": lambda: _run_irab_gemini_cached(verse, language, gemini_model),
-            # gpt-4o-mini: high tier-1 rate limits + 128k window — handles the
-            # curriculum-injected prompt that gpt-4o's per-request cap rejects.
-            "openai": lambda: _audit_grounding(_run_irab_openai(openai_prompt, model="gpt-4o-mini")),
         }
     else:
         runners = {
             "gemini": lambda: _run_irab_gemini(plain_prompt),
-            "openai": lambda: _run_irab_openai(plain_prompt),
         }
     selected = [m for m in models if m in runners] or ["gemini"]
 
@@ -2323,7 +2263,7 @@ LECTURE RULES:
 Return ONLY the JSON object — no prose around it, no markdown fences.
 """
 
-EXTRACT_MODELS = ("gemini", "openai")   # Claude disabled system-wide
+EXTRACT_MODELS = ("gemini",)   # Gemini free tier only (no paid Claude/OpenAI)
 
 
 def _parse_extract_json(raw):
@@ -2371,32 +2311,6 @@ def _read_upload_b64(rel_path, kind):
         return base64.b64encode(f.read()).decode()
 
 
-def _extract_with_claude(rel_path, mime, kind):
-    """Claude Sonnet vision: transcription + structured lecture. PDF + image."""
-    if kind not in ("pdf", "image"):
-        return None
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
-    if not api_key:
-        return None
-    b64 = _read_upload_b64(rel_path, kind)
-    if not b64:
-        return None
-    import anthropic
-    content_block = (
-        {"type": "document", "source": {"type": "base64", "media_type": "application/pdf", "data": b64}}
-        if kind == "pdf"
-        else {"type": "image", "source": {"type": "base64", "media_type": mime, "data": b64}}
-    )
-    client = anthropic.Anthropic(api_key=api_key)
-    msg = client.messages.create(
-        model="claude-sonnet-4-6",
-        max_tokens=16000,
-        messages=[{"role": "user", "content": [content_block, {"type": "text", "text": _EXTRACT_INSTRUCTION}]}],
-    )
-    raw = "".join(b.text for b in msg.content if hasattr(b, "text")).strip()
-    return _parse_extract_json(raw)
-
-
 def _extract_with_gemini(rel_path, mime, kind):
     """Gemini vision: transcription + structured lecture. PDF + image."""
     if kind not in ("pdf", "image"):
@@ -2420,40 +2334,14 @@ def _extract_with_gemini(rel_path, mime, kind):
     client = genai.Client(api_key=api_key)
     resp = gemini_generate(
         client,
-        model="gemini-2.5-flash",
+        model=GEMINI_EXTRACT_MODEL,
         contents=[part, _EXTRACT_INSTRUCTION],
         config=genai_types.GenerateContentConfig(response_mime_type="application/json", max_output_tokens=16000),
     )
     return _parse_extract_json((resp.text or "").strip())
 
 
-def _extract_with_openai(rel_path, mime, kind):
-    """ChatGPT (gpt-4o) vision. Images only — OpenAI's API can't read PDFs here."""
-    if kind != "image":
-        if kind == "pdf":
-            print("[extract] ChatGPT can't read PDFs — pick Gemini for PDF resources.", file=sys.stderr)
-        return None
-    api_key = os.environ.get("OPENAI_API_KEY")
-    if not api_key:
-        return None
-    b64 = _read_upload_b64(rel_path, kind)
-    if not b64:
-        return None
-    import openai
-    client = openai.OpenAI(api_key=api_key)
-    resp = client.chat.completions.create(
-        model=OPENAI_MODEL,
-        max_tokens=16000,
-        response_format={"type": "json_object"},
-        messages=[{"role": "user", "content": [
-            {"type": "text", "text": _EXTRACT_INSTRUCTION},
-            {"type": "image_url", "image_url": {"url": f"data:{mime};base64,{b64}"}},
-        ]}],
-    )
-    return _parse_extract_json((resp.choices[0].message.content or "").strip())
-
-
-_EXTRACTORS = {"gemini": _extract_with_gemini, "openai": _extract_with_openai}   # Claude disabled
+_EXTRACTORS = {"gemini": _extract_with_gemini}
 
 
 def _extract_resource(rel_path, mime, kind, model="gemini"):
