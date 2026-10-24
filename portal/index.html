@@ -4680,6 +4680,10 @@ function libSetMeal(id) {
   if (box && box.dataset.meals) box.textContent = JSON.parse(box.dataset.meals)[id] || '';
 }
 
+// The Uthmani text leaves the sukun off a noon/mim that is assimilated or hidden (idgham, ikhfa: وَإِن تَوَلَّوْا).
+// Learners need to see it, so show the sukun on any bare noon/mim (not before a mark or tatweel).
+const showSukun = (ar) => ar.replace(/([نم])(?![ً-ٰٟۖ-ۭـ])/g, '$1ْ');
+
 function renderLibraryWords(words, books) {
   if (!words || !words.length) return '';
   const src = books.word_sources || {};
@@ -4688,7 +4692,7 @@ function renderLibraryWords(words, books) {
   const endsSentence = (w, i) => i < words.length - 1 && /[\u06D6-\u06D8\u06DA-\u06DC]/.test(w.ar);
   const boxes = words.map((w, i) => `
       <div class="wbox${endsSentence(w, i) ? ' wend' : ''}">
-        <div class="w-ar">${escapeHtml(w.ar)}</div>
+        <div class="w-ar">${escapeHtml(showSukun(w.ar))}</div>
         <div class="w-tl">${escapeHtml(w.tl)}</div>
         ${w.tr ? `<div class="w-tr">${escapeHtml(w.tr)}</div>` : ''}
         <div class="w-en">${escapeHtml(w.en)}</div>
