@@ -17,8 +17,8 @@
    "id": "t2",
    "section": 1,
    "title": {
-    "en": "The six sisters of إِنَّ and their meanings; the emphatic lām",
-    "tr": "İnne ve altı kardeşi: anlamları ve pekiştirme lâmı"
+    "en": "The six particles of the إِنَّ family: meanings and the emphatic lām",
+    "tr": "İnne ailesinin altı edatı: anlamları ve pekiştirme lâmı"
    },
    "rule": {
     "en": "There are six sisters, and all act on the sentence in the same way; they differ only in the shade of meaning they add: strong assertion, reporting a content (\"that\"), comparison, contrast with what was just said, a wish, and hope or fear. The meaning is read from the context and decides which sister fits. A lām of emphasis may stand in front of the khabar (or be attached to it) to strengthen the statement; it adds emphasis only and changes no case ending.",
@@ -184,18 +184,18 @@
    "options": [
     {
      "why": {
-      "en": "The particle puts only its ism in the accusative. The khabar stays nominative whatever the ism looks like.",
-      "tr": "Edat yalnızca ismini nasb eder. Haber, ismin hâli ne olursa olsun merfû kalır."
+      "en": "إِنَّ makes its ism اللَّهَ accusative, but this does not make its khabar قَدِيرٌ accusative; the khabar remains nominative.",
+      "tr": "إِنَّ edatı, ismi olan اللَّهَ kelimesini mansûb yapar; bu durum haberi olan قَدِيرٌ kelimesini mansûb yapmaz. Haber merfû kalır."
      },
      "text": {
       "en": "Accusative (naṣb), because it follows the ism اللَّهَ which is accusative",
-      "tr": "Mansûb (nasb); çünkü mansûb olan ismi اللَّهَ kelimesinden sonra gelir"
+      "tr": "Mansûb (nasb); çünkü إِنَّ edatının mansûb ismi olan اللَّهَ kelimesinden sonra gelir"
      }
     },
     {
      "why": {
-      "en": "Correct. The khabar of إِنَّ stays nominative. The tanwīn ḍamm on قَدِيرٌ shows it.",
-      "tr": "Doğru. إِنَّ edatının haberi merfû kalır. قَدِيرٌ üzerindeki tenvîn-i damme bunu gösterir."
+      "en": "Correct. قَدِيرٌ is the nominative khabar of إِنَّ, and its tanwīn ḍamm marks that case.",
+      "tr": "Doğru. قَدِيرٌ, إِنَّ edatının merfû haberidir; tenvîn-i damme ref’ hâlini gösterir."
      },
      "text": {
       "en": "Nominative (rafʿ), shown by tanwīn ḍamm",
@@ -204,8 +204,8 @@
     },
     {
      "why": {
-      "en": "قَدِيرٌ ends in tanwīn ḍamm, not kasra. The kasra belongs to شَيْءٍ, which is genitive because of كُلِّ; a neighbour's ending does not pass to the khabar.",
-      "tr": "قَدِيرٌ kesre değil tenvîn-i damme ile biter. Kesre, كُلِّ kelimesinin muzâfun ileyhi olan شَيْءٍ kelimesine aittir; komşu kelimenin hâli habere geçmez."
+      "en": "The genitive ending on شَيْءٍ belongs to that noun as the second term of the iḍāfa after كُلِّ; قَدِيرٌ instead has nominative tanwīn ḍamm.",
+      "tr": "شَيْءٍ kelimesi, كُلِّ kelimesinin muzâfun ileyhi olduğu için mecrûrdur; قَدِيرٌ ise ref’ hâlini gösteren tenvîn-i damme taşır."
      },
      "text": {
       "en": "Genitive (jarr), because the word before it, شَيْءٍ, ends in a kasra",
@@ -214,8 +214,8 @@
     },
     {
      "why": {
-      "en": "Every noun has a case, wherever it stands. Here the case is nominative.",
-      "tr": "Her ismin bulunduğu yerde bir hâli vardır. Burada merfûdur."
+      "en": "Standing at the end of the sentence does not remove the grammatical case of قَدِيرٌ; it is nominative as the khabar of إِنَّ.",
+      "tr": "Cümlenin sonunda bulunması قَدِيرٌ kelimesinin i’râb hâlini ortadan kaldırmaz; إِنَّ edatının haberi olarak merfûdur."
      },
      "text": {
       "en": "It has no case, because it is the last word of the sentence",
@@ -1502,8 +1502,8 @@
       "tr": "Lâm ismin hemen ardından gelmek zorundadır; yani yerinden ayrılmış ve alıntı bozuktur"
      },
      "why": {
-      "en": "No such rule exists. The lām of emphasis belongs to the khabar, wherever the khabar stands, so the words in between do not matter.",
-      "tr": "Böyle bir kural yoktur. Pekiştirme lâmı haberin yanındadır; haber nerede olursa olsun, aradaki kelimeler bir şeyi değiştirmez."
+      "en": "The emphatic lām need not immediately follow the ism رَبَّهُم; here intervening words precede the khabar لَّخَبِيرٌ to which the lām is attached.",
+      "tr": "Pekiştirme lâmının رَبَّهُم isminden hemen sonra gelmesi gerekmez; burada lâmın bitiştiği لَّخَبِيرٌ haberinden önce araya başka kelimeler girer."
      }
     },
     {
@@ -1512,8 +1512,8 @@
       "tr": "Lâm لَّخَبِيرٌ haberine aittir; aradaki kelimeler onu etkilemez ve haber merfû kalır"
      },
      "why": {
-      "en": "Correct. The lām of emphasis is written with the khabar as one word, and the khabar keeps its nominative ending (ḍamma-type tanwīn), so nothing about the case changes.",
-      "tr": "Doğru. Pekiştirme lâmı yazıda haberle tek kelime olarak durur ve haber merfû hâlini (damme türü tenvîn) korur; hâl bakımından hiçbir şey değişmez."
+      "en": "Correct. The lām is attached to the khabar لَّخَبِيرٌ and adds emphasis; its tanwīn ḍamm still marks the nominative case.",
+      "tr": "Doğru. Lâm, لَّخَبِيرٌ haberine bitişerek pekiştirme anlamı katar; tenvîn-i damme yine ref’ hâlini gösterir."
      }
     },
     {
@@ -1522,18 +1522,18 @@
       "tr": "Lâm en yakın kelime olan بِهِمْ kelimesine aittir ve onu pekiştirir"
      },
      "why": {
-      "en": "The lām is written on the last word, لَّخَبِيرٌ, not on بِهِمْ. It strengthens the khabar, however many words stand between the particle and it.",
-      "tr": "Lâm en sondaki لَّخَبِيرٌ kelimesine yazılmıştır, بِهِمْ kelimesine değil. Edat ile haber arasında kaç kelime olursa olsun, güçlendirdiği şey haberdir."
+      "en": "The written lām is attached to خَبِيرٌ, not بِهِمْ; it emphasizes the khabar despite the intervening words.",
+      "tr": "Yazıdaki lâm, بِهِمْ kelimesine değil خَبِيرٌ kelimesine bitişmiştir; aradaki kelimelere rağmen haberi pekiştirir."
      }
     },
     {
      "text": {
       "en": "The lām turns the khabar into the accusative, as the particle does with the ism",
-      "tr": "Lâm, edatın ismi yaptığı gibi haberi mansûb yapar"
+      "tr": "Lâm, edatın ismi mansûb yapması gibi, haberi mansûb yapar"
      },
      "why": {
-      "en": "The lām changes no ending. The ism is accusative and the khabar stays nominative, as it is written here.",
-      "tr": "Lâm hiçbir sonu değiştirmez. İsm mansûbtur, haber ise burada yazıldığı gibi merfû kalır."
+      "en": "إِنَّ makes its ism رَبَّهُم accusative, but the emphatic lām does not change the case of the khabar لَّخَبِيرٌ, which remains nominative.",
+      "tr": "إِنَّ edatı, ismi olan رَبَّهُم kelimesini mansûb yapar; pekiştirme lâmı ise لَّخَبِيرٌ haberinin hâlini değiştirmez, haber merfû kalır."
      }
     }
    ],
@@ -1566,8 +1566,8 @@
       "tr": "Mecrûr olurdu"
      },
      "why": {
-      "en": "Nothing in the sentence would call for a genitive; a mubtada' is nominative.",
-      "tr": "Cümlede mecrûr gerektiren bir şey kalmazdı; mübteda merfûdur."
+      "en": "Nothing would govern الْإِنسَانَ in jarr; the preposition in لِرَبِّهِ governs only the noun inside that phrase. A mubtada' is nominative.",
+      "tr": "الْإِنسَانَ kelimesini cer hâline getirecek bir öge kalmazdı; لِرَبِّهِ içindeki harf-i cer yalnızca o öbeğin isim kısmını yönetir. Mübteda merfûdur."
      }
     },
     {
@@ -2303,7 +2303,7 @@
    "quote": "كَأَنَّهُمْ جَرَادٌۭ مُّنتَشِرٌۭ",
    "stem": {
     "en": "The first letter of كَأَنَّهُمْ is a kāf, like the kāf meaning 'like'. Does it act as a preposition and make جَرَادٌ genitive here?",
-    "tr": "كَأَنَّهُمْ kelimesinin ilk harfi, 'gibi' anlamındaki kâf'a benzeyen bir kâf'tır. Burada harf-i cer gibi davranıp جَرَادٌ kelimesini mecrûr yapar mı?"
+    "tr": "كَأَنَّهُمْ kelimesinin ilk harfi, 'gibi' anlamındaki kâf harfine benzeyen bir kâf harfidir. Burada harf-i cer gibi davranıp جَرَادٌ kelimesini mecrûr yapar mı?"
    },
    "options": [
     {
@@ -2312,8 +2312,8 @@
       "tr": "Evet: kâf bir harf-i cerdir, bu yüzden جَرَادٌ kesra ile bitmelidir"
      },
      "why": {
-      "en": "The kāf is not separate from the particle, and جَرَادٌ is written with tanwīn ḍamm, not kasra.",
-      "tr": "Kâf edattan ayrı değildir ve جَرَادٌ kesra değil tenvîn damme ile yazılmıştır."
+      "en": "The kāf belongs to the comparison particle in كَأَنَّهُمْ; it does not govern جَرَادٌ as a preposition, and that noun has tanwīn ḍamm.",
+      "tr": "كَأَنَّهُمْ kelimesindeki kâf, benzetme edatının parçasıdır; جَرَادٌ kelimesini harf-i cer gibi yönetmez ve bu isim tenvîn-i damme taşır."
      }
     },
     {
@@ -2322,8 +2322,8 @@
       "tr": "Hayır: kâf كَأَنَّ edatının parçasıdır; جَرَادٌ onun haberidir ve tenvîn damme ile merfû kalır"
      },
      "why": {
-      "en": "The whole word كَأَنَّ is one particle of the family; the attached pronoun is its ism in the position of naṣb, and the khabar keeps its ḍamma.",
-      "tr": "كَأَنَّ kelimesinin tamamı ailenin tek bir edatıdır; bitişik zamir onun ismidir ve nasb mahallindedir; haber dammesini korur."
+      "en": "Correct. In كَأَنَّهُمْ the attached هُمْ is the ism in the position of naṣb; جَرَادٌ is the nominative khabar, marked by tanwīn ḍamm.",
+      "tr": "Doğru. كَأَنَّهُمْ kelimesindeki bitişik هُمْ zamiri nasb mahallinde ismdir; جَرَادٌ ise tenvîn-i damme ile ref' hâlindeki haberdir."
      }
     },
     {
@@ -2332,8 +2332,8 @@
       "tr": "Hayır: ama جَرَادٌ edatın ismi olarak nasbtadır"
      },
      "why": {
-      "en": "The ism is the attached pronoun هُمْ; جَرَادٌ is the khabar and is not accusative.",
-      "tr": "İsm, هُمْ bitişik zamiridir; جَرَادٌ haberdir ve mansûb değildir."
+      "en": "جَرَادٌ is the khabar, marked nominative by tanwīn ḍamm; the attached هُمْ already supplies the ism.",
+      "tr": "جَرَادٌ, tenvîn-i damme ile ref' hâlindeki haberdir; ism görevini zaten bitişik هُمْ zamiri üstlenir."
      }
     },
     {
@@ -2342,8 +2342,8 @@
       "tr": "Evet: kâf, bir harf-i cer gibi bitişik zamiri mecrûr yapar"
      },
      "why": {
-      "en": "The kāf is no preposition here, and the pronoun is the ism in the position of naṣb, not genitive.",
-      "tr": "Burada kâf bir harf-i cer değildir; zamir mecrûr değil, nasb mahallinde ismdir."
+      "en": "The attached هُمْ is governed by the whole comparison particle as its ism in the position of naṣb, not by a separate preposition.",
+      "tr": "Bitişik هُمْ zamiri, benzetme edatının tamamının ismi olarak nasb mahallindedir; ayrı bir harf-i cer tarafından yönetilmez."
      }
     }
    ],
@@ -2431,7 +2431,7 @@
      },
      "why": {
       "en": "The particle expresses Pharaoh’s expectation of reaching the ways; it does not contrast two statements.",
-      "tr": "Edat, Firavun'un sebeplere ulaşma beklentisini bildirir; iki hüküm arasında karşıtlık kurmaz."
+      "tr": "Edat, Firavun'un yollara ulaşma beklentisini bildirir; iki hüküm arasında karşıtlık kurmaz."
      }
     },
     {
@@ -2447,7 +2447,7 @@
     {
      "text": {
       "en": "He presents reaching the ways as something he expects to be possible by his own effort (the tower)",
-      "tr": "Sebeplere ulaşmayı, kendi çabasıyla (kule) mümkün olması beklenen bir şey olarak sunuyor"
+      "tr": "Yollara ulaşmayı, kendi çabasıyla (kule) mümkün olması beklenen bir şey olarak sunuyor"
      },
      "why": {
       "en": "لَعَلِّي expresses hope or expectation; the tower is presented as a means of reaching his goal.",
@@ -2875,8 +2875,8 @@
    "ref": "3:103",
    "quote": "فَأَصْبَحْتُم بِنِعْمَتِهِۦٓ إِخْوَٰنًۭا",
    "stem": {
-    "en": "In فَأَصْبَحْتُم بِنِعْمَتِهِ إِخْوَانًا (\"and by His favour you became brothers\"), what is the ism of أَصْبَحَ?",
-    "tr": "فَأَصْبَحْتُم بِنِعْمَتِهِ إِخْوَانًا (\"O'nun nimetiyle kardeşler oldunuz\") ifadesinde أَصْبَحَ fiilinin ismi nedir?"
+    "en": "In فَأَصْبَحْتُم بِنِعْمَتِهِ إِخْوَانًا (\"and by His favour you became brothers\"), what is the ism of فَأَصْبَحْتُم?",
+    "tr": "فَأَصْبَحْتُم بِنِعْمَتِهِ إِخْوَانًا (\"O'nun nimetiyle kardeşler oldunuz\") ifadesinde فَأَصْبَحْتُم fiilinin ismi nedir?"
    },
    "options": [
     {
@@ -2915,8 +2915,8 @@
       "tr": "Bitişik zamir تُمْ (\"siz\"), ref' mahallinde"
      },
      "why": {
-      "en": "Correct. The ending تُمْ is the attached pronoun that is the ism of أَصْبَحَ: it names who came to be in the new state. The khabar is إِخْوَانًا.",
-      "tr": "Doğru. تُمْ eki, أَصْبَحَ fiilinin ismi olan bitişik zamirdir: yeni hâle giren kişiyi gösterir. Haber ise إِخْوَانًا kelimesidir."
+      "en": "Correct. The ending تُمْ is the attached pronoun that is the ism of فَأَصْبَحْتُم: it names who came to be in the new state. The khabar is إِخْوَانًا.",
+      "tr": "Doğru. تُمْ eki, فَأَصْبَحْتُم fiilinin ismi olan bitişik zamirdir: yeni hâle giren kişiyi gösterir. Haber ise إِخْوَانًا kelimesidir."
      }
     }
    ],
@@ -3352,8 +3352,8 @@
    "ref": "19:5",
    "quote": "وَكَانَتِ ٱمْرَأَتِى عَاقِرًۭا",
    "stem": {
-    "en": "Why does the verb in وَكَانَتِ امْرَأَتِي عَاقِرًا (\"and my wife was barren\") carry a tā' (كَانَتِ)?",
-    "tr": "وَكَانَتِ امْرَأَتِي عَاقِرًا (\"karım kısırdı\") ifadesinde fiil neden tâ alır (كَانَتِ)?"
+    "en": "Why does the verb in وَكَانَتِ امْرَأَتِي عَاقِرًا (\"and my wife was barren\") carry a tā' (وَكَانَتِ)?",
+    "tr": "وَكَانَتِ امْرَأَتِي عَاقِرًا (\"karım kısırdı\") ifadesinde fiil neden tâ alır (وَكَانَتِ)?"
    },
    "options": [
     {
@@ -3406,8 +3406,8 @@
    "ref": "66:10",
    "quote": "كَانَتَا تَحْتَ عَبْدَيْنِ",
    "stem": {
-    "en": "In كَانَتَا تَحْتَ عَبْدَيْنِ (\"the two were under two servants\"), what is the ism of كَانَ?",
-    "tr": "كَانَتَا تَحْتَ عَبْدَيْنِ (\"ikisi iki kulun altındaydı\") ifadesinde kâne fiilinin ismi nedir?"
+    "en": "In كَانَتَا تَحْتَ عَبْدَيْنِ (\"the two women were married to two servants\"), what is the ism of كَانَ?",
+    "tr": "كَانَتَا تَحْتَ عَبْدَيْنِ (\"ikisi iki kulun nikâhı altındaydı\") ifadesinde kâne fiilinin ismi nedir?"
    },
    "options": [
     {
@@ -3416,8 +3416,8 @@
       "tr": "عَبْدَيْنِ kelimesi, çünkü ikilinin yâsı ile biter"
      },
      "why": {
-      "en": "This noun is genitive, as the second term of an iḍāfa after تَحْتَ. The ism of a sister of كَانَ must be nominative.",
-      "tr": "Bu isim تَحْتَ kelimesinden sonra muzâfun ileyh olarak cer hâlindedir. Kâne kardeşinin ismi ise ref' olmalıdır."
+      "en": "عَبْدَيْنِ is genitive as the second term of the iḍāfa after تَحْتَ; its dual yāʾ does not make it the nominative ism.",
+      "tr": "عَبْدَيْنِ, تَحْتَ kelimesinden sonra muzâfun ileyh olarak cer hâlindedir; ikilik yâsı onu ref' hâlindeki ism yapmaz."
      }
     },
     {
@@ -3426,8 +3426,8 @@
       "tr": "Fiile bitişik ikilik elifi (\"ikisi\", müennes), ref' mahallinde"
      },
      "why": {
-      "en": "Correct. The alif is the attached pronoun for two doers and is the ism, in the position of rafʿ; the feminine tā' and the alif together make the verb agree with a feminine dual ism. The khabar is the phrase تَحْتَ عَبْدَيْنِ.",
-      "tr": "Doğru. Elif, iki fâili gösteren bitişik zamirdir ve ref' mahallindeki isimdir; müennes tâ ile elif birlikte fiili müennes ikili isme uydurur. Haber, تَحْتَ عَبْدَيْنِ öbeğidir."
+      "en": "Correct. The attached dual alif in كَانَتَا is the ism in the position of rafʿ; the feminine tāʾ marks feminine agreement, and تَحْتَ عَبْدَيْنِ supplies the khabar.",
+      "tr": "Doğru. كَانَتَا fiilindeki bitişik ikilik elifi ref' mahallinde ismdir; müenneslik tâsı cinsiyet uyumunu gösterir, تَحْتَ عَبْدَيْنِ öbeği ise haberdir."
      }
     },
     {
@@ -3436,8 +3436,8 @@
       "tr": "تَحْتَ kelimesi, çünkü fiilden hemen sonra gelir"
      },
      "why": {
-      "en": "This is an adverb of place that, with عَبْدَيْنِ, forms the khabar phrase in the position of naṣb. Being first after the verb does not make it the ism.",
-      "tr": "Bu, bir yer zarfıdır ve عَبْدَيْنِ ile birlikte nasb mahallinde haber öbeğini oluşturur. Fiilden hemen sonra gelmesi onu ism yapmaz."
+      "en": "تَحْتَ is a place adverb; together with عَبْدَيْنِ it supplies the khabar in the position of naṣb, expressing the marriage relationship in this verse.",
+      "tr": "تَحْتَ bir yer zarfıdır; عَبْدَيْنِ ile birlikte nasb mahallinde haber öbeğini oluşturur ve bu âyette nikâh bağını ifade eder."
      }
     },
     {
@@ -3446,8 +3446,8 @@
       "tr": "İsm yoktur; fiilin sonu yalnızca zamanı gösterir"
      },
      "why": {
-      "en": "The ending ـَا is not a tense marker. It is the attached pronoun that serves as the ism, as the wāw does in كَانُوا.",
-      "tr": "ـَا eki zaman işareti değildir. كَانُوا kelimesindeki vâv gibi, ism görevi gören bitişik zamirdir."
+      "en": "كَانَتَا has an ism: its attached dual alif refers to the two women; that alif marks the pronoun rather than tense.",
+      "tr": "كَانَتَا fiilinin ismi vardır: bitişik ikilik elifi iki kadını gösterir; bu elif zamanı değil, zamiri belirtir."
      }
     }
    ],
@@ -3890,10 +3890,10 @@
      }
     },
     {
-     "ar": "لَمْ",
+     "ar": "وَلَمْ",
      "why": {
-      "en": "This is the negating particle that puts the verb in the jussive. It is not a noun, so it cannot be the ism.",
-      "tr": "Bu, fiili meczum yapan olumsuzluk harfidir. İsim değildir; ism olamaz."
+      "en": "This is the negating particle (written with its fused وَ) that puts the verb in the jussive. It is not a noun, so it cannot be the ism.",
+      "tr": "Bu, fiilin meczum yapılmasını sağlayan olumsuzluk harfidir (bitişik وَ ile yazılır). İsim değildir; ism olamaz."
      }
     },
     {
@@ -4265,8 +4265,8 @@
       "tr": "Geçmiş biçimli fiil fetha üzerine mebnidir; zaman kelimesinin ona etkisi yoktur"
      },
      "why": {
-      "en": "Correct. A past-form (madi) verb with a masculine singular doer, like جَاءَ, is built on fatḥa. The time word only sets the time and changes nothing in the verb.",
-      "tr": "Doğru. Fâili müfret müzekker olan geçmiş biçimli (mâzî) fiil, örneğin جَاءَ, fetha üzerine mebnidir. Zaman kelimesi yalnızca zamanı belirler ve fiilde hiçbir şeyi değiştirmez."
+      "en": "Correct. This third-person past-form verb (madi), جَاءَ, is built on fatḥa. The time word only sets the time and changes nothing in the verb.",
+      "tr": "Doğru. Bu üçüncü şahıs geçmiş biçimli (mâzî) fiil, جَاءَ, fetha üzerine mebnidir. Zaman kelimesi yalnızca zamanı belirler ve fiilde hiçbir şeyi değiştirmez."
      }
     }
    ],
@@ -4634,7 +4634,7 @@
      },
      "why": {
       "en": "No preposition stands before it, since the time word is an adverb and not a preposition, and the dual ending here is an alif, not a yā'.",
-      "tr": "Önünde harf-i cer yoktur; zaman kelimesi zarftır, harf-i cer değildir. Buradaki ikili sonu da yâ değil, elifdir."
+      "tr": "Önünde harf-i cer yoktur; zaman kelimesi zarftır, harf-i cer değildir. Buradaki ikili sonu da yâ değil, eliftir."
      }
     },
     {
@@ -5267,8 +5267,8 @@
       "tr": "Ref' hâli, isim cümlesinin mübtedasıdır"
      },
      "why": {
-      "en": "The noun comes after a verb and completes it, so the sentence is verbal. A mubtada' stands at the start of a nominal sentence.",
-      "tr": "İsim fiilden sonra gelir ve onu tamamlar; cümle fiil cümlesidir. Mübteda, isim cümlesinin başında durur."
+      "en": "The noun comes after a passive verb and completes it as its nā'ib al-fāʿil, so the sentence is verbal, not nominal.",
+      "tr": "İsim meçhul fiilden sonra gelir ve nâib-i fâili olarak onu tamamlar; cümle fiil cümlesidir, isim cümlesi değildir."
      }
     }
    ],
@@ -5335,8 +5335,8 @@
    "ref": "28:29",
    "quote": "۞ فَلَمَّا قَضَىٰ مُوسَى ٱلْأَجَلَ",
    "stem": {
-    "en": "In فَلَمَّا قَضَىٰ مُوسَى الْأَجَلَ, which function does لَمَّا have?",
-    "tr": "فَلَمَّا قَضَىٰ مُوسَى الْأَجَلَ ifadesinde لَمَّا hangi işleve sahiptir?"
+    "en": "In فَلَمَّا قَضَىٰ مُوسَى الْأَجَلَ, which function does فَلَمَّا have?",
+    "tr": "فَلَمَّا قَضَىٰ مُوسَى الْأَجَلَ ifadesinde فَلَمَّا hangi işleve sahiptir?"
    },
    "options": [
     {
@@ -5443,8 +5443,8 @@
    "ref": "20:11",
    "quote": "فَلَمَّآ أَتَىٰهَا نُودِىَ",
    "stem": {
-    "en": "In فَلَمَّا أَتَاهَا نُودِيَ, what decides that لَمَّا means \"when\" and not \"not yet\"?",
-    "tr": "فَلَمَّا أَتَاهَا نُودِيَ ifadesinde لَمَّا kelimesinin \"henüz ...medi\" değil de \"-dığında\" anlamında olduğunu ne belirler?"
+    "en": "In فَلَمَّا أَتَاهَا نُودِيَ, what decides that فَلَمَّا means \"when\" and not \"not yet\"?",
+    "tr": "فَلَمَّا أَتَاهَا نُودِيَ ifadesinde فَلَمَّا kelimesinin \"henüz ...medi\" değil de \"-dığında\" anlamında olduğunu ne belirler?"
    },
    "options": [
     {
@@ -5710,43 +5710,55 @@
    "id": "L2W10-t5-08",
    "topic": "t5",
    "difficulty": 3,
-   "ref": "3:142",
-   "quote": "أَمْ حَسِبْتُمْ أَن تَدْخُلُوا۟ ٱلْجَنَّةَ وَلَمَّا يَعْلَمِ ٱللَّهُ",
+   "ref": "80:23",
+   "quote": "كَلَّا لَمَّا يَقْضِ مَآ أَمَرَهُۥ",
    "stem": {
-    "en": "Which word of the quote is a jussive verb?",
-    "tr": "Alıntıdaki hangi kelime meczum bir fiildir?"
+    "en": "In كَلَّا لَمَّا يَقْضِ مَا أَمَرَهُ, the verb يَقْضِ follows the negating لَمَّا and is jussive. Which jussive sign does it show?",
+    "tr": "كَلَّا لَمَّا يَقْضِ مَا أَمَرَهُ ifadesinde يَقْضِ fiili olumsuzluk bildiren لَمَّا kelimesinden sonra gelir ve meczumdur. Hangi meczum alâmetini gösterir?"
    },
    "options": [
     {
      "why": {
-      "en": "Wrong. حَسِبْتُمْ is a verb in the past form (the ending تُمْ is the subject); it comes before any jussive-maker.",
-      "tr": "Yanlış. حَسِبْتُمْ geçmiş biçimli bir fiildir (sondaki تُمْ öznedir); meczum yapan bir edattan önce gelir."
+      "en": "Wrong. يَقْضِ ends in the weak letter yā' (يَقْضِي), which is dropped in the jussive; the last root letter is weak, so a sukūn cannot appear on it.",
+      "tr": "Yanlış. يَقْضِ, meczumda düşen illet yâsıyla biter (يَقْضِي); son kök harfi illet harfidir, dolayısıyla üzerine sükûn gelmez."
      },
-     "ar": "حَسِبْتُمْ"
+     "text": {
+      "en": "A sukūn on its last root letter",
+      "tr": "Son kök harfinde sükûn"
+     }
     },
     {
      "why": {
-      "en": "Wrong. It also lost its nūn (تَدْخُلُونَ → تَدْخُلُوا), but here the cause is the subjunctive أَنْ before it, not لَمَّا. The same look does not mean the same mood.",
-      "tr": "Yanlış. Bunun da nûnu düşmüştür (تَدْخُلُونَ → تَدْخُلُوا) ama sebep öncesindeki mansûb yapan أَنْ harfidir, لَمَّا değil. Aynı görünüm aynı kip demek değildir."
+      "en": "Wrong. A dropped nūn is the jussive sign of verbs whose indicative ends in a nūn (like يَقْضُونَ); يَقْضِي ends in a weak yā', not a nūn, so there is no nūn to drop.",
+      "tr": "Yanlış. Düşen nûn, yükleme kipi nûnla biten fiillerin meczum alâmetidir (يَقْضُونَ gibi); يَقْضِي ise nûnla değil, illet yâsıyla biter; dolayısıyla düşecek bir nûn yoktur."
      },
-     "ar": "تَدْخُلُوا"
+     "text": {
+      "en": "A dropped nūn from its end",
+      "tr": "Sonundan düşen nûn"
+     }
     },
     {
      "why": {
-      "en": "Wrong. الْجَنَّةَ is a noun (it is the object, with fatḥa), not a verb at all.",
-      "tr": "Yanlış. الْجَنَّةَ bir isimdir (nesnedir, fetha alır); hiç fiil değildir."
+      "en": "Correct. The verb is يَقْضِي in the indicative; the jussive drops the final weak letter yā', giving يَقْضِ. This dropped yā' is the jussive sign.",
+      "tr": "Doğru. Fiil haber kipinde يَقْضِي biçimindedir; meczumda sondaki illet harfi yâ düşer ve يَقْضِ elde edilir. Bu düşen yâ meczum alâmetidir."
      },
-     "ar": "الْجَنَّةَ"
+     "text": {
+      "en": "A dropped weak letter yā': يَقْضِي becomes يَقْضِ",
+      "tr": "Düşen illet harfi yâ: يَقْضِي, يَقْضِ olur"
+     }
     },
     {
      "why": {
-      "en": "Correct. يَعْلَمِ comes right after the negating لَمَّا, so it is jussive: \"Allah has not yet made evident...\". Its sukūn is shown as a linking kasra before the next word.",
-      "tr": "Doğru. يَعْلَمِ, olumsuzluk bildiren لَمَّا kelimesinden hemen sonra gelir; bu yüzden meczumdur: \"Allah henüz ortaya çıkarmadı...\". Sükûnu, sonraki kelimeden önce bağlayıcı kesra olarak görünür."
+      "en": "Wrong. A fatḥa on the last letter is the subjunctive sign of a sound singular verb; it does not appear on verbs with a final weak letter.",
+      "tr": "Yanlış. Son harfteki fetha, sağlam tekil fiilin mansûb alâmetidir; sonu illet harfiyle biten fiillerde görülmez."
      },
-     "ar": "يَعْلَمِ"
+     "text": {
+      "en": "A fatḥa on its last root letter",
+      "tr": "Son kök harfinde fetha"
+     }
     }
    ],
-   "correct": 3
+   "correct": 2
   },
   {
    "id": "L2W10-t5-09",
@@ -5815,8 +5827,8 @@
    "options": [
     {
      "why": {
-      "en": "Wrong. Neither a verb in the past form nor a jussive verb follows, so there is no conditional or temporal clause here.",
-      "tr": "Yanlış. Ardından ne geçmiş biçimli ne de meczum bir fiil gelir; yani burada şart veya zaman cümlesi yoktur."
+      "en": "No past-form or jussive verb follows لَمَّا here; عَلَيْهَا حَافِظٌ is a nominal clause, so this is not temporal لَمَّا or conditional إِنْ.",
+      "tr": "Burada لَمَّا kelimesinden sonra geçmiş biçimli veya meczum bir fiil gelmez; عَلَيْهَا حَافِظٌ bir isim cümlesidir, dolayısıyla zaman anlamlı لَمَّا veya şart bildiren إِنْ söz konusu değildir."
      },
      "text": {
       "en": "إِن is the conditional \"if\" and لَمَّا means \"when\"",
@@ -5825,8 +5837,8 @@
     },
     {
      "why": {
-      "en": "Wrong. \"Not yet\" needs a jussive verb after لَمَّا, but only a noun follows. Also, the particle of stress has a doubled nūn.",
-      "tr": "Yanlış. \"Henüz ...medi\" için لَمَّا kelimesinden sonra meczum fiil gerekir; oysa yalnızca bir isim gelir. Ayrıca pekiştirme edatının nûnu şeddelidir."
+      "en": "“Not yet” requires a jussive verb, but عَلَيْهَا is a prepositional phrase and حَافِظٌ is a noun forming a nominal clause with it; the quoted إِن is negating, not the emphatic particle with doubled nūn.",
+      "tr": "“Henüz ...medi” anlamı meczum fiil gerektirir; oysa عَلَيْهَا bir car-mecrûr öbeğidir ve حَافِظٌ ismiyle birlikte isim cümlesi oluşturur; alıntıdaki إِن olumsuzluk bildirir, nûnu şeddeli pekiştirme edatı değildir."
      },
      "text": {
       "en": "إِن stresses the sentence and لَمَّا means \"not yet\"",
@@ -5835,8 +5847,8 @@
     },
     {
      "why": {
-      "en": "Correct. In the reading shown, a negating إِن is followed by لَمَّا in the sense of إِلَّا: \"there is no soul except that a guardian is over it\".",
-      "tr": "Doğru. Gösterilen kıraatte olumsuz إِن harfinden sonra gelen لَمَّا, إِلَّا anlamındadır: \"üzerinde bir koruyucu olmayan hiçbir nefis yoktur\"."
+      "en": "Correct. In the reading shown, إِن negates and لَمَّا means “except”; together they state that every soul has a guardian over it.",
+      "tr": "Doğru. Gösterilen kıraatte إِن olumsuzluk bildirir, لَمَّا ise “-den başka” anlamındadır; birlikte her nefsin üzerinde bir koruyucu bulunduğunu ifade ederler."
      },
      "text": {
       "en": "إِن negates and لَمَّا means \"except\": \"every soul has a guardian over it\"",
@@ -5845,8 +5857,8 @@
     },
     {
      "why": {
-      "en": "Wrong. That would turn the sentence into the opposite of its meaning. The negation of إِن is cancelled by the \"except\" sense of لَمَّا.",
-      "tr": "Yanlış. Bu, cümleyi anlamının tersine çevirirdi. إِن harfinin olumsuzluğu, لَمَّا kelimesinin \"-den başka\" anlamıyla giderilir."
+      "en": "لَمَّا is restrictive here, not a second negation: the sentence affirms a guardian over every soul rather than denying one.",
+      "tr": "Burada لَمَّا ikinci bir olumsuzluk değil, kısıtlama bildirir; cümle her nefsin üzerinde bir koruyucu bulunduğunu belirtir, koruyucuyu reddetmez."
      },
      "text": {
       "en": "Both negate, so the sentence means \"no soul has a guardian yet\"",
@@ -5959,8 +5971,8 @@
    "ref": "7:143",
    "quote": "وَلَمَّا جَآءَ مُوسَىٰ لِمِيقَـٰتِنَا وَكَلَّمَهُۥ رَبُّهُۥ",
    "stem": {
-    "en": "In وَلَمَّا جَاءَ مُوسَىٰ لِمِيقَاتِنَا, how does this temporal لَمَّا differ from the لَمَّا that is followed by a jussive verb?",
-    "tr": "وَلَمَّا جَاءَ مُوسَىٰ لِمِيقَاتِنَا ifadesindeki zaman anlamlı لَمَّا, meczum fiille gelen لَمَّا kelimesinden nasıl ayrılır?"
+    "en": "In وَلَمَّا جَاءَ مُوسَىٰ لِمِيقَاتِنَا, how does this temporal وَلَمَّا differ from the لَمَّا that is followed by a jussive verb?",
+    "tr": "وَلَمَّا جَاءَ مُوسَىٰ لِمِيقَاتِنَا ifadesindeki zaman anlamlı وَلَمَّا, meczum fiille gelen لَمَّا kelimesinden nasıl ayrılır?"
    },
    "options": [
     {
@@ -6073,8 +6085,8 @@
    "options": [
     {
      "why": {
-      "en": "Wrong. The negating لَا here does not make a verb jussive, and تَصِلُ ends in ḍamma, which is the nominative sign of a verb, not a jussive sign.",
-      "tr": "Yanlış. Buradaki olumsuz لَا fiili meczum yapmaz; تَصِلُ ise damme ile biter, bu da fiilin ref' alâmetidir, meczum alâmeti değil."
+      "en": "The negating لَا here leaves تَصِلُ indicative; its final ḍamma is a sign of rafʿ, not jazm.",
+      "tr": "Buradaki olumsuzluk bildiren لَا, تَصِلُ fiilini merfû bırakır; sonundaki damme cezm değil, ref' alâmetidir."
      },
      "text": {
       "en": "Yes: تَصِلُ, because a negating word comes before it",
@@ -6083,8 +6095,8 @@
     },
     {
      "why": {
-      "en": "Wrong. رَأَىٰ is a verb in the past form. Before a past-form verb, لَمَّا is the time word \"when\" and causes no jussive.",
-      "tr": "Yanlış. رَأَىٰ geçmiş biçimli bir fiildir. Geçmiş biçimli fiilin önündeki لَمَّا zaman kelimesidir (\"-dığında\") ve cezm yapmaz."
+      "en": "رَأَىٰ is a past-form verb; the preceding temporal particle means “when” and does not govern a jussive verb.",
+      "tr": "رَأَىٰ geçmiş biçimli bir fiildir; önündeki zaman edatı “-dığında” anlamındadır ve fiili meczum yapmaz."
      },
      "text": {
       "en": "Yes: رَأَىٰ, because it follows لَمَّا",
@@ -6093,8 +6105,8 @@
     },
     {
      "why": {
-      "en": "Correct. \"When he saw their hands did not reach it, he disliked them\": رَأَىٰ and نَكِرَهُمْ are past forms, and تَصِلُ keeps its ḍamma, so nothing is jussive.",
-      "tr": "Doğru. \"Ellerinin ona uzanmadığını görünce onlardan hoşlanmadı\": رَأَىٰ ve نَكِرَهُمْ geçmiş biçimlidir, تَصِلُ ise dammesini korur; hiçbiri meczum değildir."
+      "en": "Correct. “When he saw their hands not reaching it, he found them strange”: رَأَىٰ and نَكِرَهُمْ are past forms, while تَصِلُ is indicative with ḍamma; none is jussive.",
+      "tr": "Doğru. “Ellerinin ona uzanmadığını görünce onları yadırgadı”: رَأَىٰ ve نَكِرَهُمْ geçmiş biçimlidir; تَصِلُ ise damme ile merfûdur; hiçbiri meczum değildir."
      },
      "text": {
       "en": "No: فَلَمَّا is the time word \"when\" before the past-form رَأَىٰ, and تَصِلُ follows a negating لَا with ḍamma",
@@ -6103,8 +6115,8 @@
     },
     {
      "why": {
-      "en": "Wrong. Position in the sentence does not make a verb jussive; نَكِرَهُمْ is a past-form verb with an attached pronoun.",
-      "tr": "Yanlış. Cümledeki yer, fiili meczum yapmaz; نَكِرَهُمْ, bitişik zamirli geçmiş biçimli bir fiildir."
+      "en": "نَكِرَهُمْ is a past-form verb with an attached object pronoun; being the final verb in this quote does not make it jussive.",
+      "tr": "نَكِرَهُمْ, mef'ûl olan bitişik zamir içeren geçmiş biçimli bir fiildir; alıntının son fiili olması onu meczum yapmaz."
      },
      "text": {
       "en": "Yes: نَكِرَهُمْ, because it is the last verb of the quote",
@@ -6239,8 +6251,8 @@
       "tr": "Meczum alâmetidir: لَمَّا kelimesinden sonra sükûnla biten her fiil meczumdur ve \"henüz ...medi\" anlamı verir"
      },
      "why": {
-      "en": "Wrong. In a past-form verb the sukūn on the feminine ending is part of the conjugation, not a mood sign; a past-form verb is never jussive.",
-      "tr": "Yanlış. Geçmiş biçimli fiilde müennes ekindeki sükûn çekimin parçasıdır, kip alâmeti değildir; geçmiş biçimli fiil hiçbir zaman meczum olmaz."
+      "en": "The sukūn belongs to the feminine tāʾ of the past-form أَضَاءَتْ; a past-form verb does not take jussive mood.",
+      "tr": "Sükûn, geçmiş biçimli أَضَاءَتْ fiilinin müenneslik tâsına aittir; geçmiş biçimli fiil meczum olmaz."
      }
     },
     {
@@ -6249,8 +6261,8 @@
       "tr": "Meczum bir fiilin düşüreceği nûnun yerini tutar; yani fiil yine de meczumdur"
      },
      "why": {
-      "en": "Wrong. No nūn is involved here: the dropped nūn is a sign of the plural muḍāriʿ verbs, and أَضَاءَتْ is not one.",
-      "tr": "Yanlış. Burada nûn söz konusu değildir: düşen nûn çoğul muzâri fiillerin alâmetidir ve أَضَاءَتْ böyle bir fiil değildir."
+      "en": "Nūn deletion marks jazm in the five verbs, including dual, plural and second-person feminine singular forms; أَضَاءَتْ is a past-form verb, so that rule does not apply.",
+      "tr": "Nûnun düşmesi, ikil, çoğul ve ikinci şahıs müennes tekil biçimleri kapsayan beş fiilde cezm işaretidir; أَضَاءَتْ geçmiş biçimli bir fiil olduğundan bu kural burada uygulanmaz."
      }
     },
     {
@@ -6259,8 +6271,8 @@
       "tr": "أَضَاءَتْ geçmiş biçimli bir fiildir: sükûn onun müennes ekine aittir ve لَمَّا kelimesinden sonra geçmiş biçimli fiil \"-dığında\" demektir"
      },
      "why": {
-      "en": "Correct. The sukūn is the ending of the feminine past form (\"it lit up\"), not a jussive sign, so لَمَّا is the time word \"when\".",
-      "tr": "Doğru. Sükûn, müennes geçmiş biçimin sonudur (\"aydınlattı\"); meczum alâmeti değildir, bu yüzden لَمَّا \"-dığında\" anlamlı zaman kelimesidir."
+      "en": "Correct. أَضَاءَتْ is feminine singular in the past form; its final sukūn marks the feminine ending, so the preceding time word means “when”, not “not yet”.",
+      "tr": "Doğru. أَضَاءَتْ geçmiş biçimli, müennes tekil bir fiildir; sonundaki sükûn müenneslik ekine aittir, bu yüzden önündeki zaman kelimesi “henüz ...medi” değil, “-dığında” anlamındadır."
      }
     },
     {
@@ -6269,8 +6281,8 @@
       "tr": "Önemsizdir, çünkü لَمَّا kelimesinin anlamını yalnızca fiilden sonra gelen isim belirler"
      },
      "why": {
-      "en": "Wrong. The verb right after لَمَّا decides; here it is in the past form, and that is what gives \"when\".",
-      "tr": "Yanlış. Belirleyen, لَمَّا kelimesinden hemen sonra gelen fiildir; burada geçmiş biçimlidir ve \"-dığında\" anlamını veren budur."
+      "en": "The past form of أَضَاءَتْ immediately after the particle identifies the temporal use; a later noun alone does not determine this function.",
+      "tr": "Edatın hemen ardından gelen أَضَاءَتْ fiilinin geçmiş biçimli olması zaman kullanımını gösterir; daha sonra gelen bir isim tek başına bu işlevi belirlemez."
      }
     }
    ],
@@ -6505,8 +6517,8 @@
    "options": [
     {
      "why": {
-      "en": "Correct. إِنَّا is the particle إِنَّ with the attached pronoun نَا (position of naṣb, its ism); it is not the negating إِنْ, so the restrictive meaning is impossible. A past-form verb follows لَمَّا, so it is the time word: \"when the water rose high, We carried you in the ship\".",
-      "tr": "Doğru. إِنَّا, bitişik نَا zamiriyle (nasb mahallinde, ismi) birlikte إِنَّ edatıdır; olumsuz إِنْ değildir, bu yüzden kısıtlama anlamı mümkün değildir. لَمَّا kelimesinden sonra geçmiş biçimli fiil geldiği için zaman kelimesidir: \"Su yükseldiğinde sizi gemide taşıdık\"."
+      "en": "Correct. إِنَّا contains emphatic إِنَّ and its attached ism نَا; the following past-form verb طَغَا makes لَمَّا temporal: “when the water overflowed”.",
+      "tr": "Doğru. إِنَّا, pekiştirme edatı إِنَّ ile onun bitişik ismi نَا zamirinden oluşur; لَمَّا kelimesinden sonra gelen geçmiş biçimli طَغَا fiili zaman anlamını gösterir: “su taştığında”."
      },
      "text": {
       "en": "Here إِنَّ is the particle with its attached pronoun (naṣb position), not the negating إِنْ; لَمَّا is followed by the past-form طَغَا, so it means \"when\"",
@@ -6515,8 +6527,8 @@
     },
     {
      "why": {
-      "en": "Wrong. Only a negating إِنْ allows that meaning. إِنَّا is the particle إِنَّ with the attached pronoun نَا; it is not negating.",
-      "tr": "Yanlış. Bu anlama yalnızca olumsuz إِنْ izin verir. إِنَّا, bitişik نَا zamiriyle birlikte إِنَّ edatıdır; olumsuzluk bildirmez."
+      "en": "The quoted إِنَّا is emphatic, not negating إِنْ; it therefore does not supply the negation needed for the restrictive construction tested here.",
+      "tr": "Alıntıdaki إِنَّا pekiştirme bildirir, olumsuz إِنْ değildir; dolayısıyla burada sorulan kısıtlama yapısının gerektirdiği olumsuzluğu sağlamaz."
      },
      "text": {
       "en": "The restrictive meaning is right, because any إِنَّ before لَمَّا makes it \"except\"",
@@ -6525,8 +6537,8 @@
     },
     {
      "why": {
-      "en": "Wrong. إِنَّ is an emphasising particle, not a negation, and a past-form verb follows, so \"not yet\" is excluded.",
-      "tr": "Yanlış. إِنَّ olumsuzluk değil, vurgu edatıdır; ayrıca ardından geçmiş biçimli fiil geldiği için \"henüz ...medi\" anlamı dışarıda kalır."
+      "en": "إِنَّا does not announce a negation, and the following طَغَا is past-form rather than jussive; neither supports “not yet”.",
+      "tr": "إِنَّا olumsuzluk bildirmez; ardından gelen طَغَا da meczum değil, geçmiş biçimlidir; ikisi de “henüz ...medi” anlamını desteklemez."
      },
      "text": {
       "en": "لَمَّا means \"not yet\", because إِنَّ announces a negation",
@@ -6535,12 +6547,12 @@
     },
     {
      "why": {
-      "en": "Wrong. The time word \"when\" causes no jussive; طَغَا stays a past-form verb.",
-      "tr": "Yanlış. Zaman anlamlı \"-dığında\" cezm yapmaz; طَغَا geçmiş biçimli fiil olarak kalır."
+      "en": "طَغَا is the past-form verb “overflowed”, while الْمَاءُ is its subject, “the water”; temporal لَمَّا causes no jazm and does not require final sukūn on this verb.",
+      "tr": "طَغَا “taştı” anlamındaki geçmiş biçimli fiildir; الْمَاءُ ise “su” anlamındaki fâilidir; zaman bildiren لَمَّا cezm yapmaz ve bu fiilin sonunda sükûn gerektirmez."
      },
      "text": {
-      "en": "لَمَّا is jussive-making here, so the water طَغَا must be read with a sukūn",
-      "tr": "لَمَّا burada cezm yapar; bu yüzden طَغَا sükûnla okunmalıdır"
+      "en": "لَمَّا is jussive-making here, so the verb طَغَا must be read with a sukūn",
+      "tr": "لَمَّا burada cezm yapar; bu yüzden طَغَا fiili sükûnla okunmalıdır"
      }
     }
    ],
@@ -7133,8 +7145,8 @@
       "tr": "فَإِنَّ yazılan harfin ismidir ve nasb mahallindedir; haber, مِنْ عَزْمِ ٱلْأُمُورِ öbeğidir ve ref' mahallindedir."
      },
      "why": {
-      "en": "Correct. The ism of the particle is in the position of naṣb (a demonstrative shows no visible ending), and its khabar, a prepositional phrase, is in the position of rafʿ.",
-      "tr": "Doğru. Harfin ismi nasb mahallindedir (işaret isminde görünen bir son yoktur); haberi olan car-mecrûr öbeği ise ref' mahallindedir."
+      "en": "Correct. The ism of the particle is in the position of naṣb (this demonstrative, ذَٰلِكَ, has a fixed form and shows no visible ending), and its khabar, a prepositional phrase, is in the position of rafʿ.",
+      "tr": "Doğru. Harfin ismi nasb mahallindedir (bu işaret ismi, ذَٰلِكَ, sabit biçimlidir ve görünen bir son taşımaz); haberi olan car-mecrûr öbeği ise ref' mahallindedir."
      }
     }
    ],
@@ -7373,8 +7385,8 @@
       "tr": "İsm bitişik كُمْ zamiridir (nasb mahalli); haber تَشْكُرُونَ fiil cümlesidir (ref' mahalli)"
      },
      "why": {
-      "en": "Correct. A pronoun attached to a particle of the إِنَّ family becomes its ism in the position of naṣb. The verb clause that follows is the khabar in the position of rafʿ, and it keeps its nūn.",
-      "tr": "Doğru. إِنَّ ailesinden bir edada bitişen zamir, nasb mahallinde edat ismi olur. Ardından gelen fiil cümlesi ref' mahallinde haber olur ve nûnunu korur."
+      "en": "Correct. In لَعَلَّكُمْ the attached كُمْ is the ism in the position of naṣb; تَشْكُرُونَ is the verbal khabar in the position of rafʿ, with its indicative nūn retained.",
+      "tr": "Doğru. لَعَلَّكُمْ kelimesinde bir edata bitişen كُمْ zamiri nasb mahallinde ismdir; تَشْكُرُونَ fiil cümlesi ref' mahallinde haberdir ve fiil merfû biçimin nûnunu korur."
      }
     },
     {
@@ -7383,8 +7395,8 @@
       "tr": "لَعَلَّ fiili nasb yapar; bu yüzden تَشْكُرُونَ nûnunu düşürmeliydi"
      },
      "why": {
-      "en": "Wrong. The particles of the إِنَّ family put the ism in naṣb, not the khabar. The khabar is in rafʿ, and a verbal khabar keeps its nūn.",
-      "tr": "Yanlış. إِنَّ ailesinden edatlar ismi nasb eder, haberi değil. Haber ref'dir ve fiil cümlesi olan haber nûnunu korur."
+      "en": "لَعَلَّ governs its ism, the attached كُمْ, in naṣb; it does not make the khabar verb تَشْكُرُونَ subjunctive or delete its nūn.",
+      "tr": "لَعَلَّ, ismi olan bitişik كُمْ zamirini nasb mahalline getirir; haber fiili تَشْكُرُونَ kelimesini mansûb yapmaz ve nûnunu düşürmez."
      }
     },
     {
@@ -7393,8 +7405,8 @@
       "tr": "İsm تَشْكُرُونَ fiilidir; çünkü edattan hemen sonra gelir; كُمْ fazladan bir ektir"
      },
      "why": {
-      "en": "Wrong. The pronoun كُمْ is attached directly to لَعَلَّ and is its ism. The verb clause that follows is the khabar, not the ism.",
-      "tr": "Yanlış. كُمْ zamiri doğrudan لَعَلَّ edatına yapışır ve onun ismidir. Ardından gelen fiil cümlesi haber olur, ism değil."
+      "en": "كُمْ is attached directly to the particle as its ism; تَشْكُرُونَ follows that pronoun and supplies the khabar clause.",
+      "tr": "كُمْ doğrudan edata bitişen ism zamiridir; تَشْكُرُونَ bu zamirden sonra gelir ve haber cümlesini oluşturur."
      }
     },
     {
@@ -7403,8 +7415,8 @@
       "tr": "كُمْ, لَعَلَّ edatının haberidir; تَشْكُرُونَ fiili ise ismidir"
      },
      "why": {
-      "en": "Wrong. The roles are reversed. A pronoun attached directly to a particle of this family is always its ism; the clause that follows is the khabar.",
-      "tr": "Yanlış. Görevler tersine çevrilmiş. Bu aileden bir edata doğrudan yapışan zamir her zaman onun ismidir; ardından gelen cümle haberdir."
+      "en": "The proposed roles are reversed: كُمْ is the ism of the particle, and the following clause تَشْكُرُونَ is its khabar.",
+      "tr": "Önerilen görevler ters verilmiştir: كُمْ edatın ismidir, ardından gelen تَشْكُرُونَ cümlesi ise haberidir."
      }
     }
    ],
@@ -7576,55 +7588,55 @@
    "id": "L2W10-t6-19",
    "topic": "t6",
    "difficulty": 2,
-   "ref": "38:30",
-   "quote": "إِنَّهُۥٓ أَوَّابٌ",
+   "ref": "38:8",
+   "quote": "بَل لَّمَّا يَذُوقُوا۟ عَذَابِ",
    "stem": {
-    "en": "In إِنَّهُ أَوَّابٌ, which analysis combines the pronoun’s role with the visible ending of the khabar?",
-    "tr": "إِنَّهُ أَوَّابٌ ifadesinde zamirin görevi ile haberin görünen sonunu hangi çözümleme doğru birleştirir?"
+    "en": "\"They have not yet tasted My punishment.\" In بَلْ لَّمَّا يَذُوقُوا عَذَابِ, what shows that لَمَّا is negating (\"not yet\") rather than the time word (\"when\")?",
+    "tr": "\"Azabımı henüz tatmadılar.\" بَلْ لَّمَّا يَذُوقُوا عَذَابِ ifadesinde لَمَّا kelimesinin zaman bildiren \"-dığında\" değil de \"henüz ...medi\" anlamında olduğunu ne gösterir?"
    },
    "options": [
     {
-     "text": {
-      "en": "The attached pronoun is the ism in the position of naṣb; أَوَّابٌ is the khabar, nominative with tanwīn ḍamm.",
-      "tr": "Bitişik zamir nasb mahallinde ismdir; أَوَّابٌ tenvîn-i damme ile merfû haberdir."
-     },
      "why": {
-      "en": "The pronoun attached to إِنَّهُ is its ism in the position of naṣb; أَوَّابٌ retains the nominative ending of its khabar.",
-      "tr": "إِنَّهُ kelimesine bitişik zamir nasb mahallinde ismdir; أَوَّابٌ haberin ref' sonunu korur."
+      "en": "Wrong. بَلْ is a contrast particle that introduces a correction; it does not by itself turn لَمَّا into a negation. The verb after لَمَّا decides whether it is temporal or negating.",
+      "tr": "Yanlış. بَلْ, düzeltme getiren bir karşıtlık edatıdır; tek başına لَمَّا kelimesini olumsuzluğa çevirmez. لَمَّا kelimesinin zaman mı yoksa olumsuzluk mu olduğunu ardından gelen fiil belirler."
+     },
+     "text": {
+      "en": "بَلْ before it turns لَمَّا into a negation",
+      "tr": "Öncesindeki بَلْ, لَمَّا kelimesini olumsuzluğa çevirir"
      }
     },
     {
-     "text": {
-      "en": "The attached pronoun is a genitive muḍāf ilayh; أَوَّابٌ is a new mubtadaʾ.",
-      "tr": "Bitişik zamir cer mahallinde muzâfun ileyhtir; أَوَّابٌ yeni bir mübtedadır."
-     },
      "why": {
-      "en": "The pronoun is attached to a particle governing an ism, not to a noun forming an iḍāfa; أَوَّابٌ is its khabar.",
-      "tr": "Zamir, izâfet kuran bir isme değil, ism yöneten bir edata bitişiktir; أَوَّابٌ onun haberidir."
+      "en": "Correct. Negating لَمَّا requires a jussive verb; يَذُوقُوا has lost its nūn (يَذُوقُونَ → يَذُوقُوا), which is the jussive sign. Temporal لَمَّا would need a past-form verb instead.",
+      "tr": "Doğru. Olumsuzluk bildiren لَمَّا meczum fiil gerektirir; يَذُوقُوا nûnunu kaybetmiştir (يَذُوقُونَ → يَذُوقُوا) ve bu meczum alâmetidir. Zaman anlamlı لَمَّا olsaydı geçmiş biçimli fiil gerekirdi."
+     },
+     "text": {
+      "en": "يَذُوقُوا is jussive: the nūn is dropped (يَذُوقُونَ → يَذُوقُوا), which only happens after negating لَمَّا",
+      "tr": "يَذُوقُوا meczumdur: nûn düşmüştür (يَذُوقُونَ → يَذُوقُوا) ve bu yalnızca olumsuzluk bildiren لَمَّا kelimesinden sonra olur"
      }
     },
     {
-     "text": {
-      "en": "The attached pronoun is the ism in the position of rafʿ; أَوَّابٌ is an accusative khabar.",
-      "tr": "Bitişik zamir ref' mahallinde ismdir; أَوَّابٌ mansûb haberdir."
-     },
      "why": {
-      "en": "This reverses the effect of إِنَّ: the pronoun ism is in the position of naṣb and the khabar shows rafʿ with tanwīn ḍamm.",
-      "tr": "Bu, إِنَّ edatının etkisini tersine çevirir: zamir ism nasb mahallindedir, haber ise tenvîn-i damme ile ref' gösterir."
+      "en": "Wrong. عَذَابِ carries a kasra because it is a genitive complement after the verb's object (or follows a preposition that is not shown in this excerpt); the case of عَذَابِ has nothing to do with لَمَّا's function.",
+      "tr": "Yanlış. عَذَابِ, fiilin nesnesinden sonra gelen mecrûr tamamlayıcı olduğu için kesre taşır; عَذَابِ kelimesinin hâli لَمَّا kelimesinin işleviyle ilgili değildir."
+     },
+     "text": {
+      "en": "عَذَابِ is genitive, showing that لَمَّا acts as a preposition here",
+      "tr": "عَذَابِ cerdir; bu, لَمَّا kelimesinin burada harf-i cer olarak işlev gördüğünü gösterir"
      }
     },
     {
-     "text": {
-      "en": "The attached pronoun is the khabar; أَوَّابٌ is the accusative ism.",
-      "tr": "Bitişik zamir haberdir; أَوَّابٌ mansûb ismdir."
-     },
      "why": {
-      "en": "The attached pronoun supplies the ism, while أَوَّابٌ supplies the khabar and visibly ends in tanwīn ḍamm, not naṣb.",
-      "tr": "Bitişik zamir ismdir; أَوَّابٌ ise haberdir ve görünen sonu nasb değil, tenvîn-i dammedir."
+      "en": "Wrong. Temporal لَمَّا is followed by a past-form verb, not a jussive verb. يَذُوقُوا is a jussive muḍāriʿ with a dropped nūn, not a past form.",
+      "tr": "Yanlış. Zaman anlamlı لَمَّا kelimesinden sonra geçmiş biçimli fiil gelir, meczum fiil değil. يَذُوقُوا, nûnu düşmüş meczum bir muzâridir; geçmiş biçimli fiil değildir."
+     },
+     "text": {
+      "en": "A past-form verb can also follow negating لَمَّا, so the form of يَذُوقُوا does not decide",
+      "tr": "Geçmiş biçimli fiil de olumsuzluk bildiren لَمَّا kelimesinden sonra gelebilir; dolayısıyla يَذُوقُوا kelimesinin biçimi belirleyici değildir"
      }
     }
    ],
-   "correct": 0
+   "correct": 1
   },
   {
    "id": "L2W10-t6-20",
@@ -7644,7 +7656,7 @@
      },
      "why": {
       "en": "The pronoun is in the position of naṣb, but a pronoun shows no visible ending. The visible sign is on another word.",
-      "tr": "Zamir nasb mahallindedir ama zamirde görünen bir hareke yoktur. Görünen işaret başka bir kelimededir."
+      "tr": "Zamir nasb mahallindedir; ancak üzerindeki damme bir i'râb alâmeti değildir. Görünen i'râb işareti başka bir kelimededir."
      }
     },
     {
@@ -7688,7 +7700,7 @@
    "quote": "كَانَ أَكْثَرُهُم مُّشْرِكِينَ",
    "stem": {
     "en": "\"...most of them were polytheists.\" A student claims that both parts of the sentence stay nominative after كَانَ, so the last word should carry a nominative ending like the ism. Which correction is right?",
-    "tr": "\"...çoğu müşriktiler.\" Bir öğrenci كَانَ fiilinden sonra cümlenin iki bölümünün de ref' kaldığını, bu yüzden son kelimenin de ism gibi ref' sonu taşıması gerektiğini sanıyor. Hangi düzeltme doğrudur?"
+    "tr": "\"...onların çoğu müşrikti.\" Bir öğrenci كَانَ fiilinden sonra cümlenin iki bölümünün de ref' kaldığını, bu yüzden son kelimenin de ism gibi ref' sonu taşıması gerektiğini sanıyor. Hangi düzeltme doğrudur?"
    },
    "options": [
     {
@@ -7697,8 +7709,8 @@
       "tr": "كَانَ fiilinden sonra haber nasbtır: مُشْرِكِينَ müzekker sâlim çoğulun nasb biçimi olan yâ' ve nûnla biter; ism أَكْثَرُهُم ise dammesini korur."
      },
      "why": {
-      "en": "Correct. كَانَ keeps its ism nominative (ḍamma on أَكْثَرُ) and puts its khabar in naṣb, shown here by the yā' of the sound masculine plural.",
-      "tr": "Doğru. كَانَ ismini ref' bırakır (أَكْثَرُ üzerinde damme) ve haberini nasb yapar; burada bu, müzekker sâlim çoğulun yâ'sı ile görülür."
+      "en": "Correct. كَانَ leaves أَكْثَرُهُم nominative as its ism and makes مُشْرِكِينَ accusative as its khabar, marked by the yāʾ of the sound masculine plural.",
+      "tr": "Doğru. كَانَ, ismi olan أَكْثَرُهُم kelimesini ref' hâlinde bırakır; haberi olan مُشْرِكِينَ kelimesini müzekker sâlim çoğulun yâsıyla nasb yapar."
      }
     },
     {
@@ -7707,8 +7719,8 @@
       "tr": "مُشْرِكِينَ cerdir, çünkü bitişik zamirli bir isimden sonra gelir."
      },
      "why": {
-      "en": "Nothing makes it genitive: there is no preposition and it is not the second term of an iḍāfa. The yā' here is the naṣb sign of the khabar.",
-      "tr": "Onu cer yapan bir şey yoktur: harf-i cer yoktur ve izâfetin ikinci terimi de değildir. Buradaki yâ' haberin nasb işaretidir."
+      "en": "مُشْرِكِينَ is the khabar of كَانَ, not a genitive complement; an attached pronoun on the preceding noun does not make it genitive.",
+      "tr": "مُشْرِكِينَ, كَانَ fiilinin haberidir, cer hâlinde bir tamlayan değildir; önceki isme bitişen zamir bu kelimeyi cer yapmaz."
      }
     },
     {
@@ -7717,8 +7729,8 @@
       "tr": "أَكْثَرُهُم nasb olmalıdır, çünkü كَانَ fiilinden sonra ism nasbtır."
      },
      "why": {
-      "en": "This reverses the effect. After كَانَ the ism stays nominative (the ḍamma on أَكْثَرُ is correct) and the khabar is accusative.",
-      "tr": "Bu, etkiyi tersine çevirir. كَانَ fiilinden sonra ism ref' kalır (أَكْثَرُ üzerindeki damme doğrudur), haber ise nasbtır."
+      "en": "The ḍamma on أَكْثَرُهُم correctly marks the nominative ism; after كَانَ it is the khabar مُشْرِكِينَ that takes naṣb.",
+      "tr": "أَكْثَرُهُم kelimesindeki damme, ref' hâlindeki ismi doğru biçimde gösterir; كَانَ fiilinden sonra nasb olan, haber مُشْرِكِينَ kelimesidir."
      }
     },
     {
@@ -7727,8 +7739,8 @@
       "tr": "Öğrenci haklıdır: كَانَ fiilinden sonra iki bölüm de ref' kalır."
      },
      "why": {
-      "en": "Both parts stay nominative only in a plain nominal sentence. Once كَانَ enters, the khabar becomes accusative.",
-      "tr": "İki bölüm de ancak sade bir isim cümlesinde ref' kalır. كَانَ girince haber nasb olur."
+      "en": "In this sentence كَانَ keeps the ism nominative but puts the khabar in naṣb, so the two parts do not both remain nominative.",
+      "tr": "Bu cümlede كَانَ ismi ref' hâlinde bırakır, haberi ise nasb yapar; dolayısıyla iki unsur birden ref' hâlinde kalmaz."
      }
     }
    ],
