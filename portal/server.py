@@ -389,6 +389,12 @@ def irab_library_ayah(surah, ayah):
 PUBLIC_PORTAL_FILES = {"data.js", "vocab.js", "tests.js", "lessons_index.js", "lessons_index.json", "lectures.json"}
 
 
+@app.route("/fonts/<path:filename>")
+def font_files(filename):
+    # only the fonts folder, never the rest of portal/ (send_from_directory rejects "../")
+    return send_from_directory(str(PORTAL_DIR / "fonts"), filename)
+
+
 @app.route("/<path:filename>")
 def static_files(filename):
     if filename not in PUBLIC_PORTAL_FILES:

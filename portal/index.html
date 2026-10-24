@@ -826,7 +826,11 @@
           display: flex; flex-direction: column; gap: 3px; direction: ltr; font-size: calc(0.82rem * var(--lib-scale, 1)); line-height: 1.35; }
   /* faded divider where a new sentence begins (grid is right-to-left, so the next sentence starts on the left) */
   .wbox.wend { border-left: 1px solid rgba(0,0,0,0.12); margin-left: 6px; padding-left: 12px; }
-  .wbox .w-ar { font-family: 'Scheherazade New', 'Amiri Quran', 'Amiri', serif; font-size: calc(1.6rem * var(--lib-scale, 1)); color: var(--ayah); direction: rtl; line-height: 1.6; margin-bottom: 0.9em; }
+  /* Diyanet Kuran portal fonts (Muhammet Abay). Used on staging with the owner's go-ahead; get written permission before production. */
+  @font-face { font-family: 'KuranMetin'; src: url(/fonts/ShaikhHamdullahMushaf.ttf) format('truetype'); font-display: swap; }
+  @font-face { font-family: 'KuranIsaret'; src: url(/fonts/KuranIsaretler.ttf) format('truetype'); font-display: swap;
+               unicode-range: U+0615, U+0617, U+0656, U+06DE, U+08F0-08F3; }
+  .wbox .w-ar { font-family: 'KuranMetin', 'KuranIsaret', 'Scheherazade New', 'Amiri Quran', 'Amiri', serif; font-size: calc(1.6rem * var(--lib-scale, 1)); color: var(--ayah); direction: rtl; line-height: 1.6; margin-bottom: 0.9em; }
   .wbox .w-tl { color: #7c3aed; font-style: italic; }
   .wbox .w-tr { color: #b91c1c; font-weight: 600; }
   .wbox .w-en { color: #15803d; }
