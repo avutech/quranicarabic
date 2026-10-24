@@ -33,8 +33,8 @@
     "tr": "Fiil"
    },
    "rule": {
-    "en": "A verb is an action that is tied to a time. The time may be the past (it already happened), the present/future (it is happening or will happen), or the command (an order to do it). The built-in time is what separates a verb from a noun: a noun names a person, thing, place, time or quality, but it has no tense in its meaning. Judge a word by its meaning. A one-letter prefix is written joined to its word and is not classified on its own unless a question asks you to split it.",
-    "tr": "Fiil, zamana bağlı bir iştir. Bu zaman geçmiş (olup bitti), şimdiki/gelecek (oluyor ya da olacak) veya emir (yapılması istenen) olabilir. Fiili isimden ayıran şey, mânâya işlenmiş zamandır: isim kişi, nesne, yer, zaman ya da niteliği adlandırır ama mânâsında zaman yoktur. Bir kelimeyi anlamına bakarak değerlendirin. Tek harfli bir önek kelimeye bitişik yazılır; soru onu ayırmanızı özellikle istemedikçe ayrıca sınıflandırılmaz."
+    "en": "A verb is an action that is tied to a time. Verbs have a past form (madi), a present/future form, or a command form (an order to act). The past form usually refers to a completed action, but context can give it a future meaning. The built-in time is what separates a verb from a noun: a noun names a person, thing, place, time or quality, but it has no tense in its meaning. Judge a word by its meaning. A one-letter prefix is written joined to its word and is not classified on its own unless a question asks you to split it.",
+    "tr": "Fiil, zamana bağlı bir iştir. Fiillerin geçmiş zaman biçimi (mâzî), şimdiki/gelecek zaman biçimi veya emir biçimi (bir işin yapılmasını isteme) vardır. Geçmiş zaman biçimi genellikle tamamlanmış bir eylemi bildirir; ancak bağlama göre gelecek anlamı taşıyabilir. Fiili isimden ayıran şey, mânâya işlenmiş zamandır: isim kişi, nesne, yer, zaman ya da niteliği adlandırır ama mânâsında zaman yoktur. Bir kelimeyi anlamına bakarak değerlendirin. Tek harfli bir önek kelimeye bitişik yazılır; soru onu ayırmanızı özellikle istemedikçe ayrıca sınıflandırılmaz."
    }
   },
   {
@@ -404,8 +404,8 @@
     {
      "ar": "عَلَّمَ",
      "why": {
-      "en": "عَلَّمَ (\"He taught\") is the action, with past time built in. That makes it a verb, not the noun.",
-      "tr": "عَلَّمَ (\"öğretti\") eylemdir ve geçmiş zaman içindedir. Yani isim değil, fiildir."
+      "en": "عَلَّمَ expresses teaching in the past; it is a verb.",
+      "tr": "عَلَّمَ geçmiş zamanda öğretme eylemini bildirir; fiildir."
      }
     },
     {
@@ -414,15 +414,15 @@
       "tr": "İki kelimeden hiçbiri"
      },
      "why": {
-      "en": "ٱلْقُرْءَانَ names a thing (a Book), takes ال and has no tense, so it is a noun. One of the two words is a noun.",
-      "tr": "ٱلْقُرْءَانَ bir şeyi (bir Kitab'ı) adlandırır, ال alır ve zaman taşımaz; isimdir. Yani iki kelimeden biri isimdir."
+      "en": "ٱلْقُرْءَانَ names a book without tense, so one word is a noun.",
+      "tr": "ٱلْقُرْءَانَ bir kitabı zaman bildirmeden adlandırır; dolayısıyla kelimelerden biri isimdir."
      }
     },
     {
      "ar": "ٱلْقُرْءَانَ",
      "why": {
-      "en": "Correct. The Qur'an is a thing (a Book) and the word has no tense, so ٱلْقُرْءَانَ is the noun; عَلَّمَ is the verb.",
-      "tr": "Doğru. Kur'an bir şeydir (bir Kitap) ve kelimede zaman yoktur; isim ٱلْقُرْءَانَ kelimesidir, عَلَّمَ ise fiildir."
+      "en": "Correct. ٱلْقُرْءَانَ names the Qur'an without tense and is a noun; عَلَّمَ is a verb.",
+      "tr": "Doğru. ٱلْقُرْءَانَ, Kur'an'ı zaman bildirmeden adlandırır ve isimdir; عَلَّمَ ise fiildir."
      }
     },
     {
@@ -431,8 +431,8 @@
       "tr": "İki kelime de"
      },
      "why": {
-      "en": "Only ٱلْقُرْءَانَ is a noun. عَلَّمَ is an action tied to the past, so it is a verb.",
-      "tr": "Yalnızca ٱلْقُرْءَانَ isimdir. عَلَّمَ, geçmişe bağlı bir eylemdir; yani fiildir."
+      "en": "Only ٱلْقُرْءَانَ is a noun; عَلَّمَ expresses a past action.",
+      "tr": "Yalnızca ٱلْقُرْءَانَ isimdir; عَلَّمَ geçmiş zamanda bir eylem bildirir."
      }
     }
    ],
@@ -551,8 +551,8 @@
       "tr": "Çünkü insanla ilgili söylenen her şey isimdir."
      },
      "why": {
-      "en": "Verbs can speak about people too. The test is whether the word carries time, not who it is about.",
-      "tr": "Fiiller de insandan söz eder. Ölçü kelimenin zaman taşıyıp taşımadığıdır, kimden söz ettiği değil."
+      "en": "Verbs can also refer to people; خُسْرٍ is a noun because it names a condition without tense.",
+      "tr": "Fiiller de insanlarla ilgili olabilir; خُسْرٍ zaman bildirmeden bir durumu adlandırdığı için isimdir."
      }
     },
     {
@@ -561,8 +561,8 @@
       "tr": "Çünkü eylem çağrıştıran her kelime fiildir."
      },
      "why": {
-      "en": "Suggesting an action is not enough. A verb must have tense (past, present/future or command) built in.",
-      "tr": "Eylem çağrıştırmak yetmez. Fiilin içinde zaman (geçmiş, şimdiki/gelecek ya da emir) bulunmalıdır."
+      "en": "خُسْرٍ may suggest an event, but it does not express when it occurs; suggesting an action is insufficient.",
+      "tr": "خُسْرٍ bir olay çağrıştırabilir, ancak olayın ne zaman gerçekleştiğini bildirmez; eylem çağrıştırması yeterli değildir."
      }
     },
     {
@@ -571,8 +571,8 @@
       "tr": "Çünkü bir nitelik ya da durumu adlandırır ve kelimenin içinde zaman yoktur."
      },
      "why": {
-      "en": "Correct. Nouns name qualities and conditions without a tense. A verb would need to say that the loss happens or happened.",
-      "tr": "Doğru. İsimler nitelik ve durumları zamansız olarak adlandırır. Fiil ise hüsranın olduğunu ya da olacağını zamanıyla söylemek zorundadır."
+      "en": "Correct. خُسْرٍ names loss without tense; a verb would express, for example, that loss occurs or occurred.",
+      "tr": "Doğru. خُسْرٍ hüsranı zaman bildirmeden adlandırır; fiil ise örneğin hüsranın gerçekleştiğini ya da gerçekleşmiş olduğunu bildirir."
      }
     },
     {
@@ -581,8 +581,8 @@
       "tr": "Çünkü âyeti birbirine bağlayan bir harftir."
      },
      "why": {
-      "en": "A particle has no meaning on its own. \"Loss\" is a full idea alone, so it is not a particle.",
-      "tr": "Harfin tek başına anlamı yoktur. \"Hüsran\" tek başına tam bir kavramdır; harf değildir."
+      "en": "خُسْرٍ independently names a condition, unlike a particle whose meaning depends on other words.",
+      "tr": "خُسْرٍ, anlamı başka kelimelere bağlı olan bir harfin aksine, bağımsız olarak bir durumu adlandırır."
      }
     }
    ],
@@ -1015,8 +1015,8 @@
    "ref": "81:18",
    "quote": "وَٱلصُّبْحِ",
    "stem": {
-    "en": "ٱلصُّبْحِ means \"the morning\", a stretch of time. Does that make it a verb (a word tied to time)?",
-    "tr": "ٱلصُّبْحِ \"sabah\" demektir, yani bir zaman dilimi. Bu, onu fiil (zamana bağlı kelime) yapar mı?"
+    "en": "Separate the prefix وَ in وَٱلصُّبْحِ and consider only ٱلصُّبْحِ (\"the morning\"), a stretch of time. Does naming a time make it a verb?",
+    "tr": "وَٱلصُّبْحِ ifadesindeki وَ önekini ayırıp yalnızca ٱلصُّبْحِ (\"sabah\") kelimesini değerlendirin. Bir zaman dilimini adlandırması, onu fiil yapar mı?"
    },
    "options": [
     {
@@ -1025,8 +1025,8 @@
       "tr": "Evet. Zamandan söz eden her kelime fiildir."
      },
      "why": {
-      "en": "The lesson separates naming a time (noun) from an action tied to a time (verb). \"Morning\" is not an action.",
-      "tr": "Ders, bir zamanı adlandırmayı (isim) zamana bağlı eylemden (fiil) ayırır. \"Sabah\" bir eylem değildir."
+      "en": "After separating وَ, ٱلصُّبْحِ names the morning; it does not describe an action carrying tense. Naming a time does not make it a verb.",
+      "tr": "وَ öneki ayrılınca ٱلصُّبْحِ sabahı adlandırır; zaman taşıyan bir eylem anlatmaz. Bir zamanı adlandırması onu fiil yapmaz."
      }
     },
     {
@@ -1035,8 +1035,8 @@
       "tr": "Hayır. Harftir, çünkü sabah ancak ardından gelen kelimeyle anlam kazanır."
      },
      "why": {
-      "en": "\"Morning\" pictures something clear on its own, so it is not a particle.",
-      "tr": "\"Sabah\" tek başına net bir şey canlandırır; harf değildir."
+      "en": "The noun ٱلصُّبْحِ names the morning independently. The separated prefix وَ does not make the noun a particle.",
+      "tr": "ٱلصُّبْحِ ismi tek başına sabahı adlandırır. Ayrılan وَ öneki, bu ismi harf yapmaz."
      }
     },
     {
@@ -1045,8 +1045,8 @@
       "tr": "Hayır. İsimdir: bir zamanı adlandırır; fiilde ise zaman, bir eylemin içinde yer alır."
      },
      "why": {
-      "en": "Correct. Nouns can name times. Being the name of a time is different from an action carrying tense.",
-      "tr": "Doğru. İsimler zaman adı olabilir. Bir zamanın adı olmak ile bir eylemin zaman taşıması farklı şeylerdir."
+      "en": "Correct. With وَ set aside, ٱلصُّبْحِ is a noun naming a time. A time name does not express an action with tense.",
+      "tr": "Doğru. وَ öneki ayrıldığında ٱلصُّبْحِ bir zamanı adlandıran isimdir. Zaman adı, zaman taşıyan bir eylem bildirmez."
      }
     },
     {
@@ -1055,8 +1055,8 @@
       "tr": "Evet, geçmiş fiildir, çünkü sabah gelmiştir."
      },
      "why": {
-      "en": "Whether a morning has come is outside the word. A verb has the tense inside it; ٱلصُّبْحِ names the morning and nothing more.",
-      "tr": "Sabahın gelmiş olması kelimenin dışındadır. Fiilde zaman kelimenin içindedir; ٱلصُّبْحِ sadece sabahı adlandırır."
+      "en": "Whether morning has arrived is not stated by ٱلصُّبْحِ. After separating وَ, the remaining word still names morning rather than expressing a past action.",
+      "tr": "Sabahın gelmiş olduğu ٱلصُّبْحِ kelimesinde belirtilmez. وَ ayrıldıktan sonra kalan kelime geçmişteki bir eylemi değil, sabahı adlandırır."
      }
     }
    ],
@@ -1165,8 +1165,8 @@
    "ref": "89:1",
    "quote": "وَٱلْفَجْرِ",
    "stem": {
-    "en": "In the oath وَٱلْفَجْر, what does the noun الْفَجْر (the dawn) name?",
-    "tr": "وَٱلْفَجْر yemininde الْفَجْر (şafak) ismi neyi adlandırıyor?"
+    "en": "Separate the prefix وَ in the oath وَٱلْفَجْرِ. What does the remaining noun ٱلْفَجْرِ (\"the dawn\") name?",
+    "tr": "وَٱلْفَجْرِ yeminindeki وَ önekini ayırın. Geriye kalan ٱلْفَجْرِ (\"şafak\") ismi neyi adlandırır?"
    },
    "options": [
     {
@@ -1175,8 +1175,8 @@
       "tr": "Bir insan"
      },
      "why": {
-      "en": "Dawn is not a human being (إِنْسَان). A person noun would be a name like Muhammad or a word like \"man\".",
-      "tr": "Şafak bir insan (إِنْسَان) değildir. İnsan ismi Muhammed gibi bir ad veya \"adam\" gibi bir kelime olurdu."
+      "en": "The remaining noun ٱلْفَجْرِ names dawn, not a human being.",
+      "tr": "Geriye kalan ٱلْفَجْرِ ismi bir insanı değil, şafağı adlandırır."
      }
     },
     {
@@ -1185,8 +1185,8 @@
       "tr": "Bir yer"
      },
      "why": {
-      "en": "Dawn is not a location you can go to. Place nouns (مَكَان) name spots such as a mosque or a mountain.",
-      "tr": "Şafak gidilebilecek bir yer değildir. Yer isimleri (مَكَان) mescit veya dağ gibi yerleri adlandırır."
+      "en": "After separating وَ, ٱلْفَجْرِ still names dawn, a time of day rather than a location.",
+      "tr": "وَ ayrıldıktan sonra ٱلْفَجْرِ yine şafağı adlandırır; şafak bir yer değil, günün bir vaktidir."
      }
     },
     {
@@ -1195,8 +1195,8 @@
       "tr": "Geçmişte olan bir iş"
      },
      "why": {
-      "en": "An action in time is the job of a verb. الْفَجْر is not \"he did something\"; it simply names the dawn, so it is a noun.",
-      "tr": "Zamanda olan iş fiilin görevidir. الْفَجْر \"bir şey yaptı\" demek değil, sadece şafağı adlandırır; bu yüzden isimdir."
+      "en": "The noun ٱلْفَجْرِ names dawn; it does not say that someone performed an action in the past.",
+      "tr": "ٱلْفَجْرِ ismi şafağı adlandırır; birinin geçmişte bir iş yaptığını bildirmez."
      }
     },
     {
@@ -1205,8 +1205,8 @@
       "tr": "Bir zaman"
      },
      "why": {
-      "en": "Correct. Dawn is a moment of the day, so it is a time noun (زَمَان). It names a time but does not describe an action happening in time.",
-      "tr": "Doğru. Şafak günün bir vaktidir; bu yüzden zaman ismidir (زَمَان). Bir vakti adlandırır, zamanda olan bir işi anlatmaz."
+      "en": "Correct. With the oath prefix وَ set aside, ٱلْفَجْرِ names dawn, a time of day, without expressing an action with tense.",
+      "tr": "Doğru. Yemin öneki وَ ayrıldığında ٱلْفَجْرِ günün bir vakti olan şafağı adlandırır; zaman taşıyan bir eylem bildirmez."
      }
     }
    ],
@@ -1219,8 +1219,8 @@
    "ref": "2:158",
    "quote": "ٱلصَّفَا وَٱلْمَرْوَةَ",
    "stem": {
-    "en": "The words الصَّفَا and الْمَرْوَة are the names of two hills near the Kaaba. What are they?",
-    "tr": "الصَّفَا ve الْمَرْوَة Kâbe yakınındaki iki tepenin adıdır. Bu kelimeler nedir?"
+    "en": "Separate the prefix وَ in وَٱلْمَرْوَةَ. The words ٱلصَّفَا and ٱلْمَرْوَةَ name two hills near the Kaaba. What are these two words?",
+    "tr": "وَٱلْمَرْوَةَ ifadesindeki وَ önekini ayırın. ٱلصَّفَا ve ٱلْمَرْوَةَ Kâbe yakınındaki iki tepenin adıdır. Bu iki kelime nedir?"
    },
    "options": [
     {
@@ -1229,8 +1229,8 @@
       "tr": "Fiiller, çünkü insanlar aralarında yürür"
      },
      "why": {
-      "en": "The walking between them is an action, but the words themselves do not mean \"walk\". They only name the two places, so they are nouns.",
-      "tr": "Aralarında yürümek bir iştir ama kelimelerin kendisi \"yürümek\" demek değildir. Sadece iki yeri adlandırır; bu yüzden isimdir."
+      "en": "Walking between the hills is an action, but ٱلصَّفَا and ٱلْمَرْوَةَ name the hills themselves. Neither word means \"walk\".",
+      "tr": "Tepeler arasında yürümek bir eylemdir; ancak ٱلصَّفَا ve ٱلْمَرْوَةَ tepelerin kendisini adlandırır. Bu kelimeler \"yürümek\" anlamına gelmez."
      }
     },
     {
@@ -1239,8 +1239,8 @@
       "tr": "Yer bildiren isimler"
      },
      "why": {
-      "en": "Correct. They name two locations, and place words (مَكَان) are nouns because their meaning has no tense in it.",
-      "tr": "Doğru. İki yeri adlandırırlar; yer kelimeleri (مَكَان) anlamlarında zaman bulunmadığı için isimdir."
+      "en": "Correct. After separating وَ, the two words name hills, which are places. Neither noun carries tense.",
+      "tr": "Doğru. وَ ayrıldıktan sonra bu iki kelime tepeleri, yani yerleri adlandırır. Bu isimlerin hiçbirinde zaman yoktur."
      }
     },
     {
@@ -1249,8 +1249,8 @@
       "tr": "Harfler, çünkü kısadırlar"
      },
      "why": {
-      "en": "Length does not decide the category. A particle has no meaning on its own, while these two words clearly name something.",
-      "tr": "Kısalık kelime türünü belirlemez. Harfin tek başına anlamı yoktur; bu iki kelime ise açıkça bir şeyi adlandırır."
+      "en": "After setting aside وَ, both hill names have independent meanings. Their length does not make them particles.",
+      "tr": "وَ ayrıldığında her iki tepe adının da bağımsız anlamı vardır. Uzunlukları onları harf yapmaz."
      }
     },
     {
@@ -1259,8 +1259,8 @@
       "tr": "Zaman bildiren isimler"
      },
      "why": {
-      "en": "They are nouns, but they do not name times such as morning or night. They name two hills, which are places.",
-      "tr": "İsimdirler ama sabah, gece gibi zamanları adlandırmazlar. İki tepeyi, yani yeri adlandırırlar."
+      "en": "Both words are nouns, but they name the hills Safa and Marwa, not times of day.",
+      "tr": "Her iki kelime de isimdir; ancak günün vakitlerini değil, Safâ ve Merve tepelerini adlandırır."
      }
     }
    ],
@@ -1323,7 +1323,7 @@
      "ar": "ٱلسَّاعَةُ",
      "why": {
       "en": "Correct. السَّاعَة (the Hour) names a time, so it is a time noun (زَمَان) with no tense built into its meaning.",
-      "tr": "Doğru. السَّاعَة (kıyamet saati) bir vakti adlandırır; zaman ismidir (زَمَان) ve anlamında zaman bulunmaz."
+      "tr": "Doğru. السَّاعَة (kıyamet saati) bir vakti adlandırır; zaman ismidir (زَمَان), ancak fiillerdeki gibi bir zaman çekimi bildirmez."
      }
     },
     {
@@ -1371,8 +1371,8 @@
     {
      "ar": "بِعَبْدِهِ",
      "why": {
-      "en": "Correct. بِعَبْدِهِ (with the joined بِ) means \"his servant\": a human being, so it names a person. It has no tense, so it is a noun.",
-      "tr": "Doğru. بِعَبْدِهِ (bitişik بِ ile) \"onun kulu\" demektir: bir insandır, yani bir kişiyi adlandırır. Zaman taşımaz; isimdir."
+      "en": "Correct. بِعَبْدِهِ (with the joined بِ) means \"with His servant\": عَبْد names a human being, so it names a person. It has no tense, so it is a noun.",
+      "tr": "Doğru. بِعَبْدِهِ (bitişik بِ ile) \"kuluyla\" demektir: عَبْد bir insanı adlandırır, yani bir kişiyi adlandırır. Zaman taşımaz; isimdir."
      }
     },
     {
@@ -1688,7 +1688,7 @@
      },
      "why": {
       "en": "Particles only connect and have no meaning alone. These two words have a rich meaning by themselves.",
-      "tr": "Harfler yalnızca bağlar ve tek başına anlamı yoktur. Bu iki kelimenin ise tek başına zengin bir anlamı var."
+      "tr": "Harfler yalnızca bağlar; harflerin tek başına bağımsız anlamı yoktur. Bu iki kelimenin ise tek başına zengin bir anlamı var."
      }
     },
     {
@@ -1991,13 +1991,13 @@
      },
      "why": {
       "en": "They are not places (مَكَان); they name times (زَمَان). The shared reason must be bigger: no built-in time.",
-      "tr": "Yer (مَكَان) değil, zaman (زَمَان) adıdır. Ortak sebep daha genel olmalı: içlerinde zaman yoktur."
+      "tr": "Yer (مَكَان) değil, zaman (زَمَان) adıdır. Ortak sebep daha genel olmalı: fiillerdeki gibi içsel zaman (zaman çekimi) taşımadıklarıdır."
      }
     },
     {
      "text": {
       "en": "Each names something, and neither has a built-in time",
-      "tr": "Her biri bir şeyi adlandırır ve hiçbirinde zaman yoktur"
+      "tr": "Her biri bir şeyi adlandırır ve hiçbirinde fiil gibi içsel zaman (zaman çekimi) yoktur"
      },
      "why": {
       "en": "Correct. Nouns cover many kinds of things (people, animals, plants, objects, places, times, qualities); what they share is that their meaning is not tied to a time.",
@@ -2593,8 +2593,8 @@
    "ref": "2:3",
    "quote": "يُؤْمِنُونَ بِٱلْغَيْبِ",
    "stem": {
-    "en": "بِٱلْغَيْبِ (with the joined بِ) means \"the unseen\". What kind of word is it?",
-    "tr": "بِٱلْغَيْبِ (bitişik بِ ile) \"görülmeyen/gayb\" demektir. Hangi çeşit kelimedir?"
+    "en": "بِٱلْغَيْبِ (with the joined بِ) means \"in/with the unseen\". What kind of word is it?",
+    "tr": "بِٱلْغَيْبِ (bitişik بِ ile) \"gaybe / görülmeyene\" demektir. Hangi çeşit kelimedir?"
    },
    "options": [
     {
@@ -3827,18 +3827,18 @@
       "tr": "Doğru: ىٰ harflerini içeren her kelime fiildir"
      },
      "why": {
-      "en": "There is no such rule. Nouns, verbs and particles can all contain those letters.",
-      "tr": "Böyle bir kural yoktur. İsimler, fiiller ve harfler de bu harfleri içerebilir."
+      "en": "Sharing a written feature with a verb does not make حَتَّىٰ a verb; word categories depend on meaning and grammatical signs.",
+      "tr": "Bir fiille ortak bir yazım özelliği taşıması, حَتَّىٰ kelimesini fiil yapmaz; kelimenin türü anlamına ve dilbilgisel alâmetlerine göre belirlenir."
      }
     },
     {
      "text": {
       "en": "True: the next word أَتَىٰنَا is a verb, so حَتَّىٰ is too",
-      "tr": "Doğru: sonraki kelime أَتَىٰنَا fiildir, o halde حَتَّىٰ de fiildir"
+      "tr": "Doğru: sonraki kelime أَتَىٰنَا fiildir, o halde bu kelime de fiildir"
      },
      "why": {
-      "en": "The neighbour does not decide a word's category. A particle can stand next to a verb.",
-      "tr": "Komşu kelime kelimenin türünü belirlemez. Harf, bir fiilin yanında durabilir."
+      "en": "أَتَىٰنَا is a verb, but its neighbour حَتَّىٰ is a particle; adjacency does not determine word category.",
+      "tr": "أَتَىٰنَا fiildir, ancak yanındaki حَتَّىٰ harftir; yan yana gelmek kelimelerin türünü belirlemez."
      }
     },
     {
@@ -3847,8 +3847,8 @@
       "tr": "Yanlış: ىٰ harfleri bir şey kanıtlamaz; حَتَّىٰ harfinde eylem yoktur ve anlamı (\"-e kadar\") ancak ardından gelenle ortaya çıkar"
      },
      "why": {
-      "en": "Correct: judge by meaning and signs, not by the letters it contains. حَتَّىٰ pictures nothing alone and has no tense, so it is a particle.",
-      "tr": "Doğru: içerdiği harflere değil, anlama ve alâmetlere bakın. حَتَّىٰ tek başına hiçbir şey canlandırmaz ve zamanı yoktur; harftir."
+      "en": "حَتَّىٰ expresses a limit (\"until\") through what follows it and does not express an action with tense; it is a particle.",
+      "tr": "حَتَّىٰ, ardından gelen ifadeyle bir sınır (\"-e kadar\") belirtir ve zamana bağlı bir eylem bildirmez; bu yüzden harftir."
      }
     },
     {
@@ -3857,8 +3857,8 @@
       "tr": "Yanlış: isimdir, çünkü bir zamanı adlandırır"
      },
      "why": {
-      "en": "حَتَّىٰ does not name a time such as morning or night; it only marks a limit. A word that names nothing is not a noun.",
-      "tr": "حَتَّىٰ sabah ya da gece gibi bir zamanı adlandırmaz; yalnızca bir sınır belirtir. Hiçbir şeyi adlandırmayan kelime isim değildir."
+      "en": "حَتَّىٰ marks a limit in relation to what follows; it does not independently name a time and is a particle here.",
+      "tr": "حَتَّىٰ, ardından gelen ifadeye bağlı olarak bir sınır belirtir; tek başına bir zamanı adlandırmaz ve burada harftir."
      }
     }
    ],
@@ -4201,8 +4201,8 @@
       "tr": "Dört"
      },
      "why": {
-      "en": "Not four. جَزَآءُ and إِلَّا do not take ال; only the two words that begin with it do.",
-      "tr": "Dört değil. جَزَآءُ ve إِلَّا ال almaz; yalnızca onunla başlayan iki kelime alır."
+      "en": "Not four. جَزَآءُ has no ال in this phrase, and the particle إِلَّا can never take ال; only the two words that begin with ال do.",
+      "tr": "Dört değil. جَزَآءُ bu ifadede ال almamıştır; إِلَّا harfi ise asla ال alamaz. Yalnızca onunla başlayan iki kelime alır."
      }
     },
     {
@@ -4592,7 +4592,7 @@
    "quote": "هَلْ جَزَآءُ ٱلْإِحْسَـٰنِ إِلَّا ٱلْإِحْسَـٰنُ",
    "stem": {
     "en": "Which pair of words are both particles?",
-    "tr": "Hangi kelime çifti ikisi de harftir?"
+    "tr": "Hangi seçenekteki iki kelime de harftir?"
    },
    "options": [
     {
@@ -5033,8 +5033,8 @@
       "tr": "Doğru: şedde taşıyan her kelime isimdir"
      },
      "why": {
-      "en": "There is no such rule. A shadda is only a doubling mark; nouns, verbs and particles can all have one.",
-      "tr": "Böyle bir kural yoktur. Şedde yalnızca ikizleştirme işaretidir; isim, fiil ve harflerde bulunabilir."
+      "en": "Shadda marks a doubled consonant. Its presence in يَدُعُّ does not establish that the word is a noun.",
+      "tr": "Şedde, ünsüzün ikizleştiğini gösterir. يَدُعُّ kelimesinde bulunması, kelimenin isim olduğunu göstermez."
      }
     },
     {
@@ -5043,8 +5043,8 @@
       "tr": "Doğru: ardından bir isim olan ٱلْيَتِيمَ gelir, o halde o da isim olmalıdır"
      },
      "why": {
-      "en": "The neighbour does not decide a word's category. A noun can follow a verb as well.",
-      "tr": "Komşu kelime kelimenin türünü belirlemez. İsim, fiilden sonra da gelebilir."
+      "en": "The following noun ٱلْيَتِيمَ does not make يَدُعُّ a noun. A noun can follow a verb.",
+      "tr": "Ardından gelen ٱلْيَتِيمَ ismi, يَدُعُّ kelimesini isim yapmaz. Bir isim fiilden sonra gelebilir."
      }
     },
     {
@@ -5053,8 +5053,8 @@
       "tr": "Yanlış: şedde bir alâmet değildir; يَدُعُّ ال, tenvin, ة ya da cer almaz ve bir eylem anlamı taşır ('iter'); fiildir"
      },
      "why": {
-      "en": "Correct: judge by the lesson's signs, not by the look of a letter. Only ال, tanwin, ة and jarr point to a noun, and none fits here.",
-      "tr": "Doğru: harfin görünüşüne değil, dersin alâmetlerine bakın. İsme yalnızca ال, tenvin, ة ve cer işaret eder; burada hiçbiri yok."
+      "en": "Correct. يَدُعُّ expresses the action \"he pushes away\" and accepts none of the noun signs taught here: ال, tanwin, ة or jarr. Shadda alone does not determine its category.",
+      "tr": "Doğru. يَدُعُّ, \"iter\" eylemini bildirir ve burada öğretilen isim alâmetlerinden ال, tenvin, ة veya cerri kabul etmez. Şedde tek başına kelimenin türünü belirlemez."
      }
     },
     {
@@ -5063,8 +5063,8 @@
       "tr": "Yanlış: harftir, çünkü şeddesi var"
      },
      "why": {
-      "en": "A particle has no meaning alone; يَدُعُّ clearly means an action ('he pushes away'). It is a verb, and a letter mark never decides.",
-      "tr": "Harfin tek başına anlamı yoktur; يَدُعُّ açıkça bir eylem bildirir ('iter'). Fiildir ve bir harf işareti asla belirleyici değildir."
+      "en": "يَدُعُّ expresses an action (\"he pushes away\"), so it is a verb. Shadda alone does not determine whether a word is a noun, verb or particle.",
+      "tr": "يَدُعُّ bir eylem (\"iter\") bildirir; bu yüzden fiildir. Şedde tek başına bir kelimenin isim, fiil veya harf olduğunu belirlemez."
      }
     }
    ],
