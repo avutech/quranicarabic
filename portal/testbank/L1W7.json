@@ -9,8 +9,8 @@
     "tr": "Fiillerle Bitişik Zamirler: Özne (Fail) Eki"
    },
    "rule": {
-    "en": "An attached pronoun is a short ending written as part of the word before it; it cannot stand on its own, unlike the separate pronouns of the previous lesson. When it is added to a verb and names the one who did the action, it is a subject pronoun. A verb whose doer is not shown by any visible ending still has the doer built in, but that hidden doer is not an attached pronoun. To check a final letter, remove it: a real suffix leaves a complete word behind, while a root letter does not.",
-    "tr": "Bitişik zamir, önündeki kelimenin parçası gibi yazılan kısa bir sondur; önceki dersteki ayrı zamirlerin aksine tek başına duramaz. Bir fiile eklenip eylemi yapan kişiyi gösterdiğinde özne zamiridir. Eylemi yapanı gösteren görünür bir sonu olmayan fiilde fail yine fiilin içinde vardır, ama bu gizli fail bitişik zamir değildir. Son harfi denetlemek için onu çıkarın: gerçek bir ek geriye tam bir kelime bırakır, kök harfi ise bırakmaz."
+    "en": "An attached pronoun is a short ending written as part of the word before it; it cannot stand on its own, unlike the separate pronouns of the previous lesson. When it is added to a verb and names the one who did the action, it is a subject pronoun. When a past verb has neither a visible doer suffix nor a separately stated doer, its doer can be a hidden pronoun; that hidden pronoun is not an attached pronoun. To check a final letter, remove it: a real suffix leaves a complete word behind, while a root letter does not.",
+    "tr": "Bitişik zamir, önündeki kelimenin parçası gibi yazılan kısa bir sondur; önceki dersteki ayrı zamirlerin aksine tek başına duramaz. Bir fiile eklenip eylemi yapan kişiyi gösterdiğinde özne zamiridir. Geçmiş zamanlı bir fiilde görünür fail eki ve ayrıca belirtilmiş bir fail yoksa fail gizli bir zamir olabilir; bu gizli zamir bitişik zamir değildir. Son harfi denetlemek için onu çıkarın: gerçek bir ek geriye tam bir kelime bırakır, kök harfi ise bırakmaz."
    }
   },
   {
@@ -22,7 +22,7 @@
    },
    "rule": {
     "en": "When an attached pronoun is added to a verb and names the person or thing that received the action, it is an object pronoun, in the accusative position. It comes after the verb and, if the verb already carries a doer ending, after that ending too, so one verb can show both the doer and the receiver. The object pronoun and the doer ending are different parts of the word; the meaning of the sentence tells you which role a suffix plays.",
-    "tr": "Bir fiile eklenen bitişik zamir eylemi alan kişi veya şeyi gösteriyorsa nesne zamiridir ve nasb konumdadır. Fiilden sonra gelir; fiilde zaten bir fail eki varsa ondan da sonra gelir, böylece tek bir fiil hem faili hem eylemi alanı gösterebilir. Nesne zamiri ile fail eki kelimenin ayrı parçalarıdır; bir ekin hangi görevi üstlendiğini cümlenin anlamı gösterir."
+    "tr": "Bir fiile eklenen bitişik zamir eylemi alan kişi veya şeyi gösteriyorsa nesne zamiridir ve nasb konumundadır. Fiilden sonra gelir; fiilde zaten bir fail eki varsa ondan da sonra gelir, böylece tek bir fiil hem faili hem eylemi alanı gösterebilir. Nesne zamiri ile fail eki kelimenin ayrı parçalarıdır; bir ekin hangi görevi üstlendiğini cümlenin anlamı gösterir."
    }
   },
   {
@@ -88,15 +88,15 @@
    "options": [
     {
      "why": {
-      "en": "Correct. ـتُ is a suffix: take it off and a complete past verb (\"he put his trust\") is left. It names the doer, \"I\".",
-      "tr": "Doğru. ـتُ bir ektir: onu çıkarırsanız geriye tam bir geçmiş zaman fiili (\"tevekkül etti\") kalır. Eylemi yapanı, yani \"ben\"i gösterir."
+      "en": "The final ـتُ names the speaker as the doer: I put my trust.",
+      "tr": "Sondaki ـتُ, konuşanı fail olarak gösterir: tevekkül ettim."
      },
      "ar": "ـتُ"
     },
     {
      "why": {
-      "en": "This ك is a root letter inside the verb, not an ending. A doer suffix is always the last part of the word.",
-      "tr": "Bu ك fiilin içindeki bir kök harfidir, bir son ek değildir. Fail eki her zaman kelimenin son parçasıdır."
+      "en": "The internal ك is not the doer suffix. A doer suffix follows the verb base and can precede an object suffix.",
+      "tr": "İçteki ك fail eki değildir. Fail eki fiil tabanından sonra gelir; ardından nesne eki gelebilir."
      },
      "text": {
       "en": "The ك in the middle of the word",
@@ -105,8 +105,8 @@
     },
     {
      "why": {
-      "en": "This ل is a root letter. Taking it away would leave a broken verb, so it is not a suffix.",
-      "tr": "Bu ل bir kök harfidir. Çıkarılırsa bozuk bir fiil kalır; yani ek değildir."
+      "en": "The ل belongs inside this verb; the pronoun is the final ـتُ.",
+      "tr": "ل bu fiilin içindedir; zamir sondaki ـتُ ekidir."
      },
      "text": {
       "en": "The letter ل before the last letter",
@@ -115,8 +115,8 @@
     },
     {
      "why": {
-      "en": "The verb does have a visible ending that names the doer, so this is not a verb with only a built-in doer.",
-      "tr": "Fiilin faili gösteren görünür bir sonu vardır; yani yalnızca içinde fail bulunan bir fiil değildir."
+      "en": "Here the doer is visible in ـتُ, so it is not merely hidden in the verb.",
+      "tr": "Burada fail ـتُ ekinde görünür; yalnızca fiilin içinde gizli değildir."
      },
      "text": {
       "en": "None: the doer is built in with no visible ending",
@@ -139,8 +139,8 @@
    "options": [
     {
      "why": {
-      "en": "\"I\" is shown by the ending ـتُ, not by the ending of this verb.",
-      "tr": "\"Ben\" ـتُ ekiyle gösterilir; bu fiilin sonundaki ekle değil."
+      "en": "The ending here is ـنَا, not the ـتُ that marks I.",
+      "tr": "Buradaki ek ـنَا ekidir; ben anlamını veren ـتُ değildir."
      },
      "text": {
       "en": "I (one person speaking)",
@@ -149,8 +149,8 @@
     },
     {
      "why": {
-      "en": "\"You (m. sg.)\" is shown by the ending ـتَ. This verb does not end in it.",
-      "tr": "\"Sen (erkek, tekil)\" ـتَ ekiyle gösterilir. Bu fiil onunla bitmez."
+      "en": "The doer is we; the masculine singular you ending would be ـتَ.",
+      "tr": "Fail bizdir; eril tekil sen anlamını ـتَ eki verirdi."
      },
      "text": {
       "en": "You (m. sg.)",
@@ -159,8 +159,8 @@
     },
     {
      "why": {
-      "en": "Correct. The doer suffix ـنَا shows \"we\", so the verb means \"We created\".",
-      "tr": "Doğru. Fail eki ـنَا \"biz\"i gösterir; fiil \"Biz yarattık\" demektir."
+      "en": "In خَلَقْنَا, ـنَا identifies the creators as we.",
+      "tr": "خَلَقْنَا kelimesinde ـنَا, yaratanın biz olduğunu gösterir."
      },
      "text": {
       "en": "We",
@@ -169,8 +169,8 @@
     },
     {
      "why": {
-      "en": "\"He\" is only the built-in doer of a bare past verb with no visible ending. This verb has a visible ending, so the doer is not hidden.",
-      "tr": "\"O\", yalnızca görünür sonu olmayan çıplak bir geçmiş zaman fiilinin içindeki faildir. Bu fiilin görünür bir sonu var; fail gizli değildir."
+      "en": "A hidden he has no visible doer suffix, even if an object suffix is present. Here ـنَا visibly marks we as the doer.",
+      "tr": "Gizli o faili, nesne eki bulunsa da görünür fail eki taşımaz. Burada ـنَا, biz failini açıkça gösterir."
      },
      "text": {
       "en": "He (no suffix needed)",
@@ -203,8 +203,8 @@
     },
     {
      "why": {
-      "en": "Correct. A bare past verb already contains its doer, \"he\", but no ending shows it. That hidden doer is not an attached pronoun.",
-      "tr": "Doğru. Çıplak bir geçmiş zaman fiili faili, yani \"o\"yu zaten içinde taşır; ama onu gösteren bir son yoktur. Bu gizli fail bitişik zamir değildir."
+      "en": "Correct. خَلَقَ has no visible doer suffix and no separately stated doer in this clause; the doer 'he' is a hidden pronoun built into the verb. That hidden doer is not an attached pronoun.",
+      "tr": "Doğru. خَلَقَ kelimesinde görünür fail eki yoktur ve bu cümlede ayrıca belirtilmiş fail de yoktur; 'o' faili fiilin içinde gizli zamir olarak bulunur. Bu gizli fail bitişik zamir değildir."
      },
      "text": {
       "en": "The doer is built into the verb, with no visible suffix",
@@ -571,8 +571,8 @@
    "options": [
     {
      "why": {
-      "en": "\"You (m. sg.)\" would need the ending ـتَ. This verb ends in ـتُ.",
-      "tr": "\"Sen (erkek, tekil)\" için ـتَ sonu gerekirdi. Bu fiil ـتُ ile biter."
+      "en": "The final ـتُ marks I, whereas masculine singular you would have ـتَ.",
+      "tr": "Sondaki ـتُ ben anlamını verir; eril tekil sen için ـتَ gerekirdi."
      },
      "text": {
       "en": "You wronged",
@@ -581,8 +581,8 @@
     },
     {
      "why": {
-      "en": "\"We\" would need the ending ـنَا. This verb ends in ـتُ.",
-      "tr": "\"Biz\" için ـنَا sonu gerekirdi. Bu fiil ـتُ ile biter."
+      "en": "The quoted verb has ـتُ, not the doer suffix ـنَا meaning we.",
+      "tr": "Alıntıdaki fiilde, biz anlamındaki ـنَا fail eki değil, ـتُ vardır."
      },
      "text": {
       "en": "We wronged",
@@ -591,8 +591,8 @@
     },
     {
      "why": {
-      "en": "Correct. The doer suffix ـتُ shows \"I\", so the verb means \"I wronged\".",
-      "tr": "Doğru. Fail eki ـتُ \"ben\"i gösterir; fiil \"Ben zulmettim\" demektir."
+      "en": "ظَلَمْتُ combines the action of wronging with the doer I.",
+      "tr": "ظَلَمْتُ, zulmetme eylemi ile ben failini birleştirir."
      },
      "text": {
       "en": "I wronged",
@@ -601,8 +601,8 @@
     },
     {
      "why": {
-      "en": "\"He\" is the built-in doer of a bare verb with no visible ending. This verb ends in the visible suffix ـتُ.",
-      "tr": "\"O\", görünür sonu olmayan çıplak bir fiildeki içindeki faildir. Bu fiil görünür ـتُ ekiyle biter."
+      "en": "He is the doer built into the bare verb; this word instead has the visible doer suffix ـتُ.",
+      "tr": "O, yalın fiilin içinde bulunan faildir; bu kelimede ise görünür ـتُ fail eki vardır."
      },
      "text": {
       "en": "He wronged",
@@ -1306,8 +1306,8 @@
    "options": [
     {
      "why": {
-      "en": "Correct. ـتُ is the doer suffix \"I\" at the end of the past verb. The base عَجِلَ (\"he hurried\") stays complete without it.",
-      "tr": "Doğru. ـتُ, geçmiş zamanlı fiilin sonundaki \"ben\" fail ekidir. Taban عَجِلَ (\"acele etti\") onsuz da tam kalır."
+      "en": "The ending ـتُ identifies I as the one who hurried.",
+      "tr": "ـتُ eki, acele edenin ben olduğunu gösterir."
      },
      "text": {
       "en": "The final ـتُ",
@@ -1316,8 +1316,8 @@
     },
     {
      "why": {
-      "en": "وَ (\"and\") is a particle joined to the front of the word. It is not a pronoun.",
-      "tr": "وَ (\"ve\") kelimenin başına bitişen bir harftir. Zamir değildir."
+      "en": "The opening وَ adds and; it does not identify a person.",
+      "tr": "Baştaki وَ, ve anlamını katar; bir kişiyi göstermez."
      },
      "text": {
       "en": "The opening وَ",
@@ -1326,8 +1326,8 @@
     },
     {
      "why": {
-      "en": "ج is a root letter (ع-ج-ل). Removing it would not leave a word.",
-      "tr": "ج kök harfidir (ع-ج-ل). Çıkarılırsa geriye kelime kalmaz."
+      "en": "ج is internal to the verb; the attached pronoun is the final ـتُ.",
+      "tr": "ج fiilin içindedir; bitişik zamir sondaki ـتُ ekidir."
      },
      "text": {
       "en": "The middle letter ج",
@@ -1336,8 +1336,8 @@
     },
     {
      "why": {
-      "en": "A doer that is only built in belongs to a bare verb with no visible ending. This verb ends in the visible suffix ـتُ.",
-      "tr": "Yalnızca içinde bulunan fail, görünür sonu olmayan yalın fiile aittir. Bu fiil görünür ـتُ ekiyle biter."
+      "en": "The doer is expressed by ـتُ here, rather than only being hidden.",
+      "tr": "Burada fail yalnızca gizli değildir; ـتُ ile belirtilmiştir."
      },
      "text": {
       "en": "None: the doer is only built into the verb",
@@ -1360,8 +1360,8 @@
    "options": [
     {
      "why": {
-      "en": "Right. جَعَلَ is a verb whose doer is built in with no visible suffix. ـهُمْ is added after it to name the receivers, so it is an object pronoun in the accusative position.",
-      "tr": "Doğru. جَعَلَ, faili içinde olan ve görünür eki bulunmayan bir fiildir. ـهُمْ, eylemi alanları göstermek için fiilden sonra eklenmiştir; nasb konumdaki nesne zamiridir."
+      "en": "In فَجَعَلَهُمْ, ـهُمْ names those made, so it is an object in the accusative position; the doer has no visible suffix.",
+      "tr": "فَجَعَلَهُمْ kelimesinde ـهُمْ yapılanları gösterir; nasb konumundaki nesne zamiridir. Failin görünür eki yoktur."
      },
      "text": {
       "en": "ـهُمْ is an object pronoun: \"them\", the ones who received the action",
@@ -1370,8 +1370,8 @@
     },
     {
      "why": {
-      "en": "Doer suffixes on a past verb are only ـتُ, ـتَ and ـنَا. ـهُمْ is none of them, and the meaning is that someone made THEM, not that they made something.",
-      "tr": "Geçmiş zamanlı fiilde fail ekleri yalnızca ـتُ, ـتَ ve ـنَا ekleridir. ـهُمْ bunlardan değildir; anlam da onların bir şey yapması değil, birinin ONLARI yapmasıdır."
+      "en": "This lesson covers the doer suffixes ـتُ, ـتَ and ـنَا. Here ـهُمْ means them, the receivers, not the doers.",
+      "tr": "Bu derste ـتُ, ـتَ ve ـنَا fail ekleri ele alınır. Buradaki ـهُمْ, failleri değil, eylemi alanları gösterir."
      },
      "text": {
       "en": "ـهُمْ is the doer: \"they made\"",
@@ -1380,8 +1380,8 @@
     },
     {
      "why": {
-      "en": "A possessive suffix sits on a noun. جَعَلَ is a verb, an action tied to a time, so a suffix on it names a doer or a receiver, not an owner.",
-      "tr": "İyelik eki isme gelir. جَعَلَ zamana bağlı bir eylem olan fiildir; üzerindeki ek sahibi değil, faili ya da eylemi alanı gösterir."
+      "en": "جَعَلَ is the verb base, so ـهُمْ cannot be a possessive suffix on a noun.",
+      "tr": "جَعَلَ fiil tabanıdır; bu yüzden ـهُمْ, isme bağlı bir iyelik eki olamaz."
      },
      "text": {
       "en": "ـهُمْ is a possessive suffix: \"their\"",
@@ -1390,8 +1390,8 @@
     },
     {
      "why": {
-      "en": "Removal test: take off ـهُمْ and جَعَلَ is still a complete verb, so ـهُمْ is an added suffix, not a root letter.",
-      "tr": "Çıkarma testi: ـهُمْ ekini atınca جَعَلَ yine tam bir fiildir; demek ki ـهُمْ sonradan eklenmiş bir ektir, kök harf değildir."
+      "en": "The verb base remains جَعَلَ without ـهُمْ; the ending adds them to its meaning.",
+      "tr": "ـهُمْ olmadan fiil tabanı جَعَلَ kalır; ek, anlama onları ifadesini katar."
      },
      "text": {
       "en": "There is no pronoun: ـهُمْ is part of the root letters of the verb",
@@ -1522,8 +1522,8 @@
    "options": [
     {
      "why": {
-      "en": "A possessive suffix needs a noun as its host. يَرْزُقُ is a verb, so ـهَا names the receiver of the action, not an owner.",
-      "tr": "İyelik eki bir isme gelir. يَرْزُقُ bir fiildir; bu yüzden ـهَا sahibi değil, eylemi alanı gösterir."
+      "en": "The host is the verb يَرْزُقُ, whereas possession requires a noun host.",
+      "tr": "Taşıyıcı يَرْزُقُ fiilidir; iyelik ise isim taşıyıcı gerektirir."
      },
      "text": {
       "en": "A possessive suffix, \"her/its\"",
@@ -1532,8 +1532,8 @@
     },
     {
      "why": {
-      "en": "The one who provides is named by the separate word ٱللَّهُ. ـهَا is not a doer ending; the only doer suffixes are ـتُ, ـتَ and ـنَا on past verbs.",
-      "tr": "Rızık veren ayrı kelime olan ٱللَّهُ ile belirtilmiştir. ـهَا fail eki değildir; fail ekleri yalnızca geçmiş zamanlı fiildeki ـتُ, ـتَ ve ـنَا ekleridir."
+      "en": "Allah is named as the provider; ـهَا is the object here. The doer suffixes taught in this lesson are ـتُ, ـتَ and ـنَا.",
+      "tr": "Rızık veren Allah olarak belirtilmiştir; ـهَا burada nesnedir. Bu derste öğretilen fail ekleri ـتُ, ـتَ ve ـنَا ekleridir."
      },
      "text": {
       "en": "The doer ending: the one who provides",
@@ -1542,8 +1542,8 @@
     },
     {
      "why": {
-      "en": "Object suffixes sit on past, present and command verbs alike. Removal test: without ـهَا the verb يَرْزُقُ is still complete, so ـهَا is a suffix.",
-      "tr": "Nesne ekleri geçmiş, muzâri ve emir fiillerinin hepsine gelir. Çıkarma testi: ـهَا atılınca يَرْزُقُ yine tamdır; demek ki ـهَا bir ektir."
+      "en": "A present-form verb can carry an object pronoun: ـهَا is attached to يَرْزُقُ here.",
+      "tr": "Muzâri fiil nesne zamiri taşıyabilir: burada ـهَا, يَرْزُقُ fiiline bitişmiştir."
      },
      "text": {
       "en": "Not a pronoun: attached pronouns cannot join a present-form verb, so ـهَا is a root letter",
@@ -1552,8 +1552,8 @@
     },
     {
      "why": {
-      "en": "Right. The doer is the separate word ٱللَّهُ. ـهَا is added to the present-form verb to name the receiver, so it is an object pronoun. It works exactly as on a past verb.",
-      "tr": "Doğru. Fail ayrı bir kelime olan Allah'tır. ـهَا, rızkı alanı göstermek için muzâri fiile eklenmiştir; nesne zamiridir. Geçmiş zamanlı fiildeki gibi çalışır."
+      "en": "The feminine singular ـهَا denotes the one provided for, the object of يَرْزُقُهَا.",
+      "tr": "Dişil tekil ـهَا, يَرْزُقُهَا kelimesinde rızıklandırılanı, yani nesneyi gösterir."
      },
      "text": {
       "en": "An object pronoun, \"her/it\" (f. sg.), the one that receives the provision",
@@ -1576,8 +1576,8 @@
    "options": [
     {
      "why": {
-      "en": "Right. A command verb takes an object suffix just like a past verb. ـهُ names what is taken and sits in the accusative position.",
-      "tr": "Doğru. Emir fiili de geçmiş zamanlı fiil gibi nesne eki alır. ـهُ edinileni gösterir ve nasb konumdadır."
+      "en": "Here ـهُ denotes the one taken and is an object pronoun in the accusative position.",
+      "tr": "Burada ـهُ edinileni gösterir ve nasb konumundaki nesne zamiridir."
      },
      "text": {
       "en": "An object pronoun, \"him/it\", the one that receives the taking",
@@ -1586,8 +1586,8 @@
     },
     {
      "why": {
-      "en": "Possessive suffixes attach to nouns. ٱتَّخِذْ is a verb (a command), so the suffix names the receiver of the action.",
-      "tr": "İyelik ekleri isimlere gelir. ٱتَّخِذْ bir fiildir (emir); ek, eylemi alanı gösterir."
+      "en": "The base is a command verb, so this is not a possessive suffix attached to a noun.",
+      "tr": "Taban emir fiilidir; bu, isme bitişmiş bir iyelik eki değildir."
      },
      "text": {
       "en": "A possessive suffix, \"his\"",
@@ -1596,8 +1596,8 @@
     },
     {
      "why": {
-      "en": "ـهُ is not one of the doer suffixes ـتُ ـتَ ـنَا. The meaning is \"take HIM\", not that he takes something.",
-      "tr": "ـهُ, fail eklerinden (ـتُ ـتَ ـنَا) biri değildir. Anlam \"onu edin\"dir, onun bir şey edinmesi değil."
+      "en": "The command addresses the taker; ـهُ denotes whom to take, rather than the doer.",
+      "tr": "Emir, edinme eylemini yapana yöneliktir; ـهُ faili değil, edinileni gösterir."
      },
      "text": {
       "en": "The doer ending: \"he takes\"",
@@ -1606,8 +1606,8 @@
     },
     {
      "why": {
-      "en": "Removal test: without ـهُ, ٱتَّخِذْ is still a complete command verb, so ـهُ is a suffix added to it.",
-      "tr": "Çıkarma testi: ـهُ atılınca ٱتَّخِذْ yine tam bir emir fiilidir; demek ki ـهُ ona eklenmiş bir ektir."
+      "en": "The command base remains when ـهُ is removed; the pronoun adds him to its meaning.",
+      "tr": "ـهُ çıkarıldığında emir tabanı kalır; zamir anlama onu ifadesini katar."
      },
      "text": {
       "en": "Not a pronoun: ـهُ is a root letter of the verb",
@@ -1634,8 +1634,8 @@
       "tr": "ve ona öğrettim (ben)"
      },
      "why": {
-      "en": "\"I taught\" would carry the doer ending ـتُ. The doer ending here is ـنَا (\"we\").",
-      "tr": "\"Öğrettim\" için fail eki ـتُ gerekirdi. Buradaki fail eki ـنَا ekidir (\"biz\")."
+      "en": "The doer ending here is ـنَا, meaning \"we\"; \"I taught\" would require ـتُ.",
+      "tr": "Buradaki fail eki ـنَا, \"biz\" anlamındadır; \"öğrettim\" için ـتُ gerekirdi."
      }
     },
     {
@@ -1644,8 +1644,8 @@
       "tr": "ve ona öğrettik (biz)"
      },
      "why": {
-      "en": "Right. ـنَا is the doer ending of the past verb (\"we\"), and the last suffix ـهُ is the object pronoun for the one who was taught.",
-      "tr": "Doğru. ـنَا geçmiş zamanlı fiilin fail ekidir (\"biz\"); sondaki ـهُ ise öğretilen kişiyi gösteren nesne zamiridir."
+      "en": "ـنَا names the doer (\"we\"), while ـهُ names the person who received the instruction (\"him\").",
+      "tr": "ـنَا eylemi yapanı (\"biz\"), ـهُ ise kendisine bilgi öğretilen kişiyi (\"ona\") gösterir."
      }
     },
     {
@@ -1654,8 +1654,8 @@
       "tr": "ve sana öğrettik (biz)"
      },
      "why": {
-      "en": "\"You\" (m. sg.) would be the object suffix ـكَ. The last suffix here is ـهُ (\"him\").",
-      "tr": "\"Seni/sana\" için nesne eki ـكَ gerekirdi. Buradaki son ek ـهُ ekidir (\"onu\")."
+      "en": "The object suffix here is ـهُ (\"him\"), whereas \"you\" as a masculine singular object would require ـكَ.",
+      "tr": "Buradaki nesne eki ـهُ (\"ona\") ekidir; eril tekil \"sana\" için ـكَ gerekirdi."
      }
     },
     {
@@ -1664,8 +1664,8 @@
       "tr": "ve o bize öğretti"
      },
      "why": {
-      "en": "\"He\" would be the doer built into the verb with no suffix, and \"us\" would need ـنَا at the very end. Here ـنَا comes before ـهُ and is the doer.",
-      "tr": "\"O\" için fail fiilin içinde olurdu ve \"bizi\" için ـنَا en sonda gelirdi. Burada ـنَا, ـهُ ekinden önce gelir ve faildir."
+      "en": "In this word ـنَا is the doer (\"we\"), and ـهُ is the object (\"him\"); the roles are not \"he\" and \"us\".",
+      "tr": "Bu kelimede ـنَا faildir (\"biz\"), ـهُ nesnedir (\"ona\"); görevler \"o\" ve \"bize\" değildir."
      }
     }
    ],
@@ -1738,8 +1738,8 @@
    "options": [
     {
      "why": {
-      "en": "Only the one on the noun رَبّ is possessive. The one on the verb يُعْطِي names the receiver of the giving.",
-      "tr": "Yalnızca isim olan رَبّ üzerindeki ek iyeliktir. Fiil olan يُعْطِي üzerindeki ek vermeyi alanı gösterir."
+      "en": "On رَبّ, ـكَ is possessive; on يُعْطِي, it identifies the recipient of the giving.",
+      "tr": "رَبّ isminde ـكَ iyelik ekidir; يُعْطِي fiilinde ise verilen şeyi alan kişiyi gösterir."
      },
      "text": {
       "en": "Both are possessive: \"your\"",
@@ -1748,8 +1748,8 @@
     },
     {
      "why": {
-      "en": "The giver is the Lord, the separate word رَبّ. ـكَ is not a doer ending, and the meaning is that He gives YOU.",
-      "tr": "Veren, ayrı bir kelime olan رَبّ ismidir. ـكَ fail eki değildir; anlam, O'nun SANA vermesidir."
+      "en": "In يُعْطِيكَ, ـكَ means the recipient \"you\", not the giver; رَبُّكَ names the giver, \"your Lord\".",
+      "tr": "يُعْطِيكَ kelimesinde ـكَ vereni değil, kendisine bir şey verilen kişiyi gösterir; رَبُّكَ ise vereni, \"Rabbin\" anlamını belirtir."
      },
      "text": {
       "en": "In يُعْطِيكَ it is the doer (\"you give\"); in رَبُّكَ it is possessive",
@@ -1758,8 +1758,8 @@
     },
     {
      "why": {
-      "en": "The roles are swapped. A verb has no owner to name, and a noun cannot receive a verb's action through its own suffix.",
-      "tr": "Görevler ters yazılmış. Fiilin adlandıracağı bir sahip yoktur; isim üzerindeki ek ise bir fiilin eylemini almaz."
+      "en": "The roles are reversed: the suffix on يُعْطِي is an object, and the suffix on رَبّ is possessive.",
+      "tr": "Görevler ters verilmiştir: يُعْطِي fiilindeki ek nesne, رَبّ ismindeki ek iyelik ekidir."
      },
      "text": {
       "en": "In يُعْطِيكَ it is possessive (\"your\"); in رَبُّكَ it is an object (\"you\")",
@@ -1768,8 +1768,8 @@
     },
     {
      "why": {
-      "en": "Right. The same suffix gets its role from its host: on the verb it names the receiver, on the noun رَبّ it names the owner.",
-      "tr": "Doğru. Aynı ek görevini bulunduğu kelimeden alır: fiilde eylemi alanı, رَبّ isminde sahibi gösterir."
+      "en": "The verb يُعْطِي takes ـكَ as an object (\"you\"); the noun رَبّ takes it as a possessive suffix (\"your\").",
+      "tr": "يُعْطِي fiilindeki ـكَ nesne ekidir (\"sana\"); رَبّ ismindeki ـكَ iyelik ekidir (\"senin\")."
      },
      "text": {
       "en": "In يُعْطِيكَ it is an object (\"you\"); in رَبُّكَ it is possessive (\"your\")",
@@ -1792,28 +1792,28 @@
    "options": [
     {
      "why": {
-      "en": "Right. An object pronoun names who or what received the action, and it is in the accusative position. The knower is the separate word ٱللَّهُ.",
-      "tr": "Doğru. Nesne zamiri eylemi alan kişi veya şeyi gösterir ve nasb konumdadır. Bilen, ayrı kelime olan Allah'tır."
+      "en": "ـهُمْ denotes those known and is the object in the accusative position.",
+      "tr": "ـهُمْ bilinenleri gösterir ve nasb konumundaki nesnedir."
      },
      "text": {
       "en": "The receiver of the knowing (the object), in the accusative position",
-      "tr": "Bilinen (nesne); nasb konumdadır"
+      "tr": "Bilinen (nesne); nasb konumundadır"
      }
     },
     {
      "why": {
-      "en": "The knower is the word ٱللَّهُ. ـهُمْ names those who are known, so it is neither a doer nor in the nominative position.",
-      "tr": "Bilen ٱللَّهُ kelimesidir. ـهُمْ bilinenleri gösterir; bu yüzden ne faildir ne de merfu konumdadır."
+      "en": "Allah is the knower; ـهُمْ denotes those known, so it is not a doer in the nominative position.",
+      "tr": "Bilen Allah olarak belirtilmiştir; ـهُمْ bilinenleri gösterir, merfu konumundaki fail değildir."
      },
      "text": {
       "en": "The knower (the doer), in the nominative position",
-      "tr": "Bilen (fail); merfu konumdadır"
+      "tr": "Bilen (fail); merfu konumundadır"
      }
     },
     {
      "why": {
-      "en": "Possession needs a noun as host. يَعْلَمُ is a verb, so ـهُمْ is not possessive.",
-      "tr": "İyelik için bir isim gerekir. يَعْلَمُ bir fiildir; bu yüzden ـهُمْ iyelik eki değildir."
+      "en": "The pronoun is on يَعْلَمُ, a verb, rather than on a noun expressing possession.",
+      "tr": "Zamir, iyelik bildiren bir isimde değil, يَعْلَمُ fiilindedir."
      },
      "text": {
       "en": "The owner of something (possessive), in the genitive position",
@@ -1822,8 +1822,8 @@
     },
     {
      "why": {
-      "en": "There is no preposition in the quote, and the host is the verb يَعْلَمُ. A suffix on a verb is not in the genitive position.",
-      "tr": "Alıntıda edat yoktur ve ekin sahibi يَعْلَمُ fiilidir. Fiildeki ek cer konumunda değildir."
+      "en": "No preposition carries ـهُمْ here; it is the object attached to يَعْلَمُ.",
+      "tr": "Burada ـهُمْ bir edata değil, nesne olarak يَعْلَمُ fiiline bağlıdır."
      },
      "text": {
       "en": "The word after a preposition, in the genitive position",
@@ -2053,8 +2053,8 @@
    "options": [
     {
      "why": {
-      "en": "ـنَا and ـكُمْ are two separate pronouns with two roles: \"we\" (doer) and \"you\" (object).",
-      "tr": "ـنَا ve ـكُمْ iki ayrı görevi olan iki ayrı zamirdir: \"biz\" (fail) ve \"sizi\" (nesne)."
+      "en": "Here أَنجَيْنَـٰكُم means “We saved you”: ـنَا names the doer and ـكُمْ the object, so they are two pronouns.",
+      "tr": "Burada أَنجَيْنَـٰكُم “sizi kurtardık” demektir: ـنَا faili, ـكُمْ nesneyi gösterir; bunlar iki zamirdir."
      },
      "text": {
       "en": "أَنجَيْ, because ـنَاكُمْ is one single object pronoun",
@@ -2063,8 +2063,8 @@
     },
     {
      "why": {
-      "en": "Right. ـكُمْ is the object suffix and comes last. What remains is the verb with the doer ending ـنَا. The word has two separate pronouns.",
-      "tr": "Doğru. ـكُمْ nesne ekidir ve en sondadır. Geriye fail eki ـنَا ile fiil kalır. Kelimede iki ayrı zamir vardır."
+      "en": "Removing the object ـكُمْ leaves أَنجَيْنَا, “We saved”, with its doer suffix ـنَا intact.",
+      "tr": "ـكُمْ nesne eki çıkarılınca geriye “kurtardık” anlamındaki أَنجَيْنَا kalır; ـنَا fail eki korunur."
      },
      "text": {
       "en": "أَنجَيْنَا, a complete past verb that still has its doer ـنَا",
@@ -2073,8 +2073,8 @@
     },
     {
      "why": {
-      "en": "Removal test: without ـكُمْ the word أَنجَيْنَا is still a complete past verb, so ـكُمْ is an added suffix.",
-      "tr": "Çıkarma testi: ـكُمْ atılınca أَنجَيْنَا yine tam bir geçmiş zamanlı fiildir; demek ki ـكُمْ eklenmiş bir ektir."
+      "en": "ـكُمْ is an object suffix, not part of the root; removing it leaves أَنجَيْنَا, “We saved”.",
+      "tr": "ـكُمْ kökün parçası değil, nesne ekidir; çıkarılınca “kurtardık” anlamındaki أَنجَيْنَا kalır."
      },
      "text": {
       "en": "Nothing can be removed, because ـكُمْ is a root letter of the verb",
@@ -2083,8 +2083,8 @@
     },
     {
      "why": {
-      "en": "The meaning has a doer, \"We\". On a past verb ـنَا is the doer, so only ـكُمْ is an object.",
-      "tr": "Anlamda bir fail vardır: \"Biz\". Geçmiş zamanlı fiilde ـنَا faildir; nesne yalnızca ـكُمْ ekidir."
+      "en": "In أَنجَيْنَـٰكُم, “We saved you”, ـنَا means “We” and is the doer; only ـكُمْ is the object. On other past verbs ـنَا can be an object, so the meaning matters.",
+      "tr": "أَنجَيْنَـٰكُم “sizi kurtardık” demektir; burada ـنَا “biz” anlamında fail, yalnız ـكُمْ nesnedir. Başka geçmiş zamanlı fiillerde ـنَا nesne olabilir; bu yüzden anlam önemlidir."
      },
      "text": {
       "en": "A bare verb with no doer, because both suffixes are objects (\"us\" and \"you\")",
@@ -2107,8 +2107,8 @@
    "options": [
     {
      "why": {
-      "en": "Only the one on the verb is an object. أُمّ is a noun and the suffix on it names the owner, \"his mother\".",
-      "tr": "Yalnızca fiildeki ek nesnedir. أُمّ bir isimdir ve üzerindeki ek sahibi gösterir: \"onun annesi\"."
+      "en": "The suffix on the verb is an object, but the suffix on أُمّ shows whose mother she is.",
+      "tr": "Fiildeki ek nesnedir; أُمّ ismindeki ek ise kimin annesi olduğunu gösterir."
      },
      "text": {
       "en": "Both are object pronouns: \"him\"",
@@ -2117,8 +2117,8 @@
     },
     {
      "why": {
-      "en": "The roles are swapped. A verb has no owner to name, and a noun does not take an object pronoun.",
-      "tr": "Görevler ters yazılmış. Fiilin adlandıracağı bir sahip yoktur; isme de nesne zamiri gelmez."
+      "en": "The verb suffix denotes the one returned; the noun suffix expresses a family relation. These roles are reversed in this option.",
+      "tr": "Fiildeki ek geri verileni, isimdeki ek aile bağını gösterir. Bu seçenekte görevler ters verilmiştir."
      },
      "text": {
       "en": "In فَرَدَدْنَـٰهُ it is possessive (\"his\"); in أُمِّهِ it is an object (\"him\")",
@@ -2127,8 +2127,8 @@
     },
     {
      "why": {
-      "en": "Right. On the verb the pronoun names the one returned; on the noun أُمّ it names the owner of the mother.",
-      "tr": "Doğru. Fiilde zamir geri verileni, أُمّ isminde annenin sahibini gösterir."
+      "en": "The first suffix denotes the one returned; the second shows whose mother she is.",
+      "tr": "İlk ek geri verileni, ikinci ek kimin annesi olduğunu gösterir."
      },
      "text": {
       "en": "In فَرَدَدْنَـٰهُ it is an object (\"him\"); in أُمِّهِ it is possessive (\"his\")",
@@ -2137,8 +2137,8 @@
     },
     {
      "why": {
-      "en": "The host of a suffix is the word that ends in it. Here that is the noun أُمّ, so the suffix is possessive; إِلَىٰٓ governs the whole phrase, not the suffix.",
-      "tr": "Bir ekin sahibi, o ekle biten kelimedir. Burada bu isim olan أُمّ kelimesidir, bu yüzden ek iyeliktir; إِلَىٰٓ ekin değil, tüm öbeğin edatıdır."
+      "en": "The suffix in أُمِّهِ belongs to the noun أُمّ; the preceding preposition does not make it a prepositional suffix.",
+      "tr": "أُمِّهِ kelimesindeki ek أُمّ ismine aittir; önceki edat onu edata bitişik zamir yapmaz."
      },
      "text": {
       "en": "In فَرَدَدْنَـٰهُ it is an object (\"him\"); in أُمِّهِ it is prepositional, because إِلَىٰٓ comes just before it",
@@ -2219,8 +2219,8 @@
       "tr": "böylece O onu kurtardı"
      },
      "why": {
-      "en": "ـهُ would give \"him\". The ending here is ـكُمْ, which is \"you\" (m. pl.), not \"him\".",
-      "tr": "\"Onu\" anlamı ـهُ ile olurdu. Buradaki ek ـكُمْ ekidir ve \"sizi\" demektir; \"onu\" değildir."
+      "en": "The object here is ـكُمْ, you plural, rather than ـهُ, him.",
+      "tr": "Buradaki nesne, onu anlamındaki ـهُ değil, sizi anlamındaki ـكُمْ ekidir."
      }
     },
     {
@@ -2229,8 +2229,8 @@
       "tr": "böylece O sizi kurtardı"
      },
      "why": {
-      "en": "Right. The doer is built into the past verb with no visible suffix (\"He\"), and ـكُمْ is the object pronoun for the receivers: you, more than one man.",
-      "tr": "Doğru. Fail geçmiş zamanlı fiilin içindedir, görünür eki yoktur (\"O\"); ـكُمْ ise eylemi alanları gösteren nesne zamiridir: sizi (erkek, çoğul)."
+      "en": "The verb means saved, the opening فَ adds so, and ـكُمْ denotes you plural as the object.",
+      "tr": "Fiil kurtarma eylemini bildirir; baştaki فَ böylece, ـكُمْ ise nesne olarak sizi anlamını verir."
      }
     },
     {
@@ -2239,8 +2239,8 @@
       "tr": "böylece O seni kurtardı"
      },
      "why": {
-      "en": "That would need ـكَ. The ending ـكُمْ with a mim is plural, so it means \"you\" for more than one person.",
-      "tr": "Bu anlam ـكَ ile olurdu. Mim'li ـكُمْ çoğuldur; birden fazla kişiyi gösterir."
+      "en": "The ending ـكُمْ denotes plural you; singular masculine you would be ـكَ.",
+      "tr": "ـكُمْ eki çoğul sizi gösterir; eril tekil seni için ـكَ gerekirdi."
      }
     },
     {
@@ -2249,8 +2249,8 @@
       "tr": "böylece siz kurtardınız"
      },
      "why": {
-      "en": "On a past verb the doer suffixes are only ـتُ, ـتَ and ـنَا. ـكُمْ is not one of them, so it names the receivers, not the doers.",
-      "tr": "Geçmiş zamanlı fiilde fail ekleri yalnızca ـتُ, ـتَ ve ـنَا ekleridir. ـكُمْ bunlardan değildir; failleri değil, eylemi alanları gösterir."
+      "en": "This lesson teaches ـتُ, ـتَ and ـنَا as doer suffixes. Here ـكُمْ identifies those saved, not those saving.",
+      "tr": "Bu derste fail eki olarak ـتُ, ـتَ ve ـنَا öğretilir. Buradaki ـكُمْ kurtaranları değil, kurtarılanları gösterir."
      }
     }
    ],
@@ -2327,8 +2327,8 @@
       "tr": "İkisi de faildir"
      },
      "why": {
-      "en": "Only ـتَ is a doer here. In فَنَجَّيْنَـٰكَ the doer is ـنَا (\"We\"); ـكَ names the one who was saved.",
-      "tr": "Burada yalnızca ـتَ faildir. فَنَجَّيْنَـٰكَ kelimesinde fail ـنَا ekidir (\"biz\"); ـكَ ise kurtarılan kişiyi gösterir."
+      "en": "ـتَ is the doer of وَقَتَلْتَ, but ـكَ is the object in فَنَجَّيْنَـٰكَ; the doer of that verb is ـنَا.",
+      "tr": "وَقَتَلْتَ kelimesinde ـتَ faildir; فَنَجَّيْنَـٰكَ kelimesinde ise ـكَ nesne, ـنَا faildir."
      }
     },
     {
@@ -2337,8 +2337,8 @@
       "tr": "İkisi de nesne zamiridir"
      },
      "why": {
-      "en": "ـتَ in وَقَتَلْتَ is the one who did the killing, not the one who received it; the receiver of the killing is the word نَفْسًا.",
-      "tr": "وَقَتَلْتَ kelimesindeki ـتَ öldüreni gösterir, öldürülmeyi alanı değil; öldürülen نَفْسًا kelimesidir."
+      "en": "ـتَ names the person who killed; نَفْسًا names the person killed, while ـكَ names the person saved.",
+      "tr": "ـتَ öldüren kişiyi gösterir, öldürülen kişiyi değil; نَفْسًا öldürülen kişiyi, ـكَ ise kurtarılan kişiyi gösterir."
      }
     },
     {
@@ -2347,8 +2347,8 @@
       "tr": "ـتَ nesnedir, ـكَ faildir"
      },
      "why": {
-      "en": "This reverses the roles. Meaning decides: \"you killed\" makes ـتَ the doer, and \"We saved you\" makes ـكَ the receiver.",
-      "tr": "Bu, görevleri tersine çevirir. Anlam belirler: \"öldürdün\" ـتَ ekini fail, \"seni kurtardık\" ـكَ ekini eylemi alan yapar."
+      "en": "\"You killed\" makes ـتَ the doer, while \"We saved you\" makes ـكَ the object, so these roles are reversed.",
+      "tr": "\"Öldürdün\" anlamında ـتَ faildir; \"seni kurtardık\" anlamında ـكَ nesnedir; bu seçenekte görevler ters verilmiştir."
      }
     },
     {
@@ -2357,8 +2357,8 @@
       "tr": "ـتَ faildir, ـكَ nesnedir"
      },
      "why": {
-      "en": "Right. ـتَ is the doer ending of a past verb (\"you\" did the killing). In فَنَجَّيْنَـٰكَ the suffix ـكَ comes after the doer ending ـنَا and names the one who received the saving, so it is an object pronoun.",
-      "tr": "Doğru. ـتَ geçmiş zamanlı fiilin fail ekidir (öldüren \"sen\"). فَنَجَّيْنَـٰكَ kelimesinde ـكَ, fail eki ـنَا ekinden sonra gelir ve kurtarılanı gösterir; yani nesne zamiridir."
+      "en": "ـتَ names the doer of the killing; ـكَ names the person saved, and ـنَا names those doing the saving.",
+      "tr": "ـتَ öldürme eylemini yapanı gösterir; ـكَ kurtarılan kişiyi, ـنَا ise kurtarma eylemini yapanı gösterir."
      }
     }
    ],
@@ -2489,8 +2489,8 @@
       "tr": "ـكَ faildir; dolayısıyla anlam \"sen Allah'ı üstün kıldın\" olur"
      },
      "why": {
-      "en": "The doer ending of a past verb can only be ـتَ, ـتُ or ـنَا, and the meaning given is that Allah preferred someone. ـكَ names the one preferred.",
-      "tr": "Geçmiş zamanlı fiilin fail eki ancak ـتَ, ـتُ ya da ـنَا olabilir; verilen anlam da Allah'ın birini üstün kıldığıdır. ـكَ üstün kılınanı gösterir."
+      "en": "The doer endings taught here are ـتُ, ـتَ and ـنَا. In this phrase ـكَ denotes the person preferred, while Allah is the doer.",
+      "tr": "Burada öğretilen fail ekleri ـتُ, ـتَ ve ـنَا ekleridir. Bu ifadede ـكَ üstün kılınanı gösterir; fail Allah olarak belirtilmiştir."
      }
     },
     {
@@ -2499,8 +2499,8 @@
       "tr": "ـكَ iyelik ekidir: \"senin Allah'ın\""
      },
      "why": {
-      "en": "A possessive suffix needs a noun as host. ءَاثَرَ is a verb, an action tied to a time, so the suffix cannot show ownership.",
-      "tr": "İyelik ekinin sahibi bir isim olmalıdır. ءَاثَرَ zamana bağlı bir eylem olan fiildir; ek sahiplik gösteremez."
+      "en": "The suffix attaches to the verb ءَاثَرَ, not a noun, so it is not possessive.",
+      "tr": "Ek, bir isme değil ءَاثَرَ fiiline bağlıdır; iyelik bildirmez."
      }
     },
     {
@@ -2509,8 +2509,8 @@
       "tr": "ـكَ, üstün kılınanı gösteren nesne zamiridir; fail ayrı kelime olan Allah'tır"
      },
      "why": {
-      "en": "Right. ـكَ is the receiver of the action (\"you\"), in the accusative position, and it is written right after the verb. The doer is the full word ٱللَّهُ, which follows.",
-      "tr": "Doğru. ـكَ eylemi alandır (\"seni\"), nasb konumdadır ve fiilin hemen arkasına yazılmıştır. Fail, ardından gelen ٱللَّهُ kelimesidir."
+      "en": "The attached ـكَ is the person preferred, an object in the accusative position; Allah is separately named as doer.",
+      "tr": "Bitişik ـكَ üstün kılınandır, nasb konumundaki nesnedir; fail ayrı olarak Allah diye belirtilmiştir."
      }
     },
     {
@@ -2519,8 +2519,8 @@
       "tr": "ـكَ fiilin kök harflerindendir"
      },
      "why": {
-      "en": "Removal test: ءَاثَرَ is a complete verb without ـكَ, and \"you\" disappears from the meaning with it, so ـكَ is an added suffix.",
-      "tr": "Çıkarma testi: ـكَ olmadan da ءَاثَرَ tam bir fiildir ve anlamdan \"seni\" çıkar; demek ki ـكَ sonradan eklenmiş bir ektir."
+      "en": "The base ءَاثَرَ remains without ـكَ; the suffix supplies the object you.",
+      "tr": "ـكَ olmadan ءَاثَرَ tabanı kalır; ek, seni nesnesini bildirir."
      }
     }
    ],
@@ -2597,8 +2597,8 @@
       "tr": "ـهُ fail ekidir ve fiilin nesnesi yoktur"
      },
      "why": {
-      "en": "ـهُ names the one who was taught, not the one who taught. A doer ending of a past verb would be ـتُ, ـتَ or ـنَا.",
-      "tr": "ـهُ öğreteni değil, öğretileni gösterir. Geçmiş zamanlı fiilin fail eki ـتُ, ـتَ veya ـنَا olurdu."
+      "en": "ـهُ names the person receiving instruction, not the teacher; the doer has no visible suffix in this verb.",
+      "tr": "ـهُ öğreteni değil, kendisine bilgi öğretilen kişiyi gösterir; bu fiilde failin görünür eki yoktur."
      }
     },
     {
@@ -2607,8 +2607,8 @@
       "tr": "Kelimede fail eki ـتَ ve nesne eki ـهُ vardır"
      },
      "why": {
-      "en": "There is no ـتَ in the written word. The only visible suffix is ـهُ.",
-      "tr": "Yazılı kelimede ـتَ yoktur. Görünen tek ek ـهُ ekidir."
+      "en": "عَلَّمَهُ contains the visible suffix ـهُ, but no ـتَ doer ending.",
+      "tr": "عَلَّمَهُ kelimesinde görünür ek ـهُ ekidir; ـتَ fail eki bulunmaz."
      }
     },
     {
@@ -2617,8 +2617,8 @@
       "tr": "Kelimede hiçbir ek yoktur"
      },
      "why": {
-      "en": "Removing ـهُ leaves عَلَّمَ, a complete verb, so ـهُ is a suffix added at the end.",
-      "tr": "ـهُ çıkarılınca tam bir fiil olan عَلَّمَ kalır; yani ـهُ sona eklenmiş bir ektir."
+      "en": "The final ـهُ is an attached object pronoun; removing it leaves the verb عَلَّمَ.",
+      "tr": "Sondaki ـهُ bitişik nesne zamiridir; çıkarıldığında عَلَّمَ fiili kalır."
      }
     },
     {
@@ -2627,8 +2627,8 @@
       "tr": "Fail fiilin içindedir, görünür eki yoktur; ـهُ nesne zamiridir"
      },
      "why": {
-      "en": "Right. The teacher (\"He\") is built into the past verb with no visible suffix, and the attached ـهُ names the one who received the teaching.",
-      "tr": "Doğru. Öğreten (\"O\") geçmiş zamanlı fiilin içindedir, görünür eki yoktur; bitişik ـهُ öğretilen kişiyi gösterir."
+      "en": "The doer \"He\" is built into عَلَّمَ with no visible suffix; ـهُ identifies the person receiving instruction.",
+      "tr": "Fail olan \"O\", görünür bir ek olmadan عَلَّمَ fiilinin içindedir; ـهُ kendisine bilgi öğretilen kişiyi gösterir."
      }
     }
    ],
@@ -2759,8 +2759,8 @@
       "tr": "onların dini"
      },
      "why": {
-      "en": "Their would end in the ـهُمْ pronoun. دِينُكُمْ ends in a ك pronoun, which means you.",
-      "tr": "Onların anlamı ـهُمْ zamiriyle yapılır. دِينُكُمْ ise ك ile biten, sen/siz anlamlı bir zamir taşır."
+      "en": "Their would use ـهُمْ; دِينُكُمْ carries ـكُمْ, the pronoun beginning with ك.",
+      "tr": "Onların anlamı ـهُمْ ile verilirdi; دِينُكُمْ, ك ile başlayan ـكُمْ zamirini taşır."
      }
     },
     {
@@ -2769,8 +2769,8 @@
       "tr": "senin dinin (eril tekil)"
      },
      "why": {
-      "en": "A single 'your' has no م at the end. The ending of دِينُكُمْ has the extra م, which marks more than one person.",
-      "tr": "Tekil 'senin' sonunda م taşımaz. دِينُكُمْ kelimesinin sonundaki fazladan م, birden çok kişiyi gösterir."
+      "en": "ـكُمْ means your plural, whereas masculine singular your is ـكَ.",
+      "tr": "ـكُمْ sizin anlamındadır; eril tekil senin için ـكَ kullanılır."
      }
     },
     {
@@ -2779,8 +2779,8 @@
       "tr": "sizin dininiz (eril çoğul)"
      },
      "why": {
-      "en": "Correct. دِين is a noun and the attached pronoun after it is the possessive suffix 'your (m. pl.)'. The noun has no tanwin and no ال because it is the first part of an idafa.",
-      "tr": "Doğru. دِين bir isimdir ve ondan sonraki bitişik zamir 'sizin (eril çoğul)' anlamlı iyelik ekidir. İsim, izafetin ilk parçası olduğu için tenvin ve ال almaz."
+      "en": "The noun دِين with ـكُمْ means your religion, addressed to a masculine plural group.",
+      "tr": "دِين ismi ile ـكُمْ, eril çoğul bir gruba hitaben sizin dininiz anlamını verir."
      }
     },
     {
@@ -2789,8 +2789,8 @@
       "tr": "bizim dinimiz"
      },
      "why": {
-      "en": "'Our' is shown by the ـنَا ending. دِينُكُمْ does not end in نَا.",
-      "tr": "'Bizim' ـنَا sonuyla gösterilir. دِينُكُمْ نَا ile bitmez."
+      "en": "Our would require ـنَا; this noun instead has ـكُمْ.",
+      "tr": "Bizim anlamı ـنَا gerektirirdi; bu isimde ise ـكُمْ vardır."
      }
     }
    ],
@@ -2899,8 +2899,8 @@
    "ref": "10:10",
    "quote": "وَتَحِيَّتُهُمْ فِيهَا سَلَـٰمٌۭ ۚ",
    "stem": {
-    "en": "Which statement about the two nouns تَحِيَّتُهُمْ and سَلَـٰمٌ is true?",
-    "tr": "تَحِيَّتُهُمْ ve سَلَـٰمٌ isimleri hakkında hangi ifade doğrudur?"
+    "en": "Which statement about the two nouns وَتَحِيَّتُهُمْ and سَلَـٰمٌ is true?",
+    "tr": "وَتَحِيَّتُهُمْ ve سَلَـٰمٌ isimleri hakkında hangi ifade doğrudur?"
    },
    "options": [
     {
@@ -2909,18 +2909,18 @@
       "tr": "İkisi de iyelik eki taşır."
      },
      "why": {
-      "en": "Only one of them does. سَلَـٰمٌ ends in tanwin, and a noun that carries a possessive suffix never takes tanwin.",
-      "tr": "Yalnızca biri taşır. سَلَـٰمٌ tenvinle biter; iyelik eki taşıyan isim ise hiç tenvin almaz."
+      "en": "سَلَـٰمٌ has tanwin rather than a pronoun; only وَتَحِيَّتُهُمْ has a possessive suffix.",
+      "tr": "سَلَـٰمٌ zamir yerine tenvin taşır; iyelik eki yalnızca وَتَحِيَّتُهُمْ kelimesindedir."
      }
     },
     {
      "text": {
-      "en": "سَلَـٰمٌ carries a possessive suffix and تَحِيَّتُهُمْ is a plain noun.",
-      "tr": "سَلَـٰمٌ iyelik eki taşır, تَحِيَّتُهُمْ yalın bir isimdir."
+      "en": "سَلَـٰمٌ carries a possessive suffix and وَتَحِيَّتُهُمْ is a plain noun.",
+      "tr": "سَلَـٰمٌ iyelik eki taşır, وَتَحِيَّتُهُمْ yalın bir isimdir."
      },
      "why": {
-      "en": "This is reversed. سَلَـٰمٌ has tanwin, so nothing is attached to it. The suffix is on تَحِيَّتُهُمْ.",
-      "tr": "Bu ters söylenmiştir. سَلَـٰمٌ tenvinlidir, ona bir şey eklenmemiştir. Ek, تَحِيَّتُهُمْ üzerindedir."
+      "en": "This reverses the nouns: ـهُمْ is on وَتَحِيَّتُهُمْ, not on سَلَـٰمٌ.",
+      "tr": "İsimler ters verilmiştir: ـهُمْ, سَلَـٰمٌ kelimesinde değil, وَتَحِيَّتُهُمْ kelimesindedir."
      }
     },
     {
@@ -2929,18 +2929,18 @@
       "tr": "Hiçbiri iyelik eki taşımaz."
      },
      "why": {
-      "en": "تَحِيَّتُهُمْ ends in the pronoun ـهُمْ ('their'), and the noun before it has no tanwin and no ال, as in an idafa. So one of them does carry a suffix.",
-      "tr": "تَحِيَّتُهُمْ, 'onların' anlamındaki ـهُمْ zamiriyle biter ve öncesindeki isim izafetteki gibi tenvin ve ال almaz. Yani birinde ek vardır."
+      "en": "وَتَحِيَّتُهُمْ contains ـهُمْ meaning their, so the claim that neither has a suffix fails.",
+      "tr": "وَتَحِيَّتُهُمْ, onların anlamındaki ـهُمْ ekini içerir; ikisinde de ek yoktur denemez."
      }
     },
     {
      "text": {
-      "en": "تَحِيَّتُهُمْ carries the possessive suffix 'their' and سَلَـٰمٌ is a plain noun.",
-      "tr": "تَحِيَّتُهُمْ 'onların' anlamlı iyelik ekini taşır, سَلَـٰمٌ yalın bir isimdir."
+      "en": "وَتَحِيَّتُهُمْ carries the possessive suffix 'their' and سَلَـٰمٌ is a plain noun.",
+      "tr": "وَتَحِيَّتُهُمْ 'onların' anlamlı iyelik ekini taşır, سَلَـٰمٌ yalın bir isimdir."
      },
      "why": {
-      "en": "Correct. تَحِيَّتُهُمْ means 'their greeting': a noun plus the suffix 'their', with no tanwin. سَلَـٰمٌ has tanwin and no pronoun, so it is a plain noun.",
-      "tr": "Doğru. تَحِيَّتُهُمْ 'onların selamlaşması' demektir: isim artı 'onların' eki, tenvin yok. سَلَـٰمٌ tenvinlidir ve zamir taşımaz, yani yalın bir isimdir."
+      "en": "وَتَحِيَّتُهُمْ contains the possessive ـهُمْ; سَلَـٰمٌ has tanwin and no attached pronoun.",
+      "tr": "وَتَحِيَّتُهُمْ iyelik bildiren ـهُمْ ekini içerir; سَلَـٰمٌ ise tenvinlidir ve bitişik zamir taşımaz."
      }
     }
    ],
@@ -2963,8 +2963,8 @@
       "tr": "İkisi de fail olan 'biz'dir."
      },
      "why": {
-      "en": "Only the past verb وَجَدْنَا has a doer suffix. ءَابَآءَنَا is a noun, and a noun cannot have a doer suffix.",
-      "tr": "Fail eki yalnızca geçmiş zamanlı fiil olan وَجَدْنَا kelimesinde vardır. ءَابَآءَنَا bir isimdir ve isim fail eki taşıyamaz."
+      "en": "وَجَدْنَا means “we found”, so its ـنَا is the doer. ءَابَآءَنَا means “our fathers”, with a possessive suffix on a noun.",
+      "tr": "وَجَدْنَا “bulduk” demektir; buradaki ـنَا faildir. ءَابَآءَنَا ise isimdeki iyelik ekiyle “atalarımız” demektir."
      }
     },
     {
@@ -2973,8 +2973,8 @@
       "tr": "وَجَدْنَا kelimesinde fail olan 'biz' vardır (geçmiş zamanlı fiil), ءَابَآءَنَا kelimesinde ise 'bizim' iyelik eki vardır (isim)."
      },
      "why": {
-      "en": "Correct. The form ـنَا is the same, but the host decides the role: a past verb gives the doer 'we', a noun gives the possessive 'our' in the genitive position.",
-      "tr": "Doğru. ـنَا biçimi aynıdır ama görevi bağlı olduğu kelime belirler: geçmiş zamanlı fiilde fail olan 'biz', isimde ise cer konumunda iyelik eki olan 'bizim' olur."
+      "en": "وَجَدْنَا means “we found”, making ـنَا the doer here; ءَابَآءَنَا means “our fathers”, with ـنَا in the genitive position. A verb can also carry object ـنَا, so host and meaning must both be considered.",
+      "tr": "وَجَدْنَا “bulduk” demektir; ـنَا burada faildir. ءَابَآءَنَا “atalarımız” demektir; ـنَا cer konumundadır. Fiil nesne olan ـنَا ekini de alabilir; hem taşıyıcıya hem anlama bakılmalıdır."
      }
     },
     {
@@ -2983,8 +2983,8 @@
       "tr": "ءَابَآءَنَا kelimesinde fail olan 'biz', وَجَدْنَا kelimesinde 'bizim' iyelik eki vardır."
      },
      "why": {
-      "en": "This swaps the roles. A doer suffix needs a past verb as its host, and a possessive suffix needs a noun.",
-      "tr": "Bu, görevleri değiştirir. Fail eki için geçmiş zamanlı fiil, iyelik eki için isim gerekir."
+      "en": "The roles are reversed: وَجَدْنَا expresses “we found”, whereas the noun ءَابَآءَنَا expresses “our fathers”.",
+      "tr": "Görevler ters verilmiştir: وَجَدْنَا “bulduk”, ءَابَآءَنَا ismi ise “atalarımız” anlamındadır."
      }
     },
     {
@@ -2993,8 +2993,8 @@
       "tr": "İkisi de 'bizim' iyelik ekini taşır."
      },
      "why": {
-      "en": "A possessive suffix needs a noun. وَجَدْنَا is a past verb, so its ـنَا is the doer 'we'.",
-      "tr": "İyelik eki isme eklenir. وَجَدْنَا geçmiş zamanlı bir fiildir; oradaki ـنَا fail olan 'biz'dir."
+      "en": "Only ءَابَآءَنَا has possessive “our”. In وَجَدْنَا, “we found”, the suffix names those who found.",
+      "tr": "Yalnız ءَابَآءَنَا kelimesinde “bizim” anlamında iyelik eki vardır. وَجَدْنَا “bulduk” demektir; ek, bulanları gösterir."
      }
     }
    ],
@@ -3071,8 +3071,8 @@
       "tr": "نَفْسِى kelimesindeki ـي nesne ekidir, نَفْسِكَ kelimesindeki ـكَ ise iyelik ekidir."
      },
      "why": {
-      "en": "Both words end in the same noun, نَفْس, so both suffixes sit on a noun. An object suffix sits on a verb, so the ـي here is not an object.",
-      "tr": "İki kelime de aynı isimle biter; نَفْس, yani iki ek de bir isme eklenmiştir. Nesne eki fiile eklenir, bu yüzden buradaki ـي nesne değildir."
+      "en": "Both suffixes attach to the same noun نَفْس; the ـي in نَفْسِى is possessive, not an object.",
+      "tr": "İki ek de aynı نَفْس ismine eklenir; نَفْسِى kelimesindeki ـي nesne değil, iyelik ekidir."
      }
     },
     {
@@ -3081,8 +3081,8 @@
       "tr": "İkisi de نَفْس isminde nesne ekidir."
      },
      "why": {
-      "en": "An object suffix sits on a verb, and نَفْس is a noun. Both suffixes are possessive here, so neither is an object.",
-      "tr": "Nesne eki fiile eklenir, نَفْس ise bir isimdir. Buradaki iki ek de iyelik ekidir; hiçbiri nesne değildir."
+      "en": "Neither suffix is on a verb; both express possession on نَفْس.",
+      "tr": "Eklerin hiçbiri fiilde değildir; ikisi de نَفْس isminde iyelik bildirir."
      }
     },
     {
@@ -3091,8 +3091,8 @@
       "tr": "Ekler farklı kelimelere bağlı olduğu için görevleri farklıdır."
      },
      "why": {
-      "en": "The host is the same noun, نَفْس, in both. A role depends on the host, so the roles are the same here.",
-      "tr": "İkisinde de bağlı olunan kelime aynı isimdir: نَفْس. Görev bağlı olunan kelimeye göre belirlenir; bu yüzden burada görevler aynıdır."
+      "en": "The suffixes differ in person, but their host is the same noun, so their possessive role is shared.",
+      "tr": "Eklerin şahısları farklıdır; taşıyıcıları aynı isim olduğu için ikisi de iyelik görevi taşır."
      }
     },
     {
@@ -3101,8 +3101,8 @@
       "tr": "İkisi de نَفْس isminde iyelik ekidir. Görev aynıdır, yalnızca sahip değişir: 'benim' ile 'senin (eril tekil)'."
      },
      "why": {
-      "en": "Correct. Each suffix keeps its own person and number. Both sit on a noun, so both are possessive and in the genitive position.",
-      "tr": "Doğru. Her ek kendi kişisini ve sayısını korur. İkisi de bir isme eklendiği için iyelik ekidir ve cer konumundadır."
+      "en": "ـي means my and ـكَ means your masculine singular; both are possessive and in the genitive position.",
+      "tr": "ـي benim, ـكَ eril tekil senin anlamındadır; ikisi de iyelik ekidir ve cer konumundadır."
      }
     }
    ],
@@ -3283,8 +3283,8 @@
    "options": [
     {
      "why": {
-      "en": "'Her' needs the ـهَا ending. The last word ends in a single ه with no ا, so its owner is male.",
-      "tr": "'Onun (dişil)' için ـهَا sonu gerekir. Son kelime ا içermeyen tek bir ه ile biter; sahibi eril bir tekildir."
+      "en": "The suffix in أَجْرُهُ is grammatically masculine singular ـهُ, not feminine singular ـهَا; grammatical gender alone does not establish biological sex.",
+      "tr": "أَجْرُهُ kelimesindeki ek dilbilgisel olarak eril tekil ـهُ ekidir, dişil tekil ـهَا değildir; dilbilgisel cinsiyet tek başına biyolojik cinsiyeti belirlemez."
      },
      "text": {
       "en": "so for him is her reward",
@@ -3293,8 +3293,8 @@
     },
     {
      "why": {
-      "en": "Correct. In لَهُ the host is the preposition لِ, so its pronoun is prepositional ('for him'). In أَجْرُهُ the host is the noun أَجْر, so its pronoun is the possessive suffix 'his', in the genitive position, and the noun has no tanwin and no ال.",
-      "tr": "Doğru. لَهُ kelimesinde taşıyıcı لِ edatıdır; zamir edatsaldır ('ona'). أَجْرُهُ kelimesinde taşıyıcı أَجْر ismidir; zamir 'onun' anlamlı iyelik ekidir, cer konumundadır ve isim tenvin ve ال almaz."
+      "en": "لَهُ means \"for him\", with a pronoun attached to a preposition; أَجْرُهُ means \"his reward\", with a possessive pronoun attached to a noun.",
+      "tr": "لَهُ \"ona/onun için\" anlamındadır ve zamir edata bitişmiştir; أَجْرُهُ \"onun ödülü\" anlamındadır ve iyelik zamiri isme bitişmiştir."
      },
      "text": {
       "en": "so for him is his reward",
@@ -3303,8 +3303,8 @@
     },
     {
      "why": {
-      "en": "'Their' needs ـهُمْ with م. The last word ends in ـهُ without م.",
-      "tr": "'Onların' için م harfli ـهُمْ gerekir. Son kelime م olmadan ـهُ ile biter."
+      "en": "The possessive suffix in أَجْرُهُ is singular ـهُ; the plural \"their\" would require ـهُمْ.",
+      "tr": "أَجْرُهُ kelimesindeki iyelik eki tekil ـهُ ekidir; çoğul \"onların\" için ـهُمْ gerekirdi."
      },
      "text": {
       "en": "so for him is their reward",
@@ -3313,8 +3313,8 @@
     },
     {
      "why": {
-      "en": "'You' is shown by a ك ending. The first word ends in ه, so its pronoun is 'him'.",
-      "tr": "'Sen' ك sonuyla gösterilir. İlk kelime ه ile biter; zamiri 'ona' anlamındadır."
+      "en": "لَهُ has the pronoun ـهُ, meaning \"him\" after this preposition; \"for you\" would require a second-person pronoun.",
+      "tr": "لَهُ kelimesindeki ـهُ zamiri bu edatla \"ona\" anlamını verir; \"sana\" için ikinci şahıs zamiri gerekirdi."
      },
      "text": {
       "en": "so for you is his reward",
@@ -3547,8 +3547,8 @@
    "ref": "64:15",
    "quote": "أَمْوَٰلُكُمْ وَأَوْلَـٰدُكُمْ",
    "stem": {
-    "en": "Both أَمْوَٰلُكُمْ and أَوْلَـٰدُكُمْ end in an attached pronoun. What does that pronoun show?",
-    "tr": "أَمْوَٰلُكُمْ ve أَوْلَـٰدُكُمْ kelimelerinin ikisi de bitişik zamirle biter. Bu zamir neyi gösterir?"
+    "en": "Both أَمْوَٰلُكُمْ and وَأَوْلَـٰدُكُمْ end in an attached pronoun. What does that pronoun show?",
+    "tr": "أَمْوَٰلُكُمْ ve وَأَوْلَـٰدُكُمْ kelimelerinin ikisi de bitişik zamirle biter. Bu zamir neyi gösterir?"
    },
    "options": [
     {
@@ -3557,8 +3557,8 @@
       "tr": "İsmin eylemini kimin yaptığını."
      },
      "why": {
-      "en": "A noun has no action to do. Doer suffixes are only ـتُ ـتَ ـنَا on past verbs.",
-      "tr": "İsmin yapacağı bir eylem yoktur. Fail ekleri yalnızca geçmiş zamanlı fiillerdeki ـتُ ـتَ ـنَا biçimleridir."
+      "en": "These suffixes attach to nouns, not verbs. The doer suffixes taught in this lesson are ـتُ, ـتَ and ـنَا.",
+      "tr": "Bu ekler fiillere değil isimlere bağlıdır. Bu derste öğretilen fail ekleri ـتُ, ـتَ ve ـنَا ekleridir."
      }
     },
     {
@@ -3567,8 +3567,8 @@
       "tr": "İsmin kime ait veya bağlı olduğunu: 'sizin mallarınız' ve 'sizin çocuklarınız'."
      },
      "why": {
-      "en": "Correct. On a noun, the attached pronoun is a possessive suffix. Here it is ـكُمْ, 'your (m. pl.)', in the genitive position.",
-      "tr": "Doğru. İsimde bitişik zamir iyelik ekidir. Burada cer konumunda olan ـكُمْ, yani 'sizin (eril çoğul)' ekidir."
+      "en": "The ـكُمْ on both nouns means your plural, expressing ownership of wealth and a relation to children.",
+      "tr": "İki isimdeki ـكُمْ sizin anlamındadır; mallarda sahiplik, çocuklarda aile bağı bildirir."
      }
     },
     {
@@ -3577,8 +3577,8 @@
       "tr": "Kelimenin zamanını, geçmiş ya da şimdiki."
      },
      "why": {
-      "en": "Nouns have no tense, and a pronoun suffix does not mark time.",
-      "tr": "İsimlerin zamanı yoktur ve zamir eki zaman bildirmez."
+      "en": "The suffix ـكُمْ identifies a person and number; it supplies no past or present tense to these nouns.",
+      "tr": "ـكُمْ şahıs ve sayı bildirir; bu isimlere geçmiş veya şimdiki zaman katmaz."
      }
     },
     {
@@ -3587,8 +3587,8 @@
       "tr": "İsmin belirsiz olduğunu."
      },
      "why": {
-      "en": "The opposite is true: a noun with a possessive suffix has no tanwin, and the suffix does not make it indefinite.",
-      "tr": "Tersi doğrudur: iyelik ekli isim tenvin almaz ve ek onu belirsiz yapmaz."
+      "en": "The attached possessive pronoun makes the noun definite, rather than indefinite.",
+      "tr": "Bitişik iyelik zamiri ismi belirsiz değil, belirli yapar."
      }
     }
    ],
@@ -3935,8 +3935,8 @@
       "tr": "Önüne ال takısı da alabilir, zamirle birlikte."
      },
      "why": {
-      "en": "A mudaf takes no ال. The noun and its pronoun suffix form an idafa, so ال cannot be added.",
-      "tr": "Mudaf ال almaz. İsim ile iyelik eki bir izafet oluşturur, bu yüzden ال eklenemez."
+      "en": "رَبّ is mudaf here, so the article cannot be added alongside its possessive suffix.",
+      "tr": "رَبّ burada mudaftır; iyelik ekiyle birlikte belirlilik takısı alamaz."
      }
     },
     {
@@ -3945,8 +3945,8 @@
       "tr": "Görünmeyen gizli bir tenvin taşır."
      },
      "why": {
-      "en": "A mudaf has no tanwin at all, visible or hidden. The damma on the last letter of رَبّ is its ending, not tanwin.",
-      "tr": "Mudafta görünür ya da gizli hiçbir tenvin yoktur. رَبّ kelimesinin son harfindeki damme ismin sonudur, tenvin değildir."
+      "en": "This idafa has no tanwin; the damma on رَبّ is a single vowel, not hidden tanwin.",
+      "tr": "Bu izafette tenvin yoktur; رَبّ üzerindeki damme tek harekedir, gizli tenvin değildir."
      }
     },
     {
@@ -3955,8 +3955,8 @@
       "tr": "رَبّ mudaftır, ـهُ onun mudaf ileyhidir; 'onun Rabbi' anlamına gelir."
      },
      "why": {
-      "en": "Correct. The noun has no tanwin and no ال, and the attached pronoun stands in the genitive position as the second part of the idafa.",
-      "tr": "Doğru. İsmin tenvini ve ال takısı yoktur; bitişik zamir izafetin ikinci parçası olarak cer konumundadır."
+      "en": "The noun رَبّ is mudaf, and ـهُ is its mudaf ilayh in the genitive position.",
+      "tr": "رَبّ ismi mudaf, ـهُ ise cer konumundaki mudaf ileyhidir."
      }
     },
     {
@@ -3965,8 +3965,8 @@
       "tr": "ـهُ bir fiilin failidir, kelime 'o rab oldu' demektir."
      },
      "why": {
-      "en": "The word has no verb. Doer suffixes are only found on past verbs and they are ـتُ ـتَ ـنَا. Here ـهُ is a possessive suffix on a noun.",
-      "tr": "Kelimede fiil yoktur. Fail ekleri yalnızca geçmiş zamanlı fiillerde bulunur ve ـتُ ـتَ ـنَا biçimleridir. Burada ـهُ bir isimdeki iyelik ekidir."
+      "en": "رَبّ is a noun and ـهُ is possessive here. The doer suffixes covered in this lesson are ـتُ, ـتَ and ـنَا on past verbs.",
+      "tr": "رَبّ isimdir ve ـهُ burada iyeliktir. Bu derste ele alınan fail ekleri geçmiş zamanlı fiillerdeki ـتُ, ـتَ ve ـنَا ekleridir."
      }
     }
    ],
@@ -4043,8 +4043,8 @@
       "tr": "onunla"
      },
      "why": {
-      "en": "\"With\" is the meaning of a different preposition. The preposition inside فِيهِ means \"in\".",
-      "tr": "\"Birlikte\" başka bir edadın anlamıdır. فِيهِ içindeki edat \"içinde\" anlamındadır."
+      "en": "The preposition in فِيهِ means in; with is a different relation.",
+      "tr": "فِيهِ içindeki edat içinde anlamındadır; birlikte anlamı başka bir edatın görevidir."
      }
     },
     {
@@ -4053,8 +4053,8 @@
       "tr": "onda / içinde"
      },
      "why": {
-      "en": "Correct. فِي means \"in\" and the attached pronoun ـهِ means \"it\", so the unit means \"in it\".",
-      "tr": "Doğru. فِي \"içinde\" demektir, bitişik zamir ـهِ \"o\" demektir; birim \"onda, içinde\" anlamına gelir."
+      "en": "فِيهِ combines فِي, in, and ـهِ, it, giving in it.",
+      "tr": "فِيهِ, içinde anlamındaki فِي ile o anlamındaki ـهِ zamirini birleştirir: onda."
      }
     },
     {
@@ -4063,8 +4063,8 @@
       "tr": "ondan"
      },
      "why": {
-      "en": "\"From\" is the meaning of a different preposition. The preposition inside فِيهِ means \"in\", not \"from\".",
-      "tr": "\"-den\" başka bir edadın anlamıdır. فِيهِ içindeki edat \"-de, içinde\" demektir, \"-den\" değil."
+      "en": "فِي means in rather than from, so فِيهِ does not mean from it.",
+      "tr": "فِي, -den değil, içinde demektir; فِيهِ ondan anlamına gelmez."
      }
     },
     {
@@ -4073,8 +4073,8 @@
       "tr": "onun kitabı"
      },
      "why": {
-      "en": "\"His book\" would be a noun with a possessive suffix. Here the suffix ـهِ sits on a preposition and means \"it\", the pronoun after \"in\".",
-      "tr": "\"Onun kitabı\" iyelik eki almış bir isim olurdu. Burada ـهِ eki bir edata bitişmiştir ve \"in\" edatından sonra gelen \"o\" zamiridir."
+      "en": "فِيهِ has a preposition host, not a noun meaning book, so its suffix is prepositional.",
+      "tr": "فِيهِ kelimesinin taşıyıcısı kitap anlamında bir isim değil, edattır; eki edat zamiridir."
      }
     }
    ],
@@ -4787,8 +4787,8 @@
       "tr": "Öğrenci haklıdır: fiilin hemen ardındaki ek her zaman o fiilin nesnesidir."
      },
      "why": {
-      "en": "A suffix belongs to the word it is written on. Here ـهُ is written on لِ, not on the verb قَالَ.",
-      "tr": "Bir ek, yazıldığı kelimeye aittir. Burada ـهُ, قَالَ fiiline değil, لِ edatına yazılmıştır."
+      "en": "The suffix belongs to لِ in لَهُ, not to the separate preceding verb قَالَ.",
+      "tr": "Ek, önceki ayrı قَالَ fiiline değil, لَهُ içindeki لِ edatına aittir."
      }
     },
     {
@@ -4797,8 +4797,8 @@
       "tr": "ـهُ, قَالَ fiilinin failidir."
      },
      "why": {
-      "en": "The doer suffixes on a past verb are ـتُ, ـتَ and ـنَا. ـهُ here is written on لِ, so it is not a doer.",
-      "tr": "Geçmiş zamanlı fiildeki fail ekleri ـتُ, ـتَ ve ـنَا olmak üzere üçtür. Buradaki ـهُ, لِ edatına yazılmıştır; fail değildir."
+      "en": "This lesson covers three doer suffixes: ـتُ, ـتَ and ـنَا. Here ـهُ is attached to a preposition and is not the doer.",
+      "tr": "Bu derste üç fail eki ele alınır: ـتُ, ـتَ ve ـنَا. Buradaki ـهُ edata bağlıdır ve fail değildir."
      }
     },
     {
@@ -4807,8 +4807,8 @@
       "tr": "ـهُ iyelik ekidir; çünkü \"onun\" anlamına gelir."
      },
      "why": {
-      "en": "A possessive suffix sits on a noun. In لَهُ the host is the preposition لِ, and the meaning is \"to him\", not \"his\".",
-      "tr": "İyelik eki bir isme bitişir. لَهُ içinde taşıyıcı لِ edatıdır ve anlam \"ona\" demektir, \"onun\" değil."
+      "en": "لَهُ means to him; its host is a preposition rather than a noun expressing possession.",
+      "tr": "لَهُ ona demektir; taşıyıcısı iyelik bildiren bir isim değil, edattır."
      }
     },
     {
@@ -4817,8 +4817,8 @@
       "tr": "ـهُ, لِ edatının zamiridir (\"ona\") ve cer konumundadır; قَالَ fiilinin burada eki yoktur."
      },
      "why": {
-      "en": "Correct. The suffix is written on the preposition لِ, so it is prepositional, and the preposition governs it into the genitive position.",
-      "tr": "Doğru. Ek, لِ edatına yazılmıştır; bu yüzden edatsaldır ve edat onu cer konumuna alır."
+      "en": "The suffix ـهُ is governed by لِ and is in the genitive position; قَالَ has no attached suffix here.",
+      "tr": "ـهُ eki, لِ edatına bağlıdır ve cer konumundadır; قَالَ burada bitişik ek taşımaz."
      }
     }
    ],
@@ -5197,8 +5197,8 @@
    "ref": "20:55",
    "quote": "وَفِيهَا نُعِيدُكُمْ",
    "stem": {
-    "en": "In وَفِيهَا نُعِيدُكُمْ, compare the suffix of فِيهَا with the suffix of نُعِيدُكُمْ.",
-    "tr": "وَفِيهَا نُعِيدُكُمْ ifadesinde فِيهَا kelimesinin eki ile نُعِيدُكُمْ kelimesinin ekini karşılaştırın."
+    "en": "In وَفِيهَا نُعِيدُكُمْ, compare the suffix of وَفِيهَا with the suffix of نُعِيدُكُمْ.",
+    "tr": "وَفِيهَا نُعِيدُكُمْ ifadesinde وَفِيهَا kelimesinin eki ile نُعِيدُكُمْ kelimesinin ekini karşılaştırın."
    },
    "options": [
     {
@@ -5207,8 +5207,8 @@
       "tr": "İkisi de edatın zamiridir; çünkü ikisi de فِي kelimesinden sonra gelir."
      },
      "why": {
-      "en": "Only فِيهَا is a preposition carrying a pronoun; نُعِيدُكُمْ is a verb, so its suffix is not prepositional.",
-      "tr": "Zamir taşıyan edat yalnızca فِيهَا kelimesidir; نُعِيدُكُمْ bir fiildir ve eki edatsal değildir."
+      "en": "Only وَفِيهَا has a preposition host; نُعِيدُكُمْ carries an object suffix on a verb.",
+      "tr": "Yalnızca وَفِيهَا edat taşıyıcıya sahiptir; نُعِيدُكُمْ fiilde nesne eki taşır."
      }
     },
     {
@@ -5217,8 +5217,8 @@
       "tr": "ـهَا bir fiilin faili, ـكُمْ ise edatın zamiridir."
      },
      "why": {
-      "en": "ـهَا sits on the preposition فِي, so it is prepositional, and ـكُمْ sits on a verb, so it is not.",
-      "tr": "ـهَا, فِي edatına bitişir; bu yüzden edatsaldır. ـكُمْ ise bir fiile bitişir; edatsal değildir."
+      "en": "The ـهَا in وَفِيهَا belongs to فِي, not a verb; ـكُمْ belongs to the verb نُعِيدُ.",
+      "tr": "وَفِيهَا içindeki ـهَا fiile değil فِي edatına; ـكُمْ ise نُعِيدُ fiiline bağlıdır."
      }
     },
     {
@@ -5227,8 +5227,8 @@
       "tr": "ـهَا edatın zamiridir (cer konumu); ـكُمْ ise fiilin nesnesi olan \"siz\"dir (çoğul), işi alır."
      },
      "why": {
-      "en": "Correct. A suffix on a preposition is prepositional; a suffix on a verb that receives the action is its object.",
-      "tr": "Doğru. Edattaki ek edatsaldır; fiildeki ve işi alan ek ise fiilin nesnesidir."
+      "en": "ـهَا follows the preposition in وَفِيهَا and is genitive in position; ـكُمْ denotes those returned by the verb.",
+      "tr": "ـهَا, وَفِيهَا içindeki edata bağlı olup cer konumundadır; ـكُمْ ise fiilin bildirdiği geri döndürülenleri gösterir."
      }
     },
     {
@@ -5237,8 +5237,8 @@
       "tr": "ـهَا bir isme bitişen iyelik eki, ـكُمْ ise fiilin nesnesidir."
      },
      "why": {
-      "en": "ـهَا is not on a noun; its host is the preposition فِي, so it is not possessive.",
-      "tr": "ـهَا bir isme bitişik değildir; taşıyıcısı فِي edatıdır, bu yüzden iyelik değildir."
+      "en": "The host of ـهَا is the preposition فِي, so it is prepositional rather than possessive.",
+      "tr": "ـهَا ekinin taşıyıcısı فِي edatıdır; dolayısıyla iyelik eki değil, edat zamiridir."
      }
     }
    ],
@@ -5519,8 +5519,8 @@
       "tr": "Fiilin içinde yer alan, görünür eki olmayan bir fail ve ayrıca nesne eki ـهُمْ (\"onları\")."
      },
      "why": {
-      "en": "Correct. The doer is built into the verb and has no visible suffix, so it is not counted as an attached pronoun. The only attached pronoun is the object suffix ـهُمْ, which names the receiver of the action.",
-      "tr": "Doğru. Fail fiilin içindedir ve görünür eki yoktur; bu yüzden bitişik zamir sayılmaz. Tek bitişik zamir, eylemi alanı gösteren ـهُمْ nesne ekidir."
+      "en": "قَتَلَهُمْ has the object ـهُمْ, them; its doer has no visible suffix.",
+      "tr": "قَتَلَهُمْ, onları anlamındaki ـهُمْ nesne ekini taşır; failin görünür eki yoktur."
      }
     },
     {
@@ -5529,8 +5529,8 @@
       "tr": "Failin ـهُمْ eki olduğu geçmiş zamanlı bir fiil (\"onlar\")."
      },
      "why": {
-      "en": "Wrong. The doer suffixes on past verbs are only ـتُ ـتَ and ـنَا. A ـهُمْ after a verb names the receiver of the action, not the doer.",
-      "tr": "Yanlış. Geçmiş zamanlı fiildeki özne ekleri yalnızca ـتُ ـتَ ve ـنَا ekleridir. Fiilden sonraki ـهُمْ eylemi alanı gösterir, işi yapanı değil."
+      "en": "The doer suffixes taught here are ـتُ, ـتَ and ـنَا. In قَتَلَهُمْ, ـهُمْ denotes those killed.",
+      "tr": "Burada öğretilen fail ekleri ـتُ, ـتَ ve ـنَا ekleridir. قَتَلَهُمْ kelimesinde ـهُمْ öldürülenleri gösterir."
      }
     },
     {
@@ -5539,8 +5539,8 @@
       "tr": "İyelik eki ـهُمْ taşıyan bir isim (\"onların\")."
      },
      "why": {
-      "en": "Wrong. قَتَلَ takes no tanwin and no ال and cannot be governed by a preposition, so it is a verb, and a possessive suffix needs a noun host.",
-      "tr": "Yanlış. قَتَلَ tenvin ve ال almaz, edatla cer edilemez; yani fiildir. İyelik eki ise isim taşıyıcı ister."
+      "en": "The base قَتَلَ expresses an action as a past verb, so ـهُمْ is not possessive on a noun.",
+      "tr": "قَتَلَ tabanı geçmiş zamanlı fiil olarak eylem bildirir; ـهُمْ isme bağlı iyelik eki değildir."
      }
     },
     {
@@ -5549,8 +5549,8 @@
       "tr": "Hiç zamir taşımayan geçmiş zamanlı bir fiil, çünkü fiilin içindeki fail yazılmaz."
      },
      "why": {
-      "en": "Wrong. The suffix ـهُمْ is written and is an attached pronoun (the object). The built-in doer is a separate matter and has no visible suffix.",
-      "tr": "Yanlış. ـهُمْ yazılıdır ve bir bitişik zamirdir (nesne). Fiilin içindeki fail ayrı bir konudur ve görünür eki yoktur."
+      "en": "Although the doer is hidden, the object pronoun ـهُمْ is visibly attached.",
+      "tr": "Fail gizli olsa da ـهُمْ nesne zamiri görünür biçimde bitişiktir."
      }
     }
    ],
@@ -5719,12 +5719,12 @@
    "options": [
     {
      "text": {
-      "en": "Accusative position, because it is attached to a verb.",
-      "tr": "Nasb konumundadır, çünkü bir fiile bağlanmıştır."
+      "en": "Accusative position, because it denotes the one found.",
+      "tr": "Nasb konumundadır, çünkü bulunan kişiyi gösterir."
      },
      "why": {
-      "en": "Correct. After a verb the pronoun names the receiver of the action and is in the accusative position.",
-      "tr": "Doğru. Fiilden sonra gelen zamir eylemi alanı gösterir ve nasb konumundadır."
+      "en": "Here ـكَ denotes the one found and is an object in the accusative position. Verb suffixes may also be doers, but this one is not.",
+      "tr": "Burada ـكَ bulunanı gösterir ve nasb konumundaki nesnedir. Fiil ekleri fail de olabilir; bu ek fail değildir."
      }
     },
     {
@@ -5733,8 +5733,8 @@
       "tr": "Cer konumundadır, çünkü ـكَ her zaman cer konumundadır."
      },
      "why": {
-      "en": "Wrong. Genitive position belongs to a suffix on a noun or a preposition. The host here is a verb, so the position is accusative.",
-      "tr": "Yanlış. Cer konumu isme veya edata bağlı ekindir. Buradaki taşıyıcı fiildir, bu yüzden konum nasbtır."
+      "en": "ـكَ is not always genitive: here it is an object on وَوَجَدَكَ and is accusative in position.",
+      "tr": "ـكَ her zaman cer konumunda değildir: burada وَوَجَدَكَ kelimesinde nesnedir ve nasb konumundadır."
      }
     },
     {
@@ -5743,8 +5743,8 @@
       "tr": "Merfu konumundadır, çünkü özne/faildir."
      },
      "why": {
-      "en": "Wrong. ـكَ after a verb is the receiver of the action, not the doer. The doer suffixes are ـتَ ـتُ and ـنَا on past verbs.",
-      "tr": "Yanlış. Fiilden sonraki ـكَ eylemi alandır, özne değildir. Özne ekleri geçmiş fiildeki ـتَ ـتُ ve ـنَا ekleridir."
+      "en": "The one found is the object, not the doer; ـكَ therefore has no nominative role here.",
+      "tr": "Bulunan kişi nesnedir, fail değildir; dolayısıyla ـكَ burada merfu konumunda değildir."
      }
     },
     {
@@ -5753,8 +5753,8 @@
       "tr": "Konumu yoktur, çünkü ـكَ fiile bitişiktir."
      },
      "why": {
-      "en": "Wrong. Being joined does not remove its position. An attached pronoun always has a position decided by its host.",
-      "tr": "Yanlış. Bitişik olmak konumu ortadan kaldırmaz. Bitişik zamirin konumunu taşıyıcısı belirler."
+      "en": "Attachment does not remove grammatical position; this object pronoun has accusative position.",
+      "tr": "Bitişiklik dil bilgisel konumu ortadan kaldırmaz; bu nesne zamiri nasb konumundadır."
      }
     }
    ],
@@ -5881,8 +5881,8 @@
    "options": [
     {
      "why": {
-      "en": "Wrong. The same form can do different jobs. One ـهُ is on a verb and the other is on a noun.",
-      "tr": "Yanlış. Aynı biçim farklı görevler yapabilir. Bir ـهُ fiilde, diğeri isimdedir."
+      "en": "In قَرَأْنَـٰهُ the ـهُ receives the action of reciting; in the noun قُرْءَانَهُ it expresses “its recitation”. Their roles differ.",
+      "tr": "قَرَأْنَـٰهُ kelimesindeki ـهُ okuma eyleminin nesnesidir; قُرْءَانَهُ isminde ise “onun okunuşu” anlamı verir. Görevleri farklıdır."
      },
      "text": {
       "en": "The two ـهُ endings do the same job, because the form is the same.",
@@ -5891,8 +5891,8 @@
     },
     {
      "why": {
-      "en": "Wrong. On a past verb ـنَا is the doer (\"we\"). Only the ـهُ is the object.",
-      "tr": "Yanlış. Geçmiş zamanlı fiilde ـنَا özne/faildir (\"biz\"). Nesne yalnızca ـهُ ekidir."
+      "en": "قَرَأْنَـٰهُ means “We recited it”: here ـنَا names the doer and ـهُ the object. This is a contextual reading, not a rule that every past-verb ـنَا is a doer.",
+      "tr": "قَرَأْنَـٰهُ “onu okuduk” demektir: burada ـنَا faili, ـهُ nesneyi gösterir. Bu, bağlama dayalı bir çözümlemedir; geçmiş zamanlı fiildeki her ـنَا fail değildir."
      },
      "text": {
       "en": "ـنَا and the first ـهُ are both objects, because both follow a verb.",
@@ -5901,8 +5901,8 @@
     },
     {
      "why": {
-      "en": "Wrong. The host of the suffix is the word that ends in it, the noun قُرْءَان, so the suffix is possessive (\"its recitation\").",
-      "tr": "Yanlış. Ekin taşıyıcısı, ekin sonunda bulunduğu قُرْءَان ismidir; bu yüzden ek iyelik ekidir (\"onun okunuşu\")."
+      "en": "The suffix belongs to the noun قُرْءَان, giving “its recitation”; it is not attached to the preceding command.",
+      "tr": "Ek, قُرْءَان ismine bağlıdır ve “onun okunuşu” anlamını verir; öndeki emir fiiline bitişik değildir."
      },
      "text": {
       "en": "The ـهُ of قُرْءَانَهُ is the object of فَٱتَّبِعْ, because it comes right after that verb.",
@@ -5911,8 +5911,8 @@
     },
     {
      "why": {
-      "en": "Correct. The first word is a past verb with a doer suffix and an object suffix, and the second host is a noun, so its suffix is possessive.",
-      "tr": "Doğru. İlk kelime özne eki ve nesne eki taşıyan geçmiş zamanlı bir fiildir; ikinci taşıyıcı ise isimdir, bu yüzden eki iyelik ekidir."
+      "en": "قَرَأْنَـٰهُ means “We recited it”, with doer ـنَا and object ـهُ. In قُرْءَانَهُ, the noun carries possessive ـهُ.",
+      "tr": "قَرَأْنَـٰهُ “onu okuduk” demektir; ـنَا fail, ـهُ nesnedir. قُرْءَانَهُ kelimesinde ise isim, iyelik bildiren ـهُ ekini taşır."
      },
      "text": {
       "en": "ـنَا is the doer (\"we\"), the first ـهُ is the object (\"it\"), and the second ـهُ is the owner (\"its\").",
@@ -5989,8 +5989,8 @@
    "options": [
     {
      "why": {
-      "en": "Wrong. The noun نِعْمَةِ stands between the verb and the suffix. The host of ـهُ is the word that ends in it, the noun, not the verb before it.",
-      "tr": "Yanlış. Fiil ile ek arasında نِعْمَةِ ismi vardır. ـهُ ekinin taşıyıcısı, ekin sonunda bulunduğu isimdir; öndeki fiil değildir."
+      "en": "The suffix ـهُ attaches to the noun نِعْمَة, not to the preceding verb وَيُتِمُّ.",
+      "tr": "ـهُ eki, önceki وَيُتِمُّ fiiline değil, نِعْمَة ismine bağlıdır."
      },
      "text": {
       "en": "ـهُ is the object of وَيُتِمُّ (\"He completes him\"), because it comes after that verb.",
@@ -5999,8 +5999,8 @@
     },
     {
      "why": {
-      "en": "Correct. ـهُ sits on the noun نِعْمَةِ, so it is possessive. ـكَ sits on the preposition عَلَىٰ, so it is prepositional. Both are in the genitive position.",
-      "tr": "Doğru. ـهُ, نِعْمَةِ ismine bağlıdır, bu yüzden iyelik ekidir. ـكَ, عَلَىٰ edatına bağlıdır, bu yüzden edatsal görevdedir. İkisi de cer konumundadır."
+      "en": "The noun نِعْمَة carries possessive ـهُ, while عَلَيْكَ carries prepositional ـكَ; both pronouns are genitive in position.",
+      "tr": "نِعْمَة ismi iyelik bildiren ـهُ ekini, عَلَيْكَ ise edata bağlı ـكَ zamirini taşır; iki zamir de cer konumundadır."
      },
      "text": {
       "en": "ـهُ names the owner (\"His favor\") and ـكَ names the one the preposition relates to (\"upon you\").",
@@ -6009,8 +6009,8 @@
     },
     {
      "why": {
-      "en": "Wrong. The job depends on the host. A preposition has no owner to point to; its suffix names the one the preposition relates to.",
-      "tr": "Yanlış. Görevi taşıyıcı belirler. Bir edatın gösterecek bir sahibi yoktur; eki, edatın bağlandığı kişiyi gösterir."
+      "en": "Only ـهُ expresses possession; the suffix on عَلَيْكَ belongs to a preposition.",
+      "tr": "Yalnızca ـهُ iyelik bildirir; عَلَيْكَ kelimesindeki ek edata bağlıdır."
      },
      "text": {
       "en": "Both suffixes name the owner, because both come at the end of a word.",
@@ -6019,8 +6019,8 @@
     },
     {
      "why": {
-      "en": "Wrong. The two jobs are swapped. ـهُ is on a noun and ـكَ is on a preposition.",
-      "tr": "Yanlış. İki görev yer değiştirmiştir. ـهُ bir isimde, ـكَ ise bir edattadır."
+      "en": "This reverses the hosts: ـهُ is on the noun and ـكَ is on the preposition.",
+      "tr": "Taşıyıcılar ters verilmiştir: ـهُ isimde, ـكَ edattadır."
      },
      "text": {
       "en": "ـهُ names the one the preposition relates to, and ـكَ names the owner.",
@@ -6047,8 +6047,8 @@
       "tr": "İkisi de nasb konumundadır, çünkü ikincisinden önceki فُجُورَ ismi fetha ile biter."
      },
      "why": {
-      "en": "Wrong. The position of a pronoun depends on the kind of word that carries it, not on that word's own ending. فُجُور is a noun, so the ـهَا after it is possessive and in the genitive position.",
-      "tr": "Yanlış. Bir zamirin konumunu onu taşıyan kelimenin türü belirler, o kelimenin kendi harekesi değil. فُجُور bir isimdir, bu yüzden ondan sonraki ـهَا iyelik ekidir ve cer konumundadır."
+      "en": "The fatha belongs to the noun فُجُورَ; its possessive pronoun ـهَا is in the genitive position regardless of that noun ending.",
+      "tr": "Fetha فُجُورَ ismine aittir; iyelik zamiri ـهَا, ismin bu harekesinden bağımsız olarak cer konumundadır."
      }
     },
     {
@@ -6057,8 +6057,8 @@
       "tr": "İkisi de cer konumundadır, çünkü bitişik zamirler her zaman cerdir."
      },
      "why": {
-      "en": "Wrong. Only a suffix on a noun or a preposition is in the genitive position. The first ـهَا sits on a verb, so it is in the accusative position.",
-      "tr": "Yanlış. Yalnızca isim veya edat üzerindeki ek cer konumundadır. İlk ـهَا bir fiildedir, bu yüzden nasb konumundadır."
+      "en": "In فَأَلْهَمَهَا, ـهَا identifies the recipient of inspiration and is an object in the accusative position, so the two pronouns are not both genitive.",
+      "tr": "فَأَلْهَمَهَا kelimesinde ـهَا kendisine ilham edilen varlığı gösterir ve nasb konumundaki nesnedir; iki zamir birden cer konumunda değildir."
      }
     },
     {
@@ -6067,8 +6067,8 @@
       "tr": "İlki nasb konumundadır (fiilin nesnesi); ikincisi cer konumundadır (isimdeki iyelik eki)."
      },
      "why": {
-      "en": "Correct. فَأَلْهَمَ is a verb, so its ـهَا names the receiver of the action and is accusative. فُجُور is a noun, so its ـهَا names the owner and is genitive.",
-      "tr": "Doğru. فَأَلْهَمَ bir fiildir, bu yüzden ـهَا eylemi alanı gösterir ve nasb konumundadır. فُجُور bir isimdir, bu yüzden ـهَا sahibi gösterir ve cer konumundadır."
+      "en": "The first ـهَا is attached to the verb as an object in the accusative position; the second is attached to the noun as a possessive in the genitive position.",
+      "tr": "İlk ـهَا fiile bitişmiş, nasb konumundaki nesnedir; ikincisi isme bitişmiş, cer konumundaki iyelik zamiridir."
      }
     },
     {
@@ -6077,8 +6077,8 @@
       "tr": "İlki merfu konumundadır (özne/fail); ikincisi cer konumundadır."
      },
      "why": {
-      "en": "Wrong. The doer suffixes are only ـتُ ـتَ and ـنَا on past verbs. The ـهَا after a verb names the receiver of the action, so it is accusative.",
-      "tr": "Yanlış. Özne ekleri yalnızca geçmiş zamanlı fiillerdeki ـتُ ـتَ ve ـنَا ekleridir. Fiilden sonraki ـهَا eylemi alanı gösterir, bu yüzden nasb konumundadır."
+      "en": "In فَأَلْهَمَهَا, ـهَا names the recipient of inspiration, not the doer; the doer has no visible suffix here.",
+      "tr": "فَأَلْهَمَهَا kelimesinde ـهَا faili değil, kendisine ilham edilen varlığı gösterir; burada failin görünür eki yoktur."
      }
     }
    ],
@@ -6091,14 +6091,14 @@
    "ref": "78:9",
    "quote": "وَجَعَلْنَا نَوْمَكُمْ",
    "stem": {
-    "en": "In وَجَعَلْنَا نَوْمَكُمْ (\"and We made your sleep\"), what are the jobs of ـنَا and ـكُمْ?",
-    "tr": "وَجَعَلْنَا نَوْمَكُمْ (\"ve uykunuzu yaptık\") ifadesinde ـنَا ve ـكُمْ hangi görevleri yapar?"
+    "en": "In وَجَعَلْنَا نَوْمَكُمْ (\"and We made your sleep …\"), what are the jobs of ـنَا and ـكُمْ?",
+    "tr": "وَجَعَلْنَا نَوْمَكُمْ (\"ve uykunuzu … kıldık\") ifadesinde ـنَا ve ـكُمْ hangi görevleri yapar?"
    },
    "options": [
     {
      "why": {
-      "en": "Wrong. The host of ـكُمْ is the word that ends in it, the noun نَوْم, not the verb before it.",
-      "tr": "Yanlış. ـكُمْ ekinin taşıyıcısı, ekin sonunda bulunduğu نَوْم ismidir; öndeki fiil değildir."
+      "en": "ـكُمْ belongs to نَوْم, “sleep”, so it means “your”; it is not the object suffix of the preceding verb.",
+      "tr": "ـكُمْ, “uyku” anlamındaki نَوْم ismine bağlıdır ve “sizin” anlamını verir; öndeki fiilin nesne eki değildir."
      },
      "text": {
       "en": "ـنَا is the doer (\"We\") and ـكُمْ is the object of وَجَعَلْنَا (\"We made you\"), because it comes next.",
@@ -6107,8 +6107,8 @@
     },
     {
      "why": {
-      "en": "Wrong. ـنَا sits on a past verb, so it is a doer, and ـكُمْ sits on a noun, so it is possessive. The jobs here are reversed.",
-      "tr": "Yanlış. ـنَا geçmiş zamanlı bir fiildedir, bu yüzden özne ekidir; ـكُمْ ise bir isimdedir, bu yüzden iyelik ekidir. Görevler burada ters verilmiştir."
+      "en": "وَجَعَلْنَا means “and We made”, so ـنَا is the doer here. In نَوْمَكُمْ, “your sleep”, ـكُمْ is possessive on a noun.",
+      "tr": "وَجَعَلْنَا “ve … kıldık” demektir; ـنَا burada faildir. نَوْمَكُمْ “uykunuz” demektir; ـكُمْ isimdeki iyelik ekidir."
      },
      "text": {
       "en": "ـنَا is the owner (\"our\") and ـكُمْ is the object (\"you\").",
@@ -6117,8 +6117,8 @@
     },
     {
      "why": {
-      "en": "Correct. جَعَلَ is a past verb, so ـنَا is its doer. نَوْم is a noun, so ـكُمْ is possessive and in the genitive position.",
-      "tr": "Doğru. جَعَلَ geçmiş zamanlı bir fiildir, bu yüzden ـنَا onun failidir. نَوْم bir isimdir, bu yüzden ـكُمْ iyelik ekidir ve cer konumundadır."
+      "en": "The meaning “and We made” identifies ـنَا as the doer in وَجَعَلْنَا; نَوْمَكُمْ means “your sleep”, with possessive ـكُمْ in the genitive position.",
+      "tr": "وَجَعَلْنَا ifadesinin “ve … kıldık” anlamı, ـنَا ekinin burada fail olduğunu gösterir; نَوْمَكُمْ “uykunuz” demektir ve iyelik eki ـكُمْ cer konumundadır."
      },
      "text": {
       "en": "ـنَا is the doer (\"We\") and ـكُمْ is the owner of نَوْم (\"your sleep\").",
@@ -6127,8 +6127,8 @@
     },
     {
      "why": {
-      "en": "Wrong. Position in the phrase does not decide the job. The host does, and a noun host gives a possessive suffix.",
-      "tr": "Yanlış. İfadedeki sıra görevi belirlemez; görevi taşıyıcı belirler ve isim taşıyıcı iyelik eki verir."
+      "en": "Word order does not make both suffixes doers: ـنَا names the makers here, whereas ـكُمْ is attached to the noun for sleep.",
+      "tr": "Kelime sırası iki eki de fail yapmaz: ـنَا burada eylemi yapanları gösterir; ـكُمْ ise uyku anlamındaki isme bitişiktir."
      },
      "text": {
       "en": "Both are doers, because both come in the first two words.",
@@ -6155,8 +6155,8 @@
       "tr": "فَأَخْرَجْنَا kelimesindeki ـنَا özne/faildir (çıkardık); بِهِۦ kelimesindeki ـهِ edatın bağlandığı şeyi gösterir."
      },
      "why": {
-      "en": "Correct. أَخْرَجَ is a past verb, so ـنَا is a doer suffix. بِ is a preposition, so the suffix after it names what it relates to (by it).",
-      "tr": "Doğru. أَخْرَجَ geçmiş zamanlı bir fiildir, bu yüzden ـنَا bir özne ekidir. بِ bir edattır, bu yüzden ondan sonraki ek onun bağlandığı şeyi gösterir (onunla)."
+      "en": "فَأَخْرَجْنَا means “so We brought out”, with doer ـنَا. In بِهِۦ, the pronoun is governed by the preposition بِ, meaning “by it”.",
+      "tr": "فَأَخْرَجْنَا “böylece çıkardık” demektir; ـنَا faildir. بِهِۦ kelimesinde zamir, بِ edatının etkisindedir ve “onunla” anlamını verir."
      }
     },
     {
@@ -6165,8 +6165,8 @@
       "tr": "فَأَخْرَجْنَا kelimesindeki ـنَا sahiptir (bizim); بِهِۦ kelimesindeki ـهِ eylemi alandır."
      },
      "why": {
-      "en": "Wrong. Ownership needs a noun host, and أَخْرَجَ is a verb. Also بِ is a preposition, which has no action to receive.",
-      "tr": "Yanlış. İyelik için taşıyıcının isim olması gerekir, أَخْرَجَ ise fiildir. Ayrıca بِ bir edattır; alacağı bir eylem yoktur."
+      "en": "فَأَخْرَجْنَا is a verb, so its suffix is not possessive. The suffix of بِهِۦ belongs to a preposition, not to a verb as an object.",
+      "tr": "فَأَخْرَجْنَا fiildir; buradaki ek iyelik bildirmez. بِهِۦ kelimesinin eki ise bir fiile nesne olarak değil, bir edata bağlıdır."
      }
     },
     {
@@ -6175,8 +6175,8 @@
       "tr": "فَأَخْرَجْنَا kelimesindeki ـنَا nesnedir (bizi); بِهِۦ kelimesindeki ـهِ özne/faildir."
      },
      "why": {
-      "en": "Wrong. On a past verb ـنَا is the doer (we), not the object. And a suffix on a preposition is never a doer.",
-      "tr": "Yanlış. Geçmiş zamanlı fiilde ـنَا özne/faildir (biz), nesne değil. Edat üzerindeki ek ise asla özne olmaz."
+      "en": "Here فَأَخْرَجْنَا means “so We brought out”, so ـنَا is the doer, not “us”. The suffix on بِ is governed by a preposition and is not a doer.",
+      "tr": "Burada فَأَخْرَجْنَا “böylece çıkardık” demektir; ـنَا “bizi” anlamında nesne değil, faildir. بِ edatına bağlı ek ise edatın etkisindedir; fail değildir."
      }
     },
     {
@@ -6185,8 +6185,8 @@
       "tr": "İkisi de iyelik ekidir, çünkü bitişik zamir her zaman sahipliği gösterir."
      },
      "why": {
-      "en": "Wrong. Possessive is only one of the jobs. It needs a noun host, and neither فَأَخْرَجْنَا (a verb) nor بِهِۦ (a preposition with its pronoun) has a noun host.",
-      "tr": "Yanlış. İyelik yalnızca görevlerden biridir ve isim taşıyıcı ister. فَأَخْرَجْنَا (fiil) de بِهِۦ (edat ve zamir) de isim taşıyıcılı değildir."
+      "en": "Neither suffix is attached to a noun: فَأَخْرَجْنَا carries a doer pronoun on a verb, and بِهِۦ carries a pronoun on a preposition.",
+      "tr": "İki ek de isme bağlı değildir: فَأَخْرَجْنَا fiilde fail zamiri, بِهِۦ ise edata bağlı zamir taşır."
      }
     }
    ],
@@ -6209,8 +6209,8 @@
       "tr": "İkisi de cer konumundadır."
      },
      "why": {
-      "en": "Wrong. Only the suffix after the preposition عَلَىٰ is in the genitive position. نَتْلُو is a verb, and a suffix after a verb is in the accusative position.",
-      "tr": "Yanlış. Yalnızca عَلَىٰ edatından sonraki ek cer konumundadır. نَتْلُو fiildir ve fiilden sonraki ek nasb konumundadır."
+      "en": "Only ـكَ on عَلَيْكَ is genitive; ـهُ in نَتْلُوهُ is an object and is accusative in position.",
+      "tr": "Yalnızca عَلَيْكَ üzerindeki ـكَ cer konumundadır; نَتْلُوهُ içindeki ـهُ nesnedir ve nasb konumundadır."
      }
     },
     {
@@ -6219,8 +6219,8 @@
       "tr": "ـهُ nasb konumundadır; ـكَ cer konumundadır."
      },
      "why": {
-      "en": "Correct. نَتْلُو is a verb, so ـهُ names the receiver of the action and is in the accusative position. عَلَىٰ is a preposition, so ـكَ is in the genitive position.",
-      "tr": "Doğru. نَتْلُو fiildir, bu yüzden ـهُ eylemi alanı gösterir ve nasb konumundadır. عَلَىٰ edattır, bu yüzden ـكَ cer konumundadır."
+      "en": "ـهُ denotes what is recited, an accusative object; ـكَ follows the preposition and is genitive in position.",
+      "tr": "ـهُ okunanı gösterir ve nasb konumundaki nesnedir; ـكَ edata bağlıdır ve cer konumundadır."
      }
     },
     {
@@ -6229,8 +6229,8 @@
       "tr": "ـهُ cer konumundadır; ـكَ nasb konumundadır."
      },
      "why": {
-      "en": "Wrong. This swaps the positions. The verb gives the accusative position and the preposition gives the genitive.",
-      "tr": "Yanlış. Konumlar ters çevrilmiş. Fiil nasb, edat cer konumu verir."
+      "en": "The positions are reversed: this object ـهُ is accusative, while prepositional ـكَ is genitive. A verb suffix may instead be nominative when it is a doer.",
+      "tr": "Konumlar ters verilmiştir: buradaki nesne ـهُ nasb, edata bağlı ـكَ cer konumundadır. Fiildeki ek fail olduğunda ise merfu konumunda olabilir."
      }
     },
     {
@@ -6239,8 +6239,8 @@
       "tr": "İkisi de nasb konumundadır, çünkü iki kelimeden sonra da bir şey gelir."
      },
      "why": {
-      "en": "Wrong. Position depends on the kind of host, not on what follows. A suffix after a preposition is always in the genitive position.",
-      "tr": "Yanlış. Konumu taşıyıcının türü belirler, sonrasında ne geldiği değil. Edattan sonraki ek her zaman cer konumundadır."
+      "en": "The pronoun on عَلَيْكَ is governed by a preposition, so it cannot share the object suffix’s accusative position.",
+      "tr": "عَلَيْكَ kelimesindeki zamir edata bağlıdır; bu yüzden nesne ekinin nasb konumunu paylaşmaz."
      }
     }
    ],
@@ -6313,8 +6313,8 @@
    "options": [
     {
      "why": {
-      "en": "Correct. إِلَىٰ is a preposition, so the suffix after it is in the genitive position. The two suffixes on the verb are nominative (doer) and accusative (object).",
-      "tr": "Doğru. إِلَىٰ bir edattır, bu yüzden ondan sonraki ek cer konumundadır. Fiildeki iki ekten biri merfu (özne), diğeri nasb (nesne) konumundadır."
+      "en": "In إِلَيْنَا, “to Us”, ـنَا follows a preposition and is in the genitive position. قَبَضْنَـٰهُ means “We withdrew it”, with a nominative doer and an accusative object.",
+      "tr": "إِلَيْنَا “bize” demektir; ـنَا edata bağlıdır ve cer konumundadır. قَبَضْنَـٰهُ “onu çektik” demektir; fail merfu, nesne nasb konumundadır."
      },
      "text": {
       "en": "The ـنَا of إِلَيْنَا, because it is attached to a preposition.",
@@ -6323,8 +6323,8 @@
     },
     {
      "why": {
-      "en": "Wrong. ـهُ is on a verb and names the receiver of the action, so it is in the accusative position.",
-      "tr": "Yanlış. ـهُ bir fiildedir ve eylemi alanı gösterir, bu yüzden nasb konumundadır."
+      "en": "In قَبَضْنَـٰهُ, “We withdrew it”, ـهُ means “it”, the object of withdrawing, and is in the accusative position.",
+      "tr": "قَبَضْنَـٰهُ “onu çektik” demektir; ـهُ çekme eyleminin nesnesini gösterir ve nasb konumundadır."
      },
      "text": {
       "en": "The ـهُ of قَبَضْنَـٰهُ, because it is the last suffix of the word.",
@@ -6333,8 +6333,8 @@
     },
     {
      "why": {
-      "en": "Wrong. On a past verb ـنَا is the doer, which is in the nominative position. The form does not decide the position, the host does.",
-      "tr": "Yanlış. Geçmiş zamanlı fiilde ـنَا faildir ve merfu konumundadır. Konumu biçim değil, taşıyıcı belirler."
+      "en": "قَبَضْنَـٰهُ means “We withdrew it”, so its ـنَا is the doer in the nominative position. Both the host and the contextual role determine the position; ـنَا on a verb can also be an object.",
+      "tr": "قَبَضْنَـٰهُ “onu çektik” demektir; buradaki ـنَا merfu konumunda faildir. Konumu hem taşıyıcı hem bağlamdaki görev belirler; fiile bağlı ـنَا nesne de olabilir."
      },
      "text": {
       "en": "The ـنَا of قَبَضْنَـٰهُ, because ـنَا is always genitive.",
@@ -6343,8 +6343,8 @@
     },
     {
      "why": {
-      "en": "Wrong. A pronoun keeps its form but still has a position, and the suffix after a preposition is in the genitive position.",
-      "tr": "Yanlış. Zamir biçimini korur ama yine de bir konumu vardır ve edattan sonraki ek cer konumundadır."
+      "en": "An indeclinable pronoun still has a grammatical position: the ـنَا governed by إِلَىٰ is in the genitive position.",
+      "tr": "Mebni zamirin yine de dilbilgisel bir konumu vardır: إِلَىٰ edatına bağlı ـنَا cer konumundadır."
      },
      "text": {
       "en": "None of them, because pronouns do not change form.",
@@ -6575,8 +6575,8 @@
       "tr": "Fail / özne"
      },
      "why": {
-      "en": "A doer suffix sits on a past verb. صَدْر names a part of the body, so it is a noun, and a noun cannot have a doer.",
-      "tr": "Fail eki geçmiş zamanlı bir fiilde bulunur. صَدْر bedenin bir parçasını adlandırır, yani isimdir; isimde fail olmaz."
+      "en": "صَدْر is a noun, so its suffix does not mark the doer of an action.",
+      "tr": "صَدْر isimdir; eki bir eylemin failini göstermez."
      }
     },
     {
@@ -6585,8 +6585,8 @@
       "tr": "Nesne"
      },
      "why": {
-      "en": "An object suffix sits on a verb that receives the action. There is no verb on this word; صَدْر is a noun.",
-      "tr": "Nesne eki, eylemi alan bir fiilin üzerindedir. Bu kelimede fiil yok; صَدْر bir isimdir."
+      "en": "An object pronoun attaches to a verb and denotes the person or thing receiving its action. Here صَدْر is a noun.",
+      "tr": "Nesne zamiri fiile eklenir ve eylemi alan kişi veya şeyi gösterir. Buradaki صَدْر ise isimdir."
      }
     },
     {
@@ -6595,8 +6595,8 @@
       "tr": "İyelik eki"
      },
      "why": {
-      "en": "Right. The pronoun is joined to a noun (صَدْر, \"chest\"), and a pronoun after a noun shows ownership: \"your chest\". The noun carries no tanwin and no al, as a possessed noun should.",
-      "tr": "Doğru. Zamir bir isme (صَدْر, \"göğüs\") bağlanmıştır ve isimden sonra gelen zamir sahiplik gösterir: \"göğsün\". Sahip olunan isim, olması gerektiği gibi tenvin ve tanımlık ال almadan durur."
+      "en": "The noun صَدْر carries ـكَ meaning your, so its pronoun is possessive.",
+      "tr": "صَدْر ismi, senin anlamındaki ـكَ ekini taşır; zamir iyelik bildirir."
      }
     },
     {
@@ -6605,8 +6605,8 @@
       "tr": "Edat zamiri"
      },
      "why": {
-      "en": "A prepositional pronoun sits on a preposition. The preposition in this quote is the word لَكَ, not صَدْرَكَ, whose host is a noun.",
-      "tr": "Edat zamiri bir edatın üzerindedir. Bu alıntıdaki edat لَكَ kelimesidir; صَدْرَكَ kelimesinin taşıyıcısı ise isimdir."
+      "en": "The suffix in صَدْرَكَ attaches to a noun; the prepositional unit in the quote is لَكَ.",
+      "tr": "صَدْرَكَ kelimesindeki ek isme bağlıdır; alıntıdaki edat ve zamir birimi لَكَ kelimesidir."
      }
     }
    ],
@@ -6833,8 +6833,8 @@
       "tr": "İki kelimede de nesne ekidir: fiil geçmiş de olsa muzâri de olsa \"siz\" eylemi alandır"
      },
      "why": {
-      "en": "Right. An object suffix may sit on a past verb or a present verb. In both words \"you\" is the one who receives the action.",
-      "tr": "Doğru. Nesne eki geçmiş zamanlı fiilde de muzâri fiilde de bulunabilir. İki kelimede de \"siz\" eylemi alandır."
+      "en": "Both verbs carry object ـكُمْ, meaning plural “you”, even though their tense forms differ.",
+      "tr": "Zaman biçimleri farklı olsa da her iki fiilde de ـكُمْ, “sizi” anlamında nesne zamiridir."
      }
     },
     {
@@ -6843,8 +6843,8 @@
       "tr": "İki kelimede de fail ekidir, çünkü fiilin sonundadır"
      },
      "why": {
-      "en": "The doer suffixes are only ـتُ, ـتَ and ـنَا on past verbs. ـكُمْ never marks the doer; here it marks the one who receives the action.",
-      "tr": "Fail ekleri yalnız geçmiş zamanlı fiillerdeki ـتُ, ـتَ ve ـنَا ekleridir. ـكُمْ faili göstermez; burada eylemi alanı gösterir."
+      "en": "Here ـكُمْ names those who receive both actions, not their doers. Being at the end of a verb does not make a suffix a doer.",
+      "tr": "Burada ـكُمْ iki eylemi de alanları gösterir, eylemleri yapanları değil. Fiilin sonunda bulunması bir eki fail yapmaz."
      }
     },
     {
@@ -6853,8 +6853,8 @@
       "tr": "Geçmiş zamanlı fiilde nesne, muzâri fiilde iyeliktir"
      },
      "why": {
-      "en": "A possessive suffix needs a noun as host. يُمِيتُ is a verb, so its suffix cannot be possessive; it is an object, as in the first word.",
-      "tr": "İyelik eki, taşıyıcı olarak isim ister. يُمِيتُ bir fiildir; eki iyelik olamaz, ilk kelimedeki gibi nesnedir."
+      "en": "يُمِيتُكُمْ is a verb meaning “He causes you to die”; its ـكُمْ is an object, not a possessive suffix on a noun.",
+      "tr": "يُمِيتُكُمْ “sizi öldürür” anlamında bir fiildir; ـكُمْ isimdeki iyelik eki değil, nesne zamiridir."
      }
     },
     {
@@ -6863,8 +6863,8 @@
       "tr": "Yalnız geçmiş zamanlı fiilde nesnedir; muzâri fiil nesne eki alamaz"
      },
      "why": {
-      "en": "Object suffixes can sit on past, present and command verbs. يُمِيتُكُمْ is a present verb that carries the object ـكُمْ.",
-      "tr": "Nesne ekleri geçmiş, muzâri ve emir fiillerinde bulunabilir. يُمِيتُكُمْ, nesne ـكُمْ ekini taşıyan bir muzâri fiildir."
+      "en": "The present-form يُمِيتُكُمْ itself shows that a present verb can carry object ـكُمْ.",
+      "tr": "Muzâri biçimindeki يُمِيتُكُمْ, muzâri fiilin ـكُمْ nesne ekini alabildiğini gösterir."
      }
     }
    ],
@@ -7027,51 +7027,51 @@
    "id": "L1W7-t6-12",
    "topic": "t6",
    "difficulty": 2,
-   "ref": "37:78",
-   "quote": "وَتَرَكْنَا عَلَيْهِ",
+   "ref": "108:1",
+   "quote": "أَعْطَيْنَـٰكَ",
    "stem": {
-    "en": "Which is the best translation of the quoted phrase وَتَرَكْنَا عَلَيْهِ?",
-    "tr": "وَتَرَكْنَا عَلَيْهِ ifadesinin en iyi çevirisi hangisidir?"
+    "en": "In the quoted word (\"We gave you\"), which order of pronoun roles is correct?",
+    "tr": "Alıntıdaki kelimede (\"sana verdik\") zamirlerin görev sırası hangisidir?"
    },
    "options": [
     {
      "text": {
-      "en": "And I left upon him",
-      "tr": "Ve ben onun üzerine bıraktım"
+      "en": "Object, then doer",
+      "tr": "Nesne, sonra fail"
      },
      "why": {
-      "en": "\"I\" as the doer of a past verb is ـتُ. The doer here is ـنَا, which means \"we\".",
-      "tr": "Geçmiş zamanlı fiilde \"ben\" failini ـتُ verir. Buradaki fail ـنَا ekidir ve \"biz\" demektir."
+      "en": "ـنَا identifies the givers as we and precedes the object ـكَ; this option reverses them.",
+      "tr": "ـنَا verenleri biz olarak gösterir ve ـكَ nesnesinden önce gelir; bu seçenek sırayı ters verir."
      }
     },
     {
      "text": {
-      "en": "And he left upon Us",
-      "tr": "Ve o, Bizim üzerimize bıraktı"
+      "en": "Two object pronouns",
+      "tr": "İki nesne zamiri"
      },
      "why": {
-      "en": "This reverses the roles. On a past verb ـنَا is the doer (\"we\"), and the ـهِ belongs to the preposition عَلَى, meaning \"him\"; it is not the doer.",
-      "tr": "Bu, görevleri tersine çevirir. Geçmiş zamanlı fiilde ـنَا faildir (\"biz\"); ـهِ ise عَلَى edatına aittir ve \"onu\" anlamındadır, fail değildir."
+      "en": "Only ـكَ is an object; ـنَا identifies who gave.",
+      "tr": "Yalnızca ـكَ nesnedir; ـنَا kimin verdiğini gösterir."
      }
     },
     {
      "text": {
-      "en": "And We left upon you",
-      "tr": "Ve Biz senin üzerine bıraktık"
+      "en": "Possessive, then object",
+      "tr": "İyelik, sonra nesne"
      },
      "why": {
-      "en": "\"You\" would be ـكَ. The ending of عَلَيْهِ is ـهِ, which means \"him\".",
-      "tr": "\"Sen\" anlamı ـكَ ile olurdu. عَلَيْهِ kelimesinin sonu ـهِ ekidir ve \"o\" demektir."
+      "en": "The host is a verb, and ـنَا is its doer suffix, not a possessive suffix on a noun.",
+      "tr": "Taşıyıcı fiildir; ـنَا isme bağlı iyelik eki değil, bu fiilin fail ekidir."
      }
     },
     {
      "text": {
-      "en": "And We left upon him",
-      "tr": "Ve Biz onun üzerine bıraktık"
+      "en": "Doer, then object",
+      "tr": "Fail, sonra nesne"
      },
      "why": {
-      "en": "Right. ـنَا on a past verb is the doer (\"We left\"), and ـهِ is the prepositional pronoun on عَلَى (\"upon him\").",
-      "tr": "Doğru. Geçmiş zamanlı fiildeki ـنَا faildir (\"bıraktık\"); ـهِ ise عَلَى edatındaki edat zamiridir (\"onun üzerine\")."
+      "en": "ـنَا denotes we, the doer, and the following ـكَ denotes you, the recipient of the giving.",
+      "tr": "ـنَا biz failini, ardından gelen ـكَ ise verme eyleminin alıcısı olan seni gösterir."
      }
     }
    ],
@@ -7094,8 +7094,8 @@
       "tr": "Edat zamiri"
      },
      "why": {
-      "en": "Right. The word is the preposition بِ plus a pronoun. A pronoun on a preposition shows what the preposition relates to: \"with it\".",
-      "tr": "Doğru. Kelime, بِ edatı ve bir zamirden oluşur. Edattaki zamir, edatın bağlandığı şeyi gösterir: \"onunla\"."
+      "en": "بِهَا consists of the preposition بِ carrying the feminine singular pronoun ـهَا.",
+      "tr": "بِهَا, dişil tekil ـهَا zamirini taşıyan بِ edatından oluşur."
      }
     },
     {
@@ -7104,8 +7104,8 @@
       "tr": "İyelik eki"
      },
      "why": {
-      "en": "A possessive pronoun sits on a noun. بِ is a preposition: it has no meaning alone and is not a noun, so the pronoun is not possessive.",
-      "tr": "İyelik zamiri bir isme bitişir. بِ bir edattır: tek başına anlamı yoktur ve isim değildir; bu yüzden zamir iyelik değildir."
+      "en": "The host بِ is a preposition, not a noun, so the pronoun is not possessive.",
+      "tr": "Taşıyıcı بِ edattır, isim değildir; dolayısıyla zamir iyelik bildirmez."
      }
     },
     {
@@ -7114,8 +7114,8 @@
       "tr": "Nesne"
      },
      "why": {
-      "en": "An object pronoun sits on a verb that receives the action. There is no verb in this word.",
-      "tr": "Nesne zamiri, eylemi alan bir fiile bitişir. Bu kelimede fiil yoktur."
+      "en": "An object pronoun joins a verb and denotes the receiver of its action; بِهَا contains no verb.",
+      "tr": "Nesne zamiri fiile eklenip eylemi alanı gösterir; بِهَا fiil içermez."
      }
     },
     {
@@ -7124,8 +7124,8 @@
       "tr": "Fail / özne"
      },
      "why": {
-      "en": "A doer suffix is ـتُ, ـتَ or the ـنَا of a past verb. There is no verb in this word, so there can be no doer.",
-      "tr": "Fail eki ـتُ, ـتَ veya geçmiş zamanlı fiilin ـنَا ekidir. Bu kelimede fiil yok, dolayısıyla fail de olamaz."
+      "en": "There is no verb in بِهَا whose doer a suffix could identify.",
+      "tr": "بِهَا içinde ekiyle faili gösterilebilecek bir fiil yoktur."
      }
     }
    ],
@@ -7243,55 +7243,55 @@
    "id": "L1W7-t6-18",
    "topic": "t6",
    "difficulty": 2,
-   "ref": "105:5",
-   "quote": "فَجَعَلَهُمْ",
+   "ref": "2:121",
+   "quote": "ءَاتَيْنَـٰهُمُ",
    "stem": {
-    "en": "In the word فَجَعَلَهُمْ (\"and He made them\"), which statement about the pronoun ـهُمْ and its host is correct?",
-    "tr": "فَجَعَلَهُمْ (\"ve onları yaptı\") kelimesinde ـهُمْ zamiri ve taşıyıcısı için hangi ifade doğrudur?"
+    "en": "In ءَاتَيْنَاهُمُ (\"We gave them\"), which suffix is the DOER and which is the OBJECT?",
+    "tr": "ءَاتَيْنَاهُمُ (\"onlara verdik\") kelimesinde hangi ek ÖZNE/FAİL, hangisi NESNE ekidir?"
    },
    "options": [
     {
      "text": {
-      "en": "Its host is the particle فَ, so it is prepositional",
-      "tr": "Taşıyıcısı فَ harfidir, bu yüzden edat zamiridir"
+      "en": "ـنَا is the doer (\"we\"); ـهُمُ is the object (\"them\")",
+      "tr": "ـنَا özne/faildir (\"biz\"); ـهُمُ nesnedir (\"onları\")"
      },
      "why": {
-      "en": "The فَ is only a joined particle at the start of the written word. The suffix is written at the other end, on the word that ends in it, so the host is not فَ and the pronoun is not prepositional.",
-      "tr": "فَ, yazılı kelimenin başındaki bitişik bir harftir. Ek kelimenin öteki ucundadır ve taşıyıcısı onunla biten kelimedir; yani taşıyıcı فَ değildir ve zamir edat zamiri değildir."
+      "en": "In this word, \"We gave\" identifies ـنَا as the doer in the nominative position; ـهُمُ names the recipients of the giving and is an object in the accusative position.",
+      "tr": "Bu kelimede \"verdik\" anlamı ـنَا ekinin merfu konumundaki fail olduğunu gösterir; ـهُمُ verilen şeyi alan kişileri gösterir ve nasb konumundaki nesnedir."
      }
     },
     {
      "text": {
-      "en": "Its host is a noun, so it is possessive (\"their ...\")",
-      "tr": "Taşıyıcısı isimdir, bu yüzden iyeliktir (\"onların ...\")"
+      "en": "ـهُمُ is the doer (\"they\"); ـنَا is the object (\"us\")",
+      "tr": "ـهُمُ özne/faildir (\"onlar\"); ـنَا nesnedir (\"bizi\")"
      },
      "why": {
-      "en": "The word that ends in ـهُمْ is جَعَلَ, which names an action and takes no tanwin and no jarr. It is a verb, not a noun, so the pronoun cannot be possessive.",
-      "tr": "ـهُمْ ile biten kelime جَعَلَ'dir; bir eylemi bildirir, tenvin ve cer almaz. Fiildir, isim değildir; bu yüzden zamir iyelik olamaz."
+      "en": "In this word, the meaning \"We gave them\" makes ـنَا the doer (\"we\") and ـهُمُ the object (\"them\"); the proposed roles are reversed.",
+      "tr": "Bu kelimede \"onlara verdik\" anlamına göre ـنَا fail (\"biz\"), ـهُمُ nesnedir (\"onlara\"); önerilen görevler ters verilmiştir."
      }
     },
     {
      "text": {
-      "en": "Its host is a verb, and it is the doer (\"they\")",
-      "tr": "Taşıyıcısı fiildir ve faildir (\"onlar\")"
+      "en": "Both ـنَا and ـهُمُ are objects, because both come after the verb stem",
+      "tr": "ـنَا ve ـهُمُ ikisi de nesnedir, çünkü ikisi de fiil tabanından sonra gelir"
      },
      "why": {
-      "en": "The doer suffixes on a verb are only ـتُ, ـتَ and ـنَا on past verbs. ـهُمْ never marks the doer; the doer here is built into the verb with no visible suffix.",
-      "tr": "Fiildeki fail ekleri yalnız geçmiş zamanlı fiillerdeki ـتُ, ـتَ ve ـنَا ekleridir. ـهُمْ failı göstermez; buradaki fail, görünür bir ek olmadan fiilin içindedir."
+      "en": "Following the verb stem does not by itself make a suffix an object: in this word, \"We gave\" identifies ـنَا as the doer, while ـهُمُ names the recipients.",
+      "tr": "Fiil gövdesinden sonra gelmek tek başına bir eki nesne yapmaz: bu kelimede \"verdik\" anlamı ـنَا ekinin fail olduğunu gösterir; ـهُمُ ise verilen şeyi alan kişileri belirtir."
      }
     },
     {
      "text": {
-      "en": "Its host is the verb جَعَلَ, and it is the object (\"them\")",
-      "tr": "Taşıyıcısı جَعَلَ fiilidir ve nesnedir (\"onları\")"
+      "en": "ـنَا is the doer; ـهُمُ is also a doer suffix, because two parties are involved",
+      "tr": "ـنَا özne/faildir; ـهُمُ de fail ekidir, çünkü iki taraf işe dahildir"
      },
      "why": {
-      "en": "Right. The word ends in the verb جَعَلَ (the فَ is a joined particle that belongs to the written word), and ـهُمْ is the one who receives the action: \"He made them\".",
-      "tr": "Doğru. Kelime جَعَلَ fiiliyle biter (فَ, yazılı kelimeye ait bitişik bir harftir) ve ـهُمْ eylemi alandır: \"onları yaptı\"."
+      "en": "ـهُمُ names those who received what was given, not an additional doer; in this word the doer is ـنَا (\"we\").",
+      "tr": "ـهُمُ ek bir faili değil, verilen şeyi alan kişileri gösterir; bu kelimede fail ـنَا ekidir (\"biz\")."
      }
     }
    ],
-   "correct": 3
+   "correct": 0
   },
   {
    "id": "L1W7-t6-22",
@@ -7307,29 +7307,29 @@
     {
      "ar": "أَلَمْ",
      "why": {
-      "en": "This is a particle that asks a question. A particle has no meaning alone and carries no pronoun.",
-      "tr": "Bu, soru bildiren bir harftir. Harfin tek başına anlamı yoktur ve zamir taşımaz."
+      "en": "This written word consists of particles and contains no attached pronoun here.",
+      "tr": "Bu yazılı kelime harflerden oluşur ve burada bitişik zamir içermez."
      }
     },
     {
      "ar": "يَتِيمًا",
      "why": {
-      "en": "This noun ends in tanwin (ـًا), which is its sign of being indefinite, not a pronoun. A noun with a pronoun suffix would take no tanwin.",
-      "tr": "Bu isim, belirsizlik alâmeti olan tenvinle (ـًا) biter; zamir değildir. Zamir eki taşıyan isim tenvin almaz."
+      "en": "يَتِيمًا is a noun with tanwin, not an attached pronoun.",
+      "tr": "يَتِيمًا tenvinli bir isimdir; bitişik zamir değildir."
      }
     },
     {
      "ar": "يَجِدْكَ",
      "why": {
-      "en": "Right. يَجِدْ is a present verb and ـكَ is the one who receives the action (\"find you\"), so it is an object pronoun.",
-      "tr": "Doğru. يَجِدْ muzâri bir fiildir ve ـكَ eylemi alandır (\"seni bulmak\"); yani nesne zamiridir."
+      "en": "In يَجِدْكَ, ـكَ denotes the person found, so it is an object pronoun attached to a verb.",
+      "tr": "يَجِدْكَ kelimesinde ـكَ bulunan kişiyi gösterir; fiile bitişmiş nesne zamiridir."
      }
     },
     {
      "ar": "فَـَٔاوَىٰ",
      "why": {
-      "en": "This past verb has no visible suffix. Its doer is built into the verb, and that is not an attached pronoun, so it carries no object pronoun here.",
-      "tr": "Bu geçmiş zamanlı fiilin görünür bir eki yoktur. Faili fiilin içindedir ve bu bir bitişik zamir değildir; burada nesne zamiri taşımaz."
+      "en": "فَـَٔاوَىٰ has no visible object suffix in this quote.",
+      "tr": "فَـَٔاوَىٰ bu alıntıda görünür nesne eki taşımaz."
      }
     }
    ],
@@ -7352,8 +7352,8 @@
       "tr": "\"anneleri\""
      },
      "why": {
-      "en": "Wrong. \"Their\" is ـهِمْ. The ending of this word is ـكُمْ, which means \"your\".",
-      "tr": "Yanlış. \"Onların\" anlamı ـهِمْ ekiyle verilir. Bu kelimenin sonundaki ek ـكُمْ ekidir ve \"sizin\" demektir."
+      "en": "The suffix here is ـكُمْ, “your”, whereas “their” would be ـهِمْ.",
+      "tr": "Buradaki ek “sizin” anlamındaki ـكُمْ ekidir; “onların” anlamını ise ـهِمْ verirdi."
      }
     },
     {
@@ -7362,8 +7362,8 @@
       "tr": "\"anneleriniz\""
      },
      "why": {
-      "en": "Correct. أُمَّهَات is a noun meaning \"mothers\", and the suffix ـكُمْ after a noun shows ownership: \"your (plural) mothers\".",
-      "tr": "Doğru. أُمَّهَات \"anneler\" anlamında bir isimdir ve isimden sonra ـكُمْ eki sahiplik gösterir: \"anneleriniz\"."
+      "en": "أُمَّهَات means “mothers”; attached ـكُمْ adds plural “your”, giving “your mothers”.",
+      "tr": "أُمَّهَات “anneler” demektir; bitişik ـكُمْ çoğul “sizin” anlamını ekler ve kelime “anneleriniz” olur."
      }
     },
     {
@@ -7372,8 +7372,8 @@
       "tr": "\"annelerimiz\""
      },
      "why": {
-      "en": "Wrong. \"Our\" is ـنَا. This word ends in ـكُمْ, not ـنَا.",
-      "tr": "Yanlış. \"Bizim\" anlamı ـنَا ekiyle verilir. Bu kelime ـنَا ile değil ـكُمْ ile biter."
+      "en": "“Our mothers” would require possessive ـنَا; the actual suffix is ـكُمْ, “your”.",
+      "tr": "“Annelerimiz” anlamı için ـنَا iyelik eki gerekirdi; buradaki ek “sizin” anlamındaki ـكُمْ ekidir."
      }
     },
     {
@@ -7382,8 +7382,8 @@
       "tr": "\"anneler\" (belirtili)"
      },
      "why": {
-      "en": "Wrong. \"The\" would come from ال at the start of the word. The word has no ال, and its ending is a pronoun that adds \"your\".",
-      "tr": "Yanlış. \"Belirtili\" anlamı kelimenin başındaki ال takısından gelirdi. Kelimede ال yoktur ve sonundaki ek \"sizin\" anlamı katan bir zamirdir."
+      "en": "“The mothers” omits the specific “your” expressed by ـكُمْ. The noun is definite through its idafa to this pronoun, even without ال.",
+      "tr": "“Anneler” çevirisi, ـكُمْ ekinin verdiği “sizin” anlamını aktarmaz. İsim, ال olmadan da bu zamirle kurduğu izafet sayesinde belirlidir."
      }
     }
    ],
@@ -7393,51 +7393,51 @@
    "id": "L1W7-t6-25",
    "topic": "t6",
    "difficulty": 2,
-   "ref": "12:67",
-   "quote": "عَلَيْهِ تَوَكَّلْتُ ۖ",
+   "ref": "38:35",
+   "quote": "لِى",
    "stem": {
-    "en": "Choose the true analysis of the two quoted words (\"in Him I put my trust\").",
-    "tr": "Alıntıdaki iki kelimenin (\"O'na tevekkül ettim\") doğru çözümlemesini seçin."
+    "en": "Which person and number does the attached pronoun in لِي (\"for me\") identify?",
+    "tr": "لِي (\"benim için\") kelimesindeki bitişik zamir hangi şahıs ve sayıyı gösterir?"
    },
    "options": [
     {
      "text": {
-      "en": "عَلَيْهِ is a preposition with a prepositional pronoun (\"on him\"); تَوَكَّلْتُ is a verb with a doer suffix (\"I\").",
-      "tr": "عَلَيْهِ edat zamiri taşıyan bir edattır (\"ona\"); تَوَكَّلْتُ fail eki taşıyan bir fiildir (\"ben\")."
+      "en": "First person singular: the speaker",
+      "tr": "Birinci tekil şahıs: konuşan kişi"
      },
      "why": {
-      "en": "Correct. عَلَى joined to ـهِ is a preposition plus pronoun. The ـتُ on the past verb is the one who acts: \"I relied\".",
-      "tr": "Doğru. ـهِ ile birleşmiş عَلَى, edat artı zamirdir. Geçmiş zamanlı fiildeki ـتُ eylemi yapandır: \"tevekkül ettim\"."
+      "en": "The ـي attached to the preposition identifies the speaker, me, as a single person.",
+      "tr": "Edata bitişen ـي, konuşanı tek kişi olarak gösterir: ben."
      }
     },
     {
      "text": {
-      "en": "عَلَيْهِ is a noun with a possessive (\"his height\"); تَوَكَّلْتُ is a verb with an object suffix (\"me\").",
-      "tr": "عَلَيْهِ iyelik eki taşıyan bir isimdir (\"onun yüksekliği\"); تَوَكَّلْتُ nesne eki taşıyan bir fiildir (\"beni\")."
+      "en": "First person plural: we",
+      "tr": "Birinci çoğul şahıs: biz"
      },
      "why": {
-      "en": "Wrong twice. عَلَى is a preposition, not a noun, and the suffix of a past verb ending in ـتُ marks the doer, not the receiver.",
-      "tr": "İki yönden yanlış. عَلَى bir edattır, isim değildir; ـتُ ile biten geçmiş zamanlı fiildeki ek alanı değil faili gösterir."
+      "en": "The ending is ـي, me, rather than ـنَا, us; the pronoun is singular.",
+      "tr": "Ek, biz anlamındaki ـنَا değil, ben anlamındaki ـي ekidir; zamir tekildir."
      }
     },
     {
      "text": {
-      "en": "عَلَيْهِ is a preposition with a prepositional pronoun (\"on him\"); تَوَكَّلْتُ is a verb with an object suffix (\"me\").",
-      "tr": "عَلَيْهِ edat zamiri taşıyan bir edattır (\"ona\"); تَوَكَّلْتُ nesne eki taşıyan bir fiildir (\"beni\")."
+      "en": "Second person masculine singular: you",
+      "tr": "İkinci eril tekil şahıs: sen"
      },
      "why": {
-      "en": "Half right. The first word is analysed correctly, but ـتُ on a past verb is a doer suffix (\"I relied\"), not an object suffix.",
-      "tr": "Yarı doğru. İlk kelime doğru çözümlenmiş, ancak geçmiş zamanlı fiildeki ـتُ nesne eki değil fail ekidir (\"tevekkül ettim\")."
+      "en": "The pronoun denotes the speaker, not the addressee; masculine singular you would use ـكَ.",
+      "tr": "Zamir muhatabı değil konuşanı gösterir; eril tekil sen için ـكَ kullanılırdı."
      }
     },
     {
      "text": {
-      "en": "Both suffixes are doers: ـهِ is \"he who relied\" and ـتُ is \"I who relied\".",
-      "tr": "İki ek de faildir: ـهِ \"tevekkül eden o\", ـتُ \"tevekkül eden ben\"."
+      "en": "Third person masculine singular: he",
+      "tr": "Üçüncü eril tekil şahıs: o"
      },
      "why": {
-      "en": "Wrong. A doer suffix on a verb is limited to ـتُ, ـتَ and ـنَا. The ـهِ here follows a preposition, and it shows what the preposition relates to.",
-      "tr": "Yanlış. Fiildeki fail ekleri ـتُ, ـتَ ve ـنَا ile sınırlıdır. Buradaki ـهِ bir edattan sonra gelir ve edatın bağlandığı şeyi gösterir."
+      "en": "Here ـي means me; it does not denote a third person as ـهُ would.",
+      "tr": "Burada ـي ben anlamındadır; ـهُ gibi üçüncü şahsı göstermez."
      }
     }
    ],
