@@ -11,6 +11,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Amiri:wght@400;700&family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
 <style>
   :root {
+    /* every Quranic word: Diyanet's Shaikh Hamdullah Mushaf, alif-wasla falls back to Scheherazade New */
+    --font-quran: 'KuranMetin', 'KuranIsaret', 'Scheherazade New', 'Amiri Quran', 'Amiri', serif;
     --green: #1a6b3c;
     --green-light: #2d8f55;
     --green-pale: #e8f5ee;
@@ -289,7 +291,7 @@
     display: flex; flex-direction: column; align-items: center; justify-content: center;
     height: 100%; padding: 40px; text-align: center;
   }
-  .welcome-bismillah { font-size: 2rem; color: var(--green); margin-bottom: 16px; font-family: serif; }
+  .welcome-bismillah { font-size: 2rem; color: var(--green); margin-bottom: 16px; font-family: var(--font-quran); }
   .welcome h1 { font-size: 1.6rem; color: var(--dark); margin-bottom: 12px; }
   .welcome p { color: var(--muted); max-width: 440px; line-height: 1.7; }
 
@@ -422,7 +424,7 @@
   }
   .feedback-box.loading { color: var(--muted); font-style: italic; }
   .feedback-box.error { border-color: #dc2626; background: #fef2f2; color: #991b1b; }
-  .feedback-arabic { font-size: 1.2rem; font-family: 'Amiri Quran', 'Amiri', 'Scheherazade New', serif; direction: rtl; }
+  .feedback-arabic { font-size: 1.2rem; font-family: var(--font-quran); direction: rtl; }
 
   /* Score card */
   .score-card {
@@ -459,7 +461,7 @@
   .quiz-arabic {
     font-size: 2.4rem; text-align: center; padding: 28px 16px;
     background: var(--green-pale); border-radius: 10px; margin: 12px 0 24px;
-    color: var(--green); font-family: 'Amiri Quran', 'Amiri', 'Scheherazade New', serif;
+    color: var(--green); font-family: var(--font-quran);
     direction: rtl; line-height: 1.6;
   }
   .quiz-choices { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
@@ -497,7 +499,7 @@
   .flashcard-back { transform: rotateY(180deg); }
   .flashcard-face.flash-arabic {
     font-size: 3rem; direction: rtl; color: var(--green);
-    font-family: 'Amiri Quran', 'Amiri', 'Scheherazade New', serif;
+    font-family: var(--font-quran);
   }
   .flashcard-hint { color: var(--muted); font-size: 0.85rem; margin-bottom: 16px; }
   .flashcard-controls { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
@@ -522,7 +524,7 @@
   .ld-result { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 22px; box-shadow: var(--shadow); }
   .ld-title-row { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; margin-bottom: 6px; }
   .ld-title-row h2 { font-size: 1.5rem; color: var(--green); }
-  .ld-arabic { font-size: 1.6rem; color: #0e4f29; font-family: 'Amiri', 'Scheherazade New', serif; }
+  .ld-arabic { font-size: 1.6rem; color: #0e4f29; font-family: var(--font-quran); }
   .ld-lesson-tag { font-size: 0.78rem; color: var(--muted); margin-bottom: 14px; }
   .ld-lesson-tag a { color: var(--green); text-decoration: none; font-weight: 600; }
   .ld-lesson-tag a:hover { text-decoration: underline; }
@@ -533,7 +535,7 @@
   .ld-rules li { margin-bottom: 8px; line-height: 1.55; }
   .ld-example { background: var(--green-pale); border-left: 3px solid var(--green); border-radius: 6px; padding: 14px 16px; margin-bottom: 12px; }
   body.rtl .ld-example { border-left: none; border-right: 3px solid var(--green); }
-  .ld-example-arabic { font-size: 1.35rem; color: #0e4f29; margin-bottom: 6px; font-family: 'Amiri', 'Scheherazade New', serif; }
+  .ld-example-arabic { font-size: 1.35rem; color: #0e4f29; margin-bottom: 6px; font-family: var(--font-quran); }
   .ld-example-trans { font-size: 0.88rem; color: var(--muted); font-style: italic; margin-bottom: 8px; }
   .ld-example-walk { font-size: 0.93rem; line-height: 1.65; white-space: pre-wrap; }
   .ld-mistakes { padding-left: 22px; }
@@ -580,7 +582,7 @@
   }
   body.rtl .lecture-example { border-left: none; border-right: 3px solid var(--green); }
   .lecture-example-ar {
-    font-size: 1.4rem; color: #0e4f29; font-family: 'Amiri', 'Scheherazade New', serif;
+    font-size: 1.4rem; color: #0e4f29; font-family: var(--font-quran);
     direction: rtl; text-align: right;
     line-height: 2;            /* room for fathatayn / kasratayn / shadda stacks */
     margin-bottom: 10px;
@@ -725,7 +727,7 @@
     border-radius: var(--radius); padding: 14px 16px; box-shadow: var(--shadow);
   }
   .sc-fill-arabic {
-    font-size: 1.7rem; color: #0e4f29; font-family: 'Amiri', 'Scheherazade New', serif;
+    font-size: 1.7rem; color: #0e4f29; font-family: var(--font-quran);
     margin-bottom: 10px; direction: rtl; text-align: right;
   }
   .sc-fill-row { display: flex; flex-direction: column; gap: 4px; margin-bottom: 8px; }
@@ -741,7 +743,7 @@
     border-radius: var(--radius); padding: 16px; box-shadow: var(--shadow); margin-bottom: 12px;
   }
   .sc-result-head { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; margin-bottom: 10px; }
-  .sc-result-head .sc-arabic { font-size: 1.6rem; color: #0e4f29; font-family: 'Amiri', 'Scheherazade New', serif; }
+  .sc-result-head .sc-arabic { font-size: 1.6rem; color: #0e4f29; font-family: var(--font-quran); }
   .sc-badge {
     display: inline-block; padding: 3px 10px; border-radius: 999px;
     font-size: 0.74rem; font-weight: 700;
@@ -770,7 +772,7 @@
   }
   .lib-verse-key { font-size: 0.78rem; color: var(--muted); font-weight: 700; letter-spacing: 0.04em; }
   .lib-verse-ar {
-    font-family: 'Amiri Quran', 'Amiri', 'Scheherazade New', serif; font-size: 1.9rem;
+    font-family: var(--font-quran); font-size: 1.9rem;
     direction: rtl; text-align: right; color: var(--ayah); line-height: 2.1; margin-top: 6px;
   }
   .lib-summary { font-size: 0.85rem; color: var(--muted); margin: 0 0 10px; }
@@ -810,7 +812,7 @@
   }
   .lib-text-ar .fn { color: var(--mid); font-size: 0.85em; }
   :root { --ayah: #1d4ed8; }
-  .q, .lib-text-ar .q, .lib-text-tr .q { color: var(--ayah); font-family: 'Amiri Quran', 'Amiri', serif; }
+  .q, .lib-text-ar .q, .lib-text-tr .q { color: var(--ayah); font-family: var(--font-quran); }
   .lib-langbar { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; margin: 16px 0 4px; font-size: 0.8rem; color: var(--muted); }
   .lib-text-tr { line-height: 1.75; margin-top: 10px; }
   .lib-tr-note { font-size: 0.75rem; color: var(--muted); margin-top: 10px; font-style: italic; }
@@ -830,7 +832,7 @@
   @font-face { font-family: 'KuranMetin'; src: url(/fonts/ShaikhHamdullahMushaf.ttf) format('truetype'); font-display: swap; }
   @font-face { font-family: 'KuranIsaret'; src: url(/fonts/KuranIsaretler.ttf) format('truetype'); font-display: swap;
                unicode-range: U+0615, U+0617, U+0656, U+06DE, U+08F0-08F3; }
-  .wbox .w-ar { font-family: 'KuranMetin', 'KuranIsaret', 'Scheherazade New', 'Amiri Quran', 'Amiri', serif; font-size: calc(1.6rem * var(--lib-scale, 1)); color: var(--ayah); direction: rtl; line-height: 1.6; margin-bottom: 0.9em; }
+  .wbox .w-ar { font-family: var(--font-quran); font-size: calc(1.6rem * var(--lib-scale, 1)); color: var(--ayah); direction: rtl; line-height: 1.6; margin-bottom: 0.9em; }
   .wbox .w-tl { color: #7c3aed; font-style: italic; }
   .wbox .w-tr { color: #b91c1c; font-weight: 600; }
   .wbox .w-en { color: #15803d; }
@@ -848,7 +850,7 @@
   .lib-line.lib-sec { font-weight: 700; color: var(--gold); margin-top: 12px; }
   .lib-text-ar .lib-line { font-size: calc(1.3rem * var(--lib-scale, 1)); }
   .lib-text-tr .lib-line { font-size: calc(0.98rem * var(--lib-scale, 1)); }
-  .lib-head { color: var(--ayah); font-weight: 700; font-family: 'Amiri Quran', 'Amiri', serif; }
+  .lib-head { color: var(--ayah); font-weight: 700; font-family: var(--font-quran); }
   .lib-book-sub { font-weight: 500; color: var(--mid); }
   .lib-tools { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
   .lib-tools .btn-secondary { padding: 5px 10px; font-size: 0.78rem; }
@@ -899,7 +901,7 @@
     width: 100%; min-height: 100px; padding: 16px;
     border: 1.5px solid var(--border); border-radius: 8px;
     font-size: 1.4rem; line-height: 1.8; resize: vertical;
-    font-family: 'Amiri Quran', 'Amiri', 'Scheherazade New', serif;
+    font-family: var(--font-quran);
     direction: rtl; text-align: right; color: var(--green);
     background: var(--green-pale);
   }
@@ -927,7 +929,7 @@
     direction: ltr;  /* keep card internals (Latin labels) left-to-right */
   }
   .irab-word-ar {
-    font-size: 1.7rem; font-family: 'Amiri Quran', 'Amiri', 'Scheherazade New', serif;
+    font-size: 1.7rem; font-family: var(--font-quran);
     direction: rtl; text-align: center; color: var(--green);
     padding: 8px 0; line-height: 1.4;
   }
@@ -5163,7 +5165,7 @@ function renderLoginScreen(errorMsg) {
       .auth-shell { display: flex; align-items: center; justify-content: center; height: 100vh; background: var(--bg, #f5f4ee); }
       .auth-card { background: #fff; border-radius: 14px; box-shadow: 0 10px 40px rgba(0,0,0,0.12); padding: 32px 36px; width: 100%; max-width: 380px; }
       .auth-card h1 { color: #0e4f29; margin-bottom: 4px; font-size: 1.4rem; }
-      .auth-card .bismillah { font-size: 1.6rem; color: #0e4f29; text-align: center; margin-bottom: 14px; font-family: 'Amiri', serif; }
+      .auth-card .bismillah { font-size: 1.6rem; color: #0e4f29; text-align: center; margin-bottom: 14px; font-family: var(--font-quran); }
       .auth-card label { display: block; font-size: 0.75rem; font-weight: 700; color: #6b7280; text-transform: uppercase; letter-spacing: 0.06em; margin: 14px 0 4px; }
       .auth-card input { width: 100%; padding: 10px 12px; border: 1.5px solid #e5e7eb; border-radius: 8px; font-size: 0.95rem; font-family: inherit; box-sizing: border-box; }
       .auth-card input:focus { outline: none; border-color: #0e4f29; }
