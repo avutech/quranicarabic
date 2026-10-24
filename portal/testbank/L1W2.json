@@ -9,8 +9,8 @@
     "tr": "Nekire (Belirsiz) İsimler"
    },
    "rule": {
-    "en": "An indefinite noun (nakira) refers to a general, unspecified thing, like \"a ...\" or \"an ...\" in English. Its main sign is tanwin: a doubled short vowel at the end of the noun (double dammah, double fathah or double kasrah) that is pronounced with an \"n\" sound. Tanwin is a feature of nouns only.",
-    "tr": "Nekire (belirsiz isim), genel ve belli olmayan bir şeyi anlatır; Türkçedeki \"bir ...\" gibidir. Başlıca işareti tenvindir: ismin sonunda bulunan, \"n\" sesiyle okunan çift harekedir (iki ötre, iki üstün veya iki esre). Tenvin yalnızca isimlere özgüdür."
+    "en": "An indefinite noun (nakira) refers to a general, unspecified thing, like \"a ...\" or \"an ...\" in English. Its main sign is tanwin: a doubled short vowel at the end of the noun (double dammah, double fathah or double kasrah) that is pronounced with an \"n\" sound. Tanwin is a feature of nouns only. Throughout this chapter, joined conjunctions and prepositions stay within the written word. Judge the noun by its own article or tanwin, and its solar/lunar group by the letter immediately after the article.",
+    "tr": "Nekire (belirsiz isim), genel ve belli olmayan bir şeyi anlatır; Türkçedeki \"bir ...\" gibidir. Başlıca işareti tenvindir: ismin sonunda bulunan, \"n\" sesiyle okunan çift harekedir (iki ötre, iki üstün veya iki esre). Tenvin yalnızca isimlere özgüdür. Bu bölüm boyunca bitişik bağlaçlar ve edatlar yazılı kelimenin içinde tutulur. İsmi kendi belirlilik takısına veya tenvinine göre, şemsî/kamerî grubunu ise takıdan hemen sonraki harfe göre değerlendirin."
    }
   },
   {
@@ -21,8 +21,8 @@
     "tr": "Belirli İsimler (Marife)"
    },
    "rule": {
-    "en": "A definite noun (ma'rifa) refers to a specific, identified thing, like \"the ...\" in English. The usual way to make a noun definite is to attach the article ال to its beginning. When ال is attached, the tanwin of the noun disappears and an ordinary single short vowel remains at its end.",
-    "tr": "Belirli isim (marife), belli ve tanınan bir şeyi anlatır; İngilizcedeki \"the\" gibidir. Türkçede \"bilinen ...\" diye karşılanır. İsmi belirli yapmanın olağan yolu, başına ال takısını getirmektir. ال geldiğinde ismin tenvini kalkar ve sonda tek bir kısa hareke kalır."
+    "en": "A definite noun (ma'rifa) refers to a specific, identified thing, like \"the ...\" in English. The usual way to make a noun definite is to attach the article ال to its beginning. When ال is attached, the tanwin of the noun disappears and cannot coexist with the article.",
+    "tr": "Belirli isim (marife), belli ve tanınan bir şeyi anlatır; İngilizcedeki \"the\" gibidir. Türkçede \"bilinen ...\" diye karşılanır. İsmi belirli yapmanın olağan yolu, başına ال takısını getirmektir. ال geldiğinde ismin tenvini kalkar ve bu takıyla birlikte bulunamaz."
    }
   },
   {
@@ -275,35 +275,35 @@
    "quote": "لَّا تَجْزِى نَفْسٌ عَن",
    "stem": {
     "en": "In لَّا تَجْزِى نَفْسٌ عَن (\"a soul will not avail ... for\"), which word is a verb, a kind of word that never takes tanwin?",
-    "tr": "لَّا تَجْزِى نَفْسٌ عَن (\"bir nefis ... adına bir şey ödeyemez\") ibaresinde hangi kelime fiildir ve fiil tenvin almaz?"
+    "tr": "لَّا تَجْزِى نَفْسٌ عَن (\"bir nefis ... adına bir şey ödeyemez\") ibaresinde hangi kelime, tenvin almayan bir kelime türü olan fiile örnektir?"
    },
    "options": [
     {
      "ar": "تَجْزِى",
      "why": {
-      "en": "Correct. It is an action (\"avails, compensates\") tied to a time, so it is a verb. Verbs never take tanwin.",
-      "tr": "Doğru. Zamana bağlı bir eylemdir (\"karşılık verir, öder\"); bu yüzden fiildir. Fiiller tenvin almaz."
+      "en": "Correct. تَجْزِى expresses an action tied to time (availing or compensating), so it is a verb and cannot take tanwin.",
+      "tr": "Doğru. تَجْزِى zamana bağlı bir eylemi (karşılık vermeyi, ödemeyi) anlatır; fiildir ve tenvin almaz."
      }
     },
     {
      "ar": "لَّا",
      "why": {
-      "en": "This is a particle (\"not\"). It also never takes tanwin, but it is a particle, not a verb: its meaning appears only with another word.",
-      "tr": "Bu bir harftir (\"değil\"). O da tenvin almaz; ancak fiil değil harftir, çünkü anlamı ancak başka bir kelimeyle ortaya çıkar."
+      "en": "لَّا expresses negation here. It is a particle and cannot take tanwin, but the question asks for a verb.",
+      "tr": "لَّا burada olumsuzluk bildirir. Harftir ve tenvin almaz; ancak soruda fiil istenmektedir."
      }
     },
     {
      "ar": "نَفْسٌ",
      "why": {
-      "en": "This is a noun (\"a soul\"), and it ends with a visible tanwin, a double dammah. It carries tanwin precisely because it is a noun.",
-      "tr": "Bu bir isimdir (\"bir nefis\") ve sonunda görünen bir tenvin, yani çift ötre vardır. Tenvini tam da isim olduğu için taşır."
+      "en": "نَفْسٌ names a soul and visibly carries double dammah. It is a noun with tanwin, not a verb.",
+      "tr": "نَفْسٌ bir nefsi adlandırır ve sonunda çift ötre vardır. Tenvinli bir isimdir; fiil değildir."
      }
     },
     {
      "ar": "عَن",
      "why": {
-      "en": "This is a particle (\"on behalf of\", \"from\"). It takes no tanwin, but it is a particle, not a verb.",
-      "tr": "Bu bir harftir (\"-den\", \"adına\"). Tenvin almaz, ancak fiil değil harftir."
+      "en": "عَن means \"on behalf of\" here and gains its meaning with another word. It is a particle, so it is not the requested verb.",
+      "tr": "عَن burada \"adına\" anlamındadır ve başka bir kelimeyle anlam kazanır. Harftir; soruda istenen fiil değildir."
      }
     }
    ],
@@ -367,39 +367,51 @@
    "id": "L1W2-t1-07",
    "topic": "t1",
    "difficulty": 2,
-   "ref": "57:20",
-   "quote": "ٱلْحَيَوٰةُ ٱلدُّنْيَا لَعِبٌۭ وَلَهْوٌۭ وَزِينَةٌۭ",
+   "ref": "18:32",
+   "quote": "أَعْنَـٰبٍۢ",
    "stem": {
-    "en": "In ٱلْحَيَوٰةُ ٱلدُّنْيَا لَعِبٌ وَلَهْوٌ وَزِينَةٌ (\"the life of this world is play, amusement and adornment\"), look at the words ٱلْحَيَوٰةُ, لَعِبٌ, وَلَهْوٌ and وَزِينَةٌ. Three are indefinite and one is definite. Which is the odd one out?",
-    "tr": "ٱلْحَيَوٰةُ ٱلدُّنْيَا لَعِبٌ وَلَهْوٌ وَزِينَةٌ (\"dünya hayatı bir oyun, bir eğlence ve bir süstür\") ibaresinde ٱلْحَيَوٰةُ, لَعِبٌ, وَلَهْوٌ ve وَزِينَةٌ kelimelerine bakın. Üçü nekire, biri marifedir. Hangisi farklıdır?"
+    "en": "Which ending on أَعْنَابٍ (grapes) shows that it is indefinite?",
+    "tr": "أَعْنَابٍ (üzümler) kelimesinin nekire olduğunu hangi son işaret gösterir?"
    },
    "options": [
     {
-     "ar": "لَعِبٌ",
+     "text": {
+      "en": "A single kasrah",
+      "tr": "Tek esre"
+     },
      "why": {
-      "en": "It ends with a double dammah, so it is indefinite (\"a play\"). It is one of the three that match each other, not the odd one.",
-      "tr": "Çift ötre ile biter, bu yüzden nekiredir (\"bir oyun\"). Birbirine uyan üçünden biridir, farklı olan değildir."
+      "en": "The ending of أَعْنَابٍ is doubled, not a single kasrah.",
+      "tr": "أَعْنَابٍ kelimesinin sonunda tek değil, çift esre vardır."
      }
     },
     {
-     "ar": "وَلَهْوٌ",
+     "text": {
+      "en": "A double dammah",
+      "tr": "Çift ötre"
+     },
      "why": {
-      "en": "The و is a joined prefix, and the noun still ends with a double dammah, so it is indefinite (\"an amusement\"). It matches the other tanwin words.",
-      "tr": "و bitişik bir önektir; isim yine çift ötre ile biter, bu yüzden nekiredir (\"bir eğlence\"). Tenvinli diğer kelimelere uyar."
+      "en": "أَعْنَابٍ has double kasrah marks below the final letter, not double dammah above it.",
+      "tr": "أَعْنَابٍ kelimesinin son harfinin altında çift esre vardır; üstünde çift ötre yoktur."
      }
     },
     {
-     "ar": "ٱلْحَيَوٰةُ",
+     "text": {
+      "en": "A double kasrah (tanwin)",
+      "tr": "Çift esre (tenvin)"
+     },
      "why": {
-      "en": "Correct. It begins with ال and ends with a single dammah, not tanwin, so it is definite (\"the life\"). The other three carry tanwin, so they are indefinite.",
-      "tr": "Doğru. ال ile başlar ve sonunda tenvin değil tek ötre vardır; bu yüzden marifedir (\"hayat\"). Diğer üçü tenvin taşır, yani nekiredir."
+      "en": "Correct. The double kasrah at the end of أَعْنَابٍ is tanwin and marks this noun as indefinite.",
+      "tr": "Doğru. أَعْنَابٍ kelimesinin sonundaki çift esre tenvindir ve bu ismin nekire olduğunu gösterir."
      }
     },
     {
-     "ar": "وَزِينَةٌ",
+     "text": {
+      "en": "A double fathah",
+      "tr": "Çift üstün"
+     },
      "why": {
-      "en": "The و is a joined prefix, and the noun ends with a double dammah on the round ta, so it is indefinite (\"an adornment\"). It is not the odd one.",
-      "tr": "و bitişik bir önektir; isim yuvarlak te üzerinde çift ötre ile biter, bu yüzden nekiredir (\"bir süs\"). Farklı olan değildir."
+      "en": "أَعْنَابٍ ends with double kasrah, not double fathah.",
+      "tr": "أَعْنَابٍ kelimesi çift üstünle değil, çift esreyle biter."
      }
     }
    ],
@@ -764,8 +776,8 @@
       "tr": "Zaman bildiren nekire isimler"
      },
      "why": {
-      "en": "Correct. Both carry tanwin, so they are indefinite nouns. They name times (night and day) and still have no tense of their own, which is why they are nouns.",
-      "tr": "Doğru. İkisi de tenvin taşır, bu yüzden nekire isimlerdir. Zamanları (gece ve gündüz) adlandırırlar ve anlamlarında zaman yoktur; bu yüzden isimdir."
+      "en": "Correct: Both carry tanwin, so they are indefinite nouns. They name times (night and day) and still have no tense of their own, which is why they are nouns.",
+      "tr": "Doğru: İkisi de tenvin taşır, bu yüzden nekire isimlerdir. Gece ve gündüz gibi zamanları adlandırırlar; fiiller gibi zamana bağlı bir eylem bildirmezler."
      }
     },
     {
@@ -1025,13 +1037,13 @@
    "quote": "خَلَقْنَا ٱلنُّطْفَةَ عَلَقَةًۭ فَخَلَقْنَا ٱلْعَلَقَةَ مُضْغَةًۭ",
    "stem": {
     "en": "In خَلَقْنَا ٱلنُّطْفَةَ عَلَقَةً فَخَلَقْنَا ٱلْعَلَقَةَ مُضْغَةً (\"We created the drop into a clot, then We created the clot into a lump\"), which pair of nouns are BOTH indefinite?",
-    "tr": "خَلَقْنَا ٱلنُّطْفَةَ عَلَقَةً فَخَلَقْنَا ٱلْعَلَقَةَ مُضْغَةً (\"damlayı bir alaka yarattık, sonra alakayı bir çiğnem et yarattık\") ifadesinde hangi isim çifti İKİSİ DE nekiredir?"
+    "tr": "خَلَقْنَا ٱلنُّطْفَةَ عَلَقَةً فَخَلَقْنَا ٱلْعَلَقَةَ مُضْغَةً (\"Damlayı bir alakaya, ardından alakayı bir çiğnemlik ete dönüştürdük\") ifadesinde hangi çiftteki isimlerin ikisi de nekiredir?"
    },
    "options": [
     {
      "why": {
-      "en": "Right. Each ends in a double fathah (tanwin), the sign of an indefinite noun, so both are indefinite: \"a clot\" and \"a lump\".",
-      "tr": "Doğru. İkisinin de sonunda çift üstün (tenvin) vardır; tenvin nekire ismin alâmetidir, bu yüzden ikisi de nekiredir: \"bir alaka\" ve \"bir çiğnem et\"."
+      "en": "Correct: Each ends in a double fathah (tanwin), the sign of an indefinite noun, so both are indefinite: \"a clot\" and \"a lump\".",
+      "tr": "Doğru: İkisinin de sonunda çift üstün (tenvin) vardır; tenvin nekire ismin alâmetidir, bu yüzden ikisi de nekiredir: \"bir alaka\" ve \"bir çiğnem et\"."
      },
      "ar": "عَلَقَةً + مُضْغَةً"
     },
@@ -1108,36 +1120,36 @@
    "ref": "76:1",
    "quote": "أَتَىٰ عَلَى ٱلْإِنسَـٰنِ حِينٌۭ مِّنَ ٱلدَّهْرِ",
    "stem": {
-    "en": "In أَتَىٰ عَلَى ٱلْإِنسَـٰنِ حِينٌ مِّنَ ٱلدَّهْرِ (\"a while came upon man, out of time\"), which of these words ends with a double dammah?",
-    "tr": "أَتَىٰ عَلَى ٱلْإِنسَـٰنِ حِينٌ مِّنَ ٱلدَّهْرِ (\"insanın üzerinden zamandan bir süre geçti\") ibaresinde şu kelimelerden hangisi çift ötre ile biter?"
+    "en": "In أَتَىٰ عَلَى ٱلْإِنسَـٰنِ حِينٌ مِّنَ ٱلدَّهْرِ (\"a period of time passed over man\"), which of these words ends with a double dammah?",
+    "tr": "أَتَىٰ عَلَى ٱلْإِنسَـٰنِ حِينٌ مِّنَ ٱلدَّهْرِ (\"insanın üzerinden bir süre geçti\") ibaresinde şu kelimelerden hangisi çift ötre ile biter?"
    },
    "options": [
     {
      "ar": "أَتَىٰ",
      "why": {
-      "en": "This is a verb (\"it came\"), an action tied to a time. It ends with a long vowel sound, and a verb never takes tanwin.",
-      "tr": "Bu bir fiildir (\"geldi\"), zamana bağlı bir eylemdir. Sonunda uzun bir ünlü sesi vardır ve fiil tenvin almaz."
+      "en": "أَتَىٰ means \"came\" and is a verb; its ending is not double dammah, and verbs do not take tanwin.",
+      "tr": "أَتَىٰ \"geldi\" anlamında bir fiildir; sonunda çift ötre yoktur ve fiiller tenvin almaz."
      }
     },
     {
      "ar": "عَلَى",
      "why": {
-      "en": "This is a particle (\"upon\"), a word whose meaning appears only with another word. A particle never takes tanwin, so it has no double vowel at the end.",
-      "tr": "Bu bir harftir (\"üzerine\"), anlamı ancak başka bir kelimeyle ortaya çıkan bir kelimedir. Harf tenvin almaz; sonunda çift hareke yoktur."
+      "en": "عَلَى is a particle meaning \"upon\"; it has no tanwin and does not end in double dammah.",
+      "tr": "عَلَى \"üzerine\" anlamında bir harftir; tenvin taşımaz ve çift ötreyle bitmez."
      }
     },
     {
      "ar": "حِينٌ",
      "why": {
-      "en": "Correct. It is a noun (\"a while\") that ends with two dammah marks. This double dammah is tanwin, the sign of an indefinite noun.",
-      "tr": "Doğru. İsimdir (\"bir süre\") ve sonunda iki ötre işareti vardır. Bu çift ötre tenvindir ve nekire ismin alâmetidir."
+      "en": "Correct. حِينٌ means \"a period\" and ends with double dammah, the tanwin marking this indefinite noun.",
+      "tr": "Doğru. حِينٌ \"bir süre\" anlamındadır ve bu nekire ismi gösteren çift ötreyle, yani tenvinle biter."
      }
     },
     {
      "ar": "ٱلدَّهْرِ",
      "why": {
-      "en": "It is a noun (\"the time\"), but it begins with ال, the sign of a definite noun, and it ends with a single kasrah, not with a double vowel.",
-      "tr": "İsimdir (\"zaman\"), ancak marife ismin alâmeti olan ال ile başlar ve sonunda çift hareke değil, tek esre vardır."
+      "en": "ٱلدَّهْرِ has ال and ends in a single kasrah, so it does not have the requested double dammah.",
+      "tr": "ٱلدَّهْرِ ال taşır ve tek esreyle biter; bu yüzden sorulan çift ötreyi taşımaz."
      }
     }
    ],
@@ -1264,8 +1276,8 @@
    "options": [
     {
      "why": {
-      "en": "Right. Both nouns end in a double fathah (tanwin), so they are indefinite. كُونِى is a command verb, and a verb never takes tanwin.",
-      "tr": "Doğru. İki ismin de sonunda çift üstün (tenvin) vardır; ikisi de nekiredir. كُونِى emir fiilidir ve fiil tenvin almaz."
+      "en": "Correct: Both nouns end in a double fathah (tanwin), so they are indefinite. كُونِى is a command verb, and a verb never takes tanwin.",
+      "tr": "Doğru: İki ismin de sonunda çift üstün (tenvin) vardır; ikisi de nekiredir. كُونِى emir fiilidir ve fiil tenvin almaz."
      },
      "text": {
       "en": "بَرْدًا and وَسَلَـٰمًا are indefinite nouns with a double fathah; كُونِى is a verb and has no tanwin",
@@ -1275,7 +1287,7 @@
     {
      "why": {
       "en": "Ending in a vowel is not a sign of a noun. كُونِى has no tanwin, no ال and takes no preposition; it is a verb (a command).",
-      "tr": "Harekeyle bitmek isim alâmeti değildir. كُونِى kelimesinde tenvin ve ال yoktur, başına edat de almaz; bir fiildir (emir)."
+      "tr": "Harekeyle bitmek isim alâmeti değildir. كُونِى kelimesinde tenvin ve ال yoktur, başına edat da almaz; bir fiildir (emir)."
      },
      "text": {
       "en": "All three are nouns, because each ends in a vowel",
@@ -1285,7 +1297,7 @@
     {
      "why": {
       "en": "The prefix وَ only means \"and\" and does not make a noun definite. The noun is judged by its own ending: وَسَلَـٰمًا has tanwin, so it is indefinite.",
-      "tr": "وَ yalnızca \"ve\" anlamı katar, ismi marife yapmaz. İsme kendi sonuna bakılır: وَسَلَـٰمًا tenvinlidir, yani nekiredir."
+      "tr": "وَ yalnızca \"ve\" anlamı katar, ismi marife yapmaz. İsmin kendi sonundaki işarete bakılır: وَسَلَـٰمًا tenvinlidir, yani nekiredir."
      },
      "text": {
       "en": "Only بَرْدًا is indefinite; وَسَلَـٰمًا is definite because it starts with وَ",
@@ -1459,51 +1471,51 @@
    "id": "L1W2-t2-03",
    "topic": "t2",
    "difficulty": 1,
-   "ref": "80:25",
-   "quote": "ٱلْمَآءَ صَبًّۭا",
+   "ref": "12:25",
+   "quote": "ٱلْبَابَ",
    "stem": {
-    "en": "The noun ٱلْمَآءَ (\"the water\") has ال. How does it end?",
-    "tr": "ٱلْمَآءَ (\"su\") ismi ال taşır. Sonu nasıl biter?"
+    "en": "The noun ٱلْبَابَ (the door) has ال; which ending does it show here?",
+    "tr": "ٱلْبَابَ (kapı) ismi ال taşır; burada sonunda hangi hareke vardır?"
    },
    "options": [
     {
      "text": {
-      "en": "In a double dammah (tanwin)",
-      "tr": "Çift ötre (tenvin) ile"
+      "en": "Double dammah",
+      "tr": "Çift ötre"
      },
      "why": {
-      "en": "A noun with ال never ends in tanwin, and ٱلْمَآءَ in the quote ends in a fathah, not a dammah.",
-      "tr": "ال taşıyan isim tenvinle bitmez; alıntıdaki ٱلْمَآءَ ise ötreyle değil, üstünle biter."
+      "en": "ٱلْبَابَ has a single fathah; a noun with ال does not take tanwin.",
+      "tr": "ٱلْبَابَ tek üstün taşır; ال taşıyan isim tenvin almaz."
      }
     },
     {
      "text": {
-      "en": "In a double fathah, as the next word صَبًّا does",
-      "tr": "Çift üstün ile, yanındaki صَبًّا gibi"
+      "en": "Double fathah",
+      "tr": "Çift üstün"
      },
      "why": {
-      "en": "The double fathah is a tanwin. It stands on صَبًّا, which has no ال; a noun with ال does not take it.",
-      "tr": "Çift üstün tenvindir. Tenvin, ال taşımayan صَبًّا üzerinde durur; ال taşıyan isim bunu almaz."
+      "en": "Double fathah would be tanwin, which does not occur with ال on ٱلْبَابَ.",
+      "tr": "Çift üstün tenvin olurdu; ٱلْبَابَ kelimesinde ال ile birlikte tenvin bulunmaz."
      }
     },
     {
      "text": {
-      "en": "In a single fathah",
-      "tr": "Tek üstün ile"
+      "en": "Single fathah",
+      "tr": "Tek üstün"
      },
      "why": {
-      "en": "Correct. With ال the tanwin is gone and an ordinary single short vowel remains, here a fathah.",
-      "tr": "Doğru. ال ile tenvin kalkar ve tek bir kısa hareke kalır; burada bu üstündür."
+      "en": "Correct. ٱلْبَابَ carries ال and ends with a single fathah, not tanwin.",
+      "tr": "Doğru. ٱلْبَابَ kelimesi ال taşır ve tenvinle değil, tek üstünle biter."
      }
     },
     {
      "text": {
-      "en": "In a single fathah and a double fathah together",
-      "tr": "Hem tek üstün hem çift üstün birlikte"
+      "en": "Single kasrah",
+      "tr": "Tek esre"
      },
      "why": {
-      "en": "A noun cannot end in two endings at once, and tanwin is dropped as soon as ال is attached.",
-      "tr": "İsim aynı anda iki sonla bitemez; ال gelince tenvin zaten düşer."
+      "en": "The final ب of ٱلْبَابَ has a fathah above it, not a kasrah below it.",
+      "tr": "ٱلْبَابَ kelimesinin sonundaki ب harfinin üstünde üstün vardır; altında esre yoktur."
      }
     }
    ],
@@ -1759,51 +1771,51 @@
    "id": "L1W2-t2-09",
    "topic": "t2",
    "difficulty": 2,
-   "ref": "89:20",
-   "quote": "وَتُحِبُّونَ ٱلْمَالَ حُبًّۭا جَمًّۭا",
+   "ref": "24:35",
+   "quote": "ٱلْمِصْبَاحُ فِى زُجَاجَةٍ ۖ",
    "stem": {
-    "en": "Which pair of words from the quote contains one definite noun and one indefinite noun?",
-    "tr": "Alıntıdan hangi kelime çifti bir marife ve bir nekire isim içerir?"
+    "en": "Which analysis of the two nouns in ٱلْمِصْبَاحُ فِى زُجَاجَةٍ is correct?",
+    "tr": "ٱلْمِصْبَاحُ فِى زُجَاجَةٍ ifadesindeki iki isimle ilgili hangi çözümleme doğrudur?"
    },
    "options": [
     {
      "text": {
-      "en": "ٱلْمَالَ and حُبًّا",
-      "tr": "ٱلْمَالَ ve حُبًّا"
+      "en": "ٱلْمِصْبَاحُ is definite; زُجَاجَةٍ is indefinite",
+      "tr": "ٱلْمِصْبَاحُ marifedir; زُجَاجَةٍ nekiredir"
      },
      "why": {
-      "en": "Correct. ٱلْمَالَ begins with ال, so it is definite (\"the wealth\"); حُبًّا ends in a double fathah (tanwin), so it is indefinite (\"a love\").",
-      "tr": "Doğru. ٱلْمَالَ ال ile başlar, bu yüzden marifedir (\"mal\"); حُبًّا çift üstünle (tenvin) biter, bu yüzden nekiredir (\"bir sevgi\")."
+      "en": "Correct. ال marks ٱلْمِصْبَاحُ as definite, while the double kasrah on زُجَاجَةٍ marks it as indefinite.",
+      "tr": "Doğru. ال, ٱلْمِصْبَاحُ kelimesinin marife olduğunu; زُجَاجَةٍ kelimesindeki çift esre ise onun nekire olduğunu gösterir."
      }
     },
     {
      "text": {
-      "en": "حُبًّا and جَمًّا",
-      "tr": "حُبًّا ve جَمًّا"
+      "en": "Both nouns are definite",
+      "tr": "İki isim de marifedir"
      },
      "why": {
-      "en": "Both end in a double fathah (tanwin), so both are indefinite. This pair has no definite noun.",
-      "tr": "İkisi de çift üstünle (tenvin) biter, bu yüzden ikisi de nekiredir. Bu çiftte marife isim yoktur."
+      "en": "زُجَاجَةٍ has tanwin and no ال, so it is indefinite.",
+      "tr": "زُجَاجَةٍ tenvin taşır ve ال taşımaz; bu yüzden nekiredir."
      }
     },
     {
      "text": {
-      "en": "وَتُحِبُّونَ and جَمًّا",
-      "tr": "وَتُحِبُّونَ ve جَمًّا"
+      "en": "Both nouns are indefinite",
+      "tr": "İki isim de nekiredir"
      },
      "why": {
-      "en": "وَتُحِبُّونَ is a verb (present-future form, mudari) with the fused وَ, not a noun. Only جَمًّا is a noun here, and it is indefinite.",
-      "tr": "وَتُحِبُّونَ, bitişen وَ ile birlikte bir fiildir (muzâri), isim değildir. Bu çiftte yalnızca جَمًّا isimdir ve nekiredir."
+      "en": "ٱلْمِصْبَاحُ begins with ال and has no tanwin, so it is definite.",
+      "tr": "ٱلْمِصْبَاحُ ال ile başlar ve tenvin taşımaz; bu yüzden marifedir."
      }
     },
     {
      "text": {
-      "en": "وَتُحِبُّونَ and ٱلْمَالَ",
-      "tr": "وَتُحِبُّونَ ve ٱلْمَالَ"
+      "en": "ٱلْمِصْبَاحُ is indefinite; زُجَاجَةٍ is definite",
+      "tr": "ٱلْمِصْبَاحُ nekiredir; زُجَاجَةٍ marifedir"
      },
      "why": {
-      "en": "ٱلْمَالَ is definite, but وَتُحِبُّونَ is a verb, so it is neither definite nor indefinite. This pair has no indefinite noun.",
-      "tr": "ٱلْمَالَ marifedir, ama وَتُحِبُّونَ bir fiildir; ne marife ne nekiredir. Bu çiftte nekire isim yoktur."
+      "en": "This reverses the visible signs: ٱلْمِصْبَاحُ has ال, and زُجَاجَةٍ has tanwin.",
+      "tr": "Bu, görünen işaretleri ters yorumlar: ٱلْمِصْبَاحُ ال, زُجَاجَةٍ ise tenvin taşır."
      }
     }
    ],
@@ -2191,51 +2203,51 @@
    "id": "L1W2-t2-17",
    "topic": "t2",
    "difficulty": 1,
-   "ref": "19:12",
-   "quote": "ٱلْحُكْمَ صَبِيًّۭا",
+   "ref": "12:82",
+   "quote": "ٱلْقَرْيَةَ",
    "stem": {
-    "en": "One of the two nouns in the quote is indefinite. Which one is it, and what shows it?",
-    "tr": "Alıntıdaki iki isimden biri nekiredir. Hangisi, ve bunu ne gösterir?"
+    "en": "What shows that ٱلْقَرْيَةَ (the village) is definite?",
+    "tr": "ٱلْقَرْيَةَ (köy) kelimesinin marife olduğunu ne gösterir?"
    },
    "options": [
     {
      "text": {
-      "en": "ٱلْحُكْمَ, because of its single fathah",
-      "tr": "ٱلْحُكْمَ; çünkü tek üstün taşıyor"
+      "en": "Its final ة",
+      "tr": "Sonundaki ة"
      },
      "why": {
-      "en": "ٱلْحُكْمَ begins with ال, which is the sign of a definite noun. A single fathah does not make a noun indefinite.",
-      "tr": "ٱلْحُكْمَ, marife işareti olan ال ile başlar. Tek üstün ismi nekire yapmaz."
+      "en": "The round ta in ٱلْقَرْيَةَ does not mark definiteness; the initial ال does.",
+      "tr": "ٱلْقَرْيَةَ kelimesindeki yuvarlak te belirlilik işareti değildir; belirliliği baştaki ال gösterir."
      }
     },
     {
      "text": {
-      "en": "صَبِيًّا, because of its double fathah (tanwin)",
-      "tr": "صَبِيًّا; çünkü çift üstün (tenvin) taşıyor"
+      "en": "The article ال at its beginning",
+      "tr": "Başındaki ال takısı"
      },
      "why": {
-      "en": "Correct. The double fathah (tanwin) at the end is the sign of an indefinite noun: \"a boy\".",
-      "tr": "Doğru. Sondaki çift üstün (tenvin) nekire isim işaretidir: \"bir çocuk\"."
+      "en": "Correct. ٱلْقَرْيَةَ begins with the definite article ال and has no tanwin.",
+      "tr": "Doğru. ٱلْقَرْيَةَ belirlilik takısı ال ile başlar ve tenvin taşımaz."
      }
     },
     {
      "text": {
-      "en": "ٱلْحُكْمَ, because of its ال",
-      "tr": "ٱلْحُكْمَ; çünkü ال taşıyor"
+      "en": "Its single fathah",
+      "tr": "Tek üstün taşıması"
      },
      "why": {
-      "en": "ال is the sign of a definite noun, so it shows the opposite: ٱلْحُكْمَ is \"the judgement\".",
-      "tr": "ال marife ismin işaretidir; yani tam tersini gösterir: ٱلْحُكْمَ \"hüküm\" anlamındadır."
+      "en": "The single fathah in ٱلْقَرْيَةَ is not the marker of definiteness; ال is.",
+      "tr": "ٱلْقَرْيَةَ kelimesindeki tek üstün belirlilik işareti değildir; belirlilik işareti ال takısıdır."
      }
     },
     {
      "text": {
-      "en": "صَبِيًّا, because of the shaddah on its ya",
-      "tr": "صَبِيًّا; çünkü ya harfinde şedde var"
+      "en": "Tanwin at its end",
+      "tr": "Sonundaki tenvin"
      },
      "why": {
-      "en": "A shaddah only doubles a letter; it says nothing about definiteness. The tanwin on صَبِيًّا is what makes it indefinite.",
-      "tr": "Şedde yalnızca harfi çift okutur; marife olmak hakkında bir şey söylemez. صَبِيًّا kelimesini nekire yapan sondaki tenvindir."
+      "en": "ٱلْقَرْيَةَ has no tanwin; it ends with a single fathah.",
+      "tr": "ٱلْقَرْيَةَ tenvin taşımaz; tek üstünle biter."
      }
     }
    ],
@@ -2258,8 +2270,8 @@
       "tr": "وَءَايَةٌ çift ötreyle bittiği için marifedir, ٱلَّيْلُ ise nekiredir."
      },
      "why": {
-      "en": "The two are reversed. Tanwin (the double dammah) marks وَءَايَةٌ as indefinite, and ال marks ٱلَّيْلُ as definite.",
-      "tr": "İkisi ters söylenmiş. Tenvin (çift ötre) وَءَايَةٌ kelimesini nekire yapar, ال ise ٱلَّيْلُ kelimesini marife yapar."
+      "en": "The labels are reversed: the tanwin on وَءَايَةٌ marks the noun as indefinite, while ال in ٱلَّيْلُ marks the noun as definite.",
+      "tr": "Nitelemeler ters verilmiştir: وَءَايَةٌ kelimesindeki tenvin ismin nekire olduğunu, ٱلَّيْلُ kelimesindeki ال ise ismin marife olduğunu gösterir."
      }
     },
     {
@@ -2268,8 +2280,8 @@
       "tr": "İki kelime de nekiredir, çünkü ikisi de bir hareke ile biter."
      },
      "why": {
-      "en": "A single vowel mark is not the sign of indefiniteness; only tanwin is. ٱلَّيْلُ ends in a single dammah and begins with ال, so it is definite.",
-      "tr": "Tek bir hareke nekire işareti değildir; bunun işareti yalnızca tenvindir. ٱلَّيْلُ tek ötreyle biter ve ال ile başlar, bu yüzden marifedir."
+      "en": "ٱلَّيْلُ has a single dammah and the article ال, so it is definite; the double dammah on وَءَايَةٌ is tanwin and marks indefiniteness.",
+      "tr": "ٱلَّيْلُ kelimesinde tek ötre ve ال takısı vardır; bu yüzden isim marifedir. وَءَايَةٌ kelimesindeki çift ötre ise tenvindir ve belirsizliği gösterir."
      }
     },
     {
@@ -2278,8 +2290,8 @@
       "tr": "وَءَايَةٌ tenvinlidir (çift ötre) ve nekiredir, ٱلَّيْلُ ise ال taşır ve marifedir."
      },
      "why": {
-      "en": "Correct. The double dammah is tanwin, the sign of an indefinite noun, and ال at the start of ٱلَّيْلُ is the sign of a definite noun.",
-      "tr": "Doğru. Çift ötre tenvindir ve nekire isim işaretidir; ٱلَّيْلُ başındaki ال ise marife isim işaretidir."
+      "en": "Correct: وَءَايَةٌ has tanwin (double dammah), marking an indefinite noun; the article ال at the start of ٱلَّيْلُ marks a definite noun.",
+      "tr": "Doğru: وَءَايَةٌ kelimesindeki tenvin (çift ötre) nekire isim işaretidir; ٱلَّيْلُ kelimesinin başındaki ال ise marife isim işaretidir."
      }
     },
     {
@@ -2288,8 +2300,8 @@
       "tr": "İki kelime de marifedir, çünkü ikisi de bu ayette geçen isimlerdir."
      },
      "why": {
-      "en": "Being a noun does not make a word definite. وَءَايَةٌ carries tanwin, so it is indefinite; only ٱلَّيْلُ carries ال.",
-      "tr": "İsim olmak bir kelimeyi marife yapmaz. وَءَايَةٌ tenvin taşıdığı için nekiredir; ال yalnızca ٱلَّيْلُ kelimesindedir."
+      "en": "Both are nouns, but their markers differ: وَءَايَةٌ has tanwin and is indefinite, whereas ٱلَّيْلُ has ال and is definite.",
+      "tr": "İkisi de isimdir, ancak işaretleri farklıdır: وَءَايَةٌ tenvin taşır ve nekiredir; ٱلَّيْلُ ise ال taşır ve marifedir."
      }
     }
    ],
@@ -2362,8 +2374,8 @@
    "options": [
     {
      "why": {
-      "en": "Correct. The prefix فَ is joined to the word, but the noun is judged by what follows it: it has ال, so it is definite: \"so today\".",
-      "tr": "Doğru. فَ öneki kelimeye bitişiktir, ancak isim ardından gelene bakılarak değerlendirilir: ال vardır, bu yüzden belirlidir: \"işte bugün\"."
+      "en": "Correct: The prefix فَ is joined to the word, but the noun is judged by what follows it: it has ال, so it is definite: \"so today\".",
+      "tr": "Doğru: فَ öneki kelimeye bitişiktir, ancak isim ardından gelene bakılarak değerlendirilir: ال vardır, bu yüzden belirlidir: \"işte bugün\"."
      },
      "ar": "فَٱلْيَوْمَ"
     },
@@ -2379,7 +2391,7 @@
       "en": "It is a noun with a double fathah (tanwin), so it is indefinite: \"anything\".",
       "tr": "Çift üstün (tenvin) taşıyan bir isimdir, bu yüzden nekiredir: \"hiçbir şey\"."
      },
-     "ar": "شَيْـًا"
+     "ar": "شَيْـًۭٔا"
     },
     {
      "why": {
@@ -2398,8 +2410,8 @@
    "ref": "2:22",
    "quote": "جَعَلَ لَكُمُ ٱلْأَرْضَ فِرَٰشًۭا وَٱلسَّمَآءَ",
    "stem": {
-    "en": "Which word is a definite noun that has a prefix joined to it? (Count the joined prefix as part of the word.)",
-    "tr": "Hangi kelime, başına önek bitişmiş belirli bir isimdir? (Bitişik öneki kelimenin parçası sayın.)"
+    "en": "Which definite noun has an additional joined conjunction before its article ال? (Keep the conjunction within the written word.)",
+    "tr": "Hangi belirli ismin ال takısından önce bitişik bir bağlaç vardır? (Bağlacı yazılı kelimenin içinde tutun.)"
    },
    "options": [
     {
@@ -2411,8 +2423,8 @@
     },
     {
      "why": {
-      "en": "Correct. The prefix وَ is joined to the word, but the noun is judged by what follows it: it has ال and no tanwin, so it is definite: \"and the sky\".",
-      "tr": "Doğru. وَ öneki kelimeye bitişiktir, ancak isim ardından gelene bakılarak değerlendirilir: ال vardır ve tenvin yoktur, bu yüzden belirlidir: \"ve gök\"."
+      "en": "Correct: The prefix وَ is joined to the word, but the noun is judged by what follows it: it has ال and no tanwin, so it is definite: \"and the sky\".",
+      "tr": "Doğru: وَ öneki kelimeye bitişiktir, ancak isim ardından gelene bakılarak değerlendirilir: ال vardır ve tenvin yoktur, bu yüzden belirlidir: \"ve gök\"."
      },
      "ar": "وَٱلسَّمَآءَ"
     },
@@ -2425,8 +2437,8 @@
     },
     {
      "why": {
-      "en": "It begins with ال, so it is a definite noun, but no prefix is joined to it, so it does not fit the question.",
-      "tr": "Başında ال vardır, yani belirli bir isimdir; ancak ona bitişik bir önek yoktur, bu yüzden soruya uymaz."
+      "en": "It begins with ال, so it is a definite noun, but no additional prefix precedes its article, so it does not fit the question.",
+      "tr": "Başında ال vardır, yani belirli bir isimdir; ancak takısından önce ek bir önek yoktur, bu yüzden soruya uymaz."
      },
      "ar": "ٱلْأَرْضَ"
     }
@@ -2816,8 +2828,8 @@
       "tr": "İsmin son harfi olan ن"
      },
      "why": {
-      "en": "The end of the word plays no part. The group is decided by the first letter of the noun after ال, which here is hamza.",
-      "tr": "Kelimenin sonu rol oynamaz. Grubu, ismin ال takısından sonraki ilk harfi belirler; burada bu hemzedir."
+      "en": "The final ن does not determine the group of ٱلْإِنسَـٰنَ; the first letter after ال is hamza.",
+      "tr": "ٱلْإِنسَـٰنَ kelimesinin sonundaki ن grubu belirlemez; ال takısından sonraki ilk harf hemzedir."
      }
     },
     {
@@ -2826,8 +2838,8 @@
       "tr": "ال takısının kendi lamı"
      },
      "why": {
-      "en": "The lam of ال is the same in every definite noun. What changes is the letter after it, and that letter decides how the lam is pronounced.",
-      "tr": "ال takısının lamı her belirli isimde aynıdır. Değişen, ondan sonraki harftir ve lamın nasıl okunacağını o harf belirler."
+      "en": "The lam is part of the article ال in nouns carrying that article; in ٱلْإِنسَـٰنَ, the following hamza determines its pronunciation.",
+      "tr": "Lam, ال takısını taşıyan isimlerde takının bir parçasıdır; ٱلْإِنسَـٰنَ kelimesinde lamın okunuşunu sonraki hemze belirler."
      }
     },
     {
@@ -2836,8 +2848,8 @@
       "tr": "Harflerinin çoğunluğu: ن ve س şemsîdir, o hâlde kelime şemsîdir"
      },
      "why": {
-      "en": "Letters inside the word are not counted. Only the first letter after ال decides, and hamza is lunar, so the word is lunar.",
-      "tr": "Kelimenin içindeki harfler sayılmaz. Yalnızca ال takısından sonraki ilk harf belirler; hemze kamerîdir, dolayısıyla kelime kamerîdir."
+      "en": "The internal ن and س do not determine the group of ٱلْإِنسَـٰنَ; only the initial hamza after ال does, and hamza is lunar.",
+      "tr": "ٱلْإِنسَـٰنَ kelimesinin içindeki ن ve س grubu belirlemez; yalnızca ال takısından sonraki ilk harf belirler ve bu hemze kamerîdir."
      }
     },
     {
@@ -2846,8 +2858,8 @@
       "tr": "İsmin ال takısından sonraki ilk harfi olan hemze; bu yüzden kelime kamerîdir"
      },
      "why": {
-      "en": "Correct. The first letter after ال alone decides the group. Hamza is a lunar letter, so the lam is pronounced clearly.",
-      "tr": "Doğru. Grubu tek başına ال takısından sonraki ilk harf belirler. Hemze kamerî harftir; bu yüzden lam açıkça okunur."
+      "en": "Correct. In ٱلْإِنسَـٰنَ, hamza immediately follows ال; hamza is lunar, so the lam is pronounced.",
+      "tr": "Doğru. ٱلْإِنسَـٰنَ kelimesinde ال takısından hemen sonra hemze gelir; hemze kamerî olduğundan lam okunur."
      }
     }
    ],
@@ -3007,39 +3019,51 @@
    "id": "L1W2-t3-07",
    "topic": "t3",
    "difficulty": 2,
-   "ref": "2:175",
-   "quote": "ٱلضَّلَـٰلَةَ بِٱلْهُدَىٰ وَٱلْعَذَابَ بِٱلْمَغْفِرَةِ ۚ",
+   "ref": "55:19",
+   "quote": "ٱلْبَحْرَيْنِ",
    "stem": {
-    "en": "Of the four nouns below, three begin after ال with a lunar letter and one with a solar letter. Which is the odd one out?",
-    "tr": "Aşağıdaki dört isimden üçü ال takısından sonra kamerî bir harfle, biri şemsî bir harfle başlar. Hangisi farklıdır?"
+    "en": "Which classification of ٱلْبَحْرَيْنِ (the two seas) gives the correct reason?",
+    "tr": "ٱلْبَحْرَيْنِ (iki deniz) kelimesi için hangi sınıflandırmanın gerekçesi doğrudur?"
    },
    "options": [
     {
-     "ar": "بِٱلْهُدَىٰ",
+     "text": {
+      "en": "Solar, because of the final ن",
+      "tr": "Sondaki ن yüzünden şemsî"
+     },
      "why": {
-      "en": "The first letter after ال is ه, a lunar letter, like the letters of two other options. The prefix بِ does not decide. It is not the odd one.",
-      "tr": "ال takısından sonraki ilk harf kamerî olan ه harfidir; diğer iki seçenekteki harfler gibi. بِ öneki belirleyici değildir. Farklı olan bu değildir."
+      "en": "The final ن does not determine the group of ٱلْبَحْرَيْنِ; the ب after ال does.",
+      "tr": "ٱلْبَحْرَيْنِ kelimesinin grubunu sondaki ن değil, ال takısından sonraki ب belirler."
      }
     },
     {
-     "ar": "وَٱلْعَذَابَ",
+     "text": {
+      "en": "Solar, because ال contains ل",
+      "tr": "ال takısı ل içerdiği için şemsî"
+     },
      "why": {
-      "en": "The first letter after ال is ع, a lunar letter. It belongs with the majority, so it is not the odd one.",
-      "tr": "ال takısından sonraki ilk harf kamerî olan ع harfidir. Çoğunlukla aynı gruptadır; farklı olan bu değildir."
+      "en": "The lam belongs to the article; classification uses ب, the first letter of the noun after it.",
+      "tr": "Lam takının parçasıdır; sınıflandırmada takıdan sonra gelen ismin ilk harfi ب esas alınır."
      }
     },
     {
-     "ar": "بِٱلْمَغْفِرَةِ",
+     "text": {
+      "en": "Lunar, because of its final kasrah",
+      "tr": "Sonundaki esre yüzünden kamerî"
+     },
      "why": {
-      "en": "The first letter after ال is م, a lunar letter. The prefix بِ does not decide. It belongs with the majority, so it is not the odd one.",
-      "tr": "ال takısından sonraki ilk harf kamerî olan م harfidir. بِ öneki belirleyici değildir. Çoğunlukla aynı gruptadır; farklı olan bu değildir."
+      "en": "The ending of ٱلْبَحْرَيْنِ does not determine its group; its initial ب after ال does.",
+      "tr": "ٱلْبَحْرَيْنِ kelimesinin grubunu son hareke değil, ال takısından hemen sonraki ب belirler."
      }
     },
     {
-     "ar": "ٱلضَّلَـٰلَةَ",
+     "text": {
+      "en": "Lunar, because ب immediately follows ال",
+      "tr": "ال takısından hemen sonra ب geldiği için kamerî"
+     },
      "why": {
-      "en": "Correct. The first letter after ال is ض, a solar letter, so the lam merges into it. The other three begin with lunar letters (ه, ع, م).",
-      "tr": "Doğru. ال takısından sonraki ilk harf şemsî olan ض harfidir; lam ona katılır. Diğer üçü kamerî harflerle (ه، ع، م) başlar."
+      "en": "Correct. ب is lunar, so the lam of ال in ٱلْبَحْرَيْنِ is pronounced clearly.",
+      "tr": "Doğru. ب kamerîdir; bu yüzden ٱلْبَحْرَيْنِ kelimesinde ال takısının lamı açıkça okunur."
      }
     }
    ],
@@ -3049,39 +3073,51 @@
    "id": "L1W2-t3-08",
    "topic": "t3",
    "difficulty": 2,
-   "ref": "2:155",
-   "quote": "مِّنَ ٱلْخَوْفِ وَٱلْجُوعِ وَنَقْصٍۢ مِّنَ ٱلْأَمْوَٰلِ وَٱلْأَنفُسِ وَٱلثَّمَرَٰتِ ۗ",
+   "ref": "106:2",
+   "quote": "وَٱلصَّيْفِ",
    "stem": {
-    "en": "Which of these nouns begins, after ال, with a solar letter?",
-    "tr": "Bu isimlerden hangisi ال takısından sonra şemsî bir harfle başlar?"
+    "en": "Does the prefixed وَ make وَٱلصَّيْفِ (\"and the summer\") lunar, or is the noun solar?",
+    "tr": "Baştaki وَ öneki وَٱلصَّيْفِ (\"ve yaz\") kelimesini kamerî mi yapar, yoksa isim şemsî midir?"
    },
    "options": [
     {
-     "ar": "ٱلْخَوْفِ",
+     "text": {
+      "en": "Lunar, because وَ comes first",
+      "tr": "İlk sırada وَ bulunduğu için kamerî"
+     },
      "why": {
-      "en": "The first letter after ال is خ, a lunar letter, so the lam of ال is pronounced. It is not solar.",
-      "tr": "ال takısından sonraki ilk harf kamerî olan خ harfidir; bu yüzden ال takısının lamı okunur. Şemsî değildir."
+      "en": "The وَ in وَٱلصَّيْفِ precedes ال; it is not the letter used to classify the noun.",
+      "tr": "وَٱلصَّيْفِ kelimesindeki وَ, ال takısından önce gelir; ismin grubunu belirleyen harf değildir."
      }
     },
     {
-     "ar": "وَٱلثَّمَرَٰتِ",
+     "text": {
+      "en": "Solar, because ص comes immediately after ال",
+      "tr": "ال takısından hemen sonra ص geldiği için şemsî"
+     },
      "why": {
-      "en": "Correct. The first letter after ال is ث, a solar letter, so the lam merges into it and ث is read with a shaddah.",
-      "tr": "Doğru. ال takısından sonraki ilk harf şemsî olan ث harfidir; lam ona katılır ve ث şeddeli okunur."
+      "en": "Correct. In وَٱلصَّيْفِ, ص is the first letter after ال and is solar; the prefix does not change that.",
+      "tr": "Doğru. وَٱلصَّيْفِ kelimesinde ال takısından sonraki ilk harf ص şemsîdir; önek bunu değiştirmez."
      }
     },
     {
-     "ar": "وَٱلْجُوعِ",
+     "text": {
+      "en": "Lunar, because ي is lunar",
+      "tr": "ي kamerî olduğu için kamerî"
+     },
      "why": {
-      "en": "The first letter after ال is ج, a lunar letter. The prefix وَ does not decide the group. It is not solar.",
-      "tr": "ال takısından sonraki ilk harf kamerî olan ج harfidir. Öndeki وَ öneki grubu belirlemez. Şemsî değildir."
+      "en": "ي occurs later in the noun; the ص immediately after ال determines its group.",
+      "tr": "ي isimde daha sonra gelir; grubu ال takısından hemen sonraki ص belirler."
      }
     },
     {
-     "ar": "وَٱلْأَنفُسِ",
+     "text": {
+      "en": "Neither, because a prefix prevents classification",
+      "tr": "Önek sınıflandırmayı engellediği için ikisi de değil"
+     },
      "why": {
-      "en": "This one contains the solar letters ن and س, but they come later in the word. The first letter after ال is hamza, which is lunar.",
-      "tr": "Bu kelime şemsî ن ve س harflerini içerir, ama bunlar kelimenin ilerisindedir. ال takısından sonraki ilk harf kamerî olan hemzedir."
+      "en": "وَٱلصَّيْفِ retains ال after the joined prefix, so its noun can still be classified as solar.",
+      "tr": "وَٱلصَّيْفِ bitişik önekten sonra ال takısını korur; bu yüzden isim yine şemsî olarak sınıflandırılabilir."
      }
     }
    ],
@@ -3095,13 +3131,13 @@
    "quote": "فِى ٱلْمِيزَانِ",
    "stem": {
     "en": "In فِى ٱلْمِيزَانِ (\"in the balance\"), which letter decides the group of ٱلْمِيزَانِ, and what is the result?",
-    "tr": "فِى ٱلْمِيزَانِ (\"teraziye\") ifadesinde ٱلْمِيزَانِ kelimesinin grubunu hangi harf belirler ve sonuç nedir?"
+    "tr": "فِى ٱلْمِيزَانِ (\"terazide\") ifadesinde ٱلْمِيزَانِ kelimesinin grubunu hangi harf belirler ve sonuç nedir?"
    },
    "options": [
     {
      "why": {
-      "en": "Correct. The letter right after ال decides. م is a lunar letter, so the lam of ال is pronounced clearly.",
-      "tr": "Doğru. Belirleyen, ال takısından hemen sonraki harftir. م kamerî bir harftir; bu yüzden ال takısının lamı açıkça okunur."
+      "en": "Correct. م immediately follows ال in ٱلْمِيزَانِ; it is lunar, so the lam is pronounced.",
+      "tr": "Doğru. ٱلْمِيزَانِ kelimesinde ال takısından hemen sonra م gelir; م kamerîdir, bu yüzden lam okunur."
      },
      "text": {
       "en": "The first letter after ال, which is م, so the noun is lunar",
@@ -3110,8 +3146,8 @@
     },
     {
      "why": {
-      "en": "The preposition stands before ال and never decides the group. Reaching a lunar result this way is luck, not a rule.",
-      "tr": "Edat ال takısından önce gelir ve grubu asla belirlemez. Bu yoldan kamerî sonucuna varmak kural değil, tesadüftür."
+      "en": "The ي belongs to فِى, the preceding particle; it does not classify ٱلْمِيزَانِ.",
+      "tr": "ي, önceki harf olan فِى kelimesine aittir; ٱلْمِيزَانِ kelimesinin grubunu belirlemez."
      },
      "text": {
       "en": "The ي of فِى before it, so the noun is lunar",
@@ -3120,8 +3156,8 @@
     },
     {
      "why": {
-      "en": "The last letter never decides the group. The deciding letter is the one right after ال, which is م, a lunar letter.",
-      "tr": "Son harf grubu asla belirlemez. Belirleyici harf ال takısından hemen sonra gelen, kamerî olan م harfidir."
+      "en": "Although ن is solar, it is the last letter of ٱلْمِيزَانِ; the initial م after ال determines the group.",
+      "tr": "ن şemsî olsa da ٱلْمِيزَانِ kelimesinin son harfidir; grubu ال takısından hemen sonraki م belirler."
      },
      "text": {
       "en": "The last letter ن, so the noun is solar",
@@ -3130,8 +3166,8 @@
     },
     {
      "why": {
-      "en": "ز is a solar letter, but it stands in the middle of the word. Only the letter right after ال counts.",
-      "tr": "ز şemsî bir harftir, ama kelimenin ortasındadır. Yalnızca ال takısından hemen sonraki harf sayılır."
+      "en": "ز is solar but occurs inside ٱلْمِيزَانِ; the deciding letter is م immediately after ال.",
+      "tr": "ز şemsîdir, ancak ٱلْمِيزَانِ kelimesinin içinde bulunur; belirleyici harf ال takısından hemen sonraki م harfidir."
      },
      "text": {
       "en": "The letter ز, so the noun is solar",
@@ -3361,51 +3397,51 @@
    "id": "L1W2-t3-14",
    "topic": "t3",
    "difficulty": 3,
-   "ref": "2:25",
-   "quote": "تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ ۖ",
+   "ref": "75:7",
+   "quote": "بَرِقَ ٱلْبَصَرُ",
    "stem": {
-    "en": "In the phrase تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ, only one word carries ال. Which word is it, and which group is it in?",
-    "tr": "تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ ifadesinde ال taşıyan yalnızca bir kelime vardır. Bu hangi kelimedir ve hangi gruba girer?"
+    "en": "Which analysis correctly identifies the noun with ال and its solar/lunar group in this phrase?",
+    "tr": "Bu ifadede ال taşıyan ismi ve şemsî/kamerî grubunu hangi çözümleme doğru belirler?"
    },
    "options": [
     {
      "text": {
-      "en": "ٱلْأَنْهَـٰرُ, lunar, because the first letter after ال is hamza",
-      "tr": "ٱلْأَنْهَـٰرُ, kamerî; çünkü ال takısından sonraki ilk harf hemzedir"
+      "en": "ٱلْبَصَرُ: lunar, because ب immediately follows ال",
+      "tr": "ٱلْبَصَرُ: kamerîdir; çünkü ال takısından hemen sonra ب gelir"
      },
      "why": {
-      "en": "Correct. Only ٱلْأَنْهَـٰرُ carries ال. Hamza is a lunar letter, so the lam is pronounced: al-anhar.",
-      "tr": "Doğru. ال taşıyan tek kelime ٱلْأَنْهَـٰرُ kelimesidir. Hemze kamerî harftir; bu yüzden lam okunur: al-anhar."
+      "en": "Correct. ٱلْبَصَرُ carries ال followed by lunar ب, so the lam is pronounced.",
+      "tr": "Doğru. ٱلْبَصَرُ kelimesinde ال takısından sonra kamerî ب gelir; bu yüzden lam okunur."
      }
     },
     {
      "text": {
-      "en": "تَحْتِهَا, solar, because it begins with ت",
-      "tr": "تَحْتِهَا, şemsî; çünkü ت ile başlar"
+      "en": "ٱلْبَصَرُ: solar, because its final letter is ر",
+      "tr": "ٱلْبَصَرُ: şemsîdir; çünkü son harfi ر harfidir"
      },
      "why": {
-      "en": "تَحْتِهَا carries no ال, so the question of solar or lunar does not arise for it. The group is judged only for a noun with ال.",
-      "tr": "تَحْتِهَا ال taşımaz; bu yüzden onun için şemsî/kamerî sorusu gündeme gelmez. Grup yalnızca ال taşıyan bir isim için belirlenir."
+      "en": "The final ر does not determine the group; the first letter after ال is lunar ب.",
+      "tr": "Sondaki ر grubu belirlemez; ال takısından sonraki ilk harf ب kamerîdir."
      }
     },
     {
      "text": {
-      "en": "تَجْرِى, lunar, because it begins with ج",
-      "tr": "تَجْرِى, kamerî; çünkü ج ile başlar"
+      "en": "بَرِقَ: lunar, because it begins with ب",
+      "tr": "بَرِقَ: kamerîdir; çünkü ب ile başlar"
      },
      "why": {
-      "en": "تَجْرِى carries no ال; it is a verb, and a verb does not take ال. The group is judged only for a noun with ال.",
-      "tr": "تَجْرِى ال taşımaz; bu bir fiildir ve fiil ال almaz. Grup yalnızca ال taşıyan bir isim için belirlenir."
+      "en": "بَرِقَ is a past-form verb without ال; this solar/lunar classification does not apply to it.",
+      "tr": "بَرِقَ ال taşımayan madi bir fiildir; bu şemsî/kamerî sınıflandırması ona uygulanmaz."
      }
     },
     {
      "text": {
-      "en": "ٱلْأَنْهَـٰرُ, solar, because its second letter ن is solar",
-      "tr": "ٱلْأَنْهَـٰرُ, şemsî; çünkü ikinci harfi ن şemsîdir"
+      "en": "Both words carry ال and are lunar",
+      "tr": "İki kelime de ال taşır ve kamerîdir"
      },
      "why": {
-      "en": "The word is right, but the group is wrong. Only the first letter after ال counts, and that is hamza, which is lunar.",
-      "tr": "Kelime doğru, ama grup yanlıştır. Yalnızca ال takısından sonraki ilk harf sayılır; o da kamerî olan hemzedir."
+      "en": "Only ٱلْبَصَرُ carries ال; بَرِقَ is a verb without the definite article.",
+      "tr": "Yalnızca ٱلْبَصَرُ ال taşır; بَرِقَ belirlilik takısı taşımayan bir fiildir."
      }
     }
    ],
@@ -3415,51 +3451,51 @@
    "id": "L1W2-t3-15",
    "topic": "t3",
    "difficulty": 2,
-   "ref": "55:2",
-   "quote": "ٱلْقُرْءَانَ",
+   "ref": "2:187",
+   "quote": "ٱلْخَيْطُ",
    "stem": {
-    "en": "How is the lam of ال pronounced in ٱلْقُرْءَانَ (\"the Qur'an\"), and why?",
-    "tr": "ٱلْقُرْءَانَ (\"Kur'an\") kelimesinde ال takısının lamı nasıl okunur ve neden?"
+    "en": "Which classification of ٱلْخَيْطُ (\"the thread\") has the correct reason?",
+    "tr": "ٱلْخَيْطُ (\"iplik\") kelimesi için hangi sınıflandırmanın gerekçesi doğrudur?"
    },
    "options": [
     {
      "text": {
-      "en": "The lam of ال is merged into the next letter and doubled with a shaddah, because the word is solar",
-      "tr": "ال takısının lamı sonraki harfe katılır ve şedde ile ikilenir, çünkü kelime şemsîdir"
+      "en": "Solar, because خ follows ال",
+      "tr": "Şemsî; çünkü ال takısından sonra خ gelir"
      },
      "why": {
-      "en": "The word is not solar. The first letter after ال is ق, which is on the lunar list, so nothing merges and no shaddah appears.",
-      "tr": "Kelime şemsî değildir. ال takısından sonraki ilk harf kamerî listede yer alan ق harfidir; bu yüzden birleşme olmaz ve şedde de görülmez."
+      "en": "خ is a lunar letter, so this noun belongs to the lunar group.",
+      "tr": "خ kamerî bir harftir; bu yüzden bu isim kamerî gruba girer."
      }
     },
     {
      "text": {
-      "en": "The lam is merged, because the word ends with the vowel fathah",
-      "tr": "Lam birleşir, çünkü kelime üstün (fetha) harekesiyle biter"
+      "en": "Lunar, because the final letter is ط",
+      "tr": "Kamerî; çünkü son harf ط harfidir"
      },
      "why": {
-      "en": "The ending of the word never decides whether the lam is merged. Only the first letter after ال counts, and ق is lunar.",
-      "tr": "Kelimenin sonu lamın birleşip birleşmeyeceğini belirlemez. Yalnızca ال takısından sonraki ilk harf sayılır; ق ise kamerîdir."
+      "en": "The group is lunar, but the reason is wrong: the first letter after ال, خ, decides the group, not the final ط.",
+      "tr": "Kamerî sınıflandırması doğrudur, ancak gerekçesi yanlıştır: grubu sondaki ط değil, ال takısından sonraki ilk harf olan خ belirler."
      }
     },
     {
      "text": {
-      "en": "The lam of ال is pronounced clearly, because the first letter after it, ق, is lunar",
-      "tr": "ال takısının lamı açıkça okunur, çünkü ondan sonraki ilk harf olan ق kamerîdir"
+      "en": "Lunar, because the first letter after ال is خ",
+      "tr": "Kamerî; çünkü ال takısından sonraki ilk harf خ harfidir"
      },
      "why": {
-      "en": "Correct. ق is on the lunar list, so the lam is pronounced and the sukun stays on it: al-qur'an.",
-      "tr": "Doğru. ق kamerî listededir; bu yüzden lam okunur ve üzerinde sükûn kalır: al-qur'an."
+      "en": "Correct. خ is on the lunar list, so the noun is lunar and the lam of ال is pronounced clearly.",
+      "tr": "Doğru. خ kamerî harflerdendir; bu yüzden isim kamerîdir ve ال takısının lamı açıkça okunur."
      }
     },
     {
      "text": {
-      "en": "The lam of ال is pronounced clearly, because the word has a shaddah",
-      "tr": "ال takısının lamı açıkça okunur, çünkü kelimede şedde vardır"
+      "en": "Solar, because the article contains ل",
+      "tr": "Şemsî; çünkü takıda ل bulunur"
      },
      "why": {
-      "en": "The lam is indeed pronounced, but the reason is wrong. This word has no shaddah on its first letter; the reason is that ق is lunar.",
-      "tr": "Lamın okunduğu doğru, ama gerekçe yanlıştır. Bu kelimenin ilk harfinde şedde yoktur; asıl neden ق harfinin kamerî olmasıdır."
+      "en": "The ل in the article is shared by both groups; it does not classify ٱلْخَيْطُ. The following خ makes this noun lunar.",
+      "tr": "Takıdaki ل her iki grupta da bulunur; ٱلْخَيْطُ kelimesinin grubunu belirlemez. Ardından gelen خ bu ismi kamerî yapar."
      }
     }
    ],
@@ -3478,8 +3514,8 @@
    "options": [
     {
      "why": {
-      "en": "Correct. The first letter after ال is ص, one of the solar letters. The lam of ال merges into it (idgham) and ص is read with a shaddah.",
-      "tr": "Doğru. ال takısından sonraki ilk harf ص harfidir ve şemsî harflerdendir. ال takısının lamı ona katılır (idgam) ve ص şeddeli okunur."
+      "en": "ص follows the article in ٱلصُّورِ and is solar; therefore the lam merges into ص, which is read doubled.",
+      "tr": "ٱلصُّورِ kelimesinde takıdan sonra şemsî olan ص gelir; bu yüzden lam ص harfine katılır ve bu harf çift okunur."
      },
      "text": {
       "en": "Solar, because the first letter after ال is ص",
@@ -3488,8 +3524,8 @@
     },
     {
      "why": {
-      "en": "The first letter after ال is ص, which is not among the lunar letters (hamza/alif, ب ج ح خ ع غ ف ق ك م و ه ي).",
-      "tr": "ال takısından sonraki ilk harf ص harfidir; bu harf kamerî harfler (hemze/elif, ب ج ح خ ع غ ف ق ك م و ه ي) arasında değildir."
+      "en": "ص is solar, not lunar, so ٱلصُّورِ cannot be classified as lunar.",
+      "tr": "ص kamerî değil, şemsîdir; bu yüzden ٱلصُّورِ kamerî olarak sınıflandırılamaz."
      },
      "text": {
       "en": "Lunar, because ص is a lunar letter",
@@ -3498,8 +3534,8 @@
     },
     {
      "why": {
-      "en": "ٱلصُّورِ carries ال, so it has a group. A verb elsewhere in the phrase does not remove its group; only its own first letter after ال decides.",
-      "tr": "ٱلصُّورِ, ال takısını taşıdığı için bir grubu vardır. İfadedeki bir fiil grubu ortadan kaldırmaz; yalnızca ال takısından sonraki kendi ilk harfi belirler."
+      "en": "ٱلصُّورِ carries ال and can therefore be classified by the following ص; the verb in the phrase does not affect this.",
+      "tr": "ٱلصُّورِ kelimesi ال takısını taşır; bu yüzden ardından gelen ص harfine göre sınıflandırılabilir. İfadedeki fiil bunu etkilemez."
      },
      "text": {
       "en": "Neither group, because the phrase contains a verb",
@@ -3508,8 +3544,8 @@
     },
     {
      "why": {
-      "en": "The group is right but the reason is wrong. A preposition stands before ال and never decides the group; the first letter ص after ال does.",
-      "tr": "Grup doğru ama gerekçe yanlış. Edat ال takısından önce gelir ve grubu asla belirlemez; belirleyen, ال takısından sonraki ilk harf olan ص harfidir."
+      "en": "فِى is a separate preposition before the noun. Its presence does not decide the group; ص after ال makes the noun solar.",
+      "tr": "فِى isimden önce gelen ayrı bir edattır. Varlığı grubu belirlemez; ال takısından sonraki ص ismi şemsî yapar."
      },
      "text": {
       "en": "Solar, because the preposition فِى stands before it",
@@ -3532,8 +3568,8 @@
    "options": [
     {
      "why": {
-      "en": "The end of the word does not decide. ر is a solar letter, so judging by it would give the wrong group; the noun is lunar because of its first letter.",
-      "tr": "Kelimenin sonu belirleyici değildir. ر şemsî bir harftir; ona bakmak yanlış gruba götürür. İsim, ilk harfi sebebiyle kamerîdir."
+      "en": "The final ر is solar, but it does not determine the group of ٱلْكَوْثَرَ; the initial ك after ال is lunar.",
+      "tr": "Sondaki ر şemsîdir, ancak ٱلْكَوْثَرَ kelimesinin grubunu belirlemez; ال takısından sonraki ilk harf ك kamerîdir."
      },
      "text": {
       "en": "The last letter, ر",
@@ -3542,8 +3578,8 @@
     },
     {
      "why": {
-      "en": "The ل of ال is the same in every definite noun, so it cannot tell one noun from another. The letter after it decides.",
-      "tr": "ال takısındaki ل her belirli isimde aynıdır; bu yüzden bir ismi ötekinden ayıramaz. Belirleyen, ondan sonra gelen harftir."
+      "en": "The ل belongs to the article ال in nouns carrying that article; in ٱلْكَوْثَرَ, the following ك determines the group.",
+      "tr": "ل, ال takısını taşıyan isimlerde takıya aittir; ٱلْكَوْثَرَ kelimesinde grubu sonraki ك belirler."
      },
      "text": {
       "en": "The letter ل of ال",
@@ -3552,8 +3588,8 @@
     },
     {
      "why": {
-      "en": "Correct. The first letter of the noun after ال decides. ك is a lunar letter, so the lam of ال is pronounced clearly: al-kawthar.",
-      "tr": "Doğru. Grubu ال takısından sonra gelen ismin ilk harfi belirler. ك kamerî bir harftir; bu yüzden ال takısının lamı açıkça okunur: al-kawthar."
+      "en": "Correct. The first letter after ال in ٱلْكَوْثَرَ is ك, a lunar letter, so the lam is pronounced: al-kawthar.",
+      "tr": "Doğru. ٱلْكَوْثَرَ kelimesinde ال takısından sonraki ilk harf ك kamerîdir; bu yüzden lam okunur: al-kawthar."
      },
      "text": {
       "en": "The first letter after ال, which is ك",
@@ -3562,8 +3598,8 @@
     },
     {
      "why": {
-      "en": "Letters inside the word do not decide. Only the first letter after ال counts, so ث is irrelevant here.",
-      "tr": "Kelimenin içindeki harfler belirleyici değildir. Yalnızca ال takısından sonraki ilk harf sayılır; bu yüzden ث burada önemsizdir."
+      "en": "The internal ث does not determine the group of ٱلْكَوْثَرَ; the first letter after ال is ك, which is lunar.",
+      "tr": "ٱلْكَوْثَرَ kelimesinin içindeki ث grubu belirlemez; ال takısından sonraki ilk harf ك kamerîdir."
      },
      "text": {
       "en": "The middle letter, ث",
@@ -3586,8 +3622,8 @@
    "options": [
     {
      "why": {
-      "en": "The first letter after ال is hamza/alif, a lunar letter, so nothing merges. The lam of ال is pronounced clearly.",
-      "tr": "ال takısından sonraki ilk harf hemze/elif'tir ve kamerîdir; bu yüzden hiçbir birleşme olmaz. ال takısının lamı açıkça okunur."
+      "en": "Hamza after ال is lunar, so the lam is pronounced clearly and does not merge.",
+      "tr": "ال takısından sonraki hemze kamerî bir harftir; bu yüzden lam başka bir harfe katılmaz ve açıkça okunur."
      },
      "text": {
       "en": "Solar, because the word begins with a vowel sound, so the lam merges into it",
@@ -3596,8 +3632,8 @@
     },
     {
      "why": {
-      "en": "Correct. Hamza/alif is a lunar letter, so the lam of ال is pronounced clearly and carries a sukun.",
-      "tr": "Doğru. Hemze/elif kamerî bir harftir; bu yüzden ال takısının lamı açıkça okunur ve sükûnludur."
+      "en": "Correct: hamza is lunar, so the lam of ال is clearly pronounced and carries a sukun.",
+      "tr": "Doğru: hemze kamerîdir; dolayısıyla ال takısının lamı açıkça okunur ve sükûn taşır."
      },
      "text": {
       "en": "Lunar, because the first letter after ال is hamza",
@@ -3606,8 +3642,8 @@
     },
     {
      "why": {
-      "en": "A noun beginning with hamza can take ال, as this word shows, and it then belongs to the lunar group.",
-      "tr": "Hemze ile başlayan bir isim, bu kelimenin gösterdiği gibi, ال alabilir ve kamerî gruba girer."
+      "en": "This word shows that a noun beginning with hamza can carry ال; its hamza makes it lunar.",
+      "tr": "Bu kelime, hemze ile başlayan bir ismin ال takısını alabileceğini gösterir; hemze nedeniyle isim kamerî gruba girer."
      },
      "text": {
       "en": "Neither group, because a noun beginning with hamza cannot take ال",
@@ -3616,8 +3652,8 @@
     },
     {
      "why": {
-      "en": "The group is right but the reason is wrong. The end of the word never decides; the hamza after ال does.",
-      "tr": "Grup doğru ama gerekçe yanlış. Kelimenin sonu asla belirleyici olmaz; belirleyen, ال takısından sonraki hemzedir."
+      "en": "The group is lunar, but the deciding letter is the hamza after ال, not the final round ta.",
+      "tr": "Grup kamerîdir, ancak bunu sondaki yuvarlak te değil, ال takısından sonraki hemze belirler."
      },
      "text": {
       "en": "Lunar, because the word ends with the round ta (ة)",
@@ -3631,51 +3667,39 @@
    "id": "L1W2-t3-19",
    "topic": "t3",
    "difficulty": 2,
-   "ref": "92:2",
-   "quote": "وَٱلنَّهَارِ إِذَا تَجَلَّىٰ",
+   "ref": "12:39",
+   "quote": "ٱلسِّجْنِ",
    "stem": {
-    "en": "In وَٱلنَّهَارِ (\"and the day\") the lam of ال is not pronounced; it merges into the next letter. What is the reason?",
-    "tr": "وَٱلنَّهَارِ (\"ve gündüz\") kelimesinde ال takısının lamı okunmaz, sonraki harfe katılır. Bunun sebebi nedir?"
+    "en": "Which letter determines that ٱلسِّجْنِ (\"the prison\") is solar?",
+    "tr": "ٱلسِّجْنِ (\"hapishane\") kelimesinin şemsî olduğunu hangi harf belirler?"
    },
    "options": [
     {
-     "text": {
-      "en": "The prefix وَ before ال silences the lam",
-      "tr": "ال takısından önceki وَ öneki lamı susturur"
-     },
+     "ar": "ا",
      "why": {
-      "en": "The prefix is only part of the written word; it does not decide the lam. The first letter after ال does, and here it is ن.",
-      "tr": "Önek yalnızca yazılan kelimenin parçasıdır; lamı o belirlemez. Lamı ال takısından sonraki ilk harf belirler, burada bu ن harfidir."
+      "en": "The alif is part of ال; classification depends on the first letter of the noun after that article.",
+      "tr": "Elif, ال takısının parçasıdır; sınıflandırma, takıdan sonra gelen ismin ilk harfine bağlıdır."
      }
     },
     {
-     "text": {
-      "en": "ن is a lunar letter, and lunar letters absorb the lam",
-      "tr": "ن kamerî bir harftir ve kamerî harfler lamı yutar"
-     },
+     "ar": "ل",
      "why": {
-      "en": "ن is a solar letter, and it is solar letters, not lunar ones, that absorb the lam. Before a lunar letter the lam stays clear.",
-      "tr": "ن şemsî bir harftir; lamı yutan kamerî değil şemsî harflerdir. Kamerî harften önce lam açık okunur."
+      "en": "The lam belongs to ال. In ٱلسِّجْنِ, the س after the article determines the group.",
+      "tr": "Lam, ال takısının parçasıdır. ٱلسِّجْنِ kelimesinde grubu takıdan sonraki س belirler."
      }
     },
     {
-     "text": {
-      "en": "The noun ends with ر, and the last letter silences the lam",
-      "tr": "İsim ر ile biter ve son harf lamı susturur"
-     },
+     "ar": "ن",
      "why": {
-      "en": "The last letter plays no role; only the first letter after ال decides how the lam is read.",
-      "tr": "Son harfin bir rolü yoktur; lamın nasıl okunacağını yalnızca ال takısından sonraki ilk harf belirler."
+      "en": "ن ends ٱلسِّجْنِ. Its being solar does not determine this noun’s group, because it is not the first letter after ال.",
+      "tr": "ن, ٱلسِّجْنِ kelimesinin son harfidir. Şemsî olması bu ismin grubunu belirlemez; çünkü ال takısından sonraki ilk harf değildir."
      }
     },
     {
-     "text": {
-      "en": "The first letter after ال is ن, a solar letter, so the lam merges into it (idgham) and ن is doubled with a shaddah",
-      "tr": "ال takısından sonraki ilk harf şemsî olan ن harfidir; bu yüzden lam ona katılır (idgam) ve ن şeddeli okunur"
-     },
+     "ar": "س",
      "why": {
-      "en": "Correct: after a solar letter the lam is not pronounced and the letter is doubled, as the shaddah on ن shows.",
-      "tr": "Doğru: şemsî harften önce lam okunmaz ve harf çiftlenir; ن üzerindeki şedde bunu gösterir."
+      "en": "Correct. س immediately follows ال and is solar, so the lam merges into it and س is read doubled.",
+      "tr": "Doğru. س, ال takısından hemen sonra gelir ve şemsîdir; lam ona katılır ve س çift okunur."
      }
     }
    ],
@@ -3695,29 +3719,29 @@
     {
      "ar": "ٱلْأَرْضِ",
      "why": {
-      "en": "ٱلْأَرْضِ carries ال, so it does have a group: the first letter after ال is hamza/alif, which is lunar.",
-      "tr": "ٱلْأَرْضِ, ال taşır; bu yüzden bir grubu vardır: ال takısından sonraki ilk harf hemze/elif'tir ve kamerîdir."
+      "en": "ٱلْأَرْضِ has ال followed by hamza, a lunar letter, so this noun has a lunar classification.",
+      "tr": "ٱلْأَرْضِ kelimesi ال takısını taşır; takıdan sonraki hemze kamerî bir harftir, dolayısıyla bu isim kamerî gruba girer."
      }
     },
     {
      "ar": "وَيُهْلِكَ",
      "why": {
-      "en": "Correct. وَيُهْلِكَ is a verb (mudari, present-future form) and a verb does not take ال, so it has no solar or lunar group. Its first letter after the prefix, ي, is a lunar letter, but that only matters after ال.",
-      "tr": "Doğru. وَيُهْلِكَ bir fiildir (muzâri) ve fiil ال almaz; bu yüzden şemsî veya kamerî bir grubu yoktur. Önekten sonraki ilk harfi ي kamerî bir harftir, ama bu yalnızca ال takısından sonra önem taşır."
+      "en": "Correct: وَيُهْلِكَ is a present-future-form verb with the prefix وَ and no ال; classification of the article as solar or lunar does not apply.",
+      "tr": "Doğru: وَيُهْلِكَ kelimesi وَ öneki taşıyan bir muzâri fiildir ve ال takısı almaz; bu yüzden takının şemsî/kamerî sınıflandırması bu kelimeye uygulanmaz."
      }
     },
     {
      "ar": "ٱلْحَرْثَ",
      "why": {
-      "en": "ٱلْحَرْثَ carries ال, so it does have a group: the first letter after ال is ح, which is lunar.",
-      "tr": "ٱلْحَرْثَ, ال taşır; bu yüzden bir grubu vardır: ال takısından sonraki ilk harf kamerî olan ح harfidir."
+      "en": "ٱلْحَرْثَ has ال followed by the lunar letter ح, so it belongs to the lunar group.",
+      "tr": "ٱلْحَرْثَ kelimesi ال takısını taşır; takıdan sonraki ح kamerî bir harftir, dolayısıyla bu isim kamerî gruba girer."
      }
     },
     {
      "ar": "وَٱلنَّسْلَ",
      "why": {
-      "en": "وَٱلنَّسْلَ carries ال after the prefix وَ, so it does have a group: the first letter after ال is ن, which is solar.",
-      "tr": "وَٱلنَّسْلَ, وَ önekinden sonra ال taşır; bu yüzden bir grubu vardır: ال takısından sonraki ilk harf şemsî olan ن harfidir."
+      "en": "وَٱلنَّسْلَ has ال after the attached وَ; the solar letter ن immediately follows the article.",
+      "tr": "وَٱلنَّسْلَ kelimesinde bitişik وَ önekinden sonra ال takısı bulunur; takıdan hemen sonraki ن şemsî bir harftir."
      }
     }
    ],
@@ -4006,8 +4030,8 @@
    "options": [
     {
      "why": {
-      "en": "Letters inside the word do not decide. The first letter after ال is ذ, which is solar.",
-      "tr": "Kelimenin içindeki harfler belirleyici değildir. ال takısından sonraki ilk harf şemsî olan ذ harfidir."
+      "en": "The internal ك is lunar, but the group of ٱلذَّكَرُ depends on ذ immediately after ال, which is solar.",
+      "tr": "İçteki ك kamerîdir, ancak ٱلذَّكَرُ kelimesinin grubu ال takısından hemen sonraki şemsî ذ harfine bağlıdır."
      },
      "text": {
       "en": "Lunar, because it contains ك, a lunar letter",
@@ -4016,8 +4040,8 @@
     },
     {
      "why": {
-      "en": "The group is right but the reason is wrong. The last letter never decides; the first letter after ال does.",
-      "tr": "Grup doğru ama gerekçe yanlış. Son harf asla belirleyici olmaz; belirleyen, ال takısından sonraki ilk harftir."
+      "en": "The group is correct, but the reason is wrong: in ٱلذَّكَرُ, initial ذ after ال determines the group, not final ر.",
+      "tr": "Grup doğru, ancak gerekçe yanlıştır: ٱلذَّكَرُ kelimesinde grubu sondaki ر değil, ال takısından sonraki ilk harf ذ belirler."
      },
      "text": {
       "en": "Solar, because its last letter ر is a solar letter",
@@ -4026,8 +4050,8 @@
     },
     {
      "why": {
-      "en": "Correct. ذ is a solar letter, so the lam of ال merges into it (idgham) and ذ is read with a shaddah.",
-      "tr": "Doğru. ذ şemsî bir harftir; ال takısının lamı ona katılır (idgam) ve ذ şeddeli okunur."
+      "en": "Correct. In ٱلذَّكَرُ, ذ follows ال and is solar; the lam merges into ذ, which is read doubled.",
+      "tr": "Doğru. ٱلذَّكَرُ kelimesinde ال takısından sonra şemsî ذ gelir; lam ذ harfine katılır ve ذ çift okunur."
      },
      "text": {
       "en": "Solar, because the first letter after ال is ذ",
@@ -4036,8 +4060,8 @@
     },
     {
      "why": {
-      "en": "The lam of ال is written in every definite noun, solar or lunar. What matters is whether it is pronounced, and that depends on the first letter after ال.",
-      "tr": "ال takısının lamı, şemsî de olsa kamerî de olsa her belirli isimde yazılır. Önemli olan okunup okunmadığıdır ve bu, ال takısından sonraki ilk harfe bağlıdır."
+      "en": "In nouns carrying ال, the article’s lam remains written before both solar and lunar letters; here ذ is solar, so the written lam is not pronounced.",
+      "tr": "ال takısını taşıyan isimlerde takının lamı hem şemsî hem kamerî harflerden önce yazılır; burada ذ şemsî olduğundan yazılı lam okunmaz."
      },
      "text": {
       "en": "Lunar, because the lam of ال is written clearly",
@@ -4105,51 +4129,51 @@
    "id": "L1W2-t4-02",
    "topic": "t4",
    "difficulty": 1,
-   "ref": "56:1",
-   "quote": "ٱلْوَاقِعَةُ",
+   "ref": "85:5",
+   "quote": "ٱلْوَقُودِ",
    "stem": {
-    "en": "Is the lam of ال pronounced or silent in ٱلْوَاقِعَةُ, and why?",
-    "tr": "ٱلْوَاقِعَةُ kelimesinde ال takısının lamı okunur mu, okunmaz mı; neden?"
+    "en": "Is the lam of ال pronounced in ٱلْوَقُودِ (the fuel), and how is و read?",
+    "tr": "ٱلْوَقُودِ (yakıt) kelimesinde ال takısının lamı okunur mu ve و nasıl okunur?"
    },
    "options": [
     {
      "text": {
-      "en": "Pronounced clearly, because و is a lunar letter",
-      "tr": "Açıkça okunur, çünkü و kamerî bir harftir"
+      "en": "The lam is pronounced; و is not doubled",
+      "tr": "Lam okunur; و çift okunmaz"
      },
      "why": {
-      "en": "Right. و is a lunar letter, so the lam of ال is pronounced clearly (al-waqi'a) and carries a sukun in the vocalised text.",
-      "tr": "Doğru. و kamerî bir harftir; bu yüzden ال takısının lamı açıkça okunur (al-waqi'a) ve harekeli metinde sükûn taşır."
+      "en": "Correct. و is lunar, so the lam in ٱلْوَقُودِ carries sukun and is pronounced; و has no shaddah.",
+      "tr": "Doğru. و kamerîdir; bu yüzden ٱلْوَقُودِ kelimesindeki lam sükûn taşır ve okunur; و şedde taşımaz."
      }
     },
     {
      "text": {
-      "en": "Silent, merged into و, which is read doubled",
-      "tr": "Okunmaz, و harfine katılır ve و çift okunur"
+      "en": "The lam merges into a doubled و",
+      "tr": "Lam çift okunan و harfine katılır"
      },
      "why": {
-      "en": "That is what happens before a solar letter. و is lunar, and the vocalised text shows it: a sukun on the lam and no shaddah on و.",
-      "tr": "Bu, şemsî harften önce olan şeydir. و kamerîdir ve harekeli metin bunu gösterir: lamda sükûn var, و harfinde şedde yok."
+      "en": "و is lunar, so the lam does not merge into it in ٱلْوَقُودِ.",
+      "tr": "و kamerîdir; bu yüzden ٱلْوَقُودِ kelimesinde lam ona katılmaz."
      }
     },
     {
      "text": {
-      "en": "Silent in every word that carries ال",
-      "tr": "ال taşıyan her kelimede okunmaz"
+      "en": "Both the lam and و are silent",
+      "tr": "Hem lam hem و okunmaz"
      },
      "why": {
-      "en": "False. Whether the lam is pronounced depends on the first letter after ال: lunar letter, pronounced; solar letter, merged.",
-      "tr": "Yanlış. Lamın okunup okunmaması ال takısından sonraki ilk harfe bağlıdır: kamerî harfte okunur, şemsî harfte katılır."
+      "en": "In ٱلْوَقُودِ both the lam and the following و are pronounced.",
+      "tr": "ٱلْوَقُودِ kelimesinde hem lam hem ardından gelen و okunur."
      }
     },
     {
      "text": {
-      "en": "Pronounced, and و also takes a shaddah",
-      "tr": "Okunur, ayrıca و şedde de alır"
+      "en": "The lam is pronounced and و is doubled",
+      "tr": "Lam okunur ve و çift okunur"
      },
      "why": {
-      "en": "Pronouncing the lam and doubling the next letter never happen together here. The shaddah on the next letter appears only when the lam has merged into it.",
-      "tr": "Lamın okunması ile sonraki harfin çift okunması burada birlikte olmaz. Sonraki harfteki şedde yalnızca lam ona katıldığında görülür."
+      "en": "The و in ٱلْوَقُودِ has no shaddah; the lunar rule keeps the lam pronounced without doubling و.",
+      "tr": "ٱلْوَقُودِ kelimesindeki و şedde taşımaz; kamerî harf kuralına göre lam okunur ve و çift okunmaz."
      }
     }
    ],
@@ -4330,8 +4354,8 @@
    "options": [
     {
      "why": {
-      "en": "Correct. ج is lunar, so the lam of ٱلْجَمْعُ is pronounced and carries a sukun. د is solar, so the lam of ٱلدُّبُرَ merges and د carries a shaddah.",
-      "tr": "Doğru. ج kamerîdir; bu yüzden ٱلْجَمْعُ kelimesinde lam okunur ve sükûn taşır. د şemsîdir; bu yüzden ٱلدُّبُرَ kelimesinde lam katılır ve د şedde taşır."
+      "en": "ج in ٱلْجَمْعُ is lunar, so the lam has a sukun; د in ٱلدُّبُرَ is solar and bears the shaddah caused by the merging lam.",
+      "tr": "ٱلْجَمْعُ kelimesindeki ج kamerîdir; bu yüzden lam sükûn taşır. ٱلدُّبُرَ kelimesindeki د şemsîdir ve lamın katılmasıyla şedde alır."
      },
      "text": {
       "en": "ٱلْجَمْعُ has a sukun on the lam; ٱلدُّبُرَ has a shaddah on د",
@@ -4340,8 +4364,8 @@
     },
     {
      "why": {
-      "en": "This swaps the two nouns. ج is lunar, so ٱلْجَمْعُ keeps the sukun on the lam; د is solar, so ٱلدُّبُرَ has the shaddah.",
-      "tr": "Bu, iki ismi birbirine karıştırır. ج kamerîdir; bu yüzden ٱلْجَمْعُ kelimesinde lamda sükûn kalır. د şemsîdir; şedde ٱلدُّبُرَ kelimesinde bulunur."
+      "en": "The marks are reversed: ٱلْجَمْعُ has a sukun on the lam, while ٱلدُّبُرَ has a shaddah on د.",
+      "tr": "İşaretler ters verilmiştir: ٱلْجَمْعُ kelimesinde lam sükûn taşırken ٱلدُّبُرَ kelimesinde د şedde taşır."
      },
      "text": {
       "en": "ٱلْجَمْعُ has a shaddah on ج; ٱلدُّبُرَ has a sukun on the lam",
@@ -4350,8 +4374,8 @@
     },
     {
      "why": {
-      "en": "Only a solar letter takes the shaddah. ج is lunar, so the lam of ٱلْجَمْعُ is pronounced and no shaddah appears on ج.",
-      "tr": "Şeddeyi yalnızca şemsî harf alır. ج kamerîdir; bu yüzden ٱلْجَمْعُ kelimesinde lam okunur ve ج üzerinde şedde bulunmaz."
+      "en": "Only a solar letter receives a shaddah from the merging of the article's lam. Here ج is lunar and has no shaddah; د is solar and has one.",
+      "tr": "ال takısının lamının katılması sonucunda yalnızca şemsî harf şedde alır. Burada ج kamerîdir ve şedde taşımaz; د ise şemsîdir ve şedde taşır."
      },
      "text": {
       "en": "Both have a shaddah on the letter after ال",
@@ -4360,8 +4384,8 @@
     },
     {
      "why": {
-      "en": "The lam carries a sukun only before a lunar letter. Before د, a solar letter, the lam merges and has no sukun.",
-      "tr": "Lam yalnızca kamerî harften önce sükûn taşır. Şemsî harf olan د harfinden önce lam katılır ve sükûn taşımaz."
+      "en": "Only ٱلْجَمْعُ has a sukun on the article's lam. In ٱلدُّبُرَ the lam merges into solar د, so that lam has no sukun.",
+      "tr": "Takının lamında yalnızca ٱلْجَمْعُ kelimesinde sükûn vardır. ٱلدُّبُرَ kelimesinde lam şemsî د harfine katılır; bu yüzden bu lam sükûn taşımaz."
      },
      "text": {
       "en": "Both have a sukun on the lam of ال",
@@ -5350,24 +5374,24 @@
    "ref": "97:4",
    "quote": "ٱلْمَلَـٰٓئِكَةُ وَٱلرُّوحُ",
    "stem": {
-    "en": "Which pair of readings is correct for the lam of ال and the letter after it in ٱلْمَلَـٰٓئِكَةُ and وَٱلرُّوحُ?",
-    "tr": "ٱلْمَلَـٰٓئِكَةُ ve وَٱلرُّوحُ kelimelerinde ال takısının lamı ile ondan sonraki harf için hangi okunuş çifti doğrudur?"
+    "en": "Which pair of readings is correct for the lam of ال and the letter after it in ٱلْمَلَـٰٓئِكَةُ and وَٱلرُّوحُ? Start each reading at ال.",
+    "tr": "ٱلْمَلَـٰٓئِكَةُ ve وَٱلرُّوحُ kelimelerinde ال takısının lamı ile ondan sonraki harf için hangi okunuş çifti doğrudur? Her okunuşa ال takısından başlayın."
    },
    "options": [
     {
      "text": {
-      "en": "al-mala'ik and ar-ruh",
-      "tr": "al-mala'ik ve ar-ruh"
+      "en": "al-mala'ika and ar-ruh",
+      "tr": "al-mala'ika ve ar-ruh"
      },
      "why": {
-      "en": "Right. م is a lunar letter, so the lam of the first noun is pronounced. ر is a solar letter, so the lam of the second merges and ر is read doubled.",
-      "tr": "Doğru. م kamerî harftir; birinci isimde lam okunur. ر şemsî harftir; ikinci isimde lam katılır ve ر çift okunur."
+      "en": "Correct: م is a lunar letter, so the lam of the first noun is pronounced. ر is a solar letter, so the lam of the second merges and ر is read doubled.",
+      "tr": "Doğru: م kamerî harftir; birinci isimde lam okunur. ر şemsî harftir; ikinci isimde lam katılır ve ر çift okunur."
      }
     },
     {
      "text": {
-      "en": "al-mala'ik and al-ruh",
-      "tr": "al-mala'ik ve al-ruh"
+      "en": "al-mala'ika and al-ruh",
+      "tr": "al-mala'ika ve al-ruh"
      },
      "why": {
       "en": "The first reading is right, but ر is a solar letter, so the lam of the second noun is not pronounced (ar-ruh).",
@@ -5376,8 +5400,8 @@
     },
     {
      "text": {
-      "en": "am-mala'ik and ar-ruh",
-      "tr": "am-mala'ik ve ar-ruh"
+      "en": "am-mala'ika and ar-ruh",
+      "tr": "am-mala'ika ve ar-ruh"
      },
      "why": {
       "en": "The second reading is right, but م is a lunar letter, so the lam of the first noun is pronounced and م is not doubled.",
@@ -5386,8 +5410,8 @@
     },
     {
      "text": {
-      "en": "am-mala'ik and al-ruh",
-      "tr": "am-mala'ik ve al-ruh"
+      "en": "am-mala'ika and al-ruh",
+      "tr": "am-mala'ika ve al-ruh"
      },
      "why": {
       "en": "Both readings are reversed. م is lunar, so its lam is pronounced; ر is solar, so its lam merges.",
@@ -6404,8 +6428,8 @@
     },
     {
      "why": {
-      "en": "This is not so. After a solar letter the lam is not pronounced; it merges into that letter (idgham). Here the lam is heard only because of the letter that follows.",
-      "tr": "Durum böyle değildir. Şemsî harften sonra lam okunmaz; o harfe katılır (idgam). Burada lam, yalnızca sonraki harf yüzünden duyulur."
+      "en": "This is not so. Before a solar letter the lam is not pronounced; it merges into that letter (idgham). Here the lam is heard only because of the letter that follows.",
+      "tr": "Durum böyle değildir. Şemsî harften önce lam okunmaz; o harfe katılır (idgam). Burada lam, yalnızca sonraki harf yüzünden duyulur."
      },
      "text": {
       "en": "Because the lam of ال is always pronounced, whatever letter follows",
@@ -6424,8 +6448,8 @@
     },
     {
      "why": {
-      "en": "Right. The letter right after ال is ب, a lunar letter, so the lam of ال stays pronounced (with sukun) and ب is not doubled.",
-      "tr": "Doğru. ال takısından hemen sonraki harf kamerî olan ب harfidir; bu yüzden ال takısının lamı (sükûnla) okunur ve ب çift okunmaz."
+      "en": "Correct: The letter right after ال is ب, a lunar letter, so the lam of ال stays pronounced (with sukun) and ب is not doubled.",
+      "tr": "Doğru: ال takısından hemen sonraki harf kamerî olan ب harfidir; bu yüzden ال takısının lamı (sükûnla) okunur ve ب çift okunmaz."
      },
      "text": {
       "en": "Because the letter right after ال is ب, a lunar letter",
@@ -6766,8 +6790,8 @@
    "ref": "55:11",
    "quote": "فَـٰكِهَةٌۭ وَٱلنَّخْلُ",
    "stem": {
-    "en": "Which noun is indefinite, which is definite, and how is the definite one read?",
-    "tr": "Hangi isim nekire, hangisi marife ve marife olan nasıl okunur?"
+    "en": "Which noun is indefinite, which is definite, and how is the definite one read starting at ال (excluding the prefixed وَ)?",
+    "tr": "Hangi isim nekire, hangisi marifedir ve marife olan, başındaki وَ hariç tutularak ال takısından itibaren nasıl okunur?"
    },
    "options": [
     {
@@ -6776,8 +6800,8 @@
       "tr": "فَـٰكِهَةٌ marife, وَٱلنَّخْلُ nekiredir"
      },
      "why": {
-      "en": "The signs are swapped. The double dammah on فَـٰكِهَةٌ marks it as indefinite, and the ال on وَٱلنَّخْلُ marks it as definite.",
-      "tr": "İşaretler ters çevrilmiş. فَـٰكِهَةٌ üzerindeki çift ötre onu nekire, وَٱلنَّخْلُ üzerindeki ال ise marife gösterir."
+      "en": "The labels are reversed: فَـٰكِهَةٌ has tanwin (double dammah), so it is indefinite; وَٱلنَّخْلُ has ال, so its noun is definite.",
+      "tr": "Nitelemeler ters verilmiştir: فَـٰكِهَةٌ kelimesindeki tenvin (çift ötre) belirsizliği gösterir; وَٱلنَّخْلُ kelimesindeki ال ise ismi marife yapar."
      }
     },
     {
@@ -6786,8 +6810,8 @@
       "tr": "فَـٰكِهَةٌ nekiredir; وَٱلنَّخْلُ marife ve kamerîdir, lam okunarak al-nakhl okunur"
      },
      "why": {
-      "en": "The first part is right, but ن is a solar letter, not a lunar one. The lam of ال merges into it and ن is doubled.",
-      "tr": "İlk kısım doğru, ama ن kamerî değil şemsî bir harftir. ال takısının lamı ona katılır ve ن çift okunur."
+      "en": "The definiteness labels are right, but ن is solar: the lam merges into it, so the reading starting at ال is an-nakhl, with ن doubled.",
+      "tr": "Belirlilik nitelemeleri doğrudur, ancak ن şemsîdir: lam bu harfe katılır. Bu yüzden ال takısından başlayarak okunuş an-nakhl olur ve ن çift okunur."
      }
     },
     {
@@ -6796,8 +6820,8 @@
       "tr": "فَـٰكِهَةٌ nekiredir (çift ötre); وَٱلنَّخْلُ marife ve şemsîdir, ن çift okunarak an-nakhl okunur"
      },
      "why": {
-      "en": "Right. The double dammah is tanwin, so فَـٰكِهَةٌ is indefinite. وَٱلنَّخْلُ has ال, and ن is a solar letter, so the lam merges and ن is doubled.",
-      "tr": "Doğru. Çift ötre tenvindir, bu yüzden فَـٰكِهَةٌ nekiredir. وَٱلنَّخْلُ ال taşır ve ن şemsî bir harftir; lam katılır ve ن çift okunur."
+      "en": "Correct: tanwin marks فَـٰكِهَةٌ as indefinite, and ال marks the noun in وَٱلنَّخْلُ as definite; solar ن absorbs the lam, giving an-nakhl when starting at ال (wan-nakhl including وَ).",
+      "tr": "Doğru: Tenvin فَـٰكِهَةٌ kelimesinin nekire olduğunu, ال ise وَٱلنَّخْلُ kelimesindeki ismin marife olduğunu gösterir. Şemsî ن lamı kendine katar; ال takısından başlayarak an-nakhl, وَ dahil edilerek wan-nakhl okunur."
      }
     },
     {
@@ -6806,8 +6830,8 @@
       "tr": "İkisi de nekiredir, çünkü ikisi de ötre ile biter"
      },
      "why": {
-      "en": "وَٱلنَّخْلُ ends in a single dammah, which is not tanwin, and it carries ال, so it is definite. Only a double dammah is tanwin.",
-      "tr": "وَٱلنَّخْلُ tek ötre ile biter; bu tenvin değildir ve وَٱلنَّخْلُ ال taşır, bu yüzden marifedir. Tenvin yalnızca çift ötredir."
+      "en": "Only فَـٰكِهَةٌ has tanwin here; وَٱلنَّخْلُ has a single dammah and ال, so its noun is definite.",
+      "tr": "Burada yalnızca فَـٰكِهَةٌ tenvin taşır; وَٱلنَّخْلُ kelimesinde ise tek ötre ve ال vardır, bu yüzden isim marifedir."
      }
     }
    ],
@@ -6857,11 +6881,11 @@
     {
      "text": {
       "en": "Wrong: the preposition بِ only shows that the word is a noun; the double kasrah (tanwin) makes it indefinite",
-      "tr": "Yanlış: بِ edat yalnızca kelimenin isim olduğunu gösterir; çift esre (tenvin) onu nekire yapar"
+      "tr": "Yanlış: بِ edatı yalnızca kelimenin isim olduğunu gösterir; çift esre (tenvin) onu nekire yapar"
      },
      "why": {
-      "en": "Right. A preceding preposition is a noun sign, not a sign of definiteness. The tanwin at the end shows that the noun is indefinite.",
-      "tr": "Doğru. Öndeki edat bir isim alâmetidir, marife alâmeti değildir. Sondaki tenvin ismin nekire olduğunu gösterir."
+      "en": "Correct: A preceding preposition is a noun sign, not a sign of definiteness. The tanwin at the end shows that the noun is indefinite.",
+      "tr": "Doğru: Öndeki edat bir isim alâmetidir, marife alâmeti değildir. Sondaki tenvin ismin nekire olduğunu gösterir."
      }
     }
    ],
@@ -6871,8 +6895,8 @@
    "id": "L1W2-t5-28",
    "topic": "t5",
    "difficulty": 3,
-   "ref": "89:19",
-   "quote": "وَتَأْكُلُونَ ٱلتُّرَاثَ أَكْلًۭا",
+   "ref": "2:61",
+   "quote": "ٱلذِّلَّةُ وَٱلْمَسْكَنَةُ",
    "stem": {
     "en": "Which statement about this phrase is NOT true?",
     "tr": "Bu ifadeyle ilgili aşağıdakilerden hangisi DOĞRU DEĞİLDİR?"
@@ -6880,42 +6904,42 @@
    "options": [
     {
      "text": {
-      "en": "ٱلتُّرَاثَ is lunar, so its lam is pronounced",
-      "tr": "ٱلتُّرَاثَ kamerîdir, bu yüzden lamı okunur"
+      "en": "ٱلذِّلَّةُ is lunar, so the lam of ال is pronounced",
+      "tr": "ٱلذِّلَّةُ kamerîdir, bu yüzden ال takısının lamı okunur"
      },
      "why": {
-      "en": "This statement is false. The letter after ال is ت, a solar letter, so the lam merges into it and ت is doubled.",
-      "tr": "Bu ifade yanlıştır. ال takısından sonraki harf şemsî olan ت harfidir; bu yüzden lam ona katılır ve ت çift okunur."
+      "en": "This is false: ذ immediately follows ال and is solar, so the article’s lam merges into ذ.",
+      "tr": "Bu yanlıştır: ال takısından hemen sonraki ذ şemsîdir; takının lamı ذ harfine katılır."
      }
     },
     {
      "text": {
-      "en": "وَتَأْكُلُونَ is a verb, so it takes neither ال nor tanwin",
-      "tr": "وَتَأْكُلُونَ fiildir, bu yüzden ne ال ne tenvin alır"
+      "en": "وَٱلْمَسْكَنَةُ is lunar because م follows ال",
+      "tr": "وَٱلْمَسْكَنَةُ kelimesinde ال takısından sonra م geldiği için isim kamerîdir"
      },
      "why": {
-      "en": "This is true: it is an action tied to a time and shows no noun sign.",
-      "tr": "Bu doğrudur: zamana bağlı bir eylemdir ve isim alâmeti taşımaz."
+      "en": "This is true: م is lunar, so the lam of ال is pronounced; the joined وَ does not determine the group.",
+      "tr": "Bu doğrudur: م kamerîdir; ال takısının lamı okunur. Bitişik وَ grubu belirlemez."
      }
     },
     {
      "text": {
-      "en": "أَكْلًا is indefinite, because the double fathah is tanwin",
-      "tr": "أَكْلًا nekiredir, çünkü çift üstün tenvindir"
+      "en": "Both nouns are definite because they carry ال",
+      "tr": "Her iki isim de ال taşıdığı için belirlidir"
      },
      "why": {
-      "en": "This is true: tanwin marks an indefinite noun.",
-      "tr": "Bu doğrudur: tenvin nekire ismi gösterir."
+      "en": "This is true: ٱلذِّلَّةُ and وَٱلْمَسْكَنَةُ both carry the definite article, including after the joined prefix in the second word.",
+      "tr": "Bu doğrudur: ٱلذِّلَّةُ ve وَٱلْمَسْكَنَةُ belirlilik takısını taşır; ikinci kelimede takı bitişik önekten sonra gelir."
      }
     },
     {
      "text": {
-      "en": "ٱلتُّرَاثَ carries ال, so it cannot also carry tanwin",
-      "tr": "ٱلتُّرَاثَ ال taşır, bu yüzden aynı zamanda tenvin taşıyamaz"
+      "en": "Neither noun carries tanwin",
+      "tr": "İsimlerin hiçbirinde tenvin yoktur"
      },
      "why": {
-      "en": "This is true: ال removes the tanwin, since a noun cannot be both definite and indefinite.",
-      "tr": "Bu doğrudur: ال tenvini kaldırır, çünkü bir isim aynı anda hem marife hem nekire olamaz."
+      "en": "This is true: both nouns carry ال and end with a single dammah, not double dammah.",
+      "tr": "Bu doğrudur: iki isim de ال taşır ve çift ötreyle değil, tek ötreyle biter."
      }
     }
    ],
@@ -6938,8 +6962,8 @@
       "tr": "بَلْ ve بِٱلدِّينِ"
      },
      "why": {
-      "en": "بِٱلدِّينِ is a noun: it carries ال, and a preposition in front of a word is a noun sign. Only بَلْ is not a noun here, so this pair is wrong.",
-      "tr": "بِٱلدِّينِ isimdir: ال taşır ve kelimenin önündeki edat bir isim alâmetidir. Burada yalnızca بَلْ isim değildir; bu yüzden bu çift yanlıştır."
+      "en": "Of the two words in this option, only بَلْ is not a noun. بِٱلدِّينِ contains a noun with ال after the fused preposition بِ, so this pair is incorrect.",
+      "tr": "Bu seçenekteki iki kelimeden yalnızca بَلْ isim değildir. بِٱلدِّينِ kelimesi, bitişik بِ edatından sonra ال taşıyan bir isim içerir; bu yüzden bu çift yanlıştır."
      }
     },
     {
@@ -6948,8 +6972,8 @@
       "tr": "تُكَذِّبُونَ ve بِٱلدِّينِ"
      },
      "why": {
-      "en": "تُكَذِّبُونَ is indeed not a noun, but بِٱلدِّينِ is: it carries ال and has a preposition before it, both noun signs.",
-      "tr": "تُكَذِّبُونَ gerçekten isim değildir, ama بِٱلدِّينِ isimdir: ال taşır ve önünde edat vardır; ikisi de isim alâmetidir."
+      "en": "تُكَذِّبُونَ is a verb, but the noun in بِٱلدِّينِ carries ال. This pair therefore includes a noun.",
+      "tr": "تُكَذِّبُونَ fiildir, ancak بِٱلدِّينِ kelimesindeki isim ال taşır. Dolayısıyla bu çift bir isim içerir."
      }
     },
     {
@@ -6958,8 +6982,8 @@
       "tr": "بَلْ ve تُكَذِّبُونَ"
      },
      "why": {
-      "en": "Right. بَلْ is a particle: it takes neither ال nor tanwin and its meaning appears only with other words. تُكَذِّبُونَ is a present-future (mudari) verb, an action tied to a time. The last word has ال, so it is a noun.",
-      "tr": "Doğru. بَلْ bir harftir: ne ال ne tenvin alır ve anlamı ancak başka kelimelerle ortaya çıkar. تُكَذِّبُونَ muzâri bir fiildir, zamana bağlı bir eylemdir. Son kelime ال taşır, bu yüzden isimdir."
+      "en": "Correct. بَلْ is a particle and تُكَذِّبُونَ is a present-future (mudari) verb; neither is a noun. The last word contains the noun marked by ال.",
+      "tr": "Doğru. بَلْ harftir ve تُكَذِّبُونَ muzâri fiildir; ikisi de isim değildir. Son kelime ال ile işaretlenmiş ismi içerir."
      }
     },
     {
@@ -6968,8 +6992,8 @@
       "tr": "Hiçbiri: üç kelime de isimdir"
      },
      "why": {
-      "en": "Only the last word is a noun. بَلْ takes neither ال nor tanwin and is a particle; تُكَذِّبُونَ is an action tied to a time, so it is a verb.",
-      "tr": "Yalnızca son kelime isimdir. بَلْ ne ال ne tenvin alır ve harftir; تُكَذِّبُونَ zamana bağlı bir eylemdir, yani fiildir."
+      "en": "The three words are not all nouns: بَلْ is a particle and تُكَذِّبُونَ is a verb. Only the last word contains a noun.",
+      "tr": "Üç kelimenin hepsi isim değildir: بَلْ harftir ve تُكَذِّبُونَ fiildir. Yalnızca son kelime bir isim içerir."
      }
     }
    ],
@@ -7012,8 +7036,8 @@
       "tr": "İki harf (iki مِن) ve her biri çift esreli iki nekire isim"
      },
      "why": {
-      "en": "Right. Each مِن is a particle, and سُلَـٰلَةٍ and طِينٍ each carry a double kasrah (tanwin), so both are indefinite nouns.",
-      "tr": "Doğru. Her مِن bir harftir; سُلَـٰلَةٍ ve طِينٍ ise çift esre (tenvin) taşır, ikisi de nekire isimdir."
+      "en": "Correct: Each مِن is a particle, and سُلَـٰلَةٍ and طِينٍ each carry a double kasrah (tanwin), so both are indefinite nouns.",
+      "tr": "Doğru: Her مِن bir harftir; سُلَـٰلَةٍ ve طِينٍ ise çift esre (tenvin) taşır, ikisi de nekire isimdir."
      }
     },
     {
@@ -7023,7 +7047,7 @@
      },
      "why": {
       "en": "Tanwin is a doubled vowel mark written on the last letter, not a letter nun. مِن has none, and it takes neither ال nor tanwin, so it is a particle.",
-      "tr": "Tenvin, son harfin üzerine yazılan çift ünlü işaretidir; nun harfi değildir. مِن harfinde tenvin yoktur ve ال ya da tenvin almaz; bu yüzden harftir."
+      "tr": "Tenvin, son harfe yazılan çift hareke işaretidir; nun harfi değildir. مِن harfinde tenvin yoktur ve ال ya da tenvin almaz; bu yüzden harftir."
      }
     }
    ],

@@ -1773,52 +1773,52 @@
    "id": "M-L1W12-01",
    "chapter": "L1W12",
    "topic": "t1",
-   "difficulty": 1,
-   "ref": "15:45",
-   "quote": "فِى جَنَّـٰتٍۢ وَعُيُونٍ",
+   "difficulty": 3,
+   "ref": "24:35",
+   "quote": "ٱلْأَمْثَـٰلَ لِلنَّاسِ ۗ",
    "stem": {
-    "en": "Both جَنَّـٰتٍ and عُيُونٍ are plurals. Which statement about their types is correct?",
-    "tr": "جَنَّـٰتٍ ve عُيُونٍ kelimelerinin ikisi de çoğuldur. Türleriyle ilgili hangi ifade doğrudur?"
+    "en": "Ignore the article when identifying the plural pattern of الْأَمْثَالَ. Which analysis also correctly identifies the prefix of لِلنَّاسِ?",
+    "tr": "الْأَمْثَالَ kelimesinin çoğul kalıbını belirlerken belirlilik takısını yok sayın. لِلنَّاسِ kelimesinin önekini de hangi seçenek doğru tanımlar?"
    },
    "options": [
     {
      "text": {
-      "en": "Both are sound plurals",
-      "tr": "İkisi de sağlam çoğuldur"
+      "en": "الْأَمْثَالَ is a sound feminine plural; the prefix of لِلنَّاسِ is a preposition.",
+      "tr": "الْأَمْثَالَ sağlam dişil çoğuldur; لِلنَّاسِ kelimesinin öneki harf-i cerdir."
      },
      "why": {
-      "en": "جَنَّاتٍ is sound feminine, formed by replacing the singular’s round ta with ـات; عُيُونٍ instead rebuilds the singular internally.",
-      "tr": "جَنَّاتٍ, tekildeki yuvarlak te yerine ـات getirilerek oluşan sağlam dişil çoğuldur; عُيُونٍ ise tekilin iç yapısını değiştirir."
+      "en": "The preposition analysis is right, but the plural stem has the أَفْعَال pattern, not the sound feminine suffix.",
+      "tr": "Harf-i cer çözümlemesi doğrudur; ancak çoğul gövdesi sağlam dişil çoğul eki değil, أَفْعَال kalıbı taşır."
      }
     },
     {
      "text": {
-      "en": "جَنَّـٰتٍ is a sound feminine plural; عُيُونٍ is a broken plural",
-      "tr": "جَنَّـٰتٍ sağlam dişil çoğuldur; عُيُونٍ kırık çoğuldur"
+      "en": "الْأَمْثَالَ is a definite broken plural on أَفْعَال; the prefix لِ in لِلنَّاسِ is a preposition.",
+      "tr": "الْأَمْثَالَ, أَفْعَال kalıbında belirli bir kırık çoğuldur; لِلنَّاسِ kelimesindeki لِ öneki harf-i cerdir."
      },
      "why": {
-      "en": "In جَنَّاتٍ the round ta is removed and ـات is added while the remaining stem is preserved. عُيُونٍ changes the internal shape of its singular, so it is broken.",
-      "tr": "جَنَّاتٍ biçiminde yuvarlak te kaldırılır ve ـات eklenir; kalan gövde korunur. عُيُونٍ tekilinin iç yapısını değiştirdiği için kırık çoğuldur."
+      "en": "The article makes the plural definite; its stem has initial hamza and long ā after the second root letter. The prefixed lām is a preposition joined to the following definite noun.",
+      "tr": "Belirlilik takısı çoğulu belirli yapar; gövdede başta hemze ve ikinci kök harfinden sonra uzun â vardır. Önekteki lâm, ardından gelen belirli isme bitişen harf-i cerdir."
      }
     },
     {
      "text": {
-      "en": "جَنَّـٰتٍ is a broken plural; عُيُونٍ is a sound masculine plural",
-      "tr": "جَنَّـٰتٍ kırık çoğuldur; عُيُونٍ sağlam eril çoğuldur"
+      "en": "الْأَمْثَالَ is an indefinite broken plural on أَفْعَال; the prefix of لِلنَّاسِ is a preposition.",
+      "tr": "الْأَمْثَالَ, أَفْعَال kalıbında belirsiz bir kırık çoğuldur; لِلنَّاسِ kelimesinin öneki harf-i cerdir."
      },
      "why": {
-      "en": "جَنَّاتٍ has regular sound feminine formation: remove round ta and add ـات. The internal structure of عُيُونٍ is a broken-plural pattern, not a masculine plural suffix.",
-      "tr": "جَنَّاتٍ kurallı sağlam dişil çoğul oluşumuna uyar: yuvarlak te kaldırılır ve ـات eklenir. عُيُونٍ içindeki yapı eril çoğul eki değil, kırık çoğul kalıbıdır."
+      "en": "The pattern and preposition are identified correctly, but the visible article makes الْأَمْثَالَ definite.",
+      "tr": "Kalıp ve harf-i cer doğru belirlenmiştir; ancak görünen belirlilik takısı الْأَمْثَالَ kelimesini belirli yapar."
      }
     },
     {
      "text": {
-      "en": "Both are broken plurals",
-      "tr": "İkisi de kırık çoğuldur"
+      "en": "الْأَمْثَالَ is a definite broken plural on أَفْعَال; the prefix of لِلنَّاسِ is an attached possessive pronoun.",
+      "tr": "الْأَمْثَالَ, أَفْعَال kalıbında belirli bir kırık çoğuldur; لِلنَّاسِ kelimesinin öneki bitişik iyelik zamiridir."
      },
      "why": {
-      "en": "Only عُيُونٍ is broken. In جَنَّاتٍ the remaining singular stem is preserved after removing round ta and adding ـات.",
-      "tr": "Yalnızca عُيُونٍ kırık çoğuldur. جَنَّاتٍ biçiminde yuvarlak te kaldırılıp ـات eklenirken tekilin kalan gövdesi korunur."
+      "en": "The plural analysis is right, but the initial lām is a preposition, not a pronoun expressing possession.",
+      "tr": "Çoğul çözümlemesi doğrudur; ancak baştaki lâm, iyelik bildiren bir zamir değil, harf-i cerdir."
      }
     }
    ],
@@ -2862,8 +2862,8 @@
       "tr": "Dört: وَ ön eki dışındaki tüm kelimeler; çünkü alıntıdaki her kelimenin son harfinde üstün veya ötre vardır."
      },
      "why": {
-      "en": "In this quote, a vowel on the last letter is no test for a past verb. ٱلْحَقُّ and ٱلْبَـٰطِلُ have ٱل and no tense, so they are nouns, and وَقُلْ is a command.",
-      "tr": "Son harfteki hareke, geçmiş zaman fiili için ölçüt değildir. ٱلْحَقُّ ve ٱلْبَـٰطِلُ, ٱل içerir ve zamansızdır; yani isim türündedir. وَقُلْ ise emirdir."
+      "en": "In this quote, the premise is already false: وَقُلْ ends in sukun on its ل, not a fatha or damma. Beyond that, a vowel on the last letter is no test for a past verb: ٱلْحَقُّ and ٱلْبَـٰطِلُ have ٱل and no tense, so they are nouns, and وَقُلْ is a command.",
+      "tr": "Bu alıntıda öncül zaten yanlıştır: وَقُلْ kelimesinin ل harfi üstün ya da ötre değil sükûn taşır. Bunun ötesinde, son harfteki hareke geçmiş zaman fiili için ölçüt değildir: ٱلْحَقُّ ve ٱلْبَـٰطِلُ ٱل içerir ve zamansızdır, yani isim türündedir; وَقُلْ ise emirdir."
      }
     }
    ],
@@ -3204,51 +3204,51 @@
    "chapter": "L1W14",
    "topic": "t3",
    "difficulty": 2,
-   "ref": "24:31",
-   "quote": "وَيَحْفَظْنَ فُرُوجَهُنَّ",
+   "ref": "2:233",
+   "quote": "يُرْضِعْنَ أَوْلَـٰدَهُنَّ",
    "stem": {
-    "en": "Which analysis compares the doers in وَيَحْفَظْنَ (“and let them guard”) with the pronoun in فُرُوجَهُنَّ (“their private parts”)?",
-    "tr": "Hangi çözümleme, وَيَحْفَظْنَ (“ve korusunlar”) fiilindeki yapanlarla فُرُوجَهُنَّ (“iffetlerini”) kelimesindeki zamiri karşılaştırır?"
+    "en": "In يُرْضِعْنَ أَوْلَـٰدَهُنَّ (“they breastfeed their children”), which analysis correctly distinguishes the verb ending from the attached pronoun on the noun?",
+    "tr": "يُرْضِعْنَ أَوْلَـٰدَهُنَّ (“çocuklarını emzirirler”) ifadesinde hangi çözümleme, fiilin son ekini isimdeki bitişik zamirden doğru biçimde ayırır?"
    },
    "options": [
     {
      "text": {
-      "en": "The verb means “we guard”, and هُنَّ is its object suffix.",
-      "tr": "Fiil “biz koruruz” demektir; هُنَّ onun nesne ekidir."
+      "en": "The verb means “we breastfeed”; هُنَّ is an object pronoun attached to the verb.",
+      "tr": "Fiil “biz emziririz” demektir; هُنَّ fiile bitişen nesne zamiridir."
      },
      "why": {
-      "en": "The prefix ي and feminine-plural suffix نَ identify 'they' (feminine), not 'we'. هُنَّ is attached to the following noun and expresses possession.",
-      "tr": "ي ön eki ve dişil çoğul نَ son eki 'biz' değil, 'onlar' (dişil) anlamını gösterir. هُنَّ ardından gelen isme bitişir ve iyelik bildirir."
+      "en": "In يُرْضِعْنَ, ي together with نَ indicates “they” (feminine), whereas “we” uses the prefix ن; هُنَّ belongs to أَوْلَـٰدَهُنَّ, a noun, and marks possession.",
+      "tr": "يُرْضِعْنَ fiilinde ي ile نَ birlikte “onlar” (dişil) anlamını gösterir; “biz” için ن ön eki kullanılır. هُنَّ ise أَوْلَـٰدَهُنَّ ismine bitişir ve iyelik bildirir."
      }
     },
     {
      "text": {
-      "en": "The verb is third-person feminine plural, with نَ and sukun on ظ; هُنَّ is possessive on a noun and also refers to feminine plural.",
-      "tr": "Fiil üçüncü şahıs dişil çoğuldur; نَ eki ve ظ üzerindeki sükûnu taşır. هُنَّ ise isimde iyelik ekidir ve o da dişil çoğulu gösterir."
+      "en": "The verb has third-person prefix ي and feminine-plural ending نَ, with sukun on ع; هُنَّ on the noun means “their” (feminine plural).",
+      "tr": "Fiilde üçüncü şahıs ön eki ي, dişil çoğul son eki نَ ve ع üzerinde sükûn vardır; isimdeki هُنَّ “onların” (dişil çoğul) anlamındadır."
      },
      "why": {
-      "en": "The prefix ي and suffix نَ identify third-person feminine plural, and ظ has sukun. Here the phrase means 'and let them guard'; هُنَّ on the noun فُرُوجَهُنَّ means 'their' (feminine plural).",
-      "tr": "ي ön eki ve نَ son eki üçüncü şahıs dişil çoğulu gösterir; ظ sükûnludur. İfade burada 've korusunlar' anlamındadır; فُرُوجَهُنَّ kelimesindeki هُنَّ, 'onların' (dişil çoğul) anlamında iyelik bildirir."
+      "en": "يُرْضِعْنَ has prefix ي and feminine-plural نَ, with sukun on the last root letter ع; the mothers are the doers, and هُنَّ on أَوْلَـٰدَهُنَّ identifies whose children are meant.",
+      "tr": "يُرْضِعْنَ fiilinde ي ön eki, dişil çoğul نَ son eki ve son kök harfi ع üzerinde sükûn vardır; işi yapanlar annelerdir. أَوْلَـٰدَهُنَّ ismindeki هُنَّ, çocukların kime ait olduğunu gösterir."
      }
     },
     {
      "text": {
-      "en": "The verb is masculine plural because it begins with ي; هُنَّ is a detached pronoun.",
-      "tr": "Fiil ي ile başladığı için eril çoğuldur; هُنَّ ayrı zamirdir."
+      "en": "The verb is masculine plural because of ي; هُنَّ is a detached pronoun.",
+      "tr": "Fiil ي nedeniyle eril çoğuldur; هُنَّ ayrı zamirdir."
      },
      "why": {
-      "en": "The prefix ي alone does not determine gender and number; the suffix نَ identifies feminine plural here. هُنَّ is joined to the noun, so it is an attached pronoun.",
-      "tr": "ي ön eki tek başına cinsiyet ve sayıyı belirlemez; burada نَ son eki dişil çoğulu gösterir. هُنَّ isme bitiştiği için bitişik zamirdir."
+      "en": "Here ي does not establish masculine gender: نَ identifies the feminine-plural doers of يُرْضِعْنَ; هُنَّ is written attached to أَوْلَـٰدَهُنَّ and is possessive.",
+      "tr": "Burada ي eril cinsiyeti belirlemez; نَ, يُرْضِعْنَ fiilindeki yapanların dişil çoğul olduğunu gösterir. هُنَّ, أَوْلَـٰدَهُنَّ ismine bitişik yazılır ve iyelik bildirir."
      }
     },
     {
      "text": {
-      "en": "The verb is feminine singular, and هُنَّ is a prepositional pronoun.",
-      "tr": "Fiil dişil tekildir; هُنَّ edata bağlı zamirdir."
+      "en": "The verb is feminine singular; هُنَّ is attached to a preposition.",
+      "tr": "Fiil dişil tekildir; هُنَّ bir harf-i cere bitişmiştir."
      },
      "why": {
-      "en": "The suffix نَ marks feminine plural, not feminine singular. In فُرُوجَهُنَّ, هُنَّ is attached to a noun and expresses possession, rather than being attached to a preposition.",
-      "tr": "نَ son eki dişil tekili değil, dişil çoğulu gösterir. فُرُوجَهُنَّ kelimesinde هُنَّ bir edata değil, isme bitişir ve iyelik bildirir."
+      "en": "The نَ ending in يُرْضِعْنَ marks feminine plural, so the doers are not singular; أَوْلَـٰدَهُنَّ is a noun with a possessive pronoun, not a preposition with a pronoun.",
+      "tr": "يُرْضِعْنَ fiilindeki نَ son eki dişil çoğulu gösterir; dolayısıyla işi yapan tek kişi değildir. أَوْلَـٰدَهُنَّ, zamir eklenmiş bir harf-i cer değil, iyelik zamiri taşıyan bir isimdir."
      }
     }
    ],
@@ -5117,51 +5117,51 @@
    "chapter": "L1W4",
    "topic": "t3",
    "difficulty": 3,
-   "ref": "4:40",
-   "quote": "مِثْقَالَ ذَرَّةٍۢ ۖ",
+   "ref": "16:79",
+   "quote": "جَوِّ ٱلسَّمَآءِ",
    "stem": {
-    "en": "In مِثْقَالَ ذَرَّةٍ the first word has no tanwin and the second word has tanwin (kasratan). Which statement is correct?",
-    "tr": "مِثْقَالَ ذَرَّةٍ ifadesinde ilk kelimede tenvin yoktur, ikinci kelimede tenvin (kesreteyn) vardır. Hangi ifade doğrudur?"
+    "en": "Which analysis combines the idafa roles and article pronunciation correctly in جَوِّ السَّمَاءِ (\"the air of the sky\")?",
+    "tr": "جَوِّ السَّمَاءِ (\"göğün havası\") ifadesinde izafet ögelerini ve belirlilik takısının okunuşunu hangi seçenek doğru birleştirir?"
    },
    "options": [
     {
      "text": {
-      "en": "This is an error: in an idafa neither word may carry tanwin.",
-      "tr": "Bu bir hatadır: izafette hiçbir kelime tenvin alamaz."
+      "en": "جَوِّ is the mudaf; the article on السَّمَاءِ is pronounced with a clear lām.",
+      "tr": "جَوِّ mudaftır; السَّمَاءِ kelimesindeki belirlilik takısının lâmı açıkça okunur."
      },
      "why": {
-      "en": "The tanwin rule is about the mudaf only. The mudaf ilayh may be indefinite and may carry kasratan.",
-      "tr": "Tenvin kuralı yalnızca mudaf içindir. Mudaf ileyh belirsiz olabilir ve kesreteyn alabilir."
+      "en": "The idafa role is right, but sīn is a solar letter, so the article’s lām assimilates to it.",
+      "tr": "İzafet görevi doğrudur; ancak sîn şemsî bir harftir, bu yüzden takının lâmı ona benzeşir."
      }
     },
     {
      "text": {
-      "en": "ذَرَّةٍ is the mudaf, since it is the word that carries tanwin.",
-      "tr": "ذَرَّةٍ mudaftır, çünkü tenvin taşıyan kelime odur."
+      "en": "السَّمَاءِ is the mudaf; جَوِّ is the mudaf ilayh.",
+      "tr": "السَّمَاءِ mudaftır; جَوِّ mudaf ileyhtir."
      },
      "why": {
-      "en": "The opposite is true: a word with tanwin cannot be the mudaf. The mudaf is the first noun, which lost its tanwin.",
-      "tr": "Tersi doğrudur: tenvinli kelime mudaf olamaz. Mudaf, tenvinini yitirmiş olan ilk isimdir."
+      "en": "The roles are reversed: جَوِّ is completed by the following genitive noun السَّمَاءِ; the article belongs to the second noun.",
+      "tr": "Görevler ters çevrilmiştir: جَوِّ, ardından gelen mecrur isim السَّمَاءِ ile tamamlanır; belirlilik takısı ikinci isimdedir."
      }
     },
     {
      "text": {
-      "en": "Because ذَرَّةٍ has tanwin, this is not an idafa, only two nouns side by side.",
-      "tr": "ذَرَّةٍ tenvinli olduğu için bu bir izafet değildir; yalnızca yan yana iki isimdir."
+      "en": "جَوِّ is indefinite because it has no article; السَّمَاءِ has a solar article.",
+      "tr": "جَوِّ belirlilik takısı taşımadığı için belirsizdir; السَّمَاءِ kelimesinin takısı şemsî okunur."
      },
      "why": {
-      "en": "The tanwin test is applied to the first noun. Tanwin on the second noun does not cancel the idafa.",
-      "tr": "Tenvin sınavı ilk isme uygulanır. İkinci isimdeki tenvin izafeti geçersiz kılmaz."
+      "en": "The solar reading is right, but this idafa is definite through its definite second noun; the mudaf itself takes neither article nor tanwin.",
+      "tr": "Şemsî okuma doğrudur; ancak bu izafet, belirli ikinci isim sayesinde belirlidir; mudafın kendisi belirlilik takısı ve tenvin almaz."
      }
     },
     {
      "text": {
-      "en": "مِثْقَالَ is the mudaf (it lost its tanwin); ذَرَّةٍ is an indefinite mudaf ilayh, genitive with kasratan, which is allowed (\"the weight of an atom\").",
-      "tr": "مِثْقَالَ mudaftır (tenvinini yitirmiştir); ذَرَّةٍ, kesreteynle esre hâlinde belirsiz bir mudaf ileyhtir ve bu caizdir (\"bir zerrenin ağırlığı\")."
+      "en": "جَوِّ is the mudaf without article or tanwin; السَّمَاءِ is the definite, genitive mudaf ilayh, with a solar article.",
+      "tr": "جَوِّ, belirlilik takısı ve tenvin almayan mudaftır; السَّمَاءِ, takısı şemsî okunan belirli ve mecrur mudaf ileyhtir."
      },
      "why": {
-      "en": "Correct. The first noun lacks tanwin and ال and is completed by a genitive noun; the second noun may keep its tanwin.",
-      "tr": "Doğru. İlk isim tenvin ve ال taşımaz, esreli bir isimle tamamlanır; ikinci isim tenvinini koruyabilir."
+      "en": "جَوِّ lacks article and tanwin and is completed by genitive السَّمَاءِ; sīn causes assimilation of the article’s lām.",
+      "tr": "جَوِّ belirlilik takısı ve tenvin taşımaz, mecrur السَّمَاءِ ile tamamlanır; sîn, takının lâmının benzeşmesine yol açar."
      }
     }
    ],
@@ -7591,52 +7591,52 @@
    "id": "M-L1W8-08",
    "chapter": "L1W8",
    "topic": "t3",
-   "difficulty": 1,
-   "ref": "55:20",
-   "quote": "بَيْنَهُمَا بَرْزَخٌۭ",
+   "difficulty": 3,
+   "ref": "20:6",
+   "quote": "تَحْتَ ٱلثَّرَىٰ",
    "stem": {
-    "en": "What kind of word is بَيْنَ in بَيْنَهُمَا (\"between the two of them\")?",
-    "tr": "بَيْنَهُمَا (\"ikisinin arasında\") kelimesinde بَيْنَ ne tür bir kelimedir?"
+    "en": "In تَحْتَ الثَّرَى (\"beneath the soil\"), which analysis combines the place expression and definiteness correctly?",
+    "tr": "تَحْتَ الثَّرَى (\"toprağın altında\") ifadesinde yer bildiren yapıyı ve belirliliği hangi seçenek doğru çözümler?"
    },
    "options": [
     {
      "text": {
-      "en": "A preposition: a particle that puts هُمَا in the genitive.",
-      "tr": "Bir harf-i cer: هُمَا zamirini cer haline sokan bir edat."
+      "en": "تَحْتَ is a preposition; الثَّرَى is indefinite because no kasra is visible.",
+      "tr": "تَحْتَ harf-i cerdir; الثَّرَى görünür kesra taşımadığı için belirsizdir."
      },
      "why": {
-      "en": "It relates two things and answers \"where\", but that does not make it a preposition. بَيْنَ is a noun.",
-      "tr": "İki şeyi ilişkilendirir ve \"nerede\" sorusuna cevap verir, ama bu onu harf-i cer yapmaz. بَيْنَ bir isimdir."
+      "en": "تَحْتَ is a place-adverb noun, and the article on الثَّرَى establishes definiteness regardless of whether a kasra is visible.",
+      "tr": "تَحْتَ yer zarfı olan bir isimdir; الثَّرَى kelimesindeki belirlilik takısı, görünür kesra bulunmasa da belirliliği gösterir."
      }
     },
     {
      "text": {
-      "en": "A verb: it shows an action.",
-      "tr": "Bir fiil: bir iş bildirir."
+      "en": "تَحْتَ is a place-adverb noun; الثَّرَى is an indefinite mudaf ilayh.",
+      "tr": "تَحْتَ yer zarfı olan bir isimdir; الثَّرَى belirsiz mudaf ileyhtir."
      },
      "why": {
-      "en": "بَيْنَ shows no action; it shows a position between two things, which is what a place adverb does.",
-      "tr": "بَيْنَ bir iş bildirmez; iki şey arasındaki bir konumu bildirir, yer zarfının yaptığı da budur."
+      "en": "The adverb and idafa analysis is right, but الثَّرَى has the definite article.",
+      "tr": "Zarf ve izafet çözümlemesi doğrudur; ancak الثَّرَى belirlilik takısı taşır."
      }
     },
     {
      "text": {
-      "en": "A place adverb: a noun meaning \"between\", ending in a fatha, with the attached pronoun هُمَا as its idafa partner.",
-      "tr": "Bir yer zarfı: \"arasında\" anlamında, fetha ile biten bir isimdir; bitişik zamir هُمَا onun tamlama ortağıdır."
+      "en": "تَحْتَ is a place-adverb noun and mudaf; الثَّرَى is its definite mudaf ilayh.",
+      "tr": "تَحْتَ yer zarfı olan bir isim ve mudaftır; الثَّرَى onun belirli mudaf ileyhidir."
      },
      "why": {
-      "en": "Correct. بَيْنَ tells where, so it is a noun (zarf makan); the attached pronoun completes the idafa.",
-      "tr": "Doğru. بَيْنَ yer bildirir, bu yüzden bir isimdir (zarf-ı mekân); bitişik zamir tamlamayı tamamlar."
+      "en": "تَحْتَ locates something beneath the soil and heads the idafa; الثَّرَى completes it and is definite through its article.",
+      "tr": "تَحْتَ bir şeyin toprağın altındaki yerini bildirir ve tamlamanın ilk ögesidir; الثَّرَى onu tamamlar ve belirlilik takısı sayesinde belirlidir."
      }
     },
     {
      "text": {
-      "en": "A place adverb, which like a preposition is a particle.",
-      "tr": "Bir yer zarfı; harf-i cer gibi o da bir edattır."
+      "en": "تَحْتَ is a place-adverb noun; الثَّرَى is its adjective.",
+      "tr": "تَحْتَ yer zarfı olan bir isimdir; الثَّرَى onun sıfatıdır."
      },
      "why": {
-      "en": "A place adverb is a noun, unlike a preposition, which is a particle. The two share only the idea of \"where\".",
-      "tr": "Yer zarfı bir isimdir; edat olan, harf-i cerdir. İkisinin ortak noktası yalnızca \"nerede\" fikridir."
+      "en": "الثَّرَى names what the location is beneath; it completes an idafa rather than describing a quality of تَحْتَ.",
+      "tr": "الثَّرَى, yerin neyin altında olduğunu belirtir; تَحْتَ kelimesinin bir niteliğini bildirmek yerine izafeti tamamlar."
      }
     }
    ],
