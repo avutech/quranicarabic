@@ -9,8 +9,8 @@
     "tr": "Doğrudan Emir Fiili — فعل الأمر"
    },
    "rule": {
-    "en": "The direct imperative is a command addressed to \"you\" (one person or several). To build it, take the second-person present-tense verb in its jussive (majzum) form and remove the present-tense prefix letter; what is left is the command. If what is left would begin with two consonants in a row, a helping alif (hamzat al-wasl) is placed in front so the word can be pronounced. A masculine singular command ends in sukun. A command to several men ends in waw followed by a silent alif. In the jussive, the final nun of the masculine plural forms (the \"five verbs\" pattern) is dropped, so the plural command is built from that nunless form.",
-    "tr": "Doğrudan emir, \"sana\" (bir veya birkaç kişiye) yönelen bir buyruktur. Yapmak için ikinci şahsın cezimli (meczûm) muzâri biçimini alır, baştaki geniş zaman önekini atarsınız; geriye kalan biçim emirdir. Kalan kısım art arda iki ünsüzle başlıyorsa okunabilmesi için başa yardımcı elif (vasıl hemzesi) getirilir. Eril tekil emir sükûn ile biter. Birkaç erkeğe emir, vav ve okunmayan elifle biter. Cezimde erkek çoğul (beş fiil) biçimlerinin sondaki nûnu düşer; çoğul emir, nûnu düşmüş bu biçimden yapılır."
+    "en": "The direct imperative is a command addressed to \"you\" (one person or several). To build it, take the second-person present-tense verb in its jussive (majzum) form and remove the present-tense prefix letter; what is left is the command. If what is left would begin with two consonants in a row, a helping alif (hamzat al-wasl) is placed in front so the word can be pronounced. A masculine singular command ends in sukun. A command to several men ends in waw followed by a silent alif. In the jussive, the final nun of the masculine plural forms (the \"five verbs\" pattern) is dropped, so the plural command is built from that nunless form. Attached wa and fa are connectors: count each complete written word as one word, while identifying the verb or lam within it separately. In an amma structure, the response fa is the fa after the topic, not a connector before amma.",
+    "tr": "Doğrudan emir, sana veya size yönelen bir buyruktur. Yapmak için ikinci şahsın cezimli (meczûm) muzâri biçimini alır, baştaki geniş zaman önekini atarsınız; geriye kalan biçim emirdir. Kalan kısım art arda iki ünsüzle başlıyorsa okunabilmesi için başa yardımcı elif (vasıl hemzesi) getirilir. Eril tekil emir sükûn ile biter. Birkaç erkeğe emir, vav ve okunmayan elifle biter. Cezimde erkek çoğul (beş fiil) biçimlerinin sondaki nûnu düşer; çoğul emir, nûnu düşmüş bu biçimden yapılır. Bitişik vav ve fe bağlayıcıdır: yazıda bitişik olan biçimi tek kelime sayın; içindeki fiili veya lamı ayrıca belirleyin. Emmâ yapısında cevap fesi, emmâ önündeki bağlayıcı değil, konudan sonra gelen fe harfidir."
    }
   },
   {
@@ -57,8 +57,8 @@
     "tr": "Tanıma Alıştırması — Yapıyı Bulun"
    },
    "rule": {
-    "en": "To tell the four tools apart, look at what is in front of you. A bare verb with no present-tense prefix, addressed to \"you\", is the direct imperative. A lam with kasra or sukun before a jussive verb is the command for him, them or us. Amma is followed by its topic and then fa, while a lam with fatha on a noun or on a damma-ending verb is emphatic. Lā before a jussive verb forbids the action.",
-    "tr": "Dört yapıyı ayırmak için karşınızdakine bakın. \"Sana\" yönelen, geniş zaman öneki olmayan çıplak bir fiil doğrudan emirdir. Cezimli bir fiilin önündeki kesreli ya da sükûnlu lam, o / onlar / biz için emirdir. Emmâ sözcüğünün ardından konu, sonra fe gelir; fetha ile okunan, isme veya dammeli fiile giren lam ise pekiştirmedir. Cezimli fiilden önceki lâ ise yasaklar."
+    "en": "Recognise a direct imperative by its command meaning addressed to “you”, absence of a present-tense prefix and of a past-tense subject suffix, and its imperative ending: sukun for the sound masculine singular forms practised here, or waw and silent alif with the plural nun dropped for the masculine plural. A lam with kasra or sukun before a jussive verb gives a command for him, them or us. Amma introduces a topic followed by fa opening the comment. An emphatic lam has fatha and stands on a noun or a verb retaining its indicative ending: damma or the nun of the five verbs. Prohibitive la precedes a jussive verb.",
+    "tr": "Doğrudan emri, “sana/size” yönelen buyruk anlamından, muzâri önekinin ve mâzi şahıs ekinin bulunmamasından ve emir sonlanışından tanıyın: burada çalışılan sahih eril tekil biçimlerde sükûn; eril çoğulda ise çoğul nûnu düşmüş olarak vav ve okunmayan elif. Cezimli fiilden önceki kesreli veya sükûnlu lam, o/onlar/biz için emir bildirir. Emmâ konuyu sunar; ardından gelen fe hükmü açar. Pekiştirme lamı fethalıdır; isme veya merfû sonunu koruyan fiile gelir: bu son, damme ya da beş fiilin nûnudur. Nehiy lâsından sonra cezimli fiil gelir."
    }
   }
  ],
@@ -176,8 +176,8 @@
       "tr": "Bir erkeğe (\"sen\", tekil)"
      },
      "why": {
-      "en": "A masculine singular command ends in sukun, with no waw. The waw plus silent alif shows more than one person.",
-      "tr": "Eril tekil emir vavsız, sükûnla biter. Vav ve okunmayan elif birden fazla kişiyi gösterir."
+      "en": "The commands ٱرْكَعُوا۟ and the verb in وَٱسْجُدُوا۟ have a plural waw and silent alif, so they address a group rather than one man.",
+      "tr": "ٱرْكَعُوا۟ emri ile وَٱسْجُدُوا۟ kelimesindeki fiil, çoğul vavı ve okunmayan elif taşır; tek erkeğe değil bir topluluğa seslenir."
      }
     },
     {
@@ -186,8 +186,8 @@
       "tr": "Orada bulunmayan bir erkeğe (\"o\")"
      },
      "why": {
-      "en": "A direct imperative is always addressed to \"you\", someone who is being spoken to, never to a third person.",
-      "tr": "Doğrudan emir her zaman \"sana\", yani muhatap olana yöneliktir; üçüncü şahsa yönelmez."
+      "en": "These are direct imperatives addressed to the listeners; they do not describe an absent man.",
+      "tr": "Bunlar muhataplara yönelen doğrudan emirlerdir; orada bulunmayan bir erkeği anlatmaz."
      }
     },
     {
@@ -196,8 +196,8 @@
       "tr": "Orada bulunmayan bir topluluğa (\"onlar\"), yaptıklarını anlatarak"
      },
      "why": {
-      "en": "Telling what they did would need a past verb, whose first two root letters carry fatha (the final root letter carries damma before the plural waw). These verbs have no fatha pattern and no prefix: they are commands.",
-      "tr": "Yaptıklarını anlatmak geçmiş zamanlı fiil gerektirir; onun ilk iki kök harfi fetha taşır (son kök harfi, çoğul vavından önce damme taşır). Bu fiillerde fetha kalıbı da önek de yoktur: bunlar emirdir."
+      "en": "Here the helping alif, sukun on the first root letter, absence of a present-tense prefix, and plural imperative ending identify commands to you, not past statements about them.",
+      "tr": "Burada yardımcı elif, ilk kök harfindeki sükûn, muzâri önekinin bulunmaması ve çoğul emir sonlanışı, bu fiillerin onlar hakkında geçmiş zaman bildirimleri değil, size yönelen emirler olduğunu gösterir."
      }
     },
     {
@@ -206,8 +206,8 @@
       "tr": "Birkaç erkeğe (\"siz\", çoğul)"
      },
      "why": {
-      "en": "Right. The waw al-jama'a with a silent alif marks the masculine plural command: the same command as the singular, said to a group.",
-      "tr": "Doğru. Okunmayan elifli cemaat vavı eril çoğul emri gösterir: tekil emrin aynısıdır, ama bir topluluğa söylenir."
+      "en": "Correct. In these commands the subject waw, followed by a silent alif, marks the masculine plural addressees: bow and prostrate, you all.",
+      "tr": "Doğru. Bu emirlerde okunmayan elifin önündeki özne vavı, eril çoğul muhatapları gösterir: siz rükû edin ve secde edin."
      }
     }
    ],
@@ -392,8 +392,8 @@
       "tr": "Öneki olmaz ve yine sükûnla biterdi"
      },
      "why": {
-      "en": "No prefix with a sukun ending is exactly the command. A marfu' mudari' must start with one of the letters أنيت and end in damma.",
-      "tr": "Önek olmadan sükûnla bitmek tam olarak emrin biçimidir. Merfû muzâri أنيت harflerinden biriyle başlamalı ve damme ile bitmelidir."
+      "en": "For this verb, absence of the present-tense prefix together with final sukun describes the imperative. The second-person singular indicative present form has a prefix and ends in damma.",
+      "tr": "Bu fiilde muzâri önekinin bulunmaması ve sondaki sükûn, emir biçimini gösterir. İkinci tekil şahsın merfû muzâri biçimi önek alır ve damme ile biter."
      }
     },
     {
@@ -402,8 +402,8 @@
       "tr": "تـ öneki ile başlar ve damme ile biterdi"
      },
      "why": {
-      "en": "Right. \"You\" in the mudari' takes the prefix تـ at the start, and the marfu' ending is damma. The command has neither: no prefix and a final sukun.",
-      "tr": "Doğru. Muzâride \"sen\" başta تـ önekini alır ve merfû sonu dammedir. Emirde ikisi de yoktur: önek yok, son harf sükûnludur."
+      "en": "Correct. The second-person singular present form begins with تـ and, for this verb, ends in damma when indicative. The imperative has no present-tense prefix and ends in sukun.",
+      "tr": "Doğru. İkinci tekil şahsın muzâri biçimi تـ ile başlar ve bu fiilde merfû olduğunda damme ile biter. Emir biçiminde muzâri öneki yoktur ve son harf sükûnludur."
      }
     },
     {
@@ -412,8 +412,8 @@
       "tr": "تـ öneki ile başlar ama yine sükûnla biterdi"
      },
      "why": {
-      "en": "The prefix would be right, but a sukun ending is the sign of the jussive and the command. The marfu' mudari' ends in damma.",
-      "tr": "Önek doğru olurdu, ama sükûn sonu cezimli ve emrin alâmetidir. Merfû muzâri damme ile biter."
+      "en": "The تـ prefix is correct, but for this verb final sukun marks the jussive present form or the imperative. The indicative present form ends in damma.",
+      "tr": "تـ öneki doğrudur; ancak bu fiilde sondaki sükûn, cezimli muzâri biçiminin veya emir biçiminin işaretidir. Merfû muzâri biçimi damme ile biter."
      }
     },
     {
@@ -422,8 +422,8 @@
       "tr": "Yardımcı elifle başlar ve damme ile biterdi"
      },
      "why": {
-      "en": "The helping alif belongs to the command. A mudari' begins with its tense prefix, not with a helping alif, so the start would be wrong.",
-      "tr": "Yardımcı elif emre aittir. Muzâri yardımcı elifle değil, zaman önekiyle başlar; bu yüzden başlangıç yanlış olurdu."
+      "en": "This imperative needs a helping alif. The corresponding second-person singular present form instead begins with the present-tense prefix تـ, so a helping alif would be the wrong beginning.",
+      "tr": "Bu emir biçiminde yardımcı elif gerekir. Aynı fiilin ikinci tekil şahıs muzâri biçimi ise تـ muzâri önekiyle başlar; bu nedenle yardımcı elifle başlaması yanlış olurdu."
      }
     }
    ],
@@ -1432,8 +1432,8 @@
    "options": [
     {
      "why": {
-      "en": "A command can take an attached object pronoun too. The pronoun does not decide the verb's kind.",
-      "tr": "Emir de bitişik nesne zamiri alabilir. Zamir, fiilin türünü belirlemez."
+      "en": "The attached هُ is an object pronoun; a direct imperative can also take an object pronoun, so this does not identify the past form.",
+      "tr": "Bitişik هُ bir nesne zamiridir; doğrudan emir de nesne zamiri alabilir, dolayısıyla bu özellik geçmiş zaman biçimini göstermez."
      },
      "text": {
       "en": "It ends with the attached pronoun هُ",
@@ -1442,8 +1442,8 @@
     },
     {
      "why": {
-      "en": "Right. The suffix تُمْ (\"you all\") after the stem is the sign of the past verb. A command has no such subject suffix; it ends in waw + silent alif.",
-      "tr": "Doğru. Gövdeden sonraki تُمْ eki (\"sizler\") geçmiş zamanlı fiilin işaretidir. Emirde böyle bir özne eki yoktur; emir vav + okunmayan elifle biter."
+      "en": "Right. In دَخَلْتُمُوهُ, the past-tense subject suffix تُمْ identifies the second-person plural past form. The quoted imperative ٱدْخُلُوا۟ has no تُمْ suffix and ends in waw plus silent alif.",
+      "tr": "Doğru. دَخَلْتُمُوهُ kelimesindeki geçmiş zaman özne eki تُمْ, ikinci çoğul şahıs geçmiş zaman biçimini gösterir. Alıntıdaki ٱدْخُلُوا۟ emrinde تُمْ eki yoktur; bu emir vav ve okunmayan elifle biter."
      },
      "text": {
       "en": "After its stem comes the past subject suffix تُمْ",
@@ -1452,8 +1452,8 @@
     },
     {
      "why": {
-      "en": "The command ٱدْخُلُوا۟ also speaks to several people, so this does not separate the two.",
-      "tr": "ٱدْخُلُوا۟ emri de birkaç kişiye seslenir; bu yüzden bu özellik ikisini ayırmaz."
+      "en": "Both دَخَلْتُمُوهُ and the imperative ٱدْخُلُوا۟ address a group, so the number of people addressed does not distinguish their forms.",
+      "tr": "Hem دَخَلْتُمُوهُ hem de ٱدْخُلُوا۟ emri bir topluluğa seslenir; bu yüzden hitap edilen kişi sayısı bu biçimleri ayırt etmez."
      },
      "text": {
       "en": "It speaks to several people",
@@ -1462,8 +1462,8 @@
     },
     {
      "why": {
-      "en": "True, but a command has no such prefix either, so this cannot tell a command from a past verb.",
-      "tr": "Doğru, ama emirde de böyle bir önek yoktur; bu yüzden emri geçmiş zamanlı fiilden ayırmaz."
+      "en": "Neither دَخَلْتُمُوهُ nor the imperative ٱدْخُلُوا۟ has a present-tense prefix, so its absence does not distinguish the past form from the imperative.",
+      "tr": "Ne دَخَلْتُمُوهُ kelimesinde ne de ٱدْخُلُوا۟ emrinde muzâri öneki vardır; dolayısıyla bu önekin yokluğu geçmiş zaman biçimini emirden ayırt etmez."
      },
      "text": {
       "en": "It has no أنيت prefix",
@@ -1732,8 +1732,8 @@
    "options": [
     {
      "why": {
-      "en": "Wrong: the prefix ت can mean 'you', but a lam of command is used for those who are not addressed, and the subject نَفْسٌ is stated by name.",
-      "tr": "Yanlış: ت öneki \"sen\" de olabilir, ancak emir lamı muhatap olmayanlar için kullanılır ve fail نَفْسٌ adıyla belirtilmiştir."
+      "en": "Wrong: although ت can mark 'you', the explicitly named subject here is the feminine noun نَفْسٌ, so this is third-person feminine singular.",
+      "tr": "Yanlış: ت öneki \"sen\" anlamını verebilse de burada açıkça belirtilen fail, dişil نَفْسٌ ismidir; dolayısıyla fiil üçüncü tekil dişildir."
      },
      "text": {
       "en": "You (masculine singular)",
@@ -1742,8 +1742,8 @@
     },
     {
      "why": {
-      "en": "Wrong: 'they' would show ي at the start and a waw at the end of the verb. Neither is here.",
-      "tr": "Yanlış: \"onlar\" için fiilin başında ي, sonunda vav bulunurdu. İkisi de yok."
+      "en": "Wrong: نَفْسٌ is singular, and تَنظُرْ agrees with it as feminine singular; this is not a masculine plural command.",
+      "tr": "Yanlış: نَفْسٌ tekildir ve تَنظُرْ fiili onunla dişil tekil olarak uyumludur; bu, eril çoğul bir emir değildir."
      },
      "text": {
       "en": "They (masculine plural)",
@@ -1752,8 +1752,8 @@
     },
     {
      "why": {
-      "en": "Wrong: 'we' would show the prefix ن. This verb starts with ت.",
-      "tr": "Yanlış: \"biz\" için ن öneki bulunurdu. Bu fiil ت ile başlıyor."
+      "en": "Wrong: 'let us look' would have the prefix ن, whereas this verb has ت and the named subject نَفْسٌ.",
+      "tr": "Yanlış: \"bakalım\" anlamı için ن öneki gerekirdi; bu fiilde ise ت öneki ve açıkça belirtilmiş نَفْسٌ faili vardır."
      },
      "text": {
       "en": "We (let us look)",
@@ -1762,8 +1762,8 @@
     },
     {
      "why": {
-      "en": "Right: the lam of command makes this a third-person command, and the subject نَفْسٌ is named and feminine, so the prefix ت here means 'she'.",
-      "tr": "Doğru: emir lamı bunu üçüncü şahıs emri yapar; fail نَفْسٌ açıkça anılmıştır ve dişildir, bu yüzden buradaki ت öneki \"o (dişil)\" demektir."
+      "en": "Right: نَفْسٌ is the explicitly named feminine singular subject, so ت here marks 'she'; the command lam gives 'let a soul look'.",
+      "tr": "Doğru: نَفْسٌ açıkça belirtilmiş dişil tekil faildir; buradaki ت, \"o (dişil)\" şahsını gösterir. Emir lamı, \"bir nefs baksın\" anlamını verir."
      },
      "text": {
       "en": "She: a soul (third person feminine singular), 'let a soul look'",
@@ -2110,29 +2110,29 @@
    "options": [
     {
      "why": {
-      "en": "Wrong: it also ends in waw and silent alif, but it has no prefix and no lam before it. It is a past verb ('they prostrated').",
-      "tr": "Yanlış: o da vav ve sessiz elifle biter, fakat öneki ve önünde lam yoktur. Geçmiş zamanlı bir fiildir (\"secde ettiler\")."
+      "en": "This is a past-form verb (madi), with no present-tense prefix or command lam. Here it occurs after “when” in instructions; its past form does not describe an already completed event.",
+      "tr": "Bu, muzâri öneki ve emir lamı bulunmayan mâzi biçimindeki bir fiildir. Burada talimat içinde “secde ettiklerinde” anlamındadır; mâzi biçimi, olayın zaten gerçekleştiğini bildirmez."
      },
      "ar": "سَجَدُوا۟"
     },
     {
      "why": {
-      "en": "Wrong: it is a noun (weapons) with the attached pronoun ـهُمْ (their). It is not a verb.",
-      "tr": "Yanlış: أَسْلِحَتَهُمْ (\"silahlarını\") bir isimdir; ـهُمْ zamiri ona bitişmiştir. Fiil değildir."
+      "en": "This is the noun “weapons” with the attached pronoun meaning “their”; it is not a jussive verb.",
+      "tr": "Bu, “silahlar” anlamındaki isme “onların” anlamındaki zamirin eklenmiş biçimidir; cezimli fiil değildir."
      },
      "ar": "أَسْلِحَتَهُمْ"
     },
     {
      "why": {
-      "en": "Wrong: it is a connector fa joined to إِذَا, which begins the next clause. It is not a verb.",
-      "tr": "Yanlış: إِذَا kelimesine bitişen bağlaç fe'dir ve sonraki cümleyi başlatır. Fiil değildir."
+      "en": "This written word contains the connector fa and the word meaning “when”; it introduces the next clause rather than expressing a command verb.",
+      "tr": "Bu yazılı kelime, bağlayıcı fe ile “ne zaman” anlamındaki kelimeyi içerir; emir fiili değil, sonraki cümlenin girişidir."
      },
      "ar": "فَإِذَا"
     },
     {
      "why": {
-      "en": "Right: it follows the lam (sukun after wa), has the present-tense prefix ي, and drops the nun of the plural (يَأْخُذُونَ becomes يَأْخُذُوا).",
-      "tr": "Doğru: lamdan sonra gelir (vav'dan sonra sükûnlu), geniş zaman önekini (ي) taşır ve çoğul nûnunu düşürmüştür (يَأْخُذُونَ yerine يَأْخُذُوا)."
+      "en": "Correct. Within this written word, wa is a connector and the command lam has sukun after it. The verb has the prefix ya and its plural nun is dropped, marking the jussive.",
+      "tr": "Doğru. Bu yazılı kelimede vav bağlayıcıdır; ardından gelen emir lamı sükûnludur. Fiil ya önekini taşır ve çoğul nûnu düşmüştür; bu, cezim işaretidir."
      },
      "ar": "وَلْيَأْخُذُوا۟"
     }
@@ -2426,8 +2426,8 @@
       "tr": "وَلْيَصْفَحُوٓا۟ geçmiş zamanlı bir fiildir ve geçmiş zamanlı fiiller nûn almaz"
      },
      "why": {
-      "en": "Wrong: the verb begins with the prefix ي, so it is a present-tense verb. The nun is missing because of the lam of command in front of it.",
-      "tr": "Yanlış: fiil ي önekiyle başlar, yani geniş zamanlıdır. Nûnun olmaması, önündeki emir lamı yüzündendir."
+      "en": "Wrong: يَصْفَحُوٓا۟ is a present-tense form with the prefix ي. The command lam makes it jussive, with its final nun dropped.",
+      "tr": "Yanlış: يَصْفَحُوٓا۟, ي önekli bir muzâri biçimidir. Emir lamı fiili cezimli yapar ve sondaki nûn düşer."
      }
     },
     {
@@ -2436,8 +2436,8 @@
       "tr": "Nûn düştü, çünkü أَلَا kelimesi fiilin hemen ardından geliyor"
      },
      "why": {
-      "en": "Wrong: the word after the verb is a separate word and has no effect on the verb's ending. The cause of the missing nun is the lam of command.",
-      "tr": "Yanlış: fiilden sonraki kelime ayrı bir kelimedir ve fiilin sonuna etki etmez. Nûnun düşmesinin sebebi emir lamıdır."
+      "en": "Wrong: the following أَلَا does not cause this deletion; the command lam before يَصْفَحُوٓا۟ makes the verb jussive.",
+      "tr": "Yanlış: ardından gelen أَلَا bu düşmeye sebep olmaz; يَصْفَحُوٓا۟ fiilinden önceki emir lamı fiili cezimli yapar."
      }
     },
     {
@@ -2446,8 +2446,8 @@
       "tr": "Emir lamından sonraki fiil cezimlidir, bu yüzden nûnu düşer; تُحِبُّونَ kelimesinin önünde böyle bir lam yoktur, bu yüzden nûnlu sıradan merfû muzâri olarak kalır"
      },
      "why": {
-      "en": "Right: the lam in وَلْيَصْفَحُوٓا۟ requires the jussive, and the jussive of the five-verb pattern drops the nun. تُحِبُّونَ is not governed by any lam of command, so it stays marfu' with its nun.",
-      "tr": "Doğru: وَلْيَصْفَحُوٓا۟ kelimesindeki lam cezim ister ve beş fiil kalıbında cezim nûnun düşmesiyle olur. تُحِبُّونَ kelimesini etkileyen bir emir lamı yoktur; bu yüzden nûnuyla birlikte merfû kalır."
+      "en": "Right: the command lam makes يَصْفَحُوٓا۟ jussive, marked by dropping the nun of the five verbs. تُحِبُّونَ is marfu' here and retains its nun.",
+      "tr": "Doğru: emir lamı يَصْفَحُوٓا۟ fiilini cezimli yapar; beş fiilde bunun belirtisi nûnun düşmesidir. تُحِبُّونَ burada merfûdur ve nûnunu korur."
      }
     },
     {
@@ -2456,8 +2456,8 @@
       "tr": "İki fiil de nûnunu kaybetmeliydi; تُحِبُّونَ kelimesinin nûnu yalnızca alıntının son kelimesi olduğu için kalır"
      },
      "why": {
-      "en": "Wrong: position in the quote or in the ayah does not decide anything. A nun drops when a jussive or subjunctive particle, such as the lam of command here, stands before the verb.",
-      "tr": "Yanlış: alıntıdaki ya da ayetteki yer hiçbir şeyi belirlemez. Nûn ancak fiilin önünde cezim ya da nasb yapan bir kelime, burada emir lamı, varsa düşer."
+      "en": "Wrong: ending the quote does not preserve a nun. Here تُحِبُّونَ retains it because it is marfu', while the command lam makes يَصْفَحُوٓا۟ jussive and drops its nun.",
+      "tr": "Yanlış: alıntının sonunda bulunmak nûnu korumaz. Burada تُحِبُّونَ merfû olduğu için nûnunu korur; emir lamı ise يَصْفَحُوٓا۟ fiilini cezimli yapar ve nûnu düşürür."
      }
     }
    ],
@@ -2642,8 +2642,8 @@
       "tr": "لِقَآءَ"
      },
      "why": {
-      "en": "Wrong: it has a lam with kasra, but this lam is a root letter of a noun. It does not stand before a present-tense verb.",
-      "tr": "Yanlış: kesreli bir lam vardır, ama bu lam bir ismin kök harfidir. Geniş zamanlı bir fiilin önünde değildir."
+      "en": "This is a noun meaning “meeting”. Its initial lam is a root letter with kasra, not a command prefix before a present-tense verb.",
+      "tr": "Bu, “kavuşma” anlamındaki bir isimdir. Baştaki kesreli lam kök harfidir; muzâri fiilin önündeki emir öneki değildir."
      }
     },
     {
@@ -2652,8 +2652,8 @@
       "tr": "فَلْيَعْمَلْ"
      },
      "why": {
-      "en": "Right: the lam has sukun after fa and stands before the present verb with the ي prefix, which ends in sukun (jussive): \"let him do\".",
-      "tr": "Doğru: lam fe'den sonra sükûnludur ve sükûnla biten (cezimli), ي önekli geniş zamanlı fiilin önündedir: \"yapsın\"."
+      "en": "Correct. After fa, the command lam has sukun. It precedes the present-tense verb with the ي prefix and final sukun, giving the command “let him do”.",
+      "tr": "Doğru. Fe harfinden sonra emir lamı sükûn alır. ي önekli ve sonu sükûnlu muzâri fiilin önüne gelerek “yapsın” emrini bildirir."
      }
     },
     {
@@ -2662,8 +2662,8 @@
       "tr": "عَمَلًۭا"
      },
      "why": {
-      "en": "Wrong: this is a noun (the object). The lam in it is the last root letter, so it is no prefix and not a command lam.",
-      "tr": "Yanlış: bu bir isimdir (mef'ul). İçindeki lam son kök harfidir; önek değildir ve emir lamı olamaz."
+      "en": "This is a noun with tanwin. Its lam is the final root letter, not a command prefix before a verb.",
+      "tr": "Bu, tenvinli bir isimdir. Lam son kök harfidir; fiilin önündeki emir öneki değildir."
      }
     },
     {
@@ -2672,8 +2672,8 @@
       "tr": "صَـٰلِحًۭا"
      },
      "why": {
-      "en": "Wrong: this is an adjective. Its lam is a root letter in the middle of the word, not a prefix before a verb.",
-      "tr": "Yanlış: bu bir sıfattır. İçindeki lam, kelimenin ortasında bir kök harftir; fiilin önündeki bir önek değildir."
+      "en": "This adjective describes the preceding noun as righteous. Its lam is a root letter inside the word, not a command prefix before a verb.",
+      "tr": "Bu sıfat, önceki ismi “iyi, salih” olarak niteler. Lam kelimenin içindeki bir kök harftir; fiilin önündeki emir öneki değildir."
      }
     }
    ],
@@ -3298,14 +3298,14 @@
    "ref": "3:107",
    "quote": "وَأَمَّا ٱلَّذِينَ ٱبْيَضَّتْ وُجُوهُهُمْ فَفِى رَحْمَةِ ٱللَّهِ",
    "stem": {
-    "en": "Why must the fa at the start of فَفِى not be treated as part of the topic?",
-    "tr": "فَفِى kelimesinin başındaki fe neden konunun parçası sayılmamalıdır?"
+    "en": "The topic is supplied: ٱلَّذِينَ ٱبْيَضَّتْ وُجُوهُهُمْ ('those whose faces turn white'). Why must the fa at the start of فَفِى not be treated as part of this topic?",
+    "tr": "Konu verilmiştir: ٱلَّذِينَ ٱبْيَضَّتْ وُجُوهُهُمْ (\"yüzleri ağaranlar\"). فَفِى kelimesinin başındaki fe neden bu konunun parçası sayılmamalıdır?"
    },
    "options": [
     {
      "why": {
-      "en": "This is false. In an amma sentence the fa stands in the middle, after the topic; that is exactly its place.",
-      "tr": "Bu yanlıştır. Emmâ cümlesinde fe, konudan sonra, cümlenin ortasında durur; yeri tam olarak orasıdır."
+      "en": "Wrong: in this amma structure the fa follows the supplied topic and opens the comment; it need not begin the whole sentence.",
+      "tr": "Yanlış: bu emmâ yapısında fe, verilen konudan sonra gelir ve hükmü açar; bütün cümlenin başında bulunması gerekmez."
      },
      "text": {
       "en": "Because a fa can only stand at the very beginning of a whole sentence",
@@ -3314,8 +3314,8 @@
     },
     {
      "why": {
-      "en": "Correct. The topic runs from أَمَّا up to the fa. The fa itself is the opener of the comment.",
-      "tr": "Doğru. Konu emmâ edatından fe'ye kadar sürer. Fe'nin kendisi hükmün açıcısıdır."
+      "en": "Correct: the supplied topic is ٱلَّذِينَ ٱبْيَضَّتْ وُجُوهُهُمْ. The fa in فَفِى opens the comment about that topic.",
+      "tr": "Doğru: verilen konu ٱلَّذِينَ ٱبْيَضَّتْ وُجُوهُهُمْ ifadesidir. فَفِى kelimesindeki fe, bu konu hakkındaki hükmü açar."
      },
      "text": {
       "en": "Because it belongs to the comment: it marks the end of the topic and the start of what is said about it",
@@ -3324,8 +3324,8 @@
     },
     {
      "why": {
-      "en": "A fa does not change what kind of word it is attached to. فِى stays a preposition, followed by رَحْمَةِ in the genitive.",
-      "tr": "Fe, bitiştiği kelimenin türünü değiştirmez. فِى edat olarak kalır ve ardından cer halinde رَحْمَةِ gelir."
+      "en": "Wrong: attaching fa does not turn فِى into a verb; it remains a preposition before رَحْمَةِ.",
+      "tr": "Yanlış: fe eklenmesi فِى edatını fiile dönüştürmez; رَحْمَةِ kelimesinden önceki harf-i cer olarak kalır."
      },
      "text": {
       "en": "Because the fa turns the preposition فِى into a verb",
@@ -3334,8 +3334,8 @@
     },
     {
      "why": {
-      "en": "This reverses the pattern. The topic comes between أَمَّا and the fa; what comes after the fa is the comment.",
-      "tr": "Bu, kalıbı tersine çevirir. Konu emmâ ile fe arasındadır; fe'den sonra gelen şey hükümdür."
+      "en": "Wrong: the supplied topic precedes the fa. The phrase after the fa tells us about that topic.",
+      "tr": "Yanlış: verilen konu fe harfinden önce gelir. Fe harfinden sonraki ifade, o konu hakkında bilgi verir."
      },
      "text": {
       "en": "Because the topic is whatever comes after the fa",
@@ -3754,8 +3754,8 @@
    "options": [
     {
      "why": {
-      "en": "Correct. The comment starts at the fa and says what the topic will become on the Day. The verb ends in a waw (\"they\"), so the topic is the doer, and the comment is \"they will be firewood for Hell\".",
-      "tr": "Doğru. Hüküm fe ile başlar ve konunun Kıyamet Günü'nde ne olacağını söyler. Fiil vav ile biter (\"onlar\"); yani fail konudur ve hüküm \"cehenneme odun olacaklar\"dır."
+      "en": "Correct: the fa opens the comment about ٱلْقَـٰسِطُونَ: they will be firewood for Hell, as the supplied glosses show.",
+      "tr": "Doğru: fe, ٱلْقَـٰسِطُونَ konusu hakkındaki hükmü açar: verilen anlamlara göre onlar cehenneme odun olacaklardır."
      },
      "text": {
       "en": "They will be firewood for Hell",
@@ -3764,8 +3764,8 @@
     },
     {
      "why": {
-      "en": "This reverses the meaning. The comment joins them to Hell with the preposition لِ (\"for Hell\"), it does not separate them from it.",
-      "tr": "Bu, anlamı tersine çevirir. Hüküm onları لِ edatıyla cehenneme bağlar (\"cehenneme\"); ondan ayırmaz."
+      "en": "Wrong: لِجَهَنَّمَ حَطَبًا says 'firewood for Hell', not that they are kept away from Hell.",
+      "tr": "Yanlış: لِجَهَنَّمَ حَطَبًا, \"cehenneme odun\" demektir; cehennemden uzak tutulduklarını söylemez."
      },
      "text": {
       "en": "They were kept far away from Hell",
@@ -3774,8 +3774,8 @@
     },
     {
      "why": {
-      "en": "This turns the doer around. The verb ends in a waw meaning \"they\", so the unjust ones are the ones who became firewood; Hell is only the place named after the preposition لِ.",
-      "tr": "Bu, failin yerini değiştirir. Fiil \"onlar\" anlamında bir vav ile biter; odun olan zalimlerdir. Cehennem, لِ edatından sonra anılan yerdir."
+      "en": "Wrong: the comment says that the unjust will be firewood for Hell; it does not say that Hell becomes firewood for them.",
+      "tr": "Yanlış: hüküm, zalimlerin cehenneme odun olacaklarını söyler; cehennemin onlar için odun olduğunu söylemez."
      },
      "text": {
       "en": "Hell became firewood for them",
@@ -3784,8 +3784,8 @@
     },
     {
      "why": {
-      "en": "Nothing in the comment says they gathered anything. The verb means \"they became\", and حَطَبًا tells what they became.",
-      "tr": "Hükümde bir şey topladıklarını söyleyen hiçbir ifade yoktur. Fiil \"oldular\" demektir ve حَطَبًا ne olduklarını bildirir."
+      "en": "Wrong: the supplied glosses describe what they will be: firewood for Hell. They say nothing about gathering firewood.",
+      "tr": "Yanlış: verilen anlamlar, onların ne olacaklarını bildirir: cehenneme odun. Odun toplamaktan söz edilmez."
      },
      "text": {
       "en": "They gathered firewood for Hell",
@@ -3808,8 +3808,8 @@
    "options": [
     {
      "why": {
-      "en": "Each of these two verbs carries the fa that opens a comment. They are the two comments, not the two topics.",
-      "tr": "Bu iki fiilin her biri, bir hükmü açan fe'yi taşır. Bunlar iki hükümdür, iki konu değildir."
+      "en": "These verbs open the two comments with fa; they are not the topics. The first comment also includes the following words meaning “his master” and “wine”.",
+      "tr": "Bu fiiller fe ile iki hükmü başlatır; konu değildir. Birinci hüküm, ardından gelen “efendisine” ve “şarap” anlamındaki kelimeleri de içerir."
      },
      "text": {
       "en": "فَيَسْقِى and فَيُصْلَبُ",
@@ -3818,8 +3818,8 @@
     },
     {
      "why": {
-      "en": "Both words sit inside the first comment, after its fa. They tell what the first person does; neither comes right after أَمَّا.",
-      "tr": "İki kelime de birinci hükmün içinde, fe'den sonra yer alır. Birinci kişinin ne yaptığını anlatırlar; hiçbiri emmâ edatının hemen arkasında değildir."
+      "en": "Both words belong to the first comment, after its opening fa; neither is the topic immediately following amma.",
+      "tr": "İki kelime de açılış fesinden sonra birinci hükümde yer alır; hiçbiri emmâ edatını hemen izleyen konu değildir."
      },
      "text": {
       "en": "رَبَّهُۥ and خَمْرًۭا",
@@ -3828,8 +3828,8 @@
     },
     {
      "why": {
-      "en": "Correct. The first أَمَّا is followed by أَحَدُكُمَا and the second by ٱلْـَٔاخَرُ. Each is a topic with its own fa and comment, and the two are set against each other.",
-      "tr": "Doğru. Birinci emmâ edatının arkasında أَحَدُكُمَا, ikincisinin arkasında ٱلْـَٔاخَرُ gelir. Her biri kendi fe'si ve hükmü olan bir konudur; ikisi birbirine karşı konmuştur."
+      "en": "Correct. “One of you two” follows the first amma, and “the other” follows the second. These are the two topics, each followed by its own fa and comment.",
+      "tr": "Doğru. İlk emmâ edatından sonra “ikinizden biri”, ikincisinden sonra “öbürü” gelir. Bunlar, her birini kendi fesi ve hükmü izleyen iki konudur."
      },
      "text": {
       "en": "أَحَدُكُمَا and ٱلْـَٔاخَرُ",
@@ -3838,8 +3838,8 @@
     },
     {
      "why": {
-      "en": "The first word is a topic, but خَمْرًۭا is inside that same topic's comment. A topic is never paired with a word of its own comment.",
-      "tr": "İlk kelime bir konudur; ancak خَمْرًۭا aynı konunun kendi hükmünün içindedir. Konu, kendi hükmünün bir kelimesiyle eşleştirilmez."
+      "en": "“One of you two” is the first topic, but “wine” belongs to its comment; this pair therefore does not give the two topics.",
+      "tr": "“İkinizden biri” ilk konudur; ancak “şarap” onun hakkındaki hükümde yer alır. Bu nedenle bu çift iki konuyu göstermez."
      },
      "text": {
       "en": "أَحَدُكُمَا and خَمْرًۭا",
@@ -3916,8 +3916,8 @@
    "options": [
     {
      "why": {
-      "en": "This reads the verb as a command with the lam of command. No lam is attached to the verb; the fa belongs to the أَمَّا pattern and the sentence is a statement.",
-      "tr": "Bu, fiili emir lamıyla verilmiş bir emir sayar. Fiile bitişik bir lam yoktur; fe, emmâ kalıbına aittir ve cümle bir bildirimdir."
+      "en": "Wrong: this is a statement recounting Thamud's destruction, not a command; the fa opens the comment after amma.",
+      "tr": "Yanlış: bu, Semûd kavminin helakini anlatan bir bildirimdir, emir değildir; fe, emmâ edatından sonraki hükmü açar."
      },
      "text": {
       "en": "Let Thamud be destroyed by the overwhelming calamity",
@@ -3926,8 +3926,8 @@
     },
     {
      "why": {
-      "en": "This makes ٱلطَّاغِيَةِ the topic. The topic is the word right after أَمَّا, which is ثَمُودُ; ٱلطَّاغِيَةِ comes inside the comment.",
-      "tr": "Bu, ٱلطَّاغِيَةِ kelimesini konu yapar. Konu emmâ edatının hemen arkasındaki kelimedir; o da ثَمُودُ kelimesidir. ٱلطَّاغِيَةِ ise hüküm içinde gelir."
+      "en": "Wrong: ثَمُودُ is the topic immediately after amma; ٱلطَّاغِيَةِ occurs in the comment, not as the topic.",
+      "tr": "Yanlış: emmâ edatından hemen sonra gelen ثَمُودُ konudur; ٱلطَّاغِيَةِ ise konu olarak değil, hükmün içinde yer alır."
      },
      "text": {
       "en": "As for the overwhelming calamity, Thamud were destroyed by it",
@@ -3936,8 +3936,8 @@
     },
     {
      "why": {
-      "en": "The topic is right, but the verb is a past form. \"Will be destroyed\" would need a mudari' verb with an أنيت prefix.",
-      "tr": "Konu doğru, ancak fiil geçmiş zaman biçimindedir. \"Helak edilecekler\" için أنيت önekli bir muzâri fiil gerekirdi."
+      "en": "Wrong: this ayah recounts Thamud's past destruction, as the supplied gloss 'they were destroyed' indicates; 'will be destroyed' does not fit this account.",
+      "tr": "Yanlış: verilen \"helak edildiler\" anlamının da gösterdiği gibi bu ayet, Semûd kavminin geçmişteki helakini anlatır; \"helak edilecekler\" bu anlatıma uymaz."
      },
      "text": {
       "en": "As for Thamud, they will be destroyed by the overwhelming calamity",
@@ -3946,8 +3946,8 @@
     },
     {
      "why": {
-      "en": "Correct. أَمَّا is translated \"as for\" with the topic ثَمُودُ right after it. The fa opens the comment, whose verb is a past form: \"they were destroyed\".",
-      "tr": "Doğru. Emmâ \"... gelince\" diye çevrilir ve konu ثَمُودُ hemen arkasında gelir. Fe hükmü açar; hükmün fiili geçmiş zaman biçimindedir: \"helak edildiler\"."
+      "en": "Correct: amma introduces Thamud as the topic, and the fa opens the account of their past destruction by the overwhelming calamity.",
+      "tr": "Doğru: emmâ, Semûd kavmini konu olarak öne çıkarır; fe ise onların her şeyi aşan felaketle geçmişte helak edilmelerini anlatan hükmü açar."
      },
      "text": {
       "en": "As for Thamud, they were destroyed by the overwhelming calamity",
@@ -4120,29 +4120,29 @@
    "options": [
     {
      "why": {
-      "en": "This is the comment: it begins with the fa and says what to do. It cannot be the topic.",
-      "tr": "Bu, hükümdür: fe ile başlar ve ne yapılacağını söyler. Konu olamaz."
+      "en": "فَحَدِّثْ opens the comment with fa and gives the command; it is outside the topic.",
+      "tr": "فَحَدِّثْ kelimesi fe ile hükmü açar ve emri bildirir; konunun dışındadır."
      },
      "ar": "فَحَدِّثْ"
     },
     {
      "why": {
-      "en": "This is only the last word of the topic. The topic is the whole stretch between أَمَّا and the fa, including بِنِعْمَةِ.",
-      "tr": "Bu yalnızca konunun son kelimesidir. Konu, emmâ ile fe arasındaki bütün kısımdır; بِنِعْمَةِ da buna dahildir."
+      "en": "رَبِّكَ is only the last word of the topic; بِنِعْمَةِ also belongs to the phrase between amma and the response fa.",
+      "tr": "رَبِّكَ yalnızca konunun son kelimesidir; بِنِعْمَةِ kelimesi de emmâ ile cevap fesi arasındaki ifadeye dahildir."
      },
      "ar": "رَبِّكَ"
     },
     {
      "why": {
-      "en": "This crosses the fa. The fa ends the topic, so a topic never includes the fa or what follows it.",
-      "tr": "Bu, fe'yi aşar. Fe konuyu bitirir; bu yüzden konu fe'yi ya da onu izleyeni içermez."
+      "en": "This phrase includes فَحَدِّثْ, where the response fa opens the comment, so it extends beyond the topic.",
+      "tr": "Bu ifade, cevap fesinin hükmü açtığı فَحَدِّثْ kelimesini de içerir; bu yüzden konunun sınırını aşar."
      },
      "ar": "رَبِّكَ فَحَدِّثْ"
     },
     {
      "why": {
-      "en": "Correct. The topic is everything between أَمَّا and the fa. It may begin with a preposition, as here, and the fa that follows opens the comment.",
-      "tr": "Doğru. Konu, emmâ ile fe arasındaki her şeydir. Burada olduğu gibi bir edatla başlayabilir; ardından gelen fe hükmü açar."
+      "en": "Correct. بِنِعْمَةِ رَبِّكَ is the topic highlighted between amma and the response fa; the command follows in the comment.",
+      "tr": "Doğru. بِنِعْمَةِ رَبِّكَ ifadesi, emmâ ile cevap fesi arasında öne çıkarılan konudur; emir ise ardından gelen hükümde yer alır."
      },
      "ar": "بِنِعْمَةِ رَبِّكَ"
     }
@@ -4960,29 +4960,29 @@
    "options": [
     {
      "why": {
-      "en": "بِهِمْ is a preposition with an attached pronoun. It only fills the gap before the khabar and has no lam.",
-      "tr": "بِهِمْ bitişik zamirli bir harf-i cerdir. Sadece haberden önceki boşluğu doldurur ve lamı yoktur."
+      "en": "Wrong: بِهِمْ consists of a preposition and an attached pronoun before the khabar; it means 'about them' and contains no lam.",
+      "tr": "Yanlış: بِهِمْ, haberden önce gelen bir harf-i cer ile bitişik zamirden oluşur; \"onlardan / onlar hakkında\" anlamını verir ve lam içermez."
      },
      "ar": "بِهِمْ"
     },
     {
      "why": {
-      "en": "يَوْمَئِذٍۢ is a word of time standing in the gap before the khabar. It carries no lam.",
-      "tr": "يَوْمَئِذٍۢ haberden önceki boşlukta duran bir zaman kelimesidir. Lam taşımaz."
+      "en": "Wrong: يَوْمَئِذٍۢ means 'that Day' and indicates time before the khabar; it carries no emphatic lam.",
+      "tr": "Yanlış: يَوْمَئِذٍۢ, \"o gün\" demektir ve haberden önce zamanı belirtir; pekiştirme lamı taşımaz."
      },
      "ar": "يَوْمَئِذٍۢ"
     },
     {
      "why": {
-      "en": "Correct. The lam (fatha) is prefixed to the khabar of inna. A lam is not placed on the first word after inna but on the khabar, wherever it comes.",
-      "tr": "Doğru. Lam (fetha), inne'nin haberine eklenmiştir. Lam inne'den sonraki ilk kelimeye değil, nerede olursa olsun habere girer."
+      "en": "Correct: لَّخَبِيرٌۢ is the khabar of inna here and bears the emphatic lam with fatha, despite the intervening words.",
+      "tr": "Doğru: لَّخَبِيرٌۢ burada inne edatının haberidir ve araya giren kelimelere rağmen fethalı pekiştirme lamını taşır."
      },
      "ar": "لَّخَبِيرٌۢ"
     },
     {
      "why": {
-      "en": "رَبَّهُم is the noun right after inna. It has no lam; the lam is on the khabar.",
-      "tr": "رَبَّهُم inne'den hemen sonra gelen isimdir. Lamı yoktur; lam haberdedir."
+      "en": "Wrong: رَبَّهُم is the noun of inna, not its khabar, and has no lam; the emphatic lam is attached to خَبِيرٌ.",
+      "tr": "Yanlış: رَبَّهُم, inne edatının ismidir, haberi değildir ve lam taşımaz; pekiştirme lamı خَبِيرٌ kelimesine bitişiktir."
      },
      "ar": "رَبَّهُم"
     }
@@ -6112,8 +6112,8 @@
    "options": [
     {
      "why": {
-      "en": "A direct command to \"you\" would be a bare verb with no prefix. This verb starts with ya and has a lam in front.",
-      "tr": "\"Siz\"e doğrudan emir, öneksiz çıplak bir fiil olurdu. Bu fiil ya ile başlar ve önünde lam vardır."
+      "en": "The ya in the verb within وَلْيَأْخُذُوٓا۟ marks third person here; it is not a direct imperative addressed to you.",
+      "tr": "وَلْيَأْخُذُوٓا۟ kelimesindeki fiilin ya öneki burada üçüncü şahsı gösterir; bu, size yönelen doğrudan emir değildir."
      },
      "text": {
       "en": "\"You\" (masculine plural), who are addressed directly",
@@ -6122,8 +6122,8 @@
     },
     {
      "why": {
-      "en": "The first person plural would begin with nun, as in نَأْخُذْ. This verb begins with ya.",
-      "tr": "Birinci çoğul nûn ile başlardı (نَأْخُذْ gibi). Bu fiil ya ile başlar."
+      "en": "The verb in وَلْيَأْخُذُوٓا۟ has the third-person ya prefix, whereas a first-person plural verb would have a nun prefix.",
+      "tr": "وَلْيَأْخُذُوٓا۟ kelimesindeki fiilde üçüncü şahıs ya öneki vardır; birinci çoğul şahıs fiilinde ise nûn öneki bulunurdu."
      },
      "text": {
       "en": "\"We\", the speaker together with others",
@@ -6132,8 +6132,8 @@
     },
     {
      "why": {
-      "en": "The ending -ū and the pronoun in أَسْلِحَتَهُمْ are plural. A single man would be يَأْخُذْ.",
-      "tr": "-û sonu ve أَسْلِحَتَهُمْ kelimesindeki zamir çoğuldur. Tek erkek için يَأْخُذْ denirdi."
+      "en": "The subject waw in the verb marks masculine plural, excluding a single man; the suffix on أَسْلِحَتَهُمْ identifies the possessors of the weapons.",
+      "tr": "Fiildeki özne vavı eril çoğulu gösterir ve tek erkek seçeneğini eler; أَسْلِحَتَهُمْ kelimesindeki ek ise silahların sahiplerini belirtir."
      },
      "text": {
       "en": "A single man",
@@ -6142,8 +6142,8 @@
     },
     {
      "why": {
-      "en": "Correct. The verb begins with ya and follows the command lam, so it is a third-person command. أَسْلِحَتَهُمْ (\"their arms\") confirms \"they\".",
-      "tr": "Doğru. Fiil ya ile başlar ve emir lamını izler; yani üçüncü şahıs emridir. أَسْلِحَتَهُمْ (\"silahları\") \"onlar\"ı doğrular."
+      "en": "Correct. The command lam makes this an exhortation, the ya marks third person here, and the subject waw marks masculine plural: let them take; the suffix هُمْ on أَسْلِحَتَهُمْ means their and identifies the weapons’ possessors.",
+      "tr": "Doğru. Emir lamı bu fiile emir anlamı katar; ya öneki burada üçüncü şahsı, özne vavı ise eril çoğulu gösterir: onlar alsınlar; أَسْلِحَتَهُمْ kelimesindeki هُمْ eki onların anlamını taşır ve silahların sahiplerini belirtir."
      },
      "text": {
       "en": "\"They\", in the third person plural, not the listeners",
@@ -6170,8 +6170,8 @@
       "tr": "Hayır: kelimede lam vardır ve fiil ya ile başlar; bu yüzden “onlara” emreder (emir lamı + cezimli)"
      },
      "why": {
-      "en": "Correct. A direct imperative to “you all” has no lam and no ya at the start. Here the lam has sukun after fa and the verb is jussive (nun dropped), so it is a command for “them”.",
-      "tr": "Doğru. “Size” yönelik doğrudan emirde ne lam ne de baştaki ya bulunur. Burada lam fe harfinden sonra sükûnludur ve fiil cezimlidir (nûn düşmüş); yani “onlar” için emirdir."
+      "en": "Correct. The connector fa is followed by a command lam with sukun. The verb has ya for the third person and has dropped its plural nun, so the command is “let them worship”.",
+      "tr": "Doğru. Bağlayıcı fe harfini sükûnlu emir lamı izler. Fiil üçüncü şahsı gösteren ya önekini taşır ve çoğul nûnu düşmüştür; emir “kulluk etsinler” anlamındadır."
      }
     },
     {
@@ -6180,8 +6180,8 @@
       "tr": "Evet: sondaki vav ve sessiz elif “sizlere” hitap edildiğini kanıtlar"
      },
      "why": {
-      "en": "The same ending also stands on third-person plural verbs. The ending alone decides nothing; the lam and the ya prefix show that this verb is for “them”.",
-      "tr": "Aynı son, üçüncü çoğul fiillerde de bulunur. Son tek başına belirleyici değildir; fiilin “onlar” için olduğunu lam ve ya öneki gösterir."
+      "en": "Waw and silent alif also occur in third-person plural forms. Here ya and the command lam identify a command for “them”, so the ending does not prove second-person address.",
+      "tr": "Vav ve okunmayan elif üçüncü çoğul şahıs biçimlerinde de bulunur. Burada ya ve emir lamı “onlar” için emri gösterir; sonlanış ikinci şahsa hitap edildiğini kanıtlamaz."
      }
     },
     {
@@ -6190,8 +6190,8 @@
       "tr": "Hayır: lamdan sonra fiil geldiği için pekiştirme lamıdır"
      },
      "why": {
-      "en": "An emphatic lam has fatha and enters a damma-ending verb. This lam has sukun and the verb has lost its nun (jussive).",
-      "tr": "Pekiştirme lamı fethalıdır ve dammeli fiile girer. Bu lam sükûnludur ve fiil nûnunu yitirmiştir (cezimli)."
+      "en": "An emphatic lam has fatha and leaves this kind of plural verb indicative, with its nun retained. Here the lam has sukun and the plural nun is dropped: it is the command lam.",
+      "tr": "Pekiştirme lamı fethalıdır ve bu tür çoğul fiili nûnu korunmuş olarak merfû bırakır. Burada lam sükûnludur ve çoğul nûnu düşmüştür: bu, emir lamıdır."
      }
     },
     {
@@ -6200,8 +6200,8 @@
       "tr": "Evet: başındaki fe onu doğrudan emir yapar"
      },
      "why": {
-      "en": "The fa is only a connector. A direct imperative has neither a lam nor a present-tense prefix, while this verb has both the lam and the ya.",
-      "tr": "Fe yalnızca bağlayıcıdır. Doğrudan emirde ne lam ne de geniş zaman öneki bulunur; bu fiilde ise hem lam hem ya vardır."
+      "en": "Fa connects the clause; it does not determine the verb form. The command lam and the present-tense prefix ya distinguish this construction from a direct imperative.",
+      "tr": "Fe cümleyi bağlar; fiilin biçimini belirlemez. Emir lamı ve muzâri öneki ya, bu yapıyı doğrudan emirden ayırır."
      }
     }
    ],
