@@ -824,6 +824,8 @@
   .wgrid { display: flex; flex-wrap: wrap; gap: 10px; padding: 4px 14px 14px; }
   .wbox { flex: 0 1 132px; min-width: 112px; border-top: 2px dashed var(--border); padding: 8px 6px 4px; text-align: center;
           display: flex; flex-direction: column; gap: 3px; direction: ltr; font-size: calc(0.82rem * var(--lib-scale, 1)); line-height: 1.35; }
+  /* faded divider where a new sentence begins (grid is right-to-left, so the next sentence starts on the left) */
+  .wbox.wend { border-left: 1px solid rgba(0,0,0,0.12); margin-left: 6px; padding-left: 12px; }
   .wbox .w-ar { font-family: 'Scheherazade New', 'Amiri Quran', 'Amiri', serif; font-size: calc(1.6rem * var(--lib-scale, 1)); color: var(--ayah); direction: rtl; line-height: 1.6; margin-bottom: 0.9em; }
   .wbox .w-tl { color: #7c3aed; font-style: italic; }
   .wbox .w-tr { color: #b91c1c; font-weight: 600; }
@@ -4682,8 +4684,10 @@ function renderLibraryWords(words, books) {
   if (!words || !words.length) return '';
   const src = books.word_sources || {};
   const hasTr = words.some(w => w.tr);
-  const boxes = words.map(w => `
-      <div class="wbox">
+  // a pause sign written after the word (ۖ ۗ ۘ ۚ ۛ ۜ) marks the end of a sentence/clause; ۙ means "don't stop"
+  const endsSentence = (w, i) => i < words.length - 1 && /[\u06D6-\u06D8\u06DA-\u06DC]/.test(w.ar);
+  const boxes = words.map((w, i) => `
+      <div class="wbox${endsSentence(w, i) ? ' wend' : ''}">
         <div class="w-ar">${escapeHtml(w.ar)}</div>
         <div class="w-tl">${escapeHtml(w.tl)}</div>
         ${w.tr ? `<div class="w-tr">${escapeHtml(w.tr)}</div>` : ''}
