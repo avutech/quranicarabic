@@ -34,10 +34,11 @@ if ENV_FILE.exists():
         if k and k not in os.environ:
             os.environ[k] = v
 
-import anthropic
+from google import genai
+from google.genai import types as genai_types
 
-CLAUDE_MODEL = os.environ.get("CLAUDE_MODEL", "claude-sonnet-4-6")
-client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.5-flash")
+client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
 
 # The hand-authored L1W1 lecture — used as a style reference in the prompt
 L1W1_REFERENCE = {
@@ -143,15 +144,14 @@ def generate(lesson_id, lesson, retries=2):
     raw = ""
     for attempt in range(retries + 1):
         try:
-            resp = client.messages.create(
-                model=CLAUDE_MODEL,
-                max_tokens=16000,
-                messages=[{"role": "user", "content": prompt}],
+            resp = client.models.generate_content(
+                model=GEMINI_MODEL, contents=prompt,
+                config=genai_types.GenerateContentConfig(max_output_tokens=16000),
             )
-            raw = "".join(b.text for b in resp.content if hasattr(b, "text")).strip()
+            raw = (resp.text or "").strip()
             if not raw:
                 raise RuntimeError("empty response")
-            # Claude doesn't have response_mime_type — strip ```json fences if present
+            # strip ```json fences if present
             if raw.startswith("```"):
                 raw = raw.strip("`").lstrip("json").strip()
             return json.loads(raw)
@@ -164,15 +164,16 @@ def generate(lesson_id, lesson, retries=2):
                     pass
             if attempt == retries:
                 raise
-        except anthropic.RateLimitError as e:
+        except Exception as e:
+            if "429" not in str(e) and "RESOURCE_EXHAUSTED" not in str(e):
+                if attempt == retries:
+                    raise
+                time.sleep(3)
+                continue
             wait = 30
             print(f"  ⏳  rate-limited, sleeping {wait}s …", flush=True)
             time.sleep(wait)
             continue
-        except Exception:
-            if attempt == retries:
-                raise
-            time.sleep(3)
     raise RuntimeError(f"failed after {retries} retries")
 
 
@@ -195,7 +196,7 @@ def main():
             continue
         targets.append((lid, lesson))
 
-    print(f"Generating {len(targets)} lectures (model: {CLAUDE_MODEL})…", flush=True)
+    print(f"Generating {len(targets)} lectures (model: {GEMINI_MODEL})…", flush=True)
     for i, (lid, lesson) in enumerate(targets, 1):
         title = lesson["verified_title"].get("en", "?")
         print(f"[{i}/{len(targets)}] {lid} — {title}", flush=True)

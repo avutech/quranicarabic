@@ -88,7 +88,7 @@ def main():
         )
         print(f"  translating batch {i // BATCH + 1} ({len(batch)} items)...", end=" ", flush=True)
         resp = client.models.generate_content(
-            model="gemini-2.5-flash",
+            model=os.environ.get("GEMINI_MODEL", "gemini-3.5-flash"),
             contents=prompt,
             config=genai_types.GenerateContentConfig(
                 response_mime_type="application/json",

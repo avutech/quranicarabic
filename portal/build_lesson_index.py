@@ -4,14 +4,14 @@ Read all 42 lesson PDFs and build a persistent grammar concept index.
 Input:  portal/lessons_raw/Level-{1,2,3}__<filename>.txt   (one per PDF)
 Output: portal/lessons_index.json                          (canonical, kept forever)
 
-For each lesson, asks Claude:
+For each lesson, asks Gemini (free tier):
   - What is the verified title (EN/TR/AR)?
   - 2-sentence summary of what it teaches
   - List of grammar concepts with Arabic+EN+TR names, keywords, examples
 
 Run:
   cd portal
-  export ANTHROPIC_API_KEY=...
+  export GEMINI_API_KEY=...
   venv/bin/python build_lesson_index.py
 """
 
@@ -21,7 +21,10 @@ import re
 import sys
 import time
 from pathlib import Path
-import anthropic
+from google import genai
+from google.genai import types as genai_types
+
+MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.5-flash")
 
 ROOT = Path(__file__).parent
 RAW_DIR = ROOT / "lessons_raw"
@@ -101,7 +104,7 @@ def parse_response(raw):
         raise
 
 
-def call_claude(client, text, filename, current_label, level, week):
+def call_gemini(client, text, filename, current_label, level, week):
     if len(text) > 25000:
         text = text[:25000]
     prompt = PROMPT.format(
@@ -111,12 +114,11 @@ def call_claude(client, text, filename, current_label, level, week):
         week=week,
         text=text,
     )
-    msg = client.messages.create(
-        model="claude-sonnet-4-6",
-        max_tokens=4000,
-        messages=[{"role": "user", "content": prompt}],
+    msg = client.models.generate_content(
+        model=MODEL, contents=prompt,
+        config=genai_types.GenerateContentConfig(max_output_tokens=4000),
     )
-    return parse_response(msg.content[0].text)
+    return parse_response(msg.text or "")
 
 
 def parse_filename(stem):
@@ -165,12 +167,12 @@ def load_data_js_titles():
 
 
 def main():
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
-        print("ERROR: set ANTHROPIC_API_KEY", file=sys.stderr)
+        print("ERROR: set GEMINI_API_KEY", file=sys.stderr)
         sys.exit(1)
 
-    client = anthropic.Anthropic(api_key=api_key)
+    client = genai.Client(api_key=api_key)
     cache = load_cache()
     txt_files = sorted(RAW_DIR.glob("*.txt"))
 
@@ -193,7 +195,7 @@ def main():
             text = txt_path.read_text()
             print(f"[{i:2}/{len(txt_files)}] L{level}W{week:>2} (Lesson {lesson_no:>2})  extracting...", end=" ", flush=True)
             try:
-                entry = call_claude(client, text, stem, current_label, level, week)
+                entry = call_gemini(client, text, stem, current_label, level, week)
                 print(f"✓ {len(entry.get('concepts', []))} concepts")
                 cache[stem] = entry
                 save_cache(cache)
