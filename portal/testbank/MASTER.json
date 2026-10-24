@@ -11925,51 +11925,51 @@
    "chapter": "L2W14",
    "topic": "t1",
    "difficulty": 2,
-   "ref": "4:28",
-   "quote": "وَخُلِقَ ٱلْإِنسَـٰنُ ضَعِيفًۭا",
+   "ref": "19:74",
+   "quote": "هُمْ أَحْسَنُ أَثَـٰثًۭا",
    "stem": {
-    "en": "Could the verb خُلِقَ (ignoring the prefix وَ) give a tafdil on the mould أَفْعَلُ directly? Which statement is correct?",
-    "tr": "خُلِقَ fiili (وَ ön ekini yok sayarak) doğrudan أَفْعَلُ kalıbında bir üstünlük sıfatı verebilir mi? Hangi ifade doğrudur?"
+    "en": "In هُمْ أَحْسَنُ أَثَاثًا (\"they were better in furnishings\"), which analysis correctly combines the pattern and root of أَحْسَنُ with its role in the clause?",
+    "tr": "هُمْ أَحْسَنُ أَثَاثًا (\"onlar eşya bakımından daha iyiydi\") ifadesinde أَحْسَنُ kelimesinin kalıbını, kökünü ve cümledeki görevini doğru birleştiren çözümleme hangisidir?"
    },
    "options": [
     {
      "text": {
-      "en": "No, because it is passive (its substitute subject is ٱلْإِنسَـٰنُ), and the mould needs an active verb.",
-      "tr": "Hayır, çünkü fiil meçhuldür (nâib-i fâili ٱلْإِنسَـٰنُ kelimesidir) ve kalıp etken bir fiil ister."
+      "en": "A comparative on أَفْعَلُ from ح س ن, serving as the nominative predicate of هُمْ.",
+      "tr": "ح س ن kökünden أَفْعَلُ kalıbında bir üstünlük sıfatıdır; هُمْ zamirinin merfû haberidir."
      },
      "why": {
-      "en": "Correct. The verb is in the passive, and one of the conditions for forming the mould directly is an active verb.",
-      "tr": "Doğru. Fiil meçhuldür ve kalıbın doğrudan kurulabilmesinin şartlarından biri etken fiil olmasıdır."
+      "en": "أَحْسَنُ expresses comparison on أَفْعَلُ, with root ح س ن. The detached pronoun is the subject of this nominal clause, and the comparative is its nominative predicate.",
+      "tr": "أَحْسَنُ, ح س ن kökünden أَفْعَلُ kalıbında karşılaştırma bildirir. Ayrı zamir bu isim cümlesinin mübtedası, üstünlük sıfatı ise merfû haberidir."
      }
     },
     {
      "text": {
-      "en": "No, because it has four root letters.",
-      "tr": "Hayır, çünkü dört kök harfi vardır."
+      "en": "A comparative on أَفْعَلُ from ح س ن, serving as an accusative direct object.",
+      "tr": "ح س ن kökünden أَفْعَلُ kalıbında bir üstünlük sıfatıdır; mansûb mef’ûl bihtir."
      },
      "why": {
-      "en": "It has three root letters, so this condition is met; the problem lies elsewhere.",
-      "tr": "Üç kök harfi vardır; dolayısıyla bu şart sağlanmıştır, sorun başka yerdedir."
+      "en": "The pattern and root are correct, but أَحْسَنُ predicates a quality of هُمْ; it is nominative, not an accusative object.",
+      "tr": "Kalıp ve kök doğrudur; ancak أَحْسَنُ, هُمْ zamiri hakkında bir nitelik bildirir; mansûb nesne değil, merfû haberdir."
      }
     },
     {
      "text": {
-      "en": "No, because it is a frozen verb that does not conjugate.",
-      "tr": "Hayır, çünkü çekimlenmeyen donmuş bir fiildir."
+      "en": "A comparative on أَفْعَلُ from أ ح س, serving as the nominative predicate.",
+      "tr": "أ ح س kökünden أَفْعَلُ kalıbında bir üstünlük sıfatıdır; merfû haberdir."
      },
      "why": {
-      "en": "The verb conjugates freely; its form shows only that the doer is not named, which is a different matter.",
-      "tr": "Fiil serbestçe çekimlenir; biçimi yalnızca failin belirtilmediğini gösterir, bu ise ayrı bir konudur."
+      "en": "Its role and comparative pattern are correct, but the initial hamza belongs to the pattern; the root letters are ح س ن.",
+      "tr": "Haber görevi ve üstünlük kalıbı doğrudur; ancak baştaki hemze kalıba aittir; kök harfleri ح س ن harfleridir."
      }
     },
     {
      "text": {
-      "en": "Yes, because it is trilateral, active, affirmative and gradable, so every condition is met.",
-      "tr": "Evet, çünkü üç harflidir, etkendir, olumludur ve derecelendirilebilir; bütün şartlar sağlanmıştır."
+      "en": "A past verb from ح س ن, with هُمْ as its explicit verbal subject.",
+      "tr": "ح س ن kökünden bir mazi fiildir; هُمْ onun açık failidir."
      },
      "why": {
-      "en": "The verb is not active, so the claim 'every condition is met' is false.",
-      "tr": "Fiil etken değildir; bu yüzden 'bütün şartlar sağlanmıştır' iddiası yanlıştır."
+      "en": "أَحْسَنُ here is a comparative noun ending in damma, not a past verb. هُمْ begins a nominal clause and أَحْسَنُ is its predicate.",
+      "tr": "أَحْسَنُ burada damme ile biten bir üstünlük sıfatıdır; mazi fiil değildir. هُمْ bir isim cümlesinin mübtedası, أَحْسَنُ ise haberidir."
      }
     }
    ],
@@ -13288,51 +13288,51 @@
    "chapter": "L2W4",
    "topic": "t3",
    "difficulty": 3,
-   "ref": "25:8",
-   "quote": "وَقَالَ ٱلظَّـٰلِمُونَ",
+   "ref": "26:41",
+   "quote": "جَآءَ ٱلسَّحَرَةُ قَالُوا۟",
    "stem": {
-    "en": "In وَقَالَ ٱلظَّـٰلِمُونَ (\"and the wrongdoers said\"), the verb is singular although the doers are plural. Which explanation, including the case of the doers, is correct?",
-    "tr": "وَقَالَ ٱلظَّـٰلِمُونَ (\"ve zalimler dedi\") ifadesinde failler çoğul olduğu halde fiil tekildir. Failin halini de içeren hangi açıklama doğrudur?"
+    "en": "Compare جَاءَ and قَالُوا in the quoted passage (\"the magicians came; they said\"). Which analysis correctly identifies the subjects and explains the difference in number?",
+    "tr": "Alıntıda (\"sihirbazlar geldi; onlar dedi\") جَاءَ ve قَالُوا fiillerini karşılaştırın. Hangi çözümleme failleri doğru belirler ve sayı farkını açıklar?"
    },
    "options": [
     {
      "text": {
-      "en": "The verb is singular because its doer is the pronoun \"he\" inside it; ٱلظَّـٰلِمُونَ is a mef'ûl bih, mansûb.",
-      "tr": "Fiil tekildir; çünkü faili içindeki \"o\" zamiridir; ٱلظَّـٰلِمُونَ ise mansûb bir mef'ûl bihtir."
+      "en": "Both verbs have a hidden singular subject; ٱلسَّحَرَةُ is an accusative object.",
+      "tr": "Her iki fiilin de gizli tekil faili vardır; ٱلسَّحَرَةُ mansûb mef’ûl bihtir."
      },
      "why": {
-      "en": "ٱلظَّـٰلِمُونَ is the explicit subject following the verb. Its waw marks the nominative; an accusative sound masculine plural would have ya instead.",
-      "tr": "ٱلظَّـٰلِمُونَ, fiilden sonra gelen açık faildir. Vav merfûluk işaretidir; mansûb düzenli eril çoğulda bunun yerine ya bulunurdu."
+      "en": "ٱلسَّحَرَةُ is the explicit nominative subject of جَاءَ, marked with damma; the waw in قَالُوا is an attached plural subject pronoun.",
+      "tr": "ٱلسَّحَرَةُ, جَاءَ fiilinin damme ile merfû olan açık failidir; قَالُوا fiilindeki vav ise fail görevindeki bitişik çoğul zamiridir."
      }
     },
     {
      "text": {
-      "en": "The singular verb is an error: a verb must always match its doer in number, so a plural verb form is needed.",
-      "tr": "Tekil fiil bir hatadır: fiil her zaman failiyle sayıda uyumlu olmalıdır, bu yüzden çoğul fiil gerekir."
+      "en": "جَاءَ is incorrectly singular before a plural subject; قَالُوا has the required plural agreement.",
+      "tr": "جَاءَ çoğul failden önce yanlışlıkla tekil kullanılmıştır; قَالُوا gerekli çoğul uyumunu gösterir."
      },
      "why": {
-      "en": "In this verb-first clause, the verb stays singular before the explicit masculine plural subject ٱلظَّـٰلِمُونَ and agrees with it in gender.",
-      "tr": "Bu fiil cümlesinde fiil, ardından gelen açık eril çoğul fail ٱلظَّـٰلِمُونَ ile cinsiyette uyum sağlar ve tekil kalır."
+      "en": "جَاءَ correctly stays singular before its explicit masculine plural subject; قَالُوا instead carries its plural subject in its ending.",
+      "tr": "جَاءَ, ardından gelen açık eril çoğul failden önce kurala uygun olarak tekil kalır; قَالُوا ise çoğul failini ekinde taşır."
      }
     },
     {
      "text": {
-      "en": "The verb is singular because ٱلظَّـٰلِمُونَ is majrûr after it, so it is not the doer.",
-      "tr": "Fiil tekildir; çünkü ٱلظَّـٰلِمُونَ ondan sonra mecrûrdur, yani fail değildir."
+      "en": "The waw in قَالُوا is a plural object pronoun; its subject is hidden and singular.",
+      "tr": "قَالُوا fiilindeki vav çoğul nesne zamiridir; faili gizli ve tekildir."
      },
      "why": {
-      "en": "ٱلظَّـٰلِمُونَ is the subject, not a noun governed by a preposition. Its waw marks the nominative; a genitive sound masculine plural would have ya.",
-      "tr": "ٱلظَّـٰلِمُونَ bir harf-i cerin yönettiği isim değil, faildir. Vav merfûluk işaretidir; mecrûr düzenli eril çoğulda ya bulunurdu."
+      "en": "The waw in this past verb is the attached subject pronoun meaning \"they\", not an object; ٱلسَّحَرَةُ is the explicit subject of the preceding verb.",
+      "tr": "Bu mazi fiildeki vav, nesne değil, \"onlar\" anlamındaki bitişik fail zamiridir; ٱلسَّحَرَةُ önceki fiilin açık failidir."
      }
     },
     {
      "text": {
-      "en": "The verb comes before an explicit plural fa'il, so it stays singular and masculine; ٱلظَّـٰلِمُونَ is a plural active participle, marfû' with the waw.",
-      "tr": "Fiil açık çoğul failden önce geldiği için tekil ve eril kalır; ٱلظَّـٰلِمُونَ çoğul bir ism-i faildir ve vav ile merfû'dur."
+      "en": "جَاءَ is singular before the explicit plural subject ٱلسَّحَرَةُ, which is nominative with damma; قَالُوا has an attached masculine plural subject pronoun.",
+      "tr": "جَاءَ, damme ile merfû olan açık çoğul fail ٱلسَّحَرَةُ kelimesinden önce tekildir; قَالُوا ise bitişik eril çoğul fail zamiri taşır."
      },
      "why": {
-      "en": "Correct. The verb precedes an explicit masculine plural subject, so it stays masculine singular. ٱلظَّـٰلِمُونَ is the plural of an active participle and is nominative with waw because it is the subject.",
-      "tr": "Doğru. Fiil, açık eril çoğul failden önce geldiği için eril tekil kalır. ٱلظَّـٰلِمُونَ bir ism-i failin çoğuludur; fail olduğu için vav ile merfûdur."
+      "en": "The first verb precedes an explicit masculine plural subject and stays singular. In the second verb, the attached waw itself is the plural subject, so the verb shows plural number.",
+      "tr": "İlk fiil, açık eril çoğul failden önce geldiği için tekil kalır. İkinci fiilde bitişik vavın kendisi çoğul faildir; bu yüzden fiil çoğul biçimdedir."
      }
     }
    ],
