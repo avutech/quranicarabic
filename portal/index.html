@@ -1258,7 +1258,7 @@ const I18N = {
     openPDF: 'Open PDF',
     levelOverview: 'All Lessons',
     noPractice: 'No practice questions for this topic.',
-    quizNotReady: 'Vocabulary pool not built yet. Run `python build_vocab.py` (with ANTHROPIC_API_KEY set) inside the portal/ folder, then reload this page.',
+    quizNotReady: 'Vocabulary pool not built yet. Run `python build_vocab.py` inside the portal/ folder, then reload this page.',
     quizDirection: 'Quiz Direction',
     quizDirArTr: 'Arabic → Turkish',
     quizDirArEn: 'Arabic → English',
@@ -1512,7 +1512,7 @@ const I18N = {
     openPDF: 'PDF Aç',
     levelOverview: 'Tüm Dersler',
     noPractice: 'Bu konu için alıştırma sorusu yok.',
-    quizNotReady: 'Kelime havuzu henüz oluşturulmadı. portal/ klasöründe ANTHROPIC_API_KEY ayarlıyken `python build_vocab.py` komutunu çalıştırıp sayfayı yenileyin.',
+    quizNotReady: 'Kelime havuzu henüz oluşturulmadı. portal/ klasöründe `python build_vocab.py` komutunu çalıştırıp sayfayı yenileyin.',
     quizDirection: 'Sınav Yönü',
     quizDirArTr: 'Arapça → Türkçe',
     quizDirArEn: 'Arapça → İngilizce',
@@ -1766,7 +1766,7 @@ const I18N = {
     openPDF: 'فتح PDF',
     levelOverview: 'جميع الدروس',
     noPractice: 'لا توجد أسئلة تدريبية لهذا الموضوع.',
-    quizNotReady: 'لم يتم بناء مجموعة المفردات بعد. شغّل `python build_vocab.py` داخل مجلد portal/ مع ضبط ANTHROPIC_API_KEY ثم أعد تحميل الصفحة.',
+    quizNotReady: 'لم يتم بناء مجموعة المفردات بعد. شغّل `python build_vocab.py` داخل مجلد portal/ ثم أعد تحميل الصفحة.',
     quizDirection: 'اتجاه الاختبار',
     quizDirArTr: 'عربي → تركي',
     quizDirArEn: 'عربي → إنجليزي',
@@ -2872,9 +2872,7 @@ function renderQuizSetup(ref) {
       <div class="section">
         <div class="practice-start" style="text-align:left">
           <p style="color:var(--mid);line-height:1.7">${escapeHtml(t('quizNotReady'))}</p>
-          <pre style="margin-top:14px;background:#1a1a1a;color:#a8e6c0;padding:14px 16px;border-radius:8px;font-size:0.82rem;overflow-x:auto"><code>cd portal
-export ANTHROPIC_API_KEY=...
-venv/bin/python build_vocab.py</code></pre>
+          <pre style="margin-top:14px;background:#1a1a1a;color:#a8e6c0;padding:14px 16px;border-radius:8px;font-size:0.82rem;overflow-x:auto"><code>Vocabulary pool is built by the site administrator.</code></pre>
         </div>
       </div>`;
     return;
@@ -3678,7 +3676,6 @@ function renderUploadFormHTML(level, week) {
         <label style="font-size:0.8rem;color:var(--muted);font-weight:600;margin-right:8px;">${t('cmgrExtractModel') || 'Extract with'}</label>
         <select id="cmgr-model" class="icmp-model-select">
           <option value="gemini" selected>Gemini ${t('cmgrModelDefault') || '(default)'}</option>
-          <option value="openai">ChatGPT ${t('cmgrModelImagesOnly') || '(images only)'}</option>
         </select>
       </div>
       <div class="cmgr-row" id="cmgr-row-url" style="display:none">
