@@ -833,6 +833,14 @@
   @font-face { font-family: 'KuranIsaret'; src: url(/fonts/KuranIsaretler.ttf) format('truetype'); font-display: swap;
                unicode-range: U+0615, U+0617, U+0656, U+06DE, U+08F0-08F3; }
   .wbox .w-ar { font-family: var(--font-quran); font-size: calc(1.9rem * var(--lib-scale, 1)); color: var(--ayah); direction: rtl; line-height: 1.6; margin-bottom: 0.9em; }
+  .wbox .w-roles { display: flex; flex-wrap: wrap; gap: 3px; justify-content: center; margin: -0.5em 0 0.6em; }
+  .wbox .w-role { font-size: 0.7rem; font-weight: 700; padding: 1px 7px; border-radius: 10px; border: 1px solid; cursor: help; white-space: nowrap; }
+  .w-role.r-mubteda { background: #e0ecff; color: #1d4ed8; border-color: #9db8f5; }
+  .w-role.r-haber { background: #efe7ff; color: #6d28d9; border-color: #c1a8f2; }
+  .w-role.r-hal { background: #ffeedd; color: #b45309; border-color: #f0c18a; }
+  .w-role.r-sart { background: #ffe3e3; color: #b91c1c; border-color: #f0a3a3; }
+  .w-role.r-cevap { background: #dcf5e4; color: #15803d; border-color: #93d3a8; }
+  .lib-role-note { font-size: 0.75rem; color: var(--muted); margin-top: 6px; line-height: 1.5; }
   .wbox .w-tl { color: #7c3aed; font-style: italic; }
   .wbox .w-tr { color: #b91c1c; font-weight: 600; }
   .wbox .w-en { color: #15803d; }
@@ -1342,6 +1350,7 @@ const I18N = {
     libWordsSrcText: 'Quran text', libWordsSrcTr: 'Turkish word meanings',
     libPage: 'page',
     libTafsir: 'Tafsir',
+    libRoles: 'Grammar roles', libRoleNote: 'Roles are taken from the classical books, not computed: a word is marked only where the book names its role, so unmarked words are not necessarily without a role. ✓ = both books agree.', libRoleClause: 'sentence', libRoleSrc: 'Source', roleMubteda: 'Mubtada’ (subject)', roleHaber: 'Khabar (predicate)', roleHal: 'Ḥāl (state)', roleSart: 'Sharṭ (condition)', roleCevap: 'Jawāb al-sharṭ (answer)',
     libMoveUp: 'Sort up', libMoveDown: 'Sort down', libResetOrder: 'Reset book order', libOrderHint: 'Use the arrows to reorder the books. Your order is remembered in this browser.',
     libIrabBooks: 'I\'rab books',
     libTrBy: 'Turkish reading',
@@ -1597,6 +1606,7 @@ const I18N = {
     libWordsSrcText: 'Kur\'an metni', libWordsSrcTr: 'Türkçe kelime anlamları',
     libPage: 'sayfa',
     libTafsir: 'Tefsir',
+    libRoles: 'Gramer görevleri', libRoleNote: 'Görevler klasik kitaplardan alınmıştır, hesaplanmamıştır: bir kelime yalnızca kitap görevini belirttiğinde işaretlenir; işaretsiz kelimenin görevi yok demek değildir. ✓ = iki kitap da aynı görüşte.', libRoleClause: 'cümle', libRoleSrc: 'Kaynak', roleMubteda: 'Mübteda', roleHaber: 'Haber', roleHal: 'Hâl', roleSart: 'Şart', roleCevap: 'Cevâb-ı şart',
     libMoveUp: 'Yukarı sırala', libMoveDown: 'Aşağı sırala', libResetOrder: 'Kitap sırasını sıfırla', libOrderHint: 'Kitapları yeniden sıralamak için okları kullanın. Sıralamanız bu tarayıcıda hatırlanır.',
     libIrabBooks: 'İ\'rab kitapları',
     libTrBy: 'Türkçe okuma',
@@ -1852,6 +1862,7 @@ const I18N = {
     libWordsSrcText: 'نص القرآن', libWordsSrcTr: 'معاني الكلمات بالتركية',
     libPage: 'صفحة',
     libTafsir: 'التفسير',
+    libRoles: 'الوظائف النحوية', libRoleNote: 'الوظائف مأخوذة من الكتب المعتمدة وليست محسوبة: لا تُعلَّم الكلمة إلا حيث ينص الكتاب على وظيفتها، فغياب العلامة لا يعني عدم وجود وظيفة. ✓ = اتفق الكتابان.', libRoleClause: 'الجملة', libRoleSrc: 'المصدر', roleMubteda: 'مبتدأ', roleHaber: 'خبر', roleHal: 'حال', roleSart: 'شرط', roleCevap: 'جواب الشرط',
     libMoveUp: 'ترتيب لأعلى', libMoveDown: 'ترتيب لأسفل', libResetOrder: 'إعادة ترتيب الكتب الافتراضي', libOrderHint: 'استخدم الأسهم لإعادة ترتيب الكتب. يُحفظ ترتيبك في هذا المتصفح.',
     libIrabBooks: 'كتب الإعراب',
     libTrBy: 'القراءة التركية',
@@ -4544,7 +4555,7 @@ async function loadVerse() {
       fetch(`/api/irab-library/${surah}/${ayah}`).then(r => r.ok ? r.json() : Promise.reject(new Error(`HTTP ${r.status}`))),
     ]);
     if (mySeq !== irabLoadSeq) return;
-    results.innerHTML = renderLibraryAyah(surah, ayah, verse, lib.entries || [], books, lib.words, lib.meals);
+    results.innerHTML = renderLibraryAyah(surah, ayah, verse, lib.entries || [], books, lib.words, lib.meals, lib.roles);
     results.querySelectorAll('.lib-body').forEach(b => libShowLang(b, libLang));
   } catch (e) {
     if (mySeq !== irabLoadSeq) return;
@@ -4750,8 +4761,16 @@ function libSetMeal(id) {
 // Learners need to see it, so show the sukun on any bare noon/mim (not before a mark or tatweel).
 const showSukun = (ar) => ar.replace(/([نم])(?![ً-ٰٟۖ-ۭـ])/g, '$1ْ');
 
-function renderLibraryWords(words, books) {
+function renderLibraryWords(words, books, roles) {
   if (!words || !words.length) return '';
+  roles = roles || {};
+  const catalog = books.books || books;
+  const bookById = Object.fromEntries(catalog.map(b => [b.id, b]));
+  const roleChips = i => (roles[i] || []).map(r => {
+    const label = t('role' + r.r[0].toUpperCase() + r.r.slice(1)) + (r.scope === 'clause' ? ` (${t('libRoleClause')})` : '') + (r.src.length > 1 ? ' ✓' : '');
+    const tip = r.src.map(s => { const b = bookById[s.b] || { title: {}, author: {} }; return `${t('libRoleSrc')}: ${libLocal(b.author)}, ${b.title.ar || s.b}\n${s.q}`; }).join('\n\n');
+    return `<span class="w-role r-${r.r}" title="${escapeHtml(tip)}">${escapeHtml(label)}</span>`;
+  }).join('');
   const src = books.word_sources || {};
   const hasTr = words.some(w => w.tr);
   // a pause sign written after the word (ۖ ۗ ۘ ۚ ۛ ۜ) marks the end of a sentence/clause; ۙ means "don't stop"
@@ -4759,6 +4778,7 @@ function renderLibraryWords(words, books) {
   const boxes = words.map((w, i) => `
       <div class="wbox${endsSentence(w, i) ? ' wend' : ''}">
         <div class="w-ar">${escapeHtml(showSukun(w.ar))}</div>
+        ${roles[i] ? `<div class="w-roles">${roleChips(i)}</div>` : ''}
         <div class="w-tl">${escapeHtml(w.tl)}</div>
         ${w.tr ? `<div class="w-tr">${escapeHtml(w.tr)}</div>` : ''}
         <div class="w-en">${escapeHtml(w.en)}</div>
@@ -4778,10 +4798,11 @@ function renderLibraryWords(words, books) {
         ${escapeHtml(t('libWordsSrcText'))}: ${s('text')}
         ${hasTr ? ` · ${escapeHtml(t('libWordsSrcTr'))}: ${escapeHtml((src.tr_words || {}).name || '')}` : ''}
       </div>
+      ${Object.keys(roles).length ? `<div class="lib-role-note"><strong>${escapeHtml(t('libRoles'))}:</strong> ${escapeHtml(t('libRoleNote'))}</div>` : ''}
     </details>`;
 }
 
-function renderLibraryAyah(surah, ayah, verse, entries, books, words, meals) {
+function renderLibraryAyah(surah, ayah, verse, entries, books, words, meals, roles) {
   const catalog = books.books || books;
   const byId = Object.fromEntries(catalog.map(b => [b.id, b]));
   const ch = quranChapters && quranChapters.find(c => c.id === surah);
@@ -4872,7 +4893,7 @@ function renderLibraryAyah(surah, ayah, verse, entries, books, words, meals) {
       ${verse ? `<div class="lib-verse-ar">${escapeHtml(verse)}</div>` : ''}
       ${mealBlock}
     </div>
-    ${renderLibraryWords(words, books)}
+    ${renderLibraryWords(words, books, roles)}
     <div class="lib-langbar">
       <span>${escapeHtml(t('libShowIn'))}:</span>
       ${['ar', 'tr', 'en'].map(l => `<button class="lib-tab${l === libLang ? ' active' : ''}" data-lang="${l}" onclick="libSetLangAll('${l}')">${LIB_LANG_LABEL[l]}</button>`).join('')}
