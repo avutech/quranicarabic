@@ -1,0 +1,352 @@
+{
+"mekki-muskil:2-2": {
+"p1": {
+"ar": "c3fb8191c05c",
+"tr": "68429039f3cd",
+"en": "4c4a9f96eea1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:41",
+"fixed": false
+}
+},
+"mekki-muskil:4-4": {
+"p1": {
+"ar": "aadcb65129c0",
+"tr": "1ddcdb0bc220",
+"en": "16304bdaff38",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "Second paragraph on {قُرَّة عين} belongs to 28:9, not 28:4",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:41",
+"fixed": false
+},
+"p2": {
+"ar": "aadcb65129c0",
+"tr": "1ddcdb0bc220",
+"en": "16304bdaff38",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u2",
+"at": "2026-10-11 04:08",
+"fixed": false
+}
+},
+"mekki-muskil:10-10": {
+"p1": {
+"ar": "033d379dc690",
+"tr": "9be0702ca2fe",
+"en": "f8e75c209d19",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:41",
+"fixed": false
+},
+"p2": {
+"ar": "033d379dc690",
+"tr": "9be0702ca2fe",
+"en": "f8e75c209d19",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u2",
+"at": "2026-10-11 04:08",
+"fixed": false
+}
+},
+"mekki-muskil:14-14": {
+"p1": {
+"ar": "1c575ed2ed04",
+"tr": "bf0a64b54784",
+"en": "2c4f0e9db032",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p1-u2",
+"at": "2026-10-16 17:09",
+"fixed": false
+},
+"p2": {
+"ar": "1c575ed2ed04",
+"tr": "bf0a64b54784",
+"en": "2c4f0e9db032",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u1",
+"at": "2026-10-17 00:01",
+"fixed": false
+}
+},
+"mekki-muskil:15-15": {
+"p1": {
+"ar": "5a05a48195eb",
+"tr": "024a250fb430",
+"en": "fb11814d724c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:41",
+"fixed": false
+}
+},
+"mekki-muskil:18-18": {
+"p1": {
+"ar": "894909220743",
+"tr": "776020d3aae5",
+"en": "5df0836cd8f4",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "FIXED",
+"note": "Third paragraph belongs to 28:25; English completed by me earlier",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:42",
+"fixed": true
+},
+"p2": {
+"ar": "894909220743",
+"tr": "776020d3aae5",
+"en": "5df0836cd8f4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u2",
+"at": "2026-10-11 04:08",
+"fixed": false
+}
+},
+"mekki-muskil:28-28": {
+"p1": {
+"ar": "9282742a9960",
+"tr": "a9108fd55285",
+"en": "1f31d28bfadf",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:41",
+"fixed": false
+}
+},
+"mekki-muskil:30-30": {
+"p1": {
+"ar": "e3cbc30a3421",
+"tr": "7cc1304dbfb2",
+"en": "964f1f57b898",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:41",
+"fixed": false
+}
+},
+"mekki-muskil:31-31": {
+"p1": {
+"ar": "62886ba20257",
+"tr": "ed922fc20f6f",
+"en": "748c4c200612",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:41",
+"fixed": false
+}
+},
+"mekki-muskil:32-32": {
+"p1": {
+"ar": "b58d007bff07",
+"tr": "4c0ca411f473",
+"en": "b7f09f8a2dbb",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:41",
+"fixed": false
+}
+},
+"mekki-muskil:34-34": {
+"p1": {
+"ar": "252ffd842558",
+"tr": "7ef3f673416b",
+"en": "22c7e1a1de93",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:41",
+"fixed": false
+}
+},
+"mekki-muskil:42-42": {
+"p1": {
+"ar": "734df04bbf16",
+"tr": "5caa0672425d",
+"en": "06e48c40cb39",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English completed by me earlier",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:42",
+"fixed": true
+},
+"p2": {
+"ar": "734df04bbf16",
+"tr": "5caa0672425d",
+"en": "06e48c40cb39",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u2",
+"at": "2026-10-11 04:08",
+"fixed": false
+}
+},
+"mekki-muskil:43-43": {
+"p1": {
+"ar": "c8a1a4a5151a",
+"tr": "04c3569bbf58",
+"en": "4e53fe26c27a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:41",
+"fixed": false
+},
+"p2": {
+"ar": "c8a1a4a5151a",
+"tr": "04c3569bbf58",
+"en": "4e53fe26c27a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u2",
+"at": "2026-10-11 04:08",
+"fixed": false
+}
+},
+"mekki-muskil:46-46": {
+"p1": {
+"ar": "8a5521b75de8",
+"tr": "3435102d5c23",
+"en": "bfc709c60861",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:41",
+"fixed": false
+}
+},
+"mekki-muskil:58-58": {
+"p1": {
+"ar": "eee42ce2ab11",
+"tr": "2dbd9f8c24e0",
+"en": "27efe015b975",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:41",
+"fixed": false
+}
+},
+"mekki-muskil:68-68": {
+"p1": {
+"ar": "70bbf2606b1e",
+"tr": "7d24672b20f2",
+"en": "c3c865aba230",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p1-u2",
+"at": "2026-10-16 17:09",
+"fixed": false
+},
+"p2": {
+"ar": "70bbf2606b1e",
+"tr": "7d24672b20f2",
+"en": "c3c865aba230",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN rendered the Quranic phrase «ما كان لهم الخيرة» only in English; Arabic script restored.",
+"by": "mekki-muskil-u2",
+"at": "2026-10-11 04:08",
+"fixed": true
+}
+},
+"mekki-muskil:76-76": {
+"p1": {
+"ar": "00a1cc5b0c31",
+"tr": "cfb9ba0a9540",
+"en": "3bc926de02cd",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:41",
+"fixed": false
+}
+},
+"mekki-muskil:82-82": {
+"p1": {
+"ar": "032c0fb7b02e",
+"tr": "c05d6a248797",
+"en": "d93cf6b363d8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:41",
+"fixed": false
+}
+},
+"mekki-muskil:88-88": {
+"p1": {
+"ar": "72864921c7d8",
+"tr": "0a4905520d0d",
+"en": "8c156842d826",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:41",
+"fixed": false
+}
+}
+}

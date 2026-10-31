@@ -1,0 +1,28 @@
+{
+"dervis-irab:1-3": {
+"p1": {
+"ar": "266a3f1b2bfb",
+"tr": "5290530d980f",
+"en": "43899f56f464",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR: Ibn Khalawayh palm-tree anecdote rendered «وعشش أعلاه» as \"üstü (dalları) dağılmış\"; ʿashshasha means dried/withered, now \"üstü kurumuş\"; also added a marked note for the obscure Aws verse.",
+"by": "dervis-irab-p1-u5",
+"at": "2026-10-17 00:17",
+"fixed": true
+},
+"p2": {
+"ar": "266a3f1b2bfb",
+"tr": "5290530d980f",
+"en": "43899f56f464",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u7",
+"at": "2026-10-17 00:31",
+"fixed": false
+}
+}
+}

@@ -1,0 +1,42 @@
+{
+"akhfash:3-3": {
+"p1": {
+"ar": "d7980dff563d",
+"tr": "b6723fd6394f",
+"en": "68f3cda98471",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR rendered \"مقتكم\" as \"size duyulan buğz\" (hatred felt toward you), not in the Arabic, and added unmarked \"(yapmadığınızı)\" after \"قولكم\"; rewritten literally.",
+"by": "akhfash-p1-u1",
+"at": "2026-10-17 00:04",
+"fixed": true
+},
+"p2": {
+"ar": "d7980dff563d",
+"tr": "b6723fd6394f",
+"en": "68f3cda98471",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-p2-u1",
+"at": "2026-10-17 00:15",
+"fixed": false
+}
+},
+"akhfash:13-13": {
+"p1": {
+"ar": "b051abd66076",
+"tr": "199a173912cf",
+"en": "b33032c3d9d6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:41",
+"fixed": false
+}
+}
+}

@@ -1,0 +1,12 @@
+{
+ "surah": 40,
+ "chunk": "1-85",
+ "verdicts": {
+  "OK": 130,
+  "SOURCE_MISPLACED": 1,
+  "SOURCE_DEFECT": 1,
+  "GAP": 10
+ },
+ "summary": "Audited surah 40 ayahs 1-85, 14 books: 11 high/medium findings reviewed (all OK except zajjaj:45 which is mainly about v46), 39 low XREF/UNFOUND all OK (normalisation artifacts or cross-references), 84 semantic samples all OK, GAP lines recorded; no translation fixes needed. Source notes: nahhas-irab:1-1 starts mid-sentence; zajjaj:45-45 discusses v46.",
+ "at": "2026-10-10 15:08"
+}

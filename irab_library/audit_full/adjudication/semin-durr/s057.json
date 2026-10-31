@@ -1,0 +1,42 @@
+{
+"semin-durr:22-22": {
+"hs": [
+"c1813ff8852c",
+"2280d6015dbe",
+"fc728bff18d3"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: و «مِنْ» مزيدةٌ لوجودِ الشرطين only. EN adds '[a negative context and an indefinite noun]' in plain square brackets, an explanatory addition not in the source and not marked as [Translator's note: ...] as glossary_en rule 9 requires.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic says only «و«مِنْ» مزيدةٌ لوجودِ الشرطين» (redundant because the two conditions exist) without naming them. EN adds unmarked '[a negative context and an indefinite noun]'. The content is correct grammar but is an addition not in the Arabic in plain square brackets; under the standard it must be a [Translator's note: ...].",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "'[a negative context and an indefinite noun]' put inside a Translator's note",
+"verified": "PASS",
+"verify_note": "The explanation of the two conditions is now inside [Translator's note: …]; the rest is complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"c1813ff8852c",
+"2280d6015dbe",
+"ef96c21a4962"
+],
+"dim": "en",
+"what": "'[a negative context and an indefinite noun]' put inside a Translator's note",
+"at": "2026-10-17 00:46"
+}
+]
+}
+}

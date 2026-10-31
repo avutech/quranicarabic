@@ -1,0 +1,122 @@
+{
+"farraa:1-1": {
+"p1": {
+"ar": "3ad5cfe9a588",
+"tr": "47d01cb4f808",
+"en": "8d953e806d74",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Both silently reinterpreted source تلين لك قلبك (TR \"we soften\", EN \"[Did We not] soften\"); restored as written with notes.",
+"by": "farraa-u22",
+"at": "2026-10-10 15:58",
+"fixed": true
+},
+"p2": {
+"ar": "3ad5cfe9a588",
+"tr": "47d01cb4f808",
+"en": "8d953e806d74",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p2-u4",
+"at": "2026-10-16 19:05",
+"fixed": false
+}
+},
+"farraa:2-2": {
+"p1": {
+"ar": "e775e2cce4e4",
+"tr": "d28986369d76",
+"en": "bbf3cbb22660",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:58",
+"fixed": false
+}
+},
+"farraa:3-3": {
+"p1": {
+"ar": "783609054684",
+"tr": "d1073651d31c",
+"en": "50566e93aba1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:58",
+"fixed": false
+}
+},
+"farraa:4-4": {
+"p1": {
+"ar": "1d483b6d2704",
+"tr": "416c1b439a66",
+"en": "1086dfd7b57e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:58",
+"fixed": false
+}
+},
+"farraa:5-5": {
+"p1": {
+"ar": "7c7fdc72ba86",
+"tr": "cbc843577fb0",
+"en": "c7c2ae2114eb",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR attributed the report to \"(Ebül-Abbas)\" without basis; now Dedi ki.",
+"by": "farraa-u22",
+"at": "2026-10-10 15:58",
+"fixed": true
+},
+"p2": {
+"ar": "7c7fdc72ba86",
+"tr": "cbc843577fb0",
+"en": "c7c2ae2114eb",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p2-u4",
+"at": "2026-10-16 19:05",
+"fixed": false
+}
+},
+"farraa:7-7": {
+"p1": {
+"ar": "7e89e436d8d7",
+"tr": "80f993dc8706",
+"en": "6f63b2aba9f7",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR added unmarked \"(Rabbine yönelsin)\" at the end; removed.",
+"by": "farraa-u22",
+"at": "2026-10-10 15:58",
+"fixed": true
+},
+"p2": {
+"ar": "7e89e436d8d7",
+"tr": "80f993dc8706",
+"en": "6f63b2aba9f7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p2-u4",
+"at": "2026-10-16 19:05",
+"fixed": false
+}
+}
+}

@@ -1,0 +1,27 @@
+{
+"celaleyn:37-37": {
+"hs": [
+"9dc90a4feee2",
+"22944399a644",
+"c9cb8ded905f"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Claim refuted: EN is not cut off. It continues past 'denying the rest of the messengers, since they share in bringing the message of Allah's oneness' through ﴿أَغْرَقْنَاهُمْ﴾ 'the answer of لَمَّا', ﴿وَجَعَلْنَاهُمْ لِلنَّاسِ﴾ 'after them', ﴿آيَةً﴾ 'a lesson', ﴿وَأَعْتَدْنَا﴾ 'in the Hereafter', ﴿لِلظَّالِمِينَ﴾ 'the disbelievers', ﴿عَذَابًا أَلِيمًا﴾ 'painful, besides what befalls them in this world' (= مؤلما سوى ما يحل بهم في الدنيا). Complete.",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Claimed truncation not present: current EN continues through ﴿أَغْرَقْنَاهُمْ﴾ 'the answer of لَمَّا', ﴿وَجَعَلْنَاهُمْ لِلنَّاسِ﴾ 'after them', ﴿آيَةً﴾ 'a lesson', ﴿وَأَعْتَدْنَا﴾ 'in the Hereafter', ﴿لِلظَّالِمِينَ﴾ 'the disbelievers', ﴿عَذَابًا أَلِيمًا﴾ 'painful, besides what befalls them in this world' (سِوَى مَا يَحِلُّ بِهِمْ فِي الدُّنْيَا). Complete and faithful; '[many]' merely makes the plural of رُسُلٌ explicit.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

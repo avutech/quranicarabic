@@ -1,0 +1,256 @@
+{
+"dervis-irab:1-6": {
+"p1": {
+"ar": "5145e5a007d5",
+"tr": "d3de9a0c48eb",
+"en": "b2827b3a6b92",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR: removed unmarked glosses \"(yokuşların)\" and \"(aklen)\"; EN: removed unmarked gloss \"kinds of renunciation\" for ضروب المعازف",
+"by": "dervis-irab-u87",
+"at": "2026-10-10 19:41",
+"fixed": true
+},
+"p2": {
+"ar": "5145e5a007d5",
+"tr": "d3de9a0c48eb",
+"en": "b2827b3a6b92",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u33",
+"at": "2026-10-16 19:19",
+"fixed": false
+}
+},
+"dervis-irab:7-9": {
+"p1": {
+"ar": "798ca44eaafa",
+"tr": "924e763a0e1a",
+"en": "903635b20792",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u87",
+"at": "2026-10-10 19:41",
+"fixed": false
+}
+},
+"dervis-irab:10-13": {
+"p1": {
+"ar": "30118fb40652",
+"tr": "118722378a71",
+"en": "e103337447ed",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR: removed unmarked additions \"(sesle)\" in the awwibi gloss, \"(eş-Şirbînî)\" after el-Hatîb and \"(Celâleyn sahibi)\" after Celâl",
+"by": "dervis-irab-p1-u15",
+"at": "2026-10-17 00:07",
+"fixed": true
+},
+"p2": {
+"ar": "30118fb40652",
+"tr": "118722378a71",
+"en": "e103337447ed",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u20",
+"at": "2026-10-17 00:17",
+"fixed": false
+}
+},
+"dervis-irab:14-14": {
+"p1": {
+"ar": "e2c9bda0d74d",
+"tr": "20679c50bac0",
+"en": "6ed568d82d6e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u87",
+"at": "2026-10-10 19:42",
+"fixed": false
+}
+},
+"dervis-irab:38-42": {
+"p1": {
+"ar": "d59427680d06",
+"tr": "606a305c5727",
+"en": "b724148ea9fe",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u87",
+"at": "2026-10-10 19:42",
+"fixed": false
+}
+},
+"dervis-irab:43-45": {
+"p1": {
+"ar": "18e558ab5c01",
+"tr": "75019f800da4",
+"en": "bc2863bd449b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u87",
+"at": "2026-10-10 19:42",
+"fixed": false
+}
+},
+"dervis-irab:46-49": {
+"p1": {
+"ar": "4b39eb6e50db",
+"tr": "3b0e71f09e02",
+"en": "b7329ff95944",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN silently corrected source typo \"وأعظم\" to (أعظكم); now marked with translator note.",
+"by": "dervis-irab-u87",
+"at": "2026-10-10 19:43",
+"fixed": true
+},
+"p2": {
+"ar": "4b39eb6e50db",
+"tr": "3b0e71f09e02",
+"en": "b7329ff95944",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u33",
+"at": "2026-10-16 19:21",
+"fixed": false
+}
+},
+"dervis-irab:15-19": {
+"p1": {
+"ar": "8b2bbfb3dd15",
+"tr": "c2aa05fae535",
+"en": "d9a420966021",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR: removed unmarked \"(Celâleyn sahibi)\" and \"(zatülcenp)\", and the unmarked completion \"(ancak kâfire)\" after the cut-off sentence of the tadhyil (now a translator note). EN: unmarked completion \"[to anyone but the ungrateful]\" replaced by a translator note; silent correction of source \"متوفقة\" to \"depends\" now flagged with a translator note",
+"by": "dervis-irab-p1-u15",
+"at": "2026-10-17 00:07",
+"fixed": true
+},
+"p2": {
+"ar": "8b2bbfb3dd15",
+"tr": "c2aa05fae535",
+"en": "d9a420966021",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u20",
+"at": "2026-10-17 00:17",
+"fixed": false
+}
+},
+"dervis-irab:50-54": {
+"p1": {
+"ar": "7e3e5ee62158",
+"tr": "6bbc02271028",
+"en": "0f1e939c63ef",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN silently corrected source typos \"وفعل مستتر\" and \"بتري\" and added an unmarked gloss on kaffa/makfufa; fixed with notes/removal.",
+"by": "dervis-irab-u87",
+"at": "2026-10-10 19:43",
+"fixed": true
+},
+"p2": {
+"ar": "7e3e5ee62158",
+"tr": "6bbc02271028",
+"en": "0f1e939c63ef",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u33",
+"at": "2026-10-16 19:28",
+"fixed": false
+}
+},
+"dervis-irab:20-22": {
+"p1": {
+"ar": "2181d711a0c4",
+"tr": "cdb4962fde84",
+"en": "ad681e436298",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u87",
+"at": "2026-10-10 19:43",
+"fixed": false
+}
+},
+"dervis-irab:23-27": {
+"p1": {
+"ar": "e5c0f99903cc",
+"tr": "f37b9d061243",
+"en": "18f8e509d8ea",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR: unmarked \"(biri)\" in the elliptical saying مني ومنك removed and a translator note added; duplicate \"(Ebû Süfyân)\" removed. EN: مني ومنك was rendered \"from me or from you\" (و is \"and\") and an unmarked \"[It is]\" was added; corrected with a translator note",
+"by": "dervis-irab-p1-u15",
+"at": "2026-10-17 00:08",
+"fixed": true
+},
+"p2": {
+"ar": "e5c0f99903cc",
+"tr": "f37b9d061243",
+"en": "18f8e509d8ea",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u20",
+"at": "2026-10-17 00:17",
+"fixed": false
+}
+},
+"dervis-irab:28-33": {
+"p1": {
+"ar": "dceec3f76a97",
+"tr": "3ea16894c509",
+"en": "9718209ef308",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u87",
+"at": "2026-10-10 19:43",
+"fixed": false
+}
+},
+"dervis-irab:34-37": {
+"p1": {
+"ar": "973192507a09",
+"tr": "61db7558f862",
+"en": "43a9843adf54",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u87",
+"at": "2026-10-10 19:43",
+"fixed": false
+}
+}
+}

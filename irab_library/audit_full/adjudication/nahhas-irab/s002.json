@@ -1,0 +1,27 @@
+{
+"nahhas-irab:173-173": {
+"hs": [
+"d05a06ffdfe5",
+"3838d53edd5e",
+"a424b2c48c94"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "The reviewer's claim is wrong: TR does not translate 2:188. It translates this entry (إِنَّما حَرَّمَ ... نصب بحرّم, «ما» كافة, فَمَنِ اضْطُرَّ, أبو جعفر بكسر الطاء, فمن اضّرّ/اطّر, غَيْرَ باغٍ حال, أصل باغي, وكذا ولا عاد) completely and correctly.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "The current TR translates exactly this entry, not 2:188: «نصب بحرّم، و«ما» كافة» -> 'حرّم ile mansûbdur; «ما» kâffedir'; «ضمّت النون لالتقاء الساكنين» -> 'nûn iki sâkinin buluşmasından dolayı damme ile'; Abū Jaʿfar «بكسر الطاء»; «فمن اضّرّ», «فمن اطّر وهذا في غير القرآن»; «غَيْرَ باغٍ «غير» نصب على الحال» and the باغي analysis, «وكذا ولا عاد». Complete and accurate. The small parentheticals '(bunlar)', '(«اضْطِرَّ»)', '(kesre)' only make explicit referents the Arabic implies (e.g. «وقبل الياء ما يدلّ عليها» = the kasra) and do not change the meaning.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

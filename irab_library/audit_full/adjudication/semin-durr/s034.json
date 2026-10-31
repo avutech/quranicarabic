@@ -1,0 +1,54 @@
+{
+"semin-durr:9-9": {
+"hs": [
+"d50adb6a8c3f",
+"f427977e1498",
+"8c9a39573941"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "MISPLACED",
+"evidence": "First part is on 34:9 («أَفَلَمْ», «من السماء», «إنْ نَشَأْ ... يَخْسِفْ ... يُسْقِطْ»), but the entry then substantively parses 34:10 «وَلَقَدْ آتَيْنَا دَاوُودَ مِنَّا فَضْلاً يَا جِبَالُ أَوِّبِي مَعَهُ وَالطَّيْرَ وَأَلَنَّا لَهُ الْحَدِيدَ»: sections «يا جِبالُ», «أَوِّبِيْ», «والطيرَ» / «والطيرُ», «وألَنَّا ... عطف على آتَيْنا» and «فَضْلاً». Correct range 9-10.",
+"at": "2026-10-17 00:41",
+"ayahs": "9-10"
+},
+"J2": {
+"class": "MISPLACED",
+"evidence": "First part is on 34:9 («أَفَلَمْ», «من السماء», «إنْ نَشَأْ» نخسف/نسقط), but the entry then substantively parses 34:10: «يا جِبالُ» (badal of «فَضْلاً», «آتَيْنا»), «أَوِّبِيْ», «والطيرَ/والطيرُ» and «وألَنَّا» - all words of 34:10 «وَلَقَدْ آتَيْنَا دَاوُودَ مِنَّا فَضْلًا يَا جِبَالُ أَوِّبِي مَعَهُ وَالطَّيْرَ وَأَلَنَّا لَهُ الْحَدِيدَ». Correct range 9-10.",
+"at": "2026-10-17 00:41",
+"ayahs": "9-10"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+},
+"semin-durr:23-23": {
+"hs": [
+"4eef5f99fcec",
+"e28dadbfe8fb",
+"2ede54dd8b61"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "The current TR is complete: after «قالوا: ماذا» it renders the Shaykh's rejection of Ibn ʿAṭiyya («فما قَدَّره ابنُ عطية لا يَصِحُّ...»), the third view («زَعَمْتُم», iltifāt), the fourth with the full Zamakhsharī quote, Ibn ʿĀmir «فَزَّع», al-Ḥasan «فُزِعَ», «فَرَّغَ», «الفَراغ», «افْرُنْقِعَ» with Abū Ḥayyān's remark and the ʿĪsā b. ʿUmar anecdote, and Ibn Abī ʿAbla «الحقُّ». The claimed truncation does not exist; spot-checked passages are faithful.",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Current TR is complete: after «قالوا: ماذا» it renders the Shaykh's rejection («فما قَدَّره ابنُ عطية لا يَصِحُّ»), the third view («زَعَمْتُم» with iltifat), the fourth view with Zamakhshari's full quote (Naba' 37-38), Ibn 'Amir «فَزَّع», al-Hasan «فُزِعَ», «فَرَّغَ», «الفَراغُ», «افْرُنْقِعَ» with Zamakhshari/Shaykh and the 'Isa b. 'Umar anecdote, and Ibn Abi 'Abla «الحقُّ». Checked against the Arabic: faithful, no omission.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

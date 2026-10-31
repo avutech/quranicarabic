@@ -1,0 +1,136 @@
+{
+"akhfash:4-4": {
+"p1": {
+"ar": "8da239477b77",
+"tr": "d3cd213ffada",
+"en": "f4d67a2e8f1e",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR added an unmarked \"(haberi)\" (predicate) after Yahut; removed",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:43",
+"fixed": true
+},
+"p2": {
+"ar": "8da239477b77",
+"tr": "d3cd213ffada",
+"en": "f4d67a2e8f1e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-p2-u1",
+"at": "2026-10-16 18:50",
+"fixed": false
+}
+},
+"akhfash:16-16": {
+"p1": {
+"ar": "b55b7fff102e",
+"tr": "51b95d6f7d12",
+"en": "1a51ffaf9214",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:43",
+"fixed": false
+}
+},
+"akhfash:22-22": {
+"p1": {
+"ar": "3419d23ad3dd",
+"tr": "801e30e2ddfa",
+"en": "46e2e1c4618b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:43",
+"fixed": false
+}
+},
+"akhfash:72-72": {
+"p1": {
+"ar": "92a1ee5e2658",
+"tr": "90eabd0af54e",
+"en": "2026c58e69c9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:43",
+"fixed": false
+}
+},
+"akhfash:197-197": {
+"p1": {
+"ar": "e882f5fecf41",
+"tr": "cf9892f7f6af",
+"en": "bff33a7f29c3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:43",
+"fixed": false
+},
+"p2": {
+"ar": "e882f5fecf41",
+"tr": "cf9892f7f6af",
+"en": "bff33a7f29c3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-p2-u1",
+"at": "2026-10-16 18:50",
+"fixed": false
+}
+},
+"akhfash:198-198": {
+"p1": {
+"ar": "8a0d90d706b6",
+"tr": "c9b53356be6a",
+"en": "a11a67175573",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:43",
+"fixed": false
+}
+},
+"akhfash:201-203": {
+"p1": {
+"ar": "9da6725d87f6",
+"tr": "08038e057cac",
+"en": "7eed267d7c52",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN had unmarked \"(what follows)\" after conjoined to; removed",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:43",
+"fixed": true
+},
+"p2": {
+"ar": "9da6725d87f6",
+"tr": "08038e057cac",
+"en": "7eed267d7c52",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "The second paragraph \"وقال ﴿إِنِّيۤ آمَنتُ بِرَبِّكُمْ فَٱسْمَعُونِ﴾\" is about Yasin 36:25, not 26:201-203; both readings translate it faithfully and mark this with a note.",
+"by": "akhfash-p2-u1",
+"at": "2026-10-16 18:50",
+"fixed": false
+}
+}
+}

@@ -1,0 +1,10 @@
+{
+ "surah": 85,
+ "chunk": "1-22",
+ "verdicts": {
+  "OK": 78,
+  "GAP": 7
+ },
+ "summary": "Chunk 85:1-22: 3 high NEAR and 4 low XREF/UNFOUND findings all OK; 6+ SEM checks per book across 13 books all OK; 7 GAP lines recorded; no mismatches or fixes needed. Minor: harrat-mujtaba:17-17 EN has a translator-note lemma absent from TR.",
+ "at": "2026-10-10 15:15"
+}

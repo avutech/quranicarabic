@@ -1,0 +1,27 @@
+{
+"daas-irab:46-48": {
+"hs": [
+"7ed62468167c",
+"d23dfaf8cafa",
+"52b9cdf22b57"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Turkish translates the 34:46-48 entry word for word (﴿قُلْ﴾ ﴿إِنَّما﴾ ﴿أَعِظُكُمْ﴾ ﴿بِواحِدَةٍ﴾ ... ﴿شَدِيدٍ﴾; ﴿ما﴾ اسم شرط ... ﴿شَهِيدٌ﴾; ﴿إِنَّ رَبِّي﴾ ﴿يَقْذِفُ﴾ ... ﴿الْغُيُوبِ﴾), nothing from 34:20-22 (إبليس / ظهير). Its comments on «حرف حر» and ﴿أَنْ﴾ نافية are inside [Mütercim notu: ...], and the source text itself is translated as written. Reviewer's claim is wrong.",
+"at": "2026-10-17 00:40"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "The Turkish reading is the parsing of 34:46-48, not 34:20-22: it renders ﴿أَعِظُكُمْ﴾ ﴿بِواحِدَةٍ﴾ ﴿تَقُومُوا﴾ بدل من واحدة ﴿مَثْنى﴾ ﴿وَفُرادى﴾ ... ﴿شَدِيدٍ﴾ (46), ﴿ما﴾ اسم شرط جازم ... ﴿سَأَلْتُكُمْ﴾ ... ﴿شَهِيدٌ﴾ (47), ﴿إِنَّ رَبِّي﴾ ﴿يَقْذِفُ﴾ ﴿بِالْحَقِّ﴾ ﴿عَلَّامُ﴾ ﴿الْغُيُوبِ﴾ (48), sentence by sentence and accurately; the two additions (on «حرف حر» and on ﴿أَنْ﴾ for إِنْ) are inside marked Mütercim notu.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

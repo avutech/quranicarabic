@@ -1,0 +1,53 @@
+{
+"semin-durr:24-24": {
+"hs": [
+"b9e0b7b9337e",
+"141e85574c45",
+"22a82c1b190f"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Verse 3563 «وذَاتَ اللِّثاثِ الجُمِّ والفاحِمِ الجَعْدِ»: اللِّثاث is plural of لِثَة (gums), الجُمّ = plentiful; TR «bol saçlı» (abundant hair) is wrong meaning (should be 'dolgun/bol diş etli'); EN 'abundant gums' is right. Also unmarked additions in TR: «Ben (Semîn) dedim» for «قلت» and «[Bu «وجدتُ»]» not inside Mütercim notu; and «للتحضيضِ» rendered «tahdîd» (threat) instead of tahdîz/tahzîz.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Verse 3563 «وذَاتَ اللِّثاثِ الجُمِّ والفاحِمِ الجَعْدِ»: اللِّثاث is the plural of لِثَة (gums), الجُمّ = abundant; only «الفاحِم الجَعْد» refers to hair. TR 'bol saçlı, kapkara kıvırcık saçlı' turns اللثاث into hair (hair twice) - wrong meaning (EN 'abundant gums' follows the Arabic). Fix: 'dolgun diş etli'. (Minor: TR 'tahdîd (teşvik)' for «للتحضيض» should read 'tahdîd' -> 'tahdîz'; rest of the long entry checked and faithful.)",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Verse 3565: unmarked '[ölüm]' moved into [Mütercim notu: yani ölüm]",
+"verify_note": "Flagged issue fixed (3565 '[ölüm]' now [Mütercim notu: yani ölüm]; 3563 diş etli, Ben dedim, tahdîz, وجدتُ note all fine). Remaining error: in the {الذي يُخْرِجُ الخبء} paragraph, «وفي التفسير: الخَبْءُ في السماواتِ: المطرُ» is rendered 'Göklerdeki «habʾ» yağmurdur' - the Quranic word الخبء is transliterated in Latin letters. Fix: write 'Göklerdeki «الخَبْءُ» yağmurdur'.",
+"fix_failed": 2,
+"verified": null
+}
+},
+"history": [
+{
+"old_hs": [
+"b9e0b7b9337e",
+"ebcd74705191",
+"22a82c1b190f"
+],
+"dim": "tr",
+"what": "Poem 3563: اللِّثاث الجُمّ 'bol saçlı' -> 'dolgun diş etli'; removed unmarked '(Semîn)'; '[Bu «وجدتُ»]' -> 'Bu [Mütercim notu: yani «وجدتُ»]'; للتحضيض 'tahdîd' -> 'tahdîz'",
+"at": "2026-10-17 00:45"
+},
+{
+"old_hs": [
+"b9e0b7b9337e",
+"39d5c1364b16",
+"22a82c1b190f"
+],
+"dim": "tr",
+"what": "Verse 3565: unmarked '[ölüm]' moved into [Mütercim notu: yani ölüm]",
+"at": "2026-10-17 00:48"
+}
+]
+}
+}

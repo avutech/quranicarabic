@@ -1,0 +1,64 @@
+{
+  "sampling": false,
+  "total_units": 182167,
+  "required_review_decisions": 364334,
+  "counts": {
+    "pass1_current_receipts": 464,
+    "pass2_current_receipts": 464,
+    "units_with_two_distinct_reviewers": 464,
+    "units_with_agreeing_review_evidence": 441,
+    "units_requiring_adjudication": 23,
+    "units_missing_one_or_both_reviews": 181703
+  },
+  "by_kind": {
+    "entry": {
+      "units": 51211,
+      "pass1_current_receipts": 73,
+      "pass2_current_receipts": 73
+    },
+    "meaning": {
+      "units": 43652,
+      "pass1_current_receipts": 335,
+      "pass2_current_receipts": 335
+    },
+    "lookup": {
+      "units": 87304,
+      "pass1_current_receipts": 56,
+      "pass2_current_receipts": 56
+    }
+  },
+  "receipt_problems": [
+    {
+      "unit_id": "entry:1:3",
+      "pass": 1,
+      "issue": "STALE_PACKET"
+    },
+    {
+      "unit_id": "entry:1:3",
+      "pass": 2,
+      "issue": "STALE_PACKET"
+    },
+    {
+      "unit_id": "entry:1:26",
+      "pass": 1,
+      "issue": "STALE_PACKET"
+    },
+    {
+      "unit_id": "entry:1:26",
+      "pass": 2,
+      "issue": "STALE_PACKET"
+    },
+    {
+      "unit_id": "entry:1:30",
+      "pass": 1,
+      "issue": "STALE_PACKET"
+    },
+    {
+      "unit_id": "entry:1:30",
+      "pass": 2,
+      "issue": "STALE_PACKET"
+    }
+  ],
+  "semantic_audit_complete": false,
+  "note": "Receipts prove current review coverage only. Agreement, original-source verification and resolution remain separate gates."
+}

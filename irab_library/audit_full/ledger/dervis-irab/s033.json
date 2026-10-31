@@ -1,0 +1,362 @@
+{
+"dervis-irab:28-33": {
+"p1": {
+"ar": "9493437e238f",
+"tr": "1db7d87ba94c",
+"en": "bf783ef2db7d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u87",
+"at": "2026-10-10 19:39",
+"fixed": false
+}
+},
+"dervis-irab:34-37": {
+"p1": {
+"ar": "5b31e6d72bc2",
+"tr": "ca5f30f58ab3",
+"en": "819006bd6128",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u87",
+"at": "2026-10-10 19:39",
+"fixed": false
+}
+},
+"dervis-irab:38-40": {
+"p1": {
+"ar": "32d9478a7a5f",
+"tr": "682b29ce1cfd",
+"en": "321212e4e491",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u2",
+"at": "2026-10-17 00:17",
+"fixed": false
+},
+"p2": {
+"ar": "32d9478a7a5f",
+"tr": "682b29ce1cfd",
+"en": "321212e4e491",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN rhetoric rendered the Quranic answer «ما كان محمد أبا أحد من رجالكم» in English only; restored the Arabic. Also marked the source form «أليس محمدا», which EN had silently normalised.",
+"by": "dervis-irab-p2-u4",
+"at": "2026-10-17 00:03",
+"fixed": true
+}
+},
+"dervis-irab:41-48": {
+"p1": {
+"ar": "f06799c93eb3",
+"tr": "92d62079644d",
+"en": "43bb9091794d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u87",
+"at": "2026-10-10 19:40",
+"fixed": false
+}
+},
+"dervis-irab:49-52": {
+"p1": {
+"ar": "d61ac4bdffba",
+"tr": "e7766ab25dcc",
+"en": "c0d8912e24fe",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u87",
+"at": "2026-10-10 19:41",
+"fixed": false
+},
+"p2": {
+"ar": "d61ac4bdffba",
+"tr": "e7766ab25dcc",
+"en": "c0d8912e24fe",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u4",
+"at": "2026-10-17 00:04",
+"fixed": false
+}
+},
+"dervis-irab:53-53": {
+"p1": {
+"ar": "894889f0bae5",
+"tr": "b4f22e938561",
+"en": "f7af28d6c175",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u87",
+"at": "2026-10-10 19:41",
+"fixed": false
+}
+},
+"dervis-irab:54-56": {
+"p1": {
+"ar": "6c99445e09fb",
+"tr": "9666fb1e80d3",
+"en": "8be8f99299d2",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "Arabic source ends abruptly at \"تسليما مصدر مؤكد\" (sentence unfinished; the promised iltifat explanation is absent); TR/EN translate it as given.",
+"by": "dervis-irab-u87",
+"at": "2026-10-10 19:41",
+"fixed": false
+},
+"p2": {
+"ar": "6c99445e09fb",
+"tr": "9666fb1e80d3",
+"en": "8be8f99299d2",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "Arabic source ends abruptly at \"تسليما مصدر مؤكد\" and the promised balagha section on the iltifat of \"واتقين الله\" is absent, so the source looks truncated; both readings translate all the source has.",
+"by": "dervis-irab-p2-u4",
+"at": "2026-10-17 00:04",
+"fixed": false
+}
+},
+"dervis-irab:69-73": {
+"p1": {
+"ar": "ee7658949fed",
+"tr": "c74530dfa10a",
+"en": "4b95a01b338f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u15",
+"at": "2026-10-17 00:06",
+"fixed": false
+},
+"p2": {
+"ar": "ee7658949fed",
+"tr": "c74530dfa10a",
+"en": "4b95a01b338f",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR rendered \"مع ذكر الضم\" as \"sükûn ile (السَّدّ) zikrini\" (contradicting its own note); fixed to \"damme zikrini\"; also clarified \"ما نقل اليه وما نقل عنه\" duplicate rendering.",
+"by": "dervis-irab-p2-u33",
+"at": "2026-10-16 19:18",
+"fixed": true
+}
+},
+"dervis-irab:57-59": {
+"p1": {
+"ar": "262cc3da0d88",
+"tr": "431a29003c6f",
+"en": "598377836884",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u87",
+"at": "2026-10-10 19:41",
+"fixed": false
+}
+},
+"dervis-irab:60-63": {
+"p1": {
+"ar": "a93c3aeb05a8",
+"tr": "fb522d68b188",
+"en": "e0e5a1dbfc05",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u2",
+"at": "2026-10-17 00:17",
+"fixed": false
+},
+"p2": {
+"ar": "a93c3aeb05a8",
+"tr": "fb522d68b188",
+"en": "e0e5a1dbfc05",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR silently read the source «خاص في الأخبار السيئة» as «خاض في» (dalmak); added a marked translator note. EN translates it as written.",
+"by": "dervis-irab-p2-u4",
+"at": "2026-10-17 00:04",
+"fixed": true
+}
+},
+"dervis-irab:64-68": {
+"p1": {
+"ar": "f9c43744e1af",
+"tr": "132a60a20763",
+"en": "c9397527078c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u87",
+"at": "2026-10-10 19:42",
+"fixed": false
+}
+},
+"dervis-irab:1-5": {
+"p1": {
+"ar": "eafbe2046993",
+"tr": "f906daf50ae6",
+"en": "071c638f1245",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u2",
+"at": "2026-10-17 00:17",
+"fixed": false
+},
+"p2": {
+"ar": "eafbe2046993",
+"tr": "f906daf50ae6",
+"en": "071c638f1245",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR rendered \"كتحريم ركوب أمي\" as riding my mother's mount (annemin bineğine); corrected to riding my mother. EN had an unmarked bracket \"[the source prints «وقولم»]\" and silently corrected «أرفض»; both now marked as translator's notes.",
+"by": "dervis-irab-p2-u4",
+"at": "2026-10-17 00:02",
+"fixed": true
+}
+},
+"dervis-irab:6-8": {
+"p1": {
+"ar": "74f0da6dec3e",
+"tr": "2249958b1f4f",
+"en": "186674ac71a9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u87",
+"at": "2026-10-10 19:42",
+"fixed": false
+}
+},
+"dervis-irab:9-13": {
+"p1": {
+"ar": "627cf4ca339b",
+"tr": "f5e7b99ce8b0",
+"en": "c28297f7cfaa",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR lugat, Yathrib: removed unmarked addition \"(münafıklar)\" as subject of \"فذكروها\" (source names no subject). Rest complete, incl. the ending (Ahzab narrative, masdar plural, qira'at of الظنونا).",
+"by": "dervis-irab-u87",
+"at": "2026-10-10 19:44",
+"fixed": true
+},
+"p2": {
+"ar": "627cf4ca339b",
+"tr": "f5e7b99ce8b0",
+"en": "c28297f7cfaa",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u4",
+"at": "2026-10-17 00:03",
+"fixed": false
+}
+},
+"dervis-irab:14-17": {
+"p1": {
+"ar": "35d971ba254c",
+"tr": "6d9a225a9047",
+"en": "e589164e6767",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u87",
+"at": "2026-10-10 19:43",
+"fixed": false
+}
+},
+"dervis-irab:18-19": {
+"p1": {
+"ar": "df74951d1231",
+"tr": "b5e3cddab7d7",
+"en": "a6abb560dc72",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR lugat: removed unmarked \"(onları savaştan)\" added after المثبطين. EN rhetoric: source (illogically) says \"لو اقتصر على قوله كالذي يغشى عليه من الموت\" and English silently changed it to \"like one who swoons\"; now rendered as written with a translator note (TR already had one).",
+"by": "dervis-irab-u87",
+"at": "2026-10-10 19:44",
+"fixed": true
+},
+"p2": {
+"ar": "df74951d1231",
+"tr": "b5e3cddab7d7",
+"en": "a6abb560dc72",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u4",
+"at": "2026-10-17 00:03",
+"fixed": false
+}
+},
+"dervis-irab:20-22": {
+"p1": {
+"ar": "50b459e948ef",
+"tr": "690babbd1ec5",
+"en": "ca48c880666b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u87",
+"at": "2026-10-10 19:44",
+"fixed": false
+}
+},
+"dervis-irab:23-27": {
+"p1": {
+"ar": "9cca307063a9",
+"tr": "ea16a5c6613f",
+"en": "f6b0f95806f0",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "lughah on صيصية: source prints \"شوكة الحائط\" (wall); both TR and EN silently rendered it as weaver (الحائك); added translator notes in both. Rest faithful and complete.",
+"by": "dervis-irab-u87",
+"at": "2026-10-10 19:45",
+"fixed": true
+},
+"p2": {
+"ar": "9cca307063a9",
+"tr": "ea16a5c6613f",
+"en": "f6b0f95806f0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u4",
+"at": "2026-10-17 00:03",
+"fixed": false
+}
+}
+}

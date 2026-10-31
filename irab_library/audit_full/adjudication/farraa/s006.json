@@ -1,0 +1,53 @@
+{
+"farraa:14-14": {
+"hs": [
+"11c80fd72be9",
+"c94682819b3e",
+"1dc6f079416a"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "The source reads «ولو نويت الفاطرَ الخالِق» (definite, with al-). EN silently changes it to 'fāṭiran' (indefinite, transliterated), which translates a different text. EN also adds an unmarked bracket '[i.e. as an indefinite participle]' that is not in the Arabic. Both must go into a [Translator's note: …] or be rendered as written. TR keeps «الفاطرَ الخالِق» as is.",
+"at": "2026-10-10 15:59"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "The source reads 'ولو نويت الفاطرَ الخالِق نصبته على القطع؛ إذ لم يكن فيه ألف ولام'. EN renders الفاطرَ as 'fāṭiran', which translates a different text (indefinite فاطرا, not what is written) and also transliterates the Quranic word فاطر in Latin letters. It adds '[i.e. as an indefinite participle]' without a Translator's note. Minor: 'وهو معرفة' is rendered 'since it is definite', which adds a causal link.",
+"at": "2026-10-10 15:59"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked bracket [«فاطر»]; subject now 'it' with [Translator's note: i.e. «فاطر».]",
+"verify_note": "The «فاطر» subject is now inside a Translator's note; الفاطرَ kept as written with the inconsistency flagged in a note; 'and it is definite' is literal; nothing unmarked added, nothing omitted.",
+"fix_failed": 1,
+"verified": "PASS"
+}
+},
+"history": [
+{
+"old_hs": [
+"11c80fd72be9",
+"c94682819b3e",
+"3953528ba4f3"
+],
+"dim": "en",
+"what": "Rendered الفاطرَ الخالِق as written (Arabic) instead of transliterated indefinite 'fāṭiran'; unmarked '[i.e. as an indefinite participle]' moved into a Translator's note; 'since it is definite' -> 'and it is definite'",
+"at": "2026-10-10 16:01"
+},
+{
+"old_hs": [
+"11c80fd72be9",
+"c94682819b3e",
+"710b575a3498"
+],
+"dim": "en",
+"what": "Removed unmarked bracket [«فاطر»]; subject now 'it' with [Translator's note: i.e. «فاطر».]",
+"at": "2026-10-10 16:03"
+}
+]
+}
+}

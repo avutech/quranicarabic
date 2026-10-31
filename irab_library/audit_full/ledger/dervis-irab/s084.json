@@ -1,0 +1,54 @@
+{
+"dervis-irab:1-15": {
+"p1": {
+"ar": "39301a3e8b6d",
+"tr": "36da1c5cf881",
+"en": "f7f28aabfb80",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR: quoted «خذ ما ضفا» was silently written «صفا» (now as in source plus translator note); غلظ وثقله rendered \"kalinlik ve irilik\" (now kalinlik ve agirlik). EN: same ضفا typo silently corrected, note added.",
+"by": "dervis-irab-p1-u4",
+"at": "2026-10-17 00:19",
+"fixed": true
+},
+"p2": {
+"ar": "39301a3e8b6d",
+"tr": "36da1c5cf881",
+"en": "f7f28aabfb80",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u6",
+"at": "2026-10-17 00:31",
+"fixed": false
+}
+},
+"dervis-irab:16-25": {
+"p1": {
+"ar": "a0a9310e1779",
+"tr": "ebcdf007f964",
+"en": "8b5a1efb34b6",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN: source «واعلم» (for أعلم) was silently corrected; translator note added (TR already had one).",
+"by": "dervis-irab-p1-u4",
+"at": "2026-10-17 00:19",
+"fixed": true
+},
+"p2": {
+"ar": "a0a9310e1779",
+"tr": "ebcdf007f964",
+"en": "8b5a1efb34b6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u6",
+"at": "2026-10-17 00:31",
+"fixed": false
+}
+}
+}

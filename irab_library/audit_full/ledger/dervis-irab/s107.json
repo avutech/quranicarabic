@@ -1,0 +1,28 @@
+{
+"dervis-irab:1-7": {
+"p1": {
+"ar": "8c30642a0750",
+"tr": "cda7e7072ca6",
+"en": "3b113858b532",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN: Thaʿlab verse gloss said \"the stepson shoves the beard of his orphan [stepchild]\" while TR reads the rabib as stepfather/guardian; made EN consistent with a marked translator note (الربيب / لحيتي يتيمه).",
+"by": "dervis-irab-p1-u5",
+"at": "2026-10-17 00:17",
+"fixed": true
+},
+"p2": {
+"ar": "8c30642a0750",
+"tr": "cda7e7072ca6",
+"en": "3b113858b532",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u7",
+"at": "2026-10-17 00:31",
+"fixed": false
+}
+}
+}

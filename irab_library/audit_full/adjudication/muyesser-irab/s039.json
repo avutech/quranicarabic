@@ -1,0 +1,27 @@
+{
+"muyesser-irab:66-66": {
+"hs": [
+"7989ca51ece4",
+"9a691e8b3e97",
+"02543f04195e"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Reviewer's claim is not borne out: the current English parses 39:66 exactly (بل حرف إضراب وعطف; الله منصوب بفعل محذوف دل عليه فاعبد; الفاء الفصيحة; كن ... خبر ﴿كن﴾; إن كنت عاقلا = 'if you are rational'; تنبه = 'take heed'), complete and faithful; nothing from 39:58.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Reviewer claim is wrong: the English parses 39:66 itself - بل (iḍrāb), الله accusative by an omitted verb indicated by فاعبد, fāʾ al-faṣīḥa, اعبد, كن with latent ism, من الشاكرين attached to omitted khabar of كن, the clause اعبد in jussive position (إن كنت عاقلا) or conjoined to implied تنبه, and كن من الشاكرين. It matches the Arabic line by line; nothing from 39:58.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

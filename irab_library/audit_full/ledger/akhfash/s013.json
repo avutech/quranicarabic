@@ -1,0 +1,204 @@
+{
+"akhfash:2-2": {
+"p1": {
+"ar": "5f5837ec881e",
+"tr": "fcd35eefae13",
+"en": "c228b11c673d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"akhfash:3-3": {
+"p1": {
+"ar": "840246788f4f",
+"tr": "c75ecd85d8aa",
+"en": "9280cb24318d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:45",
+"fixed": false
+},
+"p2": {
+"ar": "840246788f4f",
+"tr": "c75ecd85d8aa",
+"en": "9280cb24318d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u1",
+"at": "2026-10-11 04:07",
+"fixed": false
+}
+},
+"akhfash:4-4": {
+"p1": {
+"ar": "6b3f7945342d",
+"tr": "e90f982552f1",
+"en": "d22093c4b1a9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"akhfash:5-5": {
+"p1": {
+"ar": "c94ae6904cd3",
+"tr": "cf1cbc3d54dc",
+"en": "58eb5b20d32c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"akhfash:10-10": {
+"p1": {
+"ar": "f7cb8f496673",
+"tr": "97524752199b",
+"en": "6ecffeb65f48",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:45",
+"fixed": false
+},
+"p2": {
+"ar": "f7cb8f496673",
+"tr": "97524752199b",
+"en": "6ecffeb65f48",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "Source entry contains the material on (أَخِفْيها) and (أَكادُ) belonging to Taha 20:15; both readings translate it fully and mark this in a translator note.",
+"by": "akhfash-u1",
+"at": "2026-10-11 04:07",
+"fixed": false
+}
+},
+"akhfash:15-15": {
+"p1": {
+"ar": "edd6fdf06aac",
+"tr": "d73267df7778",
+"en": "f07e484393fe",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"akhfash:16-16": {
+"p1": {
+"ar": "a7d4c444082c",
+"tr": "611ccd4eacf0",
+"en": "e9ca960ff499",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"akhfash:17-17": {
+"p1": {
+"ar": "05d3616fd3d7",
+"tr": "32579029c965",
+"en": "99f9b953bd9d",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish rendered \"أما المثل\" as \"Miktar (المِثْل) anlamında\" (quantity); المِثْل means likeness; corrected to \"Benzer\".",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:45",
+"fixed": true
+},
+"p2": {
+"ar": "05d3616fd3d7",
+"tr": "32579029c965",
+"en": "99f9b953bd9d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u1",
+"at": "2026-10-11 04:07",
+"fixed": false
+}
+},
+"akhfash:23-24": {
+"p1": {
+"ar": "c61edaeb68d5",
+"tr": "0136ec2d56b4",
+"en": "cad32266f759",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"akhfash:29-29": {
+"p1": {
+"ar": "23743ca76375",
+"tr": "161ec035738d",
+"en": "d80929e837c3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:45",
+"fixed": false
+},
+"p2": {
+"ar": "23743ca76375",
+"tr": "161ec035738d",
+"en": "d80929e837c3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u1",
+"at": "2026-10-11 04:07",
+"fixed": false
+}
+},
+"akhfash:33-33": {
+"p1": {
+"ar": "6dfac91207ed",
+"tr": "7b3043065851",
+"en": "1fd29f22d6ab",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+}
+}

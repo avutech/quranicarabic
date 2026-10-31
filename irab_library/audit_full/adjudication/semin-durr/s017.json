@@ -1,0 +1,80 @@
+{
+"semin-durr:5-5": {
+"hs": [
+"8e715280fd49",
+"c9dcddfd4440",
+"3278963be6cc"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Ḥassān verse «ومِنَّا الذي لاقى بسيفِ محمدٍ ... فجاسَ به الأعداءُ عَرْضَ العساكرِ»: the source vocalises «الأعداءُ» in the nominative (the enemies as subject), but EN 'and with it ransacked the enemies' silently treats it as accusative object (الأعداءَ), i.e. translates a different text without a Translator's note; EN also inserts '[the foe]' after 'met' as a plain bracket, an addition not in the Arabic and not inside [Translator's note: …]. The prose part of EN (وعد four views, عباد/عبيد, جاسوا meanings, خلال) is otherwise faithful and complete. Fix: mark '[the foe]' as Translator's note and render/annotate the verse per the written vocalisation.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Hassan verse in the source reads «فجاسَ به الأعداءُ» with الأعداءُ nominative (subject); EN 'with it ransacked the enemies' treats it as an accusative object, i.e. translates a differently vocalised text without a note. EN also adds unmarked '[the foe]' to «لاقى بسيفِ محمدٍ». Both need a Translator's note (vocalisation as written / bracket addition).",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Hassan verse: '[the foe]' put inside Translator's note; الأعداءُ now rendered as subject per the written nominative ('the enemies ranged'), with a Translator's note on the vocalisation"
+}
+},
+"history": [
+{
+"old_hs": [
+"8e715280fd49",
+"c9dcddfd4440",
+"eaae6f9ef6c5"
+],
+"dim": "en",
+"what": "Hassan verse: '[the foe]' put inside Translator's note; الأعداءُ now rendered as subject per the written nominative ('the enemies ranged'), with a Translator's note on the vocalisation",
+"at": "2026-10-17 00:44"
+}
+]
+},
+"semin-durr:8-8": {
+"hs": [
+"5769e92b9421",
+"2e3fe05b53e0",
+"0419d3a95940"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Labīd's verse «جِنٌّ لدى بابِ الحصيرِ قيامُ» is glossed 'at the door of the king's enclosure'; the Arabic says only بابِ الحصيرِ; 'king's' (an interpretive gloss of الحصير as the king) is not in the text and not inside [Translator's note: …], and it even obscures why the author cites the verse (for «الحَصِيْرُ: الحَبْسُ», prison). Unmarked addition; fix by e.g. 'the door of al-ḥaṣīr' with any gloss in a Translator's note. Rest of EN faithful.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Verse is cited for «الحَصِيْرُ: الحَبْسُ»; «لدى بابِ الحصيرِ» is rendered 'at the door of the king's enclosure' - 'king's' (and 'enclosure') is an interpretive gloss not in the Arabic and unmarked; should be 'al-Ḥaṣīr' / prison with any king gloss inside a Translator's note.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Labid verse: unmarked 'king's enclosure' replaced by literal 'al-ḥaṣīr'; gloss moved into Translator's note",
+"verified": "PASS",
+"verify_note": "Verse reads 'door of al-ḥaṣīr'; king/court gloss inside Translator's note. Complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"5769e92b9421",
+"2e3fe05b53e0",
+"0ddb6aac4282"
+],
+"dim": "en",
+"what": "Labid verse: unmarked 'king's enclosure' replaced by literal 'al-ḥaṣīr'; gloss moved into Translator's note",
+"at": "2026-10-17 00:44"
+}
+]
+}
+}

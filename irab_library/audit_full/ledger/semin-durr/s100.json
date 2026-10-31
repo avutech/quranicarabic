@@ -1,0 +1,164 @@
+{
+"semin-durr:1-1": {
+"p1": {
+"ar": "eaf81276e279",
+"tr": "76f2919ef985",
+"en": "f8d145c52ef3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u34",
+"at": "2026-10-11 02:57",
+"fixed": false
+}
+},
+"semin-durr:2-2": {
+"p1": {
+"ar": "3209ada00996",
+"tr": "fa7515a357c4",
+"en": "40c45191a67b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u34",
+"at": "2026-10-11 02:56",
+"fixed": false
+}
+},
+"semin-durr:3-3": {
+"p1": {
+"ar": "82397ea77dd6",
+"tr": "5cb24e8db33c",
+"en": "557ed1199abe",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u34",
+"at": "2026-10-11 02:57",
+"fixed": false
+}
+},
+"semin-durr:4-4": {
+"p1": {
+"ar": "d6ea7f12b2c9",
+"tr": "214e37602a5c",
+"en": "bdfa82657f70",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p1-u10",
+"at": "2026-10-17 00:22",
+"fixed": false
+},
+"p2": {
+"ar": "d6ea7f12b2c9",
+"tr": "214e37602a5c",
+"en": "bdfa82657f70",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN silently changed the source word «أَثَرْنَ» to «أَثَّرْنَ» in the body; now kept as written, with the note giving the intended form.",
+"by": "semin-durr-p2-u20",
+"at": "2026-10-17 00:09",
+"fixed": true
+}
+},
+"semin-durr:5-5": {
+"p1": {
+"ar": "20185d06e460",
+"tr": "2b2810d7c268",
+"en": "ea8c346ebc0f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p1-u11",
+"at": "2026-10-17 00:16",
+"fixed": false
+},
+"p2": {
+"ar": "20185d06e460",
+"tr": "2b2810d7c268",
+"en": "ea8c346ebc0f",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR unmarked identification \"Emîrü'l-Mü'minîn (Hz. Ali)\" moved into a Mütercim notu.",
+"by": "semin-durr-p2-u20",
+"at": "2026-10-17 00:09",
+"fixed": true
+}
+},
+"semin-durr:6-6": {
+"p1": {
+"ar": "1221bf1625a5",
+"tr": "145166df135f",
+"en": "0c608caaa79f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u34",
+"at": "2026-10-11 02:56",
+"fixed": false
+}
+},
+"semin-durr:8-8": {
+"p1": {
+"ar": "fd8288aa42c9",
+"tr": "2c2c20c09170",
+"en": "e733002d5a8b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u34",
+"at": "2026-10-11 02:56",
+"fixed": false
+}
+},
+"semin-durr:9-9": {
+"p1": {
+"ar": "974a2bcfdfe5",
+"tr": "07b99e67b3ec",
+"en": "93be62526812",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p1-u11",
+"at": "2026-10-17 00:16",
+"fixed": false
+},
+"p2": {
+"ar": "974a2bcfdfe5",
+"tr": "07b99e67b3ec",
+"en": "93be62526812",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR unmarked \"Şeyh (Ebû Hayyân)\" moved into a Mütercim notu; EN transliterated the lexical word \"حَصَل الشيءُ\" as «ḥaṣala», now in Arabic script.",
+"by": "semin-durr-p2-u20",
+"at": "2026-10-17 00:09",
+"fixed": true
+}
+},
+"semin-durr:11-11": {
+"p1": {
+"ar": "95ec7c15ec36",
+"tr": "236e0fef0f74",
+"en": "ce7f1e14dbdf",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u34",
+"at": "2026-10-11 02:57",
+"fixed": false
+}
+}
+}

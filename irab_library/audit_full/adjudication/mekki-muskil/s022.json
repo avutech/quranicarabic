@@ -1,0 +1,29 @@
+{
+"mekki-muskil:63-63": {
+"hs": [
+"6150a8e3de98",
+"3c90a23dcc3f",
+"138438d56ff5"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "MISPLACED",
+"evidence": "First paragraph {ألم تر أن الله أنزل من السماء ماء فتصبح الأرض مخضرة} is 22:63 (correctly filed). Second paragraph {ملة أبيكم} (with {وما جعل عليكم في الدين من حرج}) is 22:78 «ملة أبيكم إبراهيم», a substantive i'rab discussion of another ayah. The range must contain both 63 and 78.",
+"at": "2026-10-17 00:39",
+"ayahs": "63-78"
+},
+"J2": {
+"class": "MISPLACED",
+"evidence": "First paragraph quotes {ألم تر أن الله أنزل من السماء ماء فتصبح الأرض مخضرة} = 22:63; second paragraph «قَوْله {مِلَّة أبيكم} مله نصب على اضمار اتبعُوا» parses مِّلَّةَ أَبِيكُمْ of 22:78 (with {وما جعل عليكم في الدين من حرج}, also 22:78). Entry substantively covers 63 and 78.",
+"at": "2026-10-17 00:39",
+"ayahs": "63-78"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+}
+}

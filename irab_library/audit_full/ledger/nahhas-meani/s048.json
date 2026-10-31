@@ -1,0 +1,342 @@
+{
+"nahhas-meani:2-3": {
+"p1": {
+"ar": "198337ce2e48",
+"tr": "8f78abdf6410",
+"en": "c33e8ad5918f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:53",
+"fixed": false
+}
+},
+"nahhas-meani:4-4": {
+"p1": {
+"ar": "89f9ca56054d",
+"tr": "4ffc428fd643",
+"en": "de9facd4b988",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:53",
+"fixed": false
+}
+},
+"nahhas-meani:5-6": {
+"p1": {
+"ar": "9c07558c2b01",
+"tr": "13d415d2bb02",
+"en": "0f384b1e85d0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:53",
+"fixed": false
+}
+},
+"nahhas-meani:8-8": {
+"p1": {
+"ar": "82102a9e5d89",
+"tr": "b4dcaa4a4caa",
+"en": "78ec8718a32f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:53",
+"fixed": false
+}
+},
+"nahhas-meani:9-9": {
+"p1": {
+"ar": "06dbf43c2613",
+"tr": "ed546d7b56db",
+"en": "b7af820cb361",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:53",
+"fixed": false
+}
+},
+"nahhas-meani:10-10": {
+"p1": {
+"ar": "aec6c163aa0d",
+"tr": "889ec186e376",
+"en": "6af7d988b138",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Earlier TR was the 48:18 translation (wrong ayah); replaced with translation of the 48:10 entry (checked).",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:53",
+"fixed": true
+},
+"p2": {
+"ar": "aec6c163aa0d",
+"tr": "889ec186e376",
+"en": "6af7d988b138",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-p2-u5",
+"at": "2026-10-16 18:09",
+"fixed": false
+}
+},
+"nahhas-meani:11-11": {
+"p1": {
+"ar": "ce50f4e14032",
+"tr": "d5b8fa7bfc45",
+"en": "4cdb59e1ea34",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:53",
+"fixed": false
+}
+},
+"nahhas-meani:15-15": {
+"p1": {
+"ar": "81e13b6d56ae",
+"tr": "db5090b7d94c",
+"en": "e0778d6bb71c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-p1-u3",
+"at": "2026-10-17 00:03",
+"fixed": false
+},
+"p2": {
+"ar": "81e13b6d56ae",
+"tr": "db5090b7d94c",
+"en": "e0778d6bb71c",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish added unmarked interpretation \"(serbest bırakıp)\" for «ووجَّه بهم»; removed.",
+"by": "nahhas-meani-p2-u5",
+"at": "2026-10-16 18:09",
+"fixed": true
+}
+},
+"nahhas-meani:16-16": {
+"p1": {
+"ar": "a54e0082925f",
+"tr": "8a202b1e05c8",
+"en": "4f09f7324bac",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:53",
+"fixed": false
+}
+},
+"nahhas-meani:17-17": {
+"p1": {
+"ar": "60783c02cb21",
+"tr": "f443a961e0c1",
+"en": "778f029df58e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:53",
+"fixed": false
+}
+},
+"nahhas-meani:18-18": {
+"p1": {
+"ar": "3bbae7918797",
+"tr": "26b0f2d6cd1b",
+"en": "66d57c7d4af1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:53",
+"fixed": false
+}
+},
+"nahhas-meani:20-20": {
+"p1": {
+"ar": "f5530ddbf5fa",
+"tr": "5067d2158f62",
+"en": "d497d64e6e0d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:53",
+"fixed": false
+}
+},
+"nahhas-meani:21-21": {
+"p1": {
+"ar": "3b098199f83f",
+"tr": "4ead9e794400",
+"en": "cf0cc557edc0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:53",
+"fixed": false
+}
+},
+"nahhas-meani:22-22": {
+"p1": {
+"ar": "934ac05868fc",
+"tr": "660a50dfc3bf",
+"en": "aebb780b6780",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:53",
+"fixed": false
+}
+},
+"nahhas-meani:24-24": {
+"p1": {
+"ar": "b7676099b3f6",
+"tr": "ad2cf2868d39",
+"en": "40de2f313552",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR had an unmarked addition '(Mekke'nin içi ile)' after يعني الحديبية; removed.",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:53",
+"fixed": true
+},
+"p2": {
+"ar": "b7676099b3f6",
+"tr": "ad2cf2868d39",
+"en": "40de2f313552",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-p2-u5",
+"at": "2026-10-16 18:09",
+"fixed": false
+}
+},
+"nahhas-meani:25-25": {
+"p1": {
+"ar": "165f8da07a25",
+"tr": "99b402aa7f89",
+"en": "86ca51cc3408",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:53",
+"fixed": false
+},
+"p2": {
+"ar": "165f8da07a25",
+"tr": "99b402aa7f89",
+"en": "86ca51cc3408",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-p2-u5",
+"at": "2026-10-16 18:09",
+"fixed": false
+}
+},
+"nahhas-meani:26-26": {
+"p1": {
+"ar": "1d33b1dc4b99",
+"tr": "5e6e81356ca2",
+"en": "4616b9ef459c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:53",
+"fixed": false
+}
+},
+"nahhas-meani:27-27": {
+"p1": {
+"ar": "6f609bf64e69",
+"tr": "18c795dcc587",
+"en": "02bb78d2ac6a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:53",
+"fixed": false
+}
+},
+"nahhas-meani:29-29": {
+"p1": {
+"ar": "3c8bd64665ad",
+"tr": "868ee2a53d95",
+"en": "566710eb3e78",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:53",
+"fixed": false
+}
+},
+"nahhas-meani:1-1": {
+"p1": {
+"ar": "50f356f234de",
+"tr": "a93b5986731e",
+"en": "cfb5d8cbaf1f",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR \"Müşrih'in kızı\" for \"ابنة مشرح\" corrected to Mişrah; unmarked ellipsis fills \"(açtık)\", \"(ki Allah)\", \"(bağışlasın)\" removed.",
+"by": "nahhas-meani-u28",
+"at": "2026-10-10 15:58",
+"fixed": true
+},
+"p2": {
+"ar": "50f356f234de",
+"tr": "a93b5986731e",
+"en": "cfb5d8cbaf1f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-meani-p2-u5",
+"at": "2026-10-16 18:09",
+"fixed": false
+}
+}
+}

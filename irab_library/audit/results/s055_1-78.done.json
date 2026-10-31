@@ -1,0 +1,11 @@
+{
+ "surah": 55,
+ "chunk": "1-78",
+ "verdicts": {
+  "OK": 113,
+  "TRANSLATION_FIXED": 1,
+  "GAP": 8
+ },
+ "summary": "Surah 55 (78 ayahs): all 15 high/medium findings were false positives (OK), 24 low findings OK, semantic sample of all 14 books OK; one real defect fixed: zajjaj:24-24 EN omitted glosses of المنشآت/كالأعلام (TRANSLATION_FIXED). Source entries all on the right ayah; GAPs recorded for 8 selective books (not source defects).",
+ "at": "2026-10-10 15:11"
+}

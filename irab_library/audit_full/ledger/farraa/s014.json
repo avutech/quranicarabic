@@ -1,0 +1,386 @@
+{
+"farraa:6-6": {
+"p1": {
+"ar": "9be0bcb3410c",
+"tr": "71b93aacba8a",
+"en": "516310ba2230",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u19",
+"at": "2026-10-10 15:47",
+"fixed": false
+}
+},
+"farraa:7-7": {
+"p1": {
+"ar": "9bb3c0416e45",
+"tr": "2ff5c74bfe0c",
+"en": "4583058a23fd",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u19",
+"at": "2026-10-10 15:47",
+"fixed": false
+}
+},
+"farraa:9-9": {
+"p1": {
+"ar": "944f935e0242",
+"tr": "d89ded803e86",
+"en": "cb700aa79332",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u19",
+"at": "2026-10-10 15:47",
+"fixed": false
+}
+},
+"farraa:13-13": {
+"p1": {
+"ar": "5552b6d40340",
+"tr": "6b2648abbc0c",
+"en": "8b345f4f9226",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u19",
+"at": "2026-10-10 15:47",
+"fixed": false
+}
+},
+"farraa:14-14": {
+"p1": {
+"ar": "1b40d517ed65",
+"tr": "b33b9c60bb07",
+"en": "e36af122e0a0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u19",
+"at": "2026-10-10 15:47",
+"fixed": false
+}
+},
+"farraa:17-17": {
+"p1": {
+"ar": "8f920b4ff9e2",
+"tr": "b6789e0a5f7f",
+"en": "e22d018a7f36",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u19",
+"at": "2026-10-10 15:47",
+"fixed": false
+},
+"p2": {
+"ar": "8f920b4ff9e2",
+"tr": "b6789e0a5f7f",
+"en": "e22d018a7f36",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p2-u3",
+"at": "2026-10-16 17:38",
+"fixed": false
+}
+},
+"farraa:18-18": {
+"p1": {
+"ar": "f0aabb3f06bb",
+"tr": "3e669d597696",
+"en": "dc55f654eea3",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR: removed unmarked glosses (fiilin, bedel, devenin, nasb ile, te kidi, yaslaninca), corrected sunnat al-wajh/muqrif rendering, silent correction of source bi-l-ilqa marked with note. EN: removed unmarked [A third:] and [the cloud], transliterations to Arabic script, source typo note for al-ilqa",
+"by": "farraa-p1-u2",
+"at": "2026-10-17 00:02",
+"fixed": true
+},
+"p2": {
+"ar": "f0aabb3f06bb",
+"tr": "3e669d597696",
+"en": "dc55f654eea3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p2-u4",
+"at": "2026-10-17 00:15",
+"fixed": false
+}
+},
+"farraa:22-22": {
+"p1": {
+"ar": "5a54d7e9ed23",
+"tr": "ba26eb7cc38a",
+"en": "eefc5c9820cc",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u19",
+"at": "2026-10-10 15:47",
+"fixed": false
+}
+},
+"farraa:26-26": {
+"p1": {
+"ar": "b5f29bf1ce60",
+"tr": "568381ffd12f",
+"en": "5580cdc66ce7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u19",
+"at": "2026-10-10 15:47",
+"fixed": false
+}
+},
+"farraa:27-27": {
+"p1": {
+"ar": "4296148b55a0",
+"tr": "e4901dd8c3d2",
+"en": "af2cca2593a1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u19",
+"at": "2026-10-10 15:47",
+"fixed": false
+}
+},
+"farraa:29-29": {
+"p1": {
+"ar": "5bb3394a2376",
+"tr": "5f7a04b62913",
+"en": "788c3a28f539",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u19",
+"at": "2026-10-10 15:47",
+"fixed": false
+}
+},
+"farraa:31-31": {
+"p1": {
+"ar": "de991e9f3143",
+"tr": "2c1965931bba",
+"en": "f31ac1e21aa6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u19",
+"at": "2026-10-10 15:47",
+"fixed": false
+},
+"p2": {
+"ar": "de991e9f3143",
+"tr": "2c1965931bba",
+"en": "f31ac1e21aa6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p2-u3",
+"at": "2026-10-16 17:38",
+"fixed": false
+}
+},
+"farraa:34-34": {
+"p1": {
+"ar": "857492adb5d6",
+"tr": "7e816b148043",
+"en": "cfcb28786f26",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u19",
+"at": "2026-10-10 15:47",
+"fixed": false
+}
+},
+"farraa:35-35": {
+"p1": {
+"ar": "43a5f7010d6b",
+"tr": "28c7887de5af",
+"en": "a21441ab8217",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u19",
+"at": "2026-10-10 15:47",
+"fixed": false
+}
+},
+"farraa:37-37": {
+"p1": {
+"ar": "32ba0d8b0429",
+"tr": "180b01b40aef",
+"en": "b47ef64b5210",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u19",
+"at": "2026-10-10 15:47",
+"fixed": false
+}
+},
+"farraa:43-43": {
+"p1": {
+"ar": "5a30e71ff0a4",
+"tr": "cb0cb51c9d74",
+"en": "8cfeb92bfbf1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u19",
+"at": "2026-10-10 15:47",
+"fixed": false
+}
+},
+"farraa:44-44": {
+"p1": {
+"ar": "889a616dd949",
+"tr": "f77fd7ece34d",
+"en": "f3d64676af91",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u19",
+"at": "2026-10-10 15:47",
+"fixed": false
+}
+},
+"farraa:45-45": {
+"p1": {
+"ar": "3134b7d4a07b",
+"tr": "cd39a09b1258",
+"en": "a387731f51ec",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u19",
+"at": "2026-10-10 15:47",
+"fixed": false
+}
+},
+"farraa:46-46": {
+"p1": {
+"ar": "661168c91a3d",
+"tr": "5a9f3ce8ade9",
+"en": "a1bc27cb0011",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u19",
+"at": "2026-10-10 15:47",
+"fixed": false
+}
+},
+"farraa:47-47": {
+"p1": {
+"ar": "bd9ea73cd6ce",
+"tr": "3a53695926ae",
+"en": "a6147c0d9ebd",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u19",
+"at": "2026-10-10 15:47",
+"fixed": false
+}
+},
+"farraa:50-50": {
+"p1": {
+"ar": "34f82ea3325e",
+"tr": "41dcd844ccf2",
+"en": "736bc09fe331",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p1-u5",
+"at": "2026-10-17 00:54",
+"fixed": false
+},
+"p2": {
+"ar": "34f82ea3325e",
+"tr": "d4556c23dab0",
+"en": "ddf5cc4a6a42",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p2-u3",
+"at": "2026-10-16 17:38",
+"fixed": false
+}
+},
+"farraa:1-2": {
+"p1": {
+"ar": "10b8e64972cd",
+"tr": "86449dd647ac",
+"en": "3ecff184d4a0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u18",
+"at": "2026-10-10 15:51",
+"fixed": false
+}
+},
+"farraa:4-4": {
+"p1": {
+"ar": "c0738468f94e",
+"tr": "5128f2ddf215",
+"en": "ca1ce0172def",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u18",
+"at": "2026-10-10 15:51",
+"fixed": false
+}
+},
+"farraa:5-5": {
+"p1": {
+"ar": "b24972d47776",
+"tr": "8c6f8696f5af",
+"en": "5bc52d7d8c7f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u18",
+"at": "2026-10-10 15:51",
+"fixed": false
+}
+}
+}

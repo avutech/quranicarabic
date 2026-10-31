@@ -1,0 +1,96 @@
+{
+"semin-durr:1-1": {
+"p1": {
+"ar": "9c1288346296",
+"tr": "274884bee9d8",
+"en": "7a8af085ca67",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p1-u10",
+"at": "2026-10-17 00:21",
+"fixed": false
+},
+"p2": {
+"ar": "9c1288346296",
+"tr": "274884bee9d8",
+"en": "7a8af085ca67",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR verse 4599 dropped the negation \"ما لم يعلما\" (as long as he does not know), now restored; EN unmarked identification \"[Abū Ḥayyān]\" moved into a translator note.",
+"by": "semin-durr-p2-u20",
+"at": "2026-10-17 00:08",
+"fixed": true
+}
+},
+"semin-durr:3-3": {
+"p1": {
+"ar": "10462496ce56",
+"tr": "a6e9b275ae1a",
+"en": "2e01d0886aa7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:41",
+"fixed": false
+}
+},
+"semin-durr:5-5": {
+"p1": {
+"ar": "62146d4bd64f",
+"tr": "c4053241a3b1",
+"en": "63b9a5501bfd",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p1-u10",
+"at": "2026-10-17 00:21",
+"fixed": false
+},
+"p2": {
+"ar": "62146d4bd64f",
+"tr": "c4053241a3b1",
+"en": "63b9a5501bfd",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN silently changed the printed citation \"[المزمل: 1516]\" to 15–16; now kept as printed with a translator note; unmarked \"[Ibn Masʿūd]\" also moved into a note.",
+"by": "semin-durr-p2-u20",
+"at": "2026-10-17 00:08",
+"fixed": true
+}
+},
+"semin-durr:7-7": {
+"p1": {
+"ar": "c37e7869f0d1",
+"tr": "87ce922479da",
+"en": "33d06d01e70c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:40",
+"fixed": false
+}
+},
+"semin-durr:8-8": {
+"p1": {
+"ar": "01600ff24f61",
+"tr": "5cc394438c19",
+"en": "5ee0dc96cb90",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:40",
+"fixed": false
+}
+}
+}

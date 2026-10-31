@@ -1,0 +1,11 @@
+{
+ "surah": 66,
+ "chunk": "1-12",
+ "verdicts": {
+  "OK": 79,
+  "SOURCE_DEFECT": 1,
+  "GAP": 7
+ },
+ "summary": "All 13 books checked ayah by ayah; Arabic, TR and EN agree on every sampled entry. No translation fixes needed. One source defect: nahhas-irab:3-3 holds a repeated verse-3 heading and the 66:4 comment (no own 66:4 entry). Zajjaj:1-1 and mekki-muskil:6-6 legitimately cover neighbouring ayahs. All low flags are orthographic artifacts. Gaps reported for 7 books.",
+ "at": "2026-10-10 15:12"
+}

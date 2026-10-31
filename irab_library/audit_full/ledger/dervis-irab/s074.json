@@ -1,0 +1,42 @@
+{
+"dervis-irab:1-31": {
+"p1": {
+"ar": "1d50d7cada4c",
+"tr": "1fee2b2d1059",
+"en": "846d8eed2031",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u94",
+"at": "2026-10-10 19:44",
+"fixed": false
+}
+},
+"dervis-irab:32-56": {
+"p1": {
+"ar": "899e0067e279",
+"tr": "62838863a3d8",
+"en": "6c6502f46c7a",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR silently corrected source typo «لمناره» to «بمناره» in Balagha 1 (Imru al-Qays comment); added Mutercim notu as EN has.",
+"by": "dervis-irab-u94",
+"at": "2026-10-10 19:45",
+"fixed": true
+},
+"p2": {
+"ar": "899e0067e279",
+"tr": "62838863a3d8",
+"en": "6c6502f46c7a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u7",
+"at": "2026-10-17 00:01",
+"fixed": false
+}
+}
+}

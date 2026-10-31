@@ -1,0 +1,42 @@
+{
+"dervis-irab:1-9": {
+"p1": {
+"ar": "ebf0931ff854",
+"tr": "82c63b592c14",
+"en": "332fb810b439",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u5",
+"at": "2026-10-17 00:15",
+"fixed": false
+},
+"p2": {
+"ar": "ebf0931ff854",
+"tr": "82c63b592c14",
+"en": "332fb810b439",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English: \"تلزمه اللام وقد\" rendered as taking only the lām (qad dropped); \"لعنوا حين أحرقوا بالنار قاعدين عليها\" made passive (\"they were burnt\"), reversing who burns whom; \"ابن الرقيات\" expanded unmarked to Ibn Qays; source \"بيؤمنون\" silently corrected. Fixed.",
+"by": "dervis-irab-p2-u7",
+"at": "2026-10-17 00:04",
+"fixed": true
+}
+},
+"dervis-irab:10-22": {
+"p1": {
+"ar": "3a0f419b600d",
+"tr": "caea628b0893",
+"en": "1545ced74ddd",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u95",
+"at": "2026-10-10 19:43",
+"fixed": false
+}
+}
+}

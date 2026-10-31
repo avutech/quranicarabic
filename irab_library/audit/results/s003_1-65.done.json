@@ -1,0 +1,10 @@
+{
+ "surah": 3,
+ "chunk": "1-65",
+ "verdicts": {
+  "OK": 163,
+  "GAP": 9
+ },
+ "summary": "Surah 3 ayahs 1-65: 16 high NEAR findings all OK (authors continue into adjacent ayah or cross-reference), 63 low XREF/UNFOUND all OK (cross-refs or spelling normalization), semantic check of 14 books x ~6 ayahs all OK, 9 GAP ranges recorded. No source problems or translation fixes.",
+ "at": "2026-10-10 14:56"
+}

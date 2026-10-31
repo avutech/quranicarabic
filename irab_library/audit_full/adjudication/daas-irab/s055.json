@@ -1,0 +1,27 @@
+{
+"daas-irab:66-66": {
+"hs": [
+"9c4deb0f18f4",
+"c03846927739",
+"a2da47825e4c"
+],
+"dims": {
+"fit": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Entry parses «ِيهِما» خبر مقدم, «يْنانِ» مبتدأ مؤخر, «ضَّاخَتانِ» صفة عينان = the words of 55:66 فِيهِمَا عَيْنَانِ نَضَّاخَتَانِ, exactly where it is filed. Only brackets/first letters are lost; analysis complete and legible, restoration marked in notes; not a placement problem.",
+"at": "2026-10-17 00:40"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Entry parses 55:66 only: ِيهِما (فيهما) خبر مقدم, يْنانِ (عينان) مبتدأ مؤخر, ضَّاخَتانِ (نضاختان) صفة عينان. Markup is garbled but the words and analysis are complete and unambiguous, so it is correctly filed under 66-66 and is not a nothing-to-place source defect.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

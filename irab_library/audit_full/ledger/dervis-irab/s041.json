@@ -1,0 +1,190 @@
+{
+"dervis-irab:13-16": {
+"p1": {
+"ar": "e290c8fd5747",
+"tr": "483ef5f5600e",
+"en": "62c1c40fcd87",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN i3rab para on وكانوا بآياتنا: removed unmarked bracket \"[أولم يروا]\" that misidentified the conjoined clause.",
+"by": "dervis-irab-u90",
+"at": "2026-10-10 19:43",
+"fixed": true
+},
+"p2": {
+"ar": "e290c8fd5747",
+"tr": "483ef5f5600e",
+"en": "62c1c40fcd87",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u5",
+"at": "2026-10-17 00:04",
+"fixed": false
+}
+},
+"dervis-irab:17-25": {
+"p1": {
+"ar": "93705b3b7598",
+"tr": "265019b06a72",
+"en": "18347b445e24",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u90",
+"at": "2026-10-10 19:43",
+"fixed": false
+},
+"p2": {
+"ar": "93705b3b7598",
+"tr": "265019b06a72",
+"en": "18347b445e24",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u35",
+"at": "2026-10-16 19:22",
+"fixed": false
+}
+},
+"dervis-irab:26-29": {
+"p1": {
+"ar": "3895ec5f7075",
+"tr": "61b30835356c",
+"en": "5d1109e7e719",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR rendered بخلت as \"zayıflamıştır\" and added \"sana\" in the al-Hays Bays verse without a note; now translated as written with note. EN: بعزة was silently emended to \"a raid\"; now as written with note; \"willow-branch\" (قضيب), \"crushing force\" for هضبته (hill) and \"curtained litters\" for الكلل were not in the source; corrected.",
+"by": "dervis-irab-p1-u15",
+"at": "2026-10-17 00:09",
+"fixed": true
+},
+"p2": {
+"ar": "3895ec5f7075",
+"tr": "61b30835356c",
+"en": "5d1109e7e719",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u21",
+"at": "2026-10-17 00:18",
+"fixed": false
+}
+},
+"dervis-irab:30-36": {
+"p1": {
+"ar": "aada13b2a885",
+"tr": "0d58674342e4",
+"en": "41ff57c4972a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u90",
+"at": "2026-10-10 19:44",
+"fixed": false
+}
+},
+"dervis-irab:37-39": {
+"p1": {
+"ar": "29f5abadfa34",
+"tr": "11218c2103e0",
+"en": "f84d17042c31",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u90",
+"at": "2026-10-10 19:44",
+"fixed": false
+}
+},
+"dervis-irab:40-44": {
+"p1": {
+"ar": "80071dee74b1",
+"tr": "5fdd0619ccba",
+"en": "eaaf667a9946",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u90",
+"at": "2026-10-10 19:44",
+"fixed": false
+}
+},
+"dervis-irab:45-48": {
+"p1": {
+"ar": "9975c34b3c87",
+"tr": "c60113bb61ba",
+"en": "ac48f1d1e5e1",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR i3rab of لقضي بينهم: removed unmarked insertion \"(Hz. Musa nin)\" for the source phrase كفار قومه (source does not name whose people).",
+"by": "dervis-irab-u90",
+"at": "2026-10-10 19:45",
+"fixed": true
+},
+"p2": {
+"ar": "9975c34b3c87",
+"tr": "c60113bb61ba",
+"en": "ac48f1d1e5e1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u5",
+"at": "2026-10-17 00:04",
+"fixed": false
+}
+},
+"dervis-irab:49-54": {
+"p1": {
+"ar": "d76a22fe1bd5",
+"tr": "db6b66a0efb6",
+"en": "71a39cc63aec",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u90",
+"at": "2026-10-10 19:45",
+"fixed": false
+}
+},
+"dervis-irab:1-7": {
+"p1": {
+"ar": "fe98cb65275a",
+"tr": "92c49e7a2bc7",
+"en": "bb19f8e54bcd",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u2",
+"at": "2026-10-11 01:38",
+"fixed": false
+}
+},
+"dervis-irab:8-12": {
+"p1": {
+"ar": "7a0613bd17a6",
+"tr": "cdcba0569e89",
+"en": "c85a681a27e7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u2",
+"at": "2026-10-11 01:28",
+"fixed": false
+}
+}
+}

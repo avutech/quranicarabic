@@ -1,0 +1,506 @@
+{
+"semin-durr:1-1": {
+"p1": {
+"ar": "ab2518b837fe",
+"tr": "c0b74f17b19a",
+"en": "78fb272f168e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:2-2": {
+"p1": {
+"ar": "efdb5a44a13a",
+"tr": "14f4364236b3",
+"en": "b8de9e008659",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:3-3": {
+"p1": {
+"ar": "0844161b5f9a",
+"tr": "240c18c4a6ba",
+"en": "a29cb2d18946",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:32",
+"fixed": false
+}
+},
+"semin-durr:5-5": {
+"p1": {
+"ar": "e1ff7c71870a",
+"tr": "7407be153434",
+"en": "3a930f5324d1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:32",
+"fixed": false
+}
+},
+"semin-durr:6-6": {
+"p1": {
+"ar": "f14569ad7efe",
+"tr": "563d21a99c10",
+"en": "c1fe3b6c199a",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN first analysis rendered 'do not give for favour' which lost the sense of reproachful favour (المنّ); changed to 'do not bestow favours (reproachfully), counting what you gave as much'.",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:32",
+"fixed": true
+},
+"p2": {
+"ar": "f14569ad7efe",
+"tr": "563d21a99c10",
+"en": "c1fe3b6c199a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u20",
+"at": "2026-10-17 00:05",
+"fixed": false
+}
+},
+"semin-durr:7-7": {
+"p1": {
+"ar": "f72d66b63c63",
+"tr": "4f2b685a8458",
+"en": "9f31191f2924",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:8-8": {
+"p1": {
+"ar": "a905d8d6dfd5",
+"tr": "e04390b38b48",
+"en": "e2a0640623ae",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:32",
+"fixed": false
+},
+"p2": {
+"ar": "a905d8d6dfd5",
+"tr": "e04390b38b48",
+"en": "e2a0640623ae",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u20",
+"at": "2026-10-17 00:05",
+"fixed": false
+}
+},
+"semin-durr:10-10": {
+"p1": {
+"ar": "e36150ad9f73",
+"tr": "88dd377ef111",
+"en": "e44be68fdb19",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:32",
+"fixed": false
+}
+},
+"semin-durr:11-11": {
+"p1": {
+"ar": "844d2ff26ddb",
+"tr": "77b4435ae0e5",
+"en": "4fa9935b5141",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:32",
+"fixed": false
+}
+},
+"semin-durr:16-16": {
+"p1": {
+"ar": "08d69efd5558",
+"tr": "0ae4f3d09976",
+"en": "a1f03702398b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:32",
+"fixed": false
+}
+},
+"semin-durr:18-18": {
+"p1": {
+"ar": "e4e3865d3eac",
+"tr": "b52588595e98",
+"en": "174a43155ec8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:32",
+"fixed": false
+},
+"p2": {
+"ar": "e4e3865d3eac",
+"tr": "b52588595e98",
+"en": "174a43155ec8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u20",
+"at": "2026-10-17 00:05",
+"fixed": false
+}
+},
+"semin-durr:22-22": {
+"p1": {
+"ar": "a3b2dcc3129f",
+"tr": "1433833dac87",
+"en": "3e7c36f62072",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:32",
+"fixed": false
+}
+},
+"semin-durr:26-26": {
+"p1": {
+"ar": "98736ed161a6",
+"tr": "c8e25338e874",
+"en": "a615324e451b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:32",
+"fixed": false
+}
+},
+"semin-durr:28-28": {
+"p1": {
+"ar": "19d7ca1f4476",
+"tr": "99ddd6bb054b",
+"en": "a1933f2b55ed",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:32",
+"fixed": false
+},
+"p2": {
+"ar": "19d7ca1f4476",
+"tr": "99ddd6bb054b",
+"en": "a1933f2b55ed",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u20",
+"at": "2026-10-17 00:05",
+"fixed": false
+}
+},
+"semin-durr:29-29": {
+"p1": {
+"ar": "ad78a103a849",
+"tr": "3cf4b102ed16",
+"en": "cedfb26a7f97",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:32",
+"fixed": false
+}
+},
+"semin-durr:30-30": {
+"p1": {
+"ar": "3194c9fdc874",
+"tr": "db512f37ce06",
+"en": "f9b204edeae0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:31-31": {
+"p1": {
+"ar": "ff1a3c48c665",
+"tr": "14a4603a0f56",
+"en": "e2ff552d6192",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:33-33": {
+"p1": {
+"ar": "e33654dbb52b",
+"tr": "19fc110ff127",
+"en": "0f0eb319ebe4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:35-35": {
+"p1": {
+"ar": "699c0ded5b99",
+"tr": "249bdb9c24b1",
+"en": "b7d3f0b5537a",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN gloss of verse 4395 said 'deaf, blind changes of fortune'; Arabic وصَمَّاءُ الغِيَرْ has only 'deaf' (no blind); corrected.",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:33",
+"fixed": true
+},
+"p2": {
+"ar": "699c0ded5b99",
+"tr": "249bdb9c24b1",
+"en": "b7d3f0b5537a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u20",
+"at": "2026-10-17 00:05",
+"fixed": false
+}
+},
+"semin-durr:36-36": {
+"p1": {
+"ar": "6aa10be1998f",
+"tr": "953b2eae59bd",
+"en": "7373961f3fdc",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:37-37": {
+"p1": {
+"ar": "81b47d5a3d42",
+"tr": "283dab8b93bb",
+"en": "cf690569e9b1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:38-38": {
+"p1": {
+"ar": "6c426de98743",
+"tr": "04bb09afb65d",
+"en": "f224a87bde7a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:33",
+"fixed": false
+},
+"p2": {
+"ar": "6c426de98743",
+"tr": "04bb09afb65d",
+"en": "f224a87bde7a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u20",
+"at": "2026-10-17 00:05",
+"fixed": false
+}
+},
+"semin-durr:39-39": {
+"p1": {
+"ar": "fcd766815805",
+"tr": "95cb5369332b",
+"en": "785c90b4cc3c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:40-40": {
+"p1": {
+"ar": "f08c2a3cd199",
+"tr": "308e8d68a10a",
+"en": "172016e1a13d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:43-43": {
+"p1": {
+"ar": "adb9de48b15f",
+"tr": "4fada0467466",
+"en": "1269585b8404",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:48-48": {
+"p1": {
+"ar": "5f4bd83b48b8",
+"tr": "a5320e4ba59f",
+"en": "1fc82986a848",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:49-49": {
+"p1": {
+"ar": "b8c9633e2538",
+"tr": "d8af969b2ec9",
+"en": "b1e63b0b610b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:50-50": {
+"p1": {
+"ar": "4f8062739673",
+"tr": "a7af330abf86",
+"en": "1887dfccd9fb",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:33",
+"fixed": false
+},
+"p2": {
+"ar": "4f8062739673",
+"tr": "a7af330abf86",
+"en": "1887dfccd9fb",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u20",
+"at": "2026-10-17 00:05",
+"fixed": false
+}
+},
+"semin-durr:52-52": {
+"p1": {
+"ar": "5275927019ca",
+"tr": "82c30be9c60d",
+"en": "246dae8b70f0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:56-56": {
+"p1": {
+"ar": "b9543dd62b08",
+"tr": "9d4a03c28e0c",
+"en": "f205d863e4ef",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u32",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+}
+}

@@ -1,0 +1,11 @@
+{
+ "surah": 101,
+ "chunk": "1-11",
+ "verdicts": {
+  "OK": 60,
+  "TRANSLATION_FIXED": 1,
+  "GAP": 8
+ },
+ "summary": "All 5 findings were false positives; SEM check OK for all books (one TR poetry rendering fixed in semin-durr:9-9); gaps recorded for 8 books; no misplaced or defective source.",
+ "at": "2026-10-10 15:17"
+}

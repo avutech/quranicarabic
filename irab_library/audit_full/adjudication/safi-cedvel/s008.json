@@ -1,0 +1,42 @@
+{
+"safi-cedvel:31-31": {
+"hs": [
+"ad6b17424672",
+"e3b6aa092bf0",
+"718ae1ffa6b8"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «ثم يعود فيجعل المفضول فاضلا، والفاضل مفضولا» = makes the inferior superior and the superior inferior. Turkish: 'üstün tutulanı aşağı, üstün olanı da aşağı tutulan kılar' - first half reverses the meaning (المفضول→فاضلا becomes 'the one held superior made low'), so both halves say the same thing and the swap is lost. Fix e.g.: 'aşağı tutulanı üstün, üstün olanı da aşağı tutulan kılar'.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Balagha: «أو يفضل شيئا على شيء ثم يعود فيجعل المفضول فاضلا، والفاضل مفضولا» = makes the inferior superior and the superior inferior. TR 'üstün tutulanı aşağı, üstün olanı da aşağı tutulan kılar' reverses the first half (makes the preferred one lower) so both halves say the same thing; wrong meaning. Should be e.g. 'aşağı tutulanı üstün, üstün olanı da aşağı tutulan kılar'. EN renders it correctly.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Belagat: corrected reversed half to 'aşağı tutulanı üstün, üstün olanı da aşağı tutulan kılar' (المفضول فاضلا والفاضل مفضولا)",
+"verified": "PASS",
+"verify_note": "Balagha now 'aşağı tutulanı üstün, üstün olanı da aşağı tutulan kılar' matching فيجعل المفضول فاضلا والفاضل مفضولا; rest of TR complete and faithful"
+}
+},
+"history": [
+{
+"old_hs": [
+"ad6b17424672",
+"60dc0ac91fa0",
+"718ae1ffa6b8"
+],
+"dim": "tr",
+"what": "Belagat: corrected reversed half to 'aşağı tutulanı üstün, üstün olanı da aşağı tutulan kılar' (المفضول فاضلا والفاضل مفضولا)",
+"at": "2026-10-17 00:45"
+}
+]
+}
+}

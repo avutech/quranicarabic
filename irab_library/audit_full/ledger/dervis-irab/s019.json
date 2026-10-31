@@ -1,0 +1,292 @@
+{
+"dervis-irab:1-6": {
+"p1": {
+"ar": "544fae9ff389",
+"tr": "571f6764c175",
+"en": "784a9f33ba16",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "read fully; English has minor bracketed glosses ([with kasra], [then a series of dialectal forms]) that are benign",
+"by": "dervis-irab-u80",
+"at": "2026-10-10 19:36",
+"fixed": false
+}
+},
+"dervis-irab:7-15": {
+"p1": {
+"ar": "679857d0185c",
+"tr": "f8f0988e6331",
+"en": "fce834ba1e5d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "read fully",
+"by": "dervis-irab-u80",
+"at": "2026-10-10 19:37",
+"fixed": false
+}
+},
+"dervis-irab:16-21": {
+"p1": {
+"ar": "c821fcfc4b85",
+"tr": "90fee0158a47",
+"en": "fae99e22d07b",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN: الجثث rendered \"persons\" (should be bodies); يركضن rendered \"trail\" (kick/tread); source typo «بقال» silently corrected. Fixed.",
+"by": "dervis-irab-p1-u13",
+"at": "2026-10-17 00:05",
+"fixed": true
+},
+"p2": {
+"ar": "c821fcfc4b85",
+"tr": "90fee0158a47",
+"en": "fae99e22d07b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u17",
+"at": "2026-10-17 00:17",
+"fixed": false
+}
+},
+"dervis-irab:64-65": {
+"p1": {
+"ar": "11821c159712",
+"tr": "361e3b43454c",
+"en": "7e0b6cf6c953",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u13",
+"at": "2026-10-17 00:09",
+"fixed": false
+},
+"p2": {
+"ar": "11821c159712",
+"tr": "361e3b43454c",
+"en": "7e0b6cf6c953",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "Source writes «وتتنزل» but English silently corrected to (نتنزل); now kept as written with a marked translator note.",
+"by": "dervis-irab-p2-u30",
+"at": "2026-10-16 19:17",
+"fixed": true
+}
+},
+"dervis-irab:66-72": {
+"p1": {
+"ar": "2e251093ad1e",
+"tr": "8ae67ab84c6c",
+"en": "03076f284467",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u4",
+"at": "2026-10-17 01:10",
+"fixed": false
+},
+"p2": {
+"ar": "2e251093ad1e",
+"tr": "3ee83e6ad0f3",
+"en": "5417e21c59c9",
+"fit": "OK",
+"trv": "OK",
+"env": "WRONG",
+"note": "Maarri line \"غدوت مريض العقل والدين فالقني\" is said \"addressing them\" (you have become sick) but English renders \"I became sick\"; also al-Suri line \"بالذي ألهم تعذيبي ثناياك العذابا\" (who inspired your sweet teeth to torment me) is rendered \"who inspired my torment, [and made] your teeth sweet\", changing the sense.",
+"by": "dervis-irab-p2-u30",
+"at": "2026-10-16 19:19",
+"fixed": false
+}
+},
+"dervis-irab:73-76": {
+"p1": {
+"ar": "5241cc4af9fb",
+"tr": "9fbba3f1ef1f",
+"en": "207167a6afb6",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English printed «إذا» for the source's «إذ الشرطية» (Shihab quote, \"likewise wherever it comes before conditional\") without a note; now shows «إذ» with a Translator's note. Otherwise complete and faithful.",
+"by": "dervis-irab-p1-u14",
+"at": "2026-10-17 00:57",
+"fixed": true
+},
+"p2": {
+"ar": "5241cc4af9fb",
+"tr": "9fbba3f1ef1f",
+"en": "207167a6afb6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u10",
+"at": "2026-10-17 01:08",
+"fixed": false
+}
+},
+"dervis-irab:77-84": {
+"p1": {
+"ar": "881a79d01dba",
+"tr": "4b464f95b338",
+"en": "85c83d822f35",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Both: Jarir verse commentary \"تقولت على مضر\" rendered with Mudar as subject without marking the source garble; translator note added.",
+"by": "dervis-irab-u80",
+"at": "2026-10-10 19:41",
+"fixed": true
+},
+"p2": {
+"ar": "881a79d01dba",
+"tr": "4b464f95b338",
+"en": "85c83d822f35",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u30",
+"at": "2026-10-16 19:20",
+"fixed": false
+}
+},
+"dervis-irab:22-33": {
+"p1": {
+"ar": "952bf8670b44",
+"tr": "07bbb7629033",
+"en": "77cc7b69002b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u13",
+"at": "2026-10-17 00:08",
+"fixed": false
+}
+},
+"dervis-irab:85-98": {
+"p1": {
+"ar": "2cffb7f044c1",
+"tr": "d5df9c099047",
+"en": "2fc19961f75e",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR (Misbah in the تُحِسُّ entry): unmarked gloss \"(onu öldürdü)\" after حسه حسا is not in the Arabic; removed.",
+"by": "dervis-irab-u80",
+"at": "2026-10-10 19:42",
+"fixed": true
+},
+"p2": {
+"ar": "2cffb7f044c1",
+"tr": "d5df9c099047",
+"en": "2fc19961f75e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u30",
+"at": "2026-10-16 19:21",
+"fixed": false
+}
+},
+"dervis-irab:34-40": {
+"p1": {
+"ar": "a15035c4d0a4",
+"tr": "3a6ee4a2a7b0",
+"en": "6ea2c4f55058",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u80",
+"at": "2026-10-10 19:42",
+"fixed": false
+}
+},
+"dervis-irab:41-50": {
+"p1": {
+"ar": "cea6487a039c",
+"tr": "b6ac68ee894d",
+"en": "885665e3f8ba",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u13",
+"at": "2026-10-17 00:09",
+"fixed": false
+},
+"p2": {
+"ar": "cea6487a039c",
+"tr": "b6ac68ee894d",
+"en": "885665e3f8ba",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR had two unmarked additions: \"[bu durumda diger cer harflerinde]\" inserted into «فتكتب الألف ياء», and \"[ve tekillikte]\" added to «في التذكير والتأنيث»; both removed.",
+"by": "dervis-irab-p2-u3",
+"at": "2026-10-17 00:03",
+"fixed": true
+}
+},
+"dervis-irab:51-58": {
+"p1": {
+"ar": "a33a7051be2e",
+"tr": "9c71ad1a7361",
+"en": "33660c4c814e",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN: translator note wrongly claimed source had plural of بالك; source has باك/بكاة; note removed.",
+"by": "dervis-irab-u80",
+"at": "2026-10-10 19:45",
+"fixed": true
+},
+"p2": {
+"ar": "a33a7051be2e",
+"tr": "9c71ad1a7361",
+"en": "33660c4c814e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u3",
+"at": "2026-10-17 00:04",
+"fixed": false
+}
+},
+"dervis-irab:59-63": {
+"p1": {
+"ar": "8800645afc77",
+"tr": "9ce815ecdf80",
+"en": "1c9a161e3d2c",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN: typo Al-al-Murraqqish; كان وعده مأتيا rendered as sure to be fulfilled, losing the passive-participle point of the passage; now one that is come to.",
+"by": "dervis-irab-u80",
+"at": "2026-10-10 19:45",
+"fixed": true
+},
+"p2": {
+"ar": "8800645afc77",
+"tr": "9ce815ecdf80",
+"en": "1c9a161e3d2c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u30",
+"at": "2026-10-16 19:17",
+"fixed": false
+}
+}
+}

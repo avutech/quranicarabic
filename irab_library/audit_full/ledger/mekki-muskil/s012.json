@@ -1,0 +1,662 @@
+{
+"mekki-muskil:2-2": {
+"p1": {
+"ar": "aeabf1adb767",
+"tr": "20c586e06424",
+"en": "769e48761426",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:44",
+"fixed": false
+}
+},
+"mekki-muskil:4-4": {
+"p1": {
+"ar": "64b2bc688c8a",
+"tr": "309dba152cd8",
+"en": "d615abdc1265",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:44",
+"fixed": false
+}
+},
+"mekki-muskil:6-6": {
+"p1": {
+"ar": "3c421df1fb9a",
+"tr": "ba964f7743d8",
+"en": "5ce1fbf69530",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:44",
+"fixed": false
+}
+},
+"mekki-muskil:7-7": {
+"p1": {
+"ar": "6d9f3ef59047",
+"tr": "6b89b98a1a11",
+"en": "39d4e9e1ec72",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:44",
+"fixed": false
+}
+},
+"mekki-muskil:9-9": {
+"p1": {
+"ar": "ace625959d02",
+"tr": "6b645f445835",
+"en": "fac3b2c27d15",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:44",
+"fixed": false
+}
+},
+"mekki-muskil:11-11": {
+"p1": {
+"ar": "5a03493ca265",
+"tr": "dc8b397f7b0a",
+"en": "fc15b8445578",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:44",
+"fixed": false
+}
+},
+"mekki-muskil:12-12": {
+"p1": {
+"ar": "d0961debd72e",
+"tr": "5d013efcf36b",
+"en": "bef8f5b33a7b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:44",
+"fixed": false
+}
+},
+"mekki-muskil:13-13": {
+"p1": {
+"ar": "47c0888a3906",
+"tr": "05c3ff959cd6",
+"en": "4acc6190dd53",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:44",
+"fixed": false
+}
+},
+"mekki-muskil:16-16": {
+"p1": {
+"ar": "c48ab2fa4842",
+"tr": "3f29c9d40710",
+"en": "8ef89b5db9a5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:44",
+"fixed": false
+}
+},
+"mekki-muskil:17-17": {
+"p1": {
+"ar": "95e04a4f9f37",
+"tr": "daa2906a50c5",
+"en": "693700b1a686",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:44",
+"fixed": false
+},
+"p2": {
+"ar": "95e04a4f9f37",
+"tr": "daa2906a50c5",
+"en": "693700b1a686",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u1",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"mekki-muskil:18-18": {
+"p1": {
+"ar": "57505d4c915e",
+"tr": "844b70c93f09",
+"en": "b4bf60f77b3d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:44",
+"fixed": false
+}
+},
+"mekki-muskil:19-19": {
+"p1": {
+"ar": "d69d6fd29e2f",
+"tr": "e9353e4a4dff",
+"en": "da70742843dd",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Removed unmarked added ayah reference (Yasin 36/30) from Turkish",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:44",
+"fixed": true
+},
+"p2": {
+"ar": "d69d6fd29e2f",
+"tr": "e9353e4a4dff",
+"en": "da70742843dd",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u1",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"mekki-muskil:20-20": {
+"p1": {
+"ar": "8039496b4606",
+"tr": "fb9f5e480c4b",
+"en": "62cf7cd55720",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:44",
+"fixed": false
+},
+"p2": {
+"ar": "8039496b4606",
+"tr": "fb9f5e480c4b",
+"en": "62cf7cd55720",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u1",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"mekki-muskil:23-23": {
+"p1": {
+"ar": "d1d95a1ed8ca",
+"tr": "70111005aa92",
+"en": "53b3a180807e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:44",
+"fixed": false
+}
+},
+"mekki-muskil:24-24": {
+"p1": {
+"ar": "bb8cf5ce8f81",
+"tr": "0e19a38434bc",
+"en": "9aa390df5287",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish rendered التحضيض as tahdid (threat) and added unmarked (Yunus 10/98); corrected to التحضيض, reference removed",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:44",
+"fixed": true
+},
+"p2": {
+"ar": "bb8cf5ce8f81",
+"tr": "0e19a38434bc",
+"en": "9aa390df5287",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u1",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"mekki-muskil:27-27": {
+"p1": {
+"ar": "10ef287d09a4",
+"tr": "8b30f103337c",
+"en": "1e8ba9ce4405",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:44",
+"fixed": false
+},
+"p2": {
+"ar": "10ef287d09a4",
+"tr": "8b30f103337c",
+"en": "1e8ba9ce4405",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u1",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"mekki-muskil:31-31": {
+"p1": {
+"ar": "805eb4ac4366",
+"tr": "a0ba5f36f555",
+"en": "f0ca6f17f40f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:44",
+"fixed": false
+}
+},
+"mekki-muskil:35-35": {
+"p1": {
+"ar": "c212e2667dfc",
+"tr": "b7384414bc64",
+"en": "12bedb3b3a03",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English silently corrected source رأى to رأي; restored as written with a translator note",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:45",
+"fixed": true
+},
+"p2": {
+"ar": "c212e2667dfc",
+"tr": "b7384414bc64",
+"en": "12bedb3b3a03",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u1",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"mekki-muskil:38-38": {
+"p1": {
+"ar": "465a7940da74",
+"tr": "e70f612ae728",
+"en": "4b70be269a37",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:44",
+"fixed": false
+}
+},
+"mekki-muskil:40-40": {
+"p1": {
+"ar": "8b2fd42ffa8b",
+"tr": "b6eb565d5d00",
+"en": "639e0ed03696",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:44",
+"fixed": false
+},
+"p2": {
+"ar": "8b2fd42ffa8b",
+"tr": "b6eb565d5d00",
+"en": "639e0ed03696",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u1",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"mekki-muskil:41-41": {
+"p1": {
+"ar": "91d0c12406c6",
+"tr": "62757c0a86cf",
+"en": "679efcb697ba",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:44",
+"fixed": false
+}
+},
+"mekki-muskil:43-43": {
+"p1": {
+"ar": "f71da1c99f83",
+"tr": "9ff50c5e3ab0",
+"en": "9853257b1fe1",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Removed unmarked added ayah reference (Mulk 67/3) from Turkish",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:44",
+"fixed": true
+},
+"p2": {
+"ar": "f71da1c99f83",
+"tr": "9ff50c5e3ab0",
+"en": "9853257b1fe1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u1",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"mekki-muskil:47-47": {
+"p1": {
+"ar": "258ec76fe1cd",
+"tr": "574dbf3bcab4",
+"en": "c5d3ca7696f2",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Translator note wrongly claimed Hafs reads دأبا with sukun, contradicting the source (Hafs reads fatha); note removed",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:44",
+"fixed": true
+},
+"p2": {
+"ar": "258ec76fe1cd",
+"tr": "574dbf3bcab4",
+"en": "c5d3ca7696f2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u1",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"mekki-muskil:64-64": {
+"p1": {
+"ar": "3d4561307207",
+"tr": "838fe4ae002d",
+"en": "11e28a4b19ef",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:44",
+"fixed": false
+}
+},
+"mekki-muskil:65-65": {
+"p1": {
+"ar": "b295cc616541",
+"tr": "16ce06d6ac66",
+"en": "8c5874c70d0b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:44",
+"fixed": false
+}
+},
+"mekki-muskil:75-75": {
+"p1": {
+"ar": "57a301090e53",
+"tr": "16f8d934f02c",
+"en": "4628698a6c35",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish silently corrected استبعاد to köle edilme and ويصير to ويصبر and added ayah ref (Munafiqun 63/10); now follows the source with translator notes",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:44",
+"fixed": true
+},
+"p2": {
+"ar": "57a301090e53",
+"tr": "16f8d934f02c",
+"en": "4628698a6c35",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u1",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"mekki-muskil:76-76": {
+"p1": {
+"ar": "58c1699a2ab6",
+"tr": "6e5e85956caa",
+"en": "857de4b6075a",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English inserted [من] as the accusative-position word after نرفع; it is درجات that is in the accusative position; corrected",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:44",
+"fixed": true
+},
+"p2": {
+"ar": "58c1699a2ab6",
+"tr": "6e5e85956caa",
+"en": "857de4b6075a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u1",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"mekki-muskil:77-77": {
+"p1": {
+"ar": "fb347a8d8679",
+"tr": "a4ada8bd99d7",
+"en": "01557cd39915",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:44",
+"fixed": false
+}
+},
+"mekki-muskil:79-79": {
+"p1": {
+"ar": "4a3c0e6ee24d",
+"tr": "e1a42a6c160d",
+"en": "67b9b3bacc9f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:44",
+"fixed": false
+}
+},
+"mekki-muskil:80-80": {
+"p1": {
+"ar": "51199b5e04c5",
+"tr": "65fb448fd5a5",
+"en": "9ae1e39a7633",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"mekki-muskil:92-92": {
+"p1": {
+"ar": "3bcf2d66b455",
+"tr": "33d22e165af9",
+"en": "2b21d1a50668",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:44",
+"fixed": false
+}
+},
+"mekki-muskil:96-96": {
+"p1": {
+"ar": "6acb09f83e54",
+"tr": "7a9e90211f29",
+"en": "65b2a6dc3c79",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:44",
+"fixed": false
+}
+},
+"mekki-muskil:100-100": {
+"p1": {
+"ar": "723048fd760d",
+"tr": "387f284ec65c",
+"en": "c128857baf24",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:44",
+"fixed": false
+}
+},
+"mekki-muskil:107-107": {
+"p1": {
+"ar": "b970607a715c",
+"tr": "a2edb235a58c",
+"en": "29d6609a559e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:44",
+"fixed": false
+}
+},
+"mekki-muskil:109-109": {
+"p1": {
+"ar": "4ea45cbd2acf",
+"tr": "d07c3fb63574",
+"en": "48a00f627a12",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Removed unmarked added ayah reference (En'am 6/32) from Turkish",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:44",
+"fixed": true
+},
+"p2": {
+"ar": "4ea45cbd2acf",
+"tr": "d07c3fb63574",
+"en": "48a00f627a12",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u1",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"mekki-muskil:111-111": {
+"p1": {
+"ar": "a35768fbc2f6",
+"tr": "15c206ad7772",
+"en": "d95af2eb7146",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:44",
+"fixed": false
+},
+"p2": {
+"ar": "a35768fbc2f6",
+"tr": "15c206ad7772",
+"en": "d95af2eb7146",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u1",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+}
+}

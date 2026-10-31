@@ -1,0 +1,92 @@
+{
+"ukberi-tibyan:32-34": {
+"hs": [
+"b860d89b2068",
+"a4a07cc79a59",
+"b86abb7c38ef"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "The TR quotation ends verse 32 with (٣٢), verse 33 with (٣٣) and 34 with (٣٤), exactly as the Arabic; the reviewer's claim that TR gives (33) for verse 32 is not borne out. The rest is faithful: مَثَلًا مِثْلَ رَجُلَيْنِ (vowel change marked in a Mütercim notu), جَعَلْنَا tafsīr/na't, كِلْتَا mubtada' + آتَتْ khabar, فَجَّرْنَا takhfīf/tashdīd, الثُّمُر jamʿ al-jamʿ, ثَمَرٌ jamʿ ثَمَرَة.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Claim is false: TR's first quotation ends verse 32 with (٣٢), exactly as the Arabic (... وَجَعَلْنَا بَيْنَهُمَا زَرْعًا (٣٢)), then (٣٣), (٣٤). The parsing (مَثَلًا مِثْلَ رَجُلَيْنِ with a marked note on the vowelling, جَعَلْنَا تَفْسِيرُ الْمَثَلِ / نَعْتًا لِرَجُلَيْنِ, كِلْتَا mubtada with آتَتْ khabar, الثُّمُر جَمْعُ ثِمَارٍ) is rendered correctly.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+},
+"ukberi-tibyan:35-35": {
+"hs": [
+"87b560a6a361",
+"44a5d8986bb9",
+"9b4113574af1"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "After the Hudhalī verse وَالْعَيْنُ بَعْدَهُمُ كَأَنَّ حِدَاقَهَا ... the Arabic gives no further comment, but EN appends inside the verse's gloss the unmarked sentence ': the singular «العين» is used for both eyes.' This is an addition not in the source and not in a Translator's note (TR puts the same explanation correctly inside [Mütercim notu: …]). Fix: move it into [Translator's note: …].",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "After the gloss of the Hudhali verse وَالْعَيْنُ بَعْدَهُمُ كَأَنَّ حِدَاقَهَا ... EN adds 'the singular «العين» is used for both eyes.' inside an ordinary parenthesis. The Arabic has no such sentence; it is an unmarked addition. Fix: put it inside [Translator's note: ...], as TR does with Mütercim notu.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved unmarked explanation (singular العين used for both eyes) out of the verse gloss into a Translator's note",
+"verified": "PASS",
+"verify_note": "The explanation that singular العين stands for both eyes is now inside a Translator's note; both views and the Hudhali verse with its gloss are complete and faithful; no new problem."
+}
+},
+"history": [
+{
+"old_hs": [
+"87b560a6a361",
+"44a5d8986bb9",
+"363f405ee43a"
+],
+"dim": "en",
+"what": "Moved unmarked explanation (singular العين used for both eyes) out of the verse gloss into a Translator's note",
+"at": "2026-10-17 00:43"
+}
+]
+},
+"ukberi-tibyan:66-66": {
+"hs": [
+"22f6b95b1e33",
+"89b3f34327cf",
+"690399c4e316"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "TR translates the written text faithfully: أَتَّبِعُكَ بِإِذْلَالِي = 'kendimi alçaltarak sana uyayım', وَالْكَافُ صَاحِبُ الْحَالِ, (رَشَدًا) mafʿūl of تُعَلِّمَنِ, no ʿāʾid if object of عُلِّمْتَ, الرُّشْد/الرَّشَد two dialects. The variant بَاذِلًا لِي is put inside a marked [Mütercim notu: …], so it is not a silent change; it is also the reading of the printed Tibyān and is the one consistent with الْكَافُ صَاحِبُ الْحَالِ.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "TR renders the source as written: أَيْ أَتَّبِعُكَ بِإِذْلَالِي -> 'kendimi alçaltarak sana uyayım', وَالْكَافُ صَاحِبُ الْحَالِ -> 'kâf hâlin sâhibidir'. The variant بَاذِلًا لِي is only mentioned inside a marked [Mütercim notu: ...], which is allowed. It is also plausible, since the ṣāḥib al-ḥāl is the kāf (the addressee), which suits باذلا لي better than بإذلالي. رَشَدًا as the mafʿūl of تُعَلِّمَنِ and the ʿāʾid argument are correct.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

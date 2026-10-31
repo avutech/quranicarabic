@@ -1,0 +1,29 @@
+{
+"muyesser-irab:30-30": {
+"hs": [
+"8f68367f4f1b",
+"51e70d475507",
+"c3e425521042"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "MISPLACED",
+"evidence": "Entry parses 24:30 (قل للمؤمنين يغضوا ... إن الله خبير بما يصنعون), but its last sentence «أو يكون المعنى: راجين فلاحكم، فالجملة حينئذ في محل نصب حال من فاعل توبوا» parses ﴿وتوبوا إلى الله جميعا ... لعلكم تفلحون﴾ of 24:31; توبوا/فلاحكم do not occur in 24:30. Entry also covers 24:31.",
+"at": "2026-10-17 00:41",
+"ayahs": "30-31"
+},
+"J2": {
+"class": "MISPLACED",
+"evidence": "Entry parses 24:30 (قل للمؤمنين يغضوا ... ذلك أزكى لهم ... إن الله خبير بما يصنعون), but its last sentence «أو يكون المعنى: راجين فلاحكم، فالجملة حينئذ في محل نصب حال من فاعل توبوا» is about «وتوبوا ... لعلكم تفلحون» of 24:31; 24:30 has no توبوا. This alternative is not in the 24:31 entry, so it substantively discusses 24:31.",
+"at": "2026-10-17 00:41",
+"ayahs": "30-31"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+}
+}

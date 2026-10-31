@@ -1,0 +1,232 @@
+{
+"safi-cedvel:1-4": {
+"p1": {
+"ar": "025595a1607e",
+"tr": "3948e6690bbe",
+"en": "2a00db22186c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"safi-cedvel:5-6": {
+"p1": {
+"ar": "2bff0195ae82",
+"tr": "9b98ea5157f3",
+"en": "f21cc4d3e1f3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"safi-cedvel:7-10": {
+"p1": {
+"ar": "caf97d1e4c77",
+"tr": "ef781e5e4827",
+"en": "182fbefb0f97",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:34",
+"fixed": false
+},
+"p2": {
+"ar": "caf97d1e4c77",
+"tr": "ef781e5e4827",
+"en": "182fbefb0f97",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u23",
+"at": "2026-10-16 19:17",
+"fixed": false
+}
+},
+"safi-cedvel:11-13": {
+"p1": {
+"ar": "003c42b548e8",
+"tr": "534f8d30aaf5",
+"en": "1d5f2a4cafe1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"safi-cedvel:14-15": {
+"p1": {
+"ar": "96ea98c7ee9c",
+"tr": "9118716932ba",
+"en": "3a0f8e2f2b7a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"safi-cedvel:16-19": {
+"p1": {
+"ar": "a61684ea143f",
+"tr": "d97b6ba0d578",
+"en": "2fc1ffb618fa",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p1-u7",
+"at": "2026-10-17 00:03",
+"fixed": false
+},
+"p2": {
+"ar": "a61684ea143f",
+"tr": "d97b6ba0d578",
+"en": "2fc1ffb618fa",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN rendered \"إن علينا أن نجمعه في صدرك ونقرأه\" (We ... recite it) as \"and that you recite it\", changing the subject; corrected to \"and to recite it\".",
+"by": "safi-cedvel-p2-u23",
+"at": "2026-10-16 19:17",
+"fixed": true
+}
+},
+"safi-cedvel:20-21": {
+"p1": {
+"ar": "124f507279a9",
+"tr": "3aceb6bba07b",
+"en": "0118b0c24ea2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"safi-cedvel:22-25": {
+"p1": {
+"ar": "efb408f62c2b",
+"tr": "581f9cf692e3",
+"en": "c27b6306588e",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR added unmarked gloss \"(haksızlığa uğramazsınız)\" after لا تضامون in the Jarir hadith; removed",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:34",
+"fixed": true
+},
+"p2": {
+"ar": "efb408f62c2b",
+"tr": "581f9cf692e3",
+"en": "c27b6306588e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u23",
+"at": "2026-10-16 19:17",
+"fixed": false
+}
+},
+"safi-cedvel:26-30": {
+"p1": {
+"ar": "cc49e6ce2707",
+"tr": "61d97c2db4d5",
+"en": "fabf84142045",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"safi-cedvel:31-33": {
+"p1": {
+"ar": "3540f0db7cc7",
+"tr": "a126a0c19087",
+"en": "d1d09861588b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"safi-cedvel:34-35": {
+"p1": {
+"ar": "9fffe2068847",
+"tr": "57d3af57f527",
+"en": "13101291dceb",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"safi-cedvel:36-36": {
+"p1": {
+"ar": "f2bd8350abe3",
+"tr": "32ce46cd5354",
+"en": "4f4b5426575e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"safi-cedvel:37-40": {
+"p1": {
+"ar": "8a14b4a86e6f",
+"tr": "584cc38c673e",
+"en": "6ce1b9843675",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:34",
+"fixed": false
+},
+"p2": {
+"ar": "8a14b4a86e6f",
+"tr": "584cc38c673e",
+"en": "6ce1b9843675",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u23",
+"at": "2026-10-16 19:17",
+"fixed": false
+}
+}
+}

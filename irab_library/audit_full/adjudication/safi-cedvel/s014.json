@@ -1,0 +1,42 @@
+{
+"safi-cedvel:21-21": {
+"hs": [
+"3ac82ba5e41b",
+"91783923a92c",
+"f70800ba5dff"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic Sarf: «إمّا أن يكون جمعا لتابع مثل خدم وخادم.. فهو اسم فاعل من تبع الثلاثيّ وزنه فاعل» - فهو = 'so it is'. English: 'in which case [the singular] is the active participle' inserts '[the singular]' in bare brackets, an interpretive addition that also silently adjusts the source; it is not inside «[Translator's note: …]». Fix: 'so it is an active participle...' plus a translator note (as the Turkish does).",
+"at": "2026-10-17 00:42"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Sarf: «(تبعا) ، إمّا أن يكون جمعا لتابع مثل خدم وخادم.. فهو اسم فاعل من تبع الثلاثيّ وزنه فاعل». EN 'in which case [the singular] is the active participle' inserts '[the singular]', which is not in the Arabic (only فهو) and is not inside a [Translator's note: ...]; unmarked interpretive addition. TR handles the same issue with a Mütercim notu. Fix: render فهو literally and move the interpretation into a Translator's note.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Morphology تبعا: removed unmarked '[the singular]', rendered فهو as 'it', moved the singular/plural pattern clarification into a Translator's note",
+"verified": "PASS",
+"verify_note": "Morphology (تبعا) now renders فهو literally ('it is the active participle') with the singular/plural clarification inside a Translator's note; rest of EN complete and faithful"
+}
+},
+"history": [
+{
+"old_hs": [
+"3ac82ba5e41b",
+"91783923a92c",
+"192c36287dc5"
+],
+"dim": "en",
+"what": "Morphology تبعا: removed unmarked '[the singular]', rendered فهو as 'it', moved the singular/plural pattern clarification into a Translator's note",
+"at": "2026-10-17 00:45"
+}
+]
+}
+}

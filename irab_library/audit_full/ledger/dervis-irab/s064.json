@@ -1,0 +1,68 @@
+{
+"dervis-irab:1-4": {
+"p1": {
+"ar": "fbf06ac6d3f6",
+"tr": "d803fc333b86",
+"en": "6f44173a77fa",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u93",
+"at": "2026-10-10 19:43",
+"fixed": false
+}
+},
+"dervis-irab:5-10": {
+"p1": {
+"ar": "61319f456620",
+"tr": "710f53ad8dd9",
+"en": "43ab08d93379",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR: تمارضت rendered as \"hastalandi\" (should be feigned illness); altered quote «غبنت الثوب» restored to «غبن الثوب»; removed unmarked additions (çukur), (Mu ribler), (cennetteki), (iri taneli); marked the unexplained «زففن...» gloss as translator note. EN: nun passage made literal (was silently corrected in body); [i.e. the sila] put in translator note.",
+"by": "dervis-irab-p1-u4",
+"at": "2026-10-17 00:18",
+"fixed": true
+},
+"p2": {
+"ar": "61319f456620",
+"tr": "710f53ad8dd9",
+"en": "43ab08d93379",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u5",
+"at": "2026-10-17 00:31",
+"fixed": false
+}
+},
+"dervis-irab:11-18": {
+"p1": {
+"ar": "e69284f12233",
+"tr": "38e8ad778b05",
+"en": "2d09d4d56538",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR: silently corrected نائب الفعل to nâib-i fâil; added Mütercim notu",
+"by": "dervis-irab-u93",
+"at": "2026-10-10 19:44",
+"fixed": true
+},
+"p2": {
+"ar": "e69284f12233",
+"tr": "38e8ad778b05",
+"en": "2d09d4d56538",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "Source is garbled by typesetting: the headings (إنما أموالكم وأولادكم فتنة) and (والله عنده أجر عظيم) are fused into the preceding text (وخبراهاِنَّما / خبرَ اللَّهُ); content otherwise complete and both readings restore it with a marked note.",
+"by": "dervis-irab-p2-u6",
+"at": "2026-10-17 00:03",
+"fixed": false
+}
+}
+}

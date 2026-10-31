@@ -1,0 +1,11 @@
+{
+ "surah": 47,
+ "chunk": "1-38",
+ "verdicts": {
+  "OK": 100,
+  "SOURCE_MISPLACED": 1,
+  "GAP": 7
+ },
+ "summary": "Surah 47:1-38 audited: 3 high NEAR findings (nahhas-meani 6, semin-durr 20 and 22) and 15 low XREF/UNFOUND findings are false positives; semantic sample across all 14 books OK. One real problem: nahhas-meani:38-38 holds the opening of Surat al-Fath (48:1) (SOURCE_MISPLACED; TR/EN already carry translator's notes). GAPs recorded for 7 selective books. No translation edits needed.",
+ "at": "2026-10-10 15:09"
+}

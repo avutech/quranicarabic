@@ -1,0 +1,174 @@
+{
+"farraa:9-10": {
+"p1": {
+"ar": "1f5b641ba7c0",
+"tr": "6241dc02336f",
+"en": "9d900200f109",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:49",
+"fixed": false
+}
+},
+"farraa:13-13": {
+"p1": {
+"ar": "7e977bfac3ee",
+"tr": "09f7517f01c6",
+"en": "5f0ac1f43c9b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:49",
+"fixed": false
+}
+},
+"farraa:14-14": {
+"p1": {
+"ar": "675ad7ae7bcb",
+"tr": "cc53dede1fd6",
+"en": "86c5ef4c4081",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:49",
+"fixed": false
+},
+"p2": {
+"ar": "675ad7ae7bcb",
+"tr": "cc53dede1fd6",
+"en": "86c5ef4c4081",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p2-u4",
+"at": "2026-10-16 19:05",
+"fixed": false
+}
+},
+"farraa:15-16": {
+"p1": {
+"ar": "91b55f2a74b6",
+"tr": "2fa934521dc0",
+"en": "33e03a4840aa",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR had unmarked \"hâli\" and \"(bedel)\", EN had unmarked \"i.e. badal (substitute)\": removed additions; TR now carries a translator note for the unclear جعله فعلا للمعرفة.",
+"by": "farraa-u22",
+"at": "2026-10-10 15:49",
+"fixed": true
+},
+"p2": {
+"ar": "91b55f2a74b6",
+"tr": "2fa934521dc0",
+"en": "33e03a4840aa",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p2-u4",
+"at": "2026-10-16 19:05",
+"fixed": false
+}
+},
+"farraa:17-18": {
+"p1": {
+"ar": "bf55f94784e3",
+"tr": "b3776f3e2917",
+"en": "5e42d57f4bab",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:49",
+"fixed": false
+},
+"p2": {
+"ar": "bf55f94784e3",
+"tr": "b3776f3e2917",
+"en": "5e42d57f4bab",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p2-u4",
+"at": "2026-10-16 19:05",
+"fixed": false
+}
+},
+"farraa:1-1": {
+"p1": {
+"ar": "3386f2ea4cec",
+"tr": "3ab6346c9860",
+"en": "ae7738390972",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:58",
+"fixed": false
+},
+"p2": {
+"ar": "3386f2ea4cec",
+"tr": "3ab6346c9860",
+"en": "ae7738390972",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p2-u4",
+"at": "2026-10-16 19:05",
+"fixed": false
+}
+},
+"farraa:2-2": {
+"p1": {
+"ar": "08ae5c1c397a",
+"tr": "e9fb1cf1671a",
+"en": "aae04c38149a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:58",
+"fixed": false
+}
+},
+"farraa:7-7": {
+"p1": {
+"ar": "4d90cf0a9ef4",
+"tr": "cf1b80e31fde",
+"en": "bd5fae24882a",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR silently changed source متى نظنك خارجاً to تظنّك; restored as written with note.",
+"by": "farraa-u22",
+"at": "2026-10-10 15:58",
+"fixed": true
+},
+"p2": {
+"ar": "4d90cf0a9ef4",
+"tr": "cf1b80e31fde",
+"en": "bd5fae24882a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p2-u4",
+"at": "2026-10-16 19:05",
+"fixed": false
+}
+}
+}

@@ -1,0 +1,42 @@
+{
+"safi-cedvel:1-8": {
+"p1": {
+"ar": "2fb4007b4c70",
+"tr": "07ee943bbb1a",
+"en": "d2cf173c76e1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u65",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"safi-cedvel:9-11": {
+"p1": {
+"ar": "ef687f0c6d5e",
+"tr": "0bc262e3483b",
+"en": "00ba66580994",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p1-u7",
+"at": "2026-10-17 00:06",
+"fixed": false
+},
+"p2": {
+"ar": "ef687f0c6d5e",
+"tr": "0bc262e3483b",
+"en": "00ba66580994",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN transliterated the parsed word \"(الفاء)\" as \"(the fāʾ)\"; restored Arabic script.",
+"by": "safi-cedvel-p2-u23",
+"at": "2026-10-16 19:13",
+"fixed": true
+}
+}
+}

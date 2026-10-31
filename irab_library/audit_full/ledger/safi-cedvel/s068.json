@@ -1,0 +1,326 @@
+{
+"safi-cedvel:5-6": {
+"p1": {
+"ar": "1049d588807d",
+"tr": "09329d21078a",
+"en": "cfd25b16f797",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:33",
+"fixed": false
+}
+},
+"safi-cedvel:7-7": {
+"p1": {
+"ar": "24dbf39ec499",
+"tr": "f474eda12011",
+"en": "997964d9639e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:32",
+"fixed": false
+}
+},
+"safi-cedvel:8-16": {
+"p1": {
+"ar": "df7e3f3d4f56",
+"tr": "f54d64bbbeaf",
+"en": "dc78f440c0f7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:32",
+"fixed": false
+},
+"p2": {
+"ar": "df7e3f3d4f56",
+"tr": "f54d64bbbeaf",
+"en": "dc78f440c0f7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u23",
+"at": "2026-10-16 19:06",
+"fixed": false
+}
+},
+"safi-cedvel:17-33": {
+"p1": {
+"ar": "d50dcc1ff5f5",
+"tr": "7a7df9f55b5e",
+"en": "4b8f52272524",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:32",
+"fixed": false
+}
+},
+"safi-cedvel:34-34": {
+"p1": {
+"ar": "2847c0e93bf6",
+"tr": "f06369e4bde8",
+"en": "97f5335a9983",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:33",
+"fixed": false
+}
+},
+"safi-cedvel:35-35": {
+"p1": {
+"ar": "f78cecb253f7",
+"tr": "7b16ede0a528",
+"en": "6542858b008d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:32",
+"fixed": false
+},
+"p2": {
+"ar": "f78cecb253f7",
+"tr": "7b16ede0a528",
+"en": "6542858b008d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u23",
+"at": "2026-10-16 19:06",
+"fixed": false
+}
+},
+"safi-cedvel:36-36": {
+"p1": {
+"ar": "6b4902494905",
+"tr": "f81f6f7da588",
+"en": "30efb035d8df",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:33",
+"fixed": false
+}
+},
+"safi-cedvel:37-38": {
+"p1": {
+"ar": "b7d1aa2afbb5",
+"tr": "f808a04cb470",
+"en": "347c16a7e9e9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:32",
+"fixed": false
+}
+},
+"safi-cedvel:39-39": {
+"p1": {
+"ar": "9b03a7d3f9e7",
+"tr": "1099ab185800",
+"en": "0202e17d6d54",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN rendered \"بمعنى ثابت وواثق\" as \"firm and binding\"; corrected to \"firm and secure\".",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:32",
+"fixed": true
+},
+"p2": {
+"ar": "9b03a7d3f9e7",
+"tr": "1099ab185800",
+"en": "0202e17d6d54",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u23",
+"at": "2026-10-16 19:06",
+"fixed": false
+}
+},
+"safi-cedvel:40-40": {
+"p1": {
+"ar": "92b4430ae458",
+"tr": "0b12a1ee2b80",
+"en": "5046d3e8ad27",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:33",
+"fixed": false
+}
+},
+"safi-cedvel:41-41": {
+"p1": {
+"ar": "25bf07f0008c",
+"tr": "a6de766d7894",
+"en": "caeaf508b785",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:33",
+"fixed": false
+},
+"p2": {
+"ar": "25bf07f0008c",
+"tr": "a6de766d7894",
+"en": "caeaf508b785",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u23",
+"at": "2026-10-16 19:06",
+"fixed": false
+}
+},
+"safi-cedvel:42-43": {
+"p1": {
+"ar": "42e17a0565fc",
+"tr": "37983531e10a",
+"en": "670672865379",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:33",
+"fixed": false
+}
+},
+"safi-cedvel:44-45": {
+"p1": {
+"ar": "cae5dfe20776",
+"tr": "0c6017cb0ba1",
+"en": "07e2124afaf1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:33",
+"fixed": false
+}
+},
+"safi-cedvel:46-46": {
+"p1": {
+"ar": "a1fb1296682d",
+"tr": "6d10b070c049",
+"en": "d6b6c2d7fc08",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:33",
+"fixed": false
+}
+},
+"safi-cedvel:47-47": {
+"p1": {
+"ar": "a3d1fe0cb1bb",
+"tr": "ccb44977d60f",
+"en": "09782137fd06",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:33",
+"fixed": false
+}
+},
+"safi-cedvel:48-50": {
+"p1": {
+"ar": "4b23535d9692",
+"tr": "3be86156744a",
+"en": "799ff664874b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:33",
+"fixed": false
+},
+"p2": {
+"ar": "4b23535d9692",
+"tr": "3be86156744a",
+"en": "799ff664874b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u23",
+"at": "2026-10-16 19:06",
+"fixed": false
+}
+},
+"safi-cedvel:51-52": {
+"p1": {
+"ar": "d60ffe0651a3",
+"tr": "07bd536c9c25",
+"en": "d4953a74ac27",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:33",
+"fixed": false
+}
+},
+"safi-cedvel:1-4": {
+"p1": {
+"ar": "f7cce9471cc4",
+"tr": "e0fcf3095a2b",
+"en": "fb78129bf4fa",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p1-u7",
+"at": "2026-10-17 00:02",
+"fixed": false
+},
+"p2": {
+"ar": "f7cce9471cc4",
+"tr": "e0fcf3095a2b",
+"en": "fb78129bf4fa",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR dropped the partitive «من» in Jabir hadith «إن من أحبكم إلى الله» (made it \"your most beloved are\"); corrected to \"...olanlarınızdan bazıları\".",
+"by": "safi-cedvel-p2-u23",
+"at": "2026-10-16 19:21",
+"fixed": true
+}
+}
+}

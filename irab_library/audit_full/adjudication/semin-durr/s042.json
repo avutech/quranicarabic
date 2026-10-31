@@ -1,0 +1,120 @@
+{
+"semin-durr:26-26": {
+"hs": [
+"a05f04b868c7",
+"95106d9a577b",
+"80ef3740afcd"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "«ويُجيب اللَّهُ الذين آمنوا أي: دعاهم»: in this print دعاهم stands for دعاءَهم (hamza dropped; 'their supplication'), which is exactly what the object-reading requires (Allah answers the believers' prayer). TR «yani onların dualarına» translates that text, not a correction. Rest (fāʿil reading with Anfāl 24, sīn of ṭalab, implied lām) is accurate.",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "HUMAN",
+"evidence": "Source reads «ويُجيب اللَّهُ الذين آمنوا أي: دعاهم». TR 'onların dualarına' reads it as دعاءَهم (their supplication). That is almost certainly the intended sense, since the hamza is often dropped in this text, but it differs from the literal 'He called them' and has no note. A scholar should decide whether a [Mütercim notu] is needed.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "HUMAN"
+},
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "On «دعاهم» (= دعاءَهم, their supplication) the EN «when they call Him» is acceptable, so the reviewer's point is not the defect. But the EN transliterates the Arabic phrase «للذين آمنوا» as «[li-lladhīna āmanū]» in Latin letters (a Quranic wording; must stay in Arabic script), and drops the Arabic of verse 3973, giving English only (glossary_en rule 3).",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Besides rendering «أي: دعاهم» as 'when they call Him' without a note, EN transliterates the Quranic phrase in Latin: '[li-lladhīna āmanū]' for «ويستجيب الله للذين آمنوا». That is a binding-standard error; it must stay in Arabic script.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Transliterated 'Istajāba is like ajāba' now in Arabic script: «استجاب» is like «أجاب»; verse 3973 Arabic, «ويستجيب الله للذين آمنوا» in Arabic, and دعاهم note retained",
+"verify_note": "Fixed: verse 3973 kept in Arabic with gloss; «ويستجيب الله للذين آمنوا» in Arabic script; دعاهم read as دعاءهم inside a Translator's note. Complete and faithful.",
+"fix_failed": 1,
+"verified": "PASS"
+}
+},
+"history": [
+{
+"old_hs": [
+"a05f04b868c7",
+"95106d9a577b",
+"57551ce21cff"
+],
+"dim": "en",
+"what": "Latin transliteration '[li-lladhīna āmanū]' replaced by the Arabic «ويَسْتجيب الله للذين آمنوا»; Arabic text of verse 3973 restored above its translation; «دعاهم» rendered 'their supplication' with Translator's note on the reading",
+"at": "2026-10-17 00:46"
+},
+{
+"old_hs": [
+"a05f04b868c7",
+"95106d9a577b",
+"7d07feb28015"
+],
+"dim": "en",
+"what": "Transliterated 'Istajāba is like ajāba' now in Arabic script: «استجاب» is like «أجاب»; verse 3973 Arabic, «ويستجيب الله للذين آمنوا» in Arabic, and دعاهم note retained",
+"at": "2026-10-17 00:50"
+}
+]
+},
+"semin-durr:43-43": {
+"hs": [
+"fc24a0b22a57",
+"011358f403c4",
+"c5e0ff7ee72b"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "After verse 3979 «مَنْ يَفْعَلِ الحَسَناتِ ....» the Arabic has no comment; TR adds «(Beyit yarım olarak nakledilmiştir; ...)», a translator's statement presented unmarked. The gloss «Kim iyilikler yaparsa…» is fine, but the remark about the verse being half-quoted must be inside [Mütercim notu: …].",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "After verse 3979 «مَنْ يَفْعَلِ الحَسَناتِ. . .» the Arabic has only the dotted lacuna; TR adds the unmarked comment '(Beyit yarım olarak nakledilmiştir; «Kim iyilikler yaparsa…»)'. It must be inside [Mütercim notu: …].",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"verify_note": "Half-quoted verse remark now inside Mütercim notu; rest complete and faithful.",
+"fix_failed": 1,
+"fixed_note": "Re-checked current text: the half-quoted remark after verse 3979 is now only inside [Mütercim notu: Beyit kaynakta yarım olarak nakledilmiştir.]; the old unmarked '(Beyit yarım olarak nakledilmiştir; …)' no longer exists; gloss («Kim iyilikler yaparsa…») kept",
+"verified": "PASS"
+}
+},
+"history": [
+{
+"old_hs": [
+"fc24a0b22a57",
+"496804aa0c2c",
+"c5e0ff7ee72b"
+],
+"dim": "tr",
+"what": "Remark that verse 3979 is half-quoted moved into [Mütercim notu: …]; gloss «Kim iyilikler yaparsa…» kept",
+"at": "2026-10-17 00:50"
+},
+{
+"old_hs": [
+"fc24a0b22a57",
+"011358f403c4",
+"c5e0ff7ee72b"
+],
+"dim": "tr",
+"what": "Re-checked current text: the half-quoted remark after verse 3979 is now only inside [Mütercim notu: Beyit kaynakta yarım olarak nakledilmiştir.]; the old unmarked '(Beyit yarım olarak nakledilmiştir; …)' no longer exists; gloss («Kim iyilikler yaparsa…») kept",
+"at": "2026-10-17 00:51"
+}
+]
+}
+}

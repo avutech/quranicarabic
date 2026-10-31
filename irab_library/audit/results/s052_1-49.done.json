@@ -1,0 +1,10 @@
+{
+ "surah": 52,
+ "chunk": "1-49",
+ "verdicts": {
+  "OK": 100,
+  "GAP": 7
+ },
+ "summary": "Chunk 52:1-49 audited: 5 high NEAR findings all OK (authors cite neighbouring ayahs), 20 low findings OK (normalization/cross-refs), SEM sample of all 14 books OK, 7 GAP lines recorded. No SOURCE or translation problems; one minor note: farraa:45-45 EN has a translator's note on the Asim variant that TR lacks (no meaning change).",
+ "at": "2026-10-10 15:12"
+}

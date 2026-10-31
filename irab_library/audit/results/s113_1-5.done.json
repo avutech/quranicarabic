@@ -1,0 +1,11 @@
+{
+ "surah": 113,
+ "chunk": "1-5",
+ "verdicts": {
+  "OK": 37,
+  "SOURCE_DEFECT": 2,
+  "GAP": 7
+ },
+ "summary": "No high/medium/low findings. SEM checked 51 entries across 13 books: all match their ayah in Arabic/TR/EN. Two source defects noted (nahhas-irab 5-5 truncated; muyesser-irab 2-2 says رب الناس), already flagged by translator notes. 7 GAP lines recorded.",
+ "at": "2026-10-10 15:18"
+}

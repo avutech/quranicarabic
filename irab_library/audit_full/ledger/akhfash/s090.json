@@ -1,0 +1,106 @@
+{
+"akhfash:2-2": {
+"p1": {
+"ar": "78d3ff4ae205",
+"tr": "5e1c002d0686",
+"en": "5b796c5ac450",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish 'Ahfes dedi ki' for qala changed to buyurdu.",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:46",
+"fixed": true
+},
+"p2": {
+"ar": "78d3ff4ae205",
+"tr": "5e1c002d0686",
+"en": "5b796c5ac450",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-p2-u1",
+"at": "2026-10-16 19:13",
+"fixed": false
+}
+},
+"akhfash:11-11": {
+"p1": {
+"ar": "5be33d644a6b",
+"tr": "1688edc41825",
+"en": "0da28a72ea22",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish 'Ahfes dedi ki' changed; silently corrected source typo yaqtahim to yaqtahim; now flagged with translator note.",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:46",
+"fixed": true
+},
+"p2": {
+"ar": "5be33d644a6b",
+"tr": "1688edc41825",
+"en": "0da28a72ea22",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-p2-u1",
+"at": "2026-10-16 19:13",
+"fixed": false
+}
+},
+"akhfash:13-13": {
+"p1": {
+"ar": "379b25bfbc78",
+"tr": "58fad56c0fdc",
+"en": "5f68afaec271",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish 'Ahfes dedi ki' changed to buyurdu.",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:46",
+"fixed": true
+},
+"p2": {
+"ar": "379b25bfbc78",
+"tr": "58fad56c0fdc",
+"en": "5f68afaec271",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-p2-u1",
+"at": "2026-10-16 19:13",
+"fixed": false
+}
+},
+"akhfash:14-15": {
+"p1": {
+"ar": "0f4884755a44",
+"tr": "2fb3e03aaca5",
+"en": "319eff0f9cde",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish 'Ahfes dedi ki' changed to buyurdu; removed unmarked parenthetical glosses.",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:46",
+"fixed": true
+},
+"p2": {
+"ar": "0f4884755a44",
+"tr": "2fb3e03aaca5",
+"en": "319eff0f9cde",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-p2-u1",
+"at": "2026-10-16 19:13",
+"fixed": false
+}
+}
+}

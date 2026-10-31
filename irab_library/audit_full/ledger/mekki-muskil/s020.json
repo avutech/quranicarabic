@@ -1,0 +1,506 @@
+{
+"mekki-muskil:72-72": {
+"p1": {
+"ar": "1d24f6a40b2d",
+"tr": "15d4dbc3691e",
+"en": "421547716840",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:40",
+"fixed": false
+}
+},
+"mekki-muskil:73-73": {
+"p1": {
+"ar": "713bec5c2500",
+"tr": "a7176a971dfd",
+"en": "c211e2c451ba",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:40",
+"fixed": false
+}
+},
+"mekki-muskil:77-77": {
+"p1": {
+"ar": "a959b49a53ce",
+"tr": "3fd003c613d6",
+"en": "c56572f29755",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:41",
+"fixed": false
+}
+},
+"mekki-muskil:80-80": {
+"p1": {
+"ar": "6a2ef7d461ab",
+"tr": "681c7c5929bf",
+"en": "b2b662255f24",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:40",
+"fixed": false
+}
+},
+"mekki-muskil:87-87": {
+"p1": {
+"ar": "23fc7721850e",
+"tr": "267393a53f65",
+"en": "efc04e19cb62",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:40",
+"fixed": false
+}
+},
+"mekki-muskil:94-94": {
+"p1": {
+"ar": "b512bd91593b",
+"tr": "d0ebffa4d4fa",
+"en": "1859558b0954",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:40",
+"fixed": false
+}
+},
+"mekki-muskil:97-97": {
+"p1": {
+"ar": "63d527dcb830",
+"tr": "2203bb6cab62",
+"en": "4eac3226f428",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:40",
+"fixed": false
+}
+},
+"mekki-muskil:99-99": {
+"p1": {
+"ar": "d15e2cdcb2a9",
+"tr": "dbfb61128361",
+"en": "1de5ef083117",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:40",
+"fixed": false
+}
+},
+"mekki-muskil:102-102": {
+"p1": {
+"ar": "7c0fa2c4a01d",
+"tr": "aaba2dffe776",
+"en": "38e9d6ef3c23",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:40",
+"fixed": false
+}
+},
+"mekki-muskil:103-103": {
+"p1": {
+"ar": "2d89bcbf7940",
+"tr": "5ccc5c1ac8e2",
+"en": "55aee8e6e711",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:40",
+"fixed": false
+}
+},
+"mekki-muskil:106-106": {
+"p1": {
+"ar": "e9178ebaed20",
+"tr": "5843ad761d11",
+"en": "0f2e3c62c0d1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:40",
+"fixed": false
+}
+},
+"mekki-muskil:118-118": {
+"p1": {
+"ar": "104ae355e9c6",
+"tr": "06d0917f3ac8",
+"en": "d278afc05b31",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p1-u1",
+"at": "2026-10-17 00:03",
+"fixed": false
+},
+"p2": {
+"ar": "104ae355e9c6",
+"tr": "06d0917f3ac8",
+"en": "d278afc05b31",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Both readings silently translated the source word \"الاستثناء\" as istinaf; now translated as written (exception) with a marked note on the likely intended الاستئناف.",
+"by": "mekki-muskil-p2-u1",
+"at": "2026-10-16 17:38",
+"fixed": true
+}
+},
+"mekki-muskil:128-128": {
+"p1": {
+"ar": "5d7d49e69c30",
+"tr": "dfc5ee52491f",
+"en": "557179ee3c61",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:41",
+"fixed": false
+}
+},
+"mekki-muskil:131-131": {
+"p1": {
+"ar": "094972a81f3a",
+"tr": "6da96255a38f",
+"en": "ef6ac5510e07",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Unmarked additions: (Mekkî)/[Makkī] after Ebû Muhammed / Abū Muḥammad, and TR (durum değişmez)/EN [this is so] around Farra إن كانت معرفة; removed",
+"by": "mekki-muskil-p1-u1",
+"at": "2026-10-17 00:03",
+"fixed": true
+},
+"p2": {
+"ar": "094972a81f3a",
+"tr": "6da96255a38f",
+"en": "ef6ac5510e07",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-17 00:15",
+"fixed": false
+}
+},
+"mekki-muskil:133-133": {
+"p1": {
+"ar": "985e6077fa11",
+"tr": "75989994d63e",
+"en": "2894c0b59367",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:40",
+"fixed": false
+}
+},
+"mekki-muskil:135-135": {
+"p1": {
+"ar": "0851d95d4901",
+"tr": "b6e4f0b4a193",
+"en": "4331aa98fef2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:40",
+"fixed": false
+}
+},
+"mekki-muskil:3-3": {
+"p1": {
+"ar": "d86708d0ebe7",
+"tr": "5f97dc6fada0",
+"en": "59d8aef695c1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:48",
+"fixed": false
+}
+},
+"mekki-muskil:12-12": {
+"p1": {
+"ar": "e24a4774456a",
+"tr": "81ecc5f39bc0",
+"en": "8aee785f2929",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:48",
+"fixed": false
+}
+},
+"mekki-muskil:17-17": {
+"p1": {
+"ar": "022d110d5464",
+"tr": "aa1404b4a675",
+"en": "be1fb242d680",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:48",
+"fixed": false
+},
+"p2": {
+"ar": "022d110d5464",
+"tr": "aa1404b4a675",
+"en": "be1fb242d680",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u1",
+"at": "2026-10-16 17:38",
+"fixed": false
+}
+},
+"mekki-muskil:22-22": {
+"p1": {
+"ar": "94319c48b748",
+"tr": "a387a79c295c",
+"en": "715b10f21e1a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:48",
+"fixed": false
+}
+},
+"mekki-muskil:29-30": {
+"p1": {
+"ar": "30e3e42b1dc5",
+"tr": "11fe2a3b01bc",
+"en": "59876284babb",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:48",
+"fixed": false
+}
+},
+"mekki-muskil:33-33": {
+"p1": {
+"ar": "280e5c17cb9f",
+"tr": "5427a81d2e50",
+"en": "1fcc5bc70df5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:48",
+"fixed": false
+}
+},
+"mekki-muskil:39-39": {
+"p1": {
+"ar": "dc3330f8f504",
+"tr": "4678aedc1c11",
+"en": "67b2df082be3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:48",
+"fixed": false
+}
+},
+"mekki-muskil:52-52": {
+"p1": {
+"ar": "0d9771cc9da0",
+"tr": "008fde68ed21",
+"en": "5f004a84ad33",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:48",
+"fixed": false
+},
+"p2": {
+"ar": "0d9771cc9da0",
+"tr": "008fde68ed21",
+"en": "5f004a84ad33",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u1",
+"at": "2026-10-16 17:38",
+"fixed": false
+}
+},
+"mekki-muskil:58-58": {
+"p1": {
+"ar": "3c39de0e5aae",
+"tr": "dcfe3e1ea526",
+"en": "3be18a59f2da",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:48",
+"fixed": false
+}
+},
+"mekki-muskil:59-59": {
+"p1": {
+"ar": "95f0a06fa7e2",
+"tr": "1713cecf6030",
+"en": "4e9aa9067cee",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR added unmarked '(el-Basri)' to al-Hasan and '(Bu kiraatte de)'; removed.",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:48",
+"fixed": true
+},
+"p2": {
+"ar": "95f0a06fa7e2",
+"tr": "1713cecf6030",
+"en": "4e9aa9067cee",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u1",
+"at": "2026-10-16 17:38",
+"fixed": false
+}
+},
+"mekki-muskil:63-63": {
+"p1": {
+"ar": "cc7cb43fb281",
+"tr": "e1baca3258f6",
+"en": "1d0d41c9a1d9",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR added an unmarked explanatory sentence to the poem gloss and 'hatta (mushaf yazisina)'; EN unmarked '(improbability)', '[of the pronoun]', '[the view of]'; fixed.",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:48",
+"fixed": true
+},
+"p2": {
+"ar": "cc7cb43fb281",
+"tr": "e1baca3258f6",
+"en": "1d0d41c9a1d9",
+"fit": "OK",
+"trv": "UNSURE",
+"env": "OK",
+"note": "\"وفي تأخر اللام مع لفظ إن بعض القوة على نعم\" is rendered in Turkish as strength \"against\" taking إن as نعم, whereas English has strength \"for\" نعم; I cannot verify which direction the author intends.",
+"by": "mekki-muskil-p2-u1",
+"at": "2026-10-16 17:38",
+"fixed": false
+}
+},
+"mekki-muskil:66-66": {
+"p1": {
+"ar": "a35541f5de87",
+"tr": "d769963a7dff",
+"en": "9effac195c0b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:48",
+"fixed": false
+}
+},
+"mekki-muskil:67-67": {
+"p1": {
+"ar": "b365edd2f7a0",
+"tr": "4816c51987a5",
+"en": "dccc0a72bdec",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:48",
+"fixed": false
+}
+},
+"mekki-muskil:69-69": {
+"p1": {
+"ar": "3409acf34418",
+"tr": "a9813f6de26b",
+"en": "f5173d65265a",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR rendered fi l-kalam as '(Kur'an disinda)', an unmarked interpretation; corrected to 'kelamda'.",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:48",
+"fixed": true
+},
+"p2": {
+"ar": "3409acf34418",
+"tr": "a9813f6de26b",
+"en": "f5173d65265a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u1",
+"at": "2026-10-16 17:38",
+"fixed": false
+}
+}
+}

@@ -1,0 +1,11 @@
+{
+ "surah": 78,
+ "chunk": "1-40",
+ "verdicts": {
+  "SOURCE_DEFECT": 2,
+  "OK": 84,
+  "GAP": 8
+ },
+ "summary": "Ch78:1-40: 4 high and 8 low findings all OK (quotes of neighbouring ayahs or cross-references); 74 SEM checks across 13 books match across Arabic/TR/EN; source defects: farraa:1-4 trailing stray fragment for ayah 14 (thajjajan), zajjaj:34-34 opening sentence belongs to ayah 27; nahhas-irab:40 and daas-irab:40 have garbled source letters, handled by translator notes; GAPs recorded for 8 selective commentaries; no translation fixes needed.",
+ "at": "2026-10-10 15:20"
+}

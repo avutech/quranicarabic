@@ -1,0 +1,180 @@
+{
+"mekki-muskil:1-1": {
+"p1": {
+"ar": "91e8601dea22",
+"tr": "f81bf6586e8c",
+"en": "d4d2a53c132f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:43",
+"fixed": false
+}
+},
+"mekki-muskil:5-5": {
+"p1": {
+"ar": "83471da762b6",
+"tr": "e01b9a831719",
+"en": "1b3316f4f0e4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:43",
+"fixed": false
+}
+},
+"mekki-muskil:6-6": {
+"p1": {
+"ar": "7e1d35740b9b",
+"tr": "36ed95e6b293",
+"en": "cffabb1aef15",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:43",
+"fixed": false
+}
+},
+"mekki-muskil:8-8": {
+"p1": {
+"ar": "4e540986bff9",
+"tr": "a41bd5802a89",
+"en": "76c895cece7c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:43",
+"fixed": false
+}
+},
+"mekki-muskil:11-11": {
+"p1": {
+"ar": "a74eb323e46e",
+"tr": "4302d47341c0",
+"en": "d5defe68da9c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:43",
+"fixed": false
+}
+},
+"mekki-muskil:16-16": {
+"p1": {
+"ar": "1f829cd5d8af",
+"tr": "a36fce26ef99",
+"en": "24ecc3f5e959",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:43",
+"fixed": false
+}
+},
+"mekki-muskil:17-17": {
+"p1": {
+"ar": "38e252f8b8f4",
+"tr": "7a61638ebc57",
+"en": "8b4275bb7ad0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:43",
+"fixed": false
+},
+"p2": {
+"ar": "38e252f8b8f4",
+"tr": "7a61638ebc57",
+"en": "8b4275bb7ad0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 18:09",
+"fixed": false
+}
+},
+"mekki-muskil:21-21": {
+"p1": {
+"ar": "222301c33ae5",
+"tr": "2899c2587cae",
+"en": "85aa391ff65c",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English had unlabeled bracketed additions \"[i.e. walad and wuld]\" and \"[bakhal and bukhl]\"; now labeled as Translator notes.",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:43",
+"fixed": true
+},
+"p2": {
+"ar": "222301c33ae5",
+"tr": "2899c2587cae",
+"en": "85aa391ff65c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 18:09",
+"fixed": false
+}
+},
+"mekki-muskil:23-23": {
+"p1": {
+"ar": "241c33b870b8",
+"tr": "33b1d44137e4",
+"en": "3ce2d8fbd12c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:43",
+"fixed": false
+}
+},
+"mekki-muskil:25-25": {
+"p1": {
+"ar": "34b973d2a4f8",
+"tr": "cac37bb17fb9",
+"en": "78446a846881",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:43",
+"fixed": false
+}
+},
+"mekki-muskil:26-26": {
+"p1": {
+"ar": "05e1d2c47206",
+"tr": "d35ee81d216e",
+"en": "a60dd8338176",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:43",
+"fixed": false
+}
+}
+}

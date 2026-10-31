@@ -1,0 +1,27 @@
+{
+"nahhas-meani:38-38": {
+"hs": [
+"96429f568dd0",
+"4eb22961700e",
+"ea492a1e810b"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "EN covers every line: Mujahid on Tabuk (with marked note on «عزوة»), «أرضيتم بنعيم الحياة الدنيا من نعيم الآخرة», the quote «فما متاع الحياة الدنيا في الآخرة إلا قليل», and «والمتاع: المنفعة والنعيم» = 'benefit and comfort'. Nothing cut or misordered.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "EN renders the whole source: Mujahid on Tabuk (with the misprint «عزوة» in a Translator's note), «أَرَضِيتُمْ بِٱلْحَيَاةِ ٱلدُّنْيَا مِنَ ٱلآخِرَةِ» with its gloss, the quote «فَمَا مَتَاعُ ... إِلاَّ قَلِيلٌ», and «والمتاع: المنفعة والنعيم» = 'al-matāʿ is: benefit and comfort'. Nothing is missing or out of order.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

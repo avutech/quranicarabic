@@ -1,0 +1,134 @@
+{
+"dervis-irab:1-9": {
+"p1": {
+"ar": "630c817be357",
+"tr": "bbdfb8d9589c",
+"en": "97b690a2e418",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u90",
+"at": "2026-10-10 19:44",
+"fixed": false
+}
+},
+"dervis-irab:10-16": {
+"p1": {
+"ar": "647390276eae",
+"tr": "16be5d661614",
+"en": "5903b9a64fd9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u90",
+"at": "2026-10-10 19:44",
+"fixed": false
+}
+},
+"dervis-irab:17-29": {
+"p1": {
+"ar": "e23f2acd0fd0",
+"tr": "1566a37ec7ef",
+"en": "c1f8b6610c70",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN al-Qamus: \"كخجل\" rendered as nonsense \"fakhiḍ\" (now khajil pattern); poet name «مفزع» silently changed to Mufarrigh (now as source + note).",
+"by": "dervis-irab-u90",
+"at": "2026-10-10 19:45",
+"fixed": true
+},
+"p2": {
+"ar": "e23f2acd0fd0",
+"tr": "1566a37ec7ef",
+"en": "c1f8b6610c70",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u35",
+"at": "2026-10-16 19:28",
+"fixed": false
+}
+},
+"dervis-irab:30-37": {
+"p1": {
+"ar": "c55c0a57a0ab",
+"tr": "3ed4b4954c4e",
+"en": "154c85579e2c",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN omitted the source duplicate «والتبع الظل» in the Jawhari quote (now restored with note).",
+"by": "dervis-irab-u90",
+"at": "2026-10-10 19:45",
+"fixed": true
+},
+"p2": {
+"ar": "c55c0a57a0ab",
+"tr": "3ed4b4954c4e",
+"en": "154c85579e2c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u35",
+"at": "2026-10-16 19:21",
+"fixed": false
+}
+},
+"dervis-irab:38-50": {
+"p1": {
+"ar": "2ac796e62ea7",
+"tr": "12b25d5406c8",
+"en": "18cc6113fdd4",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR added unmarked gloss \"(zeytinyağının tortusu)\" after ince yağ for والزيت الرقيق; removed",
+"by": "dervis-irab-u2",
+"at": "2026-10-11 01:39",
+"fixed": true
+},
+"p2": {
+"ar": "2ac796e62ea7",
+"tr": "12b25d5406c8",
+"en": "18cc6113fdd4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u35",
+"at": "2026-10-16 19:28",
+"fixed": false
+}
+},
+"dervis-irab:51-59": {
+"p1": {
+"ar": "a8819e738915",
+"tr": "20287b7c0a4b",
+"en": "32c6c4054586",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u16",
+"at": "2026-10-17 00:05",
+"fixed": false
+},
+"p2": {
+"ar": "a8819e738915",
+"tr": "20287b7c0a4b",
+"en": "32c6c4054586",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR: unmarked gloss \"(Temîm lügati)\" added to «على طريقة البدل المجوز فيها البدل من غير الجنس»; now marked as Mütercim notu.",
+"by": "dervis-irab-p2-u35",
+"at": "2026-10-16 19:28",
+"fixed": true
+}
+}
+}

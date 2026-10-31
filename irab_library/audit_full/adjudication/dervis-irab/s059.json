@@ -1,0 +1,53 @@
+{
+"dervis-irab:18-24": {
+"hs": [
+"755b7c3e04a8",
+"5a1fe9493a8e",
+"0b2412d12741"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Most parenthetical glosses are just translations of quoted Arabic words (الغد → (yarın), امرأة حسناء → (güzel kadın), غلام أمرد → (sakalsız genç)) and are fine. But in (أُولئِكَ هُمُ الْفاسِقُونَ) the source says only والفاسقون خبر أولئك أو خبرهم والجملة خبر أولئك; TR adds «(ikinci vecihte) cümle «أولئك»in haberidir» - «ikinci vecihte» is an interpretive addition not in the Arabic and not inside [Mütercim notu: …]. Minor, meaning otherwise correct; fix by moving it into a Mütercim notu (or dropping it).",
+"at": "2026-10-17 00:42"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Most flagged items are legitimate glosses of Arabic words cited in the text: «الغد» (yarın), «امرأة حسناء» (güzel kadın), «غلام أمرد» (sakalsız genç), basarî (gözle) for البصرية — these translate what is written. But for أولئك مبتدأ وهم ضمير فصل أو مبتدأ ثان والفاسقون خبر أولئك أو خبرهم والجملة خبر أولئك, TR inserts «(ikinci vecihte) cümle «أولئك»in haberidir» — the Arabic has no 'on the second view'; it is an interpretive addition, correct in substance but unmarked. Fix: put it inside «[Mütercim notu: …]».",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "«وقد تقدم نظيره تقريبا»: 'Benzeri az önce geçti' -> 'Yaklaşık benzeri daha önce geçmişti' (تقريبا = approximately, not a time expression)",
+"verify_note": "Flagged fix done: «وقد تقدم نظيره تقريبا» now 'Yaklaşık benzeri daha önce geçmişti'. Read in full against the Arabic: complete and faithful; the ikinci-vecih remark is inside a Mütercim notu; remaining parentheses only translate cited Arabic words. No new problems.",
+"fix_failed": 1,
+"verified": "PASS"
+}
+},
+"history": [
+{
+"old_hs": [
+"755b7c3e04a8",
+"43bb64e478c5",
+"0b2412d12741"
+],
+"dim": "tr",
+"what": "'(ikinci vecihte)' removed from text and placed in Mütercim notu",
+"at": "2026-10-17 00:47"
+},
+{
+"old_hs": [
+"755b7c3e04a8",
+"1ed8360c9e64",
+"0b2412d12741"
+],
+"dim": "tr",
+"what": "«وقد تقدم نظيره تقريبا»: 'Benzeri az önce geçti' -> 'Yaklaşık benzeri daha önce geçmişti' (تقريبا = approximately, not a time expression)",
+"at": "2026-10-17 00:53"
+}
+]
+}
+}

@@ -1,0 +1,27 @@
+{
+"farraa:38-38": {
+"hs": [
+"46f56f7cce03",
+"df23a18e298e",
+"85592db81ac3"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "HUMAN",
+"evidence": "The verse قسموا البلاد فما بها لمقيلهم * تضغيث مفتصل يباع فصيله is obscure/likely corrupt (تضغيث, مفتصل). TR gives a confident word-by-word rendering ('kaylûle yerlerinde, yavrusu satılan sütten kesilmiş devenin karışık otu bile yoktur') with no note that it is tentative, while EN leaves it unglossed with a translator's note. Whether the TR meaning is right cannot be established from the text; needs scholarly judgement (or a Mütercim notu marking it tentative). Rest of TR (فيقتل note, جاءانا/جاءنا readings, المشرقين, الزهدمان, البصرتان, الموصلان) is faithful.",
+"at": "2026-10-17 00:40"
+},
+"J1": {
+"class": "HUMAN",
+"evidence": "The flagged verse 'قسموا البلاد فما بها لمقيلهم * تضغيث مفتصل يباع فصيله' is obscure (تضغيث, مفتصل). TR gives an unmarked conjectural gloss ('yavrusu satılan sütten kesilmiş devenin karışık otu bile yoktur'), while EN leaves it unglossed with a note. Whether TR's gloss is acceptable needs a scholar of the verse; I cannot verify it.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "HUMAN"
+}
+}
+}
+}

@@ -1,0 +1,152 @@
+{
+"dervis-irab:26-44": {
+"p1": {
+"ar": "42c5905db8f7",
+"tr": "675ffa90b685",
+"en": "65f46e623eb5",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR Ibn Hisham quote had unmarked addition \"(hatadir)\" and a confused translator note; removed, rest faithful",
+"by": "dervis-irab-u77",
+"at": "2026-10-10 19:38",
+"fixed": true
+},
+"p2": {
+"ar": "42c5905db8f7",
+"tr": "675ffa90b685",
+"en": "65f46e623eb5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u28",
+"at": "2026-10-16 19:18",
+"fixed": false
+}
+},
+"dervis-irab:45-50": {
+"p1": {
+"ar": "d7cf7cef6526",
+"tr": "b21b7857fc88",
+"en": "d00761ae9241",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u77",
+"at": "2026-10-10 19:38",
+"fixed": false
+}
+},
+"dervis-irab:51-64": {
+"p1": {
+"ar": "3e3be81da893",
+"tr": "83f3171d8bdb",
+"en": "29e21c23b53b",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN silently corrected the source misprint «لا بصارك له» (TR has a note); added translator note.",
+"by": "dervis-irab-p1-u11",
+"at": "2026-10-17 00:08",
+"fixed": true
+},
+"p2": {
+"ar": "3e3be81da893",
+"tr": "83f3171d8bdb",
+"en": "29e21c23b53b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u15",
+"at": "2026-10-17 00:17",
+"fixed": false
+}
+},
+"dervis-irab:1-11": {
+"p1": {
+"ar": "f53ce89acaf8",
+"tr": "1703016ae6c9",
+"en": "5a5ca01031c3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u77",
+"at": "2026-10-10 19:39",
+"fixed": false
+}
+},
+"dervis-irab:65-77": {
+"p1": {
+"ar": "1ef516d33955",
+"tr": "2a9880b4db73",
+"en": "d60783b48f4f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u77",
+"at": "2026-10-10 19:39",
+"fixed": false
+}
+},
+"dervis-irab:78-85": {
+"p1": {
+"ar": "f32b07d841f1",
+"tr": "fbbb7d4854da",
+"en": "29d939274164",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u77",
+"at": "2026-10-10 19:39",
+"fixed": false
+}
+},
+"dervis-irab:86-99": {
+"p1": {
+"ar": "026dfb17b4b1",
+"tr": "09dc505601dc",
+"en": "800ba09f5c70",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u77",
+"at": "2026-10-10 19:39",
+"fixed": false
+}
+},
+"dervis-irab:12-20": {
+"p1": {
+"ar": "8538c23d5759",
+"tr": "21fb7da661e5",
+"en": "08265de16c31",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u77",
+"at": "2026-10-10 19:40",
+"fixed": false
+}
+},
+"dervis-irab:21-25": {
+"p1": {
+"ar": "5208bd6879a4",
+"tr": "6e2897da4415",
+"en": "0f68f76f23d8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u77",
+"at": "2026-10-10 19:40",
+"fixed": false
+}
+}
+}

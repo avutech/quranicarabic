@@ -1,0 +1,43 @@
+{
+"farraa:2-2": {
+"hs": [
+"f3149951d51e",
+"ffcfba5e002b",
+"ecdc7c547209"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "HUMAN",
+"evidence": "Poem line يجئن على ما كان من صالحٍ به * وإن كان فيما لا يرى الناس آليا: TR 'onda bulunan iyiliği de alıp götürür' takes جاء على as 'come upon/ruin'; EN 'bring out whatever good' takes it as revealing. على ما كان could also mean 'in accordance with what good is in him'. The Arabic is ambiguous and the poem's sense needs scholarly judgement; neither rendering can be confirmed or refuted with certainty. Rest of entry (two views on ترونها, note on الحجة vs الجحد) is faithful.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Verse 'يجئن على ما كان من صالحٍ به': جاء على / أتى على = to come upon and wipe out; the nights destroy whatever good was in him. TR 'onda bulunan iyiliği de alıp götürür' is correct. Rest of TR (two views on بغير عمد ترونها, الحجة flagged with Mütercim notu, لا أراها تزال = أراها لا تزال) is faithful.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "HUMAN"
+},
+"en": {
+"votes": {
+"J2": {
+"class": "HUMAN",
+"evidence": "Poem line يجئن على ما كان من صالحٍ به: EN 'they will bring out whatever good there is in him' vs TR 'alıp götürür' (take away). جاء على commonly means to come upon/overtake (ruin), which favours TR, but 'على ما كان' as 'according to what good is in him' (time reveals the real man) is also possible. Needs scholarly judgement; the rest of the English (الحجة with translator's note, the meaning sentence لا يألو) is faithful.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "EN glosses 'يجئن على ما كان من صالحٍ به' as 'they will bring out whatever good there is in him'. جاء على here means come upon / destroy (the nights consume whatever good he has), so 'bring out' reverses the sense. Fix gloss to 'they will come upon (wipe out) whatever good is in him'.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "HUMAN"
+}
+}
+}
+}

@@ -1,0 +1,408 @@
+{
+"semin-durr:2-2": {
+"p1": {
+"ar": "193e017256c7",
+"tr": "b28c9ea4416c",
+"en": "58162218f1e8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u30",
+"at": "2026-10-11 02:32",
+"fixed": false
+}
+},
+"semin-durr:4-4": {
+"p1": {
+"ar": "293faee97f57",
+"tr": "4c70b3aa5a9a",
+"en": "9d03e772cd69",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u30",
+"at": "2026-10-11 02:32",
+"fixed": false
+}
+},
+"semin-durr:6-6": {
+"p1": {
+"ar": "baa59c216d13",
+"tr": "71eefaef1d00",
+"en": "26416e702318",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u30",
+"at": "2026-10-11 02:32",
+"fixed": false
+}
+},
+"semin-durr:8-8": {
+"p1": {
+"ar": "708b85fa5b97",
+"tr": "7291a01107f0",
+"en": "006e8c074d9f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u30",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:9-9": {
+"p1": {
+"ar": "1cb950d24513",
+"tr": "82c3f0943191",
+"en": "3003c618e343",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish had Mutarrif el-Verrak for مطر الوراق (Matar); corrected.",
+"by": "semin-durr-u30",
+"at": "2026-10-11 02:32",
+"fixed": true
+},
+"p2": {
+"ar": "1cb950d24513",
+"tr": "82c3f0943191",
+"en": "3003c618e343",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u19",
+"at": "2026-10-17 00:08",
+"fixed": false
+}
+},
+"semin-durr:11-11": {
+"p1": {
+"ar": "8fd7d5eaeb3e",
+"tr": "9f5274775e48",
+"en": "9660202b9906",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u30",
+"at": "2026-10-11 02:32",
+"fixed": false
+}
+},
+"semin-durr:13-13": {
+"p1": {
+"ar": "c732e9c9c46e",
+"tr": "1c13f7cc777e",
+"en": "64258b9e8262",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u30",
+"at": "2026-10-11 02:32",
+"fixed": false
+}
+},
+"semin-durr:14-14": {
+"p1": {
+"ar": "878b911c02ee",
+"tr": "344cef194caa",
+"en": "282d1daabd9f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u30",
+"at": "2026-10-11 02:32",
+"fixed": false
+}
+},
+"semin-durr:18-18": {
+"p1": {
+"ar": "8bdea640d2c1",
+"tr": "42299e6980bb",
+"en": "da7ac0ccccbf",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u30",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:20-20": {
+"p1": {
+"ar": "3224b7ac53ac",
+"tr": "fc0a528e3c66",
+"en": "35cc631aa01c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u30",
+"at": "2026-10-11 02:33",
+"fixed": false
+},
+"p2": {
+"ar": "3224b7ac53ac",
+"tr": "fc0a528e3c66",
+"en": "35cc631aa01c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u19",
+"at": "2026-10-17 00:08",
+"fixed": false
+}
+},
+"semin-durr:21-21": {
+"p1": {
+"ar": "0e32d8ddce1b",
+"tr": "65dc9accec08",
+"en": "0f00ecba1410",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English added unmarked '(on a hal)' after 'reliance' in the Abu l-Baqa quotation (Arabic: لأنه قد قوي باعتماده); removed.",
+"by": "semin-durr-u30",
+"at": "2026-10-11 02:33",
+"fixed": true
+},
+"p2": {
+"ar": "0e32d8ddce1b",
+"tr": "65dc9accec08",
+"en": "0f00ecba1410",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u19",
+"at": "2026-10-17 00:08",
+"fixed": false
+}
+},
+"semin-durr:22-22": {
+"p1": {
+"ar": "2c7a528da2ae",
+"tr": "e5879438c99d",
+"en": "fcbb9bfa6fc7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u30",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:23-23": {
+"p1": {
+"ar": "b30b5c4b626c",
+"tr": "9d17a0f8416e",
+"en": "3baf05565596",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u30",
+"at": "2026-10-11 02:33",
+"fixed": false
+},
+"p2": {
+"ar": "b30b5c4b626c",
+"tr": "9d17a0f8416e",
+"en": "3baf05565596",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u19",
+"at": "2026-10-17 00:08",
+"fixed": false
+}
+},
+"semin-durr:24-24": {
+"p1": {
+"ar": "1d75b61c288b",
+"tr": "6d28565c3687",
+"en": "9a31db3e6ce2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u30",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:25-25": {
+"p1": {
+"ar": "5152ce4bbd0e",
+"tr": "0800baecb4fc",
+"en": "862d9b21b077",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u30",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:27-27": {
+"p1": {
+"ar": "349a08741250",
+"tr": "d8fa8b1384de",
+"en": "7876f20a45b7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u30",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:28-28": {
+"p1": {
+"ar": "dabbe71f780c",
+"tr": "1f1b1318b803",
+"en": "7dd8d2c6169b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u30",
+"at": "2026-10-11 02:33",
+"fixed": false
+},
+"p2": {
+"ar": "dabbe71f780c",
+"tr": "1f1b1318b803",
+"en": "7dd8d2c6169b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u19",
+"at": "2026-10-17 00:08",
+"fixed": false
+}
+},
+"semin-durr:29-29": {
+"p1": {
+"ar": "de945efbbf36",
+"tr": "3d07d12923c1",
+"en": "a7eab287cee8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u30",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:31-31": {
+"p1": {
+"ar": "c05261793c7f",
+"tr": "e7f77f466850",
+"en": "a6f8287be0d9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u30",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:32-32": {
+"p1": {
+"ar": "554c83d654a5",
+"tr": "31f3c8c5d8ca",
+"en": "27f9f0add355",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p1-u10",
+"at": "2026-10-17 00:22",
+"fixed": false
+},
+"p2": {
+"ar": "554c83d654a5",
+"tr": "31f3c8c5d8ca",
+"en": "27f9f0add355",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish rendered al-Mubarrad's implied original «إنْ نظنُّ إلاَّ أنكم تظنون ظنَّاً» as \"we think only a thought that you think\", losing the أنّ-clause the refutation is about; fixed with the Arabic and a literal rendering.",
+"by": "semin-durr-p2-u19",
+"at": "2026-10-17 00:08",
+"fixed": true
+}
+},
+"semin-durr:34-34": {
+"p1": {
+"ar": "b47be2648829",
+"tr": "38c5b985c7dd",
+"en": "73dee7e919b6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u30",
+"at": "2026-10-11 02:33",
+"fixed": false
+},
+"p2": {
+"ar": "b47be2648829",
+"tr": "38c5b985c7dd",
+"en": "73dee7e919b6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u19",
+"at": "2026-10-17 00:08",
+"fixed": false
+}
+},
+"semin-durr:36-36": {
+"p1": {
+"ar": "ff08864ab861",
+"tr": "fd141ddbb231",
+"en": "09280e1feac8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u30",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+},
+"semin-durr:37-37": {
+"p1": {
+"ar": "22291e011d1d",
+"tr": "87d5eed13136",
+"en": "2d4892e85a56",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u30",
+"at": "2026-10-11 02:33",
+"fixed": false
+}
+}
+}

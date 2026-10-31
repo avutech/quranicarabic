@@ -1,0 +1,138 @@
+{
+"safi-cedvel:1-4": {
+"p1": {
+"ar": "63a5af927a92",
+"tr": "fe8a3e53e992",
+"en": "44f1ceda52ac",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:33",
+"fixed": false
+}
+},
+"safi-cedvel:5-6": {
+"p1": {
+"ar": "26da4cf37bfd",
+"tr": "8c20b4223cfd",
+"en": "e469537cfeae",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:33",
+"fixed": false
+}
+},
+"safi-cedvel:7-7": {
+"p1": {
+"ar": "ee2b517e1a82",
+"tr": "5295599e608b",
+"en": "d63b2dfea66d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p1-u7",
+"at": "2026-10-17 00:03",
+"fixed": false
+},
+"p2": {
+"ar": "ee2b517e1a82",
+"tr": "5295599e608b",
+"en": "d63b2dfea66d",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR rendered the nouns \"تقلبا وتصرفا ... واشتغالا\" as \"uğraşma ... meşgul olma\", which reads as a prohibition (\"do not be busy\"); changed to \"uğraşman ... meşgul olman (vardır)\".",
+"by": "safi-cedvel-p2-u23",
+"at": "2026-10-16 19:16",
+"fixed": true
+}
+},
+"safi-cedvel:8-14": {
+"p1": {
+"ar": "88ac56056737",
+"tr": "2ac4ca0d3e01",
+"en": "a81893b68845",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:33",
+"fixed": false
+}
+},
+"safi-cedvel:15-16": {
+"p1": {
+"ar": "db020cde0121",
+"tr": "7a75399d33d1",
+"en": "4376fdab074f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:33",
+"fixed": false
+}
+},
+"safi-cedvel:17-18": {
+"p1": {
+"ar": "960a149546eb",
+"tr": "96c96a28e09e",
+"en": "afbcbe095643",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:33",
+"fixed": false
+}
+},
+"safi-cedvel:19-19": {
+"p1": {
+"ar": "670bad293736",
+"tr": "59e5c5d5f8c9",
+"en": "b9a0c524e72c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:33",
+"fixed": false
+}
+},
+"safi-cedvel:20-20": {
+"p1": {
+"ar": "747caf17d18c",
+"tr": "7ffd42557e32",
+"en": "828af8fbc059",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English translator note wrongly said Hafs reads نصفِه وثلثِه as genitive (Hafs reads accusative) and was an unmarked-source addition; removed the note.",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:33",
+"fixed": true
+},
+"p2": {
+"ar": "747caf17d18c",
+"tr": "7ffd42557e32",
+"en": "828af8fbc059",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u23",
+"at": "2026-10-16 19:16",
+"fixed": false
+}
+}
+}

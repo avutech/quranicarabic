@@ -1,0 +1,108 @@
+{
+"dervis-irab:1-5": {
+"p1": {
+"ar": "83fbfb925bfa",
+"tr": "7d7aadb1d222",
+"en": "52ce5cab7618",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u91",
+"at": "2026-10-10 19:44",
+"fixed": false
+}
+},
+"dervis-irab:6-8": {
+"p1": {
+"ar": "fc85eaaf4ede",
+"tr": "80db55f2db6e",
+"en": "26dd187ac264",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN Benefits: added \"Zayd died\" not in source (source: زيد فاعلا وانقض الحائط); EN silently corrected أرادهم to \"shows them\" (now rendered as written with note); EN Rhetoric 3 dropped \"وإن عليه\" incumbency (restored)",
+"by": "dervis-irab-u91",
+"at": "2026-10-10 19:44",
+"fixed": true
+},
+"p2": {
+"ar": "fc85eaaf4ede",
+"tr": "80db55f2db6e",
+"en": "26dd187ac264",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u5",
+"at": "2026-10-17 00:03",
+"fixed": false
+}
+},
+"dervis-irab:9-11": {
+"p1": {
+"ar": "1f949037355f",
+"tr": "b8d404753564",
+"en": "5a1598395e8b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u91",
+"at": "2026-10-10 19:44",
+"fixed": false
+}
+},
+"dervis-irab:12-13": {
+"p1": {
+"ar": "651aabee37e0",
+"tr": "02538615c106",
+"en": "1cfc08ea2be3",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR: \"ومن من الأخ\" typo was silently turned into \"الأخ ten [hal oldugu da soylenmistir]\" without a translator note; added note. EN: poem «تركت» rendered \"I left\" although introduced as complaining of a woman (she left), now with note; \"[backbiting]\" bracket removed in Anas hadith",
+"by": "dervis-irab-p1-u3",
+"at": "2026-10-17 00:18",
+"fixed": true
+},
+"p2": {
+"ar": "651aabee37e0",
+"tr": "02538615c106",
+"en": "1cfc08ea2be3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u4",
+"at": "2026-10-17 00:31",
+"fixed": false
+}
+},
+"dervis-irab:14-18": {
+"p1": {
+"ar": "142dd707171e",
+"tr": "dd4c73715f10",
+"en": "2fd517663008",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u4",
+"at": "2026-10-17 01:11",
+"fixed": false
+},
+"p2": {
+"ar": "142dd707171e",
+"tr": "dd4c73715f10",
+"en": "2fd517663008",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN vocabulary rendered the forms in al-Samin quote as transliteration and the hamzated imperfect يألته as \"yalituhu\" (dropping the hamza that is the point of the sentence) and يلته/يعده without the pronoun; replaced with the Arabic script forms.",
+"by": "dervis-irab-p2-u12",
+"at": "2026-10-17 01:06",
+"fixed": true
+}
+}
+}

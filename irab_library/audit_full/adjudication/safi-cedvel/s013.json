@@ -1,0 +1,67 @@
+{
+"safi-cedvel:11-11": {
+"hs": [
+"2e1c25b6be75",
+"12e3d10f8ba3",
+"c6219c98a32f"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Fawa'id (a): source «فيلهجون بالدعاة إلى الله» (they keep mentioning the callers/those who pray to Allah). EN 'so they cry out with supplications to Allah' silently translates the emended text بالدعاء with no Translator's note; source silently corrected. TR correctly translates بالدعاة and explains the probable بالدعاء in a Mütercim notu; EN needs the same treatment.",
+"at": "2026-10-17 00:42"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic Benefits (أ): «فيلهجون بالدعاة إلى الله» - written الدعاة (callers/those who call), not الدعاء. English 'they cry out with supplications to Allah' silently translates the presumed correction الدعاء with no «[Translator's note: …]», violating 'the source is never silently corrected'. Fix: translate what is written and note the likely intended «بالدعاء» (as the Turkish does).",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Benefits a-: translated بالدعاة as written ('the callers to Allah') and put the probable بالدعاء reading in a Translator's note",
+"verified": "PASS",
+"verify_note": "Benefits (a) now translates the written بالدعاة ('callers to Allah') with the probable بالدعاء explained in a Translator's note; rest of EN complete and faithful"
+}
+},
+"history": [
+{
+"old_hs": [
+"2e1c25b6be75",
+"12e3d10f8ba3",
+"8fa2b16c3a1e"
+],
+"dim": "en",
+"what": "Benefits a-: translated بالدعاة as written ('the callers to Allah') and put the probable بالدعاء reading in a Translator's note",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"safi-cedvel:19-25": {
+"hs": [
+"b1246e509b81",
+"7db5573b1be2",
+"0e2236e2af68"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Arabic footnote: «أو خبر لمبتدأ محذوف تقديره هي». English: 'its implied form being \"they\" (هي)' keeps the Arabic word هي itself and glosses it by its referent: هي here stands for the non-human plural جنّات (gardens), which in English is correctly 'they'. The meaning is accurate and nothing is added or lost; rest of the entry's English was not shown to be wrong by the claim.",
+"at": "2026-10-17 00:42"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Footnote on (جنّات): «أو خبر لمبتدأ محذوف تقديره هي». The omitted pronoun هي refers back to the plural non-human جنّات (gardens), which Arabic refers to with feminine singular هي; in English that referent is 'they'. EN '\"they\" (هي)' keeps the Arabic هي in script and gives the correct English sense for this referent; no wrong meaning, no omission.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

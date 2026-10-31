@@ -1,0 +1,32 @@
+{
+"muyesser-irab:6-6": {
+"hs": [
+"d5b51168f07f",
+"7cff334f691b",
+"8d0a818cc4f7"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Reviewer's specific claim is false: EN already says 'with no stated excepted-from', matching والاستثناء مفرغ. But the Arabic only says «والاستثناء مفرغ»; the gloss '(mufarragh, i.e. with no stated excepted-from)' is an explanatory addition not in the source and is not inside [Translator's note: ...]. Fix: move the explanation into a translator's note.",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Arabic: ﴿فرارًا﴾ مفعول به ثانٍ، والاستثناء مفرغ. Current EN: 'second mafʿūl bihi; and the exception is \"emptied\" (mufarragh, i.e. with no stated excepted-from)' - correct; the reviewer's claimed 'with stated excepted-from' is not in the current text. The gloss after mufarragh is the term gloss allowed by glossary rule 6. All other lines (فلم، يزدهم، دعائي، إلا) complete and correct.",
+"at": "2026-10-17 00:41"
+},
+"J3": {
+"class": "FALSE_ALARM",
+"evidence": "Reviewer misread the English. Arabic: «فرارًا: مفعول به ثانٍ، والاستثناء مفرغ». English: 'second mafʿūl bihi; and the exception is \"emptied\" (mufarragh, i.e. with no stated excepted-from)' -- it says NO stated excepted-from (al-mustathnā minhu is not mentioned), which is exactly what istithnāʾ mufarragh means; no negation reversal. The short parenthetical is the first-use technical-term gloss allowed by glossary_en.md rule 6, not a substantive addition. Other lines (فلم, يزدهم first object, دعائي fāʿil, إلا ḥaṣr) are all faithful.",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "HUMAN"
+}
+}
+}
+}

@@ -1,0 +1,27 @@
+{
+"zajjaj:58-58": {
+"hs": [
+"cebaeef70c77",
+"6833d6474c57",
+"7308193115f9"
+],
+"dims": {
+"fit": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "The entry quotes and explains «﴿ما ضَرَبُوهُ لَكَ إلا جَدَلا﴾ أيْ: طَلَبًا لِلْمُجادَلَةِ», which is the middle of 43:58, so it is filed under the right ayah. The final «...أنَّهُ يَعْنِي بِهِ الأصْنامَ، وهم» is terse (most likely 'the idols and them [the worshippers]') but the entry is intelligible and translatable, not a garbled/copy-pasted source; both readings already flag the abrupt end in a marked note. Placement needs no change.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "The entry explains «ما ضَرَبُوهُ لَكَ إلا جَدَلا», which is 43:58, so it is filed correctly. The truncated ending «وهم» is already flagged by notes in both readings, and the rest of the entry can still be placed and translated.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

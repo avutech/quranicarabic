@@ -1,0 +1,11 @@
+{
+ "surah": 4,
+ "chunk": "62-129",
+ "verdicts": {
+  "OK": 137,
+  "TRANSLATION_FIXED": 1,
+  "GAP": 9
+ },
+ "summary": "Surah 4:62-129: 13 high/medium findings (all NEAR/XREF-type false positives = OK, except semin-durr:77-77 whose Turkish wrongly contained the whole 4:78 entry and was fixed via tr_tool put); 84 SEM checks (6 per book, 14 books) all OK; 45 low findings all OK (UNFOUND are tool spelling artefacts); 9 GAP ranges recorded as source silence; no SOURCE_MISPLACED/DEFECT found.",
+ "at": "2026-10-10 14:58"
+}

@@ -1,0 +1,286 @@
+{
+"dervis-irab:64-70": {
+"p1": {
+"ar": "c8a953fa8e6a",
+"tr": "98cc9a8dd5b3",
+"en": "338fc59f53bd",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u83",
+"at": "2026-10-10 19:40",
+"fixed": false
+}
+},
+"dervis-irab:71-76": {
+"p1": {
+"ar": "0c4ce907fc7a",
+"tr": "fba184f950f4",
+"en": "1eee49fd5158",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u83",
+"at": "2026-10-10 19:40",
+"fixed": false
+}
+},
+"dervis-irab:77-83": {
+"p1": {
+"ar": "b96a12906df8",
+"tr": "b7d64d7ecc27",
+"en": "48d7b78cf5d6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u83",
+"at": "2026-10-10 19:40",
+"fixed": false
+}
+},
+"dervis-irab:84-96": {
+"p1": {
+"ar": "2c9c9273ec38",
+"tr": "8be09ac07cd1",
+"en": "c2668a983a07",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u83",
+"at": "2026-10-10 19:40",
+"fixed": false
+}
+},
+"dervis-irab:1-11": {
+"p1": {
+"ar": "28e90b1cc787",
+"tr": "ecb49333fae3",
+"en": "7a599c235730",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u82",
+"at": "2026-10-10 19:41",
+"fixed": false
+}
+},
+"dervis-irab:12-16": {
+"p1": {
+"ar": "b084c5b210bd",
+"tr": "dc6cbe8bc739",
+"en": "0eab553b960c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u82",
+"at": "2026-10-10 19:41",
+"fixed": false
+}
+},
+"dervis-irab:17-21": {
+"p1": {
+"ar": "3c6405a45f87",
+"tr": "09d5265bc349",
+"en": "439d775a742a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u82",
+"at": "2026-10-10 19:41",
+"fixed": false
+}
+},
+"dervis-irab:97-104": {
+"p1": {
+"ar": "ae8e46ccb1ea",
+"tr": "220883147b6f",
+"en": "9b6b00314c64",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u83",
+"at": "2026-10-10 19:41",
+"fixed": false
+}
+},
+"dervis-irab:105-110": {
+"p1": {
+"ar": "b846257c6dec",
+"tr": "4f55e2b8ae83",
+"en": "98afa7446b08",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Both: «وهي تولية الطرق» was glossed with invented meanings (TR \"otlağa çıkmaktan geri durma\", EN \"drying up of the waters\") and TR \"zayıfladı\"; now left untranslated with note. EN: unmarked addition \"[i.e. the pronoun of the matter]\" removed.",
+"by": "dervis-irab-p1-u13",
+"at": "2026-10-17 00:09",
+"fixed": true
+},
+"p2": {
+"ar": "b846257c6dec",
+"tr": "4f55e2b8ae83",
+"en": "98afa7446b08",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u18",
+"at": "2026-10-17 00:18",
+"fixed": false
+}
+},
+"dervis-irab:111-118": {
+"p1": {
+"ar": "058b6afe7645",
+"tr": "33f8403289c9",
+"en": "2bf62258bb36",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR had unmarked addition \"(ve donmeyeceginiz icin)\" after \"abes icin\" (Arabic only: ay lil-abath); removed.",
+"by": "dervis-irab-u83",
+"at": "2026-10-10 19:41",
+"fixed": true
+},
+"p2": {
+"ar": "058b6afe7645",
+"tr": "33f8403289c9",
+"en": "2bf62258bb36",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u32",
+"at": "2026-10-16 19:21",
+"fixed": false
+}
+},
+"dervis-irab:22-28": {
+"p1": {
+"ar": "b584c2c8724d",
+"tr": "7ef4c94b4577",
+"en": "0d210c0a854e",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN rendered «لرد» silently as \"to relate\"; now translated as written with a translator note.",
+"by": "dervis-irab-u82",
+"at": "2026-10-10 19:41",
+"fixed": true
+},
+"p2": {
+"ar": "b584c2c8724d",
+"tr": "7ef4c94b4577",
+"en": "0d210c0a854e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u31",
+"at": "2026-10-16 19:18",
+"fixed": false
+}
+},
+"dervis-irab:29-36": {
+"p1": {
+"ar": "27d811e9b365",
+"tr": "3ab44d093ac1",
+"en": "059c78118213",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u82",
+"at": "2026-10-10 19:41",
+"fixed": false
+}
+},
+"dervis-irab:37-43": {
+"p1": {
+"ar": "a121a2858c7d",
+"tr": "5755f96dfc8a",
+"en": "2979e57b9a68",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR transliterated the Quranic word as \"gusâ\" (now «غثاء»); EN rendered «فعلا» as \"fillet\" (now \"deed\" with translator note).",
+"by": "dervis-irab-u82",
+"at": "2026-10-10 19:43",
+"fixed": true
+},
+"p2": {
+"ar": "a121a2858c7d",
+"tr": "5755f96dfc8a",
+"en": "2979e57b9a68",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u32",
+"at": "2026-10-16 19:20",
+"fixed": false
+}
+},
+"dervis-irab:44-50": {
+"p1": {
+"ar": "c56644095590",
+"tr": "938cc9c58976",
+"en": "e2e06b330b09",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Source «كسبيع» was silently normalised to «مبيع» in TR and EN; now as written with a translator note.",
+"by": "dervis-irab-u82",
+"at": "2026-10-10 19:43",
+"fixed": true
+},
+"p2": {
+"ar": "c56644095590",
+"tr": "938cc9c58976",
+"en": "e2e06b330b09",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u32",
+"at": "2026-10-16 19:20",
+"fixed": false
+}
+},
+"dervis-irab:51-56": {
+"p1": {
+"ar": "e8642b7d53fb",
+"tr": "65ef1a630fac",
+"en": "b83259622055",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u82",
+"at": "2026-10-10 19:43",
+"fixed": false
+}
+},
+"dervis-irab:57-63": {
+"p1": {
+"ar": "adbe9e0bb787",
+"tr": "d95a68cd094b",
+"en": "9d327b84a672",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u82",
+"at": "2026-10-10 19:43",
+"fixed": false
+}
+}
+}

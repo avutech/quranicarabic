@@ -1,0 +1,42 @@
+{
+"akhfash:11-11": {
+"p1": {
+"ar": "f556dbaab483",
+"tr": "4b4b1a8e8f8f",
+"en": "0e22e754b913",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-p1-u1",
+"at": "2026-10-17 00:04",
+"fixed": false
+},
+"p2": {
+"ar": "f556dbaab483",
+"tr": "4b4b1a8e8f8f",
+"en": "0e22e754b913",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN silently re-vowelled the source word \"الدَرْع\" as \"دِرْع\"; restored to the source form.",
+"by": "akhfash-p2-u1",
+"at": "2026-10-16 19:10",
+"fixed": true
+}
+},
+"akhfash:15-15": {
+"p1": {
+"ar": "3e868b1622da",
+"tr": "f9b6badc70a6",
+"en": "eb6c7b154c6d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+}
+}

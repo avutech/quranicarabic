@@ -1,0 +1,344 @@
+{
+"semin-durr:13-13": {
+"hs": [
+"02ec3d1f201b",
+"75d6c311bd46",
+"0da2d3bc3a70"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: وإمَّا على الانتقال إلى الإِخبارِ = 'or by way of transition to [third-person] reporting'. EN 'transition to [a general] statement' inserts '[a general]' in plain brackets, not in a Translator's note, and it is not in the Arabic (it also skews the sense: the point is a shift to third-person narration). Unmarked addition; should be removed or put in [Translator's note: ...].",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «وإمَّا على الانتقال إلى الإِخبارِ» = 'or by way of transition to reporting (third-person statement)'. EN renders 'transition to [a general] statement': the word 'general' has no counterpart in the Arabic and is an interpretive addition placed in plain brackets, not in a [Translator's note: ...]. It also shifts the sense (the point is a shift from address to third-person report, not to a 'general' statement). Fix: drop 'a general' or move it into a Translator's note.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Latin 'qiṭmīr' replaced by «القِطْميرُ»/«قِطْمير» (incl. v.3764 gloss); list items fatīl/naqīr/thufrūq also put in Arabic script («الفَتِيلُ», «النَّقِيْرُ», «الثُّفْروقُ»)",
+"verify_note": "'[a general]' removed (now 'transition to reporting') - fixed. But the Quranic word قطمير is transliterated in Latin: 'Al-qiṭmīr: the well-known view...', 'al-qiṭmīr, which is the wrapping' and 'so much as a qiṭmīr' in the v.3764 gloss; it must stay in Arabic script («القِطْمير»).",
+"fix_failed": 1
+}
+},
+"history": [
+{
+"old_hs": [
+"02ec3d1f201b",
+"75d6c311bd46",
+"a4d741a8fe5d"
+],
+"dim": "en",
+"what": "Removed unmarked '[a general]': الانتقال إلى الإخبار now 'transition to reporting'",
+"at": "2026-10-17 00:43"
+},
+{
+"old_hs": [
+"02ec3d1f201b",
+"75d6c311bd46",
+"3778472eea27"
+],
+"dim": "en",
+"what": "Latin 'qiṭmīr' replaced by «القِطْميرُ»/«قِطْمير» (incl. v.3764 gloss); list items fatīl/naqīr/thufrūq also put in Arabic script («الفَتِيلُ», «النَّقِيْرُ», «الثُّفْروقُ»)",
+"at": "2026-10-17 00:51"
+}
+]
+},
+"semin-durr:19-19": {
+"hs": [
+"4bc13d57286c",
+"6d4256cc08bc",
+"192d9edcd9c2"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: والأحياء والأمواتُ، لمَنْ دَخَل في الإِسلامِ ends there. EN 'the living and the dead [stand] for whoever has entered Islam [and whoever has not]' adds '[and whoever has not]' which is not in the Arabic, in plain brackets rather than a Translator's note. Unmarked interpretive addition.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «والأحياء والأمواتُ، لمَنْ دَخَل في الإِسلامِ» - the text gives only 'for whoever has entered Islam'. EN 'the living and the dead [stand] for whoever has entered Islam [and whoever has not]' adds '[and whoever has not]', which is not in the Arabic; it is an unmarked interpretive completion (plain brackets, not a Translator's note). Fix: put it inside [Translator's note: ...] or remove.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Latin 'ḥarūr'/'samūm' replaced by Arabic script «الحَرُوْرُ»/«الحَرور», «السَّمُوم»/«السَّموم»",
+"verify_note": "'[and whoever has not]' removed; الحرور/السموم now in Arabic script; complete and faithful.",
+"fix_failed": 1,
+"verified": "PASS"
+}
+},
+"history": [
+{
+"old_hs": [
+"4bc13d57286c",
+"6d4256cc08bc",
+"e1f379900a27"
+],
+"dim": "en",
+"what": "Removed unmarked '[and whoever has not]' (Arabic ends لمن دخل في الإسلام)",
+"at": "2026-10-17 00:43"
+},
+{
+"old_hs": [
+"4bc13d57286c",
+"6d4256cc08bc",
+"18e44ad8a8e3"
+],
+"dim": "en",
+"what": "Latin 'ḥarūr'/'samūm' replaced by Arabic script «الحَرُوْرُ»/«الحَرور», «السَّمُوم»/«السَّموم»",
+"at": "2026-10-17 00:51"
+}
+]
+},
+"semin-durr:35-35": {
+"hs": [
+"be58e271e9ed",
+"65e4da3400df",
+"fa6ad8c5439c"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: كالبيوتِ والمنازل التي فيها الأسفارُ = 'like the houses and stations in which journeys are/take place'. EN 'in which journeys [end]' adds an interpretive verb '[end]' that is not in the Arabic, in plain brackets, not a Translator's note. Unmarked addition with a specific interpretation.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «كالبيوتِ والمنازل التي فيها الأسفار» = 'like the houses and stations in which there are journeys'. EN 'houses and stations in which journeys [end]' supplies the verb 'end', which is not in the Arabic and is an interpretation of the author's wording; it is in plain brackets, not a [Translator's note: ...]. Fix: translate literally ('in which journeys take place / which journeys involve') or mark the gloss as a Translator's note.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Quranic words defined by the author now in Arabic script: «المُقامة», «النَّصَب», «اللُّغوب» (x3), «لُغوبٌ لَغوبٌ» replace Latin transliterations",
+"verify_note": "Fixed: المُقامة/النَّصَب/اللُّغوب now in Arabic script; 'in which there are journeys' literal; complete and faithful, no unmarked additions.",
+"fix_failed": 2,
+"verified": "PASS"
+}
+},
+"history": [
+{
+"old_hs": [
+"be58e271e9ed",
+"65e4da3400df",
+"bdb098628fb6"
+],
+"dim": "en",
+"what": "Replaced unmarked 'journeys [end]' with literal 'in which there are journeys' (التي فيها الأسفار)",
+"at": "2026-10-17 00:43"
+},
+{
+"old_hs": [
+"be58e271e9ed",
+"65e4da3400df",
+"f856713f5b6b"
+],
+"dim": "en",
+"what": "Quranic words defined by the author now in Arabic script: «المُقامة», «النَّصَب», «اللُّغوب» (x3), «لُغوبٌ لَغوبٌ» replace Latin transliterations",
+"at": "2026-10-17 00:49"
+}
+]
+},
+"semin-durr:37-37": {
+"hs": [
+"fd94e656bfef",
+"de9b74cc4db9",
+"97f21f654c86"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic Zamakhshari quote ends: أَخْرِجْنا نعمَلْ صالحاً غيرَ الذي كُنَّا نَحْسَبُه صالحاً فنعملُه. TR 'Bizi çıkar, salih diye sandığımız şeyden başka salih bir amel yapalım' drops فنعملُه ('and [which we] used to do'), so the clause 'which we used to reckon righteous and do' loses its second verb. Omission; EN has it ('reckon righteous and do').",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic end of al-Zamakhshari quote: «أَخْرِجْنا نعمَلْ صالحاً غيرَ الذي كُنَّا نَحْسَبُه صالحاً فنعملُه» = 'other than what we used to reckon righteous AND SO DO IT'. TR 'Bizi çıkar, salih diye sandığımız şeyden başka salih bir amel yapalım' drops «فنعملُه» (…'sanıp yaptığımız şeyden'). The omitted verb matters: the point is that they used to DO what they thought righteous. Omission confirmed; EN has it ('reckon righteous and do').",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Zamakhshari quote: restored omitted فنعملُه ('salih diye sanıp yaptığımız şeyden')",
+"verified": null,
+"verify_note": "فنعملُه now rendered ('salih diye sanıp yaptığımız şeyden') - fixed. But Quranic words are transliterated in Latin letters: '«Yestarihûne»: «ifti'âl» vezninde' for يصطرخون, '“salihen” ile yetinildiği' for صالحاً, and 'Bu «mâ» hakkında' for ما of ما يتذكر; they must stay in Arabic script.",
+"fix_failed": 2
+}
+},
+"history": [
+{
+"old_hs": [
+"fd94e656bfef",
+"055c4542f4dc",
+"97f21f654c86"
+],
+"dim": "tr",
+"what": "Zamakhshari quote: restored omitted فنعملُه ('salih diye sanıp yaptığımız şeyden')",
+"at": "2026-10-17 00:44"
+}
+]
+},
+"semin-durr:41-41": {
+"hs": [
+"a4d3a7f98901",
+"b67fe7b1e24a",
+"4b1160d5cef0"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic has only قال الشيخ; TR 'Şeyh [Ebû Hayyân] dedi ki' inserts the identification '[Ebû Hayyân]' in plain brackets, not inside [Mütercim notu: ...]. The identification is plausible but it is an unmarked addition under the binding standard; fix by moving it into a Mütercim notu.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic has only «قال الشيخ». TR writes 'Şeyh [Ebû Hayyân] dedi ki'. The identification is probably right, but it is not in the text and sits in plain brackets rather than «[Mütercim notu: …]». Glossary rule 9 says any addition made for clarity must be marked that way, so this is an unmarked addition. Fix: 'Şeyh [Mütercim notu: Ebû Hayyân] dedi ki'.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "'Şeyh [Ebû Hayyân]' -> identification moved into Mütercim notu",
+"verified": "PASS",
+"verify_note": "Şeyh [Mütercim notu: Ebû Hayyân] now properly marked; TR complete and faithful to the Arabic, no other unmarked additions."
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic has only كذا قَدَّره أبو إسحاق and قال الشيخ; EN writes 'Abū Isḥāq (al-Zajjāj)' and 'The Shaykh (Abū Ḥayyān)', adding identifications not in the text, unmarked (parentheses, no Translator's note). Unmarked additions; should go in [Translator's note: ...].",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «كذا قَدَّره أبو إسحاق» and «قال الشيخ». EN adds '(al-Zajjāj)' after 'Abū Isḥāq' and '(Abū Ḥayyān)' after 'The Shaykh'. Neither identification is in the Arabic, though both are likely correct. Both are unmarked parenthetical additions, against glossary_en rule 9: 'Anything you add for clarity is marked' as [Translator's note: …]. Fix: move both into Translator's notes.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Identifications (al-Zajjāj) and (Abū Ḥayyān) moved into Translator's notes",
+"verified": "PASS",
+"verify_note": "Abū Isḥāq [Translator's note: al-Zajjāj] and The Shaykh [Translator's note: Abū Ḥayyān] now marked; EN complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"a4d3a7f98901",
+"6970729aebda",
+"fc595bb81a72"
+],
+"dim": "tr",
+"what": "'Şeyh [Ebû Hayyân]' -> identification moved into Mütercim notu",
+"at": "2026-10-17 00:44"
+},
+{
+"old_hs": [
+"a4d3a7f98901",
+"b67fe7b1e24a",
+"4b1160d5cef0"
+],
+"dim": "en",
+"what": "Identifications (al-Zajjāj) and (Abū Ḥayyān) moved into Translator's notes",
+"at": "2026-10-17 00:44"
+}
+]
+},
+"semin-durr:43-43": {
+"hs": [
+"3e92993c9dcc",
+"e216f7555716",
+"cb6eaef4b6b8"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: وقرأ عبد الله and قال الحماسي only. TR 'Abdullah [İbn Mes'ûd]' and 'Hamâsî [şair]' add identifications not in the Arabic in plain brackets, not inside [Mütercim notu: ...]. Unmarked additions.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «وقرأ عبد الله» and «قال الحماسي». TR renders these as 'Abdullah [İbn Mes'ûd]' and 'Hamâsî [şair] dedi ki'. Neither bracket has a counterpart in the Arabic, and both are plain brackets rather than «[Mütercim notu: …]». Glossary rule 9 requires any clarifying addition to be marked that way. The rest of the entry is complete and faithful. Fix: put both identifications inside Mütercim notu.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked plain-bracket additions: dropped '[terkip]' and '[sükûn]'; '[kesre]', '[dil hatasına]', '[harfleri yer değiştirmiş]' now inside [Mütercim notu: …]",
+"verify_note": "Fixed: all explanatory additions (kesre, dil hatası, harfleri yer değiştirmiş, İbn Mes'ûd) now inside Mütercim notu; [sükûn]/[terkip]/[şair] removed; complete and faithful.",
+"fix_failed": 2,
+"verified": "PASS"
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: وقرأ عبد الله only. EN 'ʿAbd Allāh (Ibn Masʿūd) read' adds the identification '(Ibn Masʿūd)' not present in the Arabic, unmarked (no Translator's note). Unmarked addition; rest of EN is faithful.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «وقرأ عبد الله: ومَكْراً سَيِّئاً». EN 'ʿAbd Allāh (Ibn Masʿūd) read' adds '(Ibn Masʿūd)', which is not in the source. The identification is standard, but it is an unmarked parenthetical addition, against glossary_en rule 9: additions for clarity go in [Translator's note: …]. The rest of the EN is faithful. Fix: move the identification into a Translator's note.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Identification (Ibn Masʿūd) moved into Translator's note",
+"verified": "PASS",
+"verify_note": "ʿAbd Allāh [Translator's note: Ibn Masʿūd] now marked; EN complete and faithful, no Quranic words transliterated, no other unmarked additions."
+}
+},
+"history": [
+{
+"old_hs": [
+"3e92993c9dcc",
+"43007b13b6a8",
+"d7f1000cba1a"
+],
+"dim": "tr",
+"what": "Removed unmarked '[şair]' after Hamâsî; İbn Mes'ûd identification moved into Mütercim notu",
+"at": "2026-10-17 00:44"
+},
+{
+"old_hs": [
+"3e92993c9dcc",
+"b7c791d44397",
+"cb6eaef4b6b8"
+],
+"dim": "en",
+"what": "Identification (Ibn Masʿūd) moved into Translator's note",
+"at": "2026-10-17 00:44"
+},
+{
+"old_hs": [
+"3e92993c9dcc",
+"b7c791d44397",
+"cb6eaef4b6b8"
+],
+"dim": "tr",
+"what": "Removed unmarked plain-bracket additions: dropped '[terkip]' and '[sükûn]'; '[kesre]', '[dil hatasına]', '[harfleri yer değiştirmiş]' now inside [Mütercim notu: …]",
+"at": "2026-10-17 00:49"
+}
+]
+}
+}

@@ -1,0 +1,82 @@
+{
+"dervis-irab:1-16": {
+"p1": {
+"ar": "0ffa033a0517",
+"tr": "22c6eda07bf7",
+"en": "62f95d93bae4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u92",
+"at": "2026-10-10 19:44",
+"fixed": false
+}
+},
+"dervis-irab:17-28": {
+"p1": {
+"ar": "5c4e5fef1df2",
+"tr": "5ef0b942f051",
+"en": "0c3c142a6da2",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR: «معجبين» rendered \"imrenmis\" (envious/longing) instead of admiring; «ملتبسة بإيمان» rendered \"imanla bezenmis\" (adorned) instead of accompanied by faith; fixed",
+"by": "dervis-irab-p1-u3",
+"at": "2026-10-17 00:21",
+"fixed": true
+},
+"p2": {
+"ar": "5c4e5fef1df2",
+"tr": "5ef0b942f051",
+"en": "0c3c142a6da2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u5",
+"at": "2026-10-17 00:30",
+"fixed": false
+}
+},
+"dervis-irab:29-38": {
+"p1": {
+"ar": "ea848aa37ce1",
+"tr": "77df3701f772",
+"en": "2413fec4aa00",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u92",
+"at": "2026-10-10 19:45",
+"fixed": false
+}
+},
+"dervis-irab:39-49": {
+"p1": {
+"ar": "b2d8e6b86249",
+"tr": "65e43a07fd8f",
+"en": "09f0aa20263b",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN lugha for kisf: Arabic says وقيل قطعا (pieces) but EN gave a vocalized word instead; and EN silently corrected source typo يحني to gathers without a note. Fixed both.",
+"by": "dervis-irab-u92",
+"at": "2026-10-10 19:45",
+"fixed": true
+},
+"p2": {
+"ar": "b2d8e6b86249",
+"tr": "65e43a07fd8f",
+"en": "09f0aa20263b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u6",
+"at": "2026-10-17 00:03",
+"fixed": false
+}
+}
+}

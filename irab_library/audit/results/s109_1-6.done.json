@@ -1,0 +1,10 @@
+{
+ "surah": 109,
+ "chunk": "1-6",
+ "verdicts": {
+  "OK": 29,
+  "GAP": 7
+ },
+ "summary": "Surah 109 all 14 books checked; two NEAR findings were whole-surah entries (OK), two UNFOUND false positives, 25 SEM OK, 7 GAP (source brevity). No mismatches or translation fixes.",
+ "at": "2026-10-10 15:18"
+}

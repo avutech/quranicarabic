@@ -1,0 +1,27 @@
+{
+"muyesser-irab:5-5": {
+"hs": [
+"538e7ffdaac3",
+"7b791a5ffe92",
+"5d78bde3f3a0"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "The entry parses every word of 45:5 (واختلاف الليل والنهار ... وتصريف الرياح آيات لقوم يعقلون) and is filed under 45:5. «عطف أيضًا على ﴿خلقكم﴾ منزل تنزيله» refers back to 45:4 only as the antecedent, which is fine; any awkward wording is not a placement issue.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "The whole entry parses 45:5 (واختلاف الليل والنهار وما أنزل الله من السماء من رزق فأحيا به الأرض بعد موتها وتصريف الرياح آيات لقوم يعقلون); reference to ﴿خلقكم﴾ is to 45:4 as the conjoined-to element, which is fine. The garbled phrase «منزل تنزيله من أنه متعلق بمحذوف خبر مقدم» is an internal wording issue, not a placement problem.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

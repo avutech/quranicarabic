@@ -1,0 +1,52 @@
+{
+"semin-durr:5-5": {
+"hs": [
+"dc5e7e80074b",
+"8b4979dad6df",
+"58b978f3b500"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Arabic: «كان ينبغي أن يقولَ: لا يكونُ مُسَبَّباً عن تعذيب الكفارِ» = (the increase) is not caused by/the result of punishing the disbelievers. TR: «kâfirlere azabın sebep sonucu olmaz demesi gerekirdi» = 'is not the causal result of the punishment of the disbelievers'. The direction is NOT reversed: 'azabın sonucu' = result of the punishment (مسبَّب عن), contrasted with the Shaykh's «azabın sebebi olmaz» (سبباً لتعذيب). The wording 'sebep sonucu' is clumsy (could be 'azabın sonucu/müsebbebi olmaz') but the meaning matches the Arabic and keeps the author's sabab/musabbab contrast.",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Arabic: كان ينبغي أن يقول: لا يكون مُسَبَّباً عن تعذيب الكفار. TR 'kâfirlere azabın sebep sonucu olmaz demesi gerekirdi' = '(it) is not the caused result of the punishment of the disbelievers'; subject is the implied increase, as in the Arabic, and the direction (caused-by punishment) matches مسبباً عن, consistent with TR's earlier 'azap etmesinden kaynaklanan bir sebep sonucu değildir'. Awkward but not reversed.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+},
+"semin-durr:21-21": {
+"hs": [
+"cc9a780e6cb6",
+"3207d1fa42f7",
+"33fa953fb68a"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Arabic «وثَمَّ أُخْرى لم تَقْدِروا عليها»: قدر على = to be able to get/have power over something. EN 'and there is another which you were not able to take' is a legitimate lexical rendering of قدرتم عليها in this spoils context (get hold of/obtain); it adds no new proposition beyond the verb's sense. 'had no power over' would be an alternative wording, not a correction.",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Arabic: وثَمَّ أُخْرى لم تَقْدِروا عليها. قَدَرَ على here means to have power over/get hold of (the spoils/conquest); 'which you were not able to take' is a legitimate idiomatic rendering of the verb+على, not an added concept; no unmarked addition of meaning.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

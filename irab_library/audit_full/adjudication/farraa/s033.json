@@ -1,0 +1,58 @@
+{
+"farraa:52-53": {
+"hs": [
+"fd38af7e7260",
+"1604db91aa4c",
+"bf230e7fc4a8"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Arabic: كانوا يدخلون على النبى عليه السلام فى وقت الغَدَاء. الغداء is the meal of the early part of the day (from غُدوة, before noon), so TR 'sabah yemeği vaktinde' is a legitimate rendering (EN 'midday meal' is also within range); no error. Rest of TR checked: (أن) in رفع, لا يحل with yā', غير ناظرين nasb/khafd, A'shā verse, ولا مستأنسين, the sabab al-nuzūl incl. لئن مات محمد لأتزوجن (oath lam rendered 'vallahi') and لا جناح عليهن فى آبائهن are faithful.",
+"at": "2026-10-17 00:40"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "الغداء rendered 'sabah yemeği' is acceptable (الغَداء is the meal of the غُدوة, morning/forenoon), so the flagged point is not an error. But TR contains unmarked interpretive additions: 'فنُصبت على الفعل' rendered 'fiil üzere (hâl olarak) nasb edildi' — '(hâl olarak)' is not in the Arabic; 'ولو جعلت المستأنسين في موضع نصب تتوهم أن تتبعه بغير' rendered with an added apodosis '(bu da caiz olurdu)' that the Arabic lacks; also '(muhatapların)', '(değerinde)'. These must be marked as Mütercim notu.",
+"at": "2026-10-17 00:41"
+},
+"J3": {
+"class": "CONFIRMED",
+"evidence": "The flagged point itself is not an error: الغداء (فى وقت الغَدَاء) is the forenoon/first meal of the day, so 'sabah yemeği' is a defensible rendering. But the Turkish has unmarked explanatory additions, which glossary rule 9 forbids: (1) 'fiil üzere (hâl olarak) nasb edildi' for فنُصبت على الفعل: the reading 'hâl' is an interpretation that is not in the Arabic (the English correctly puts it in brackets as an explicit gloss); (2) 'kavmin (muhatapların) sıfatıdır' for نعت للقوم; (3) 'nasb mahallinde kılsaydın (bu da caiz olurdu)' supplies an apodosis that ولو جعلت المستأنسين فى موضع نصب ... does not state; (4) 'iki eli dolusu (değerinde)' for بملء يَدىْ. Fix: move these into «[Mütercim notu: …]» or remove them. The rest matches the Arabic.",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved '(hâli)' and '(takdiri)' into Mütercim notu; also '(aşirete)' in verse gloss into a note; removed parenthetical '(âyetini)' fillers (first kept unparenthesized as it renders إلى آخر الآية)",
+"verify_note": "The previously flagged items ('hâli', 'takdiri') are now Mütercim notu and the rest is faithful. One unmarked addition remains: ومعناه: بملء يدي من اقتادها is rendered 'Onu yedeğinde çekenin iki eli dolusu [Mütercim notu: değerinde] bir deve ile'. The words 'bir deve' are not in the Arabic. Remove them or move them into the Mütercim notu.",
+"fix_failed": 2,
+"verified": null
+}
+},
+"history": [
+{
+"old_hs": [
+"fd38af7e7260",
+"a1b43259827e",
+"bf230e7fc4a8"
+],
+"dim": "tr",
+"what": "Moved unmarked additions '(muhatapların)', '(hâl olarak)', '(değerinde)' into Mütercim notları; replaced the supplied apodosis '(bu da caiz olurdu)' with a Mütercim notu stating the Arabic lacks it",
+"at": "2026-10-17 00:46"
+},
+{
+"old_hs": [
+"fd38af7e7260",
+"14dc4cfd8728",
+"bf230e7fc4a8"
+],
+"dim": "tr",
+"what": "Moved '(hâli)' and '(takdiri)' into Mütercim notu; also '(aşirete)' in verse gloss into a note; removed parenthetical '(âyetini)' fillers (first kept unparenthesized as it renders إلى آخر الآية)",
+"at": "2026-10-17 00:50"
+}
+]
+}
+}

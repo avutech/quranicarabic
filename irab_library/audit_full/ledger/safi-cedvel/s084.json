@@ -1,0 +1,84 @@
+{
+"safi-cedvel:1-5": {
+"p1": {
+"ar": "87219444543f",
+"tr": "bc8ee4cef37e",
+"en": "23ff3d3b4e8e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:38",
+"fixed": false
+}
+},
+"safi-cedvel:6-15": {
+"p1": {
+"ar": "3f5337984ecf",
+"tr": "f3433297bf5b",
+"en": "ca5cb0ad5bca",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:38",
+"fixed": false
+}
+},
+"safi-cedvel:16-19": {
+"p1": {
+"ar": "bd3b5627569d",
+"tr": "9610e0a20aea",
+"en": "0802f91a97c5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:38",
+"fixed": false
+},
+"p2": {
+"ar": "bd3b5627569d",
+"tr": "9610e0a20aea",
+"en": "0802f91a97c5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u23",
+"at": "2026-10-16 19:20",
+"fixed": false
+}
+},
+"safi-cedvel:20-21": {
+"p1": {
+"ar": "3caeed0d0403",
+"tr": "903e3bcfd2f5",
+"en": "956557fdfc07",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:38",
+"fixed": false
+}
+},
+"safi-cedvel:22-25": {
+"p1": {
+"ar": "5308426e91fe",
+"tr": "ede19f057bc6",
+"en": "1fe8d2c8836c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u64",
+"at": "2026-10-10 19:38",
+"fixed": false
+}
+}
+}

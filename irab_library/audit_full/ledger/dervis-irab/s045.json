@@ -1,0 +1,160 @@
+{
+"dervis-irab:12-15": {
+"p1": {
+"ar": "0f0db3fa38d3",
+"tr": "7bc1dbc9470a",
+"en": "be1a7d6fad8b",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "Source i3rab of 45:15 ends after صالحا (rest of the ayah missing in source); TR notes it",
+"by": "dervis-irab-u91",
+"at": "2026-10-10 19:44",
+"fixed": false
+},
+"p2": {
+"ar": "0f0db3fa38d3",
+"tr": "7bc1dbc9470a",
+"en": "be1a7d6fad8b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u5",
+"at": "2026-10-17 00:03",
+"fixed": false
+}
+},
+"dervis-irab:16-21": {
+"p1": {
+"ar": "984cd4470081",
+"tr": "cc6b2f2868da",
+"en": "79ce29c6aae9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u91",
+"at": "2026-10-10 19:44",
+"fixed": false
+}
+},
+"dervis-irab:22-26": {
+"p1": {
+"ar": "e2e5d5aaa900",
+"tr": "63580301815e",
+"en": "3d575ce1b51c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u91",
+"at": "2026-10-10 19:44",
+"fixed": false
+}
+},
+"dervis-irab:27-31": {
+"p1": {
+"ar": "c61b52737db2",
+"tr": "1f822563280f",
+"en": "bb894091f125",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN: «أصابعه» rendered \"toes\" (interpretation) changed to literal \"digits (aṣābiʿ)\".",
+"by": "dervis-irab-p1-u15",
+"at": "2026-10-17 01:00",
+"fixed": true
+},
+"p2": {
+"ar": "c61b52737db2",
+"tr": "1f822563280f",
+"en": "bb894091f125",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u11",
+"at": "2026-10-17 01:08",
+"fixed": false
+}
+},
+"dervis-irab:32-37": {
+"p1": {
+"ar": "ebdf3b6cb16f",
+"tr": "2490c454c1ab",
+"en": "4215e84276bc",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR: bare bracket \"[(ما الساعة)]\" inserted by translator now a marked Mütercim notu.",
+"by": "dervis-irab-p1-u15",
+"at": "2026-10-17 01:00",
+"fixed": true
+},
+"p2": {
+"ar": "ebdf3b6cb16f",
+"tr": "2490c454c1ab",
+"en": "4215e84276bc",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u11",
+"at": "2026-10-17 01:08",
+"fixed": false
+}
+},
+"dervis-irab:1-6": {
+"p1": {
+"ar": "f2ffa9c9930d",
+"tr": "ef919ff76b0d",
+"en": "c9247311639a",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR added unmarked gloss \"(hurûf-ı mukattaa)\" for فواتح السور; removed",
+"by": "dervis-irab-u2",
+"at": "2026-10-11 01:40",
+"fixed": true
+},
+"p2": {
+"ar": "f2ffa9c9930d",
+"tr": "ef919ff76b0d",
+"en": "c9247311639a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u5",
+"at": "2026-10-17 00:03",
+"fixed": false
+}
+},
+"dervis-irab:7-11": {
+"p1": {
+"ar": "4cfcf0054b1a",
+"tr": "b1e0769acc2f",
+"en": "72f8d54d78f7",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR added unmarked gloss \"(çini kaba)\" for برنية, removed. EN rendered فإذا لم يوقعوا as \"do not use the hamza\" (wrong; means do not make it transitive), fixed; EN silently corrected source typos والواو and خاص and changed اتخذوه to plural \"them\"; now noted/literal",
+"by": "dervis-irab-u2",
+"at": "2026-10-11 01:40",
+"fixed": true
+},
+"p2": {
+"ar": "4cfcf0054b1a",
+"tr": "b1e0769acc2f",
+"en": "72f8d54d78f7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u5",
+"at": "2026-10-17 00:03",
+"fixed": false
+}
+}
+}

@@ -1,0 +1,11 @@
+{
+ "surah": 95,
+ "chunk": "1-8",
+ "verdicts": {
+  "OK": 74,
+  "SOURCE_DEFECT": 1,
+  "GAP": 7
+ },
+ "summary": "Surah 95 ayahs 1-8: all 13 books checked ayah by ayah (Arabic/TR/EN agree everywhere). Two high Q findings (zajjaj 5,6) and two XREF findings are false positives. One source defect: mekki-muskil 3-3 also contains the comment on 95:7. GAPs recorded for 7 books. No translation fixes needed.",
+ "at": "2026-10-10 15:16"
+}

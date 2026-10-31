@@ -1,0 +1,54 @@
+{
+"farraa:1-1": {
+"p1": {
+"ar": "dadb46ed17d1",
+"tr": "7825ddd702d5",
+"en": "0f33862b7bd6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:54",
+"fixed": false
+},
+"p2": {
+"ar": "dadb46ed17d1",
+"tr": "7825ddd702d5",
+"en": "0f33862b7bd6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u6",
+"at": "2026-10-11 04:07",
+"fixed": false
+}
+},
+"farraa:4-4": {
+"p1": {
+"ar": "656b1f319be3",
+"tr": "d18a948159be",
+"en": "36d5849e798a",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR silently altered the quoted Arabic (عن خدامِ [عقيلةٍ] عذراءَ vs source عن خدامٍ [عقيلة] عذراء), added unmarked comments (\"tenvinsiz gelmistir\", \"tenvin hazfedilmistir\") and silently corrected نظير أحد without the note EN has; restored/marked.",
+"by": "farraa-u22",
+"at": "2026-10-10 15:54",
+"fixed": true
+},
+"p2": {
+"ar": "656b1f319be3",
+"tr": "d18a948159be",
+"en": "36d5849e798a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u6",
+"at": "2026-10-11 04:07",
+"fixed": false
+}
+}
+}

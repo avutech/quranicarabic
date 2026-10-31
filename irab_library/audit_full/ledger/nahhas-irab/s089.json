@@ -1,0 +1,338 @@
+{
+"nahhas-irab:1-1": {
+"p1": {
+"ar": "2c1b997fe148",
+"tr": "8b1d1bc49239",
+"en": "dd5f3f913124",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:15",
+"fixed": false
+}
+},
+"nahhas-irab:3-3": {
+"p1": {
+"ar": "d40cfefa860c",
+"tr": "b1a77bbdbdae",
+"en": "343e090f8cb9",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR silently turned source 'له حجة' into no-proof and changed vowelling; fixed with translator notes.",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:15",
+"fixed": true
+},
+"p2": {
+"ar": "d40cfefa860c",
+"tr": "b1a77bbdbdae",
+"en": "343e090f8cb9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"nahhas-irab:4-4": {
+"p1": {
+"ar": "b4b8910852fc",
+"tr": "f2010f881f22",
+"en": "8009bc55fb62",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:15",
+"fixed": false
+}
+},
+"nahhas-irab:5-5": {
+"p1": {
+"ar": "3187c9ed7930",
+"tr": "54d9ef3bc9c1",
+"en": "18835f2602d8",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR silent typo corrections; added notes.",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:15",
+"fixed": true
+},
+"p2": {
+"ar": "3187c9ed7930",
+"tr": "54d9ef3bc9c1",
+"en": "18835f2602d8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"nahhas-irab:6-7": {
+"p1": {
+"ar": "52226495f92a",
+"tr": "752fc089d4fa",
+"en": "c84c1c26a9f9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p1-u4",
+"at": "2026-10-17 00:08",
+"fixed": false
+},
+"p2": {
+"ar": "52226495f92a",
+"tr": "752fc089d4fa",
+"en": "c84c1c26a9f9",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR silently re-vowelled the source «بِعادٍ» to «بِعادَ» / «بِعادِ إِرَمَ» for the variant readings; marked note added.",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 18:51",
+"fixed": true
+}
+},
+"nahhas-irab:8-8": {
+"p1": {
+"ar": "c8ca965a1bda",
+"tr": "05a608a4c39a",
+"en": "4cf7062bb797",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR silent change of Ibn al-Zubayr reading and الواو; added notes.",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:15",
+"fixed": true
+},
+"p2": {
+"ar": "c8ca965a1bda",
+"tr": "05a608a4c39a",
+"en": "4cf7062bb797",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"nahhas-irab:12-12": {
+"p1": {
+"ar": "f2e6902a0219",
+"tr": "da89a3ba1ba5",
+"en": "a49858e788df",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:15",
+"fixed": false
+}
+},
+"nahhas-irab:13-13": {
+"p1": {
+"ar": "4aa48ac668e1",
+"tr": "62649cb4d999",
+"en": "e859c02e1da3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:15",
+"fixed": false
+}
+},
+"nahhas-irab:14-14": {
+"p1": {
+"ar": "0058e6f7de9c",
+"tr": "d1a09da60562",
+"en": "acee7ead1747",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:15",
+"fixed": false
+}
+},
+"nahhas-irab:15-15": {
+"p1": {
+"ar": "f76e11a13edf",
+"tr": "dbc2ac0cf9b4",
+"en": "c3c4811cbfd0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:15",
+"fixed": false
+}
+},
+"nahhas-irab:18-18": {
+"p1": {
+"ar": "fd2b779f48a5",
+"tr": "0f609072253b",
+"en": "e9871e3e87e4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:15",
+"fixed": false
+},
+"p2": {
+"ar": "fd2b779f48a5",
+"tr": "0f609072253b",
+"en": "e9871e3e87e4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"nahhas-irab:19-19": {
+"p1": {
+"ar": "54dd0f1cf72e",
+"tr": "31bf1917e507",
+"en": "0077a44e299e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:15",
+"fixed": false
+}
+},
+"nahhas-irab:20-21": {
+"p1": {
+"ar": "ed701bb40615",
+"tr": "08e78d476e38",
+"en": "3aa9354ff312",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR attributed meaning statement to Ferra without support; fixed.",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:15",
+"fixed": true
+},
+"p2": {
+"ar": "ed701bb40615",
+"tr": "08e78d476e38",
+"en": "3aa9354ff312",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"nahhas-irab:22-22": {
+"p1": {
+"ar": "70b238daf743",
+"tr": "6d21abe18b35",
+"en": "450914548e3f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:15",
+"fixed": false
+}
+},
+"nahhas-irab:23-23": {
+"p1": {
+"ar": "e31ad9b5b1d5",
+"tr": "e59adbf86706",
+"en": "2541ad6db8e0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:15",
+"fixed": false
+}
+},
+"nahhas-irab:25-25": {
+"p1": {
+"ar": "ecad56196f0a",
+"tr": "a256aa6ce496",
+"en": "b1866a79184d",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR silently corrected name Hisham and Kisai vowelling; added notes.",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:15",
+"fixed": true
+},
+"p2": {
+"ar": "ecad56196f0a",
+"tr": "a256aa6ce496",
+"en": "b1866a79184d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"nahhas-irab:27-27": {
+"p1": {
+"ar": "22a1ddc0410d",
+"tr": "b53d9d7ada60",
+"en": "2201cffe452f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:15",
+"fixed": false
+}
+},
+"nahhas-irab:28-28": {
+"p1": {
+"ar": "1a16028cdc28",
+"tr": "8e53ca07422a",
+"en": "f764c43ba7c5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:15",
+"fixed": false
+}
+}
+}

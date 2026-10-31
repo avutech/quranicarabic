@@ -1,0 +1,81 @@
+{
+  "entries": 51211,
+  "by_book": {
+    "farraa": {
+      "entries": 2779,
+      "p1_current": 2776,
+      "p1_flagged": 145,
+      "p1_stale_or_incomplete": 3
+    },
+    "akhfash": {
+      "entries": 1149,
+      "p1_current": 1149,
+      "p1_flagged": 90
+    },
+    "zajjaj": {
+      "entries": 3989,
+      "p1_current": 563,
+      "p1_flagged": 45,
+      "p1_stale_or_incomplete": 22
+    },
+    "nahhas-irab": {
+      "entries": 4534,
+      "p1_current": 4158,
+      "p1_flagged": 245,
+      "p1_stale_or_incomplete": 4
+    },
+    "nahhas-meani": {
+      "entries": 2641,
+      "p1_current": 2641,
+      "p1_flagged": 189
+    },
+    "mekki-muskil": {
+      "entries": 1860,
+      "p1_current": 1860,
+      "p1_flagged": 224
+    },
+    "ukberi-tibyan": {
+      "entries": 3013,
+      "p1_current": 3013,
+      "p1_flagged": 179
+    },
+    "celaleyn": {
+      "entries": 6236,
+      "p1_current": 6236,
+      "p1_flagged": 95
+    },
+    "semin-durr": {
+      "entries": 4596
+    },
+    "safi-cedvel": {
+      "entries": 3257
+    },
+    "dervis-irab": {
+      "entries": 1387
+    },
+    "daas-irab": {
+      "entries": 3639
+    },
+    "harrat-mujtaba": {
+      "entries": 5895,
+      "p1_current": 5895,
+      "p1_flagged": 295
+    },
+    "muyesser-irab": {
+      "entries": 6236
+    }
+  },
+  "counts": {
+    "MERGED_READING_DIFFERS": 1988,
+    "ayahs": 6236,
+    "meal_records": 43652
+  },
+  "protected_files_unchanged": 3615,
+  "meal_cache_available": true,
+  "semantic_audit_complete": false,
+  "limitations": [
+    "Cached meal equality verifies extraction, not independent semantic correctness.",
+    "Quote checks are candidates, not proof of correct mapping.",
+    "Current pass-1 reviews are not independent adjudications."
+  ]
+}

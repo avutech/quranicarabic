@@ -1,0 +1,151 @@
+{
+"nahhas-irab:8-8": {
+"hs": [
+"d950fcc852fa",
+"d8d621a75446",
+"090ccf86ed5b"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «وقد منّه السفر، أي قطعه» only 'cut him off'. TR inserts unmarked «(gücünü)» ('yani (gücünü) kesti'), not in the Arabic; must go into a Mütercim notu or be removed.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source: وقد منّه السفر، أي قطعه ('it cut him'). TR renders 'Yolculuk onu kesti (منّه السفر), yani (gücünü) kesti': '(gücünü)' is an interpretive gloss not in the Arabic and not inside a Mütercim notu. Rest of the entry (two views, غير مقطوع / لا يمنّ عليهم) is correct. Fix: move '(gücünü)' into a Mütercim notu or drop it.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved unmarked '(gücünü)' into a Mütercim notu",
+"verified": "PASS",
+"verify_note": "Gloss on منّه السفر now inside Mütercim notu; both views complete and faithful."
+},
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «وقد منّه السفر، أي قطعه» = 'the journey cut him off'. EN adds '[i.e. exhausted him]' in plain brackets, an unmarked gloss not in the Arabic; must be a Translator's note.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source: وقد منّه السفر، أي قطعه. EN 'the journey has cut him off [i.e. exhausted him]': the bracket '[i.e. exhausted him]' is an interpretation absent from the Arabic (قطعه only) and not marked as a Translator's note. Rest correct. Fix: put it in a Translator's note.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Marked '[i.e. exhausted him]' as a Translator's note",
+"verified": "PASS",
+"verify_note": "'exhausted him' now inside Translator's note; complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"d950fcc852fa",
+"7ba8839ec082",
+"ab3a7ac58572"
+],
+"dim": "tr",
+"what": "Moved unmarked '(gücünü)' into a Mütercim notu",
+"at": "2026-10-17 00:44"
+},
+{
+"old_hs": [
+"d950fcc852fa",
+"d8d621a75446",
+"ab3a7ac58572"
+],
+"dim": "en",
+"what": "Marked '[i.e. exhausted him]' as a Translator's note",
+"at": "2026-10-17 00:44"
+}
+]
+},
+"nahhas-irab:9-9": {
+"hs": [
+"8cfa7664d855",
+"f45fcc4ddd20",
+"3600f1884a96"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «أي تجعلون له أمثالا لاستحقاق» has no word for worship; TR 'müstahak olmak bakımından' with unmarked '(ibadete)' adds a specification not in the source; must be marked as Mütercim notu.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source: أي تجعلون له أمثالا لاستحقاق ('likes in entitlement'). TR 'O’na, (ibadete) müstahak olmak bakımından benzerler kılıyorsunuz' inserts '(ibadete)' (worship), which the Arabic does not specify; unmarked addition. Fix: Mütercim notu.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved unmarked '(ibadete)' into a Mütercim notu",
+"verified": "PASS",
+"verify_note": "'(ibadete)' moved into a Mütercim notu; full passage (days, Mujahid, hamza spelling, andad, alamun) rendered faithfully."
+}
+},
+"history": [
+{
+"old_hs": [
+"8cfa7664d855",
+"8e7ebe5412d1",
+"3600f1884a96"
+],
+"dim": "tr",
+"what": "Moved unmarked '(ibadete)' into a Mütercim notu",
+"at": "2026-10-17 00:44"
+}
+]
+},
+"nahhas-irab:5-5": {
+"hs": [
+"f98ffedef74d",
+"cde517b3bb88",
+"1ac9679d7f9b"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic 'أي حاجز لا يجامعك على شيء مما تقوله' = a barrier that does not bring [one] together with you on anything you say; English 'a barrier [so that we] do not agree with you' inserts an unmarked clause and changes the subject of لا يجامعك from the barrier to 'we'. Unmarked addition.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source: 'أي حاجز لا يجامعك على شيء مما تقوله' (a barrier that does not bring [us] together with you on anything you say; the barrier is the subject of لا يجامعك). English 'a barrier [so that we] do not agree with you' inserts '[so that we]' unmarked and shifts the subject; needs to be rendered literally or the addition put in a [Translator's note: …].",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Rendered حاجز لا يجامعك literally; removed unmarked '[so that we]'",
+"verified": "PASS",
+"verify_note": "Now 'a barrier that does not join with you on anything you say' = حاجز لا يجامعك على شيء مما تقوله, barrier as subject, no unmarked insertion; rest complete."
+}
+},
+"history": [
+{
+"old_hs": [
+"f98ffedef74d",
+"cde517b3bb88",
+"e164871a3008"
+],
+"dim": "en",
+"what": "Rendered حاجز لا يجامعك literally; removed unmarked '[so that we]'",
+"at": "2026-10-17 00:44"
+}
+]
+}
+}

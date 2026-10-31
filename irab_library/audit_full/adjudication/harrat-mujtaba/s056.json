@@ -1,0 +1,42 @@
+{
+"harrat-mujtaba:83-83": {
+"hs": [
+"40288fa68a43",
+"930e9b722dfe",
+"a41955ffbfa9"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «وقوله «فلولا ترجعونها» : أي النفس». Turkish: 'yani nefsi (canı) (geri döndürseniz ya!)' — '(geri döndürseniz ya!)' (and the gloss '(canı)') is not in the source and not inside a Mütercim notu. Unmarked addition.",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "The Arabic says only «وقوله «فلولا ترجعونها» : أي النفس». The Turkish adds '(geri döndürseniz ya!)', a rendering of the verb that the source does not give, and also the gloss '(canı)'. Neither is inside a Mütercim notu, so both are unmarked additions.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "put the unmarked glosses (canı) (geri döndürseniz ya!) inside a Mütercim notu",
+"verified": "PASS",
+"verify_note": "Glosses 'canı' and 'geri döndürseniz ya' now inside Mütercim notu; rest faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"40288fa68a43",
+"ec0cc21959cf",
+"a41955ffbfa9"
+],
+"dim": "tr",
+"what": "put the unmarked glosses (canı) (geri döndürseniz ya!) inside a Mütercim notu",
+"at": "2026-10-17 00:45"
+}
+]
+}
+}

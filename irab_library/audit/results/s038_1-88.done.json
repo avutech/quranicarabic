@@ -1,0 +1,11 @@
+{
+ "surah": 38,
+ "chunk": "1-88",
+ "verdicts": {
+  "OK": 134,
+  "SOURCE_MISPLACED": 3,
+  "GAP": 8
+ },
+ "summary": "Surah 38 1-88: 16 high/medium findings all OK except ukberi-tibyan:24-24 (SOURCE_MISPLACED, content is 38:26). Semantic sample of all 14 books OK; nahhas-meani:88-88 SOURCE_MISPLACED (Zumar intro, TR/EN already carry note). 38 low findings OK (cross-references/orthography). GAPs recorded for 8 selective books. No translation fixes needed.",
+ "at": "2026-10-10 15:08"
+}

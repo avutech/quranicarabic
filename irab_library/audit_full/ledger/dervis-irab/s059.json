@@ -1,0 +1,108 @@
+{
+"dervis-irab:1-4": {
+"p1": {
+"ar": "56ddcc855c35",
+"tr": "97b2bd2e9174",
+"en": "346fcb4dd52a",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Source has «حال» (Misbah quote) but reading silently wrote «جال»; added translator note in both.",
+"by": "dervis-irab-u93",
+"at": "2026-10-10 19:45",
+"fixed": true
+},
+"p2": {
+"ar": "56ddcc855c35",
+"tr": "97b2bd2e9174",
+"en": "346fcb4dd52a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u6",
+"at": "2026-10-17 00:05",
+"fixed": false
+}
+},
+"dervis-irab:5-7": {
+"p1": {
+"ar": "5f84dd1c6566",
+"tr": "d4dd06de4990",
+"en": "84df094ee1d6",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR: removed unmarked \"(tam ayrılık)\" gloss; «الحمام طائر» fixed (bird, not \"uçar\"). EN: removed unmarked \"[the second place is]\" and \"[verb]\"; \"flyer\" -> bird; restored «العنق»; \"strengthen\" -> honour (يعزّهم). Poem word «مؤتها» is garbled in source, left.",
+"by": "dervis-irab-p1-u4",
+"at": "2026-10-17 00:16",
+"fixed": true
+},
+"p2": {
+"ar": "5f84dd1c6566",
+"tr": "d4dd06de4990",
+"en": "84df094ee1d6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u5",
+"at": "2026-10-17 00:30",
+"fixed": false
+}
+},
+"dervis-irab:8-10": {
+"p1": {
+"ar": "9c0f5294a5ac",
+"tr": "e756cffce4b5",
+"en": "8fcb3d5783f2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u93",
+"at": "2026-10-10 19:46",
+"fixed": false
+}
+},
+"dervis-irab:11-17": {
+"p1": {
+"ar": "b28091f61b8e",
+"tr": "e3ed2415dd03",
+"en": "8a8243efc895",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u93",
+"at": "2026-10-10 19:46",
+"fixed": false
+}
+},
+"dervis-irab:18-24": {
+"p1": {
+"ar": "755b7c3e04a8",
+"tr": "5a1fe9493a8e",
+"en": "0b2412d12741",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u16",
+"at": "2026-10-17 00:56",
+"fixed": false
+},
+"p2": {
+"ar": "755b7c3e04a8",
+"tr": "43bb64e478c5",
+"en": "0b2412d12741",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u6",
+"at": "2026-10-17 00:05",
+"fixed": false
+}
+}
+}

@@ -1,0 +1,12 @@
+{
+ "surah": 5,
+ "chunk": "67-120",
+ "verdicts": {
+  "OK": 124,
+  "SOURCE_MISPLACED": 2,
+  "TRANSLATION_FIXED": 1,
+  "GAP": 9
+ },
+ "summary": "All 5 high/medium findings OK (legit continuations/cross-refs). Semantic sample of all 14 books OK except SOURCE_MISPLACED mekki-muskil:68-68 (content is 5:64: وليزيدن... كلما أوقدوا... أطفأها; EN note added) and nahhas-meani:120-120 (opening of Surat al-An'am commentary). 37 low findings OK. 9 GAP verdicts.",
+ "at": "2026-10-10 14:58"
+}

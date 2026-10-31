@@ -1,0 +1,5659 @@
+[
+{
+"ref": "2:8#2",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "2:62#14",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+3
+],
+"dropped": [
+"sart"
+]
+},
+{
+"ref": "2:62#22",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "2:78#8",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "2:85#1",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "2:126#21",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"sart",
+"cevap"
+]
+},
+{
+"ref": "2:139#4",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+4,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "2:147#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+4,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "2:156#5",
+"roles": [
+"mubteda",
+"ismInna"
+],
+"support": [
+1,
+0
+],
+"dropped": [
+"mubteda"
+],
+"why": "ism of inna/kana is not a mübteda"
+},
+{
+"ref": "2:178#20",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+2
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "2:191#22",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+3
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "2:196#28",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "2:196#35",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+3,
+2
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "2:196#36",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+3,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "2:204#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+2
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "2:206#8",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+2
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "2:215#1",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+2
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "2:215#4",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "2:217#43",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+4,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "2:217#51",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "2:229#24",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"sart",
+"cevap"
+]
+},
+{
+"ref": "2:230#11",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "2:231#15",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+3,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "2:237#10",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+2
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "2:239#0",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+3,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "2:252#1",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+3
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "2:257#18",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+4,
+2
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "2:261#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "2:262#22",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "2:269#5",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "2:271#4",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+2
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "2:271#10",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+2
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "2:274#15",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "2:275#18",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+3
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "2:282#59",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+2
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "2:283#7",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+3
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "2:285#2",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "3:15#9",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+2
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "3:28#9",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+3,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "3:28#11",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+2
+],
+"dropped": [
+"sart"
+]
+},
+{
+"ref": "3:28#14",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+2
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "3:31#12",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+2
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "3:34#3",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+2
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "3:39#2",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+4,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "3:44#9",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "3:60#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+4,
+3
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "3:62#3",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+3
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "3:64#25",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+3,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "3:97#3",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+3
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "3:99#12",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+4,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "3:100#4",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "3:108#1",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+2
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "3:110#19",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+2
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "3:110#20",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "3:111#9",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"sart",
+"cevap"
+]
+},
+{
+"ref": "3:117#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+2
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "3:122#9",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "3:144#17",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "3:151#14",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+2
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "3:151#15",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+2
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "3:154#71",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+4,
+2
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "3:160#0",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+3,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "3:167#20",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+2
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "3:173#13",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+2
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "3:173#14",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "3:195#15",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "3:197#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+3
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "4:6#19",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+4,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "4:6#20",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"sart",
+"cevap"
+]
+},
+{
+"ref": "4:11#42",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"sart",
+"cevap"
+]
+},
+{
+"ref": "4:14#10",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+2
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "4:19#26",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "4:25#19",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+2
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "4:25#21",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "4:25#36",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+3,
+2
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "4:37#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+3
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "4:38#12",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "4:39#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+2
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "4:51#3",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "4:51#6",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"sart",
+"cevap"
+]
+},
+{
+"ref": "4:53#1",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "4:78#17",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"sart",
+"cevap"
+]
+},
+{
+"ref": "4:92#24",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+2
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "4:92#28",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+2
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "4:92#40",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+2
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "4:92#47",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+2
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "4:109#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "4:125#7",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "4:129#14",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "4:171#35",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "4:173#11",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "5:5#32",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+2
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "5:6#22",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"sart",
+"cevap"
+]
+},
+{
+"ref": "5:33#32",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "5:39#10",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+2
+],
+"dropped": [
+"sart"
+]
+},
+{
+"ref": "5:41#33",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "5:45#7",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "5:51#10",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "5:53#3",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "5:55#1",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+2
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "5:55#2",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "5:67#4",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"sart",
+"cevap"
+]
+},
+{
+"ref": "5:69#5",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+2
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "5:72#18",
+"roles": [
+"mubteda",
+"ismInna"
+],
+"support": [
+2,
+0
+],
+"dropped": [
+"mubteda"
+],
+"why": "ism of inna/kana is not a mübteda"
+},
+{
+"ref": "5:72#28",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+2
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "5:72#32",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "5:89#28",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "5:89#32",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+4
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "5:103#5",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "5:106#3",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "5:107#6",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+2
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "5:109#13",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "5:115#9",
+"roles": [
+"mubteda",
+"ismInna"
+],
+"support": [
+1,
+0
+],
+"dropped": [
+"mubteda"
+],
+"why": "ism of inna/kana is not a mübteda"
+},
+{
+"ref": "5:116#32",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"sart",
+"cevap"
+]
+},
+{
+"ref": "6:7#14",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+2
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "6:12#18",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+2
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "6:25#1",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "6:59#23",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "6:73#10",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+2
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "6:81#15",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"sart",
+"cevap"
+]
+},
+{
+"ref": "6:82#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+2
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "6:82#9",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+2
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "6:98#6",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+2
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "6:102#6",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "6:136#17",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+2
+],
+"dropped": [
+"sart"
+]
+},
+{
+"ref": "6:139#12",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+3,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "6:149#4",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+3,
+2
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "6:164#6",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+2
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "7:35#9",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+4,
+3
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "7:36#9",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "7:44#24",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "7:97#8",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+2
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "7:110#5",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+2
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "7:139#5",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "7:155#23",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "7:157#41",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "7:176#14",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+3,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "7:176#21",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+3
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "7:177#2",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "7:188#11",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+4,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "7:193#6",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+3
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "7:193#8",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "7:200#0",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+3,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "8:23#0",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+4,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "8:23#10",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+2
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "8:36#1",
+"roles": [
+"mubteda",
+"ismInna"
+],
+"support": [
+1,
+0
+],
+"dropped": [
+"mubteda"
+],
+"why": "ism of inna/kana is not a mübteda"
+},
+{
+"ref": "9:1#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+3
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "9:3#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+2
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "9:8#2",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "9:20#14",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "9:23#14",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+3,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "9:28#5",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+2
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "9:42#0",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+4,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "9:42#21",
+"roles": [
+"mubteda",
+"ismInna"
+],
+"support": [
+1,
+0
+],
+"dropped": [
+"mubteda"
+],
+"why": "ism of inna/kana is not a mübteda"
+},
+{
+"ref": "9:48#15",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+2
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "9:50#15",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+2
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "9:54#16",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+2
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "9:56#7",
+"roles": [
+"mubteda",
+"ismInna"
+],
+"support": [
+1,
+0
+],
+"dropped": [
+"mubteda"
+],
+"why": "ism of inna/kana is not a mübteda"
+},
+{
+"ref": "9:67#4",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+2
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "9:75#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+2
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "9:98#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "9:129#3",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "9:129#4",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+2
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "10:24#1",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "10:31#23",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+3
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "10:32#4",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+2
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "10:34#2",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "10:35#2",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "10:48#1",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "10:53#1",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+3
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "10:70#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+2
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "10:77#6",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+3
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "10:101#6",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "10:107#8",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "11:21#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+4,
+2
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "11:24#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "11:27#17",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "11:45#12",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+2
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "11:100#8",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "12:8#8",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+2
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "12:25#12",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+2
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "12:71#3",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+2
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "12:88#0",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"sart",
+"cevap"
+]
+},
+{
+"ref": "13:5#2",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "13:5#3",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "13:10#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+2
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "13:10#2",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+2
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "13:16#6",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+2
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "13:16#41",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "13:30#18",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+2
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "13:35#9",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "13:35#13",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+3
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "13:35#16",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "14:17#12",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "14:18#4",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "14:21#25",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+2
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "14:43#7",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+2
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "14:43#8",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "14:44#25",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "14:46#8",
+"roles": [
+"mubteda",
+"ismKana"
+],
+"support": [
+1,
+0
+],
+"dropped": [
+"mubteda"
+],
+"why": "ism of inna/kana is not a mübteda"
+},
+{
+"ref": "14:52#8",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+3
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "15:71#2",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "16:24#2",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "16:30#3",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "16:30#15",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "16:53#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+2
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "16:63#12",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+3
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "16:76#4",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "16:80#8",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"sart",
+"cevap"
+]
+},
+{
+"ref": "16:97#7",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+2
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "16:97#8",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+3
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "16:106#18",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "16:117#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+3
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "16:126#10",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+2
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "17:54#8",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"sart",
+"cevap"
+]
+},
+{
+"ref": "17:97#3",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+4,
+2
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "17:97#21",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+2
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "18:19#27",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "18:20#2",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "18:29#1",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+2
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "18:38#0",
+"roles": [
+"mubteda",
+"ismInna"
+],
+"support": [
+3,
+0
+],
+"dropped": [
+"mubteda"
+],
+"why": "ism of inna/kana is not a mübteda"
+},
+{
+"ref": "18:39#5",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+2
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "18:49#8",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+2
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "18:70#1",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "18:77#19",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+4,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "18:79#0",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+4,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "18:87#2",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"sart",
+"cevap"
+]
+},
+{
+"ref": "18:88#0",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"sart",
+"cevap"
+]
+},
+{
+"ref": "18:110#11",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+3,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "18:110#12",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"sart",
+"cevap"
+]
+},
+{
+"ref": "19:26#5",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"sart",
+"cevap"
+]
+},
+{
+"ref": "19:46#1",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+2
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "19:64#3",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "19:69#5",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "19:71#3",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+2
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "19:73#10",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "19:75#20",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+2
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "19:95#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "20:5#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+2
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "20:112#2",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"sart",
+"cevap"
+]
+},
+{
+"ref": "20:123#11",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "21:17#0",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+4,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "21:22#0",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+4,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "21:95#4",
+"roles": [
+"mubteda",
+"ismInna"
+],
+"support": [
+2,
+0
+],
+"dropped": [
+"mubteda"
+],
+"why": "ism of inna/kana is not a mübteda"
+},
+{
+"ref": "21:109#8",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+3
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "22:4#3",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+3,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "22:6#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+4,
+2
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "22:15#1",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"sart",
+"cevap"
+]
+},
+{
+"ref": "22:30#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+3
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "22:30#1",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"sart",
+"cevap"
+]
+},
+{
+"ref": "22:32#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "22:32#6",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "22:36#14",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+2
+],
+"dropped": [
+"sart"
+]
+},
+{
+"ref": "22:40#12",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "22:41#3",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"sart",
+"cevap"
+]
+},
+{
+"ref": "22:60#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+3
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "23:24#15",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+2,
+2
+],
+"dropped": [
+"sart",
+"cevap"
+]
+},
+{
+"ref": "23:71#0",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+4,
+2
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "23:96#2",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+2
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "23:103#9",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+2
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "24:28#0",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"sart",
+"cevap"
+]
+},
+{
+"ref": "24:28#10",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+3,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "24:35#4",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "24:35#32",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "24:53#10",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+2
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "24:62#24",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"sart",
+"cevap"
+]
+},
+{
+"ref": "25:45#7",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+4,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "25:50#3",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"sart",
+"cevap"
+]
+},
+{
+"ref": "25:63#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+2
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "26:28#1",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "26:35#6",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+2
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "26:187#5",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "27:15#14",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "27:92#4",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"sart",
+"cevap"
+]
+},
+{
+"ref": "28:49#11",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "28:61#15",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+2
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "29:5#1",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+3,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "29:41#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "30:18#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+2
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "30:44#3",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "30:46#15",
+"roles": [
+"mubteda",
+"ismInna"
+],
+"support": [
+1,
+0
+],
+"dropped": [
+"mubteda"
+],
+"why": "ism of inna/kana is not a mübteda"
+},
+{
+"ref": "30:54#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+2
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "31:12#7",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+2,
+2
+],
+"dropped": [
+"sart",
+"cevap"
+]
+},
+{
+"ref": "31:15#0",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "31:22#5",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "32:13#0",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+3,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "32:19#0",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+3,
+2
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "32:22#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+2
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "33:5#6",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+3,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "33:23#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+2
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "33:61#1",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "34:12#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "34:23#14",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "34:24#7",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "34:29#2",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "34:31#0",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"sart",
+"cevap"
+]
+},
+{
+"ref": "34:38#6",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"sart",
+"cevap"
+]
+},
+{
+"ref": "34:39#17",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+2
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "35:8#10",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"sart",
+"cevap"
+]
+},
+{
+"ref": "35:10#1",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"sart",
+"cevap"
+]
+},
+{
+"ref": "35:33#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+2
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "35:40#9",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+2
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "35:40#13",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "36:6#5",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+2
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "36:8#8",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+2
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "36:21#5",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+2
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "36:40#1",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "36:41#2",
+"roles": [
+"mubteda",
+"ismInna"
+],
+"support": [
+1,
+0
+],
+"dropped": [
+"mubteda"
+],
+"why": "ism of inna/kana is not a mübteda"
+},
+{
+"ref": "36:58#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+3
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "38:11#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+2
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "38:27#8",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "38:57#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+4,
+2
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "38:86#7",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "39:1#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+2
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "39:4#0",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+4,
+2
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "39:22#0",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "39:37#6",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "39:38#31",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "40:38#2",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"sart",
+"cevap"
+]
+},
+{
+"ref": "40:46#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+4,
+2
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "40:65#10",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+2
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "40:77#6",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"sart",
+"cevap"
+]
+},
+{
+"ref": "40:79#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+2
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "41:2#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+3
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "41:14#13",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+3,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "41:24#0",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "41:28#4",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+2
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "41:30#3",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "41:31#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+2
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "41:46#1",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"sart",
+"cevap"
+]
+},
+{
+"ref": "41:49#7",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"sart",
+"cevap"
+]
+},
+{
+"ref": "42:11#16",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "42:30#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+2
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "42:36#4",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+2
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "42:40#10",
+"roles": [
+"mubteda",
+"ismInna"
+],
+"support": [
+1,
+0
+],
+"dropped": [
+"mubteda"
+],
+"why": "ism of inna/kana is not a mübteda"
+},
+{
+"ref": "42:44#1",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"sart",
+"cevap"
+]
+},
+{
+"ref": "43:33#1",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "43:41#0",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+3,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "43:60#0",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+4,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "46:4#8",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+2
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "46:15#9",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "47:4#0",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+3,
+2
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "47:4#20",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+3
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "47:15#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+2
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "47:16#13",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+2
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "47:20#3",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"sart",
+"cevap"
+]
+},
+{
+"ref": "47:21#6",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "47:24#6",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "47:35#6",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "48:11#3",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"sart",
+"cevap"
+]
+},
+{
+"ref": "48:25#32",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+4,
+2
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "48:29#28",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "49:11#22",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"sart",
+"cevap"
+]
+},
+{
+"ref": "49:11#30",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "50:24#1",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "51:24#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "52:15#1",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "52:18#1",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "55:1#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "55:50#1",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "56:8#3",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+2
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "56:63#0",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"sart",
+"cevap"
+]
+},
+{
+"ref": "56:89#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "56:89#1",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "58:2#11",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"sart",
+"cevap"
+]
+},
+{
+"ref": "58:4#13",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "58:12#3",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+2,
+2
+],
+"dropped": [
+"sart",
+"cevap"
+]
+},
+{
+"ref": "59:7#8",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"sart",
+"cevap"
+]
+},
+{
+"ref": "59:9#25",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "61:6#22",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "63:1#7",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "63:9#8",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"sart",
+"cevap"
+]
+},
+{
+"ref": "66:4#14",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "68:14#0",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"sart",
+"cevap"
+]
+},
+{
+"ref": "69:1#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "69:19#0",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+3,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "72:14#1",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "72:23#5",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+3,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "72:25#3",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+3
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "75:34#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "78:39#4",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+3,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "79:37#1",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"sart",
+"cevap"
+]
+},
+{
+"ref": "80:12#1",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+3,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "80:33#0",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "86:3#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+3
+],
+"dropped": [
+"mubteda"
+]
+},
+{
+"ref": "88:2#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "88:24#0",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "93:4#1",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
+"ref": "93:9#0",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+3,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "94:7#0",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+2,
+1
+],
+"dropped": [
+"cevap"
+]
+},
+{
+"ref": "97:2#2",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "97:3#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+3,
+1
+],
+"dropped": [
+"haber"
+]
+},
+{
+"ref": "101:7#0",
+"roles": [
+"sart",
+"cevap"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"sart",
+"cevap"
+]
+}
+]

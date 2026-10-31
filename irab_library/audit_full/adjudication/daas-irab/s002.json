@@ -1,0 +1,307 @@
+{
+"daas-irab:6-7": {
+"hs": [
+"1517ca5acad7",
+"711bfe119fba",
+"55ab0c2e3c1b"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "The source says ﴿سَواءٌ﴾ مصدر بمعنى الاستمرار. The Turkish body renders it as «eşitlik» (= الاستواء), so the text is replaced in the translation itself. The Mütercim notu admits this, but the binding rule is to translate what is written. The body should say «devam/süreklilik anlamında», and the note can keep the suggestion that الاستواء is meant. The rest of the entry is complete.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: ﴿سَواءٌ﴾ مصدر بمعنى الاستمرار. The Turkish body says '«eşitlik» anlamında bir masdardır', which translates a different word (الاستواء) and only admits the swap in a note. The rule is to translate what is written: the body must say 'devam/süreklilik (الاستمرار) anlamında', and the suspected reading الاستواء can go in the Mütercim notu. The English correctly says 'continuity'.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "سَواءٌ gloss now translates source الاستمرار as «devam/süreklilik» instead of «eşitlik»; Mütercim notu keeps the suggestion that الاستواء is meant",
+"verified": "PASS",
+"verify_note": "The body now renders الاستمرار as 'devam/süreklilik', and the الاستواء suggestion is confined to a Mütercim notu. The اللَّهِ and مبتداء remarks are marked as notes, and all parsing items are complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"1517ca5acad7",
+"a6dd4880609a",
+"55ab0c2e3c1b"
+],
+"dim": "tr",
+"what": "سَواءٌ gloss now translates source الاستمرار as «devam/süreklilik» instead of «eşitlik»; Mütercim notu keeps the suggestion that الاستواء is meant",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"daas-irab:14-16": {
+"hs": [
+"dfb1dac83c38",
+"31a46e4e0df5",
+"3c54d924447d"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source: ﴿اشْتَرَوُا الضَّلالَةَ﴾ استبدلوها (they took it [error] in exchange). The Turkish 'onu (hidayete) değiştirdiler' adds an unmarked '(hidayete)' that is not in the Arabic. It also skews the sense: 'they exchanged it for guidance' reverses the direction (they gave up guidance for error). Fix: 'onu (karşılık olarak) aldılar / onunla değiştirdiler', with any explanation inside a Mütercim notu. The rest of the Turkish i'rab is complete, and the لأن remark is correctly in a note.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: ﴿اشْتَرَوُا الضَّلالَةَ﴾ استبدلوها (they exchanged it). The Turkish 'onu (hidayete) değiştirdiler' adds '(hidayete)', which is not in the Arabic, and it is not in a Mütercim notu. That is an unmarked addition. The rest is faithful, and the لأن→لإنّ note is properly marked.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "استبدلوها: unmarked '(hidayete)' removed; 'onu (hidayete) değiştirdiler' -> 'onu bedel olarak aldılar'",
+"verified": "PASS",
+"verify_note": "استبدلوها is now 'onu bedel olarak aldılar' without the unmarked '(hidayete)'. The لأن and خلوا remarks are in Mütercim notları, and the remaining i'rab is complete and faithful."
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source: مع ظرف مكان متعلق بخبر محذوف لأن والتقدير إنا كافرون معكم. English renders 'لأن' silently as 'of إنّ' with no Translator's note, which is a silent correction of the source (Turkish flags it with a note). English also adds the unmarked bracket in '﴿إِنَّما﴾: [إنّ as] the restraining and restrained'. Both need a [Translator's note: …].",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: مع ظرف مكان متعلق بخبر محذوف لأن والتقدير. The English silently renders لأن as 'of إنّ' without a translator's note, so the source is corrected without saying so. There are also unmarked bracketed additions: ﴿إِنَّما﴾ '[إنّ as] the restraining and restrained' (Arabic only كافة ومكفوفة) and ﴿كانُوا﴾ '[one of kāna and its sisters]'. These need to go in translator's notes.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "مَعَكُمْ: source لأن no longer silently rendered 'of إنّ' - now «لأن» + Translator's note (لإنّ meant); '[إنّ as]' and '[one of kāna and its sisters]' moved into Translator's notes",
+"verified": "PASS",
+"verify_note": "لأن is kept and flagged in a Translator's note (لإنّ meant). The إنّما and كانوا explanations are now inside Translator's notes, and the rest is complete and faithful with no unmarked additions."
+}
+},
+"history": [
+{
+"old_hs": [
+"dfb1dac83c38",
+"ba481c5c1898",
+"ff585764c289"
+],
+"dim": "tr",
+"what": "استبدلوها: unmarked '(hidayete)' removed; 'onu (hidayete) değiştirdiler' -> 'onu bedel olarak aldılar'",
+"at": "2026-10-17 00:46"
+},
+{
+"old_hs": [
+"dfb1dac83c38",
+"31a46e4e0df5",
+"3c54d924447d"
+],
+"dim": "en",
+"what": "مَعَكُمْ: source لأن no longer silently rendered 'of إنّ' - now «لأن» + Translator's note (لإنّ meant); '[إنّ as]' and '[one of kāna and its sisters]' moved into Translator's notes",
+"at": "2026-10-17 00:46"
+}
+]
+},
+"daas-irab:17-18": {
+"hs": [
+"8618941c8558",
+"513cafa341d8",
+"b8573c7519df"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Source: ﴿المثل﴾ ... اسم موغل في الإبهام بمعنى شبه وشبيه. شِبْه/شَبَه and شبيه are near-synonyms (the like / resembling). Turkish 'benzer, benzeyen anlamında' is a faithful rendering ('benzer' works as a noun = the like). The rest of the Turkish is complete, including صم/بكم/عمي, the ما حوله alternatives and the hal clause, and its notes are properly marked.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Source: ﴿المثل﴾ ... بمعنى شبه وشبيه. The Turkish says '«benzer, benzeyen» anlamında'. Turkish 'benzer' covers شِبْه (a like/likeness) and 'benzeyen' covers شبيه (resembling), so the meaning is kept. The rest is faithful: الذين لفظه مفرد is noted, أضاء متعديا ولازما, صم/بكم/عمي, and the i'rab, with the لما/ظرفية ما remark inside a Mütercim notu.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+},
+"daas-irab:21-22": {
+"hs": [
+"9e229d3e4690",
+"2569a098c8e0",
+"ca348fc46d98"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source: وعلقت من الثمرات بمحذوف حال لأنه كان في الأصل صفة. English adds '[and was fronted before its noun]', which is not in the Arabic and is not inside a [Translator's note: …]. This is an unmarked addition. The rest of the English is faithful, and the 'and فراشا' addition is properly noted.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: وعلقت من الثمرات بمحذوف حال لأنه كان في الأصل صفة. The English adds '[and was fronted before its noun]', which is not in the Arabic and is a plain square bracket, not a «[Translator's note: …]». That is an unmarked addition, so it must be moved into a translator's note.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Unmarked '[and was fronted before its noun]' moved into a Translator's note",
+"verified": "PASS",
+"verify_note": "'and was fronted before its noun' is now inside a Translator's note. The 'and فراشا' addition is explicitly flagged by its own note, glosses render the Arabic implied forms, and the reading is complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"9e229d3e4690",
+"2569a098c8e0",
+"e8846d6d482d"
+],
+"dim": "en",
+"what": "Unmarked '[and was fronted before its noun]' moved into a Translator's note",
+"at": "2026-10-17 00:46"
+}
+]
+},
+"daas-irab:44-46": {
+"hs": [
+"3461578244fb",
+"063107bac43b",
+"7d3920447198"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source: وجملة أنهم إليه راجعون معطوفة. وسدت مسد مفعولي يظنون. The Arabic gives no explicit subject for وسدت. English inserts '[the two clauses]' as an unmarked bracketed addition, not inside a [Translator's note: …]. The interpretation is reasonable but must be marked as a note. The rest of the English is complete and accurate.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: وجملة أنهم إليه راجعون معطوفة. وسدت مسد مفعولي يظنون. The verb سدت has no stated subject. The English supplies '[the two clauses]' in a plain bracket, not in a «[Translator's note: …]». Under the binding standard this is an unmarked addition. The meaning it supplies is plausible but must be in a note.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked addition '(one of inna and its sisters)'",
+"verify_note": "'(one of inna and its sisters)' removed; wasaddat subject in Translator's note; every parsing item rendered faithfully, nothing unmarked added.",
+"fix_failed": 1,
+"verified": "PASS"
+}
+},
+"history": [
+{
+"old_hs": [
+"3461578244fb",
+"063107bac43b",
+"6f8af30a8c81"
+],
+"dim": "en",
+"what": "Unmarked '[the two clauses]' removed from body ('it took the place of'); identification moved into a Translator's note",
+"at": "2026-10-17 00:46"
+},
+{
+"old_hs": [
+"3461578244fb",
+"063107bac43b",
+"7e4ce6f87d99"
+],
+"dim": "en",
+"what": "Removed unmarked addition '(one of inna and its sisters)'",
+"at": "2026-10-17 00:49"
+}
+]
+},
+"daas-irab:49-49": {
+"hs": [
+"33976dd5c762",
+"3840049eee69",
+"1b91336a97b7"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source: ﴿فِرْعَوْنَ﴾ مضاف إليه مجرور بالفتحة نيابة عن الكسرة، اسم علم أعجمي. English adds '[and so a diptote]', which is not in the Arabic and is not inside a [Translator's note: …]. This is an unmarked addition. Everything else, including the glosses يذيقونكم / أسوأه وأشده / يتركونهن أحياء, is rendered faithfully.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: ﴿فِرْعَوْنَ﴾ مضاف إليه مجرور بالفتحة نيابة عن الكسرة، اسم علم أعجمي. The English adds '[and so a diptote]', which is not in the Arabic, as a plain bracket rather than a «[Translator's note: …]». That is an unmarked addition.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Unmarked '[and so a diptote]' moved into a Translator's note",
+"verified": "PASS",
+"verify_note": "'and so a diptote' is now inside a Translator's note. All glosses (يذيقونكم, أسوأه وأشده, يتركونهن أحياء) and the i'rab are rendered completely and faithfully."
+}
+},
+"history": [
+{
+"old_hs": [
+"33976dd5c762",
+"3840049eee69",
+"6351b4efadb3"
+],
+"dim": "en",
+"what": "Unmarked '[and so a diptote]' moved into a Translator's note",
+"at": "2026-10-17 00:46"
+}
+]
+},
+"daas-irab:53-54": {
+"hs": [
+"98a3e8ad4ff4",
+"b51659bd2580",
+"d2073b332efa"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source: الفاء عاطفة على تقدير إذا كنتم فعلتم ذلك فتوبوا. إذا is a conditional/temporal particle ('if/when you have done that, then repent'). English renders it 'since you have done that', which turns it into a causal assertion and does not translate the conditional the grammarian uses to explain the fāʾ. It should read 'if (or: when) you have done that, then repent'. The rest of the English is complete.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: الفاء عاطفة على تقدير إذا كنتم فعلتم ذلك فتوبوا. The supposed clause uses conditional/temporal إذا ('if/when you have done that, then repent'). The English gloss '(since you have done that, then repent)' turns it into a causal statement, which misrepresents the conditional structure the author uses to explain the fāʾ. It should be 'if/when you have done that…'.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Gloss of إذا كنتم فعلتم ذلك فتوبوا: 'since you have done that' -> 'if you have done that' (conditional)",
+"verified": "PASS",
+"verify_note": "The implied form إذا كنتم فعلتم ذلك فتوبوا is now glossed conditionally ('if you have done that, then repent'). The rest is complete and faithful, with no unmarked additions."
+}
+},
+"history": [
+{
+"old_hs": [
+"98a3e8ad4ff4",
+"b51659bd2580",
+"10cefd82a0e2"
+],
+"dim": "en",
+"what": "Gloss of إذا كنتم فعلتم ذلك فتوبوا: 'since you have done that' -> 'if you have done that' (conditional)",
+"at": "2026-10-17 00:46"
+}
+]
+}
+}

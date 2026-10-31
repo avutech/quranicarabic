@@ -1,0 +1,52 @@
+{
+"mekki-muskil:27-27": {
+"hs": [
+"01d96cc0bb78",
+"4d5cbe5baeb1",
+"d0b330d1cdb3"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "The English is not truncated: it renders «ابتغاء استثناء ليس من الأول» as 'an exception not of the same kind as the first (disconnected exception)' and also gives the second option «ويجوز أن يكون بدلا من المضمر المنصوب في كتبناها» as 'it may also be a badal (substitute) of the accusative attached pronoun in كتبناها'. Complete and faithful; the reviewer's omission claim does not match the current text.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "English is complete: renders «ابْتِغَاء اسْتثِْنَاء لَيْسَ من الأول» as an exception not of the same kind as the first, and also «وَيجوز أَن يكون بَدَلا من الْمُضمر الْمَنْصُوب فِي كتبناها» as 'it may also be a badal of the accusative pronoun in كتبناها'. The claimed truncation does not exist in the current reading.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+},
+"mekki-muskil:1-1": {
+"hs": [
+"b83da430ce02",
+"9dc4376f8bd3",
+"cf4585bc7c6c"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Current Turkish is complete: it renders أي وما في الأرض ثم حذفت ما على أنها نكرة موصوفة قامت الصفة مقامها, ولا يحسن أن تكون ما بمعنى الذي ... عند البصريين, تقوم الصفة مقام الموصوف عند الجميع, and فحمله على الإجماع أولى من حمله على الاختلاف. No truncation or wrong meaning.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Turkish is now complete: covers حذفت ما على أنها نكرة موصوفة قامت الصفة مقامها وهي في الأرض, ولا يحسن أن تكون ما بمعنى الذي ... الصلة لا تقوم مقام الموصوف عند البصريين ..., and فحمله على الاجماع أولى من حمله على الاختلاف. No omission, meaning correct.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

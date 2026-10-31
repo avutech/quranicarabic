@@ -1,0 +1,178 @@
+{
+"mekki-muskil:2-2": {
+"p1": {
+"ar": "d0dd9dadc56f",
+"tr": "128cfbe24c5f",
+"en": "f477da564516",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:40",
+"fixed": false
+}
+},
+"mekki-muskil:8-8": {
+"p1": {
+"ar": "c5431f27bf4e",
+"tr": "8869cf6947cc",
+"en": "8ee3f6cf7cc4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:40",
+"fixed": false
+}
+},
+"mekki-muskil:10-10": {
+"p1": {
+"ar": "27c72b83d8fa",
+"tr": "8ae860166fdf",
+"en": "759883ceeb04",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:40",
+"fixed": false
+},
+"p2": {
+"ar": "27c72b83d8fa",
+"tr": "8ae860166fdf",
+"en": "759883ceeb04",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u2",
+"at": "2026-10-11 04:08",
+"fixed": false
+}
+},
+"mekki-muskil:16-16": {
+"p1": {
+"ar": "7d661fd8db45",
+"tr": "fe979177aa19",
+"en": "ce5f032cc016",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:40",
+"fixed": false
+}
+},
+"mekki-muskil:21-21": {
+"p1": {
+"ar": "0ff5fdb6a38c",
+"tr": "07964ea72055",
+"en": "9811984e824f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:40",
+"fixed": false
+}
+},
+"mekki-muskil:23-23": {
+"p1": {
+"ar": "ae7c81461f21",
+"tr": "158132c58f71",
+"en": "4d021730dc05",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Removed unmarked additions \"[Kur'an dışındaki]\" (TR) and \"ordinary\" (EN) for فِي الْكَلَام.",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:40",
+"fixed": true
+},
+"p2": {
+"ar": "ae7c81461f21",
+"tr": "158132c58f71",
+"en": "4d021730dc05",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u2",
+"at": "2026-10-11 04:08",
+"fixed": false
+}
+},
+"mekki-muskil:24-24": {
+"p1": {
+"ar": "1938fc96310d",
+"tr": "3f8f1ab263a9",
+"en": "19ef5891fde6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:40",
+"fixed": false
+}
+},
+"mekki-muskil:25-25": {
+"p1": {
+"ar": "c2af8d043880",
+"tr": "65d9021b0315",
+"en": "38b45fe669ed",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:40",
+"fixed": false
+}
+},
+"mekki-muskil:27-27": {
+"p1": {
+"ar": "0e2032d230b8",
+"tr": "932d3b05622b",
+"en": "019ff82687a7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:40",
+"fixed": false
+},
+"p2": {
+"ar": "0e2032d230b8",
+"tr": "932d3b05622b",
+"en": "019ff82687a7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u2",
+"at": "2026-10-11 04:08",
+"fixed": false
+}
+},
+"mekki-muskil:29-29": {
+"p1": {
+"ar": "63e5e98cf84c",
+"tr": "50da44109b8b",
+"en": "e76925b7708e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:41",
+"fixed": false
+}
+}
+}

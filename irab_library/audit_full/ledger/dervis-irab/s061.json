@@ -1,0 +1,70 @@
+{
+"dervis-irab:1-4": {
+"p1": {
+"ar": "6a553ae7134a",
+"tr": "1ae47bd445fb",
+"en": "0f9929f1a062",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "رابّته (wife of the father, stepmother) was rendered as stepdaughter in TR and EN note claimed stepdaughter; corrected both.",
+"by": "dervis-irab-u93",
+"at": "2026-10-10 19:41",
+"fixed": true
+},
+"p2": {
+"ar": "6a553ae7134a",
+"tr": "1ae47bd445fb",
+"en": "0f9929f1a062",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u6",
+"at": "2026-10-17 00:02",
+"fixed": false
+}
+},
+"dervis-irab:5-6": {
+"p1": {
+"ar": "8a36b6852300",
+"tr": "7727f46800af",
+"en": "c91d692b9c7a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u93",
+"at": "2026-10-10 19:41",
+"fixed": false
+}
+},
+"dervis-irab:7-13": {
+"p1": {
+"ar": "0ce600d9e5f7",
+"tr": "6c9c903e9d80",
+"en": "9f9fe6e80c4d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u93",
+"at": "2026-10-10 19:41",
+"fixed": false
+}
+},
+"dervis-irab:14-14": {
+"p1": {
+"ar": "4d069b1134b2",
+"tr": "4c68ce198d8c",
+"en": "c4e29374c128",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u93",
+"at": "2026-10-10 19:41",
+"fixed": false
+}
+}
+}

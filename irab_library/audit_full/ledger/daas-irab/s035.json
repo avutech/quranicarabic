@@ -1,0 +1,326 @@
+{
+"daas-irab:36-37": {
+"p1": {
+"ar": "872da5da035d",
+"tr": "b2024d722265",
+"en": "5db2227c8abb",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-u20",
+"at": "2026-10-10 19:18",
+"fixed": false
+}
+},
+"daas-irab:38-40": {
+"p1": {
+"ar": "ab30370b0cf8",
+"tr": "37f2d7c3dc0f",
+"en": "f84617b68572",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-p1-u5",
+"at": "2026-10-17 00:01",
+"fixed": false
+},
+"p2": {
+"ar": "ab30370b0cf8",
+"tr": "37f2d7c3dc0f",
+"en": "f84617b68572",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish added an unmarked \"(putlara)\" to الغرور هو الباطل وهو عبادتهم (\"onların (putlara) ibadetidir\"); removed it so the sentence reads \"onların ibadetidir\".",
+"by": "daas-irab-p2-u14",
+"at": "2026-10-16 19:06",
+"fixed": true
+}
+},
+"daas-irab:41-43": {
+"p1": {
+"ar": "6e1ba516479c",
+"tr": "e711272c6a6b",
+"en": "9965b153eb5b",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish said «هما» for أمسكهما object where source says الهاء; changed to «ه».",
+"by": "daas-irab-u20",
+"at": "2026-10-10 19:18",
+"fixed": true
+},
+"p2": {
+"ar": "6e1ba516479c",
+"tr": "e711272c6a6b",
+"en": "9965b153eb5b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-p2-u14",
+"at": "2026-10-16 19:06",
+"fixed": false
+}
+},
+"daas-irab:44-45": {
+"p1": {
+"ar": "077b14a79018",
+"tr": "c3890ca09485",
+"en": "8932aa1afa0a",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish said «هم» as object of يؤخرهم where source says الهاء; changed to «ه».",
+"by": "daas-irab-u20",
+"at": "2026-10-10 19:19",
+"fixed": true
+},
+"p2": {
+"ar": "077b14a79018",
+"tr": "c3890ca09485",
+"en": "8932aa1afa0a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-p2-u14",
+"at": "2026-10-16 19:06",
+"fixed": false
+}
+},
+"daas-irab:1-2": {
+"p1": {
+"ar": "77ea818ae1d5",
+"tr": "91dfdc9c61c6",
+"en": "747398566dc7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-u19",
+"at": "2026-10-10 19:20",
+"fixed": false
+}
+},
+"daas-irab:3-5": {
+"p1": {
+"ar": "4ca835d2b236",
+"tr": "c31e1a3adc43",
+"en": "9d23606e952b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-u19",
+"at": "2026-10-10 19:21",
+"fixed": false
+}
+},
+"daas-irab:6-7": {
+"p1": {
+"ar": "217b76325634",
+"tr": "e49b4ac171c5",
+"en": "1ca5228dc0c9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-u19",
+"at": "2026-10-10 19:21",
+"fixed": false
+}
+},
+"daas-irab:8-9": {
+"p1": {
+"ar": "af127c3b71ad",
+"tr": "34e8ef8d51ad",
+"en": "6bad8d0ad499",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-u19",
+"at": "2026-10-10 19:20",
+"fixed": false
+},
+"p2": {
+"ar": "af127c3b71ad",
+"tr": "34e8ef8d51ad",
+"en": "6bad8d0ad499",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-p2-u14",
+"at": "2026-10-16 19:06",
+"fixed": false
+}
+},
+"daas-irab:10-10": {
+"p1": {
+"ar": "aca56b60c0b9",
+"tr": "fc08a1c0af05",
+"en": "ce56024f7515",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-u19",
+"at": "2026-10-10 19:20",
+"fixed": false
+},
+"p2": {
+"ar": "aca56b60c0b9",
+"tr": "fc08a1c0af05",
+"en": "ce56024f7515",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-p2-u14",
+"at": "2026-10-16 19:06",
+"fixed": false
+}
+},
+"daas-irab:11-12": {
+"p1": {
+"ar": "957c06c872d3",
+"tr": "d6a68ec660b9",
+"en": "a48519900606",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-u19",
+"at": "2026-10-10 19:20",
+"fixed": false
+}
+},
+"daas-irab:13-14": {
+"p1": {
+"ar": "125a8244a460",
+"tr": "35b09ccb23fe",
+"en": "8c7df0bd40b7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-u19",
+"at": "2026-10-10 19:20",
+"fixed": false
+}
+},
+"daas-irab:15-16": {
+"p1": {
+"ar": "775712976572",
+"tr": "68364fcc5a60",
+"en": "a9a3c1dd3a90",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-u19",
+"at": "2026-10-10 19:20",
+"fixed": false
+}
+},
+"daas-irab:17-18": {
+"p1": {
+"ar": "1cf87eb30d8c",
+"tr": "59fe07f766a0",
+"en": "a36da4b981ea",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-u19",
+"at": "2026-10-10 19:20",
+"fixed": false
+}
+},
+"daas-irab:19-24": {
+"p1": {
+"ar": "20f5ada64dcb",
+"tr": "c82f34243c4b",
+"en": "4968134f336c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-u19",
+"at": "2026-10-10 19:21",
+"fixed": false
+}
+},
+"daas-irab:25-27": {
+"p1": {
+"ar": "99811a6acf66",
+"tr": "637530e4c562",
+"en": "a8153a7a6980",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-u19",
+"at": "2026-10-10 19:21",
+"fixed": false
+}
+},
+"daas-irab:28-29": {
+"p1": {
+"ar": "2777cdf87c19",
+"tr": "24a55e3360a3",
+"en": "f937e967b8d5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-u19",
+"at": "2026-10-10 19:21",
+"fixed": false
+},
+"p2": {
+"ar": "2777cdf87c19",
+"tr": "24a55e3360a3",
+"en": "f937e967b8d5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-p2-u14",
+"at": "2026-10-16 19:06",
+"fixed": false
+}
+},
+"daas-irab:30-32": {
+"p1": {
+"ar": "fd4362bbf555",
+"tr": "4ca424ae3307",
+"en": "e82cab742266",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-u19",
+"at": "2026-10-10 19:21",
+"fixed": false
+}
+},
+"daas-irab:33-35": {
+"p1": {
+"ar": "2d023e85192a",
+"tr": "0c73ba97ff5f",
+"en": "b38556b0a354",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-u19",
+"at": "2026-10-10 19:21",
+"fixed": false
+}
+}
+}

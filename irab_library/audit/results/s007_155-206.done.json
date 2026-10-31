@@ -1,0 +1,10 @@
+{
+ "surah": 7,
+ "chunk": "155-206",
+ "verdicts": {
+  "OK": 144,
+  "GAP": 9
+ },
+ "summary": "Chunk 7:155-206 audited: 1 high NEAR (zajjaj 189 spans 189-190, OK), 84 SEM samples OK, 31 low OK, 9 GAP lines. No misplacements, defects or translation problems.",
+ "at": "2026-10-10 14:59"
+}

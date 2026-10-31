@@ -1,0 +1,173 @@
+{
+"dervis-irab:83-86": {
+"hs": [
+"b51bb8a77a3f",
+"d2ce4a651783",
+"5954b71a0f3e"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Verse «فآجرك الإله على عليل ... بعثت إلى المسيح به طبيبا» is rendered «Mesîh'e [hekimlerin hekimine] tabip olarak gönderdiğin hasta [şair] için...»: the glosses «hekimlerin hekimine» and «şair» have no counterpart in the Arabic verse and are plain square brackets, not «[Mütercim notu: …]». Unmarked additions; must be moved into a Mütercim notu.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Verse «فآجرك الإله على عليل ... بعثت إلى المسيح به طبيبا» contains nothing corresponding to the bracketed glosses «[hekimlerin hekimine]» (after Mesîh'e) and «[şair]» (after hasta); these interpretive additions are in plain square brackets, not inside [Mütercim notu: …], so they are unmarked additions. Fix: move them into a Mütercim notu or drop them.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed/moved all remaining unmarked parenthetical additions: Sâhib (İbn Abbâd) and the Sâhib criticism supplement now in Mütercim notu; dropped (Ali)/(Vekil)/(Ali'nin)/(uykusuzluk)/(bir şey)/(denir)/(gönülleri alınmak istenir)/(vavıyla birlikte)/(fâil); masdar gloss in Mütercim notu",
+"verify_note": "TR complete and faithful; Mesih/hasta glosses, Sahib identification and Mutenebbi clarification now inside Mütercim notu; no plain-parenthesis additions remain; source typos (متلق, ولا عاطفة, ألذ نوبا) flagged in notes.",
+"fix_failed": 1,
+"verified": "PASS"
+},
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «وعبر عنه بما لا يعقل لأنه عدى البعث بحرف الجر» = and he referred to him with what is used for the non-rational, because he made البعث transitive with a preposition. English inserts '(the bi- construction)' after 'a non-rational thing'; this parenthesis is not in the Arabic and is not inside a [Translator's note: ...]. It is an unmarked addition. Fix: remove it or put it in a note. The rest of the vocabulary and i'rab sections checked and correspond to the source.",
+"at": "2026-10-17 01:03"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «وعبر عنه بما لا يعقل لأنه عدى البعث بحرف الجر». English: 'And he expressed him by a non-rational thing (the bi- construction), because ...'. The parenthesis '(the bi- construction)' is an explanatory gloss that is not in the source and is unmarked. It must be removed or put inside [Translator's note: …]. The rest of the English is faithful.",
+"at": "2026-10-17 01:03"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved the unmarked gloss '(the bi- construction)' into a Translator's note",
+"verified": "PASS",
+"verify_note": "'(the bi- construction)' now inside [Translator's note: ...]; vocabulary (يستعتبون, نبعث, Mutanabbi story and verses) and i'rab checked against the Arabic: complete, faithful, ألذ نوبا source reading noted, no unmarked additions found."
+}
+},
+"history": [
+{
+"old_hs": [
+"b51bb8a77a3f",
+"38791e5b064c",
+"1b5c24e6a59d"
+],
+"dim": "tr",
+"what": "Moved unmarked glosses [hekimlerin hekimine] and [şair] in the Mutanabbi verse into a Mütercim notu",
+"at": "2026-10-17 00:47"
+},
+{
+"old_hs": [
+"b51bb8a77a3f",
+"62b0e2b9474f",
+"1b5c24e6a59d"
+],
+"dim": "tr",
+"what": "Removed/moved all remaining unmarked parenthetical additions: Sâhib (İbn Abbâd) and the Sâhib criticism supplement now in Mütercim notu; dropped (Ali)/(Vekil)/(Ali'nin)/(uykusuzluk)/(bir şey)/(denir)/(gönülleri alınmak istenir)/(vavıyla birlikte)/(fâil); masdar gloss in Mütercim notu",
+"at": "2026-10-17 00:53"
+},
+{
+"old_hs": [
+"b51bb8a77a3f",
+"d2ce4a651783",
+"1b5c24e6a59d"
+],
+"dim": "en",
+"what": "Moved the unmarked gloss '(the bi- construction)' into a Translator's note",
+"at": "2026-10-17 01:05"
+}
+]
+},
+"dervis-irab:91-93": {
+"hs": [
+"12be511fd43e",
+"cacdf7307f2e",
+"2551b907f6c9"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source has typos «لأن الاستعسالين في المادتين متساويان» (for الاستعمالين) and «والقوم الذين يتسبون إلى من ليسوا منهم» (for ينتسبون). EN renders them as 'the two usages' and 'people who ascribe themselves' with no [Translator's note], i.e. the source is silently corrected (the TR reading notes both). Translation sense is right, but a Translator's note recording the source spelling is required.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source reads «لأن الاستعسالين في المادتين متساويان» and «والقوم الذين يتسبون إلى من ليسوا منهم»; EN renders them as 'the two usages' and 'people who ascribe themselves', i.e. silently reading الاستعمالين and ينتسبون. The emendations are plausible (TR flags both with Mütercim notu), but per the binding rule the source is never silently corrected: EN needs a [Translator's note: source has الاستعسالين / يتسبون, read as …]. The other part of the claim (السواد 'blackness') is already correct in EN ('nears blackness').",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Quranic/parsed words restored to Arabic script: التوكيد, أنكاث/أنكاثا, الدخل, «حبل نكث وأنكاث», and نقضت/نكثت in the I'rab (were Latin transliterations)",
+"verify_note": "EN complete and faithful; Translator's notes for الاستعسالين and يتسبون present; التوكيد, أنكاثا, نقضت/نكثت now in Arabic script; no unmarked additions found.",
+"fix_failed": 1,
+"verified": "PASS"
+},
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "In the verse «وكان أكلا قاعدا وشخا ... تحت رواق البيت يغشى الدخا», the word «شخّ» (to urinate) is in the Arabic, so '[abdest bozmak]' is strictly the rendering of an existing word, not new content. But the Turkish puts it in bare square brackets (no Mütercim notu), which tells the reader it is a translator insertion and leaves «وشخا» looking untranslated; it also softens 'urinate' to the general 'relieve oneself'. The reading still needs a fix: render وشخا plainly in the running text (e.g. 'oturup yiyip ... işediği'), without brackets. The rest of the lugha, i'rab and fawa'id was checked and is faithful.",
+"at": "2026-10-17 01:03"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "In the poem «وكان أكلا قاعدا وشخا ... تحت رواق البيت يغشى الدخا» the Turkish has 'dumana bürünüp [abdest bozmak] işi olduğunda'. The bracketed '[abdest bozmak]' is an unmarked addition, not a «Mütercim notu». It also does not properly render وشخا (he urinated) as part of the line. The English renders it plainly as 'passing water'. Fix: translate شخا in the text, or put the gloss inside «[Mütercim notu: …]».",
+"at": "2026-10-17 01:03"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked parenthetical additions: '(kumaşı)', '(ayrıca)...(demektir)', '(Ayrıca)...(دخيل'dir)', '(onunla barışmam)', '(mansûbdur)', '(te'kîd)' -> 'nûn' per source لأن النون; rest unchanged",
+"verify_note": "Previous parenthetical additions are fixed, but two problems remain: (1) In the Misbah quote the source reads «ونكث الكساء وغير نقضه أيضا» but TR quotes it as «نكث الكساء وغيره», which silently corrects the Arabic. Keep «وغير» as written and put the reading وغيره in a [Mütercim notu: …]. (2) «قالت امرأة أعرابية لزوجها» means she said it TO her husband, but TR has 'yaşlanmış kocası hakkında' (about her husband). Fix to 'kocasına, ki yaşlanmıştı, şöyle demiştir'. Minor: Fevaid 'belirli bir kişidir' adds 'kişi' (source: والمشبه به معين), so use 'belirlidir/muayyendir'. The rest of the lugha, poem, i'rab and fawa'id is faithful.",
+"fix_failed": 2,
+"verified": null
+}
+},
+"history": [
+{
+"old_hs": [
+"12be511fd43e",
+"e28052245d78",
+"8d5f0d36ce88"
+],
+"dim": "en",
+"what": "Added Translator's notes recording source spellings الاستعسالين and يتسبون (read as الاستعمالين / ينتسبون)",
+"at": "2026-10-17 00:47"
+},
+{
+"old_hs": [
+"12be511fd43e",
+"e28052245d78",
+"d3f8f0946ec8"
+],
+"dim": "en",
+"what": "Quranic/parsed words restored to Arabic script: التوكيد, أنكاث/أنكاثا, الدخل, «حبل نكث وأنكاث», and نقضت/نكثت in the I'rab (were Latin transliterations)",
+"at": "2026-10-17 00:53"
+},
+{
+"old_hs": [
+"12be511fd43e",
+"e28052245d78",
+"2551b907f6c9"
+],
+"dim": "tr",
+"what": "Translated «وشخا» in the running text (işemek) and removed the unmarked bracket '[abdest bozmak]'",
+"at": "2026-10-17 01:05"
+},
+{
+"old_hs": [
+"12be511fd43e",
+"f99b923f007a",
+"2551b907f6c9"
+],
+"dim": "tr",
+"what": "Removed unmarked parenthetical additions: '(kumaşı)', '(ayrıca)...(demektir)', '(Ayrıca)...(دخيل'dir)', '(onunla barışmam)', '(mansûbdur)', '(te'kîd)' -> 'nûn' per source لأن النون; rest unchanged",
+"at": "2026-10-17 01:09"
+}
+]
+}
+}

@@ -1,0 +1,11 @@
+{
+ "surah": 4,
+ "chunk": "130-176",
+ "verdicts": {
+  "OK": 111,
+  "SOURCE_MISPLACED": 2,
+  "GAP": 10
+ },
+ "summary": "All 5 high NEAR findings (semin-durr 156,160,166,173; muyesser 156) are OK (entries are on their ayah, quoting neighbours). 14-book semantic sample (6 per book) all OK except nahhas-meani:176-176 which is SOURCE_MISPLACED (only Alqama's Madinan/Meccan report on يا أيها الذين آمنوا / يا أيها الناس, nothing on 4:176). 25 low XREF/UNFOUND OK (alif-stripping artefacts, legitimate cross-references). 9 GAP verdicts recorded. No translation fixes needed. One stray record farraa:GAP:130-175 (note x) was logged by mistake; superseded by farraa:gap.",
+ "at": "2026-10-10 14:57"
+}

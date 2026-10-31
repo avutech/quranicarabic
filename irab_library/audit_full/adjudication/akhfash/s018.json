@@ -1,0 +1,71 @@
+{
+"akhfash:59-59": {
+"hs": [
+"222d6520cca5",
+"a6dfcbabc6a6",
+"4b8eece4cca6"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "For 'ولم يحتمل اذا اعتل ان يحذف ما قبله كله' TR writes 'i'lâle uğradığında (hazfe maruz kaldığında)': the parenthetical is an interpretive gloss not in the Arabic and not marked as [Mütercim notu: ...]. Other explanatory insertions are also unmarked: '(Temîm'den başkasını (Temîmoğulları'nı) kastetmiş, onu (Temîm'i)...' and '(ayetinde)'. Translation of the argument (القرى = أهلها; وسئل القرية; جاءت تميم = بنو تميم; التاء kept to show omission) is otherwise faithful; the unmarked additions need a fix.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic 'ولم يحتمل اذا اعتل' : TR 'i'lâle uğradığında (hazfe maruz kaldığında)' adds an unmarked interpretive gloss; also unmarked '(Temîmoğulları'nı)' in 'Temîm'den başkasını', and '(Söz)'. Additions not in the Arabic must be in [Mütercim notu: …].",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved unmarked glosses '(hazfe maruz kaldığında)', '(Temîmoğulları'nı)', '(kasabaya)' into Mütercim notları; removed '(Söz)', '(Temîm'i)', '(Temîm'e göre)', '(ayetinde)', '(yerlerde)'",
+"verified": "PASS",
+"verify_note": "The i'lâl, Temîmoğulları and 'kasabanın kendisi' explanations are now inside Mütercim notu; argument rendered completely and faithfully."
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic 'ولم يجيء بلفظ \"القُرَى\"' says only 'He did not come with the wording of القرى'; EN 'He did not bring (the pronoun) according to the word القُرَى' adds '(the pronoun)' unmarked. Likewise '\"وجاءَتْ تميمُ\" (Tamīm came, with a feminine verb)' adds 'with a feminine verb', an explanation not in the source. Both are unmarked additions that belong in [Translator's note: ...]. The rest (أهلكناهم construed on the people, اعتل = 'became defective', تاء of جاءت kept) is faithful.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic 'ولم يجيء بلفظ \"القُرَى\"' says only 'He did not come with the wording of القرى'; EN 'He did not bring (the pronoun) according to the word القُرَى' inserts unmarked '(the pronoun)', and '(Tamīm came, with a feminine verb)' adds commentary. Must be put in Translator's notes.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "'did not bring (the pronoun) according to the word' -> 'did not come with the wording of'; 'with a feminine verb' moved into a Translator's note",
+"verified": "PASS",
+"verify_note": "Unmarked '(the pronoun)' removed; 'with a feminine verb' is now in a Translator's note; complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"222d6520cca5",
+"70619e0cb8de",
+"98092e4abf32"
+],
+"dim": "tr",
+"what": "Moved unmarked glosses '(hazfe maruz kaldığında)', '(Temîmoğulları'nı)', '(kasabaya)' into Mütercim notları; removed '(Söz)', '(Temîm'i)', '(Temîm'e göre)', '(ayetinde)', '(yerlerde)'",
+"at": "2026-10-17 00:46"
+},
+{
+"old_hs": [
+"222d6520cca5",
+"a6dfcbabc6a6",
+"4b8eece4cca6"
+],
+"dim": "en",
+"what": "'did not bring (the pronoun) according to the word' -> 'did not come with the wording of'; 'with a feminine verb' moved into a Translator's note",
+"at": "2026-10-17 00:46"
+}
+]
+}
+}

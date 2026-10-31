@@ -1,0 +1,146 @@
+{
+"akhfash:4-4": {
+"p1": {
+"ar": "60b63df56ed6",
+"tr": "6fcba0e55127",
+"en": "21883d9e91fe",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish 'Ahfes dedi ki' for qala changed to buyurdu.",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:45",
+"fixed": true
+},
+"p2": {
+"ar": "60b63df56ed6",
+"tr": "6fcba0e55127",
+"en": "21883d9e91fe",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-p2-u1",
+"at": "2026-10-16 19:06",
+"fixed": false
+}
+},
+"akhfash:6-6": {
+"p1": {
+"ar": "ba9a94fd5989",
+"tr": "944be5b6c441",
+"en": "5d9df606d3df",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"akhfash:8-9": {
+"p1": {
+"ar": "0f9fbcbcba3f",
+"tr": "12b28f694185",
+"en": "7bd0ade53522",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish 'Ahfes dedi ki' / 've dedi ki' changed to buyurdu.",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:45",
+"fixed": true
+},
+"p2": {
+"ar": "0f9fbcbcba3f",
+"tr": "12b28f694185",
+"en": "7bd0ade53522",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-p2-u1",
+"at": "2026-10-16 19:06",
+"fixed": false
+}
+},
+"akhfash:12-12": {
+"p1": {
+"ar": "0a236854e70f",
+"tr": "6cce323e754d",
+"en": "190a538d6a2c",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Turkish 'Ahfes dedi ki' fixed; both readings silently turned source typo jarruha into 'yakmasi/kindling'; now rendered as written with a translator note (presumably harruha).",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:45",
+"fixed": true
+},
+"p2": {
+"ar": "0a236854e70f",
+"tr": "6cce323e754d",
+"en": "190a538d6a2c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-p2-u1",
+"at": "2026-10-16 19:06",
+"fixed": false
+}
+},
+"akhfash:16-16": {
+"p1": {
+"ar": "6ff77075462c",
+"tr": "e564d0a276ae",
+"en": "d735c351f273",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish 'Ahfes dedi ki' changed to buyurdu.",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:45",
+"fixed": true
+},
+"p2": {
+"ar": "6ff77075462c",
+"tr": "e564d0a276ae",
+"en": "d735c351f273",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-p2-u1",
+"at": "2026-10-16 19:06",
+"fixed": false
+}
+},
+"akhfash:24-24": {
+"p1": {
+"ar": "52f2f8fc95e7",
+"tr": "5de43a7f3a86",
+"en": "dd2cf94b339b",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish 'Ahfes dedi ki' changed to buyurdu.",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:45",
+"fixed": true
+},
+"p2": {
+"ar": "52f2f8fc95e7",
+"tr": "5de43a7f3a86",
+"en": "dd2cf94b339b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-p2-u1",
+"at": "2026-10-16 19:06",
+"fixed": false
+}
+}
+}

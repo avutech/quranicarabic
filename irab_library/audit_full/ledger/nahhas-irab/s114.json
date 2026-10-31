@@ -1,0 +1,110 @@
+{
+"nahhas-irab:1-1": {
+"p1": {
+"ar": "c5e19c1df56d",
+"tr": "36918b24aa4a",
+"en": "a0daed5f9a78",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:20",
+"fixed": false
+}
+},
+"nahhas-irab:2-2": {
+"p1": {
+"ar": "a2ed8788a516",
+"tr": "dbb1bff56723",
+"en": "eab1784b402c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:20",
+"fixed": false
+}
+},
+"nahhas-irab:3-3": {
+"p1": {
+"ar": "1d0d89bc8c6c",
+"tr": "6b55e72fecbc",
+"en": "500236145cb3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:20",
+"fixed": false
+},
+"p2": {
+"ar": "1d0d89bc8c6c",
+"tr": "6b55e72fecbc",
+"en": "500236145cb3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 17:07",
+"fixed": false
+}
+},
+"nahhas-irab:4-4": {
+"p1": {
+"ar": "37c0144af8cc",
+"tr": "ba0e2ceaaa61",
+"en": "a21c6237afbc",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:20",
+"fixed": false
+}
+},
+"nahhas-irab:5-5": {
+"p1": {
+"ar": "e7b592d8bc46",
+"tr": "72fa101dc5af",
+"en": "31119c54dd70",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:20",
+"fixed": false
+}
+},
+"nahhas-irab:6-6": {
+"p1": {
+"ar": "eeeb7c1f2eb6",
+"tr": "ce80b8b3fc83",
+"en": "1654bfc4ffed",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR had an unmarked bracketed addition [Takdiri: ...] and dropped the source footnote marker «2»; both now marked as translator notes.",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:20",
+"fixed": true
+},
+"p2": {
+"ar": "eeeb7c1f2eb6",
+"tr": "ce80b8b3fc83",
+"en": "1654bfc4ffed",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 17:07",
+"fixed": false
+}
+}
+}

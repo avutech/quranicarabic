@@ -1,0 +1,10 @@
+{
+ "surah": 15,
+ "chunk": "1-99",
+ "verdicts": {
+  "OK": 123,
+  "SOURCE_MISPLACED": 2
+ },
+ "summary": "Surah 15 chunk 1-99: 12 high/medium findings all OK (NEAR quotations are adjacent-ayah continuations; X length differences only), 29 low findings all OK except nahhas-meani:99-99 SOURCE_MISPLACED (belongs to Sura 16 intro; TR/EN already carry translator note), semantic sample 84 keys all OK, GAPs are books that do not cover those ayahs. No translation fixes needed.",
+ "at": "2026-10-10 15:01"
+}

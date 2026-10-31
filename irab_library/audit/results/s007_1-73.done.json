@@ -1,0 +1,12 @@
+{
+ "surah": 7,
+ "chunk": "1-73",
+ "verdicts": {
+  "OK": 157,
+  "TRANSLATION_FIXED": 2,
+  "SOURCE_DEFECT": 2,
+  "GAP": 9
+ },
+ "summary": "Chunk 7:1-73 audited. 8 high/medium findings: 7 OK, dervis-irab:35-37 EN contained the 38-41 Vocabulary section (fixed: removed there and restored into EN 38-41, now 4 sections like AR/TR). 69 low XREF/UNFOUND all OK (quotations from other ayahs or spelling variants). Semantic sample of 14 books (6 each): all consistent; source defects: nahhas-irab:56-56 garbled opening, daas-irab:73-73 says verse 64 instead of 65. 9 GAP verdicts recorded.",
+ "at": "2026-10-10 15:00"
+}

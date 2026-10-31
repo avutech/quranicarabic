@@ -1,0 +1,28 @@
+{
+"dervis-irab:1-5": {
+"p1": {
+"ar": "d10e2c892e56",
+"tr": "93c942f81264",
+"en": "03868195afb4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u5",
+"at": "2026-10-17 00:16",
+"fixed": false
+},
+"p2": {
+"ar": "d10e2c892e56",
+"tr": "93c942f81264",
+"en": "03868195afb4",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN rendered Ibn Khalawayh's «وزنه من الفعل تفعل» as \"taf [reduced from tafʿal]\" and Zamakhshari's «عباديد» as ʿabābīd; corrected to tafʿal and ʿabādīd.",
+"by": "dervis-irab-p2-u8",
+"at": "2026-10-17 00:01",
+"fixed": true
+}
+}
+}

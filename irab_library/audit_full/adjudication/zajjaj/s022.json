@@ -1,0 +1,304 @@
+{
+"zajjaj:2-2": {
+"hs": [
+"8279da3fac07",
+"048f3b3b5f81",
+"68f874330513"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "EN adds unmarked '[with the feminine ending]' after ”مُرْضِعَةٍ“، جارٍ عَلى ”اَلْمُفْعِلُ“ and '[its nāʾib fāʿil (deputy agent)]' after فَيَكُونَ ”اَلنّاسُ“، اِسْمَ ”يُرى“. Neither is in the Arabic; the second is an interpretive label the source does not use. Must be in Translator's notes.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: و\"مُرْضِعَةٍ\" جارٍ عَلى \"اَلْمُفْعِلُ\"، عَلى ما أرْضَعَتْ and فَيَكُونَ \"اَلنّاسُ\" اِسْمَ \"يُرى\". EN adds unmarked '[with the feminine ending]' and '[the act of]' in the first, and '[its nāʾib fāʿil (deputy agent)]' after 'the noun of يُرى'; none is in the source or inside a Translator's note.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked 'as if' (you see them drunk from the punishment); ذاتُ لَبُونٍ، ولَبَنٍ now fully rendered 'possessed of milch animals and of milk'",
+"verify_note": "Feminine ending, act of, na'ib fa'il and so-printed all in Translator's notes; 'as if' removed; ذات لبون ولبن now rendered fully (milch animals and milk); complete and faithful.",
+"fix_failed": 1,
+"verified": "PASS"
+}
+},
+"history": [
+{
+"old_hs": [
+"8279da3fac07",
+"048f3b3b5f81",
+"c426d3698a4e"
+],
+"dim": "en",
+"what": "Put unmarked [with the feminine ending], [the act of] and [its nāʾib fāʿil (deputy agent)] inside Translator's notes",
+"at": "2026-10-17 00:42"
+},
+{
+"old_hs": [
+"8279da3fac07",
+"048f3b3b5f81",
+"95ee1748e573"
+],
+"dim": "en",
+"what": "Removed unmarked 'as if' (you see them drunk from the punishment); ذاتُ لَبُونٍ، ولَبَنٍ now fully rendered 'possessed of milch animals and of milk'",
+"at": "2026-10-17 00:46"
+}
+]
+},
+"zajjaj:4-4": {
+"hs": [
+"3c976a0feecd",
+"9a7fbb246f6f",
+"b731c3fa2337"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: ”أنَّهُ“، في مَوْضِعِ رَفْعٍ — nothing more. EN adds unmarked '[as nāʾib fāʿil (deputy agent) of ”كُتِبَ“]', an analysis not stated by the author; must be in a Translator's note.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: \"أنَّهُ\" في مَوْضِعِ رَفْعٍ only. EN: 'is in the position of the nominative [as nāʾib fāʿil (deputy agent) of \"كُتِبَ\"]' - the bracketed function is not stated in the source and is not in a Translator's note: unmarked addition.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Put unmarked [as nāʾib fāʿil (deputy agent) of كُتِبَ] inside a Translator's note",
+"verified": "PASS",
+"verify_note": "nāʾib fāʿil gloss now inside Translator's note; rest complete and faithful, no unmarked additions."
+}
+},
+"history": [
+{
+"old_hs": [
+"3c976a0feecd",
+"9a7fbb246f6f",
+"f3f2f60fbb43"
+],
+"dim": "en",
+"what": "Put unmarked [as nāʾib fāʿil (deputy agent) of كُتِبَ] inside a Translator's note",
+"at": "2026-10-17 00:42"
+}
+]
+},
+"zajjaj:9-9": {
+"hs": [
+"4966316a4e88",
+"e015a4768c5b",
+"a0967030f084"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: ومَعْناهُ التَّنْوِينٌ ... وهَذا يُوصَفُ بِهِ. EN adds unmarked '[i.e. the annexation is not a real one]' (a grammatical interpretation absent from the source) and '[arrogance]' as object of يوصف به. Both are additions outside a Translator's note.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: ومَعْناهُ التَّنْوِينٌ ... وهَذا يُوصَفُ بِهِ. EN adds '[i.e. the annexation is not a real one]' (not in source) and renders وهَذا يُوصَفُ بِهِ as 'this is used to describe [arrogance]' - an unmarked bracketed supplement (the source says the person is described by it, i.e. the arrogant one). Both supplements must go into Translator's notes.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Put [i.e. the annexation is not a real one] in a Translator's note; rendered وهَذا يُوصَفُ بِهِ literally with the [arrogance] gloss moved into a Translator's note",
+"verified": "PASS",
+"verify_note": "Both supplements (tanwīn/annexation, arrogance) now inside Translator's notes; body translates ومعناه التنوين and وهذا يوصف به as written; rest complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"4966316a4e88",
+"e015a4768c5b",
+"23b3f8e9a2af"
+],
+"dim": "en",
+"what": "Put [i.e. the annexation is not a real one] in a Translator's note; rendered وهَذا يُوصَفُ بِهِ literally with the [arrogance] gloss moved into a Translator's note",
+"at": "2026-10-17 00:42"
+}
+]
+},
+"zajjaj:25-25": {
+"hs": [
+"fb5cccd6c387",
+"3143889a656d",
+"906e1b22a75c"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: والَّذِي يَذْهَبُ إلَيْهِ أصْحابُنا — no city named. TR renders 'Bizim ashabımızın (Basralıların)': the identification (Basralıların) is an unmarked addition; must go in a Mütercim notu.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: والَّذِي يَذْهَبُ إلَيْهِ أصْحابُنا أنَّ الباءَ لَيْسَتْ بِمُلْغاةٍ. TR: 'Bizim ashabımızın (Basralıların)' - the identification as Basrans is not in the source and is unmarked. (Also '(zâidedir)' gloss for الطَّرْحُ and '[cariyeler]' in the verse translation are unmarked supplements.) Must be moved into Mütercim notu.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Unmarked '(İkincisi)' moved into Mütercim notu",
+"verify_note": "Basralılar, zâide, cariyeler, İkinci vecih and the kıraat remark all inside Mütercim notu; no unmarked additions left; complete and faithful to the Arabic.",
+"fix_failed": 1,
+"verified": "PASS"
+},
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: أصْحابُنا and ويَكُونَ خَبَرُ ”جَعَلْناهُ“، اَلْجُمْلَةَ. EN adds unmarked '(the Basrans)' and '(second object)' — neither is in the Arabic; must be in Translator's notes.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: أصْحابُنا -> EN 'our colleagues (the Basrans)': Basrans not in source, unmarked. Arabic: ويَكُونَ خَبَرُ \"جَعَلْناهُ\" اَلْجُمْلَةَ -> EN 'the clause is the khabar (second object) of جَعَلْناهُ': '(second object)' is an unmarked interpretive addition. Must be put in Translator's notes.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "'(redundant)' for الطَّرْحُ moved into a Translator's note; 'imperfect (future)' corrected to 'future (mustaqbal)' per لَفْظُ مُسْتَقْبَلٍ",
+"verify_note": "Basrans, second object, redundant (for الطَّرْحُ) and the sawa' reading remark all in Translator's notes; complete and faithful.",
+"fix_failed": 1,
+"verified": "PASS"
+}
+},
+"history": [
+{
+"old_hs": [
+"fb5cccd6c387",
+"4dc92ae9333a",
+"288e9a0bf345"
+],
+"dim": "tr",
+"what": "Put unmarked (Basralıların), (zâidedir) and [cariyeler] inside Mütercim notları",
+"at": "2026-10-17 00:42"
+},
+{
+"old_hs": [
+"fb5cccd6c387",
+"d9a6f7dc5ea0",
+"2934ff976f66"
+],
+"dim": "en",
+"what": "Put unmarked (the Basrans) and (second object) inside Translator's notes",
+"at": "2026-10-17 00:42"
+},
+{
+"old_hs": [
+"fb5cccd6c387",
+"d9a6f7dc5ea0",
+"2934ff976f66"
+],
+"dim": "en",
+"what": "'(redundant)' for الطَّرْحُ moved into a Translator's note; 'imperfect (future)' corrected to 'future (mustaqbal)' per لَفْظُ مُسْتَقْبَلٍ",
+"at": "2026-10-17 00:46"
+},
+{
+"old_hs": [
+"fb5cccd6c387",
+"3143889a656d",
+"906e1b22a75c"
+],
+"dim": "tr",
+"what": "Unmarked '(İkincisi)' moved into Mütercim notu",
+"at": "2026-10-17 00:46"
+}
+]
+},
+"zajjaj:63-63": {
+"hs": [
+"50fe24b58b56",
+"aec8efe3bb1c",
+"9267b7ed2e83"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: وأمّا القِراءَةُ: ﴿فَتُصْبِحُ الأرْضُ مُخْضَرَّةً﴾، لا غَيْرُ — it does not say 'merfû'. TR inserts unmarked '(merfû olarak okunur)', an interpretive addition; must be in a Mütercim notu.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: وأمّا القِراءَةُ: ﴿فَتُصْبِحُ الأرْضُ مُخْضَرَّةً﴾، لا غَيْرُ. TR inserts '(merfû olarak okunur)' - the source does not say 'nominative' here; unmarked addition. (Also '(olumlu bir haberdir)' after vâciptir is an unmarked gloss.) Should be in a Mütercim notu.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Unmarked '(ilâh)' moved into Mütercim notu",
+"verify_note": "ilâh, merfû and olumlu haber now inside Mütercim notu; remaining parentheticals are synonym glosses; complete and faithful.",
+"fix_failed": 1,
+"verified": "PASS"
+},
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: وأمّا القِراءَةُ: ﴿فَتُصْبِحُ الأرْضُ مُخْضَرَّةً﴾، لا غَيْرُ. EN adds unmarked '(i.e. with the nominative fa-tuṣbiḥu)' — not in the source, and also transliterates a Quranic word in Latin letters. Must be a Translator's note with Arabic script.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: وأمّا القِراءَةُ: ﴿فَتُصْبِحُ الأرْضُ مُخْضَرَّةً﴾، لا غَيْرُ. EN adds '(i.e. with the nominative fa-tuṣbiḥu)' - not in the source, unmarked, and it also transliterates a Quranic word in Latin letters. Must be a Translator's note with the word in Arabic script.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Put unmarked (i.e. with the nominative fa-tuṣbiḥu) inside a Translator's note, with the Quranic word in Arabic script (فَتُصْبِحُ)",
+"verified": "PASS",
+"verify_note": "Nominative gloss now a Translator's note with Arabic script; rest complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"50fe24b58b56",
+"e4f3c457bbf0",
+"5fd884af845b"
+],
+"dim": "tr",
+"what": "Put unmarked (merfû olarak okunur) and (olumlu bir haberdir) inside Mütercim notları",
+"at": "2026-10-17 00:42"
+},
+{
+"old_hs": [
+"50fe24b58b56",
+"10c6b75f51dd",
+"9267b7ed2e83"
+],
+"dim": "en",
+"what": "Put unmarked (i.e. with the nominative fa-tuṣbiḥu) inside a Translator's note, with the Quranic word in Arabic script (فَتُصْبِحُ)",
+"at": "2026-10-17 00:42"
+},
+{
+"old_hs": [
+"50fe24b58b56",
+"10c6b75f51dd",
+"9267b7ed2e83"
+],
+"dim": "tr",
+"what": "Unmarked '(ilâh)' moved into Mütercim notu",
+"at": "2026-10-17 00:46"
+}
+]
+}
+}

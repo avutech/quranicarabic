@@ -1,0 +1,27 @@
+{
+"semin-durr:16-16": {
+"hs": [
+"9cf31897e7f9",
+"06abe6658ac8",
+"7a7aae3ba2d1"
+],
+"dims": {
+"fit": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "The entry is about «{وَأَصْفَاكُم}» (معطوفاً على اتَّخذ / حالاً أي: أم اتَّخذ في هذه الحالةِ), which is in 43:16 «أَمِ ٱتَّخَذَ مِمَّا يَخْلُقُ بَنَاتٍۢ وَأَصْفَىٰكُم بِٱلْبَنِينَ». The source ends truncated at «وقد تقدَّم نظيرُ:», but the substantive content is intact and correctly listed under 43:16.",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Entry discusses {وَأَصْفَاكُم} and «اتَّخذ», both in 43:16 «أَمِ ٱتَّخَذَ ... وَأَصْفَىٰكُم بِٱلْبَنِينَ»; listed correctly. The text breaks off at «وقد تقدَّم نظيرُ:», but the substantive content is present, so the placement is right.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

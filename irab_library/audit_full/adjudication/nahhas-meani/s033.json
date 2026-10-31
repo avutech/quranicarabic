@@ -1,0 +1,53 @@
+{
+"nahhas-meani:69-69": {
+"hs": [
+"a0fcbd5df5c9",
+"fdd92521d8e0",
+"ecffe28f16e7"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic «حتى علمتْ بنو إسرائيل أنه مَات» says only 'that he had died'; TR 'onun (eceliyle) öldüğünü öğrendiler' adds unmarked '(eceliyle)' (of natural death), an interpretive addition not in the source; must be removed or put in [Mütercim notu: …].",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic «حتى علمتْ بنو إسرائيل أنه مَات» says only 'that he had died'; TR 'onun (eceliyle) öldüğünü' adds unmarked '(eceliyle)' (natural death), an interpretive addition not in the Arabic; must be removed or put in [Mütercim notu: ...].",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked parentheticals (Mûsâ) x2, (Resûlullah), (Allah), (ödre), (rahm kuşundan); (Hârûn'u) moved into Mütercim notu",
+"verify_note": "All earlier unmarked parentheticals removed or placed in Mütercim notu (Hârûn'u, eceliyle); full hadith and Ali report rendered faithfully; nothing unmarked added.",
+"fix_failed": 1,
+"verified": "PASS"
+}
+},
+"history": [
+{
+"old_hs": [
+"a0fcbd5df5c9",
+"e151b5a59a3f",
+"ecffe28f16e7"
+],
+"dim": "tr",
+"what": "Unmarked '(eceliyle)' moved into [Mütercim notu: yani eceliyle öldüğünü]",
+"at": "2026-10-17 00:42"
+},
+{
+"old_hs": [
+"a0fcbd5df5c9",
+"5e2009fab8d8",
+"ecffe28f16e7"
+],
+"dim": "tr",
+"what": "Removed unmarked parentheticals (Mûsâ) x2, (Resûlullah), (Allah), (ödre), (rahm kuşundan); (Hârûn'u) moved into Mütercim notu",
+"at": "2026-10-17 00:46"
+}
+]
+}
+}

@@ -1,0 +1,11 @@
+{
+ "surah": 37,
+ "chunk": "1-104",
+ "verdicts": {
+  "OK": 129,
+  "SOURCE_MISPLACED": 1,
+  "GAP": 8
+ },
+ "summary": "Audited surah 37 ayahs 1-104 across 14 books. All 20 high/medium findings reviewed: 19 OK (NEAR = author quotes the adjacent ayah in the same comment; X = length only), 1 SOURCE_MISPLACED (mekki-muskil:93-93 also comments on 37:96). All 27 low findings OK (spelling artefacts or deliberate cross-references). 84 semantic samples across all books OK; no translation fixes needed. GAP recorded for 8 selective books.",
+ "at": "2026-10-10 15:08"
+}

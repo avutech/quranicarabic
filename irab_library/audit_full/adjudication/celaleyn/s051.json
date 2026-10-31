@@ -1,0 +1,67 @@
+{
+"celaleyn:7-7": {
+"hs": [
+"66ef3080a0a0",
+"a831b97a5fae",
+"232bcd4dc22a"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic كَالطُّرُقِ فِي الرَّمْلِ = 'like the paths in sand'; English adds '[ripples]' as a bare bracket, not inside a [Translator's note: …]: unmarked addition (Turkish has none).",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic كَالطُّرُقِ فِي الرَّمْلِ = 'like the paths in sand'; English adds the bracket '[ripples]', which is not in the Arabic and is not marked as a Translator's note (Turkish has no such addition). Unmarked addition; fix: put it inside [Translator's note: …] or remove.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked addition '[ripples]'",
+"verified": "PASS",
+"verify_note": "Unmarked '[ripples]' removed; plural of حبيكة, like طريقة/طرق, possessing paths in its make-up like paths in sand: complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"66ef3080a0a0",
+"a831b97a5fae",
+"176e94dfd446"
+],
+"dim": "en",
+"what": "Removed unmarked addition '[ripples]'",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"celaleyn:49-49": {
+"hs": [
+"e590c8b98565",
+"515dbb03f192",
+"be7dbd4a8f5f"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Claim is false: English does not translate 51:44; it renders this entry faithfully: مُتَعَلِّقٌ بِقَوْلِهِ = attached to His words, صِنْفَيْنِ = two kinds, full list of pairs, بِحَذْفِ إِحْدَى التَّاءَيْنِ فِي الْأَصْلِ = one of the two tāʾs omitted, فَتَعْلَمُونَ أَنَّ خَالِقَ الْأَزْوَاجِ فَرْدٌ فَتَعْبُدُونَهُ = know the Creator of pairs is One and worship Him.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "The current English translates this entry's text, not 51:44: 'attached (mutaʿalliq) to His words' = مُتَعَلِّقٌ بِقَوْلِهِ, 'two kinds' = صِنْفَيْنِ, the full list male/female ... light/darkness, 'one of the two tāʾs ... omitted' = بِحَذْفِ إِحْدَى التَّاءَيْنِ, 'the Creator of the pairs is One, and so worship Him' = أَنَّ خَالِقَ الْأَزْوَاجِ فَرْدٌ فَتَعْبُدُونَهُ. Nothing from فَعَتَوْا/الصَّاعِقَةُ appears.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

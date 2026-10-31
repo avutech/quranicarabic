@@ -1,0 +1,146 @@
+{
+"dervis-irab:1-11": {
+"p1": {
+"ar": "52f66e7c69d9",
+"tr": "2975ba6aac62",
+"en": "d6b290d729e6",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR+EN: Rai verse «مستحيرة» glossed unverifiably (TR \"kazan\", EN \"pool of fat\", differing); left untranslated with note. EN: Abu Dhuayb «الضرباء» rendered \"the drinkers\" (TR: gamblers); now \"gamblers\"",
+"by": "dervis-irab-p1-u3",
+"at": "2026-10-17 00:22",
+"fixed": true
+},
+"p2": {
+"ar": "52f66e7c69d9",
+"tr": "2975ba6aac62",
+"en": "d6b290d729e6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u5",
+"at": "2026-10-17 00:30",
+"fixed": false
+}
+},
+"dervis-irab:12-18": {
+"p1": {
+"ar": "d6c4b95c6add",
+"tr": "9e3ffee73dc3",
+"en": "e43adcfc8dd9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u4",
+"at": "2026-10-17 00:15",
+"fixed": false
+},
+"p2": {
+"ar": "d6c4b95c6add",
+"tr": "9e3ffee73dc3",
+"en": "e43adcfc8dd9",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR added unmarked \"(sidir/arâk)\" for «شجرة نبق»; arak is a different tree, removed \"/arâk\".",
+"by": "dervis-irab-p2-u6",
+"at": "2026-10-17 00:03",
+"fixed": true
+}
+},
+"dervis-irab:31-32": {
+"p1": {
+"ar": "19a38866cd09",
+"tr": "98174d2f7c40",
+"en": "6ff1cfabdc41",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR: الزيادة rendered ziyaret, Ata habit, ذا براية omitted; EN: بكم silently corrected for source ولكم",
+"by": "dervis-irab-u2",
+"at": "2026-10-11 00:55",
+"fixed": true
+},
+"p2": {
+"ar": "19a38866cd09",
+"tr": "98174d2f7c40",
+"en": "6ff1cfabdc41",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u6",
+"at": "2026-10-17 00:04",
+"fixed": false
+}
+},
+"dervis-irab:33-62": {
+"p1": {
+"ar": "3d7ca686733d",
+"tr": "136d78d9ef43",
+"en": "a95eea6f5f78",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR: أزوفا silently corrected from أزفا; EN: القامة silently corrected to Resurrection",
+"by": "dervis-irab-u2",
+"at": "2026-10-11 00:55",
+"fixed": true
+},
+"p2": {
+"ar": "3d7ca686733d",
+"tr": "136d78d9ef43",
+"en": "a95eea6f5f78",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u6",
+"at": "2026-10-17 00:01",
+"fixed": false
+}
+},
+"dervis-irab:19-25": {
+"p1": {
+"ar": "0ebf04cf0c8e",
+"tr": "5928e4568f6e",
+"en": "3dfd7eb57d87",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u4",
+"at": "2026-10-17 00:15",
+"fixed": false
+},
+"p2": {
+"ar": "0ebf04cf0c8e",
+"tr": "5928e4568f6e",
+"en": "3dfd7eb57d87",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN silently changed the source example «ربا» to «رُبى»; restored as written with a marked translator's note (TR already notes it).",
+"by": "dervis-irab-p2-u6",
+"at": "2026-10-17 00:04",
+"fixed": true
+}
+},
+"dervis-irab:26-30": {
+"p1": {
+"ar": "581c7d8a75f1",
+"tr": "fecb2716b91b",
+"en": "65a9da860fc9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u2",
+"at": "2026-10-11 01:41",
+"fixed": false
+}
+}
+}

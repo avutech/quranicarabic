@@ -1,0 +1,10 @@
+{
+ "surah": 18,
+ "chunk": "75-110",
+ "verdicts": {
+  "OK": 44,
+  "GAP": 18
+ },
+ "summary": "Surah 18:75-110: 5 high NEAR and 10 low findings reviewed, all OK (authors span adjacent ayahs or false positives); semantic sample of all 14 books OK; GAP reported for 9 books; no translation fixes needed.",
+ "at": "2026-10-10 15:02"
+}

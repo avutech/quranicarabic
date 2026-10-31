@@ -1,0 +1,12 @@
+{
+ "surah": 6,
+ "chunk": "135-165",
+ "verdicts": {
+  "SOURCE_DEFECT": 2,
+  "OK": 102,
+  "TRANSLATION_FIXED": 1,
+  "GAP": 8
+ },
+ "summary": "All 2 high/medium, 21 low and 84 semantic checks on 14 books recorded plus 8 GAP lines. Real problems: zajjaj:135-135 spliced with 6:138 text (SOURCE_DEFECT; zajjaj has no entries for 136-138); ukberi-tibyan:153-153 verse number printed (٥٣) for 153 (SOURCE_DEFECT); harrat-mujtaba:147-147 TR had an extra phrase, fixed.",
+ "at": "2026-10-10 14:59"
+}

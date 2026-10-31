@@ -1,0 +1,56 @@
+{
+"mekki-muskil:15-15": {
+"hs": [
+"ff10828d3e6f",
+"85cad067b2a3",
+"7aacc64d2cc7"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "MISPLACED",
+"evidence": "First paragraph {قل أذلك خير أم جنة الخلد} is 25:15 (correct; {إن شاء جعل لك خيرا من ذلك جنات} 25:10 is only cited). Second paragraph {لا بشرى يومئذ للمجرمين} is 25:22, and third {الملك يومئذ الحق للرحمن} is 25:26; both are full i'rab discussions of those ayahs.",
+"at": "2026-10-17 00:39",
+"ayahs": "15-26"
+},
+"J2": {
+"class": "MISPLACED",
+"evidence": "First paragraph {قل أذلك خير أم جنة الخلد} = 25:15; second «قولة {لَا بشرى يَوْمئِذٍ للمجرمين}» = 25:22; third «قَوْله {الْملك يَوْمئِذٍ الْحق للرحمن}» = 25:26. Entry substantively covers 15, 22 and 26.",
+"at": "2026-10-17 00:39",
+"ayahs": "15-26"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+},
+"mekki-muskil:22-22": {
+"hs": [
+"2c3907965c3a",
+"e5212caf5291",
+"fa8655c1d865"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "MISPLACED",
+"evidence": "{يوم يرون الملائكة لا بشرى} and {حجرا} are 25:22 (correct), but the sentence «و{الملك} مبتدأ و{الحق} نعته و{للرحمن} الخبر وأجاز الزجاج الحق بالنصب» parses 25:26 «الملك يومئذ الحق للرحمن», a substantive discussion of another ayah.",
+"at": "2026-10-17 00:39",
+"ayahs": "22-26"
+},
+"J2": {
+"class": "MISPLACED",
+"evidence": "«{يَوْم يرَوْنَ الْمَلَائِكَة لَا بشرى}» and «{حجرا} نصب على الْمصدر» = 25:22, but the middle sentence «و {الْملك} مُبْتَدأ و {الْحق} نَعته و {للرحمن} الْخَبَر وَأَجَازَ الزّجاج الْحق بِالنّصب» parses ٱلْمُلْكُ يَوْمَئِذٍ ٱلْحَقُّ لِلرَّحْمَـٰنِ = 25:26. Entry covers 22 and 26.",
+"at": "2026-10-17 00:39",
+"ayahs": "22-26"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+}
+}

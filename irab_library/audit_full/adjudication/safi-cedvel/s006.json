@@ -1,0 +1,134 @@
+{
+"safi-cedvel:95-95": {
+"hs": [
+"f280a5249e4a",
+"17f614d8c9ac",
+"4c1df4db3fc6"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic Balagha ends «حيث عدل فيه عن الماضي المطابق لأنزل» ('where it turned away from the past tense that would match أنزل'), with no target named. TR «orada أنزل'e uygun düşen mâzîden (muzâriye) dönülmüştür» adds «(muzâriye)» as an unmarked parenthesis. The supplement is contextually correct (فتصبح is muḍāriʿ) but it is not in the Arabic, so it must be put inside [Mütercim notu: …].",
+"at": "2026-10-17 00:42"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Balagha ends «حيث عدل فيه عن الماضي المطابق لأنزل» (where it turned away from the past matching أنزل); TR «orada أنزل'e uygun düşen mâzîden (muzâriye) dönülmüştür» inserts «(muzâriye)», which is not in the Arabic and is not inside a [Mütercim notu: ...]; an unmarked addition (EN correctly has none).",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Belagat: unmarked '(muzâriye)' moved into [Mütercim notu: Yani muzâriye.]",
+"verified": "PASS",
+"verify_note": "«muzâriye» is now inside a Mütercim notu at the end of the Belâgat; the rest is complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"f280a5249e4a",
+"8bd81c2ea97e",
+"4c1df4db3fc6"
+],
+"dim": "tr",
+"what": "Belagat: unmarked '(muzâriye)' moved into [Mütercim notu: Yani muzâriye.]",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"safi-cedvel:106-107": {
+"hs": [
+"38e3a450c3d6",
+"835f218d72cc",
+"25e122876eee"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic footnote: «يجوز إعرابها حالا من (ربّك) ، أي من ربّك منفردا» = 'it may be parsed as a ḥāl of (ربّك), i.e. from your Lord, being alone/unique'. EN «from your Lord, alone (in His Oneness)» adds «(in His Oneness)» as an unmarked parenthesis that is not in the Arabic; it must be removed or put inside [Translator's note: …].",
+"at": "2026-10-17 00:43"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Footnote «يجوز إعرابها حالا من (ربّك) ، أي من ربّك منفردا» = i.e. from your Lord, being alone/unique. EN renders «from your Lord, alone (in His Oneness)»: «(in His Oneness)» is an interpretive gloss not in the Arabic and not inside a [Translator's note: ...]; unmarked addition. Rest of EN matches the Arabic.",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Footnote: unmarked '(in His Oneness)' moved into [Translator's note: i.e. in His Oneness.]",
+"verified": "PASS",
+"verify_note": "«in His Oneness» is now inside a Translator's note within the footnote; the rest is complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"38e3a450c3d6",
+"835f218d72cc",
+"74e80483dc1c"
+],
+"dim": "en",
+"what": "Footnote: unmarked '(in His Oneness)' moved into [Translator's note: i.e. in His Oneness.]",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"safi-cedvel:126-127": {
+"hs": [
+"9986ab25db90",
+"0370f5827da9",
+"3d981c65e624"
+],
+"dims": {
+"fit": {
+"votes": {
+"J2": {
+"class": "MISPLACED",
+"evidence": "I'rab/Sarf cover 6:126 («هذا صراط ربك مستقيما ... فصّلنا الآيات لقوم يذّكّرون») and 6:127 («لهم دار السلام عند ربّهم وهو وليّهم بما كانوا يعملون»). But Fawaid item 1 is a substantive comment on «كَأَنَّما يَصَّعَّدُ فِي السَّماءِ» (falling air pressure/oxygen causing tightness of the chest), which is a phrase of 6:125 (فمن يرد الله أن يهديه ... يجعل صدره ضيقا حرجا كأنما يصّعّد في السماء), not of 126-127; it is not cited as evidence but explained. So the entry also discusses 6:125 and the listing should be 125-127.",
+"at": "2026-10-17 00:43",
+"ayahs": "125-127"
+},
+"J1": {
+"class": "MISPLACED",
+"evidence": "I'rab/sarf cover 6:126-127 (هذا صراط ربّك مستقيما، فصّلنا الآيات، لقوم يذّكّرون؛ لهم دار السلام عند ربّهم، هو وليّهم بما كانوا يعملون). But Fawa'id 1 is a substantive note on «كَأَنَّما يَصَّعَّدُ فِي السَّماءِ» (air pressure, oxygen, tightness of the chest = ضيّقا حرجا), which is a phrase of 6:125, not of 126-127. Complete range: 125-127.",
+"at": "2026-10-17 00:43",
+"ayahs": "125-127"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+},
+"safi-cedvel:138-139": {
+"hs": [
+"1d23dfc8a4aa",
+"77ce5fafda5c",
+"64a7c28734df"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "HUMAN",
+"evidence": "I'rab, jumal and sarf are on 6:138-139 (هذه أنعام وحرث حجر، حرّمت ظهورها، افتراء عليه، سيجزيهم بما كانوا يفترون؛ (139) ما في بطون هذه الأنعام خالصة لذكورنا، إن يكن ميتة، سيجزيهم وصفهم، حكيم عليم; sarf حجر، افتراء، وصف). But Fawa'id 1 «دار السلام: تعبير عن الجنة» discusses the phrase «لهم دار السلام» of 6:127, and Fawa'id 2 «هذا الحوار الجاري بين المولى عزّ وجلّ ومن أشرك من عباده» seems to refer to the dialogue of 6:128-130. The reviewer is right that these do not belong to 138-139, but a contiguous range (127-139) would file the entry under 11 ayahs it does not discuss; how to list a stray Fawa'id block needs an editorial decision.",
+"at": "2026-10-17 00:43"
+},
+"J2": {
+"class": "HUMAN",
+"evidence": "I'rab, clause list and Sarf are all 6:138 («هذه أنعام وحرث حجر لا يطعمها ... حرّمت ظهورها ... افتراء عليه سيجزيهم بما كانوا يفترون») and 6:139 (explicitly headed «(139)»: «ما في بطون هذه الأنعام خالصة لذكورنا ... وإن يكن ميتة فهم فيه شركاء سيجزيهم وصفهم»; Sarf «حجر / افتراء / وصف»). But Fawaid 1 explains «دار السلام» as a name of Paradise, a phrase of 6:127 («لهم دار السلام عند ربّهم»), not of 138-139; Fawaid 2 («هذا الحوار الجاري بين المولى عزّ وجلّ ومن أشرك من عباده») is too vague to pin down (it fits the dialogue of 6:128-130 better than 138-139). The reviewer is right that these notes are stray, but the only contiguous range covering 6:127 too would be 127-139, which would wrongly list the entry under 128-137; a split or a decision on how to treat the stray Fawaid needs a human.",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "HUMAN"
+}
+}
+}
+}

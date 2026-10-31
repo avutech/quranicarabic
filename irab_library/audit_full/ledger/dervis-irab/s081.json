@@ -1,0 +1,42 @@
+{
+"dervis-irab:15-29": {
+"p1": {
+"ar": "a5413ae001ff",
+"tr": "e75a992a2927",
+"en": "30fbdaa4e518",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN: \"But [does this] match the verse?\" turned the affirmative \"لكن يطابق الآية\" into a question (TR affirmative); fixed. Also removed unsupported \"[and its object]\" after \"فاعل مستتر\" and added a translator note for في حيز المقسم به as TR has.",
+"by": "dervis-irab-u95",
+"at": "2026-10-10 19:40",
+"fixed": true
+},
+"p2": {
+"ar": "a5413ae001ff",
+"tr": "e75a992a2927",
+"en": "30fbdaa4e518",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u7",
+"at": "2026-10-17 00:02",
+"fixed": false
+}
+},
+"dervis-irab:1-14": {
+"p1": {
+"ar": "b7789a594ebf",
+"tr": "3726825977ff",
+"en": "e9526bbca511",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u3",
+"at": "2026-10-11 00:54",
+"fixed": false
+}
+}
+}

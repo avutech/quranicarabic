@@ -1,0 +1,82 @@
+{
+"nahhas-irab:4-4": {
+"hs": [
+"9a044e238bff",
+"81e0b6ff31c2",
+"c56aaa9a443d"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "For source «أن يعبد وحده ولا يعبى» Turkish gives 'O'na tek olarak ibadet edilmesi, (başkasına) aldırış edilmemesi' - '(başkasına)' is an unmarked addition that reinterprets the defective word (the closing note only says «ولا يعبى» metinde böyledir, it does not cover this supply). Further unmarked parentheticals with no Arabic basis: '(fiil müzekkerdir)' for «لأنه تأنيث غير حقيقي», 'Ebû Ca'fer (en-Nahhâs)', '(Babası) ona ... vaat etmişti', '(kesreyle)' after والأرحام. Needs these moved into [Mütercim notu: ...].",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: أن يعبد وحده ولا يعبى. TR '(başkasına) aldırış edilmemesi' adds unmarked '(başkasına)' and conjecturally reads يُعبأ without saying so (note only says 'metinde böyledir'). Other unmarked additions: '(fiil müzekkerdir)' for لأنه تأنيث غير حقيقي, '(kesreyle)' after والأرحام. Needs notes.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "ولا يعبى: '(başkasına) aldırış edilmemesi' -> 'isyan edilmemesi' + Mütercim notu (printed ولا يعبى, likely ولا يُعصى); moved unmarked (fiil müzekkerdir), (en-Nahhâs), (Babası)/(babası), (kesreyle), (munkatı') into Mütercim notları",
+"verified": "PASS",
+"verify_note": "All supplies (en-Nahhâs, kesreyle, fiil müzekkerdir, munkatı', babası, يعبى conjecture, vocalization of براء forms, السواد) now inside Mütercim notu; '(başkasına)' gone; complete and faithful."
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "For «ولا يعبى» English translates the conjecture 'not disobeyed' (يُعصى) but discloses it in a Translator's note - acceptable as marked. However the English has plain-bracket additions outside any [Translator's note: ...]: '[بدا is masculine]' for «لأنه تأنيث غير حقيقي» (not in the Arabic), '[the father]' in «قيل: وعده أنه يظهر إسلامه», 'Abū Jaʿfar [al-Naḥḥās]' / '[the reader]', 'not of [the kind of] the first'. Under the binding rule these are unmarked additions.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "ولا يعبى as 'not disobeyed' is disclosed in a Translator's note (acceptable), but EN has other unmarked bracket additions: '[usan]', '[biraʾun]', '[baraʾun]', '[burāʿ]' (Latin transliterations of reading forms), '[بدا is masculine]' for لأنه تأنيث غير حقيقي, '[the reader]', '[al-Naḥḥās]', '[the father]', '[the kind of]' - none inside a Translator's note.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Fourth-dialect Translator's note: replaced Latin 'burāʾu' with Arabic script «بُراءُ»",
+"verify_note": "Fourth-dialect form now given in Arabic script («بُراءُ») inside a Translator's note; all supplies (vocalisations, al-Naḥḥās, the reader, بدا masculine, munqaṭiʿ, the father, يعبى conjecture) are in Translator's notes; complete and faithful, nothing omitted.",
+"fix_failed": 2,
+"verified": "PASS"
+}
+},
+"history": [
+{
+"old_hs": [
+"9a044e238bff",
+"8baaad1bd857",
+"e8e18b1ed2e9"
+],
+"dim": "tr",
+"what": "ولا يعبى: '(başkasına) aldırış edilmemesi' -> 'isyan edilmemesi' + Mütercim notu (printed ولا يعبى, likely ولا يُعصى); moved unmarked (fiil müzekkerdir), (en-Nahhâs), (Babası)/(babası), (kesreyle), (munkatı') into Mütercim notları",
+"at": "2026-10-17 00:45"
+},
+{
+"old_hs": [
+"9a044e238bff",
+"81e0b6ff31c2",
+"261b6e54938f"
+],
+"dim": "en",
+"what": "Moved unmarked brackets ([بدا is masculine], [al-Naḥḥās], [the reader], [the father], [the kind of]/istithnāʾ munqaṭiʿ) into Translator's notes; replaced Latin transliterations [usan]/[biraʾun]/[baraʾun]/[burāʿ] with vocalised Arabic inside notes",
+"at": "2026-10-17 00:45"
+},
+{
+"old_hs": [
+"9a044e238bff",
+"81e0b6ff31c2",
+"261b6e54938f"
+],
+"dim": "en",
+"what": "Fourth-dialect Translator's note: replaced Latin 'burāʾu' with Arabic script «بُراءُ»",
+"at": "2026-10-17 00:47"
+}
+]
+}
+}

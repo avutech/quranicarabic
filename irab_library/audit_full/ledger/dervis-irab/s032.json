@@ -1,0 +1,84 @@
+{
+"dervis-irab:23-30": {
+"p1": {
+"ar": "12d5e5f41b7b",
+"tr": "14e48e839421",
+"en": "0950e966ea8c",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR: Tubba verse لا تسقني بيديك إن لم ألقها جرزا translated \"çorak kılmazsam\" (make) but ألقها means find/meet (EN has find); fixed to bulmazsam. Ibn Hani verse: عوانس rendered \"Yaşlı dişi develer\" (old she-camels, unsupported; EN has unmarried maidens); fixed to Evlenmemiş kızlar. Rest complete and faithful to the end.",
+"by": "dervis-irab-p1-u14",
+"at": "2026-10-17 00:11",
+"fixed": true
+},
+"p2": {
+"ar": "12d5e5f41b7b",
+"tr": "14e48e839421",
+"en": "0950e966ea8c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u19",
+"at": "2026-10-17 00:19",
+"fixed": false
+}
+},
+"dervis-irab:1-5": {
+"p1": {
+"ar": "b987199e326a",
+"tr": "a48470183b76",
+"en": "9c88f2be9c19",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u86",
+"at": "2026-10-10 19:44",
+"fixed": false
+}
+},
+"dervis-irab:6-11": {
+"p1": {
+"ar": "3e85440e1019",
+"tr": "11c1783164ba",
+"en": "b80663efd192",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u86",
+"at": "2026-10-10 19:44",
+"fixed": false
+}
+},
+"dervis-irab:12-17": {
+"p1": {
+"ar": "ba22591dcce7",
+"tr": "919764d0df47",
+"en": "626b89bfb68a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u86",
+"at": "2026-10-10 19:44",
+"fixed": false
+}
+},
+"dervis-irab:18-22": {
+"p1": {
+"ar": "95e544a4104b",
+"tr": "16d2a18ab80f",
+"en": "3874cd95f43a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u86",
+"at": "2026-10-10 19:44",
+"fixed": false
+}
+}
+}

@@ -1,0 +1,373 @@
+{
+"ukberi-tibyan:3-4": {
+"hs": [
+"29847ae4a8ba",
+"204b33614b01",
+"005e8232d636"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source prints «فَأَصْلُهَا وَوَرْيَةٌ»; English writes «Its origin is وَوْرَيَة» - a silent re-vocalization of the source (Turkish correctly keeps a Mütercim notu on this). Fix: give the printed form or mark the correction in [Translator's note: …].",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: فَأَصْلُهَا وَوَرْيَةٌ. English renders 'Its origin is وَوْرَيَة' - a silently corrected vocalization with no Translator's note (Turkish marks the same change with a Mütercim notu). Source is never silently corrected: needs the source form or a Translator's note. Rest of the English reading checked and faithful.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Restored printed form وَوَرْيَة for the origin of التوراة; expected form وَوْرَيَة now given inside a Translator's note",
+"verified": "PASS",
+"verify_note": "وَوَرْيَة now given as printed with the expected form وَوْرَيَة inside a Translator's note. Rest read sentence by sentence against the Arabic: complete and faithful; Arabic forms kept; no transliterated Quranic words; no new problem introduced."
+}
+},
+"history": [
+{
+"old_hs": [
+"29847ae4a8ba",
+"204b33614b01",
+"c3540011581a"
+],
+"dim": "en",
+"what": "Restored printed form وَوَرْيَة for the origin of التوراة; expected form وَوْرَيَة now given inside a Translator's note",
+"at": "2026-10-17 00:42"
+}
+]
+},
+"ukberi-tibyan:18-18": {
+"hs": [
+"c702ec8127d7",
+"1a2ee0c1a666",
+"3d9a0cc78647"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: (قَائِمًا) حَالٌ مِنْ هُوَ ... أَيْ يُفْرَدُ قَائِمًا = 'i.e. He is singled out [as] maintaining'. TR renders it 'kâim olarak (adaleti ayakta tutarak) teklik ile nitelenir': the parenthetical '(adaleti ayakta tutarak)' is not in the Arabic (no بالقسط in the gloss) and is an unmarked addition; 'teklik ile nitelenir' (is described with oneness) also paraphrases يُفْرَدُ (is singled out/made alone) loosely. Needs literal rendering (e.g. 'kâim olarak tek kılınır') with any gloss inside [Mütercim notu].",
+"at": "2026-10-17 00:40"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: أَيْ يُفْرَدُ قَائِمًا. TR renders it «kâim olarak (adaleti ayakta tutarak) teklik ile nitelenir»: the parenthetical «(adaleti ayakta tutarak)» is not in the Arabic and is unmarked (must be a Mütercim notu), and «teklik ile nitelenir» (is described with oneness) is loose for يُفْرَدُ (is singled out / made unique, cf. EN 'singled out'); better «tek kılınır / tekliğe has kılınır, kâim olarak».",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "يُفْرَدُ قَائِمًا now 'kâim olarak tek kılınır'; unmarked gloss '(adaleti ayakta tutarak)' moved into a Mütercim notu",
+"verified": "PASS",
+"verify_note": "يُفْرَدُ قَائِمًا now rendered literally as 'kâim olarak tek kılınır'; the gloss on kâim is inside a Mütercim notu; the reading/يستغفرون remarks are marked in a note; complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"c702ec8127d7",
+"dcece2fcf031",
+"3d9a0cc78647"
+],
+"dim": "tr",
+"what": "يُفْرَدُ قَائِمًا now 'kâim olarak tek kılınır'; unmarked gloss '(adaleti ayakta tutarak)' moved into a Mütercim notu",
+"at": "2026-10-17 00:43"
+}
+]
+},
+"ukberi-tibyan:96-96": {
+"hs": [
+"c646eb2eb47e",
+"c01d1b5096bb",
+"861ac67019ed"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Reviewer's omission claim is false: EN does render وَ (مُبَارَكًا وَهُدًى) حَالَانِ مِنَ الضَّمِيرِ فِي وُضِعَ. وَإِنْ شِئْتَ فِي الْجَارِّ، وَالْعَامِلُ فِيهِمَا الِاسْتِقْرَارُ. But EN contains unmarked additions not in the Arabic: '(of «إِنَّ»)' after وَالْخَبَرُ «لِلَّذِي», and '(pronoun in the)' and '(بِبَكَّةَ)' in 'of the (pronoun in the) preposition (بِبَكَّةَ)' where the Arabic only says فِي الْجَارِّ. Per standard these must be inside [Translator's note].",
+"at": "2026-10-17 00:40"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Reviewer's omission claim is false: EN does translate (مُبَارَكًا وَهُدًى) : حَالَانِ مِنَ الضَّمِيرِ فِي وُضِعَ. وَإِنْ شِئْتَ فِي الْجَارِّ، وَالْعَامِلُ فِيهِمَا الِاسْتِقْرَارُ. But EN contains unmarked additions not in the Arabic: «(of «إِنَّ»)» after khabar for وَالْخَبَرُ «لِلَّذِي», and «(بِبَكَّةَ)» identifying الْجَارّ; these must be put in a Translator's note.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Unmarked additions '(of إِنَّ)' and '(pronoun in the)'/'(بِبَكَّةَ)' moved into Translator's notes",
+"verified": "PASS",
+"verify_note": "Both additions (khabar of إِنَّ; pronoun in بِبَكَّةَ) are now inside Translator's notes; complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"c646eb2eb47e",
+"c01d1b5096bb",
+"0e00594da165"
+],
+"dim": "en",
+"what": "Unmarked additions '(of إِنَّ)' and '(pronoun in the)'/'(بِبَكَّةَ)' moved into Translator's notes",
+"at": "2026-10-17 00:43"
+}
+]
+},
+"ukberi-tibyan:113-113": {
+"hs": [
+"181ad8d579c8",
+"df7f5b75227c",
+"1c2dab433e49"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: وَمِنْهُمْ مَنْ يَفْتَحُ الْهَمْزَةَ، فَيَصِيرُ عَلَى وَزْنِ عَصَا — no form is written; EN adds '(أَنًى)' unmarked. Arabic: وَكَذَلِكَ «يُؤْمِنُونَ. وَيَأْمُرُونَ. وَيَنْهَوْنَ» — EN adds '(in the next verse)' unmarked. Both additions must go into [Translator's note: ...].",
+"at": "2026-10-17 00:40"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: فَيَصِيرُ عَلَى وَزْنِ عَصَا and وَكَذَلِكَ «يُؤْمِنُونَ. وَيَأْمُرُونَ. وَيَنْهَوْنَ». EN adds unmarked «(أَنًى)» after «عَصًا» and «(in the next verse)» after the three verbs; neither is in the Arabic. Translation otherwise faithful; the additions must go inside a Translator's note.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Unmarked additions '(أَنًى)' and '(in the next verse)' moved into Translator's notes",
+"verified": "PASS",
+"verify_note": "«أَنًى» and 'in the next verse' now inside Translator's notes; all sentences rendered faithfully."
+}
+},
+"history": [
+{
+"old_hs": [
+"181ad8d579c8",
+"df7f5b75227c",
+"c15596535014"
+],
+"dim": "en",
+"what": "Unmarked additions '(أَنًى)' and '(in the next verse)' moved into Translator's notes",
+"at": "2026-10-17 00:43"
+}
+]
+},
+"ukberi-tibyan:133-133": {
+"hs": [
+"10078fa78b92",
+"6c403647ac47",
+"b1b44ed3f26b"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: (عَرْضُهَا السَّمَاوَاتُ) : الْجُمْلَةُ فِي مَوْضِعِ جَرٍّ — EN adds '(as an adjective of «جَنَّة»)' unmarked; also وَلَا يَجُوزُ أَنْ يَكُونَ حَالًا مِنَ الْمُضَافِ إِلَيْهِ — EN adds '(i.e. the hāʾ in «عَرْضُهَا»)' unmarked. Both are interpretive additions not in the Arabic and must be in a [Translator's note].",
+"at": "2026-10-17 00:40"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: (عَرْضُهَا السَّمَاوَاتُ) : الْجُمْلَةُ فِي مَوْضِعِ جَرٍّ — EN adds unmarked «(as an adjective of «جَنَّة»)»; also وَلَا يَجُوزُ أَنْ يَكُونَ حَالًا مِنَ الْمُضَافِ إِلَيْهِ gets unmarked «(i.e. the hāʾ in «عَرْضُهَا»)». Both are interpretive additions not in the source and must be marked as Translator's notes.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Unmarked additions '(as an adjective of جَنَّة)' and '(i.e. the hāʾ in عَرْضُهَا)' moved into Translator's notes",
+"verified": "PASS",
+"verify_note": "Both interpretive additions (adjective of جَنَّة; the hāʾ in عَرْضُهَا) now inside Translator's notes; complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"10078fa78b92",
+"6c403647ac47",
+"44815f267a73"
+],
+"dim": "en",
+"what": "Unmarked additions '(as an adjective of جَنَّة)' and '(i.e. the hāʾ in عَرْضُهَا)' moved into Translator's notes",
+"at": "2026-10-17 00:43"
+}
+]
+},
+"ukberi-tibyan:145-145": {
+"hs": [
+"b173e1261348",
+"89058d10278a",
+"816b6e2e445c"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: لِمَا فِيهِ مِنْ تَقْدِيمِ الصِّلَةِ عَلَى الْمَوْصُولِ — EN adds '(i.e. part of the clause of «أَنْ» before «أَنْ»)' unmarked. Also بِالْإِظْهَارِ عَلَى الْأَصْلِ، وَبِالْإِدْغَامِ لِتَقَارُبِهِمَا — EN adds '(of the dāl)' and '(of the dāl into the thāʾ)' unmarked. These explanatory additions must be inside [Translator's note].",
+"at": "2026-10-17 00:40"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: لِمَا فِيهِ مِنْ تَقْدِيمِ الصِّلَةِ عَلَى الْمَوْصُولِ — EN adds unmarked «(i.e. part of the clause of «أَنْ» before «أَنْ»)»; likewise بِالْإِظْهَارِ عَلَى الْأَصْلِ، وَبِالْإِدْغَامِ gets unmarked «(of the dāl)» / «(of the dāl into the thāʾ)». Interpretive additions not in the Arabic, must be inside Translator's notes.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Unmarked glosses on ṣila/mawṣūl and on iẓhār/idghām (dāl, thāʾ, '(read)') moved into Translator's notes",
+"verified": "PASS",
+"verify_note": "Ṣila/mawṣūl explanation and the dāl/thāʾ idghām explanation now inside Translator's notes; complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"b173e1261348",
+"89058d10278a",
+"39fabc961b6d"
+],
+"dim": "en",
+"what": "Unmarked glosses on ṣila/mawṣūl and on iẓhār/idghām (dāl, thāʾ, '(read)') moved into Translator's notes",
+"at": "2026-10-17 00:43"
+}
+]
+},
+"ukberi-tibyan:146-146": {
+"hs": [
+"9440ce4187d4",
+"5563e6a3bb2c",
+"6fcdeb5abf12"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: أَنْ يَكُونَ الْخَبَرُ مَحْذُوفًا ; أَيْ فِي الدُّنْيَا، أَوْ صَائِرٌ — EN 'existing (صَائِرٌ)': صَائِرٌ is 'becoming/coming to be', not 'existing' (that would be كائن/موجود); rendering is loose. Beyond that EN contains unmarked additions: 'it has been read so (رَبِّيُّونَ)' where Arabic has only وَقَدْ قُرِئَ بِهِ; 'when (a thing) is gathered'; 'changed (to yāʾ)'. These need [Translator's note] marking and صَائِرٌ needs a literal rendering.",
+"at": "2026-10-17 00:40"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: أَيْ فِي الدُّنْيَا، أَوْ صَائِرٌ — EN 'existing (صَائِرٌ)': صَائِرٌ means 'becoming/ending up', not 'existing' (that would be كائن); loose rendering, though the Arabic word is kept. In addition EN has unmarked interpretive additions not in the Arabic, e.g. «(predicated) of «رِبِّيُّونَ»» for أَنْ يَكُونَ قُتِلَ لِرِبِّيِينَ, «(رَبِّيُّونَ)» after وَقَدْ قُرِئَ بِهِ, «(to yāʾ)» after فَقُلِبَتْ, «(particles)»; these need Translator's-note marking.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Restored source vowelling «الرَّبَّة» (both occurrences) instead of silent «الرِّبَّة»/«الرُّبَّة»; added Translator's note that the argument requires kasra",
+"verify_note": "Complete and faithful: الرَّبَّة now kept as written with the kasra reading in a Translator's note; أَوَى kept with note; صَائِرٌ rendered literally; all earlier additions (particles, to yāʾ, subject, رَبِّيُّونَ, base-reading remark) are inside Translator's notes; no new problems.",
+"fix_failed": 1,
+"verified": "PASS"
+}
+},
+"history": [
+{
+"old_hs": [
+"9440ce4187d4",
+"5563e6a3bb2c",
+"d26421ccde9e"
+],
+"dim": "en",
+"what": "صَائِرٌ now 'coming to be / ending up' instead of 'existing'; unmarked additions (predicated), (رَبِّيُّونَ), (a thing), (to yāʾ), (particles) moved into Translator's notes or removed; body now translates أَوَى as written, correction kept in note",
+"at": "2026-10-17 00:43"
+},
+{
+"old_hs": [
+"9440ce4187d4",
+"5563e6a3bb2c",
+"5a5c943339fb"
+],
+"dim": "en",
+"what": "Restored source vowelling «الرَّبَّة» (both occurrences) instead of silent «الرِّبَّة»/«الرُّبَّة»; added Translator's note that the argument requires kasra",
+"at": "2026-10-17 00:46"
+}
+]
+},
+"ukberi-tibyan:147-147": {
+"hs": [
+"f6e9d8086fc9",
+"0f60feb46cd4",
+"e4d96b6a6698"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: أَنَّ (أَنْ قَالُوا) يُشْبِهُ الْمُضْمَرَ فِي أَنَّهُ لَا يُضْمَرُ فَهُوَ أَعْرَفُ = 'resembles the pronoun in that it is not made into a pronoun'. EN main text says 'it cannot be described [by an adjective]', i.e. translates the conjectured لَا يُوصَفُ, not the written لَا يُضْمَرُ; the source is silently corrected in the body. Body must translate لَا يُضْمَرُ as written, with the conjecture only in the note.",
+"at": "2026-10-17 00:40"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: يُشْبِهُ الْمُضْمَرَ فِي أَنَّهُ لَا يُضْمَرُ. EN body says 'it cannot be described [by an adjective]', i.e. translates the conjectural لَا يُوصَفُ rather than what is written; the source is silently corrected in the body. Body must render لَا يُضْمَرُ ('it is not made into a pronoun' / 'cannot be replaced by a pronoun'), with the لَا يُوصَفُ suggestion only in the Translator's note.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Body now translates لَا يُضْمَرُ as written ('it is not made into a pronoun'); the لَا يُوصَفُ conjecture stays only in the Translator's note",
+"verified": "PASS",
+"verify_note": "Body now translates لَا يُضْمَرُ as written ('it is not made into a pronoun'); the لَا يُوصَفُ conjecture is only in the Translator's note; complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"f6e9d8086fc9",
+"0f60feb46cd4",
+"e824bfa31733"
+],
+"dim": "en",
+"what": "Body now translates لَا يُضْمَرُ as written ('it is not made into a pronoun'); the لَا يُوصَفُ conjecture stays only in the Translator's note",
+"at": "2026-10-17 00:43"
+}
+]
+},
+"ukberi-tibyan:152-152": {
+"hs": [
+"88c1142c1b4d",
+"a731f6efb81a",
+"a2bac0e0f372"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic is vowelled فَيُقَالُ صَدَقْتَ زَيْدًا فِي الْحَدِيثِ (fatḥa on tāʾ = second person 'you told Zayd the truth'). TR 'Zeyd'e sözde doğru söyledim' is first person (صَدَقْتُ), translating a different text. Should be 'doğru söyledin' (or a marked note if صَدَقْتُ is thought intended).",
+"at": "2026-10-17 00:40"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: فَيُقَالُ صَدَقْتَ زَيْدًا فِي الْحَدِيثِ — vowelled صَدَقْتَ is 2nd person ('you told Zayd the truth'). TR 'Zeyd'e sözde doğru söyledim' is 1st person (I), a wrong meaning; should be 'doğru söyledin'.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "صَدَقْتَ rendered as second person: 'doğru söyledim' -> 'doğru söyledin'",
+"verified": "PASS",
+"verify_note": "صَدَقْتَ زَيْدًا now rendered in 2nd person ('doğru söyledin'); rest complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"88c1142c1b4d",
+"a6622dda1e22",
+"a2bac0e0f372"
+],
+"dim": "tr",
+"what": "صَدَقْتَ rendered as second person: 'doğru söyledim' -> 'doğru söyledin'",
+"at": "2026-10-17 00:44"
+}
+]
+}
+}

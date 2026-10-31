@@ -1,0 +1,54 @@
+{
+"ukberi-tibyan:5-5": {
+"p1": {
+"ar": "c7f56b637db7",
+"tr": "3713f98b02e3",
+"en": "60215d0f21b6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:04",
+"fixed": false
+},
+"p2": {
+"ar": "c7f56b637db7",
+"tr": "3713f98b02e3",
+"en": "60215d0f21b6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u10",
+"at": "2026-10-11 04:08",
+"fixed": false
+}
+},
+"ukberi-tibyan:6-7": {
+"p1": {
+"ar": "8b072ec391fd",
+"tr": "bac5068d9125",
+"en": "1f12a515ee6a",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN silently normalised source typo ما يسم فاعله; translator note added",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:04",
+"fixed": true
+},
+"p2": {
+"ar": "8b072ec391fd",
+"tr": "bac5068d9125",
+"en": "1f12a515ee6a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u10",
+"at": "2026-10-11 04:08",
+"fixed": false
+}
+}
+}

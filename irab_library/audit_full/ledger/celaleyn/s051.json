@@ -1,0 +1,998 @@
+{
+"celaleyn:1-1": {
+"p1": {
+"ar": "7361cdecdbf1",
+"tr": "e92dc34aa569",
+"en": "f2d8e65277ff",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+},
+"p2": {
+"ar": "7361cdecdbf1",
+"tr": "e92dc34aa569",
+"en": "f2d8e65277ff",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-p2-u3",
+"at": "2026-10-16 18:09",
+"fixed": false
+}
+},
+"celaleyn:2-2": {
+"p1": {
+"ar": "102562ec91b1",
+"tr": "6b15b7a38e4c",
+"en": "bfe130bac7b1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"celaleyn:3-3": {
+"p1": {
+"ar": "5dbe6aef8858",
+"tr": "d3b906bc7793",
+"en": "eca461a82dec",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"celaleyn:4-4": {
+"p1": {
+"ar": "cf9e3d00e8b5",
+"tr": "f4f78e8c48f5",
+"en": "a5b3c31af89d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+},
+"p2": {
+"ar": "cf9e3d00e8b5",
+"tr": "f4f78e8c48f5",
+"en": "a5b3c31af89d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-p2-u3",
+"at": "2026-10-16 18:09",
+"fixed": false
+}
+},
+"celaleyn:5-5": {
+"p1": {
+"ar": "adae22315e41",
+"tr": "419a891fddaa",
+"en": "77a9c908633d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"celaleyn:6-6": {
+"p1": {
+"ar": "28226bb2f5fe",
+"tr": "53ca77a8ed6d",
+"en": "b02d34d375b6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"celaleyn:7-7": {
+"p1": {
+"ar": "66ef3080a0a0",
+"tr": "a831b97a5fae",
+"en": "232bcd4dc22a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-p1-u4",
+"at": "2026-10-17 00:54",
+"fixed": false
+},
+"p2": {
+"ar": "66ef3080a0a0",
+"tr": "a831b97a5fae",
+"en": "176e94dfd446",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-p2-u3",
+"at": "2026-10-16 18:09",
+"fixed": false
+}
+},
+"celaleyn:8-8": {
+"p1": {
+"ar": "8d874e8467c7",
+"tr": "b951451bc5f1",
+"en": "dc8dab286608",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"celaleyn:9-9": {
+"p1": {
+"ar": "67d5ff0b02c8",
+"tr": "583622d7ebcc",
+"en": "e98f78462f09",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+},
+"celaleyn:10-10": {
+"p1": {
+"ar": "629c3ae3c69f",
+"tr": "f53de9fee292",
+"en": "fd3b8e6241f8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"celaleyn:11-11": {
+"p1": {
+"ar": "f5043499b814",
+"tr": "5d76ee3056fb",
+"en": "3b49436e5be6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+},
+"p2": {
+"ar": "f5043499b814",
+"tr": "5d76ee3056fb",
+"en": "3b49436e5be6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-p2-u3",
+"at": "2026-10-16 18:09",
+"fixed": false
+}
+},
+"celaleyn:12-12": {
+"p1": {
+"ar": "b20fec818b62",
+"tr": "0885445e210a",
+"en": "e730f2fbcf82",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+},
+"p2": {
+"ar": "b20fec818b62",
+"tr": "0885445e210a",
+"en": "e730f2fbcf82",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-p2-u3",
+"at": "2026-10-16 18:09",
+"fixed": false
+}
+},
+"celaleyn:13-13": {
+"p1": {
+"ar": "7bc2a5d443e2",
+"tr": "205953d95bda",
+"en": "7b01809330d2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"celaleyn:14-14": {
+"p1": {
+"ar": "26bb951ee119",
+"tr": "85638a1b5fb9",
+"en": "bc7654e79e69",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"celaleyn:15-15": {
+"p1": {
+"ar": "09cf7bbdc333",
+"tr": "33a074756510",
+"en": "66a8db361405",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"celaleyn:16-16": {
+"p1": {
+"ar": "18b1aeb2b1c0",
+"tr": "5a1e3bdd1341",
+"en": "ff9ebd775e37",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+},
+"p2": {
+"ar": "18b1aeb2b1c0",
+"tr": "5a1e3bdd1341",
+"en": "ff9ebd775e37",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-p2-u3",
+"at": "2026-10-16 18:09",
+"fixed": false
+}
+},
+"celaleyn:17-17": {
+"p1": {
+"ar": "c4bf3e021400",
+"tr": "8d534e38af77",
+"en": "aaf0cffe1d51",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"celaleyn:18-18": {
+"p1": {
+"ar": "13ccfe13da9f",
+"tr": "b3ead9e5370f",
+"en": "f9fd9707f6d5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"celaleyn:19-19": {
+"p1": {
+"ar": "45a098d62368",
+"tr": "4dcb9e9f6c2e",
+"en": "64ed801173ac",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"celaleyn:20-20": {
+"p1": {
+"ar": "b5b48e762d74",
+"tr": "ec81009aa492",
+"en": "e99292d24bd6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"celaleyn:21-21": {
+"p1": {
+"ar": "6816812b747d",
+"tr": "b69413dfda11",
+"en": "f3399793034c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"celaleyn:22-22": {
+"p1": {
+"ar": "7ae0330a0839",
+"tr": "fbf3b4f24aa7",
+"en": "5f9340f8f088",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"celaleyn:23-23": {
+"p1": {
+"ar": "9c9d71df400e",
+"tr": "282844382023",
+"en": "8b86a3e85bdd",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+},
+"celaleyn:24-24": {
+"p1": {
+"ar": "38d9bc1e9982",
+"tr": "81676866ca7b",
+"en": "3e6db8e11232",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"celaleyn:25-25": {
+"p1": {
+"ar": "65d01a586901",
+"tr": "8028ad20b431",
+"en": "41d94e1db825",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"celaleyn:26-26": {
+"p1": {
+"ar": "54c97ed9a131",
+"tr": "34416b8736bc",
+"en": "dbfb0ef5429a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"celaleyn:27-27": {
+"p1": {
+"ar": "06eaef1e8961",
+"tr": "67bd510c599e",
+"en": "731baee33fd4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"celaleyn:28-28": {
+"p1": {
+"ar": "62d85687c7a6",
+"tr": "c200db11e0d5",
+"en": "8176e9e03ff4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"celaleyn:29-29": {
+"p1": {
+"ar": "a260ea47c8fb",
+"tr": "109d68679adc",
+"en": "29fe9285290f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"celaleyn:30-30": {
+"p1": {
+"ar": "4524e7fa11f0",
+"tr": "de5d424960fc",
+"en": "d57fea17cc6a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"celaleyn:31-31": {
+"p1": {
+"ar": "f7f9e4159746",
+"tr": "b1f2dfdb9129",
+"en": "a6ec66defeef",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"celaleyn:32-32": {
+"p1": {
+"ar": "78d4c91af14c",
+"tr": "5dca42fbd2e5",
+"en": "f87842c62d79",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"celaleyn:33-33": {
+"p1": {
+"ar": "529d8d876202",
+"tr": "3bee2c65d700",
+"en": "7106e450cec0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"celaleyn:34-34": {
+"p1": {
+"ar": "36880032f8a0",
+"tr": "7c606b19c523",
+"en": "34c474d1d314",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"celaleyn:35-35": {
+"p1": {
+"ar": "ef961cc74634",
+"tr": "b610926a83da",
+"en": "0eebac818084",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"celaleyn:36-36": {
+"p1": {
+"ar": "25e4ce532548",
+"tr": "e81df0a95c20",
+"en": "2b85d31fd4c4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+},
+"celaleyn:37-37": {
+"p1": {
+"ar": "a7606cdbf45f",
+"tr": "acafc9829ba8",
+"en": "2aa741dc7e05",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"celaleyn:38-38": {
+"p1": {
+"ar": "4a170ccd4996",
+"tr": "68b77d10fc55",
+"en": "50207328256f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"celaleyn:39-39": {
+"p1": {
+"ar": "1afd0f2071fb",
+"tr": "d5da0da61074",
+"en": "f00c0fdaab5e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"celaleyn:40-40": {
+"p1": {
+"ar": "c00496cc2e02",
+"tr": "1116a1bfe697",
+"en": "c08d39ed4dda",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"celaleyn:41-41": {
+"p1": {
+"ar": "9d96c59288c3",
+"tr": "3a300de91f63",
+"en": "8dcc5f3c7e70",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"celaleyn:42-42": {
+"p1": {
+"ar": "a532ed1cab53",
+"tr": "98b9bcbf13f9",
+"en": "20a0ef952371",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"celaleyn:43-43": {
+"p1": {
+"ar": "8c310696f0c4",
+"tr": "722048591584",
+"en": "d42364c989ed",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"celaleyn:44-44": {
+"p1": {
+"ar": "ba4ee82e8953",
+"tr": "cfefd0f23885",
+"en": "93353c177b3b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+},
+"celaleyn:45-45": {
+"p1": {
+"ar": "ba794a385899",
+"tr": "9b6d2b692366",
+"en": "9558e332d758",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+},
+"p2": {
+"ar": "ba794a385899",
+"tr": "9b6d2b692366",
+"en": "9558e332d758",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-p2-u3",
+"at": "2026-10-16 18:09",
+"fixed": false
+}
+},
+"celaleyn:46-46": {
+"p1": {
+"ar": "9897dbf3bc6e",
+"tr": "23349b735ca1",
+"en": "63c155d653f2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+},
+"p2": {
+"ar": "9897dbf3bc6e",
+"tr": "23349b735ca1",
+"en": "63c155d653f2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-p2-u3",
+"at": "2026-10-16 18:09",
+"fixed": false
+}
+},
+"celaleyn:47-47": {
+"p1": {
+"ar": "4e7b1af6bc42",
+"tr": "b6762b012028",
+"en": "201daa0c993a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+},
+"p2": {
+"ar": "4e7b1af6bc42",
+"tr": "b6762b012028",
+"en": "201daa0c993a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-p2-u3",
+"at": "2026-10-16 18:09",
+"fixed": false
+}
+},
+"celaleyn:48-48": {
+"p1": {
+"ar": "3ca57d6690e7",
+"tr": "3478855d6dad",
+"en": "3739a149fa12",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+},
+"p2": {
+"ar": "3ca57d6690e7",
+"tr": "3478855d6dad",
+"en": "3739a149fa12",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-p2-u3",
+"at": "2026-10-16 18:09",
+"fixed": false
+}
+},
+"celaleyn:49-49": {
+"p1": {
+"ar": "e590c8b98565",
+"tr": "515dbb03f192",
+"en": "be7dbd4a8f5f",
+"fit": "OK",
+"trv": "OK",
+"env": "WRONG",
+"note": "English translates 51:44 (فَعَتَوْا ... فَأَخَذَتْهُمُ الصَّاعِقَةُ) instead of the text for وَمِنْ كُلِّ شَيْءٍ خَلَقْنَا زَوْجَيْنِ.",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:46",
+"fixed": false
+},
+"p2": {
+"ar": "e590c8b98565",
+"tr": "515dbb03f192",
+"en": "be7dbd4a8f5f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-p2-u3",
+"at": "2026-10-16 18:09",
+"fixed": false
+}
+},
+"celaleyn:50-50": {
+"p1": {
+"ar": "c61315579b05",
+"tr": "cc17eb51bf1f",
+"en": "0b7c403b0521",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:46",
+"fixed": false
+},
+"p2": {
+"ar": "c61315579b05",
+"tr": "cc17eb51bf1f",
+"en": "0b7c403b0521",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-p2-u3",
+"at": "2026-10-16 18:09",
+"fixed": false
+}
+},
+"celaleyn:51-51": {
+"p1": {
+"ar": "fa333772c6e5",
+"tr": "3f4e27cfab9f",
+"en": "2c7db395d893",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"celaleyn:52-52": {
+"p1": {
+"ar": "9a2060cb586d",
+"tr": "95e110b6cd0e",
+"en": "342d29563472",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+},
+"p2": {
+"ar": "9a2060cb586d",
+"tr": "95e110b6cd0e",
+"en": "342d29563472",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-p2-u3",
+"at": "2026-10-16 18:09",
+"fixed": false
+}
+},
+"celaleyn:53-53": {
+"p1": {
+"ar": "5190e3dc181b",
+"tr": "6a7191539b9d",
+"en": "5148bc5f8359",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"celaleyn:54-54": {
+"p1": {
+"ar": "ac7f0d11a2dd",
+"tr": "9ef118afb9ad",
+"en": "268cb5fdc5c9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"celaleyn:55-55": {
+"p1": {
+"ar": "dfd31785a0ac",
+"tr": "0148a955469a",
+"en": "d5cce21a6154",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"celaleyn:56-56": {
+"p1": {
+"ar": "290bce4105fb",
+"tr": "26d7759782cc",
+"en": "e8314e4e0b90",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"celaleyn:57-57": {
+"p1": {
+"ar": "68364e85b309",
+"tr": "092ec6fc6873",
+"en": "0983b5709f9e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"celaleyn:58-58": {
+"p1": {
+"ar": "559d4a4d38fe",
+"tr": "f0c108203c3f",
+"en": "0a642b0ec195",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"celaleyn:59-59": {
+"p1": {
+"ar": "97ac75cd66f1",
+"tr": "2ca40bc7f7a5",
+"en": "8d1c10546e3f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"celaleyn:60-60": {
+"p1": {
+"ar": "31129c61cbd2",
+"tr": "d9fe03eff60b",
+"en": "7a91cbe379d1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+}
+}

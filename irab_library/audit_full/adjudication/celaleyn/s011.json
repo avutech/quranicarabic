@@ -1,0 +1,122 @@
+{
+"celaleyn:10-10": {
+"hs": [
+"d79f247d33e5",
+"a9bc542a7cd1",
+"8acf7e60ec04"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "In «وَلَمْ يَتَوَقَّعْ زَوَالَهَا وَلَا شُكْرَ عَلَيْهَا» the hā most naturally refers to the نعماء (he does not expect the blessing to cease, and gives no thanks for it), as EN reads it. TR inserts unmarked '(musibetlerin)' and '(gidişlerine)', making him not expect the misfortunes to go and give no thanks for their going. These are unmarked additions that state a doubtful referent. Fix: render without the inserted referents, or put any interpretation inside [Mütercim notu: ...].",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: ﴿عَنِّي﴾ وَلَمْ يَتَوَقَّعْ زَوَالَهَا وَلَا شُكْرَ عَلَيْهَا. TR: 'onların (musibetlerin) gideceğini beklememişti ve buna (gidişlerine) şükretmez' - inserts unmarked parentheticals '(musibetlerin)' and '(gidişlerine)' that fix the referent of ها as the misfortunes, not in the Arabic; the natural referent is نَعْمَاءَ (he does not expect the blessing to cease nor thank for it), as EN has. Unmarked interpretive addition + likely wrong meaning: needs fix (render the pronoun neutrally or put any interpretation in a Mütercim notu).",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked parentheticals (musibetlerin)/(gidişlerine) that fixed the referent of ها as the misfortunes; pronoun now rendered neutrally as singular 'onun ... ona'",
+"verified": "PASS",
+"verify_note": "Unmarked parentheticals (musibetlerin)/(gidişlerine) removed; pronoun rendered neutrally ('onun gideceğini beklememişti ve ona şükretmez'); rest faithful and complete."
+}
+},
+"history": [
+{
+"old_hs": [
+"d79f247d33e5",
+"921ff9068e1f",
+"8acf7e60ec04"
+],
+"dim": "tr",
+"what": "Removed unmarked parentheticals (musibetlerin)/(gidişlerine) that fixed the referent of ها as the misfortunes; pronoun now rendered neutrally as singular 'onun ... ona'",
+"at": "2026-10-17 01:14"
+}
+]
+},
+"celaleyn:12-12": {
+"hs": [
+"fe926df3ba09",
+"d90d4ca8e6ed",
+"6f84aca11fd7"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "The Arabic «فَلَا تُبَلِّغُهُمْ إِيَّاهُ» is indicative (تُبَلِّغُهُمْ with ḍamma), a description following ﴿تَارِكٌ﴾: '(perhaps you are leaving some of it) and so not conveying it to them'. EN 'and so do not convey it to them' reads as a prohibition (imperative), which reverses the sense. TR 'tebliğ etmeyeceksin' is descriptive. Fix EN to 'and so would not convey it to them'.",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic gloss: ﴿تَارِكٌ بَعْضَ مَا يُوحَى إِلَيْكَ﴾ فَلَا تُبَلِّغُهُمْ إِيَّاهُ - تُبَلِّغُهُمْ is indicative (ḍamma), so لا is negation: 'so you would not convey it to them'. EN 'and so do not convey it to them' reads as a prohibition/command to the Prophet, which is a wrong meaning. TR 'tebliğ etmeyeceksin' is correct. Rest of EN fine.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Changed prohibitive 'and so do not convey it' to descriptive 'and so would not convey it' (indicative تُبَلِّغُهُمْ)",
+"verified": "PASS",
+"verify_note": "'and so would not convey it to them' now renders indicative negation of فلا تبلغهم correctly; rest of reading complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"fe926df3ba09",
+"d90d4ca8e6ed",
+"56575f8689c3"
+],
+"dim": "en",
+"what": "Changed prohibitive 'and so do not convey it' to descriptive 'and so would not convey it' (indicative تُبَلِّغُهُمْ)",
+"at": "2026-10-17 01:14"
+}
+]
+},
+"celaleyn:114-114": {
+"hs": [
+"3aa35e2a1b35",
+"f6b373ad7461",
+"f7fca6400668"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "The source as written is «فَأَخْبَرَهُ النَّبِيُّ» with النَّبِيُّ nominative, i.e. the Prophet is the subject: 'the Prophet ﷺ informed him'. EN 'he informed the Prophet ﷺ' reverses subject and object with no translator's note, which silently corrects the source. TR ('Hz. Peygamber ona haber verdi') follows the text. Fix: translate as written and, if wanted, add a translator's note on the usual sense.",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic as written and vocalized: فَأَخْبَرَهُ النَّبِيُّ (النبيُّ nominative = the Prophet informed him). EN 'he informed the Prophet ﷺ' reverses subject and object with no Translator's note - silent correction of the source. Fix: translate as written ('the Prophet ﷺ informed him') and, if desired, explain in «[Translator's note: …]». Also '[alone]' in 'Is this for me [alone]?' is a bracketed addition not in the prescribed note form (أَلِي هَذَا).",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Translated فَأَخْبَرَهُ النَّبِيُّ as written ('the Prophet informed him'); removed bracketed '[alone]'; explanation of the usual sense moved into a Translator's note",
+"verified": "PASS",
+"verify_note": "Now translates as written ('the Prophet ﷺ informed him'); the usual-sense explanation and the 'alone' sense are inside a Translator's note; rest complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"3aa35e2a1b35",
+"f6b373ad7461",
+"d5ca059aad72"
+],
+"dim": "en",
+"what": "Translated فَأَخْبَرَهُ النَّبِيُّ as written ('the Prophet informed him'); removed bracketed '[alone]'; explanation of the usual sense moved into a Translator's note",
+"at": "2026-10-17 01:14"
+}
+]
+}
+}

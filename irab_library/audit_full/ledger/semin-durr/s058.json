@@ -1,0 +1,272 @@
+{
+"semin-durr:1-1": {
+"p1": {
+"ar": "6d1f9288b3ee",
+"tr": "1a1dc38cf0f9",
+"en": "d047b7d1f755",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish had an unmarked parenthetical (Hamza ve Kisai) after iki kardes; changed to marked Mutercim notu",
+"by": "semin-durr-p1-u18",
+"at": "2026-10-17 01:04",
+"fixed": true
+},
+"p2": {
+"ar": "6d1f9288b3ee",
+"tr": "1a1dc38cf0f9",
+"en": "d047b7d1f755",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u13",
+"at": "2026-10-17 01:08",
+"fixed": false
+}
+},
+"semin-durr:2-2": {
+"p1": {
+"ar": "f69763d1e327",
+"tr": "d46b870ccb64",
+"en": "dc9c8fee7de6",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish had an unmarked insertion \"(bir ture)\" for لعدم اختصاص الحرف; now a marked translator note",
+"by": "semin-durr-p1-u18",
+"at": "2026-10-17 01:04",
+"fixed": true
+},
+"p2": {
+"ar": "f69763d1e327",
+"tr": "d46b870ccb64",
+"en": "dc9c8fee7de6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u13",
+"at": "2026-10-17 01:08",
+"fixed": false
+}
+},
+"semin-durr:3-3": {
+"p1": {
+"ar": "0446505b8849",
+"tr": "3f3a131b7344",
+"en": "a918f2bfe8aa",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish had unmarked addition \"(Ebû Hayyân)\" after \"الشيخ\"; removed.",
+"by": "semin-durr-p1-u10",
+"at": "2026-10-17 00:16",
+"fixed": true
+},
+"p2": {
+"ar": "0446505b8849",
+"tr": "3f3a131b7344",
+"en": "a918f2bfe8aa",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u16",
+"at": "2026-10-17 00:33",
+"fixed": false
+}
+},
+"semin-durr:4-4": {
+"p1": {
+"ar": "7ae34643bf31",
+"tr": "7893da0ef06c",
+"en": "0f62b54165a5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u31",
+"at": "2026-10-11 02:58",
+"fixed": false
+}
+},
+"semin-durr:6-6": {
+"p1": {
+"ar": "c543e9d28522",
+"tr": "c851685a76d1",
+"en": "0172c1adbaf9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u31",
+"at": "2026-10-11 02:58",
+"fixed": false
+}
+},
+"semin-durr:7-7": {
+"p1": {
+"ar": "a183b3f044b9",
+"tr": "58c40423b79d",
+"en": "4e6950fb1f5d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u31",
+"at": "2026-10-11 02:58",
+"fixed": false
+}
+},
+"semin-durr:8-8": {
+"p1": {
+"ar": "385e283d874f",
+"tr": "5aba5ee20e49",
+"en": "4ff9ef658d85",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u31",
+"at": "2026-10-11 02:58",
+"fixed": false
+}
+},
+"semin-durr:10-10": {
+"p1": {
+"ar": "f08d02d85e2d",
+"tr": "6cc29ab03ba1",
+"en": "841b7e4acf60",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "Entry is labeled 58:10 but also contains the reading of al-Dahhak \"ومعصيات\" and \"لولا يعذبنا\" [المجادلة: 8], which belong to 58:8.",
+"by": "semin-durr-u31",
+"at": "2026-10-11 02:58",
+"fixed": false
+},
+"p2": {
+"ar": "f08d02d85e2d",
+"tr": "6cc29ab03ba1",
+"en": "841b7e4acf60",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u19",
+"at": "2026-10-17 00:07",
+"fixed": false
+}
+},
+"semin-durr:11-11": {
+"p1": {
+"ar": "4d330352252c",
+"tr": "769479ee30be",
+"en": "172079d4e9e6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p1-u10",
+"at": "2026-10-17 00:16",
+"fixed": false
+},
+"p2": {
+"ar": "4d330352252c",
+"tr": "769479ee30be",
+"en": "172079d4e9e6",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR silently corrected source typo «اللمَ» to ilim; added marked translator's note as EN has.",
+"by": "semin-durr-p2-u19",
+"at": "2026-10-17 00:07",
+"fixed": true
+}
+},
+"semin-durr:13-13": {
+"p1": {
+"ar": "7730e00ec970",
+"tr": "e6a80958ef19",
+"en": "6a0cf0172926",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u31",
+"at": "2026-10-11 02:58",
+"fixed": false
+}
+},
+"semin-durr:14-14": {
+"p1": {
+"ar": "7f0475ab17b8",
+"tr": "16f78fe31de9",
+"en": "fb63ee5d60c5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u31",
+"at": "2026-10-11 02:58",
+"fixed": false
+}
+},
+"semin-durr:16-16": {
+"p1": {
+"ar": "f21044148253",
+"tr": "cfe2ff6475d5",
+"en": "5980afc32034",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u31",
+"at": "2026-10-11 02:58",
+"fixed": false
+}
+},
+"semin-durr:19-19": {
+"p1": {
+"ar": "b190e00a61f9",
+"tr": "9e860e2583af",
+"en": "dd1491992d99",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u31",
+"at": "2026-10-11 02:58",
+"fixed": false
+}
+},
+"semin-durr:21-21": {
+"p1": {
+"ar": "ea29a81b7a5f",
+"tr": "e218cd0ae45c",
+"en": "66459c3fec10",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u31",
+"at": "2026-10-11 02:58",
+"fixed": false
+}
+},
+"semin-durr:22-22": {
+"p1": {
+"ar": "1e959319ccbf",
+"tr": "fd3b74120027",
+"en": "4a755932edb1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u31",
+"at": "2026-10-11 02:58",
+"fixed": false
+}
+}
+}

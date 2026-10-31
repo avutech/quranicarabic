@@ -1,0 +1,190 @@
+{
+"mekki-muskil:1-1": {
+"p1": {
+"ar": "6cf763975100",
+"tr": "2a096cc7c124",
+"en": "5cef566e1bbb",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"mekki-muskil:4-4": {
+"p1": {
+"ar": "90b2c2b0b2a0",
+"tr": "6eabcfb93d03",
+"en": "c204ed93dc0a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"mekki-muskil:6-6": {
+"p1": {
+"ar": "110a44a4b143",
+"tr": "492344c59447",
+"en": "e675e04869ea",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"mekki-muskil:9-9": {
+"p1": {
+"ar": "22c34350244c",
+"tr": "69af0e80c35c",
+"en": "6ca70c3a51f4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"mekki-muskil:10-10": {
+"p1": {
+"ar": "bd54cd5357e2",
+"tr": "7bb657f54ce2",
+"en": "81906e8b3fe9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:45",
+"fixed": false
+},
+"p2": {
+"ar": "bd54cd5357e2",
+"tr": "7bb657f54ce2",
+"en": "81906e8b3fe9",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "Second paragraph \"بل الانسان على نفسه بصيرة\" belongs to 75:14; translations complete and faithful.",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 18:50",
+"fixed": false
+}
+},
+"mekki-muskil:22-22": {
+"p1": {
+"ar": "090e85203e76",
+"tr": "da9523a8f93f",
+"en": "5300e5e31e89",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English silently corrected source typos «كنعتا» and «منظرة»; translator notes added.",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:45",
+"fixed": true
+},
+"p2": {
+"ar": "090e85203e76",
+"tr": "da9523a8f93f",
+"en": "5300e5e31e89",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 18:50",
+"fixed": false
+}
+},
+"mekki-muskil:31-31": {
+"p1": {
+"ar": "7d298ca770f4",
+"tr": "54aa8f27a953",
+"en": "5aeb995fec4e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"mekki-muskil:33-33": {
+"p1": {
+"ar": "0462b9c24766",
+"tr": "ce94b86b1eae",
+"en": "3ae71f7be9a2",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English added unmarked gloss \"strutting\" for المطيطاء and bracket \"[with its clause]\"; removed.",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:45",
+"fixed": true
+},
+"p2": {
+"ar": "0462b9c24766",
+"tr": "ce94b86b1eae",
+"en": "3ae71f7be9a2",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "Second paragraph \"قوله سدى\" belongs to 75:36; translations complete and faithful.",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 18:50",
+"fixed": false
+}
+},
+"mekki-muskil:39-39": {
+"p1": {
+"ar": "2aa68e296d09",
+"tr": "18d39cf15d36",
+"en": "8db312704426",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"mekki-muskil:40-40": {
+"p1": {
+"ar": "df3b75187946",
+"tr": "9fde03cbb4e1",
+"en": "0b7ee9454d29",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:45",
+"fixed": false
+},
+"p2": {
+"ar": "df3b75187946",
+"tr": "9fde03cbb4e1",
+"en": "0b7ee9454d29",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 18:50",
+"fixed": false
+}
+}
+}

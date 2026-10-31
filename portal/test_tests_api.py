@@ -1,0 +1,503 @@
+"""Tests for tests_api.py:  venv/bin/python -m unittest test_tests_api -v"""
+import collections, json, random, tempfile, unittest
+from pathlib import Path
+
+import db as user_db
+user_db.DB_PATH = Path(tempfile.mkdtemp()) / "t.db"          # never touch the real users.db
+
+from flask import Flask
+from auth import auth_bp, SESSION_COOKIE
+import tests_api as T
+
+app = Flask(__name__)
+app.register_blueprint(auth_bp)
+app.register_blueprint(T.tests_bp)
+user_db.init_db()
+T.init_tables()
+
+
+def approve(questions):
+    """Mark questions as scholar-approved (only approved questions ever reach students)."""
+    with user_db.db() as conn:
+        for q in questions:
+            conn.execute("INSERT OR REPLACE INTO question_reviews (qid, content_hash, reviewer_id, approved_at) VALUES (?,?,NULL,'t')",
+                         (q["id"], T.content_hash(q)))
+
+
+def unapprove_all():
+    with user_db.db() as conn:
+        conn.execute("DELETE FROM question_reviews")
+
+
+
+
+def approve_all_real():
+    approve(q for b in T.load_banks().values() for q in b["questions"])
+
+
+def client(role="user", email="s@example.com", unlocks=("L1W1",)):
+    uid = user_db.create_user(email, "pw-123456", role=role)
+    if unlocks:
+        user_db.set_unlocks(uid, list(unlocks))
+    c = app.test_client()
+    c.set_cookie(SESSION_COOKIE, user_db.create_session(uid))
+    return c, uid
+
+
+def start(c, **kw):
+    r = c.post("/api/tests/start", json=kw)
+    return r.status_code, r.get_json()
+
+
+class Sampler(unittest.TestCase):
+    banks = T.load_banks()
+
+    def test_chapter_test_is_20_and_topic_balanced_over_many_draws(self):
+        rng = random.Random(1)
+        per_topic = collections.Counter()
+        for _ in range(200):
+            qs = T.sample_test("chapter", self.banks, rng, {}, chapter="L1W1")
+            self.assertEqual(len(qs), 20)
+            self.assertEqual(len({q["id"] for q in qs}), 20)
+            c = collections.Counter(q["topic"] for q in qs)
+            self.assertEqual(set(c.values()), {4}, c)            # 5 topics x 4
+            per_topic.update(c)
+        self.assertEqual(len(per_topic), 5)
+
+    def test_every_question_eventually_appears_and_unseen_come_first(self):
+        rng = random.Random(2)
+        seen = {}
+        for _ in range(5):                                       # 5 x 20 = whole pool of 100
+            for q in T.sample_test("chapter", self.banks, rng, seen, chapter="L1W1"):
+                seen[q["id"]] = seen.get(q["id"], 0) + 1
+        self.assertEqual(len(seen), 100)
+        self.assertEqual(max(seen.values()), 1)                  # perfect rotation: no repeat before pool is used
+
+    def test_drill_is_one_topic(self):
+        qs = T.sample_test("drill", self.banks, random.Random(3), {}, chapter="L1W1", topic="t2")
+        self.assertEqual({q["topic"] for q in qs}, {"t2"})
+        self.assertEqual(len(qs), 10)
+
+    def test_hsample_spreads_across_chapters_then_topics(self):
+        mk = lambda c, t, i: {"id": f"{c}{t}{i}", "chapter": c, "topic": t}
+        qs = [mk(c, t, i) for c in "ab" for t in "xyz" for i in range(5)]
+        tree = T.build_tree(qs, [lambda q: q["chapter"], lambda q: q["topic"]])
+        out = T.hsample(12, tree, random.Random(4), {})
+        self.assertEqual(collections.Counter(q["chapter"] for q in out), {"a": 6, "b": 6})
+        self.assertEqual(set(collections.Counter((q["chapter"], q["topic"]) for q in out).values()), {2})
+
+    def test_hsample_caps_by_capacity(self):
+        tree = {"a": [{"id": "1"}], "b": [{"id": str(i)} for i in range(10)]}
+        out = T.hsample(6, tree, random.Random(5), {})
+        self.assertEqual(len(out), 6)
+        self.assertEqual(sum(1 for _ in out), 6)
+
+
+class Flow(unittest.TestCase):
+    setUp = lambda self: approve_all_real()
+    def test_start_hides_answers_and_explanations(self):
+        c, _ = client(email="a@x.com")
+        code, d = start(c, kind="chapter", chapter="L1W1")
+        self.assertEqual(code, 200)
+        self.assertEqual(d["total"], 20)
+        blob = json.dumps(d, ensure_ascii=False)
+        for forbidden in ('"correct"', '"why"', '"rule"', '"hint"'):
+            self.assertNotIn(forbidden, blob)
+        for it in d["items"]:
+            self.assertEqual(len(it["options"]), 4)
+
+    def test_scoring_first_try_retry_hint_and_exhaustion(self):
+        c, _ = client(email="b@x.com")
+        _, d = start(c, kind="chapter", chapter="L1W1")
+        aid = d["attemptId"]
+        bank = T.load_banks()["L1W1"]
+
+        def correct_shown(pos):
+            q = bank["q_by_id"][d["items"][pos]["id"]]
+            perm = json.loads(self._perm(aid, pos))
+            return perm.index(q["correct"])
+
+        # q0: right first try -> 1.0
+        r = c.post("/api/tests/answer", json={"attemptId": aid, "pos": 0, "choice": correct_shown(0)}).get_json()
+        self.assertEqual((r["correct"], r["done"], r["points"]), (True, True, 1.0))
+        self.assertEqual(len(r["options"]), 4)
+        self.assertTrue(all(o["why"]["en"] and o["why"]["tr"] for o in r["options"]))
+        self.assertEqual(sum(o["correct"] for o in r["options"]), 1)
+        # answering again is refused
+        self.assertEqual(c.post("/api/tests/answer", json={"attemptId": aid, "pos": 0, "choice": 0}).status_code, 409)
+
+        # q1: wrong then right -> 0.5, wrong option's explanation shown, answer not revealed yet
+        ci = correct_shown(1); wrong = (ci + 1) % 4
+        r = c.post("/api/tests/answer", json={"attemptId": aid, "pos": 1, "choice": wrong}).get_json()
+        self.assertEqual((r["correct"], r["done"]), (False, False))
+        self.assertIn("why", r["chosen"]); self.assertNotIn("options", r); self.assertNotIn("correctIndex", r)
+        self.assertEqual(c.post("/api/tests/answer", json={"attemptId": aid, "pos": 1, "choice": wrong}).status_code, 400)  # no re-pick
+        r = c.post("/api/tests/answer", json={"attemptId": aid, "pos": 1, "choice": ci}).get_json()
+        self.assertEqual((r["correct"], r["points"]), (True, 0.5))
+
+        # q2: hint then right first try -> 0.75
+        h = c.post("/api/tests/hint", json={"attemptId": aid, "pos": 2}).get_json()
+        self.assertTrue(h["rule"]["en"] and h["rule"]["tr"])
+        r = c.post("/api/tests/answer", json={"attemptId": aid, "pos": 2, "choice": correct_shown(2)}).get_json()
+        self.assertEqual(r["points"], 0.75)
+
+        # q3: three wrong -> 0 and everything revealed
+        ci = correct_shown(3); wrongs = [i for i in range(4) if i != ci]
+        for w in wrongs[:2]:
+            r = c.post("/api/tests/answer", json={"attemptId": aid, "pos": 3, "choice": w}).get_json()
+            self.assertFalse(r["done"])
+        r = c.post("/api/tests/answer", json={"attemptId": aid, "pos": 3, "choice": wrongs[2]}).get_json()
+        self.assertTrue(r["done"]); self.assertEqual(r["points"], 0); self.assertEqual(r["correctIndex"], ci)
+
+        rep = c.post("/api/tests/finish", json={"attemptId": aid}).get_json()
+        self.assertEqual(rep["points"], 1.0 + 0.5 + 0.75)
+        self.assertEqual(rep["max"], 20.0)
+        self.assertEqual(rep["hintsUsed"], 1)
+        self.assertEqual(rep["retries"], 1 + 2)
+        self.assertEqual(rep["masteredCount"], 1)            # only q0: first try, no hint
+        self.assertEqual(rep["questions"], 20)
+
+    def _perm(self, aid, pos):
+        with user_db.db() as conn:
+            return conn.execute("SELECT perm FROM tests_items WHERE attempt_id=? AND pos=?", (aid, pos)).fetchone()[0]
+
+    def test_perfect_run_report_and_rotation_across_attempts(self):
+        c, _ = client(email="c@x.com")
+        bank = T.load_banks()["L1W1"]
+        used = collections.Counter()
+        for run in range(5):
+            _, d = start(c, kind="chapter", chapter="L1W1")
+            for it in d["items"]:
+                used[it["id"]] += 1
+                perm = json.loads(self._perm(d["attemptId"], it["pos"]))
+                c.post("/api/tests/answer", json={"attemptId": d["attemptId"], "pos": it["pos"],
+                                                  "choice": perm.index(bank["q_by_id"][it["id"]]["correct"])})
+            rep = c.post("/api/tests/finish", json={"attemptId": d["attemptId"]}).get_json()
+            self.assertEqual(rep["percent"], 100)
+            self.assertEqual(rep["weak"], [])
+            self.assertEqual(len(rep["history"]), run if run < 5 else 5)
+        self.assertEqual(len(used), 100)                       # 5 tests covered the whole pool exactly once
+        self.assertEqual(set(used.values()), {1})
+
+    def test_weak_topics_are_reported_with_section_link(self):
+        c, _ = client(email="d@x.com")
+        bank = T.load_banks()["L1W1"]
+        _, d = start(c, kind="chapter", chapter="L1W1")
+        for it in d["items"]:
+            perm = json.loads(self._perm(d["attemptId"], it["pos"]))
+            ci = perm.index(bank["q_by_id"][it["id"]]["correct"])
+            choice = ci if it["topic"] != "t4" else (ci + 1) % 4          # fail every t4 question first time
+            c.post("/api/tests/answer", json={"attemptId": d["attemptId"], "pos": it["pos"], "choice": choice})
+            if it["topic"] == "t4":
+                c.post("/api/tests/answer", json={"attemptId": d["attemptId"], "pos": it["pos"], "choice": ci})
+        rep = c.post("/api/tests/finish", json={"attemptId": d["attemptId"]}).get_json()
+        self.assertEqual([w["topic"] for w in rep["weak"]], ["t4"])
+        self.assertEqual(rep["weak"][0]["section"], 3)
+        self.assertEqual((rep["weak"][0]["level"], rep["weak"][0]["week"]), (1, 1))
+        self.assertEqual(rep["weak"][0]["mastery"], 0)
+        self.assertEqual(len(rep["strong"]), 3)
+        self.assertTrue(all(s["mastery"] == 100 for s in rep["strong"]))
+
+    def test_locked_chapter_refused_but_admin_and_unavailable_handled(self):
+        c, _ = client(email="e@x.com", unlocks=())
+        self.assertEqual(start(c, kind="chapter", chapter="L1W1")[0], 403)
+        self.assertEqual(start(c, kind="chapter", chapter="L9W9")[0], 404)
+        from unittest import mock                                     # no Master bank: independent of local files
+        no_master = {k: v for k, v in T.load_banks().items() if k != "MASTER"}
+        with mock.patch.object(T, "load_banks", return_value=no_master):
+            self.assertEqual(start(c, kind="master")[0], 404)
+        from unittest import mock                                     # level exam needs all 14 chapters of the level
+        only_one = {"L1W1": T.load_banks()["L1W1"]}
+        with mock.patch.object(T, "load_banks", return_value=only_one):
+            self.assertEqual(start(c, kind="level", level=1)[0], 404)
+        self.assertEqual(start(c, kind="nonsense")[0], 400)
+        a, _ = client(role="admin", email="adm@x.com", unlocks=())
+        self.assertEqual(start(a, kind="chapter", chapter="L1W1")[0], 200)
+
+    def test_cannot_touch_someone_elses_attempt(self):
+        c1, _ = client(email="f@x.com"); c2, _ = client(email="g@x.com")
+        _, d = start(c1, kind="chapter", chapter="L1W1")
+        self.assertEqual(c2.post("/api/tests/answer", json={"attemptId": d["attemptId"], "pos": 0, "choice": 0}).status_code, 404)
+        self.assertEqual(c2.post("/api/tests/finish", json={"attemptId": d["attemptId"]}).status_code, 404)
+
+    def test_question_report_and_catalog(self):
+        c, _ = client(email="h@x.com")
+        _, d = start(c, kind="chapter", chapter="L1W1")
+        self.assertEqual(c.post("/api/tests/report-question", json={"qid": d["items"][0]["id"], "note": "typo?"}).status_code, 200)
+        self.assertEqual(c.post("/api/tests/report-question", json={"qid": "nope", "note": "x"}).status_code, 400)
+        cat = c.get("/api/tests/catalog").get_json()
+        self.assertEqual(cat["chapters"]["L1W1"]["pool"], 100)
+        self.assertEqual(len(cat["chapters"]["L1W1"]["topics"]), 5)
+
+    def test_requires_login(self):
+        self.assertEqual(app.test_client().post("/api/tests/start", json={"kind": "chapter"}).status_code, 401)
+
+
+def fake_bank(ch, per_topic=12):
+    topics = [{"id": f"t{i}", "section": i, "title": {"en": f"T{i}", "tr": f"T{i}"}, "rule": {"en": "r", "tr": "r"}} for i in (1, 2)]
+    qs = [{"id": f"{ch}-{t['id']}-{k:02d}", "topic": t["id"], "chapter": ch, "difficulty": 1, "ref": "1:1", "quote": "x",
+           "stem": {"en": "s", "tr": "s"}, "correct": 0,
+           "options": [{"ar": f"a{j}", "why": {"en": "w", "tr": "w"}} for j in range(4)]}
+          for t in topics for k in range(per_topic)]
+    return {"chapter": ch, "topics": topics, "topic_by_id": {t["id"]: t for t in topics}, "questions": qs,
+            "q_by_id": {q["id"]: q for q in qs}}
+
+
+class Clearance(unittest.TestCase):
+    setUp = lambda self: approve_all_real()
+    """Level exam / Master Exam only draw from chapters the student is cleared for (same unlocks as the lessons)."""
+
+    def banks(self):
+        from unittest import mock
+        b = {f"L{L}W{W}": fake_bank(f"L{L}W{W}") for L in (1, 2, 3) for W in range(1, 15)}
+        b["MASTER"] = {"chapter": "MASTER", "topics": [], "topic_by_id": {}, "questions": [], "q_by_id": {}}
+        for ch in ("L1W1", "L1W2", "L2W5"):                  # integrative questions tagged with their primary chapter
+            for q in fake_bank(ch)["questions"]:
+                q = dict(q, id="M-" + q["id"]); b["MASTER"]["questions"].append(q); b["MASTER"]["q_by_id"][q["id"]] = q
+        approve(q for bank in b.values() for q in bank["questions"])
+        return mock.patch.object(T, "load_banks", return_value=b)
+
+    def test_level_exam_only_uses_unlocked_chapters(self):
+        c, _ = client(email="cl1@x.com", unlocks=("L1W1", "L1W2"))
+        with self.banks():
+            code, d = start(c, kind="level", level=1)
+            self.assertEqual(code, 200)
+            self.assertEqual({i["chapter"] for i in d["items"]}, {"L1W1", "L1W2"})
+            self.assertEqual(len(d["items"]), 20)
+            self.assertEqual(start(c, kind="level", level=2)[0], 403)           # no Level 2 clearance
+            cat = c.get("/api/tests/catalog").get_json()
+            self.assertEqual(cat["levels"]["1"], {"exam": True, "open": True, "cleared": 2, "length": 20})
+            self.assertFalse(cat["levels"]["2"]["open"])
+
+    def test_master_exam_respects_levels_and_needs_some_clearance(self):
+        c, _ = client(email="cl2@x.com", unlocks=("L1W1", "L2W5"))
+        none, _ = client(email="cl3@x.com", unlocks=())
+        adm, _ = client(role="admin", email="cl4@x.com", unlocks=())
+        with self.banks():
+            code, d = start(c, kind="master")
+            self.assertEqual(code, 200)
+            self.assertEqual({i["chapter"] for i in d["items"]}, {"L1W1", "L2W5"})   # L1W2 questions excluded
+            self.assertEqual(start(none, kind="master")[0], 403)
+            code, d = start(adm, kind="master")
+            self.assertEqual({i["chapter"] for i in d["items"]}, {"L1W1", "L1W2", "L2W5"})
+            self.assertTrue(c.get("/api/tests/catalog").get_json()["master"]["open"])
+            self.assertFalse(none.get("/api/tests/catalog").get_json()["master"]["open"])
+
+
+class ScholarReview(unittest.TestCase):
+    def setUp(self):
+        unapprove_all()
+        n = ScholarReview.__dict__.get("_n", 0) + 1
+        ScholarReview._n = n
+        self.admin, _ = client("admin", f"adm{n}@example.com", unlocks=())
+        self.student, _ = client("user", f"stu{n}@example.com")
+        self.qid = "L1W1-t1-01"
+
+    def test_students_and_anonymous_are_locked_out(self):
+        for c, code in ((self.student, 403), (app.test_client(), 401)):
+            self.assertEqual(c.get("/api/tests/review/tree").status_code, code)
+            self.assertEqual(c.get("/api/tests/review/approved").status_code, code)
+            self.assertEqual(c.post(f"/api/tests/review/{self.qid}/unapprove").status_code, code)
+            self.assertEqual(c.post("/api/tests/review/comment/1/resolve").status_code, code)
+            self.assertEqual(c.delete("/api/tests/review/comment/1").status_code, code)
+            self.assertEqual(c.get("/api/tests/review/chapter/L1W1").status_code, code)
+            self.assertEqual(c.post(f"/api/tests/review/{self.qid}/approve").status_code, code)
+            self.assertEqual(c.post(f"/api/tests/review/{self.qid}/comment", json={"body": "x"}).status_code, code)
+            self.assertEqual(c.get("/api/tests/review/export").status_code, code)
+
+    def test_chapter_lists_every_question_with_answers_and_all_explanations(self):
+        d = self.admin.get("/api/tests/review/chapter/L1W1").get_json()
+        bank = T.load_banks()["L1W1"]
+        self.assertEqual(len(d["questions"]), len(bank["questions"]))
+        q = next(x for x in d["questions"] if x["id"] == self.qid)
+        self.assertIn(q["correct"], range(len(q["options"])))
+        self.assertTrue(all(o["why"]["en"] and o["why"]["tr"] for o in q["options"]))
+        self.assertFalse(q["review"]["approved"])
+        self.assertEqual(self.admin.get("/api/tests/review/chapter/NOPE").status_code, 404)
+
+    def test_approve_unapprove_and_tree_counts(self):
+        before = self.admin.get("/api/tests/review/tree").get_json()["chapters"]["L1W1"]
+        r = self.admin.post(f"/api/tests/review/{self.qid}/approve").get_json()
+        self.assertTrue(r["review"]["approved"])
+        after = self.admin.get("/api/tests/review/tree").get_json()["chapters"]["L1W1"]
+        self.assertEqual(after["approved"], before["approved"] + 1)
+        self.assertEqual(after["total"], before["total"])
+        r = self.admin.post(f"/api/tests/review/{self.qid}/unapprove").get_json()
+        self.assertFalse(r["review"]["approved"])
+        self.assertEqual(self.admin.post("/api/tests/review/NOPE/approve").status_code, 404)
+
+    def test_comment_resolve_delete_and_export(self):
+        self.assertEqual(self.admin.post(f"/api/tests/review/{self.qid}/comment", json={"body": "  "}).status_code, 400)
+        r = self.admin.post(f"/api/tests/review/{self.qid}/comment", json={"body": "Option B should say tanwin."}).get_json()
+        cid = r["review"]["comments"][-1]["id"]
+        self.assertFalse(r["review"]["comments"][-1]["resolved"])
+        tree = self.admin.get("/api/tests/review/tree").get_json()["chapters"]["L1W1"]
+        self.assertGreaterEqual(tree["open"], 1)
+        csv_txt = self.admin.get("/api/tests/review/export").get_data(as_text=True)
+        self.assertIn("Option B should say tanwin.", csv_txt)
+        self.assertIn(self.qid, csv_txt)
+        js = self.admin.get("/api/tests/review/export?format=json&open=1").get_json()["comments"]
+        self.assertTrue(any(c["comment"] == "Option B should say tanwin." and c["status"] == "open" for c in js))
+        r = self.admin.post(f"/api/tests/review/comment/{cid}/resolve", json={"resolved": True}).get_json()
+        self.assertTrue(next(c for c in r["review"]["comments"] if c["id"] == cid)["resolved"])
+        js = self.admin.get("/api/tests/review/export?format=json&open=1").get_json()["comments"]
+        self.assertFalse(any(c["comment"] == "Option B should say tanwin." for c in js))
+        r = self.admin.delete(f"/api/tests/review/comment/{cid}").get_json()
+        self.assertFalse(any(c["id"] == cid for c in r["review"]["comments"]))
+
+    def test_editing_a_question_voids_its_approval_and_flags_old_comments(self):
+        q, _ = T.find_question(self.qid)
+        self.admin.post(f"/api/tests/review/{self.qid}/approve")
+        self.admin.post(f"/api/tests/review/{self.qid}/comment", json={"body": "old remark"})
+        original = q["stem"]["en"]
+        try:
+            q["stem"]["en"] = original + " (edited)"
+            T._memo.clear()
+            rv = next(x for x in self.admin.get("/api/tests/review/chapter/L1W1").get_json()["questions"]
+                      if x["id"] == self.qid)["review"]
+            self.assertFalse(rv["approved"])
+            self.assertTrue(rv["approvedStale"])
+            self.assertTrue(any(c["stale"] for c in rv["comments"]))
+        finally:
+            q["stem"]["en"] = original
+            T._memo.clear()
+        rv = next(x for x in self.admin.get("/api/tests/review/chapter/L1W1").get_json()["questions"]
+                  if x["id"] == self.qid)["review"]
+        self.assertTrue(rv["approved"])
+
+    def test_master_questions_open_with_their_own_chapter_topics(self):
+        if "MASTER" not in T.load_banks():
+            self.skipTest("no MASTER bank")
+        d = self.admin.get("/api/tests/review/chapter/MASTER").get_json()
+        self.assertTrue(d["questions"])
+        self.assertTrue(all(q["topicTitle"] for q in d["questions"]))
+
+
+
+class ScholarGate(unittest.TestCase):
+    """Nothing reaches a student until a scholar has approved it; tests are 20 (or fewer) from the approved questions."""
+
+    def setUp(self):
+        unapprove_all()
+        n = ScholarGate.__dict__.get("_n", 0) + 1
+        ScholarGate._n = n
+        self.stu, _ = client("user", f"gate{n}@example.com")
+        self.bank = T.load_banks()["L1W1"]
+
+    def pool(self, k):
+        return sorted(self.bank["questions"], key=lambda q: q["id"])[:k]
+
+    def test_nothing_approved_nothing_served(self):
+        cat = self.stu.get("/api/tests/catalog").get_json()
+        self.assertNotIn("L1W1", cat["chapters"])
+        self.assertEqual(start(self.stu, kind="chapter", chapter="L1W1")[0], 404)
+        self.assertEqual(cat["master"]["pool"], 0)
+        self.assertEqual(start(self.stu, kind="master")[0], 404)
+
+    def test_fewer_than_20_approved_shows_just_those(self):
+        approve(self.pool(7))
+        cat = self.stu.get("/api/tests/catalog").get_json()["chapters"]["L1W1"]
+        self.assertEqual((cat["pool"], cat["length"]), (7, 7))
+        code, d = start(self.stu, kind="chapter", chapter="L1W1")
+        self.assertEqual(code, 200)
+        self.assertEqual({i["id"] for i in d["items"]}, {q["id"] for q in self.pool(7)})
+
+    def test_more_than_20_approved_gives_20_and_rotates(self):
+        approve(self.pool(45))
+        self.assertEqual(self.stu.get("/api/tests/catalog").get_json()["chapters"]["L1W1"]["length"], 20)
+        seen = []
+        for _ in range(3):
+            code, d = start(self.stu, kind="chapter", chapter="L1W1")
+            self.assertEqual((code, len(d["items"])), (200, 20))
+            seen.append({i["id"] for i in d["items"]})
+        allowed = {q["id"] for q in self.pool(45)}
+        self.assertTrue(set().union(*seen) <= allowed)
+        self.assertEqual(len(set().union(*seen)), 45 if 45 <= 60 else 60)      # unseen first: no repeats before the pool is used up
+
+    def test_editing_an_approved_question_withdraws_it(self):
+        q = self.pool(1)[0]
+        approve([q])
+        self.assertEqual(start(self.stu, kind="chapter", chapter="L1W1")[0], 200)
+        old = q["stem"]
+        try:
+            q["stem"] = {**old, "en": old["en"] + " (edited)"}
+            T._memo.clear()
+            self.assertEqual(start(self.stu, kind="chapter", chapter="L1W1")[0], 404)
+        finally:
+            q["stem"] = old
+            T._memo.clear()
+
+    def test_admin_approval_makes_it_appear(self):
+        adm, _ = client("admin", "gateadm@example.com", unlocks=())
+        qid = self.pool(1)[0]["id"]
+        self.assertEqual(start(self.stu, kind="chapter", chapter="L1W1")[0], 404)
+        adm.post(f"/api/tests/review/{qid}/approve")
+        code, d = start(self.stu, kind="chapter", chapter="L1W1")
+        self.assertEqual((code, [i["id"] for i in d["items"]]), (200, [qid]))
+        adm.post(f"/api/tests/review/{qid}/unapprove")
+        self.assertEqual(start(self.stu, kind="chapter", chapter="L1W1")[0], 404)
+
+    def test_level_and_master_need_approved_questions(self):
+        approve(self.pool(10))
+        self.assertEqual(start(self.stu, kind="level", level=1)[0], 404)      # the other 13 chapters have nothing approved
+
+
+
+class Duplicates(unittest.TestCase):
+    """The same question existing more than once is reviewed once; one approval covers every copy."""
+
+    def setUp(self):
+        unapprove_all()
+        from unittest import mock
+        real = T.load_banks()
+        self.orig = real["L1W1"]["questions"][0]
+        perm = [2, 0, 3, 1]                                                   # same options, other order and id
+        copy = dict(self.orig, id="L1W2-copy-01", chapter="L1W2", options=[self.orig["options"][i] for i in perm],
+                    correct=perm.index(self.orig["correct"]))
+        b2 = {"chapter": "L1W2", "topics": [{"id": self.orig["topic"], "title": {"en": "x", "tr": "x"}}],
+              "questions": [copy], "q_by_id": {copy["id"]: copy}, "topic_by_id": {self.orig["topic"]: {"id": self.orig["topic"], "title": {"en": "x", "tr": "x"}}}}
+        self.copy = copy
+        self.patch = mock.patch.object(T, "load_banks", return_value={"L1W1": {**real["L1W1"]}, "L1W2": b2})
+        self.patch.start()
+        self.addCleanup(self.patch.stop)
+        n = Duplicates.__dict__.get("_n", 0) + 1
+        Duplicates._n = n
+        self.adm, _ = client("admin", f"dup{n}@example.com", unlocks=())
+        self.stu, _ = client("user", f"dups{n}@example.com", unlocks=("L1W1", "L1W2"))
+
+    def test_same_question_has_one_key_whatever_the_option_order(self):
+        self.assertEqual(T.dup_key(self.orig), T.dup_key(self.copy))
+        other = next(q for q in T.load_banks()["L1W1"]["questions"] if q["id"] != self.orig["id"])
+        self.assertNotEqual(T.dup_key(self.orig), T.dup_key(other))
+
+    def test_approving_one_copy_approves_all(self):
+        self.assertEqual(start(self.stu, kind="chapter", chapter="L1W2")[0], 404)
+        self.adm.post(f"/api/tests/review/{self.orig['id']}/approve")
+        code, d = start(self.stu, kind="chapter", chapter="L1W2")
+        self.assertEqual((code, [i["id"] for i in d["items"]]), (200, [self.copy["id"]]))
+        rv = self.adm.get("/api/tests/review/chapter/L1W2").get_json()["questions"][0]
+        self.assertTrue(rv["review"]["approved"])
+        self.assertEqual(rv["review"]["approvedVia"], self.orig["id"])
+        self.assertEqual(rv["copies"], [{"chapter": "L1W1", "id": self.orig["id"]}])
+
+    def test_unapproving_any_copy_withdraws_all(self):
+        self.adm.post(f"/api/tests/review/{self.orig['id']}/approve")
+        self.adm.post(f"/api/tests/review/{self.copy['id']}/approve")
+        self.adm.post(f"/api/tests/review/{self.copy['id']}/unapprove")
+        self.assertEqual(start(self.stu, kind="chapter", chapter="L1W2")[0], 404)
+        self.assertEqual(start(self.stu, kind="chapter", chapter="L1W1")[0], 404)
+
+    def test_each_question_is_listed_and_counted_once_per_chapter(self):
+        both = [dict(self.orig, id="L1W1-twin")]
+        T.load_banks()["L1W1"]["questions"].extend(both)
+        try:
+            ids = [q["id"] for q in self.adm.get("/api/tests/review/chapter/L1W1").get_json()["questions"]]
+            self.assertEqual(ids.count(self.orig["id"]) + ids.count("L1W1-twin"), 1)
+            tree = self.adm.get("/api/tests/review/tree").get_json()["chapters"]["L1W1"]
+            self.assertEqual(tree["total"], len(ids))
+        finally:
+            T.load_banks()["L1W1"]["questions"].remove(both[0])
+
+
+if __name__ == "__main__":
+    unittest.main()

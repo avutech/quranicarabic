@@ -1,0 +1,178 @@
+{
+"mekki-muskil:1-1": {
+"p1": {
+"ar": "021c20d76c3d",
+"tr": "1ed1940135d1",
+"en": "e508ec12b760",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish silently replaced the source word \"بدع\" (وفيه بدع في المعنى) with \"uzaklık\" (بعد) with no note; now translated as written plus a Mutercim notu.",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:43",
+"fixed": true
+},
+"p2": {
+"ar": "021c20d76c3d",
+"tr": "1ed1940135d1",
+"en": "e508ec12b760",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 18:09",
+"fixed": false
+}
+},
+"mekki-muskil:6-6": {
+"p1": {
+"ar": "ae1a63214eee",
+"tr": "da293bf7aada",
+"en": "4c512a84aab8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:43",
+"fixed": false
+}
+},
+"mekki-muskil:8-8": {
+"p1": {
+"ar": "7e781fa8c2dc",
+"tr": "e9015d6e139e",
+"en": "7ea79f9fd50e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:43",
+"fixed": false
+}
+},
+"mekki-muskil:12-12": {
+"p1": {
+"ar": "0206eb48051f",
+"tr": "241e1b95f6c5",
+"en": "ebba6c920195",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:43",
+"fixed": false
+}
+},
+"mekki-muskil:17-17": {
+"p1": {
+"ar": "8db0ad4fefff",
+"tr": "bf4cf0482af5",
+"en": "1564094ae6fa",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English wrote \"an object of (يسلكه)\" while the Arabic reads مفعول لنسلكه; changed to (لنسلكه).",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:43",
+"fixed": true
+},
+"p2": {
+"ar": "8db0ad4fefff",
+"tr": "bf4cf0482af5",
+"en": "1564094ae6fa",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 18:09",
+"fixed": false
+}
+},
+"mekki-muskil:18-18": {
+"p1": {
+"ar": "7d29f1e27dd8",
+"tr": "9d183ad44666",
+"en": "baf6b45d59e7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:43",
+"fixed": false
+}
+},
+"mekki-muskil:23-23": {
+"p1": {
+"ar": "dc29cb92c034",
+"tr": "e4f175bd4dce",
+"en": "541194fa20ca",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:43",
+"fixed": false
+}
+},
+"mekki-muskil:25-25": {
+"p1": {
+"ar": "319bf9fbb832",
+"tr": "bfd08279349f",
+"en": "d467e3b9bd27",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:43",
+"fixed": false
+}
+},
+"mekki-muskil:27-27": {
+"p1": {
+"ar": "3cf1bc9b6e41",
+"tr": "051e014d1ae7",
+"en": "71b034bec704",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:43",
+"fixed": false
+},
+"p2": {
+"ar": "3cf1bc9b6e41",
+"tr": "051e014d1ae7",
+"en": "71b034bec704",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 18:09",
+"fixed": false
+}
+},
+"mekki-muskil:28-28": {
+"p1": {
+"ar": "78357db840eb",
+"tr": "4ec21d0b98e4",
+"en": "d04b1421a80b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:43",
+"fixed": false
+}
+}
+}

@@ -1,0 +1,148 @@
+{
+"safi-cedvel:9-12": {
+"hs": [
+"7aaf5d79c7f3",
+"6e0fff371a09",
+"04b6c6813333"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic Ta'liq: «ليس المراد أن يعلم الله شيئا هو داخل في نطاق علمه» has no word for 'again'; TR 'ilminin kapsamında bulunan bir şeyi (yeniden) bilmesi' inserts an unmarked interpretive '(yeniden)'. Must be removed or put in [Mütercim notu: …].",
+"at": "2026-10-17 00:42"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic Balagha: «ليس المراد أن يعلم الله شيئا هو داخل في نطاق علمه» has no word for 'anew/again'; TR renders «ilminin kapsamında bulunan bir şeyi (yeniden) bilmesi» with an unmarked interpretive insertion «(yeniden)». Must be removed or put in [Mütercim notu: …].",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked '(yeniden)' from the Ta'lik (Belagat) section",
+"verified": "PASS",
+"verify_note": "Unmarked '(yeniden)' removed from Belagat; TR complete and faithful, Fevaid contradiction properly in Mutercim notu; remaining parentheses are term glosses."
+}
+},
+"history": [
+{
+"old_hs": [
+"7aaf5d79c7f3",
+"4d6d2e21ed3e",
+"04b6c6813333"
+],
+"dim": "tr",
+"what": "Removed unmarked '(yeniden)' from the Ta'lik (Belagat) section",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"safi-cedvel:95-97": {
+"hs": [
+"e8eb312b637b",
+"261de93fc5ab",
+"e13dd118554f"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Sarf (ردما): Arabic «بمعنى التراب الرادم أو المردوم به» says only 'the blocking earth or that with which blocking is done'; TR «(deliği) kapatan toprak» inserts unmarked «(deliği)» (the hole), not in the Arabic. Needs [Mütercim notu: …] or removal.",
+"at": "2026-10-17 00:42"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Sarf (ردما): Arabic «بمعنى التراب الرادم أو المردوم به» = 'the blocking earth or that with which blocking is done'; no object is named. TR '(deliği) kapatan toprak' inserts an unmarked '(deliği)'; it must be dropped or put in [Mütercim notu: …].",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked '(deliği)' from the Sarf entry for ردما",
+"verified": "PASS",
+"verify_note": "Unmarked '(deliği)' removed from Sarf ردما; TR complete and faithful; dislocated Fevaid line translated as-is with marked Mutercim notu."
+}
+},
+"history": [
+{
+"old_hs": [
+"e8eb312b637b",
+"a49e56f3da1d",
+"e13dd118554f"
+],
+"dim": "tr",
+"what": "Removed unmarked '(deliği)' from the Sarf entry for ردما",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"safi-cedvel:109-109": {
+"hs": [
+"22218df50cb0",
+"8b58e02a6459",
+"2e9ea3317be6"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "The line «ولو نعطى الخيار لما افترقنا ... ولكن لا خيار مع الليالي» is a poetry verse; glossary_tr rule 3 mandates: «Şiir beyitleri Arapça aynen bırakılır, altına parantez içinde kısa Türkçe anlamı verilir». The parenthetical «(Bize seçim hakkı verilseydi ayrılmazdık; fakat gecelerle (zamanla) birlikte seçim hakkı yoktur.)» is the required gloss and is accurate; rest of TR matches the Arabic.",
+"at": "2026-10-17 00:42"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "The verse «ولو نعطى الخيار لما افترقنا ... ولكن لا خيار مع الليالي» is kept in Arabic and followed by a short parenthetical meaning, which glossary_tr rule 3 explicitly requires for poetry ('altına parantez içinde kısa Türkçe anlamı verilir'); the gloss 'Bize seçim hakkı verilseydi ayrılmazdık; fakat gecelerle birlikte seçim hakkı yoktur' is accurate. Not an unmarked addition.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+},
+"en": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "The line «ولو نعطى الخيار لما افترقنا ... ولكن لا خيار مع الليالي» is poetry; glossary_en rule 3: «Poetry stays in Arabic, followed by a short English gloss in parentheses». «(Had we been given the choice, we would not have parted — but there is no choice with the nights.)» is that mandated, accurate gloss, not an unmarked addition.",
+"at": "2026-10-17 00:42"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "The verse «ولو نعطى الخيار لما افترقنا ... ولكن لا خيار مع الليالي» stays in Arabic followed by a short English gloss in parentheses, exactly as glossary_en rule 3 prescribes for poetry; 'Had we been given the choice, we would not have parted — but there is no choice with the nights' is accurate. Not an unmarked addition.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+},
+"safi-cedvel:103-104": {
+"hs": [
+"380887a6279f",
+"4b2d0bfab1d4",
+"905bce548aaf"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "In Benefits the Arabic example sentences «اشتريت عشرين ثوبا» and «أنا أكثر منك مالا» are kept in Arabic and followed by their literal meaning '(I bought twenty garments)' / '(I have more wealth than you)'. These glosses translate words that are in the source (the same convention the glossary prescribes for quoted poetry); they add no content absent from the Arabic and are accurate. Rest of EN matches the Arabic (the سعيهم vowel remark is properly in a Translator's note).",
+"at": "2026-10-17 00:42"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "The glosses translate example sentences that ARE in the Arabic: «اشتريت عشرين ثوبا» = 'I bought twenty garments', «أنا أكثر منك مالا» = 'I have more wealth than you'. Both are accurate renderings of source text kept in Arabic script (same practice the glossary prescribes for poetry), not added content; no meaning is introduced that is absent from the Arabic.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

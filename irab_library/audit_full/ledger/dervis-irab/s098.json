@@ -1,0 +1,28 @@
+{
+"dervis-irab:1-8": {
+"p1": {
+"ar": "fb8b5142c6d5",
+"tr": "3492e966e118",
+"en": "a931eb99c333",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "EN: Karkhi quote (الأولى أن تكون بمعنى الباء = it is preferable) was rendered \"the first (view)\"; fixed. TR: unmarked added gloss \"(Celaleddin)\" removed; Maarri line gloss corrected (جديرات البرى = deserving dust). Minor EN typo/unmarked bracket fixed.",
+"by": "dervis-irab-u3",
+"at": "2026-10-11 01:42",
+"fixed": true
+},
+"p2": {
+"ar": "fb8b5142c6d5",
+"tr": "3492e966e118",
+"en": "a931eb99c333",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u8",
+"at": "2026-10-17 00:02",
+"fixed": false
+}
+}
+}

@@ -1,0 +1,290 @@
+{
+"dervis-irab:11-11": {
+"p1": {
+"ar": "494ed85cadda",
+"tr": "097d8fdb9607",
+"en": "90df690b5156",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Safwan passage: source says «فأصبح في منزله» (his halting place) but reading said my; made literal with translator note. EN also: «تنام عن عجين أهلها» wrongly \"beside the dough\" -> neglecting; «الداجن» wrongly \"domestic goat\" -> domestic animal. TR: removed unmarked [narinliğinden] gloss.",
+"by": "dervis-irab-p1-u14",
+"at": "2026-10-17 00:05",
+"fixed": true
+},
+"p2": {
+"ar": "494ed85cadda",
+"tr": "097d8fdb9607",
+"en": "90df690b5156",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u18",
+"at": "2026-10-17 00:18",
+"fixed": false
+}
+},
+"dervis-irab:12-15": {
+"p1": {
+"ar": "6d8b844ead02",
+"tr": "898920829c78",
+"en": "d86a798fe8b3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u83",
+"at": "2026-10-10 19:37",
+"fixed": false
+}
+},
+"dervis-irab:16-20": {
+"p1": {
+"ar": "a1cf57282112",
+"tr": "3dc8a6deb22b",
+"en": "c891f6e61320",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u83",
+"at": "2026-10-10 19:38",
+"fixed": false
+}
+},
+"dervis-irab:21-26": {
+"p1": {
+"ar": "e34e33f0e2ea",
+"tr": "676965bf720a",
+"en": "f626040d56bb",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u83",
+"at": "2026-10-10 19:38",
+"fixed": false
+}
+},
+"dervis-irab:27-29": {
+"p1": {
+"ar": "167d5d49dbca",
+"tr": "225a8d47ad6f",
+"en": "fac6aaaf44a3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u83",
+"at": "2026-10-10 19:38",
+"fixed": false
+}
+},
+"dervis-irab:30-31": {
+"p1": {
+"ar": "d977a0fbe93a",
+"tr": "3a1068e35472",
+"en": "971ec38017f3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u83",
+"at": "2026-10-10 19:38",
+"fixed": false
+}
+},
+"dervis-irab:32-33": {
+"p1": {
+"ar": "0e2b0338bde3",
+"tr": "31b21b1a51ad",
+"en": "573701cef853",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u83",
+"at": "2026-10-10 19:38",
+"fixed": false
+}
+},
+"dervis-irab:34-38": {
+"p1": {
+"ar": "53759f6c1b92",
+"tr": "a8d572fec605",
+"en": "c5c348152cd3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u83",
+"at": "2026-10-10 19:39",
+"fixed": false
+}
+},
+"dervis-irab:39-40": {
+"p1": {
+"ar": "cb246475156a",
+"tr": "6ff9e73fb63a",
+"en": "7bec760fd5a1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u83",
+"at": "2026-10-10 19:39",
+"fixed": false
+}
+},
+"dervis-irab:41-44": {
+"p1": {
+"ar": "50d15b6f449d",
+"tr": "e359a41f9dc9",
+"en": "73da6156088a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u83",
+"at": "2026-10-10 19:39",
+"fixed": false
+}
+},
+"dervis-irab:45-49": {
+"p1": {
+"ar": "8aceea20fb85",
+"tr": "770d5a3c5851",
+"en": "892d0e8843b7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u14",
+"at": "2026-10-17 00:06",
+"fixed": false
+}
+},
+"dervis-irab:50-53": {
+"p1": {
+"ar": "8916bc9db419",
+"tr": "de422467d2f1",
+"en": "d642c6731388",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u5",
+"at": "2026-10-17 00:29",
+"fixed": false
+},
+"p2": {
+"ar": "8916bc9db419",
+"tr": "de422467d2f1",
+"en": "d642c6731388",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish inserted a negation not in the source («ليبقي ثبوته فيهم وجوده في حكمه» rendered \"hükmünde bulunmadığını\"); now translated as written with a marked note on the likely intended sense.",
+"by": "dervis-irab-p2-u18",
+"at": "2026-10-17 00:18",
+"fixed": true
+}
+},
+"dervis-irab:54-55": {
+"p1": {
+"ar": "b74cc9eec844",
+"tr": "2d87fc170048",
+"en": "121c00849205",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u83",
+"at": "2026-10-10 19:40",
+"fixed": false
+}
+},
+"dervis-irab:56-58": {
+"p1": {
+"ar": "bf2b5f020b4a",
+"tr": "ec1d7e393bf1",
+"en": "5c5d50d099f7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u83",
+"at": "2026-10-10 19:40",
+"fixed": false
+}
+},
+"dervis-irab:59-61": {
+"p1": {
+"ar": "1be3ced626f6",
+"tr": "4414ba473e0a",
+"en": "c287136552a7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u83",
+"at": "2026-10-10 19:41",
+"fixed": false
+},
+"p2": {
+"ar": "1be3ced626f6",
+"tr": "4414ba473e0a",
+"en": "c287136552a7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u3",
+"at": "2026-10-17 00:03",
+"fixed": false
+}
+},
+"dervis-irab:62-64": {
+"p1": {
+"ar": "f99b4fbb3471",
+"tr": "27fe3db8caf3",
+"en": "135e8dd3ca06",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u83",
+"at": "2026-10-10 19:41",
+"fixed": false
+}
+},
+"dervis-irab:1-5": {
+"p1": {
+"ar": "699fd4eb2a80",
+"tr": "1e0a5a215b55",
+"en": "c98dadb26ba9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u83",
+"at": "2026-10-10 19:42",
+"fixed": false
+}
+},
+"dervis-irab:6-10": {
+"p1": {
+"ar": "155263308692",
+"tr": "4dfcac7abdfe",
+"en": "ab5f02a5d7f2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u83",
+"at": "2026-10-10 19:42",
+"fixed": false
+}
+}
+}

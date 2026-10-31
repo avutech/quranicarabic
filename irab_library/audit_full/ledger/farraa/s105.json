@@ -1,0 +1,82 @@
+{
+"farraa:1-1": {
+"p1": {
+"ar": "59450b3ee82d",
+"tr": "13090b2e16cd",
+"en": "3e0b0da93abb",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR rendered the source reading «فانتبهوا» as \"yagmaladilar\" without a note: added translator note; EN «فجال عبدالمطلب فى متن فرسه» was \"leapt onto\" (changed to rode about on).",
+"by": "farraa-u22",
+"at": "2026-10-10 15:52",
+"fixed": true
+},
+"p2": {
+"ar": "59450b3ee82d",
+"tr": "13090b2e16cd",
+"en": "3e0b0da93abb",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p2-u4",
+"at": "2026-10-16 17:09",
+"fixed": false
+}
+},
+"farraa:3-3": {
+"p1": {
+"ar": "9de8f6298a99",
+"tr": "09f59a4c2220",
+"en": "91992a1b5a52",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR silently replaced «أبوك» with «أبابيل» in the last sentence (Kisai: أبوك مثل العجول); restored with translator note as in EN.",
+"by": "farraa-u22",
+"at": "2026-10-10 15:52",
+"fixed": true
+},
+"p2": {
+"ar": "9de8f6298a99",
+"tr": "09f59a4c2220",
+"en": "91992a1b5a52",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p2-u4",
+"at": "2026-10-16 17:09",
+"fixed": false
+}
+},
+"farraa:4-4": {
+"p1": {
+"ar": "073fd26da673",
+"tr": "9e0173559e5a",
+"en": "1214415cbc06",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:52",
+"fixed": false
+}
+},
+"farraa:5-5": {
+"p1": {
+"ar": "bd8c1e14dec8",
+"tr": "c08f6e8da485",
+"en": "f2f6f79417e5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:52",
+"fixed": false
+}
+}
+}

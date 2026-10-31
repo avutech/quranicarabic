@@ -1,0 +1,56 @@
+{
+"semin-durr:1-1": {
+"p1": {
+"ar": "93f5c0aebc83",
+"tr": "eb2c7de9cf30",
+"en": "4bb40ca78d0b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u34",
+"at": "2026-10-11 03:00",
+"fixed": false
+}
+},
+"semin-durr:2-2": {
+"p1": {
+"ar": "dad1b78de1ba",
+"tr": "eb68ac500e40",
+"en": "edb8027c608b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p1-u11",
+"at": "2026-10-17 00:17",
+"fixed": false
+},
+"p2": {
+"ar": "dad1b78de1ba",
+"tr": "7ee171418804",
+"en": "edb8027c608b",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN transliterated «شَنَأه يَشْنَؤُه»; now in Arabic script.",
+"by": "semin-durr-p2-u20",
+"at": "2026-10-17 00:10",
+"fixed": true
+}
+},
+"semin-durr:3-3": {
+"p1": {
+"ar": "4a71f78f29ac",
+"tr": "efb370bec2de",
+"en": "06e97c21a85e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u34",
+"at": "2026-10-11 03:00",
+"fixed": false
+}
+}
+}

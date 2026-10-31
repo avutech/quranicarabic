@@ -1,0 +1,53 @@
+{
+"dervis-irab:1-12": {
+"hs": [
+"6c073a97d272",
+"168b3595fa6f",
+"642938e33409"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source quotes al-Zamakhshari: «نطفة أمشاج كبرمة أعشار وبرد أكباش». A gloss translating a quoted phrase is acceptable in itself, but EN «برد أكباش (a garment of coarse yarn)» renders the meaning of al-Kashshaf's «برد أكياش» (twice-spun yarn), not the word printed here (أكباش = rams). That silently corrects the source / translates a different text, with no [Translator's note: …] (TR flags exactly this in a Mütercim notu). Fix: add a Translator's note that the source prints «أكباش», the Kashshaf reading being «أكياش». Rest of EN (incl. notes on وزقت, the cup/spring pronoun, الثلث الباقي) checked and faithful.",
+"at": "2026-10-17 00:43"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source (quoting al-Zamakhsharī): نطفة أمشاج كبرمة أعشار وبرد أكباش. EN renders 'برد أكباش (a garment of coarse yarn)' — 'coarse yarn' is the meaning of أكياش (the Kashshāf reading), not of the printed أكباش ('rams'); EN thus silently translates a different text with no Translator's note, whereas TR flags «[Mütercim notu: el-Keşşâf'ta bilinen ifade «برد أكياش»tır; kaynakta «أكباش» yazılıdır.]». Fix: add the equivalent Translator's note (or mark the gloss as the translator's).",
+"at": "2026-10-17 00:44"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked bracket additions: [to the past], [as an interrogative], [ordinary], [in prayer], [the implied], [It has also been said], [إنّ], [third], [a request]; 'next third' -> 'remaining third' per source with note kept",
+"verify_note": "Flagged fixes done: the bracketed additions 'inversion [to the past]', '[as an interrogative]', '[ordinary]' and '[in prayer]' are gone. Read in full against the Arabic: complete and faithful; source problems (أكباش, وزقت, pronoun of بها, الثلث الباقي) are flagged in Translator's notes; poetry keeps Arabic with English glosses; Quranic words in Arabic script. No new problems.",
+"fix_failed": 1,
+"verified": "PASS"
+}
+},
+"history": [
+{
+"old_hs": [
+"6c073a97d272",
+"168b3595fa6f",
+"24d1bc431ca2"
+],
+"dim": "en",
+"what": "'(a garment of coarse yarn)' gloss replaced by Translator's note: source prints أكباش, Kashshaf reading أكياش",
+"at": "2026-10-17 00:47"
+},
+{
+"old_hs": [
+"6c073a97d272",
+"168b3595fa6f",
+"ac97bbf281e8"
+],
+"dim": "en",
+"what": "Removed unmarked bracket additions: [to the past], [as an interrogative], [ordinary], [in prayer], [the implied], [It has also been said], [إنّ], [third], [a request]; 'next third' -> 'remaining third' per source with note kept",
+"at": "2026-10-17 00:53"
+}
+]
+}
+}

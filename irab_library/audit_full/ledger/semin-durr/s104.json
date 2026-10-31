@@ -1,0 +1,98 @@
+{
+"semin-durr:1-1": {
+"p1": {
+"ar": "ec1b1599d58f",
+"tr": "993d7050fa2f",
+"en": "8c832be362c7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p1-u11",
+"at": "2026-10-17 00:16",
+"fixed": false
+},
+"p2": {
+"ar": "ec1b1599d58f",
+"tr": "993d7050fa2f",
+"en": "8c832be362c7",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR unmarked \"(Muhammed)\" before el-Bâkır moved into a Mütercim notu; EN transliterated the lexical forms «الضُّحَكَة»/«الضُّحْكة» as ḍuḥaka/ḍuḥka, now in Arabic script.",
+"by": "semin-durr-p2-u20",
+"at": "2026-10-17 00:10",
+"fixed": true
+}
+},
+"semin-durr:2-2": {
+"p1": {
+"ar": "a1c5ffdd2fa0",
+"tr": "0dcdd76875a8",
+"en": "3ea550498909",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u34",
+"at": "2026-10-11 02:58",
+"fixed": false
+}
+},
+"semin-durr:3-3": {
+"p1": {
+"ar": "9f43cf87519a",
+"tr": "779152193553",
+"en": "bf60742d48aa",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u34",
+"at": "2026-10-11 02:58",
+"fixed": false
+}
+},
+"semin-durr:4-4": {
+"p1": {
+"ar": "dec4ddb54e75",
+"tr": "f6f74fa6cbc8",
+"en": "b89deda5d0cc",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u34",
+"at": "2026-10-11 02:58",
+"fixed": false
+}
+},
+"semin-durr:7-7": {
+"p1": {
+"ar": "c6ebf0e74b83",
+"tr": "8964e028e244",
+"en": "a37ce15f86ba",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u34",
+"at": "2026-10-11 02:58",
+"fixed": false
+}
+},
+"semin-durr:9-9": {
+"p1": {
+"ar": "76e936a01c9e",
+"tr": "9ff72262e116",
+"en": "70d77ff787ad",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u34",
+"at": "2026-10-11 02:58",
+"fixed": false
+}
+}
+}

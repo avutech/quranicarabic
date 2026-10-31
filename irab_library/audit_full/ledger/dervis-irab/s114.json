@@ -1,0 +1,28 @@
+{
+"dervis-irab:1-6": {
+"p1": {
+"ar": "25b6d99ea8d1",
+"tr": "0804191ad0db",
+"en": "928f3f296184",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u5",
+"at": "2026-10-17 00:19",
+"fixed": false
+},
+"p2": {
+"ar": "25b6d99ea8d1",
+"tr": "0804191ad0db",
+"en": "928f3f296184",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN gave the three surah openings in Aisha's hadith («قل هو الله أحد وقل أعوذ برب الفلق وقل أعوذ برب الناس») only in English translation; restored in Arabic script.",
+"by": "dervis-irab-p2-u8",
+"at": "2026-10-17 00:04",
+"fixed": true
+}
+}
+}

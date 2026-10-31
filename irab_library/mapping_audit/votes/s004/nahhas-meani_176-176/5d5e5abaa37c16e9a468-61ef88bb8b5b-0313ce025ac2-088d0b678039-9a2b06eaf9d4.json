@@ -1,0 +1,27 @@
+{
+  "surah": 4,
+  "key": "nahhas-meani:176-176",
+  "reviewer": "audit-framework-blind",
+  "model": "GPT-6 (Codex session; exact backend variant not exposed)",
+  "verdict": "INTRODUCTION",
+  "tr_mapping": "FOLLOWS_SOURCE",
+  "en_mapping": "FOLLOWS_SOURCE",
+  "targets": [
+    {
+      "surah": 5,
+      "kind": "introduction"
+    }
+  ],
+  "evidence": "Independent conclusion: the ʿAlqama statement about يا أيها الذين آمنوا / يا أيها الناس is general revelation-location context, not the inheritance ruling at 4:176. Local original places it immediately before 5:1. Full primary-book transcription https://www.arabic-keyboard.info/books/ar/read-book/معاني-القرآن-للنحاس (chapter تفسير سورة المائدة, lines 914–918 as retrieved) places the statement after the al-Ma’idah heading and before numbered verse-1 exposition. Therefore it belongs to surah 5 introduction, not surah 4 verse 176 or surah 5 verse 1. Complete TR and EN reproduce the same attribution and general statement; both FOLLOW_SOURCE. No text change proposed.",
+  "hashes": {
+    "ar": "61ef88bb8b5bb7722e0f19b6464a7a7d2d5a4512e0e1f0d0f77b4588155c1f33",
+    "tr": "0313ce025ac23907396ae938232f1812898c0c0a69dbb0f18d69fb8a2f5fa4dc",
+    "en": "088d0b678039eb9c512a93799588ff818f1159f5e1382da4d6b8ac085d44aecc",
+    "association": "9a2b06eaf9d4160a7a86e807e3f310d09e4fdaf794268c2f4e9f1d71b39cc22b"
+  },
+  "context_file_hashes": {
+    "s004.json": "884d18ae3f029a4300cf99a228f0ce01b17f329d97d7a2161be4634f548396fb",
+    "s005.json": "470334316ebdae06dfa276eb0bf6ed815bc966558080daf9a1cb17e02a8708be"
+  },
+  "recorded_at": "2026-10-10T16:39:11.001741-04:00"
+}

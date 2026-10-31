@@ -1,0 +1,120 @@
+{
+"semin-durr:1-1": {
+"hs": [
+"6d1f9288b3ee",
+"402281162d66",
+"d047b7d1f755"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: و«في زَوْجِها» أي في شأنِه من ظِهارِه إياها. EN adds unmarked '(declaring her like his mother's back)' after zihār; this explanation is not in the Arabic and must go into a [Translator's note: ...].",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «و»في زَوْجِها«أي في شأنِه من ظِهارِه إياها» = concerning his affair, his ẓihār of her. EN adds '(declaring her like his mother's back)', a definition of ẓihār that is not in the Arabic and is unmarked; must go into a [Translator's note: ...]. ([Ḥamza and al-Kisāʾī] for «الأخوين» is likewise an unmarked bracket.)",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Ẓihār definition and [Ḥamza and al-Kisāʾī] identification moved into Translator's notes",
+"verified": "PASS",
+"verify_note": "The ẓihār definition and the identification of the two brothers are now inside Translator's notes; the rest is complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"6d1f9288b3ee",
+"402281162d66",
+"6c2fc890fa95"
+],
+"dim": "en",
+"what": "Ẓihār definition and [Ḥamza and al-Kisāʾī] identification moved into Translator's notes",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"semin-durr:2-2": {
+"hs": [
+"f69763d1e327",
+"3823cb257f03",
+"dc9c8fee7de6"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "EN adds unmarked '[in the previous verse]' after «بصير» (Arabic: منصوب ب «بصير» only) and '[to nouns]' after 'the particle is not specific' (Arabic: لعدم اختصاص الحرف only). In addition, the poetry verses 4238 (حتى شآها كَليلٌ مَوْهِناً عَمِلٌ...), 4239 (لَعَمْرُك ما مَعْنٌ بتارِكِ حقِّه...) and 4240 (لَعَمْرُك ما إنْ أبو مالكٍ...) are given only in English, the Arabic verses omitted, contrary to the poetry rule.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic «أنَّه منصوبٌ ب «بصير»» has no mention of a previous verse, and «لعدمِ اختصاصِ الحرفِ» does not say 'to nouns'. EN adds plain unmarked brackets '[in the previous verse]' and '[to nouns]'. Both are explanatory additions (correct in substance: بصير ends 58:1; ما is not specific to nouns) but must be in [Translator's note: ...] form.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Quranic word transliterated 'zūr' replaced with Arabic «زوراً»; transliterated example 'mā in Zaydun bi-qāʾimin' restored to Arabic «ما إنْ زيدٌ بقائمٍ»; earlier Translator's notes and Arabic verses 4238-4240 kept",
+"verify_note": "Both explanatory additions are now marked as [Translator's note: ...]; verses 4238-4240 are back in Arabic script with their translations; the Quranic word زوراً is in Arabic script; the reading is complete and faithful sentence by sentence, with nothing unmarked added.",
+"fix_failed": 1,
+"verified": "PASS"
+}
+},
+"history": [
+{
+"old_hs": [
+"f69763d1e327",
+"3823cb257f03",
+"fd8d26a3039b"
+],
+"dim": "en",
+"what": "'[in the previous verse]' and '[to nouns]' put inside Translator's notes; Arabic text of verses 4238, 4239, 4240 restored with the English gloss in parentheses",
+"at": "2026-10-17 00:46"
+},
+{
+"old_hs": [
+"f69763d1e327",
+"3823cb257f03",
+"8c4c01395b78"
+],
+"dim": "en",
+"what": "Quranic word transliterated 'zūr' replaced with Arabic «زوراً»; transliterated example 'mā in Zaydun bi-qāʾimin' restored to Arabic «ما إنْ زيدٌ بقائمٍ»; earlier Translator's notes and Arabic verses 4238-4240 kept",
+"at": "2026-10-17 00:52"
+}
+]
+},
+"semin-durr:10-10": {
+"hs": [
+"f08d02d85e2d",
+"6cc29ab03ba1",
+"841b7e4acf60"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "MISPLACED",
+"evidence": "The entry discusses «ليحزنَ» and {وَلَيْسَ بِضَآرِّهِمْ} (58:10), but also al-Ḍaḥḥāk's reading «ومعصيات» (ومعصيت الرسول occurs in 58:8 and 58:9) and {لَوْلاَ يُعَذِّبُنَا} [المجادلة: 8], which is 58:8. Correct range covers 58:8-10.",
+"at": "2026-10-17 00:41",
+"ayahs": "8-10"
+},
+"J2": {
+"class": "MISPLACED",
+"evidence": "The entry discusses 58:10 («ليحزنَ», {وَلَيْسَ بِضَآرِّهِمْ}) but also substantively 58:8: {لَوْلاَ يُعَذِّبُنَا} [المجادلة: 8] is parsed as a clause in the accusative by «يقولون», and al-Ḍaḥḥāk's plural reading «ومعصيات» is of «وَمَعْصِيَتِ الرَّسُولِ», which occurs in 58:8 and 58:9. The complete range is 8-10.",
+"at": "2026-10-17 00:41",
+"ayahs": "8-10"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+}
+}

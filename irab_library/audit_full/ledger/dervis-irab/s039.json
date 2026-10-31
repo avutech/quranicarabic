@@ -1,0 +1,336 @@
+{
+"dervis-irab:4-6": {
+"p1": {
+"ar": "6480195cdac3",
+"tr": "c53db94ef969",
+"en": "1291db9258cf",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u89",
+"at": "2026-10-10 19:40",
+"fixed": false
+}
+},
+"dervis-irab:7-8": {
+"p1": {
+"ar": "0e3629758a1f",
+"tr": "83e7bd4c953c",
+"en": "cfb1fac5b135",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN silently corrected source \"fatha on the lam\" to \"first letter\"; now marked with translator note",
+"by": "dervis-irab-u89",
+"at": "2026-10-10 19:40",
+"fixed": true
+},
+"p2": {
+"ar": "0e3629758a1f",
+"tr": "83e7bd4c953c",
+"en": "cfb1fac5b135",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u4",
+"at": "2026-10-17 00:03",
+"fixed": false
+}
+},
+"dervis-irab:9-10": {
+"p1": {
+"ar": "afc05774e230",
+"tr": "738e52de65a1",
+"en": "3f03e4c61458",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "re-served after my earlier fixes; read again, complete and faithful",
+"by": "dervis-irab-u89",
+"at": "2026-10-10 19:41",
+"fixed": false
+}
+},
+"dervis-irab:11-18": {
+"p1": {
+"ar": "6ad931ebce91",
+"tr": "4839b54668ee",
+"en": "023e1d2ab475",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN silently rendered source «ومنعتا» as \"separate\"; added translator note",
+"by": "dervis-irab-u89",
+"at": "2026-10-10 19:41",
+"fixed": true
+},
+"p2": {
+"ar": "6ad931ebce91",
+"tr": "4839b54668ee",
+"en": "023e1d2ab475",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u4",
+"at": "2026-10-17 00:03",
+"fixed": false
+}
+},
+"dervis-irab:19-21": {
+"p1": {
+"ar": "2c79c32bc204",
+"tr": "5b9305d12af7",
+"en": "d6ba8ed21128",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN silently corrected «خفافه» to \"dryness\"; added translator note like the TR has",
+"by": "dervis-irab-u89",
+"at": "2026-10-10 19:41",
+"fixed": true
+},
+"p2": {
+"ar": "2c79c32bc204",
+"tr": "5b9305d12af7",
+"en": "d6ba8ed21128",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u4",
+"at": "2026-10-17 00:03",
+"fixed": false
+}
+},
+"dervis-irab:60-66": {
+"p1": {
+"ar": "b1aacbcc3e60",
+"tr": "76d0020442ce",
+"en": "7ad949368a86",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN silently changed the source reading آمنوا to اتقوا in the sentence conjoined to «وينجي الله الذين آمنوا»; restored with translator note",
+"by": "dervis-irab-u89",
+"at": "2026-10-10 19:41",
+"fixed": true
+},
+"p2": {
+"ar": "b1aacbcc3e60",
+"tr": "76d0020442ce",
+"en": "7ad949368a86",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u35",
+"at": "2026-10-16 19:21",
+"fixed": false
+}
+},
+"dervis-irab:67-75": {
+"p1": {
+"ar": "695d6b07419f",
+"tr": "5355d2681bd6",
+"en": "54eb93b84b67",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u89",
+"at": "2026-10-10 19:42",
+"fixed": false
+},
+"p2": {
+"ar": "695d6b07419f",
+"tr": "5355d2681bd6",
+"en": "54eb93b84b67",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u35",
+"at": "2026-10-16 19:28",
+"fixed": false
+}
+},
+"dervis-irab:22-23": {
+"p1": {
+"ar": "b14eff5f6cba",
+"tr": "d08e7ee541c4",
+"en": "f1bb86551914",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u3",
+"at": "2026-10-17 00:15",
+"fixed": false
+},
+"p2": {
+"ar": "b14eff5f6cba",
+"tr": "d08e7ee541c4",
+"en": "f1bb86551914",
+"fit": "OK",
+"trv": null,
+"env": "FIXED",
+"note": "TR as served numbers the first Belagha point «2- مثاني» while the Arabic has «1- في قوله مثاني» (two items numbered 2); stored TR reads 1-. EN silently corrected «كمن طبع على قبله» to heart; added marked note.",
+"by": "dervis-irab-p2-u4",
+"at": "2026-10-17 00:04",
+"fixed": true
+}
+},
+"dervis-irab:24-28": {
+"p1": {
+"ar": "8ecb8ac30d4e",
+"tr": "56e37d2158c8",
+"en": "31927176deec",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u89",
+"at": "2026-10-10 19:42",
+"fixed": false
+}
+},
+"dervis-irab:29-32": {
+"p1": {
+"ar": "0b14fc39cac7",
+"tr": "472560d261b4",
+"en": "d626a97ae2b2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "re-served after my earlier fixes; read again",
+"by": "dervis-irab-u89",
+"at": "2026-10-10 19:42",
+"fixed": false
+}
+},
+"dervis-irab:33-38": {
+"p1": {
+"ar": "5836bcc67739",
+"tr": "bf4f1dbdb3eb",
+"en": "02073bb7a08d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u89",
+"at": "2026-10-10 19:42",
+"fixed": false
+}
+},
+"dervis-irab:39-42": {
+"p1": {
+"ar": "0048508a6057",
+"tr": "054c6fa05002",
+"en": "74ce262a6607",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "re-served after planted truncation earlier; complete now",
+"by": "dervis-irab-u89",
+"at": "2026-10-10 19:43",
+"fixed": false
+}
+},
+"dervis-irab:43-46": {
+"p1": {
+"ar": "56e6b0c6f209",
+"tr": "889bd5cd409d",
+"en": "6ebe9f878f42",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR added unmarked \"(Sibeveyh)\" inside Ibn Hisham quote, replaced; EN silently supplied «خبر» and silently dropped «إذا» of «إذا الميم», added translator notes",
+"by": "dervis-irab-u89",
+"at": "2026-10-10 19:43",
+"fixed": true
+},
+"p2": {
+"ar": "56e6b0c6f209",
+"tr": "889bd5cd409d",
+"en": "6ebe9f878f42",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u4",
+"at": "2026-10-17 00:04",
+"fixed": false
+}
+},
+"dervis-irab:47-49": {
+"p1": {
+"ar": "951deba20b0a",
+"tr": "4e498a495235",
+"en": "e68b7fd66deb",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u89",
+"at": "2026-10-10 19:43",
+"fixed": false
+}
+},
+"dervis-irab:50-52": {
+"p1": {
+"ar": "51bcb159b6dc",
+"tr": "87b48cc31913",
+"en": "897989ad8c54",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "re-read after my fix",
+"by": "dervis-irab-u89",
+"at": "2026-10-10 19:44",
+"fixed": false
+}
+},
+"dervis-irab:53-59": {
+"p1": {
+"ar": "ed5f43f4ecbb",
+"tr": "e48cec2d6c76",
+"en": "13e3f0b467d5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u3",
+"at": "2026-10-17 00:15",
+"fixed": false
+},
+"p2": {
+"ar": "ed5f43f4ecbb",
+"tr": "e48cec2d6c76",
+"en": "13e3f0b467d5",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR: unmarked addition \"(ikinci durumda)\" in the khabar sentence for \"خبران لإن أو لهو والجملة خبر إن\" removed. EN: \"جواب شرط جازم\" had been rendered as \"non-jussive condition\" (book text silently reversed) - now \"jussive condition\" with note; \"فحيزت الواو لما قبلها\" rendered as \"set apart from what follows\" - now \"assigned to what precedes it\".",
+"by": "dervis-irab-p2-u5",
+"at": "2026-10-17 00:02",
+"fixed": true
+}
+},
+"dervis-irab:1-3": {
+"p1": {
+"ar": "a449eb152530",
+"tr": "a175013ac9b1",
+"en": "b48068c8bc35",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u2",
+"at": "2026-10-11 00:55",
+"fixed": false
+}
+}
+}

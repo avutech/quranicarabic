@@ -1,0 +1,520 @@
+{
+"harrat-mujtaba:1-1": {
+"p1": {
+"ar": "e6be2781fa9b",
+"tr": "c787cecfd919",
+"en": "1bd3608a7a56",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "harrat-mujtaba-u10",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+},
+"harrat-mujtaba:2-2": {
+"p1": {
+"ar": "bb5d08dede98",
+"tr": "90d9a40d9023",
+"en": "c3cf3fca4a71",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "harrat-mujtaba-u10",
+"at": "2026-10-10 15:46",
+"fixed": false
+},
+"p2": {
+"ar": "bb5d08dede98",
+"tr": "90d9a40d9023",
+"en": "c3cf3fca4a71",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "harrat-mujtaba-u3",
+"at": "2026-10-11 04:08",
+"fixed": false
+}
+},
+"harrat-mujtaba:4-4": {
+"p1": {
+"ar": "ca802d525a14",
+"tr": "73853e848c46",
+"en": "72c39318c195",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "harrat-mujtaba-u10",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+},
+"harrat-mujtaba:5-5": {
+"p1": {
+"ar": "cabf1d4c5d91",
+"tr": "1c8c0891b514",
+"en": "8b3842c37256",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "harrat-mujtaba-u10",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+},
+"harrat-mujtaba:6-6": {
+"p1": {
+"ar": "b2e849e99e58",
+"tr": "f03016228029",
+"en": "a5fba1c6c847",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "harrat-mujtaba-u10",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+},
+"harrat-mujtaba:7-7": {
+"p1": {
+"ar": "2423db8c485f",
+"tr": "b3cb1553b911",
+"en": "aef2798eb3f7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "harrat-mujtaba-u10",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+},
+"harrat-mujtaba:8-8": {
+"p1": {
+"ar": "91fd535cb1a1",
+"tr": "3c99543d0aa8",
+"en": "e6ff011bc041",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "harrat-mujtaba-u10",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+},
+"harrat-mujtaba:9-9": {
+"p1": {
+"ar": "959b22e0b4a8",
+"tr": "a938c71fb328",
+"en": "63945c9ba109",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "harrat-mujtaba-u10",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+},
+"harrat-mujtaba:11-11": {
+"p1": {
+"ar": "efdd527617b1",
+"tr": "b4c3f4e5df48",
+"en": "4d70a42c49ab",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "harrat-mujtaba-u10",
+"at": "2026-10-10 15:46",
+"fixed": false
+},
+"p2": {
+"ar": "efdd527617b1",
+"tr": "b4c3f4e5df48",
+"en": "4d70a42c49ab",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "harrat-mujtaba-u3",
+"at": "2026-10-11 04:08",
+"fixed": false
+}
+},
+"harrat-mujtaba:12-12": {
+"p1": {
+"ar": "aa81715841a2",
+"tr": "6579c9b3feab",
+"en": "63b74ec8dbfa",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "harrat-mujtaba-u10",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+},
+"harrat-mujtaba:13-13": {
+"p1": {
+"ar": "60668618cb77",
+"tr": "b9a6560ccdbe",
+"en": "f7a25d63ebfe",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "harrat-mujtaba-u10",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+},
+"harrat-mujtaba:14-14": {
+"p1": {
+"ar": "63a126201c43",
+"tr": "402dde0bb6aa",
+"en": "2c52305c0a59",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "harrat-mujtaba-u10",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+},
+"harrat-mujtaba:15-15": {
+"p1": {
+"ar": "d3589f14afd2",
+"tr": "ca6388b48de9",
+"en": "05c7108e4ba2",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish added the unmarked gloss '(يومئذ)' after 'zarf' which is not in the Arabic (وكذا الظرف); removed.",
+"by": "harrat-mujtaba-u10",
+"at": "2026-10-10 15:46",
+"fixed": true
+},
+"p2": {
+"ar": "d3589f14afd2",
+"tr": "ca6388b48de9",
+"en": "05c7108e4ba2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "harrat-mujtaba-u3",
+"at": "2026-10-11 04:08",
+"fixed": false
+}
+},
+"harrat-mujtaba:16-16": {
+"p1": {
+"ar": "0b90ccb3f32e",
+"tr": "4822f2a47637",
+"en": "2cd1fb612ef1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "harrat-mujtaba-u10",
+"at": "2026-10-10 15:46",
+"fixed": false
+},
+"p2": {
+"ar": "0b90ccb3f32e",
+"tr": "4822f2a47637",
+"en": "2cd1fb612ef1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "harrat-mujtaba-u3",
+"at": "2026-10-11 04:08",
+"fixed": false
+}
+},
+"harrat-mujtaba:17-17": {
+"p1": {
+"ar": "3533dad2283d",
+"tr": "e0e5a8994731",
+"en": "a982327e5f74",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "harrat-mujtaba-u10",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+},
+"harrat-mujtaba:19-19": {
+"p1": {
+"ar": "6e1f80fb6cf8",
+"tr": "c1ccc9808adc",
+"en": "c9afc6b3ab95",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "harrat-mujtaba-u10",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+},
+"harrat-mujtaba:20-20": {
+"p1": {
+"ar": "6a7e760e8fb8",
+"tr": "e64f5fb17cd2",
+"en": "3237ee6d2bc4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "harrat-mujtaba-u10",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+},
+"harrat-mujtaba:21-21": {
+"p1": {
+"ar": "7c6b69580a93",
+"tr": "af49f93c0ec2",
+"en": "6f151e370902",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "harrat-mujtaba-u10",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+},
+"harrat-mujtaba:23-23": {
+"p1": {
+"ar": "5ba9b7b32a11",
+"tr": "2692fc38df50",
+"en": "0bd646341218",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "harrat-mujtaba-u10",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+},
+"harrat-mujtaba:24-24": {
+"p1": {
+"ar": "36d140b4f5ca",
+"tr": "310092e31f54",
+"en": "1c384ff9e745",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "harrat-mujtaba-u10",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+},
+"harrat-mujtaba:25-25": {
+"p1": {
+"ar": "d4a3028d464f",
+"tr": "610b39fd2135",
+"en": "bf1227e3a9fe",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "harrat-mujtaba-u10",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+},
+"harrat-mujtaba:26-26": {
+"p1": {
+"ar": "87bb12365586",
+"tr": "862abdb57281",
+"en": "412c34646c45",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "harrat-mujtaba-u10",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+},
+"harrat-mujtaba:27-27": {
+"p1": {
+"ar": "a8bea07c6636",
+"tr": "49cc99628d62",
+"en": "1498aa543841",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "harrat-mujtaba-u10",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+},
+"harrat-mujtaba:28-28": {
+"p1": {
+"ar": "e29b8cc8d093",
+"tr": "55a2f21385b7",
+"en": "860d90308ff7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "harrat-mujtaba-u10",
+"at": "2026-10-10 15:46",
+"fixed": false
+},
+"p2": {
+"ar": "e29b8cc8d093",
+"tr": "55a2f21385b7",
+"en": "860d90308ff7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "harrat-mujtaba-u3",
+"at": "2026-10-11 04:08",
+"fixed": false
+}
+},
+"harrat-mujtaba:29-29": {
+"p1": {
+"ar": "a0e327a92cd3",
+"tr": "693f186ab148",
+"en": "8fc41de778d3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "harrat-mujtaba-u10",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+},
+"harrat-mujtaba:30-30": {
+"p1": {
+"ar": "0082f0d0641b",
+"tr": "dafb0b1fc5d1",
+"en": "bd22328e5808",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "harrat-mujtaba-u10",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+},
+"harrat-mujtaba:31-31": {
+"p1": {
+"ar": "724995a76c0e",
+"tr": "897e0b7217d7",
+"en": "07796c1a29d6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "harrat-mujtaba-u10",
+"at": "2026-10-10 15:46",
+"fixed": false
+},
+"p2": {
+"ar": "724995a76c0e",
+"tr": "897e0b7217d7",
+"en": "07796c1a29d6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "harrat-mujtaba-u3",
+"at": "2026-10-11 04:08",
+"fixed": false
+}
+},
+"harrat-mujtaba:33-33": {
+"p1": {
+"ar": "acd4f9056e4a",
+"tr": "ae0a4c1cdaab",
+"en": "f64422d6d0cc",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "harrat-mujtaba-u10",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+},
+"harrat-mujtaba:34-34": {
+"p1": {
+"ar": "41de1bf50344",
+"tr": "dde3c1199594",
+"en": "82a1d0f124ba",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "harrat-mujtaba-u10",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+},
+"harrat-mujtaba:35-35": {
+"p1": {
+"ar": "a9414c8576c3",
+"tr": "8669ed9a940b",
+"en": "11de725ab5da",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "harrat-mujtaba-u10",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+},
+"harrat-mujtaba:36-36": {
+"p1": {
+"ar": "502d2c3f6d5f",
+"tr": "d3c7a1200ad7",
+"en": "cb587b52d898",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "harrat-mujtaba-u10",
+"at": "2026-10-10 15:46",
+"fixed": false
+},
+"p2": {
+"ar": "502d2c3f6d5f",
+"tr": "d3c7a1200ad7",
+"en": "cb587b52d898",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "harrat-mujtaba-u3",
+"at": "2026-10-11 04:08",
+"fixed": false
+}
+}
+}

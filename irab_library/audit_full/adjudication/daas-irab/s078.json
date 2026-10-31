@@ -1,0 +1,27 @@
+{
+"daas-irab:40-40": {
+"hs": [
+"96b8b31cc9fc",
+"2fa8000678d2",
+"33bf7850cfdb"
+],
+"dims": {
+"fit": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Entry parses «ِنَّا», «نْذَرْناكُمْ», «ذاباً», «رِيباً», «وْمَ», ﴿يَنْظُرُ﴾, «لْمَرْءُ», «دَّمَتْ يَداهُ», «يَقُولُ الْكافِرُ», «يْتَنِي», «نْتُ», «راباً» = all of 78:40, where it is filed. Garbling is limited to brackets/first letters; the analysis is legible, fully translated, restoration marked in notes.",
+"at": "2026-10-17 00:40"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Entry parses 78:40 only: ِنَّا, نْذَرْناكُمْ, ذاباً, رِيباً, وْمَ, ﴿يَنْظُرُ﴾, لْمَرْءُ, ا (ما), دَّمَتْ يَداهُ, يَقُولُ الْكافِرُ, ا (يا), يْتَنِي, نْتُ, راباً. Garbled markup but the words and analysis are complete and identifiable, so it is correctly filed under 40-40 and not a nothing-to-place source defect. (Side note outside this dimension: EN adds unmarked '(one of inna and its sisters)' after حرف مشبه بالفعل.)",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

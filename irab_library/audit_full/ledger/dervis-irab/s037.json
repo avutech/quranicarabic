@@ -1,0 +1,310 @@
+{
+"dervis-irab:11-19": {
+"p1": {
+"ar": "a66efba00235",
+"tr": "bf2db06d6598",
+"en": "41eb4a43afca",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u2",
+"at": "2026-10-17 00:21",
+"fixed": false
+},
+"p2": {
+"ar": "a66efba00235",
+"tr": "bf2db06d6598",
+"en": "41eb4a43afca",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR: unmarked addition \"(bu büyük yaratıklar)\" in the faṣīḥa-fāʾ sentence (\"بين المعاد وهو الأجزاء الأصلية\") moved into a marked translator note.",
+"by": "dervis-irab-p2-u4",
+"at": "2026-10-17 00:03",
+"fixed": true
+}
+},
+"dervis-irab:20-26": {
+"p1": {
+"ar": "15364d44d04d",
+"tr": "d8267ac9a2e0",
+"en": "52815d2d4922",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u88",
+"at": "2026-10-10 19:41",
+"fixed": false
+}
+},
+"dervis-irab:27-34": {
+"p1": {
+"ar": "868bd3330c2b",
+"tr": "d869fe541ed2",
+"en": "5b0817b0b6ef",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u88",
+"at": "2026-10-10 19:41",
+"fixed": false
+}
+},
+"dervis-irab:35-49": {
+"p1": {
+"ar": "a6110f98d3fa",
+"tr": "61b87cbc0f2d",
+"en": "04171ccffd6e",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish had the clause «الطرف» muzâfun ileyhtir; duplicated in the قاصرات الطرف i3rab (source says it once); duplicate removed.",
+"by": "dervis-irab-p1-u3",
+"at": "2026-10-17 00:16",
+"fixed": true
+},
+"p2": {
+"ar": "a6110f98d3fa",
+"tr": "61b87cbc0f2d",
+"en": "04171ccffd6e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u3",
+"at": "2026-10-17 00:30",
+"fixed": false
+}
+},
+"dervis-irab:50-61": {
+"p1": {
+"ar": "1f3113e920fc",
+"tr": "8b5d1c2bcbc2",
+"en": "0e5ba9f55195",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u3",
+"at": "2026-10-17 00:16",
+"fixed": false
+},
+"p2": {
+"ar": "1f3113e920fc",
+"tr": "8b5d1c2bcbc2",
+"en": "0e5ba9f55195",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN: \"قال فعل ماض ناقص\" rendered \"قال is a past verb\", silently dropping \"ناقص\"; restored as written with a translator note.",
+"by": "dervis-irab-p2-u4",
+"at": "2026-10-17 00:03",
+"fixed": true
+}
+},
+"dervis-irab:114-122": {
+"p1": {
+"ar": "f4ff8a736261",
+"tr": "a13e66f5f148",
+"en": "748a9ceb548c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u88",
+"at": "2026-10-10 19:43",
+"fixed": false
+}
+},
+"dervis-irab:123-132": {
+"p1": {
+"ar": "d81424ea0909",
+"tr": "36e73e340663",
+"en": "8b3e84512109",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u88",
+"at": "2026-10-10 19:43",
+"fixed": false
+}
+},
+"dervis-irab:133-138": {
+"p1": {
+"ar": "9cca44a46fab",
+"tr": "0553dcdc9dff",
+"en": "71d9b5923eb6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u88",
+"at": "2026-10-10 19:43",
+"fixed": false
+}
+},
+"dervis-irab:1-10": {
+"p1": {
+"ar": "528d6537d166",
+"tr": "950c2db90555",
+"en": "ae8127c35e0d",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Turkish: Ibn al-Rumi verse \"ما أنسى لا أنسى\" was glossed \"Unutsam da unutamam\" (even if I forget), fixed to \"Unutmam, asla unutmam\". English: \"تشعث الإصبع\" was rendered \"a swelling (disarray)\", now \"the disarray of the finger\". Not verifiable by me: gloss of Muzarrid verse \"تشاخت إبهاماك\" (Turkish \"kurusun\" vs English \"gush blood\" disagree).",
+"by": "dervis-irab-p1-u2",
+"at": "2026-10-17 00:20",
+"fixed": true
+},
+"p2": {
+"ar": "528d6537d166",
+"tr": "950c2db90555",
+"en": "ae8127c35e0d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u3",
+"at": "2026-10-17 00:30",
+"fixed": false
+}
+},
+"dervis-irab:139-156": {
+"p1": {
+"ar": "f23ad1826271",
+"tr": "48b2b9a787b9",
+"en": "25bd0ebc639a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u88",
+"at": "2026-10-10 19:43",
+"fixed": false
+}
+},
+"dervis-irab:157-164": {
+"p1": {
+"ar": "05f16a83971e",
+"tr": "da36c3885007",
+"en": "3cf376ea8afa",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u88",
+"at": "2026-10-10 19:43",
+"fixed": false
+}
+},
+"dervis-irab:165-173": {
+"p1": {
+"ar": "53fb2968238b",
+"tr": "2155dc11e05e",
+"en": "d492410decdc",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u88",
+"at": "2026-10-10 19:43",
+"fixed": false
+}
+},
+"dervis-irab:174-182": {
+"p1": {
+"ar": "dc78d3cab22c",
+"tr": "feddfb864275",
+"en": "8fc9fce551d6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u88",
+"at": "2026-10-10 19:43",
+"fixed": false
+}
+},
+"dervis-irab:62-74": {
+"p1": {
+"ar": "b1a98f771740",
+"tr": "1c27f83d03ba",
+"en": "d48419bfbf53",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR: removed unmarked attribution \"(İbn Reşîk)\" after «إلى أن يقول» where the Arabic names no subject.",
+"by": "dervis-irab-p1-u15",
+"at": "2026-10-17 00:59",
+"fixed": true
+},
+"p2": {
+"ar": "b1a98f771740",
+"tr": "1c27f83d03ba",
+"en": "d48419bfbf53",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u11",
+"at": "2026-10-17 01:08",
+"fixed": false
+}
+},
+"dervis-irab:75-82": {
+"p1": {
+"ar": "25a48f715506",
+"tr": "96c764da780b",
+"en": "b1a41268edde",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN silently corrected source typo القسين to two oaths; added translator note.",
+"by": "dervis-irab-u88",
+"at": "2026-10-10 19:44",
+"fixed": true
+},
+"p2": {
+"ar": "25a48f715506",
+"tr": "96c764da780b",
+"en": "b1a41268edde",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u4",
+"at": "2026-10-17 00:04",
+"fixed": false
+}
+},
+"dervis-irab:83-113": {
+"p1": {
+"ar": "e72506b669bb",
+"tr": "33b5afed04b1",
+"en": "2f44bd3b05b9",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English omitted the phrase «وأشاعت به» after «أشاعت الناقة بولها» in the شيعته vocabulary list; added.",
+"by": "dervis-irab-p1-u3",
+"at": "2026-10-17 00:18",
+"fixed": true
+},
+"p2": {
+"ar": "e72506b669bb",
+"tr": "33b5afed04b1",
+"en": "2f44bd3b05b9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u4",
+"at": "2026-10-17 00:30",
+"fixed": false
+}
+}
+}

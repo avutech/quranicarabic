@@ -1,0 +1,82 @@
+{
+"semin-durr:81-81": {
+"hs": [
+"fdcee48f4354",
+"b4bba0ab461e",
+"0c5c5befbc53"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "After «أي: ويدُها» TR writes 'Yani “ve eli” (de kastedilmiştir; ikinci kısım hazfedilmiştir)': the parenthetical is not in the Arabic and is not inside [Mütercim notu: …] = unmarked addition. Also the poem gloss adds 'devenin' (Arabic only رِجْلُها 'her foot'). Additionally «قوله: {تَقِيكُمُ الحر}» and «قوله: {كَذَلِكَ يُتِمُّ}» are rendered 'Yazarın … sözü' (the author's saying), whereas قوله here introduces the Quranic words (Allah's saying), as EN 'His words' correctly has.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "After «أي: ويدُها» TR writes 'Yani “ve eli” (de kastedilmiştir; ikinci kısım hazfedilmiştir)' - the parenthetical is not in the Arabic and is unmarked (needs Mütercim notu). Also «قوله: {تَقِيكُمُ الحر}» and «قوله: {كَذَلِكَ يُتِمُّ}» are rendered 'Yazarın ... sözü' (the author's saying), wrongly attributing Quranic words to the author; should be Allah's saying.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved unmarked '(de kastedilmiştir; ikinci kısım hazfedilmiştir)' and '(itiraz edilebilir)' into Mütercim notu; removed unmarked '(korur)'; removed added 'devenin'/'çubuklar' from poem gloss; 'Yazarın … sözü' -> 'Allah Teâlâ'nın … sözü' for قوله",
+"verified": "PASS",
+"verify_note": "Ve eli gloss in a Mütercim notu, poem gloss without 'devenin', both qawluhu attributed to Allah; TR matches Arabic sentence by sentence."
+}
+},
+"history": [
+{
+"old_hs": [
+"fdcee48f4354",
+"485bc02c5e84",
+"0c5c5befbc53"
+],
+"dim": "tr",
+"what": "Moved unmarked '(de kastedilmiştir; ikinci kısım hazfedilmiştir)' and '(itiraz edilebilir)' into Mütercim notu; removed unmarked '(korur)'; removed added 'devenin'/'çubuklar' from poem gloss; 'Yazarın … sözü' -> 'Allah Teâlâ'nın … sözü' for قوله",
+"at": "2026-10-17 00:44"
+}
+]
+},
+"semin-durr:84-84": {
+"hs": [
+"1889daf60259",
+"6236d07746ec",
+"df2fb35a0585"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "1) The [Mütercim notu] says «ينكرونها» is in the first vecih ('İlk vecihte'), but in the Arabic it is in the fourth: «الرابع: ... أي: ينكرونها اليومَ ويوم نَبْعَثُ»; the note is factually wrong. 2) «يُمَنَّوْن بعد شهادةِ الأنبياء بما هو أَطَمُّ منه» means they are afflicted/stricken with something more calamitous (مُنِيَ بكذا); TR 'onlara ondan daha büyük bir şey verilir' (they are given something greater) distorts the meaning. 3) «قوله: {ثُمَّ لاَ يُؤْذَنُ}» / «قوله: {وَلاَ هُمْ يُسْتَعْتَبُونَ}» rendered 'Yazarın … sözü' (the author's saying) though they are Quranic words.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "TR's Mütercim notu says «ينكرونها» is in the 'İlk vecih', but in the Arabic it is in the fourth view (الرابع: ... أي: ينكرونها اليومَ ويوم نَبْعَثُ) - the note is factually wrong. «يُمَنَّوْن ... بما هو أَطَمُّ» means they are afflicted with something graver; TR 'onlara ondan daha büyük bir şey verilir' (they are given something greater) misleads. Also «قوله: {ثُمَّ لاَ يُؤْذَنُ}» / {وَلاَ هُمْ يُسْتَعْتَبُونَ} rendered 'Yazarın ... sözü', attributing Quran to the author.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Mütercim notu corrected (ينكرونها is in the fourth vecih, not the first); يُمَنَّوْن بما هو أطمّ rendered 'ondan daha ağır bir şeye uğratılırlar'; 'Yazarın … sözü' -> 'Allah Teâlâ'nın … sözü' for both قوله; added omitted 'Denir ki' for يقال",
+"verified": "PASS",
+"verify_note": "Note now correctly says fourth view; yumannawna rendered 'uğratılırlar' (afflicted); qawluhu attributed to Allah. Complete and faithful, nothing unmarked added."
+}
+},
+"history": [
+{
+"old_hs": [
+"1889daf60259",
+"4fc9dacfc513",
+"df2fb35a0585"
+],
+"dim": "tr",
+"what": "Mütercim notu corrected (ينكرونها is in the fourth vecih, not the first); يُمَنَّوْن بما هو أطمّ rendered 'ondan daha ağır bir şeye uğratılırlar'; 'Yazarın … sözü' -> 'Allah Teâlâ'nın … sözü' for both قوله; added omitted 'Denir ki' for يقال",
+"at": "2026-10-17 00:44"
+}
+]
+}
+}

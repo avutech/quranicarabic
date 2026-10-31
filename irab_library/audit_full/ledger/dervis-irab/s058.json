@@ -1,0 +1,134 @@
+{
+"dervis-irab:11-13": {
+"p1": {
+"ar": "2ed3cc222cb7",
+"tr": "2a2fc96585fd",
+"en": "57644890d08f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u4",
+"at": "2026-10-17 00:18",
+"fixed": false
+},
+"p2": {
+"ar": "2ed3cc222cb7",
+"tr": "2a2fc96585fd",
+"en": "57644890d08f",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "EN altered the al-Asas quote «وأما لك في هذا المكان منفسح» to a statement and mistranslated «وأنشأت أي نهضت»; EN also inserted Arabic words into quotations and changed «نشيئا»/«الثواب» in the quoted Arabic (now as written with notes). TR had unmarked glosses «yani ölümüne savaştılar» and «(son durumda)», removed.",
+"by": "dervis-irab-p2-u6",
+"at": "2026-10-17 00:04",
+"fixed": true
+}
+},
+"dervis-irab:14-17": {
+"p1": {
+"ar": "555b276779cb",
+"tr": "9266c8a10343",
+"en": "cde9d2224f46",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u93",
+"at": "2026-10-10 19:44",
+"fixed": false
+}
+},
+"dervis-irab:18-22": {
+"p1": {
+"ar": "abe0f7f01e8a",
+"tr": "a262d39fc2fe",
+"en": "47a52059fe9e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u4",
+"at": "2026-10-17 00:18",
+"fixed": false
+},
+"p2": {
+"ar": "abe0f7f01e8a",
+"tr": "a262d39fc2fe",
+"en": "47a52059fe9e",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR expanded al-Zamakhshari quote «قوما مؤمنين» to «Allah’a ve âhiret gününe inanan bir kavim»; fixed to «mü’min bir kavim».",
+"by": "dervis-irab-p2-u6",
+"at": "2026-10-17 00:04",
+"fixed": true
+}
+},
+"dervis-irab:1-4": {
+"p1": {
+"ar": "f8b0aceb1711",
+"tr": "62fa4851bf92",
+"en": "9f6551c87168",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u4",
+"at": "2026-10-17 00:17",
+"fixed": false
+},
+"p2": {
+"ar": "f8b0aceb1711",
+"tr": "62fa4851bf92",
+"en": "9f6551c87168",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN had unmarked addition «[which operates like «ليس»]» after «ما نافية حجازية» (and a stray «[Then]»); removed.",
+"by": "dervis-irab-p2-u6",
+"at": "2026-10-17 00:02",
+"fixed": true
+}
+},
+"dervis-irab:5-7": {
+"p1": {
+"ar": "cc569ef2ec02",
+"tr": "7a015024d8d6",
+"en": "3b1ed9ab5fc6",
+"fit": "OK",
+"trv": "OK",
+"env": "UNSURE",
+"note": "English is complete and faithful, but the Translator note after \"to a seventh?\" asserts that the following wording matches Ibn Abi al-Isba in Tahrir al-Tahbir; I cannot verify this attribution from the Arabic (which names no one there), so the note is an unverified claim.",
+"by": "dervis-irab-p1-u4",
+"at": "2026-10-17 00:18",
+"fixed": false
+},
+"p2": {
+"ar": "cc569ef2ec02",
+"tr": "7a015024d8d6",
+"en": "3b1ed9ab5fc6",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR reversed the fourth question: «ولا يهمل هذا العدد» rendered as «bu sayıyı neden ihmal etmedi» (why did He not neglect); fixed to why He neglected it. Both silently corrected «فلم كان ... ألفيت» (added «not») and «وضعه»; notes added. EN: «لم يتجاوز بها» rendered «beyond six», fixed; unmarked bracket glosses removed; «ساسدهم» misprint noted.",
+"by": "dervis-irab-p2-u6",
+"at": "2026-10-17 00:03",
+"fixed": true
+}
+},
+"dervis-irab:8-10": {
+"p1": {
+"ar": "48010b57f335",
+"tr": "86595528c3bc",
+"en": "b52faec2b486",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u2",
+"at": "2026-10-11 01:39",
+"fixed": false
+}
+}
+}

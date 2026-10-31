@@ -1,0 +1,28 @@
+{
+"dervis-irab:1-20": {
+"p1": {
+"ar": "21b00dc70d36",
+"tr": "a3dbfa37b441",
+"en": "214decc535d4",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR: unmarked \"(kanı)\" added and \"تعقبه\" omitted before Samin; EN: unmarked \"[other]\" before father Ismail, silent correction of ويحب to obligatory (note added), \"ranking\" added to tarshih, تعقبه rendered as \"followed him\" (ambiguous)",
+"by": "dervis-irab-p1-u5",
+"at": "2026-10-17 00:19",
+"fixed": true
+},
+"p2": {
+"ar": "21b00dc70d36",
+"tr": "a3dbfa37b441",
+"en": "214decc535d4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u7",
+"at": "2026-10-17 00:31",
+"fixed": false
+}
+}
+}

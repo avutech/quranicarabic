@@ -1,0 +1,29 @@
+{
+"ukberi-tibyan:66-67": {
+"hs": [
+"12cf2e6e2d30",
+"dbf414414ae2",
+"d2d78315e397"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "MISPLACED",
+"evidence": "Entry covers 66-67 (عَلَى أَعْقَابِكُمْ, مُسْتَكْبِرِينَ بِهِ, سَامِرًا, تَهْجُرُونَ) and then a separate block quoting 23:72 (أَمْ تَسْأَلُهُمْ خَرْجًا فَخَرَاجُ رَبِّكَ خَيْرٌ ... (٧٢)) with its own parsing (خَرْجًا read with/without alif; الْخَرْجُ الْأُجْرَةُ وَالْخَرَاجُ ...). Surah 23 has no 72 entry (next is 74). Ayahs 68-71 are not discussed, but a contiguous range must reach 72.",
+"at": "2026-10-17 00:40",
+"ayahs": "66-72"
+},
+"J2": {
+"class": "MISPLACED",
+"evidence": "Besides 66-67 (عَلَى أَعْقَابِكُمْ, مُسْتَكْبِرِينَ بِهِ, سَامِرًا, تَهْجُرُونَ), the entry contains a separate block for 23:72: قَالَ تَعَالَى: (أَمْ تَسْأَلُهُمْ خَرْجًا فَخَرَاجُ رَبِّكَ خَيْرٌ ... (٧٢)) with comments on خَرْجًا / خَرَاج. A contiguous range must reach 72. Ayahs 68-71 are not discussed, so splitting the entry would be better if possible.",
+"at": "2026-10-17 00:40",
+"ayahs": "66-72"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+}
+}

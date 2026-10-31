@@ -1,0 +1,112 @@
+{
+"farraa:26-26": {
+"p1": {
+"ar": "cfd208fece2a",
+"tr": "eb6902c76c1e",
+"en": "5399f2d86584",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:48",
+"fixed": false
+}
+},
+"farraa:28-28": {
+"p1": {
+"ar": "97143bb17dde",
+"tr": "29b589680c36",
+"en": "ba4fb0b30d6f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:48",
+"fixed": false
+}
+},
+"farraa:37-37": {
+"p1": {
+"ar": "2b315b360fd5",
+"tr": "970393f1d4db",
+"en": "6ed0d80f3c10",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:48",
+"fixed": false
+}
+},
+"farraa:1-4": {
+"p1": {
+"ar": "67b3e3c86960",
+"tr": "c84ac5711245",
+"en": "5d73bb41027b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u21",
+"at": "2026-10-10 15:53",
+"fixed": false
+},
+"p2": {
+"ar": "67b3e3c86960",
+"tr": "c84ac5711245",
+"en": "5d73bb41027b",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "Arabic entry ends with \"وقوله: ﴿ثَجَّاجاً﴾ كالعَزَالِى:\", which belongs to 78:14 and is cut off in the source; both readings translate what is written.",
+"by": "farraa-p2-u4",
+"at": "2026-10-16 18:52",
+"fixed": false
+}
+},
+"farraa:19-19": {
+"p1": {
+"ar": "a786fa6cdb87",
+"tr": "92b04c4172d7",
+"en": "95a75290089d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u21",
+"at": "2026-10-10 15:53",
+"fixed": false
+}
+},
+"farraa:23-23": {
+"p1": {
+"ar": "c19bfc6c0b47",
+"tr": "8d6a666e595d",
+"en": "49efee301b13",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u21",
+"at": "2026-10-10 15:53",
+"fixed": false
+}
+},
+"farraa:24-24": {
+"p1": {
+"ar": "ef2ba97cbdb7",
+"tr": "6e7ddcf79245",
+"en": "8fda0da5f471",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u21",
+"at": "2026-10-10 15:53",
+"fixed": false
+}
+}
+}

@@ -1,0 +1,424 @@
+{
+"dervis-irab:25-29": {
+"p1": {
+"ar": "8f34be270bed",
+"tr": "a595bd55d12d",
+"en": "f12afe84cf35",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR Belagat: the unmarked parenthetical \"(gizli değildir)\" after «ليس غير مضمر باتفاق» is not in the Arabic and is misleading; removed. Rest complete and faithful.",
+"by": "dervis-irab-p1-u10",
+"at": "2026-10-17 00:04",
+"fixed": true
+},
+"p2": {
+"ar": "8f34be270bed",
+"tr": "a595bd55d12d",
+"en": "f12afe84cf35",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u14",
+"at": "2026-10-17 00:15",
+"fixed": false
+}
+},
+"dervis-irab:30-33": {
+"p1": {
+"ar": "48303e934933",
+"tr": "c2121b3e0d09",
+"en": "f1e157603fdc",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u76",
+"at": "2026-10-10 19:36",
+"fixed": false
+}
+},
+"dervis-irab:34-41": {
+"p1": {
+"ar": "cf462a329e8f",
+"tr": "b72f78448503",
+"en": "abc69354fdc3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u76",
+"at": "2026-10-10 19:36",
+"fixed": false
+}
+},
+"dervis-irab:63-67": {
+"p1": {
+"ar": "9ee265690f50",
+"tr": "0c33dbbeb5e6",
+"en": "24578d4f29f9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u11",
+"at": "2026-10-17 00:03",
+"fixed": false
+},
+"p2": {
+"ar": "9ee265690f50",
+"tr": "0c33dbbeb5e6",
+"en": "24578d4f29f9",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN reversed the negation in al-Zajjaj: \"ما افترينا فكذبنا على هذا الملك\" was \"we have not fabricated, so we lied\"; fixed to \"we have not fabricated, and so lied\". Also put Abu Hayyan quotation end after the Ibn Jinni part (قلت belongs to him) and \"أن يلاقي\" rendered as time, not \"if\".",
+"by": "dervis-irab-p2-u28",
+"at": "2026-10-16 19:18",
+"fixed": true
+}
+},
+"dervis-irab:68-73": {
+"p1": {
+"ar": "789d79cae792",
+"tr": "2d65ff3607ac",
+"en": "52fb7950b00a",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN silently corrected source typos (بتثليت, وإلقاء, حبرها) and had a dangling \"what is measured with\"; added translator notes and fixed wording. Verse مزاله rendered \"shattered\" vs TR \"ayıran\" (tentative).",
+"by": "dervis-irab-p1-u11",
+"at": "2026-10-17 00:03",
+"fixed": true
+},
+"p2": {
+"ar": "789d79cae792",
+"tr": "2d65ff3607ac",
+"en": "52fb7950b00a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u14",
+"at": "2026-10-17 00:16",
+"fixed": false
+}
+},
+"dervis-irab:42-49": {
+"p1": {
+"ar": "df52e2e78374",
+"tr": "f42b6586cd3e",
+"en": "7538bf46e5a9",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR I'rab on وادكر: the text substituted «ادكر» for the written «وجملة نجا حالية» (translation said \"(«ادكر») cümlesi\"); now translates «نجا» as written with the note kept. Otherwise complete and faithful.",
+"by": "dervis-irab-p1-u10",
+"at": "2026-10-17 00:05",
+"fixed": true
+},
+"p2": {
+"ar": "df52e2e78374",
+"tr": "f42b6586cd3e",
+"en": "7538bf46e5a9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u14",
+"at": "2026-10-17 00:16",
+"fixed": false
+}
+},
+"dervis-irab:74-80": {
+"p1": {
+"ar": "1f70fdcf6ddb",
+"tr": "2e93dbd68f9b",
+"en": "785524161de2",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN lacked the marked translator note (present in TR) for the source reading «شيخا: ismuha, كبيرا sifa» where the verse has أبا as the subject of إن; added note.",
+"by": "dervis-irab-p1-u11",
+"at": "2026-10-17 00:03",
+"fixed": true
+},
+"p2": {
+"ar": "1f70fdcf6ddb",
+"tr": "2e93dbd68f9b",
+"en": "785524161de2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u14",
+"at": "2026-10-17 00:16",
+"fixed": false
+}
+},
+"dervis-irab:50-53": {
+"p1": {
+"ar": "fe02755aefff",
+"tr": "ee13fe1db5b5",
+"en": "7c8a67080b26",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u76",
+"at": "2026-10-10 19:37",
+"fixed": false
+},
+"p2": {
+"ar": "fe02755aefff",
+"tr": "ee13fe1db5b5",
+"en": "7c8a67080b26",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u28",
+"at": "2026-10-16 19:18",
+"fixed": false
+}
+},
+"dervis-irab:54-57": {
+"p1": {
+"ar": "7673e6161802",
+"tr": "d1d94a2b9e81",
+"en": "555c0b9c92e1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u76",
+"at": "2026-10-10 19:37",
+"fixed": false
+}
+},
+"dervis-irab:58-62": {
+"p1": {
+"ar": "cd2cf105eaac",
+"tr": "826215518f13",
+"en": "bba808ff9c44",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u76",
+"at": "2026-10-10 19:37",
+"fixed": false
+}
+},
+"dervis-irab:81-86": {
+"p1": {
+"ar": "9eecb1d4b4f6",
+"tr": "3db80e58c690",
+"en": "4975dd525ed1",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR: added unmarked gloss \"câmi-mâni (tard)\" for the Arabic وعلى طرده (tard = muttarid); corrected. EN: al-shurb glossed as plural of shārib but source says شروب; EN had inclusive/exclusive for طرد/عكس (wrong terms) and no note on the source logic slip; EN note on تكمني said only stray char (source word is misprint for تكلمني). All fixed.",
+"by": "dervis-irab-p1-u11",
+"at": "2026-10-17 00:04",
+"fixed": true
+},
+"p2": {
+"ar": "9eecb1d4b4f6",
+"tr": "3db80e58c690",
+"en": "4975dd525ed1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u14",
+"at": "2026-10-17 00:17",
+"fixed": false
+}
+},
+"dervis-irab:87-92": {
+"p1": {
+"ar": "d946acc9c1c1",
+"tr": "266ad4de3b7d",
+"en": "0b23d238f8ba",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR: بضاعة rendered \"sermaye\" (capital) for goods; changed to \"mal\". EN silently corrected two source typos (وحسن النار, من لثقيلة); added translator notes.",
+"by": "dervis-irab-p1-u11",
+"at": "2026-10-17 00:05",
+"fixed": true
+},
+"p2": {
+"ar": "d946acc9c1c1",
+"tr": "266ad4de3b7d",
+"en": "0b23d238f8ba",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u14",
+"at": "2026-10-17 00:17",
+"fixed": false
+}
+},
+"dervis-irab:102-107": {
+"p1": {
+"ar": "6c8a8110f208",
+"tr": "19f7f26e39e9",
+"en": "342205650c58",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR rendered صرد as \"sırdı (kuşu)\", which reads as the Turkish word for \"was a secret\"; replaced with «صرد» (örümcekkuşu).",
+"by": "dervis-irab-p1-u11",
+"at": "2026-10-17 00:06",
+"fixed": true
+},
+"p2": {
+"ar": "6c8a8110f208",
+"tr": "19f7f26e39e9",
+"en": "342205650c58",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u15",
+"at": "2026-10-17 00:16",
+"fixed": false
+}
+},
+"dervis-irab:93-101": {
+"p1": {
+"ar": "31523349a32b",
+"tr": "f59e76b5baa0",
+"en": "58e305f9689b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u76",
+"at": "2026-10-10 19:38",
+"fixed": false
+}
+},
+"dervis-irab:108-111": {
+"p1": {
+"ar": "e6488b28a5e9",
+"tr": "9ce10856db87",
+"en": "e693092c9abc",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN rendered «أخلفوا ما وعدوا به من النصر» as the messengers \"had been let down\", reversing who promised; aligned with the Turkish (messengers had broken what they promised) and added a note on the unvocalised وعدوا.",
+"by": "dervis-irab-p1-u11",
+"at": "2026-10-17 00:08",
+"fixed": true
+},
+"p2": {
+"ar": "e6488b28a5e9",
+"tr": "9ce10856db87",
+"en": "e693092c9abc",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u15",
+"at": "2026-10-17 00:17",
+"fixed": false
+}
+},
+"dervis-irab:1-6": {
+"p1": {
+"ar": "6279f77b7823",
+"tr": "9b7c968b3313",
+"en": "b064460f1bee",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN: القصص second sense is the pattern faʿal (فعلا), rendered as noun; Abu al-Ala verse middle omitted; hāʾ rendered as ـهم; Khulasa line loosely rendered; silent خمرا correction.",
+"by": "dervis-irab-u76",
+"at": "2026-10-10 19:40",
+"fixed": true
+},
+"p2": {
+"ar": "6279f77b7823",
+"tr": "9b7c968b3313",
+"en": "b064460f1bee",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u28",
+"at": "2026-10-16 19:18",
+"fixed": false
+}
+},
+"dervis-irab:7-14": {
+"p1": {
+"ar": "13c9b051f679",
+"tr": "cb6622bae7ba",
+"en": "588bd82f0b91",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u76",
+"at": "2026-10-10 19:40",
+"fixed": false
+}
+},
+"dervis-irab:15-20": {
+"p1": {
+"ar": "018ba1a46a85",
+"tr": "2405e9f45691",
+"en": "d65f574191f5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u10",
+"at": "2026-10-17 00:03",
+"fixed": false
+},
+"p2": {
+"ar": "018ba1a46a85",
+"tr": "2405e9f45691",
+"en": "d65f574191f5",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "Rhetoric: «قالوا للعقل المعقول وللجلد المجلود» was reversed in EN (said al-ʿaql for al-maʿqūl); corrected to al-maʿqūl said for al-ʿaql, al-majlūd for al-jalad.",
+"by": "dervis-irab-p2-u28",
+"at": "2026-10-16 19:19",
+"fixed": true
+}
+},
+"dervis-irab:21-24": {
+"p1": {
+"ar": "6b07477d2e21",
+"tr": "838555d77311",
+"en": "87c2b12e94a8",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR: in the murawada lexicon entry the bracketed \"[hakikatte bir taraftan]\" replaced the written «صادرة عن الجانبين» (now \"iki taraftan\", note kept); \"Celâl (Celâleyn)\" added an unmarked gloss to «الجلال» (removed). EN: Rhetoric quote «التي هي في بيتها» was silently given as «هو» (source has هي), now with translator note.",
+"by": "dervis-irab-p1-u10",
+"at": "2026-10-17 00:04",
+"fixed": true
+},
+"p2": {
+"ar": "6b07477d2e21",
+"tr": "838555d77311",
+"en": "87c2b12e94a8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u13",
+"at": "2026-10-17 00:18",
+"fixed": false
+}
+}
+}

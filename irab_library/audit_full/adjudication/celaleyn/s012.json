@@ -1,0 +1,43 @@
+{
+"celaleyn:20-20": {
+"hs": [
+"fe0647d94eb0",
+"59d487c8e6b9",
+"37280e5ec19a"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "«وَزَوْجَيْ نَعْلٍ»: زوج means one of a pair, so the dual زوجا نعل means two sandals, i.e. one pair; this is the standard sense (English Jalalayn translations also give 'a pair of sandals'). TR 'bir çift na'lin' is correct. The rest of TR (twenty or twenty-two; i.e. his brothers; twenty dinars and two garments) matches the Arabic.",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Arabic: بِعِشْرِينَ دِينَارًا وَزَوْجَيْ نَعْلٍ وَثَوْبَيْنِ. In classical Arabic زَوْج is each one of a pair (الفرد الذي له قرين), so زَوْجَا نَعْل = two matching sandals = one pair; TR 'bir çift na'lin' is a correct rendering, the reviewer's 'two pairs' is wrong. Rest of TR faithful (yirmi ya da yirmi iki, kardeşleri, Mısır'a getirdi...).",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+},
+"en": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "«وَزَوْجَيْ نَعْلٍ»: زوج is one item of a pair, so the dual means two sandals = one pair; EN 'a pair of sandals' is correct, and 'two pairs' would be the mistranslation. The rest of the EN (بَاعُوهُ مِنْهُمْ 'sold him to them', ناقص 'deficient', عشرين أو اثنين وعشرين, أي إخوته, بعشرين دينارا ... وثوبين) is complete and faithful.",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Arabic: وَزَوْجَيْ نَعْلٍ - زَوْج classically means one of a pair, so the dual زَوْجَا نَعْل = a pair of sandals; EN 'a pair of sandals' is correct, not 'two pairs'. Rest of EN complete: بَاعُوهُ مِنْهُمْ 'they sold him to them', نَاقِصٍ 'deficient', عِشْرِينَ أَوِ اثْنَيْنِ وَعِشْرِينَ, أَيْ إِخْوَتُهُ, the caravan/Egypt sentence.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

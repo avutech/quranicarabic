@@ -1,0 +1,118 @@
+{
+"semin-durr:15-15": {
+"hs": [
+"b858a50fbd15",
+"63485527e5af",
+"ee6600175d1e"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "HUMAN",
+"evidence": "Verse 4206 تقولُ وقد دَرَأْتُ لها وَضِيْني: lexicographers (Lisan) explain دَرَأْتُ الوضين as spreading/pushing the girth toward the camel to fasten it. TR 'ona doğru çevirdiğimde' (turned it toward her) is an approximation of دَرَأ لها; whether acceptable needs a scholar's lexical judgement. Rest of TR is faithful.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Verse 4206 «تقولُ وقد دَرَأْتُ لها وَضِيْني»: دَرَأَ الوضينَ (cf. Lisān al-ʿArab, citing this very verse of al-Muthaqqib) = to spread out / lay the girth (on the ground or her back) in order to fasten it, i.e. 'when I set/spread my girth for her'. TR «Kuşağımı ona doğru çevirdiğimde» ('turned toward her') does not render دَرَأْتُ; meaning is wrong and needs correction (e.g. 'kuşağımı onun için serip/yerleştirdiğimde').",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "HUMAN"
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Verse 4206 تقولُ وقد دَرَأْتُ لها وَضِيْني: دَرَأَ = pushed/thrust (lexically: spread the girth toward the camel to fasten it); EN 'when I loosened my girth for her' gives a meaning not supported by دَرَأْتُ. Also EN quotes the root example as «وضَنْتُ الشيءَ» while the source reads وضَّنْتُ الشيءَ (shadda dropped), altering the Arabic quoted.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Verse 4206 «تقولُ وقد دَرَأْتُ لها وَضِيْني»: دَرَأَ الوضينَ = to spread out/lay the girth in order to fasten it (Lisān al-ʿArab cites this verse), i.e. 'when I spread/set my girth for her'. EN 'when I loosened my girth for her' gives the opposite/wrong sense of دَرَأْتُ. Needs correction. (Also EN cites «وضَنْتُ» without the shadda the source has «وضَّنْتُ»; Arabic should be quoted as written.)",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Put the transliterated words back in Arabic script: 'Al-mawḍūna' -> «المَوْضونة», 'mawḍūna' -> «مَوْضونة», and Rāghib's 'Al-waḍn' -> «الوَضْنُ»; kept the earlier fixes (shadda in «وضَّنْتُ», 'spread out my girth' in 4206)",
+"verify_note": "Verse 4206 now 'spread out my girth' and «وضَّنْتُ» has the shadda (fixed). But the Quranic word «المَوْضونة» is transliterated in Latin letters ('Al-mawḍūna is the woven', 'was called mawḍūna') instead of staying in Arabic script.",
+"fix_failed": 1
+}
+},
+"history": [
+{
+"old_hs": [
+"b858a50fbd15",
+"63485527e5af",
+"bc19940324c0"
+],
+"dim": "en",
+"what": "Verse 4206: دَرَأْتُ rendered 'spread out (my girth)' instead of 'loosened', with a note; quoted Arabic restored to source form «وضَّنْتُ» (shadda); unmarked brackets [mail], [refer] put inside Translator's notes",
+"at": "2026-10-17 00:46"
+},
+{
+"old_hs": [
+"b858a50fbd15",
+"63485527e5af",
+"e322d11a304b"
+],
+"dim": "en",
+"what": "Verse 4206 دَرَأْتُ: 'loosened' -> 'spread out'; quoted Arabic corrected to «وضَّنْتُ» as in source; unmarked '[mail]' and '[refer]' moved into Translator's notes",
+"at": "2026-10-17 00:46"
+},
+{
+"old_hs": [
+"b858a50fbd15",
+"63485527e5af",
+"ee6600175d1e"
+],
+"dim": "en",
+"what": "Put the transliterated words back in Arabic script: 'Al-mawḍūna' -> «المَوْضونة», 'mawḍūna' -> «مَوْضونة», and Rāghib's 'Al-waḍn' -> «الوَضْنُ»; kept the earlier fixes (shadda in «وضَّنْتُ», 'spread out my girth' in 4206)",
+"at": "2026-10-17 00:50"
+}
+]
+},
+"semin-durr:44-44": {
+"hs": [
+"5e13d7525845",
+"653695477375",
+"3f8663315a68"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: وقرأ ابنُ أبي عبلة «لا باردٌ ولا كريمٌ» برفعهما أي: هو لا باردٌ. TR renders the name as 'İbn Ebî Ablete' (wrong form of ابن أبي عبلة, standard 'İbn Ebî Able'), and also expands أي: هو لا باردٌ into 'o ne serindir ne cömerttir', adding the unmarked 'ne cömerttir' not in the Arabic (EN correctly has only 'it is not cool').",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic «وقرأ ابنُ أبي عبلة»: the reader is Ibn Abī ʿAbla (عبلة). TR writes «İbn Ebî Ablete», adding a construct -te that does not belong to a name in this position; the established form, used about 102 times elsewhere in the TR files, is «İbn Ebî Able». A misspelled proper name of a qāriʾ; should be corrected to «İbn Ebî Able». Rest of the TR (two adjectives of ظل, يحموم, nominative reading, verse 4214) is accurate.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Name corrected to «İbn Ebî Able»; أي: هو لا باردٌ rendered as «o serin değildir» (unmarked addition 'ne cömerttir' removed)",
+"verified": "PASS",
+"verify_note": "The name is now «İbn Ebî Able» and the unmarked 'ne cömerttir' is gone ('o serin değildir' = هو لا باردٌ); the rest is faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"5e13d7525845",
+"df662573ed1e",
+"3f8663315a68"
+],
+"dim": "tr",
+"what": "Name corrected to «İbn Ebî Able»; أي: هو لا باردٌ rendered as «o serin değildir» (unmarked addition 'ne cömerttir' removed)",
+"at": "2026-10-17 00:46"
+}
+]
+}
+}

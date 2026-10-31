@@ -1,0 +1,11 @@
+{
+ "surah": 9,
+ "chunk": "71-129",
+ "verdicts": {
+  "OK": 114,
+  "TRANSLATION_FIXED": 1,
+  "GAP": 9
+ },
+ "summary": "All 10 high/medium findings OK (NEAR hits are legitimate multi-ayah entries of zajjaj covering 86/93, 108, 123, and cross-references); 22 low XREF/UNFOUND OK (normalisation artefacts, real cross-refs); SEM sample of all 14 books OK; one EN fix celaleyn:106 (stray inline note); 9 GAP verdicts recorded; no source misplacements found.",
+ "at": "2026-10-10 15:00"
+}

@@ -1,0 +1,314 @@
+{
+"dervis-irab:1-6": {
+"p1": {
+"ar": "d34b86660897",
+"tr": "130f35d2761a",
+"en": "2e3fa41789a0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u85",
+"at": "2026-10-10 19:38",
+"fixed": false
+}
+},
+"dervis-irab:7-13": {
+"p1": {
+"ar": "d0690fa9f36f",
+"tr": "60fb04390575",
+"en": "c254cd6b0228",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u85",
+"at": "2026-10-10 19:38",
+"fixed": false
+}
+},
+"dervis-irab:14-17": {
+"p1": {
+"ar": "81c984aef3d2",
+"tr": "a4cc047acab4",
+"en": "a5c59576de6a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u85",
+"at": "2026-10-10 19:39",
+"fixed": false
+}
+},
+"dervis-irab:18-21": {
+"p1": {
+"ar": "d4f6080f2383",
+"tr": "eee60b2eba38",
+"en": "73233a6acc9b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u85",
+"at": "2026-10-10 19:39",
+"fixed": false
+},
+"p2": {
+"ar": "d4f6080f2383",
+"tr": "eee60b2eba38",
+"en": "73233a6acc9b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u3",
+"at": "2026-10-17 00:02",
+"fixed": false
+}
+},
+"dervis-irab:22-25": {
+"p1": {
+"ar": "bea7930ad885",
+"tr": "b79929e89ea0",
+"en": "b95bfbe0b6f1",
+"fit": "OK",
+"trv": "UNSURE",
+"env": "UNSURE",
+"note": "Umar b. Abi Rabi a verse \"اقبلت مشية الحباب\": Turkish glosses al-hubab as water bubbles (suyun kabarcikları), English as a gliding serpent; the two readings disagree and I cannot verify which is right (the source gives no gloss). Everything else checked and faithful.",
+"by": "dervis-irab-u85",
+"at": "2026-10-10 19:39",
+"fixed": false
+},
+"p2": {
+"ar": "bea7930ad885",
+"tr": "b79929e89ea0",
+"en": "b95bfbe0b6f1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u33",
+"at": "2026-10-16 19:28",
+"fixed": false
+}
+},
+"dervis-irab:57-60": {
+"p1": {
+"ar": "ddbfc32000e1",
+"tr": "f0d617e984bb",
+"en": "e378145cf236",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u85",
+"at": "2026-10-10 19:41",
+"fixed": false
+}
+},
+"dervis-irab:61-64": {
+"p1": {
+"ar": "4e6ad43383e3",
+"tr": "9a9dae1e154a",
+"en": "79cab7820d36",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u85",
+"at": "2026-10-10 19:41",
+"fixed": false
+}
+},
+"dervis-irab:26-28": {
+"p1": {
+"ar": "38d31afbc271",
+"tr": "eae1d021abc3",
+"en": "5d8b18602454",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u85",
+"at": "2026-10-10 19:41",
+"fixed": false
+}
+},
+"dervis-irab:65-70": {
+"p1": {
+"ar": "6558ee48ecfe",
+"tr": "a67644d92d40",
+"en": "1146535c2695",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u85",
+"at": "2026-10-10 19:41",
+"fixed": false
+}
+},
+"dervis-irab:71-75": {
+"p1": {
+"ar": "82a35fb7d777",
+"tr": "1e2473eedadb",
+"en": "659a4e3abc71",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u85",
+"at": "2026-10-10 19:41",
+"fixed": false
+}
+},
+"dervis-irab:76-82": {
+"p1": {
+"ar": "266ff457a269",
+"tr": "549534c88ab9",
+"en": "5cd68cee8c5c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u85",
+"at": "2026-10-10 19:41",
+"fixed": false
+}
+},
+"dervis-irab:29-32": {
+"p1": {
+"ar": "8d99e9ab9f23",
+"tr": "5780251d47bb",
+"en": "f41178b83d02",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u85",
+"at": "2026-10-10 19:41",
+"fixed": false
+}
+},
+"dervis-irab:33-37": {
+"p1": {
+"ar": "393d3bd4bd01",
+"tr": "02b45d7c994e",
+"en": "3a0e9244ca25",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR: removed unmarked addition (Hafâcî) after الشهاب (the Arabic gives only al-Shihab). Everything else complete and faithful in both languages.",
+"by": "dervis-irab-p1-u14",
+"at": "2026-10-17 00:09",
+"fixed": true
+},
+"p2": {
+"ar": "393d3bd4bd01",
+"tr": "02b45d7c994e",
+"en": "3a0e9244ca25",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u19",
+"at": "2026-10-17 00:18",
+"fixed": false
+}
+},
+"dervis-irab:83-88": {
+"p1": {
+"ar": "39eecaa79935",
+"tr": "cc482568e9fc",
+"en": "b89d98b383fe",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u85",
+"at": "2026-10-10 19:41",
+"fixed": false
+}
+},
+"dervis-irab:38-42": {
+"p1": {
+"ar": "9b44a711f43a",
+"tr": "4d623fca90e6",
+"en": "a98e91444cd0",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR: three unmarked glosses removed (\"(O nu gormek uzere yukselmeyi)\", \"(Allaha)\", \"(sarap meclisi icin)\").",
+"by": "dervis-irab-p1-u2",
+"at": "2026-10-17 00:20",
+"fixed": true
+},
+"p2": {
+"ar": "9b44a711f43a",
+"tr": "4d623fca90e6",
+"en": "a98e91444cd0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u2",
+"at": "2026-10-17 00:29",
+"fixed": false
+}
+},
+"dervis-irab:43-46": {
+"p1": {
+"ar": "6f891f950c72",
+"tr": "e5ee05877061",
+"en": "b642bbf4a339",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR reversed the pun in the second Maarri verse (jamal/jimal swapped: Arabic has zakat from jimal for others, zakat of jamal for the wayfarer); also silently read ببنيها as ببينها without a note. Both corrected.",
+"by": "dervis-irab-u85",
+"at": "2026-10-10 19:42",
+"fixed": true
+},
+"p2": {
+"ar": "6f891f950c72",
+"tr": "e5ee05877061",
+"en": "b642bbf4a339",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u33",
+"at": "2026-10-16 19:21",
+"fixed": false
+}
+},
+"dervis-irab:47-50": {
+"p1": {
+"ar": "08bf8c5ab7fa",
+"tr": "aeaa618c3e0d",
+"en": "8b732a68f8b8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u85",
+"at": "2026-10-10 19:43",
+"fixed": false
+}
+},
+"dervis-irab:51-56": {
+"p1": {
+"ar": "c070158fc180",
+"tr": "4fa891041757",
+"en": "424ee0a2f4ee",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u85",
+"at": "2026-10-10 19:43",
+"fixed": false
+}
+}
+}

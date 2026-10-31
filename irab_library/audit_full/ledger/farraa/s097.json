@@ -1,0 +1,56 @@
+{
+"farraa:2-2": {
+"p1": {
+"ar": "699a9845b5c5",
+"tr": "8cf392972b89",
+"en": "d50a0d5e3492",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:49",
+"fixed": false
+}
+},
+"farraa:3-3": {
+"p1": {
+"ar": "c62b98574fc3",
+"tr": "9418281caac2",
+"en": "17e6bcf35835",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:49",
+"fixed": false
+}
+},
+"farraa:4-4": {
+"p1": {
+"ar": "b220e1f80d26",
+"tr": "d9fbb282606c",
+"en": "a883a96c2a70",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN had an unmarked gloss [i.e. \"from every man: peace\"]; wrapped in Translator note.",
+"by": "farraa-u22",
+"at": "2026-10-10 15:49",
+"fixed": true
+},
+"p2": {
+"ar": "b220e1f80d26",
+"tr": "d9fbb282606c",
+"en": "a883a96c2a70",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p2-u4",
+"at": "2026-10-16 19:06",
+"fixed": false
+}
+}
+}

@@ -1,0 +1,316 @@
+{
+"mekki-muskil:1-1": {
+"p1": {
+"ar": "571ec84e0bf3",
+"tr": "6ed83e2ced5a",
+"en": "d18cc888860b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"mekki-muskil:5-5": {
+"p1": {
+"ar": "4c1d60f335e1",
+"tr": "d12ebce93db4",
+"en": "7b861863af5f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+},
+"mekki-muskil:7-7": {
+"p1": {
+"ar": "1841b27c56ea",
+"tr": "a0b200ccb523",
+"en": "e9a4cc0af62e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"mekki-muskil:15-15": {
+"p1": {
+"ar": "ff10828d3e6f",
+"tr": "85cad067b2a3",
+"en": "7aacc64d2cc7",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "paragraphs لا بشرى يومئذ (ayah 22) and الملك يومئذ الحق للرحمن (ayah 26) belong to other ayahs; TR has note",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:45",
+"fixed": false
+},
+"p2": {
+"ar": "ff10828d3e6f",
+"tr": "85cad067b2a3",
+"en": "7aacc64d2cc7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u2",
+"at": "2026-10-11 04:07",
+"fixed": false
+}
+},
+"mekki-muskil:22-22": {
+"p1": {
+"ar": "2c3907965c3a",
+"tr": "e5212caf5291",
+"en": "fa8655c1d865",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "الملك الحق للرحمن sentence belongs to ayah 26; TR has note",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:45",
+"fixed": false
+},
+"p2": {
+"ar": "2c3907965c3a",
+"tr": "e5212caf5291",
+"en": "fa8655c1d865",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u2",
+"at": "2026-10-11 04:07",
+"fixed": false
+}
+},
+"mekki-muskil:37-37": {
+"p1": {
+"ar": "0ecf45ba7ce0",
+"tr": "7e1cf88b9294",
+"en": "d1db21036271",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"mekki-muskil:38-38": {
+"p1": {
+"ar": "850cfbcfba81",
+"tr": "62fadd19cf35",
+"en": "f25f19609683",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"mekki-muskil:39-39": {
+"p1": {
+"ar": "546ac53a33e1",
+"tr": "1f4fe5137310",
+"en": "cdde03402de0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"mekki-muskil:41-41": {
+"p1": {
+"ar": "868a1c731468",
+"tr": "05e8edcc1b23",
+"en": "b37f18303bb7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"mekki-muskil:42-42": {
+"p1": {
+"ar": "de68bc20dc54",
+"tr": "2a6f7d62319a",
+"en": "cfe572276315",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"mekki-muskil:49-49": {
+"p1": {
+"ar": "623b57b9068c",
+"tr": "05dce58bc1ab",
+"en": "e0684e0d891c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"mekki-muskil:57-57": {
+"p1": {
+"ar": "9c6bce00e2a1",
+"tr": "72cc42a70c14",
+"en": "5287c5bf2424",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+},
+"mekki-muskil:59-59": {
+"p1": {
+"ar": "e1841f59af58",
+"tr": "ccc1101eb4b5",
+"en": "b285451457b7",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "reworded مخبرا خبيرا rendering which added every thing",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:45",
+"fixed": true
+},
+"p2": {
+"ar": "e1841f59af58",
+"tr": "ccc1101eb4b5",
+"en": "b285451457b7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u2",
+"at": "2026-10-11 04:07",
+"fixed": false
+}
+},
+"mekki-muskil:63-63": {
+"p1": {
+"ar": "2fe50e43ff46",
+"tr": "f561f4ff6a74",
+"en": "6bc90f652260",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "rendered تسليما literally instead of interpretive glosses",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:45",
+"fixed": true
+},
+"p2": {
+"ar": "2fe50e43ff46",
+"tr": "f561f4ff6a74",
+"en": "6bc90f652260",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u2",
+"at": "2026-10-11 04:07",
+"fixed": false
+}
+},
+"mekki-muskil:67-67": {
+"p1": {
+"ar": "924062a11a8f",
+"tr": "542203f00345",
+"en": "f57cbe369bbf",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"mekki-muskil:69-69": {
+"p1": {
+"ar": "f2dc7194aeac",
+"tr": "8c2a9360624b",
+"en": "6d5f5497e130",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+},
+"mekki-muskil:71-71": {
+"p1": {
+"ar": "4943bada08db",
+"tr": "7d704e208ec3",
+"en": "fae2bc732b41",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"mekki-muskil:72-72": {
+"p1": {
+"ar": "916ca7f220db",
+"tr": "8a6d1e73a928",
+"en": "188682300d0a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"mekki-muskil:77-77": {
+"p1": {
+"ar": "2ee3a24e7979",
+"tr": "1d4e35d18580",
+"en": "c881ca95dc08",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+}
+}

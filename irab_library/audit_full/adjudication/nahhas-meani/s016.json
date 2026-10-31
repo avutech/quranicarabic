@@ -1,0 +1,63 @@
+{
+"nahhas-meani:88-88": {
+"hs": [
+"827287adf516",
+"fcfa1e0ee042",
+"fb3c0334988c"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "«عقاربَ أنيابُها كالنخلِ الطِّوال»: أنياب = canine teeth / fangs (ناب), not molars. TR 'azı dişleri' (molars) is wrong meaning; should be 'köpek dişleri / sivri dişleri'.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "«زيدوا عقاربَ أنيابُها كالنخلِ الطِّوال»: أنياب (sing. ناب) are fangs or canine teeth, but TR renders it 'azı dişleri' (molars, = أضراس), which is a wrong meaning. It should be 'sivri/köpek dişleri' (fangs). The rest is correct.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "أنيابها rendered 'sivri dişleri' (fangs); no unmarked addition for عبدالله (İbn Mes'ûd parenthetical absent)",
+"verify_note": "أنيابها correctly rendered as 'sivri dişleri'; unmarked '(İbn Mes'ûd)' removed; complete and faithful.",
+"fix_failed": 1,
+"verified": "PASS"
+}
+},
+"history": [
+{
+"old_hs": [
+"827287adf516",
+"236417431a77",
+"24067f543f76"
+],
+"dim": "tr",
+"what": "أنيابها: 'azı dişleri' (molars) -> 'sivri dişleri' (fangs)",
+"at": "2026-10-17 00:42"
+},
+{
+"old_hs": [
+"827287adf516",
+"27a43499d319",
+"24067f543f76"
+],
+"dim": "tr",
+"what": "Moved unmarked '(İbn Mes'ûd)' into a Mütercim notu (fangs fix kept)",
+"at": "2026-10-17 00:45"
+},
+{
+"old_hs": [
+"827287adf516",
+"4827fdcac093",
+"d87b488b80a1"
+],
+"dim": "tr",
+"what": "أنيابها rendered 'sivri dişleri' (fangs); no unmarked addition for عبدالله (İbn Mes'ûd parenthetical absent)",
+"at": "2026-10-17 00:46"
+}
+]
+}
+}

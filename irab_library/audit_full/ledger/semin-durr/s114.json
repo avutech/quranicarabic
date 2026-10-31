@@ -1,0 +1,82 @@
+{
+"semin-durr:2-2": {
+"p1": {
+"ar": "68a48b9ae2ec",
+"tr": "50d0cf1a18ff",
+"en": "cd320506af81",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p1-u11",
+"at": "2026-10-17 00:17",
+"fixed": false
+},
+"p2": {
+"ar": "68a48b9ae2ec",
+"tr": "50d0cf1a18ff",
+"en": "cd320506af81",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR \"Şeyh (Ebû Hayyân)\" and EN \"The Shaykh [Abū Ḥayyān]\" were unmarked identifications; now inside translator notes.",
+"by": "semin-durr-p2-u20",
+"at": "2026-10-17 00:10",
+"fixed": true
+}
+},
+"semin-durr:4-4": {
+"p1": {
+"ar": "7b09ceb7491b",
+"tr": "74735ded97c5",
+"en": "c184d92e3897",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u34",
+"at": "2026-10-11 02:57",
+"fixed": false
+}
+},
+"semin-durr:5-5": {
+"p1": {
+"ar": "e57b7b436281",
+"tr": "442a559b43d1",
+"en": "fbb7ce98f932",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u34",
+"at": "2026-10-11 02:57",
+"fixed": false
+}
+},
+"semin-durr:6-6": {
+"p1": {
+"ar": "2d44579a85d3",
+"tr": "15032a129514",
+"en": "130c88cc1941",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p1-u11",
+"at": "2026-10-17 00:17",
+"fixed": false
+},
+"p2": {
+"ar": "2d44579a85d3",
+"tr": "15032a129514",
+"en": "130c88cc1941",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN transliterated the discussed words الناس/الناسي/الإيناس/جن/بشر (now Arabic script) and supplied an unmarked \"[ibn]\" in the author name «محمد مسعود» (now a translator note).",
+"by": "semin-durr-p2-u20",
+"at": "2026-10-17 00:10",
+"fixed": true
+}
+}
+}

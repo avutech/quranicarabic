@@ -1,0 +1,27 @@
+{
+"celaleyn:13-13": {
+"hs": [
+"e8ed8e614aba",
+"fca17ac2b568",
+"053b6c728161"
+],
+"dims": {
+"fit": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "The entry glosses 22:13 (﴿يَدْعُو لَمَنْ﴾ ﴿ضَرُّهُ﴾ ﴿أَقْرَبُ مِنْ نَفْعِهِ﴾ ﴿لَبِئْسَ الْمَوْلَى﴾ ﴿وَلَبِئْسَ الْعَشِيرُ﴾). The final words «وَعَقَّبَ ذِكْرَ الشَّاكِّ بِالْخُسْرَانِ بِذِكْرِ الْمُؤْمِنِينَ بِالثَّوَابِ فِي» are only Jalalayn's lead-in to the next ayah (22:14), not a substantive discussion of it. Commenting on a following ayah is fine, so listing under 13-13 is right.",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Entry glosses ﴿يَدْعُو لَمَنْ﴾ ﴿ضَرُّهُ﴾ ﴿أَقْرَبُ مِنْ نَفْعِهِ﴾ ﴿لَبِئْسَ الْمَوْلَى﴾ ﴿وَلَبِئْسَ الْعَشِيرُ﴾ - all 22:13. The closing وَعَقَّبَ ذِكْرَ الشَّاكِّ بِالْخُسْرَانِ بِذِكْرِ الْمُؤْمِنِينَ بِالثَّوَابِ فِي is Jalalayn's transition into the quotation of 22:14 (the next entry), a lead-in comment, not a substantive discussion of 22:14. Correctly listed under 13.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

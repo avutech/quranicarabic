@@ -1,0 +1,35 @@
+{
+"harrat-mujtaba:6-6": {
+"hs": [
+"f3274fa77790",
+"9b18be1cc626",
+"736dc60a7c21"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "MISPLACED",
+"evidence": "Entry parses «الصراط» and «اهدنا» (1:6) but also substantively discusses the morphology of {نَسْتَعِينُ} (أصل نستعين نستعون من العون ...قلبت ياء), which is a word of 1:5 (وَإِيَّاكَ نَسْتَعِينُ). Correct range 5-6.",
+"at": "2026-10-17 00:41",
+"ayahs": "5-6"
+},
+"J2": {
+"class": "MISPLACED",
+"evidence": "The entry parses «الصراط» (second object) and «اهدنا» of 1:6, but it also substantively discusses the morphology of {نَسْتَعِينُ}: وأصل نستعين نستعون من العون ... فقلبت ياء — نَسْتَعِينُ is a word of 1:5 (وَإِيَّاكَ نَسْتَعِينُ), not of 1:6. So the entry covers 1:5 and 1:6.",
+"at": "2026-10-17 00:41",
+"ayahs": "5-6"
+},
+"J3": {
+"class": "MISPLACED",
+"evidence": "The entry parses «الصراط» as second mafʿūl bihi and «اهدنا» as istiʾnāfiyya, which belongs to 1:6 (ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ). But it also gives the morphology of {نَسْتَعِينُ}: «وأصل نستعين نستعون من العون ... فقلبت ياء». The word نَسْتَعِينُ is in 1:5 (إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ), not in 1:6. That is a substantive treatment of 1:5, not evidence cited for 1:6, so the full range is 1:5-6.",
+"at": "2026-10-17 00:43",
+"ayahs": "5-6"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+}
+}

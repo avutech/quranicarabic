@@ -1,0 +1,138 @@
+{
+"semin-durr:1-1": {
+"p1": {
+"ar": "992383f17b76",
+"tr": "3295c824f834",
+"en": "ec6a0f24b9ee",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u31",
+"at": "2026-10-11 02:58",
+"fixed": false
+}
+},
+"semin-durr:3-3": {
+"p1": {
+"ar": "c43c9f5b2b4a",
+"tr": "30dc4b2261f0",
+"en": "9eba9a633498",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u31",
+"at": "2026-10-11 02:58",
+"fixed": false
+}
+},
+"semin-durr:5-5": {
+"p1": {
+"ar": "eb13c28cabd9",
+"tr": "3ed56ab669f0",
+"en": "e29c417641dc",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u31",
+"at": "2026-10-11 02:58",
+"fixed": false
+}
+},
+"semin-durr:6-6": {
+"p1": {
+"ar": "153b80b1d240",
+"tr": "a6165faa6eee",
+"en": "6b2dc11775c7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u31",
+"at": "2026-10-11 02:58",
+"fixed": false
+}
+},
+"semin-durr:7-7": {
+"p1": {
+"ar": "00b77c4fa2ee",
+"tr": "83a3356c183a",
+"en": "1150865fc5a7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u31",
+"at": "2026-10-11 02:58",
+"fixed": false
+}
+},
+"semin-durr:8-8": {
+"p1": {
+"ar": "db9885119f91",
+"tr": "79366448368f",
+"en": "8522b0115688",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u31",
+"at": "2026-10-11 02:58",
+"fixed": false
+}
+},
+"semin-durr:9-9": {
+"p1": {
+"ar": "7f38fcf38ab8",
+"tr": "10da8279101b",
+"en": "ece16ece0da0",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Turkish had unmarked addition \"(Ebû Hayyân)\" after الشيخ; English silently dropped the duplicated \"وأبو حيوة\" (now marked with a translator note).",
+"by": "semin-durr-p1-u10",
+"at": "2026-10-17 00:17",
+"fixed": true
+},
+"p2": {
+"ar": "7f38fcf38ab8",
+"tr": "10da8279101b",
+"en": "ece16ece0da0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u16",
+"at": "2026-10-17 00:34",
+"fixed": false
+}
+},
+"semin-durr:11-11": {
+"p1": {
+"ar": "fa36ad9ede0a",
+"tr": "014a49fb9bb1",
+"en": "98a6f670f9af",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Source has الاختمام (typo); TR rendered \"sonlandirma (ihtimam)\" mixing meanings and EN silently corrected it; both now state the reading with a translator note.",
+"by": "semin-durr-u31",
+"at": "2026-10-11 02:58",
+"fixed": true
+},
+"p2": {
+"ar": "fa36ad9ede0a",
+"tr": "014a49fb9bb1",
+"en": "98a6f670f9af",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u19",
+"at": "2026-10-17 00:09",
+"fixed": false
+}
+}
+}

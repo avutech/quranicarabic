@@ -1,0 +1,84 @@
+{
+"safi-cedvel:1-5": {
+"p1": {
+"ar": "3d038ed10999",
+"tr": "e9b100fc29cf",
+"en": "d6fcc6be7056",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English note around (ما) فاعل was left unclosed so the specified-object-of-censure sentence (والمخصوص بالذم محذوف) fell inside the footnote; closed the note and added translator note for the source dots.",
+"by": "safi-cedvel-u63",
+"at": "2026-10-10 19:35",
+"fixed": true
+},
+"p2": {
+"ar": "3d038ed10999",
+"tr": "e9b100fc29cf",
+"en": "d6fcc6be7056",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u23",
+"at": "2026-10-16 19:13",
+"fixed": false
+}
+},
+"safi-cedvel:6-6": {
+"p1": {
+"ar": "916e7aff230c",
+"tr": "4908c244e3f1",
+"en": "96aa294b2070",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u63",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+},
+"safi-cedvel:7-7": {
+"p1": {
+"ar": "a38e61746bd4",
+"tr": "7d8563b8b078",
+"en": "5b4b2b1bf6b9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u63",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+},
+"safi-cedvel:8-8": {
+"p1": {
+"ar": "cc4d0eab7173",
+"tr": "e371960452c5",
+"en": "be968fe4983f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u63",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+},
+"safi-cedvel:9-11": {
+"p1": {
+"ar": "19397426da62",
+"tr": "7f7e4dc78d9d",
+"en": "cc0e3f6a4e44",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u63",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+}
+}

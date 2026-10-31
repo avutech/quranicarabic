@@ -1,0 +1,11 @@
+{
+ "surah": 31,
+ "chunk": "1-34",
+ "verdicts": {
+  "OK": 103,
+  "TRANSLATION_FIXED": 1,
+  "GAP": 9
+ },
+ "summary": "All 4 high NEAR findings and 14 low findings are OK (cross-refs/orthography); 84 SEM checks across 14 books OK; one EN fix in semin-durr:18-18; 9 GAP lines recorded; no source misplacement or defects.",
+ "at": "2026-10-10 15:07"
+}

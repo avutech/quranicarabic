@@ -1,0 +1,60 @@
+{
+"zajjaj:11-11": {
+"hs": [
+"9454cf143673",
+"1e9ecd2ce37f",
+"68a2ca3f15ce"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "The verse «وتُصْبِحُ غَرْثى مِن لُحُومِ الغَوافِلِ» is rendered '...she wakes hungry of the flesh of unwary women — i.e. she does not backbite them': the 'i.e.' explanation is not in the Arabic and is unmarked; it must go in a [Translator's note: …]. Similar unmarked additions: '(for you, plural)' after «لَكم», and 'accused on account of [this matter]' for «لِكُلِّ مَن رُمِيَ بِسَبَبٍ» (the Arabic says 'by a connection/cause', not 'this matter').",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Verse «وتُصْبِحُ غَرْثى مِن لُحُومِ الغَوافِلِ» is translated, then EN adds unmarked interpretation '— i.e. she does not backbite them', which is not in the Arabic. It must go inside [Translator's note: ...].",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Put 'i.e. she does not backbite them' and 'plural' into Translator's notes; rendered بسبب literally ('some connection') instead of unmarked [this matter]",
+"verified": "PASS",
+"verify_note": "Backbiting gloss and 'plural' now inside Translator's notes; لكل من رمي بسبب rendered 'on account of some connection'; full text (incl. Nur 9 digression with marked note) complete and faithful."
+},
+"fit": {
+"votes": {
+"J2": {
+"class": "MISPLACED",
+"evidence": "Entry discusses 24:11 (﴿إنَّ الَّذِينَ جاءُوا بِالإفْكِ﴾, ﴿والَّذِي تَوَلّى كِبْرَهُ﴾) but also substantively parses 24:9: «والخامِسَةُ أنْ غَضَبُ اللَّهِ عَلَيْها» with the takhfif of أنَّ, implied hāʾ, and the shahid «أنْ هالِكٌ كُلُّ مَن يَحْفى». That is the li'an verse 24:9 (وَالْخَامِسَةَ أَنَّ غَضَبَ اللَّهِ عَلَيْهَا), so the listing must cover 9 through 11.",
+"at": "2026-10-17 01:02",
+"ayahs": "9-11"
+},
+"J1": {
+"class": "MISPLACED",
+"evidence": "Entry is mainly on 24:11 (﴿إنَّ الَّذِينَ جاءُوا بِالإفْكِ﴾, ﴿لا تَحْسَبُوهُ شَرًّا لَكم﴾, ﴿والَّذِي تَوَلّى كِبْرَهُ﴾), but it also substantively parses 24:9: «وقَوْلُهُ تَعالى: والخامِسَةُ أنْ غَضَبُ اللَّهِ عَلَيْها، بِتَخْفِيفِ أنَّ، ورَفْعِ غَضَبُ ... وأنْ مُخَفَّفَةٌ مِنَ الثَّقِيلَةِ» with the shahid «أنْ هالِكٌ كُلُّ مَن يَحْفى ويَنْتَعِلُ». That is the li'an verse 24:9, not a cited parallel. Contiguous range covering both: 9-11.",
+"at": "2026-10-17 01:03",
+"ayahs": "9-11"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+},
+"history": [
+{
+"old_hs": [
+"9454cf143673",
+"1e9ecd2ce37f",
+"f3a38d1b3c72"
+],
+"dim": "en",
+"what": "Put 'i.e. she does not backbite them' and 'plural' into Translator's notes; rendered بسبب literally ('some connection') instead of unmarked [this matter]",
+"at": "2026-10-17 00:44"
+}
+]
+}
+}

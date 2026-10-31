@@ -1,0 +1,56 @@
+{
+"mekki-muskil:4-4": {
+"hs": [
+"aadcb65129c0",
+"1ddcdb0bc220",
+"16304bdaff38"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "MISPLACED",
+"evidence": "First paragraph {وجعل أهلها شيعا} is 28:4 (correct; {وجعل الظلمات والنور}, {ثم خلقنا النطفة علقة}, {خلق الله السماوات} are only cited parallels). Second paragraph {قرة عين} ... لا تقتلوه parses 28:9 «قرت عين لي ولك لا تقتلوه», another ayah.",
+"at": "2026-10-17 00:39",
+"ayahs": "4-9"
+},
+"J2": {
+"class": "MISPLACED",
+"evidence": "First paragraph {وَجعل أَهلهَا شيعًا} = 28:4 (other ayahs cited as evidence only); second «قَوْله {قُرَّة عين} رفع على اضمار مُبْتَدأ ... وَالْخَبَر لَا تقتلوه» parses قُرَّتُ عَيْنٍۢ لِّى وَلَكَ ۖ لَا تَقْتُلُوهُ = 28:9. Entry covers 4 and 9.",
+"at": "2026-10-17 00:39",
+"ayahs": "4-9"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+},
+"mekki-muskil:18-18": {
+"hs": [
+"894909220743",
+"776020d3aae5",
+"5df0836cd8f4"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "MISPLACED",
+"evidence": "{خائفا} خبر أصبح and {فإذا الذي استنصره بالأمس يستصرخه} are 28:18 (correct). Third paragraph «تمشي في موضع الحال من {إحداهما} ... {على استحياء} ... قالت» parses 28:25 «فجاءته إحداهما تمشي على استحياء قالت», another ayah.",
+"at": "2026-10-17 00:39",
+"ayahs": "18-25"
+},
+"J2": {
+"class": "MISPLACED",
+"evidence": "{خَائفًا} ... وفي المدينة and {فَإِذا الَّذِي استنصره بالْأَمْس يستصرخه} = 28:18; third paragraph «قَوْله تمشي فِي مَوضِع الْحَال من {إِحْدَاهمَا} وَالْعَامِل فِيهِ جَاءَت و {على استحياء} ... قَالَت» parses فَجَآءَتْهُ إِحْدَىٰهُمَا تَمْشِى عَلَى ٱسْتِحْيَآءٍۢ قَالَتْ = 28:25. Entry covers 18 and 25.",
+"at": "2026-10-17 00:39",
+"ayahs": "18-25"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+}
+}

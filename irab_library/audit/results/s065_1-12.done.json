@@ -1,0 +1,11 @@
+{
+ "surah": 65,
+ "chunk": "1-12",
+ "verdicts": {
+  "SOURCE_MISPLACED": 1,
+  "OK": 82,
+  "GAP": 6
+ },
+ "summary": "Surah 65 ayahs 1-12: 89 verdicts. One source issue: zajjaj:9-9 covers ayahs 9-12 though keyed 9. All 10 low findings are false positives (normalization or legitimate cross-refs). Semantic sample of all 13 books matched across Arabic/TR/EN. 6 GAPs recorded. No translation fixes needed.",
+ "at": "2026-10-10 15:12"
+}

@@ -1,0 +1,10 @@
+{
+ "surah": 114,
+ "chunk": "1-6",
+ "verdicts": {
+  "OK": 38,
+  "GAP": 7
+ },
+ "summary": "Surah 114 all 14 books checked: 1 high NEAR (semin-durr:2-2) and 2 XREF were false positives; semantic check OK for every entry; GAPs recorded for 7 books. No misplacement, no translation fixes needed.",
+ "at": "2026-10-10 15:18"
+}

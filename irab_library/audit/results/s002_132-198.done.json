@@ -1,0 +1,11 @@
+{
+ "surah": 2,
+ "chunk": "132-198",
+ "verdicts": {
+  "OK": 144,
+  "SOURCE_MISPLACED": 2,
+  "GAP": 9
+ },
+ "summary": "Chunk 2:132-198: 12 high/medium findings reviewed (1 SOURCE_MISPLACED: akhfash:142-142 text is on 2:143), 48 low XREF/UNFOUND all OK (UNFOUND are checker alif-normalisation artifacts), SEM sample of 14 books all OK (akhfash:142 misplaced), 9 GAP verdicts. No translation fixes needed.",
+ "at": "2026-10-10 14:56"
+}

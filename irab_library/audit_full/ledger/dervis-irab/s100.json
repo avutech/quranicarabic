@@ -1,0 +1,28 @@
+{
+"dervis-irab:1-11": {
+"p1": {
+"ar": "18b3d87b7f6b",
+"tr": "1197109b30ee",
+"en": "ee572ce6b71c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u5",
+"at": "2026-10-17 00:15",
+"fixed": false
+},
+"p2": {
+"ar": "18b3d87b7f6b",
+"tr": "1197109b30ee",
+"en": "ee572ce6b71c",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN al-Qamus quote: \"بيت من الشّعر\" rendered \"a verse of poetry\" (is a tent of hair), \"تجر أربعين يوما بعد السنة\" rendered \"milked\" (gestation), \"ووسط محركة جبل ودارة واسط موضع\" misparsed; Abu Tammam \"كسرت\" rendered \"break off\" (give kasra). All fixed.",
+"by": "dervis-irab-p2-u8",
+"at": "2026-10-17 00:03",
+"fixed": true
+}
+}
+}

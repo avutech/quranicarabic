@@ -1,0 +1,206 @@
+{
+"mekki-muskil:1-1": {
+"p1": {
+"ar": "e1a54e2e6e80",
+"tr": "aa187059258c",
+"en": "3a0c570d83d7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:44",
+"fixed": false
+}
+},
+"mekki-muskil:6-6": {
+"p1": {
+"ar": "dcdb5762a971",
+"tr": "eb5266eb98be",
+"en": "450f9e5fae24",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:44",
+"fixed": false
+}
+},
+"mekki-muskil:9-9": {
+"p1": {
+"ar": "263565b57fe7",
+"tr": "4d89b86fe1b8",
+"en": "31cb902bba2c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:44",
+"fixed": false
+}
+},
+"mekki-muskil:11-11": {
+"p1": {
+"ar": "d466de9ccc4f",
+"tr": "1ed54e1504f7",
+"en": "fdb0e6135a7f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:44",
+"fixed": false
+}
+},
+"mekki-muskil:13-13": {
+"p1": {
+"ar": "0fccb25c4527",
+"tr": "30f320989b48",
+"en": "24500a61da9f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:44",
+"fixed": false
+}
+},
+"mekki-muskil:27-27": {
+"p1": {
+"ar": "af9eba5332e3",
+"tr": "66107c2b7888",
+"en": "cc6e47b8a03f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:44",
+"fixed": false
+},
+"p2": {
+"ar": "af9eba5332e3",
+"tr": "66107c2b7888",
+"en": "cc6e47b8a03f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 18:25",
+"fixed": false
+}
+},
+"mekki-muskil:29-29": {
+"p1": {
+"ar": "3c750d91d6c8",
+"tr": "92a13f1bf868",
+"en": "97ddb2b6bf5a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:44",
+"fixed": false
+}
+},
+"mekki-muskil:30-30": {
+"p1": {
+"ar": "e4b671ab0f4d",
+"tr": "b4f5a8fb71af",
+"en": "adc9ba941fe5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:44",
+"fixed": false
+}
+},
+"mekki-muskil:31-31": {
+"p1": {
+"ar": "6fcac246b3e9",
+"tr": "182277115073",
+"en": "7cc274511469",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:44",
+"fixed": false
+}
+},
+"mekki-muskil:36-36": {
+"p1": {
+"ar": "b20178ebea94",
+"tr": "51c27151213f",
+"en": "3cb74df5ba72",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:45",
+"fixed": false
+}
+},
+"mekki-muskil:46-46": {
+"p1": {
+"ar": "ba09b17a0493",
+"tr": "a6520aa2b652",
+"en": "23aa2d56fa74",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English rendered الساقط منه واو في الاختيار as \"in the [verb of] choice\" (wrong; Turkish has tercih edilen görüş) and supplied unmarked vowel patterns faʿala/faʿula/faʿila; corrected and added translator notes.",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:44",
+"fixed": true
+},
+"p2": {
+"ar": "ba09b17a0493",
+"tr": "a6520aa2b652",
+"en": "23aa2d56fa74",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 18:25",
+"fixed": false
+}
+},
+"mekki-muskil:56-56": {
+"p1": {
+"ar": "d50a04a9548f",
+"tr": "15c7c00ec182",
+"en": "acc87824e497",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p1-u1",
+"at": "2026-10-17 00:04",
+"fixed": false
+},
+"p2": {
+"ar": "d50a04a9548f",
+"tr": "15c7c00ec182",
+"en": "acc87824e497",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English rendered the implied object \"أي يذكرون شيئا\" as \"they do not remember anything\" (negation added to the gloss); corrected to \"they remember something\" (يذكرون شيئا).",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 18:25",
+"fixed": true
+}
+}
+}

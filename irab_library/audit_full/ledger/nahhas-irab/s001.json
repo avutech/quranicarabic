@@ -1,0 +1,110 @@
+{
+"nahhas-irab:1-1": {
+"p1": {
+"ar": "ff484da3bcad",
+"tr": "590805e4125c",
+"en": "9071b5178901",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u36",
+"at": "2026-10-10 15:56",
+"fixed": false
+}
+},
+"nahhas-irab:2-2": {
+"p1": {
+"ar": "2172e3aee2ad",
+"tr": "28638c955aee",
+"en": "9bb6e7bfa8da",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u36",
+"at": "2026-10-10 15:56",
+"fixed": false
+}
+},
+"nahhas-irab:3-4": {
+"p1": {
+"ar": "206446b5af42",
+"tr": "4733ef7c378e",
+"en": "98caccf897b9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u36",
+"at": "2026-10-10 15:56",
+"fixed": false
+}
+},
+"nahhas-irab:6-6": {
+"p1": {
+"ar": "4393a92f73c7",
+"tr": "a3ae4d5f3bc6",
+"en": "12014da9c6ed",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u36",
+"at": "2026-10-10 15:56",
+"fixed": false
+}
+},
+"nahhas-irab:7-7": {
+"p1": {
+"ar": "1c20a0678c6b",
+"tr": "274e8cafbb3a",
+"en": "37587f903ccc",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish rendered \"إذا لم يكن فيه خفض مرفوع\" dropping the negation, and \"لأنه مستقبل\" was glossed with unmarked guess; fixed with translator notes",
+"by": "nahhas-irab-u36",
+"at": "2026-10-10 15:56",
+"fixed": true
+},
+"p2": {
+"ar": "1c20a0678c6b",
+"tr": "274e8cafbb3a",
+"en": "37587f903ccc",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u6",
+"at": "2026-10-16 17:07",
+"fixed": false
+}
+},
+"nahhas-irab:5-5": {
+"p1": {
+"ar": "f988b50006ec",
+"tr": "5e0d1adb5c88",
+"en": "cdac8cdd3c23",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish stored for 1:5 had been overwritten by my own mistaken put of the 1:6 text; restored the correct 1:5 translation",
+"by": "nahhas-irab-u36",
+"at": "2026-10-10 15:56",
+"fixed": true
+},
+"p2": {
+"ar": "f988b50006ec",
+"tr": "5e0d1adb5c88",
+"en": "cdac8cdd3c23",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u6",
+"at": "2026-10-16 17:07",
+"fixed": false
+}
+}
+}

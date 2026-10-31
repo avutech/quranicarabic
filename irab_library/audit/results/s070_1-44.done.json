@@ -1,0 +1,11 @@
+{
+ "surah": 70,
+ "chunk": "1-44",
+ "verdicts": {
+  "OK": 90,
+  "SOURCE_MISPLACED": 1,
+  "GAP": 9
+ },
+ "summary": "Surah 70 ayahs 1-44: all 13 books checked (SEM sample OK everywhere). One real problem: semin-durr:9-9 SOURCE_MISPLACED (entry discusses ayah 10). Other NEAR/XREF/UNFOUND findings were false positives. GAPs recorded for 8 books (source silence).",
+ "at": "2026-10-10 15:13"
+}

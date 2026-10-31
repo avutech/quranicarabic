@@ -1,0 +1,131 @@
+{
+"harrat-mujtaba:111-111": {
+"hs": [
+"bf55403e0971",
+"e45ee6555a48",
+"71f3692a7822"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "(وَإِذْ أَوْحَيْتُ إِلَى الْحَوَارِيِّينَ أَنْ آمِنُوا بِي): The reading opens with a quoted ayah phrase in parentheses that is not in the Arabic entry; it stands OUTSIDE the bracket, which only contains the label \"phrase discussed / tartışılan ifade\", so the added Quranic text is an unmarked addition. Fix: move the phrase inside the note. Rest of the translation matches the Arabic.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "The Arabic entry begins directly with الواو عاطفة، و «إذ» : مفعول لاذكر ...; it does not quote the ayah phrase. The reading prefixes the phrase (وَإِذْ أَوْحَيْتُ إِلَى الْحَوَارِيِّينَ أَنْ آمِنُوا بِي) OUTSIDE the brackets; only the label 'tartışılan ifade' is inside [Mütercim notu: …]. Per the standard an addition must be inside the note. The grammar itself is rendered correctly. Fix: move the phrase inside the note.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved the prefixed ayah phrase (outside the note) into the note: [Mütercim notu: tartışılan ifade: X]; rest unchanged",
+"verified": "PASS",
+"verify_note": "Ayah phrase now inside Mütercim notu; vav atıf, إذ object of implied اذكر, أن/آمنوا tefsîriyye, masdar مجرور بالباء متعلق باشهد all faithful."
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "(وإذ أوحيت إلى الحواريين أن آمنوا): The reading opens with a quoted ayah phrase in parentheses that is not in the Arabic entry; it stands OUTSIDE the bracket, which only contains the label \"phrase discussed / tartışılan ifade\", so the added Quranic text is an unmarked addition. Fix: move the phrase inside the note. Rest of the translation matches the Arabic.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "The Arabic entry begins directly with الواو عاطفة، و «إذ» : مفعول لاذكر ...; it does not quote the ayah phrase. The reading prefixes the phrase (وإذ أوحيت إلى الحواريين أن آمنوا) OUTSIDE the brackets; only 'phrase discussed' is inside [Translator's note: …]. An addition must be inside the note. The grammar is otherwise rendered correctly. Fix: move the phrase inside the note.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved the prefixed ayah phrase (outside the note) into the note: [Translator's note: phrase discussed: X]; rest unchanged",
+"verified": "PASS",
+"verify_note": "Ayah phrase now inside Translator's note; all clauses match the Arabic, nothing unmarked added."
+}
+},
+"history": [
+{
+"old_hs": [
+"bf55403e0971",
+"e2ef4f40a1d8",
+"f9da23967f5a"
+],
+"dim": "tr",
+"what": "moved the quoted ayah phrase that stood outside the bracket into the note",
+"at": "2026-10-17 00:46"
+},
+{
+"old_hs": [
+"bf55403e0971",
+"87e358749d84",
+"b23568594c37"
+],
+"dim": "en",
+"what": "moved the quoted ayah phrase that stood outside the bracket into the note",
+"at": "2026-10-17 00:46"
+},
+{
+"old_hs": [
+"bf55403e0971",
+"87e358749d84",
+"b23568594c37"
+],
+"dim": "tr",
+"what": "Moved the prefixed ayah phrase (outside the note) into the note: [Mütercim notu: tartışılan ifade: X]; rest unchanged",
+"at": "2026-10-17 00:46"
+},
+{
+"old_hs": [
+"bf55403e0971",
+"e45ee6555a48",
+"b23568594c37"
+],
+"dim": "en",
+"what": "Moved the prefixed ayah phrase (outside the note) into the note: [Translator's note: phrase discussed: X]; rest unchanged",
+"at": "2026-10-17 00:46"
+}
+]
+},
+"harrat-mujtaba:116-116": {
+"hs": [
+"b7f60222b8fb",
+"81ea6784b315",
+"00d40387fb93"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "(وإذ قال الله يا عيسى): The reading opens with a quoted ayah phrase in parentheses that is not in the Arabic entry; it stands OUTSIDE the bracket, which only contains the label \"phrase discussed / tartışılan ifade\", so the added Quranic text is an unmarked addition. Fix: move the phrase inside the note. Rest of the translation matches the Arabic.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "The Arabic entry begins «إذ» مفعول لـ اذكر مقدرًا and does not quote the ayah; the English prefixes (وإذ قال الله يا عيسى) outside the brackets, with only 'phrase discussed' inside [Translator's note: …] (the Turkish has no such prefix). An addition must be inside the note; the rest is correct. Fix: move the phrase inside the note.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved the prefixed ayah phrase (outside the note) into the note: [Translator's note: phrase discussed: X]; rest unchanged",
+"verified": "PASS",
+"verify_note": "Ayah phrase now inside Translator's note; إذ/اذكر, من دون, سبحانك, أن أقول, إن كنت قلته, تعلم ما في نفسي, أنت tawkīd all faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"b7f60222b8fb",
+"81ea6784b315",
+"ec79fced56bf"
+],
+"dim": "en",
+"what": "Moved the prefixed ayah phrase (outside the note) into the note: [Translator's note: phrase discussed: X]; rest unchanged",
+"at": "2026-10-17 00:46"
+}
+]
+}
+}

@@ -1,0 +1,598 @@
+{
+"nahhas-irab:1-1": {
+"p1": {
+"ar": "dcae29308088",
+"tr": "2b0c7dcc6141",
+"en": "492752d6ebc5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u42",
+"at": "2026-10-10 16:00",
+"fixed": false
+}
+},
+"nahhas-irab:2-2": {
+"p1": {
+"ar": "fcd9c662299c",
+"tr": "9ccc7cf1f92a",
+"en": "b13a852953ba",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u42",
+"at": "2026-10-10 16:00",
+"fixed": false
+}
+},
+"nahhas-irab:3-3": {
+"p1": {
+"ar": "9663824ed903",
+"tr": "9d6ed9a0ba7c",
+"en": "5b4195ccdda3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u42",
+"at": "2026-10-10 16:00",
+"fixed": false
+},
+"p2": {
+"ar": "9663824ed903",
+"tr": "9d6ed9a0ba7c",
+"en": "5b4195ccdda3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u7",
+"at": "2026-10-16 18:53",
+"fixed": false
+}
+},
+"nahhas-irab:4-4": {
+"p1": {
+"ar": "5748491f63e5",
+"tr": "ac292390aa5f",
+"en": "63c23d293c22",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u42",
+"at": "2026-10-10 16:00",
+"fixed": false
+}
+},
+"nahhas-irab:5-5": {
+"p1": {
+"ar": "164c89c06131",
+"tr": "782c59e7d171",
+"en": "d64d652e9394",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u42",
+"at": "2026-10-10 16:00",
+"fixed": false
+}
+},
+"nahhas-irab:6-6": {
+"p1": {
+"ar": "fe1ca35c4fcb",
+"tr": "072907830948",
+"en": "d7fa3c16ce9b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u42",
+"at": "2026-10-10 16:00",
+"fixed": false
+}
+},
+"nahhas-irab:7-7": {
+"p1": {
+"ar": "9bca87b00bba",
+"tr": "5f80f6cd79c6",
+"en": "0d140923b8e1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u42",
+"at": "2026-10-10 16:00",
+"fixed": false
+}
+},
+"nahhas-irab:8-8": {
+"p1": {
+"ar": "7aee58611928",
+"tr": "18f759f0389d",
+"en": "5118dad143d2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u42",
+"at": "2026-10-10 16:00",
+"fixed": false
+}
+},
+"nahhas-irab:9-9": {
+"p1": {
+"ar": "cb2002bc2277",
+"tr": "66db78b7ab91",
+"en": "978f10746158",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u42",
+"at": "2026-10-10 16:00",
+"fixed": false
+}
+},
+"nahhas-irab:10-10": {
+"p1": {
+"ar": "637876b6437c",
+"tr": "2a7c658f3d7a",
+"en": "95689d2c32a0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u42",
+"at": "2026-10-10 16:00",
+"fixed": false
+}
+},
+"nahhas-irab:11-11": {
+"p1": {
+"ar": "2eba53d57fb7",
+"tr": "9459ad9cfead",
+"en": "b5715b4d8b84",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u42",
+"at": "2026-10-10 16:00",
+"fixed": false
+}
+},
+"nahhas-irab:12-13": {
+"p1": {
+"ar": "dd2a28f9af27",
+"tr": "b3a4562b77ff",
+"en": "aca0d18ecc08",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR rendered المالح as the thing salted (passive); Arabic says the one who puts salt (الذي يجعل الملح); corrected",
+"by": "nahhas-irab-u42",
+"at": "2026-10-10 16:00",
+"fixed": true
+},
+"p2": {
+"ar": "dd2a28f9af27",
+"tr": "b3a4562b77ff",
+"en": "aca0d18ecc08",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u7",
+"at": "2026-10-16 18:53",
+"fixed": false
+}
+},
+"nahhas-irab:14-14": {
+"p1": {
+"ar": "323e44fb9431",
+"tr": "409b32bfea87",
+"en": "ffa52522d0bf",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u42",
+"at": "2026-10-10 16:00",
+"fixed": false
+}
+},
+"nahhas-irab:15-15": {
+"p1": {
+"ar": "66821e099694",
+"tr": "7201c7789821",
+"en": "b8ddf86acbff",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u42",
+"at": "2026-10-10 16:00",
+"fixed": false
+}
+},
+"nahhas-irab:16-16": {
+"p1": {
+"ar": "4895aec0581d",
+"tr": "d9d94356fea2",
+"en": "9d89df2a7560",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u42",
+"at": "2026-10-10 16:00",
+"fixed": false
+}
+},
+"nahhas-irab:18-18": {
+"p1": {
+"ar": "8a2a4a3450d0",
+"tr": "83d28e92a127",
+"en": "c145e2c1c8a4",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR added unmarked '(ona aracı olmaya)' and made the Muslim passive (eksiltilir); Arabic: the Muslim keeps decreasing his punishment; corrected",
+"by": "nahhas-irab-u42",
+"at": "2026-10-10 16:00",
+"fixed": true
+},
+"p2": {
+"ar": "8a2a4a3450d0",
+"tr": "83d28e92a127",
+"en": "c145e2c1c8a4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u7",
+"at": "2026-10-16 18:53",
+"fixed": false
+}
+},
+"nahhas-irab:19-21": {
+"p1": {
+"ar": "018fe8fee9cf",
+"tr": "9f6e15551bf8",
+"en": "0873900aae16",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u42",
+"at": "2026-10-10 16:00",
+"fixed": false
+},
+"p2": {
+"ar": "018fe8fee9cf",
+"tr": "9f6e15551bf8",
+"en": "0873900aae16",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u7",
+"at": "2026-10-16 18:53",
+"fixed": false
+}
+},
+"nahhas-irab:25-25": {
+"p1": {
+"ar": "da430468120b",
+"tr": "b2388344a60d",
+"en": "698ad1b9f6d2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u42",
+"at": "2026-10-10 16:00",
+"fixed": false
+}
+},
+"nahhas-irab:27-27": {
+"p1": {
+"ar": "b7c2189ee99e",
+"tr": "f9b5ecf314fc",
+"en": "dd0d9b158bb9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u42",
+"at": "2026-10-10 16:00",
+"fixed": false
+}
+},
+"nahhas-irab:28-28": {
+"p1": {
+"ar": "968a8a1b0833",
+"tr": "a998c058efa6",
+"en": "024e8973d257",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u42",
+"at": "2026-10-10 16:00",
+"fixed": false
+}
+},
+"nahhas-irab:29-29": {
+"p1": {
+"ar": "c684530d9815",
+"tr": "57c3e7ebbd90",
+"en": "57169fffe607",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u42",
+"at": "2026-10-10 16:00",
+"fixed": false
+},
+"p2": {
+"ar": "c684530d9815",
+"tr": "57c3e7ebbd90",
+"en": "57169fffe607",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u7",
+"at": "2026-10-16 18:53",
+"fixed": false
+}
+},
+"nahhas-irab:32-33": {
+"p1": {
+"ar": "84a81d8dab7e",
+"tr": "7cb10398aaa5",
+"en": "feb9ac9cd084",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u42",
+"at": "2026-10-10 16:01",
+"fixed": false
+}
+},
+"nahhas-irab:34-34": {
+"p1": {
+"ar": "be8da5ef33d3",
+"tr": "c0da26a8284d",
+"en": "47d125285ca9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u42",
+"at": "2026-10-10 16:00",
+"fixed": false
+}
+},
+"nahhas-irab:35-35": {
+"p1": {
+"ar": "3293ff0116ec",
+"tr": "7253379e2cec",
+"en": "e792faed99d8",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR said الْمُقامَةِ is 'ikâmet' while source reads الإمامة; silent correction, now marked with a translator's note",
+"by": "nahhas-irab-u42",
+"at": "2026-10-10 16:00",
+"fixed": true
+},
+"p2": {
+"ar": "3293ff0116ec",
+"tr": "7253379e2cec",
+"en": "e792faed99d8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u7",
+"at": "2026-10-16 18:53",
+"fixed": false
+}
+},
+"nahhas-irab:36-36": {
+"p1": {
+"ar": "32e8c33756db",
+"tr": "528083a7552f",
+"en": "84605e7d0724",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p1-u4",
+"at": "2026-10-17 00:05",
+"fixed": false
+},
+"p2": {
+"ar": "32e8c33756db",
+"tr": "528083a7552f",
+"en": "84605e7d0724",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English quoted al-Hasan reading as «لا يقضى عليهم فيموتون», adding a «لا» absent from the Arabic «يقضى عليهم فيموتون»; restored as written with a note.",
+"by": "nahhas-irab-p2-u7",
+"at": "2026-10-16 18:53",
+"fixed": true
+}
+},
+"nahhas-irab:37-37": {
+"p1": {
+"ar": "12c890677f1d",
+"tr": "9d13c164ca6a",
+"en": "cc9c6cdafe52",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u42",
+"at": "2026-10-10 16:00",
+"fixed": false
+},
+"p2": {
+"ar": "12c890677f1d",
+"tr": "9d13c164ca6a",
+"en": "cc9c6cdafe52",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u7",
+"at": "2026-10-16 18:53",
+"fixed": false
+}
+},
+"nahhas-irab:38-38": {
+"p1": {
+"ar": "f24cdb67376b",
+"tr": "bb8ff35a50ac",
+"en": "ca74cb7a21d0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u42",
+"at": "2026-10-10 16:00",
+"fixed": false
+}
+},
+"nahhas-irab:39-39": {
+"p1": {
+"ar": "2848c95310a5",
+"tr": "87e6345b1b74",
+"en": "21092c39fcd2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u42",
+"at": "2026-10-10 16:00",
+"fixed": false
+}
+},
+"nahhas-irab:40-40": {
+"p1": {
+"ar": "63b2acac022b",
+"tr": "8193e0dd6fa0",
+"en": "0070a2a0a31d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u42",
+"at": "2026-10-10 16:01",
+"fixed": false
+}
+},
+"nahhas-irab:41-41": {
+"p1": {
+"ar": "fe5fd9947e9b",
+"tr": "f66fba54bf2c",
+"en": "8371fe266286",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u42",
+"at": "2026-10-10 16:00",
+"fixed": false
+}
+},
+"nahhas-irab:42-42": {
+"p1": {
+"ar": "ecd1926439a4",
+"tr": "b278ea0edc2c",
+"en": "2225560c8a31",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u42",
+"at": "2026-10-10 16:00",
+"fixed": false
+}
+},
+"nahhas-irab:43-43": {
+"p1": {
+"ar": "9e5773eb4fc9",
+"tr": "a5997dc84284",
+"en": "df31edc2de37",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u42",
+"at": "2026-10-10 16:00",
+"fixed": false
+},
+"p2": {
+"ar": "9e5773eb4fc9",
+"tr": "a5997dc84284",
+"en": "df31edc2de37",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u7",
+"at": "2026-10-16 18:53",
+"fixed": false
+}
+},
+"nahhas-irab:44-44": {
+"p1": {
+"ar": "6184b76f066e",
+"tr": "b2c78cc7fe35",
+"en": "687f5ad1d943",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "Arabic source is truncated: ends 'لِيُعْجِزَهُ لتفوته ...'",
+"by": "nahhas-irab-u42",
+"at": "2026-10-10 16:00",
+"fixed": false
+},
+"p2": {
+"ar": "6184b76f066e",
+"tr": "b2c78cc7fe35",
+"en": "687f5ad1d943",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u7",
+"at": "2026-10-16 18:53",
+"fixed": false
+}
+},
+"nahhas-irab:45-45": {
+"p1": {
+"ar": "691be78df1f1",
+"tr": "6737a9f469ed",
+"en": "3be8c1b907be",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u42",
+"at": "2026-10-10 16:01",
+"fixed": false
+}
+}
+}

@@ -1,0 +1,42 @@
+{
+"nahhas-irab:4-4": {
+"hs": [
+"cbd29d92f05a",
+"2d1bc872329b",
+"ff5e25ec7574"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source: «وأحسب من تأول على سيبويه، وهي قراءة يعني «كأنّهم خشب» لأن قوله: وهي قراءة تضعيف لها» - the predicate (mistaken) is not in the Arabic; EN inserts '[is mistaken]' as an unmarked bracket, not inside a [Translator's note: ...]. Unmarked addition; also EN gives Latin transliterations of the Quranic word خُشُب ('[khushubun]', '[khushbun]') outside a note. Fix: put these inside a Translator's note.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic «وأحسب من تأول على سيبويه، وهي قراءة يعني «كأنّهم خشب»» has no word for 'is mistaken'; EN inserts '[is mistaken]' in plain brackets without a Translator's note (TR marks its parallel completion in a Mütercim notu). Unmarked addition: move it into a [Translator's note: ...].",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved unmarked '[is mistaken]' into a Translator's note (predicate missing in text); also ['s words], [the poet]; replaced Latin transliterations [khushubun]/[khushbun]/[khashab]/[khushub]/[khushb]/khushub/[usd]/[wuthn] with Arabic script inside notes",
+"verified": "PASS",
+"verify_note": "'is mistaken' and all vocalizations (خُشُب/خُشْب/وُثُن etc.) now inside Translator's notes in Arabic script; no Latin transliteration of Quranic words; complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"cbd29d92f05a",
+"2d1bc872329b",
+"75112a106f71"
+],
+"dim": "en",
+"what": "Moved unmarked '[is mistaken]' into a Translator's note (predicate missing in text); also ['s words], [the poet]; replaced Latin transliterations [khushubun]/[khushbun]/[khashab]/[khushub]/[khushb]/khushub/[usd]/[wuthn] with Arabic script inside notes",
+"at": "2026-10-17 00:45"
+}
+]
+}
+}

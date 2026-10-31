@@ -1,0 +1,12 @@
+{
+ "surah": 26,
+ "chunk": "123-227",
+ "verdicts": {
+  "OK": 124,
+  "SOURCE_DEFECT": 1,
+  "TRANSLATION_FIXED": 1,
+  "GAP": 9
+ },
+ "summary": "All 9 high findings OK; semantic sample (14 books, 80 keys) OK; low findings OK (spelling/xref); one source defect mekki-muskil 176 carries 26:207 paragraph (EN translator's note added); GAPs recorded. Note: 15 early SEM rows carry malformed multi-key keys, superseded by per-key SEM rows.",
+ "at": "2026-10-10 15:05"
+}

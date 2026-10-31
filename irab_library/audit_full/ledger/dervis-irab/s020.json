@@ -1,0 +1,372 @@
+{
+"dervis-irab:77-82": {
+"p1": {
+"ar": "520740075283",
+"tr": "832314500884",
+"en": "417667f12822",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u81",
+"at": "2026-10-10 19:37",
+"fixed": false
+}
+},
+"dervis-irab:83-86": {
+"p1": {
+"ar": "11a250d7d25e",
+"tr": "892dd8cb399e",
+"en": "aa62e0c42961",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u81",
+"at": "2026-10-10 19:37",
+"fixed": false
+}
+},
+"dervis-irab:87-98": {
+"p1": {
+"ar": "cab3c497a91d",
+"tr": "f4dfa689644d",
+"en": "d2387dd2231a",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR: added unmarked gloss after \"ضلّ أضلال\" (now a translator note). EN: \"ملك على فلان أمره: it took hold of him\" wrong subject/omitted أمره, now \"he took control of his affair\".",
+"by": "dervis-irab-p1-u13",
+"at": "2026-10-17 00:05",
+"fixed": true
+},
+"p2": {
+"ar": "cab3c497a91d",
+"tr": "f4dfa689644d",
+"en": "d2387dd2231a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u17",
+"at": "2026-10-17 00:18",
+"fixed": false
+}
+},
+"dervis-irab:99-104": {
+"p1": {
+"ar": "ee0b644b1bc9",
+"tr": "52d33bd6d95c",
+"en": "4eae3a29f966",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u81",
+"at": "2026-10-10 19:38",
+"fixed": false
+}
+},
+"dervis-irab:105-114": {
+"p1": {
+"ar": "9de87e10494b",
+"tr": "e35733412dfd",
+"en": "7c1346cc2c4b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u81",
+"at": "2026-10-10 19:38",
+"fixed": false
+}
+},
+"dervis-irab:115-123": {
+"p1": {
+"ar": "dcf648b6fa3d",
+"tr": "0dd954eaee3c",
+"en": "5f9357e58ba5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u81",
+"at": "2026-10-10 19:39",
+"fixed": false
+}
+},
+"dervis-irab:124-135": {
+"p1": {
+"ar": "0abab8f8ce3f",
+"tr": "f7c52b3d4b26",
+"en": "b99cf6fec432",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR: \"على أصفر\" rendered as \"sarı bir atın\" (added horse), \"الجرماز\" rendered \"o saray\"; EN: added [in the fresco]/[horse], \"في مكانك\" as \"in your eyes\", silent fix of «بصر» typo; garbled gap at «وانوشر ... وان» now noted.",
+"by": "dervis-irab-p1-u13",
+"at": "2026-10-17 00:06",
+"fixed": true
+},
+"p2": {
+"ar": "0abab8f8ce3f",
+"tr": "f7c52b3d4b26",
+"en": "b99cf6fec432",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u18",
+"at": "2026-10-17 00:16",
+"fixed": false
+}
+},
+"dervis-irab:17-23": {
+"p1": {
+"ar": "56fcfc7ad6e6",
+"tr": "7a28329424de",
+"en": "bdb1f9bebea7",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR: \"أم ما تصنع\" rendered as \"gösteriş\" (invented), now \"ne yapıyorsun\"; \"الجبسين\" as kireç and \"المكاري\" as kiracı corrected. EN: \"صال بعصاه\" was \"sweeping motion\" now attacked; خمعة was Jumʿa; \"عما لا يتعلق\" was silently reversed; \"نفرة عنبسة\" was silently interpreted.",
+"by": "dervis-irab-u81",
+"at": "2026-10-10 19:40",
+"fixed": true
+},
+"p2": {
+"ar": "56fcfc7ad6e6",
+"tr": "7a28329424de",
+"en": "bdb1f9bebea7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u31",
+"at": "2026-10-16 19:20",
+"fixed": false
+}
+},
+"dervis-irab:24-35": {
+"p1": {
+"ar": "e30c58d63c0a",
+"tr": "a62911b7b772",
+"en": "075f347e18a6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u81",
+"at": "2026-10-10 19:41",
+"fixed": false
+},
+"p2": {
+"ar": "e30c58d63c0a",
+"tr": "a62911b7b772",
+"en": "075f347e18a6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u31",
+"at": "2026-10-16 19:20",
+"fixed": false
+}
+},
+"dervis-irab:36-40": {
+"p1": {
+"ar": "216fa87c93bb",
+"tr": "8feb40df6781",
+"en": "403b0d0b0634",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN: source \"عطف على فاقذفيه في التابوت\" was silently corrected to اقذفيه; now translated as written with translator note.",
+"by": "dervis-irab-u81",
+"at": "2026-10-10 19:41",
+"fixed": true
+},
+"p2": {
+"ar": "216fa87c93bb",
+"tr": "8feb40df6781",
+"en": "403b0d0b0634",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u31",
+"at": "2026-10-16 19:20",
+"fixed": false
+}
+},
+"dervis-irab:41-47": {
+"p1": {
+"ar": "a26bcc631700",
+"tr": "a77270bbc919",
+"en": "34727c5c0d4a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "EN now complete (previous truncation was the served damaged copy); checked end to end.",
+"by": "dervis-irab-u81",
+"at": "2026-10-10 19:42",
+"fixed": false
+},
+"p2": {
+"ar": "a26bcc631700",
+"tr": "a77270bbc919",
+"en": "34727c5c0d4a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u31",
+"at": "2026-10-16 19:21",
+"fixed": false
+}
+},
+"dervis-irab:48-55": {
+"p1": {
+"ar": "2f0492934ce0",
+"tr": "6ce2eeb21735",
+"en": "822c55e120ad",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR: \"قائلين أو آذنين...\" had lost the alternative (ya da) and was merged sequentially; \"جمع الخلائق\" rendered as topluluğu now çoğulu with note.",
+"by": "dervis-irab-u81",
+"at": "2026-10-10 19:41",
+"fixed": true
+},
+"p2": {
+"ar": "2f0492934ce0",
+"tr": "6ce2eeb21735",
+"en": "822c55e120ad",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u31",
+"at": "2026-10-16 19:21",
+"fixed": false
+}
+},
+"dervis-irab:56-63": {
+"p1": {
+"ar": "9824f3403b48",
+"tr": "27f8b7aace92",
+"en": "2dba3f94e3e5",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR: added unmarked gloss \"(belirsiz kalması)\" now a translator note; silently dropped \"قالا\" and typo \"لا جعل\" now noted. EN: silent correction of source typo فسمه now noted.",
+"by": "dervis-irab-u81",
+"at": "2026-10-10 19:42",
+"fixed": true
+},
+"p2": {
+"ar": "9824f3403b48",
+"tr": "27f8b7aace92",
+"en": "2dba3f94e3e5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u31",
+"at": "2026-10-16 19:28",
+"fixed": false
+}
+},
+"dervis-irab:1-8": {
+"p1": {
+"ar": "561492fa822d",
+"tr": "8dc0f6173383",
+"en": "5b56bcd813a6",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR: Farisi quote added \"tam\" (full) to لتذكر به تذكرة; EN: translator note claimed the istiwa discussion is in Benefits, but it is absent there; corrected.",
+"by": "dervis-irab-u80",
+"at": "2026-10-10 19:43",
+"fixed": true
+},
+"p2": {
+"ar": "561492fa822d",
+"tr": "8dc0f6173383",
+"en": "5b56bcd813a6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u30",
+"at": "2026-10-16 19:28",
+"fixed": false
+}
+},
+"dervis-irab:64-70": {
+"p1": {
+"ar": "2dbad59bd741",
+"tr": "c6dcacec62c5",
+"en": "4d3a30b48cd0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u81",
+"at": "2026-10-10 19:43",
+"fixed": false
+}
+},
+"dervis-irab:9-16": {
+"p1": {
+"ar": "656ed0159125",
+"tr": "9eb27f8c8e98",
+"en": "75f00f14996a",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR: verse خفاهن ... ورق was silently rendered as ودق (rain) without marking the source typo; translator note added.",
+"by": "dervis-irab-u80",
+"at": "2026-10-10 19:43",
+"fixed": true
+},
+"p2": {
+"ar": "656ed0159125",
+"tr": "9eb27f8c8e98",
+"en": "75f00f14996a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u31",
+"at": "2026-10-16 19:19",
+"fixed": false
+}
+},
+"dervis-irab:71-76": {
+"p1": {
+"ar": "82726e51accc",
+"tr": "fde5d7594db8",
+"en": "b6a86692c794",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR: \"معلمكم\" (your teacher) was rendered \"sizin muallimimiz\" (our teacher); corrected to \"mualliminiz\".",
+"by": "dervis-irab-u81",
+"at": "2026-10-10 19:43",
+"fixed": true
+},
+"p2": {
+"ar": "82726e51accc",
+"tr": "fde5d7594db8",
+"en": "b6a86692c794",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u31",
+"at": "2026-10-16 19:28",
+"fixed": false
+}
+}
+}

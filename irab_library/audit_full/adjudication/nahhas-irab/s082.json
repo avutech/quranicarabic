@@ -1,0 +1,27 @@
+{
+"nahhas-irab:9-9": {
+"hs": [
+"b377883b1837",
+"fcadef0b1ffc",
+"faf19c6dfd29"
+],
+"dims": {
+"fit": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Fragment «وحكى الفرّاء عن بعض أهل المدينة «بل يكذبون» وردّها لأن بعدها» concerns the reading of «بَلْ تُكَذِّبُونَ» = 82:9, so it is filed correctly; it is cut off at «لأن بعدها» but still has placeable, translatable content (both readings render it as written).",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Fragment «وحكى الفرّاء عن بعض أهل المدينة «بل يكذبون» وردّها لأن بعدها» is about the variant reading of «بَلْ تُكَذِّبُونَ» in 82:9, so it is listed under the right ayah. It is cut off (continues in next entry) but the placement is correct; both readings render what is written.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

@@ -1,0 +1,454 @@
+{
+ "books": [
+  {
+   "kind": "irab",
+   "id": "farraa",
+   "title": {
+    "ar": "معاني القرآن",
+    "tr": "Meâni'l-Kur'ân",
+    "en": "Ma'ani al-Qur'an"
+   },
+   "author": {
+    "ar": "أبو زكريا الفراء",
+    "tr": "Ebû Zekeriyyâ el-Ferrâ",
+    "en": "Abu Zakariyya al-Farra'"
+   },
+   "death_h": 207,
+   "death_m": 822,
+   "status": "ready",
+   "source": {
+    "site": "tafsir.app",
+    "code": "farraa",
+    "file": "irab_kutuphane_farraa.json",
+    "title_in_source": "معاني القرآن",
+    "author_in_source": "أبو زكريا الفراء",
+    "downloaded_at": "2026-10-03T19:05:02.951Z",
+    "note": "Muhakkik dipnotları ([[...]]) çıkarıldı; yalnızca müellif metni."
+   },
+   "entries": 2779,
+   "ayahs": 2968
+  },
+  {
+   "kind": "irab",
+   "id": "akhfash",
+   "title": {
+    "ar": "معاني القرآن",
+    "tr": "Meâni'l-Kur'ân",
+    "en": "Ma'ani al-Qur'an"
+   },
+   "author": {
+    "ar": "الأخفش الأوسط",
+    "tr": "Ahfeş el-Evsat",
+    "en": "al-Akhfash al-Awsat"
+   },
+   "death_h": 215,
+   "death_m": 830,
+   "status": "ready",
+   "source": {
+    "site": "tafsir.app",
+    "code": "akhfash",
+    "file": "irab_kutuphane_akhfash.json",
+    "title_in_source": "معاني القرآن",
+    "author_in_source": "أبو الحسن الأخفش الأوسط",
+    "downloaded_at": "2026-10-03T18:48:55.922Z",
+    "note": "Muhakkik dipnotları ([[...]]) çıkarıldı; yalnızca müellif metni."
+   },
+   "entries": 1149,
+   "ayahs": 1210
+  },
+  {
+   "kind": "irab",
+   "id": "zajjaj",
+   "title": {
+    "ar": "معاني القرآن وإعرابه",
+    "tr": "Meâni'l-Kur'ân ve İ'râbuh",
+    "en": "Ma'ani al-Qur'an wa I'rabuh"
+   },
+   "author": {
+    "ar": "أبو إسحاق الزجاج",
+    "tr": "Ebû İshâk ez-Zeccâc",
+    "en": "Abu Ishaq al-Zajjaj"
+   },
+   "death_h": 311,
+   "death_m": 923,
+   "status": "ready",
+   "source": {
+    "site": "tafsir.app",
+    "code": "zajjaj",
+    "file": "irab_kutuphane_zajjaj.json",
+    "title_in_source": "معاني القرآن وإعرابه",
+    "author_in_source": "أبو إسحاق الزجاج",
+    "downloaded_at": "2026-10-03T19:27:28.934Z",
+    "note": "Muhakkik dipnotları ([[...]]) çıkarıldı; yalnızca müellif metni."
+   },
+   "entries": 3989,
+   "ayahs": 4054
+  },
+  {
+   "kind": "irab",
+   "id": "nahhas-irab",
+   "title": {
+    "ar": "إعراب القرآن",
+    "tr": "İ'râbü'l-Kur'ân",
+    "en": "I'rab al-Qur'an"
+   },
+   "author": {
+    "ar": "أبو جعفر النحاس",
+    "tr": "Ebû Ca'fer en-Nahhâs",
+    "en": "Abu Ja'far al-Nahhas"
+   },
+   "death_h": 338,
+   "death_m": 950,
+   "status": "ready",
+   "source": {
+    "site": "tafsir.app",
+    "code": "iraab-alnahas",
+    "file": "irab_kutuphane_iraab-alnahas.json",
+    "title_in_source": "إعراب القرآن",
+    "author_in_source": "أبو جعفر النحاس",
+    "downloaded_at": "2026-10-03T19:53:17.946Z",
+    "note": "Muhakkik dipnotları ([[...]]) çıkarıldı; yalnızca müellif metni."
+   },
+   "entries": 4534,
+   "ayahs": 5109
+  },
+  {
+   "kind": "irab",
+   "id": "nahhas-meani",
+   "title": {
+    "ar": "معاني القرآن",
+    "tr": "Meâni'l-Kur'ân",
+    "en": "Ma'ani al-Qur'an"
+   },
+   "author": {
+    "ar": "أبو جعفر النحاس",
+    "tr": "Ebû Ca'fer en-Nahhâs",
+    "en": "Abu Ja'far al-Nahhas"
+   },
+   "death_h": 338,
+   "death_m": 950,
+   "status": "ready",
+   "source": {
+    "site": "tafsir.app",
+    "code": "nahaas-meanings",
+    "file": "irab_kutuphane_nahaas-meanings.json",
+    "title_in_source": "معاني القرآن",
+    "author_in_source": "أبو جعفر النحاس",
+    "downloaded_at": "2026-10-03T20:07:36.529Z",
+    "note": "Muhakkik dipnotları ([[...]]) çıkarıldı; yalnızca müellif metni."
+   },
+   "entries": 2641,
+   "ayahs": 2682
+  },
+  {
+   "kind": "irab",
+   "id": "mekki-muskil",
+   "title": {
+    "ar": "مشكل إعراب القرآن",
+    "tr": "Müşkilü İ'râbi'l-Kur'ân",
+    "en": "Mushkil I'rab al-Qur'an"
+   },
+   "author": {
+    "ar": "مكي بن أبي طالب القيسي",
+    "tr": "Mekkî b. Ebû Tâlib",
+    "en": "Makki ibn Abi Talib"
+   },
+   "death_h": 437,
+   "death_m": 1045,
+   "status": "ready",
+   "source": {
+    "site": "shamela.ws/book/5538",
+    "code": "makki-mushkil",
+    "file": "irab_kutuphane_makki-mushkil.json",
+    "title_in_source": "مشكل إعراب القرآن",
+    "author_in_source": "مكي بن أبي طالب القيسي",
+    "downloaded_at": "2026-10-03T21:51:48.040217+00:00",
+    "note": "Metin: تحقيق حاتم صالح الضامن، مؤسسة الرسالة، ط2 1405. Sayfa ayraçları ve muhakkik dipnotları çıkarıldı; ayet sınırları otomatik belirlendi."
+   },
+   "entries": 1860,
+   "ayahs": 1877
+  },
+  {
+   "kind": "irab",
+   "id": "ukberi-tibyan",
+   "title": {
+    "ar": "التبيان في إعراب القرآن",
+    "tr": "et-Tibyân fî İ'râbi'l-Kur'ân",
+    "en": "al-Tibyan fi I'rab al-Qur'an"
+   },
+   "author": {
+    "ar": "أبو البقاء العكبري",
+    "tr": "Ebü'l-Bekā el-Ukberî",
+    "en": "Abu al-Baqa' al-'Ukbari"
+   },
+   "death_h": 616,
+   "death_m": 1219,
+   "status": "ready",
+   "source": {
+    "site": "shamela.ws/book/22928",
+    "code": "ukbari-tibyan",
+    "file": "irab_kutuphane_ukbari-tibyan.json",
+    "title_in_source": "التبيان في إعراب القرآن",
+    "author_in_source": "أبو البقاء عبد الله بن الحسين العكبري",
+    "downloaded_at": "2026-10-03T21:51:47.403891+00:00",
+    "note": "Metin: تحقيق علي محمد البجاوي، عيسى البابي الحلبي. Sayfa ayraçları ve muhakkik dipnotları çıkarıldı; ayet sınırları otomatik belirlendi."
+   },
+   "entries": 3013,
+   "ayahs": 3729
+  },
+  {
+   "kind": "tafsir",
+   "id": "celaleyn",
+   "title": {
+    "ar": "تفسير الجلالين",
+    "tr": "Tefsîru'l-Celâleyn",
+    "en": "Tafsir al-Jalalayn"
+   },
+   "author": {
+    "ar": "جلال الدين المحلي (ت 864) وجلال الدين السيوطي (ت 911)",
+    "tr": "Celâleddîn el-Mahallî (ö. 864) ve Celâleddîn es-Suyûtî (ö. 911)",
+    "en": "Jalal al-Din al-Mahalli (d. 864) & Jalal al-Din al-Suyuti (d. 911)"
+   },
+   "status": "ready",
+   "source": {
+    "site": "local",
+    "code": "celaleyn_docx",
+    "file": "Celaleyn Arapca Sureler (Yeni Format)",
+    "title_in_source": "",
+    "author_in_source": "",
+    "downloaded_at": "",
+    "note": "Yerel .docx sûre dosyaları (114 dosya); ayet başına bir paragraf."
+   },
+   "entries": 6236,
+   "ayahs": 6236
+  },
+  {
+   "kind": "irab",
+   "id": "semin-durr",
+   "title": {
+    "ar": "الدر المصون في علوم الكتاب المكنون",
+    "tr": "ed-Dürrü'l-Masûn",
+    "en": "al-Durr al-Masun"
+   },
+   "author": {
+    "ar": "السمين الحلبي",
+    "tr": "es-Semîn el-Halebî",
+    "en": "al-Samin al-Halabi"
+   },
+   "death_h": 756,
+   "death_m": 1355,
+   "status": "ready",
+   "source": {
+    "site": "tafsir.app",
+    "code": "aldur-almasoon",
+    "file": "irab_kutuphane_aldur-almasoon.json",
+    "title_in_source": "الدر المصون في علوم الكتاب المكنون",
+    "author_in_source": "السمين الحلبي",
+    "downloaded_at": "2026-10-03T20:22:52.945Z",
+    "note": "Muhakkik dipnotları ([[...]]) çıkarıldı; yalnızca müellif metni."
+   },
+   "entries": 4596,
+   "ayahs": 4596
+  },
+  {
+   "kind": "irab",
+   "id": "safi-cedvel",
+   "title": {
+    "ar": "الجدول في إعراب القرآن وصرفه وبيانه",
+    "tr": "el-Cedvel fî İ'râbi'l-Kur'ân",
+    "en": "al-Jadwal fi I'rab al-Qur'an"
+   },
+   "author": {
+    "ar": "محمود بن عبد الرحيم صافي",
+    "tr": "Mahmûd Sâfî",
+    "en": "Mahmud Safi"
+   },
+   "death_h": 1376,
+   "death_m": 1956,
+   "status": "ready",
+   "source": {
+    "site": "tafsir.app",
+    "code": "aljadwal",
+    "file": "irab_kutuphane_aljadwal.json",
+    "title_in_source": "الجدول في إعراب القرآن وصرفه وبيانه",
+    "author_in_source": "محمود بن عبد الرحيم الصافي",
+    "downloaded_at": "2026-10-03T21:39:19.992913+00:00",
+    "note": "Ham metin; [[...]] dipnotları korunmuştur."
+   },
+   "entries": 3257,
+   "ayahs": 6236
+  },
+  {
+   "kind": "irab",
+   "id": "dervis-irab",
+   "title": {
+    "ar": "إعراب القرآن وبيانه",
+    "tr": "İ'râbu'l-Kur'ân ve Beyânuhu",
+    "en": "I'rab al-Qur'an wa Bayanuh"
+   },
+   "author": {
+    "ar": "محيي الدين الدرويش",
+    "tr": "Muhyiddîn ed-Derviş",
+    "en": "Muhyi al-Din al-Darwish"
+   },
+   "death_h": 1403,
+   "death_m": 1982,
+   "status": "ready",
+   "source": {
+    "site": "tafsir.app",
+    "code": "iraab-aldarweesh",
+    "file": "irab_kutuphane_iraab-aldarweesh.json",
+    "title_in_source": "إعراب القرآن وبيانه",
+    "author_in_source": "محيي الدين درويش",
+    "downloaded_at": "2026-10-03T21:14:25.592733+00:00",
+    "note": "Ham metin; [[...]] dipnotları korunmuştur."
+   },
+   "entries": 1387,
+   "ayahs": 6236
+  },
+  {
+   "kind": "irab",
+   "id": "daas-irab",
+   "title": {
+    "ar": "إعراب القرآن الكريم",
+    "tr": "İ'râbu'l-Kur'âni'l-Kerîm",
+    "en": "I'rab al-Qur'an al-Karim"
+   },
+   "author": {
+    "ar": "أحمد عبيد الدعاس، أحمد محمد حميدان، إسماعيل محمود القاسم",
+    "tr": "Da'âs – Humeydân – Kâsım",
+    "en": "al-Da''as, Humaydan & al-Qasim"
+   },
+   "status": "ready",
+   "source": {
+    "site": "tafsir.app",
+    "code": "iraab-daas",
+    "file": "irab_kutuphane_iraab-daas.json",
+    "title_in_source": "إعراب القرآن الكريم",
+    "author_in_source": "قاسم - حميدان - دعاس",
+    "downloaded_at": "2026-10-03T22:04:09.766056+00:00",
+    "note": "Ham metin; [[...]] dipnotları korunmuştur."
+   },
+   "entries": 3639,
+   "ayahs": 6236
+  },
+  {
+   "kind": "irab",
+   "id": "harrat-mujtaba",
+   "title": {
+    "ar": "المجتبى من مشكل إعراب القرآن",
+    "tr": "el-Müctebâ min Müşkili İ'râbi'l-Kur'ân",
+    "en": "al-Mujtaba min Mushkil I'rab al-Qur'an"
+   },
+   "author": {
+    "ar": "أحمد بن محمد الخراط",
+    "tr": "Ahmed b. Muhammed el-Harrât",
+    "en": "Ahmad al-Kharrat"
+   },
+   "status": "ready",
+   "source": {
+    "site": "tafsir.app",
+    "code": "mujtaba-mushkil-iraab",
+    "file": "irab_kutuphane_mujtaba-mushkil-iraab.json",
+    "title_in_source": "المجتبى من مشكل إعراب القرآن",
+    "author_in_source": "أحمد بن محمد الخراط",
+    "downloaded_at": "2026-10-03T22:39:55.937664+00:00",
+    "note": "Ham metin; [[...]] dipnotları korunmuştur."
+   },
+   "entries": 5895,
+   "ayahs": 5895
+  },
+  {
+   "kind": "irab",
+   "id": "muyesser-irab",
+   "title": {
+    "ar": "الإعراب الميسر",
+    "tr": "el-İ'râbu'l-Müyesser",
+    "en": "al-I'rab al-Muyassar"
+   },
+   "author": {
+    "ar": "الدار العربية",
+    "tr": "ed-Dâru'l-Arabiyye",
+    "en": "Al-Dar Al-Arabiyya"
+   },
+   "catalog_note": "Müellif/yayıncı bilgisi tafsir.app'teki eser sayfasından alınmıştır.",
+   "status": "ready",
+   "source": {
+    "site": "tafsir.app",
+    "code": "aliraab-almuyassar",
+    "file": "irab_kutuphane_aliraab-almuyassar.json",
+    "title_in_source": "الإعراب الميسر",
+    "author_in_source": "",
+    "downloaded_at": "2026-10-03T23:30:07.673877+00:00",
+    "note": "Ham metin; [[...]] dipnotları korunmuştur."
+   },
+   "entries": 6236,
+   "ayahs": 6236
+  }
+ ],
+ "meals": [
+  {
+   "id": "77",
+   "name": "Diyanet İşleri",
+   "author": "Diyanet Isleri",
+   "lang": "tr"
+  },
+  {
+   "id": "52",
+   "name": "Elmalılı Hamdi Yazır",
+   "author": "Elmalili Hamdi Yazir",
+   "lang": "tr"
+  },
+  {
+   "id": "124",
+   "name": "Muslim Shahin",
+   "author": "Muslim Shahin",
+   "lang": "tr"
+  },
+  {
+   "id": "112",
+   "name": "Shaban Britch",
+   "author": "Shaban Britch",
+   "lang": "tr"
+  },
+  {
+   "id": "210",
+   "name": "Dar Al-Salam Center",
+   "author": "Dar Al-Salam Center",
+   "lang": "tr"
+  },
+  {
+   "id": "20",
+   "name": "Saheeh International",
+   "author": "Saheeh International",
+   "lang": "en"
+  },
+  {
+   "id": "85",
+   "name": "M.A.S. Abdel Haleem",
+   "author": "Abdul Haleem",
+   "lang": "en"
+  }
+ ],
+ "word_sources": {
+  "words": {
+   "name": "quran.com",
+   "url": "https://quran.com",
+   "fields": "kelime, transliterasyon, İngilizce anlam, Türkçe mealler",
+   "fetched_at": "2026-10-04T15:45:45.577977+00:00"
+  },
+  "morphology": {
+   "name": "Quranic Arabic Corpus (v0.4, Kais Dukes, GNU GPL)",
+   "url": "https://corpus.quran.com",
+   "fields": "dilbilgisi etiketleri, kök"
+  },
+  "text": {
+   "name": "Tanzil Quran Text (Uthmani 1.0.2)",
+   "url": "https://tanzil.info"
+  },
+  "tr_words": {
+   "name": "Claude (makine çevirisi)",
+   "fields": "Türkçe kelime anlamları"
+  }
+ }
+}

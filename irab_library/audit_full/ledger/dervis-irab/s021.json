@@ -1,0 +1,348 @@
+{
+"dervis-irab:34-40": {
+"p1": {
+"ar": "e05239da000c",
+"tr": "1d7b77312f7a",
+"en": "277bf7194a4d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u81",
+"at": "2026-10-10 19:39",
+"fixed": false
+}
+},
+"dervis-irab:41-47": {
+"p1": {
+"ar": "4a7e3feffbeb",
+"tr": "546f0b78d7c5",
+"en": "ad40d2fee53b",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English rendered the proverb إن الكلى تذيب شحم الكلى as \"The pastures (al-kalaʾ)\" though source says جمع كلأة (debts/loans, as in the preceding istaklaʾtu = borrowed); changed to \"Debts (al-kulā)\" with note.",
+"by": "dervis-irab-u81",
+"at": "2026-10-10 19:40",
+"fixed": true
+},
+"p2": {
+"ar": "4a7e3feffbeb",
+"tr": "546f0b78d7c5",
+"en": "ad40d2fee53b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u31",
+"at": "2026-10-16 19:28",
+"fixed": false
+}
+},
+"dervis-irab:83-88": {
+"p1": {
+"ar": "fa2b2f74caa3",
+"tr": "78fd1974907a",
+"en": "fdb83e649029",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR: unmarked insertion \"(Bir kimse için)\" before «ذا النون» denmesinin (Arabic: وقيل ذا النون لأنه رأى صبيا) removed.",
+"by": "dervis-irab-p1-u1",
+"at": "2026-10-17 00:19",
+"fixed": true
+},
+"p2": {
+"ar": "fa2b2f74caa3",
+"tr": "78fd1974907a",
+"en": "fdb83e649029",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u1",
+"at": "2026-10-17 00:31",
+"fixed": false
+}
+},
+"dervis-irab:89-93": {
+"p1": {
+"ar": "1ffb5637573e",
+"tr": "dea45c163c74",
+"en": "91169769ea34",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u82",
+"at": "2026-10-10 19:40",
+"fixed": false
+}
+},
+"dervis-irab:48-55": {
+"p1": {
+"ar": "a9eab44b8ae4",
+"tr": "095f7e4edd18",
+"en": "fc1bd82d8f67",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u81",
+"at": "2026-10-10 19:40",
+"fixed": false
+}
+},
+"dervis-irab:56-61": {
+"p1": {
+"ar": "a6e8bc755331",
+"tr": "cb12eb893b87",
+"en": "0934c38a686a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u81",
+"at": "2026-10-10 19:40",
+"fixed": false
+}
+},
+"dervis-irab:62-70": {
+"p1": {
+"ar": "74215fcdc172",
+"tr": "5412e2b94bdc",
+"en": "3f2ec361e780",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u14",
+"at": "2026-10-17 00:58",
+"fixed": false
+},
+"p2": {
+"ar": "74215fcdc172",
+"tr": "5412e2b94bdc",
+"en": "3f2ec361e780",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u10",
+"at": "2026-10-17 01:08",
+"fixed": false
+}
+},
+"dervis-irab:71-75": {
+"p1": {
+"ar": "a09a1c72ec19",
+"tr": "b44eb807842e",
+"en": "885d5e140e0d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u81",
+"at": "2026-10-10 19:40",
+"fixed": false
+}
+},
+"dervis-irab:76-82": {
+"p1": {
+"ar": "765524789e2a",
+"tr": "d3abef8e3302",
+"en": "158485e3965d",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English rendered Abu Hurayra \"إن كنت سمعت بالسكين قبل ذلك ما كنت أقول إلا المدية\" as \"though I had heard of the word sikkin before\", reversing the negative; corrected to \"I had not heard the word sikkin before that\" with translator note.",
+"by": "dervis-irab-u81",
+"at": "2026-10-10 19:41",
+"fixed": true
+},
+"p2": {
+"ar": "765524789e2a",
+"tr": "d3abef8e3302",
+"en": "158485e3965d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u31",
+"at": "2026-10-16 19:28",
+"fixed": false
+}
+},
+"dervis-irab:1-5": {
+"p1": {
+"ar": "d0c86ec16d47",
+"tr": "b13c9f21bec3",
+"en": "b3a54d860271",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "In the Abu al-Baqa passage on the diptote the source reads \"وهو على القولين هنا ولذلك لم ينون\" with no predicate; both readings had silently supplied \"gayr-i munsarif\" / \"[non-tanwinned]\" as if in the source; replaced with a marked translator note.",
+"by": "dervis-irab-u81",
+"at": "2026-10-10 19:41",
+"fixed": true
+},
+"p2": {
+"ar": "d0c86ec16d47",
+"tr": "b13c9f21bec3",
+"en": "b3a54d860271",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u31",
+"at": "2026-10-16 19:28",
+"fixed": false
+}
+},
+"dervis-irab:6-13": {
+"p1": {
+"ar": "9c26b00d69b9",
+"tr": "20bc3c3c5c9e",
+"en": "228d33194c7b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u81",
+"at": "2026-10-10 19:41",
+"fixed": false
+},
+"p2": {
+"ar": "9c26b00d69b9",
+"tr": "20bc3c3c5c9e",
+"en": "228d33194c7b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u31",
+"at": "2026-10-16 19:28",
+"fixed": false
+}
+},
+"dervis-irab:94-100": {
+"p1": {
+"ar": "0bcb831ec060",
+"tr": "1d16bc8bc3be",
+"en": "79e80481e3ef",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u1",
+"at": "2026-10-17 00:20",
+"fixed": false
+},
+"p2": {
+"ar": "0bcb831ec060",
+"tr": "1d16bc8bc3be",
+"en": "79e80481e3ef",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN: al-Zajjaj \"حرام ... حكمنا بإهلاكها أن نتقبل أعمالهم\" was rendered \"We decreed the destruction so that We do not accept\" (false purpose link); fixed to \"it is forbidden that We accept their deeds\"; also bracketed supplied \"(some remoteness)\".",
+"by": "dervis-irab-p2-u3",
+"at": "2026-10-17 00:02",
+"fixed": true
+}
+},
+"dervis-irab:101-105": {
+"p1": {
+"ar": "e59f3b054176",
+"tr": "3bf4419a659d",
+"en": "567dba414718",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u82",
+"at": "2026-10-10 19:41",
+"fixed": false
+}
+},
+"dervis-irab:14-23": {
+"p1": {
+"ar": "f4e5d0b2de41",
+"tr": "76bf714ba659",
+"en": "6d5b3363d242",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish had silently changed the source \"من باب قتل\" (lahawtu bihi lahwan) to \"قعد\" with a note; restored as written (the English already reads qatala).",
+"by": "dervis-irab-u81",
+"at": "2026-10-10 19:41",
+"fixed": true
+},
+"p2": {
+"ar": "f4e5d0b2de41",
+"tr": "76bf714ba659",
+"en": "6d5b3363d242",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u31",
+"at": "2026-10-16 19:28",
+"fixed": false
+}
+},
+"dervis-irab:24-29": {
+"p1": {
+"ar": "b80e96a141f9",
+"tr": "6d8c1d678b00",
+"en": "afac211c289f",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish had an unmarked insertion \"(sırasıyla ikinci ve üçüncü)\" for \"وهاتان صفتان ثانيتان\"; replaced by a marked translator note.",
+"by": "dervis-irab-u81",
+"at": "2026-10-10 19:42",
+"fixed": true
+},
+"p2": {
+"ar": "b80e96a141f9",
+"tr": "6d8c1d678b00",
+"en": "afac211c289f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u3",
+"at": "2026-10-17 00:04",
+"fixed": false
+}
+},
+"dervis-irab:30-33": {
+"p1": {
+"ar": "ff536ffc2e0e",
+"tr": "503a09cfb7e5",
+"en": "4b0b61954c48",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u81",
+"at": "2026-10-10 19:42",
+"fixed": false
+}
+},
+"dervis-irab:106-112": {
+"p1": {
+"ar": "ff6600767907",
+"tr": "50ea7cbd9273",
+"en": "f469f242fd33",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u82",
+"at": "2026-10-10 19:42",
+"fixed": false
+}
+}
+}

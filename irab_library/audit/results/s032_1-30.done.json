@@ -1,0 +1,12 @@
+{
+ "surah": 32,
+ "chunk": "1-30",
+ "verdicts": {
+  "OK": 97,
+  "SOURCE_MISPLACED": 1,
+  "TRANSLATION_FIXED": 1,
+  "GAP": 9
+ },
+ "summary": "Surah 32 ayahs 1-30: 5 high NEAR findings all OK (neighbouring-ayah proof quotations); 18 low XREF/UNFOUND all OK; SEM sample ~75 entries across 14 books checked, all match ayah-to-ayah. Real issues: mekki-muskil:17-17 contains a paragraph on 32:23 (SOURCE_MISPLACED, TR/EN flag it); fixed one TR glitch in muyesser-irab:30-30 (TRANSLATION_FIXED). 9 books have GAPs (selective sources).",
+ "at": "2026-10-10 15:06"
+}

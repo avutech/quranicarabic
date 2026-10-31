@@ -1,0 +1,56 @@
+{
+"dervis-irab:1-3": {
+"p1": {
+"ar": "5cfa31544e49",
+"tr": "93fa1a214663",
+"en": "1ae3fa4e617b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u93",
+"at": "2026-10-10 19:44",
+"fixed": false
+}
+},
+"dervis-irab:4-7": {
+"p1": {
+"ar": "8d0e15db3bc6",
+"tr": "d20a12ee578e",
+"en": "410926d40d6b",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR: silently corrected «بغض أبصارهم» and «تضارّوهم»; added Mütercim notu as in EN",
+"by": "dervis-irab-u93",
+"at": "2026-10-10 19:44",
+"fixed": true
+},
+"p2": {
+"ar": "8d0e15db3bc6",
+"tr": "d20a12ee578e",
+"en": "410926d40d6b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u6",
+"at": "2026-10-17 00:03",
+"fixed": false
+}
+},
+"dervis-irab:8-12": {
+"p1": {
+"ar": "b723740e3fd0",
+"tr": "a426438b2868",
+"en": "61d2bef0fbe4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u93",
+"at": "2026-10-10 19:45",
+"fixed": false
+}
+}
+}

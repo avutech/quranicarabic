@@ -1,0 +1,2111 @@
+{
+"harrat-mujtaba:178-178": {
+"hs": [
+"84801372d604",
+"f26ad79190b5",
+"18e85e17fe91"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic is only «الجملة مستأنفة في حيز القول»; TR prefixes «(إِنِّي لَكُمْ رَسُولٌ أَمِينٌ)». The quoted ayah phrase is placed OUTSIDE the note bracket, which only says 'phrase discussed'; the phrase itself is therefore an unmarked addition (prior audit stripped the same prefix in harrat-mujtaba 19, 45, 59:13). Rest of the reading matches the Arabic. Fix: drop the prefix or put the phrase inside the note.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: «الجملة مستأنفة في حيز القول» only; TR prefixes (إِنِّي لَكُمْ رَسُولٌ أَمِينٌ) outside the Mütercim notu. The Arabic source has no ayah quotation; the parenthesized phrase is placed OUTSIDE the note (only the label 'phrase discussed' is inside it), so it is an unmarked addition. Fix: move the phrase inside the note. Rest of the rendering is accurate.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"verified": "PASS",
+"verify_note": "Ayah prefix removed; reading now renders only الجملة مستأنفة في حيز القول, faithfully."
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic is only «الجملة مستأنفة في حيز القول»; EN prefixes «(إني لكم رسول أمين)». The quoted ayah phrase is placed OUTSIDE the note bracket, which only says 'phrase discussed'; the phrase itself is therefore an unmarked addition (prior audit stripped the same prefix in harrat-mujtaba 19, 45, 59:13). Rest of the reading matches the Arabic. Fix: drop the prefix or put the phrase inside the note.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: «الجملة مستأنفة في حيز القول» only; EN prefixes (إني لكم رسول أمين) outside the Translator's note. The Arabic source has no ayah quotation; the parenthesized phrase is placed OUTSIDE the note (only the label 'phrase discussed' is inside it), so it is an unmarked addition. Fix: move the phrase inside the note. Rest of the rendering is accurate.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"verified": "PASS",
+"verify_note": "Ayah prefix removed; reading now renders only الجملة مستأنفة في حيز القول, faithfully."
+}
+},
+"history": [
+{
+"old_hs": [
+"84801372d604",
+"878f76f5e757",
+"fe4246a9a44d"
+],
+"dim": "en",
+"what": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"at": "2026-10-17 00:42"
+},
+{
+"old_hs": [
+"84801372d604",
+"878f76f5e757",
+"fe4246a9a44d"
+],
+"dim": "tr",
+"what": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"at": "2026-10-17 00:42"
+}
+]
+},
+"harrat-mujtaba:189-189": {
+"hs": [
+"ef5f890bda0b",
+"26e0fd12fd74",
+"b3ab376f4f93"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic begins «الفاء مستأنفة، وجملة «إنه كان» حال...» with no ayah quote; EN prefixes the whole ayah «(فكذبوه فأخذهم عذاب يوم الظلة إنه كان عذاب يوم عظيم)». The quoted ayah phrase is placed OUTSIDE the note bracket, which only says 'phrase discussed'; the phrase itself is therefore an unmarked addition (prior audit stripped the same prefix in harrat-mujtaba 19, 45, 59:13). Rest of the reading matches the Arabic. Fix: drop the prefix or put the phrase inside the note.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: «الفاء مستأنفة، وجملة إنه كان حال...» has no full-ayah quote; EN prefixes (فكذبوه فأخذهم عذاب يوم الظلة إنه كان عذاب يوم عظيم) outside the note. The Arabic source has no ayah quotation; the parenthesized phrase is placed OUTSIDE the note (only the label 'phrase discussed' is inside it), so it is an unmarked addition. Fix: move the phrase inside the note. Rest of the rendering is accurate.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"verified": "PASS",
+"verify_note": "Full-ayah prefix removed; reading renders the fāʾ as resumptive and «إنه كان» as ḥāl of «عذاب يوم الظلة», faithfully."
+}
+},
+"history": [
+{
+"old_hs": [
+"ef5f890bda0b",
+"26e0fd12fd74",
+"177b91f02d9d"
+],
+"dim": "en",
+"what": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"at": "2026-10-17 00:42"
+}
+]
+},
+"harrat-mujtaba:190-190": {
+"hs": [
+"7bda9169b6c7",
+"e964809245c8",
+"4b10e4079374"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic is only «جملة النفي معترضة»; TR prefixes «(وَمَا كَانَ أَكْثَرُهُمْ مُؤْمِنِينَ)». The quoted ayah phrase is placed OUTSIDE the note bracket, which only says 'phrase discussed'; the phrase itself is therefore an unmarked addition (prior audit stripped the same prefix in harrat-mujtaba 19, 45, 59:13). Rest of the reading matches the Arabic. Fix: drop the prefix or put the phrase inside the note.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: «جملة النفي معترضة» only; TR prefixes (وَمَا كَانَ أَكْثَرُهُمْ مُؤْمِنِينَ) outside the note. The Arabic source has no ayah quotation; the parenthesized phrase is placed OUTSIDE the note (only the label 'phrase discussed' is inside it), so it is an unmarked addition. Fix: move the phrase inside the note. Rest of the rendering is accurate.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"verified": "PASS",
+"verify_note": "Ayah prefix removed; reading renders only جملة النفي معترضة, faithfully."
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic is only «جملة النفي معترضة»; EN prefixes «(وما كان أكثرهم مؤمنين)». The quoted ayah phrase is placed OUTSIDE the note bracket, which only says 'phrase discussed'; the phrase itself is therefore an unmarked addition (prior audit stripped the same prefix in harrat-mujtaba 19, 45, 59:13). Rest of the reading matches the Arabic. Fix: drop the prefix or put the phrase inside the note.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: «جملة النفي معترضة» only; EN prefixes (وما كان أكثرهم مؤمنين) outside the note. The Arabic source has no ayah quotation; the parenthesized phrase is placed OUTSIDE the note (only the label 'phrase discussed' is inside it), so it is an unmarked addition. Fix: move the phrase inside the note. Rest of the rendering is accurate.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"verified": "PASS",
+"verify_note": "Ayah prefix removed; reading renders only جملة النفي معترضة, faithfully."
+}
+},
+"history": [
+{
+"old_hs": [
+"7bda9169b6c7",
+"b56819e5ac81",
+"47281a0e45c4"
+],
+"dim": "en",
+"what": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"at": "2026-10-17 00:42"
+},
+{
+"old_hs": [
+"7bda9169b6c7",
+"b56819e5ac81",
+"47281a0e45c4"
+],
+"dim": "tr",
+"what": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"at": "2026-10-17 00:42"
+}
+]
+},
+"harrat-mujtaba:194-194": {
+"hs": [
+"f3587304b6c3",
+"15a13b4c387c",
+"35f3b4ab54ec"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic is only «المصدر المجرور متعلق بـ {نَزَلَ}»; TR prefixes «(لِتَكُونَ مِنَ الْمُنْذِرِينَ)» (correct identification, but not in the source). The quoted ayah phrase is placed OUTSIDE the note bracket, which only says 'phrase discussed'; the phrase itself is therefore an unmarked addition (prior audit stripped the same prefix in harrat-mujtaba 19, 45, 59:13). Rest of the reading matches the Arabic. Fix: drop the prefix or put the phrase inside the note.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: «المصدر المجرور متعلق بـ نزل» only; TR prefixes (لِتَكُونَ مِنَ الْمُنْذِرِينَ) outside the note. The Arabic source has no ayah quotation; the parenthesized phrase is placed OUTSIDE the note (only the label 'phrase discussed' is inside it), so it is an unmarked addition. Fix: move the phrase inside the note. Rest of the rendering is accurate.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"verified": "PASS",
+"verify_note": "Ayah prefix removed; reading renders only المصدر المجرور متعلق بـ {نزل}, faithful and glossary-consistent."
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic is only «المصدر المجرور متعلق بـ {نَزَلَ}»; EN prefixes «(لتكون من المنذرين)» (correct identification, but not in the source). The quoted ayah phrase is placed OUTSIDE the note bracket, which only says 'phrase discussed'; the phrase itself is therefore an unmarked addition (prior audit stripped the same prefix in harrat-mujtaba 19, 45, 59:13). Rest of the reading matches the Arabic. Fix: drop the prefix or put the phrase inside the note.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: «المصدر المجرور متعلق بـ نزل» only; EN prefixes (لتكون من المنذرين) outside the note. The Arabic source has no ayah quotation; the parenthesized phrase is placed OUTSIDE the note (only the label 'phrase discussed' is inside it), so it is an unmarked addition. Fix: move the phrase inside the note. Rest of the rendering is accurate.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"verified": "PASS",
+"verify_note": "Ayah prefix removed; reading renders only المصدر المجرور متعلق بـ {نزل}, faithful and glossary-consistent."
+}
+},
+"history": [
+{
+"old_hs": [
+"f3587304b6c3",
+"f87732c2b97f",
+"269436645a98"
+],
+"dim": "en",
+"what": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"at": "2026-10-17 00:42"
+},
+{
+"old_hs": [
+"f3587304b6c3",
+"f87732c2b97f",
+"269436645a98"
+],
+"dim": "tr",
+"what": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"at": "2026-10-17 00:42"
+}
+]
+},
+"harrat-mujtaba:198-198": {
+"hs": [
+"c1d51e6d8529",
+"d6e96b8b9886",
+"50c50cb60b9c"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic is only «جملة الشرط معطوفة على جملة «لم يكن لهم آية»»; TR prefixes «(وَلَوْ نَزَّلْنَاهُ عَلَى بَعْضِ الْأَعْجَمِينَ)». The quoted ayah phrase is placed OUTSIDE the note bracket, which only says 'phrase discussed'; the phrase itself is therefore an unmarked addition (prior audit stripped the same prefix in harrat-mujtaba 19, 45, 59:13). Rest of the reading matches the Arabic. Fix: drop the prefix or put the phrase inside the note.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: «جملة الشرط معطوفة على جملة لم يكن لهم آية» only; TR prefixes (وَلَوْ نَزَّلْنَاهُ عَلَى بَعْضِ الْأَعْجَمِينَ) outside the note. The Arabic source has no ayah quotation; the parenthesized phrase is placed OUTSIDE the note (only the label 'phrase discussed' is inside it), so it is an unmarked addition. Fix: move the phrase inside the note. Rest of the rendering is accurate.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"verified": "PASS",
+"verify_note": "Ayah prefix removed; reading renders only the conjoined-conditional statement, faithful and glossary-consistent."
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic is only «جملة الشرط معطوفة على جملة «لم يكن لهم آية»»; EN prefixes «(ولو نزلناه على بعض الأعجمين)». The quoted ayah phrase is placed OUTSIDE the note bracket, which only says 'phrase discussed'; the phrase itself is therefore an unmarked addition (prior audit stripped the same prefix in harrat-mujtaba 19, 45, 59:13). Rest of the reading matches the Arabic. Fix: drop the prefix or put the phrase inside the note.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: «جملة الشرط معطوفة على جملة لم يكن لهم آية» only; EN prefixes (ولو نزلناه على بعض الأعجمين) outside the note. The Arabic source has no ayah quotation; the parenthesized phrase is placed OUTSIDE the note (only the label 'phrase discussed' is inside it), so it is an unmarked addition. Fix: move the phrase inside the note. Rest of the rendering is accurate.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"verified": "PASS",
+"verify_note": "Ayah prefix removed; reading renders only the conjoined-conditional statement, faithful and glossary-consistent."
+}
+},
+"history": [
+{
+"old_hs": [
+"c1d51e6d8529",
+"b2ed8018bf08",
+"baa54e6519fa"
+],
+"dim": "en",
+"what": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"at": "2026-10-17 00:42"
+},
+{
+"old_hs": [
+"c1d51e6d8529",
+"b2ed8018bf08",
+"baa54e6519fa"
+],
+"dim": "tr",
+"what": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"at": "2026-10-17 00:42"
+}
+]
+},
+"harrat-mujtaba:200-200": {
+"hs": [
+"e04e9fe9e685",
+"0948f7ea0a23",
+"cee08e87a083"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic begins «الكاف نائب مفعول مطلق...» with no lemma; EN prefixes «(كذلك سلكناه)». The quoted ayah phrase is placed OUTSIDE the note bracket, which only says 'phrase discussed'; the phrase itself is therefore an unmarked addition (prior audit stripped the same prefix in harrat-mujtaba 19, 45, 59:13). Rest of the reading matches the Arabic. Fix: drop the prefix or put the phrase inside the note.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source begins «الكاف نائب مفعول مطلق»; EN prefixes (كذلك سلكناه) outside the note, an unmarked addition. Also the gloss '(We inserted it with an inserting like that inserting)' after the taqdir «سلكناه سَلْكًا مثلَ ذلك السلك» is not in the Arabic and is unmarked. Fix: put both inside Translator's notes.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged"
+}
+},
+"history": [
+{
+"old_hs": [
+"e04e9fe9e685",
+"0948f7ea0a23",
+"9321f8902e75"
+],
+"dim": "en",
+"what": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"at": "2026-10-17 00:42"
+}
+]
+},
+"harrat-mujtaba:212-212": {
+"hs": [
+"ca1ad87f221e",
+"6318576cedb0",
+"b1740aa1cdb6"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic begins «الجملة مستأنفة، والجار «عن السمع»...»; TR prefixes «(إنهم عن السمع لمعزولون)». The quoted ayah phrase is placed OUTSIDE the note bracket, which only says 'phrase discussed'; the phrase itself is therefore an unmarked addition (prior audit stripped the same prefix in harrat-mujtaba 19, 45, 59:13). Rest of the reading matches the Arabic. Fix: drop the prefix or put the phrase inside the note.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: «الجملة مستأنفة، والجار عن السمع متعلق بـ معزولون، واللام المزحلقة»; TR prefixes (إنهم عن السمع لمعزولون) outside the note. The Arabic source has no ayah quotation; the parenthesized phrase is placed OUTSIDE the note (only the label 'phrase discussed' is inside it), so it is an unmarked addition. Fix: move the phrase inside the note. Rest of the rendering is accurate.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"verified": "PASS",
+"verify_note": "Unmarked ayah-phrase prefix removed; reading now complete and faithful to the Arabic, nothing added, no new issues."
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic begins «الجملة مستأنفة، والجار «عن السمع»...»; EN prefixes «(إنهم عن السمع لمعزولون)». The quoted ayah phrase is placed OUTSIDE the note bracket, which only says 'phrase discussed'; the phrase itself is therefore an unmarked addition (prior audit stripped the same prefix in harrat-mujtaba 19, 45, 59:13). Rest of the reading matches the Arabic. Fix: drop the prefix or put the phrase inside the note.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: «الجملة مستأنفة، والجار عن السمع متعلق بـ معزولون، واللام المزحلقة»; EN prefixes (إنهم عن السمع لمعزولون) outside the note. The Arabic source has no ayah quotation; the parenthesized phrase is placed OUTSIDE the note (only the label 'phrase discussed' is inside it), so it is an unmarked addition. Fix: move the phrase inside the note. Rest of the rendering is accurate.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"verified": "PASS",
+"verify_note": "Unmarked ayah-phrase prefix removed; reading now complete and faithful to the Arabic, nothing added, no new issues."
+}
+},
+"history": [
+{
+"old_hs": [
+"ca1ad87f221e",
+"8da5f7f09811",
+"d02c581b9d43"
+],
+"dim": "en",
+"what": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"at": "2026-10-17 00:42"
+},
+{
+"old_hs": [
+"ca1ad87f221e",
+"8da5f7f09811",
+"d02c581b9d43"
+],
+"dim": "tr",
+"what": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"at": "2026-10-17 00:42"
+}
+]
+},
+"harrat-mujtaba:220-220": {
+"hs": [
+"a12b3f059d31",
+"9e739219890f",
+"0f67ace9ed6c"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic is «الجملة مستأنفة، «هو» توكيد للهاء، «العليم» خبر ثان»; TR prefixes «(إنه هو السميع العليم)». The quoted ayah phrase is placed OUTSIDE the note bracket, which only says 'phrase discussed'; the phrase itself is therefore an unmarked addition (prior audit stripped the same prefix in harrat-mujtaba 19, 45, 59:13). Rest of the reading matches the Arabic. Fix: drop the prefix or put the phrase inside the note.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: «الجملة مستأنفة، هو توكيد للهاء، العليم خبر ثان»; TR prefixes (إنه هو السميع العليم) outside the note. The Arabic source has no ayah quotation; the parenthesized phrase is placed OUTSIDE the note (only the label 'phrase discussed' is inside it), so it is an unmarked addition. Fix: move the phrase inside the note. Rest of the rendering is accurate.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"verified": "PASS",
+"verify_note": "Unmarked ayah-phrase prefix removed; reading now complete and faithful to the Arabic, nothing added, no new issues."
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic is «الجملة مستأنفة، «هو» توكيد للهاء، «العليم» خبر ثان»; EN prefixes «(إنه هو السميع العليم)». The quoted ayah phrase is placed OUTSIDE the note bracket, which only says 'phrase discussed'; the phrase itself is therefore an unmarked addition (prior audit stripped the same prefix in harrat-mujtaba 19, 45, 59:13). Rest of the reading matches the Arabic. Fix: drop the prefix or put the phrase inside the note.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: «الجملة مستأنفة، هو توكيد للهاء، العليم خبر ثان»; EN prefixes (إنه هو السميع العليم) outside the note. The Arabic source has no ayah quotation; the parenthesized phrase is placed OUTSIDE the note (only the label 'phrase discussed' is inside it), so it is an unmarked addition. Fix: move the phrase inside the note. Rest of the rendering is accurate.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"verified": "PASS",
+"verify_note": "Unmarked ayah-phrase prefix removed; reading now complete and faithful to the Arabic, nothing added, no new issues."
+}
+},
+"history": [
+{
+"old_hs": [
+"a12b3f059d31",
+"1030fec60a73",
+"08b54119b355"
+],
+"dim": "en",
+"what": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"at": "2026-10-17 00:42"
+},
+{
+"old_hs": [
+"a12b3f059d31",
+"1030fec60a73",
+"08b54119b355"
+],
+"dim": "tr",
+"what": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"at": "2026-10-17 00:42"
+}
+]
+},
+"harrat-mujtaba:225-225": {
+"hs": [
+"103b2636301c",
+"f7526aa8f804",
+"b8473677cecd"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic begins «المصدر سدَّ مسدَّ مفعولي رأى...»; EN prefixes «(ألم تر أنهم في كل واد يهيمون)». The quoted ayah phrase is placed OUTSIDE the note bracket, which only says 'phrase discussed'; the phrase itself is therefore an unmarked addition (prior audit stripped the same prefix in harrat-mujtaba 19, 45, 59:13). Rest of the reading matches the Arabic. Fix: drop the prefix or put the phrase inside the note.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source begins «المصدر سدَّ مسدَّ مفعولي رأى»; EN prefixes (ألم تر أنهم في كل واد يهيمون) outside the note. The Arabic source has no ayah quotation; the parenthesized phrase is placed OUTSIDE the note (only the label 'phrase discussed' is inside it), so it is an unmarked addition. Fix: move the phrase inside the note. Rest of the rendering is accurate.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"verified": "PASS",
+"verify_note": "Unmarked ayah-phrase prefix removed; reading now complete and faithful to the Arabic, nothing added, no new issues."
+}
+},
+"history": [
+{
+"old_hs": [
+"103b2636301c",
+"f7526aa8f804",
+"b5751bba1728"
+],
+"dim": "en",
+"what": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"at": "2026-10-17 00:42"
+}
+]
+},
+"harrat-mujtaba:226-226": {
+"hs": [
+"a4dede7dbcd2",
+"4f355ac81c8f",
+"eea77c30a763"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic is «المصدر معطوف على المصدر السابق، «ما» اسم موصول مفعول به»; EN prefixes «(وأنهم يقولون ما لا يفعلون)». The quoted ayah phrase is placed OUTSIDE the note bracket, which only says 'phrase discussed'; the phrase itself is therefore an unmarked addition (prior audit stripped the same prefix in harrat-mujtaba 19, 45, 59:13). Rest of the reading matches the Arabic. Fix: drop the prefix or put the phrase inside the note.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: «المصدر معطوف على المصدر السابق، ما اسم موصول مفعول به»; EN prefixes (وأنهم يقولون ما لا يفعلون) outside the note. The Arabic source has no ayah quotation; the parenthesized phrase is placed OUTSIDE the note (only the label 'phrase discussed' is inside it), so it is an unmarked addition. Fix: move the phrase inside the note. Rest of the rendering is accurate.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"verified": "PASS",
+"verify_note": "Unmarked ayah-phrase prefix removed; reading now complete and faithful to the Arabic, nothing added, no new issues."
+}
+},
+"history": [
+{
+"old_hs": [
+"a4dede7dbcd2",
+"4f355ac81c8f",
+"ec99d4e57a25"
+],
+"dim": "en",
+"what": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"at": "2026-10-17 00:42"
+}
+]
+},
+"harrat-mujtaba:7-7": {
+"hs": [
+"718041774e45",
+"ef965210fb49",
+"96af27cf2e57"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "The Arabic source begins directly with the i'rab and contains no quoted ayah phrase; the reading prepends the parenthesized Arabic phrase (أولم يروا إلى الأرض كم أنبتنا فيها) outside the brackets of the translator note (the note only says \"phrase discussed\"), so the addition itself is not inside a [Mütercim notu]/[Translator's note]. The rest of the translation matches the Arabic. Fix: move the phrase inside the note.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic begins 'جملة الاستفهام مستأنفة' with no quoted phrase; TR prepends '(أولم يروا إلى الأرض كم أنبتنا فيها)'. The Arabic entry has no such heading phrase; the reading places the quoted ayah text in parentheses OUTSIDE the bracket, followed only by a label note ('phrase discussed'). The addition itself is not inside the note, so by the binding rule it is an unmarked addition; the grammar translation itself is otherwise faithful. Fix: move the phrase inside the note.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved the prefixed ayah phrase (outside the note) into the note: [Mütercim notu: tartışılan ifade: X]; rest unchanged",
+"verified": "PASS",
+"verify_note": "Ayah phrase now inside the translator note; body complete and faithful to the Arabic, nothing unmarked added."
+}
+},
+"history": [
+{
+"old_hs": [
+"718041774e45",
+"525de55449fe",
+"96af27cf2e57"
+],
+"dim": "tr",
+"what": "moved the prefixed ayah quote inside the Mütercim notu",
+"at": "2026-10-17 00:45"
+},
+{
+"old_hs": [
+"718041774e45",
+"ef965210fb49",
+"96af27cf2e57"
+],
+"dim": "tr",
+"what": "Moved the prefixed ayah phrase (outside the note) into the note: [Mütercim notu: tartışılan ifade: X]; rest unchanged",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"harrat-mujtaba:12-12": {
+"hs": [
+"18f9c49107ed",
+"39024e1985d3",
+"7cb880674352"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "The Arabic source begins directly with the i'rab and contains no quoted ayah phrase; the reading prepends the parenthesized Arabic phrase (أن يكذبون) outside the brackets of the translator note (the note only says \"phrase discussed\"), so the addition itself is not inside a [Mütercim notu]/[Translator's note]. The rest of the translation matches the Arabic. Fix: move the phrase inside the note.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic begins 'المصدر المؤول من أن وما بعدها'; TR prepends '(أن يكذبون)'. The Arabic entry has no such heading phrase; the reading places the quoted ayah text in parentheses OUTSIDE the bracket, followed only by a label note ('phrase discussed'). The addition itself is not inside the note, so by the binding rule it is an unmarked addition; the grammar translation itself is otherwise faithful. Fix: move the phrase inside the note.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved the prefixed ayah phrase (outside the note) into the note: [Mütercim notu: tartışılan ifade: X]; rest unchanged",
+"verified": "PASS",
+"verify_note": "Ayah phrase now inside the translator note; body complete and faithful to the Arabic, nothing unmarked added."
+}
+},
+"history": [
+{
+"old_hs": [
+"18f9c49107ed",
+"a109ac95fd04",
+"7cb880674352"
+],
+"dim": "tr",
+"what": "Moved the prefixed ayah phrase (outside the note) into the note: [Mütercim notu: tartışılan ifade: X]; rest unchanged",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"harrat-mujtaba:21-21": {
+"hs": [
+"9be00702c11b",
+"2020b2c81edb",
+"78f605d123b6"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "The Arabic source begins directly with the i'rab and contains no quoted ayah phrase; the reading prepends the parenthesized Arabic phrase (لما خفتكم) outside the brackets of the translator note (the note only says \"phrase discussed\"), so the addition itself is not inside a [Mütercim notu]/[Translator's note]. The rest of the translation matches the Arabic. Fix: move the phrase inside the note. Content (جملة الشرط معترضة بين المتعاطفين، «من المرسلين» متعلق بالمفعول الثاني) is otherwise correctly rendered.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic begins 'جملة الشرط معترضة بين المتعاطفين'; TR prepends '(لما خفتكم)'. The Arabic entry has no such heading phrase; the reading places the quoted ayah text in parentheses OUTSIDE the bracket, followed only by a label note ('phrase discussed'). The addition itself is not inside the note, so by the binding rule it is an unmarked addition; the grammar translation itself is otherwise faithful. Fix: move the phrase inside the note.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved the prefixed ayah phrase (outside the note) into the note: [Mütercim notu: tartışılan ifade: X]; rest unchanged",
+"verified": "PASS",
+"verify_note": "Ayah phrase inside Mütercim notu; i'tirâziyye, mahzûf cevap, متعلق بالمفعول الثاني faithful."
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "The Arabic source begins directly with the i'rab and contains no quoted ayah phrase; the reading prepends the parenthesized Arabic phrase (فوهب لي ربي حكما وجعلني من المرسلين) outside the brackets of the translator note (the note only says \"phrase discussed\"), so the addition itself is not inside a [Mütercim notu]/[Translator's note]. The rest of the translation matches the Arabic. Fix: move the phrase inside the note. Content (جملة الشرط معترضة بين المتعاطفين) is otherwise correctly rendered.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic begins 'جملة الشرط معترضة بين المتعاطفين'; EN prepends '(فوهب لي ربي حكما وجعلني من المرسلين)', which is moreover not the conditional clause the entry discusses (لما خفتكم). The Arabic entry has no such heading phrase; the reading places the quoted ayah text in parentheses OUTSIDE the bracket, followed only by a label note ('phrase discussed'). The addition itself is not inside the note, so by the binding rule it is an unmarked addition; the grammar translation itself is otherwise faithful. Fix: move the phrase inside the note.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved the prefixed ayah phrase (outside the note) into the note: [Translator's note: phrase discussed: X]; rest unchanged",
+"verified": "PASS",
+"verify_note": "Ayah phrase inside Translator's note; body complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"9be00702c11b",
+"fb8977dd6dca",
+"1717eea7fe79"
+],
+"dim": "tr",
+"what": "Moved the prefixed ayah phrase (outside the note) into the note: [Mütercim notu: tartışılan ifade: X]; rest unchanged",
+"at": "2026-10-17 00:45"
+},
+{
+"old_hs": [
+"9be00702c11b",
+"2020b2c81edb",
+"78f605d123b6"
+],
+"dim": "en",
+"what": "Moved the prefixed ayah phrase (outside the note) into the note: [Translator's note: phrase discussed: X]; rest unchanged",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"harrat-mujtaba:30-30": {
+"hs": [
+"1bfa81c2c280",
+"5415ce8f4800",
+"32e2edfa1c56"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "The Arabic source begins directly with the i'rab and contains no quoted ayah phrase; the reading prepends the parenthesized Arabic phrase (أولو جئتك بشيء مبين) outside the brackets of the translator note (the note only says \"phrase discussed\"), so the addition itself is not inside a [Mütercim notu]/[Translator's note]. The rest of the translation matches the Arabic. Fix: move the phrase inside the note.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic begins 'الواو حالية'; EN prepends '(أولو جئتك بشيء مبين)'. The Arabic entry has no such heading phrase; the reading places the quoted ayah text in parentheses OUTSIDE the bracket, followed only by a label note ('phrase discussed'). The addition itself is not inside the note, so by the binding rule it is an unmarked addition; the grammar translation itself is otherwise faithful. Fix: move the phrase inside the note.",
+"at": "2026-10-17 00:40"
+},
+"J3": {
+"class": "CONFIRMED",
+"evidence": "The Arabic entry begins directly with 'الواو حالية، ومقول القول مقدر...' and contains no lemma/heading. The English opens with '(أولو جئتك بشيء مبين)' placed OUTSIDE the bracket, followed by an adjacent '[Translator's note: phrase discussed]'; the added Quranic phrase itself is not inside the note, so it is an unmarked addition (the Turkish has no such heading). Fix: put it inside the note, e.g. '[Translator's note: phrase discussed: أولو جئتك بشيء مبين]'. The rest is faithful: الواو حالية = circumstantial wāw; مقول القول مقدر أي أتفعل بي ذلك = implied maqūl al-qawl; جملة «جئتك» حالية من ضمير المخاطب = ḥāl of the second-person pronoun; جواب الشرط محذوف دلّ عليه ما قبله = apodosis omitted, indicated by what precedes. The gloss '(would you do that to me?)' is an acceptable rendering of the quoted Arabic.",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved the prefixed ayah phrase (outside the note) into the note: [Translator's note: phrase discussed: X]; rest unchanged",
+"verified": "PASS",
+"verify_note": "Ayah phrase now inside the translator note; body complete and faithful to the Arabic, nothing unmarked added."
+}
+},
+"history": [
+{
+"old_hs": [
+"1bfa81c2c280",
+"5415ce8f4800",
+"d77063a26709"
+],
+"dim": "en",
+"what": "Moved the prefixed ayah phrase (outside the note) into the note: [Translator's note: phrase discussed: X]; rest unchanged",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"harrat-mujtaba:39-39": {
+"hs": [
+"9a4757710235",
+"ed0d76ca0988",
+"5f20c7a9b812"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "The Arabic source begins directly with the i'rab and contains no quoted ayah phrase; the reading prepends the parenthesized Arabic phrase (وقيل للناس هل أنتم مجتمعون) outside the brackets of the translator note (the note only says \"phrase discussed\"), so the addition itself is not inside a [Mütercim notu]/[Translator's note]. The rest of the translation matches the Arabic. Fix: move the phrase inside the note.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic begins 'نائب فاعل «قيل»'; EN prepends '(وقيل للناس هل أنتم مجتمعون)'. The Arabic entry has no such heading phrase; the reading places the quoted ayah text in parentheses OUTSIDE the bracket, followed only by a label note ('phrase discussed'). The addition itself is not inside the note, so by the binding rule it is an unmarked addition; the grammar translation itself is otherwise faithful. Fix: move the phrase inside the note.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved the prefixed ayah phrase (outside the note) into the note: [Translator's note: phrase discussed: X]; rest unchanged",
+"verified": "PASS",
+"verify_note": "Ayah phrase now inside the translator note; body complete and faithful, nothing unmarked added."
+}
+},
+"history": [
+{
+"old_hs": [
+"9a4757710235",
+"ed0d76ca0988",
+"a121ce7a5184"
+],
+"dim": "en",
+"what": "Moved the prefixed ayah phrase (outside the note) into the note: [Translator's note: phrase discussed: X]; rest unchanged",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"harrat-mujtaba:61-61": {
+"hs": [
+"aab667fe821e",
+"74dea1bdd3f1",
+"06ff86598154"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "The Arabic source begins directly with the i'rab and contains no quoted ayah phrase; the reading prepends the parenthesized Arabic phrase (فَلَمَّا تَرَاءَى الْجَمْعَانِ قَالَ أَصْحَابُ مُوسَى إِنَّا لَمُدْرَكُونَ) outside the brackets of the translator note (the note only says \"phrase discussed\"), so the addition itself is not inside a [Mütercim notu]/[Translator's note]. The rest of the translation matches the Arabic. Fix: move the phrase inside the note. Source is only: جملة الشرط مستأنفة، واللام المزحلقة.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic is only 'جملة الشرط مستأنفة، واللام المزحلقة'; TR prepends the whole ayah '(فَلَمَّا تَرَاءَى الْجَمْعَانِ ...)'. The Arabic entry has no such heading phrase; the reading places the quoted ayah text in parentheses OUTSIDE the bracket, followed only by a label note ('phrase discussed'). The addition itself is not inside the note, so by the binding rule it is an unmarked addition; the grammar translation itself is otherwise faithful. Fix: move the phrase inside the note.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved the prefixed ayah phrase (outside the note) into the note: [Mütercim notu: tartışılan ifade: X]; rest unchanged",
+"verified": "PASS",
+"verify_note": "Quoted ayah inside Mütercim notu; both statements faithful."
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "The Arabic source begins directly with the i'rab and contains no quoted ayah phrase; the reading prepends the parenthesized Arabic phrase (فلما تراءى الجمعان قال أصحاب موسى إنا لمدركون) outside the brackets of the translator note (the note only says \"phrase discussed\"), so the addition itself is not inside a [Mütercim notu]/[Translator's note]. The rest of the translation matches the Arabic. Fix: move the phrase inside the note. Source is only: جملة الشرط مستأنفة، واللام المزحلقة.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic is only 'جملة الشرط مستأنفة، واللام المزحلقة'; EN prepends '(فلما تراءى الجمعان قال أصحاب موسى إنا لمدركون)'. The Arabic entry has no such heading phrase; the reading places the quoted ayah text in parentheses OUTSIDE the bracket, followed only by a label note ('phrase discussed'). The addition itself is not inside the note, so by the binding rule it is an unmarked addition; the grammar translation itself is otherwise faithful. Fix: move the phrase inside the note.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved the prefixed ayah phrase (outside the note) into the note: [Translator's note: phrase discussed: X]; rest unchanged",
+"verified": "PASS",
+"verify_note": "Quoted ayah inside Translator's note; both statements faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"aab667fe821e",
+"9a2d60c08409",
+"b4d93e615b30"
+],
+"dim": "tr",
+"what": "Moved the prefixed ayah phrase (outside the note) into the note: [Mütercim notu: tartışılan ifade: X]; rest unchanged",
+"at": "2026-10-17 00:45"
+},
+{
+"old_hs": [
+"aab667fe821e",
+"74dea1bdd3f1",
+"06ff86598154"
+],
+"dim": "en",
+"what": "Moved the prefixed ayah phrase (outside the note) into the note: [Translator's note: phrase discussed: X]; rest unchanged",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"harrat-mujtaba:79-79": {
+"hs": [
+"a15f5dca24ee",
+"4cec3966765e",
+"db6094aa066a"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "The Arabic source begins directly with the i'rab and contains no quoted ayah phrase; the reading prepends the parenthesized Arabic phrase (وَالَّذِي هُوَ يُطْعِمُنِي وَيَسْقِينِ) outside the brackets of the translator note (the note only says \"phrase discussed\"), so the addition itself is not inside a [Mütercim notu]/[Translator's note]. The rest of the translation matches the Arabic. Fix: move the phrase inside the note. Source is only: الموصول معطوف على الموصول السابق.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic is only 'الموصول معطوف على الموصول السابق'; TR prepends '(وَالَّذِي هُوَ يُطْعِمُنِي وَيَسْقِينِ)'. The Arabic entry has no such heading phrase; the reading places the quoted ayah text in parentheses OUTSIDE the bracket, followed only by a label note ('phrase discussed'). The addition itself is not inside the note, so by the binding rule it is an unmarked addition; the grammar translation itself is otherwise faithful. Fix: move the phrase inside the note.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved the prefixed ayah phrase (outside the note) into the note: [Mütercim notu: tartışılan ifade: X]; rest unchanged",
+"verified": "PASS",
+"verify_note": "Ayah phrase now inside the translator note; body complete and faithful, nothing unmarked added."
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "The Arabic source begins directly with the i'rab and contains no quoted ayah phrase; the reading prepends the parenthesized Arabic phrase (والذي هو يطعمني ويسقين) outside the brackets of the translator note (the note only says \"phrase discussed\"), so the addition itself is not inside a [Mütercim notu]/[Translator's note]. The rest of the translation matches the Arabic. Fix: move the phrase inside the note. Source is only: الموصول معطوف على الموصول السابق.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic is only 'الموصول معطوف على الموصول السابق'; EN prepends '(والذي هو يطعمني ويسقين)'. The Arabic entry has no such heading phrase; the reading places the quoted ayah text in parentheses OUTSIDE the bracket, followed only by a label note ('phrase discussed'). The addition itself is not inside the note, so by the binding rule it is an unmarked addition; the grammar translation itself is otherwise faithful. Fix: move the phrase inside the note.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved the prefixed ayah phrase (outside the note) into the note: [Translator's note: phrase discussed: X]; rest unchanged",
+"verified": "PASS",
+"verify_note": "Ayah phrase now inside the translator note; body complete and faithful, nothing unmarked added."
+}
+},
+"history": [
+{
+"old_hs": [
+"a15f5dca24ee",
+"ed37f206b8f6",
+"ba40e085063d"
+],
+"dim": "tr",
+"what": "Moved the prefixed ayah phrase (outside the note) into the note: [Mütercim notu: tartışılan ifade: X]; rest unchanged",
+"at": "2026-10-17 00:45"
+},
+{
+"old_hs": [
+"a15f5dca24ee",
+"4cec3966765e",
+"db6094aa066a"
+],
+"dim": "en",
+"what": "Moved the prefixed ayah phrase (outside the note) into the note: [Translator's note: phrase discussed: X]; rest unchanged",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"harrat-mujtaba:82-82": {
+"hs": [
+"259b10b9430c",
+"416ac6288b03",
+"c060d9606152"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "The Arabic source begins directly with the i'rab and contains no quoted ayah phrase; the reading prepends the parenthesized Arabic phrase (والذي أطمع أن يغفر لي خطيئتي يوم الدين) outside the brackets of the translator note (the note only says \"phrase discussed\"), so the addition itself is not inside a [Mütercim notu]/[Translator's note]. The rest of the translation matches the Arabic. Fix: move the phrase inside the note.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic begins 'المصدر المؤول منصوب على نزع الخافض'; EN prepends '(والذي أطمع أن يغفر لي خطيئتي يوم الدين)'. The Arabic entry has no such heading phrase; the reading places the quoted ayah text in parentheses OUTSIDE the bracket, followed only by a label note ('phrase discussed'). The addition itself is not inside the note, so by the binding rule it is an unmarked addition; the grammar translation itself is otherwise faithful. Fix: move the phrase inside the note.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved the prefixed ayah phrase (outside the note) into the note: [Translator's note: phrase discussed: X]; rest unchanged",
+"verified": "PASS",
+"verify_note": "Quoted ayah inside Translator's note; nazʿ al-khāfiḍ and taʿalluq faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"259b10b9430c",
+"416ac6288b03",
+"bec083c49d1f"
+],
+"dim": "en",
+"what": "Moved the prefixed ayah phrase (outside the note) into the note: [Translator's note: phrase discussed: X]; rest unchanged",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"harrat-mujtaba:97-97": {
+"hs": [
+"923fd3f89f9d",
+"0009d2e7765c",
+"7d6ff7ad8efe"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "The Arabic source begins directly with the i'rab and contains no quoted ayah phrase; the reading prepends the parenthesized Arabic phrase (تَاللَّهِ إِنْ كُنَّا لَفِي ضَلَالٍ مُبِينٍ) outside the brackets of the translator note (the note only says \"phrase discussed\"), so the addition itself is not inside a [Mütercim notu]/[Translator's note]. The rest of the translation matches the Arabic. Fix: move the phrase inside the note. Also the bracketed [ardından] is an unmarked addition (not in وفعل ماض ناسخ واسمه) and should be inside a Mütercim notu.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic begins 'التاء للقسم'; TR prepends '(تَاللَّهِ إِنْ كُنَّا لَفِي ضَلَالٍ مُبِينٍ)'. The Arabic entry has no such heading phrase; the reading places the quoted ayah text in parentheses OUTSIDE the bracket, followed only by a label note ('phrase discussed'). The addition itself is not inside the note, so by the binding rule it is an unmarked addition; the grammar translation itself is otherwise faithful. Fix: move the phrase inside the note.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked verb 'gelir': '[Mütercim notu: ardından] nâsih mâzî fiil ve ismi gelir' -> '... fiil ve ismidir'; rest unchanged",
+"verify_note": "Ayah phrase and 'ardından' inside Mütercim notu; unmarked 'gelir' removed ('ve ismidir'); all clauses faithful to the Arabic.",
+"fix_failed": 1,
+"verified": "PASS"
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "The Arabic source begins directly with the i'rab and contains no quoted ayah phrase; the reading prepends the parenthesized Arabic phrase (تالله إن كنا لفي ضلال مبين) outside the brackets of the translator note (the note only says \"phrase discussed\"), so the addition itself is not inside a [Mütercim notu]/[Translator's note]. The rest of the translation matches the Arabic. Fix: move the phrase inside the note. Also bracketed [form] and [then] are unmarked additions (not in مخففة من الثقيلة / وفعل ماض ناسخ واسمه) and should be inside a Translator's note.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic begins 'التاء للقسم'; EN prepends '(تالله إن كنا لفي ضلال مبين)'. The Arabic entry has no such heading phrase; the reading places the quoted ayah text in parentheses OUTSIDE the bracket, followed only by a label note ('phrase discussed'). The addition itself is not inside the note, so by the binding rule it is an unmarked addition; the grammar translation itself is otherwise faithful. Fix: move the phrase inside the note.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved prefixed ayah phrase into [Translator's note: phrase discussed: …]; unmarked [form]/[then] -> [Translator's note: form]/[Translator's note: then]",
+"verified": "PASS",
+"verify_note": "Ayah phrase, 'form' and 'then' now inside Translator's notes; body complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"923fd3f89f9d",
+"0513286585e0",
+"dc8ccc654b96"
+],
+"dim": "tr",
+"what": "Moved prefixed ayah phrase into [Mütercim notu: tartışılan ifade: …]; unmarked [ardından] -> [Mütercim notu: ardından]",
+"at": "2026-10-17 00:45"
+},
+{
+"old_hs": [
+"923fd3f89f9d",
+"382c1ab3750d",
+"7d6ff7ad8efe"
+],
+"dim": "en",
+"what": "Moved prefixed ayah phrase into [Translator's note: phrase discussed: …]; unmarked [form]/[then] -> [Translator's note: form]/[Translator's note: then]",
+"at": "2026-10-17 00:45"
+},
+{
+"old_hs": [
+"923fd3f89f9d",
+"382c1ab3750d",
+"7d6ff7ad8efe"
+],
+"dim": "tr",
+"what": "Removed unmarked verb 'gelir': '[Mütercim notu: ardından] nâsih mâzî fiil ve ismi gelir' -> '... fiil ve ismidir'; rest unchanged",
+"at": "2026-10-17 00:48"
+}
+]
+},
+"harrat-mujtaba:102-102": {
+"hs": [
+"c8794ea48c76",
+"fde481265753",
+"88895d06418f"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "The Arabic source begins directly with the i'rab and contains no quoted ayah phrase; the reading prepends the parenthesized Arabic phrase (فَلَوْ أَنَّ لَنَا كَرَّةً فَنَكُونَ مِنَ الْمُؤْمِنِينَ) outside the brackets of the translator note (the note only says \"phrase discussed\"), so the addition itself is not inside a [Mütercim notu]/[Translator's note]. The rest of the translation matches the Arabic. Fix: move the phrase inside the note.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic begins 'جملة الشرط مستأنفة في حيز القول'; TR prepends '(فَلَوْ أَنَّ لَنَا كَرَّةً فَنَكُونَ مِنَ الْمُؤْمِنِينَ)'. The Arabic entry has no such heading phrase; the reading places the quoted ayah text in parentheses OUTSIDE the bracket, followed only by a label note ('phrase discussed'). The addition itself is not inside the note, so by the binding rule it is an unmarked addition; the grammar translation itself is otherwise faithful. Fix: move the phrase inside the note.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved the prefixed ayah phrase (outside the note) into the note: [Mütercim notu: tartışılan ifade: X]; rest unchanged",
+"verified": "PASS",
+"verify_note": "Ayah phrase now inside the translator note; body complete and faithful, nothing unmarked added."
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "The Arabic source begins directly with the i'rab and contains no quoted ayah phrase; the reading prepends the parenthesized Arabic phrase (فلو أن لنا كرة فنكون من المؤمنين) outside the brackets of the translator note (the note only says \"phrase discussed\"), so the addition itself is not inside a [Mütercim notu]/[Translator's note]. The rest of the translation matches the Arabic. Fix: move the phrase inside the note. (English glosses of the quoted taqdir ليت لنا رجوعًا... and لعملنا صالحا are acceptable translations.)",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic begins 'جملة الشرط مستأنفة في حيز القول'; EN prepends '(فلو أن لنا كرة فنكون من المؤمنين)'. The Arabic entry has no such heading phrase; the reading places the quoted ayah text in parentheses OUTSIDE the bracket, followed only by a label note ('phrase discussed'). The addition itself is not inside the note, so by the binding rule it is an unmarked addition; the grammar translation itself is otherwise faithful. Fix: move the phrase inside the note.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved the prefixed ayah phrase (outside the note) into the note: [Translator's note: phrase discussed: X]; rest unchanged",
+"verified": "PASS",
+"verify_note": "Ayah phrase now inside the translator note; body complete and faithful, nothing unmarked added."
+}
+},
+"history": [
+{
+"old_hs": [
+"c8794ea48c76",
+"754cf13d8f88",
+"1b5de1f97077"
+],
+"dim": "tr",
+"what": "Moved the prefixed ayah phrase (outside the note) into the note: [Mütercim notu: tartışılan ifade: X]; rest unchanged",
+"at": "2026-10-17 00:45"
+},
+{
+"old_hs": [
+"c8794ea48c76",
+"fde481265753",
+"88895d06418f"
+],
+"dim": "en",
+"what": "Moved the prefixed ayah phrase (outside the note) into the note: [Translator's note: phrase discussed: X]; rest unchanged",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"harrat-mujtaba:103-103": {
+"hs": [
+"8aa8cd7a300b",
+"c2d99c1e976d",
+"2352457414a4"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "The Arabic source begins directly with the i'rab and contains no quoted ayah phrase; the reading prepends the parenthesized Arabic phrase (وَمَا كَانَ أَكْثَرُهُمْ مُؤْمِنِينَ) outside the brackets of the translator note (the note only says \"phrase discussed\"), so the addition itself is not inside a [Mütercim notu]/[Translator's note]. The rest of the translation matches the Arabic. Fix: move the phrase inside the note. Source is only: جملة النفي معترضة بين المتعاطفين.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic is only 'جملة النفي معترضة بين المتعاطفين'; TR prepends '(وَمَا كَانَ أَكْثَرُهُمْ مُؤْمِنِينَ)'. The Arabic entry has no such heading phrase; the reading places the quoted ayah text in parentheses OUTSIDE the bracket, followed only by a label note ('phrase discussed'). The addition itself is not inside the note, so by the binding rule it is an unmarked addition; the grammar translation itself is otherwise faithful. Fix: move the phrase inside the note.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved the prefixed ayah phrase (outside the note) into the note: [Mütercim notu: tartışılan ifade: X]; rest unchanged",
+"verified": "PASS",
+"verify_note": "Ayah phrase now inside the translator note; body complete and faithful, nothing unmarked added."
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "The Arabic source begins directly with the i'rab and contains no quoted ayah phrase; the reading prepends the parenthesized Arabic phrase (وما كان أكثرهم مؤمنين) outside the brackets of the translator note (the note only says \"phrase discussed\"), so the addition itself is not inside a [Mütercim notu]/[Translator's note]. The rest of the translation matches the Arabic. Fix: move the phrase inside the note. Source is only: جملة النفي معترضة بين المتعاطفين.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic is only 'جملة النفي معترضة بين المتعاطفين'; EN prepends '(وما كان أكثرهم مؤمنين)'. The Arabic entry has no such heading phrase; the reading places the quoted ayah text in parentheses OUTSIDE the bracket, followed only by a label note ('phrase discussed'). The addition itself is not inside the note, so by the binding rule it is an unmarked addition; the grammar translation itself is otherwise faithful. Fix: move the phrase inside the note.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved the prefixed ayah phrase (outside the note) into the note: [Translator's note: phrase discussed: X]; rest unchanged",
+"verified": "PASS",
+"verify_note": "Ayah phrase now inside the translator note; body complete and faithful, nothing unmarked added."
+}
+},
+"history": [
+{
+"old_hs": [
+"8aa8cd7a300b",
+"8987210980f5",
+"1507bbd6a943"
+],
+"dim": "tr",
+"what": "Moved the prefixed ayah phrase (outside the note) into the note: [Mütercim notu: tartışılan ifade: X]; rest unchanged",
+"at": "2026-10-17 00:45"
+},
+{
+"old_hs": [
+"8aa8cd7a300b",
+"c2d99c1e976d",
+"2352457414a4"
+],
+"dim": "en",
+"what": "Moved the prefixed ayah phrase (outside the note) into the note: [Translator's note: phrase discussed: X]; rest unchanged",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"harrat-mujtaba:109-109": {
+"hs": [
+"07da5f9247d3",
+"17267dbc9d53",
+"aba087156926"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "The Arabic source begins directly with the i'rab and contains no quoted ayah phrase; the reading prepends the parenthesized Arabic phrase (وما أسألكم عليه من أجر) outside the brackets of the translator note (the note only says \"phrase discussed\"), so the addition itself is not inside a [Mütercim notu]/[Translator's note]. The rest of the translation matches the Arabic. Fix: move the phrase inside the note.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic begins 'جملة النفي معطوفة على مقول القول'; TR prepends '(وما أسألكم عليه من أجر)'. The Arabic entry has no such heading phrase; the reading places the quoted ayah text in parentheses OUTSIDE the bracket, followed only by a label note ('phrase discussed'). The addition itself is not inside the note, so by the binding rule it is an unmarked addition; the grammar translation itself is otherwise faithful. Fix: move the phrase inside the note.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved the prefixed ayah phrase (outside the note) into the note: [Mütercim notu: tartışılan ifade: X]; rest unchanged",
+"verified": "PASS",
+"verify_note": "Ayah phrase now inside the translator note; body complete and faithful, nothing unmarked added."
+}
+},
+"history": [
+{
+"old_hs": [
+"07da5f9247d3",
+"f2dca6bee827",
+"aba087156926"
+],
+"dim": "tr",
+"what": "Moved the prefixed ayah phrase (outside the note) into the note: [Mütercim notu: tartışılan ifade: X]; rest unchanged",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"harrat-mujtaba:4-4": {
+"hs": [
+"4b1be070b22e",
+"2f25117ec40a",
+"e4e24f90e437"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "The leading (إن نشأ ننزل عليهم من السماء آية) is an accurate quotation of the ayah words the entry discusses and it is immediately labelled by the adjacent translator's note ('phrase discussed'), so the reader can tell it is the translator's addition, not source text; the rest of the reading matches the Arabic sentence by sentence. («فظلَّت أعناقهم معطوفة على نُنزل في محل جزم», «لها متعلق بخاضعين، وهو خبر ظل الناسخة» rendered correctly).",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic source begins «جملة الشرط مستأنفة، جملة فظلَّت أعناقهم معطوفة» with no quoted heading; TR prefixes '(إن نشأ ننزل عليهم من السماء آية)' — the bracket only says 'phrase discussed' while the quoted ayah words themselves stand outside the note; per the standard the addition must be inside the note (fix: move the phrase into the note).",
+"at": "2026-10-17 00:41"
+},
+"J3": {
+"class": "CONFIRMED",
+"evidence": "Arabic source has no lemma/heading phrase; it begins directly with «جملة الشرط مستأنفة، جملة «فظلَّت أعناقهم» معطوفة». TR adds «(إن نشأ ننزل عليهم من السماء آية)». The reading prefixes the quoted ayah phrase in parentheses OUTSIDE the note brackets; only the label \"phrase discussed\" is inside the note, so the quoted words themselves are an addition not enclosed in a note. Rest of the translation matches the Arabic. Fix: move the phrase inside the note, e.g. [note: phrase discussed: (...)].",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "moved the quoted ayah phrase inside the translator's note (it was an unmarked addition outside the note)",
+"verified": "PASS",
+"verify_note": "Quoted phrase now inside Mütercim notu; complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"4b1be070b22e",
+"03de641970f2",
+"e4e24f90e437"
+],
+"dim": "tr",
+"what": "moved the quoted ayah phrase inside the translator's note (it was an unmarked addition outside the note)",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"harrat-mujtaba:121-121": {
+"hs": [
+"1ea31ad35425",
+"01e6d76153c6",
+"693b890792e5"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic is only 'جملة النفي معترضة، والواو معترضة.' Turkish prefixes the ayah phrase (وَمَا كَانَ أَكْثَرُهُمْ مُؤْمِنِينَ) outside the brackets; the label [Mütercim notu: tartışılan ifade] follows but does not enclose it, so the quoted phrase is an addition not inside a note. Rest of translation (i'tirâziyye, vav i'tirâziyye) is correct. Fix: move phrase inside the note.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: 'جملة النفي معترضة، والواو معترضة.' The body translation is faithful, but the Arabic source has no lemma; the quoted ayah phrase (وَمَا كَانَ أَكْثَرُهُمْ مُؤْمِنِينَ) is placed OUTSIDE the note brackets, the note only labels it, so per the binding rule it is an unmarked addition. Fix: move the phrase inside the note, e.g. [Mütercim notu: tartışılan ifade: ...].",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"verified": "PASS",
+"verify_note": "Unmarked ayah-phrase prefix removed; reading now complete and faithful to the Arabic, nothing added, no new issues."
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic is only 'جملة النفي معترضة، والواو معترضة.' English prefixes (إن في ذلك لآية وما كان أكثرهم مؤمنين) outside the brackets; [Translator's note: phrase discussed] does not enclose it, so it is an addition not inside a note. Body translation is correct. Fix: move phrase inside the note.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: 'جملة النفي معترضة، والواو معترضة.' The body translation is faithful, but the Arabic source has no lemma; the quoted ayah phrase (إن في ذلك لآية وما كان أكثرهم مؤمنين) (whole ayah, though only the negated clause is discussed) is placed OUTSIDE the note brackets, the note only labels it, so per the binding rule it is an unmarked addition. Fix: move the phrase inside the note, e.g. [Translator's note: phrase discussed: ...].",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"verified": "PASS",
+"verify_note": "Unmarked ayah-phrase prefix removed; reading now complete and faithful to the Arabic, nothing added, no new issues."
+}
+},
+"history": [
+{
+"old_hs": [
+"1ea31ad35425",
+"a9dee7790b5a",
+"304a64bbacd4"
+],
+"dim": "tr",
+"what": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"at": "2026-10-17 01:14"
+},
+{
+"old_hs": [
+"1ea31ad35425",
+"a9dee7790b5a",
+"304a64bbacd4"
+],
+"dim": "en",
+"what": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"at": "2026-10-17 01:14"
+},
+{
+"old_hs": [
+"1ea31ad35425",
+"a9dee7790b5a",
+"304a64bbacd4"
+],
+"dim": "tr",
+"what": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"at": "2026-10-17 01:14"
+},
+{
+"old_hs": [
+"1ea31ad35425",
+"01e6d76153c6",
+"693b890792e5"
+],
+"dim": "en",
+"what": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"at": "2026-10-17 01:14"
+}
+]
+},
+"harrat-mujtaba:137-137": {
+"hs": [
+"2423db8c485f",
+"52970da2c89f",
+"0ed989656e94"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic is only 'الجملة مستأنفة.' Turkish adds (إِنْ هَذَا إِلَّا خُلُقُ الْأَوَّلِينَ) outside the [Mütercim notu] brackets: an addition not inside a note. 'Cümle isti'nâfiyyedir' itself correct.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: 'الجملة مستأنفة.' The body translation is faithful, but the Arabic source has no lemma; the quoted ayah phrase (إِنْ هَذَا إِلَّا خُلُقُ الْأَوَّلِينَ) is placed OUTSIDE the note brackets, the note only labels it, so per the binding rule it is an unmarked addition. Fix: move the phrase inside the note, e.g. [Mütercim notu: tartışılan ifade: ...].",
+"at": "2026-10-17 00:41"
+},
+"J3": {
+"class": "FALSE_ALARM",
+"evidence": "Source is only «الجملة مستأنفة.»; TR «Cümle isti'nâfiyyedir.» renders it exactly. The prefixed «(إِنْ هَذَا إِلَّا خُلُقُ الْأَوَّلِينَ)» is the correct verse text of 26:137 in Arabic script and is explicitly flagged as translator-supplied by the immediately following «[Mütercim notu: tartışılan ifade]» (the project's uniform convention for phrase-less entries), so it is a marked, accurate addition, not an unmarked one; nothing omitted or mistranslated.",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "moved the quoted ayah phrase that stood outside the bracket into the note",
+"verified": "PASS",
+"verify_note": "Phrase heading now inside the note; body complete and faithful, no unmarked additions."
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic is only 'الجملة مستأنفة.' English adds (إن هذا إلا خلق الأولين) outside the [Translator's note] brackets: addition not inside a note. 'The clause is resumptive' itself correct.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: 'الجملة مستأنفة.' The body translation is faithful, but the Arabic source has no lemma; the quoted ayah phrase (إن هذا إلا خلق الأولين) is placed OUTSIDE the note brackets, the note only labels it, so per the binding rule it is an unmarked addition. Fix: move the phrase inside the note, e.g. [Translator's note: phrase discussed: ...].",
+"at": "2026-10-17 00:41"
+},
+"J3": {
+"class": "FALSE_ALARM",
+"evidence": "Source is only «الجملة مستأنفة.»; EN «The clause is resumptive.» renders it exactly. The prefixed «(إن هذا إلا خلق الأولين)» is the correct verse text of 26:137 in Arabic script and is explicitly flagged as translator-supplied by the immediately following «[Translator's note: phrase discussed]», so it is a marked, accurate addition, not an unmarked one; nothing omitted or mistranslated.",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "moved the quoted ayah phrase that stood outside the bracket into the note",
+"verified": "PASS",
+"verify_note": "Phrase heading now inside the note; body complete and faithful, no unmarked additions."
+}
+},
+"history": [
+{
+"old_hs": [
+"2423db8c485f",
+"8e48001a7408",
+"57d4bd893598"
+],
+"dim": "tr",
+"what": "moved the quoted ayah phrase that stood outside the bracket into the note",
+"at": "2026-10-17 00:46"
+},
+{
+"old_hs": [
+"2423db8c485f",
+"52970da2c89f",
+"0ed989656e94"
+],
+"dim": "en",
+"what": "moved the quoted ayah phrase that stood outside the bracket into the note",
+"at": "2026-10-17 00:46"
+}
+]
+},
+"harrat-mujtaba:138-138": {
+"hs": [
+"9da58f638556",
+"b1cfe49ef33c",
+"336ae5cfe217"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic begins '«ما» : عاملة عمل ليس...' with no quotation of the ayah; English prepends (وما نحن بمعذبين) outside the [Translator's note: phrase discussed] brackets: addition not inside a note. Rest of rendering (laysa, zāʾida bāʾ, conjoined to the resumptive clause) is correct.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source begins '«ما» : عاملة عمل ليس...' with no lemma; the TR reading correctly has none. The body translation is faithful, but the Arabic source has no lemma; the quoted ayah phrase (وما نحن بمعذبين) is placed OUTSIDE the note brackets, the note only labels it, so per the binding rule it is an unmarked addition. Fix: move the phrase inside the note, e.g. [Translator's note: phrase discussed: ...].",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"verified": "PASS",
+"verify_note": "Unmarked ayah-phrase prefix removed; reading now complete and faithful to the Arabic, nothing added, no new issues."
+}
+},
+"history": [
+{
+"old_hs": [
+"9da58f638556",
+"b1cfe49ef33c",
+"91380d3ec6f4"
+],
+"dim": "en",
+"what": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"at": "2026-10-17 01:14"
+},
+{
+"old_hs": [
+"9da58f638556",
+"b1cfe49ef33c",
+"91380d3ec6f4"
+],
+"dim": "en",
+"what": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"at": "2026-10-17 01:14"
+}
+]
+},
+"harrat-mujtaba:140-140": {
+"hs": [
+"a70366eb9d94",
+"3ce869fa82b6",
+"80f3e06fa88a"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic is only 'الجملة معطوفة على جملة {إِنَّ فِي ذَلِكَ لآيَةً}.' Turkish adds (وَإِنَّ رَبَّكَ لَهُوَ الْعَزِيزُ الرَّحِيمُ) outside the [Mütercim notu] brackets: addition not inside a note. Body translation correct.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: 'الجملة معطوفة على جملة {إِنَّ فِي ذَلِكَ لآيَةً}'. The body translation is faithful, but the Arabic source has no lemma; the quoted ayah phrase (وَإِنَّ رَبَّكَ لَهُوَ الْعَزِيزُ الرَّحِيمُ) is placed OUTSIDE the note brackets, the note only labels it, so per the binding rule it is an unmarked addition. Fix: move the phrase inside the note, e.g. [Mütercim notu: tartışılan ifade: ...].",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"verified": "PASS",
+"verify_note": "Unmarked ayah-phrase prefix removed; reading now complete and faithful to the Arabic, nothing added, no new issues."
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic is only 'الجملة معطوفة على جملة {إِنَّ فِي ذَلِكَ لآيَةً}.' English adds (وإن ربك لهو العزيز الرحيم) outside the [Translator's note] brackets: addition not inside a note. Body translation correct.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: 'الجملة معطوفة على جملة {إِنَّ فِي ذَلِكَ لآيَةً}'. The body translation is faithful, but the Arabic source has no lemma; the quoted ayah phrase (وإن ربك لهو العزيز الرحيم) is placed OUTSIDE the note brackets, the note only labels it, so per the binding rule it is an unmarked addition. Fix: move the phrase inside the note, e.g. [Translator's note: phrase discussed: ...].",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"verified": "PASS",
+"verify_note": "Unmarked ayah-phrase prefix removed; reading now complete and faithful to the Arabic, nothing added, no new issues."
+}
+},
+"history": [
+{
+"old_hs": [
+"a70366eb9d94",
+"9f306e73a5bb",
+"2b7cf8a3e0b2"
+],
+"dim": "tr",
+"what": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"at": "2026-10-17 01:14"
+},
+{
+"old_hs": [
+"a70366eb9d94",
+"9f306e73a5bb",
+"2b7cf8a3e0b2"
+],
+"dim": "en",
+"what": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"at": "2026-10-17 01:14"
+},
+{
+"old_hs": [
+"a70366eb9d94",
+"9f306e73a5bb",
+"2b7cf8a3e0b2"
+],
+"dim": "tr",
+"what": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"at": "2026-10-17 01:14"
+},
+{
+"old_hs": [
+"a70366eb9d94",
+"3ce869fa82b6",
+"80f3e06fa88a"
+],
+"dim": "en",
+"what": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"at": "2026-10-17 01:14"
+}
+]
+},
+"harrat-mujtaba:143-143": {
+"hs": [
+"3b9c4d4a2449",
+"a72565871794",
+"0d6a7629e5b5"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic 'الجار «لكم» متعلق بالخبر، والجملة مستأنفة في حيز القول' has no ayah quotation; English prepends (إني لكم رسول أمين) outside the [Translator's note] brackets: addition not inside a note. Body translation correct.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: 'الجار «لكم» متعلق بالخبر، والجملة مستأنفة في حيز القول.' TR has no lemma. The body translation is faithful, but the Arabic source has no lemma; the quoted ayah phrase (إني لكم رسول أمين) is placed OUTSIDE the note brackets, the note only labels it, so per the binding rule it is an unmarked addition. Fix: move the phrase inside the note, e.g. [Translator's note: phrase discussed: ...].",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"verified": "PASS",
+"verify_note": "Unmarked ayah-phrase prefix removed; reading now complete and faithful to the Arabic, nothing added, no new issues."
+}
+},
+"history": [
+{
+"old_hs": [
+"3b9c4d4a2449",
+"a72565871794",
+"7bd610545ff6"
+],
+"dim": "en",
+"what": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"at": "2026-10-17 01:14"
+},
+{
+"old_hs": [
+"3b9c4d4a2449",
+"a72565871794",
+"7bd610545ff6"
+],
+"dim": "en",
+"what": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"at": "2026-10-17 01:14"
+}
+]
+},
+"harrat-mujtaba:147-147": {
+"hs": [
+"66ad8da20348",
+"e7a0d1a56c4c",
+"44426ab5fc41"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic is only 'الجار بدل من الجار قبله، متعلق بما تعلَّق به.' Turkish adds (فِي جَنَّاتٍ وَعُيُونٍ) outside the [Mütercim notu] brackets: addition not inside a note. Body translation correct.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: 'الجار بدل من الجار قبله، متعلق بما تعلَّق به.' The body translation is faithful, but the Arabic source has no lemma; the quoted ayah phrase (فِي جَنَّاتٍ وَعُيُونٍ) is placed OUTSIDE the note brackets, the note only labels it, so per the binding rule it is an unmarked addition. Fix: move the phrase inside the note, e.g. [Mütercim notu: tartışılan ifade: ...].",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"verified": "PASS",
+"verify_note": "Unmarked ayah-phrase prefix removed; reading now complete and faithful to the Arabic, nothing added, no new issues."
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic is only 'الجار بدل من الجار قبله، متعلق بما تعلَّق به.' English adds (في جنات وعيون) outside the [Translator's note] brackets: addition not inside a note. Body translation correct.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: 'الجار بدل من الجار قبله، متعلق بما تعلَّق به.' The body translation is faithful, but the Arabic source has no lemma; the quoted ayah phrase (في جنات وعيون) is placed OUTSIDE the note brackets, the note only labels it, so per the binding rule it is an unmarked addition. Fix: move the phrase inside the note, e.g. [Translator's note: phrase discussed: ...].",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"verified": "PASS",
+"verify_note": "Unmarked ayah-phrase prefix removed; reading now complete and faithful to the Arabic, nothing added, no new issues."
+}
+},
+"history": [
+{
+"old_hs": [
+"66ad8da20348",
+"906130b71b08",
+"489b3310150c"
+],
+"dim": "tr",
+"what": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"at": "2026-10-17 01:14"
+},
+{
+"old_hs": [
+"66ad8da20348",
+"906130b71b08",
+"489b3310150c"
+],
+"dim": "en",
+"what": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"at": "2026-10-17 01:14"
+},
+{
+"old_hs": [
+"66ad8da20348",
+"906130b71b08",
+"489b3310150c"
+],
+"dim": "tr",
+"what": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"at": "2026-10-17 01:14"
+},
+{
+"old_hs": [
+"66ad8da20348",
+"e7a0d1a56c4c",
+"44426ab5fc41"
+],
+"dim": "en",
+"what": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"at": "2026-10-17 01:14"
+}
+]
+},
+"harrat-mujtaba:152-152": {
+"hs": [
+"1b432a7a9253",
+"6f6154c9c0f4",
+"270939ca5ec2"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic 'الموصول نعت، والجار متعلق بالفعل «يفسدون»' has no ayah quotation; English prepends (الذين يفسدون في الأرض ولا يصلحون) outside the [Translator's note] brackets: addition not inside a note. Body translation correct.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: 'الموصول نعت، والجار متعلق بالفعل «يفسدون».' TR has no lemma. The body translation is faithful, but the Arabic source has no lemma; the quoted ayah phrase (الذين يفسدون في الأرض ولا يصلحون) is placed OUTSIDE the note brackets, the note only labels it, so per the binding rule it is an unmarked addition. Fix: move the phrase inside the note, e.g. [Translator's note: phrase discussed: ...].",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"verified": "PASS",
+"verify_note": "Unmarked ayah-phrase prefix removed; reading now complete and faithful to the Arabic, nothing added, no new issues."
+}
+},
+"history": [
+{
+"old_hs": [
+"1b432a7a9253",
+"6f6154c9c0f4",
+"f6d62148c632"
+],
+"dim": "en",
+"what": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"at": "2026-10-17 01:14"
+},
+{
+"old_hs": [
+"1b432a7a9253",
+"6f6154c9c0f4",
+"f6d62148c632"
+],
+"dim": "en",
+"what": "Removed unmarked quoted ayah phrase prefix and 'phrase discussed' note not in the Arabic source; rest unchanged",
+"at": "2026-10-17 01:14"
+}
+]
+},
+"harrat-mujtaba:153-153": {
+"hs": [
+"52d4d0a76db2",
+"4ecfa930f2a4",
+"3abc91af89ad"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic is only 'الجار متعلق بالخبر.' Turkish adds (إِنَّمَا أَنْتَ مِنَ الْمُسَحَّرِينَ) outside the [Mütercim notu] brackets: addition not inside a note. Body correct.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: 'الجار متعلق بالخبر.' The body translation is faithful, but the Arabic source has no lemma; the quoted ayah phrase (إِنَّمَا أَنْتَ مِنَ الْمُسَحَّرِينَ) is placed OUTSIDE the note brackets, the note only labels it, so per the binding rule it is an unmarked addition. Fix: move the phrase inside the note, e.g. [Mütercim notu: tartışılan ifade: ...].",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed the unmarked quoted ayah phrase prefix and its '[note: phrase discussed]' label (not in the Arabic source); body unchanged.",
+"verified": "PASS",
+"verify_note": "Prefix ayah phrase removed; reading now matches the Arabic fully, nothing unmarked added, Arabic terms kept in script."
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic is only 'الجار متعلق بالخبر.' English adds (إنما أنت من المسحرين) outside the [Translator's note] brackets: addition not inside a note. Body correct.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: 'الجار متعلق بالخبر.' The body translation is faithful, but the Arabic source has no lemma; the quoted ayah phrase (إنما أنت من المسحرين) is placed OUTSIDE the note brackets, the note only labels it, so per the binding rule it is an unmarked addition. Fix: move the phrase inside the note, e.g. [Translator's note: phrase discussed: ...].",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed the unmarked quoted ayah phrase prefix and its '[note: phrase discussed]' label (not in the Arabic source); body unchanged.",
+"verified": "PASS",
+"verify_note": "Prefix ayah phrase removed; reading now matches the Arabic fully, nothing unmarked added, Arabic terms kept in script."
+}
+},
+"history": [
+{
+"old_hs": [
+"52d4d0a76db2",
+"396c7e0cb236",
+"2f71c7415603"
+],
+"dim": "tr",
+"what": "Removed the unmarked quoted ayah phrase prefix and its '[note: phrase discussed]' label (not in the Arabic source); body unchanged.",
+"at": "2026-10-17 01:14"
+},
+{
+"old_hs": [
+"52d4d0a76db2",
+"4ecfa930f2a4",
+"3abc91af89ad"
+],
+"dim": "en",
+"what": "Removed the unmarked quoted ayah phrase prefix and its '[note: phrase discussed]' label (not in the Arabic source); body unchanged.",
+"at": "2026-10-17 01:14"
+}
+]
+},
+"harrat-mujtaba:154-154": {
+"hs": [
+"9733223a0650",
+"a7fcd64897ab",
+"4726eeaf0318"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic begins 'جملة النفي مستأنفة في حيز القول' with no ayah quotation; Turkish prepends (ما أنت إلا بشر مثلنا) outside the [Mütercim notu] brackets: addition not inside a note. (Also '(bir şey)' after 'izafetten' is an unmarked gloss.) Rest of translation is faithful.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source begins 'جملة النفي مستأنفة في حيز القول' with no lemma (EN correctly has none). The body translation is faithful, but the Arabic source has no lemma; the quoted ayah phrase (ما أنت إلا بشر مثلنا) is placed OUTSIDE the note brackets, the note only labels it, so per the binding rule it is an unmarked addition. Fix: move the phrase inside the note, e.g. [Mütercim notu: tartışılan ifade: ...]. Also '(bir şey)' after 'izafetten' (for ولم يستفد «مثل» من الإضافة) is an unmarked clarifying addition and should be in a note.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed the unmarked quoted ayah prefix (ما أنت إلا بشر مثلنا) with its note label; replaced unmarked gloss 'izafetten (bir şey) kazanmamıştır' with literal 'izafetten istifade etmemiştir' (لم يستفد من الإضافة); rest unchanged.",
+"verified": "PASS",
+"verify_note": "Prefix ayah phrase and unmarked '(bir şey)' removed; full faithful rendering of all clauses, nothing unmarked added."
+}
+},
+"history": [
+{
+"old_hs": [
+"9733223a0650",
+"2073d8a37905",
+"4726eeaf0318"
+],
+"dim": "tr",
+"what": "Removed the unmarked quoted ayah prefix (ما أنت إلا بشر مثلنا) with its note label; replaced unmarked gloss 'izafetten (bir şey) kazanmamıştır' with literal 'izafetten istifade etmemiştir' (لم يستفد من الإضافة); rest unchanged.",
+"at": "2026-10-17 01:14"
+}
+]
+},
+"harrat-mujtaba:162-162": {
+"hs": [
+"84801372d604",
+"f26ad79190b5",
+"18e85e17fe91"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic is only 'الجملة مستأنفة في حيز القول.' Turkish adds (إِنِّي لَكُمْ رَسُولٌ أَمِينٌ) outside the [Mütercim notu] brackets: addition not inside a note. Body correct.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: 'الجملة مستأنفة في حيز القول.' The body translation is faithful, but the Arabic source has no lemma; the quoted ayah phrase (إِنِّي لَكُمْ رَسُولٌ أَمِينٌ) is placed OUTSIDE the note brackets, the note only labels it, so per the binding rule it is an unmarked addition. Fix: move the phrase inside the note, e.g. [Mütercim notu: tartışılan ifade: ...].",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed the unmarked quoted ayah phrase prefix and its '[note: phrase discussed]' label (not in the Arabic source); body unchanged.",
+"verified": "PASS",
+"verify_note": "Prefix ayah phrase removed; reading now matches the Arabic fully, nothing unmarked added, Arabic terms kept in script."
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic is only 'الجملة مستأنفة في حيز القول.' English adds (إني لكم رسول أمين) outside the [Translator's note] brackets: addition not inside a note. Body correct.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: 'الجملة مستأنفة في حيز القول.' The body translation is faithful, but the Arabic source has no lemma; the quoted ayah phrase (إني لكم رسول أمين) is placed OUTSIDE the note brackets, the note only labels it, so per the binding rule it is an unmarked addition. Fix: move the phrase inside the note, e.g. [Translator's note: phrase discussed: ...].",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed the unmarked quoted ayah phrase prefix and its '[note: phrase discussed]' label (not in the Arabic source); body unchanged.",
+"verified": "PASS",
+"verify_note": "Prefix ayah phrase removed; reading now matches the Arabic fully, nothing unmarked added, Arabic terms kept in script."
+}
+},
+"history": [
+{
+"old_hs": [
+"84801372d604",
+"878f76f5e757",
+"fe4246a9a44d"
+],
+"dim": "tr",
+"what": "Removed the unmarked quoted ayah phrase prefix and its '[note: phrase discussed]' label (not in the Arabic source); body unchanged.",
+"at": "2026-10-17 01:14"
+},
+{
+"old_hs": [
+"84801372d604",
+"f26ad79190b5",
+"18e85e17fe91"
+],
+"dim": "en",
+"what": "Removed the unmarked quoted ayah phrase prefix and its '[note: phrase discussed]' label (not in the Arabic source); body unchanged.",
+"at": "2026-10-17 01:14"
+}
+]
+},
+"harrat-mujtaba:174-174": {
+"hs": [
+"7bda9169b6c7",
+"e964809245c8",
+"4b10e4079374"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic is only 'جملة النفي معترضة.' Turkish adds (وَمَا كَانَ أَكْثَرُهُمْ مُؤْمِنِينَ) outside the [Mütercim notu] brackets: addition not inside a note. Body correct.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: 'جملة النفي معترضة.' The body translation is faithful, but the Arabic source has no lemma; the quoted ayah phrase (وَمَا كَانَ أَكْثَرُهُمْ مُؤْمِنِينَ) is placed OUTSIDE the note brackets, the note only labels it, so per the binding rule it is an unmarked addition. Fix: move the phrase inside the note, e.g. [Mütercim notu: tartışılan ifade: ...].",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed the unmarked quoted ayah phrase prefix and its '[note: phrase discussed]' label (not in the Arabic source); body unchanged.",
+"verified": "PASS",
+"verify_note": "Prefix ayah phrase removed; reading now matches the Arabic fully, nothing unmarked added, Arabic terms kept in script."
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic is only 'جملة النفي معترضة.' English adds (وما كان أكثرهم مؤمنين) outside the [Translator's note] brackets: addition not inside a note. Body correct.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: 'جملة النفي معترضة.' The body translation is faithful, but the Arabic source has no lemma; the quoted ayah phrase (وما كان أكثرهم مؤمنين) is placed OUTSIDE the note brackets, the note only labels it, so per the binding rule it is an unmarked addition. Fix: move the phrase inside the note, e.g. [Translator's note: phrase discussed: ...].",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed the unmarked quoted ayah phrase prefix and its '[note: phrase discussed]' label (not in the Arabic source); body unchanged.",
+"verified": "PASS",
+"verify_note": "Prefix ayah phrase removed; reading now matches the Arabic fully, nothing unmarked added, Arabic terms kept in script."
+}
+},
+"history": [
+{
+"old_hs": [
+"7bda9169b6c7",
+"b56819e5ac81",
+"47281a0e45c4"
+],
+"dim": "tr",
+"what": "Removed the unmarked quoted ayah phrase prefix and its '[note: phrase discussed]' label (not in the Arabic source); body unchanged.",
+"at": "2026-10-17 01:14"
+},
+{
+"old_hs": [
+"7bda9169b6c7",
+"e964809245c8",
+"4b10e4079374"
+],
+"dim": "en",
+"what": "Removed the unmarked quoted ayah phrase prefix and its '[note: phrase discussed]' label (not in the Arabic source); body unchanged.",
+"at": "2026-10-17 01:14"
+}
+]
+},
+"harrat-mujtaba:175-175": {
+"hs": [
+"38d6e5cd00fd",
+"6fe7b60c04ec",
+"bfadad4c755c"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic 'الجملة معطوفة على جملة {إِنَّ فِي ذَلِكَ لآيَةً} ، واللام المزحلقة' has no quotation of 175; Turkish adds (وَإِنَّ رَبَّكَ لَهُوَ الْعَزِيزُ الرَّحِيمُ) outside the [Mütercim notu] brackets: addition not inside a note. Body correct.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: 'الجملة معطوفة على جملة {إِنَّ فِي ذَلِكَ لآيَةً} ، واللام المزحلقة.' The body translation is faithful, but the Arabic source has no lemma; the quoted ayah phrase (وَإِنَّ رَبَّكَ لَهُوَ الْعَزِيزُ الرَّحِيمُ) is placed OUTSIDE the note brackets, the note only labels it, so per the binding rule it is an unmarked addition. Fix: move the phrase inside the note, e.g. [Mütercim notu: tartışılan ifade: ...].",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed the unmarked quoted ayah phrase prefix and its '[note: phrase discussed]' label (not in the Arabic source); body unchanged.",
+"verified": "PASS",
+"verify_note": "Prefix ayah phrase removed; reading now matches the Arabic fully, nothing unmarked added, Arabic terms kept in script."
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic 'الجملة معطوفة على جملة {إِنَّ فِي ذَلِكَ لآيَةً} ، واللام المزحلقة' has no quotation of 175; English adds (وإن ربك لهو العزيز الرحيم) outside the [Translator's note] brackets: addition not inside a note. Body correct.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: 'الجملة معطوفة على جملة {إِنَّ فِي ذَلِكَ لآيَةً} ، واللام المزحلقة.' The body translation is faithful, but the Arabic source has no lemma; the quoted ayah phrase (وإن ربك لهو العزيز الرحيم) is placed OUTSIDE the note brackets, the note only labels it, so per the binding rule it is an unmarked addition. Fix: move the phrase inside the note, e.g. [Translator's note: phrase discussed: ...].",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed the unmarked quoted ayah phrase prefix and its '[note: phrase discussed]' label (not in the Arabic source); body unchanged.",
+"verified": "PASS",
+"verify_note": "Prefix ayah phrase removed; reading now matches the Arabic fully, nothing unmarked added, Arabic terms kept in script."
+}
+},
+"history": [
+{
+"old_hs": [
+"38d6e5cd00fd",
+"bfbd8568dbfa",
+"d116055fcaac"
+],
+"dim": "tr",
+"what": "Removed the unmarked quoted ayah phrase prefix and its '[note: phrase discussed]' label (not in the Arabic source); body unchanged.",
+"at": "2026-10-17 01:14"
+},
+{
+"old_hs": [
+"38d6e5cd00fd",
+"6fe7b60c04ec",
+"bfadad4c755c"
+],
+"dim": "en",
+"what": "Removed the unmarked quoted ayah phrase prefix and its '[note: phrase discussed]' label (not in the Arabic source); body unchanged.",
+"at": "2026-10-17 01:14"
+}
+]
+}
+}

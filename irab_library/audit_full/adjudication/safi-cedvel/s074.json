@@ -1,0 +1,27 @@
+{
+"safi-cedvel:49-51": {
+"hs": [
+"dcdbbec31f66",
+"fa01623a9341",
+"cf764d45393b"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Entry parses «ما لهم» «عن التذكرة» «معرضين» (74:49), «كأنّهم حمر» «مستنفرة» (74:50), «فرّت» «من قسورة» (74:51); it is about 49-51 exactly. The stray footnote fragment «بحذف مضاف أي وقت مشيئة الله، متعلّق ب (يذكرون)» is a copy contamination from ayah 56 inside a footnote, already flagged by translator notes; it is not a substantive discussion of 56, so the listing is correct.",
+"at": "2026-10-17 00:42"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Entry parses «ما لهم» «عن التذكرة» «معرضين» (49), «كأنهم حمر» «مستنفرة» (50), «فرّت» «من قسورة» (51) - listed correctly under 49-51. The fragment «بتقدير قد بحذف مضاف أي وقت مشيئة الله، متعلّق ب (يذكرون)» inside the footnote is a stray copy-paste piece from ayah 56, not substantive discussion; placement stays 49-51.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

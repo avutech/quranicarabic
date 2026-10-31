@@ -1,0 +1,516 @@
+{
+"dervis-irab:1-4": {
+"p1": {
+"ar": "5b4ace51fde2",
+"tr": "48bdf42c7b50",
+"en": "c30cbadbf927",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u10",
+"at": "2026-10-17 00:02",
+"fixed": false
+},
+"p2": {
+"ar": "5b4ace51fde2",
+"tr": "48bdf42c7b50",
+"en": "c30cbadbf927",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN silently corrected source «إن استغفروا ربكم» to أن and «ويوت» to يؤت; now rendered as written with translator notes.",
+"by": "dervis-irab-p2-u27",
+"at": "2026-10-16 19:21",
+"fixed": true
+}
+},
+"dervis-irab:5-8": {
+"p1": {
+"ar": "d6bf16f509ec",
+"tr": "43d5176bc3b6",
+"en": "bedffaf4bc9d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u75",
+"at": "2026-10-10 19:36",
+"fixed": false
+}
+},
+"dervis-irab:9-11": {
+"p1": {
+"ar": "e8a8e99fe717",
+"tr": "0481038ab6ad",
+"en": "dbca315f8503",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN silently corrected source للذات to pleasure; added translator note",
+"by": "dervis-irab-u75",
+"at": "2026-10-10 19:36",
+"fixed": true
+},
+"p2": {
+"ar": "e8a8e99fe717",
+"tr": "0481038ab6ad",
+"en": "dbca315f8503",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u27",
+"at": "2026-10-16 19:21",
+"fixed": false
+}
+},
+"dervis-irab:12-14": {
+"p1": {
+"ar": "69964e0ff7a7",
+"tr": "2804299e1d51",
+"en": "5523743aa707",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u75",
+"at": "2026-10-10 19:36",
+"fixed": false
+}
+},
+"dervis-irab:15-16": {
+"p1": {
+"ar": "eff2b5fa3ff2",
+"tr": "84f1230325a4",
+"en": "8995928166fc",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN silently corrected source typo يزينه; added translator note",
+"by": "dervis-irab-u75",
+"at": "2026-10-10 19:36",
+"fixed": true
+},
+"p2": {
+"ar": "eff2b5fa3ff2",
+"tr": "84f1230325a4",
+"en": "8995928166fc",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u27",
+"at": "2026-10-16 19:21",
+"fixed": false
+}
+},
+"dervis-irab:17-22": {
+"p1": {
+"ar": "b589a262ed99",
+"tr": "5bcf5830bcbd",
+"en": "fd02f5aa919a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u13",
+"at": "2026-10-17 00:56",
+"fixed": false
+},
+"p2": {
+"ar": "b589a262ed99",
+"tr": "8c943cc9d928",
+"en": "fd02f5aa919a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u27",
+"at": "2026-10-16 19:21",
+"fixed": false
+}
+},
+"dervis-irab:23-24": {
+"p1": {
+"ar": "f5c19b32b436",
+"tr": "32361cef5d1f",
+"en": "4013287956cb",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u75",
+"at": "2026-10-10 19:37",
+"fixed": false
+}
+},
+"dervis-irab:96-108": {
+"p1": {
+"ar": "7a06c8c2841c",
+"tr": "4f151c5ccb36",
+"en": "683a04ff02a4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u4",
+"at": "2026-10-17 01:06",
+"fixed": false
+},
+"p2": {
+"ar": "7a06c8c2841c",
+"tr": "4f151c5ccb36",
+"en": "683a04ff02a4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u3",
+"at": "2026-10-17 01:09",
+"fixed": false
+}
+},
+"dervis-irab:25-28": {
+"p1": {
+"ar": "e6b2923c2e47",
+"tr": "8cc38048623b",
+"en": "aff8563ffc4c",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English poem translation of ترى الشوك فيها مدخلا ظل رأسه rendered the first word as \"[ostrich]\", an unsupported substitution; replaced with literal \"thorns\" (source word الشوك, already flagged by the translator note).",
+"by": "dervis-irab-u75",
+"at": "2026-10-10 19:37",
+"fixed": true
+},
+"p2": {
+"ar": "e6b2923c2e47",
+"tr": "8cc38048623b",
+"en": "aff8563ffc4c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u27",
+"at": "2026-10-16 19:28",
+"fixed": false
+}
+},
+"dervis-irab:29-31": {
+"p1": {
+"ar": "a4d831390da1",
+"tr": "2dc3b6ebdaef",
+"en": "20e6b3373cf6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u75",
+"at": "2026-10-10 19:37",
+"fixed": false
+}
+},
+"dervis-irab:50-60": {
+"p1": {
+"ar": "a5eec7a2f40c",
+"tr": "aceceea4e326",
+"en": "a0cc0aa6406b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u10",
+"at": "2026-10-17 00:02",
+"fixed": false
+},
+"p2": {
+"ar": "a5eec7a2f40c",
+"tr": "aceceea4e326",
+"en": "a0cc0aa6406b",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN rendered the Quranic word in \"إلا قولنا اعتراك\" as transliteration \"ʿtarāka\"; replaced with Arabic script اعتراك. All negations, counts (three reasons, four similarities), conditions and attributions (al-Fārisī, al-Qāmūs) checked in both readings.",
+"by": "dervis-irab-p2-u27",
+"at": "2026-10-16 19:10",
+"fixed": true
+}
+},
+"dervis-irab:32-35": {
+"p1": {
+"ar": "98b68e1d8ba1",
+"tr": "80c37e25ceb5",
+"en": "6cedba9c964f",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English gloss of the closing didactic poem (جدّ ... جدلاء) omitted several meanings given in the verses (side, well, river bank, harmful speech, stick, chest); gloss rewritten to cover all verses.",
+"by": "dervis-irab-u75",
+"at": "2026-10-10 19:38",
+"fixed": true
+},
+"p2": {
+"ar": "98b68e1d8ba1",
+"tr": "80c37e25ceb5",
+"en": "6cedba9c964f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u27",
+"at": "2026-10-16 19:28",
+"fixed": false
+}
+},
+"dervis-irab:36-39": {
+"p1": {
+"ar": "d1528125a415",
+"tr": "fd18dc4d302e",
+"en": "ab53134c75f2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u75",
+"at": "2026-10-10 19:38",
+"fixed": false
+},
+"p2": {
+"ar": "d1528125a415",
+"tr": "fd18dc4d302e",
+"en": "ab53134c75f2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u2",
+"at": "2026-10-17 00:02",
+"fixed": false
+}
+},
+"dervis-irab:40-43": {
+"p1": {
+"ar": "f2ff4e8abb1a",
+"tr": "25957646e098",
+"en": "c8295e1139d3",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English had an unmarked \"[Alternatively,]\" before من أمر الله is the khabar of لا (source simply states it after saying the khabar is omitted); replaced with a Translator note.",
+"by": "dervis-irab-u75",
+"at": "2026-10-10 19:39",
+"fixed": true
+},
+"p2": {
+"ar": "f2ff4e8abb1a",
+"tr": "25957646e098",
+"en": "c8295e1139d3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u2",
+"at": "2026-10-17 00:02",
+"fixed": false
+}
+},
+"dervis-irab:109-112": {
+"p1": {
+"ar": "1a94f2c60c7b",
+"tr": "b7b73bbdef68",
+"en": "b1d33d2cb1e4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u10",
+"at": "2026-10-17 00:02",
+"fixed": false
+},
+"p2": {
+"ar": "1a94f2c60c7b",
+"tr": "b7b73bbdef68",
+"en": "b1d33d2cb1e4",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN misread «قاربت المدينة ولما يريدون ولما أدخلها» by translating يريدون (they mean) as part of the quoted saying, and merged the two examples «خرجت ولما» and «سافرت ولما» into one sentence; also «بنيت فلم تصرف» was given as not diptote-inflected, «وبما تعملون خبرها» as \"and its khabar\", and «ليدر بعد دروره» had an added \"had stopped\"; all fixed.",
+"by": "dervis-irab-p2-u27",
+"at": "2026-10-16 19:28",
+"fixed": true
+}
+},
+"dervis-irab:113-117": {
+"p1": {
+"ar": "a86be2071802",
+"tr": "0e1ea75d6c71",
+"en": "eba5beebb74d",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR: unmarked bracket insertions in Bast section (\"[İkincisi tercih edilmiştir]\", \"[bir kere zulmedene]\") replaced by translator notes; silent correction فندخلوا->فتدخلوا and omitted word تاج fixed. EN: \"who preserves against you what is not forgotten\" mistranslated \"ويحفظ عليك من لا يغفل\"; added unmarked claim about \"one who has done wrong only once\"; silent typo corrections noted.",
+"by": "dervis-irab-u76",
+"at": "2026-10-10 19:39",
+"fixed": true
+},
+"p2": {
+"ar": "a86be2071802",
+"tr": "0e1ea75d6c71",
+"en": "eba5beebb74d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u28",
+"at": "2026-10-16 19:17",
+"fixed": false
+}
+},
+"dervis-irab:61-68": {
+"p1": {
+"ar": "a6488237c746",
+"tr": "5e194b8ef6c8",
+"en": "61a4e5b5bf76",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u10",
+"at": "2026-10-17 00:03",
+"fixed": false
+},
+"p2": {
+"ar": "a6488237c746",
+"tr": "5e194b8ef6c8",
+"en": "61a4e5b5bf76",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN poem gloss rendered «غلمان أشأم كلهم كأحمر عاد» as \"more ill-omened than the Red One of ʿĀd\", turning the simile كـ (like) into a comparison; fixed to \"all of them ill-omened, like the Red One of ʿĀd\". Negations, counts and attributions otherwise checked.",
+"by": "dervis-irab-p2-u27",
+"at": "2026-10-16 19:18",
+"fixed": true
+}
+},
+"dervis-irab:118-123": {
+"p1": {
+"ar": "d8e1e1d70e74",
+"tr": "7188d39bcc75",
+"en": "b5283f00a61a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u76",
+"at": "2026-10-10 19:39",
+"fixed": false
+}
+},
+"dervis-irab:44-44": {
+"p1": {
+"ar": "a84fc6a94a9b",
+"tr": "6b7fbd2bde4e",
+"en": "77d3a8152293",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u75",
+"at": "2026-10-10 19:39",
+"fixed": false
+}
+},
+"dervis-irab:45-49": {
+"p1": {
+"ar": "9c52e6d93c69",
+"tr": "2d696a842fce",
+"en": "12d42c0384f8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u10",
+"at": "2026-10-17 00:02",
+"fixed": false
+},
+"p2": {
+"ar": "9c52e6d93c69",
+"tr": "2d696a842fce",
+"en": "12d42c0384f8",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR silently corrected source \"أراد أيها الإنسان القاتل\" to \"ey söz söyleyen insan\"; now translated as written (\"öldüren\") with marked note that القائل is meant.",
+"by": "dervis-irab-p2-u2",
+"at": "2026-10-17 00:02",
+"fixed": true
+}
+},
+"dervis-irab:69-76": {
+"p1": {
+"ar": "d127bb8ac02e",
+"tr": "93b44d974eeb",
+"en": "cb77846ef2ad",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u10",
+"at": "2026-10-17 00:04",
+"fixed": false
+},
+"p2": {
+"ar": "d127bb8ac02e",
+"tr": "93b44d974eeb",
+"en": "cb77846ef2ad",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN rendered «فبشرناها عطف أيضا» as \"is also a conjunction\" (wrong role: it is conjoined, not a conjunction); fixed to \"is likewise conjoined\". Negations, the 14 numbered items and attributions (al-Zajjāj, Sībawayh, al-Aʿshā, Imruʾ al-Qays) checked.",
+"by": "dervis-irab-p2-u27",
+"at": "2026-10-16 19:18",
+"fixed": true
+}
+},
+"dervis-irab:77-83": {
+"p1": {
+"ar": "b9d0bb5d3b15",
+"tr": "d7207757efc9",
+"en": "c9b84d498206",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "re-read after fix; \"found no escape\" now matches the Arabic",
+"by": "dervis-irab-p1-u10",
+"at": "2026-10-17 00:05",
+"fixed": false
+},
+"p2": {
+"ar": "b9d0bb5d3b15",
+"tr": "d7207757efc9",
+"en": "c9b84d498206",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN rendered «لكنه خلاف المنتخب الراجح والذي قرىء به أكثر» as if the preferred (nominative) reading were the more widely read one; the Arabic says the accusative is the one read by more; fixed. Also restored the Arabic implied form «ولو صبرهم ثابت» for Sībawayh, which EN had rendered identically to the Kufan «ولو ثبت صبرهم».",
+"by": "dervis-irab-p2-u27",
+"at": "2026-10-16 19:20",
+"fixed": true
+}
+},
+"dervis-irab:84-95": {
+"p1": {
+"ar": "ed37a93e2781",
+"tr": "8a73fe268948",
+"en": "38a12a76b959",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "Re-read after my earlier fix (English rewritten this session from the Arabic).",
+"by": "dervis-irab-u75",
+"at": "2026-10-10 19:43",
+"fixed": false
+}
+}
+}

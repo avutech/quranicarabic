@@ -1,0 +1,176 @@
+{
+"mekki-muskil:2-2": {
+"p1": {
+"ar": "91390491c608",
+"tr": "621b3a2e032e",
+"en": "a3ce5a26fc76",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:44",
+"fixed": false
+}
+},
+"mekki-muskil:3-3": {
+"p1": {
+"ar": "8734abce9c80",
+"tr": "ad7de63b4734",
+"en": "9db08bdb1390",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:44",
+"fixed": false
+}
+},
+"mekki-muskil:7-7": {
+"p1": {
+"ar": "93985fb343dc",
+"tr": "7af9ddeddaf9",
+"en": "fffce54939e2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:44",
+"fixed": false
+}
+},
+"mekki-muskil:10-10": {
+"p1": {
+"ar": "a88d7655dbe6",
+"tr": "c4aaae598657",
+"en": "795ac1d60950",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:44",
+"fixed": false
+},
+"p2": {
+"ar": "a88d7655dbe6",
+"tr": "c4aaae598657",
+"en": "795ac1d60950",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u1",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"mekki-muskil:16-16": {
+"p1": {
+"ar": "12dd7d2b00dc",
+"tr": "b9d00225ce97",
+"en": "bf34be091c94",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:44",
+"fixed": false
+}
+},
+"mekki-muskil:17-17": {
+"p1": {
+"ar": "6f0104d6ad36",
+"tr": "7d1738b198ae",
+"en": "4be676daf222",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "Second paragraph {فَلَا تكن فِي مرية من لِقَائِه} belongs to 32:23 (as the translators note)",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:44",
+"fixed": false
+},
+"p2": {
+"ar": "6f0104d6ad36",
+"tr": "7d1738b198ae",
+"en": "4be676daf222",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "Second paragraph \"قوله فلا تكن في مرية من لقائه ...\" belongs to ayah 32:23, not 32:17 (both readings note this); translations are faithful.",
+"by": "mekki-muskil-p2-u1",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"mekki-muskil:20-20": {
+"p1": {
+"ar": "7544ad87efb0",
+"tr": "ea3dcbf8f6a4",
+"en": "a757b0b8783d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:44",
+"fixed": false
+},
+"p2": {
+"ar": "7544ad87efb0",
+"tr": "ea3dcbf8f6a4",
+"en": "a757b0b8783d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u1",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"mekki-muskil:26-26": {
+"p1": {
+"ar": "561eddacffd6",
+"tr": "30aabb399eb3",
+"en": "8363f06611a5",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish completed by me earlier",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:44",
+"fixed": true
+},
+"p2": {
+"ar": "561eddacffd6",
+"tr": "30aabb399eb3",
+"en": "8363f06611a5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u1",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"mekki-muskil:28-28": {
+"p1": {
+"ar": "a65967221b31",
+"tr": "96d2a0363b2b",
+"en": "23637d2c83ca",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:44",
+"fixed": false
+}
+}
+}

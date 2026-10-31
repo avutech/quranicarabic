@@ -1,0 +1,110 @@
+{
+"safi-cedvel:1-4": {
+"p1": {
+"ar": "0f9c447a1867",
+"tr": "f424cee16fa5",
+"en": "420a81dd519f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u65",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"safi-cedvel:5-5": {
+"p1": {
+"ar": "ff1a6e210216",
+"tr": "5f9a3cd4f344",
+"en": "dba1cb7b7c41",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u65",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"safi-cedvel:6-6": {
+"p1": {
+"ar": "64f667d5fed3",
+"tr": "e0cca2500b37",
+"en": "fdcbf885d8ab",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u65",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"safi-cedvel:7-7": {
+"p1": {
+"ar": "e48704b4bf23",
+"tr": "d7472da895d1",
+"en": "09f5303a38cd",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u65",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"safi-cedvel:8-17": {
+"p1": {
+"ar": "00ffda749e28",
+"tr": "23e4f0e67bc0",
+"en": "f5c1f543529e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p1-u7",
+"at": "2026-10-17 00:05",
+"fixed": false
+},
+"p2": {
+"ar": "00ffda749e28",
+"tr": "23e4f0e67bc0",
+"en": "f5c1f543529e",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN Rhetoric 2 misparsed \"الطريق الوهر في الجبل وفي البحر، هي ما صعب منه\" as \"in the sea it is what is difficult\"; restructured to match the Arabic.",
+"by": "safi-cedvel-p2-u23",
+"at": "2026-10-16 19:06",
+"fixed": true
+}
+},
+"safi-cedvel:18-20": {
+"p1": {
+"ar": "03ef0704ff61",
+"tr": "95532f521f9e",
+"en": "769ac5665640",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u65",
+"at": "2026-10-10 19:34",
+"fixed": false
+},
+"p2": {
+"ar": "03ef0704ff61",
+"tr": "95532f521f9e",
+"en": "769ac5665640",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u23",
+"at": "2026-10-16 19:06",
+"fixed": false
+}
+}
+}

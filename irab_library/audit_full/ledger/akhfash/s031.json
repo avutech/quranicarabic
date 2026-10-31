@@ -1,0 +1,124 @@
+{
+"akhfash:3-3": {
+"p1": {
+"ar": "37caed30cbc7",
+"tr": "ad105ae85684",
+"en": "9154d57501ce",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:44",
+"fixed": false
+},
+"p2": {
+"ar": "37caed30cbc7",
+"tr": "ad105ae85684",
+"en": "9154d57501ce",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-p2-u1",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"akhfash:12-12": {
+"p1": {
+"ar": "1de5cd24e32c",
+"tr": "e8d24a5261c0",
+"en": "94ee251b97d9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:44",
+"fixed": false
+}
+},
+"akhfash:14-14": {
+"p1": {
+"ar": "de74c9e03f57",
+"tr": "53376f3d558f",
+"en": "5ade14dc5b3f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:44",
+"fixed": false
+}
+},
+"akhfash:16-16": {
+"p1": {
+"ar": "668406f7b406",
+"tr": "e4d9a726a800",
+"en": "cbda90b487ba",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:44",
+"fixed": false
+}
+},
+"akhfash:21-21": {
+"p1": {
+"ar": "7a88b432b246",
+"tr": "cef063b863c0",
+"en": "b711b3be4371",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:44",
+"fixed": false
+}
+},
+"akhfash:27-27": {
+"p1": {
+"ar": "e73a27cda782",
+"tr": "2b234a301572",
+"en": "01e2c6d5645b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:44",
+"fixed": false
+}
+},
+"akhfash:34-34": {
+"p1": {
+"ar": "7573aca70385",
+"tr": "16c733462695",
+"en": "68f9fd7826be",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR had an unmarked added sentence (Muennes isme muzaf olduguhalde ayy muzekker gelmistir) not in the Arabic; removed",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:44",
+"fixed": true
+},
+"p2": {
+"ar": "7573aca70385",
+"tr": "16c733462695",
+"en": "68f9fd7826be",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-p2-u1",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+}
+}

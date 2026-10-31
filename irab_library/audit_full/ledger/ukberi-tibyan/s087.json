@@ -1,0 +1,82 @@
+{
+"ukberi-tibyan:1-1": {
+"p1": {
+"ar": "51d803ac1110",
+"tr": "a5c7ca7be478",
+"en": "be05103360f8",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR added unmarked identification (el-Fârisî) not in source; removed.",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:01",
+"fixed": true
+},
+"p2": {
+"ar": "51d803ac1110",
+"tr": "a5c7ca7be478",
+"en": "be05103360f8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-p2-u6",
+"at": "2026-10-16 18:52",
+"fixed": false
+}
+},
+"ukberi-tibyan:5-5": {
+"p1": {
+"ar": "935bf3ec7014",
+"tr": "99ce02e743cf",
+"en": "726bb69ea876",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:01",
+"fixed": false
+},
+"p2": {
+"ar": "935bf3ec7014",
+"tr": "99ce02e743cf",
+"en": "726bb69ea876",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-p2-u6",
+"at": "2026-10-16 18:52",
+"fixed": false
+}
+},
+"ukberi-tibyan:6-6": {
+"p1": {
+"ar": "499b05c8c4dd",
+"tr": "220188ccb598",
+"en": "eb836d937111",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:01",
+"fixed": false
+}
+},
+"ukberi-tibyan:16-16": {
+"p1": {
+"ar": "202c09b380d4",
+"tr": "3612b59956f8",
+"en": "05ba3184b798",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:01",
+"fixed": false
+}
+}
+}

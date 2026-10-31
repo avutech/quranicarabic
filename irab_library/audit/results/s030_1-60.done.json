@@ -1,0 +1,11 @@
+{
+ "surah": 30,
+ "chunk": "1-60",
+ "verdicts": {
+  "OK": 117,
+  "SOURCE_DEFECT": 1,
+  "GAP": 9
+ },
+ "summary": "Surah 30 ayahs 1-60: 10 high NEAR findings all OK (continuations/back-references within neighbouring ayahs); 24 low findings OK (spelling variants/cross-refs); SEM sample of 14 books OK except semin-durr:35 SOURCE_DEFECT (duplicated clause, translated as written with notes); 9 GAP ranges reported. No translation fixes needed.",
+ "at": "2026-10-10 15:06"
+}

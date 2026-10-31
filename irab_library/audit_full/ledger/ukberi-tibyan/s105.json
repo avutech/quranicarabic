@@ -1,0 +1,28 @@
+{
+"ukberi-tibyan:3-5": {
+"p1": {
+"ar": "f62d1cc50379",
+"tr": "7ad2756d1812",
+"en": "622d07f8bf76",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN silently normalised printed vocalisation إِبَّيْل to إِبِّيل; now as printed with note",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:04",
+"fixed": true
+},
+"p2": {
+"ar": "f62d1cc50379",
+"tr": "7ad2756d1812",
+"en": "622d07f8bf76",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u10",
+"at": "2026-10-11 04:08",
+"fixed": false
+}
+}
+}

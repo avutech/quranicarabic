@@ -1,0 +1,136 @@
+{
+"mekki-muskil:2-2": {
+"p1": {
+"ar": "bcb893c9e081",
+"tr": "721c27799fda",
+"en": "9cbadda6bef4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:48",
+"fixed": false
+}
+},
+"mekki-muskil:4-4": {
+"p1": {
+"ar": "443bfb50eafe",
+"tr": "e07d76301ea0",
+"en": "7b877f0d610c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:48",
+"fixed": false
+}
+},
+"mekki-muskil:8-8": {
+"p1": {
+"ar": "ee42fd50a517",
+"tr": "052f4cdf41b3",
+"en": "a0f86ab2450e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:48",
+"fixed": false
+}
+},
+"mekki-muskil:10-10": {
+"p1": {
+"ar": "361f932e9ee4",
+"tr": "a84585ba307e",
+"en": "5acd897cde70",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:48",
+"fixed": false
+},
+"p2": {
+"ar": "361f932e9ee4",
+"tr": "a84585ba307e",
+"en": "5acd897cde70",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"mekki-muskil:20-20": {
+"p1": {
+"ar": "ef445353a72f",
+"tr": "a900088eca84",
+"en": "bca711c07565",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "The second paragraph (ما أكفره) is 80:17, not 80:20 (the Turkish note already says so).",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:48",
+"fixed": false
+},
+"p2": {
+"ar": "ef445353a72f",
+"tr": "a900088eca84",
+"en": "bca711c07565",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "Second paragraph \"قوله ما اكفره\" belongs to 80:17; translations complete and faithful.",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"mekki-muskil:25-25": {
+"p1": {
+"ar": "19305f16ba86",
+"tr": "5f17db8332cc",
+"en": "e596bf16ceaa",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English \"the inclusion here is of the second within the first\" reverses the direction of الاشتمال من الثاني على الأول; corrected to match the Arabic and the Turkish.",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:48",
+"fixed": true
+},
+"p2": {
+"ar": "19305f16ba86",
+"tr": "5f17db8332cc",
+"en": "e596bf16ceaa",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"mekki-muskil:32-32": {
+"p1": {
+"ar": "19024ffe7158",
+"tr": "033e41481a95",
+"en": "a8a4478ec699",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:48",
+"fixed": false
+}
+}
+}

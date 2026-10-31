@@ -1,0 +1,96 @@
+{
+"safi-cedvel:1-4": {
+"p1": {
+"ar": "2a28789f907b",
+"tr": "8c4a23254817",
+"en": "a50a3a4750be",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u65",
+"at": "2026-10-10 19:32",
+"fixed": false
+}
+},
+"safi-cedvel:5-7": {
+"p1": {
+"ar": "10dc8c85d21f",
+"tr": "d0141c124fd4",
+"en": "4181fac988a3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p1-u7",
+"at": "2026-10-17 00:04",
+"fixed": false
+},
+"p2": {
+"ar": "10dc8c85d21f",
+"tr": "d0141c124fd4",
+"en": "4181fac988a3",
+"fit": "OK",
+"trv": "OK",
+"env": null,
+"note": "Shown EN drops the negation: \"لينظر الإنسان ... لا محلّ لها استئنافيّة\" rendered \"has grammatical position\" (stored reading already has \"no\"). Also fixed in stored EN: \"يخرج من بين الأصلاب والترائب\" (it comes out) was rendered \"He brings forth\", changing the subject; now \"it comes out\".",
+"by": "safi-cedvel-p2-u23",
+"at": "2026-10-16 19:28",
+"fixed": true
+}
+},
+"safi-cedvel:8-10": {
+"p1": {
+"ar": "4581774e7ca3",
+"tr": "936ae7b62b96",
+"en": "9a4d841091c4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u65",
+"at": "2026-10-10 19:32",
+"fixed": false
+},
+"p2": {
+"ar": "4581774e7ca3",
+"tr": "936ae7b62b96",
+"en": "9a4d841091c4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u23",
+"at": "2026-10-16 19:21",
+"fixed": false
+}
+},
+"safi-cedvel:11-14": {
+"p1": {
+"ar": "2af92d6ddc10",
+"tr": "64d381199f0f",
+"en": "dba1ebfb865d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u65",
+"at": "2026-10-10 19:32",
+"fixed": false
+}
+},
+"safi-cedvel:15-17": {
+"p1": {
+"ar": "d0ed58c64acd",
+"tr": "84227f42f145",
+"en": "0003ed10ad17",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u65",
+"at": "2026-10-10 19:32",
+"fixed": false
+}
+}
+}

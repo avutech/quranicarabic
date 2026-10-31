@@ -1,0 +1,10 @@
+{
+ "surah": 60,
+ "chunk": "1-13",
+ "verdicts": {
+  "OK": 74,
+  "GAP": 6
+ },
+ "summary": "No high/medium findings. Two low UNFOUND (farraa:8-9, zajjaj:9-9) are false positives from quote normalisation. Semantic sample across all 13 books and all ayahs: Quran, Arabic, TR, EN consistent; no mismatches, no translation edits. GAP lines recorded for akhfash, farraa, mekki-muskil, semin-durr, ukberi-tibyan, zajjaj.",
+ "at": "2026-10-10 15:11"
+}

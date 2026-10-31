@@ -1,0 +1,312 @@
+{
+"nahhas-irab:1-1": {
+"p1": {
+"ar": "9bfee29f0db1",
+"tr": "5af18ffcc1d6",
+"en": "d44b9958a599",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u44",
+"at": "2026-10-10 16:01",
+"fixed": false
+}
+},
+"nahhas-irab:2-3": {
+"p1": {
+"ar": "1d0bfae8af91",
+"tr": "129378f1d8c6",
+"en": "5a9e3cefb7e7",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Source \"أي قسم نصفه\" (typo for قم) was silently corrected; added translator note in both.",
+"by": "nahhas-irab-u44",
+"at": "2026-10-10 16:01",
+"fixed": true
+},
+"p2": {
+"ar": "1d0bfae8af91",
+"tr": "129378f1d8c6",
+"en": "5a9e3cefb7e7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 18:52",
+"fixed": false
+}
+},
+"nahhas-irab:4-4": {
+"p1": {
+"ar": "bd2c4f74cecd",
+"tr": "32b1f19153b9",
+"en": "23dc87820480",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u44",
+"at": "2026-10-10 16:01",
+"fixed": false
+}
+},
+"nahhas-irab:5-5": {
+"p1": {
+"ar": "7e475c390777",
+"tr": "dad9a7d4fd77",
+"en": "79aefc7d3776",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u44",
+"at": "2026-10-10 16:01",
+"fixed": false
+}
+},
+"nahhas-irab:6-6": {
+"p1": {
+"ar": "9a7fa7b62585",
+"tr": "8bb2c9d848e5",
+"en": "c16175543792",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English made وطاء the subject instead of \"ووطأ مصدر واطأ مواطأة ووطاء\"; made literal with translator note.",
+"by": "nahhas-irab-u44",
+"at": "2026-10-10 16:01",
+"fixed": true
+},
+"p2": {
+"ar": "9a7fa7b62585",
+"tr": "8bb2c9d848e5",
+"en": "c16175543792",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 18:52",
+"fixed": false
+}
+},
+"nahhas-irab:7-7": {
+"p1": {
+"ar": "1eff74b94dde",
+"tr": "c684504948b0",
+"en": "c07dc6da0ba7",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Unmarked addition \"(günahını)/[his sin]\" after لا تسبّخي عنه removed.",
+"by": "nahhas-irab-u44",
+"at": "2026-10-10 16:01",
+"fixed": true
+},
+"p2": {
+"ar": "1eff74b94dde",
+"tr": "c684504948b0",
+"en": "c07dc6da0ba7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 18:52",
+"fixed": false
+}
+},
+"nahhas-irab:8-8": {
+"p1": {
+"ar": "b78d71b71c09",
+"tr": "e970762b06a4",
+"en": "280f2d054abf",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u44",
+"at": "2026-10-10 16:01",
+"fixed": false
+}
+},
+"nahhas-irab:9-9": {
+"p1": {
+"ar": "229ba6c76ac1",
+"tr": "6b31f9226420",
+"en": "bc4468c3d92d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u44",
+"at": "2026-10-10 16:01",
+"fixed": false
+}
+},
+"nahhas-irab:10-10": {
+"p1": {
+"ar": "bb2d25558706",
+"tr": "81bb2d8ce055",
+"en": "3e81273b0fe4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u44",
+"at": "2026-10-10 16:01",
+"fixed": false
+}
+},
+"nahhas-irab:11-11": {
+"p1": {
+"ar": "aca3acfd23a8",
+"tr": "76131c53e69d",
+"en": "dcf5f5f7bf00",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u44",
+"at": "2026-10-10 16:01",
+"fixed": false
+}
+},
+"nahhas-irab:13-13": {
+"p1": {
+"ar": "e23f06e56724",
+"tr": "4b4b3251b0c5",
+"en": "b92bfee47a88",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "\"والمعنى عندنا هذا\" was rendered as quote \"with Us is this\"; corrected to \"the meaning in our view is this\".",
+"by": "nahhas-irab-u44",
+"at": "2026-10-10 16:01",
+"fixed": true
+},
+"p2": {
+"ar": "e23f06e56724",
+"tr": "4b4b3251b0c5",
+"en": "b92bfee47a88",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 18:52",
+"fixed": false
+}
+},
+"nahhas-irab:14-14": {
+"p1": {
+"ar": "6c98e42f3fd5",
+"tr": "e3bbb77442e2",
+"en": "efa3f6d4e79f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u44",
+"at": "2026-10-10 16:01",
+"fixed": false
+}
+},
+"nahhas-irab:15-15": {
+"p1": {
+"ar": "229826b36a2a",
+"tr": "6755c99fadea",
+"en": "6c38040b63b5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u44",
+"at": "2026-10-10 16:01",
+"fixed": false
+}
+},
+"nahhas-irab:16-17": {
+"p1": {
+"ar": "d4af55e56379",
+"tr": "621abed8981d",
+"en": "c2b074a71b6b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u44",
+"at": "2026-10-10 16:01",
+"fixed": false
+}
+},
+"nahhas-irab:18-18": {
+"p1": {
+"ar": "781e85c6f97f",
+"tr": "a906e22ee8f1",
+"en": "dc57dd991795",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u44",
+"at": "2026-10-10 16:01",
+"fixed": false
+},
+"p2": {
+"ar": "781e85c6f97f",
+"tr": "a906e22ee8f1",
+"en": "dc57dd991795",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 18:52",
+"fixed": false
+}
+},
+"nahhas-irab:19-19": {
+"p1": {
+"ar": "66d2b850f54e",
+"tr": "247b14edc108",
+"en": "a92293817b36",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish added attribution \"(Katâde)\" before \"dedi ki\" for فَمَنْ شاءَ; Arabic only says قال; removed.",
+"by": "nahhas-irab-u44",
+"at": "2026-10-10 16:01",
+"fixed": true
+},
+"p2": {
+"ar": "66d2b850f54e",
+"tr": "247b14edc108",
+"en": "a92293817b36",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 18:52",
+"fixed": false
+}
+},
+"nahhas-irab:20-20": {
+"p1": {
+"ar": "735abe25780e",
+"tr": "40eb5dea4d79",
+"en": "99d9e12e7515",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u44",
+"at": "2026-10-10 16:01",
+"fixed": false
+}
+}
+}

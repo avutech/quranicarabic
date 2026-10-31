@@ -1,0 +1,706 @@
+{
+"dervis-irab:25-27": {
+"p1": {
+"ar": "4442cdb6d097",
+"tr": "63bc2d9a85f6",
+"en": "69a0d7126cf3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u74",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"dervis-irab:28-29": {
+"p1": {
+"ar": "3d66dcda1ce5",
+"tr": "fe5693433196",
+"en": "d6688704256d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u74",
+"at": "2026-10-10 19:34",
+"fixed": false
+}
+},
+"dervis-irab:30-32": {
+"p1": {
+"ar": "79c721066365",
+"tr": "dc619de63f2f",
+"en": "0e8492e2ec53",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR i3rab note on the alif of ابن after المسيح gave an invented spelling reason (line-start); replaced with a neutral note that the source conflicts with its own rule.",
+"by": "dervis-irab-u74",
+"at": "2026-10-10 19:35",
+"fixed": true
+},
+"p2": {
+"ar": "79c721066365",
+"tr": "dc619de63f2f",
+"en": "0e8492e2ec53",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u27",
+"at": "2026-10-16 19:17",
+"fixed": false
+}
+},
+"dervis-irab:33-35": {
+"p1": {
+"ar": "68c58a92ec4a",
+"tr": "1b32bec146f8",
+"en": "f6ed82345db5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u74",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+},
+"dervis-irab:36-37": {
+"p1": {
+"ar": "14a5ab7c75f9",
+"tr": "f1710e760077",
+"en": "a735cc637d58",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u74",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+},
+"dervis-irab:38-40": {
+"p1": {
+"ar": "f17552e2a7bc",
+"tr": "da5d547a4658",
+"en": "c30b47e310c6",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR Lugat al-ghar: \"(güneyinde)\" was an unmarked addition to \"عن يمين مكة\"; removed.",
+"by": "dervis-irab-u74",
+"at": "2026-10-10 19:35",
+"fixed": true
+},
+"p2": {
+"ar": "f17552e2a7bc",
+"tr": "da5d547a4658",
+"en": "c30b47e310c6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u27",
+"at": "2026-10-16 19:17",
+"fixed": false
+}
+},
+"dervis-irab:41-43": {
+"p1": {
+"ar": "4920c76fdfbe",
+"tr": "5884effc10f3",
+"en": "af1937a382fa",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN Benefits: «صفوان بن عمر» silently rendered Safwan ibn Amr; now Umar as written with a translator note.",
+"by": "dervis-irab-u74",
+"at": "2026-10-10 19:35",
+"fixed": true
+},
+"p2": {
+"ar": "4920c76fdfbe",
+"tr": "5884effc10f3",
+"en": "af1937a382fa",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u27",
+"at": "2026-10-16 19:17",
+"fixed": false
+}
+},
+"dervis-irab:44-47": {
+"p1": {
+"ar": "1e890b0ca5d8",
+"tr": "5877f5b1207d",
+"en": "6d769ab6ae16",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u74",
+"at": "2026-10-10 19:36",
+"fixed": false
+}
+},
+"dervis-irab:48-51": {
+"p1": {
+"ar": "0fda155294cd",
+"tr": "68ff8e9ecf0e",
+"en": "379770fa3de5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u74",
+"at": "2026-10-10 19:36",
+"fixed": false
+}
+},
+"dervis-irab:52-54": {
+"p1": {
+"ar": "e73da8b71bac",
+"tr": "a5ff5c35e66b",
+"en": "688044964aca",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u74",
+"at": "2026-10-10 19:36",
+"fixed": false
+}
+},
+"dervis-irab:67-69": {
+"p1": {
+"ar": "9179d8bafc21",
+"tr": "b37be6b5f1cc",
+"en": "b89190291a6d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u74",
+"at": "2026-10-10 19:36",
+"fixed": false
+}
+},
+"dervis-irab:70-72": {
+"p1": {
+"ar": "00381268a765",
+"tr": "f461144a5952",
+"en": "0cc421eb0478",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u74",
+"at": "2026-10-10 19:36",
+"fixed": false
+}
+},
+"dervis-irab:73-74": {
+"p1": {
+"ar": "c0b6108d5359",
+"tr": "6127fe7d5b38",
+"en": "97e76a4de65c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u74",
+"at": "2026-10-10 19:36",
+"fixed": false
+}
+},
+"dervis-irab:55-60": {
+"p1": {
+"ar": "c3aeca91c9cd",
+"tr": "c31fb72c146b",
+"en": "b2fd2ab1b27e",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR Fawaid item 8: «المسافر» (traveller) was rendered \"misafir\" (guest); changed to \"yolcu\".",
+"by": "dervis-irab-u74",
+"at": "2026-10-10 19:36",
+"fixed": true
+},
+"p2": {
+"ar": "c3aeca91c9cd",
+"tr": "c31fb72c146b",
+"en": "b2fd2ab1b27e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u27",
+"at": "2026-10-16 19:18",
+"fixed": false
+}
+},
+"dervis-irab:61-63": {
+"p1": {
+"ar": "61b5e64ae448",
+"tr": "61baaf122e43",
+"en": "0fbe9e10f4c2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u74",
+"at": "2026-10-10 19:36",
+"fixed": false
+}
+},
+"dervis-irab:64-66": {
+"p1": {
+"ar": "b3e9b2b131c3",
+"tr": "158fe3003b0f",
+"en": "7ea0fe8aedae",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u74",
+"at": "2026-10-10 19:36",
+"fixed": false
+}
+},
+"dervis-irab:111-112": {
+"p1": {
+"ar": "fc68de410b3e",
+"tr": "f6b7fa9e34dc",
+"en": "53679251ceaa",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR Belagat 2: unmarked gloss \"(müjdelenmeye)\" for the command in \"ترتيب الأمر به\" (the command is to rejoice, فاستبشروا); replaced with \"sevinme emrini\"",
+"by": "dervis-irab-u74",
+"at": "2026-10-10 19:37",
+"fixed": true
+},
+"p2": {
+"ar": "fc68de410b3e",
+"tr": "f6b7fa9e34dc",
+"en": "53679251ceaa",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u27",
+"at": "2026-10-16 19:18",
+"fixed": false
+}
+},
+"dervis-irab:113-116": {
+"p1": {
+"ar": "cbd6f4f5e16b",
+"tr": "9717b7754624",
+"en": "dd523666bbd8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u74",
+"at": "2026-10-10 19:37",
+"fixed": false
+}
+},
+"dervis-irab:75-80": {
+"p1": {
+"ar": "45fa8c588d89",
+"tr": "315771398c24",
+"en": "2379b3a9ad8e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u74",
+"at": "2026-10-10 19:37",
+"fixed": false
+}
+},
+"dervis-irab:81-82": {
+"p1": {
+"ar": "d7a84162b787",
+"tr": "b55f3d33e3cc",
+"en": "6d6b4bcd4128",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u74",
+"at": "2026-10-10 19:37",
+"fixed": false
+}
+},
+"dervis-irab:83-85": {
+"p1": {
+"ar": "78ab236a1175",
+"tr": "979923566850",
+"en": "635810b2b8f5",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN: source repeats the word «سر» (سر سر المخالفة); this was silently dropped, now marked with a translator note.",
+"by": "dervis-irab-p1-u9",
+"at": "2026-10-17 00:03",
+"fixed": true
+},
+"p2": {
+"ar": "78ab236a1175",
+"tr": "979923566850",
+"en": "635810b2b8f5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u13",
+"at": "2026-10-17 00:17",
+"fixed": false
+}
+},
+"dervis-irab:86-89": {
+"p1": {
+"ar": "71177079b8c7",
+"tr": "035742e6f865",
+"en": "e8ae0af3e508",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u74",
+"at": "2026-10-10 19:37",
+"fixed": false
+}
+},
+"dervis-irab:117-118": {
+"p1": {
+"ar": "2d2302704b9c",
+"tr": "a7f5e3239818",
+"en": "cbcb6dc82bdd",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u74",
+"at": "2026-10-10 19:37",
+"fixed": false
+}
+},
+"dervis-irab:119-121": {
+"p1": {
+"ar": "ec2bb27ddc97",
+"tr": "972e826ee99e",
+"en": "7d1657a5a2d2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u74",
+"at": "2026-10-10 19:37",
+"fixed": false
+}
+},
+"dervis-irab:1-3": {
+"p1": {
+"ar": "418d3e95b001",
+"tr": "62bfcb5fe408",
+"en": "e9c93d54e203",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "Re-served after my earlier fixes; both fixes verified in place.",
+"by": "dervis-irab-u74",
+"at": "2026-10-10 19:38",
+"fixed": false
+}
+},
+"dervis-irab:4-5": {
+"p1": {
+"ar": "9d490b55ab53",
+"tr": "ac5f0026ba87",
+"en": "98b1abb2a55c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u74",
+"at": "2026-10-10 19:37",
+"fixed": false
+}
+},
+"dervis-irab:122-126": {
+"p1": {
+"ar": "4921c7667055",
+"tr": "847e028b5a39",
+"en": "61ba4aefa0ef",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u74",
+"at": "2026-10-10 19:37",
+"fixed": false
+},
+"p2": {
+"ar": "4921c7667055",
+"tr": "847e028b5a39",
+"en": "61ba4aefa0ef",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u27",
+"at": "2026-10-16 19:18",
+"fixed": false
+}
+},
+"dervis-irab:127-129": {
+"p1": {
+"ar": "d2dd7ac92134",
+"tr": "c6115fc63499",
+"en": "6b29fe3368a8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u74",
+"at": "2026-10-10 19:37",
+"fixed": false
+}
+},
+"dervis-irab:90-92": {
+"p1": {
+"ar": "0c9e67fcce92",
+"tr": "04e445582f64",
+"en": "2b7abf27173b",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN: quoted source word «عذر» had been given a shadda («عذّر») not in the Arabic; restored as written.",
+"by": "dervis-irab-p1-u9",
+"at": "2026-10-17 00:03",
+"fixed": true
+},
+"p2": {
+"ar": "0c9e67fcce92",
+"tr": "04e445582f64",
+"en": "2b7abf27173b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u13",
+"at": "2026-10-17 00:17",
+"fixed": false
+}
+},
+"dervis-irab:93-95": {
+"p1": {
+"ar": "3e3f1a0a9b21",
+"tr": "9079610f46fa",
+"en": "f6ef6df162ad",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u74",
+"at": "2026-10-10 19:37",
+"fixed": false
+}
+},
+"dervis-irab:6-10": {
+"p1": {
+"ar": "14a22293572c",
+"tr": "41fb8c0bf275",
+"en": "b772022b3d52",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish rendered \"تحقيق كلامهم المعمول\" silently dropping the source typo; added translator note.",
+"by": "dervis-irab-u74",
+"at": "2026-10-10 19:38",
+"fixed": true
+},
+"p2": {
+"ar": "14a22293572c",
+"tr": "41fb8c0bf275",
+"en": "b772022b3d52",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u27",
+"at": "2026-10-16 19:17",
+"fixed": false
+}
+},
+"dervis-irab:11-12": {
+"p1": {
+"ar": "940c86b4b88f",
+"tr": "c798a89493ef",
+"en": "ad508c9b8b0b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u74",
+"at": "2026-10-10 19:38",
+"fixed": false
+}
+},
+"dervis-irab:96-98": {
+"p1": {
+"ar": "26d822da80c6",
+"tr": "8ac8bd4a9ce3",
+"en": "ef24b74f65ef",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u74",
+"at": "2026-10-10 19:38",
+"fixed": false
+}
+},
+"dervis-irab:99-100": {
+"p1": {
+"ar": "16457964de23",
+"tr": "bc2b5c8e4f50",
+"en": "d9ae980b2533",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u74",
+"at": "2026-10-10 19:38",
+"fixed": false
+}
+},
+"dervis-irab:101-104": {
+"p1": {
+"ar": "c3d8c9516389",
+"tr": "4d56f475ad34",
+"en": "c921e15f0818",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u74",
+"at": "2026-10-10 19:38",
+"fixed": false
+}
+},
+"dervis-irab:105-110": {
+"p1": {
+"ar": "127cfc63945f",
+"tr": "e6c3cf40dbbc",
+"en": "aec39b2a0729",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN: bracketed \"[worth anything]\" was an unmarked addition to «لا يرى الدنيا إلا بها» (now literal); «فتسنيت» (source typo) was rendered \"I arranged\" with no note, now \"I wished\" with a translator note as in the Turkish.",
+"by": "dervis-irab-p1-u9",
+"at": "2026-10-17 00:04",
+"fixed": true
+},
+"p2": {
+"ar": "127cfc63945f",
+"tr": "e6c3cf40dbbc",
+"en": "aec39b2a0729",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u13",
+"at": "2026-10-17 00:17",
+"fixed": false
+}
+},
+"dervis-irab:13-15": {
+"p1": {
+"ar": "2c40b4f45b30",
+"tr": "c9c12cbaf565",
+"en": "441af76658fd",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English rendered \"بأن مضمرة\" as \"implied in\" silently; now keeps أن with a translator note.",
+"by": "dervis-irab-u74",
+"at": "2026-10-10 19:38",
+"fixed": true
+},
+"p2": {
+"ar": "2c40b4f45b30",
+"tr": "c9c12cbaf565",
+"en": "441af76658fd",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u27",
+"at": "2026-10-16 19:17",
+"fixed": false
+}
+},
+"dervis-irab:16-17": {
+"p1": {
+"ar": "774abc61640b",
+"tr": "bd233a00d359",
+"en": "7e2372c22ef6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u9",
+"at": "2026-10-17 00:03",
+"fixed": false
+},
+"p2": {
+"ar": "774abc61640b",
+"tr": "bd233a00d359",
+"en": "7e2372c22ef6",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN transliterated the Quran-based construction «أفلا تبصرون أنا بخير» as \"afalā tubṣirūna anā bi-khayr\"; put back in Arabic script.",
+"by": "dervis-irab-p2-u27",
+"at": "2026-10-16 19:17",
+"fixed": true
+}
+},
+"dervis-irab:18-22": {
+"p1": {
+"ar": "739724cf310f",
+"tr": "17cdf57b1d73",
+"en": "2d17b7421b3c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u74",
+"at": "2026-10-10 19:38",
+"fixed": false
+}
+},
+"dervis-irab:23-24": {
+"p1": {
+"ar": "9b60fe05a148",
+"tr": "b5819ff86967",
+"en": "82cd675be74a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u74",
+"at": "2026-10-10 19:39",
+"fixed": false
+}
+}
+}

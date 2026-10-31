@@ -1,0 +1,111 @@
+{
+"nahhas-irab:17-17": {
+"hs": [
+"b57f658fd82a",
+"c87b905d40c0",
+"a8b9f901bac0"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "EN inserts bare-bracket glosses not in the Arabic and not inside a Translator's note: after «وزعم الفراء أن قوله «هو» قول ابن عباس» it adds '[the supplication view]' (an interpretation of an unclear sentence), after «ثم حكى عنه قوله» it adds '[the opposite]', and after «لم يستثن» '[i.e. say \"if Allah wills\"]'. Glossary rule 9: anything added for clarity must be «[Translator's note: …]». Fix: convert these to Translator's notes.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic «وزعم الفراء أن قوله «هو» قول ابن عباس» and «ثم حكى عنه قوله» contain nothing for EN's bracketed glosses «[the supplication view]» and «[the opposite]», and likewise «لم يستثن» gets «[i.e. say \"if Allah wills\"]». These interpretive additions are in plain brackets, not in a [Translator's note: …], so they are unmarked additions. Fix: move them into a Translator's note.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Bare-bracket glosses [the supplication view], [i.e. say 'if Allah wills'] and [the opposite] moved into Translator's notes; ثم حكى عنه قوله now rendered literally",
+"verified": "PASS",
+"verify_note": "Bracketed glosses now inside Translator's notes; translation complete and faithful sentence by sentence."
+}
+},
+"history": [
+{
+"old_hs": [
+"b57f658fd82a",
+"c87b905d40c0",
+"02b4a8e2c040"
+],
+"dim": "en",
+"what": "Bare-bracket glosses [the supplication view], [i.e. say 'if Allah wills'] and [the opposite] moved into Translator's notes; ثم حكى عنه قوله now rendered literally",
+"at": "2026-10-17 00:46"
+}
+]
+},
+"nahhas-irab:32-32": {
+"hs": [
+"9d70d17b96f5",
+"5b155bd0799f",
+"c79a72fa64f4"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: «منها أنه ثنّى ذلك فقال: ذانّك ومن قال: ذانك» breaks off with no second construal stated. TR fills the gap with unmarked '[diğeri ise] «ذانك» diyenin [tesniyesi olmasıdır]' (and '[dolayısıyla]'), an addition not in the Arabic and not inside «[Mütercim notu: …]». Must be marked as a translator's note saying the source is incomplete.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source «ومن قال: ذانك» breaks off with no continuation. TR supplies «[diğeri ise] ... [tesniyesi olmasıdır]» and «[dolayısıyla]» in plain brackets, not inside «[Mütercim notu: …]», so these are unmarked additions that complete a defective sentence. The الرهب note is properly marked. Fix: put the supplement inside a Mütercim notu.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Unmarked completion '[diğeri ise]...[tesniyesi olmasıdır]' replaced by a Mütercim notu saying the source sentence breaks off; '[dolayısıyla]' removed",
+"verified": "PASS",
+"verify_note": "Broken-off ذانك sentence now flagged in a Mütercim notu, no unmarked completion; الرهب reading note marked; rest complete and faithful."
+},
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source «ومن قال: ذانك» ends without its predicate; EN adds unmarked '[did so from ذاك]', a reconstruction not in the Arabic and not inside «[Translator's note: …]». Needs to be put in a Translator's note stating the source sentence is incomplete.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source «ومن قال: ذانك» is cut off. EN adds «[did so from ذاك]» in plain brackets, not inside a [Translator's note: …]. That is an unmarked conjectural completion of the defective sentence. The الرُّهُب note is properly marked. Fix: move the supplement into a Translator's note.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Unmarked '[did so from ذاك]' replaced by a Translator's note saying the source sentence breaks off (presumably ذاك made dual)",
+"verified": "PASS",
+"verify_note": "Conjectural completion of ومن قال ذانك now inside a Translator's note stating the source breaks off; rest complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"9d70d17b96f5",
+"cb2213d3791f",
+"a28829b4231a"
+],
+"dim": "tr",
+"what": "Unmarked completion '[diğeri ise]...[tesniyesi olmasıdır]' replaced by a Mütercim notu saying the source sentence breaks off; '[dolayısıyla]' removed",
+"at": "2026-10-17 00:46"
+},
+{
+"old_hs": [
+"9d70d17b96f5",
+"5b155bd0799f",
+"c79a72fa64f4"
+],
+"dim": "en",
+"what": "Unmarked '[did so from ذاك]' replaced by a Translator's note saying the source sentence breaks off (presumably ذاك made dual)",
+"at": "2026-10-17 00:46"
+}
+]
+}
+}

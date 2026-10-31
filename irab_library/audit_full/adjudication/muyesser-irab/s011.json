@@ -1,0 +1,82 @@
+{
+"muyesser-irab:48-48": {
+"hs": [
+"bf60b07ccd32",
+"450ad61f07db",
+"b6827e2bdf45"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «ومنا حال، لأنه كان صفة لعذاب» and «وساغ الابتداء به، لأنه موصوف». Turkish adds unmarked «(aslında)», «(ve önüne geçince hâl oldu)» and «(nekre ile başlamak)» — explanatory content not in the Arabic; must be inside [Mütercim notu: …].",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «ومنا حال، لأنه كان صفة لعذاب» and «وساغ الابتداء به، لأنه موصوف». Turkish adds unmarked parentheticals «(aslında)», «(ve önüne geçince hâl oldu)» and «(nekre ile başlamak)», none of which is in the Arabic; they must go inside [Mütercim notu: …]. The content is a correct explanation but is an unmarked addition.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved unmarked parentheticals (nekre ile başlamak), (aslında), (ve önüne geçince hâl oldu) into [Mütercim notu: …]",
+"verified": "PASS",
+"verify_note": "Complete and faithful; the nekre explanation and the sıfat-to-hâl explanation are now inside [Mütercim notu: …]; nothing unmarked added."
+}
+},
+"history": [
+{
+"old_hs": [
+"bf60b07ccd32",
+"b56fa51c8fa9",
+"b6827e2bdf45"
+],
+"dim": "tr",
+"what": "Moved unmarked parentheticals (nekre ile başlamak), (aslında), (ve önüne geçince hâl oldu) into [Mütercim notu: …]",
+"at": "2026-10-17 00:43"
+}
+]
+},
+"muyesser-irab:106-106": {
+"hs": [
+"dca9b78b3298",
+"1ec2e64fb652",
+"6da0ca923956"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «متعلقان بمحذوف حال، لأنه كان صفة لزفير». Turkish adds unmarked parenthetical «(öne geçince hâl oldu)» which is not in the Arabic; must be placed inside [Mütercim notu: …].",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «وفيها جار ومجرور متعلقان بمحذوف حال، لأنه كان صفة لزفير». Turkish: «çünkü زفير'in sıfatı idi (öne geçince hâl oldu)» - the parenthetical is not in the Arabic and is unmarked; it must be inside [Mütercim notu: …].",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved unmarked parenthetical (öne geçince hâl oldu) into [Mütercim notu: …]",
+"verified": "PASS",
+"verify_note": "Complete and faithful; the 'öne geçince hâl olmuştur' explanation is now inside [Mütercim notu: …]; nothing unmarked added."
+}
+},
+"history": [
+{
+"old_hs": [
+"dca9b78b3298",
+"e3f3bfea553c",
+"6da0ca923956"
+],
+"dim": "tr",
+"what": "Moved unmarked parenthetical (öne geçince hâl oldu) into [Mütercim notu: …]",
+"at": "2026-10-17 00:43"
+}
+]
+}
+}

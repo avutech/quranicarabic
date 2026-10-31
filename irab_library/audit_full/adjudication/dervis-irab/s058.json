@@ -1,0 +1,27 @@
+{
+"dervis-irab:5-7": {
+"hs": [
+"cc569ef2ec02",
+"7a015024d8d6",
+"3b1ed9ab5fc6"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "EN is complete and faithful to the Arabic (lughah, i'rab incl. «ساسدهم» misprint flagged in a note, and the long balagha on فن الانفصال). The disputed attribution after «ولم يتجاوز بها إلى سابع» / «هذا نص كلام الزمخشري حكيته بلفظه» is enclosed in a proper [Translator's note: …], is hedged («the wording matches…; the source does not name him»), and is accurate: the فن الانفصال discussion of this ayah with the report of ربيعة وحبيب ابنا عمرو وصفوان بن أمية and the rebuttal of al-Zamakhshari is Ibn Abi al-Isba''s (Tahrir al-Tahbir / Badi' al-Qur'an). Marked, correct addition - not an error. Other source corruptions (ليعلم أئمتهم به, ألفيت, وضعه) are likewise flagged in notes, not silently corrected.",
+"at": "2026-10-17 00:42"
+},
+"J2": {
+"class": "HUMAN",
+"evidence": "EN body faithfully renders the Arabic (e.g. ألا ترى أن عمر بن الخطاب ... لم يتجاوز بها إلى سابع، هذا نص كلام الزمخشري حكيته بلفظه). The only issue is the marked note asserting the following text 'matches Ibn Abī al-Iṣbaʿ in Taḥrīr al-Taḥbīr / Badīʿ al-Qur'an'; the Arabic names no one (it just continues هذا نص كلام الزمخشري حكيته بلفظه...). The attribution is plausible (style مورد السؤال ومفرد الإشكال fits Ibn Abī al-Iṣbaʿ) but I cannot verify it from the text here; whether to keep an unverified scholarly attribution in a note needs a human with the source.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "HUMAN"
+}
+}
+}
+}

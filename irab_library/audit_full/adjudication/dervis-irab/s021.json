@@ -1,0 +1,42 @@
+{
+"dervis-irab:62-70": {
+"hs": [
+"74215fcdc172",
+"5412e2b94bdc",
+"3f2ec361e780"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "«لكم متعلقان بمحذوف حال لأن اللام للبيان بالنسبة للمتأفف»: the lām of تبيين in «أف لكم» specifies at whom the uff is directed (the addressees لكم), so المتأفف here must be the one vexed at (as TR 'kendisinden usanılan kişi'); EN 'the lām is for explaining the one expressing vexation' names the speaker Ibrāhīm, which the lām of لكم cannot explain - wrong sense. Independently, the EN i'rab of this entry renders the parsed Quranic words in Latin transliteration (uffin, lakum, wa-li-mā taʿbudūna, ḥarriqūhu, nukisū, ʿalimta, kūnī bardan...) instead of Arabic script, which the standard forbids.",
+"at": "2026-10-17 00:42"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "«لكم متعلقان بحال محذوفة لأن اللام للبيان بالنسبة للمتأفف»: this is the lām al-tabyīn (as in سقيا لك / هيت لك) after the ism fiʿl «أف», which specifies for whom the expression is meant, i.e. the one at whom uff is directed (المتأفَّف منه/له = the idolaters, «لكم ولما تعبدون»). The speaker (Ibrāhīm) needs no 'explaining'. EN 'since the lām is for explaining the one expressing vexation' names the speaker instead of the target and so gives the wrong grammatical function; TR 'kendisinden usanılan kişi bakımından beyân' is right. EN should read e.g. 'explaining the one at whom vexation is expressed'.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "المتأفف rendered as the one at whom vexation is expressed; transliterated parsed Quranic words in the I'rab replaced with Arabic script",
+"verified": "PASS",
+"verify_note": "لكم now 'explaining with respect to the one at whom vexation is expressed' (correct lām al-tabyīn sense); parsed Quranic words now in Arabic script throughout the I'rab; reading checked sentence by sentence against the Arabic (I'rab and both Rhetoric items): complete, faithful, no unmarked additions."
+}
+},
+"history": [
+{
+"old_hs": [
+"74215fcdc172",
+"5412e2b94bdc",
+"612230e190b8"
+],
+"dim": "en",
+"what": "المتأفف rendered as the one at whom vexation is expressed; transliterated parsed Quranic words in the I'rab replaced with Arabic script",
+"at": "2026-10-17 00:47"
+}
+]
+}
+}

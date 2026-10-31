@@ -1,0 +1,42 @@
+{
+"daas-irab:27-27": {
+"hs": [
+"c2834ac48209",
+"0615831337ba",
+"158470b53698"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic implied form ends: والتقدير لا يفتننكم الشيطان فتنة كائنة كفتنة. English renders it as 'with a temptation like the temptation [of your parents]' - the bracketed 'of your parents' has no counterpart in the Arabic and is not inside a [Translator's note: ...]; unmarked addition, must be moved into a translator's note.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic takdir ends: لا يفتننكم الشيطان فتنة كائنة كفتنة. English renders it 'like the temptation [of your parents]' - the bracketed words are not in the Arabic and are not inside a [Translator's note: ...]; unmarked addition, needs to be moved into a translator's note.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved unmarked addition '[of your parents]' out of the implied form into a [Translator's note: i.e. like his temptation of your parents]",
+"verified": "PASS",
+"verify_note": "Takdir now ends 'like the temptation' with the addition moved into [Translator's note: i.e. like his temptation of your parents]; rest of reading checked sentence by sentence, complete and faithful (incl. hayth genitive as written), no unmarked additions."
+}
+},
+"history": [
+{
+"old_hs": [
+"c2834ac48209",
+"0615831337ba",
+"ca185e470aaf"
+],
+"dim": "en",
+"what": "Moved unmarked addition '[of your parents]' out of the implied form into a [Translator's note: i.e. like his temptation of your parents]",
+"at": "2026-10-17 00:42"
+}
+]
+}
+}

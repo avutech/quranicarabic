@@ -1,0 +1,11 @@
+{
+ "surah": 82,
+ "chunk": "1-19",
+ "verdicts": {
+  "OK": 76,
+  "SOURCE_DEFECT": 2,
+  "GAP": 8
+ },
+ "summary": "No high/medium findings. 8 low findings (UNFOUND/XREF) all spelling variance or legit cross-reference, except zajjaj:19-19 source truncated. Semantic sample of all 13 books OK (zajjaj:1-1 source quote missing). 8 GAP verdicts recorded. No translation fixes needed.",
+ "at": "2026-10-10 15:14"
+}

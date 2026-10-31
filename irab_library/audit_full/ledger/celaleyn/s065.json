@@ -1,0 +1,242 @@
+{
+"celaleyn:1-1": {
+"p1": {
+"ar": "33fd2307a7b9",
+"tr": "325df09ed552",
+"en": "b4d1bd685900",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:49",
+"fixed": false
+},
+"p2": {
+"ar": "33fd2307a7b9",
+"tr": "325df09ed552",
+"en": "b4d1bd685900",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-p2-u3",
+"at": "2026-10-16 18:52",
+"fixed": false
+}
+},
+"celaleyn:2-2": {
+"p1": {
+"ar": "430ebada39ac",
+"tr": "f3b2089187a3",
+"en": "62a579469f14",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:49",
+"fixed": false
+}
+},
+"celaleyn:3-3": {
+"p1": {
+"ar": "38124def06f5",
+"tr": "e21417a0c3d1",
+"en": "4991afd24b95",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:49",
+"fixed": false
+}
+},
+"celaleyn:4-4": {
+"p1": {
+"ar": "6160622d545a",
+"tr": "1b033e5b22ec",
+"en": "0c639e134fe4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:49",
+"fixed": false
+},
+"p2": {
+"ar": "6160622d545a",
+"tr": "1b033e5b22ec",
+"en": "0c639e134fe4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-p2-u3",
+"at": "2026-10-16 18:52",
+"fixed": false
+}
+},
+"celaleyn:5-5": {
+"p1": {
+"ar": "60774bd93184",
+"tr": "f03ba6e74f66",
+"en": "c7197be79c9d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:49",
+"fixed": false
+}
+},
+"celaleyn:6-6": {
+"p1": {
+"ar": "d7f04d64f4a7",
+"tr": "2601d65adbf7",
+"en": "80e89739d02b",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English added '(to give up) maintenance' for فَيَحْتَجْنَ إِلَى الْخُرُوجِ أَوِ النَّفَقَةِ (they need to leave or need maintenance); corrected.",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:49",
+"fixed": true
+},
+"p2": {
+"ar": "d7f04d64f4a7",
+"tr": "2601d65adbf7",
+"en": "80e89739d02b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-p2-u3",
+"at": "2026-10-16 18:52",
+"fixed": false
+}
+},
+"celaleyn:7-7": {
+"p1": {
+"ar": "ad2573be8752",
+"tr": "7a32aae2fbed",
+"en": "f2fc21706250",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:49",
+"fixed": false
+}
+},
+"celaleyn:8-8": {
+"p1": {
+"ar": "fbc7ef686cd2",
+"tr": "91f5a2e10f61",
+"en": "cfff8a225b06",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish added unmarked '(mazi ile ifade edildi)' that is not in the Arabic; removed.",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:49",
+"fixed": true
+},
+"p2": {
+"ar": "fbc7ef686cd2",
+"tr": "91f5a2e10f61",
+"en": "cfff8a225b06",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-p2-u3",
+"at": "2026-10-16 18:52",
+"fixed": false
+}
+},
+"celaleyn:9-9": {
+"p1": {
+"ar": "e130fd4cfca3",
+"tr": "f4564eeb3c0e",
+"en": "cec23e59bb95",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:49",
+"fixed": false
+}
+},
+"celaleyn:10-10": {
+"p1": {
+"ar": "c9308762cc79",
+"tr": "dfb013c20b74",
+"en": "d991f2ef67d2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:49",
+"fixed": false
+}
+},
+"celaleyn:11-11": {
+"p1": {
+"ar": "a20b3f07ff5d",
+"tr": "afedc529fcd9",
+"en": "7d460e3fecd3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:50",
+"fixed": false
+},
+"p2": {
+"ar": "a20b3f07ff5d",
+"tr": "afedc529fcd9",
+"en": "7d460e3fecd3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-p2-u3",
+"at": "2026-10-16 18:52",
+"fixed": false
+}
+},
+"celaleyn:12-12": {
+"p1": {
+"ar": "b0a677f0ed13",
+"tr": "447b56d17095",
+"en": "c8cc0f79b135",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u15",
+"at": "2026-10-10 15:49",
+"fixed": false
+},
+"p2": {
+"ar": "b0a677f0ed13",
+"tr": "447b56d17095",
+"en": "c8cc0f79b135",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-p2-u3",
+"at": "2026-10-16 18:52",
+"fixed": false
+}
+}
+}

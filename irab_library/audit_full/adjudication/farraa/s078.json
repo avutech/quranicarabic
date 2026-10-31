@@ -1,0 +1,29 @@
+{
+"farraa:1-4": {
+"hs": [
+"67b3e3c86960",
+"c84ac5711245",
+"5d73bb41027b"
+],
+"dims": {
+"fit": {
+"votes": {
+"J2": {
+"class": "MISPLACED",
+"evidence": "Entry treats عم يتساءلون عن النبأ العظيم (78:1-2), الذي هم فيه مختلفون (78:3) and the readings سيعلمون/ستعلمون (78:4), but it ends with a separate gloss وقوله: ﴿ثَجَّاجاً﴾ كالعَزَالِى: which is on ثجاجا of 78:14 (وأنزلنا من المعصرات ماء ثجاجا), not cited as evidence. It is a broken-off fragment, but it is a real gloss of 78:14, so the entry covers 1-14 (or the fragment should be listed under 78:14).",
+"at": "2026-10-17 00:40",
+"ayahs": "1-14"
+},
+"J1": {
+"class": "MISPLACED",
+"evidence": "Entry discusses 78:1-4 (﴿عَمَّ يَتَسَآءَلُونَ﴾, ﴿عَنِ ٱلنَّبَإِ ٱلْعَظِيمِ﴾, ﴿ٱلَّذِي هُمْ فِيهِ مُخْتَلِفُونَ﴾, ﴿كَلاَّ سَيَعْلَمُونَ﴾) but ends with a separate comment 'وقوله: ﴿ثَجَّاجاً﴾ كالعَزَالِى' which is about 78:14 (ماءً ثجاجا); farraa has no separate 78:14 entry. The range must contain 14.",
+"at": "2026-10-17 00:41",
+"ayahs": "1-14"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+}
+}

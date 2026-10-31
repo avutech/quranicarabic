@@ -1,0 +1,132 @@
+{
+"dervis-irab:66-72": {
+"hs": [
+"2e251093ad1e",
+"8ae67ab84c6c",
+"03076f284467"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "(1) The book introduces al-Maʿarrī's line with «أولم يقل لهم مخاطبا: غدوت مريض العقل والدين فالقني», i.e. addressed to them (غدوتَ = you have become sick in intellect and religion, so meet me); EN renders 'I became sick in intellect and religion', contradicting its own 'addressing them'. (2) «بالذي ألهم تعذيبي ... ثناياك العذابا»: ألهم takes ثناياك as object and تعذيبي as second object, العذابا (sweet) qualifying ثناياك = 'by Him who inspired your sweet front teeth to torment me'; EN 'who inspired my torment, [and made] your teeth sweet and cool' breaks the syntax and adds an unmarked bracket '[and made]'. Wrong meaning.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "(1) Maʿarrī: the author introduces the line with «أولم يقل لهم مخاطبا» and the verse itself has the imperative «فالقني», so «غدوت مريض العقل والدين» is second person (ghadawta: you have become sick in mind and religion, so meet me); EN 'I became sick in intellect and religion; so meet me' inverts the addressee and contradicts 'addressing them'. (2) al-Ṣūrī: «بالذي ألهم تعذيبي ثناياك العذابا» = by Him who inspired your sweet (العذاب) front teeth (ثناياك, 1st object of ألهم) with tormenting me (تعذيبي, 2nd object); EN 'who inspired my torment, [and made] your teeth sweet and cool' breaks the double-object structure and inserts an unmarked bracketed verb '[and made]'. Both need fixing.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "I'rab and Benefits: all transliterated Quranic/parsed words now in Arabic script (يقول الإنسان, أخرج, حيا, نحشرنهم, الشياطين, جثيا, عتيا, صليا, واردها, حتما, ننجي, أيهم, ننزع, الذي, etc.); removed unmarked brackets [to me], [who remains], [address], [the relative reading]; [compensation] now explained in Translator's note; سمغنا note in proper form; added Translator's notes for source typos نمحض, بمحذف, تغد في, للمدوح, يشيع, أجثى",
+"verify_note": "EN complete; al-Maarri line 2nd person, al-Suri double-object fixed; bracket additions removed or moved into Translator's notes (bāʾ of exchange note); سمغنا/نمحض/بمحذف/فارفت/للمدوح/يشيع flagged; parsed Quranic words now in Arabic script.",
+"fix_failed": 1,
+"verified": "PASS"
+},
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic «ونسبهما في الكامل لأبي دلف» does not name the author of al-Kamil. The Turkish '[Müberred] el-Kâmil'de' adds the attribution in plain square brackets, which is an unmarked addition. Likewise «والروح العلائية معروفة» becomes 'Alâî ruh [Ebü'l-Alâ'nın ruhu]', and «يعزيه بالرشيد» becomes 'Reşîd ['in vefatı] için'. These are interpretive additions that are not inside «[Mütercim notu: …]». They must be moved into such notes. The rest of the Turkish is faithful.",
+"at": "2026-10-17 01:03"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic «ونسبهما في الكامل لأبي دلف» names no author, but the Turkish writes '[Müberred] el-Kâmil'de'; «والروح العلائية معروفة» becomes 'Alâî ruh [Ebü'l-Alâ'nın ruhu]'; and the Ebû Nüvâs line gets 'Reşîd ['in vefatı]'. These are interpretive additions in bare square brackets, not inside [Mütercim notu: ...]. The Turkish also has other bare-bracket supplements (e.g. [Yûnus], [hilafetini], [bu oklar]) that need the same check. Fix: put the identifications and glosses inside Mütercim notu. The rest of the translation looked faithful.",
+"at": "2026-10-17 01:03"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved interpretive bracket glosses (Müberred, Ebü'l-Alâ'nın ruhu, telafi, gâib zamirler, müsbet cümle, yemin, hayatı sevmez, naklettiği) into Mütercim notu; removed unneeded glosses ('in vefatı, hilafetini, sevgili, kazançlı, çölünün, muhatap, bir grubun, döveceğim, mu'rebdir); integrated grammatical/implicit-subject supplements as plain text; fixed sana karşı -> senin için (عليك)",
+"verified": "PASS",
+"verify_note": "Müberred, Ebü'l-Alâ and Reşîd glosses now inside Mütercim notu or removed; no bare-bracket supplements remain; lugha, i'rab, balagha verses and Fevâid (Ebû Hayyân, İbn Hişâm, Ebü'l-Bekâ five views) rendered completely and faithfully; source typos (أجثى, نمحض, بمحذف, سمغنا, فارفت, يشيع) noted, not silently corrected. Remaining parentheses only gloss words already in the Arabic."
+}
+},
+"history": [
+{
+"old_hs": [
+"2e251093ad1e",
+"3ee83e6ad0f3",
+"5417e21c59c9"
+],
+"dim": "en",
+"what": "Maarri verse now second person (You have become sick...); al-Suri verse rendered 'By Him who inspired your sweet front teeth to torment me', removed unmarked [and made]",
+"at": "2026-10-17 00:47"
+},
+{
+"old_hs": [
+"2e251093ad1e",
+"3ee83e6ad0f3",
+"310cd1eb1f9c"
+],
+"dim": "en",
+"what": "I'rab and Benefits: all transliterated Quranic/parsed words now in Arabic script (يقول الإنسان, أخرج, حيا, نحشرنهم, الشياطين, جثيا, عتيا, صليا, واردها, حتما, ننجي, أيهم, ننزع, الذي, etc.); removed unmarked brackets [to me], [who remains], [address], [the relative reading]; [compensation] now explained in Translator's note; سمغنا note in proper form; added Translator's notes for source typos نمحض, بمحذف, تغد في, للمدوح, يشيع, أجثى",
+"at": "2026-10-17 00:54"
+},
+{
+"old_hs": [
+"2e251093ad1e",
+"3ee83e6ad0f3",
+"03076f284467"
+],
+"dim": "tr",
+"what": "Moved interpretive bracket glosses (Müberred, Ebü'l-Alâ'nın ruhu, telafi, gâib zamirler, müsbet cümle, yemin, hayatı sevmez, naklettiği) into Mütercim notu; removed unneeded glosses ('in vefatı, hilafetini, sevgili, kazançlı, çölünün, muhatap, bir grubun, döveceğim, mu'rebdir); integrated grammatical/implicit-subject supplements as plain text; fixed sana karşı -> senin için (عليك)",
+"at": "2026-10-17 01:07"
+}
+]
+},
+"dervis-irab:73-76": {
+"hs": [
+"5241cc4af9fb",
+"9fbba3f1ef1f",
+"90c3849bc37b"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "«ونص أصحابنا على أن كم الاستفهامية والخبرية لا توصف ولا يوصف بها» = our colleagues stated explicitly that كم is neither qualified nor used as a qualifier. TR «...«كم»in ne sıfatlanacağını ne de onunla sıfat yapılacağını açıkça belirtmişlerdir»: in Turkish ne...ne de with the main predicate negates belirtmek, giving 'they stated explicitly neither that it is qualified nor that...', i.e. silence instead of an explicit prohibition. Should read e.g. «...sıfatlanmadığını ve onunla sıfat yapılmadığını açıkça belirtmişlerdir». Also «(Cümlenin)» before «قرن»in sıfatı is an unmarked addition (source just «ويجوز أن يكون صفة لقرن»).",
+"at": "2026-10-17 00:42"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic «ونص أصحابنا على أن كم الاستفهامية والخبرية لا توصف ولا يوصف بها» = our colleagues explicitly stated that كم (interrogative and khabariyya) is NOT qualified and NOT used as a qualifier (an objection to Zamakhsharī's صفة analysis). TR 'ne sıfatlanacağını ne de onunla sıfat yapılacağını açıkça belirtmişlerdir': in Turkish 'ne X ne de Y' + verb negates the verb for each object (cf. 'ne kitabı ne de defteri okudum'), so it reads 'they stated neither that it is qualified nor that it qualifies' - the negation moves from the content to the act of stating, reversing the point. Should be e.g. 'sıfatlanmayacağını ve onunla sıfat yapılmayacağını açıkça belirtmişlerdir'.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Fevâid 2: dropped unmarked additions (kâfirlerin), (soruya), (müminler) — now «Övünenin», «hayal edilen şeye», «nasıl onlara üstün tutuldular»; also removed other unmarked parenthetical glosses ((gürleşti), (zarfı), (râbıta), (amelden), (مردا), (kısmîlik), (mûceb)); added Mütercim notu for source «إذ الشرطية»",
+"verify_note": "Flagged fix done (كم 'sıfatlanmayacağını ve onunla sıfat yapılmayacağını'; «cümlenin» now in a note). But unmarked interpretive additions remain in Fevâid 2: «Övünenlerin (kâfirlerin)» and «(müminler) onlardan nasıl üstün tutuldu» in the Şihâb quote, plus «(soruya)»; these are not in the Arabic and must go into «[Mütercim notu: …]» or be dropped.",
+"fix_failed": 1
+}
+},
+"history": [
+{
+"old_hs": [
+"5241cc4af9fb",
+"f5575ccd221d",
+"90c3849bc37b"
+],
+"dim": "tr",
+"what": "كم ruling now 'sıfatlanmayacağını ve onunla sıfat yapılmayacağını açıkça belirtmişlerdir'; unmarked (Cümlenin) put in Mütercim notu",
+"at": "2026-10-17 00:47"
+},
+{
+"old_hs": [
+"5241cc4af9fb",
+"0f622b266472",
+"90c3849bc37b"
+],
+"dim": "tr",
+"what": "Fevâid 2: dropped unmarked additions (kâfirlerin), (soruya), (müminler) — now «Övünenin», «hayal edilen şeye», «nasıl onlara üstün tutuldular»; also removed other unmarked parenthetical glosses ((gürleşti), (zarfı), (râbıta), (amelden), (مردا), (kısmîlik), (mûceb)); added Mütercim notu for source «إذ الشرطية»",
+"at": "2026-10-17 00:55"
+}
+]
+}
+}

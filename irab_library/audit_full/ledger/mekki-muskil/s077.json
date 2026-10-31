@@ -1,0 +1,204 @@
+{
+"mekki-muskil:1-1": {
+"p1": {
+"ar": "0249673099ed",
+"tr": "63051c40cd37",
+"en": "f79776f134f6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:47",
+"fixed": false
+}
+},
+"mekki-muskil:2-2": {
+"p1": {
+"ar": "551a577874de",
+"tr": "3a756c32e50c",
+"en": "bd214a6d98d6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:47",
+"fixed": false
+}
+},
+"mekki-muskil:5-5": {
+"p1": {
+"ar": "7eae6427f074",
+"tr": "e2f34bdf416d",
+"en": "775a053d3c4b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:47",
+"fixed": false
+}
+},
+"mekki-muskil:6-6": {
+"p1": {
+"ar": "b5f55e670d69",
+"tr": "f3572386f3c7",
+"en": "dcb71e480a86",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:47",
+"fixed": false
+}
+},
+"mekki-muskil:7-7": {
+"p1": {
+"ar": "891ae654575a",
+"tr": "9e7e51b104e9",
+"en": "9c9ccb42751c",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English had unmarked bracket \"[with its clause]\" after (إن); removed.",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:47",
+"fixed": true
+},
+"p2": {
+"ar": "891ae654575a",
+"tr": "9e7e51b104e9",
+"en": "9c9ccb42751c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"mekki-muskil:13-13": {
+"p1": {
+"ar": "93c9d227c1e0",
+"tr": "cc43c93f3ebc",
+"en": "dfb325d6cf00",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:47",
+"fixed": false
+}
+},
+"mekki-muskil:14-14": {
+"p1": {
+"ar": "33cbd6a49aa2",
+"tr": "4824dad694c5",
+"en": "878be351daec",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:47",
+"fixed": false
+},
+"p2": {
+"ar": "33cbd6a49aa2",
+"tr": "4824dad694c5",
+"en": "878be351daec",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"mekki-muskil:15-15": {
+"p1": {
+"ar": "2f9f10985680",
+"tr": "f49c16652794",
+"en": "06cbc9c15f70",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:47",
+"fixed": false
+}
+},
+"mekki-muskil:25-25": {
+"p1": {
+"ar": "98fb2900e027",
+"tr": "4d7f678a8e4c",
+"en": "f185d3bc4a83",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:47",
+"fixed": false
+}
+},
+"mekki-muskil:35-35": {
+"p1": {
+"ar": "e5edb715d5af",
+"tr": "8baa7a1e522b",
+"en": "b9c1319e876e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:47",
+"fixed": false
+},
+"p2": {
+"ar": "e5edb715d5af",
+"tr": "8baa7a1e522b",
+"en": "b9c1319e876e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"mekki-muskil:44-44": {
+"p1": {
+"ar": "f1e9605d50f7",
+"tr": "5b87fb067f1e",
+"en": "beefb80c80d7",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English silently corrected source typo «واتمتعوا»; translator note added.",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:47",
+"fixed": true
+},
+"p2": {
+"ar": "f1e9605d50f7",
+"tr": "5b87fb067f1e",
+"en": "beefb80c80d7",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "Second paragraph \"واتمتعوا قليلا\" belongs to 77:46; translations complete and faithful.",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+}
+}

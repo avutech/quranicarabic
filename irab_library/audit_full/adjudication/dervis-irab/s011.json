@@ -1,0 +1,93 @@
+{
+"dervis-irab:17-22": {
+"hs": [
+"b589a262ed99",
+"5bcf5830bcbd",
+"fd02f5aa919a"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic «والأخسرون خبر أن أو خبرهم والجملة خبر أن» is rendered '«الأخسرون» «أن»nin haberi veya «هم»ün haberidir; [ikinci durumda] cümle «أن»nin haberidir' — '[ikinci durumda]' is not in the Arabic and is not in a Mütercim notu. Likewise in the Farra' paragraph «في أنهم في الآخرة أي في خسرانهم» TR inserts unmarked '[hüsranda]'. The interpretation is grammatically sensible but these are unmarked additions; fix by placing them in «[Mütercim notu: …]».",
+"at": "2026-10-17 00:43"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic «والأخسرون خبر أن أو خبرهم والجملة خبر أن» -> TR '«الأخسرون» «أن»nin haberi veya «هم»ün haberidir; [ikinci durumda] cümle «أن»nin haberidir'. '[ikinci durumda]' is not in the Arabic and is not inside a [Mütercim notu: …]; the gloss is logically right but it is an unmarked addition (EN renders literally 'with the clause being the khabar of أنّ'). Fix: put it in a Mütercim notu.",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Unmarked '[ikinci durumda]' moved into Mütercim notu; unmarked '[hüsranda]' dropped (Arabic: في أنهم في الآخرة أي في خسرانهم)",
+"verified": "PASS",
+"verify_note": "'[ikinci durumda]' now a Mütercim notu; Farra' sentence now 'âhirette olmalarında, yani hüsranlarında' with no unmarked '[hüsranda]'. Read sentence by sentence: complete and faithful; the نقدم typo and the المعطوف عليه rendering are disclosed in Mütercim notu; remaining parentheses translate quoted Arabic or gloss terms."
+}
+},
+"history": [
+{
+"old_hs": [
+"b589a262ed99",
+"8c943cc9d928",
+"fd02f5aa919a"
+],
+"dim": "tr",
+"what": "Unmarked '[ikinci durumda]' moved into Mütercim notu; unmarked '[hüsranda]' dropped (Arabic: في أنهم في الآخرة أي في خسرانهم)",
+"at": "2026-10-17 00:49"
+}
+]
+},
+"dervis-irab:96-108": {
+"hs": [
+"7a06c8c2841c",
+"4f151c5ccb36",
+"683a04ff02a4"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Qamus quote «وقد سعد كعلم وعني فهو سعيد ومسعود ولا يقال مسعد» is rendered '(سعد), (علم) ve (عني) gibi (malum ve meçhul olarak) kullanılır' — '(malum ve meçhul olarak)' is an interpretive gloss not in the Arabic and not inside a Mütercim notu (the source only gives the patterns كعلم وعني). Similarly «وبالمصدر سمي» gets unmarked '(Sa'd)'. These are unmarked additions; fix by moving them into «[Mütercim notu: …]».",
+"at": "2026-10-17 00:43"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic Qamus quote «وقد سعد كعلم وعني فهو سعيد ومسعود ولا يقال مسعد» -> TR '(سعد), (علم) ve (عني) gibi (malum ve meçhul olarak) kullanılır': '(malum ve meçhul olarak)' is an explanatory gloss not in the Arabic and not inside a [Mütercim notu: …] (also 'kullanılır' is supplied). Interpretation is plausible (عُنِيَ is passive) but it is an unmarked addition; fix: move into a Mütercim notu.",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed all remaining unmarked additions listed by verifier: (de ona denir), (vardırmaktır), [orada], (göstermektir) (sentence recast literally), [dişleri]/[sözleri] and [şarapla] moved into Mütercim notu, Farra' verse retranslated as written (إلا kept as exception, gloss in note), (bundan başka)/daha, (ateş) into note, (görüş) dropped",
+"verify_note": "All items from the previous verifier note are fixed (removed or in Mütercim notu). Two remaining problems found on a full sentence-by-sentence read: (1) Zuhayr verse «وضعن عصي الحاضر المتوسم» -> 'konaklayan kimsenin çadır direklerini diktiler' omits «المتوسم» (only الحاضر is rendered); (2) Mutanabbi verse «سأطلب حقي بالقنا ومشايخ» -> 'öyle yiğit büyüklerle' adds 'yiğit', not in the Arabic and not in a Mütercim notu. Render المتوسم and drop 'yiğit' (or put it in a note); rest is complete and faithful.",
+"fix_failed": 2,
+"verified": null
+}
+},
+"history": [
+{
+"old_hs": [
+"7a06c8c2841c",
+"1e8cee0f1d7e",
+"f2d6d63363ae"
+],
+"dim": "tr",
+"what": "Qamus quote: unmarked '(malum ve meçhul olarak) kullanılır' replaced by literal 'gibidir' with the gloss in a Mütercim notu; unmarked '(Sa'd)' moved into Mütercim notu",
+"at": "2026-10-17 00:49"
+},
+{
+"old_hs": [
+"7a06c8c2841c",
+"0b54bf69eac9",
+"f2d6d63363ae"
+],
+"dim": "tr",
+"what": "Removed all remaining unmarked additions listed by verifier: (de ona denir), (vardırmaktır), [orada], (göstermektir) (sentence recast literally), [dişleri]/[sözleri] and [şarapla] moved into Mütercim notu, Farra' verse retranslated as written (إلا kept as exception, gloss in note), (bundan başka)/daha, (ateş) into note, (görüş) dropped",
+"at": "2026-10-17 00:58"
+}
+]
+}
+}

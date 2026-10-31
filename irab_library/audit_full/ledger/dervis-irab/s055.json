@@ -1,0 +1,120 @@
+{
+"dervis-irab:1-13": {
+"p1": {
+"ar": "5bbff9f1bc1c",
+"tr": "04db82e0a70a",
+"en": "5ae6b5da171b",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR: unmarked addition \"(halkın en zayıfı olan)\" in Ali quote and garbled \"mahallen ...dir\" in the lam-ta'lil sentence, silent correction of أعرف; EN: silently changed نصب to genitive in the same sentence. All corrected with notes.",
+"by": "dervis-irab-u92",
+"at": "2026-10-10 19:41",
+"fixed": true
+},
+"p2": {
+"ar": "5bbff9f1bc1c",
+"tr": "04db82e0a70a",
+"en": "5ae6b5da171b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u6",
+"at": "2026-10-17 00:02",
+"fixed": false
+}
+},
+"dervis-irab:14-30": {
+"p1": {
+"ar": "3beee7ce1213",
+"tr": "749e6e15f8b7",
+"en": "387cae752854",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR: stray word \"hatta\" for the yāʾ dropped in the script (الجوار); corrected to \"yazıda\".",
+"by": "dervis-irab-u92",
+"at": "2026-10-10 19:41",
+"fixed": true
+},
+"p2": {
+"ar": "3beee7ce1213",
+"tr": "749e6e15f8b7",
+"en": "387cae752854",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u6",
+"at": "2026-10-17 00:03",
+"fixed": false
+}
+},
+"dervis-irab:31-45": {
+"p1": {
+"ar": "ce1a5ff31151",
+"tr": "f8082803b982",
+"en": "4823dd35ddda",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN rendered «الوردة» as the plant/rose flower with an unmarked gloss, while the source (typo «الغرس» for «الفرس») describes a horse coat; reconciled with the TR reading and added a translator note.",
+"by": "dervis-irab-u92",
+"at": "2026-10-10 19:42",
+"fixed": true
+},
+"p2": {
+"ar": "ce1a5ff31151",
+"tr": "f8082803b982",
+"en": "4823dd35ddda",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u36",
+"at": "2026-10-16 19:21",
+"fixed": false
+}
+},
+"dervis-irab:46-61": {
+"p1": {
+"ar": "b6e07ab0e0cb",
+"tr": "fcdc7d9ee053",
+"en": "cb41718305fc",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u16",
+"at": "2026-10-17 00:07",
+"fixed": false
+},
+"p2": {
+"ar": "b6e07ab0e0cb",
+"tr": "fcdc7d9ee053",
+"en": "cb41718305fc",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u21",
+"at": "2026-10-17 00:18",
+"fixed": false
+}
+},
+"dervis-irab:62-78": {
+"p1": {
+"ar": "3b60405cbd15",
+"tr": "264920edd3da",
+"en": "d87115b0cda5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u92",
+"at": "2026-10-10 19:43",
+"fixed": false
+}
+}
+}

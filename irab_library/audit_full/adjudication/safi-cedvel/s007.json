@@ -1,0 +1,107 @@
+{
+"safi-cedvel:59-64": {
+"hs": [
+"34b2b8396861",
+"109ae098ee78",
+"6cf96e72b42b"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic (64) reads «(مع) ظرف مكان منصوب متعلق بمحذوف الصلة المحذوفة» with no word for a verb; English renders it 'attached to the omitted [verb of the] omitted ṣila' - '[verb of the]' is an interpretive addition in bare brackets, not inside «[Translator's note: …]» as glossary_en rule 8/9 requires. Fix: render literally and move the clarification into a Translator's note (as the Turkish already does).",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source (64): «(مع) ظرف مكان منصوب متعلق بمحذوف الصلة المحذوفة». EN renders 'attached to the omitted [verb of the] omitted ṣila' - the bracketed '[verb of the]' is not in the Arabic and is not inside a [Translator's note: ...]; unmarked addition. Fix: remove it or move it into a Translator's note (as TR does with its Mütercim notu).",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "(64) مع: removed unmarked '[verb of the]'; rendered literally with clarification moved into a Translator's note",
+"verified": "PASS",
+"verify_note": "(مع) now rendered 'attached to the omitted part of the omitted ṣila' with the verb clarification inside [Translator's note]; rest of EN complete and faithful"
+}
+},
+"history": [
+{
+"old_hs": [
+"34b2b8396861",
+"109ae098ee78",
+"e2c5ebd2c88c"
+],
+"dim": "en",
+"what": "(64) مع: removed unmarked '[verb of the]'; rendered literally with clarification moved into a Translator's note",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"safi-cedvel:117-122": {
+"hs": [
+"2c0511d6c4b7",
+"b9d9189dc5f8",
+"64cbffa8dfb1"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Entry parses exactly 117-122 in order: «أوحينا ... ألق عصا ... تلقف ما يأفكون» (117), «وقع الحقّ ... بطل ما كانوا يعملون» (118), «غلبوا هنالك ... انقلبوا صاغرين» (119), «ألقي السحرة ساجدين» (120), «قالوا آمنّا برب العالمين» (121), «ربّ موسى وهارون» (122). Placement is correct. The cut-off footnote «وهذا بعيد إذ كيف يتمّ تلقّف الإفك وهو]]» is a small truncation of one footnote, not a garbled entry; readings already flag it with translator notes.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Entry parses exactly 7:117-122 in order: «أوحينا... ألق عصاك... تلقف ما يأفكون» (117), «وقع الحقّ... بطل ما» (118), «غلبوا هنالك... صاغرين» (119), «ألقي السحرة ساجدين» (120), «آمنّا برب العالمين» (121), «(ربّ) بدل من ربّ الأول... موسى... هارون» (122). The truncated footnote «إذ كيف يتمّ تلقّف الإفك وهو]]» is a small defect inside an otherwise complete, placeable entry; placement is correct.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+},
+"safi-cedvel:146-146": {
+"hs": [
+"010966f5c32c",
+"9ee2986f9aa0",
+"a2f930b90d6d"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: «(ذلك) اسم إشارة ... والإشارة إلى الصرف». TR: 'işaret, (âyetlerden) çevirmeyedir' - '(âyetlerden)' is not in the Arabic and is not inside a [Mütercim notu: ...]; unmarked addition (meaning harmless). EN 'the reference is to the turning away' is correct. Fix: 'işaret, çevirmeyedir' or put 'âyetlerden' in a Mütercim notu.",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic says only «والإشارة إلى الصرف» (the reference is to the turning-away). Turkish renders 'işaret, (âyetlerden) çevirmeyedir' - '(âyetlerden)' is not in the Arabic and is an unmarked addition (not inside «[Mütercim notu: …]»). Fix: drop it or put it in a Mütercim notu. Rest of the Turkish matches the source.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked addition '(âyetlerden)' from 'işaret, çevirmeyedir'",
+"verified": "PASS",
+"verify_note": "'(âyetlerden)' removed: 'işaret, çevirmeyedir' matches والإشارة إلى الصرف; rest of TR complete and faithful"
+}
+},
+"history": [
+{
+"old_hs": [
+"010966f5c32c",
+"98988d80bb5c",
+"a2f930b90d6d"
+],
+"dim": "tr",
+"what": "Removed unmarked addition '(âyetlerden)' from 'işaret, çevirmeyedir'",
+"at": "2026-10-17 00:45"
+}
+]
+}
+}

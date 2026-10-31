@@ -1,0 +1,29 @@
+{
+"mekki-muskil:17-17": {
+"hs": [
+"6f0104d6ad36",
+"7d1738b198ae",
+"4be676daf222"
+],
+"dims": {
+"fit": {
+"votes": {
+"J2": {
+"class": "MISPLACED",
+"evidence": "First paragraph مَا أُخْفِي لَهُم is 32:17; second paragraph قوله فلا تكن في مرية من لقائه (hāʾ refers to الكتاب / موسى) substantively parses 32:23.",
+"at": "2026-10-17 00:39",
+"ayahs": "17-23"
+},
+"J1": {
+"class": "MISPLACED",
+"evidence": "First paragraph ما أخفي لهم (readings أُخْفِيْ/أُخْفِيَ, ما موصولة/استفهامية) is 32:17; second paragraph قوله فلا تكن في مرية من لقائه الهاء تعود على الكتاب ... is 32:23 (فَلَا تَكُن فِى مِرْيَةٍ مِّن لِّقَآئِهِ). Range must cover both.",
+"at": "2026-10-17 00:39",
+"ayahs": "17-23"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+}
+}

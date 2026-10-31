@@ -1,0 +1,56 @@
+{
+"celaleyn:1-1": {
+"p1": {
+"ar": "a5fabe8af8c2",
+"tr": "6ae5f6616c10",
+"en": "534de7d43195",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR 'ümmetinin başına geleceği havzıdır' read as 'befalls'; corrected to 'ümmetinin gelip varacağı havuzudur' for تَرِدُ عَلَيْهِ.",
+"by": "celaleyn-u16",
+"at": "2026-10-10 15:50",
+"fixed": true
+},
+"p2": {
+"ar": "a5fabe8af8c2",
+"tr": "6ae5f6616c10",
+"en": "534de7d43195",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-p2-u3",
+"at": "2026-10-16 19:06",
+"fixed": false
+}
+},
+"celaleyn:2-2": {
+"p1": {
+"ar": "15617ffdcf14",
+"tr": "902a5983a130",
+"en": "8d65ab5ae5a2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u16",
+"at": "2026-10-10 15:50",
+"fixed": false
+}
+},
+"celaleyn:3-3": {
+"p1": {
+"ar": "035a6505e5f1",
+"tr": "38f87c7a2086",
+"en": "758b31fd1e3d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u16",
+"at": "2026-10-10 15:50",
+"fixed": false
+}
+}
+}

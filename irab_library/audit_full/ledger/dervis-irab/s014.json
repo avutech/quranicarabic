@@ -1,0 +1,164 @@
+{
+"dervis-irab:1-4": {
+"p1": {
+"ar": "33ae2407e219",
+"tr": "8d157fe77964",
+"en": "2399d926ee70",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u13",
+"at": "2026-10-17 00:57",
+"fixed": false
+},
+"p2": {
+"ar": "33ae2407e219",
+"tr": "8d157fe77964",
+"en": "3a185b901247",
+"fit": "OK",
+"trv": "OK",
+"env": "WRONG",
+"note": "EN Suyuti paragraph: «بشهادة واحد وعشرين صحابيا ذكروه» means twenty-one Companions who mentioned/narrated it (the hadith); EN says \"whom he named\", shifting the agent to al-Suyuti (TR correct: onu zikreden).",
+"by": "dervis-irab-p2-u28",
+"at": "2026-10-16 19:13",
+"fixed": false
+}
+},
+"dervis-irab:23-27": {
+"p1": {
+"ar": "7c288bc0bd34",
+"tr": "a6d50c308746",
+"en": "4d8317499390",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u77",
+"at": "2026-10-10 19:37",
+"fixed": false
+}
+},
+"dervis-irab:28-34": {
+"p1": {
+"ar": "f9e3e0f12945",
+"tr": "d19a6b3eb40a",
+"en": "384c2468438d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u77",
+"at": "2026-10-10 19:37",
+"fixed": false
+}
+},
+"dervis-irab:35-41": {
+"p1": {
+"ar": "ab3e0e61a45e",
+"tr": "ef2431c14322",
+"en": "01f8934fec5e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u77",
+"at": "2026-10-10 19:37",
+"fixed": false
+}
+},
+"dervis-irab:5-6": {
+"p1": {
+"ar": "fcc80ea728b5",
+"tr": "2ef75082d607",
+"en": "80ea29078b56",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English silently dropped the stray «في» in «(أيام الله) في- كما في القاموس» and silently corrected «عمر بن كلثوم» to ʿAmr; now marked as Translator notes (Turkish already had them).",
+"by": "dervis-irab-p1-u13",
+"at": "2026-10-17 00:59",
+"fixed": true
+},
+"p2": {
+"ar": "fcc80ea728b5",
+"tr": "2ef75082d607",
+"en": "80ea29078b56",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u10",
+"at": "2026-10-17 01:06",
+"fixed": false
+}
+},
+"dervis-irab:7-12": {
+"p1": {
+"ar": "6ae1813428c6",
+"tr": "246009093ff4",
+"en": "4fc336640d5d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u77",
+"at": "2026-10-10 19:38",
+"fixed": false
+}
+},
+"dervis-irab:42-52": {
+"p1": {
+"ar": "07e3c2c46572",
+"tr": "8d664540d504",
+"en": "c7747f635b17",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "Zuhayr verse: source prints الرجل, both readings render saddle (الرحل) silently; minor",
+"by": "dervis-irab-u77",
+"at": "2026-10-10 19:38",
+"fixed": false
+}
+},
+"dervis-irab:13-18": {
+"p1": {
+"ar": "54da7461284b",
+"tr": "ecab4618c7d3",
+"en": "99f4e55b9519",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English silently supplied the missing item letter before «والإضراب ك بل» and silently corrected the title «درة لغواص»; both now marked as Translator notes (Turkish already noted them).",
+"by": "dervis-irab-p1-u13",
+"at": "2026-10-17 00:59",
+"fixed": true
+},
+"p2": {
+"ar": "54da7461284b",
+"tr": "ecab4618c7d3",
+"en": "99f4e55b9519",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u10",
+"at": "2026-10-17 01:07",
+"fixed": false
+}
+},
+"dervis-irab:19-22": {
+"p1": {
+"ar": "5bea3d773002",
+"tr": "02f5baadf48c",
+"en": "3fb20fbb1f8b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u77",
+"at": "2026-10-10 19:40",
+"fixed": false
+}
+}
+}

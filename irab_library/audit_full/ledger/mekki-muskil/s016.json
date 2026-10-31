@@ -1,0 +1,454 @@
+{
+"mekki-muskil:1-1": {
+"p1": {
+"ar": "ac09f5c0a020",
+"tr": "1b2925bccff7",
+"en": "083d32ac1f08",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:43",
+"fixed": false
+}
+},
+"mekki-muskil:2-2": {
+"p1": {
+"ar": "cbafff6c2cfb",
+"tr": "98bc25816ad1",
+"en": "889481686fcc",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR typo 'hafiz' for al-khafid corrected; EN unmarked insertion '[the message]' removed.",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:43",
+"fixed": true
+},
+"p2": {
+"ar": "cbafff6c2cfb",
+"tr": "98bc25816ad1",
+"en": "889481686fcc",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u1",
+"at": "2026-10-16 18:52",
+"fixed": false
+}
+},
+"mekki-muskil:8-8": {
+"p1": {
+"ar": "25e615029493",
+"tr": "2320cc5b217e",
+"en": "9ff8200ea3d3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:43",
+"fixed": false
+}
+},
+"mekki-muskil:15-15": {
+"p1": {
+"ar": "c34b82af0e72",
+"tr": "32f733f1ee9f",
+"en": "c7610a571924",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:43",
+"fixed": false
+}
+},
+"mekki-muskil:30-30": {
+"p1": {
+"ar": "169820174d2e",
+"tr": "c51a9ce19d62",
+"en": "e8033191d18a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:43",
+"fixed": false
+}
+},
+"mekki-muskil:32-32": {
+"p1": {
+"ar": "77c7d13c1b04",
+"tr": "a4a8dfb97a10",
+"en": "61cf1825cda9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:43",
+"fixed": false
+}
+},
+"mekki-muskil:40-40": {
+"p1": {
+"ar": "358af116af0f",
+"tr": "6442f0de446d",
+"en": "b2df2f61fa47",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p1-u1",
+"at": "2026-10-17 00:03",
+"fixed": false
+},
+"p2": {
+"ar": "358af116af0f",
+"tr": "6442f0de446d",
+"en": "b2df2f61fa47",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR silently corrected the source \"عطفا على أن تقول\" to «أن نقول»; now marked with a Mütercim notu.",
+"by": "mekki-muskil-p2-u1",
+"at": "2026-10-16 18:52",
+"fixed": true
+}
+},
+"mekki-muskil:42-42": {
+"p1": {
+"ar": "67ebc3c423b8",
+"tr": "34ae4462cd7f",
+"en": "b4ace60651aa",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:43",
+"fixed": false
+}
+},
+"mekki-muskil:51-51": {
+"p1": {
+"ar": "36f62b963171",
+"tr": "73f2571ca01f",
+"en": "d70c5d23393d",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR added unmarked reference (Nisa 4/171); removed.",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:43",
+"fixed": true
+},
+"p2": {
+"ar": "36f62b963171",
+"tr": "73f2571ca01f",
+"en": "d70c5d23393d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u1",
+"at": "2026-10-16 18:52",
+"fixed": false
+}
+},
+"mekki-muskil:52-52": {
+"p1": {
+"ar": "ee8193bcd562",
+"tr": "8a24da5d62ff",
+"en": "6729e8a74c74",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:43",
+"fixed": false
+},
+"p2": {
+"ar": "ee8193bcd562",
+"tr": "8a24da5d62ff",
+"en": "6729e8a74c74",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u1",
+"at": "2026-10-16 18:52",
+"fixed": false
+}
+},
+"mekki-muskil:57-57": {
+"p1": {
+"ar": "9752991b3b0f",
+"tr": "7211e8e21c8a",
+"en": "7802ffe7c8dc",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR gloss 'kendime yemek yaptim - zamir ile' was an unmarked/inaccurate addition; replaced with plain rendering of jaaltu li taaaman.",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:43",
+"fixed": true
+},
+"p2": {
+"ar": "9752991b3b0f",
+"tr": "7211e8e21c8a",
+"en": "7802ffe7c8dc",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u1",
+"at": "2026-10-16 18:52",
+"fixed": false
+}
+},
+"mekki-muskil:58-58": {
+"p1": {
+"ar": "dadcd2e66956",
+"tr": "29891fcaae92",
+"en": "ecd104351ac4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:43",
+"fixed": false
+}
+},
+"mekki-muskil:62-62": {
+"p1": {
+"ar": "e8f45c5c1a72",
+"tr": "c80db5fd70dd",
+"en": "45ffbf361bd3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:43",
+"fixed": false
+},
+"p2": {
+"ar": "e8f45c5c1a72",
+"tr": "c80db5fd70dd",
+"en": "45ffbf361bd3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u1",
+"at": "2026-10-16 18:52",
+"fixed": false
+}
+},
+"mekki-muskil:64-64": {
+"p1": {
+"ar": "c23ac24e0e2d",
+"tr": "7d305c8d0c45",
+"en": "48f9485270f7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:43",
+"fixed": false
+}
+},
+"mekki-muskil:66-66": {
+"p1": {
+"ar": "3b1bd5e0df63",
+"tr": "e95e89a37317",
+"en": "e56e790333f7",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Unmarked additions removed: TR '(ashilayan erkek hayvana)', '(Saffat 37/164)', '(kelime)'; EN '[kinship]' and '(laban al-fahl)'.",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:43",
+"fixed": true
+},
+"p2": {
+"ar": "3b1bd5e0df63",
+"tr": "e95e89a37317",
+"en": "e56e790333f7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u1",
+"at": "2026-10-16 18:52",
+"fixed": false
+}
+},
+"mekki-muskil:73-73": {
+"p1": {
+"ar": "30a6a669184b",
+"tr": "a7fb2627181d",
+"en": "cb3d6bd2c653",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN unmarked insertion '[as its object]' removed.",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:43",
+"fixed": true
+},
+"p2": {
+"ar": "30a6a669184b",
+"tr": "a7fb2627181d",
+"en": "cb3d6bd2c653",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u1",
+"at": "2026-10-16 18:52",
+"fixed": false
+}
+},
+"mekki-muskil:91-91": {
+"p1": {
+"ar": "fb1d199a7c8e",
+"tr": "cdc6e1a4e417",
+"en": "7a53a907718e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:43",
+"fixed": false
+}
+},
+"mekki-muskil:92-92": {
+"p1": {
+"ar": "53e78fce566b",
+"tr": "32fbb135db83",
+"en": "dc2d75bec192",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR typo 'hafiz' for al-khafid corrected.",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:43",
+"fixed": true
+},
+"p2": {
+"ar": "53e78fce566b",
+"tr": "32fbb135db83",
+"en": "dc2d75bec192",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u1",
+"at": "2026-10-16 17:07",
+"fixed": false
+}
+},
+"mekki-muskil:106-106": {
+"p1": {
+"ar": "635fe6556237",
+"tr": "74f0957dfb2d",
+"en": "d9c459446154",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR rendered al-hadith as 'hadis' and added '(san zamiri)'; EN added '[i.e. a pronoun of the matter]'; both replaced with plain 'speech and report'.",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:43",
+"fixed": true
+},
+"p2": {
+"ar": "635fe6556237",
+"tr": "74f0957dfb2d",
+"en": "d9c459446154",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u1",
+"at": "2026-10-16 17:07",
+"fixed": false
+}
+},
+"mekki-muskil:116-116": {
+"p1": {
+"ar": "5c32049bd23c",
+"tr": "e059fa3a10b8",
+"en": "da1327deed7a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:43",
+"fixed": false
+}
+},
+"mekki-muskil:123-123": {
+"p1": {
+"ar": "cea77032408b",
+"tr": "ecca4071ec10",
+"en": "0a1ea0d686e7",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Unmarked glosses for al-Ahnaf (TR 'ayagi carpik', EN 'one with a clubfoot') removed.",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:43",
+"fixed": true
+},
+"p2": {
+"ar": "cea77032408b",
+"tr": "ecca4071ec10",
+"en": "0a1ea0d686e7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u1",
+"at": "2026-10-16 17:07",
+"fixed": false
+}
+},
+"mekki-muskil:127-127": {
+"p1": {
+"ar": "f9085e7ad2f7",
+"tr": "173fc75e5202",
+"en": "77bff2467714",
+"fit": "PARTIAL",
+"trv": "FIXED",
+"env": "OK",
+"note": "Source ends with a stray fragment bismillah al-rahman belonging to next sura (already noted by translator); TR had unmarked reference (Nahl 16/126), removed.",
+"by": "mekki-muskil-u4",
+"at": "2026-10-10 15:43",
+"fixed": true
+},
+"p2": {
+"ar": "f9085e7ad2f7",
+"tr": "173fc75e5202",
+"en": "77bff2467714",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u1",
+"at": "2026-10-16 17:07",
+"fixed": false
+}
+}
+}

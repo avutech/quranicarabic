@@ -1,0 +1,164 @@
+{
+"dervis-irab:32-37": {
+"hs": [
+"3253637e3422",
+"2aa4687ddbfb",
+"3927faca7b5d"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source: «وللثاء مع العين خاصة التلون والتحيل والارهان». «الارهان» is not a recognisable word here; 'pouring forth' is the sense of an emended الإهراق (fitting the following examples قاء / انصب). EN gives 'pouring forth' with no [Translator's note], i.e. silently corrects/interprets the source; the TR correctly keeps «الارهان» with a Mütercim notu. EN needs a Translator's note stating the source reads «الارهان» and that the rendering is conjectural.",
+"at": "2026-10-17 00:42"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source: «وللثاء مع العين خاصة التلون والتحيل والارهان». «الارهان» is not an attested word with the sense 'pouring forth' (it looks like a corrupted form, e.g. of الإهراق or similar); EN silently renders it 'pouring forth', guessing from the following examples (ثعّ = vomited, انثعّ = poured, سالت), with no note. That is a silent correction of the source. The guess fits the context, but it must sit in a [Translator's note: source reads «الارهان», meaning unclear; rendered by context as 'pouring forth'], as TR does with its Mütercim notu.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Quranic ثعبان and أرجئه (and أرجأته/أرجيته, ثعابين, ثعب) now in Arabic script instead of Latin transliteration; removed unmarked brackets «Both [usages]» and «[crooked]»",
+"verify_note": "Flagged fix done (الارهان now in a Translator's note). Remaining: (1) unmarked bracket addition «Both [usages] are from the category of metaphor» (source: وكلاهما); (2) the Quranic words are transliterated in Latin: thuʿbān for ثعبان throughout the Vocabulary entry, and «arjiʾhu, as it was also read» for the reading أرجئه. Keep Quranic words in Arabic script.",
+"fix_failed": 1
+}
+},
+"history": [
+{
+"old_hs": [
+"3253637e3422",
+"2aa4687ddbfb",
+"025114f03750"
+],
+"dim": "en",
+"what": "'pouring forth' replaced by «الارهان» kept as in source with Translator's note giving the contextual sense",
+"at": "2026-10-17 00:47"
+},
+{
+"old_hs": [
+"3253637e3422",
+"2aa4687ddbfb",
+"b8a8ab3ed1b2"
+],
+"dim": "en",
+"what": "Added Translator's note that source reads الارهان and 'pouring forth' is a contextual rendering",
+"at": "2026-10-17 00:47"
+},
+{
+"old_hs": [
+"3253637e3422",
+"2aa4687ddbfb",
+"b8a8ab3ed1b2"
+],
+"dim": "en",
+"what": "Quranic ثعبان and أرجئه (and أرجأته/أرجيته, ثعابين, ثعب) now in Arabic script instead of Latin transliteration; removed unmarked brackets «Both [usages]» and «[crooked]»",
+"at": "2026-10-17 00:57"
+}
+]
+},
+"dervis-irab:69-89": {
+"hs": [
+"f8b39808bde1",
+"85175a61ccbc",
+"fcf06c03e30e"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "(1) al-Shāfiʿī's taʿrīḍ «لو كنت بحيث أنت لاحتجت إلى أدب» = 'If I were where you are (in your place), I would need [to be taught] manners' (first person كنتُ/احتجتُ, the point of the allusion). EN 'If you were where you are [in your position], you would need good manners' makes it second person, is self-contradictory, and adds an unmarked bracket. (2) «ويروى مرة بالكسر وهي القوة» refers to مِرّة (mirra, strength); EN glosses it '[maʾra]', which is a fatha form and conflicts with 'with the kasra'; this is an unmarked, wrong gloss.",
+"at": "2026-10-17 00:42"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "(1) The anecdote illustrates التعريض (indirect address), as Ibrāhīm says «فإنهم عدو لي» about himself: «لو كنت بحيث أنت لاحتجت إلى أدب» = 'If I were where you are, I would need [to be taught] manners' (كنتُ ... احتجتُ, first person, so the rebuke is indirect). EN 'If you were where you are [in your position], you would need good manners' is tautological, loses the taʿrīḍ that the passage is about, and adds an unmarked bracket. (2) «ويروى مرة بالكسر» = mirra (kasra on the mīm, strength); EN glosses it '[maʾra]', which is not the kasra form, and the bracket is an unmarked addition.",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "«al-Khalīl [i.e. Abraham]» now «[Translator's note: i.e. Abraham]»; Quranic عدو restored to Arabic script («العدو and الصديق»); also رأى and المئرة in Arabic script instead of transliteration (the latter was wrongly vocalised maʾra)",
+"verify_note": "Earlier flags fixed (al-Khalil now in Translator's note; العدو والصديق in Arabic). But two source typos are silently corrected without a Translator's note (TR flags both): «أي وقت فوله لأبيه» rendered 'at the time of his saying' (source فوله for قوله), and «أو بتفطن إليه كاتب» rendered 'or any writer perceives' (source بتفطن for يتفطن). Add [Translator's note: the source reads …] for each.",
+"fix_failed": 2,
+"verified": null
+}
+},
+"history": [
+{
+"old_hs": [
+"f8b39808bde1",
+"d0dee06bb283",
+"b99f132fe890"
+],
+"dim": "en",
+"what": "Shafii saying made first person ('If I were where you are, I would need good manners'), removed unmarked bracket; [maʾra] gloss replaced by the source word «مرة»",
+"at": "2026-10-17 00:47"
+},
+{
+"old_hs": [
+"f8b39808bde1",
+"d0dee06bb283",
+"7dc61d82365d"
+],
+"dim": "en",
+"what": "«al-Khalīl [i.e. Abraham]» now «[Translator's note: i.e. Abraham]»; Quranic عدو restored to Arabic script («العدو and الصديق»); also رأى and المئرة in Arabic script instead of transliteration (the latter was wrongly vocalised maʾra)",
+"at": "2026-10-17 00:57"
+}
+]
+},
+"dervis-irab:141-159": {
+"hs": [
+"9345109422aa",
+"984e8b406ecb",
+"d714581736e2"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Zuhayr: «فتنتج لكم غلمان أشأم كلهم ... كأحمر عاد». The كـ of كأحمر is 'like', and the author glosses it «كل واحد منهم يضاهي في الشؤم عاقر الناقة» (matches him in ill omen). EN verse rendering 'every one of them more ill-omened than the red one of ʿĀd' turns the simile into a comparative, contradicting both the Arabic and the EN's own next line ('matches in ill omen'). Should be e.g. 'boys of ill omen, all of them like the red one of ʿĀd'.",
+"at": "2026-10-17 00:43"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Zuhayr: «فتنتج لكم غلمان أشأم كلهم كأحمر عاد» - the كـ of «كأحمر عاد» is a simile 'like', and the author's own gloss right after says «كل واحد منهم يضاهي في الشؤم عاقر الناقة» (each matches the hamstringer in ill omen). أشأم here qualifies غلمان (boys of ill omen), it does not govern «أحمر عاد» as a comparative. EN 'every one of them more ill-omened than the red one of ʿĀd' turns 'like' into 'more than', contradicting the gloss EN itself gives ('matches in ill omen'). TR 'hepsi Âd'ın kızılı gibi uğursuz oğullar' is right.",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Quranic/parsed words restored to Arabic script instead of Latin transliteration: ثمود, أصبحوا, المسحر/سحر, كان, فرهين/الفره/الفراهة, الهضيم/هضيم, الطلع, النخل/النخيل/نخلة, النحت/النحر/النجر",
+"verify_note": "EN complete and faithful; Zuhayr simile fixed ('all of them like the red one of ʿĀd'); ثمود, أصبحوا, المسحر, فرهين, الهضيم now in Arabic script; النحر and مسطعا carry Translator's notes; no unmarked additions found.",
+"fix_failed": 1,
+"verified": "PASS"
+}
+},
+"history": [
+{
+"old_hs": [
+"9345109422aa",
+"984e8b406ecb",
+"1cc044c2cd7a"
+],
+"dim": "en",
+"what": "Zuhayr verse: comparative replaced by simile ('boys of ill omen, all of them like the red one of ʿĀd')",
+"at": "2026-10-17 00:47"
+},
+{
+"old_hs": [
+"9345109422aa",
+"984e8b406ecb",
+"ac88f03f15b3"
+],
+"dim": "en",
+"what": "Quranic/parsed words restored to Arabic script instead of Latin transliteration: ثمود, أصبحوا, المسحر/سحر, كان, فرهين/الفره/الفراهة, الهضيم/هضيم, الطلع, النخل/النخيل/نخلة, النحت/النحر/النجر",
+"at": "2026-10-17 00:58"
+}
+]
+}
+}

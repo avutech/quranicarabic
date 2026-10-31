@@ -1,0 +1,418 @@
+{
+"harrat-mujtaba:7-7": {
+"hs": [
+"411de92d57d8",
+"e69ca64412dd",
+"fd96c1f9f4e0"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic starts «جملة الشرط معطوفة على جملة الصلة المتقدمة {يَشْتَرِي}» with no ayah quotation; Turkish prefixes the whole ayah «(وَإِذَا تُتْلَى عَلَيْهِ آيَاتُنَا ... بِعَذَابٍ أَلِيمٍ)» outside the brackets of the Mütercim notu, an unmarked addition (English has no such prefix). The remainder (حال ثانية/ثالثة, مخففة من الثقيلة, ضمير الشأن) is correct. Fix: move the quote inside the note.",
+"at": "2026-10-17 00:42"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "The Arabic opens with «جملة الشرط معطوفة على جملة الصلة المتقدمة {يَشْتَرِي}» and has no ayah quote. The Turkish puts the full ayah quote (وَإِذَا تُتْلَى عَلَيْهِ آيَاتُنَا ... فَبَشِّرْهُ بِعَذَابٍ أَلِيمٍ) before the note and outside its brackets, so it is an unmarked addition. The rest is faithful: «مستكبرا» is hâl, «كأن» is the lightened form with ḍamīr al-shaʾn, and the second and third ḥāl and «فبشره» are all rendered. Fix: move the quote inside the note.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved the prefixed ayah phrase (outside the note) into the note: [Mütercim notu: tartışılan ifade: X]; rest unchanged",
+"verified": "PASS",
+"verify_note": "Ayah phrase now inside the translator note; body complete and faithful to the Arabic, nothing unmarked added."
+}
+},
+"history": [
+{
+"old_hs": [
+"411de92d57d8",
+"0ce1e8ff4d51",
+"fd96c1f9f4e0"
+],
+"dim": "tr",
+"what": "moved the prefixed ayah quote inside the Mütercim notu",
+"at": "2026-10-17 00:45"
+},
+{
+"old_hs": [
+"411de92d57d8",
+"e69ca64412dd",
+"fd96c1f9f4e0"
+],
+"dim": "tr",
+"what": "Moved the prefixed ayah phrase (outside the note) into the note: [Mütercim notu: tartışılan ifade: X]; rest unchanged",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"harrat-mujtaba:12-12": {
+"hs": [
+"582e43aaa944",
+"91f764937852",
+"ebeaf42ccc82"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic starts ««أن» تفسيرية» with no ayah quotation; Turkish prefixes the full ayah «(وَلَقَدْ آتَيْنَا لُقْمَانَ الْحِكْمَةَ ... غَنِيٌّ حَمِيدٌ)» outside the note brackets; only «tartışılan ifade» is inside the note. Rest is faithful (تفسيرية, ما هو بمعنى القول دون حروفه, الرابط مقدر أي: عنه). Fix: move quote into the note.",
+"at": "2026-10-17 00:42"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "The Arabic begins with «أن تفسيرية» and quotes no ayah. The Turkish adds the full ayah quote (وَلَقَدْ آتَيْنَا لُقْمَانَ الْحِكْمَةَ ... غَنِيٌّ حَمِيدٌ) outside the note brackets. The note only says «tartışılan ifade», so the quote is an unmarked addition. The body is faithful: «لأنه تقدمها ما هو بمعنى القول دون حروفه», «من اسم شرط مبتدأ» and «الرابط مقدر أي: عنه» are all rendered. Fix: move the quote inside the note.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved the prefixed ayah phrase (outside the note) into the note: [Mütercim notu: tartışılan ifade: X]; rest unchanged",
+"verified": "PASS",
+"verify_note": "Ayah phrase now inside the translator note; body complete and faithful to the Arabic, nothing unmarked added."
+}
+},
+"history": [
+{
+"old_hs": [
+"582e43aaa944",
+"8ef37cbd0a62",
+"ebeaf42ccc82"
+],
+"dim": "tr",
+"what": "Moved the prefixed ayah phrase (outside the note) into the note: [Mütercim notu: tartışılan ifade: X]; rest unchanged",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"harrat-mujtaba:15-15": {
+"hs": [
+"9e2fdae57741",
+"4793d4182a7b",
+"60aef61870e1"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic opens «جملة الشرط معطوفة على جملة «وصَّيْنَا»» without quoting the ayah; Turkish adds «(وَإِنْ جَاهَدَاكَ ... فِي الدُّنْيَا مَعْرُوفًا)» outside the Mütercim notu brackets: unmarked addition. Remaining items (نائب مفعول مطلق نابت عنه صفته أي صحابا معروفا; ثم حرف استئناف) are correct. Fix: move quote inside the note.",
+"at": "2026-10-17 00:42"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "The Arabic starts with «جملة الشرط معطوفة على جملة وصَّيْنَا» and quotes no ayah. The Turkish adds the quote (وَإِنْ جَاهَدَاكَ عَلَى أَنْ تُشْرِكَ بِي ... مَعْرُوفًا) outside the note brackets, which is an unmarked addition. The body is faithful: «المصدر المؤول أن تشرك مجرور متعلق بجاهداك», «معروفا نائب مفعول مطلق ... صحابا معروفا», «ثم حرف استئناف» and «فأنبئكم» are all rendered. Fix: move the quote inside the note.",
+"at": "2026-10-17 00:42"
+},
+"J3": {
+"class": "CONFIRMED",
+"evidence": "The prefixed ayah quote is flagged by «[Mütercim notu: tartışılan ifade]», so on its own it would be acceptable. The real problem is elsewhere: for أي: صحابا معروفا the Turkish writes «صحابا معروفا» (güzel bir arkadaşlık). The parenthetical gloss (güzel bir arkadaşlık) is not in the Arabic, and it sits outside any «[Mütercim notu: …]»; the glossary allows parenthetical meanings only for poetry. That makes it an unmarked addition, and the fix is to put it inside a translator's note. The rest is faithful (جملة الشرط معطوفة على جملة «وصّينا», «ما» موصول مفعول به, «ثم» حرف استئناف, etc.).",
+"at": "2026-10-17 00:44"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "moved the quoted ayah phrase that stood outside the note inside the translator's note",
+"verified": "PASS",
+"verify_note": "Ayah phrase now inside the translator note; body complete and faithful to the Arabic, nothing unmarked added."
+}
+},
+"history": [
+{
+"old_hs": [
+"9e2fdae57741",
+"dcd4090e3282",
+"60aef61870e1"
+],
+"dim": "tr",
+"what": "moved the quoted ayah phrase that stood outside the note inside the translator's note",
+"at": "2026-10-17 00:45"
+},
+{
+"old_hs": [
+"9e2fdae57741",
+"dcd4090e3282",
+"60aef61870e1"
+],
+"dim": "tr",
+"what": "moved the quoted ayah phrase that stood outside the note inside the translator's note",
+"at": "2026-10-17 00:46"
+}
+]
+},
+"harrat-mujtaba:20-20": {
+"hs": [
+"5ce0d9428ba5",
+"442e2acc3d8f",
+"b42654be669a"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic opens «المصدر المؤول مِنْ «أَنّ» وما بعدها سدَّ مسدَّ مفعوله «تروا»» with no ayah quote; Turkish prefixes «(أَلَمْ تَرَوْا أَنَّ اللَّهَ سَخَّرَ ... بِغَيْرِ عِلْمٍ)» outside the note brackets: unmarked addition. Rest is accurate. Fix: move quote into the note.",
+"at": "2026-10-17 00:42"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "The Arabic starts with «المصدر المؤول مِنْ أَنّ وما بعدها سدَّ مسدَّ مفعوله تروا» and quotes no ayah. The Turkish adds the quote (أَلَمْ تَرَوْا أَنَّ اللَّهَ سَخَّرَ لَكُمْ ... بِغَيْرِ عِلْمٍ) outside the brackets of [Mütercim notu: tartışılan ifade], which is an unmarked addition. The rest is faithful: «ظاهرة حال من نعمه», «ومن الناس مستأنفة», «بغير» and «في الله» are all rendered. Fix: move the quote inside the note.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "moved the prefixed ayah quote (outside the note) inside the Mütercim notu",
+"verified": "PASS",
+"verify_note": "Ayah phrase now inside the translator note; body complete and faithful to the Arabic, nothing unmarked added."
+}
+},
+"history": [
+{
+"old_hs": [
+"5ce0d9428ba5",
+"e2ec773ed00c",
+"b42654be669a"
+],
+"dim": "tr",
+"what": "moved the prefixed ayah quote (outside the note) inside the Mütercim notu",
+"at": "2026-10-17 00:46"
+}
+]
+},
+"harrat-mujtaba:21-21": {
+"hs": [
+"dc8b9d0fd253",
+"b9b591d55989",
+"4f196d881c75"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic opens «جملة الشرط معطوفة على جملة الصلة {يُجَادِلُ}» with no ayah quote; Turkish prefixes the full ayah «(وَإِذَا قِيلَ لَهُمُ ... عَذَابِ السَّعِيرِ)» outside the Mütercim notu brackets: unmarked addition. Rest (ضمير المصدر, الواو حالية, للاستقصاء, جواب الشرط محذوف أي اتبعوه) is rendered faithfully. Fix: move quote into the note.",
+"at": "2026-10-17 00:42"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "The Arabic begins with «جملة الشرط معطوفة على جملة الصلة {يُجَادِلُ}» and quotes no ayah. The Turkish adds the full ayah (وَإِذَا قِيلَ لَهُمُ ... عَذَابِ السَّعِيرِ) outside the note brackets, which is an unmarked addition. The body is faithful: the nāʾib fāʿil is the maṣdar pronoun, «لا نتبع ما أنزل الله بل نتبع», the wāw ḥāliyya, «للاستقصاء», «أيتبعونه في كل حال» and «اتبعوه» are all rendered. Fix: move the quote inside the note.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Unmarked '(bütün ihtimalleri)' before 'kapsamak (istiksâ)' -> '[Mütercim notu: bütün ihtimalleri]'; rest unchanged",
+"verify_note": "Ayah quote and 'bütün ihtimalleri' now inside Mütercim notu; body complete and faithful (ضمير المصدر, implied maqūl, wāw ḥāliyya, istiqṣā, ḥāl from wāw of يتبعونه, omitted jawāb اتبعوه); parenthetical renderings only translate quoted Arabic.",
+"fix_failed": 3,
+"verified": "PASS"
+}
+},
+"history": [
+{
+"old_hs": [
+"dc8b9d0fd253",
+"3e30f34af3fb",
+"4f196d881c75"
+],
+"dim": "tr",
+"what": "Moved the prefixed ayah phrase (outside the note) into the note: [Mütercim notu: tartışılan ifade: X]; rest unchanged",
+"at": "2026-10-17 00:45"
+},
+{
+"old_hs": [
+"dc8b9d0fd253",
+"306d66ca52c4",
+"4f196d881c75"
+],
+"dim": "tr",
+"what": "Unmarked '(bütün ihtimalleri)' before 'kapsamak (istiksâ)' -> '[Mütercim notu: bütün ihtimalleri]'; rest unchanged",
+"at": "2026-10-17 00:48"
+}
+]
+},
+"harrat-mujtaba:29-29": {
+"hs": [
+"fc96dd40c4a2",
+"b30fe402e2db",
+"9879e3c94fa6"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic opens «المصدر المؤول سدَّ مسدَّ مفعولَيْ «ترَ»» with no ayah quote; Turkish prefixes the whole ayah «(أَلَمْ تَرَ أَنَّ اللَّهَ يُولِجُ ... خَبِيرٌ)» outside the note brackets: unmarked addition. Rest correct. Fix: move quote into the note.",
+"at": "2026-10-17 00:42"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "The Arabic starts with «المصدر المؤول سدَّ مسدَّ مفعولَيْ ترَ» and quotes no ayah. The Turkish adds the full ayah quote (أَلَمْ تَرَ أَنَّ اللَّهَ يُولِجُ ... خَبِيرٌ) outside the note brackets, which is an unmarked addition. The rest is faithful: «كل يجري حال من الشمس والقمر», the second maṣdar is maʿṭūf, and «بما متعلق بخبير». Fix: move the quote inside the note.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved the prefixed ayah phrase (outside the note) into the note: [Mütercim notu: tartışılan ifade: X]; rest unchanged",
+"verified": "PASS",
+"verify_note": "Ayah phrase now inside the translator note; body complete and faithful to the Arabic, nothing unmarked added."
+}
+},
+"history": [
+{
+"old_hs": [
+"fc96dd40c4a2",
+"1f82079f8f04",
+"9879e3c94fa6"
+],
+"dim": "tr",
+"what": "moved the prefixed ayah quote (outside the note) inside the Mütercim notu",
+"at": "2026-10-17 00:46"
+},
+{
+"old_hs": [
+"fc96dd40c4a2",
+"b30fe402e2db",
+"9879e3c94fa6"
+],
+"dim": "tr",
+"what": "Moved the prefixed ayah phrase (outside the note) into the note: [Mütercim notu: tartışılan ifade: X]; rest unchanged",
+"at": "2026-10-17 00:46"
+}
+]
+},
+"harrat-mujtaba:30-30": {
+"hs": [
+"96b7dc5fdd01",
+"7c563d2f13f8",
+"e4fcece07638"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic opens «المصدر المؤول متعلق بخبر «ذلك»» with no ayah quote; Turkish prefixes «(ذَلِكَ بِأَنَّ اللَّهَ هُوَ الْحَقُّ ... الْعَلِيُّ الْكَبِيرُ)» outside the Mütercim notu brackets: unmarked addition. Rest (ضمير فصل, خبر ثان) correct. Fix: move quote into the note.",
+"at": "2026-10-17 00:42"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "The Arabic starts with «المصدر المؤول متعلق بخبر ذلك» and quotes no ayah. The Turkish adds the full ayah quote (ذَلِكَ بِأَنَّ اللَّهَ هُوَ الْحَقُّ ... الْعَلِيُّ الْكَبِيرُ) outside the note brackets, which is an unmarked addition. The rest is faithful: «هو ضمير فصل لا محل له», the second maṣdar is maʿṭūf, the second «هو» is faṣl, and «الكبير خبر ثان». Fix: move the quote inside the note.",
+"at": "2026-10-17 00:42"
+},
+"J3": {
+"class": "FALSE_ALARM",
+"evidence": "The prefixed ayah quote (ذَلِكَ بِأَنَّ اللَّهَ هُوَ الْحَقُّ ...) is not in the source, but it is immediately flagged as translator-supplied by «[Mütercim notu: tartışılan ifade]», so it is a marked addition, not an unmarked one, and it quotes the ayah correctly in Arabic script. The body is faithful: المصدر المؤول متعلق بخبر «ذلك» = müevvel masdar «ذلك»in haberine müteallik; «هو» ضمير فصل لا محل له = fasıl zamiri, i'rabdan mahalli yok; المصدر المؤول الثاني معطوف على الأول = ikinci müevvel masdar birincisine ma'tûf; «هو» الثانية ضمير فصل, «الكبير» خبر ثان = ikinci haber. No omission and no wrong meaning.",
+"at": "2026-10-17 00:44"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved the prefixed ayah phrase (outside the note) into the note: [Mütercim notu: tartışılan ifade: X]; rest unchanged",
+"verified": "PASS",
+"verify_note": "Ayah phrase now inside the translator note; body complete and faithful to the Arabic, nothing unmarked added."
+}
+},
+"history": [
+{
+"old_hs": [
+"96b7dc5fdd01",
+"98b1efc25e97",
+"e4fcece07638"
+],
+"dim": "tr",
+"what": "Moved the prefixed ayah phrase (outside the note) into the note: [Mütercim notu: tartışılan ifade: X]; rest unchanged",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"harrat-mujtaba:31-31": {
+"hs": [
+"6a936a2742fa",
+"8fc9ab3cb593",
+"4e39410949a8"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic opens «المصدر المؤول سدَّ مسدَّ مفعول الرؤية» with no ayah quote; Turkish prefixes «(أَلَمْ تَرَ أَنَّ الْفُلْكَ تَجْرِي ... مِنْ آيَاتِهِ)» outside the note brackets: unmarked addition. Rest correct. Fix: move quote into the note.",
+"at": "2026-10-17 00:42"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "The Arabic starts with «المصدر المؤول سدَّ مسدَّ مفعول الرؤية» and quotes no ayah. The Turkish adds the quote (أَلَمْ تَرَ أَنَّ الْفُلْكَ تَجْرِي ... مِنْ آيَاتِهِ) outside the note brackets, which is an unmarked addition. The rest is faithful: «بنعمة متعلق بحال من فاعل تجري» and «المصدر المجرور ليريكم متعلق بتجري». Fix: move the quote inside the note.",
+"at": "2026-10-17 00:42"
+},
+"J3": {
+"class": "FALSE_ALARM",
+"evidence": "The prefixed quote (أَلَمْ تَرَ أَنَّ الْفُلْكَ تَجْرِي فِي الْبَحْرِ بِنِعْمَتِ اللَّهِ لِيُرِيَكُمْ مِنْ آيَاتِهِ) is labeled by «[Mütercim notu: tartışılan ifade]» as a translator addition, so it is marked, and it reproduces the ayah exactly in Arabic. The body is complete and correct: المصدر المؤول سدّ مسدّ مفعول الرؤية = müevvel masdar görmek (الرؤية) fiilinin mef'ûlünün yerini tutmuştur; الجار «بنعمة» متعلق بحال من فاعل «تجري» = «تجري»nin fâilinden hâle müteallik; المصدر المجرور «ليريكم» متعلق بـ«تجري» = «تجري»ye müteallik.",
+"at": "2026-10-17 00:44"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "moved the quoted ayah phrase inside the translator's note (it was an unmarked addition outside the note)",
+"verified": "PASS",
+"verify_note": "Ayah phrase now inside the translator note; body complete and faithful to the Arabic, nothing unmarked added."
+}
+},
+"history": [
+{
+"old_hs": [
+"6a936a2742fa",
+"96a95be00046",
+"4e39410949a8"
+],
+"dim": "tr",
+"what": "moved the quoted ayah phrase inside the translator's note (it was an unmarked addition outside the note)",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"harrat-mujtaba:32-32": {
+"hs": [
+"54e98e56de6b",
+"52fe3d9d9290",
+"cd15b85ae5ec"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic opens «جملة الشرط معطوفة على الاستئنافية {أَلَمْ تَرَ}» with no ayah quote; Turkish prefixes the whole ayah «(وَإِذَا غَشِيَهُمْ مَوْجٌ ... خَتَّارٍ كَفُورٍ)» outside the Mütercim notu brackets: unmarked addition. Rest (جواب لمّا مقدر أي انقسموا فريقين) correct. Fix: move quote into the note.",
+"at": "2026-10-17 00:42"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "The Arabic starts with «جملة الشرط معطوفة على الاستئنافية {أَلَمْ تَرَ}» and quotes no ayah. The Turkish adds the full ayah quote (وَإِذَا غَشِيَهُمْ مَوْجٌ كَالظُّلَلِ ... خَتَّارٍ كَفُورٍ) outside the note brackets, which is an unmarked addition. The rest is faithful: «فلمَّا نجَّاهم», «انقسموا فريقين», «فمنهم مقتصد» and «وما يجحد إلا كل مستأنفة». Fix: move the quote inside the note.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "moved the prefixed ayah quote (outside the note) inside the Mütercim notu",
+"verified": "PASS",
+"verify_note": "Ayah phrase now inside the translator note; body complete and faithful to the Arabic, nothing unmarked added."
+}
+},
+"history": [
+{
+"old_hs": [
+"54e98e56de6b",
+"dd2a479f44cf",
+"cd15b85ae5ec"
+],
+"dim": "tr",
+"what": "moved the prefixed ayah quote (outside the note) inside the Mütercim notu",
+"at": "2026-10-17 00:46"
+}
+]
+}
+}

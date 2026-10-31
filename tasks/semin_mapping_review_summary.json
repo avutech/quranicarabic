@@ -1,0 +1,27 @@
+{
+  "book": "semin-durr",
+  "surah_range": [
+    90,
+    114
+  ],
+  "total_entries": 133,
+  "fully_reviewed": 133,
+  "pending_full_review": 0,
+  "fit_counts": {
+    "MATCH": 100,
+    "MISMATCH": 32,
+    "UNSURE": 1
+  },
+  "tr_mapping_counts": {
+    "MATCH": 100,
+    "MISMATCH": 32,
+    "UNSURE": 1
+  },
+  "en_mapping_counts": {
+    "MATCH": 100,
+    "MISMATCH": 32,
+    "UNSURE": 1
+  },
+  "hash_validation": "All399 AR/TR/EN text SHA256 values match current source and translation entries.",
+  "scope": "Mapping-only full-text semantic review against local Quran words and English20/Turkish210 meals; no content edits; source-PDF verification and independent adjudication remain separate."
+}

@@ -1,0 +1,42 @@
+{
+"zajjaj:1-1": {
+"p1": {
+"ar": "690e28042eb0",
+"tr": "724874bf48f7",
+"en": "58e9529ff96e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-p1-u4",
+"at": "2026-10-17 00:06",
+"fixed": false
+},
+"p2": {
+"ar": "690e28042eb0",
+"tr": "724874bf48f7",
+"en": "58e9529ff96e",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Turkish added an unmarked subject \"(Necâşî'nin adamı)\" for فَقَصَدَ مَكَّةَ and English an unmarked \"[and so is not governed by what precedes it]\" after كَيْفَ مِن حُرُوفِ الِاسْتِفْهامِ; both now marked as translator notes.",
+"by": "zajjaj-p2-u12",
+"at": "2026-10-16 19:05",
+"fixed": true
+}
+},
+"zajjaj:5-5": {
+"p1": {
+"ar": "df099bce35a8",
+"tr": "e9ba6b3dceeb",
+"en": "0aa67f3fc3bc",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u10",
+"at": "2026-10-10 19:16",
+"fixed": false
+}
+}
+}

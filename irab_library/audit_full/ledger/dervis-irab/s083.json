@@ -1,0 +1,54 @@
+{
+"dervis-irab:1-13": {
+"p1": {
+"ar": "4717edb36bdc",
+"tr": "b303595182d0",
+"en": "a12c6188e15e",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR: «الحريص يصيدك لا الجواد» was rendered \"Seni ava yakalayan hırslı olandır\" (misleading: يصيد لك = catches/hunts FOR you); corrected. Also removed unmarked glosses [beyaz mantar]/[kötü mantar] in the Zamakhshari verse translation.",
+"by": "dervis-irab-p1-u4",
+"at": "2026-10-17 00:18",
+"fixed": true
+},
+"p2": {
+"ar": "4717edb36bdc",
+"tr": "b303595182d0",
+"en": "a12c6188e15e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u6",
+"at": "2026-10-17 00:31",
+"fixed": false
+}
+},
+"dervis-irab:14-36": {
+"p1": {
+"ar": "cf7c8c38a63c",
+"tr": "276d8dd66a0b",
+"en": "af33203854e0",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR: Abu Tammam verse translation had unmarked glosses [bulutla] and [yağmur] (not in the Arabic); removed.",
+"by": "dervis-irab-p1-u4",
+"at": "2026-10-17 00:18",
+"fixed": true
+},
+"p2": {
+"ar": "cf7c8c38a63c",
+"tr": "276d8dd66a0b",
+"en": "af33203854e0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u6",
+"at": "2026-10-17 00:31",
+"fixed": false
+}
+}
+}

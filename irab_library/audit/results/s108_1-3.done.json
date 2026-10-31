@@ -1,0 +1,10 @@
+{
+ "surah": 108,
+ "chunk": "1-3",
+ "verdicts": {
+  "OK": 29,
+  "GAP": 4
+ },
+ "summary": "No candidate findings. 28 SEM checks all OK across 13 books (ukberi 2-3 is quote-only in source). 4 GAPs reported: akhfash 1-2, harrat-mujtaba 1, mekki-muskil 2-3, ukberi-tibyan 1.",
+ "at": "2026-10-10 15:18"
+}

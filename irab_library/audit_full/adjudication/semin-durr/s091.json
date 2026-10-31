@@ -1,0 +1,58 @@
+{
+"semin-durr:10-10": {
+"hs": [
+"29791a10ab9c",
+"deb428b36ede",
+"ae76e9c1bbc3"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "4582 ودَسَّسْت عَمْراً في التراب فأصبحَتْ is a variant of 4581 وأنت الذي دَسَّسْتَ عمراً فأصبحَتْ, which explicitly addresses 'you' (أنت), so the 2nd person 'gizledin' is the natural reading. The rest of the Turkish is complete: the ibdal explanation, قصيت أظفاري, التدسية=الإخفاء أخفاها بالفجور, and both truncated verses are marked with a Mütercim notu.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Turkish renders 4582 ودَسَّسْت عَمْراً في التراب as 'Amr'ı toprağa gizledin'. The unvocalised دسست allows 2nd person, and the parallel verse 4581 (وأنت الذي دَسَّسْتَ عمراً) supports 'you'. Everything else is faithful: أصلُه دسَّسَهَا, ibdal of the third letter, التَّدْسِيَةُ: الإِخفاءُ, أخفاها بالفجور, and the half-verses are flagged in Mütercim notları. Verse glosses with bracketed words are acceptable verse translation.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "4582 ودَسَّسْت عَمْراً في التراب فأصبحَتْ is the variant of 4581 وأنت الذي دَسَّسْتَ عمراً, which addresses 'you'. English renders it 'And I buried ʿAmr', which is inconsistent with that and unsupported. Also the unmarked bracketed additions '[the rest of the verse is omitted in the source]' and '[the rest is omitted in the source]' inside the verse glosses are not in Arabic. They should be in a [Translator's note: …], and the 4580 one duplicates the note that follows it. Fix: 'you buried' and convert the brackets to a Translator's note.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "The person in ودَسَّسْت (I/you) is ambiguous in unvocalised text, so 'I buried' is not the main issue. The English does add unmarked explanatory text in the body that is not in the Arabic: after 4580 تَقَضِّيَ البازِي it has '[the rest of the verse is omitted in the source]', and after 4582 it has '[the rest is omitted in the source]'. These are plain square brackets, not «[Translator's note: …]» (and a proper note for 4580 follows separately). Fix: make them translator's notes, and preferably render دسّست as 'you' to match 4581 وأنت الذي دَسَّسْتَ, or add a note on the ambiguity.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Verse 4582 gloss 'I buried' -> 'you buried' (matches 4581 وأنت الذي دسّست); unmarked brackets '[the rest ... omitted in the source]' removed / moved into Translator's note; 'the verse [in full]' -> 'the verse' + Translator's note",
+"verified": "PASS",
+"verify_note": "4582 is now 'you buried', matching 4581, and the truncation remarks are Translator's notes; the reading is complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"29791a10ab9c",
+"deb428b36ede",
+"a952d9bd72b9"
+],
+"dim": "en",
+"what": "Verse 4582 gloss 'I buried' -> 'you buried' (matches 4581 وأنت الذي دسّست); unmarked brackets '[the rest ... omitted in the source]' removed / moved into Translator's note; 'the verse [in full]' -> 'the verse' + Translator's note",
+"at": "2026-10-17 00:45"
+}
+]
+}
+}

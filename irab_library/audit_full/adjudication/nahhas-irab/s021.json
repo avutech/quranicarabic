@@ -1,0 +1,147 @@
+{
+"nahhas-irab:58-58": {
+"hs": [
+"9790357504fc",
+"c2210b13cdc9",
+"a329302490af"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "The comment «فجاء مذكّرا لأنهم جعلوا الأصنام بمنزلة ما يعقل» concerns «فجعلهم جذاذا» and «إلا كبيرا لهم على الاستثناء» is 21:58. The stray heading «وإسماعيل وإدريس» (21:85) is not discussed; both readings note it. Placement correct.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Substance is 21:58: masculine pronoun in «فجعلهم» for the idols treated as rational, and «إلا كبيرا لهم على الاستثناء». The stray heading «وإسماعيل وإدريس» (21:85) carries no comment on 21:85; both readings note it. Listed under the right ayah.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+},
+"nahhas-irab:79-79": {
+"hs": [
+"72c6d4729e2f",
+"902cdceab277",
+"8f8546e31147"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic «أي ففهّمنا القصّة»; TR 'Yani kıssayı (hükmü) ona anlattık' adds unmarked '(hükmü)' not in source (should be in a Mütercim notu).",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic «أي ففهّمنا القصّة» - TR 'kıssayı (hükmü) ona anlattık' adds unmarked '(hükmü)' not in source; must go in a Mütercim notu or be dropped.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Bare قال before وَكُنَّا فاعِلِينَ: removed inferred '(Ebû İshâk)' attribution; now 'Dedi ki [Mütercim notu: Ebû İshâk kastedilmektedir.]:'",
+"verify_note": "Bare قال attribution now inside a Mütercim notu, and '(hükmü)' was moved into a note. Every sentence is translated (atf on الجبال, the مع reading with the water/plank example, the raf' reading, both explanations of وكنا فاعلين). No unmarked additions.",
+"fix_failed": 1,
+"verified": "PASS"
+}
+},
+"history": [
+{
+"old_hs": [
+"72c6d4729e2f",
+"560795acb1d3",
+"8f8546e31147"
+],
+"dim": "tr",
+"what": "Moved unmarked '(hükmü)' into a Mütercim notu",
+"at": "2026-10-17 00:43"
+},
+{
+"old_hs": [
+"72c6d4729e2f",
+"e8487930fe42",
+"8f8546e31147"
+],
+"dim": "tr",
+"what": "Bare قال before وَكُنَّا فاعِلِينَ: removed inferred '(Ebû İshâk)' attribution; now 'Dedi ki [Mütercim notu: Ebû İshâk kastedilmektedir.]:'",
+"at": "2026-10-17 00:46"
+}
+]
+},
+"nahhas-irab:90-90": {
+"hs": [
+"f912c2556169",
+"da66010f3ed3",
+"b1639c0e6683"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source «ورغبا بخلاف، ورغبا مثل بخلا» is unvowelled; TR inserts unmarked '(râ'nın dammesi ve gaynın sükûnuyla)' — vowelling not in the source, outside the Mütercim notu. (Also typo 'olduğu olduğunu' for «أنها كانت سيئة الخلق».)",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source «ورغبا بخلاف، ورغبا مثل بخلا» is unvowelled; TR inserts unmarked '(râ'nın dammesi ve gaynın sükûnuyla)' and 'okunmuştur' as if in the text - an unmarked addition (the later note does not cover this specific vowelling).",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked vowelling '(râ'nın dammesi ve gaynın sükûnuyla)' and 'okunmuştur'; rendered «ورغبا بخلاف» as written; fixed 'olduğu olduğunu' typo",
+"verified": "PASS",
+"verify_note": "Unmarked vowelling '(râ'nın dammesi ve gaynın sükûnuyla)' and 'okunmuştur' removed; the 'olduğu olduğunu' typo is fixed; «ورغبا بخلاف، ورغبا مثل بخلا» is translated as written, with the obscurity flagged in a Mütercim notu; complete."
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source «ورغبا بخلاف، ورغبا مثل بخلا»; EN gives '«ورُغْبا» like «بُخْلا», and «ورَغَبا» like «بَخَلا»' — the word «بخلاف» is dropped and replaced by a comparison 'like بُخْلا' that is not in the text (translates a different text); the note only covers vowelling, not the change of «بخلاف».",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source «ورغبا بخلاف، ورغبا مثل بخلا»: EN drops «بخلاف» and turns it into a second comparison 'and «ورَغَبا» like «بَخَلا»', i.e. translates a different text; the note only covers vowelling, not the replacement of «بخلاف».",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Restored dropped «بخلاف»: «ورغبا بخلاف، ورغبا مثل بخلا» translated as written; supplied vowellings moved into Translator's note",
+"verified": "PASS",
+"verify_note": "«بخلاف» is restored and rendered as written ('with a difference'); the invented second comparison is gone; the conjectured vowellings now sit only inside a Translator's note; complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"f912c2556169",
+"d227aca5bda1",
+"dc3d297b8012"
+],
+"dim": "tr",
+"what": "Removed unmarked vowelling '(râ'nın dammesi ve gaynın sükûnuyla)' and 'okunmuştur'; rendered «ورغبا بخلاف» as written; fixed 'olduğu olduğunu' typo",
+"at": "2026-10-17 00:43"
+},
+{
+"old_hs": [
+"f912c2556169",
+"da66010f3ed3",
+"b1639c0e6683"
+],
+"dim": "en",
+"what": "Restored dropped «بخلاف»: «ورغبا بخلاف، ورغبا مثل بخلا» translated as written; supplied vowellings moved into Translator's note",
+"at": "2026-10-17 00:43"
+}
+]
+}
+}

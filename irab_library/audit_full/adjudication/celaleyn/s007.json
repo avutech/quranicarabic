@@ -1,0 +1,52 @@
+{
+"celaleyn:1-1": {
+"hs": [
+"65410cba37a1",
+"dc02dd2e5f80",
+"e70ae9fd8a38"
+],
+"dims": {
+"fit": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Entry ﴿المص﴾ الله أعلم بمراده بذلك is about 7:1. The trailing «هذا» is only Jalalayn's lead-in (implied mubtadaʾ) for the next ayah's ﴿كتاب﴾; a lead-in into the following ayah is not substantive discussion of 7:2, and 7:2's own entry starts at ﴿كِتَابٌ أُنْزِلَ إِلَيْكَ﴾. Listing under 1-1 is right.",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Entry ﴿المص﴾ اللَّهُ أَعْلَمُ بِمُرَادِهِ بِذَلِكَ is about 7:1 (الٓمٓصٓ). The trailing هَذَا is only Jalalayn's lead-in to the next gloss (هذا ﴿كتاب﴾ of 7:2); it does not substantively discuss 7:2, so listing under 7:1 is right. TR/EN render the dangling 'Bu,' / 'This is' as written.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+},
+"celaleyn:176-176": {
+"hs": [
+"c6ea24382224",
+"8d8f47a10a2e",
+"47a7399ae1a0"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "HUMAN",
+"evidence": "﴿وَاتَّبَعَ هَوَاهُ﴾ فِي دُعَائِهِ إِلَيْهَا: the hāʾ of دعائه is grammatically ambiguous (the desire calling him to the world, vs. the man's own calling/invocation). EN 'in his invoking toward it' reads in English as the man invoking, which may not be the intended sense (commentators usually take it as the desire calling him to the dunya), while TR takes it as the desire calling him. The rest of the EN is complete and faithful. Deciding the referent needs scholarly judgement.",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "HUMAN",
+"evidence": "Arabic ﴿وَاتَّبَعَ هَوَاهُ﴾ فِي دُعَائِهِ إِلَيْهَا: the referent of the pronoun in دعائه (his desire calling him to the world, maṣdar with its agent = هواه, as TR takes it, vs. the man's own invoking/supplication toward it, as EN 'in his invoking toward it' takes it) is a matter of interpretation; I lean to desire-as-caller (which would make EN wrong) but cannot confirm with certainty without the commentaries (al-Jamal/al-Ṣāwī). Rest of EN is complete and faithful.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "HUMAN"
+}
+}
+}
+}

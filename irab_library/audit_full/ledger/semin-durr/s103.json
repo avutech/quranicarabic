@@ -1,0 +1,42 @@
+{
+"semin-durr:1-1": {
+"p1": {
+"ar": "73fe2afbe824",
+"tr": "206ba29aaac2",
+"en": "efd0d8694d1b",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English silently supplied a missing «لا» in Abu al-Fadl quote (source «يُحتاجَ إلى أَنْ يأتيَ»); added translator note as Turkish has",
+"by": "semin-durr-u34",
+"at": "2026-10-11 02:57",
+"fixed": true
+},
+"p2": {
+"ar": "73fe2afbe824",
+"tr": "206ba29aaac2",
+"en": "efd0d8694d1b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u20",
+"at": "2026-10-17 00:10",
+"fixed": false
+}
+},
+"semin-durr:2-2": {
+"p1": {
+"ar": "24ce4e071e50",
+"tr": "7bc6399cb0f9",
+"en": "8f127860faff",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u34",
+"at": "2026-10-11 02:57",
+"fixed": false
+}
+}
+}

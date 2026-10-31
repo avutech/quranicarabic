@@ -1,0 +1,27 @@
+{
+"nahhas-meani:137-137": {
+"hs": [
+"650644931787",
+"5ed777558113",
+"a5b8917a1499"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "TR now renders the whole entry: «عسى ربكم أن يهلك عدوكم...», Mujahid on «وما كانوا يعرشون» (evler ve meskenler), «يعكفون» (devam ederler... اعتكف فلان), «متبر» (helak edilmiş... التِّبْر). No omission; claimed truncation is not present.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Current TR is complete: it renders every line through «﴿عَسَى رَبَّكُمْ أنْ يُهْلِكَ عَدُوَّكُمْ...﴾», Mujahid on «يَعْرِشُونَ» (Evler ve meskenler inşa ediyorlardı), «يَعْكُفُونَ» (devam ederler, ayrılmazlar; اعتكف فلان), and «مُتَبَّرٌ» ... «التِّبْر». The claimed cut-off is not present.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

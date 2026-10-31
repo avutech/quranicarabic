@@ -1,0 +1,96 @@
+{
+"mekki-muskil:1-1": {
+"p1": {
+"ar": "115211d0449a",
+"tr": "94728ce4df12",
+"en": "68a85ddbd7c2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u3",
+"at": "2026-10-10 15:40",
+"fixed": false
+}
+},
+"mekki-muskil:2-2": {
+"p1": {
+"ar": "c53dbe7815c7",
+"tr": "cb540caf322f",
+"en": "b0cda16dfea6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p1-u2",
+"at": "2026-10-16 17:07",
+"fixed": false
+},
+"p2": {
+"ar": "c53dbe7815c7",
+"tr": "cb540caf322f",
+"en": "b0cda16dfea6",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR translator note guessed the second «مالك» meant elifsiz «ملك», contradicting «لأنه متعد»; note corrected to the transitive active-participle reading.",
+"by": "mekki-muskil-u1",
+"at": "2026-10-11 04:07",
+"fixed": true
+}
+},
+"mekki-muskil:5-5": {
+"p1": {
+"ar": "b088f9c46770",
+"tr": "687b15fcf727",
+"en": "4fca4728236b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u3",
+"at": "2026-10-10 15:40",
+"fixed": false
+}
+},
+"mekki-muskil:6-6": {
+"p1": {
+"ar": "6d039c7fdbcc",
+"tr": "d8b48b8aecf0",
+"en": "ebe4c84cad55",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u3",
+"at": "2026-10-10 15:40",
+"fixed": false
+}
+},
+"mekki-muskil:7-7": {
+"p1": {
+"ar": "d52743e4d5bc",
+"tr": "d6f1fd3cea3a",
+"en": "c5a0949661ce",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN rendered الَّذين غضب عَلَيْهِم as \"those with whom [He] is angry\" (added [He], wrong voice); reworded to passive.",
+"by": "mekki-muskil-u3",
+"at": "2026-10-10 15:40",
+"fixed": true
+},
+"p2": {
+"ar": "d52743e4d5bc",
+"tr": "d6f1fd3cea3a",
+"en": "c5a0949661ce",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u1",
+"at": "2026-10-11 04:07",
+"fixed": false
+}
+}
+}

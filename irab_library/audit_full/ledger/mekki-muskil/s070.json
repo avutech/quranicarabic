@@ -1,0 +1,176 @@
+{
+"mekki-muskil:1-1": {
+"p1": {
+"ar": "400048feb268",
+"tr": "d9d49781c35f",
+"en": "a052f8c45c4a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:42",
+"fixed": false
+}
+},
+"mekki-muskil:8-8": {
+"p1": {
+"ar": "bf79df9f8a63",
+"tr": "6e43d1d74fb0",
+"en": "bed26759907f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:42",
+"fixed": false
+}
+},
+"mekki-muskil:15-16": {
+"p1": {
+"ar": "3688f2d72fd9",
+"tr": "97c3412830d0",
+"en": "2dd19908cb82",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English had an unmarked insertion \"[Makkī says:]\" before the reply to al-Mubarrad, absent from the Arabic; removed.",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:42",
+"fixed": true
+},
+"p2": {
+"ar": "3688f2d72fd9",
+"tr": "97c3412830d0",
+"en": "2dd19908cb82",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 18:09",
+"fixed": false
+}
+},
+"mekki-muskil:17-17": {
+"p1": {
+"ar": "1ca622533584",
+"tr": "27e379b121c1",
+"en": "cc9298fff5e5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:42",
+"fixed": false
+},
+"p2": {
+"ar": "1ca622533584",
+"tr": "27e379b121c1",
+"en": "cc9298fff5e5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 18:09",
+"fixed": false
+}
+},
+"mekki-muskil:19-19": {
+"p1": {
+"ar": "6701bcfe9379",
+"tr": "c37f0fa8cf30",
+"en": "ff6c84e34e66",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English rendered the explanation of the implied كان, \"يكون جزوعا ويكون منوعا أو يصير\", as \"he becomes ... or he turns\"; corrected to \"he is impatient / he is withholding, or he becomes\".",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:42",
+"fixed": true
+},
+"p2": {
+"ar": "6701bcfe9379",
+"tr": "c37f0fa8cf30",
+"en": "ff6c84e34e66",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 18:09",
+"fixed": false
+}
+},
+"mekki-muskil:36-36": {
+"p1": {
+"ar": "8baf409f83cd",
+"tr": "0f3acebeb596",
+"en": "c27c7a473d45",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:42",
+"fixed": false
+}
+},
+"mekki-muskil:37-37": {
+"p1": {
+"ar": "83a80c436364",
+"tr": "fa3afc5c3750",
+"en": "84a679fb2179",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:42",
+"fixed": false
+}
+},
+"mekki-muskil:43-43": {
+"p1": {
+"ar": "062f6424147e",
+"tr": "f18fb6f1d1b7",
+"en": "a9afcc106d85",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:42",
+"fixed": false
+},
+"p2": {
+"ar": "062f6424147e",
+"tr": "f18fb6f1d1b7",
+"en": "a9afcc106d85",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 18:09",
+"fixed": false
+}
+},
+"mekki-muskil:44-44": {
+"p1": {
+"ar": "a358c728867c",
+"tr": "bba90d398451",
+"en": "f40da6de9dc1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:42",
+"fixed": false
+}
+}
+}

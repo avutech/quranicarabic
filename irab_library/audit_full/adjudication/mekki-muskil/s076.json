@@ -1,0 +1,56 @@
+{
+"mekki-muskil:3-3": {
+"hs": [
+"f19b2fc02b1d",
+"96924c89ba50",
+"7ca7e6e157c5"
+],
+"dims": {
+"fit": {
+"votes": {
+"J2": {
+"class": "MISPLACED",
+"evidence": "The first long part «إما شاكرا وإما كفورا حالان من الهاء» is 76:3, but «قوله سلاسلا وقواريرا أصله كله أن لا ينصرف ... فأما من صرفه من القراء» is a substantive treatment of the tanwin readings of سَلَاسِلَا (76:4) and قَوَارِيرَا (76:15-16). Entry covers 3 through 16.",
+"at": "2026-10-17 00:39",
+"ayahs": "3-16"
+},
+"J1": {
+"class": "MISPLACED",
+"evidence": "«إِمَّا شاكرا وَإِمَّا كفورا حالان» is 76:3, but the entry also treats «وَسميع وبصير» and the reordering «فجعلناه سميعا بَصيرًا» of 76:2, then «قَوْله سلاسلا وقواريرا» (diptote/tanwin discussion) which is سَلَـٰسِلَا of 76:4 and قَوَارِيرَا of 76:15-16. Contiguous range covering all: 2-16.",
+"at": "2026-10-17 00:39",
+"ayahs": "2-16"
+}
+},
+"status": "DECIDED",
+"class": "HUMAN"
+}
+}
+},
+"mekki-muskil:23-23": {
+"hs": [
+"b38e3318494f",
+"67d4cf9dd0a0",
+"ff490d0674e2"
+],
+"dims": {
+"fit": {
+"votes": {
+"J2": {
+"class": "MISPLACED",
+"evidence": "«إنا نحن نزلنا نحن في موضع نصب على الصفة لاسم إن» is 76:23, but «وقوله ويذرون وراءهم يوما وراء بمعنى قدام وأمام ... ويوما مفعول بيذرون» parses 76:27 (ويذرون وراءهم يوما ثقيلا). Entry covers 23 and 27.",
+"at": "2026-10-17 00:39",
+"ayahs": "23-27"
+},
+"J1": {
+"class": "MISPLACED",
+"evidence": "«إِنَّا نَحن نزلنَا نَحن فِي مَوضِع نصب» is 76:23; «وَقَوله ويذرون وَرَاءَهُمْ يَوْمًا وَرَاء بِمَعْنى قُدَّام» parses 76:27 وَيَذَرُونَ وَرَآءَهُمْ يَوْمًا ثَقِيلًا.",
+"at": "2026-10-17 00:39",
+"ayahs": "23-27"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+}
+}

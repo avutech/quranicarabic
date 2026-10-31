@@ -1,0 +1,96 @@
+{
+"farraa:1-1": {
+"p1": {
+"ar": "27ec152f2e7d",
+"tr": "0c35fffb2ec5",
+"en": "d516a281e9ad",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:50",
+"fixed": false
+},
+"p2": {
+"ar": "27ec152f2e7d",
+"tr": "0c35fffb2ec5",
+"en": "d516a281e9ad",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p2-u4",
+"at": "2026-10-16 19:06",
+"fixed": false
+}
+},
+"farraa:2-2": {
+"p1": {
+"ar": "896485aa5c9f",
+"tr": "5901f24955df",
+"en": "2db72c99a041",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:50",
+"fixed": false
+}
+},
+"farraa:4-4": {
+"p1": {
+"ar": "2864b98b6e31",
+"tr": "dd73b391cf98",
+"en": "99dae90bc840",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR: unmarked gloss (ayrilma anlamini) turned into a marked translator note, matching EN",
+"by": "farraa-p1-u2",
+"at": "2026-10-17 00:04",
+"fixed": true
+},
+"p2": {
+"ar": "2864b98b6e31",
+"tr": "dd73b391cf98",
+"en": "99dae90bc840",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p2-u4",
+"at": "2026-10-17 00:16",
+"fixed": false
+}
+},
+"farraa:5-5": {
+"p1": {
+"ar": "eeaa81a023b2",
+"tr": "1891e2fa44ce",
+"en": "f01982875ade",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:50",
+"fixed": false
+}
+},
+"farraa:7-7": {
+"p1": {
+"ar": "c1a097e213f3",
+"tr": "3071b94d96e3",
+"en": "d64f1ba6f8f6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:50",
+"fixed": false
+}
+}
+}

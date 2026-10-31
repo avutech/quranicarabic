@@ -1,0 +1,123 @@
+{
+"semin-durr:38-38": {
+"hs": [
+"6b8af748ba8e",
+"b01d1c8999e6",
+"abee33e6eacc"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source vocalises the sila as «تَدْعُوْن» (fatha on ta, sukun on dal = active 'you call') in «أنتم الذين تَدْعُون» and «فقيل: تَدْعون». The Quranic word is passive تُدْعَوْنَ and the EN renders 'You are those who are called' / 'You are called', i.e. it silently corrects the source vocalisation. The intended sense is probably passive, but under the binding rule the source is never silently corrected: EN needs a [Translator's note: ...] stating that the printed vocalisation reads active تَدْعُون while the ayah has تُدْعَوْنَ (TR follows the written active form).",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "The source is vocalised active: «هؤلاء» موصول صلته «تَدْعُوْن» أي: أنتم الذين تَدْعُون ... فقيل: تَدْعون (fatha on ta = you call). EN renders it passive ('You are those who are called', 'You are called'), silently correcting the source toward the Quranic تُدْعَوْن; TR correctly has the active 'çağıranlar'. Must translate as written (active) and flag the discrepancy in a [Translator's note: ...].",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "تَدْعُون translated as written (active 'call') instead of passive; Translator's note added on the discrepancy with the āya's تُدْعَوْنَ",
+"verified": "PASS",
+"verify_note": "The sila is now translated as written (active 'you call') with a Translator's note on the vocalisation versus the āya's passive; the rest is faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"6b8af748ba8e",
+"b01d1c8999e6",
+"03c3a3eecc5e"
+],
+"dim": "en",
+"what": "تَدْعُون translated as written (active 'call') instead of passive; Translator's note added on the discrepancy with the āya's تُدْعَوْنَ",
+"at": "2026-10-17 00:46"
+}
+]
+},
+"semin-durr:22-22": {
+"hs": [
+"a758e870aead",
+"20d91817a112",
+"86bde26003e6"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic «والحسن بفتح التاء والطاءِ مشددةً»; TR «tâ ve tâ'nın (yani ta ve tı'nın)» adds an unmarked parenthetical gloss not in the Arabic (and spells both letters ambiguously as tâ). Should be «tâ (ت) ve tâ (ط)» or a [Mütercim notu: …]. Rest of the reading (khabar of عسى, ʿAlī's تُوُلِّيْتُمْ, iltifāt, readings of وتقطعوا) is correct.",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic «والحسن بفتح التاء والطاءِ مشددةً» only; TR 'tâ ve tâ'nın (yani ta ve tı'nın)' adds an unmarked gloss and renders ط and ت both as 'tâ' (ambiguous). It should keep the letters «التاء» / «الطاء» or put the gloss in [Mütercim notu: …].",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Ambiguous 'tâ ve tâ'nın' and unmarked gloss '(yani ta ve tı'nın)' replaced by the letters as written: «التاء» ve «الطاء»",
+"verified": "PASS",
+"verify_note": "The unmarked gloss is gone; Hasan's reading now renders «التاء» and «الطاء» exactly as the source has them; the rest is faithful and complete."
+}
+},
+"history": [
+{
+"old_hs": [
+"a758e870aead",
+"00d2a16b0c9b",
+"86bde26003e6"
+],
+"dim": "tr",
+"what": "Ambiguous 'tâ ve tâ'nın' and unmarked gloss '(yani ta ve tı'nın)' replaced by the letters as written: «التاء» ve «الطاء»",
+"at": "2026-10-17 00:47"
+}
+]
+},
+"semin-durr:30-30": {
+"hs": [
+"2c1e0ce3efcb",
+"5fb1a3bad4d5",
+"246339bdc72e"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "«وقيل: يجمعُه هو والأولَ صَرْفُ الكلامِ عن وجهِه» = 'what unites it (the second sense) and the first is turning speech from its course'. TR «Bu ikisini ve birincisini ... birleştirir» says it unites 'these two and the first', i.e. three things, which mistranslates the structure. Should be «Bunu ve birincisini birleştiren...».",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic «وقيل: يجمعُه هو والأولَ صَرْفُ الكلامِ عن وجهِه» = 'what unites it (the second sense) and the first is turning speech from its proper course'. TR 'Bu ikisini ve birincisini ... birleştirir' says 'these two and the first' (three things); wrong wording, should be 'Bunu ve birincisini'.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"verify_note": "Fixed: «يجمعه هو والأول» now 'Bunu ve birincisini birleştirenin'; rest complete and faithful.",
+"fix_failed": 1,
+"fixed_note": "'Bu ikisini ve birincisini … birleştirir' -> 'Bunu ve birincisini birleştirenin «sözü vechinden çevirmek» olduğu da söylenmiştir' (يجمعُه هو والأولَ)",
+"verified": "PASS"
+}
+},
+"history": [
+{
+"old_hs": [
+"2c1e0ce3efcb",
+"7d195294b0a9",
+"246339bdc72e"
+],
+"dim": "tr",
+"what": "'Bu ikisini ve birincisini … birleştirir' -> 'Bunu ve birincisini birleştirenin «sözü vechinden çevirmek» olduğu da söylenmiştir' (يجمعُه هو والأولَ)",
+"at": "2026-10-17 00:50"
+}
+]
+}
+}

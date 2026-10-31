@@ -1,0 +1,42 @@
+{
+"safi-cedvel:46-61": {
+"hs": [
+"c422b2cbee58",
+"3ceaaf9024bb",
+"d3f70cb79e8a"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Bayhaqi report: Arabic «كما يرى الشراب الأحمر في الزجاجة البيضاء» says 'red drink' (الشراب), not wine (خمر); EN 'as red wine is seen in a white glass' adds a specification not in the text (TR correctly has 'kırmızı içecek'). Should read 'red drink'.",
+"at": "2026-10-17 00:42"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Bayhaqi report: Arabic «كما يرى الشراب الأحمر في الزجاجة البيضاء» says 'red drink' (الشراب), not wine (خمر); EN 'as red wine is seen in a white glass' changes the meaning. Should be 'red drink'.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Bayhaqi report: 'red wine' -> 'red drink' (الشراب الأحمر)",
+"verified": "PASS",
+"verify_note": "Bayhaqi report now 'red drink' for الشراب الأحمر; EN complete and faithful, footnotes as [Note], no unmarked additions."
+}
+},
+"history": [
+{
+"old_hs": [
+"c422b2cbee58",
+"3ceaaf9024bb",
+"e5c6bd1eea3e"
+],
+"dim": "en",
+"what": "Bayhaqi report: 'red wine' -> 'red drink' (الشراب الأحمر)",
+"at": "2026-10-17 00:45"
+}
+]
+}
+}

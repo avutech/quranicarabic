@@ -1,0 +1,108 @@
+{
+"celaleyn:1-1": {
+"p1": {
+"ar": "d2d80b8f6331",
+"tr": "6d5d2999a18d",
+"en": "0359ac0ce3b4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u16",
+"at": "2026-10-10 15:51",
+"fixed": false
+},
+"p2": {
+"ar": "d2d80b8f6331",
+"tr": "6d5d2999a18d",
+"en": "0359ac0ce3b4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-p2-u3",
+"at": "2026-10-16 19:10",
+"fixed": false
+}
+},
+"celaleyn:2-2": {
+"p1": {
+"ar": "27e520a37822",
+"tr": "c945d3072bc4",
+"en": "81920bd4c351",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u16",
+"at": "2026-10-10 15:51",
+"fixed": false
+}
+},
+"celaleyn:3-3": {
+"p1": {
+"ar": "923cd3420a6e",
+"tr": "8c60ca699e0f",
+"en": "247a9cb6f843",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u16",
+"at": "2026-10-10 15:51",
+"fixed": false
+}
+},
+"celaleyn:4-4": {
+"p1": {
+"ar": "14b0cbd2a405",
+"tr": "f66732dc4502",
+"en": "930e9de0e4b7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u16",
+"at": "2026-10-10 15:51",
+"fixed": false
+},
+"p2": {
+"ar": "14b0cbd2a405",
+"tr": "f66732dc4502",
+"en": "930e9de0e4b7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-p2-u3",
+"at": "2026-10-16 19:10",
+"fixed": false
+}
+},
+"celaleyn:5-5": {
+"p1": {
+"ar": "68bb00af1e9f",
+"tr": "2cfa0d89ea07",
+"en": "a98c1f38f94b",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Both TR and EN added the unmarked word 'palm/hurma' to «ليف» (fibre); removed.",
+"by": "celaleyn-u16",
+"at": "2026-10-10 15:51",
+"fixed": true
+},
+"p2": {
+"ar": "68bb00af1e9f",
+"tr": "2cfa0d89ea07",
+"en": "a98c1f38f94b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-p2-u3",
+"at": "2026-10-16 19:10",
+"fixed": false
+}
+}
+}

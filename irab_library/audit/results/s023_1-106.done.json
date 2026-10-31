@@ -1,0 +1,11 @@
+{
+ "surah": 23,
+ "chunk": "1-106",
+ "verdicts": {
+  "OK": 97,
+  "SOURCE_DEFECT": 1,
+  "GAP": 9
+ },
+ "summary": "Surah 23:1-106 audited. 10 high/medium findings (NEAR in zajjaj 13,17; nahhas-meani 5,84; semin-durr 55; X length-ratio in nahhas-irab 1 and muyesser 16,87,89,90) all OK; 33 low findings OK (spelling variants/cross-references); 6-ayah semantic sample for all 14 books OK. One minor SOURCE_DEFECT: dervis-irab:22-28 truncated heading. GAPs recorded for 9 selective books. No translation fixes needed.",
+ "at": "2026-10-10 15:04"
+}

@@ -1,0 +1,84 @@
+{
+"nahhas-irab:1-1": {
+"p1": {
+"ar": "72a662b71843",
+"tr": "b3a9b1dc0c08",
+"en": "416e5adabcce",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u45",
+"at": "2026-10-10 16:04",
+"fixed": false
+}
+},
+"nahhas-irab:2-2": {
+"p1": {
+"ar": "83595f1a98a1",
+"tr": "43370d23f7b4",
+"en": "d541cb3badad",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u45",
+"at": "2026-10-10 16:04",
+"fixed": false
+}
+},
+"nahhas-irab:3-3": {
+"p1": {
+"ar": "f25abf157315",
+"tr": "ff0f6a8f1b1c",
+"en": "76a06c6229a1",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish had unmarked identifications (Ibn Mes ud), (Ibn Kuteybe); removed",
+"by": "nahhas-irab-p1-u4",
+"at": "2026-10-17 00:11",
+"fixed": true
+},
+"p2": {
+"ar": "f25abf157315",
+"tr": "ff0f6a8f1b1c",
+"en": "76a06c6229a1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u7",
+"at": "2026-10-17 00:17",
+"fixed": false
+}
+},
+"nahhas-irab:4-4": {
+"p1": {
+"ar": "dca405e2a9f9",
+"tr": "80edf833735d",
+"en": "5b4869b35f6a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u45",
+"at": "2026-10-10 16:04",
+"fixed": false
+}
+},
+"nahhas-irab:5-5": {
+"p1": {
+"ar": "2fcad15ce201",
+"tr": "6ca9c641fc62",
+"en": "ca0f11161f68",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u45",
+"at": "2026-10-10 16:04",
+"fixed": false
+}
+}
+}

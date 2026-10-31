@@ -1,0 +1,136 @@
+{
+"dervis-irab:1-6": {
+"p1": {
+"ar": "b8ea5ef01416",
+"tr": "3ffc1aeecfc9",
+"en": "003fc9344bbc",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u91",
+"at": "2026-10-10 19:40",
+"fixed": false
+}
+},
+"dervis-irab:7-12": {
+"p1": {
+"ar": "4d8f31c47fe7",
+"tr": "407c097f3a8b",
+"en": "d0ac1dc54fa5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u91",
+"at": "2026-10-10 19:40",
+"fixed": false
+}
+},
+"dervis-irab:13-15": {
+"p1": {
+"ar": "8a597ca188e2",
+"tr": "e47138b2fc62",
+"en": "301d44ed6d28",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR: Misbah quote had unsupported bracket claiming feminine usage is more common (Arabic says only \"وهو الأكثر\"); hadith \"بدخول الجاهلية\" was translated as a corrected reading instead of as written; \"رويزي\" rendered as Rey cloth (unsupported); fixed. EN: parenthetical \"(stagnant, brackish)\" after al-ajin is a small unmarked gloss",
+"by": "dervis-irab-p1-u3",
+"at": "2026-10-17 00:17",
+"fixed": true
+},
+"p2": {
+"ar": "8a597ca188e2",
+"tr": "e47138b2fc62",
+"en": "301d44ed6d28",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u4",
+"at": "2026-10-17 00:31",
+"fixed": false
+}
+},
+"dervis-irab:16-19": {
+"p1": {
+"ar": "415f30c5d1f4",
+"tr": "016fec0bbff7",
+"en": "4afb7209a1e3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u91",
+"at": "2026-10-10 19:41",
+"fixed": false
+},
+"p2": {
+"ar": "415f30c5d1f4",
+"tr": "016fec0bbff7",
+"en": "4afb7209a1e3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u5",
+"at": "2026-10-17 00:01",
+"fixed": false
+}
+},
+"dervis-irab:20-28": {
+"p1": {
+"ar": "fcf292d0764f",
+"tr": "a61f7e333dd7",
+"en": "a48acb7fe589",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u91",
+"at": "2026-10-10 19:41",
+"fixed": false
+}
+},
+"dervis-irab:29-33": {
+"p1": {
+"ar": "9b4d5ab0f2e7",
+"tr": "3763e030c39f",
+"en": "545d8f1fcaed",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u91",
+"at": "2026-10-10 19:41",
+"fixed": false
+}
+},
+"dervis-irab:34-38": {
+"p1": {
+"ar": "41e229fa9c7d",
+"tr": "8ac91c52292d",
+"en": "93e45252cc5d",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN silently corrected source typos: الماء rendered as wealth, ولعب وخبر, أثره (dropped); now marked with translator notes; removed unmarked [as read] addition.",
+"by": "dervis-irab-u91",
+"at": "2026-10-10 19:42",
+"fixed": true
+},
+"p2": {
+"ar": "41e229fa9c7d",
+"tr": "8ac91c52292d",
+"en": "93e45252cc5d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u5",
+"at": "2026-10-17 00:01",
+"fixed": false
+}
+}
+}

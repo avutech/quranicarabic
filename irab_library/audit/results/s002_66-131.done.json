@@ -1,0 +1,11 @@
+{
+ "surah": 2,
+ "chunk": "66-131",
+ "verdicts": {
+  "OK": 143,
+  "SOURCE_DEFECT": 1,
+  "GAP": 8
+ },
+ "summary": "Chunk 2:66-131: 10 high findings reviewed (all OK except semin-durr:121-121 SOURCE_DEFECT: entry also carries the 2:124 commentary of وإذ ابتلى إبراهيم); 78 SEM checks across 13 books all OK; 56 low XREF/UNFOUND findings all OK (cross-references or mushaf-spelling variants); 8 GAP records. No translation mismatches found; no translation edits needed.",
+ "at": "2026-10-10 14:58"
+}

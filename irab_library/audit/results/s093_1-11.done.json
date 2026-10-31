@@ -1,0 +1,11 @@
+{
+ "surah": 93,
+ "chunk": "1-11",
+ "verdicts": {
+  "OK": 68,
+  "SOURCE_DEFECT": 2,
+  "GAP": 6
+ },
+ "summary": "Surah 93 1-11: 6 findings (2 high NEAR, 4 low) all OK; SEM checked for all 13 books; mekki-muskil 3-3 and 11-11 are source-lumped entries (contain ayah 6-8 and 5 content), flagged SOURCE_DEFECT; GAPs recorded for 6 books; no translation mismatches.",
+ "at": "2026-10-10 15:16"
+}

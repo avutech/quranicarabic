@@ -1,0 +1,68 @@
+{
+"zajjaj:1-1": {
+"p1": {
+"ar": "b70d313b497b",
+"tr": "0f08c6f633cb",
+"en": "7a4a2765f52c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u10",
+"at": "2026-10-10 19:17",
+"fixed": false
+}
+},
+"zajjaj:2-2": {
+"p1": {
+"ar": "5dfb56db847c",
+"tr": "c250b9b5ffe3",
+"en": "77641d9da114",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u10",
+"at": "2026-10-10 19:17",
+"fixed": false
+},
+"p2": {
+"ar": "5dfb56db847c",
+"tr": "c250b9b5ffe3",
+"en": "77641d9da114",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-p2-u12",
+"at": "2026-10-16 19:06",
+"fixed": false
+}
+},
+"zajjaj:4-4": {
+"p1": {
+"ar": "aa0dc03ce4f7",
+"tr": "e83ce2f32215",
+"en": "e613bee302ef",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-p1-u4",
+"at": "2026-10-17 00:06",
+"fixed": false
+},
+"p2": {
+"ar": "aa0dc03ce4f7",
+"tr": "e83ce2f32215",
+"en": "e613bee302ef",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish joined وفِيها وجْهٌ آخَرُ لا يَجُوزُ في القِراءَةِ to the next sentence with a colon, presenting «فُلانٌ كُفْءُ فُلانٍ» as that impermissible reading; the Arabic starts a separate sentence with ويُقالُ. Now two sentences.",
+"by": "zajjaj-p2-u12",
+"at": "2026-10-16 19:06",
+"fixed": true
+}
+}
+}

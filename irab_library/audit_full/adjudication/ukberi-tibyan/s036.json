@@ -1,0 +1,42 @@
+{
+"ukberi-tibyan:72-72": {
+"hs": [
+"72a4413c775a",
+"d770773404e9",
+"63812cfcec2d"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Reviewer's claim (TR translates 36:69-70) is false: TR does treat رَكُوبُهُمْ. But TR silently corrects the source: Arabic writes أَيْ ذُو رَكُوبِهِمْ (fatḥa) for the ḍamma reading, TR prints «ذو رُكوبهم» with ḍamma and no Mütercim notu (EN keeps ذُو رَكُوبِهِمْ and marks the emendation in a Translator's note). Fix: quote as written and put the رُكُوب interpretation in [Mütercim notu: …].",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "The reviewer's claim is false: TR does translate this رَكُوبُهُمْ entry, not 36:69-70. But TR has a silent correction. The source reads أَيْ ذُو رَكُوبِهِمْ (fatḥa) under the ḍamma reading, and TR prints «ذو رُكوبهم» with ḍamma and no Mütercim notu (EN marks the same point in a Translator's note). Fix: keep ذُو رَكُوبِهِمْ as in the source and move the رُكُوب remark into [Mütercim notu: ...]. 'nisbet (kalıbı)' is also a small unmarked addition for النَّسَبُ.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Quoted ذُو رَكُوبِهِمْ as vowelled in source with the رُكُوب reading in a Mütercim notu; removed unmarked '(kalıbı)' after nisbet",
+"verified": "PASS",
+"verify_note": "ذُو رَكُوبِهِمْ is now quoted as written with the رُكُوب reading inside a Mütercim notu; the unmarked 'kalıbı' addition is removed; all readings (fatḥa, nisba, tāʾ, ḍamma, maṣdar as mafʿūl) are complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"72a4413c775a",
+"cd6a95de69f2",
+"63812cfcec2d"
+],
+"dim": "tr",
+"what": "Quoted ذُو رَكُوبِهِمْ as vowelled in source with the رُكُوب reading in a Mütercim notu; removed unmarked '(kalıbı)' after nisbet",
+"at": "2026-10-17 00:43"
+}
+]
+}
+}

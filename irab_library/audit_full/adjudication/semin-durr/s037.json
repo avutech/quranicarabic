@@ -1,0 +1,165 @@
+{
+"semin-durr:44-44": {
+"hs": [
+"79665dca1852",
+"eb53e16afac8",
+"61e1121edb5b"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Verse 3792 «وكأسٍ شَرِبْتُ على لَذَّةٍ ... وأخرى تَداوَيْتُ منها بها»: EN adds unmarked «(i.e. with wine)» not in the Arabic; moreover the Arabic verse itself is dropped and replaced by English only, against glossary_en rule 3 (poetry stays in Arabic with a gloss).",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Verse 3792 «وأخرى تَداوَيْتُ منها بها»: EN adds unmarked '(i.e. with wine)' not in the Arabic (and renders منها 'from it' as 'with it'); the gloss must be in [Translator's note: …].",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Quranic word كأس defined by the author now in Arabic script: 'The kaʾs' -> «الكأس» (2x)",
+"verify_note": "Transliteration fixed (الكأس now Arabic script), but «لأنَّ السَّماعَ وَرَدَ في الجوامد دونَ الصفات» is rendered 'attested usage occurred with inanimate nouns, not with adjectives': الجوامد here is the grammatical term for non-derived (primitive) nouns contrasted with adjectives, not 'inanimate'. Wrong meaning; render as 'non-derived (jāmid) nouns'.",
+"fix_failed": 3,
+"verified": null
+}
+},
+"history": [
+{
+"old_hs": [
+"79665dca1852",
+"eb53e16afac8",
+"6e02af7c1824"
+],
+"dim": "en",
+"what": "Verse 3792: Arabic text restored with English gloss; 'with which' -> 'from which' (منها); unmarked '(i.e. with wine)' put inside a Translator's note",
+"at": "2026-10-17 00:47"
+},
+{
+"old_hs": [
+"79665dca1852",
+"eb53e16afac8",
+"6e831e4f7386"
+],
+"dim": "en",
+"what": "Quranic word كأس defined by the author now in Arabic script: 'The kaʾs' -> «الكأس» (2x)",
+"at": "2026-10-17 00:50"
+}
+]
+},
+"semin-durr:46-46": {
+"hs": [
+"fa24ea8af2f5",
+"3d70dd2ed168",
+"984a6d4777ad"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "«وقرأ عبد الله «صفراءَ» وهي مخالِفَةٌ للسَّواد»: السواد here is the written text of the muṣḥaf (the rasm), i.e. the reading صفراء contradicts the muṣḥaf script بيضاء. TR renders it «siyahlığa (rengin karşıtına) aykırıdır» (contradicts blackness), a wrong meaning, plus an unmarked gloss «(rengin karşıtına)». Also unmarked additions «Şeyh (Ebû Hayyân)», «Ben (es-Semîn)», «Abdullah (İbn Mes'ûd)», and «şarabın bu renkle vasfedilmesi» adds 'şarap' to «وَصْفُها».",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic «وهي مخالِفَةٌ للسَّواد» only; TR adds unmarked '(rengin karşıtına)'. Also unmarked '(Ebû Hayyân)', '(es-Semîn)', '(İbn Mes'ûd)' after «الشيخ», «قلت», «عبد الله», and 'şarabın' for «وَصْفُها». These must be in [Mütercim notu: …].",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"verify_note": "Main fixes done (Ebû Hayyân, es-Semîn, İbn Mes'ûd, السواد=rasm all in Mütercim notu; 'şarabın' removed). Remaining unmarked addition in verse 3796 gloss: «وتَخالُ فيه» (truncated in source) is rendered 'içinde bir şey sanırsın' - 'bir şey' fills the lacuna and is not in the Arabic, contradicting the note that it is rendered as written. Render 'içinde ... sanırsın' or put 'bir şey' in Mütercim notu.",
+"fix_failed": 2,
+"fixed_note": "Ebû Hayyân/es-Semîn/İbn Mes'ûd identifications into [Mütercim notu]; السواد rendered as sevâd with note (mushaf yazısı/resm) replacing wrong 'siyahlığa (rengin karşıtına)'; 'şarabın' -> 'onun'; glosses for Müvelledîn, 'şarap' in v.3793 and Sarhad in v.3795 marked as notes",
+"verified": null
+},
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "«وهي مخالِفَةٌ للسَّواد»: السواد = the muṣḥaf's written text (rasm), so صفراء contradicts the script; EN «contradicts the black [i.e. the opposite of white]» is a wrong meaning with an unmarked bracketed gloss. Also unmarked «[Abū Ḥayyān]», «[Ibn Masʿūd]», and the Arabic of verses 3793-3796 is dropped and replaced by English only (glossary_en rule 3).",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic «وهي مخالِفَةٌ للسَّواد» only; EN adds unmarked '[i.e. the opposite of white]', plus unmarked '[Abū Ḥayyān]', '[Ibn Masʿūd]'; also the parsed words «لَذّ / لذيذ / لَذَّ الشيءُ يَلَذُّ لَذَّاً» are given only in Latin transliteration ('laddh', 'ladha l-shayʾu yaladhdhu ladhdhan') instead of Arabic script.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"verify_note": "Fixed: Abū Ḥayyān, Ibn Masʿūd and السواد=rasm explanation in Translator's notes; verses 3793-3796 kept in Arabic with glosses; لَذّ/لذيذ/لَذَّ الشيءُ in Arabic script; truncated 3796 rendered as written with note. Complete and faithful.",
+"fix_failed": 1,
+"fixed_note": "Abū Ḥayyān/Ibn Masʿūd into [Translator's note]; 'contradicts the black [i.e. opposite of white]' -> 'goes against al-sawād' + note (muṣḥaf rasm); Arabic of verses 3793-3796 restored with English gloss; لَذّ/لذيذ/لَذَّ الشيءُ يَلَذُّ لَذَّاً/ذات لذة/فَعْل/صَعْب in Arabic script; 'kaʾs' -> «كأس»; Ṣarkhad wine gloss marked as note",
+"verified": "PASS"
+}
+},
+"history": [
+{
+"old_hs": [
+"fa24ea8af2f5",
+"151f8a7e22f6",
+"5d5a5dac5923"
+],
+"dim": "tr",
+"what": "Ebû Hayyân/es-Semîn/İbn Mes'ûd identifications into [Mütercim notu]; السواد rendered as sevâd with note (mushaf yazısı/resm) replacing wrong 'siyahlığa (rengin karşıtına)'; 'şarabın' -> 'onun'; glosses for Müvelledîn, 'şarap' in v.3793 and Sarhad in v.3795 marked as notes",
+"at": "2026-10-17 00:50"
+},
+{
+"old_hs": [
+"fa24ea8af2f5",
+"3d70dd2ed168",
+"984a6d4777ad"
+],
+"dim": "en",
+"what": "Abū Ḥayyān/Ibn Masʿūd into [Translator's note]; 'contradicts the black [i.e. opposite of white]' -> 'goes against al-sawād' + note (muṣḥaf rasm); Arabic of verses 3793-3796 restored with English gloss; لَذّ/لذيذ/لَذَّ الشيءُ يَلَذُّ لَذَّاً/ذات لذة/فَعْل/صَعْب in Arabic script; 'kaʾs' -> «كأس»; Ṣarkhad wine gloss marked as note",
+"at": "2026-10-17 00:50"
+}
+]
+},
+"semin-durr:96-96": {
+"hs": [
+"55941adf5f4d",
+"9afc6278c496",
+"3019e8f74d76"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "«وقد استفرضَ الزمخشري هذه المقالةَ هنا بكونِها مصدريةً، وشَنَّع على قائلِها»: the verb (most likely استفرص, 'seized the opportunity', printed as استفرض) does not mean 'refuted'; TR «bu görüşü ... çürüttü» attributes a refutation the verb does not state (the denunciation is only in «شَنَّع»). Wrong meaning for the verb; should render as written/neutrally (seized on / took up) with a Mütercim notu on the doubtful verb.",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "HUMAN",
+"evidence": "«وقد استفرضَ الزمخشري هذه المقالةَ هنا بكونِها مصدريةً، وشَنَّع على قائلِها»: استفرض is not a clear verb (likely a print variant of استفرص 'seized the opportunity'). TR 'çürüttü' (refuted) does not render that verb literally, though Zamakhsharī did reject the maṣdarī view; needs a scholar to fix the reading of the source verb and decide whether a [Mütercim notu] is required. Rest of TR is faithful.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "HUMAN"
+},
+"en": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "EN «Al-Zamakhsharī took up this statement here regarding its being maṣdarī and denounced whoever said it» is a fair neutral rendering of «استفرضَ (prob. استفرص 'seized on') الزمخشري هذه المقالةَ هنا بكونِها مصدريةً وشَنَّع على قائلِها». The rest (four aspects of ما, Makkī's quote, ʿAmr ibn ʿUbayd's reading «مِنْ شرٍّ», ḥāl/istiʾnāf) matches the Arabic.",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "For «وقد استفرضَ الزمخشري هذه المقالةَ ... وشَنَّع على قائلِها» EN 'took up this statement ... and denounced whoever said it' matches the likely sense (استفرص, seized upon) and adds nothing; the rest of EN (four aspects of «ما», Makkī, «مِن شَرِّ مَا خَلَقَ», ʿAmr ibn ʿUbayd) is complete and correct.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

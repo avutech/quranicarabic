@@ -1,0 +1,27 @@
+{
+"nahhas-irab:44-44": {
+"hs": [
+"6184b76f066e",
+"b2c78cc7fe35",
+"687f5ad1d943"
+],
+"dims": {
+"fit": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "The entry «قال أبو إسحاق: لِيُعْجِزَهُ لتفوته ...» glosses «لِيُعْجِزَهُۥ» which occurs in 35:44 «وَمَا كَانَ ٱللَّهُ لِيُعْجِزَهُۥ مِن شَىْءٍ». It is listed under the right ayah; the gloss لتفوته is a complete, translatable statement and both readings render it with the ellipsis. Placement needs no change.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "«قال أبو إسحاق: لِيُعْجِزَهُ لتفوته ...» glosses «لِيُعْجِزَهُ» of 35:44 «وَمَا كَانَ ٱللَّهُ لِيُعْجِزَهُۥ مِن شَىْءٍۢ». It is listed under the right ayah; the ellipsis is a truncation in the source, but the surviving text is placeable and is translated as it stands in both readings.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

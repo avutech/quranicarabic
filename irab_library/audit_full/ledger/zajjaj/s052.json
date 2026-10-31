@@ -1,0 +1,554 @@
+{
+"zajjaj:1-1": {
+"p1": {
+"ar": "c64d2d01c62f",
+"tr": "b56e929ca788",
+"en": "e5f440959982",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u8",
+"at": "2026-10-10 19:14",
+"fixed": false
+}
+},
+"zajjaj:2-2": {
+"p1": {
+"ar": "4c0500162085",
+"tr": "f6eb2bcac845",
+"en": "007e539be898",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u8",
+"at": "2026-10-10 19:14",
+"fixed": false
+}
+},
+"zajjaj:4-4": {
+"p1": {
+"ar": "23201dae0c1f",
+"tr": "fff05f9f3e99",
+"en": "ed762623113b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u8",
+"at": "2026-10-10 19:14",
+"fixed": false
+}
+},
+"zajjaj:7-7": {
+"p1": {
+"ar": "0d1343a39765",
+"tr": "a7874db10765",
+"en": "e9f845dc53e6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u8",
+"at": "2026-10-10 19:14",
+"fixed": false
+}
+},
+"zajjaj:9-9": {
+"p1": {
+"ar": "5e2c38528d5e",
+"tr": "10ddbf247dfd",
+"en": "6d4f2c522da4",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR added unmarked \"(çalkalanır)\" after تدور; removed.",
+"by": "zajjaj-u8",
+"at": "2026-10-10 19:14",
+"fixed": true
+},
+"p2": {
+"ar": "5e2c38528d5e",
+"tr": "10ddbf247dfd",
+"en": "6d4f2c522da4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-p2-u11",
+"at": "2026-10-16 18:52",
+"fixed": false
+}
+},
+"zajjaj:12-12": {
+"p1": {
+"ar": "068c775e73e2",
+"tr": "5e61ebe4897f",
+"en": "f806d311d82f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u8",
+"at": "2026-10-10 19:14",
+"fixed": false
+}
+},
+"zajjaj:13-13": {
+"p1": {
+"ar": "8db9220403ab",
+"tr": "20d2554fc1d8",
+"en": "726dc2e143af",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u8",
+"at": "2026-10-10 19:14",
+"fixed": false
+}
+},
+"zajjaj:14-14": {
+"p1": {
+"ar": "51d9a202724d",
+"tr": "157b60754557",
+"en": "900aa1c23f2b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u8",
+"at": "2026-10-10 19:14",
+"fixed": false
+}
+},
+"zajjaj:15-15": {
+"p1": {
+"ar": "ab47947dc8e0",
+"tr": "7a40ce55172d",
+"en": "c7b71ce09f62",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u8",
+"at": "2026-10-10 19:14",
+"fixed": false
+}
+},
+"zajjaj:16-16": {
+"p1": {
+"ar": "672c10e4267f",
+"tr": "b9b9e6d62400",
+"en": "ba110f82d4bd",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u8",
+"at": "2026-10-10 19:14",
+"fixed": false
+}
+},
+"zajjaj:17-17": {
+"p1": {
+"ar": "cb28529c363a",
+"tr": "a30107eeb04f",
+"en": "331916e35c39",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u8",
+"at": "2026-10-10 19:14",
+"fixed": false
+},
+"p2": {
+"ar": "cb28529c363a",
+"tr": "a30107eeb04f",
+"en": "331916e35c39",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-p2-u11",
+"at": "2026-10-16 18:52",
+"fixed": false
+}
+},
+"zajjaj:19-19": {
+"p1": {
+"ar": "de31271f3823",
+"tr": "89be6168c481",
+"en": "4a1c03dbd748",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u8",
+"at": "2026-10-10 19:14",
+"fixed": false
+}
+},
+"zajjaj:21-21": {
+"p1": {
+"ar": "85c564b35a5b",
+"tr": "072043d366be",
+"en": "9aa7797acb2b",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR rendered بَنِي ثُعَلٍ as \"Sual oğulları\" (wrong name); now \"ثُعَل oğulları\".",
+"by": "zajjaj-u8",
+"at": "2026-10-10 19:14",
+"fixed": true
+},
+"p2": {
+"ar": "85c564b35a5b",
+"tr": "072043d366be",
+"en": "9aa7797acb2b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-p2-u11",
+"at": "2026-10-16 18:52",
+"fixed": false
+}
+},
+"zajjaj:23-23": {
+"p1": {
+"ar": "93628ba688dc",
+"tr": "421bea8b0636",
+"en": "a241b9b82451",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u8",
+"at": "2026-10-10 19:14",
+"fixed": false
+}
+},
+"zajjaj:25-25": {
+"p1": {
+"ar": "f035b88adcac",
+"tr": "080007514d21",
+"en": "6ced8e00688c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u8",
+"at": "2026-10-10 19:14",
+"fixed": false
+},
+"p2": {
+"ar": "f035b88adcac",
+"tr": "080007514d21",
+"en": "6ced8e00688c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-p2-u11",
+"at": "2026-10-16 18:52",
+"fixed": false
+}
+},
+"zajjaj:27-27": {
+"p1": {
+"ar": "34b08370fbd5",
+"tr": "430ef7fc1d3d",
+"en": "57da837aaf39",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u8",
+"at": "2026-10-10 19:14",
+"fixed": false
+},
+"p2": {
+"ar": "34b08370fbd5",
+"tr": "430ef7fc1d3d",
+"en": "57da837aaf39",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-p2-u11",
+"at": "2026-10-16 18:52",
+"fixed": false
+}
+},
+"zajjaj:29-29": {
+"p1": {
+"ar": "74bb56693880",
+"tr": "c619017811f9",
+"en": "42fc7d3d9da0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u8",
+"at": "2026-10-10 19:14",
+"fixed": false
+}
+},
+"zajjaj:30-30": {
+"p1": {
+"ar": "96057bcdd802",
+"tr": "b2734ce11b9f",
+"en": "6eee0b95bf34",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u8",
+"at": "2026-10-10 19:14",
+"fixed": false
+}
+},
+"zajjaj:31-31": {
+"p1": {
+"ar": "f728d3ba0846",
+"tr": "971b0e2cb5ae",
+"en": "97b38df0d061",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u8",
+"at": "2026-10-10 19:14",
+"fixed": false
+},
+"p2": {
+"ar": "f728d3ba0846",
+"tr": "971b0e2cb5ae",
+"en": "97b38df0d061",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-p2-u11",
+"at": "2026-10-16 18:52",
+"fixed": false
+}
+},
+"zajjaj:32-32": {
+"p1": {
+"ar": "0291cc98a614",
+"tr": "8ecdb5326169",
+"en": "3691b519a4ee",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u8",
+"at": "2026-10-10 19:14",
+"fixed": false
+}
+},
+"zajjaj:34-34": {
+"p1": {
+"ar": "01fbcc40c706",
+"tr": "bd0f552c4bef",
+"en": "dfb5ee73f94b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u8",
+"at": "2026-10-10 19:14",
+"fixed": false
+}
+},
+"zajjaj:35-35": {
+"p1": {
+"ar": "b193387661e5",
+"tr": "72249b403f6a",
+"en": "9d91db86ce06",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR added unmarked \"(yoktan yaratılmıştır)\"; removed.",
+"by": "zajjaj-u8",
+"at": "2026-10-10 19:14",
+"fixed": true
+},
+"p2": {
+"ar": "b193387661e5",
+"tr": "72249b403f6a",
+"en": "9d91db86ce06",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-p2-u11",
+"at": "2026-10-16 18:52",
+"fixed": false
+}
+},
+"zajjaj:37-37": {
+"p1": {
+"ar": "24a211054caf",
+"tr": "557d9b4c4e11",
+"en": "4ea2cb0553fa",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u8",
+"at": "2026-10-10 19:14",
+"fixed": false
+}
+},
+"zajjaj:38-38": {
+"p1": {
+"ar": "93f085895db6",
+"tr": "0277fe7c1839",
+"en": "cf5758f26c52",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u8",
+"at": "2026-10-10 19:14",
+"fixed": false
+},
+"p2": {
+"ar": "93f085895db6",
+"tr": "0277fe7c1839",
+"en": "cf5758f26c52",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-p2-u11",
+"at": "2026-10-16 18:52",
+"fixed": false
+}
+},
+"zajjaj:40-40": {
+"p1": {
+"ar": "4ad3901ad057",
+"tr": "83a33c5df292",
+"en": "ad2b53b3f8c2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u8",
+"at": "2026-10-10 19:14",
+"fixed": false
+}
+},
+"zajjaj:42-42": {
+"p1": {
+"ar": "8d92ecb49b02",
+"tr": "79f54333a290",
+"en": "fa08bc7fa6d9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u8",
+"at": "2026-10-10 19:14",
+"fixed": false
+},
+"p2": {
+"ar": "8d92ecb49b02",
+"tr": "79f54333a290",
+"en": "fa08bc7fa6d9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-p2-u11",
+"at": "2026-10-16 18:52",
+"fixed": false
+}
+},
+"zajjaj:43-43": {
+"p1": {
+"ar": "b4859c00f061",
+"tr": "c2e76fe22422",
+"en": "e99c30e5fc14",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR added unmarked \"(bu nasıl olur)\"; removed.",
+"by": "zajjaj-u8",
+"at": "2026-10-10 19:14",
+"fixed": true
+},
+"p2": {
+"ar": "b4859c00f061",
+"tr": "c2e76fe22422",
+"en": "e99c30e5fc14",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-p2-u11",
+"at": "2026-10-16 18:52",
+"fixed": false
+}
+},
+"zajjaj:44-44": {
+"p1": {
+"ar": "74a2a7075e4a",
+"tr": "57063eaf7250",
+"en": "343eab5e1b9e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u8",
+"at": "2026-10-10 19:14",
+"fixed": false
+}
+},
+"zajjaj:45-45": {
+"p1": {
+"ar": "6948f3844fae",
+"tr": "4231532d724e",
+"en": "b72dbba78ea0",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN added \"opening\" before takbīr (Arabic: مَعَ التَّكْبِيرِ); removed.",
+"by": "zajjaj-u8",
+"at": "2026-10-10 19:14",
+"fixed": true
+},
+"p2": {
+"ar": "6948f3844fae",
+"tr": "4231532d724e",
+"en": "b72dbba78ea0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-p2-u11",
+"at": "2026-10-16 18:52",
+"fixed": false
+}
+},
+"zajjaj:49-49": {
+"p1": {
+"ar": "c4215feb7b48",
+"tr": "a76cba3aced0",
+"en": "b305a33bb4b2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "zajjaj-u8",
+"at": "2026-10-10 19:14",
+"fixed": false
+}
+}
+}

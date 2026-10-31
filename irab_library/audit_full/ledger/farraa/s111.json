@@ -1,0 +1,68 @@
+{
+"farraa:1-1": {
+"p1": {
+"ar": "62dbe9904ff8",
+"tr": "13cafc03a943",
+"en": "cc8a4b1cd004",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR rendered «تباً لك» as \"Elin kurusun\" (adds hand, not in the source); now \"Helak ol sana\".",
+"by": "farraa-u22",
+"at": "2026-10-10 15:53",
+"fixed": true
+},
+"p2": {
+"ar": "62dbe9904ff8",
+"tr": "13cafc03a943",
+"en": "cc8a4b1cd004",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u6",
+"at": "2026-10-11 04:07",
+"fixed": false
+}
+},
+"farraa:4-4": {
+"p1": {
+"ar": "0545893a8006",
+"tr": "8a03867bbbce",
+"en": "51fd19c97256",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR gave its own reading of the defective Kisai example with unmarked additions ((hal), (ovgu nasbi), blessing gloss, (odun tasiyicidir)); aligned with source/EN and added translator note.",
+"by": "farraa-u22",
+"at": "2026-10-10 15:53",
+"fixed": true
+},
+"p2": {
+"ar": "0545893a8006",
+"tr": "8a03867bbbce",
+"en": "51fd19c97256",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u6",
+"at": "2026-10-11 04:07",
+"fixed": false
+}
+},
+"farraa:5-5": {
+"p1": {
+"ar": "6aee50dca0ed",
+"tr": "868cbd27c19f",
+"en": "a2bfdf87aee8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:53",
+"fixed": false
+}
+}
+}

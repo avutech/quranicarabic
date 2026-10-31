@@ -1,0 +1,152 @@
+{
+"farraa:4-4": {
+"p1": {
+"ar": "37b79d7f45c6",
+"tr": "7f0ad3fdc3eb",
+"en": "58e48dc6e8f4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:54",
+"fixed": false
+}
+},
+"farraa:6-6": {
+"p1": {
+"ar": "57d75f3524f8",
+"tr": "21413a5fc86e",
+"en": "5656f4c8643d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:54",
+"fixed": false
+}
+},
+"farraa:11-11": {
+"p1": {
+"ar": "eca4c7ea6999",
+"tr": "37360dd61e2b",
+"en": "43e7d686bb3d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:54",
+"fixed": false
+}
+},
+"farraa:13-13": {
+"p1": {
+"ar": "02b06e32c151",
+"tr": "090091042467",
+"en": "9eed9c8d9380",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:54",
+"fixed": false
+}
+},
+"farraa:15-15": {
+"p1": {
+"ar": "a74fff605394",
+"tr": "f9eed1331df3",
+"en": "8a5bf66b7fb0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:54",
+"fixed": false
+}
+},
+"farraa:16-16": {
+"p1": {
+"ar": "2076036af51c",
+"tr": "fff5dfbc6090",
+"en": "9a21f8830a68",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:54",
+"fixed": false
+}
+},
+"farraa:17-17": {
+"p1": {
+"ar": "9f0a9d3cfe26",
+"tr": "9e1125c14b56",
+"en": "fcf3b9bcdd1d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:54",
+"fixed": false
+},
+"p2": {
+"ar": "9f0a9d3cfe26",
+"tr": "9e1125c14b56",
+"en": "fcf3b9bcdd1d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p2-u4",
+"at": "2026-10-16 19:03",
+"fixed": false
+}
+},
+"farraa:22-22": {
+"p1": {
+"ar": "fcf241deba4e",
+"tr": "4f00c5fefe82",
+"en": "c964b644ca6d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:54",
+"fixed": false
+}
+},
+"farraa:23-23": {
+"p1": {
+"ar": "a0b13c9b27a2",
+"tr": "877ae6b400da",
+"en": "aa93f668a487",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR ended with obscure \"(başka)\" and had an unmarked gloss on إيَابَهُمْ; rewritten faithfully with marked translator note.",
+"by": "farraa-u22",
+"at": "2026-10-10 15:54",
+"fixed": true
+},
+"p2": {
+"ar": "a0b13c9b27a2",
+"tr": "877ae6b400da",
+"en": "aa93f668a487",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p2-u4",
+"at": "2026-10-16 19:03",
+"fixed": false
+}
+}
+}

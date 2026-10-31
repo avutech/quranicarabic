@@ -1,0 +1,148 @@
+{
+"mekki-muskil:6-6": {
+"p1": {
+"ar": "39bc0549f7a4",
+"tr": "ac4fefb37bef",
+"en": "ecdf3bd24f78",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "Removed unmarked \"ordinary\" for فِي الْكَلَام.",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:46",
+"fixed": true
+},
+"p2": {
+"ar": "39bc0549f7a4",
+"tr": "ac4fefb37bef",
+"en": "ecdf3bd24f78",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 17:08",
+"fixed": false
+}
+},
+"mekki-muskil:7-7": {
+"p1": {
+"ar": "82de83f12b67",
+"tr": "2947642beb61",
+"en": "bf6b04ccc73f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+},
+"mekki-muskil:8-8": {
+"p1": {
+"ar": "811d9ed6fa82",
+"tr": "f4c8825d4880",
+"en": "c4b0b413e8c0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+},
+"mekki-muskil:9-9": {
+"p1": {
+"ar": "3b0a41b05966",
+"tr": "cc9aee8d2f66",
+"en": "701ad422010c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:46",
+"fixed": false
+}
+},
+"mekki-muskil:14-14": {
+"p1": {
+"ar": "4c8b5229fe61",
+"tr": "75df51b4a773",
+"en": "dd2f61fe05bf",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:46",
+"fixed": false
+},
+"p2": {
+"ar": "4c8b5229fe61",
+"tr": "75df51b4a773",
+"en": "dd2f61fe05bf",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 17:08",
+"fixed": false
+}
+},
+"mekki-muskil:17-17": {
+"p1": {
+"ar": "32d7b5f9f77b",
+"tr": "a44c131340bb",
+"en": "d44543c22575",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:46",
+"fixed": false
+},
+"p2": {
+"ar": "32d7b5f9f77b",
+"tr": "a44c131340bb",
+"en": "d44543c22575",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 17:08",
+"fixed": false
+}
+},
+"mekki-muskil:21-21": {
+"p1": {
+"ar": "97b9a1a421ec",
+"tr": "4a123e717fa9",
+"en": "afdf90d43bcc",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "Removed unmarked \"ordinary\" for فِي الْكَلَام.",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:46",
+"fixed": true
+},
+"p2": {
+"ar": "97b9a1a421ec",
+"tr": "4a123e717fa9",
+"en": "afdf90d43bcc",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "Second paragraph \"قوله المصور ...\" is about 59:24 (المصور), not 59:21; the translations of both parts are complete and faithful.",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 17:08",
+"fixed": false
+}
+}
+}

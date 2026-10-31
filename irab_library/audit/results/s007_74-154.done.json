@@ -1,0 +1,11 @@
+{
+ "surah": 7,
+ "chunk": "74-154",
+ "verdicts": {
+  "OK": 212,
+  "SOURCE_DEFECT": 2,
+  "GAP": 9
+ },
+ "summary": "Chunk 7:74-154: 15 high/medium findings all OK (NEAR = author continues into next ayah or cross-refs; X/T false positives); 84 SEM checks across 14 books OK; 43 low XREF/UNFOUND OK; 9 GAP lines recorded. Source defects (typos, translator-noted): nahhas-meani 152, farraa 131. No translation edits needed.",
+ "at": "2026-10-10 14:59"
+}

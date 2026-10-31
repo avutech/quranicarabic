@@ -1,0 +1,134 @@
+{
+"dervis-irab:11-15": {
+"p1": {
+"ar": "bfb97dfe3fa6",
+"tr": "92731e9279ff",
+"en": "cb4efed9b3ac",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR verse 1: مرارا (\"time and again\") had been rendered \"bir kez de olsa\" (even once); changed to \"defalarca\". EN rhetoric 1: \"loan given to a person of wealth\" for القرض الذي يدفع إلى الإنسان من المال changed to loan of money given to a person.",
+"by": "dervis-irab-u92",
+"at": "2026-10-10 19:43",
+"fixed": true
+},
+"p2": {
+"ar": "bfb97dfe3fa6",
+"tr": "92731e9279ff",
+"en": "cb4efed9b3ac",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u37",
+"at": "2026-10-16 19:28",
+"fixed": false
+}
+},
+"dervis-irab:16-20": {
+"p1": {
+"ar": "5b1fb0edf168",
+"tr": "4ee0544e083c",
+"en": "a6fd6def5a66",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u92",
+"at": "2026-10-10 19:44",
+"fixed": false
+}
+},
+"dervis-irab:21-25": {
+"p1": {
+"ar": "af8d92e80512",
+"tr": "bf810e3c3a13",
+"en": "2b34d876e14b",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR removed unmarked glosses \"(Celâleyn sahibi)\" after Celâl and \"(Elfiyye)\" after el-Hulâsa; not in the Arabic (ADDITION).",
+"by": "dervis-irab-u92",
+"at": "2026-10-10 19:44",
+"fixed": true
+},
+"p2": {
+"ar": "af8d92e80512",
+"tr": "bf810e3c3a13",
+"en": "2b34d876e14b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u6",
+"at": "2026-10-17 00:04",
+"fixed": false
+}
+},
+"dervis-irab:26-29": {
+"p1": {
+"ar": "3a7447abadb3",
+"tr": "df3f02d2b31c",
+"en": "005aabd5496b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u4",
+"at": "2026-10-17 00:16",
+"fixed": false
+},
+"p2": {
+"ar": "3a7447abadb3",
+"tr": "df3f02d2b31c",
+"en": "005aabd5496b",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Ibn Hisham quote: both readings translated the corrected «وحبّ رهبانية» instead of the written «وجد رهبانية»; now as written with a note. TR also dropped «إنما» (only) in «وإنما لم يحمل أبو علي». EN had unmarked additions «[on their view]» and «[i.e. «عدا يعدو»]», removed.",
+"by": "dervis-irab-p2-u6",
+"at": "2026-10-17 00:02",
+"fixed": true
+}
+},
+"dervis-irab:1-6": {
+"p1": {
+"ar": "a9a8e52cdb61",
+"tr": "ba66a51ea306",
+"en": "438105fdae94",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u2",
+"at": "2026-10-11 01:13",
+"fixed": false
+}
+},
+"dervis-irab:7-10": {
+"p1": {
+"ar": "162395f53a34",
+"tr": "8ed21f39d7c2",
+"en": "e7d1c62919ec",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u4",
+"at": "2026-10-17 00:16",
+"fixed": false
+},
+"p2": {
+"ar": "162395f53a34",
+"tr": "8ed21f39d7c2",
+"en": "e7d1c62919ec",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR dropped the restriction in «وإنما كانت النفقة والقتال قبل الفتح أفضل ... لأن» (\"only because\"); restored as \"ancak şu sebepledir\", matching EN.",
+"by": "dervis-irab-p2-u6",
+"at": "2026-10-17 00:04",
+"fixed": true
+}
+}
+}

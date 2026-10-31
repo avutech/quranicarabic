@@ -1,0 +1,145 @@
+{
+"farraa:48-48": {
+"hs": [
+"4e2a60772d3d",
+"635058906690",
+"8cb466947faf"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "HUMAN",
+"evidence": "Prose is faithful. The open questions are: (1) «وقال غيره من أهل البصرة» is a single speaker (singular قال, غيره), but EN says 'Others, of the people of Basra, said', which is a minor change of number; (2) EN gives a confident meaning for the verse «لو تنزّاه حول ألفيتني ذا عنز وذا طول» ('crafty one... resistant and strong'), while TR gives a different meaning and marks it uncertain. What «حول» and «ذا عنز» mean here needs a lexicographer's judgement.",
+"at": "2026-10-10 15:59"
+},
+"J2": {
+"class": "HUMAN",
+"evidence": "Disputed point is the gloss of the verse يارب يوم لو تنزاه حول / ألفيتني ذا عنز وذا طول. EN 'had a crafty one (حُوَل) leapt (تنزّى) at it' fits the words; 'ذا عنز' rendered 'resistant' and 'ذا طول' 'strong' is a plausible but unverifiable lexical reading (TR reads 'keçi sahibi' instead). The rest of the EN checks out against the Arabic (Kisa'i's argument, آتيك يوم الخميس / فى يوم الخميس, كلمتك vs كلمت فيك). The meaning of ذا عنز needs a lexicographer's judgement, so I cannot decide.",
+"at": "2026-10-10 15:59"
+}
+},
+"status": "DECIDED",
+"class": "HUMAN"
+}
+}
+},
+"farraa:267-267": {
+"hs": [
+"2ecbd557b312",
+"64db62e46eed",
+"ab0b18ca5969"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "In the verse «مُصيبا رَغْمُ ذلك مَنْ أصابا», al-Farraa says explicitly «في تأويل رفع لوقوع مُصيب على مَن», so مَن is the object of مُصيب, and رغمُ (nominative) is its subject: 'the disgrace of that striking whomever it strikes'. TR ('[vuran] kim vurursa vursun, [onlara] isabet ettirecek değilim') makes مَن the striker, an unmarked bracketed agent, and negates مصيبا. This contradicts the source's own analysis that the verse is cited to show.",
+"at": "2026-10-10 15:59"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Farra says explicitly of the verse مُصيبا رَغْمُ ذلك مَنْ أصابا that it is 'فى تأويل رفع لوقوع مُصيب على مَنْ', i.e. مُصيب governs مَنْ as its object, just like اضربه مَنْ كان. TR renders it '[vuran] kim vurursa vursun, [onlara] isabet ettirecek değilim', which turns مَن أصابا into a free concessive clause and supplies '[onlara]' as the object of مصيب. That contradicts the grammatical point the passage illustrates, and the bracketed '[vuran]'/'[onlara]' are additions outside a Mütercim notu. The rest of the TR is accurate.",
+"at": "2026-10-10 15:59"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved unmarked additions into Mütercim notu ([dolayı], [nidâ], [baksın], cer harfi gloss); removed unmarked (bedel) and (onun aynısı); مردودة rendered as 'döndürülmüş'",
+"verify_note": "Poem now correct (رغمُ subject of مصيبا, مَن its object); earlier unmarked additions ((cer harfi), (bedel), (onun aynısı)) removed, remaining glosses dolayı/nidâ/baksın are inside Mütercim notu; parsed and Quranic words in Arabic; complete and faithful.",
+"fix_failed": 1,
+"verified": "PASS"
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "In «مُصيبا رَغْمُ ذلك مَنْ أصابا», رغمُ is vocalised nominative: it is the subject of مُصيبا ('the disgrace of that befalling whomever it befalls'), and مَن is its object per «لوقوع مُصيب على مَن». EN renders رغمُ as the preposition 'despite that' ('striking — despite that — whomever it strikes'), which translates رغمَ, a different text, and loses the subject. The rest of the entry checked out.",
+"at": "2026-10-10 15:59"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "The verse rendering 'striking ... whomever it strikes' keeps مُصيب acting on مَنْ, which is defensible. But the EN transliterates the parsed Quranic words in Latin letters where the source has Arabic: '(an) after illā' for (أن) بعد إلاَّ, 'and innā' for the reading إنا of ﴿أنَّا﴾ (80:25), and 'When (an) became nominative by (khayr)' for (أن) / (خير) from 2:184. The standard requires Quranic and parsed words to stay in Arabic script, so this needs a fix.",
+"at": "2026-10-10 15:59"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "3:97 and 80:25 parsed words restored to Arabic script: (مَنْ), (الناس), مَنْ, أنّا instead of man/al-nās/anna",
+"verify_note": "Quranic items now in Arabic, but parsed words that the source puts in (…) are still transliterated, against glossary_en rule 2: 'because kāna and the verb before it have fallen on (man) and (mā)' (source: (مَن) و (ما)); 'since (kāna) was created only for the past' (source: (كان)); '(qultu innaka qāʾim, ...)' (source: (قلت إنك قائم)); also 'muṣīb falls on man' (مُصيب على مَنْ). Put these in Arabic script as the TR does.",
+"fix_failed": 2,
+"verified": null
+}
+},
+"history": [
+{
+"old_hs": [
+"2ecbd557b312",
+"d88f5ba6a9cf",
+"506687f0951c"
+],
+"dim": "tr",
+"what": "Verse مصيبا رغمُ ذلك من أصابا: removed unmarked [vuran]/[onlara] and wrong negation; now رغمُ is subject and من object of مصيب, per al-Farraa's own analysis",
+"at": "2026-10-10 16:01"
+},
+{
+"old_hs": [
+"2ecbd557b312",
+"8b988c742cee",
+"e7412430e328"
+],
+"dim": "en",
+"what": "Verse: رغمُ rendered as subject ('the humiliation of that striking whomever it strikes') instead of preposition 'despite'; parsed words (أن), إلا, (خير), إنا restored to Arabic script instead of transliteration",
+"at": "2026-10-10 16:01"
+},
+{
+"old_hs": [
+"2ecbd557b312",
+"8b988c742cee",
+"e7412430e328"
+],
+"dim": "tr",
+"what": "Moved unmarked additions into Mütercim notu ([dolayı], [nidâ], [baksın], cer harfi gloss); removed unmarked (bedel) and (onun aynısı); مردودة rendered as 'döndürülmüş'",
+"at": "2026-10-10 16:03"
+},
+{
+"old_hs": [
+"2ecbd557b312",
+"64db62e46eed",
+"ab0b18ca5969"
+],
+"dim": "en",
+"what": "3:97 and 80:25 parsed words restored to Arabic script: (مَنْ), (الناس), مَنْ, أنّا instead of man/al-nās/anna",
+"at": "2026-10-10 16:03"
+}
+]
+},
+"farraa:285-286": {
+"hs": [
+"0d06fa124e85",
+"555a3067bacb",
+"592bbe42bf4e"
+],
+"dims": {
+"fit": {
+"votes": {
+"J2": {
+"class": "MISPLACED",
+"evidence": "Entry discusses غُفْرَانَكَ رَبَّنَا (2:285), لا يكلف الله نفسا إلا وسعها and ولا تحمل علينا إصرا (2:286), but its last paragraphs substantively treat other ayahs of this surah: the readings فَأْذَنُوا / فآذنوا بحرب من الله (2:279) and Ibn Abbas on فإن لم تجدوا كاتبا فرهان مقبوضة (2:283). These are not cited as evidence but are separate glosses, so the complete range is 279-286.",
+"at": "2026-10-17 00:39",
+"ayahs": "279-286"
+},
+"J1": {
+"class": "MISPLACED",
+"evidence": "Entry covers 285 (﴿غُفْرَانَكَ رَبَّنَا﴾) and 286 (﴿لاَ يُكَلِّفُ ٱللَّهُ نَفْساً إِلاَّ وُسْعَهَا﴾, ﴿وَلاَ تَحْمِلْ عَلَيْنَآ إِصْراً﴾), but its last paragraphs substantively discuss readings of other ayahs: 'فَأْذَنُوا بِحَرْبٍ مِنَ الله' / 'فآذنوا' = 2:279, and Ibn Abbas 'فإن لم تجدوا كاتبا فرهان مقبوضة' = 2:283. These are not evidence for 285-286 but separate comments, so the range must include 279 and 283.",
+"at": "2026-10-17 00:41",
+"ayahs": "279-286"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+}
+}

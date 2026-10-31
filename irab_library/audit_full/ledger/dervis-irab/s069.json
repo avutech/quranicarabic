@@ -1,0 +1,94 @@
+{
+"dervis-irab:9-18": {
+"p1": {
+"ar": "56dd6a4a80a3",
+"tr": "81a0577b0ed3",
+"en": "ef36bfb3106b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "Re-read after earlier edits; EN now correctly has \"perhaps you will not find it in the speech of an eloquent poet\".",
+"by": "dervis-irab-p1-u4",
+"at": "2026-10-17 00:22",
+"fixed": false
+},
+"p2": {
+"ar": "56dd6a4a80a3",
+"tr": "d8b781750125",
+"en": "eaf411af4e8b",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR: unmarked \"(tekil olarak)\" added to «لعلك لا تجدها في كلام شاعر فصيح» removed; EN silently corrected source «بيتعلل» to يعتلل, note added.",
+"by": "dervis-irab-p2-u7",
+"at": "2026-10-17 00:03",
+"fixed": true
+}
+},
+"dervis-irab:19-37": {
+"p1": {
+"ar": "0d18864c61bf",
+"tr": "f8b39becdbc5",
+"en": "ebbb44e4434c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u94",
+"at": "2026-10-10 19:45",
+"fixed": false
+}
+},
+"dervis-irab:38-52": {
+"p1": {
+"ar": "2984fe986549",
+"tr": "4780ee9966fe",
+"en": "5cbde513b286",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u94",
+"at": "2026-10-10 19:45",
+"fixed": false
+},
+"p2": {
+"ar": "2984fe986549",
+"tr": "4780ee9966fe",
+"en": "5cbde513b286",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u7",
+"at": "2026-10-17 00:03",
+"fixed": false
+}
+},
+"dervis-irab:1-8": {
+"p1": {
+"ar": "751ac6cbe1d6",
+"tr": "451e5e8380c7",
+"en": "adb8ca34ae9b",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR: removed unmarked (mahzuf). EN: removed unmarked [omitted].",
+"by": "dervis-irab-p1-u4",
+"at": "2026-10-17 00:22",
+"fixed": true
+},
+"p2": {
+"ar": "751ac6cbe1d6",
+"tr": "451e5e8380c7",
+"en": "adb8ca34ae9b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u6",
+"at": "2026-10-17 00:30",
+"fixed": false
+}
+}
+}

@@ -1,0 +1,56 @@
+{
+"mekki-muskil:3-3": {
+"hs": [
+"dd4b2a41ace0",
+"a9be4c9661f4",
+"caf0a0a145f2"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "MISPLACED",
+"evidence": "«ما ودعك ما جواب القسم» and «وما قلى المفعول محذوف» are 93:3; «ألم يجدك يتيما الكاف ويتيما مفعولان ليجد ومثله ووجدك ضالا ووجدك عائلا» parses 93:6-8. Range 3-8.",
+"at": "2026-10-17 00:39",
+"ayahs": "3-8"
+},
+"J2": {
+"class": "MISPLACED",
+"evidence": "ما ودعك and وما قلى are 93:3, but the middle paragraph قوله ألم يجدك يتيما ... ووجدك ضالا ووجدك عائلا parses 93:6-8 (two objects of يجد). Entry covers 3 and 6-8.",
+"at": "2026-10-17 00:39",
+"ayahs": "3-8"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+},
+"mekki-muskil:11-11": {
+"hs": [
+"ab7ea52160aa",
+"a21d9f0624b2",
+"c7975a049918"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "MISPLACED",
+"evidence": "«وأما بنعمة ربك فحدث الباء متعلقة بحدث» is 93:11; «ولسوف يعطيك ربك المفعول الثاني محذوف ... يعطيك ما تريد فترضى» is 93:5 (وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَىٰٓ). Range 5-11.",
+"at": "2026-10-17 00:39",
+"ayahs": "5-11"
+},
+"J2": {
+"class": "MISPLACED",
+"evidence": "قوله وأما بنعمة ربك فحدث is 93:11, but قوله ولسوف يعطيك ربك المفعول الثاني محذوف is 93:5 (ولسوف يعطيك ربك فترضى). Entry covers 5 and 11.",
+"at": "2026-10-17 00:39",
+"ayahs": "5-11"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+}
+}

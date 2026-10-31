@@ -1,0 +1,11 @@
+{
+ "surah": 21,
+ "chunk": "95-112",
+ "verdicts": {
+  "OK": 77,
+  "SOURCE_MISPLACED": 2,
+  "GAP": 8
+ },
+ "summary": "All 13 books checked on 21:95-112: 4 high NEAR findings were false positives (cross-references); semantic sample OK for every book; low XREF/UNFOUND OK except nahhas-meani:112-112 which is the Surat al-Hajj introduction misplaced at 21:112; 8 books have coverage gaps recorded. No translation fixes needed.",
+ "at": "2026-10-10 15:03"
+}

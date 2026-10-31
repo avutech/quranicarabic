@@ -1,0 +1,43 @@
+{
+"farraa:8-8": {
+"hs": [
+"7ea77e00f38e",
+"8194bf6444e0",
+"708433364746"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "HUMAN",
+"evidence": "Poem فأبلونى بليتكُم لعلى * أصالحكم، واستدرجْ نَويَّا: TR 'yurduma [eski hâlime] dönerim' matches the lexicographers' gloss of استدرج نويّا as returning to where/what one was (رجع أدراجه), so it is plausible, but the sense of نويّ (destination vs companion) is disputed and needs scholarly judgement. Also TR has unmarked parenthetical additions '(hayırda) öne geçenler' for السابقين and '(fâsız cevabın mahalline)' for نوى الرد على لعلى, which a human should decide whether to move into a Mütercim notu.",
+"at": "2026-10-17 00:40"
+},
+"J1": {
+"class": "HUMAN",
+"evidence": "Verse 'فأبلونى بليتكم لعلى أصالحكم واستدرجْ نويّا': meaning of 'استدرج نويّا' is disputed (return to one's former abode/intent vs. draw back one's travelling companion). TR 'yurduma [eski hâlime] dönerim' and EN 'draw my distant company back' are both conjectural; needs scholarly judgement. Grammar explanation (jussive on the place of لعلّي's answer) is rendered correctly.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "HUMAN"
+},
+"en": {
+"votes": {
+"J2": {
+"class": "HUMAN",
+"evidence": "Poem واستدرجْ نَويَّا: EN 'draw my distant company [back] step by step' takes نويّ as companion and استدرج as drawing gradually; the common lexical gloss is 'return to where I was / my intended abode' (as TR), so EN may be wrong, but نويّ is ambiguous (companion/destination) and I cannot settle it with certainty. Rest of EN (نَصوحا/نُصوحا readings, أتمم لنا نورنا, jussive ويدخلْكم on the place of the فاء, فأصدق وأكن) is faithful.",
+"at": "2026-10-17 00:40"
+},
+"J1": {
+"class": "HUMAN",
+"evidence": "Verse 'فأبلونى بليتكم لعلى أصالحكم واستدرجْ نويّا': 'استدرج نويّا' is obscure (نويّ = travel companion / destination / intent); EN 'draw my distant company [back] step by step' cannot be verified against TR's 'return to my abode'. Needs scholarly judgement; rest of EN faithful.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "HUMAN"
+}
+}
+}
+}

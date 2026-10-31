@@ -1,0 +1,53 @@
+{
+"farraa:51-51": {
+"hs": [
+"3f0201a464da",
+"0dcaf62a88eb",
+"97130a0bb65b"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "For «ما دمت أشعرا», EN adds the unmarked gloss '[i.e. a coward]', an interpretation that is not in the Arabic and not in a Translator's note. Other unmarked additions: 'ṣifa, i.e. ẓarf' for «مذهب الصفة», '[the past verb]', '[with old age]'. Also «فكانتا كالاسمين فهما منصوبتان» is rendered 'yet they have fatḥa', but فـ means 'so', not 'yet'. These need marking or correcting.",
+"at": "2026-10-10 15:59"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "(1) For أشعرا in ما دمت أشعرا, EN adds '[i.e. a coward]', an interpretive gloss not in the Arabic and not inside a Translator's note. (2) 'على مذهب الصفة؛ لأنه صفة' is rendered 'an adverb (ṣifa, i.e. ẓarf)' with an unmarked explanatory addition. (3) The Quranic word الآن is transliterated 'The origin of al-āna was (أوان)' where the source has الآن in Arabic. Each of these needs a fix.",
+"at": "2026-10-10 15:59"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked bracketed transliteration [awān] after (أوان)",
+"verify_note": "(أوان) no longer has the bracketed [awān]; glosses (coward, Kufan ṣifa, past verb, old age) are inside Translator's notes; الآن in Arabic; 'so they are accusative' correct; complete and faithful.",
+"fix_failed": 1,
+"verified": "PASS"
+}
+},
+"history": [
+{
+"old_hs": [
+"3f0201a464da",
+"0dcaf62a88eb",
+"31ec54299535"
+],
+"dim": "en",
+"what": "Unmarked glosses ([i.e. a coward], ṣifa=ẓarf, [the past verb], [with old age]) moved into Translator's notes; ṣifa rendered as ṣifa; 'al-āna' -> الآن; 'yet they have fatḥa' -> 'so they are accusative'",
+"at": "2026-10-10 16:01"
+},
+{
+"old_hs": [
+"3f0201a464da",
+"0dcaf62a88eb",
+"ad7ed3f1b687"
+],
+"dim": "en",
+"what": "Removed unmarked bracketed transliteration [awān] after (أوان)",
+"at": "2026-10-10 16:03"
+}
+]
+}
+}

@@ -1,0 +1,56 @@
+{
+"mekki-muskil:37-37": {
+"hs": [
+"f61d83df8a7b",
+"ea0e3de06fc9",
+"786676e9e113"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "MISPLACED",
+"evidence": "First sentence {أذلة وهم صاغرون} حالان من المضمر في لنخرجنهم is 27:37 (correct). The long second paragraph on «التاء في {عفريت} زائدة ... جمعه عفاريت وعفار» concerns 27:39 «قال عفريت من الجن», a substantive morphological discussion of that ayah.",
+"at": "2026-10-17 00:39",
+"ayahs": "37-39"
+},
+"J2": {
+"class": "MISPLACED",
+"evidence": "First sentence {أَذِلَّة وهم صاغرون} حالان ... لنخرجنهم = 27:37; the long remainder «وَالتَّاء فِي {عفريت} زَائِدَة ... وَجمعه عفاريت وعفار» is about قَالَ عِفْرِيتٌ مِّنَ ٱلْجِنِّ = 27:39. Entry covers 37 and 39.",
+"at": "2026-10-17 00:39",
+"ayahs": "37-39"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+},
+"mekki-muskil:51-51": {
+"hs": [
+"96c97ee4ed0e",
+"1b54680851c1",
+"9dadf1d6d2b3"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "MISPLACED",
+"evidence": "Main discussion «فانظر كيف كان عاقبة مكرهم إنا دمرناهم» is 27:51 (correct). Final paragraph {إلا الله وما يشعرون}: «الرفع في اسم الله ... على البدل من من» parses 27:65 «لا يعلم من في السماوات والأرض الغيب إلا الله وما يشعرون», another ayah.",
+"at": "2026-10-17 00:39",
+"ayahs": "51-65"
+},
+"J2": {
+"class": "MISPLACED",
+"evidence": "Main paragraph فَانْظُر كَيفَ كَانَ عَاقِبَة مَكْرهمْ إِنَّا دمرناهم = 27:51; last line «قَوْله {إِلَّا الله وَمَا يَشْعُرُونَ} الرّفْع فِي اسْم الله ... على الْبَدَل من من» parses لَّا يَعْلَمُ مَن فِى ٱلسَّمَـٰوَٰتِ ... ٱلْغَيْبَ إِلَّا ٱللَّهُ ۚ وَمَا يَشْعُرُونَ = 27:65. Entry covers 51 and 65.",
+"at": "2026-10-17 00:39",
+"ayahs": "51-65"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+}
+}

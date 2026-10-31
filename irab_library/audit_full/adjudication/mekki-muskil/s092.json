@@ -1,0 +1,29 @@
+{
+"mekki-muskil:20-20": {
+"hs": [
+"e7df07271cbc",
+"d963a417f9f3",
+"124cb14a405d"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "MISPLACED",
+"evidence": "«إلا ابتغاء وجه ربه ... نصب على الاستثناء المنقطع» is 92:20; «قوله إن سعيكم هو جواب القسم» parses 92:4 (إِنَّ سَعْيَكُمْ لَشَتَّىٰ). Range must cover 4 and 20.",
+"at": "2026-10-17 00:39",
+"ayahs": "4-20"
+},
+"J2": {
+"class": "MISPLACED",
+"evidence": "قوله إلا ابتغاء وجه ربه ... بدل من موضع نعمة is on 92:20 (with 92:19), but قوله إن سعيكم هو جواب القسم comments on 92:4 (إن سعيكم لشتى). Entry covers 4 and 20.",
+"at": "2026-10-17 00:39",
+"ayahs": "4-20"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+}
+}

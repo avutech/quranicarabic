@@ -1,0 +1,136 @@
+{
+"dervis-irab:27-32": {
+"p1": {
+"ar": "67b4705e3d10",
+"tr": "67441b366c4d",
+"en": "a6e461a54ba7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u91",
+"at": "2026-10-10 19:40",
+"fixed": false
+},
+"p2": {
+"ar": "67b4705e3d10",
+"tr": "67441b366c4d",
+"en": "a6e461a54ba7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u5",
+"at": "2026-10-17 00:03",
+"fixed": false
+}
+},
+"dervis-irab:33-35": {
+"p1": {
+"ar": "2b3f3b79324b",
+"tr": "904fd445ff73",
+"en": "9444312379b7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u91",
+"at": "2026-10-10 19:40",
+"fixed": false
+}
+},
+"dervis-irab:1-5": {
+"p1": {
+"ar": "dc66d100f6f1",
+"tr": "b5057803dc36",
+"en": "e024d6027375",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u16",
+"at": "2026-10-17 00:06",
+"fixed": false
+},
+"p2": {
+"ar": "dc66d100f6f1",
+"tr": "b5057803dc36",
+"en": "e024d6027375",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN silently corrected source «عند إنذارهم» to \"from\" and «على سبيل المجازاة» to al-mujārāh; now translated as written with translator notes.",
+"by": "dervis-irab-p2-u36",
+"at": "2026-10-16 19:28",
+"fixed": true
+}
+},
+"dervis-irab:6-9": {
+"p1": {
+"ar": "71d791b0814a",
+"tr": "49cf5ce3bb60",
+"en": "878252297a1a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u91",
+"at": "2026-10-10 19:45",
+"fixed": false
+}
+},
+"dervis-irab:10-14": {
+"p1": {
+"ar": "1698dd256f40",
+"tr": "64155ebc8c59",
+"en": "ca7a31918201",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u2",
+"at": "2026-10-11 00:54",
+"fixed": false
+}
+},
+"dervis-irab:15-17": {
+"p1": {
+"ar": "be6670a50ead",
+"tr": "4e373ae95bef",
+"en": "602e7e983e7a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u16",
+"at": "2026-10-17 00:06",
+"fixed": false
+},
+"p2": {
+"ar": "be6670a50ead",
+"tr": "4e373ae95bef",
+"en": "602e7e983e7a",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN silently corrected source «معين اللطف»; added translator note.",
+"by": "dervis-irab-p2-u36",
+"at": "2026-10-16 19:28",
+"fixed": true
+}
+},
+"dervis-irab:18-26": {
+"p1": {
+"ar": "4b1250055ad9",
+"tr": "399406532634",
+"en": "f4299cd628f6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u2",
+"at": "2026-10-11 00:55",
+"fixed": false
+}
+}
+}

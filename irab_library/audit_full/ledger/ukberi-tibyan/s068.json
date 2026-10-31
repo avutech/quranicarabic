@@ -1,0 +1,154 @@
+{
+"ukberi-tibyan:1-1": {
+"p1": {
+"ar": "fe19c7d9b088",
+"tr": "47ddd117766c",
+"en": "532fe3f94053",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:00",
+"fixed": false
+}
+},
+"ukberi-tibyan:6-6": {
+"p1": {
+"ar": "637f9da0255f",
+"tr": "b7f74a0fc5b0",
+"en": "cdfa67023aec",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:00",
+"fixed": false
+}
+},
+"ukberi-tibyan:9-9": {
+"p1": {
+"ar": "1fb302411c01",
+"tr": "0944241eab8c",
+"en": "2d755a6ba659",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:00",
+"fixed": false
+}
+},
+"ukberi-tibyan:14-15": {
+"p1": {
+"ar": "fe6f2e3b1440",
+"tr": "a40a4e916903",
+"en": "59e433a87494",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:00",
+"fixed": false
+}
+},
+"ukberi-tibyan:17-17": {
+"p1": {
+"ar": "a4416bc361b2",
+"tr": "d94886a89f55",
+"en": "bf9e8ae18fa6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:00",
+"fixed": false
+}
+},
+"ukberi-tibyan:25-25": {
+"p1": {
+"ar": "b3027ea0a09c",
+"tr": "b2f0e0f5a97e",
+"en": "3c1839d86761",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:00",
+"fixed": false
+}
+},
+"ukberi-tibyan:34-34": {
+"p1": {
+"ar": "131a28b9d1e9",
+"tr": "3654761cd9fb",
+"en": "cc9f66b2b388",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:00",
+"fixed": false
+}
+},
+"ukberi-tibyan:39-39": {
+"p1": {
+"ar": "0d3a5cf14f34",
+"tr": "91d3a85e0dc0",
+"en": "32168dc9b64d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:00",
+"fixed": false
+}
+},
+"ukberi-tibyan:42-43": {
+"p1": {
+"ar": "704a643b3ac0",
+"tr": "370ab7887d17",
+"en": "bbd2e0b0d4c5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-p1-u3",
+"at": "2026-10-17 00:03",
+"fixed": false
+},
+"p2": {
+"ar": "704a643b3ac0",
+"tr": "370ab7887d17",
+"en": "bbd2e0b0d4c5",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "The quoted ayah in both readings had active وَيَدْعُونَ / يَدْعُونَ where the Arabic quotation has passive وَيُدْعَوْنَ / يُدْعَوْنَ (twice); restored to the source wording (the commentary line keeps the source spelling with its note).",
+"by": "ukberi-tibyan-p2-u6",
+"at": "2026-10-16 18:25",
+"fixed": true
+}
+},
+"ukberi-tibyan:44-44": {
+"p1": {
+"ar": "7d59eb8bd8dc",
+"tr": "e26afc9b1af7",
+"en": "71b07726a393",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:00",
+"fixed": false
+}
+}
+}

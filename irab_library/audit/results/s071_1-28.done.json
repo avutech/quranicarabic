@@ -1,0 +1,11 @@
+{
+ "surah": 71,
+ "chunk": "1-28",
+ "verdicts": {
+  "OK": 89,
+  "SOURCE_DEFECT": 1,
+  "GAP": 7
+ },
+ "summary": "Surah 71 ayahs 1-28: all 7 high/medium findings, 6 low findings and the SEM sample of all 13 books recorded. All findings were false positives (back-references to 71:21, orthography, translator-note length). One minor source defect: mekki-muskil:6-6 also comments on 71:7 (noted in TR/EN). GAPs recorded for 7 books where the source does not comment.",
+ "at": "2026-10-10 15:15"
+}

@@ -1,0 +1,27 @@
+{
+"ukberi-tibyan:30-30": {
+"hs": [
+"facaf0e35231",
+"537099ff1171",
+"3e1c85b4ba0e"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Arabic: وَزَعَمَ بَعْضُهُمْ أَنَّهَا أَفَادَتْ مَا لَمْ تُفِدْهُ «كُلُّهُمْ». EN reads: 'Some claimed that it conveys what «كُلُّهُمْ» did not convey' — the negation is present and correct; the reviewer's claim of 'did convey' does not match the actual EN text. Rest of EN (tawkīd thānin, ḥāl lā tawkīd, إِلَّا إِبْلِيسَ in al-Baqara, 35) is faithful and the verse-29 merge is marked in a Translator's note.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Claim is false: EN reads 'it conveys what «كُلُّهُمْ» did not convey', correctly rendering أَفَادَتْ مَا لَمْ تُفِدْهُ «كُلُّهُمْ»; negation preserved. Rest of EN matches the Arabic, and the 29/30 merge is in a marked Translator's note.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

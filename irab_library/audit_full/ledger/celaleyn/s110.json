@@ -1,0 +1,68 @@
+{
+"celaleyn:1-1": {
+"p1": {
+"ar": "549ee3d88294",
+"tr": "2c197de8b18f",
+"en": "94f3a7c69ee5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u16",
+"at": "2026-10-10 15:51",
+"fixed": false
+},
+"p2": {
+"ar": "549ee3d88294",
+"tr": "2c197de8b18f",
+"en": "94f3a7c69ee5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-p2-u3",
+"at": "2026-10-16 19:07",
+"fixed": false
+}
+},
+"celaleyn:2-2": {
+"p1": {
+"ar": "92b393f2bda9",
+"tr": "a464d6be6ad0",
+"en": "1fbc47cfc903",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-u16",
+"at": "2026-10-10 15:51",
+"fixed": false
+}
+},
+"celaleyn:3-3": {
+"p1": {
+"ar": "986ce03ab495",
+"tr": "882c74d0ceff",
+"en": "c610aab638ce",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN said he knew instead of it was known/understood (passive عُلِمَ); also added the marked note on the source year ten matching the TR note.",
+"by": "celaleyn-u16",
+"at": "2026-10-10 15:51",
+"fixed": true
+},
+"p2": {
+"ar": "986ce03ab495",
+"tr": "882c74d0ceff",
+"en": "c610aab638ce",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "celaleyn-p2-u3",
+"at": "2026-10-16 19:07",
+"fixed": false
+}
+}
+}

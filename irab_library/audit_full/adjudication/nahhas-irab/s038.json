@@ -1,0 +1,145 @@
+{
+"nahhas-irab:46-46": {
+"hs": [
+"195461a8621c",
+"4c624bdf60b4",
+"13079e7d9182"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic 'وقراءة الكوفيين بِخالِصَةٍ ذِكْرَى الدَّارِ على البدل' says nothing about tanwin, yet Turkish inserts unmarked '(tenvinle)' - an addition outside a Mütercim notu. Also 'ولا التعمّل لأهلها' (taking pains / affected effort for its people) is rendered 'gösteriş yapmayı' (showing off), which narrows/shifts the meaning of التعمّل. Needs fix.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "HUMAN",
+"evidence": "Source: 'ولا التعمّل لأهلها'. التعمّل is takalluf / taking pains, affected effort (English: 'affected effort for its people'). Turkish 'dünya ehli için gösteriş yapmayı' (showing off) narrows it to riyā'; close in intent (affected effort aimed at worldly people) but not the literal sense. Whether 'gösteriş' is an acceptable rendering of التعمّل needs a lexical/scholarly call; rest of the Turkish reading is faithful.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "HUMAN"
+}
+}
+},
+"nahhas-irab:52-52": {
+"hs": [
+"f527f9e82db7",
+"2d4abe832555",
+"7907194eea85"
+],
+"dims": {
+"fit": {
+"votes": {
+"J2": {
+"class": "MISPLACED",
+"evidence": "Only the first sentence 'نعت لقاصرات لأن قاصرات نكرة' + poem concerns 38:52 (أتراب). The rest - 'وزعم الفراء أن المعنى مفتّحة لهم أبوابها ... وإنما المعنى: مفتّحة لهم الأبواب منها' - is the Farrāʾ/Zajjāj argument about 38:50 'مُفَتَّحَةً لَهُمُ الْأَبْوابُ', continuing the 49-50 entry (which discusses Farrāʾ on مفتحة الأبواب). Entry substantively covers 50 and 52.",
+"at": "2026-10-17 00:39",
+"ayahs": "50-52"
+},
+"J1": {
+"class": "MISPLACED",
+"evidence": "Entry begins with أتراب as نعت لقاصرات (38:52: قاصرات الطرف أتراب), but then substantively discusses Farrā' 'المعنى مفتّحة لهم أبوابها' and Zajjāj's reply 'وإنما المعنى: مفتّحة لهم الأبواب منها' — this is the i'rab of 38:50 'مُفَتَّحَةً لَهُمُ الْأَبْوابُ'. The entry is about 50 and 52, so the range should cover 50-52.",
+"at": "2026-10-17 00:40",
+"ayahs": "50-52"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+},
+"nahhas-irab:63-63": {
+"hs": [
+"52d88eb02b1e",
+"92950925c0c9",
+"1bba765dc012"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic 'فكيف يستفهمون فالا وقد تقدم الاستفهام': Turkish 'o hâlde nasıl soru sorarlar? Kaldı ki istifhâm daha önce geçmiştir' silently drops the (garbled) word 'فالا' with no Mütercim notu; omission.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source: 'فكيف يستفهمون فالا وقد تقدم الاستفهام'. Turkish 'o hâlde nasıl soru sorarlar? Kaldı ki istifhâm daha önce geçmiştir' silently drops/resolves the garbled word فالا (likely قالا 'both said') with no Mütercim notu; English flags it. Also Turkish renders source 'نعتا للرجال' as '«رجالا»nın na'ti', silently changing the source word without a note.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked additions: '(سُخريّا)' moved into a Mütercim notu, '(bu durumda)' dropped; hemzenin fethasıyla already absent; فالا note kept",
+"verify_note": "Unmarked '(hemzenin fethasiyla)' removed; فالا kept with Mütercim notu; all sentences rendered faithfully, additions only inside notes.",
+"fix_failed": 1,
+"verified": "PASS"
+}
+},
+"history": [
+{
+"old_hs": [
+"52d88eb02b1e",
+"40088168279d",
+"d80f9f8e0bd8"
+],
+"dim": "tr",
+"what": "Restored garbled فالا with Mütercim notu; «رجالا» -> source «الرجال»",
+"at": "2026-10-17 00:44"
+},
+{
+"old_hs": [
+"52d88eb02b1e",
+"c171a8f185cf",
+"d80f9f8e0bd8"
+],
+"dim": "tr",
+"what": "Removed unmarked additions: '(سُخريّا)' moved into a Mütercim notu, '(bu durumda)' dropped; hemzenin fethasıyla already absent; فالا note kept",
+"at": "2026-10-17 00:47"
+}
+]
+},
+"nahhas-irab:65-65": {
+"hs": [
+"0ae0f9751227",
+"82bf104c9631",
+"7878523d06c8"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source prints 'وكفّت «ما» «أن» عن العمل'; Turkish writes '«ما», «إنّ»yi amel etmekten alıkoymuştur', silently correcting «أن» to «إنّ» without a Mütercim notu (source must not be silently corrected).",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source writes 'وكفّت «ما» «أن» عن العمل'; Turkish prints '«ما», «إنّ»yi amel etmekten alıkoymuştur', silently correcting «أن» to «إنّ» without a Mütercim notu (English marks it 'so in the source'). Silent correction of the source is an error; fix by keeping «أن» with a note.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Kept source «أن» (was silently «إنّ») with Mütercim notu",
+"verified": "PASS",
+"verify_note": "Now keeps the source's «أن» with a Mütercim notu that the verse has «إنّ»; rest (mübtedâ/haber, من zâide, Ebû İshâk on nasb) complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"0ae0f9751227",
+"1be6aacfa7c1",
+"7878523d06c8"
+],
+"dim": "tr",
+"what": "Kept source «أن» (was silently «إنّ») with Mütercim notu",
+"at": "2026-10-17 00:44"
+}
+]
+}
+}

@@ -1,0 +1,42 @@
+{
+"nahhas-irab:43-43": {
+"hs": [
+"e5cd8c0929ca",
+"c387a812cf3a",
+"51ca0c5e37e3"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic has bare «قال: وهذا على التوقيف» with no named speaker. Turkish writes '(Ebû İshâk) şöyle dedi', identifying the speaker without a [Mütercim notu: ...]; English correctly keeps 'He said'. Unmarked addition/attribution not in the source.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic has bare 'قال: وهذا على التوقيف' with no named speaker. TR writes '(Ebû İshâk) şöyle dedi' - identifying the speaker is an addition not in the Arabic and not in a Mütercim notu (EN correctly has 'He said').",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked '(Ebû İshâk)' attribution; bare قال rendered 'Şöyle dedi' with a Mütercim notu on the likely speaker",
+"verified": "PASS",
+"verify_note": "Speaker now rendered as bare 'Şöyle dedi' with the Ebû İshâk conjecture inside a Mütercim notu; rest faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"e5cd8c0929ca",
+"4d6d438bf67f",
+"51ca0c5e37e3"
+],
+"dim": "tr",
+"what": "Removed unmarked '(Ebû İshâk)' attribution; bare قال rendered 'Şöyle dedi' with a Mütercim notu on the likely speaker",
+"at": "2026-10-17 00:45"
+}
+]
+}
+}

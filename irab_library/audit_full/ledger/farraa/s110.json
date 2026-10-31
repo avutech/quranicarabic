@@ -1,0 +1,42 @@
+{
+"farraa:1-2": {
+"p1": {
+"ar": "6a003141031c",
+"tr": "dc9f9c3f054e",
+"en": "8021471034f4",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR used the emended reading وقبل ذلك (ondan once) without the translator note that EN has; added.",
+"by": "farraa-u22",
+"at": "2026-10-10 15:53",
+"fixed": true
+},
+"p2": {
+"ar": "6a003141031c",
+"tr": "dc9f9c3f054e",
+"en": "8021471034f4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u6",
+"at": "2026-10-11 03:51",
+"fixed": false
+}
+},
+"farraa:3-3": {
+"p1": {
+"ar": "70648759aa2e",
+"tr": "601cc8e9b413",
+"en": "6922b2e0c129",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:53",
+"fixed": false
+}
+}
+}

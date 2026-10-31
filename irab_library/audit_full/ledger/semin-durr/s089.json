@@ -1,0 +1,302 @@
+{
+"semin-durr:16-16": {
+"p1": {
+"ar": "884825a4f073",
+"tr": "ff262e219306",
+"en": "1df1eb6da84e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:31",
+"fixed": false
+}
+},
+"semin-durr:17-17": {
+"p1": {
+"ar": "bbed3e2c8676",
+"tr": "6ebee6241797",
+"en": "6c2b70dc1178",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:32",
+"fixed": false
+}
+},
+"semin-durr:18-18": {
+"p1": {
+"ar": "c218c1827590",
+"tr": "8e0d2391623f",
+"en": "dac4a89f5741",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:31",
+"fixed": false
+}
+},
+"semin-durr:21-21": {
+"p1": {
+"ar": "177e2b4f73d6",
+"tr": "1784364ecad9",
+"en": "109e02a2f79e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:31",
+"fixed": false
+}
+},
+"semin-durr:23-23": {
+"p1": {
+"ar": "22c28942342f",
+"tr": "7d304360548e",
+"en": "b762fb04f7ab",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:31",
+"fixed": false
+},
+"p2": {
+"ar": "22c28942342f",
+"tr": "7d304360548e",
+"en": "b762fb04f7ab",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u20",
+"at": "2026-10-17 00:07",
+"fixed": false
+}
+},
+"semin-durr:25-25": {
+"p1": {
+"ar": "1163243afcbe",
+"tr": "f3f3583256e5",
+"en": "664ea57858c6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:31",
+"fixed": false
+}
+},
+"semin-durr:27-27": {
+"p1": {
+"ar": "b39d0f49e905",
+"tr": "78f4c2f6f6a8",
+"en": "959fb5a18dbc",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:31",
+"fixed": false
+}
+},
+"semin-durr:29-29": {
+"p1": {
+"ar": "9cc5f0a04ab0",
+"tr": "483351c6db06",
+"en": "80edc0389864",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:31",
+"fixed": false
+}
+},
+"semin-durr:1-1": {
+"p1": {
+"ar": "eb432b1fb6eb",
+"tr": "ce19a9d94a99",
+"en": "72d7939bf3a8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:59",
+"fixed": false
+}
+},
+"semin-durr:2-2": {
+"p1": {
+"ar": "ed633b38404d",
+"tr": "40988960686c",
+"en": "f54d0ab7de40",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:59",
+"fixed": false
+}
+},
+"semin-durr:3-3": {
+"p1": {
+"ar": "77fc5b433d3d",
+"tr": "8f3aaa47fe00",
+"en": "f5e8e9140a6f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:59",
+"fixed": false
+}
+},
+"semin-durr:5-5": {
+"p1": {
+"ar": "2058bc5945b5",
+"tr": "78a98b7c1369",
+"en": "65c7d11dca16",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:59",
+"fixed": false
+}
+},
+"semin-durr:6-6": {
+"p1": {
+"ar": "bb13773f2399",
+"tr": "6f0a5803b57f",
+"en": "e55f4d174c58",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p1-u10",
+"at": "2026-10-17 00:20",
+"fixed": false
+},
+"p2": {
+"ar": "bb13773f2399",
+"tr": "6f0a5803b57f",
+"en": "e55f4d174c58",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN verse 4561 \"أدرك عاداً وساماً قبله إرما\" misgrouped Sām under \"before him\"; unmarked identifications [Abū Ḥayyān] and [al-Ḍaḥḥāk] moved into translator notes; \"أرمه غيره\" garbled transliteration replaced.",
+"by": "semin-durr-p2-u20",
+"at": "2026-10-17 00:07",
+"fixed": true
+}
+},
+"semin-durr:8-8": {
+"p1": {
+"ar": "271cb9777ba0",
+"tr": "68597730491b",
+"en": "c0365ca9bbb8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:59",
+"fixed": false
+}
+},
+"semin-durr:9-9": {
+"p1": {
+"ar": "e40adad0e747",
+"tr": "c029e3d2c7e1",
+"en": "b6d649628d91",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:59",
+"fixed": false
+},
+"p2": {
+"ar": "e40adad0e747",
+"tr": "c029e3d2c7e1",
+"en": "b6d649628d91",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u20",
+"at": "2026-10-17 00:07",
+"fixed": false
+}
+},
+"semin-durr:11-11": {
+"p1": {
+"ar": "030569157fd9",
+"tr": "5f00210889a1",
+"en": "9f1f7ea4ac4c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:59",
+"fixed": false
+}
+},
+"semin-durr:14-14": {
+"p1": {
+"ar": "f2f9d5263c7e",
+"tr": "80a5db8058a1",
+"en": "e5b93478cee7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:59",
+"fixed": false
+}
+},
+"semin-durr:15-15": {
+"p1": {
+"ar": "8841369c2a71",
+"tr": "877d42da646e",
+"en": "063c185aec8d",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish added '(bunu açıklıyor)' after the question 'how was this clause conjoined', not in the Arabic; removed",
+"by": "semin-durr-u33",
+"at": "2026-10-11 02:59",
+"fixed": true
+},
+"p2": {
+"ar": "8841369c2a71",
+"tr": "877d42da646e",
+"en": "063c185aec8d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "semin-durr-p2-u20",
+"at": "2026-10-17 00:07",
+"fixed": false
+}
+}
+}

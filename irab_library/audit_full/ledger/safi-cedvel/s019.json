@@ -1,0 +1,856 @@
+{
+"safi-cedvel:1-3": {
+"p1": {
+"ar": "401db1e3f3ba",
+"tr": "8ac5381df3a6",
+"en": "5db45a293321",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u54",
+"at": "2026-10-10 19:30",
+"fixed": false
+},
+"p2": {
+"ar": "401db1e3f3ba",
+"tr": "8ac5381df3a6",
+"en": "5db45a293321",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u20",
+"at": "2026-10-16 19:05",
+"fixed": false
+}
+},
+"safi-cedvel:4-6": {
+"p1": {
+"ar": "3254524e1d68",
+"tr": "1e26d242af29",
+"en": "6da81dcb7cf6",
+"fit": "OK",
+"trv": "ADDITION",
+"env": "ADDITION",
+"note": "Both add unmarked translations of the poem verses (e.g. after وكنت جلاء للعيون..., يا نسيب التغام...) outside translator notes; EN also adds \"grave\" to طيب الله ثرى شوقي.",
+"by": "safi-cedvel-u54",
+"at": "2026-10-10 19:30",
+"fixed": false
+},
+"p2": {
+"ar": "3254524e1d68",
+"tr": "1e26d242af29",
+"en": "6da81dcb7cf6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u20",
+"at": "2026-10-16 19:05",
+"fixed": false
+}
+},
+"safi-cedvel:7-7": {
+"p1": {
+"ar": "ff33e27dce66",
+"tr": "9959aa27d451",
+"en": "f8ce1c83d04f",
+"fit": "OK",
+"trv": "OK",
+"env": "ADDITION",
+"note": "EN Benefits: unmarked gloss \"(I named him ʿAlī)\" after سمّيته عليّا is not in the Arabic.",
+"by": "safi-cedvel-u54",
+"at": "2026-10-10 19:30",
+"fixed": false
+},
+"p2": {
+"ar": "ff33e27dce66",
+"tr": "9959aa27d451",
+"en": "f8ce1c83d04f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u20",
+"at": "2026-10-16 19:05",
+"fixed": false
+}
+},
+"safi-cedvel:8-8": {
+"p1": {
+"ar": "76ca38a61ec8",
+"tr": "4e01be0751e5",
+"en": "69f598327692",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u54",
+"at": "2026-10-10 19:30",
+"fixed": false
+}
+},
+"safi-cedvel:9-9": {
+"p1": {
+"ar": "3787f7755807",
+"tr": "339729ec4753",
+"en": "4f884440d140",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u54",
+"at": "2026-10-10 19:30",
+"fixed": false
+}
+},
+"safi-cedvel:10-11": {
+"p1": {
+"ar": "2b6fe70fe3ce",
+"tr": "4596b6df3d28",
+"en": "64e3a855e028",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u54",
+"at": "2026-10-10 19:30",
+"fixed": false
+}
+},
+"safi-cedvel:12-15": {
+"p1": {
+"ar": "2412faa2f323",
+"tr": "d242c6fdce48",
+"en": "f85784453d89",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u54",
+"at": "2026-10-10 19:31",
+"fixed": false
+},
+"p2": {
+"ar": "2412faa2f323",
+"tr": "d242c6fdce48",
+"en": "f85784453d89",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u20",
+"at": "2026-10-16 19:05",
+"fixed": false
+}
+},
+"safi-cedvel:16-17": {
+"p1": {
+"ar": "35f69fa854e4",
+"tr": "e3a6148aa345",
+"en": "5fea808f6372",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u54",
+"at": "2026-10-10 19:30",
+"fixed": false
+}
+},
+"safi-cedvel:18-18": {
+"p1": {
+"ar": "872b4337ae45",
+"tr": "ddb2c5952f26",
+"en": "b3eb24cc067f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u54",
+"at": "2026-10-10 19:30",
+"fixed": false
+}
+},
+"safi-cedvel:49-50": {
+"p1": {
+"ar": "7007bf10e3f6",
+"tr": "45d702100ec4",
+"en": "d686856cf631",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u55",
+"at": "2026-10-10 19:30",
+"fixed": false
+}
+},
+"safi-cedvel:51-53": {
+"p1": {
+"ar": "dcaa6694b031",
+"tr": "d07820e99e6e",
+"en": "123ba0fb6dc9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u55",
+"at": "2026-10-10 19:30",
+"fixed": false
+}
+},
+"safi-cedvel:54-55": {
+"p1": {
+"ar": "af69daa583bd",
+"tr": "3ddc6b82b5be",
+"en": "46188ef297e4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u55",
+"at": "2026-10-10 19:30",
+"fixed": false
+}
+},
+"safi-cedvel:56-57": {
+"p1": {
+"ar": "d9adb3ed8d32",
+"tr": "a7fc47c26234",
+"en": "b1376a607060",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u55",
+"at": "2026-10-10 19:30",
+"fixed": false
+}
+},
+"safi-cedvel:58-58": {
+"p1": {
+"ar": "4c07e2dde974",
+"tr": "450d6c1b13ac",
+"en": "e17234aeadae",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u55",
+"at": "2026-10-10 19:30",
+"fixed": false
+}
+},
+"safi-cedvel:59-62": {
+"p1": {
+"ar": "b8386995fae3",
+"tr": "8bca6eac5f67",
+"en": "e02a80af8189",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u55",
+"at": "2026-10-10 19:30",
+"fixed": false
+}
+},
+"safi-cedvel:63-63": {
+"p1": {
+"ar": "45c116c3222f",
+"tr": "7db21edb8466",
+"en": "f19b6e67cab2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u55",
+"at": "2026-10-10 19:30",
+"fixed": false
+},
+"p2": {
+"ar": "45c116c3222f",
+"tr": "7db21edb8466",
+"en": "f19b6e67cab2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u20",
+"at": "2026-10-16 19:06",
+"fixed": false
+}
+},
+"safi-cedvel:64-65": {
+"p1": {
+"ar": "e55329b10447",
+"tr": "712d67d90380",
+"en": "2869d3e005fe",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u55",
+"at": "2026-10-10 19:31",
+"fixed": false
+}
+},
+"safi-cedvel:66-67": {
+"p1": {
+"ar": "2274fc406459",
+"tr": "1da7efa2311b",
+"en": "f8a606223921",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u55",
+"at": "2026-10-10 19:30",
+"fixed": false
+}
+},
+"safi-cedvel:68-70": {
+"p1": {
+"ar": "827f2b75c429",
+"tr": "25696c7c19c2",
+"en": "560a15bd8c68",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p1-u6",
+"at": "2026-10-17 00:04",
+"fixed": false
+},
+"p2": {
+"ar": "827f2b75c429",
+"tr": "25696c7c19c2",
+"en": "560a15bd8c68",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN rendered al-Kisaai «أي كذا خلقت» ... «أي هكذا وضعت» as \"thus I was set up\" (wrong subject: it is the word أيّ that was coined thus); corrected.",
+"by": "safi-cedvel-p2-u20",
+"at": "2026-10-16 19:06",
+"fixed": true
+}
+},
+"safi-cedvel:71-72": {
+"p1": {
+"ar": "4cc35d8efaa0",
+"tr": "e9855879f5eb",
+"en": "70c4c6378f97",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u55",
+"at": "2026-10-10 19:31",
+"fixed": false
+},
+"p2": {
+"ar": "4cc35d8efaa0",
+"tr": "e9855879f5eb",
+"en": "70c4c6378f97",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u20",
+"at": "2026-10-16 19:06",
+"fixed": false
+}
+},
+"safi-cedvel:73-73": {
+"p1": {
+"ar": "ab1713eca5eb",
+"tr": "46928a9600d7",
+"en": "a50e55f1d968",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u55",
+"at": "2026-10-10 19:31",
+"fixed": false
+}
+},
+"safi-cedvel:74-74": {
+"p1": {
+"ar": "9de8a064bfa2",
+"tr": "5a47c0b06dd8",
+"en": "1c58ea6660c6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u55",
+"at": "2026-10-10 19:31",
+"fixed": false
+}
+},
+"safi-cedvel:75-75": {
+"p1": {
+"ar": "2cde4c01a522",
+"tr": "0b0b5a9ca7a2",
+"en": "51ffc57aaa4a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u55",
+"at": "2026-10-10 19:31",
+"fixed": false
+}
+},
+"safi-cedvel:76-76": {
+"p1": {
+"ar": "9adf0c10654c",
+"tr": "385bff5e1675",
+"en": "78ab45e0a7f3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u55",
+"at": "2026-10-10 19:31",
+"fixed": false
+}
+},
+"safi-cedvel:77-80": {
+"p1": {
+"ar": "b84d6a720151",
+"tr": "f83c1e098073",
+"en": "e90657e36185",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u55",
+"at": "2026-10-10 19:31",
+"fixed": false
+}
+},
+"safi-cedvel:81-82": {
+"p1": {
+"ar": "0f2b8da1512d",
+"tr": "34a073d3a51c",
+"en": "1a01eeb770c3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u55",
+"at": "2026-10-10 19:31",
+"fixed": false
+}
+},
+"safi-cedvel:83-87": {
+"p1": {
+"ar": "9b730b86fc11",
+"tr": "254cd3f478d5",
+"en": "06a333a680a0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u55",
+"at": "2026-10-10 19:31",
+"fixed": false
+}
+},
+"safi-cedvel:88-91": {
+"p1": {
+"ar": "757b29c2b1a5",
+"tr": "47d20ded6eb3",
+"en": "48cccc2f4a59",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u55",
+"at": "2026-10-10 19:31",
+"fixed": false
+}
+},
+"safi-cedvel:19-19": {
+"p1": {
+"ar": "77404943aeed",
+"tr": "4339f959c219",
+"en": "145ea3e22612",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u54",
+"at": "2026-10-10 19:31",
+"fixed": false
+}
+},
+"safi-cedvel:20-20": {
+"p1": {
+"ar": "0eb971bcdfc2",
+"tr": "907ea3e3bef9",
+"en": "0da14b1f0e7c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u54",
+"at": "2026-10-10 19:31",
+"fixed": false
+}
+},
+"safi-cedvel:21-21": {
+"p1": {
+"ar": "a8d4d6ce3c2b",
+"tr": "bf63633f40a1",
+"en": "4091a17c76de",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u54",
+"at": "2026-10-10 19:31",
+"fixed": false
+}
+},
+"safi-cedvel:22-26": {
+"p1": {
+"ar": "7989cc4c46b6",
+"tr": "b2cd5d0b7525",
+"en": "3cee56d78acc",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR: (رطبا) rendered اسم جمع as \"ism-i cins-i cem'î\", changed to \"ism-i cem'\". EN: source typo قربيّ was silently given as قرّبي; added translator note.",
+"by": "safi-cedvel-u54",
+"at": "2026-10-10 19:31",
+"fixed": true
+},
+"p2": {
+"ar": "7989cc4c46b6",
+"tr": "b2cd5d0b7525",
+"en": "3cee56d78acc",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u20",
+"at": "2026-10-16 19:05",
+"fixed": false
+}
+},
+"safi-cedvel:27-28": {
+"p1": {
+"ar": "6fce95c16800",
+"tr": "827d7c786add",
+"en": "1823d98cab84",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u54",
+"at": "2026-10-10 19:31",
+"fixed": false
+}
+},
+"safi-cedvel:29-29": {
+"p1": {
+"ar": "9a1f8f32853b",
+"tr": "cc49c4394ae6",
+"en": "b8467a15c9a3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u54",
+"at": "2026-10-10 19:31",
+"fixed": false
+}
+},
+"safi-cedvel:92-93": {
+"p1": {
+"ar": "372c7ff613e4",
+"tr": "525adae351bc",
+"en": "d99530e78de2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u55",
+"at": "2026-10-10 19:31",
+"fixed": false
+}
+},
+"safi-cedvel:94-95": {
+"p1": {
+"ar": "bca107cfb6e9",
+"tr": "f31d14314f6b",
+"en": "72e74ddbf8f0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u55",
+"at": "2026-10-10 19:31",
+"fixed": false
+}
+},
+"safi-cedvel:96-96": {
+"p1": {
+"ar": "1336eb814517",
+"tr": "ec0cfd2afb97",
+"en": "cb2e5ab5a18e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u55",
+"at": "2026-10-10 19:31",
+"fixed": false
+},
+"p2": {
+"ar": "1336eb814517",
+"tr": "ec0cfd2afb97",
+"en": "cb2e5ab5a18e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u20",
+"at": "2026-10-16 19:06",
+"fixed": false
+}
+},
+"safi-cedvel:97-97": {
+"p1": {
+"ar": "707302b82900",
+"tr": "c9ad24de3e12",
+"en": "bea1687454ea",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u55",
+"at": "2026-10-10 19:31",
+"fixed": false
+},
+"p2": {
+"ar": "707302b82900",
+"tr": "c9ad24de3e12",
+"en": "bea1687454ea",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u20",
+"at": "2026-10-16 19:06",
+"fixed": false
+}
+},
+"safi-cedvel:98-98": {
+"p1": {
+"ar": "f753caaaed95",
+"tr": "0ae1ba719f30",
+"en": "98d55ba2a4a0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u55",
+"at": "2026-10-10 19:31",
+"fixed": false
+}
+},
+"safi-cedvel:30-33": {
+"p1": {
+"ar": "d423f63a1b11",
+"tr": "8fff4d982aea",
+"en": "1d9b48dee853",
+"fit": "OK",
+"trv": "ADDITION",
+"env": "ADDITION",
+"note": "TR Fevaid: unmarked translation of the poem line يخاطبني السفيه... added in parentheses (EN has the same).",
+"by": "safi-cedvel-u54",
+"at": "2026-10-10 19:31",
+"fixed": false
+},
+"p2": {
+"ar": "d423f63a1b11",
+"tr": "8fff4d982aea",
+"en": "1d9b48dee853",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u20",
+"at": "2026-10-16 19:05",
+"fixed": false
+}
+},
+"safi-cedvel:34-34": {
+"p1": {
+"ar": "197300910d99",
+"tr": "bd1c89f75fd5",
+"en": "72686f140ae1",
+"fit": "OK",
+"trv": "OK",
+"env": "ADDITION",
+"note": "EN Benefits: unmarked glosses added: ابن مخاض (a camel in its second year), ابن لبون (a camel in its third year), ابن عرس (weasel), (the wayfarer), (the man of war), (the worldly man) are not in the Arabic.",
+"by": "safi-cedvel-u54",
+"at": "2026-10-10 19:31",
+"fixed": false
+},
+"p2": {
+"ar": "197300910d99",
+"tr": "bd1c89f75fd5",
+"en": "72686f140ae1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u20",
+"at": "2026-10-16 19:05",
+"fixed": false
+}
+},
+"safi-cedvel:35-35": {
+"p1": {
+"ar": "12458c3da5e2",
+"tr": "f103663fbb15",
+"en": "58b618f7dc6b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u54",
+"at": "2026-10-10 19:31",
+"fixed": false
+},
+"p2": {
+"ar": "12458c3da5e2",
+"tr": "f103663fbb15",
+"en": "58b618f7dc6b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u20",
+"at": "2026-10-16 19:05",
+"fixed": false
+}
+},
+"safi-cedvel:36-36": {
+"p1": {
+"ar": "e22d569e1773",
+"tr": "5bc0c89b4729",
+"en": "217e7d828adc",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u54",
+"at": "2026-10-10 19:31",
+"fixed": false
+}
+},
+"safi-cedvel:37-37": {
+"p1": {
+"ar": "5c1d1d747c6f",
+"tr": "7347b988f268",
+"en": "a67303951263",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u54",
+"at": "2026-10-10 19:31",
+"fixed": false
+}
+},
+"safi-cedvel:38-39": {
+"p1": {
+"ar": "18aa581c9475",
+"tr": "60a327318bbe",
+"en": "c072b35fc958",
+"fit": "OK",
+"trv": "ADDITION",
+"env": "ADDITION",
+"note": "Both add an unmarked translation of the poem line فما رجعت بخائبة ركاب...; EN also adds unmarked glosses such as (how good ʿUmar is!), (a dirham suffices you), (Zayd is not standing), (I saw Khalid himself), (an unchaste woman). Otherwise complete and faithful.",
+"by": "safi-cedvel-u54",
+"at": "2026-10-10 19:32",
+"fixed": false
+},
+"p2": {
+"ar": "18aa581c9475",
+"tr": "60a327318bbe",
+"en": "c072b35fc958",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u20",
+"at": "2026-10-16 19:06",
+"fixed": false
+}
+},
+"safi-cedvel:40-40": {
+"p1": {
+"ar": "e759964a1183",
+"tr": "49a8475dc0b0",
+"en": "9f159749ee7e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u54",
+"at": "2026-10-10 19:31",
+"fixed": false
+}
+},
+"safi-cedvel:41-45": {
+"p1": {
+"ar": "0f8b4a682f5f",
+"tr": "277283a304d5",
+"en": "17dab0c9d04c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u54",
+"at": "2026-10-10 19:32",
+"fixed": false
+}
+},
+"safi-cedvel:46-46": {
+"p1": {
+"ar": "e53bd9c82c6d",
+"tr": "f764bc1899da",
+"en": "cd1f31beb4b0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u54",
+"at": "2026-10-10 19:32",
+"fixed": false
+}
+},
+"safi-cedvel:47-48": {
+"p1": {
+"ar": "d7d0ddcebc35",
+"tr": "167d17c61a0b",
+"en": "da968a12218d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u54",
+"at": "2026-10-10 19:32",
+"fixed": false
+}
+}
+}

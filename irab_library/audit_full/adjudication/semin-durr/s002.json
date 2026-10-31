@@ -1,0 +1,692 @@
+{
+"semin-durr:245-245": {
+"hs": [
+"1c8508a0d8d4",
+"ba2fe05d70d5",
+"a00de2d47cb8"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: وقال الزجاج: «هو البلاءُ حَسَناً كان أو سيئاً» = only 'it is trial (al-balāʾ), good or bad'. TR renders 'O, iyi olsun kötü olsun [insanın yaptığı] amel ve imtihandır (البلاء)': 'amel' and '[insanın yaptığı]' are additions not in the Arabic and not inside a [Mütercim notu: …]. Fix: 'O, iyi olsun kötü olsun imtihandır (البلاء)' with any gloss moved into a Mütercim notu.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: وقال الزجاج: «هو البلاءُ حَسَناً كان أو سيئاً». TR renders 'iyi olsun kötü olsun [insanın yaptığı] amel ve imtihandır (البلاء)': both 'amel' and the bracketed '[insanın yaptığı]' are not in the Arabic and are not inside a [Mütercim notu: …]; the source only says it is al-balāʾ (trial/test). Unmarked addition; fix: 'O, iyi olsun kötü olsun belâdır (imtihandır)' with any gloss moved into a Mütercim notu.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Ebû Hayyân identification moved into Mütercim notu; dropped unmarked bracket supplements ([harflerin]->zevâidin, [bu ifade], [hakkında], [hâlin], [Şu beyti], [kelimesi], and verse-gloss [edeyim], [ipek], [korkusu])",
+"verify_note": "Zajjaj line, Shaykh identification (now Mütercim notu) and former bracket supplements all fixed; reading complete and faithful, other notes properly marked.",
+"fix_failed": 1,
+"verified": "PASS"
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: كقوله: «مَنْ يستغفرُونِي فأغفرَ له...» has no attribution formula; EN 'such as his ﷺ saying' adds the salutation ﷺ (and the implied attribution to the Prophet) without a [Translator's note: …]. Unmarked addition; fix: 'such as the saying' or put the attribution inside a Translator's note. Rest of EN (incl. Zajjāj 'It is the trial (al-balāʾ), whether good or bad') matches the Arabic.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: وهو مَحْجوجٌ بهذه الآيةِ وغيرِها، كقوله: «مَنْ يستغفرُونِي فأغفرَ له...». EN renders كقوله as 'his ﷺ saying': the Arabic has only the pronoun (كقوله), no صلى الله عليه وسلم; the ﷺ (and with it the explicit attribution to the Prophet) is an unmarked addition. Glossary formula 'the Prophet ﷺ' applies only where the Arabic carries the eulogy. Fix: 'such as his saying' with any attribution in a [Translator's note: …]. (EN's Zajjaj line 'It is the trial (al-balāʾ), whether good or bad' is correct.)",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Abū Ḥayyān identification and «فيضعِّفَه» moved into Translator's notes; dropped unmarked '[right]' (twice); 'the poet's saying' -> 'his saying' where Arabic has only كقوله (1014, 1016)",
+"verify_note": "Previous issues fixed, but an omission remains in the Shaykh quotation: Arabic «الضِّعْفُ - وهو المضاعَفُ أو المضعَّفُ - بمعنى المضاعفة أو التضعيف» is rendered '«الضِّعْف» — which is the multiplied thing — is applied in the sense of multiplying', dropping both alternatives «أو المضعَّف» and «أو التضعيف» (the doubled thing / doubling), a distinction the passage itself draws between ضاعف and ضعّف. Fix: 'which is the multiplied or the doubled thing — ... in the sense of multiplying or doubling'.",
+"fix_failed": 2,
+"verified": null
+}
+},
+"history": [
+{
+"old_hs": [
+"1c8508a0d8d4",
+"d08522db933c",
+"35077d82f3bb"
+],
+"dim": "tr",
+"what": "Removed unmarked additions 'amel' and '[insanın yaptığı]' from al-Zajjāj's definition; now 'O, iyi olsun kötü olsun imtihandır (البلاء)'",
+"at": "2026-10-17 00:44"
+},
+{
+"old_hs": [
+"1c8508a0d8d4",
+"b8949e7eb509",
+"35077d82f3bb"
+],
+"dim": "en",
+"what": "Removed unmarked ﷺ after 'his saying' for كقوله; attribution to the Prophet moved into a Translator's note",
+"at": "2026-10-17 00:44"
+},
+{
+"old_hs": [
+"1c8508a0d8d4",
+"b8949e7eb509",
+"d28036cd2122"
+],
+"dim": "tr",
+"what": "Ebû Hayyân identification moved into Mütercim notu; dropped unmarked bracket supplements ([harflerin]->zevâidin, [bu ifade], [hakkında], [hâlin], [Şu beyti], [kelimesi], and verse-gloss [edeyim], [ipek], [korkusu])",
+"at": "2026-10-17 00:50"
+},
+{
+"old_hs": [
+"1c8508a0d8d4",
+"ba2fe05d70d5",
+"d28036cd2122"
+],
+"dim": "en",
+"what": "Abū Ḥayyān identification and «فيضعِّفَه» moved into Translator's notes; dropped unmarked '[right]' in 'the view is what I gave first' and 'the way of disallowing'",
+"at": "2026-10-17 00:50"
+},
+{
+"old_hs": [
+"1c8508a0d8d4",
+"ba2fe05d70d5",
+"9d5beeb5bd74"
+],
+"dim": "en",
+"what": "Abū Ḥayyān identification and «فيضعِّفَه» moved into Translator's notes; dropped unmarked '[right]' (twice); 'the poet's saying' -> 'his saying' where Arabic has only كقوله (1014, 1016)",
+"at": "2026-10-17 00:51"
+}
+]
+},
+"semin-durr:246-246": {
+"hs": [
+"a967197832fd",
+"4cc791cb97dd",
+"d20e3d9a417b"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic reads «ومع ن، ومع نونِ الإناثِ نحو: عَسِينا وعَسِين» - the first item is written only as «ن» (apparently truncated «نا»). EN renders 'and with «نا» and with the nūn of the feminine plural' with no Translator's note, i.e. it silently corrects the source. The interpretation is right (example «عَسِينا»), but the emendation must be marked: e.g. 'with «ن» [Translator's note: so in the source; «نا» is meant, cf. «عَسِينا»]'. TR already has such a Mütercim notu.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic reads «وهي لغةٌ مع تاءِ الفاعلِ مطلقاً/ ومع ن، ومع نونِ الإناثِ نحو: عَسِينا وعَسِين» - the text has a truncated «ن», not «نا». EN renders 'and with «نا» and with the nūn of the feminine plural' as if the source said نا, a silent correction with no [Translator's note]. The intended نا is supported by the example عَسِينا, so the meaning is right, but the rule forbids silent correction; fix: keep the reading and add a translator's note that the text has «ومع ن», apparently for «نا» (as the TR reading already does).",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked supplements: [Sūrat], [the latter]/[the kasra] (now plain 'it' with a Translator's note), [the agent], [the verb], [noun]; 'indefinite and vague' -> 'vague (mubham)'; 'means' removed from al-Farrāʾ bracket; 'the poet said/words' -> 'he said/his words' for قال/قوله; 'the notion of' dropped before \"being\" (al-istiqrār). «ومع ن» Translator's note kept",
+"verify_note": "«ومع ن» kept with Translator's note; all previously listed bracket supplements removed or marked; 'cannot be vague (mubham)' now matches; reading complete and faithful.",
+"fix_failed": 1,
+"verified": "PASS"
+}
+},
+"history": [
+{
+"old_hs": [
+"a967197832fd",
+"4cc791cb97dd",
+"b98733f78b4e"
+],
+"dim": "en",
+"what": "Source's truncated «ن» kept as written; the emendation to «نا» moved into a Translator's note",
+"at": "2026-10-17 00:44"
+},
+{
+"old_hs": [
+"a967197832fd",
+"4cc791cb97dd",
+"f1cf207b7211"
+],
+"dim": "en",
+"what": "Removed unmarked supplements: [Sūrat], [the latter]/[the kasra] (now plain 'it' with a Translator's note), [the agent], [the verb], [noun]; 'indefinite and vague' -> 'vague (mubham)'; 'means' removed from al-Farrāʾ bracket; 'the poet said/words' -> 'he said/his words' for قال/قوله; 'the notion of' dropped before \"being\" (al-istiqrār). «ومع ن» Translator's note kept",
+"at": "2026-10-17 00:51"
+}
+]
+},
+"semin-durr:1-1": {
+"hs": [
+"8cf6d8f7a447",
+"8e6fc634a06b",
+"086a64b6c755"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Verse 95 «ألا رجلاً جزاه اللهُ خيراً ... يَدُلُّ على مُحَصِّلَةٍ تَبيتُ»: TR «geceyi benimle geçirecek» adds unmarked «benimle» (no 'me' in تبيت) and attaches the night-spending to the man, whereas تبيت (fem.) describes the woman محصّلة; also unmarked «(işini)». In the prose, «Önceden geçen (mebnî olup i'rabdan mahallinin bulunmaması)» expands «ما تقدَّم» with unmarked gloss including 'mebnî' which the source does not say there; «(terkibe girmeden)» also unmarked. Needs fix.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Verse 95 «يَدُلُّ على مُحَصِّلَةٍ تَبيتُ» is rendered «geceyi benimle geçirecek … (işini) toparlayan bir kadına»: «benimle» and «(işini)» are not in the Arabic and are unmarked. The unmarked glosses «(terkibe girmeden)» for «فأُلقيت كأسماءِ الأعدادِ» and «Önceden geçen (mebnî olup i'rabdan mahallinin bulunmaması)» for «أحدها: ما تقدَّم» are also additions outside a Mütercim notu.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Verse 95: removed unmarked «benimle» and «(işini)», night-spending now attaches to the woman; «(terkibe girmeden)» and «(mebnî olup i'rabdan mahallinin bulunmaması)» moved into Mütercim notu",
+"verified": null,
+"verify_note": "Flagged items now marked, but other unmarked additions and transliterated Quranic words remain: «ondan (cennet şarabından) başkasının» adds an unmarked identification not in «بأنَّ غيرَها ما نُفِيَ عنها»; «sıfat kabul edilirse o zaman (delil) olmaz» adds unmarked «(delil)» to «فلا»; «Rayb mutlak olarak şüphedir» and «baş ağrısı (gavl)» write the Quranic words الريب / غول in Latin letters (must stay «الريب» / «غَوْل»). Put the glosses in [Mütercim notu: …] and restore Arabic script.",
+"fix_failed": 3
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Verse 101 «تُؤَمِّلُ رَجْعَةً مني وفيها ... كتابٌ»: EN «while in it [i.e. the divorce] is a written decree» adds an unmarked interpretive gloss not in the Arabic. Verse 95 EN «who will guide [me] to a capable woman» also adds unmarked [me] (يَدُلُّ على مُحَصِّلَةٍ has no object pronoun). Must be in Translator's note.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Verse 101 «تُؤَمِّلُ رَجْعَةً مني وفيها ... كتابٌ مثلَ ما لَصِق الغِراءُ» is rendered «while in it [i.e. the divorce] is a written decree»: the Arabic has only «وفيها», so «[i.e. the divorce]» is an interpretive addition and is not marked as a Translator's note. Verse 95 «يَدُلُّ على مُحَصِّلَةٍ تَبيتُ» also has the unmarked «guide [me]».",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Verse 95: removed unmarked [me] (\"who will point to a capable woman\"); verse 101: [i.e. the divorce] put inside Translator's note",
+"verified": null,
+"verify_note": "Verses 95 and 101 fixed, but: (1) «فمؤولٌ» is rendered 'these are interpreted [i.e. not taken at face value]', an unmarked plain-bracket addition that must be a [Translator's note: …]; (2) Quranic words/phrases are transliterated in Latin instead of Arabic script: 'lā rayba fīhi, fīhi hudan', 'huwa hudan', 'dhā hudan', 'hudan kāʾinun ... kāʾinan li-l-muttaqīn', 'rayb is doubt absolutely', 'rayb has three meanings', 'Hudā has two usages', 'dhālika', 'ghawl' (from {لاَ فِيهَا غَوْلٌ}), 'muttaqin / muttaqiyīn' (for «المتقين»), 'Read: alif lām mīm', 'This is alif lām mīm'. Write them in Arabic script as the source has them (e.g. «لا ريبَ فيه، فيه هدىً», «هو هدىً», «الريب», «المتقين», «اقرؤوا: ألم»).",
+"fix_failed": 3
+}
+},
+"history": [
+{
+"old_hs": [
+"8cf6d8f7a447",
+"85798e6706db",
+"4f1085237f98"
+],
+"dim": "tr",
+"what": "Verse 95: removed unmarked «benimle» and «(işini)», night-spending now attaches to the woman; «(terkibe girmeden)» and «(mebnî olup i'rabdan mahallinin bulunmaması)» moved into Mütercim notu",
+"at": "2026-10-17 00:43"
+},
+{
+"old_hs": [
+"8cf6d8f7a447",
+"8e6fc634a06b",
+"086a64b6c755"
+],
+"dim": "en",
+"what": "Verse 95: removed unmarked [me] (\"who will point to a capable woman\"); verse 101: [i.e. the divorce] put inside Translator's note",
+"at": "2026-10-17 00:43"
+}
+]
+},
+"semin-durr:5-5": {
+"hs": [
+"3e1774ab405a",
+"e70f9a91b2ec",
+"8ba5360d3ec3"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Verse 129 «...لقد وقَعْتِ على لَحْمِ»: TR «bir ete [büyük bir ete] kondun» adds unmarked interpretive bracket (the ta'zim sense is the author's point about تنكير, but the words are not in the verse); also unmarked «(ey kuş)». Needs [Mütercim notu].",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Verse 129 «لقد وقَعْتِ على لَحْمِ» is rendered «bir ete [büyük bir ete] kondun»: the Arabic has only «لَحْمِ». «[büyük bir ete]» is the interpretation the author draws (تنكير للتعظيم), but it is not in the verse and is not inside «[Mütercim notu: …]».",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Verse 129: unmarked '(ey kuş)' and '[büyük bir ete]' put inside Mütercim notu",
+"verified": null,
+"verify_note": "Verse 129 notes are now properly marked, but Zamakhsharī's quote has an unmarked addition: «Ondan sonra gelen şey (hüküm)»; «(hüküm)» is not in «ما يَرِد عقيبَه» and must be removed or put in [Mütercim notu: …]. Rest faithful.",
+"fix_failed": 3
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Verse 129 «لقد وقَعْتِ على لَحْمِ»: EN «alighted on [noble] flesh» adds unmarked word; Hatim quote «وللهِ صعلوكٌ» rendered «And to Allah [belongs the excellence of] a poor vagabond» adds an unmarked bracketed gloss. Both must be inside [Translator's note: …].",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Verse 129 «لقد وقَعْتِ على لَحْمِ» is rendered «alighted on [noble] flesh»: «[noble]» is not in the Arabic and is unmarked. Ḥātim's «وللهِ صعلوكٌ» is rendered «And to Allah [belongs the excellence of] a poor vagabond»: the bracketed words are also an unmarked addition. Both need «[Translator's note: …]».",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Verse 129 '[noble]' and Hatim gloss '[belongs the excellence of]' put inside Translator's note",
+"verified": null,
+"verify_note": "Verse 129 and Ḥātim notes fixed, but the words the author analyses are transliterated in Latin instead of Arabic script: 'ulā lika' and 'ulālika' (source «أولا لِك» / «أولا لك»), 'Falāḥ originally means splitting' (source «والفلاحُ», root noun of the Quranic «المفلحون») and 'split (yuflaḥ)' (source «يفلح»). Write them in Arabic script as the TR does.",
+"fix_failed": 3
+}
+},
+"history": [
+{
+"old_hs": [
+"3e1774ab405a",
+"cd8fae714b03",
+"bfc3e8b69c74"
+],
+"dim": "tr",
+"what": "Verse 129: unmarked '(ey kuş)' and '[büyük bir ete]' put inside Mütercim notu",
+"at": "2026-10-17 00:43"
+},
+{
+"old_hs": [
+"3e1774ab405a",
+"e70f9a91b2ec",
+"8ba5360d3ec3"
+],
+"dim": "en",
+"what": "Verse 129 '[noble]' and Hatim gloss '[belongs the excellence of]' put inside Translator's note",
+"at": "2026-10-17 00:43"
+}
+]
+},
+"semin-durr:7-7": {
+"hs": [
+"426eeb4c8f23",
+"eaea09d6b36e",
+"83326ff86ceb"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Final {ولهم عذاب عظيم} paragraph: Arabic «جائزُ التقدُّم» is rendered «haberin öne alınması caizdir (vacip değildir)» - the parenthetical «(vacip değildir)» is an unmarked addition (true by implication, but not written). Needs [Mütercim notu].",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Final paragraph: the Arabic «والخبرُ هنا جائزُ التقدُّم» is rendered «Burada haberin öne alınması caizdir (vacip değildir)». «(vacip değildir)» is the translator's inference (it contrasts with the earlier «واجباً») and is not marked as a Mütercim notu.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "'(vacip değildir)' put inside Mütercim notu",
+"verified": "PASS",
+"verify_note": "'(vacip değildir)' is now a [Mütercim notu]; the ayn/ghayn, الغشاوى, wāw/yāʾ and جريح notes are marked; the reading is complete and faithful and keeps the Arabic words in Arabic script.",
+"fix_failed": 2
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "«كَريم من كَرُم غيرَ مذهوبٍ به مذهبَ الزمان» rendered «not taken in the sense of time [i.e. not denoting a temporary state]» - the bracketed explanation is an unmarked addition not in the Arabic. Must be in [Translator's note: …].",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "«ولا تكاد تجدُ هذا الاستعمالَ في حالِ سَعَةٍ ولا اختيار» is rendered «… freedom and choice [i.e. in prose]», and «غيرَ مذهوبٍ به مذهبَ الزمان» is rendered «not taken in the sense of time [i.e. not denoting a temporary state]». Both bracketed glosses are interpretive additions not in the Arabic and are unmarked.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Unmarked glosses '[i.e. in prose]', '[i.e. not denoting a temporary state]', '[i.e. throats]' put inside Translator's note",
+"verified": null,
+"verify_note": "The two flagged glosses are now Translator's notes, but the Quranic words of 2:7 under discussion are transliterated in Latin instead of Arabic script: 'Khatm linguistically' («والخَتْمُ»), 'Samʿ and samāʿ ... of samiʿa' and 'samʿ was used as a metonym' («السَّمعُ»), 'Al-ghishāwa' / 'ghishāwa' («الغِشاوة»), 'ʿAdhāb originally means continuation' («والعَذابُ»), plus 'baṣar', 'qalb', 'ʿaẓuma'. These must stay in Arabic script (the TR does this correctly).",
+"fix_failed": 3
+}
+},
+"history": [
+{
+"old_hs": [
+"426eeb4c8f23",
+"0f5a6cba71e4",
+"219b5cfcc48d"
+],
+"dim": "tr",
+"what": "'(vacip değildir)' put inside Mütercim notu",
+"at": "2026-10-17 00:43"
+},
+{
+"old_hs": [
+"426eeb4c8f23",
+"eaea09d6b36e",
+"83326ff86ceb"
+],
+"dim": "en",
+"what": "Unmarked glosses '[i.e. in prose]', '[i.e. not denoting a temporary state]', '[i.e. throats]' put inside Translator's note",
+"at": "2026-10-17 00:43"
+}
+]
+},
+"semin-durr:37-37": {
+"hs": [
+"516222fbc149",
+"080360d9b09e",
+"a28c681f404a"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Verse 386 «أو مُعْبَرُ الظهرِ يُنْبي عن وَلِيَّتِه»: يُنْبي is from أنبى/نبا (to make recoil, throw off), i.e. the unshorn/fat back throws off the saddle-cloth (TR correctly «keçeyi atan»). EN «whose saddle-cloth shows that he has never...» reads it as يُنبئ 'informs' and links it to the next hemistich - wrong meaning. Rest of EN is faithful.",
+"at": "2026-10-17 00:40"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Verse 386 «أو مُعْبَرُ الظهرِ يُنْبي عن وَلِيَّتِه» is rendered «whose saddle-cloth shows that…». «يُنْبي» (أنبى/نبا: to repel, make slip off) is read as if it were «يُنبئ» (to inform). The sense is that the thick, unshorn hair (مُعْبَر الظهر) throws off its وليّة (saddle-blanket), as the TR «semerinin altındaki keçeyi atan» correctly has. The EN translates a different word, so this is a wrong meaning.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Latin transliterations of Quranic words replaced by Arabic script: «الكلماتُ»/«كلمة», «التوبةُ», «التَّوابُ»/«التوابُ», «الرحيمُ»/«الرحيم» (v.386 fix kept)",
+"verify_note": "EN complete and faithful; v.386 يُنْبي now 'throws off its saddle-cloth'; الكلمات/التوبة/التواب/الرحيم now in Arabic script; misprint flagged in Translator's note; no unmarked additions.",
+"fix_failed": 1,
+"verified": "PASS"
+}
+},
+"history": [
+{
+"old_hs": [
+"516222fbc149",
+"080360d9b09e",
+"09eda19c8439"
+],
+"dim": "en",
+"what": "Verse 386: يُنْبي عن وَلِيَّتِه now rendered 'throws off its saddle-cloth' (was misread as 'shows'); في الدنيا rendered 'in this world'",
+"at": "2026-10-17 00:43"
+},
+{
+"old_hs": [
+"516222fbc149",
+"080360d9b09e",
+"f3c9df0b4574"
+],
+"dim": "en",
+"what": "Replaced Latin transliterations with Arabic script: «الكلمات»/«كلمة», «التوبة», «التَّواب»/«التواب», «الرحيم» (x3), and pattern names تفعَّل, فَعَّلَ, استَفْعَل; v.386 fix kept",
+"at": "2026-10-17 00:51"
+},
+{
+"old_hs": [
+"516222fbc149",
+"080360d9b09e",
+"a28c681f404a"
+],
+"dim": "en",
+"what": "Latin transliterations of Quranic words replaced by Arabic script: «الكلماتُ»/«كلمة», «التوبةُ», «التَّوابُ»/«التوابُ», «الرحيمُ»/«الرحيم» (v.386 fix kept)",
+"at": "2026-10-17 00:51"
+}
+]
+},
+"semin-durr:121-121": {
+"hs": [
+"44f01ae87e49",
+"374031e46f67",
+"4f8050f31931"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "MISPLACED",
+"evidence": "Entry starts on 2:121 ({الذين آتَيْنَاهُمُ}, {حَقَّ تِلاَوَتِهِ}, الضمير في «به») but then substantively discusses 2:124 at length: «قوله: {وَإِذِ ابتلى إِبْرَاهِيمَ رَبُّهُ بِكَلِمَاتٍ}», «فَأَتَّمَّهُنَّ», «{قَالَ إِنِّي}», «{جَاعِلُكَ}», «{لِلنَّاسِ}», «{وَمِن ذُرِّيَّتِي}», «{قَالَ لاَ يَنَالُ عَهْدِي الظالمين}». No separate entry exists for 122-124 (next entry is 125). 122-123 are not discussed, but the only contiguous range containing every ayah the entry is about is 121-124.",
+"at": "2026-10-17 00:41",
+"ayahs": "121-124"
+},
+"J2": {
+"class": "MISPLACED",
+"evidence": "The first part is on 2:121 ({الذين آتَيْنَاهُمُ}, {حَقَّ تِلاَوَتِهِ}, الضمير في «به»). From «قوله: {وَإِذِ ابتلى إِبْرَاهِيمَ رَبُّهُ بِكَلِمَاتٍ}» it moves to 2:124 and parses that ayah at length: {قَالَ إِنِّي}, {جَاعِلُكَ}, {لِلنَّاسِ}, {وَمِن ذُرِّيَّتِي} with the ذرية morphology, and {قَالَ لاَ يَنَالُ عَهْدِي الظالمين}. 2:124 must be included; the smallest contiguous range is 121-124.",
+"at": "2026-10-17 00:41",
+"ayahs": "121-124"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+},
+"semin-durr:155-155": {
+"hs": [
+"6826900d74cb",
+"016a577796a4",
+"94ae351828c3"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Arabic «ولا يُجِيز البصريونَ ذلك إلا في ضرورةٍ»: in grammatical usage ضرورة is the technical term for poetic necessity (licence), so EN «except under poetic necessity» renders the term's meaning, not an addition. Rest of EN checked and faithful.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "The flagged item is a false alarm: in grammatical usage «إلا في ضرورةٍ» is the technical term for poetic licence, so «except under poetic necessity» is accurate. But the EN has other unmarked additions not in the Arabic, notably «it could have meant [many] kinds of each one» for «لاحتمل أن يكون ضروباً من كل واحد», where «[many]» is added. Such additions must go inside «[Translator's note: …]».",
+"at": "2026-10-17 00:41"
+},
+"J3": {
+"class": "FALSE_ALARM",
+"evidence": "In «ولا يُجِيز البصريونَ ذلك إلا في ضرورةٍ», ضرورة is the grammarians' technical term for poetic licence (الضرورة الشعرية). The Basran rule on dropping the lām/nūn of the oath answer is about verse, so 'except under poetic necessity' is the standard rendering of that term. It translates the written text and adds nothing to it. I checked the rest of the English against the Arabic: «جواب قسم محذوف», «الإلصاق», the reading «بأشياء», the two views on «ونقص» and the five views on «من الأموال» (including Abu al-Baqa and al-Akhfash's زائدة) are all rendered correctly. The source's «لَنَبْلُوَنَّكَ» is kept as written, with a translator's note. Nothing is omitted or mistranslated.",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "HUMAN"
+}
+}
+},
+"semin-durr:157-157": {
+"hs": [
+"59bfb936e132",
+"266eb6ffafa3",
+"8d3a378d52b4"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Verse 779 «وهندٌ أتى مِنْ دونِها النَّأْيُ والبُعْدُ» = 'and Hind, before/beyond whom remoteness and distance have come'. EN «between whom and me have come remoteness and distance» inserts an unmarked «and me» (no first-person pronoun in the Arabic). Must be in [Translator's note: …] or removed.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Verse 779 «وهندٌ أتى مِنْ دونِها النَّأْيُ والبُعْدُ» → «Hind, between whom and me have come remoteness and distance». «and me» is an idiomatic expansion of «مِنْ دونِها», though «between her and [the speaker]» goes beyond the text; on its own this is borderline. There is, however, a clear unmarked addition in the EN: «— [one should not say this] because this omission…», a sentence that is not in the Arabic. Also «[cut] his two wrist-veins» for «لراهِشَيْهِ». These need Translator's-note marking.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Verse 779: removed unmarked 'and me' (مِنْ دونِها -> 'short of whom'), sense put in Translator's note; verse 778 '[cut]' and the inserted '[one should not say this]' moved into Translator's notes",
+"verified": "PASS",
+"verify_note": "v.779 «and me» removed (explanation now a Translator's note), «[one should not say this]» and v.778 gloss now inside Translator's notes; complete and faithful, no unmarked additions of substance."
+}
+},
+"history": [
+{
+"old_hs": [
+"59bfb936e132",
+"266eb6ffafa3",
+"e71a6c04d0c3"
+],
+"dim": "en",
+"what": "Verse 779: removed unmarked 'and me' (مِنْ دونِها -> 'short of whom'), sense put in Translator's note; verse 778 '[cut]' and the inserted '[one should not say this]' moved into Translator's notes",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"semin-durr:163-163": {
+"hs": [
+"04ef86f33594",
+"93e101e89eed",
+"4c97d3588645"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Abu Hayyan: «فالتقدير: لا رجلَ كائنٌ أو موجودٌ إلا زيد» gives two alternative supplied khabars. TR renders only «Zeyd'den başka var olan hiçbir adam yoktur», dropping the alternative «كائنٌ أو» (EN keeps both: 'existing or present'). Omission.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Abū Ḥayyān's paraphrase «لا رجلَ كائنٌ أو موجودٌ إلا زيد» gives two alternative words for the omitted khabar. The TR «Zeyd'den başka var olan hiçbir adam yoktur» renders only one of them and drops «كائنٌ أو». This is an omission of source content, small but real.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved unmarked supplied «إله» into [Mütercim notu: Haber olan kelime «إله»dir.]; كائن/موجود omission fix kept",
+"verify_note": "كائن أو موجود both rendered; supplied «إله» now inside Mütercim notu; Ebû Hayyân identification marked; rest complete and faithful.",
+"fix_failed": 1,
+"verified": "PASS"
+}
+},
+"history": [
+{
+"old_hs": [
+"04ef86f33594",
+"5fa40c636c11",
+"4c97d3588645"
+],
+"dim": "tr",
+"what": "Abu Hayyan's taqdir now renders both alternatives كائنٌ أو موجودٌ ('bulunan (كائن) ya da var olan (موجود)'); identification of al-Shaykh as Ebû Hayyân moved into Mütercim notu",
+"at": "2026-10-17 00:46"
+},
+{
+"old_hs": [
+"04ef86f33594",
+"17bcf77c3291",
+"4c97d3588645"
+],
+"dim": "tr",
+"what": "Moved unmarked supplied «إله» into [Mütercim notu: Haber olan kelime «إله»dir.]; كائن/موجود omission fix kept",
+"at": "2026-10-17 00:51"
+}
+]
+},
+"semin-durr:208-208": {
+"hs": [
+"f26f2c232f67",
+"d50fc5da42d9",
+"9369a3aa4d78"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Verse 909 «ذاتُ مُوَصَّدٍ» = wearing the مُوَصَّد/وِصاد, the small garment worn by young girls; TR «küçük kızların elbisesini giyiyordu» is correct. But TR has unmarked bracket additions in verse glosses: 906 «silme [barışa/İslâm'a] çağırdım» and 907 «Selmin [İslâm'ın] şeriatlerinin» - interpretive words not in the Arabic and not inside [Mütercim notu: …]. Needs fix.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Verse 909 «وَهْيَ ذاتُ مُوَصَّدٍ» → «küçük kızların elbisesini giyiyordu» is correct (المُوَصَّد/المؤصد = صِدار worn by young girls, per the lexicons). But the TR contains unmarked additions elsewhere, e.g. «onları silme [barışa/İslâm'a] çağırdım» and «Selmin [İslâm'ın] şeriatlerinin» in the السلم verses, where the bracketed interpretations are not in the Arabic and are not inside a Mütercim notu.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Put unmarked additions into Mütercim notu: Şu'be, Muhammed (for Kıtâl), 'haber olamaması', 'başka i'rab mevkilerinde kullanılmaması'",
+"verify_note": "Şu'be/Muhammed identifications and the i'rab glosses now inside Mütercim notu; v.906/907 glosses marked; v.909 correct; source duplications, كافً and Meryem 37 noted; complete and faithful.",
+"fix_failed": 1,
+"verified": "PASS"
+},
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Verse 909 «وَهْيَ ذاتُ مُوَصَّدٍ»: المُوَصَّد/الوِصاد is a small shirt/garment worn by young girls (she was still a little girl, as صغيرين confirms); EN «one with a closed-off veil» is a wrong meaning. Also EN silently corrects the source: «قامَ الناسُ كافً وقاطبةً» rendered 'kāffatan' and the duplicated «كما تُؤَنَّثُ» dropped, without a note (TR marks both).",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Verse 909 «وَهْيَ ذاتُ مُوَصَّدٍ» is rendered «one with a closed-off veil», which reads مُوَصَّد as «shut, closed» (أوصد). The word here is the lexical مُوَصَّد/مؤصد, a صِدار (small shift) worn by young girls, as the TR has it. The next half-line «ولم يَبْدُ … من ثَدْيِها حَجْمُ» confirms she is a little girl. This is a wrong meaning.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed '(Sūrat)', moved Muḥammad into [Translator's note]; replaced Latin transliterations of Quranic/parsed words (silm/salm, kāffa, taḥmiluhu, jamīʿ/kull, qāṭiba, examples) with Arabic script",
+"verify_note": "al-Qitāl identification now inside Translator's note; v.909 مُوَصَّد correct with note; كافً and repeated كما تؤنث noted; complete and faithful, nothing unmarked added.",
+"fix_failed": 1,
+"verified": "PASS"
+}
+},
+"history": [
+{
+"old_hs": [
+"f26f2c232f67",
+"d87a5eeddc7e",
+"9e1e56ff5752"
+],
+"dim": "tr",
+"what": "Verses 906/907: bracketed glosses [barışa/İslâm'a] and [İslâm'ın] put inside Mütercim notu; identification 'Şeyh (Ebû Hayyân)' (2x) put inside Mütercim notu; verse 909 rendering kept (correct)",
+"at": "2026-10-17 00:46"
+},
+{
+"old_hs": [
+"f26f2c232f67",
+"ab0d12c574df",
+"83e8dace4a28"
+],
+"dim": "en",
+"what": "Verse 909: مُوَصَّد no longer 'closed-off veil' but the young girl's shift (muwaṣṣad, explained in Translator's note); added Translator's notes for the source's duplicated «كما تُؤَنَّثُ» and its «كافً» (was silently corrected); 'Shaykh (Abū Ḥayyān)' put in Translator's note",
+"at": "2026-10-17 00:46"
+},
+{
+"old_hs": [
+"f26f2c232f67",
+"ab0d12c574df",
+"83e8dace4a28"
+],
+"dim": "tr",
+"what": "Put unmarked additions into Mütercim notu: Şu'be, Muhammed (for Kıtâl), 'haber olamaması', 'başka i'rab mevkilerinde kullanılmaması'",
+"at": "2026-10-17 00:51"
+},
+{
+"old_hs": [
+"f26f2c232f67",
+"d50fc5da42d9",
+"9369a3aa4d78"
+],
+"dim": "en",
+"what": "Removed '(Sūrat)', moved Muḥammad into [Translator's note]; replaced Latin transliterations of Quranic/parsed words (silm/salm, kāffa, taḥmiluhu, jamīʿ/kull, qāṭiba, examples) with Arabic script",
+"at": "2026-10-17 00:51"
+}
+]
+},
+"semin-durr:231-231": {
+"hs": [
+"fa2597f7f468",
+"0a26df316ce9",
+"e54d3630e443"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Entry is entirely about 2:231: {وَإِذَا طَلَّقْتُمُ}, «فبَلَغْنَ», {بِمَعْرُوفٍ}, {ضِرَاراً}, {وَمَن يَفْعَلْ ذَلِكَ}, {لِّتَعْتَدُواْ}, {عَلَيْكُمْ} (نعمة الله عليكم), {وَمَآ أَنزَلَ عَلَيْكُمْ}, «يعظكم», «من الكتاب», «به». Not commenting on هزواً / واتقوا الله is not misplacement; it ends naturally at «والضمير في» به «يعودُ على» ما «الموصولةِ». Correctly filed.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "The whole entry parses 2:231: {وَإِذَا طَلَّقْتُمُ}… «فبَلَغْنَ», {بِمَعْرُوفٍ}, {ضِرَاراً}, {وَمَن يَفْعَلْ ذَلِكَ}, {لِّتَعْتَدُواْ}, {عَلَيْكُمْ} (نعمة), {وَمَآ أَنزَلَ عَلَيْكُمْ}, «من الكتاب», «يَعِظُكُم», and finally the pronoun in «به». Ending at «به» without comment on later phrases (هزواً, واتقوا الله) is normal selective commentary, not truncation. The entry is listed correctly.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

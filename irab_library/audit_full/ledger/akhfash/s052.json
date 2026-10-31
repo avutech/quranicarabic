@@ -1,0 +1,42 @@
+{
+"akhfash:9-11": {
+"p1": {
+"ar": "514a63158cbd",
+"tr": "331a36712911",
+"en": "761b3178a0bf",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:48",
+"fixed": false
+}
+},
+"akhfash:30-30": {
+"p1": {
+"ar": "6ee278c524f7",
+"tr": "ff2f5bf5e46c",
+"en": "c684f6bf69ee",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR rendered the gloss as Zeyd e (ne olacagini) bekledim, an unmarked addition that does not match the Arabic; made literal",
+"by": "akhfash-u2",
+"at": "2026-10-10 15:48",
+"fixed": true
+},
+"p2": {
+"ar": "6ee278c524f7",
+"tr": "ff2f5bf5e46c",
+"en": "c684f6bf69ee",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "akhfash-p2-u1",
+"at": "2026-10-16 18:52",
+"fixed": false
+}
+}
+}

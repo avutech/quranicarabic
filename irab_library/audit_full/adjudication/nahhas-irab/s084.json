@@ -1,0 +1,27 @@
+{
+"nahhas-irab:19-19": {
+"hs": [
+"f446b2f9385e",
+"0a0bc8111b74",
+"a26aefa51521"
+],
+"dims": {
+"fit": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Entry is about the readings of «لَتَرْكَبُنَّ طَبَقاً عَنْ طَبَقٍ» (84:19): fatha/damma/«ليركبنّ», and «حالا بعد حال». «يا أيّها الإنسان إنك كادح إلى ربك كدحا» (84:6) and the gloss «الكادح العامل» with the verse «أكدح» are cited to explain who is addressed in 84:19 — supporting evidence, not a separate treatment. Truncation at «لأن بعده» does not change placement.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Entry is about «لَتَرْكَبُنَّ طَبَقاً عَنْ طَبَقٍ (19)»: readings with fatha/damma, «ليركبنّ», meaning «حالا بعد حال». Citing «يا أيّها الإنسان إنك كادح» (84:6) and glossing الكادح serves to identify the addressee of 19; «لأن بعده» points forward. Source breaks off at «لأن بعده» but the placement under 84:19 is correct.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

@@ -1,0 +1,386 @@
+{
+"daas-irab:1-2": {
+"p1": {
+"ar": "666006432068",
+"tr": "e6dca075e77f",
+"en": "7db6ed71637f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-u19",
+"at": "2026-10-10 19:19",
+"fixed": false
+}
+},
+"daas-irab:3-3": {
+"p1": {
+"ar": "84bc34e42030",
+"tr": "81344e64ae80",
+"en": "78d56d000563",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-u19",
+"at": "2026-10-10 19:19",
+"fixed": false
+}
+},
+"daas-irab:4-6": {
+"p1": {
+"ar": "0e035ce45481",
+"tr": "8675e4d7d29c",
+"en": "b627872df0bc",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-u19",
+"at": "2026-10-10 19:19",
+"fixed": false
+}
+},
+"daas-irab:7-8": {
+"p1": {
+"ar": "7c216ff751e4",
+"tr": "3df703b1d09c",
+"en": "81155124a828",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-u19",
+"at": "2026-10-10 19:19",
+"fixed": false
+}
+},
+"daas-irab:9-9": {
+"p1": {
+"ar": "0f500c173930",
+"tr": "3287e2b91ae1",
+"en": "f6f3b28fb2be",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-u19",
+"at": "2026-10-10 19:19",
+"fixed": false
+}
+},
+"daas-irab:10-11": {
+"p1": {
+"ar": "c187b7c1c677",
+"tr": "6b5368e7531f",
+"en": "5e30524dc1f0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-u19",
+"at": "2026-10-10 19:19",
+"fixed": false
+}
+},
+"daas-irab:12-12": {
+"p1": {
+"ar": "68f755dc0621",
+"tr": "dbc0d1fd4ac6",
+"en": "84b16624b44e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-u19",
+"at": "2026-10-10 19:19",
+"fixed": false
+}
+},
+"daas-irab:13-14": {
+"p1": {
+"ar": "cd1614c5f01d",
+"tr": "b1d6ffacc21d",
+"en": "8be1e96c361f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-u19",
+"at": "2026-10-10 19:19",
+"fixed": false
+}
+},
+"daas-irab:15-16": {
+"p1": {
+"ar": "45c892af30f5",
+"tr": "641c4b61f138",
+"en": "a9eb120271c2",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish \"Sidr (burada) meyvesi yoktur\" inserted unmarked \"(burada)\" not in Arabic \"والسدر لا ثمر له\"; removed.",
+"by": "daas-irab-u19",
+"at": "2026-10-10 19:19",
+"fixed": true
+},
+"p2": {
+"ar": "45c892af30f5",
+"tr": "641c4b61f138",
+"en": "a9eb120271c2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-p2-u14",
+"at": "2026-10-16 19:05",
+"fixed": false
+}
+},
+"daas-irab:17-19": {
+"p1": {
+"ar": "f75adc721bae",
+"tr": "280b09c1e780",
+"en": "2a23963c7f17",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-u19",
+"at": "2026-10-10 19:19",
+"fixed": false
+}
+},
+"daas-irab:20-22": {
+"p1": {
+"ar": "2d464400a7d0",
+"tr": "6f8d96500170",
+"en": "ebb1a4e7a2dc",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-u19",
+"at": "2026-10-10 19:19",
+"fixed": false
+}
+},
+"daas-irab:23-24": {
+"p1": {
+"ar": "dfc090c47732",
+"tr": "7c72fbdbb969",
+"en": "fafd05c395c5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-u19",
+"at": "2026-10-10 19:20",
+"fixed": false
+}
+},
+"daas-irab:25-27": {
+"p1": {
+"ar": "8e6804a159b9",
+"tr": "9f02fddb6b39",
+"en": "642cd3693ac5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-u19",
+"at": "2026-10-10 19:19",
+"fixed": false
+}
+},
+"daas-irab:28-31": {
+"p1": {
+"ar": "486928e75e65",
+"tr": "f17a5375a97f",
+"en": "789beee7e9d0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-u19",
+"at": "2026-10-10 19:19",
+"fixed": false
+}
+},
+"daas-irab:32-33": {
+"p1": {
+"ar": "db818ca9cd6f",
+"tr": "e84a4bcd2dd7",
+"en": "6a317bb556a8",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-u19",
+"at": "2026-10-10 19:19",
+"fixed": false
+}
+},
+"daas-irab:34-36": {
+"p1": {
+"ar": "032ee5ce9679",
+"tr": "892cfe727e35",
+"en": "bd213a9b6fe5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-u19",
+"at": "2026-10-10 19:19",
+"fixed": false
+}
+},
+"daas-irab:37-38": {
+"p1": {
+"ar": "8c9bdf3ea34f",
+"tr": "7199bf33833a",
+"en": "ada16193b044",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-u19",
+"at": "2026-10-10 19:19",
+"fixed": false
+}
+},
+"daas-irab:39-39": {
+"p1": {
+"ar": "e7875f0d01f1",
+"tr": "7d518ee14c29",
+"en": "fa257b7a19e5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-u19",
+"at": "2026-10-10 19:19",
+"fixed": false
+}
+},
+"daas-irab:40-41": {
+"p1": {
+"ar": "99bc53a89c59",
+"tr": "b05bd99091cc",
+"en": "d2f209e5aa6a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-u19",
+"at": "2026-10-10 19:19",
+"fixed": false
+}
+},
+"daas-irab:42-43": {
+"p1": {
+"ar": "73cafb3c4812",
+"tr": "26ba8a53bc31",
+"en": "ee78e0da22f6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-u19",
+"at": "2026-10-10 19:19",
+"fixed": false
+},
+"p2": {
+"ar": "73cafb3c4812",
+"tr": "26ba8a53bc31",
+"en": "ee78e0da22f6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-p2-u14",
+"at": "2026-10-16 19:05",
+"fixed": false
+}
+},
+"daas-irab:44-45": {
+"p1": {
+"ar": "691f1d851f01",
+"tr": "0ee163a40859",
+"en": "7c6c0184f9e7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-u19",
+"at": "2026-10-10 19:20",
+"fixed": false
+},
+"p2": {
+"ar": "691f1d851f01",
+"tr": "0ee163a40859",
+"en": "7c6c0184f9e7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-p2-u14",
+"at": "2026-10-16 19:05",
+"fixed": false
+}
+},
+"daas-irab:46-48": {
+"p1": {
+"ar": "7ed62468167c",
+"tr": "d23dfaf8cafa",
+"en": "52b9cdf22b57",
+"fit": "OK",
+"trv": "WRONG",
+"env": "OK",
+"note": "Turkish translates 34:20-22 (وَلَقَدْ صَدَّقَ عَلَيْهِمْ إِبْلِيسُ ... مِنْ ظَهِيرٍ), not the 34:46-48 entry.",
+"by": "daas-irab-u19",
+"at": "2026-10-10 19:20",
+"fixed": false
+},
+"p2": {
+"ar": "7ed62468167c",
+"tr": "d23dfaf8cafa",
+"en": "52b9cdf22b57",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-p2-u14",
+"at": "2026-10-16 19:05",
+"fixed": false
+}
+},
+"daas-irab:49-51": {
+"p1": {
+"ar": "6c9f8a6fdfec",
+"tr": "8af9d490953c",
+"en": "e4c64913fec6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-u19",
+"at": "2026-10-10 19:20",
+"fixed": false
+}
+},
+"daas-irab:52-54": {
+"p1": {
+"ar": "cdeda8fe0260",
+"tr": "17a583de135c",
+"en": "889937ce2619",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "daas-irab-u19",
+"at": "2026-10-10 19:20",
+"fixed": false
+}
+}
+}

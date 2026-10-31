@@ -1,0 +1,42 @@
+{
+"zajjaj:56-56": {
+"hs": [
+"4ee5cba22537",
+"4358597236ec",
+"c1a9fe247633"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "The source only quotes the Kufan version «يا مَرْحَباهُ بِجَمّارِ ناجِيَةٍ» and gives no gloss. TR adds '(Merhaba Nâciye'nin taş atıcısına [ya da deveci topluluğuna]!)': the bracketed alternative 'deveci topluluğu' is an unmarked addition and is doubtful (camel-drivers would be جَمّال, not جَمّار), and 'taş atıcısı' is itself a speculative choice. The alternative/uncertainty must be inside a [Mütercim notu: …] (or the gloss limited to a cautious rendering marked as such). Rest of the TR is faithful.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "For «يا مَرْحَباهُ بِجَمّارِ ناجِيَةٍ», TR gives '(Merhaba Nâciye'nin taş atıcısına [ya da deveci topluluğuna]!)'. The bracketed alternative gloss is an unmarked addition not in the Arabic, which gives no meaning for جمّار. It must be put in a [Mütercim notu: ...].",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked alternative gloss [ya da deveci topluluğuna], uncertainty of جمّار stated in a Mütercim notu; [Zeccâc] put in a Mütercim notu",
+"verified": "PASS",
+"verify_note": "Unmarked alternative gloss for جمّار removed; uncertainty now in a Mütercim notu; Zeccâc identification marked; rest complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"4ee5cba22537",
+"ee4f5636f92c",
+"c1a9fe247633"
+],
+"dim": "tr",
+"what": "Removed unmarked alternative gloss [ya da deveci topluluğuna], uncertainty of جمّار stated in a Mütercim notu; [Zeccâc] put in a Mütercim notu",
+"at": "2026-10-17 00:44"
+}
+]
+}
+}

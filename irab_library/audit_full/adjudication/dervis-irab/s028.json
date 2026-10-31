@@ -1,0 +1,43 @@
+{
+"dervis-irab:22-25": {
+"hs": [
+"bea7930ad885",
+"b79929e89ea0",
+"b95bfbe0b6f1"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "HUMAN",
+"evidence": "ʿUmar b. Abī Rabīʿa: «أقبلت مشية الحباب وركني خيفة القوم ازور». Unvocalised and unglossed in the source: الحُباب is commonly explained as 'the snake' (stealthy creeping, which fits مشية 'gait'), while حَباب (الماء) = bubbles, which is how the author's preceding Imruʾ al-Qays line «سمو حباب الماء» uses it and the author sets the two lines side by side as parallels. TR 'suyun kabarcıkları gibi' and EN 'the gait of a gliding serpent' each pick one defensible sense (EN also adds 'gliding'). I cannot prove either wrong from the Arabic alone; the choice (and whether to add a note giving both senses) needs scholarly judgement.",
+"at": "2026-10-17 00:43"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "ʿUmar b. Abī Rabīʿa: «أقبلت مشية ... الحباب وركني خيفة القوم ازور». Here الحُباب is the snake (the standard gloss of this line in the commentaries, e.g. al-Mubarrad: الحباب الحية): he crept stealthily like a snake, side bent for fear of the people; مشية (gait) fits a creeping snake, not bubbles. Unlike Imruʾ al-Qays's «سمو حباب الماء» just before, there is no الماء here. TR «suyun kabarcıkları gibi yavaşça yürüyerek geldim» gives the wrong sense and adds 'suyun' (water), which is not in the Arabic and is unmarked.",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "HUMAN"
+},
+"en": {
+"votes": {
+"J2": {
+"class": "HUMAN",
+"evidence": "ʿUmar b. Abī Rabīʿa: «أقبلت مشية الحباب وركني خيفة القوم ازور». Unvocalised and unglossed in the source: الحُباب is commonly explained as 'the snake' (stealthy creeping, which fits مشية 'gait'), while حَباب (الماء) = bubbles, which is how the author's preceding Imruʾ al-Qays line «سمو حباب الماء» uses it and the author sets the two lines side by side as parallels. TR 'suyun kabarcıkları gibi' and EN 'the gait of a gliding serpent' each pick one defensible sense (EN also adds 'gliding'). I cannot prove either wrong from the Arabic alone; the choice (and whether to add a note giving both senses) needs scholarly judgement.",
+"at": "2026-10-17 00:43"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "«أقبلت مشية الحباب وركني خيفة القوم ازور» -> 'I came forward with the gait of a gliding serpent, my side bent away for fear of the people': الحُباب = snake is the established gloss for this line of ʿUmar b. Abī Rabīʿa (no الماء in the verse, unlike Imruʾ al-Qays's «حباب الماء»). 'gliding' only spells out مشية. The rest of the verse block (فقدت الصوت، أطفئت مصابيح، غاب قمير، روّح رعيان، هوّم سمر، خفض عني الصوت) is rendered completely and correctly.",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "HUMAN"
+}
+}
+}
+}

@@ -1,0 +1,27 @@
+{
+"zajjaj:105-105": {
+"hs": [
+"a8602e096e63",
+"5aa714cd1c09",
+"b555a7eab704"
+],
+"dims": {
+"fit": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Entry discusses only 12:105: ﴿وَكَأيِّنْ مِن آيَةٍ في السَّماواتِ والأرْضِ﴾ and ﴿وَهم عَنْها مُعْرِضُونَ﴾. Truncation at فِيما يَسْتَدِلُّونَ بِهِ is marked by translator's notes in TR/EN; placement correct.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Entry explains ﴿وَكَأيِّنْ مِن آيَةٍ في السَّماواتِ والأرْضِ﴾ and ﴿وَهم عَنْها مُعْرِضُونَ﴾, both in 12:105 only. The source is truncated at والدَّلِيلُ عَلى أنَّهم لا يُفَكِّرُونَ فِيما يَسْتَدِلُّونَ بِهِ, but what exists is placed correctly and both readings flag the break.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

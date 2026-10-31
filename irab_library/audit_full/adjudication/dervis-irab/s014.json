@@ -1,0 +1,153 @@
+{
+"dervis-irab:1-4": {
+"hs": [
+"33ae2407e219",
+"8d157fe77964",
+"2399d926ee70"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic «أكد في كتابه «الإتقان» صحة الحديث بشهادة واحد وعشرين صحابيا ذكروه»: ذكروه is a plural verb whose subject is the twenty-one Companions and whose object هـ is the hadith, i.e. 'twenty-one Companions who mentioned/narrated it'. EN renders 'twenty-one Companions whom he named', making al-Suyuti the subject and the Companions the object — wrong meaning (singular agent, reversed roles). TR 'onu zikreden' is correct.",
+"at": "2026-10-17 00:43"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic «أكد في كتابه «الإتقان» صحة الحديث بشهادة واحد وعشرين صحابيا ذكروه»: ذكروه is a plural verb whose agent is the 21 Companions and whose object is the ḥadīth ('who mentioned/narrated it'). EN 'twenty-one Companions whom he named' makes al-Suyuti the agent and the Companions the object - wrong meaning (TR 'onu zikreden' is correct). Fix: 'twenty-one Companions who mentioned it'.",
+"at": "2026-10-17 00:44"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Benefits: rendered «نص القرآن» correctly (disagreement over the text of the Qur'an like that among the Christians over the Gospel) instead of the Gospel twice; moved '(all meaning \"come\")' into a Translator's note",
+"verify_note": "Flagged fixes OK (ذكروه now 'Companions who mentioned it'; نص القرآن restored; Ibn Masud gloss now in a Translator's note). Remaining: (1) wrong text translated: the Arabic gloss of the Himyarite inscription says «وهاب ... وأخوه بنو كلب» but EN has 'the sons of Kalbat' (taken from the Himyarite كلبت) - should be 'the sons of Kalb'; (2) silent corrections of the source: «ابدال كاف المؤنث شيئا» rendered 'replacing the feminine kaf with shin' and «إلى الخيفة عثمان» rendered 'the caliph Uthman' with no Translator's note (cf. the note given for خير/خبر) - translate and flag as «[Translator's note: the source prints «شيئا», apparently for «شينا»]» and likewise for الخيفة/الخليفة; (3) the two poetry lines فعيناش.../فعيناك... have no short English gloss in parentheses as glossary rule 3 requires.",
+"fix_failed": 3,
+"verified": null
+}
+},
+"history": [
+{
+"old_hs": [
+"33ae2407e219",
+"8d157fe77964",
+"3a185b901247"
+],
+"dim": "en",
+"what": "ذكروه rendered as 'twenty-one Companions who mentioned it' (was 'whom he named')",
+"at": "2026-10-17 00:47"
+},
+{
+"old_hs": [
+"33ae2407e219",
+"8d157fe77964",
+"07f852a17151"
+],
+"dim": "en",
+"what": "Benefits: rendered «نص القرآن» correctly (disagreement over the text of the Qur'an like that among the Christians over the Gospel) instead of the Gospel twice; moved '(all meaning \"come\")' into a Translator's note",
+"at": "2026-10-17 00:53"
+}
+]
+},
+"dervis-irab:5-6": {
+"hs": [
+"fcc80ea728b5",
+"2ef75082d607",
+"79594e23629c"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic «ولبسوا السيجان وهي الطيالسة المدورة الواسعة» is rendered 'They wore al-saylasān' — a different word (طيلسان-like), the source word is السيجان (al-sījān); and «وسورة الخمر وسوارها حدتها» is rendered 'sawrat al-khamr and its sūrāt' — the source has سوارها (suwāruhā), not sūrāt. Both mis-render the lexical headwords of the source. In addition the EN vocabulary section gives the Arabic headwords only in Latin transliteration (e.g. «سوّج وسيّج الكرم» -> 'Sawwaja and sayyaja l-karma') where TR keeps them in Arabic script, against the rule that discussed words stay in Arabic script.",
+"at": "2026-10-17 00:43"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic «ولبسوا السيجان وهي الطيالسة المدورة الواسعة» -> EN 'They wore al-saylasān' names a different word (the headword is السيجان, al-sījān, plural of sāj; الطيالسة is the gloss). Arabic «وسورة الخمر وسوارها حدتها» -> EN 'sawrat al-khamr and its sūrāt' misrenders سوارها (suwāruhā). Both are wrong renderings of the lexical headwords; fix: keep السيجان and سوارها in Arabic script.",
+"at": "2026-10-17 00:44"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved unmarked '[mirage]' in Dhu l-Rumma verse gloss into a Translator's note",
+"verify_note": "Both flagged headword errors are fixed (السيجان now al-sījān / «السيجان»; سوارها now suwāruhā / «سوارها»), and Quranic quotations stay in Arabic. One unmarked addition remains: the gloss of Dhū l-Rumma's verse «بها كل لمّاع بعيد المساوف» reads 'every gleaming [mirage] has far-off distances' - '[mirage]' is not in the Arabic and is not inside a [Translator's note: ...]. Drop it or move it into a note; rest is complete and faithful.",
+"fix_failed": 1
+}
+},
+"history": [
+{
+"old_hs": [
+"fcc80ea728b5",
+"2ef75082d607",
+"e486e744eb12"
+],
+"dim": "en",
+"what": "Lexical headwords corrected and kept in Arabic script: 'al-saylasān' -> «السيجان» (al-sījān), 'its sūrāt' -> «سوارها» (suwāruhā), with «سورة الخمر»",
+"at": "2026-10-17 00:51"
+},
+{
+"old_hs": [
+"fcc80ea728b5",
+"2ef75082d607",
+"3ff7224aa159"
+],
+"dim": "en",
+"what": "Moved unmarked '[mirage]' in Dhu l-Rumma verse gloss into a Translator's note",
+"at": "2026-10-17 00:59"
+}
+]
+},
+"dervis-irab:13-18": {
+"hs": [
+"54da7461284b",
+"ecab4618c7d3",
+"0fdf481995a3"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "On the flagged point: Abu Hayyan's «عارية من رابط يربطها بالمبتدأ وليست نفس المبتدأ في المعنى فلا تحتاج إلى رابط» literally = 'and it is not the mubtada itself in meaning so as not to need a link'; EN 'and it is not the same as the mubtadaʾ in meaning, so it does need a link' flips the wording of the negated fa-clause; the logical upshot (a link is required) is the same, so this alone is a paraphrase rather than a wrong meaning, though a literal rendering is preferable. However EN has an unmarked addition elsewhere: Mutanabbi's «ولو قلم ألقيت في شقّ رأسه ... من السقم ما غيرت من خط كاتب» is rendered 'from illness [emaciation]' — '[emaciation]' is not in the Arabic and is not a Translator's note. Needs fix (move into a note, and preferably render the Abu Hayyan clause literally).",
+"at": "2026-10-17 00:44"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Abu Hayyan quote «عارية من رابط يعود على المثل وليست نفس المبتدأ في المعنى فلا تحتاج إلى رابط»: the Arabic has the negation فلا تحتاج ('[such that] it would not need a link', i.e. it is not the mubtada itself so as to dispense with a link). EN 'and it is not the same as the mubtadaʾ in meaning, so it does need a link' drops the negation لا, translating a different text (silent rewording). Fix: render the negation as written ('so that it would not need a link'), with a Translator's note if needed.",
+"at": "2026-10-17 00:44"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked 'like a lion, so' from Abu Hayyan quote (now 'the implied form being like pus') with explanation in Translator's note; rendered يلقى فيها ما يلقى من ماء شديد literally as 'he meets whatever he meets of intense water'",
+"verify_note": "Both flagged items are fixed (Abū Ḥayyān now literal 'so as not to need a link' with an explanatory Translator's note; '[emaciation]' moved into a Translator's note). But an unmarked addition remains in the ṣadīd passage: Arabic «كما تقول: مررت برجل أسد التقدير مثل صديد» is rendered 'as you say \"I passed a man, a lion,\" the implied being \"like a lion,\" so \"like pus.\"' - '\"like a lion,\" so' is not in the source (which gives only مثل صديد) and is not inside a [Translator's note: ...]. Translate as written and put any explanation in a note. (Minor: «يلقى فيها ما يلقى من ماء شديد» is rendered 'whatever is thrown, and water of intense kind' - the 'and' splits what the Arabic gives as 'what he meets of intense water'.)",
+"fix_failed": 1
+}
+},
+"history": [
+{
+"old_hs": [
+"54da7461284b",
+"ecab4618c7d3",
+"cc566a574614"
+],
+"dim": "en",
+"what": "Abu Hayyan quote: «وليست نفس المبتدأ في المعنى فلا تحتاج إلى رابط» rendered literally with the negation ('so as not to need a link') plus Translator's note; unmarked '[emaciation]' in al-Mutanabbi verse moved into a Translator's note",
+"at": "2026-10-17 00:51"
+},
+{
+"old_hs": [
+"54da7461284b",
+"ecab4618c7d3",
+"8ecef236eb20"
+],
+"dim": "en",
+"what": "Removed unmarked 'like a lion, so' from Abu Hayyan quote (now 'the implied form being like pus') with explanation in Translator's note; rendered يلقى فيها ما يلقى من ماء شديد literally as 'he meets whatever he meets of intense water'",
+"at": "2026-10-17 00:59"
+}
+]
+}
+}

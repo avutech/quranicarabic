@@ -1,0 +1,28 @@
+{
+"dervis-irab:1-15": {
+"p1": {
+"ar": "7ce1e1fe2452",
+"tr": "7ccb9dc1c413",
+"en": "14413618a3f7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u16",
+"at": "2026-10-17 00:07",
+"fixed": false
+},
+"p2": {
+"ar": "7ce1e1fe2452",
+"tr": "7ccb9dc1c413",
+"en": "14413618a3f7",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN rendered Zamakhshari's pattern \"فعلى\" (of الطغوى/خزيا) as fuʿlā; corrected to faʿlā. All negations, attributions, numbers checked.",
+"by": "dervis-irab-p2-u38",
+"at": "2026-10-16 19:28",
+"fixed": true
+}
+}
+}

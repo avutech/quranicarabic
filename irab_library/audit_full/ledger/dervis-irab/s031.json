@@ -1,0 +1,164 @@
+{
+"dervis-irab:16-19": {
+"p1": {
+"ar": "f2bae90adb5d",
+"tr": "076a341ca49a",
+"en": "a7ac19724f70",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR: Asas gloss of «وطأ منه» rendered \"ve onu çek\" corrected to \"alçalt\".",
+"by": "dervis-irab-p1-u15",
+"at": "2026-10-17 00:58",
+"fixed": true
+},
+"p2": {
+"ar": "f2bae90adb5d",
+"tr": "076a341ca49a",
+"en": "a7ac19724f70",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u11",
+"at": "2026-10-17 01:07",
+"fixed": false
+}
+},
+"dervis-irab:20-24": {
+"p1": {
+"ar": "ba0f1e9bc793",
+"tr": "516421f94100",
+"en": "6dd60623d842",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u86",
+"at": "2026-10-10 19:42",
+"fixed": false
+}
+},
+"dervis-irab:25-27": {
+"p1": {
+"ar": "d7e6f50ed8f1",
+"tr": "46186853e85f",
+"en": "ffdb1bc75be9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u86",
+"at": "2026-10-10 19:43",
+"fixed": false
+}
+},
+"dervis-irab:28-32": {
+"p1": {
+"ar": "7e517b15dbf6",
+"tr": "0c78ac43c4d3",
+"en": "cfa124e024e3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u86",
+"at": "2026-10-10 19:43",
+"fixed": false
+}
+},
+"dervis-irab:33-34": {
+"p1": {
+"ar": "0d74084fdf3e",
+"tr": "e047cb923ee5",
+"en": "399711c44f4e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u2",
+"at": "2026-10-17 00:16",
+"fixed": false
+},
+"p2": {
+"ar": "0d74084fdf3e",
+"tr": "e047cb923ee5",
+"en": "399711c44f4e",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN Zamakhshari quote rendered the Quranic words «ولا مولود هو جاز عن والده شيئا» and «هو»/«مولود» in transliteration; restored Arabic script, and made \"غير وارد في حق الولد على الوالد\" literal.",
+"by": "dervis-irab-p2-u4",
+"at": "2026-10-17 00:02",
+"fixed": true
+}
+},
+"dervis-irab:1-7": {
+"p1": {
+"ar": "0c12a0d2c5ab",
+"tr": "47b6b8da6119",
+"en": "343cca6a1d86",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u86",
+"at": "2026-10-10 19:44",
+"fixed": false
+}
+},
+"dervis-irab:8-11": {
+"p1": {
+"ar": "b56ab028f2cc",
+"tr": "218536855620",
+"en": "485210a0ead2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u86",
+"at": "2026-10-10 19:45",
+"fixed": false
+}
+},
+"dervis-irab:12-13": {
+"p1": {
+"ar": "97ea5064906e",
+"tr": "19224a13628f",
+"en": "2ac31178712d",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN: innama kaffa/makfufa rendered as \"restrictive and restricted\" (suggests hasr); corrected to restraining/restrained.",
+"by": "dervis-irab-p1-u2",
+"at": "2026-10-17 00:22",
+"fixed": true
+},
+"p2": {
+"ar": "97ea5064906e",
+"tr": "19224a13628f",
+"en": "2ac31178712d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u2",
+"at": "2026-10-17 00:30",
+"fixed": false
+}
+},
+"dervis-irab:14-15": {
+"p1": {
+"ar": "10b9c3bd071d",
+"tr": "83f338208b8f",
+"en": "04b55e835b27",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u86",
+"at": "2026-10-10 19:44",
+"fixed": false
+}
+}
+}

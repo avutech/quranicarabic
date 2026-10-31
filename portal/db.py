@@ -425,22 +425,23 @@ def effective_unlocks(user_id: int) -> list[str]:
 # ─── Module activation ────────────────────────────────────────────────────────
 # Modules (the feature areas in REFERENCE_TOPICS — Letters, Verbs, Vocab Quiz,
 # I'rab, etc.) are active by default. A row in module_states only exists once an
-# admin has explicitly changed a module's state; absence of a row means active.
+# admin has explicitly changed a module's state; absence of a row means active,
+# except for DEFAULT_INACTIVE_MODULES, which start off until an admin enables them.
+
+DEFAULT_INACTIVE_MODULES = {"self-check"}   # AI i'rab grading — parked by the owner
 
 def get_module_states() -> dict[str, bool]:
     """Return {module_id: active_bool} for every module an admin has touched."""
     with db() as conn:
         rows = conn.execute("SELECT module_id, active FROM module_states").fetchall()
-        return {r["module_id"]: bool(r["active"]) for r in rows}
+        states = {m: False for m in DEFAULT_INACTIVE_MODULES}
+        states.update({r["module_id"]: bool(r["active"]) for r in rows})
+        return states
 
 
 def get_inactive_modules() -> list[str]:
-    """Module ids that have been explicitly turned off."""
-    with db() as conn:
-        rows = conn.execute(
-            "SELECT module_id FROM module_states WHERE active = 0 ORDER BY module_id"
-        ).fetchall()
-        return [r["module_id"] for r in rows]
+    """Module ids that are turned off (explicitly, or by default)."""
+    return sorted(m for m, active in get_module_states().items() if not active)
 
 
 def set_module_active(module_id: str, active: bool) -> None:
@@ -462,7 +463,9 @@ def is_module_active(module_id: str) -> bool:
         row = conn.execute(
             "SELECT active FROM module_states WHERE module_id = ?", (module_id,)
         ).fetchone()
-        return True if row is None else bool(row["active"])
+        if row is None:
+            return module_id not in DEFAULT_INACTIVE_MODULES
+        return bool(row["active"])
 
 
 # ─── Levels (built-in 1-3 + admin-defined extras) ────────────────────────────

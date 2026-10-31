@@ -1,0 +1,10 @@
+{
+ "surah": 87,
+ "chunk": "1-19",
+ "verdicts": {
+  "OK": 69,
+  "GAP": 7
+ },
+ "summary": "Surah 87 ayahs 1-19: all 2 high/medium and 5 low findings OK (false positives: OCR-garbled qira'at quotations, legitimate cross-references). Semantic check done for all 12 books; Arabic/TR/EN match the ayah. 7 GAP lines (source silence). No fixes needed; no source problems.",
+ "at": "2026-10-10 15:15"
+}

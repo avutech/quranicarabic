@@ -1,0 +1,110 @@
+{
+"nahhas-irab:1-1": {
+"p1": {
+"ar": "a652ea2d0009",
+"tr": "83e110e77db3",
+"en": "5952c9db1b0b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:18",
+"fixed": false
+}
+},
+"nahhas-irab:2-2": {
+"p1": {
+"ar": "f7d962138f77",
+"tr": "7ac36177bf69",
+"en": "8c01c6e61b2f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:18",
+"fixed": false
+}
+},
+"nahhas-irab:3-3": {
+"p1": {
+"ar": "c7c3f599394e",
+"tr": "ac1686faef10",
+"en": "8d1d19c99b3b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:18",
+"fixed": false
+},
+"p2": {
+"ar": "c7c3f599394e",
+"tr": "ac1686faef10",
+"en": "8d1d19c99b3b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 18:52",
+"fixed": false
+}
+},
+"nahhas-irab:4-4": {
+"p1": {
+"ar": "9a376c77ee6e",
+"tr": "948556d04c8c",
+"en": "90ccfc1891e2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:18",
+"fixed": false
+}
+},
+"nahhas-irab:5-6": {
+"p1": {
+"ar": "b8905ee31a2d",
+"tr": "8f0f1fa2a756",
+"en": "2801891e1a87",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p1-u4",
+"at": "2026-10-17 00:10",
+"fixed": false
+},
+"p2": {
+"ar": "b8905ee31a2d",
+"tr": "8f0f1fa2a756",
+"en": "2801891e1a87",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN gave the Quranic words of Isa ibn Umar reading only in transliteration (al-ʿusur, yusuran); now الْعُسُرِ، يُسُرًا.",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 18:52",
+"fixed": true
+}
+},
+"nahhas-irab:7-7": {
+"p1": {
+"ar": "85c4ef666fe2",
+"tr": "8e1500f7dbd2",
+"en": "5471b6ce1ea0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u1",
+"at": "2026-10-10 19:18",
+"fixed": false
+}
+}
+}

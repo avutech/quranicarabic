@@ -1,0 +1,295 @@
+{
+"harrat-mujtaba:31-31": {
+"hs": [
+"d28f0f699148",
+"e256b82f34cc",
+"662854779cc8"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "The leading (وَكَذَلِكَ جَعَلْنَا لِكُلِّ نَبِيٍّ عَدُوًّا) is an accurate quotation of the ayah words the entry discusses and it is immediately labelled by the adjacent translator's note ('phrase discussed'), so the reader can tell it is the translator's addition, not source text; the rest of the reading matches the Arabic sentence by sentence. («الكاف نائب مفعول مطلق», «لكل متعلق بالمفعول الثاني», «هاديًا تمييز» all rendered correctly).",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic source begins «الواو مستأنفة، والكاف نائب مفعول مطلق» with no quoted heading; TR prefixes '(وَكَذَلِكَ جَعَلْنَا لِكُلِّ نَبِيٍّ عَدُوًّا)' — the bracket only says 'phrase discussed' while the quoted ayah words themselves stand outside the note; per the standard the addition must be inside the note (fix: move the phrase into the note).",
+"at": "2026-10-17 00:41"
+},
+"J3": {
+"class": "CONFIRMED",
+"evidence": "Arabic source has no lemma/heading phrase; it begins directly with «الواو مستأنفة، والكاف نائب مفعول مطلق». TR adds «(وَكَذَلِكَ جَعَلْنَا لِكُلِّ نَبِيٍّ عَدُوًّا)». The reading prefixes the quoted ayah phrase in parentheses OUTSIDE the note brackets; only the label \"phrase discussed\" is inside the note, so the quoted words themselves are an addition not enclosed in a note. Rest of the translation matches the Arabic. Fix: move the phrase inside the note, e.g. [note: phrase discussed: (...)].",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "moved the quoted ayah phrase inside the translator's note (it was an unmarked addition outside the note)",
+"verified": "PASS",
+"verify_note": "Quoted phrase inside Mütercim notu; all items faithful."
+},
+"en": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "The leading (وكذلك جعلنا) is an accurate quotation of the ayah words the entry discusses and it is immediately labelled by the adjacent translator's note ('phrase discussed'), so the reader can tell it is the translator's addition, not source text; the rest of the reading matches the Arabic sentence by sentence. («والكاف نائب مفعول مطلق» = 'the kāf is a substitute for the mafʿūl muṭlaq', «الباء زائدة» = 'the bāʾ is redundant', «هاديًا تمييز» = 'tamyīz').",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic source begins «الواو مستأنفة» with no quoted heading; EN prefixes '(وكذلك جعلنا)' — the bracket only says 'phrase discussed' while the quoted ayah words themselves stand outside the note; per the standard the addition must be inside the note (fix: move the phrase into the note).",
+"at": "2026-10-17 00:41"
+},
+"J3": {
+"class": "CONFIRMED",
+"evidence": "Arabic source has no lemma/heading phrase; it begins directly with «الواو مستأنفة، والكاف نائب مفعول مطلق». EN adds «(وكذلك جعلنا)». The reading prefixes the quoted ayah phrase in parentheses OUTSIDE the note brackets; only the label \"phrase discussed\" is inside the note, so the quoted words themselves are an addition not enclosed in a note. Rest of the translation matches the Arabic. Fix: move the phrase inside the note, e.g. [note: phrase discussed: (...)].",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "moved the quoted ayah phrase inside the translator's note (it was an unmarked addition outside the note)",
+"verified": "PASS",
+"verify_note": "Quoted phrase inside Translator's note; all items faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"d28f0f699148",
+"4b5d20a1025d",
+"9041aede69a6"
+],
+"dim": "tr",
+"what": "moved the quoted ayah phrase inside the translator's note (it was an unmarked addition outside the note)",
+"at": "2026-10-17 00:45"
+},
+{
+"old_hs": [
+"d28f0f699148",
+"e256b82f34cc",
+"662854779cc8"
+],
+"dim": "en",
+"what": "moved the quoted ayah phrase inside the translator's note (it was an unmarked addition outside the note)",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"harrat-mujtaba:41-41": {
+"hs": [
+"9117dd0ee09b",
+"825e950d6a0f",
+"dca7c22185db"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "The leading (وإذا رأوك إن يتخذونك إلا هزوا) is an accurate quotation of the ayah words the entry discusses and it is immediately labelled by the adjacent translator's note ('phrase discussed'), so the reader can tell it is the translator's addition, not source text; the rest of the reading matches the Arabic sentence by sentence. («إذا ظرفية شرطية متعلقة بجملة قالوا المضمرة», «رسولا حال من الضمير العائد المقدر», «إن يتخذونك معترضة» all rendered correctly).",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic source begins «جملة الشرط مستأنفة، إنْ نافية» with no quoted heading; TR prefixes '(وإذا رأوك إن يتخذونك إلا هزوا)' — the bracket only says 'phrase discussed' while the quoted ayah words themselves stand outside the note; per the standard the addition must be inside the note (fix: move the phrase into the note).",
+"at": "2026-10-17 00:41"
+},
+"J3": {
+"class": "CONFIRMED",
+"evidence": "Arabic source has no lemma/heading phrase; it begins directly with «جملة الشرط مستأنفة، «إنْ» نافية». TR adds «(وإذا رأوك إن يتخذونك إلا هزوا)». The reading prefixes the quoted ayah phrase in parentheses OUTSIDE the note brackets; only the label \"phrase discussed\" is inside the note, so the quoted words themselves are an addition not enclosed in a note. Rest of the translation matches the Arabic. Fix: move the phrase inside the note, e.g. [note: phrase discussed: (...)].",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "moved the quoted ayah phrase inside the translator's note (it was an unmarked addition outside the note)",
+"verified": "PASS",
+"verify_note": "Quoted phrase now inside Mütercim notu; complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"9117dd0ee09b",
+"8f8e8d90f24a",
+"dca7c22185db"
+],
+"dim": "tr",
+"what": "moved the quoted ayah phrase inside the translator's note (it was an unmarked addition outside the note)",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"harrat-mujtaba:51-51": {
+"hs": [
+"8d33761b6ae2",
+"0de08211fc0a",
+"e4eaed7576ba"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "The leading (وَلَوْ شِئْنَا لَبَعَثْنَا فِي كُلِّ قَرْيَةٍ نَذِيرًا) is an accurate quotation of the ayah words the entry discusses and it is immediately labelled by the adjacent translator's note ('phrase discussed'), so the reader can tell it is the translator's addition, not source text; the rest of the reading matches the Arabic sentence by sentence. («جملة الشرط مستأنفة» = 'Şart cümlesi isti'nâfiyyedir').",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic source is only «جملة الشرط مستأنفة»; TR prefixes '(وَلَوْ شِئْنَا لَبَعَثْنَا فِي كُلِّ قَرْيَةٍ نَذِيرًا)' — the bracket only says 'phrase discussed' while the quoted ayah words themselves stand outside the note; per the standard the addition must be inside the note (fix: move the phrase into the note).",
+"at": "2026-10-17 00:41"
+},
+"J3": {
+"class": "CONFIRMED",
+"evidence": "Arabic source is only «جملة الشرط مستأنفة». TR adds «(وَلَوْ شِئْنَا لَبَعَثْنَا فِي كُلِّ قَرْيَةٍ نَذِيرًا)». The reading prefixes the quoted ayah phrase in parentheses OUTSIDE the note brackets; only the label \"phrase discussed\" is inside the note, so the quoted words themselves are an addition not enclosed in a note. Rest of the translation matches the Arabic. Fix: move the phrase inside the note, e.g. [note: phrase discussed: (...)].",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "moved the quoted ayah phrase inside the translator's note (it was an unmarked addition outside the note)",
+"verified": "PASS",
+"verify_note": "Ayah phrase now inside Mütercim notu; 'Şart cümlesi isti'nâfiyyedir' faithful."
+},
+"en": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "The leading (ولو شئنا لبعثنا في كل قرية نذيرا) is an accurate quotation of the ayah words the entry discusses and it is immediately labelled by the adjacent translator's note ('phrase discussed'), so the reader can tell it is the translator's addition, not source text; the rest of the reading matches the Arabic sentence by sentence. («جملة الشرط مستأنفة» = 'The conditional clause is resumptive').",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic source is only «جملة الشرط مستأنفة»; EN prefixes '(ولو شئنا لبعثنا في كل قرية نذيرا)' — the bracket only says 'phrase discussed' while the quoted ayah words themselves stand outside the note; per the standard the addition must be inside the note (fix: move the phrase into the note).",
+"at": "2026-10-17 00:41"
+},
+"J3": {
+"class": "CONFIRMED",
+"evidence": "Arabic source is only «جملة الشرط مستأنفة». EN adds «(ولو شئنا لبعثنا في كل قرية نذيرا)». The reading prefixes the quoted ayah phrase in parentheses OUTSIDE the note brackets; only the label \"phrase discussed\" is inside the note, so the quoted words themselves are an addition not enclosed in a note. Rest of the translation matches the Arabic. Fix: move the phrase inside the note, e.g. [note: phrase discussed: (...)].",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "moved the quoted ayah phrase inside the translator's note (it was an unmarked addition outside the note)",
+"verified": "PASS",
+"verify_note": "Phrase now inside Translator's note; 'conditional clause is resumptive' faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"8d33761b6ae2",
+"92f056b79917",
+"c5d2c566dc02"
+],
+"dim": "tr",
+"what": "moved the quoted ayah phrase inside the translator's note (it was an unmarked addition outside the note)",
+"at": "2026-10-17 00:45"
+},
+{
+"old_hs": [
+"8d33761b6ae2",
+"0de08211fc0a",
+"e4eaed7576ba"
+],
+"dim": "en",
+"what": "moved the quoted ayah phrase inside the translator's note (it was an unmarked addition outside the note)",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"harrat-mujtaba:67-67": {
+"hs": [
+"9c939e64d280",
+"26055d3f5e64",
+"a418e0936229"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "The leading (إذا أنفقوا لم يسرفوا ولم يقتروا) is an accurate quotation of the ayah words the entry discusses and it is immediately labelled by the adjacent translator's note ('phrase discussed'), so the reader can tell it is the translator's addition, not source text; the rest of the reading matches the Arabic sentence by sentence. («جملة الشرط صلة الموصول», «اسم كان ضمير الإنفاق», «بين ظرف متعلق بحال من قواما» all rendered correctly).",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic source begins «جملة الشرط صلة الموصول» with no quoted heading; TR prefixes '(إذا أنفقوا لم يسرفوا ولم يقتروا)' — the bracket only says 'phrase discussed' while the quoted ayah words themselves stand outside the note; per the standard the addition must be inside the note (fix: move the phrase into the note).",
+"at": "2026-10-17 00:41"
+},
+"J3": {
+"class": "CONFIRMED",
+"evidence": "Arabic source has no lemma/heading phrase; it begins directly with «جملة الشرط صلة الموصول، واسم كان ضمير الإنفاق». TR adds «(إذا أنفقوا لم يسرفوا ولم يقتروا)». The reading prefixes the quoted ayah phrase in parentheses OUTSIDE the note brackets; only the label \"phrase discussed\" is inside the note, so the quoted words themselves are an addition not enclosed in a note. Rest of the translation matches the Arabic. Fix: move the phrase inside the note, e.g. [note: phrase discussed: (...)].",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "moved the quoted ayah phrase inside the translator's note (it was an unmarked addition outside the note)",
+"verified": "PASS",
+"verify_note": "Quoted phrase now inside Mütercim notu; three items faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"9c939e64d280",
+"54ff07e8e11f",
+"a418e0936229"
+],
+"dim": "tr",
+"what": "moved the quoted ayah phrase inside the translator's note (it was an unmarked addition outside the note)",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"harrat-mujtaba:73-73": {
+"hs": [
+"f98a2301da93",
+"b226514a2f5d",
+"354e400cd4a3"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "The leading (إذا ذكروا بآيات ربهم لم يخروا عليها صما وعميانا) is an accurate quotation of the ayah words the entry discusses and it is immediately labelled by the adjacent translator's note ('phrase discussed'), so the reader can tell it is the translator's addition, not source text; the rest of the reading matches the Arabic sentence by sentence. («جملة الشرط صلة الموصول», «صُمًّا حال من الواو في يخرُّوا» rendered correctly).",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic source begins «جملة الشرط صلة الموصول، صُمًّا حال» with no quoted heading; TR prefixes '(إذا ذكروا بآيات ربهم لم يخروا عليها صما وعميانا)' — the bracket only says 'phrase discussed' while the quoted ayah words themselves stand outside the note; per the standard the addition must be inside the note (fix: move the phrase into the note).",
+"at": "2026-10-17 00:41"
+},
+"J3": {
+"class": "CONFIRMED",
+"evidence": "Arabic source has no lemma/heading phrase; it begins directly with «جملة الشرط صلة الموصول، «صُمًّا» حال». TR adds «(إذا ذكروا بآيات ربهم لم يخروا عليها صما وعميانا)». The reading prefixes the quoted ayah phrase in parentheses OUTSIDE the note brackets; only the label \"phrase discussed\" is inside the note, so the quoted words themselves are an addition not enclosed in a note. Rest of the translation matches the Arabic. Fix: move the phrase inside the note, e.g. [note: phrase discussed: (...)].",
+"at": "2026-10-17 00:43"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "moved the quoted ayah phrase inside the translator's note (it was an unmarked addition outside the note)",
+"verified": "PASS",
+"verify_note": "Quoted phrase now inside Mütercim notu; both items faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"f98a2301da93",
+"c4eb0559bbaa",
+"354e400cd4a3"
+],
+"dim": "tr",
+"what": "moved the quoted ayah phrase inside the translator's note (it was an unmarked addition outside the note)",
+"at": "2026-10-17 00:45"
+}
+]
+}
+}

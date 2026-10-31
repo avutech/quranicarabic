@@ -1,0 +1,80 @@
+{
+"zajjaj:55-55": {
+"hs": [
+"c00283bc5866",
+"c2bd94691bf2",
+"d6657b88c8d6"
+],
+"dims": {
+"fit": {
+"votes": {
+"J2": {
+"class": "MISPLACED",
+"evidence": "Paragraphs 1-2 are on 20:55 (﴿مِنها خَلَقْناكم وفِيها نُعِيدُكُمْ﴾, ﴿تارَةً أُخْرى﴾). Paragraph 3 (وَقَوْلُهُ: مَكانًا سِوًى، وتُقْرَأُ: سُوًى ... مَنصَفًا) is a substantive reading/meaning discussion of 20:58 (مَكَانًا سُوًى), not of 55.",
+"at": "2026-10-17 00:39",
+"ayahs": "55-58"
+},
+"J1": {
+"class": "MISPLACED",
+"evidence": "Paragraphs 1-2 treat 20:55 (﴿مِنها خَلَقْناكم وفِيها نُعِيدُكُمْ﴾, ﴿تارَةً أُخْرى﴾). Paragraph 3 (وَقَوْلُهُ: مَكانًا سِوًى، وتُقْرَأُ: سُوًى ... مَنصَفًا) substantively explains مَكانًا سُوًى of 20:58, so the entry covers 55 and 58.",
+"at": "2026-10-17 00:39",
+"ayahs": "55-58"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+},
+"zajjaj:63-63": {
+"hs": [
+"fe052a8fa274",
+"ff98e47178fc",
+"3a247f77fb04"
+],
+"dims": {
+"en": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: وهُوَ: إنْ قَدْ وقَعَتْ مَوْقِعَ نَعَمْ ... وأنَّ المَعْنى: هَذانِ لَهُما ساحِرانِ. EN inserts unmarked brackets '[i.e. \"إنَّ\"]' after إنْ and '[i.e. with an omitted mubtadaʾ \"هُما\" after the lām]' after the quoted meaning; neither is in the source and neither is inside a Translator's note. (Also unmarked '[the pronoun of the matter, ḍamīr al-shaʾn]' for هاءٌ مُضْمَرَةٌ.) Needs to be put in Translator's notes.",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source only says: وهُوَ: ”إنْ“، قَدْ وقَعَتْ مَوْقِعَ ”نَعَمْ“ ... وأنَّ المَعْنى: ”هَذانِ لَهُما ساحِرانِ“. EN inserts unmarked '[i.e. \"إنَّ\"]' (silently re-interprets the written إنْ) and '[i.e. with an omitted mubtadaʾ \"هُما\" after the lām]'; also '[the pronoun of the matter, ḍamīr al-shaʾn]' after هاءٌ مُضْمَرَةٌ. None is in the Arabic; must be in Translator's notes.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Remaining unmarked supplements moved into Translator's notes: [al-Mubarrad], [of the nominal sentence], [the women], [the case that]; dropped unmarked [here]",
+"verify_note": "All prior additions (al-Mubarrad, i.e. inna, omitted mubtada huma, damir al-sha'n, the women, nominal sentence, it is the case that) now inside Translator's notes; read sentence by sentence, complete and faithful; the akmah->majority emendation is disclosed in a marked note.",
+"fix_failed": 1,
+"verified": "PASS"
+}
+},
+"history": [
+{
+"old_hs": [
+"fe052a8fa274",
+"ff98e47178fc",
+"07b9609da8b6"
+],
+"dim": "en",
+"what": "Put unmarked brackets [i.e. \"إنَّ\"], [i.e. with an omitted mubtadaʾ \"هُما\" after the lām] and [the pronoun of the matter, ḍamīr al-shaʾn] inside Translator's notes",
+"at": "2026-10-17 00:42"
+},
+{
+"old_hs": [
+"fe052a8fa274",
+"ff98e47178fc",
+"51f51ecd040f"
+],
+"dim": "en",
+"what": "Remaining unmarked supplements moved into Translator's notes: [al-Mubarrad], [of the nominal sentence], [the women], [the case that]; dropped unmarked [here]",
+"at": "2026-10-17 00:46"
+}
+]
+}
+}

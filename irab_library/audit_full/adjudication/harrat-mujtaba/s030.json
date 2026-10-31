@@ -1,0 +1,441 @@
+{
+"harrat-mujtaba:15-15": {
+"hs": [
+"9b47b703f6c5",
+"3417a9a34181",
+"40378a44a1c5"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic source begins directly with the i'rab and contains no ayah quotation; the Turkish puts the ayah text (فَأَمَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ فَهُمْ فِي رَوْضَةٍ يُحْبَرُونَ) in parentheses BEFORE and OUTSIDE «[Mütercim notu: tartışılan ifade]», so the added text is not inside the note as the binding standard requires. The rest of the Turkish faithfully renders the source. Fix: move the quoted ayah inside the Mütercim notu (or drop it). Source: «جملة الشرط مستأنفة، والجار «في روضة» متعلق بجملة الخبر».",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "The Turkish prefixes the ayah text in Arabic script, and the label right after it, [Mütercim notu: tartışılan ifade], marks it as added by the translator. The quoted Quran text is accurate for this ayah. It is a marked heading, not an unmarked addition. The rest of the Turkish translates the Arabic source fully and correctly (فأما الذين آمنوا وعملوا الصالحات فهم في روضة يحبرون; في روضة متعلق بجملة الخبر يحبرون rendered).",
+"at": "2026-10-17 00:42"
+},
+"J3": {
+"class": "CONFIRMED",
+"evidence": "Source starts «جملة الشرط مستأنفة، والجار «في روضة»»; TR prefixes (فَأَمَّا الَّذِينَ آمَنُوا ... يُحْبَرُونَ) outside the note. The Arabic source entry begins directly with the analysis; it contains no quoted ayah text. The reading prefixes a parenthesised ayah quotation that is outside the «[Mütercim notu: ...]» brackets (the note only says \"tartışılan ifade\"), so the quoted Arabic stands as if it were book text: an addition not properly enclosed in the note. The analysis itself is otherwise a faithful rendering; fix = move the quotation inside the note or drop it.",
+"at": "2026-10-17 00:44"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "moved the quoted ayah phrase that stood outside the note inside the translator's note",
+"verified": "PASS",
+"verify_note": "Ayah phrase now inside the translator note; body complete and faithful to the Arabic, nothing unmarked added."
+}
+},
+"history": [
+{
+"old_hs": [
+"9b47b703f6c5",
+"ffb810eb8148",
+"40378a44a1c5"
+],
+"dim": "tr",
+"what": "moved the quoted ayah phrase that stood outside the note inside the translator's note",
+"at": "2026-10-17 00:45"
+},
+{
+"old_hs": [
+"9b47b703f6c5",
+"ffb810eb8148",
+"40378a44a1c5"
+],
+"dim": "tr",
+"what": "moved the quoted ayah phrase that stood outside the note inside the translator's note",
+"at": "2026-10-17 00:46"
+}
+]
+},
+"harrat-mujtaba:33-33": {
+"hs": [
+"735cd3f9e5ad",
+"81bc34ead7e1",
+"ba3d976121be"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic source begins directly with the i'rab and contains no ayah quotation; the Turkish puts the ayah text (وَإِذَا مَسَّ النَّاسَ ضُرٌّ ... يُشْرِكُونَ) in parentheses BEFORE and OUTSIDE «[Mütercim notu: tartışılan ifade]», so the added text is not inside the note as the binding standard requires. The rest of the Turkish faithfully renders the source. Fix: move the quoted ayah inside the Mütercim notu (or drop it). Source starts «جملة الشرط مستأنفة، وجملة «مسّ» مضاف إليه».",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "The Turkish prefixes the ayah text in Arabic script, and the label right after it, [Mütercim notu: tartışılan ifade], marks it as added by the translator. The quoted Quran text is accurate for this ayah. It is a marked heading, not an unmarked addition. The rest of the Turkish translates the Arabic source fully and correctly (وإذا مس الناس ضر ... يشركون; منيبين حال من الواو في دعوا, إذا فجائية, فريق مبتدأ, منهم متعلق بنعت, يشركون خبر all rendered).",
+"at": "2026-10-17 00:42"
+},
+"J3": {
+"class": "CONFIRMED",
+"evidence": "The Arabic source begins directly with «جملة الشرط مستأنفة» and contains no quotation of the ayah. The Turkish opens with the full ayah «(وَإِذَا مَسَّ النَّاسَ ضُرٌّ دَعَوْا رَبَّهُمْ مُنِيبِينَ إِلَيْهِ ... بِرَبِّهِمْ يُشْرِكُونَ)» standing OUTSIDE the brackets, followed by «[Mütercim notu: tartışılan ifade]». The note only labels the text; the added ayah itself is not inside the note, so it is an unmarked addition under the binding rule. The rest of the Turkish is a complete, correct rendering (isti'nâfiyye, «مسّ» muzâfun ileyh, «منيبين» hâl from the vâv of «دعوا», «إليه» müteallik to the hâl, second şart ma'tûf, «إذا» fücâiyye, «فريق» mübtedâ, «منهم» to the sıfat of «فريق», «يشركون» haber, «بربهم» to «يشركون»). Fix: put the quoted ayah inside the note, e.g. «[Mütercim notu: tartışılan ifade: (وَإِذَا مَسَّ ...)]».",
+"at": "2026-10-17 01:04"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved the quoted ayah inside the Mütercim notu",
+"verified": "PASS",
+"verify_note": "Ayah quotation now fully inside [Mütercim notu: tartışılan ifade: ...]; every clause of the i'rab (isti'nâfiyye, مسّ muzâfun ileyh, منيبين hâl, إليه, ma'tûf, إذا fücâiyye, فريق mübtedâ, منهم sıfat, يشركون haber, بربهم) rendered faithfully; nothing unmarked added."
+}
+},
+"history": [
+{
+"old_hs": [
+"735cd3f9e5ad",
+"803c43ac3389",
+"ba3d976121be"
+],
+"dim": "tr",
+"what": "Moved the quoted ayah inside the Mütercim notu",
+"at": "2026-10-17 01:05"
+}
+]
+},
+"harrat-mujtaba:36-36": {
+"hs": [
+"802c87966dc0",
+"8c01e1d6e832",
+"d55c499f3c3c"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic source begins directly with the i'rab and contains no ayah quotation; the Turkish puts the ayah text (وَإِذَا أَذَقْنَا النَّاسَ رَحْمَةً ... يَقْنَطُونَ) in parentheses BEFORE and OUTSIDE «[Mütercim notu: tartışılan ifade]», so the added text is not inside the note as the binding standard requires. The rest of the Turkish faithfully renders the source. Fix: move the quoted ayah inside the Mütercim notu (or drop it). Source starts «جملة الشرط معطوفة على جملة الشرط: {وَإِذَا مَسَّ}».",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "The Turkish prefixes the ayah text in Arabic script, and the label right after it, [Mütercim notu: tartışılan ifade], marks it as added by the translator. The quoted Quran text is accurate for this ayah. It is a marked heading, not an unmarked addition. The rest of the Turkish translates the Arabic source fully and correctly (وإذا أذقنا الناس رحمة ... يقنطون; معطوفة على وإذا مس في الآية 33, رحمة مفعول ثان, بما متعلق بتصبهم, إذا فجائية rendered).",
+"at": "2026-10-17 00:42"
+},
+"J3": {
+"class": "CONFIRMED",
+"evidence": "Source starts «جملة الشرط معطوفة على جملة الشرط: {وَإِذَا مَسَّ}»; TR prefixes (وَإِذَا أَذَقْنَا النَّاسَ رَحْمَةً ... يَقْنَطُونَ) outside the note. The Arabic source entry begins directly with the analysis; it contains no quoted ayah text. The reading prefixes a parenthesised ayah quotation that is outside the «[Mütercim notu: ...]» brackets (the note only says \"tartışılan ifade\"), so the quoted Arabic stands as if it were book text: an addition not properly enclosed in the note. The analysis itself is otherwise a faithful rendering; fix = move the quotation inside the note or drop it.",
+"at": "2026-10-17 00:44"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "moved the quoted ayah phrase that stood outside the note inside the translator's note",
+"verified": "PASS",
+"verify_note": "Quoted ayah inside Mütercim notu; body faithful incl. reference to ayah 33."
+}
+},
+"history": [
+{
+"old_hs": [
+"802c87966dc0",
+"ea4556678f50",
+"d55c499f3c3c"
+],
+"dim": "tr",
+"what": "moved the quoted ayah phrase that stood outside the note inside the translator's note",
+"at": "2026-10-17 00:45"
+},
+{
+"old_hs": [
+"802c87966dc0",
+"ea4556678f50",
+"d55c499f3c3c"
+],
+"dim": "tr",
+"what": "moved the quoted ayah phrase that stood outside the note inside the translator's note",
+"at": "2026-10-17 00:46"
+}
+]
+},
+"harrat-mujtaba:49-49": {
+"hs": [
+"540ee1207cc6",
+"0829a7648a0c",
+"72eb775d5f18"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic source begins directly with the i'rab and contains no ayah quotation; the Turkish puts the ayah text (وَإِنْ كَانُوا مِنْ قَبْلِ أَنْ يُنَزَّلَ عَلَيْهِمْ مِنْ قَبْلِهِ لَمُبْلِسِينَ) in parentheses BEFORE and OUTSIDE «[Mütercim notu: tartışılan ifade]», so the added text is not inside the note as the binding standard requires. The rest of the Turkish faithfully renders the source. Fix: move the quoted ayah inside the Mütercim notu (or drop it). Source starts «الواو حالية، والجملة حالية من الواو في {يَسْتَبْشِرُونَ}».",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "The Turkish prefixes the ayah text in Arabic script, and the label right after it, [Mütercim notu: tartışılan ifade], marks it as added by the translator. The quoted Quran text is accurate for this ayah. It is a marked heading, not an unmarked addition. The rest of the Turkish translates the Arabic source fully and correctly (وإن كانوا من قبل أن ينزل عليهم من قبله لمبلسين; إن مخففة مهملة, اللام الفارقة, من قبل متعلق بالخبر rendered).",
+"at": "2026-10-17 00:42"
+},
+"J3": {
+"class": "CONFIRMED",
+"evidence": "Source starts «الواو حالية، والجملة حالية من الواو في {يَسْتَبْشِرُونَ}»; TR prefixes (وَإِنْ كَانُوا مِنْ قَبْلِ ... لَمُبْلِسِينَ) outside the note. The Arabic source entry begins directly with the analysis; it contains no quoted ayah text. The reading prefixes a parenthesised ayah quotation that is outside the «[Mütercim notu: ...]» brackets (the note only says \"tartışılan ifade\"), so the quoted Arabic stands as if it were book text: an addition not properly enclosed in the note. The analysis itself is otherwise a faithful rendering; fix = move the quotation inside the note or drop it.",
+"at": "2026-10-17 00:44"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "moved the quoted ayah phrase that stood outside the note inside the translator's note",
+"verified": "PASS",
+"verify_note": "Ayah quotation now inside Mütercim notu; body renders all clauses (waw haliyya, hal from waw of يستبشرون, إن mukhaffafa muhmala, lam fariqa, من قبل muta'alliq bil-khabar) faithfully; (إن) is only the implied referent of المخففة/النافية."
+}
+},
+"history": [
+{
+"old_hs": [
+"540ee1207cc6",
+"bbbbdd4e9381",
+"72eb775d5f18"
+],
+"dim": "tr",
+"what": "moved the quoted ayah phrase that stood outside the note inside the translator's note",
+"at": "2026-10-17 00:45"
+},
+{
+"old_hs": [
+"540ee1207cc6",
+"bbbbdd4e9381",
+"72eb775d5f18"
+],
+"dim": "tr",
+"what": "moved the quoted ayah phrase that stood outside the note inside the translator's note",
+"at": "2026-10-17 00:46"
+}
+]
+},
+"harrat-mujtaba:51-51": {
+"hs": [
+"f2d9487ef412",
+"a87316a3c9ef",
+"d676e02c0b73"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic source begins directly with the i'rab and contains no ayah quotation; the Turkish puts the ayah text (وَلَئِنْ أَرْسَلْنَا رِيحًا فَرَأَوْهُ مُصْفَرًّا ...) in parentheses BEFORE and OUTSIDE «[Mütercim notu: tartışılan ifade]», so the added text is not inside the note as the binding standard requires. The rest of the Turkish faithfully renders the source. Fix: move the quoted ayah inside the Mütercim notu (or drop it). Source starts «الواو مستأنفة، واللام موطئة للقسم».",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "The Turkish prefixes the ayah text in Arabic script, and the label right after it, [Mütercim notu: tartışılan ifade], marks it as added by the translator. The quoted Quran text is accurate for this ayah. It is a marked heading, not an unmarked addition. The rest of the Turkish translates the Arabic source fully and correctly (ولئن أرسلنا ريحا فرأوه مصفرا لظلوا من بعده يكفرون; اللام موطئة للقسم, مصفرا حال من الهاء العائدة على النبات, لظلوا جواب القسم rendered).",
+"at": "2026-10-17 00:42"
+},
+"J3": {
+"class": "CONFIRMED",
+"evidence": "Source starts «الواو مستأنفة، واللام موطئة للقسم»; TR prefixes (وَلَئِنْ أَرْسَلْنَا رِيحًا ... يَكْفُرُونَ) outside the note. The Arabic source entry begins directly with the analysis; it contains no quoted ayah text. The reading prefixes a parenthesised ayah quotation that is outside the «[Mütercim notu: ...]» brackets (the note only says \"tartışılan ifade\"), so the quoted Arabic stands as if it were book text: an addition not properly enclosed in the note. The analysis itself is otherwise a faithful rendering; fix = move the quotation inside the note or drop it.",
+"at": "2026-10-17 00:44"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "moved the quoted ayah phrase that stood outside the note inside the translator's note",
+"verified": "PASS",
+"verify_note": "Ayah quote now inside Mütercim notu; body complete and faithful: vâv isti'nâfiyye, lâm muvattıe, musfarran hâl from the hâ referring to vegetation by context, lezallû kasem cevabı, min ba'dihî yekfurûn'a müteallik; nothing unmarked added."
+}
+},
+"history": [
+{
+"old_hs": [
+"f2d9487ef412",
+"4a74b558a6e9",
+"d676e02c0b73"
+],
+"dim": "tr",
+"what": "moved the quoted ayah phrase that stood outside the note inside the translator's note",
+"at": "2026-10-17 00:45"
+},
+{
+"old_hs": [
+"f2d9487ef412",
+"4a74b558a6e9",
+"d676e02c0b73"
+],
+"dim": "tr",
+"what": "moved the quoted ayah phrase that stood outside the note inside the translator's note",
+"at": "2026-10-17 00:46"
+}
+]
+},
+"harrat-mujtaba:53-53": {
+"hs": [
+"82998ac1e979",
+"d470fa8c2edf",
+"9128bdb4ad92"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic source begins directly with the i'rab and contains no ayah quotation; the Turkish puts the ayah text (وَمَا أَنْتَ بِهَادِ الْعُمْيِ ... مُسْلِمُونَ) in parentheses BEFORE and OUTSIDE «[Mütercim notu: tartışılan ifade]», so the added text is not inside the note as the binding standard requires. The rest of the Turkish faithfully renders the source. Fix: move the quoted ayah inside the Mütercim notu (or drop it). Source starts «جملة النفي معطوفة على جملة «إنك لا تسمع»».",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "The Turkish prefixes the ayah text in Arabic script, and the label right after it, [Mütercim notu: tartışılan ifade], marks it as added by the translator. The quoted Quran text is accurate for this ayah. It is a marked heading, not an unmarked addition. The rest of the Turkish translates the Arabic source fully and correctly (وما أنت بهاد العمي ... فهم مسلمون; ما تعمل عمل ليس, الباء زائدة, عن ضلالتهم متعلق بهادي متضمنا معنى صارف rendered).",
+"at": "2026-10-17 00:42"
+},
+"J3": {
+"class": "CONFIRMED",
+"evidence": "Source starts «جملة النفي معطوفة على جملة «إنك لا تسمع»»; TR prefixes (وَمَا أَنْتَ بِهَادِ الْعُمْيِ ... مُسْلِمُونَ) outside the note. The Arabic source entry begins directly with the analysis; it contains no quoted ayah text. The reading prefixes a parenthesised ayah quotation that is outside the «[Mütercim notu: ...]» brackets (the note only says \"tartışılan ifade\"), so the quoted Arabic stands as if it were book text: an addition not properly enclosed in the note. The analysis itself is otherwise a faithful rendering; fix = move the quotation inside the note or drop it.",
+"at": "2026-10-17 00:44"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "moved the quoted ayah phrase that stood outside the note inside the translator's note",
+"verified": "PASS",
+"verify_note": "Ayah phrase now inside Mütercim notu; body faithful (صارف kept in Arabic with translation)."
+}
+},
+"history": [
+{
+"old_hs": [
+"82998ac1e979",
+"db7a15087220",
+"9128bdb4ad92"
+],
+"dim": "tr",
+"what": "moved the quoted ayah phrase that stood outside the note inside the translator's note",
+"at": "2026-10-17 00:45"
+},
+{
+"old_hs": [
+"82998ac1e979",
+"db7a15087220",
+"9128bdb4ad92"
+],
+"dim": "tr",
+"what": "moved the quoted ayah phrase that stood outside the note inside the translator's note",
+"at": "2026-10-17 00:46"
+}
+]
+},
+"harrat-mujtaba:58-58": {
+"hs": [
+"5b0590dc7dc0",
+"d65b2465f37a",
+"48601c992605"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic says only «حروف الجر الثلاثة متعلقة بـ «ضربنا»» (the three prepositions). Turkish renders «üç cer harfi(yle yapılan câr ve mecrûrlar)»: the parenthetical '(yle yapılan câr ve mecrûrlar)' is an explanatory addition not in the Arabic and is not inside «[Mütercim notu: …]». Rest of the Turkish is faithful. Fix: 'üç cer harfi' + the gloss inside a Mütercim notu.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "The source says حروف الجر الثلاثة متعلقة بـ ضربنا (the three prepositions are attached to ضربنا). The Turkish writes üç cer harfi(yle yapılan câr ve mecrûrlar), and the parenthetical (yle yapılan câr ve mecrûrlar) is an interpretive gloss that is not in the Arabic and has no [Mütercim notu: …] marker. It is an unmarked addition, and the fix is to put it inside a translator's note. The rest is correct.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "put the unmarked gloss (yle yapılan câr ve mecrûrlar) inside a Mütercim notu after 'üç cer harfi'",
+"verified": "PASS",
+"verify_note": "câr-mecrûr gloss inside Mütercim notu; rest faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"5b0590dc7dc0",
+"c1f3c2866bc1",
+"48601c992605"
+],
+"dim": "tr",
+"what": "put the unmarked gloss (yle yapılan câr ve mecrûrlar) inside a Mütercim notu after 'üç cer harfi'",
+"at": "2026-10-17 00:45"
+},
+{
+"old_hs": [
+"5b0590dc7dc0",
+"c1f3c2866bc1",
+"48601c992605"
+],
+"dim": "tr",
+"what": "put the unmarked gloss (yle yapılan câr ve mecrûrlar) inside a Mütercim notu after 'üç cer harfi'",
+"at": "2026-10-17 00:46"
+}
+]
+},
+"harrat-mujtaba:59-59": {
+"hs": [
+"6bbead09a016",
+"7849c66ab2a0",
+"6c8deaa43fb3"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic begins directly with «الكاف نائب مفعول مطلق»; it contains no quotation of the ayah. Turkish prefixes the full ayah «(كَذَلِكَ يَطْبَعُ اللَّهُ عَلَى قُلُوبِ الَّذِينَ لَا يَعْلَمُونَ)» OUTSIDE the brackets of «[Mütercim notu: tartışılan ifade]», so the added text itself is not inside a note. Rest of the translation is accurate (يطبع طبعًا مثل ذلك الطبع; مستأنفة). Fix: move the quoted phrase inside the Mütercim notu.",
+"at": "2026-10-17 00:42"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "The Arabic entry begins directly with «الكاف نائب مفعول مطلق»; it does not quote the ayah. The Turkish puts the full ayah (كَذَلِكَ يَطْبَعُ اللَّهُ عَلَى قُلُوبِ الَّذِينَ لَا يَعْلَمُونَ) in front of the note, outside the brackets. The note only says «tartışılan ifade», so the quote itself is an unmarked addition. The rest is correct: «يطبع طبعًا مثل ذلك الطبع» and «جملة يطبع مستأنفة» are both rendered. Fix: move the quoted phrase inside the [Mütercim notu: …].",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "moved the prefixed ayah quote (outside the note) inside the Mütercim notu",
+"verified": "PASS",
+"verify_note": "Ayah phrase now inside the translator note; body complete and faithful to the Arabic, nothing unmarked added."
+},
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic has no lemma; English prefixes «(كذلك يطبع الله)» outside the brackets of «[Translator's note: phrase discussed]», so the addition itself is unmarked. Grammar translation is otherwise correct (نائب مفعول مطلق, مضاف إليه, مستأنفة). Fix: put the quoted phrase inside the note.",
+"at": "2026-10-17 00:42"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "The Arabic source does not contain the lemma «(كذلك يطبع الله)». The English adds it before «[Translator's note: phrase discussed]», outside the note, so it is an unmarked addition. Everything else is a faithful rendering: «نائب مفعول مطلق», «الإشارة مضاف إليه», «يطبع طبعًا مثل ذلك الطبع» and «مستأنفة». Fix: put the phrase inside the translator's note.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "moved the prefixed ayah quote (outside the note) inside the Translator's note",
+"verified": "PASS",
+"verify_note": "Ayah phrase now inside the translator note; body complete and faithful to the Arabic, nothing unmarked added."
+}
+},
+"history": [
+{
+"old_hs": [
+"6bbead09a016",
+"c06e350297c3",
+"197baeeb31a3"
+],
+"dim": "tr",
+"what": "moved the prefixed ayah quote (outside the note) inside the Mütercim notu",
+"at": "2026-10-17 00:46"
+},
+{
+"old_hs": [
+"6bbead09a016",
+"7849c66ab2a0",
+"197baeeb31a3"
+],
+"dim": "en",
+"what": "moved the prefixed ayah quote (outside the note) inside the Translator's note",
+"at": "2026-10-17 00:46"
+}
+]
+}
+}

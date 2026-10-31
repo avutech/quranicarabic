@@ -1,0 +1,298 @@
+{
+"dervis-irab:1-6": {
+"p1": {
+"ar": "a502dd14bffc",
+"tr": "ce6536c9da7c",
+"en": "f086ff6ee30e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u89",
+"at": "2026-10-10 19:42",
+"fixed": false
+}
+},
+"dervis-irab:7-9": {
+"p1": {
+"ar": "f6e05c64b707",
+"tr": "4fbcfb647178",
+"en": "388bd26ff417",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u89",
+"at": "2026-10-10 19:42",
+"fixed": false
+}
+},
+"dervis-irab:10-12": {
+"p1": {
+"ar": "6ff084f27322",
+"tr": "15bf59e74c38",
+"en": "f1a6e8cc322f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u89",
+"at": "2026-10-10 19:43",
+"fixed": false
+}
+},
+"dervis-irab:36-46": {
+"p1": {
+"ar": "42765ef42118",
+"tr": "3098aad0d232",
+"en": "5cb7ff2a9077",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u3",
+"at": "2026-10-17 00:17",
+"fixed": false
+},
+"p2": {
+"ar": "42765ef42118",
+"tr": "3098aad0d232",
+"en": "5cb7ff2a9077",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR: unmarked addition \"(ikinci durumda)\" removed twice (40:39 \"والجملة خبر إن\" after دار القرار, and 40:43 after أصحاب النار); all negations/numbers/attributions checked, otherwise faithful.",
+"by": "dervis-irab-p2-u5",
+"at": "2026-10-17 00:03",
+"fixed": true
+}
+},
+"dervis-irab:47-52": {
+"p1": {
+"ar": "bfc70f175120",
+"tr": "5fedb7f0f9a2",
+"en": "1d1156abfb20",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u89",
+"at": "2026-10-10 19:43",
+"fixed": false
+}
+},
+"dervis-irab:13-18": {
+"p1": {
+"ar": "4422a90990ab",
+"tr": "5f7539c72d70",
+"en": "f27fcdc4805c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u3",
+"at": "2026-10-17 00:16",
+"fixed": false
+},
+"p2": {
+"ar": "4422a90990ab",
+"tr": "5f7539c72d70",
+"en": "f27fcdc4805c",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR: unmarked additions removed (\"(ibadet edin)\" for فادعوا, \"(vacip demedik)\" after \"وإنما قلنا بأرجحية الاعراب\", \"(İbn Mâlik)\" before الخلاصة). EN: \"وعوملت الحناجر\" silently changed to \"The hearts\" (now الحناجر with note); Quranic quotations «رأيتهم لي ساجدين» and «فظلت أعناقهم لها خاضعين» were given only in English (restored in Arabic); note added for \"فيجزي لأمر كذلك\".",
+"by": "dervis-irab-p2-u5",
+"at": "2026-10-17 00:03",
+"fixed": true
+}
+},
+"dervis-irab:19-22": {
+"p1": {
+"ar": "9133cf953af5",
+"tr": "d44136d71e35",
+"en": "ae68120e7ac3",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR: source typo «خبر ان» was silently normalised, now marked with translator note; removed unmarked \"(o niyet)\" after Ibn Abbas quote.",
+"by": "dervis-irab-p1-u15",
+"at": "2026-10-17 00:59",
+"fixed": true
+},
+"p2": {
+"ar": "9133cf953af5",
+"tr": "d44136d71e35",
+"en": "ae68120e7ac3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u11",
+"at": "2026-10-17 01:08",
+"fixed": false
+}
+},
+"dervis-irab:23-27": {
+"p1": {
+"ar": "13ea05691df2",
+"tr": "c9ae3bd6a041",
+"en": "98a3f63d02b7",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u89",
+"at": "2026-10-10 19:44",
+"fixed": false
+}
+},
+"dervis-irab:28-29": {
+"p1": {
+"ar": "49da3b00a140",
+"tr": "dc52091128ea",
+"en": "2aa80c695879",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u89",
+"at": "2026-10-10 19:44",
+"fixed": false
+}
+},
+"dervis-irab:30-35": {
+"p1": {
+"ar": "a2b00488ce3d",
+"tr": "a222c7618da5",
+"en": "64da97a1c84e",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u3",
+"at": "2026-10-17 00:16",
+"fixed": false
+},
+"p2": {
+"ar": "a2b00488ce3d",
+"tr": "a222c7618da5",
+"en": "64da97a1c84e",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN reversed the order in \"عوملت معاملة لفظها من بعد معاملة معناها\" (\"form and then meaning\"; now form after meaning); silent corrections of «العباد», «إذ», «تأويله», «جمع القلب» now marked with notes; unmarked \"(of kāna's sisters)\" removed.",
+"by": "dervis-irab-p2-u5",
+"at": "2026-10-17 00:03",
+"fixed": true
+}
+},
+"dervis-irab:53-59": {
+"p1": {
+"ar": "407bedcdbbbc",
+"tr": "26d4eca84af5",
+"en": "11a5ba984bd0",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR: مغلولان rendered as kırık, fixed to zincire vurulmuş; EN: كانوا مقرين بأن الله خالقها said \"their Creator\" of people, but refers to heavens and earth, fixed",
+"by": "dervis-irab-u89",
+"at": "2026-10-10 19:44",
+"fixed": true
+},
+"p2": {
+"ar": "407bedcdbbbc",
+"tr": "26d4eca84af5",
+"en": "11a5ba984bd0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u5",
+"at": "2026-10-17 00:03",
+"fixed": false
+}
+},
+"dervis-irab:60-63": {
+"p1": {
+"ar": "588246c96aef",
+"tr": "73e6351d4426",
+"en": "09defcf972eb",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u89",
+"at": "2026-10-10 19:44",
+"fixed": false
+}
+},
+"dervis-irab:64-68": {
+"p1": {
+"ar": "6021f1db8be1",
+"tr": "abee9cf9f466",
+"en": "994ec73ccd0a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u89",
+"at": "2026-10-10 19:45",
+"fixed": false
+}
+},
+"dervis-irab:69-76": {
+"p1": {
+"ar": "e280cd829397",
+"tr": "fb9fb69b1648",
+"en": "a905c12902cf",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u89",
+"at": "2026-10-10 19:45",
+"fixed": false
+}
+},
+"dervis-irab:77-78": {
+"p1": {
+"ar": "faa1877789b9",
+"tr": "8cfccba83b5e",
+"en": "4e4a30264ea4",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR: unmarked addition (mahzuftur) for the apodosis of the first condition; source omits \"محذوف\"; replaced with translators note as EN has",
+"by": "dervis-irab-u89",
+"at": "2026-10-10 19:45",
+"fixed": true
+},
+"p2": {
+"ar": "faa1877789b9",
+"tr": "8cfccba83b5e",
+"en": "4e4a30264ea4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u5",
+"at": "2026-10-17 00:04",
+"fixed": false
+}
+},
+"dervis-irab:79-85": {
+"p1": {
+"ar": "535f6095eee2",
+"tr": "e68c27a5fcb6",
+"en": "0e38bb415473",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u89",
+"at": "2026-10-10 19:46",
+"fixed": false
+}
+}
+}

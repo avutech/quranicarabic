@@ -1,0 +1,200 @@
+{
+"semin-durr:34-34": {
+"hs": [
+"2a94b79f7c42",
+"6bf5dfdb37c3",
+"f8d5cac598cb"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «من تكذيبِ أَتْباع الرسل للرسل والصبر والإِيذاء» = 'the followers of the messengers denying the messengers'. TR renders «peygamberlere tâbi olanların [toplumlarının] peygamberleri yalanlaması»: the bracketed «[toplumlarının]» is not in the Arabic, is not inside a «[Mütercim notu: …]», and shifts the sense to 'the communities of those who follow'. Unmarked addition; must be removed or put in a translator's note.",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic (Shaykh's quote): «ولقد جاءك هذا الخبرُ من تكذيبِ أَتْباع الرسل للرسل». TR: «peygamberlere tâbi olanların [toplumlarının] peygamberleri yalanlaması» - «[toplumlarının]» is an interpretive gloss not in the Arabic, given in plain brackets instead of «[Mütercim notu: …]»; unmarked addition. Fix: move it into a translator's note.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved unmarked bracket '[toplumlarının]' into a Mütercim notu",
+"verified": "PASS",
+"verify_note": "[toplumlarının] moved into Mütercim notu; typo notes marked; reading complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"2a94b79f7c42",
+"aa5ce1bd36bc",
+"f8d5cac598cb"
+],
+"dim": "tr",
+"what": "Moved unmarked bracket '[toplumlarının]' into a Mütercim notu",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"semin-durr:41-41": {
+"hs": [
+"36d7b45bf07f",
+"1b8682992878",
+"3b145a084a6f"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Verse 192-2 «ثم آوي إلى أمَّا ويَرْويني النقيعُ»: TR «ve [ılık] içecek beni kandırır». Nothing in the Arabic means 'warm' (النقيع is a steeped/soaked drink or water; if anything lexicons associate it with cooled milk), and the bracket is not a «[Mütercim notu: …]». Unmarked, unsupported addition.",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Verse 192-2 «أُطَوِّفُ ما أُطَوِّفُ ثم آوي ... إلى أمَّا ويَرْويني النقيعُ»: TR renders «ويرويني النقيع» as «ve [ılık] içecek beni kandırır». Nothing in the Arabic says 'warm' (النقيع is a steeped or cooled drink or milk), so «[ılık]» is an unmarked and doubtful addition. Fix: drop it or put any gloss in «[Mütercim notu: …]». Rest of the TR is complete.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Verse 192-2: removed unmarked, unsupported '[ılık]' from the rendering of ويرويني النقيع"
+}
+},
+"history": [
+{
+"old_hs": [
+"36d7b45bf07f",
+"5a0fd0228bcf",
+"3b145a084a6f"
+],
+"dim": "tr",
+"what": "Verse 192-2: removed unmarked, unsupported '[ılık]' from the rendering of ويرويني النقيع",
+"at": "2026-10-17 00:43"
+}
+]
+},
+"semin-durr:50-50": {
+"hs": [
+"1c86379ba127",
+"6d7c3d695fe1",
+"a88950d50880"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic has only «وهذا تخريجُ الشيخ»; TR «Bu, Şeyh'in (Ebû Hayyân'ın) tahrîcidir» adds the identification «(Ebû Hayyân'ın)» without «[Mütercim notu: …]». The identification is probably correct, but glossary rule 9 requires every explanatory addition to be marked; as written it is an unmarked addition.",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic has only «وهذا تخريجُ الشيخ». TR «Bu, Şeyh'in (Ebû Hayyân'ın) tahrîcidir» adds the identification «(Ebû Hayyân)» in plain parentheses, not inside «[Mütercim notu: …]»; unmarked addition. The identification is correct, but it has to go in a note.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Unmarked '(Ebû Hayyân'ın)' after Şeyh moved into Mütercim notu",
+"verified": "PASS",
+"verify_note": "Ebû Hayyân now inside Mütercim notu; spelling notes marked; complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"1c86379ba127",
+"9a089bc4d318",
+"a88950d50880"
+],
+"dim": "tr",
+"what": "Unmarked '(Ebû Hayyân'ın)' after Şeyh moved into Mütercim notu",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"semin-durr:52-52": {
+"hs": [
+"5996b6ebf502",
+"9e055913bf04",
+"3d7b7418f8ff"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «ثم إنه وقع في محذور آخر مما أَصْلَحَ به كلام أبي القاسم». TR: «Sonra Şeyh, Ebü'l-Kâsım'ın (Zemahşerî'nin) sözünü düzelttiği şeyde...»: the pronoun «إنه» is replaced by the name «Şeyh» and «(Zemahşerî'nin)» is added, neither inside «[Mütercim notu: …]». The referents are correct (the Shaykh's correction «أو لا تؤاخذ أنت ولا هم بحسابكم» of Zamakhsharī), but per glossary rule 9 these explanatory additions must be marked.",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «ثم إنه وقع في محذور آخر مما أَصْلَحَ به كلام أبي القاسم». TR «Sonra Şeyh, Ebü'l-Kâsım'ın (Zemahşerî'nin) sözünü düzelttiği şeyde...» turns the bare pronoun «إنه» into the name «Şeyh» and adds «(Zemahşerî'nin)». Neither is in the Arabic and neither is marked as a Mütercim notu. The referent (the Shaykh) is correct, but both are unmarked additions.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Marked unmarked additions as Mütercim notu: '(aslan için)' after أسامة and '(mahzûf «sabit olmak» manası)'; replaced silent correction '(Nefyin) cevabı' with 'Nehyin cevabı' per source (existing note explains)",
+"verify_note": "Referents of إنه and أبي القاسم now inside [Mütercim notu: Şeyh]/[Mütercim notu: Zemahşerî]; أسامة gloss 'aslan için' now inside a Mütercim notu; full sentence-by-sentence check shows reading complete and faithful, remaining parentheticals are translations/glosses of Arabic terms, فتطردهم note properly marked; no new problems.",
+"fix_failed": 1,
+"verified": "PASS"
+},
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic «ثم إنه وقع في محذور آخر» has only a pronoun; EN «Then he (the Shaykh) fell into another objectionable matter» adds «(the Shaykh)» as a plain parenthesis, not as «[Translator's note: …]». The identification is correct but it is an unmarked addition under the binding standard.",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «ثم إنه وقع في محذور آخر». EN «Then he (the Shaykh) fell into another objectionable matter» adds «(the Shaykh)» in plain parentheses, not as a [Translator's note: …]. The referent is correct, but it is an unmarked addition.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Unmarked '(the Shaykh)' moved into Translator's note",
+"verified": "PASS",
+"verify_note": "«إنه» now rendered 'he [Translator's note: the Shaykh]'; rest complete, faithful, no unmarked additions."
+}
+},
+"history": [
+{
+"old_hs": [
+"5996b6ebf502",
+"54467ab02c9b",
+"179cc374c727"
+],
+"dim": "tr",
+"what": "Pronoun إنه restored as 'o' with Şeyh in Mütercim notu; '(Zemahşerî'nin)' moved into Mütercim notu",
+"at": "2026-10-17 00:45"
+},
+{
+"old_hs": [
+"5996b6ebf502",
+"d6fb58dbff6e",
+"179cc374c727"
+],
+"dim": "en",
+"what": "Unmarked '(the Shaykh)' moved into Translator's note",
+"at": "2026-10-17 00:45"
+},
+{
+"old_hs": [
+"5996b6ebf502",
+"d6fb58dbff6e",
+"3d7b7418f8ff"
+],
+"dim": "tr",
+"what": "Marked unmarked additions as Mütercim notu: '(aslan için)' after أسامة and '(mahzûf «sabit olmak» manası)'; replaced silent correction '(Nefyin) cevabı' with 'Nehyin cevabı' per source (existing note explains)",
+"at": "2026-10-17 00:48"
+}
+]
+}
+}

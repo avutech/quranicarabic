@@ -1,0 +1,27 @@
+{
+"akhfash:201-203": {
+"hs": [
+"9da6725d87f6",
+"08038e057cac",
+"7eed267d7c52"
+],
+"dims": {
+"fit": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Main text treats 26:201-203 exactly: ﴿لاَ يُؤْمِنُونَ بِهِ حَتَّىٰ يَرَوُاْ ٱلْعَذَابَ﴾ (201), ﴿فَيَأْتِيَهُم﴾ (202), ﴿فَيَقُولُواْ﴾ جواب للنفي (203). The stray line ﴿إِنِّيۤ آمَنتُ بِرَبِّكُمْ فَٱسْمَعُونِ﴾ is Yasin 36:25, another surah, so no different range in surah 26 is possible; 201-203 is the correct listing here (readings already note the stray line).",
+"at": "2026-10-17 00:40"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "First paragraph is exactly 26:201-203: '﴿لاَ يُؤْمِنُونَ بِهِ حَتَّىٰ يَرَوُاْ ٱلْعَذَابَ ٱلأَلِيمَ﴾ ﴿فَيَأْتِيَهُم﴾ ... جواب للنفي ... وكذلك ﴿فَيَقُولُواْ﴾' (201, 202, 203). The second line '﴿إِنِّيۤ آمَنتُ بِرَبِّكُمْ فَٱسْمَعُونِ﴾' is Ya-Sin 36:25, i.e. another surah; no other ayah of surah 26 is discussed, so within surah 26 the listing 201-203 is correct. Both readings already flag the 36:25 line with a translator's note.",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

@@ -1,0 +1,42 @@
+{
+"harrat-mujtaba:68-68": {
+"hs": [
+"57fe1809c107",
+"3c481d5551a8",
+"44a851057bda"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «إذ هو في قوة «لم يخبره خبرا»». TR inserts '(لم تحط به خبرا)' before it, which is not in the Arabic and is not inside a [Mütercim notu: …]. It is an unmarked addition (the gloss '(onu hiç bilmedi)' is also unmarked). The rest is correct. Fix: put the additions in a Mütercim notu.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «إذ هو في قوة لم يخبره خبرا» only; TR inserts '(لم تحط به خبرا)' before it, not in the source and not marked as Mütercim notu — unmarked addition.",
+"at": "2026-10-17 00:41"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "moved the unmarked inserted (لم تحط به خبرا) into a Mütercim notu",
+"verified": "PASS",
+"verify_note": "(لم تحط به خبرا) now inside Mütercim notu; '(onu hiç bilmedi)' is only a translation of the quoted Arabic, not an addition; rest faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"57fe1809c107",
+"848a124a45ae",
+"44a851057bda"
+],
+"dim": "tr",
+"what": "moved the unmarked inserted (لم تحط به خبرا) into a Mütercim notu",
+"at": "2026-10-17 00:45"
+}
+]
+}
+}

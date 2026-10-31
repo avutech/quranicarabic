@@ -1,0 +1,124 @@
+{
+"mekki-muskil:4-4": {
+"p1": {
+"ar": "e815c24dc146",
+"tr": "2ea6388fdca3",
+"en": "3f798324d236",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:40",
+"fixed": false
+}
+},
+"mekki-muskil:5-5": {
+"p1": {
+"ar": "9bc27912a849",
+"tr": "bea828e1ce00",
+"en": "6c5b28b06190",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:40",
+"fixed": false
+}
+},
+"mekki-muskil:6-6": {
+"p1": {
+"ar": "5d43cce1d3d5",
+"tr": "2d7f7c67e09c",
+"en": "21dd12a0f21d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:40",
+"fixed": false
+}
+},
+"mekki-muskil:10-10": {
+"p1": {
+"ar": "aa1a691b1829",
+"tr": "c1c897492329",
+"en": "15dbc87e420b",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN had untagged bracket \"[مثلا and امرأة نوح are]\" adding an interpretation not in the Arabic; removed.",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:40",
+"fixed": true
+},
+"p2": {
+"ar": "aa1a691b1829",
+"tr": "c1c897492329",
+"en": "15dbc87e420b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 17:27",
+"fixed": false
+}
+},
+"mekki-muskil:1-1": {
+"p1": {
+"ar": "0922edfacc38",
+"tr": "4f5dc3024f35",
+"en": "9052e32384b6",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:47",
+"fixed": false
+}
+},
+"mekki-muskil:2-2": {
+"p1": {
+"ar": "8d790a37b659",
+"tr": "091a568439ec",
+"en": "7ddfd76eecb5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:47",
+"fixed": false
+}
+},
+"mekki-muskil:3-3": {
+"p1": {
+"ar": "c3c8c33b87cd",
+"tr": "63fb927d8a72",
+"en": "690cac112d2b",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Both readings silently turned the source \"ومولاه خبران\" into khabar of inna; translator notes added.",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:47",
+"fixed": true
+},
+"p2": {
+"ar": "c3c8c33b87cd",
+"tr": "63fb927d8a72",
+"en": "690cac112d2b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-p2-u2",
+"at": "2026-10-16 17:27",
+"fixed": false
+}
+}
+}

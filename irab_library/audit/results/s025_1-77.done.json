@@ -1,0 +1,11 @@
+{
+ "surah": 25,
+ "chunk": "1-77",
+ "verdicts": {
+  "OK": 69,
+  "SOURCE_MISPLACED": 1,
+  "GAP": 8
+ },
+ "summary": "Surah 25 ayahs 1-77: all 10 high NEAR findings and 45 low XREF/UNFOUND findings were false positives (cross-references/neighbouring ayahs, orthographic normalisation), 14 books semantically sampled (6+ each) with Arabic/TR/EN agreeing on the same ayah. One source problem: nahhas-irab:33-33 text is about 25:32 (continuation of the 31-32 entry). Eight books have selective-coverage GAPs. No translation fixes needed.",
+ "at": "2026-10-10 15:05"
+}

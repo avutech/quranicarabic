@@ -1,0 +1,176 @@
+{
+"mekki-muskil:1-1": {
+"p1": {
+"ar": "aeb9beec1209",
+"tr": "b95df065cfce",
+"en": "6e28e21ce581",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish note wrongly called «وقرا» corrupt (it is the Quranic word in فالحاملات وقرا) and silently corrected فالجاريان; rewritten.",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:42",
+"fixed": true
+},
+"p2": {
+"ar": "aeb9beec1209",
+"tr": "b95df065cfce",
+"en": "6e28e21ce581",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u2",
+"at": "2026-10-11 04:08",
+"fixed": false
+}
+},
+"mekki-muskil:3-3": {
+"p1": {
+"ar": "2780f23088d2",
+"tr": "db535726ac3f",
+"en": "caa4202da213",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:42",
+"fixed": false
+}
+},
+"mekki-muskil:13-13": {
+"p1": {
+"ar": "740e789ae0db",
+"tr": "399aed6d503e",
+"en": "4c6621cef4c4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:42",
+"fixed": false
+}
+},
+"mekki-muskil:17-17": {
+"p1": {
+"ar": "270df040033c",
+"tr": "bc26ebc3f21f",
+"en": "6417aa41b872",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:42",
+"fixed": false
+},
+"p2": {
+"ar": "270df040033c",
+"tr": "bc26ebc3f21f",
+"en": "6417aa41b872",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u2",
+"at": "2026-10-11 04:08",
+"fixed": false
+}
+},
+"mekki-muskil:23-23": {
+"p1": {
+"ar": "d9b38f1e3dde",
+"tr": "a7f8e468d2d5",
+"en": "6c03eac2e875",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "Unmarked bracket additions \"[i.e. Makkī]\" and the unexplained \"did not become definite\" moved into translator notes.",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:42",
+"fixed": true
+},
+"p2": {
+"ar": "d9b38f1e3dde",
+"tr": "a7f8e468d2d5",
+"en": "6c03eac2e875",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u2",
+"at": "2026-10-11 04:08",
+"fixed": false
+}
+},
+"mekki-muskil:25-25": {
+"p1": {
+"ar": "0af72c0d0fba",
+"tr": "14b5f15bc438",
+"en": "e5249d21b485",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:42",
+"fixed": false
+}
+},
+"mekki-muskil:46-46": {
+"p1": {
+"ar": "9de04e239ac2",
+"tr": "7941851de9aa",
+"en": "413044dffb50",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:42",
+"fixed": false
+}
+},
+"mekki-muskil:52-52": {
+"p1": {
+"ar": "afe69059b473",
+"tr": "40e180f50efa",
+"en": "7a8ae7d27958",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:42",
+"fixed": false
+},
+"p2": {
+"ar": "afe69059b473",
+"tr": "40e180f50efa",
+"en": "7a8ae7d27958",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u2",
+"at": "2026-10-11 04:08",
+"fixed": false
+}
+},
+"mekki-muskil:58-58": {
+"p1": {
+"ar": "fc0ced25c104",
+"tr": "946906efe09d",
+"en": "3d164db4cb18",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:42",
+"fixed": false
+}
+}
+}

@@ -1,0 +1,42 @@
+{
+"ukberi-tibyan:79-79": {
+"hs": [
+"2ac7c36b8be4",
+"d0191d078628",
+"a997c55b1450"
+],
+"dims": {
+"tr": {
+"votes": {
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source reads وَفَاعِلُهُ هُنَا مَصْدَرٌ كَالْعَافِيَةِ. TR renders it as 'buradaki فَاعِلَة (vezni) العَافِيَة gibi masdardır', silently changing the written فَاعِلُهُ into فَاعِلَة with no Mütercim notu (EN correctly keeps «فَاعِلُهُ» and marks the emendation in a Translator's note). Silent correction of the source: fix by translating فَاعِلُهُ as written and putting the فَاعِلَة interpretation inside [Mütercim notu: …].",
+"at": "2026-10-17 00:39"
+},
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source reads وَفَاعِلُهُ هُنَا مَصْدَرٌ كَالْعَافِيَةِ; TR writes 'buradaki فَاعِلَة (vezni) العَافِيَة gibi masdardır', silently changing فَاعِلُهُ to فَاعِلَة with no Mütercim notu (EN marks the same point in a Translator's note). Fix: keep فَاعِلُهُ and put the فَاعِلَة interpretation inside [Mütercim notu: ...]. Also omits the قَوْلُهُ تَعَالَى formula before (نَافِلَةً لَكَ).",
+"at": "2026-10-17 00:40"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Kept source's فَاعِلُهُ as written; moved the فَاعِلَة-pattern interpretation into a Mütercim notu",
+"verified": "PASS",
+"verify_note": "فَاعِلُهُ now kept as written with the فَاعِلَة reading inside a Mütercim notu; both views on نافلة and مقاما complete and faithful; Arabic glosses are translations of the quoted words; nothing unmarked added (the dropped قوله تعالى formula follows the TR convention used throughout)."
+}
+},
+"history": [
+{
+"old_hs": [
+"2ac7c36b8be4",
+"332affd3cd29",
+"a997c55b1450"
+],
+"dim": "tr",
+"what": "Kept source's فَاعِلُهُ as written; moved the فَاعِلَة-pattern interpretation into a Mütercim notu",
+"at": "2026-10-17 00:43"
+}
+]
+}
+}

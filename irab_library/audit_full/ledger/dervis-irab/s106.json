@@ -1,0 +1,28 @@
+{
+"dervis-irab:1-4": {
+"p1": {
+"ar": "ff7349feeffa",
+"tr": "55fe927c339b",
+"en": "856d97439324",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u5",
+"at": "2026-10-17 00:16",
+"fixed": false
+},
+"p2": {
+"ar": "ff7349feeffa",
+"tr": "55fe927c339b",
+"en": "856d97439324",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Farra's «أعجبنا محمد» (corrupt for «اعجبوا يا محمد»): EN rendered \"Marvel at Muhammad\", TR silently emended; both now carry a marked note. EN also dropped «وتعظيما له», restored.",
+"by": "dervis-irab-p2-u8",
+"at": "2026-10-17 00:02",
+"fixed": true
+}
+}
+}

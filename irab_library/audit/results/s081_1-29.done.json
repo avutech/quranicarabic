@@ -1,0 +1,11 @@
+{
+ "surah": 81,
+ "chunk": "1-29",
+ "verdicts": {
+  "OK": 84,
+  "TRANSLATION_FIXED": 2,
+  "GAP": 8
+ },
+ "summary": "All 6 high findings and 10 low findings reviewed: false positives (cross-references, orthographic normalisation). SEM sample done for all 13 books. Two translation fixes: zajjaj:10-10 (TR variant reading) and akhfash:6-6 (TR translator note). No source misplacement.",
+ "at": "2026-10-10 15:14"
+}

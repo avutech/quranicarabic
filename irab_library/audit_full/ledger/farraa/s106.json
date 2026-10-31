@@ -1,0 +1,42 @@
+{
+"farraa:1-3": {
+"p1": {
+"ar": "2c1d3b706e84",
+"tr": "16524b6678b2",
+"en": "f4b05bc3d382",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p1-u2",
+"at": "2026-10-17 00:05",
+"fixed": false
+},
+"p2": {
+"ar": "2c1d3b706e84",
+"tr": "16524b6678b2",
+"en": "f4b05bc3d382",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish had unmarked interpretive additions «(bedeli)», «(bedel)», «(mef'ûl olarak)», «(yâsız)», «(Fîl sûresi)», «(Bu sûre)», «(İkinci vecih:)» not in the Arabic; removed, rest kept.",
+"by": "farraa-p2-u4",
+"at": "2026-10-16 17:37",
+"fixed": true
+}
+},
+"farraa:4-4": {
+"p1": {
+"ar": "d7156ec72a3c",
+"tr": "c1f9c722a18d",
+"en": "8cd2ad417147",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:52",
+"fixed": false
+}
+}
+}

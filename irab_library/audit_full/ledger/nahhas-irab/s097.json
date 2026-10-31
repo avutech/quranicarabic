@@ -1,0 +1,82 @@
+{
+"nahhas-irab:1-1": {
+"p1": {
+"ar": "f0cadb7ad02d",
+"tr": "c75e4602ae2c",
+"en": "de6ce0407216",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u45",
+"at": "2026-10-10 16:02",
+"fixed": false
+}
+},
+"nahhas-irab:2-2": {
+"p1": {
+"ar": "28612a27d439",
+"tr": "cbf95ff77bbe",
+"en": "25b0db9bc110",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u45",
+"at": "2026-10-10 16:02",
+"fixed": false
+}
+},
+"nahhas-irab:3-3": {
+"p1": {
+"ar": "f42523f9f0e9",
+"tr": "b001cb8c84f2",
+"en": "6f2936945d2a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-u45",
+"at": "2026-10-10 16:02",
+"fixed": false
+},
+"p2": {
+"ar": "f42523f9f0e9",
+"tr": "b001cb8c84f2",
+"en": "6f2936945d2a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 18:53",
+"fixed": false
+}
+},
+"nahhas-irab:4-5": {
+"p1": {
+"ar": "02f170ff6cff",
+"tr": "da398bb32315",
+"en": "ae8366ba21ba",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "nahhas-irab-p1-u4",
+"at": "2026-10-17 00:10",
+"fixed": false
+},
+"p2": {
+"ar": "02f170ff6cff",
+"tr": "da398bb32315",
+"en": "ae8366ba21ba",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN transliterated the discussed forms (mafʿal, mafʿul, jalasa majlasan, majlis, maḍrib, maṭlaʿ, maṭliʿ) and gave the source «الأصل مطلع في المكان» as maṭlaʿ; restored Arabic script with a marked note.",
+"by": "nahhas-irab-p2-u8",
+"at": "2026-10-16 18:53",
+"fixed": true
+}
+}
+}

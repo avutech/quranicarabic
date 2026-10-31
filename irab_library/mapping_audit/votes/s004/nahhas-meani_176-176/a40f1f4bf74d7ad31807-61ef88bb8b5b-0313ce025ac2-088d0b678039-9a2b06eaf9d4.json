@@ -1,0 +1,27 @@
+{
+  "surah": 4,
+  "key": "nahhas-meani:176-176",
+  "reviewer": "strong-adjudication-gpt6astra",
+  "model": "GPT-6 Codex session; exact backend ID not exposed; reviewer identifier assigned by parent",
+  "verdict": "INTRODUCTION",
+  "tr_mapping": "FOLLOWS_SOURCE",
+  "en_mapping": "FOLLOWS_SOURCE",
+  "targets": [
+    {
+      "surah": 5,
+      "kind": "introduction"
+    }
+  ],
+  "evidence": "Complete AR/TR/EN reviewed independently. Arabic Alqama report about يا أيها الذين آمنوا / يا أيها الناس is general revelation classification, not inheritance in 4:176. Local original JSON entry 395 repeats old label and sits before 5:1. External primary-book transcription https://www.arabic-keyboard.info/books/ar/read-book/معاني-القرآن-للنحاس lines 911-918 places actual 4:176 commentary before انتهت سورة النساء, then heading تفسير سورة المائدة and سورة المائدة وهي مدنية, then this report, then numbered 5:1 commentary. Correct target surah 5 introduction. TR and EN each follow the full Arabic report. No local Nahhas scan found; direct tafsir.app source returned 503; printed page remains unverified. High confidence in transcription placement. See tasks/STRONG_MAPPING_ADJUDICATION.md.",
+  "hashes": {
+    "ar": "61ef88bb8b5bb7722e0f19b6464a7a7d2d5a4512e0e1f0d0f77b4588155c1f33",
+    "tr": "0313ce025ac23907396ae938232f1812898c0c0a69dbb0f18d69fb8a2f5fa4dc",
+    "en": "088d0b678039eb9c512a93799588ff818f1159f5e1382da4d6b8ac085d44aecc",
+    "association": "9a2b06eaf9d4160a7a86e807e3f310d09e4fdaf794268c2f4e9f1d71b39cc22b"
+  },
+  "context_file_hashes": {
+    "s004.json": "884d18ae3f029a4300cf99a228f0ce01b17f329d97d7a2161be4634f548396fb",
+    "s005.json": "470334316ebdae06dfa276eb0bf6ed815bc966558080daf9a1cb17e02a8708be"
+  },
+  "recorded_at": "2026-10-10T16:33:50.888506-04:00"
+}

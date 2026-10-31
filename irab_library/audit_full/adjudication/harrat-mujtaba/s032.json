@@ -1,0 +1,82 @@
+{
+"harrat-mujtaba:19-19": {
+"hs": [
+"a07151669e6c",
+"a993313b02fb",
+"35308bc20e54"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic opens «جملة الشرط مستأنفة» with no ayah quote; Turkish prefixes «(أَمَّا الَّذِينَ آمَنُوا ... بِمَا كَانُوا يَعْمَلُونَ)» outside the note brackets: unmarked addition. Rest (نزلا حال من جنات, الباء للسببية, بما متعلق بنعت لنزلا) correct. Fix: move quote into the note.",
+"at": "2026-10-17 00:42"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "The Arabic starts with «جملة الشرط مستأنفة» and quotes no ayah. The Turkish adds the full ayah quote (أَمَّا الَّذِينَ آمَنُوا ... بِمَا كَانُوا يَعْمَلُونَ) outside the note brackets, which is an unmarked addition. The rest is faithful: «فلهم جنات خبر الذين», «أمَّا حرف شرط وتفصيل», «نزلا حال من جنات», «الباء للسببية» and «بما متعلق بنعت لنزلا». Fix: move the quote inside the note.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "moved the prefixed ayah quote (outside the note) inside the Mütercim notu",
+"verified": "PASS",
+"verify_note": "Ayah quote now inside Mütercim notu; body complete and faithful, nothing unmarked added."
+}
+},
+"history": [
+{
+"old_hs": [
+"a07151669e6c",
+"d3a4c8d091df",
+"35308bc20e54"
+],
+"dim": "tr",
+"what": "moved the prefixed ayah quote (outside the note) inside the Mütercim notu",
+"at": "2026-10-17 00:46"
+}
+]
+},
+"harrat-mujtaba:22-22": {
+"hs": [
+"c8e21565097b",
+"0b93be620b4a",
+"a87a31bda03b"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Source says only «و«من» اسم استفهام مبتدأ وخبر» and never names «أظلم» as khabar; Turkish inserts «(olup «أظلم» ile birlikte)» in plain parentheses, an interpretive addition not marked as Mütercim notu. The interpretation may be what the author intended, but it must be inside «[Mütercim notu: …]». Rest correct.",
+"at": "2026-10-17 00:42"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "The Arabic says only «من اسم استفهام مبتدأ وخبر». The Turkish inserts the parenthetical «(olup «أظلم» ile birlikte)» with no [Mütercim notu: …] marker. This interpretive addition says that «أظلم» is the khabar together with «من», which the source does not state, so it is an unmarked addition. Fix: translate the source as written («من» istifhâm ismi, mübtedâ ve haber) and put any explanation inside a [Mütercim notu: …]. The rest («ممن متعلق بأظلم», «من المجرمين متعلق بالخبر») is correct.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "put the unmarked gloss «أظلم» ile birlikte inside a Mütercim notu",
+"verified": "PASS",
+"verify_note": "The interpretive addition about أظلم is now inside a Mütercim notu; من مبتدأ وخبر, ممن, and من المجرمين are rendered faithfully."
+}
+},
+"history": [
+{
+"old_hs": [
+"c8e21565097b",
+"38ec3b022579",
+"a87a31bda03b"
+],
+"dim": "tr",
+"what": "put the unmarked gloss «أظلم» ile birlikte inside a Mütercim notu",
+"at": "2026-10-17 00:45"
+}
+]
+}
+}

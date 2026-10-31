@@ -1,0 +1,110 @@
+{
+"ukberi-tibyan:1-1": {
+"p1": {
+"ar": "5af610d57e4c",
+"tr": "7d1ce2d8151f",
+"en": "ae4c13838ef4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:00",
+"fixed": false
+}
+},
+"ukberi-tibyan:6-7": {
+"p1": {
+"ar": "71967db0807b",
+"tr": "e14ff38c14ca",
+"en": "20bf355df9d3",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN said turned you away from a disliked form silently altering source عَلَى; now as written with translator note.",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:00",
+"fixed": true
+},
+"p2": {
+"ar": "71967db0807b",
+"tr": "e14ff38c14ca",
+"en": "20bf355df9d3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-p2-u6",
+"at": "2026-10-16 18:51",
+"fixed": false
+}
+},
+"ukberi-tibyan:8-8": {
+"p1": {
+"ar": "038e80212531",
+"tr": "a162e4a3b2fc",
+"en": "a54031656723",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-p1-u3",
+"at": "2026-10-17 00:03",
+"fixed": false
+},
+"p2": {
+"ar": "038e80212531",
+"tr": "a162e4a3b2fc",
+"en": "a54031656723",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish added the unmarked interpretation \"(sözün başında bulunma hakkından dolayı)\" to تَقَدَّمَ الِاسْتِفْهَامُ عَمَّا هُوَ حَقُّهُ; moved into a Mütercim notu.",
+"by": "ukberi-tibyan-p2-u6",
+"at": "2026-10-16 18:51",
+"fixed": true
+}
+},
+"ukberi-tibyan:10-12": {
+"p1": {
+"ar": "3dae7992e30a",
+"tr": "50cc7078d53e",
+"en": "e5a058af9529",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:00",
+"fixed": false
+}
+},
+"ukberi-tibyan:14-15": {
+"p1": {
+"ar": "4352cff7282e",
+"tr": "e60540f2ebab",
+"en": "aa2b88200661",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:00",
+"fixed": false
+}
+},
+"ukberi-tibyan:19-19": {
+"p1": {
+"ar": "68f09f2b7411",
+"tr": "ba428b887691",
+"en": "3bdba73c3aae",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "ukberi-tibyan-u36",
+"at": "2026-10-10 16:00",
+"fixed": false
+}
+}
+}

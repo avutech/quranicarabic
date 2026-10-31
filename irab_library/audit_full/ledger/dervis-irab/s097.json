@@ -1,0 +1,28 @@
+{
+"dervis-irab:1-5": {
+"p1": {
+"ar": "6045c84af941",
+"tr": "01c1d22d11e6",
+"en": "576cfb2b804d",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English silently changed the printed quote «فيها فاكهة ونخل ورمان» to the Quranic «فِيهِمَا»; restored the printed wording with a translator note.",
+"by": "dervis-irab-u96",
+"at": "2026-10-10 19:45",
+"fixed": true
+},
+"p2": {
+"ar": "6045c84af941",
+"tr": "01c1d22d11e6",
+"en": "576cfb2b804d",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u8",
+"at": "2026-10-17 00:02",
+"fixed": false
+}
+}
+}

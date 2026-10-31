@@ -1,0 +1,231 @@
+{
+"nahhas-irab:12-12": {
+"hs": [
+"98031498aacd",
+"7bfc43aaa0bb",
+"86e6eb2d80e6"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «ويجوز أن يكون في موضع نصب على المصدر» only says 'accusative as maṣdar'. EN adds '[i.e. a mafʿūl muṭlaq (absolute object)]' as unmarked bracket; needs Translator's note.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source: ويجوز أن يكون في موضع نصب على المصدر. EN adds after 'as a maṣdar (verbal noun)' the bracket '[i.e. a mafʿūl muṭlaq (absolute object)]', which is not in the Arabic and not a Translator's note. Rest of the entry (إماما حال، لسانا حال من المضمر، the لتنذر/لينذر readings) is faithful. Fix: mark as Translator's note.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Marked mafʿūl muṭlaq gloss as a Translator's note",
+"verified": "PASS",
+"verify_note": "mafʿūl muṭlaq gloss now a Translator's note; rest faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"98031498aacd",
+"7bfc43aaa0bb",
+"f91bce165450"
+],
+"dim": "en",
+"what": "Marked mafʿūl muṭlaq gloss as a Translator's note",
+"at": "2026-10-17 00:44"
+}
+]
+},
+"nahhas-irab:15-15": {
+"hs": [
+"8e6e0b883d84",
+"7749579a63ee",
+"95167358e66b"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «أَشُدَّهُ جمع شدّة عند سيبويه مثل نعمة» — no plural أنعم is given. TR adds unmarked '(çoğulu «أنعم»)'; must be in a Mütercim notu.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source: أَشُدَّهُ جمع شدّة عند سيبويه مثل نعمة — only 'like نعمة'. TR adds '(çoğulu «أنعم»)', which is not in the Arabic and unmarked (also unmarked '(fetha ile)' after «حملته أمه كرها ووضعته كرها»). The reading-defect notes are properly marked. Fix: put these supplements in a Mütercim notu.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Moved unmarked '(çoğulu «أنعم»)' and '(fetha ile)' into Mütercim notları",
+"verified": "PASS",
+"verify_note": "Plural أنعم and 'fetha ile' now inside Mütercim notu; reading-defect notes marked; passage complete and faithful."
+},
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «جمع شدّة عند سيبويه مثل نعمة» only. EN 'like niʿma [and anʿum]' adds the plural anʿum unmarked; must be a Translator's note.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source: جمع شدّة عند سيبويه مثل نعمة. EN 'like niʿma [and anʿum]' adds the plural anʿum, absent from the Arabic and not inside a Translator's note. Other bracketed comments on the defective readings are properly marked. Fix: Translator's note.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Marked '[and anʿum]' as Translator's note; restored unvocalized quote with note",
+"verified": "PASS",
+"verify_note": "anʿum now inside a Translator's note; other defect notes marked; passage complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"8e6e0b883d84",
+"f47a3f772039",
+"10e84ea12bdd"
+],
+"dim": "tr",
+"what": "Moved unmarked '(çoğulu «أنعم»)' and '(fetha ile)' into Mütercim notları",
+"at": "2026-10-17 00:44"
+},
+{
+"old_hs": [
+"8e6e0b883d84",
+"7749579a63ee",
+"10e84ea12bdd"
+],
+"dim": "en",
+"what": "Marked '[and anʿum]' as Translator's note; restored unvocalized quote with note",
+"at": "2026-10-17 00:44"
+}
+]
+},
+"nahhas-irab:16-16": {
+"hs": [
+"4b2a569e6398",
+"01843d486ec3",
+"1badabef5b2c"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «وَعْدَ الصِّدْقِ منصوب على المصدر» only. EN adds '[i.e. a mafʿūl muṭlaq (absolute object)]' unmarked (also unmarked '[and «أحسنُ» in the nominative]' after «على ما لم يسمّ فاعله»); both need Translator's note.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source: وَعْدَ الصِّدْقِ منصوب على المصدر. EN adds '[i.e. a mafʿūl muṭlaq (absolute object)]' unmarked; also '[and «أحسنُ» in the nominative]' after 'in the passive' and re-vocalizes the lemma as «يُتقبّل ... أحسنُ» although the source has «وأَحْسَنَ ما عملوا»; none of this is in the Arabic or in a Translator's note (TR handles it in a Mütercim notu). Fix: Translator's note.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Restored source lemma vocalization; marked nominative and mafʿūl muṭlaq glosses as Translator's notes",
+"verified": "PASS",
+"verify_note": "Nominative أحسنُ remark and mafʿūl muṭlaq gloss now inside Translator's notes; lemma kept as printed; content faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"4b2a569e6398",
+"01843d486ec3",
+"34069e3254a5"
+],
+"dim": "en",
+"what": "Restored source lemma vocalization; marked nominative and mafʿūl muṭlaq glosses as Translator's notes",
+"at": "2026-10-17 00:44"
+}
+]
+},
+"nahhas-irab:24-24": {
+"hs": [
+"a50f8579d9e0",
+"92cf8b9345e9",
+"449f9d749d46"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «مُسْتَقْبِلَ أَوْدِيَتِهِمْ يقدّر فيه التنوين» only. EN adds explanatory '[i.e. the construct is not one of definiteness, so it can qualify the indefinite عارضا]' as unmarked bracket; not in source, needs Translator's note.",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Source: مُسْتَقْبِلَ أَوْدِيَتِهِمْ يقدّر فيه التنوين only. EN adds '[i.e. the construct is not one of definiteness, so it can qualify the indefinite عارضا]', an explanation not in the Arabic and not marked as a Translator's note. Rest (two answers of al-Mubarrad, الفراء on حرف عبد الله) is faithful. Fix: Translator's note.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Marked construct gloss as a Translator's note",
+"verified": "PASS",
+"verify_note": "Construct explanation now a Translator's note; تُمنى defect noted; rest faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"a50f8579d9e0",
+"92cf8b9345e9",
+"5a8633b7e366"
+],
+"dim": "en",
+"what": "Marked construct gloss as a Translator's note",
+"at": "2026-10-17 00:44"
+}
+]
+},
+"nahhas-irab:27-27": {
+"hs": [
+"f987e0290271",
+"6a18e793537c",
+"44870111bcda"
+],
+"dims": {
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Verse fragment «بني ضوطرى لولا الكميّ المقنّعا» has no verb; EN '(why not [count] the armoured, helmeted warrior?)' supplies the elided verb (تعدّون of the full line) in an unmarked bracket; correct in substance but an addition that must be a Translator's note ('armoured' also over-renders المقنّع).",
+"at": "2026-10-17 00:39"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Verse cited: بني ضوطرى لولا الكميّ المقنّعا. EN translation '(O sons of Ḍawṭarā, why not [count] the armoured, helmeted warrior?)' supplies the elided verb (تعدّون) as '[count]'; the source names no verb, so this is an unmarked supplement (sense is plausible but must be inside a Translator's note). Prose part (لام توكيد، قد للتوقع/التقليل، لولا وهلّا واحد) is correct.",
+"at": "2026-10-17 00:39"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Removed unmarked '[count]' (now in Translator's note) and over-rendering 'armoured'",
+"verified": "PASS",
+"verify_note": "Elided verb now in Translator's note; 'armoured' dropped; poetry gloss faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"f987e0290271",
+"6a18e793537c",
+"41d4d6b78229"
+],
+"dim": "en",
+"what": "Removed unmarked '[count]' (now in Translator's note) and over-rendering 'armoured'",
+"at": "2026-10-17 00:44"
+}
+]
+}
+}

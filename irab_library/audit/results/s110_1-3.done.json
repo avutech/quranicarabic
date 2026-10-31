@@ -1,0 +1,11 @@
+{
+ "surah": 110,
+ "chunk": "1-3",
+ "verdicts": {
+  "OK": 27,
+  "SOURCE_DEFECT": 2,
+  "GAP": 5
+ },
+ "summary": "Surah 110 all 13 books checked; no mismatches. Source defects: mekki-muskil:2-2 truncated, nahhas-irab:3-3 disjointed. Gaps recorded for akhfash, mekki-muskil, semin-durr, ukberi-tibyan, zajjaj.",
+ "at": "2026-10-10 15:18"
+}

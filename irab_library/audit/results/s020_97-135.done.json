@@ -1,0 +1,10 @@
+{
+ "surah": 20,
+ "chunk": "97-135",
+ "verdicts": {
+  "OK": 95,
+  "GAP": 7
+ },
+ "summary": "Audited 13 books for 20:97-135: 2 high NEAR findings OK (legitimate discussion of adjacent ayah), 83 SEM checks OK, 20 low findings OK (rasm-normalisation artefacts or legitimate cross-refs), 7 GAP ranges reported. No misplacement, source defects or translation fixes.",
+ "at": "2026-10-10 15:03"
+}

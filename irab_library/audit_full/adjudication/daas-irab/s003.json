@@ -1,0 +1,27 @@
+{
+"daas-irab:116-117": {
+"hs": [
+"304c8566a505",
+"4641562ecd55",
+"87ae9f2fcfda"
+],
+"dims": {
+"fit": {
+"votes": {
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "The entry treats exactly 3:116 and 3:117. For 116 it covers ﴿إِنَّ الَّذِينَ كَفَرُوا لَنْ تُغْنِيَ عَنْهُمْ أَمْوالُهُمْ...﴾, ﴿وَأُولئِكَ أَصْحابُ النَّارِ﴾ and ﴿هُمْ فِيها خالِدُونَ﴾. For 117 it covers the damaged but recognizable headings مَثَلُ / يُنْفِقُونَ / الْحَياةِ الدُّنْيا / كَمَثَلِ رِيحٍ / صِرٌّ / أَصابَتْ حَرْثَ قَوْمٍ / ظَلَمُوا أَنْفُسَهُمْ / أَهْلَكَتْهُ / ما ظَلَمَهُمُ اللَّهُ / لكِنْ أَنْفُسَهُمْ يَظْلِمُونَ. The typographic damage is limited to the first letters and brackets, the analysis is intact and translatable, and both readings mark the damage with notes. The listing 116-117 is correct.",
+"at": "2026-10-17 00:41"
+},
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "The entry parses ﴿إِنَّ الَّذِينَ كَفَرُوا لَنْ تُغْنِيَ عَنْهُمْ أَمْوالُهُمْ﴾ ... ﴿هُمْ فِيها خالِدُونَ﴾ (3:116), then مثل ما ينفقون، في هذه الحياة الدنيا، كمثل ريح فيها صر، أصابت حرث قوم ظلموا أنفسهم فأهلكته، وما ظلمهم الله ولكن أنفسهم يظلمون (3:117). The second half is typographically damaged (lost brackets and first letters) but still readable and about 3:117. Filing under 116-117 is correct.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

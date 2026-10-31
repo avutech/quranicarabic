@@ -1,0 +1,11 @@
+{
+ "surah": 2,
+ "chunk": "1-65",
+ "verdicts": {
+  "OK": 191,
+  "TRANSLATION_FIXED": 1,
+  "GAP": 9
+ },
+ "summary": "Chunk 2:1-65: 14 high/medium findings all OK except mekki-muskil:2-2 (TR omitted third paragraph, fixed); 84 SEM checks across 14 books OK; 94 low XREF/UNFOUND all OK; 9 GAP lines. No source misplacements or defects. Diyanet reference text for 2:27 shows the 2:26 text (reference data quirk).",
+ "at": "2026-10-10 15:00"
+}

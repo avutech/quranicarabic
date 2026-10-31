@@ -1,0 +1,324 @@
+{
+"mekki-muskil:2-2": {
+"p1": {
+"ar": "a1b98d7aaa70",
+"tr": "7b58ba3ba46d",
+"en": "a567314b9261",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish replaced earlier",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:42",
+"fixed": true
+},
+"p2": {
+"ar": "a1b98d7aaa70",
+"tr": "7b58ba3ba46d",
+"en": "a567314b9261",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u2",
+"at": "2026-10-11 04:09",
+"fixed": false
+}
+},
+"mekki-muskil:4-4": {
+"p1": {
+"ar": "793500401fcf",
+"tr": "94f0e5a6ce4c",
+"en": "6c98751be7f3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:42",
+"fixed": false
+}
+},
+"mekki-muskil:8-8": {
+"p1": {
+"ar": "b50ba71c9202",
+"tr": "9efc32b3bfb8",
+"en": "65ae2eb09f9c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:42",
+"fixed": false
+}
+},
+"mekki-muskil:12-12": {
+"p1": {
+"ar": "02bfc204adf4",
+"tr": "a2b551cb718b",
+"en": "9e1b8767be21",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:42",
+"fixed": false
+}
+},
+"mekki-muskil:14-14": {
+"p1": {
+"ar": "468b100dd726",
+"tr": "cc73fcbf66bf",
+"en": "c1de323c5e54",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "Second paragraph {وَلَقَد أرسلنَا نوحًا} ... وَأَرْسَلْنَا ابراهيم belongs to 29:16 (as the translators note)",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:42",
+"fixed": false
+},
+"p2": {
+"ar": "468b100dd726",
+"tr": "cc73fcbf66bf",
+"en": "c1de323c5e54",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u2",
+"at": "2026-10-11 04:09",
+"fixed": false
+}
+},
+"mekki-muskil:16-16": {
+"p1": {
+"ar": "f0abb83215bf",
+"tr": "a96c187dd6c6",
+"en": "b580849be90a",
+"fit": "PARTIAL",
+"trv": "OK",
+"env": "OK",
+"note": "Source sentence is cut off after 'على نوح فِي قَوْله' (as the translators note)",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:42",
+"fixed": false
+},
+"p2": {
+"ar": "f0abb83215bf",
+"tr": "a96c187dd6c6",
+"en": "b580849be90a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u2",
+"at": "2026-10-11 04:09",
+"fixed": false
+}
+},
+"mekki-muskil:22-22": {
+"p1": {
+"ar": "20422ba14e7e",
+"tr": "33b3be639db8",
+"en": "100136dc4cb3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:42",
+"fixed": false
+}
+},
+"mekki-muskil:25-25": {
+"p1": {
+"ar": "951a8beabe7e",
+"tr": "6d04e586d13d",
+"en": "e73274c2bbf0",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:42",
+"fixed": false
+}
+},
+"mekki-muskil:27-27": {
+"p1": {
+"ar": "f18593e444fb",
+"tr": "66a03db2c896",
+"en": "550f571ad5bf",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:42",
+"fixed": false
+},
+"p2": {
+"ar": "f18593e444fb",
+"tr": "66a03db2c896",
+"en": "550f571ad5bf",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u2",
+"at": "2026-10-11 04:09",
+"fixed": false
+}
+},
+"mekki-muskil:28-28": {
+"p1": {
+"ar": "de9781fd3025",
+"tr": "a5160da339e6",
+"en": "27b15d81365f",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:42",
+"fixed": false
+}
+},
+"mekki-muskil:38-38": {
+"p1": {
+"ar": "f28f8de51a22",
+"tr": "5e545a26bdbe",
+"en": "41bb000a9441",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish replaced earlier",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:42",
+"fixed": true
+},
+"p2": {
+"ar": "f28f8de51a22",
+"tr": "5e545a26bdbe",
+"en": "41bb000a9441",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u2",
+"at": "2026-10-11 04:09",
+"fixed": false
+}
+},
+"mekki-muskil:39-39": {
+"p1": {
+"ar": "1b02c533802d",
+"tr": "37ed1be01873",
+"en": "16370dcda3ff",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:42",
+"fixed": false
+}
+},
+"mekki-muskil:41-41": {
+"p1": {
+"ar": "e7388f4d946c",
+"tr": "1d787a8c5ba7",
+"en": "5a7f09583ed2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:42",
+"fixed": false
+}
+},
+"mekki-muskil:46-46": {
+"p1": {
+"ar": "1be04272ab1f",
+"tr": "d9355b169170",
+"en": "1d16abff76d3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:42",
+"fixed": false
+}
+},
+"mekki-muskil:51-51": {
+"p1": {
+"ar": "cd1a6722115c",
+"tr": "9bc78e2e578c",
+"en": "63a76736a3df",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:42",
+"fixed": false
+},
+"p2": {
+"ar": "cd1a6722115c",
+"tr": "9bc78e2e578c",
+"en": "63a76736a3df",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u2",
+"at": "2026-10-11 04:09",
+"fixed": false
+}
+},
+"mekki-muskil:58-58": {
+"p1": {
+"ar": "89880f6e98f0",
+"tr": "85ea5921d049",
+"en": "e740f4be25d4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:42",
+"fixed": false
+}
+},
+"mekki-muskil:66-66": {
+"p1": {
+"ar": "83ea4a6ebefb",
+"tr": "4d6c0d26cfc8",
+"en": "5df751c3f2cb",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English silently turned 'فلا يجوز حركتها' into 'its vowel may not be dropped'; now literal with translator's note",
+"by": "mekki-muskil-u5",
+"at": "2026-10-10 15:42",
+"fixed": true
+},
+"p2": {
+"ar": "83ea4a6ebefb",
+"tr": "4d6c0d26cfc8",
+"en": "5df751c3f2cb",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "mekki-muskil-u2",
+"at": "2026-10-11 04:09",
+"fixed": false
+}
+}
+}

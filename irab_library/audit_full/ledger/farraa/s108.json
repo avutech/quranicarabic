@@ -1,0 +1,68 @@
+{
+"farraa:1-1": {
+"p1": {
+"ar": "f85753487d0c",
+"tr": "ff5a19fe9b2a",
+"en": "eb810548e956",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "Attribution: \"wa-minhu al-Quran\" follows a full stop after the Ibn Abbas quote and may be Farra's own words; sentence boundary restored in both",
+"by": "farraa-p1-u2",
+"at": "2026-10-17 00:05",
+"fixed": true
+},
+"p2": {
+"ar": "f85753487d0c",
+"tr": "ff5a19fe9b2a",
+"en": "eb810548e956",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p2-u4",
+"at": "2026-10-17 00:16",
+"fixed": false
+}
+},
+"farraa:2-2": {
+"p1": {
+"ar": "cf3734074b84",
+"tr": "f9a58e3993c5",
+"en": "a3f45da371da",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-p1-u2",
+"at": "2026-10-17 00:05",
+"fixed": false
+},
+"p2": {
+"ar": "cf3734074b84",
+"tr": "f9a58e3993c5",
+"en": "a3f45da371da",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish rendered «أبا حكم» as «Ebü'l-Hakem» and had unmarked additions «(denildiği)», «(göğsünle)», «(yani Ebtah'ın)»; corrected.",
+"by": "farraa-p2-u4",
+"at": "2026-10-16 18:10",
+"fixed": true
+}
+},
+"farraa:3-3": {
+"p1": {
+"ar": "1fc6514bc5d1",
+"tr": "075e634eb149",
+"en": "3c1400bd17f3",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "farraa-u22",
+"at": "2026-10-10 15:53",
+"fixed": false
+}
+}
+}

@@ -1,0 +1,286 @@
+{
+"safi-cedvel:37-42": {
+"p1": {
+"ar": "aac97f7aeee1",
+"tr": "73bb35de18e5",
+"en": "f6d0f7da1af4",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR transliterated the Quranic word وردة as \"verde\" (rule: stays in Arabic script) and added \"mahzuf\" to (بسيماهم) attached to a hal (Arabic: متعلق بحال); corrected",
+"by": "safi-cedvel-p1-u7",
+"at": "2026-10-17 00:07",
+"fixed": true
+},
+"p2": {
+"ar": "aac97f7aeee1",
+"tr": "73bb35de18e5",
+"en": "f6d0f7da1af4",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u12",
+"at": "2026-10-17 00:15",
+"fixed": false
+}
+},
+"safi-cedvel:43-45": {
+"p1": {
+"ar": "5594543a095d",
+"tr": "49b4440c91ad",
+"en": "10064e0fb96c",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u63",
+"at": "2026-10-10 19:32",
+"fixed": false
+}
+},
+"safi-cedvel:46-61": {
+"p1": {
+"ar": "c422b2cbee58",
+"tr": "bb1be18622f5",
+"en": "d3f70cb79e8a",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "TR added \"mahzuf\" in \"(من كلّ) ... hâl olan mahzûfa müteallik\"; Arabic says only متعلّق بحال من (زوجان); fixed",
+"by": "safi-cedvel-p1-u11",
+"at": "2026-10-17 00:55",
+"fixed": true
+},
+"p2": {
+"ar": "c422b2cbee58",
+"tr": "bb1be18622f5",
+"en": "d3f70cb79e8a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u9",
+"at": "2026-10-17 01:07",
+"fixed": false
+}
+},
+"safi-cedvel:62-78": {
+"p1": {
+"ar": "f0ef69d253d6",
+"tr": "89083a019066",
+"en": "0de1b850fce5",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p1-u7",
+"at": "2026-10-17 00:07",
+"fixed": false
+},
+"p2": {
+"ar": "f0ef69d253d6",
+"tr": "89083a019066",
+"en": "0de1b850fce5",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN gave the pattern of رفرفة as فعلل (Arabic «وزنة فعللة») and its note wrongly called the second \"3-\" item 4; corrected (it continues the main list: beginning/middle/end).",
+"by": "safi-cedvel-p2-u23",
+"at": "2026-10-16 19:18",
+"fixed": true
+}
+},
+"safi-cedvel:1-4": {
+"p1": {
+"ar": "5f5372fe2252",
+"tr": "6e81c6a2edee",
+"en": "1c3b24d4447a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+},
+"safi-cedvel:5-6": {
+"p1": {
+"ar": "5c33876c5a16",
+"tr": "42e90607b3cd",
+"en": "a59a16e2c001",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+},
+"safi-cedvel:7-13": {
+"p1": {
+"ar": "937423a2ef21",
+"tr": "a3c5e997da0a",
+"en": "b8462bc6a0ba",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+},
+"safi-cedvel:14-16": {
+"p1": {
+"ar": "f8b16007850c",
+"tr": "3e30d6cf3b16",
+"en": "e30200472fc2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+},
+"safi-cedvel:17-18": {
+"p1": {
+"ar": "88f4b0999a32",
+"tr": "5a44b8470404",
+"en": "0751222e62d9",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+},
+"safi-cedvel:19-23": {
+"p1": {
+"ar": "ebfeaa93932d",
+"tr": "8e312ba17e5f",
+"en": "18f183cde860",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+},
+"safi-cedvel:24-25": {
+"p1": {
+"ar": "6a547bc0e0ce",
+"tr": "d997d86c8cc9",
+"en": "a8d17a341c8a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+},
+"safi-cedvel:26-28": {
+"p1": {
+"ar": "d43ada6807bb",
+"tr": "296be4a079c8",
+"en": "d2b0f9d4421a",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+},
+"safi-cedvel:29-30": {
+"p1": {
+"ar": "e1dd1d735985",
+"tr": "eb456bb1ed38",
+"en": "297b3a126ecd",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "English: \"noun indicating time\" for اسم دالّ على الظرفيّة changed to adverbial status (ẓarfiyya)",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:35",
+"fixed": true
+},
+"p2": {
+"ar": "e1dd1d735985",
+"tr": "eb456bb1ed38",
+"en": "297b3a126ecd",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u23",
+"at": "2026-10-16 19:18",
+"fixed": false
+}
+},
+"safi-cedvel:31-32": {
+"p1": {
+"ar": "56614ec582dc",
+"tr": "3624c778529e",
+"en": "58221f95a028",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:35",
+"fixed": false
+},
+"p2": {
+"ar": "56614ec582dc",
+"tr": "3624c778529e",
+"en": "58221f95a028",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-p2-u23",
+"at": "2026-10-16 19:18",
+"fixed": false
+}
+},
+"safi-cedvel:33-34": {
+"p1": {
+"ar": "2e08770a3876",
+"tr": "1d9eb576fccc",
+"en": "659ba2681c86",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+},
+"safi-cedvel:35-36": {
+"p1": {
+"ar": "562e03e12923",
+"tr": "57fc73c377f2",
+"en": "7576eae30d32",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "safi-cedvel-u62",
+"at": "2026-10-10 19:35",
+"fixed": false
+}
+}
+}

@@ -1,0 +1,58 @@
+{
+"harrat-mujtaba:56-56": {
+"hs": [
+"587bf16b7e4b",
+"aa71cc631ecb",
+"e30541403478"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «والياء المقدرة منصوب الفعل». Turkish 'takdir edilen yâ fiilin mansûbudur' is a correct literal rendering, but it then adds '(mef'ûlüdür)', an interpretive gloss not in the source and not inside a Mütercim notu. Unmarked addition.",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "The Arabic is «والياء المقدرة منصوب الفعل». The Turkish renders it 'fiilin mansûbudur' and then adds '(mef'ûlüdür)', an interpretive gloss that is not in the Arabic and is not marked as a Mütercim notu. That is an unmarked addition.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "put the unmarked gloss (mef'ûlüdür) inside a Mütercim notu",
+"verified": "PASS",
+"verify_note": "'mef'ûlüdür' gloss now inside Mütercim notu; rest faithful."
+},
+"en": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "Arabic «والياء المقدرة منصوب الفعل» = the implied yāʾ is what the verb governs in the accusative, i.e. its object (the yāʾ of ليعبدون = 'Me', direct object of يعبد). English 'the implied yāʾ is the object of the verb' conveys exactly this meaning; it is a translation, not an added claim. No error.",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "«منصوب الفعل» means that which the verb puts in the accusative, which here is the verb's direct object. 'The implied yāʾ is the object of the verb' is a faithful rendering of the phrase and adds nothing. The rest of the English (lām ta'līl, أن مضمرة, حذف النون, نون الوقاية) is accurate.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+},
+"history": [
+{
+"old_hs": [
+"587bf16b7e4b",
+"8fffff278aa4",
+"e30541403478"
+],
+"dim": "tr",
+"what": "put the unmarked gloss (mef'ûlüdür) inside a Mütercim notu",
+"at": "2026-10-17 00:45"
+}
+]
+}
+}

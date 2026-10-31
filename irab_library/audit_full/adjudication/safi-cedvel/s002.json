@@ -1,0 +1,249 @@
+{
+"safi-cedvel:20-20": {
+"hs": [
+"a0ee0e47d176",
+"dc93bd66fa6f",
+"14e0d5a77477"
+],
+"dims": {
+"fit": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "The i'rab, jumal and sarf all parse ayah 20 («يكاد البرق يخطف أبصارهم», «كلما أضاء لهم مشوا فيه», «قاموا», «لذهب بسمعهم وأبصارهم», «على كل شيء قدير»). Only the short Fawaid paragraph remarks on «يا أَيُّهَا النَّاسُ», the opening of the immediately following ayah 21 — a comment on a following ayah, which the standard allows. Listing under 20 is correct.",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "The i'rab, ṣarf (يكاد، مشوا، قاموا، شاء، قدير) and the sentences are all about 2:20 (يكاد البرق يخطف أبصارهم ... إن الله على كل شيء قدير). Only the short الفوائد note on «يا أَيُّهَا النَّاسُ» anticipates the following ayah 2:21. Commenting on a following ayah is allowed, so the listing 20-20 is correct.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+},
+"safi-cedvel:5-5": {
+"hs": [
+"c940d0944025",
+"bfdffbc2ed02",
+"ce430b1cd99f"
+],
+"dims": {
+"fit": {
+"votes": {
+"J2": {
+"class": "HUMAN",
+"evidence": "Core i'rab/sarf/Balagha 1/Fawaid 1 are about ayah 5 («أولئك على هدى من ربهم», «هم المفلحون»). But Balagha 2 substantively analyses ayahs 1-2 («الم» ، «ذلك الكتاب» ، «لا ريب فيه» ، «هدى للمتقين» as four sentences), and Fawaid 3 discusses the root of «الناس» (first in ayah 8). A range covering all would be 1-8, which would wrongly include 3-4,6-7; these look like passage-level remarks the author attached at the end of the 1-5 section. Whether to re-file needs editorial judgement.",
+"at": "2026-10-17 00:41"
+},
+"J1": {
+"class": "HUMAN",
+"evidence": "The i'rab and ṣarf (أولاء، على هدى، من ربهم، هم المفلحون، المفلحون) and البلاغة 1 «عَلى هُدىً» are about 2:5. However, البلاغة 2 substantively analyses the sentence structure of 2:1-2 («الم» جملة برأسها، «ذلِكَ الْكِتابُ» جملة ثانية، «لا ريب فيه» ثالثة، «هُدىً لِلْمُتَّقِينَ» رابعة). الفوائد 3 discusses the root of «الناس» (2:8), and الفوائد 2 cites «يخادعون» and «فزادهم الله مرضا» only as examples. Whether the passage on ayahs 1-2 makes this a 1-5 entry (or wider) is an editorial judgement about this book's grouping, so I leave it to a human.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "HUMAN"
+}
+}
+},
+"safi-cedvel:30-30": {
+"hs": [
+"f0e5c47d711f",
+"112912bcd728",
+"2735419772a0"
+],
+"dims": {
+"fit": {
+"votes": {
+"J2": {
+"class": "MISPLACED",
+"evidence": "Inside the 2:30 i'rab, after «(أعلم) مضارع مرفوع هو», the source contains a block of the i'rab of 2:29: «(اللام) حرف جرّ و (كم) ... متعلّق ب (خلق) ، (ما) اسم موصول ... (جميعا) حال ... (ثمّ) حرف عطف (استوى) ... (إلى السماء) ... (سوّى) ... (سبع) مفعول به ثان (سموات) ... (هو) ... (بكلّ) ... (عليم)», the clause list «جملة: هو الذي ... / خلق ... / استوى ... / سوّاهن ...» and morphology of «جميعا / استوى / سوّاهنّ» – all words of 2:29 (لكم ما في الأرض جميعا ثم استوى إلى السماء فسواهن سبع سماوات وهو بكل شيء عليم). The rest («تقديره أنا (ما) ... لا تعلمون», «إذ», «ملائكة», «خليفة», «الدماء», «أتجعل») is 2:30. Since the entry substantively parses 2:29 too, the listing range must contain both.",
+"at": "2026-10-17 00:42",
+"ayahs": "29-30"
+},
+"J1": {
+"class": "MISPLACED",
+"evidence": "Entry is 2:30 (قال ربّك للملائكة، جاعل في الأرض خليفة، أتجعل فيها من يفسد، نسبّح بحمدك) but mid-analysis, after (أعلم) مضارع مرفوع هو, it contains a spliced full block of 2:29: (كم) ... متعلّق ب (خلق)، (ما) ... (في الأرض) ... (جميعا) حال، (ثمّ) (استوى) (إلى السماء)، (سوّى) ... (سبع) (سموات)، (هو) (بكلّ) (شيء) (عليم)، its jumal «هو الذي ...»، «خلق ...»، «استوى ...»، «سوّاهن ...» and sarf of (جميعا)(استوى)(سوّاهنّ). This substantively parses ayah 29, so the entry covers 29-30 (copy-paste defect in source; text unchanged).",
+"at": "2026-10-17 00:42",
+"ayahs": "29-30"
+}
+},
+"status": "DECIDED",
+"class": "MISPLACED"
+}
+}
+},
+"safi-cedvel:80-80": {
+"hs": [
+"274d6bb3e970",
+"b968f7c2d610",
+"8108371edd46"
+],
+"dims": {
+"fit": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "All parsed words belong to 2:80: «(قالوا) ... (لن) (تمسّ) (نا) (النار) (إلا) (أياما) (معدودة) (قل) (اتّخذتم) (عند) (عهدا) (يخلف) (أم) (تقولون) (على الله)». The source is truncated after «(على الله) جارّ» and jumps to the end of a hamza note on اتّخذتم («الفعل.. فهمزة الوصل ...»), but that fragment is also about 2:80 (أتّخذتم). Placement under 2:80 is correct; the truncation is a source defect already marked by notes in both readings, not a misfiling, and there is real 2:80 content to translate.",
+"at": "2026-10-17 00:42"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "All surviving content belongs to 2:80: (قالوا) (لن) (تمسّ) (النار) (أياما) (معدودة) (قل) (اتّخذتم) (عند) (عهدا) (يخلف) (أم) (تقولون) (على الله); the trailing fragment «الفعل.. فهمزة الوصل دخلت على الفعل ... فلمّا جاءت همزة الاستفهام حلّت محلّ همزة الوصل» is the sarf note on أتّخذتم of the same ayah. The source is truncated after «(على الله) جارّ» but nothing in it belongs to another ayah, so the listing under 80-80 is right; both readings flag the gap with marked notes.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+},
+"safi-cedvel:196-196": {
+"hs": [
+"2e6fababfe24",
+"6798c7f4dd9c",
+"959b2c43b311"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic Fawaid item a: «قيل إتمامهما أن تحرم بهما من دويرة أهلك» = 'that you enter ihram for them from your family's (small) home' (دويرة is the diminutive of دار). TR renders «evinin kapısından (ailenin yurdundan) onlar için ihrama girmek»: «kapısından» (from the door) is not in the Arabic and the parenthetical «(ailenin yurdundan)» is an unmarked gloss; also أهلك is 'your family', not just 'your house'. Fix e.g. «ailenin evinden ihrama girmen» (any gloss in [Mütercim notu: …]).",
+"at": "2026-10-17 00:42"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Fawa'id a: «قيل إتمامهما أن تحرم بهما من دويرة أهلك» = to enter ihram for them from your family's (little) home. TR renders «evinin kapısından (ailenin yurdundan)»: «kapısından» (from the door) is not in the Arabic and the parenthetical double rendering is unmarked. Fix e.g. «ailenin evinden (dueyre: küçük ev)». Also in item d, «Resûlullah'a (s.a.v.)» adds (s.a.v.) not present in «ان رسول الله سئل» without a Mütercim notu.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Fevaid a: 'evinin kapısından (ailenin yurdundan)' -> 'ailenin küçük evinden' + Mütercim notu on دويرة as diminutive of دار; removed unsupported 'kapısından' and unmarked gloss",
+"verified": "PASS",
+"verify_note": "Fawaid a now «ailenin küçük evinden» with the diminutive gloss inside a Mütercim notu; «kapısından» removed. (s.a.v.) in d follows glossary_tr rule 7 formula. Rest complete and faithful."
+}
+},
+"history": [
+{
+"old_hs": [
+"2e6fababfe24",
+"6ca9aa4ba9f3",
+"959b2c43b311"
+],
+"dim": "tr",
+"what": "Fevaid a: 'evinin kapısından (ailenin yurdundan)' -> 'ailenin küçük evinden' + Mütercim notu on دويرة as diminutive of دار; removed unsupported 'kapısından' and unmarked gloss",
+"at": "2026-10-17 00:45"
+}
+]
+},
+"safi-cedvel:198-198": {
+"hs": [
+"2fbcb4f7fc0a",
+"7a2af78e87ce",
+"75e07688bd90"
+],
+"dims": {
+"tr": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «قلت لابن عمر: إنا نكرى فهل لنا من حج؟» = 'we hire out / let for hire' with no object stated. TR «Biz (hayvan) kiraya veriyoruz» inserts «(hayvan)» as an unmarked parenthesis; the gloss is a plausible interpretation (renting out mounts) but it is not in the Arabic, so it must go inside [Mütercim notu: …] or be dropped.",
+"at": "2026-10-17 00:42"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Fawa'id narration: «إنا نكرى فهل لنا من حج» = we hire out / work for hire; TR «Biz (hayvan) kiraya veriyoruz» inserts «(hayvan)» which is not in the Arabic and is not inside a [Mütercim notu: ...]; an unmarked addition, should be moved into a note.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Fevaid: removed unmarked '(rızık)' from 'Allah'ın lütfundan aramak' (ابتغاء من فضل الله); restored narrator's قال: 'Dedi ki: Dedik ki: \"Evet.\"'; (hayvan) already in Mütercim notu",
+"verify_note": "(hayvan) now inside Mütercim notu; unmarked (rızık) removed; 'Dedi ki: Dedik ki: Evet' restores the narrator's قال. Full TR checked sentence by sentence against the Arabic: complete, faithful, no unmarked additions, Arabic script kept.",
+"fix_failed": 1,
+"verified": "PASS"
+},
+"en": {
+"votes": {
+"J2": {
+"class": "CONFIRMED",
+"evidence": "Arabic: «إنا نكرى فهل لنا من حج؟» = 'we hire out; is there Hajj for us?' with no object stated. EN «We hire out (our animals)» adds «(our animals)» as an unmarked parenthesis not in the Arabic; it must be put inside [Translator's note: …] or removed.",
+"at": "2026-10-17 00:42"
+},
+"J1": {
+"class": "CONFIRMED",
+"evidence": "Fawa'id narration: «إنا نكرى فهل لنا من حج»; EN «We hire out (our animals)» adds «(our animals)», not in the Arabic and not inside a [Translator's note: ...]; an unmarked addition, should be moved into a note.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "CONFIRMED",
+"fixed_note": "Abu Umama narration: unmarked '(our animals)' moved into [Translator's note: i.e. our mounts.]",
+"verified": "PASS",
+"verify_note": "«We hire out» now with «i.e. our mounts» inside a Translator's note; the source's «بالمعروف/الحجار» is flagged in a note. No new problems."
+}
+},
+"history": [
+{
+"old_hs": [
+"2fbcb4f7fc0a",
+"43fc881ec3b8",
+"f7177c751f97"
+],
+"dim": "tr",
+"what": "Ebu Umame narration: unmarked '(hayvan)' moved into [Mütercim notu: Yani binek hayvanlarımızı.]",
+"at": "2026-10-17 00:45"
+},
+{
+"old_hs": [
+"2fbcb4f7fc0a",
+"d9f72cb3de04",
+"75e07688bd90"
+],
+"dim": "en",
+"what": "Abu Umama narration: unmarked '(our animals)' moved into [Translator's note: i.e. our mounts.]",
+"at": "2026-10-17 00:45"
+},
+{
+"old_hs": [
+"2fbcb4f7fc0a",
+"d9f72cb3de04",
+"75e07688bd90"
+],
+"dim": "tr",
+"what": "Fevaid: removed unmarked '(rızık)' from 'Allah'ın lütfundan aramak' (ابتغاء من فضل الله); restored narrator's قال: 'Dedi ki: Dedik ki: \"Evet.\"'; (hayvan) already in Mütercim notu",
+"at": "2026-10-17 00:47"
+}
+]
+},
+"safi-cedvel:211-211": {
+"hs": [
+"079ab3576312",
+"c048463747aa",
+"ffc46b00c7de"
+],
+"dims": {
+"fit": {
+"votes": {
+"J2": {
+"class": "FALSE_ALARM",
+"evidence": "The whole entry parses 2:211: «(سل) ... (بني) ... (إسرائيل) ... (كم) ... (آتينا) ... (من آية) ... (بيّنة) ... (من) ... (يبدّل) ... (نعمة) (الله) (من بعد) (ما) (جاء) ... (شديد) (العقاب)», morphology of «سل / بني / نعمة» and Fawaid on «كم» with «من» زائدة in this ayah. It is listed under the right ayah. The Fawaid break off at «... ب «هل» دون» (source truncation, already noted in the readings), but that is not a placement problem and the rest is translatable.",
+"at": "2026-10-17 00:42"
+},
+"J1": {
+"class": "FALSE_ALARM",
+"evidence": "Whole entry parses 2:211: (سل) (بني) (إسرائيل) (كم) (آتينا) (من آية) (بيّنة) (من) (يبدّل) (نعمة الله) (من بعد) (ما) (جاء) (شديد) (العقاب), jumal «سل بني إسرائيل»، «آتيناهم»، «جاءته», and Fawa'id on كم ... «من زائدة» in this ayah. It only breaks off at the end («بعد الاستفهام ب هل دون»); that truncation does not affect placement, which is correct under 211-211.",
+"at": "2026-10-17 00:42"
+}
+},
+"status": "DECIDED",
+"class": "FALSE_ALARM"
+}
+}
+}
+}

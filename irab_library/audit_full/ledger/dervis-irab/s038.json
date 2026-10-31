@@ -1,0 +1,268 @@
+{
+"dervis-irab:21-25": {
+"p1": {
+"ar": "f961c01d7118",
+"tr": "c86610502857",
+"en": "935c5a4e8e95",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u3",
+"at": "2026-10-17 00:18",
+"fixed": false
+},
+"p2": {
+"ar": "f961c01d7118",
+"tr": "c86610502857",
+"en": "935c5a4e8e95",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN silently corrected three source slips (proverb «من عزيز», «إذ بدل من إذا الأولى», missing ظن after «مفعولي»); added marked translator notes. Content otherwise faithful.",
+"by": "dervis-irab-p2-u4",
+"at": "2026-10-17 00:02",
+"fixed": true
+}
+},
+"dervis-irab:26-29": {
+"p1": {
+"ar": "176dc176fddc",
+"tr": "e842d8cdacdf",
+"en": "1fb2335cac73",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u89",
+"at": "2026-10-10 19:43",
+"fixed": false
+},
+"p2": {
+"ar": "176dc176fddc",
+"tr": "e842d8cdacdf",
+"en": "1fb2335cac73",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u4",
+"at": "2026-10-17 00:02",
+"fixed": false
+}
+},
+"dervis-irab:30-40": {
+"p1": {
+"ar": "1b7d14d40f95",
+"tr": "68af8aafbb3b",
+"en": "8c79ab5cf274",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u15",
+"at": "2026-10-17 00:06",
+"fixed": false
+},
+"p2": {
+"ar": "1b7d14d40f95",
+"tr": "68af8aafbb3b",
+"en": "8c79ab5cf274",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN silently corrected source «لتعلق الخبر بها» to \"good\"; added translator note that the source has «الخبر» (as TR does).",
+"by": "dervis-irab-p2-u34",
+"at": "2026-10-16 19:21",
+"fixed": true
+}
+},
+"dervis-irab:1-5": {
+"p1": {
+"ar": "3ebb7d0e3311",
+"tr": "0ae6de8ce6c6",
+"en": "badc5a357ecc",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u88",
+"at": "2026-10-10 19:44",
+"fixed": false
+}
+},
+"dervis-irab:6-11": {
+"p1": {
+"ar": "c63a4d09fdaf",
+"tr": "058247657f30",
+"en": "dd6df69d6216",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u88",
+"at": "2026-10-10 19:44",
+"fixed": false
+}
+},
+"dervis-irab:41-44": {
+"p1": {
+"ar": "19944d7e6641",
+"tr": "36fe6e000a78",
+"en": "ffab7d28e1d2",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u15",
+"at": "2026-10-17 00:08",
+"fixed": false
+},
+"p2": {
+"ar": "19944d7e6641",
+"tr": "36fe6e000a78",
+"en": "ffab7d28e1d2",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN rendered proverb gloss «يحمل صاحبه المكروه» as the companion bearing it (agent lost) and added unmarked \"fresh\" to «حزمة من حشيش»; corrected.",
+"by": "dervis-irab-p2-u34",
+"at": "2026-10-16 19:28",
+"fixed": true
+}
+},
+"dervis-irab:45-48": {
+"p1": {
+"ar": "dbc20ea12cc6",
+"tr": "713c999024e1",
+"en": "40f3bd65e1b1",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u89",
+"at": "2026-10-10 19:44",
+"fixed": false
+}
+},
+"dervis-irab:49-60": {
+"p1": {
+"ar": "8b7bec3da443",
+"tr": "0c849be69b8e",
+"en": "ab336eb45f32",
+"fit": "OK",
+"trv": "FIXED",
+"env": "OK",
+"note": "Turkish: «ومنه رحبة المجد» rendered as \"mescidin ... رحبة\" (silently altered the source word المجد); now translated as written.",
+"by": "dervis-irab-u89",
+"at": "2026-10-10 19:44",
+"fixed": true
+},
+"p2": {
+"ar": "8b7bec3da443",
+"tr": "0c849be69b8e",
+"en": "ab336eb45f32",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u34",
+"at": "2026-10-16 19:28",
+"fixed": false
+}
+},
+"dervis-irab:12-15": {
+"p1": {
+"ar": "11b6f51ba811",
+"tr": "b13f68f30a38",
+"en": "263acb2aa188",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u88",
+"at": "2026-10-10 19:44",
+"fixed": false
+}
+},
+"dervis-irab:16-20": {
+"p1": {
+"ar": "bd45dd83dd44",
+"tr": "c3d53a4e48ea",
+"en": "7ddfa221fe70",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u88",
+"at": "2026-10-10 19:44",
+"fixed": false
+}
+},
+"dervis-irab:61-66": {
+"p1": {
+"ar": "a7635ffbed12",
+"tr": "f6ce1b3d4524",
+"en": "3609ff66a248",
+"fit": "OK",
+"trv": "FIXED",
+"env": "FIXED",
+"note": "TR dropped the \"or\" before \"الهاء مفعول به أول\" (أو الهاء); restored. EN silently corrected the source typo «أمية بن اخلف» to Khalaf; added translator note.",
+"by": "dervis-irab-p1-u15",
+"at": "2026-10-17 00:08",
+"fixed": true
+},
+"p2": {
+"ar": "a7635ffbed12",
+"tr": "f6ce1b3d4524",
+"en": "3609ff66a248",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p2-u20",
+"at": "2026-10-17 00:18",
+"fixed": false
+}
+},
+"dervis-irab:67-78": {
+"p1": {
+"ar": "649ef2eef2cc",
+"tr": "6fd59a9535a1",
+"en": "7193e2aba041",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-p1-u15",
+"at": "2026-10-17 00:08",
+"fixed": false
+},
+"p2": {
+"ar": "649ef2eef2cc",
+"tr": "6fd59a9535a1",
+"en": "7193e2aba041",
+"fit": "OK",
+"trv": "OK",
+"env": "FIXED",
+"note": "EN silently joined the source spelling «أو كتا» in the proverb; added translator note (TR already notes it).",
+"by": "dervis-irab-p2-u34",
+"at": "2026-10-16 19:28",
+"fixed": true
+}
+},
+"dervis-irab:79-88": {
+"p1": {
+"ar": "2ca96ff9e801",
+"tr": "97efdc81963c",
+"en": "d70130d1c61b",
+"fit": "OK",
+"trv": "OK",
+"env": "OK",
+"note": "",
+"by": "dervis-irab-u2",
+"at": "2026-10-11 00:55",
+"fixed": false
+}
+}
+}
