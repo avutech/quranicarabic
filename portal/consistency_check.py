@@ -70,7 +70,7 @@ def main():
                 bl = list(books.items())
                 for x in range(len(bl)):
                     for y in range(x + 1, len(bl)):
-                        if bl[x][0] == B.QAC or bl[y][0] == B.QAC:
+                        if bl[x][0] in (B.QAC, B.DERIVED) or bl[y][0] in (B.QAC, B.DERIVED):
                             continue
                         disagree[(role, "both name it")] += 1
                         if not bl[x][1] & bl[y][1]:

@@ -9,8 +9,8 @@ haber: 8724, mubteda: 4498, hal: 4122, sart: 2576, cevap: 2155, ismInna: 1877, i
 - **3+ roles on one word**: 166 — e.g. 2:38 فَمَن (mubteda+sart+cevap); 2:39 هُمْ (mubteda+haber+hal); 2:82 هُمْ (mubteda+haber+hal); 2:85 وَهُوَ (mubteda+hal+sart); 2:102 لَمَنِ (mubteda+haber+sart); 2:121 أُو۟لَـٰٓئِكَ (mubteda+haber+cevap)
 
 ## 2. Books against each other (non-alternative tags, same ayah, same role)
-- mubteda: 7833 book pairs name it in the same ayah; 1175 of them put it on **different words** (15%)
-- haber: 12113 book pairs name it in the same ayah; 3054 of them put it on **different words** (25%)
+- mubteda: 5286 book pairs name it in the same ayah; 881 of them put it on **different words** (17%)
+- haber: 9442 book pairs name it in the same ayah; 2097 of them put it on **different words** (22%)
 - hal: 4356 book pairs name it in the same ayah; 1027 of them put it on **different words** (24%)
 - sart: 2416 book pairs name it in the same ayah; 458 of them put it on **different words** (19%)
 - cevap: 2253 book pairs name it in the same ayah; 814 of them put it on **different words** (36%)
@@ -24,15 +24,15 @@ Examples:
 - 2:8 haber saf=[2, 10] vs daa=[1]
 - 2:8 haber muy=[0, 10] vs daa=[1]
 - 2:14 haber saf=[12] vs daa=[15]
-- 2:14 haber saf=[12] vs der=[15]
 - 2:16 haber muy=[1] vs daa=[10]
-- 2:16 haber der=[1] vs daa=[10]
 - 2:19 haber daa=[4] vs saf=[1, 2, 17]
-- 2:19 haber daa=[4] vs der=[17]
 - 2:20 sart muy=[7, 13] vs saf=[4, 9]
 - 2:23 cevap saf=[5, 12] vs muy=[8, 19]
 - 2:23 cevap saf=[5, 12] vs daa=[8]
-- 2:26 haber daa=[2, 17, 24] vs der=[16]
+- 2:26 hal saf=[16, 28, 34] vs daa=[17]
+- 2:30 haber saf=[5] vs daa=[18, 24]
+- 2:30 haber saf=[5] vs muy=[18, 24]
+- 2:36 hal saf=[9, 10] vs daa=[11]
 
 ## 3. Coverage against independent evidence
 - corpus 'wāw al-ḥāl' words: 293, tagged hal: 280 (96%)

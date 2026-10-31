@@ -125,7 +125,7 @@ def main(out):
                     if t["alt"]:
                         continue
                     for x in t["src"]:
-                        if x["b"] != B.QAC:
+                        if x["b"] not in (B.QAC, B.DERIVED):
                             per[role][x["b"]][i] = x["q"]
             for role, books in per.items():
                 bl = list(books.items())
