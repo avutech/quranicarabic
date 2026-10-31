@@ -8,14 +8,6 @@
 ]
 },
 {
-"ref": "2:85#21",
-"role": "hal",
-"why": "hal but the word is marfū‘",
-"books": [
-"safi-cedvel"
-]
-},
-{
 "ref": "2:90#5",
 "role": "mubteda",
 "why": "mubteda but the word is منصوب",
@@ -240,7 +232,8 @@
 "why": "hal but the word is marfū‘",
 "books": [
 "daas-irab",
-"muyesser-irab"
+"muyesser-irab",
+"qac"
 ]
 },
 {
@@ -366,14 +359,6 @@
 ]
 },
 {
-"ref": "3:97#7",
-"role": "haber",
-"why": "haber (word-level) on a verb",
-"books": [
-"daas-irab"
-]
-},
-{
 "ref": "3:97#8",
 "role": "sart",
 "why": "sart on a plain noun",
@@ -443,14 +428,6 @@
 "why": "hal but the word is marfū‘",
 "books": [
 "safi-cedvel"
-]
-},
-{
-"ref": "4:6#22",
-"role": "haber",
-"why": "haber (word-level) on a verb",
-"books": [
-"daas-irab"
 ]
 },
 {
@@ -639,6 +616,14 @@
 "books": [
 "daas-irab",
 "muyesser-irab"
+]
+},
+{
+"ref": "4:166#8",
+"role": "hal",
+"why": "hal but the word is marfū‘",
+"books": [
+"qac"
 ]
 },
 {
@@ -838,6 +823,14 @@
 ]
 },
 {
+"ref": "5:72#27",
+"role": "hal",
+"why": "hal but the word is marfū‘",
+"books": [
+"qac"
+]
+},
+{
 "ref": "5:73#5",
 "role": "mubteda",
 "why": "mubteda but the word is منصوب",
@@ -965,22 +958,6 @@
 "why": "mubteda but the word is منصوب",
 "books": [
 "safi-cedvel"
-]
-},
-{
-"ref": "6:33#1",
-"role": "haber",
-"why": "haber (word-level) on a verb",
-"books": [
-"daas-irab"
-]
-},
-{
-"ref": "6:35#1",
-"role": "haber",
-"why": "haber (word-level) on a verb",
-"books": [
-"daas-irab"
 ]
 },
 {
@@ -1120,14 +1097,6 @@
 "ref": "6:157#3",
 "role": "sart",
 "why": "sart on a plain noun",
-"books": [
-"safi-cedvel"
-]
-},
-{
-"ref": "6:164#6",
-"role": "hal",
-"why": "hal but the word is marfū‘",
 "books": [
 "safi-cedvel"
 ]
@@ -1360,7 +1329,8 @@
 "why": "hal but the word is marfū‘",
 "books": [
 "daas-irab",
-"muyesser-irab"
+"muyesser-irab",
+"qac"
 ]
 },
 {
@@ -1871,14 +1841,6 @@
 "why": "mubteda but the word is منصوب",
 "books": [
 "safi-cedvel"
-]
-},
-{
-"ref": "18:29#6",
-"role": "haber",
-"why": "haber (word-level) on a verb",
-"books": [
-"daas-irab"
 ]
 },
 {
@@ -2439,14 +2401,6 @@
 ]
 },
 {
-"ref": "31:27#6",
-"role": "hal",
-"why": "hal but the word is marfū‘",
-"books": [
-"daas-irab"
-]
-},
-{
 "ref": "32:5#11",
 "role": "haber",
 "why": "haber (word-level) on a verb",
@@ -2555,6 +2509,14 @@
 "why": "mubteda but the word is منصوب",
 "books": [
 "safi-cedvel"
+]
+},
+{
+"ref": "35:15#6",
+"role": "hal",
+"why": "hal but the word is marfū‘",
+"books": [
+"qac"
 ]
 },
 {
@@ -2850,14 +2812,6 @@
 ]
 },
 {
-"ref": "45:24#5",
-"role": "hal",
-"why": "hal but the word is marfū‘",
-"books": [
-"safi-cedvel"
-]
-},
-{
 "ref": "46:11#6",
 "role": "haber",
 "why": "haber (word-level) on a verb",
@@ -3010,15 +2964,8 @@
 "why": "hal but the word is marfū‘",
 "books": [
 "safi-cedvel",
-"daas-irab"
-]
-},
-{
-"ref": "58:1#11",
-"role": "hal",
-"why": "hal but the word is marfū‘",
-"books": [
-"muyesser-irab"
+"daas-irab",
+"qac"
 ]
 },
 {
@@ -3198,14 +3145,6 @@
 ]
 },
 {
-"ref": "73:19#5",
-"role": "haber",
-"why": "haber (word-level) on a verb",
-"books": [
-"muyesser-irab"
-]
-},
-{
 "ref": "73:20#15",
 "role": "sart",
 "why": "sart on a plain noun",
@@ -3221,14 +3160,6 @@
 "safi-cedvel",
 "daas-irab",
 "muyesser-irab"
-]
-},
-{
-"ref": "75:6#2",
-"role": "hal",
-"why": "hal but the word is marfū‘",
-"books": [
-"safi-cedvel"
 ]
 },
 {

@@ -360,9 +360,45 @@ def check_morphology(role, scope, m):
     return None
 
 
-HIDDEN = []                                                    # tags the word's own grammar contradicts: kept for review, not shown
+HIDDEN = []; MERGED = []                                                    # tags the word's own grammar contradicts: kept for review, not shown
 CONFLICTS = []                                                 # words the books contradict themselves on, kept for review
 EXCLUSIVE = (("mubteda", "haber"), ("sart", "cevap"))          # one word can't be both at word level
+
+
+def merge_adjacent(byword):
+    """Two books often name the same role on neighbouring words (the sentence's first word vs its verb, the wāw vs the word
+    after it). When different books put one role on adjacent words, they are one claim: merge into the word with more
+    support (a tie → the earlier word). Only when one of them is a sentence-level tag (a word-level tag on a neighbouring
+    word is usually a different word), never within one book's own tags, never şart, and the corpus tags are left alone."""
+    for role in ROLES:
+        if role == "sart":                                         # the particle and the verb are two different şart words
+            continue
+        items = sorted((i, r[role]) for i, r in byword.items() if role in r and not r[role]["alt"])
+        clusters = []
+        for i, t in items:
+            books = {x["b"] for x in t["src"]} - {QAC}
+            if not books:
+                continue
+            c = clusters[-1] if clusters else None
+            # only a sentence-level tag has an anchor that is a matter of convention (first word vs verb)
+            if c and i - c["first"] <= 1 and not (books & c["books"]) and (t["scope"] == "clause" or c["clause"]):
+                c["members"].append((i, t)); c["books"] |= books; c["clause"] |= t["scope"] == "clause"
+            else:
+                clusters.append({"first": i, "books": set(books), "members": [(i, t)], "clause": t["scope"] == "clause"})
+        for c in clusters:
+            if len(c["members"]) < 2:
+                continue
+            anchor_i, anchor = max(c["members"], key=lambda m: (len(m[1]["src"]), -m[0]))
+            for i, t in c["members"]:
+                if i == anchor_i:
+                    continue
+                for x in t["src"]:
+                    if not any(y["b"] == x["b"] for y in anchor["src"]):
+                        anchor["src"].append(x)
+                anchor["conf"] = "high" if "high" in (anchor["conf"], t["conf"]) else "low"
+                anchor["scope"] = "clause" if "clause" in (anchor["scope"], t["scope"]) else "word"
+                del byword[i][role]
+                MERGED.append(f"{role}@{i}→{anchor_i}")
 
 
 def hide_contradicted(surah, ayah, word, tags, w):
@@ -423,13 +459,14 @@ def build_surah(surah, only=None):
         if not ws or (only and a != only):
             continue
         for i, w in enumerate(ws):
-            for needle, role in (("أداة شرط", "sart"), ("حرف جواب الشرط", "cevap")):
+            for needle, role in (("أداة شرط", "sart"), ("حرف جواب الشرط", "cevap"), ("واو الحال", "hal")):
                 if needle in w["pa"] and skeleton(w["ar"]) not in REL_PRONOUNS:
                     t = merged[a][i].setdefault(role, {"r": role, "scope": "word", "alt": False, "conf": "high", "src": []})
                     if not any(x["b"] == QAC for x in t["src"]):
                         t["src"].append({"b": QAC, "k": f"qac:{surah}:{a}:{i + 1}", "q": f"{w['pa']} — {w['pt']}"})
     res = {}
     for a, byword in sorted(merged.items()):
+        merge_adjacent(byword)
         if only and a != only:
             continue
         shown = {str(i): sorted(settle(surah, a, i, hide_contradicted(surah, a, i, [t for t in r.values() if displayable(t)], words[str(a)]["w"][i])),
@@ -487,6 +524,7 @@ if __name__ == "__main__":
         pruned += prune_orphan_answers(res)
         (LIB / "roles" / f"s{s:03d}.json").write_text(json.dumps(res, ensure_ascii=False, separators=(",", ":")), "utf-8")
     (LIB / "roles" / "HIDDEN.json").write_text(json.dumps(HIDDEN, ensure_ascii=False, indent=0), "utf-8")
+    print(f"merged neighbouring tags from different books: {len(MERGED)}")
     print(f"hidden because the word's own grammar contradicts the role: {len(HIDDEN)} ({dict(Counter(h['why'] for h in HIDDEN))})")
     (LIB / "roles" / "CONFLICTS.json").write_text(json.dumps(CONFLICTS, ensure_ascii=False, indent=0), "utf-8")
     print(grand, f"aligned {grand['aligned'] / max(1, grand['lines']):.1%}")
