@@ -832,7 +832,7 @@
   @font-face { font-family: 'KuranMetin'; src: url(/fonts/ShaikhHamdullahMushaf.ttf) format('truetype'); font-display: swap; }
   @font-face { font-family: 'KuranIsaret'; src: url(/fonts/KuranIsaretler.ttf) format('truetype'); font-display: swap;
                unicode-range: U+0615, U+0617, U+0656, U+06DE, U+08F0-08F3; }
-  .wbox .w-ar { font-family: var(--font-quran); font-size: calc(1.6rem * var(--lib-scale, 1)); color: var(--ayah); direction: rtl; line-height: 1.6; margin-bottom: 0.9em; }
+  .wbox .w-ar { font-family: var(--font-quran); font-size: calc(1.9rem * var(--lib-scale, 1)); color: var(--ayah); direction: rtl; line-height: 1.6; margin-bottom: 0.9em; }
   .wbox .w-tl { color: #7c3aed; font-style: italic; }
   .wbox .w-tr { color: #b91c1c; font-weight: 600; }
   .wbox .w-en { color: #15803d; }
@@ -850,6 +850,8 @@
   .lib-line.lib-sec { font-weight: 700; color: var(--gold); margin-top: 12px; }
   .lib-text-ar .lib-line { font-family: var(--font-quran); font-size: calc(1.9rem * var(--lib-scale, 1)); line-height: 2; }   /* same font and size as .lib-verse-ar */
   .lib-text-tr .lib-line { font-size: calc(0.98rem * var(--lib-scale, 1)); }
+  /* Arabic quoted inside the Turkish / English readings: same size as the verse */
+  .lib-text-tr .q, .lib-text-tr .lib-head { font-size: calc(1.9rem * var(--lib-scale, 1)); line-height: 1.9; }
   .lib-head { color: var(--ayah); font-weight: 700; font-family: var(--font-quran); }
   .lib-book-sub { font-weight: 500; color: var(--mid); }
   .lib-tools { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
@@ -875,6 +877,7 @@
     .lib-verse { padding: 14px 16px; }
     .lib-verse-ar { font-size: 1.5rem; }
     .lib-text-ar .lib-line { font-size: calc(1.5rem * var(--lib-scale, 1)); }   /* matches .lib-verse-ar on phones */
+    .wbox .w-ar, .lib-text-tr .q, .lib-text-tr .lib-head { font-size: calc(1.5rem * var(--lib-scale, 1)); }
   }
 
   .icmp-model-select {
