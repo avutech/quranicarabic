@@ -93,7 +93,7 @@ const TestsUI = (() => {
     const ch = catalog.chapters[id];
     if (!ch || !ch.open) { slot.remove(); return; }
     slot.innerHTML = `<div class="section-title">${tx('chapterTitle')}</div>` +
-      card(tx('chapterTitle'), tx('chapterDesc')(ch.pool, ch.topics.length, catalog.lengths.chapter), `chapter:${id}`, { kind: 'chapter', chapter: id });
+      card(tx('chapterTitle'), tx('chapterDesc')(ch.pool, ch.topics.length, ch.length), `chapter:${id}`, { kind: 'chapter', chapter: id });
   }
 
   async function mountLevel(levelNum) {
@@ -110,7 +110,7 @@ const TestsUI = (() => {
     const li = catalog.levels && catalog.levels[String(levelNum)];
     if (!li || !li.exam || !li.open) { slot.remove(); return; }
     slot.innerHTML = `<div class="section-title">${tx('levelTitle')}</div>` +
-      card(tx('levelTitle'), tx('levelDesc')(li.cleared, catalog.lengths.level), `level:L${levelNum}`, { kind: 'level', level: levelNum });
+      card(tx('levelTitle'), tx('levelDesc')(li.cleared, li.length), `level:L${levelNum}`, { kind: 'level', level: levelNum });
   }
 
   // Sidebar helpers (synchronous: they use the cached catalog and refresh the sidebar once it has loaded).
@@ -143,7 +143,7 @@ const TestsUI = (() => {
     if (!ch || !ch.open || !lesson) return;
     document.getElementById('main').innerHTML = `
       <div class="topic-header"><div class="week-num">${esc(lv.title[lang])} · ${tx('week')} ${W}</div><h2>${esc(lesson.title[lang])}</h2></div>
-      <div class="section">${card(tx('chapterTitle'), tx('chapterDesc')(ch.pool, ch.topics.length, catalog.lengths.chapter), `chapter:L${L}W${W}`, { kind: 'chapter', chapter: `L${L}W${W}` })}
+      <div class="section">${card(tx('chapterTitle'), tx('chapterDesc')(ch.pool, ch.topics.length, ch.length), `chapter:L${L}W${W}`, { kind: 'chapter', chapter: `L${L}W${W}` })}
         <div style="margin-top:14px"><button class="btn-secondary" onclick="clickLesson('${lv.id}',${lv.lessons.indexOf(lesson)})">📖 ${tx('openLesson')}</button></div></div>`;
   }
   async function openLevel(L) {
@@ -152,7 +152,7 @@ const TestsUI = (() => {
     if (!li || !li.exam || !li.open || !lv) return;
     document.getElementById('main').innerHTML = `
       <div class="topic-header"><h2>${esc(lv.title[lang])} · ${tx('levelTitle')}</h2></div>
-      <div class="section">${card(tx('levelTitle'), tx('levelDesc')(li.cleared, catalog.lengths.level), `level:L${L}`, { kind: 'level', level: L })}</div>`;
+      <div class="section">${card(tx('levelTitle'), tx('levelDesc')(li.cleared, li.length), `level:L${L}`, { kind: 'level', level: L })}</div>`;
   }
 
   async function renderMaster(ref) {
@@ -162,7 +162,7 @@ const TestsUI = (() => {
     const slot = document.getElementById('master-slot');
     if (!catalog.master.pool) { slot.innerHTML = `<div class="tq-entry"><p>${tx('unavailable')}</p></div>`; return; }
     if (!catalog.master.open) { slot.innerHTML = `<div class="tq-entry"><p>${tx('masterLocked')}</p></div>`; return; }
-    slot.innerHTML = card(tx('masterTitle'), tx('masterDesc')(catalog.lengths.master), 'master:ALL', { kind: 'master' });
+    slot.innerHTML = card(tx('masterTitle'), tx('masterDesc')(catalog.master.length), 'master:ALL', { kind: 'master' });
   }
 
   // ─── Running a test ─────────────────────────────────────────────────────────

@@ -65,6 +65,21 @@ def load_banks():
         return banks
 
 
+def student_banks():
+    """load_banks() restricted to questions a scholar has approved (current text version).
+
+    Nothing reaches a student, a level exam or the Master Exam until it is approved in the admin review screen;
+    editing a question changes its content_hash, so it drops out again until re-approved. A bank keeps its
+    topics even when no question of it is approved (Master questions look their topics up in their own chapter)."""
+    with user_db.db() as conn:
+        ok = {r["qid"]: r["content_hash"] for r in conn.execute("SELECT qid, content_hash FROM question_reviews")}
+    out = {}
+    for cid, b in load_banks().items():
+        qs = [q for q in b["questions"] if ok.get(q["id"]) == content_hash(q)]
+        out[cid] = {**b, "questions": qs, "q_by_id": {q["id"]: q for q in qs}}
+    return out
+
+
 def find_question(qid):
     for b in load_banks().values():
         if qid in b["q_by_id"]:
@@ -277,20 +292,22 @@ def item_points(tries_used, hint):
 @tests_bp.get("/catalog")
 @login_required
 def catalog():
-    banks = load_banks()
+    banks = student_banks()
     user = current_user_row()
     chapters = {}
     for cid, b in banks.items():
-        if cid == "MASTER":
+        if cid == "MASTER" or not b["questions"]:
             continue
-        chapters[cid] = {"pool": len(b["questions"]), "open": can_open_chapter(user, cid),
+        chapters[cid] = {"pool": len(b["questions"]), "length": min(LENGTHS["chapter"], len(b["questions"])), "open": can_open_chapter(user, cid),
                          "topics": [{"id": t["id"], "title": t["title"], "section": t.get("section"),
                                      "n": sum(1 for q in b["questions"] if q["topic"] == t["id"])} for t in b["topics"]]}
-    levels = {str(L): sum(1 for c in chapters if chapter_level(c)[0] == L) for L in (1, 2, 3)}
+    levels = {str(L): sum(1 for c in chapters if chapter_level(c)[0] == L) for L in (1, 2, 3)}      # chapters with approved questions
+    level_pool = {str(L): sum(len(b["questions"]) for c, b in banks.items() if chapter_level(c)[0] == L) for L in (1, 2, 3)}
     cleared = allowed_chapters(user, banks)
     level_info = {str(L): {"exam": levels[str(L)] >= 14,                      # all 14 chapters have question banks
                            "open": any(chapter_level(c)[0] == L for c in cleared),   # student is cleared for >= 1 chapter
-                           "cleared": sum(chapter_level(c)[0] == L for c in cleared)} for L in (1, 2, 3)}
+                           "cleared": sum(chapter_level(c)[0] == L for c in cleared),
+                           "length": min(LENGTHS["level"], level_pool[str(L)])} for L in (1, 2, 3)}
     master_pool = len(banks["MASTER"]["questions"]) if "MASTER" in banks else 0
     with user_db.db() as conn:
         best = {}
@@ -299,7 +316,7 @@ def catalog():
                 "WHERE user_id = ? AND finished_at IS NOT NULL AND max_points > 0 GROUP BY kind, scope", (user["id"],)):
             best[f"{r['kind']}:{r['scope']}"] = {"best": round(r["p"]), "attempts": r["n"]}
     return jsonify({"chapters": chapters, "chaptersPerLevel": levels, "levels": level_info,
-                    "master": {"pool": master_pool, "open": bool(master_pool and cleared)},
+                    "master": {"pool": master_pool, "length": min(LENGTHS["master"], master_pool), "open": bool(master_pool and cleared)},
                     "lengths": LENGTHS, "best": best})
 
 
@@ -311,10 +328,10 @@ def start():
     if kind not in LENGTHS:
         return jsonify({"error": "unknown test kind"}), 400
     user = current_user_row()
-    banks = load_banks()
+    banks = student_banks()
     chapter, topic, level = data.get("chapter"), data.get("topic"), None
     if kind in ("chapter", "drill"):
-        if chapter not in banks or chapter == "MASTER":
+        if chapter == "MASTER" or not banks.get(chapter, {}).get("questions"):
             return jsonify({"error": "no questions for this chapter yet"}), 404
         if not can_open_chapter(user, chapter):
             return jsonify({"error": "chapter locked"}), 403
@@ -323,13 +340,13 @@ def start():
             return jsonify({"error": "unknown topic"}), 400
     elif kind == "level":
         level = int(data.get("level") or 0)
-        if level not in (1, 2, 3) or sum(chapter_level(c)[0] == level for c in banks) < 14:
+        if level not in (1, 2, 3) or sum(chapter_level(c)[0] == level and bool(b["questions"]) for c, b in banks.items()) < 14:
             return jsonify({"error": "the level exam opens when all 14 chapters of the level have questions"}), 404
         scope = f"L{level}"
         if not any(chapter_level(c)[0] == level for c in allowed_chapters(user, banks)):
             return jsonify({"error": "level locked"}), 403
     else:
-        if "MASTER" not in banks:
+        if not banks.get("MASTER", {}).get("questions"):
             return jsonify({"error": "Master Exam is not available yet"}), 404
         scope = "ALL"
         if not allowed_chapters(user, banks):

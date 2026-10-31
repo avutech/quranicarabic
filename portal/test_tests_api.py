@@ -16,6 +16,25 @@ user_db.init_db()
 T.init_tables()
 
 
+def approve(questions):
+    """Mark questions as scholar-approved (only approved questions ever reach students)."""
+    with user_db.db() as conn:
+        for q in questions:
+            conn.execute("INSERT OR REPLACE INTO question_reviews (qid, content_hash, reviewer_id, approved_at) VALUES (?,?,NULL,'t')",
+                         (q["id"], T.content_hash(q)))
+
+
+def unapprove_all():
+    with user_db.db() as conn:
+        conn.execute("DELETE FROM question_reviews")
+
+
+
+
+def approve_all_real():
+    approve(q for b in T.load_banks().values() for q in b["questions"])
+
+
 def client(role="user", email="s@example.com", unlocks=("L1W1",)):
     uid = user_db.create_user(email, "pw-123456", role=role)
     if unlocks:
@@ -75,6 +94,7 @@ class Sampler(unittest.TestCase):
 
 
 class Flow(unittest.TestCase):
+    setUp = lambda self: approve_all_real()
     def test_start_hides_answers_and_explanations(self):
         c, _ = client(email="a@x.com")
         code, d = start(c, kind="chapter", chapter="L1W1")
@@ -224,6 +244,7 @@ def fake_bank(ch, per_topic=12):
 
 
 class Clearance(unittest.TestCase):
+    setUp = lambda self: approve_all_real()
     """Level exam / Master Exam only draw from chapters the student is cleared for (same unlocks as the lessons)."""
 
     def banks(self):
@@ -233,6 +254,7 @@ class Clearance(unittest.TestCase):
         for ch in ("L1W1", "L1W2", "L2W5"):                  # integrative questions tagged with their primary chapter
             for q in fake_bank(ch)["questions"]:
                 q = dict(q, id="M-" + q["id"]); b["MASTER"]["questions"].append(q); b["MASTER"]["q_by_id"][q["id"]] = q
+        approve(q for bank in b.values() for q in bank["questions"])
         return mock.patch.object(T, "load_banks", return_value=b)
 
     def test_level_exam_only_uses_unlocked_chapters(self):
@@ -244,7 +266,7 @@ class Clearance(unittest.TestCase):
             self.assertEqual(len(d["items"]), 20)
             self.assertEqual(start(c, kind="level", level=2)[0], 403)           # no Level 2 clearance
             cat = c.get("/api/tests/catalog").get_json()
-            self.assertEqual(cat["levels"]["1"], {"exam": True, "open": True, "cleared": 2})
+            self.assertEqual(cat["levels"]["1"], {"exam": True, "open": True, "cleared": 2, "length": 20})
             self.assertFalse(cat["levels"]["2"]["open"])
 
     def test_master_exam_respects_levels_and_needs_some_clearance(self):
@@ -264,6 +286,7 @@ class Clearance(unittest.TestCase):
 
 class ScholarReview(unittest.TestCase):
     def setUp(self):
+        unapprove_all()
         n = ScholarReview.__dict__.get("_n", 0) + 1
         ScholarReview._n = n
         self.admin, _ = client("admin", f"adm{n}@example.com", unlocks=())
@@ -342,6 +365,73 @@ class ScholarReview(unittest.TestCase):
         d = self.admin.get("/api/tests/review/chapter/MASTER").get_json()
         self.assertTrue(d["questions"])
         self.assertTrue(all(q["topicTitle"] for q in d["questions"]))
+
+
+
+class ScholarGate(unittest.TestCase):
+    """Nothing reaches a student until a scholar has approved it; tests are 20 (or fewer) from the approved questions."""
+
+    def setUp(self):
+        unapprove_all()
+        n = ScholarGate.__dict__.get("_n", 0) + 1
+        ScholarGate._n = n
+        self.stu, _ = client("user", f"gate{n}@example.com")
+        self.bank = T.load_banks()["L1W1"]
+
+    def pool(self, k):
+        return sorted(self.bank["questions"], key=lambda q: q["id"])[:k]
+
+    def test_nothing_approved_nothing_served(self):
+        cat = self.stu.get("/api/tests/catalog").get_json()
+        self.assertNotIn("L1W1", cat["chapters"])
+        self.assertEqual(start(self.stu, kind="chapter", chapter="L1W1")[0], 404)
+        self.assertEqual(cat["master"]["pool"], 0)
+        self.assertEqual(start(self.stu, kind="master")[0], 404)
+
+    def test_fewer_than_20_approved_shows_just_those(self):
+        approve(self.pool(7))
+        cat = self.stu.get("/api/tests/catalog").get_json()["chapters"]["L1W1"]
+        self.assertEqual((cat["pool"], cat["length"]), (7, 7))
+        code, d = start(self.stu, kind="chapter", chapter="L1W1")
+        self.assertEqual(code, 200)
+        self.assertEqual({i["id"] for i in d["items"]}, {q["id"] for q in self.pool(7)})
+
+    def test_more_than_20_approved_gives_20_and_rotates(self):
+        approve(self.pool(45))
+        self.assertEqual(self.stu.get("/api/tests/catalog").get_json()["chapters"]["L1W1"]["length"], 20)
+        seen = []
+        for _ in range(3):
+            code, d = start(self.stu, kind="chapter", chapter="L1W1")
+            self.assertEqual((code, len(d["items"])), (200, 20))
+            seen.append({i["id"] for i in d["items"]})
+        allowed = {q["id"] for q in self.pool(45)}
+        self.assertTrue(set().union(*seen) <= allowed)
+        self.assertEqual(len(set().union(*seen)), 45 if 45 <= 60 else 60)      # unseen first: no repeats before the pool is used up
+
+    def test_editing_an_approved_question_withdraws_it(self):
+        q = self.pool(1)[0]
+        approve([q])
+        self.assertEqual(start(self.stu, kind="chapter", chapter="L1W1")[0], 200)
+        old = q["stem"]
+        try:
+            q["stem"] = {**old, "en": old["en"] + " (edited)"}
+            self.assertEqual(start(self.stu, kind="chapter", chapter="L1W1")[0], 404)
+        finally:
+            q["stem"] = old
+
+    def test_admin_approval_makes_it_appear(self):
+        adm, _ = client("admin", "gateadm@example.com", unlocks=())
+        qid = self.pool(1)[0]["id"]
+        self.assertEqual(start(self.stu, kind="chapter", chapter="L1W1")[0], 404)
+        adm.post(f"/api/tests/review/{qid}/approve")
+        code, d = start(self.stu, kind="chapter", chapter="L1W1")
+        self.assertEqual((code, [i["id"] for i in d["items"]]), (200, [qid]))
+        adm.post(f"/api/tests/review/{qid}/unapprove")
+        self.assertEqual(start(self.stu, kind="chapter", chapter="L1W1")[0], 404)
+
+    def test_level_and_master_need_approved_questions(self):
+        approve(self.pool(10))
+        self.assertEqual(start(self.stu, kind="level", level=1)[0], 404)      # the other 13 chapters have nothing approved
 
 
 if __name__ == "__main__":
