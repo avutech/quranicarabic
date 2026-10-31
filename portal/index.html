@@ -1914,6 +1914,7 @@ const t = key => I18N[lang][key];
 // ─── State ────────────────────────────────────────────────────────────────────
 
 let lang = 'tr';
+let libLang = lang;   // i'rab library reading language: follows the site language, a per-view override
 let expandedLevel = null;
 let currentView = null; // { type: 'level'|'lesson'|'reference', level, lesson, ref }
 let practiceMode = false;
@@ -1926,6 +1927,7 @@ let pendingHighlight = '';
 
 function setLang(l) {
   lang = l;
+  libLang = l;   // the library's reading language is reset to match the site language
   document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
   document.querySelector(`.lang-btn[onclick="setLang('${l}')"]`).classList.add('active');
   document.documentElement.lang = l;
@@ -1941,6 +1943,7 @@ function setLang(l) {
   });
   refreshFeedbackLabel();
   renderSidebar();
+  libSetLangAll(l);   // re-sync any library results already on screen
   if (!currentView) {
     document.getElementById('welcome-h1').textContent = I18N[l].welcomeH1;
     document.getElementById('welcome-p').textContent = I18N[l].welcomeP;
@@ -4632,7 +4635,6 @@ function libAbout(b) {
   return `<dl class="lib-about" hidden>${rows.map(([k, v]) => `<dt>${escapeHtml(k)}</dt><dd>${v}</dd>`).join('')}</dl>`;
 }
 
-let libLang = (() => { try { return localStorage.getItem('lib_lang') || 'ar'; } catch (e) { return 'ar'; } })();
 
 function libShowLang(body, which) {
   // Falls back to Arabic when this card has no reading in the chosen language.
@@ -4647,8 +4649,8 @@ function libSetTab(btn, which) {
 }
 
 function libSetLangAll(which) {
+  // Overrides the library's reading language only; the site language is untouched.
   libLang = which;
-  try { localStorage.setItem('lib_lang', which); } catch (e) {}
   document.querySelectorAll('#irab-results .lib-body').forEach(b => libShowLang(b, which));
   document.querySelectorAll('.lib-langbar button').forEach(b => b.classList.toggle('active', b.dataset.lang === which));
 }
