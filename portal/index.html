@@ -4788,7 +4788,6 @@ function renderLibraryAyah(surah, ayah, verse, entries, books, words, meals) {
   const card = (e, open) => {
     const b = bookOf(e);
     const range = e.e > e.s ? `<span class="lib-badge">${escapeHtml(t('libRange').replace('{from}', e.s).replace('{to}', e.e))}</span>` : '';
-    const trBadge = ['tr', 'en'].filter(l => e[l]).map(l => `<span class="lib-badge tr">${LIB_LANG_LABEL[l]}</span>`).join('');
     const died = b.death_h ? ` · ${escapeHtml(t('libDied'))} ${b.death_h}/${b.death_m}` : '';
     const subTitle = lang === 'ar' ? '' : ` <span class="lib-book-sub">— ${escapeHtml(libLocal(b.title))}</span>`;
     const langs = ['ar', ...['tr', 'en'].filter(l => e[l])];
@@ -4813,7 +4812,7 @@ function renderLibraryAyah(surah, ayah, verse, entries, books, words, meals) {
             <div class="lib-book-title"><span class="ar">${escapeHtml(b.title.ar || '')}</span>${subTitle}</div>
             <div class="lib-book-author">${escapeHtml(libLocal(b.author))}${died}</div>
           </div>
-          ${range}${trBadge}
+          ${range}
         </summary>
         <div class="lib-body" data-cite="${escapeHtml(libCitationText(b, e, surah))}">${tabs}
           <div class="lib-pane lib-text-ar" data-lang="ar">${libLines(e.t, e.b)}</div>${trBlock}
