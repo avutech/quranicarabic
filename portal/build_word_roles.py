@@ -12,7 +12,7 @@ Every tag keeps its book, entry key and the quoted line (provenance rule).
 import json
 import re
 import sys
-from collections import defaultdict
+from collections import Counter, defaultdict
 from pathlib import Path
 
 LIB = Path(__file__).resolve().parent.parent / "irab_library"
@@ -142,7 +142,8 @@ def split_inline(text, W, delim, first_ok=lambda b: True, stems=False):
             stem = skeleton("".join(tokens(m.group(1))))
             near = [i for i in range(p, min(p + 4, len(W))) if len(stem) >= 2 and stem in W[i]]
             idx = [near[0]] if near and len(tokens(m.group(1))) == 1 else idx
-        if idx is not None and (starts or p <= idx[0] <= p + 3) and first_ok(m.group(1)):
+        reach = 25 if starts else 3                                # a head that opens a line may skip some words, never jump an ayah ahead
+        if idx is not None and p <= idx[0] <= p + reach and first_ok(m.group(1)):
             heads.append((m, idx))
             if idx[0] >= p:
                 p = idx[-1] + 1
@@ -297,7 +298,7 @@ def entry_tags(book, text, W):
         p, lines = 0, []
         for head, body in split_muyassar(text):
             idx = align(head, W, p)
-            if idx:
+            if idx and idx[0] >= p:                               # a back-reference (a quoted earlier word) must not move the pointer back
                 p = idx[-1] + 1
             lines.append((head, body, idx))
     elif book == DAAS:
@@ -328,8 +329,52 @@ def displayable(t):
     return not t["alt"] and (t["conf"] == "high" or len(t["src"]) > 1)
 
 
+CASES = ("مرفوع", "منصوب", "مجرور", "مجزوم")
+
+
+def morph(w):
+    parts = [p.strip() for p in w["pa"].split("+")]
+    return {"verb": any(p.startswith("فعل") for p in parts),
+            "noun": any(p.startswith(("اسم", "ضمير", "صفة")) for p in parts),
+            "case": next((c for c in CASES if c in w.get("da", "")), ""), "pa": w["pa"]}
+
+
+def check_morphology(role, scope, m):
+    """The rule a word-level tag breaks against the word's own corpus grammar, if any (a sentence tag sits on its first word)."""
+    if scope != "word":
+        return None
+    if role == "mubteda":
+        if m["verb"] and not m["noun"]:
+            return "mubteda on a verb"
+        if m["case"] in ("منصوب", "مجزوم"):
+            return f"mubteda but the word is {m['case']}"
+    elif role == "haber":
+        if m["verb"] and not m["noun"]:
+            return "haber (word-level) on a verb"
+    elif role == "hal":
+        if m["case"] == "مرفوع" and m["noun"] and not m["verb"]:
+            return "hal but the word is marfū‘"
+    elif role == "sart":
+        if m["noun"] and not m["verb"] and not any(k in m["pa"] for k in ("موصول", "استفهام", "ظرف", "شرط")):
+            return "sart on a plain noun"
+    return None
+
+
+HIDDEN = []                                                    # tags the word's own grammar contradicts: kept for review, not shown
 CONFLICTS = []                                                 # words the books contradict themselves on, kept for review
 EXCLUSIVE = (("mubteda", "haber"), ("sart", "cevap"))          # one word can't be both at word level
+
+
+def hide_contradicted(surah, ayah, word, tags, w):
+    m = morph(w)
+    keep = []
+    for t in tags:
+        bad = check_morphology(t["r"], t["scope"], m)
+        if bad:
+            HIDDEN.append({"ref": f"{surah}:{ayah}#{word}", "role": t["r"], "why": bad, "books": [x["b"] for x in t["src"]]})
+        else:
+            keep.append(t)
+    return keep
 
 
 def settle(surah, ayah, word, tags):
@@ -387,7 +432,8 @@ def build_surah(surah, only=None):
     for a, byword in sorted(merged.items()):
         if only and a != only:
             continue
-        shown = {str(i): sorted(settle(surah, a, i, [t for t in r.values() if displayable(t)]), key=lambda t: ROLES.index(t["r"]))
+        shown = {str(i): sorted(settle(surah, a, i, hide_contradicted(surah, a, i, [t for t in r.values() if displayable(t)], words[str(a)]["w"][i])),
+                                key=lambda t: ROLES.index(t["r"]))
                  for i, r in sorted(byword.items())}
         shown = {i: ts for i, ts in shown.items() if ts}
         if shown:
@@ -440,6 +486,8 @@ if __name__ == "__main__":
                     counts[(t["r"], len(t["src"]))] += 1
         pruned += prune_orphan_answers(res)
         (LIB / "roles" / f"s{s:03d}.json").write_text(json.dumps(res, ensure_ascii=False, separators=(",", ":")), "utf-8")
+    (LIB / "roles" / "HIDDEN.json").write_text(json.dumps(HIDDEN, ensure_ascii=False, indent=0), "utf-8")
+    print(f"hidden because the word's own grammar contradicts the role: {len(HIDDEN)} ({dict(Counter(h['why'] for h in HIDDEN))})")
     (LIB / "roles" / "CONFLICTS.json").write_text(json.dumps(CONFLICTS, ensure_ascii=False, indent=0), "utf-8")
     print(grand, f"aligned {grand['aligned'] / max(1, grand['lines']):.1%}")
     print(f"single-source cevap tags with no şart in the 3 ayahs before: dropped {pruned}")
