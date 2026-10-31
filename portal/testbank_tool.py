@@ -57,8 +57,18 @@ def find_span(words, quote):
     return None
 
 
+def master_topics():
+    """{chapter: {topic ids}} - a Master Exam question's topic is one of its primary chapter's topics."""
+    out = {"L1W1": {"t1", "t2", "t3", "t4", "t5"}}          # the pilot chapter has no designs/ file
+    for f in (BANK / "designs").glob("L?W*.json"):
+        out[f.stem] = {t["id"] for t in json.loads(f.read_text("utf-8"))["topics"]}
+    return out
+
+
 def check_bank(bank, quran, snap=False):
     errs = []
+    master = bank.get("chapter") == "MASTER"
+    mt = master_topics() if master else {}
     topics = {t["id"]: t for t in bank.get("topics", [])}
     for t in topics.values():
         for k in ("title", "rule"):
@@ -68,7 +78,10 @@ def check_bank(bank, quran, snap=False):
     for q in bank["questions"]:
         qid = q.get("id", "?")
         def bad(m): errs.append(f"{qid}: {m}")
-        if q.get("topic") not in topics: bad("unknown topic")
+        if master:
+            if q.get("topic") not in mt.get(q.get("chapter"), set()): bad(f"topic {q.get('topic')!r} is not a topic of chapter {q.get('chapter')!r}")
+            if not str(qid).startswith("M-"): bad("master question ids start with M-")
+        elif q.get("topic") not in topics: bad("unknown topic")
         if q.get("difficulty") not in (1, 2, 3): bad("difficulty must be 1-3")
         if not all(q.get("stem", {}).get(l) for l in LANGS): bad("stem needs en+tr")
         opts = q.get("options", [])
@@ -114,7 +127,7 @@ def main(cmd, *args):
         sys.exit(1 if total else 0)
     elif cmd == "part":     # part <file>: validate one topic file and snap its quotes in place
         p = Path(args[0]); x = json.loads(p.read_text("utf-8"))
-        bank = {"topics": [x["topic"]], "questions": x["questions"]}
+        bank = {"chapter": "MASTER" if "topic" not in x else None, "topics": [x["topic"]] if "topic" in x else [], "questions": x["questions"]}
         errs = check_bank(bank, quran, snap=True)
         if not errs: p.write_text(json.dumps(x, ensure_ascii=False, indent=1), "utf-8")
         print(f"{p.name}: {len(x['questions'])} questions, {len(errs)} errors")
@@ -125,7 +138,8 @@ def main(cmd, *args):
         if (BANK / "parts" / ch).exists() and list((BANK / "parts" / ch).glob("*.json")):
             parts = [json.loads(f.read_text("utf-8")) for f in sorted((BANK / "parts" / ch).glob("*.json"))]
             topics = {}
-            for x in parts: topics.setdefault(x["topic"]["id"], x["topic"])
+            for x in parts:
+                if "topic" in x: topics.setdefault(x["topic"]["id"], x["topic"])
             (BANK / f"{ch}.json").write_text(json.dumps({"chapter": ch, "topics": list(topics.values()),
                 "questions": [q for x in parts for q in x["questions"]]}, ensure_ascii=False, indent=1), "utf-8")
         bank = json.loads((BANK / f"{ch}.json").read_text("utf-8"))
@@ -138,9 +152,16 @@ def main(cmd, *args):
             ayahs[q["ref"]] = ayahs.get(q["ref"], 0) + 1
             pos[q["correct"]] += 1
         problems = list(errs)
-        if not 100 <= len(qs) <= 200: problems.append(f"pool size {len(qs)} is outside 100-200")
-        for t in bank["topics"]:
-            if per_topic.get(t["id"], 0) < 15: problems.append(f"topic {t['id']} has only {per_topic.get(t['id'], 0)} questions (min 15)")
+        if bank.get("chapter") == "MASTER":
+            if not 400 <= len(qs) <= 600: problems.append(f"master pool size {len(qs)} is outside 400-600")
+            per_ch = {}
+            for q in qs: per_ch[q["chapter"]] = per_ch.get(q["chapter"], 0) + 1
+            for c in master_topics():
+                if per_ch.get(c, 0) < 8: problems.append(f"master: chapter {c} has only {per_ch.get(c, 0)} questions (min 8)")
+        else:
+            if not 100 <= len(qs) <= 200: problems.append(f"pool size {len(qs)} is outside 100-200")
+            for t in bank["topics"]:
+                if per_topic.get(t["id"], 0) < 15: problems.append(f"topic {t['id']} has only {per_topic.get(t['id'], 0)} questions (min 15)")
         for ref, n in sorted(ayahs.items()):
             if n > 2: problems.append(f"ayah {ref} is used {n} times (max 2)")
         if qs and max(pos) / len(qs) > 0.35: problems.append(f"correct answer positions unbalanced {pos}")
@@ -160,7 +181,7 @@ def main(cmd, *args):
             parts = [json.loads(f.read_text("utf-8")) for f in sorted((BANK / "parts" / ch).glob("*.json"))]
             topics = {}
             for x in parts:                      # a topic may be written in several batch files (t1a.json, t1b.json)
-                topics.setdefault(x["topic"]["id"], x["topic"])
+                if "topic" in x: topics.setdefault(x["topic"]["id"], x["topic"])
             bank = {"chapter": ch, "topics": list(topics.values()),
                     "questions": [q for x in parts for q in x["questions"]]}
             (BANK / f"{ch}.json").write_text(json.dumps(bank, ensure_ascii=False, indent=1), "utf-8")

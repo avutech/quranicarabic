@@ -80,3 +80,17 @@ If a chapter fails to converge after 4 review rounds, STOP on that chapter, log 
 ## Reporting
 Each lead keeps `tasks/testbank_progress_L<level>.md` current and ends with a table of all 14 chapters (status, pool,
 rounds). Do not touch `server.py`, `index.html`, `tests_api.py` or other levels' files.
+
+## Accuracy comes first (owner, 2026-10-23: "correct output and accuracy is most important")
+Speed never trades against correctness. Rules that follow from this:
+1. **No acceptance by override without a review.** Manual overrides in `portal/testbank/accepted.json` are only for adjudicated results
+   (a fresh adjudicator verified every finding with evidence). L1W1's old manual override was removed because an independent Codex review
+   (`reviews/L1W1_review12.txt`) still found 8 issues; it re-enters the loop.
+2. **Adjudication is evidence-based both ways**: wrong-answer / explanation-error / out-of-scope findings are REAL unless shown mistaken;
+   the adjudicator's verdict lines cite the question text, the Qur'an text or the pipeline definitions (`reviews/<name>_adjudication<N>.txt`).
+3. **Cross-provider final audit (before the pools are called done):** every accepted chapter and every Master slice gets one more FRESH review by
+   the OTHER provider than the one that accepted it (Codex vs Claude), followed by adjudication of its findings; REAL findings are fixed and the
+   chapter is re-reviewed and republished to staging. Use `python3 portal/pipeline_runner.py review <names> --provider codex|claude`.
+4. **Empty or malformed reviews never count** (`testbank_status.review_valid`). A "No findings" review must state a sound-count/verdict.
+5. **Ayah text is never typed by a model**: `testbank_tool.py` snaps every quote to the local Uthmani text; ayah refs are validated.
+6. Staging only; nothing goes to production without the owner's say-so.

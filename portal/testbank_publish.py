@@ -40,7 +40,11 @@ def main():
             continue
         if run(["git", "status", "--porcelain", rel]).stdout.strip():      # new or modified vs the staging commit
             todo.append((ch, rel))
-    print("accepted:", len(accepted), "| to publish:", [c for c, _ in todo])
+    master_ok = all(st.master_state(L)["state"] == "accepted" for L in (1, 2, 3))
+    if master_ok and (ROOT / "portal/testbank/MASTER.json").exists() and \
+            run(["git", "status", "--porcelain", "portal/testbank/MASTER.json"]).stdout.strip():
+        todo.append(("MASTER", "portal/testbank/MASTER.json"))
+    print("accepted:", len(accepted), "| master accepted:", master_ok, "| to publish:", [c for c, _ in todo])
     if not todo or dry:
         return
     if run(["git", "branch", "--show-current"]).stdout.strip() != BRANCH:
