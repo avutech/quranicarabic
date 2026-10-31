@@ -4876,6 +4876,8 @@ function renderLibraryAyah(surah, ayah, verse, entries, books, words, meals) {
     ${tafsirCards ? `<div class="lib-section">${escapeHtml(t('libTafsir'))}</div>${tafsirCards}` : ''}
     <div class="lib-section">${escapeHtml(t('libIrabBooks'))}</div>
     <div class="lib-summary">${escapeHtml(t('libCount').replace('{n}', irab.length))}</div>
+    <div class="lib-order-bar"><span>${escapeHtml(t('libOrderHint'))}</span>
+      <button class="btn-secondary" onclick="libResetOrder()">${escapeHtml(t('libResetOrder'))}</button></div>
     ${cards || `<div class="feedback-box">${escapeHtml(t('libNoEntries'))}</div>`}
     ${missing ? `<div class="lib-missing">${missing}</div>` : ''}`;
 }
@@ -4887,8 +4889,6 @@ function jumpToLesson(lessonId) {
   const levelId = `level${m[1]}`;
   const weekIdx = parseInt(m[2]) - 1;
   if (getDisplayLevels().find(l => l.id === levelId)?.lessons[weekIdx]) {
-    <div class="lib-order-bar"><span>${escapeHtml(t('libOrderHint'))}</span>
-      <button class="btn-secondary" onclick="libResetOrder()">${escapeHtml(t('libResetOrder'))}</button></div>
     clickLesson(levelId, weekIdx);
   }
 }
