@@ -650,6 +650,23 @@ def review_tree():
     return jsonify({"chapters": chapters})
 
 
+@tests_bp.get("/review/approved")
+@admin_required
+def review_approved():
+    """What students can see right now: every stored approval (who/when/is it still valid) and the live count per chapter."""
+    banks = load_banks()
+    index = {q["id"]: (cid, q) for cid, b in banks.items() for q in b["questions"]}
+    with user_db.db() as conn:
+        rows = []
+        for r in conn.execute("SELECT * FROM question_reviews ORDER BY approved_at, qid"):
+            cq = index.get(r["qid"])
+            rows.append({"qid": r["qid"], "chapter": cq[0] if cq else None, "by": _who(conn, r["reviewer_id"]),
+                         "at": r["approved_at"], "valid": bool(cq and content_hash(cq[1]) == r["content_hash"]),
+                         "note": None if cq else "question no longer exists", })
+        live = {cid: len(b["questions"]) for cid, b in student_banks().items() if b["questions"]}
+    return jsonify({"approvals": rows, "liveForStudentsByChapter": live, "totalLive": sum(live.values())})
+
+
 @tests_bp.get("/review/chapter/<cid>")
 @admin_required
 def review_chapter(cid):
