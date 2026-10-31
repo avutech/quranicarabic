@@ -182,7 +182,10 @@ class Flow(unittest.TestCase):
         c, _ = client(email="e@x.com", unlocks=())
         self.assertEqual(start(c, kind="chapter", chapter="L1W1")[0], 403)
         self.assertEqual(start(c, kind="chapter", chapter="L9W9")[0], 404)
-        self.assertEqual(start(c, kind="master")[0], 404)            # no master bank yet
+        from unittest import mock                                     # no Master bank: independent of local files
+        no_master = {k: v for k, v in T.load_banks().items() if k != "MASTER"}
+        with mock.patch.object(T, "load_banks", return_value=no_master):
+            self.assertEqual(start(c, kind="master")[0], 404)
         from unittest import mock                                     # level exam needs all 14 chapters of the level
         only_one = {"L1W1": T.load_banks()["L1W1"]}
         with mock.patch.object(T, "load_banks", return_value=only_one):
@@ -257,6 +260,88 @@ class Clearance(unittest.TestCase):
             self.assertEqual({i["chapter"] for i in d["items"]}, {"L1W1", "L1W2", "L2W5"})
             self.assertTrue(c.get("/api/tests/catalog").get_json()["master"]["open"])
             self.assertFalse(none.get("/api/tests/catalog").get_json()["master"]["open"])
+
+
+class ScholarReview(unittest.TestCase):
+    def setUp(self):
+        n = ScholarReview.__dict__.get("_n", 0) + 1
+        ScholarReview._n = n
+        self.admin, _ = client("admin", f"adm{n}@example.com", unlocks=())
+        self.student, _ = client("user", f"stu{n}@example.com")
+        self.qid = "L1W1-t1-01"
+
+    def test_students_and_anonymous_are_locked_out(self):
+        for c, code in ((self.student, 403), (app.test_client(), 401)):
+            self.assertEqual(c.get("/api/tests/review/tree").status_code, code)
+            self.assertEqual(c.get("/api/tests/review/chapter/L1W1").status_code, code)
+            self.assertEqual(c.post(f"/api/tests/review/{self.qid}/approve").status_code, code)
+            self.assertEqual(c.post(f"/api/tests/review/{self.qid}/comment", json={"body": "x"}).status_code, code)
+            self.assertEqual(c.get("/api/tests/review/export").status_code, code)
+
+    def test_chapter_lists_every_question_with_answers_and_all_explanations(self):
+        d = self.admin.get("/api/tests/review/chapter/L1W1").get_json()
+        bank = T.load_banks()["L1W1"]
+        self.assertEqual(len(d["questions"]), len(bank["questions"]))
+        q = next(x for x in d["questions"] if x["id"] == self.qid)
+        self.assertIn(q["correct"], range(len(q["options"])))
+        self.assertTrue(all(o["why"]["en"] and o["why"]["tr"] for o in q["options"]))
+        self.assertFalse(q["review"]["approved"])
+        self.assertEqual(self.admin.get("/api/tests/review/chapter/NOPE").status_code, 404)
+
+    def test_approve_unapprove_and_tree_counts(self):
+        before = self.admin.get("/api/tests/review/tree").get_json()["chapters"]["L1W1"]
+        r = self.admin.post(f"/api/tests/review/{self.qid}/approve").get_json()
+        self.assertTrue(r["review"]["approved"])
+        after = self.admin.get("/api/tests/review/tree").get_json()["chapters"]["L1W1"]
+        self.assertEqual(after["approved"], before["approved"] + 1)
+        self.assertEqual(after["total"], before["total"])
+        r = self.admin.post(f"/api/tests/review/{self.qid}/unapprove").get_json()
+        self.assertFalse(r["review"]["approved"])
+        self.assertEqual(self.admin.post("/api/tests/review/NOPE/approve").status_code, 404)
+
+    def test_comment_resolve_delete_and_export(self):
+        self.assertEqual(self.admin.post(f"/api/tests/review/{self.qid}/comment", json={"body": "  "}).status_code, 400)
+        r = self.admin.post(f"/api/tests/review/{self.qid}/comment", json={"body": "Option B should say tanwin."}).get_json()
+        cid = r["review"]["comments"][-1]["id"]
+        self.assertFalse(r["review"]["comments"][-1]["resolved"])
+        tree = self.admin.get("/api/tests/review/tree").get_json()["chapters"]["L1W1"]
+        self.assertGreaterEqual(tree["open"], 1)
+        csv_txt = self.admin.get("/api/tests/review/export").get_data(as_text=True)
+        self.assertIn("Option B should say tanwin.", csv_txt)
+        self.assertIn(self.qid, csv_txt)
+        js = self.admin.get("/api/tests/review/export?format=json&open=1").get_json()["comments"]
+        self.assertTrue(any(c["comment"] == "Option B should say tanwin." and c["status"] == "open" for c in js))
+        r = self.admin.post(f"/api/tests/review/comment/{cid}/resolve", json={"resolved": True}).get_json()
+        self.assertTrue(next(c for c in r["review"]["comments"] if c["id"] == cid)["resolved"])
+        js = self.admin.get("/api/tests/review/export?format=json&open=1").get_json()["comments"]
+        self.assertFalse(any(c["comment"] == "Option B should say tanwin." for c in js))
+        r = self.admin.delete(f"/api/tests/review/comment/{cid}").get_json()
+        self.assertFalse(any(c["id"] == cid for c in r["review"]["comments"]))
+
+    def test_editing_a_question_voids_its_approval_and_flags_old_comments(self):
+        q, _ = T.find_question(self.qid)
+        self.admin.post(f"/api/tests/review/{self.qid}/approve")
+        self.admin.post(f"/api/tests/review/{self.qid}/comment", json={"body": "old remark"})
+        original = q["stem"]["en"]
+        try:
+            q["stem"]["en"] = original + " (edited)"
+            rv = next(x for x in self.admin.get("/api/tests/review/chapter/L1W1").get_json()["questions"]
+                      if x["id"] == self.qid)["review"]
+            self.assertFalse(rv["approved"])
+            self.assertTrue(rv["approvedStale"])
+            self.assertTrue(any(c["stale"] for c in rv["comments"]))
+        finally:
+            q["stem"]["en"] = original
+        rv = next(x for x in self.admin.get("/api/tests/review/chapter/L1W1").get_json()["questions"]
+                  if x["id"] == self.qid)["review"]
+        self.assertTrue(rv["approved"])
+
+    def test_master_questions_open_with_their_own_chapter_topics(self):
+        if "MASTER" not in T.load_banks():
+            self.skipTest("no MASTER bank")
+        d = self.admin.get("/api/tests/review/chapter/MASTER").get_json()
+        self.assertTrue(d["questions"])
+        self.assertTrue(all(q["topicTitle"] for q in d["questions"]))
 
 
 if __name__ == "__main__":

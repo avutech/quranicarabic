@@ -384,7 +384,7 @@ def irab_library_ayah(surah, ayah):
 
 # Only the frontend's own assets are public. portal/ also holds .env (API
 # keys), users.db and the server source, so this must stay an allowlist.
-PUBLIC_PORTAL_FILES = {"data.js", "vocab.js", "tests.js", "lessons_index.js", "lessons_index.json", "lectures.json"}
+PUBLIC_PORTAL_FILES = {"data.js", "vocab.js", "tests.js", "review.js", "lessons_index.js", "lessons_index.json", "lectures.json"}
 
 
 @app.route("/fonts/<path:filename>")

@@ -15,6 +15,9 @@ from points, so hints and retries never make a topic look weaker than it is.
 """
 from __future__ import annotations
 
+import csv
+import hashlib
+import io
 import json
 import random
 import re
@@ -22,9 +25,9 @@ import threading
 from datetime import datetime, timezone
 from pathlib import Path
 
-from flask import Blueprint, jsonify, request
+from flask import Blueprint, Response, jsonify, request
 
-from auth import login_required, current_user_row
+from auth import login_required, admin_required, current_user_row
 import db as user_db
 
 tests_bp = Blueprint("tests", __name__, url_prefix="/api/tests")
@@ -204,6 +207,24 @@ def init_tables():
                 note       TEXT NOT NULL,
                 created_at TEXT NOT NULL
             );
+            -- scholar review (admin screen): an approval/comment belongs to one VERSION of a question (content_hash)
+            CREATE TABLE IF NOT EXISTS question_reviews (
+                qid          TEXT PRIMARY KEY,
+                content_hash TEXT NOT NULL,
+                reviewer_id  INTEGER REFERENCES users(id) ON DELETE SET NULL,
+                approved_at  TEXT NOT NULL
+            );
+            CREATE TABLE IF NOT EXISTS question_comments (
+                id           INTEGER PRIMARY KEY AUTOINCREMENT,
+                qid          TEXT NOT NULL,
+                content_hash TEXT NOT NULL,
+                user_id      INTEGER REFERENCES users(id) ON DELETE SET NULL,
+                body         TEXT NOT NULL,
+                resolved     INTEGER NOT NULL DEFAULT 0,
+                created_at   TEXT NOT NULL,
+                resolved_at  TEXT
+            );
+            CREATE INDEX IF NOT EXISTS idx_question_comments_qid ON question_comments(qid);
         """)
 
 
@@ -472,3 +493,183 @@ def report_question():
         conn.execute("INSERT INTO question_reports (user_id, qid, note, created_at) VALUES (?,?,?,?)",
                      (current_user_row()["id"], qid, note, now()))
     return jsonify({"ok": True})
+
+
+# ─── Scholar review (admin only) ────────────────────────────────────────────────────────────────
+# A scholar goes through every question, approves it or leaves comments.  Both are tied to the question's content
+# hash: when we edit a question afterwards its approval no longer counts and old comments are flagged "changed since".
+
+def content_hash(q):
+    core = {k: q.get(k) for k in ("stem", "options", "correct", "quote", "ref")}
+    return hashlib.sha1(json.dumps(core, sort_keys=True, ensure_ascii=False).encode("utf-8")).hexdigest()[:16]
+
+
+def _who(conn, uid):
+    r = conn.execute("SELECT email, first_name, last_name FROM users WHERE id = ?", (uid,)).fetchone() if uid else None
+    if not r:
+        return "(deleted user)"
+    name = f"{r['first_name'] or ''} {r['last_name'] or ''}".strip()
+    return name or r["email"]
+
+
+def _review_state(conn, qids_hashes):
+    """{qid: {approved, approvedBy, approvedAt, comments:[...]}} for [(qid, hash)]."""
+    out = {}
+    rv = {r["qid"]: r for r in conn.execute("SELECT * FROM question_reviews")}
+    cm = {}
+    for c in conn.execute("SELECT * FROM question_comments ORDER BY id"):
+        cm.setdefault(c["qid"], []).append(c)
+    for qid, h in qids_hashes:
+        r = rv.get(qid)
+        approved = bool(r and r["content_hash"] == h)
+        out[qid] = {
+            "approved": approved,
+            "approvedStale": bool(r and not approved),          # approved an earlier version of the text
+            "approvedBy": _who(conn, r["reviewer_id"]) if approved else None,
+            "approvedAt": r["approved_at"] if approved else None,
+            "comments": [{"id": c["id"], "body": c["body"], "by": _who(conn, c["user_id"]), "at": c["created_at"],
+                          "resolved": bool(c["resolved"]), "stale": c["content_hash"] != h} for c in cm.get(qid, [])],
+        }
+    return out
+
+
+def _full_question(q, topics, state):
+    t = topics.get(q["topic"]) or {}
+    return {"id": q["id"], "chapter": q.get("chapter"), "topic": q["topic"], "topicTitle": t.get("title"),
+            "difficulty": q["difficulty"], "ref": q["ref"], "quote": q["quote"], "stem": q["stem"],
+            "options": [{"ar": o["ar"], "why": o["why"]} if "ar" in o else {"text": o["text"], "why": o["why"]}
+                        for o in q["options"]],
+            "correct": q["correct"], "review": state}
+
+
+@tests_bp.get("/review/tree")
+@admin_required
+def review_tree():
+    banks = load_banks()
+    with user_db.db() as conn:
+        rows = {cid: [(q["id"], content_hash(q)) for q in b["questions"]] for cid, b in banks.items()}
+        st = _review_state(conn, [x for v in rows.values() for x in v])
+    chapters = {}
+    for cid, items in rows.items():
+        chapters[cid] = {"total": len(items),
+                         "approved": sum(st[i]["approved"] for i, _ in items),
+                         "open": sum(1 for i, _ in items for c in st[i]["comments"] if not c["resolved"])}
+    return jsonify({"chapters": chapters})
+
+
+@tests_bp.get("/review/chapter/<cid>")
+@admin_required
+def review_chapter(cid):
+    banks = load_banks()
+    b = banks.get(cid)
+    if not b:
+        return jsonify({"error": "unknown chapter"}), 404
+    if cid == "MASTER":                    # a Master question's topic lives in its own chapter's bank
+        topics_of = lambda q: banks[q["chapter"]]["topic_by_id"] if q.get("chapter") in banks else {}
+        order = lambda q: (q.get("chapter") or "", q["id"])
+    else:
+        topics_of = lambda q: b["topic_by_id"]
+        idx = {t["id"]: i for i, t in enumerate(b["topics"])}
+        order = lambda q: (idx.get(q["topic"], 99), q["id"])
+    qs = sorted(b["questions"], key=order)
+    with user_db.db() as conn:
+        st = _review_state(conn, [(q["id"], content_hash(q)) for q in qs])
+    return jsonify({"chapter": cid, "questions": [_full_question(q, topics_of(q), st[q["id"]]) for q in qs]})
+
+
+def _review_target(qid):
+    q, _ = find_question(qid)
+    return q
+
+
+@tests_bp.post("/review/<qid>/approve")
+@admin_required
+def review_approve(qid):
+    q = _review_target(qid)
+    if not q:
+        return jsonify({"error": "unknown question"}), 404
+    with user_db.db() as conn:
+        conn.execute("INSERT INTO question_reviews (qid, content_hash, reviewer_id, approved_at) VALUES (?,?,?,?) "
+                     "ON CONFLICT(qid) DO UPDATE SET content_hash=excluded.content_hash, "
+                     "reviewer_id=excluded.reviewer_id, approved_at=excluded.approved_at",
+                     (qid, content_hash(q), current_user_row()["id"], now()))
+        return jsonify({"ok": True, "review": _review_state(conn, [(qid, content_hash(q))])[qid]})
+
+
+@tests_bp.post("/review/<qid>/unapprove")
+@admin_required
+def review_unapprove(qid):
+    q = _review_target(qid)
+    if not q:
+        return jsonify({"error": "unknown question"}), 404
+    with user_db.db() as conn:
+        conn.execute("DELETE FROM question_reviews WHERE qid = ?", (qid,))
+        return jsonify({"ok": True, "review": _review_state(conn, [(qid, content_hash(q))])[qid]})
+
+
+@tests_bp.post("/review/<qid>/comment")
+@admin_required
+def review_comment(qid):
+    q = _review_target(qid)
+    body = ((request.get_json(silent=True) or {}).get("body") or "").strip()[:4000]
+    if not q or not body:
+        return jsonify({"error": "question and comment required"}), 400
+    with user_db.db() as conn:
+        conn.execute("INSERT INTO question_comments (qid, content_hash, user_id, body, created_at) VALUES (?,?,?,?,?)",
+                     (qid, content_hash(q), current_user_row()["id"], body, now()))
+        return jsonify({"ok": True, "review": _review_state(conn, [(qid, content_hash(q))])[qid]})
+
+
+@tests_bp.post("/review/comment/<int:cid>/resolve")
+@admin_required
+def review_resolve(cid):
+    resolved = bool((request.get_json(silent=True) or {}).get("resolved", True))
+    with user_db.db() as conn:
+        c = conn.execute("SELECT qid FROM question_comments WHERE id = ?", (cid,)).fetchone()
+        q = _review_target(c["qid"]) if c else None
+        if not q:
+            return jsonify({"error": "unknown comment"}), 404
+        conn.execute("UPDATE question_comments SET resolved = ?, resolved_at = ? WHERE id = ?",
+                     (1 if resolved else 0, now() if resolved else None, cid))
+        return jsonify({"ok": True, "review": _review_state(conn, [(q["id"], content_hash(q))])[q["id"]]})
+
+
+@tests_bp.delete("/review/comment/<int:cid>")
+@admin_required
+def review_delete_comment(cid):
+    with user_db.db() as conn:
+        c = conn.execute("SELECT qid FROM question_comments WHERE id = ?", (cid,)).fetchone()
+        q = _review_target(c["qid"]) if c else None
+        if not q:
+            return jsonify({"error": "unknown comment"}), 404
+        conn.execute("DELETE FROM question_comments WHERE id = ?", (cid,))
+        return jsonify({"ok": True, "review": _review_state(conn, [(q["id"], content_hash(q))])[q["id"]]})
+
+
+@tests_bp.get("/review/export")
+@admin_required
+def review_export():
+    """Every comment with its question, as CSV (default) or JSON (?format=json): the worklist for editing the banks."""
+    only_open = request.args.get("open") == "1"
+    banks = load_banks()
+    rows = []
+    with user_db.db() as conn:
+        for c in conn.execute("SELECT * FROM question_comments ORDER BY qid, id"):
+            if only_open and c["resolved"]:
+                continue
+            q, b = find_question(c["qid"])
+            if not q:
+                continue
+            rows.append({"question_id": q["id"], "chapter": q.get("chapter") or b["chapter"], "topic": q["topic"],
+                         "question_en": q["stem"]["en"], "correct_option": "ABCD"[q["correct"]],
+                         "comment": c["body"], "by": _who(conn, c["user_id"]), "at": c["created_at"],
+                         "status": "resolved" if c["resolved"] else "open",
+                         "question_changed_since": c["content_hash"] != content_hash(q)})
+    if request.args.get("format") == "json":
+        return jsonify({"comments": rows})
+    buf = io.StringIO()
+    w = csv.DictWriter(buf, fieldnames=list(rows[0]) if rows else ["question_id", "comment"])
+    w.writeheader()
+    w.writerows(rows)
+    return Response("\ufeff" + buf.getvalue(), mimetype="text/csv",
+                    headers={"Content-Disposition": "attachment; filename=question_review_comments.csv"})

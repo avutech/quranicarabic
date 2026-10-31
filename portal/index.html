@@ -1124,6 +1124,7 @@
 <script src="data.js"></script>
 <script src="vocab.js" onerror="window.VOCAB_POOL = null;"></script>
 <script src="tests.js"></script>
+<script src="review.js"></script>
 <script src="lessons_index.js" onerror="window.LESSON_INDEX = null;"></script>
 <script>
 if (typeof VOCAB_POOL === 'undefined') { window.VOCAB_POOL = null; }
@@ -2388,6 +2389,7 @@ function clickReference(refId) {
   practiceMode = false;
   renderSidebar();
   if (ref.tests) TestsUI.renderMaster(ref);
+  else if (ref.questionReview) ReviewUI.render(ref);
   else if (ref.quiz) renderQuizSetup(ref);
   else if (ref.flashcards) renderFlashcards(ref);
   else if (ref.irab) renderIrab(ref);

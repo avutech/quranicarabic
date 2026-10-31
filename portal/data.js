@@ -887,6 +887,20 @@ const REFERENCE_TOPICS = [
     pdfs: []
   },
   {
+    id: 'question-review',
+    icon: '🎓',
+    questionReview: true,
+    adminOnly: true,
+    group: 'power',
+    title: { en: 'Scholar Question Review', tr: 'Âlim Soru İncelemesi', ar: 'مراجعة الأسئلة العلمية' },
+    desc: {
+      en: 'Admin-only. Go through every practice question by level and chapter; approve it or leave comments for the corrections.',
+      tr: 'Yalnızca yönetici. Tüm alıştırma sorularını seviye ve bölüme göre inceleyin; onaylayın ya da düzeltme için yorum bırakın.',
+      ar: 'للمشرف فقط. راجع كل سؤال تدريبي حسب المستوى والفصل؛ اعتمده أو اترك تعليقات للتصحيح.'
+    },
+    pdfs: []
+  },
+  {
     id: 'self-check',
     icon: '✍️',
     selfCheck: true,
