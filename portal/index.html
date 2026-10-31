@@ -840,6 +840,9 @@
   .w-role.r-hal { background: #ffeedd; color: #b45309; border-color: #f0c18a; }
   .w-role.r-sart { background: #ffe3e3; color: #b91c1c; border-color: #f0a3a3; }
   .w-role.r-cevap { background: #dcf5e4; color: #15803d; border-color: #93d3a8; }
+  .bk { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-inline-end: 3px; vertical-align: middle; box-shadow: 0 0 0 1px rgba(255,255,255,.85); }
+  .w-role .bk { margin-inline: 3px 0; }
+  .lib-role-legend { display: flex; flex-wrap: wrap; gap: 4px 14px; align-items: center; font-size: 0.75rem; color: var(--mid); margin-top: 6px; }
   .lib-role-note { font-size: 0.75rem; color: var(--muted); margin-top: 6px; line-height: 1.5; }
   .wbox .w-tl { color: #7c3aed; font-style: italic; }
   .wbox .w-tr { color: #b91c1c; font-weight: 600; }
@@ -1350,7 +1353,7 @@ const I18N = {
     libWordsSrcText: 'Quran text', libWordsSrcTr: 'Turkish word meanings',
     libPage: 'page',
     libTafsir: 'Tafsir',
-    libRoles: 'Grammar roles', libRoleNote: 'Roles are taken from the classical books, not computed: a word is marked only where the book names its role, so unmarked words are not necessarily without a role. ✓ = both books agree.', libRoleClause: 'sentence', libRoleSrc: 'Source', roleMubteda: 'Mubtada’ (subject)', roleHaber: 'Khabar (predicate)', roleHal: 'Ḥāl (state)', roleSart: 'Sharṭ (condition)', roleCevap: 'Jawāb al-sharṭ (answer)',
+    libRoles: 'Grammar roles', libRoleNote: 'Roles are taken from the classical books, not computed: a word is marked only where the book names its role, so unmarked words are not necessarily without a role.', libRoleLegend: 'Colored dots show which books name the role — more dots, more agreement:', libRoleClause: 'sentence', libRoleSrc: 'Source', roleMubteda: 'Mubtada’ (subject)', roleHaber: 'Khabar (predicate)', roleHal: 'Ḥāl (state)', roleSart: 'Sharṭ (condition)', roleCevap: 'Jawāb al-sharṭ (answer)',
     libMoveUp: 'Sort up', libMoveDown: 'Sort down', libResetOrder: 'Reset book order', libOrderHint: 'Use the arrows to reorder the books. Your order is remembered in this browser.',
     libIrabBooks: 'I\'rab books',
     libTrBy: 'Turkish reading',
@@ -1606,7 +1609,7 @@ const I18N = {
     libWordsSrcText: 'Kur\'an metni', libWordsSrcTr: 'Türkçe kelime anlamları',
     libPage: 'sayfa',
     libTafsir: 'Tefsir',
-    libRoles: 'Gramer görevleri', libRoleNote: 'Görevler klasik kitaplardan alınmıştır, hesaplanmamıştır: bir kelime yalnızca kitap görevini belirttiğinde işaretlenir; işaretsiz kelimenin görevi yok demek değildir. ✓ = iki kitap da aynı görüşte.', libRoleClause: 'cümle', libRoleSrc: 'Kaynak', roleMubteda: 'Mübteda', roleHaber: 'Haber', roleHal: 'Hâl', roleSart: 'Şart', roleCevap: 'Cevâb-ı şart',
+    libRoles: 'Gramer görevleri', libRoleNote: 'Görevler klasik kitaplardan alınmıştır, hesaplanmamıştır: bir kelime yalnızca kitap görevini belirttiğinde işaretlenir; işaretsiz kelimenin görevi yok demek değildir.', libRoleLegend: 'Renkli noktalar görevi hangi kitapların belirttiğini gösterir — ne kadar çok nokta, o kadar çok mutabakat:', libRoleClause: 'cümle', libRoleSrc: 'Kaynak', roleMubteda: 'Mübteda', roleHaber: 'Haber', roleHal: 'Hâl', roleSart: 'Şart', roleCevap: 'Cevâb-ı şart',
     libMoveUp: 'Yukarı sırala', libMoveDown: 'Aşağı sırala', libResetOrder: 'Kitap sırasını sıfırla', libOrderHint: 'Kitapları yeniden sıralamak için okları kullanın. Sıralamanız bu tarayıcıda hatırlanır.',
     libIrabBooks: 'İ\'rab kitapları',
     libTrBy: 'Türkçe okuma',
@@ -1862,7 +1865,7 @@ const I18N = {
     libWordsSrcText: 'نص القرآن', libWordsSrcTr: 'معاني الكلمات بالتركية',
     libPage: 'صفحة',
     libTafsir: 'التفسير',
-    libRoles: 'الوظائف النحوية', libRoleNote: 'الوظائف مأخوذة من الكتب المعتمدة وليست محسوبة: لا تُعلَّم الكلمة إلا حيث ينص الكتاب على وظيفتها، فغياب العلامة لا يعني عدم وجود وظيفة. ✓ = اتفق الكتابان.', libRoleClause: 'الجملة', libRoleSrc: 'المصدر', roleMubteda: 'مبتدأ', roleHaber: 'خبر', roleHal: 'حال', roleSart: 'شرط', roleCevap: 'جواب الشرط',
+    libRoles: 'الوظائف النحوية', libRoleNote: 'الوظائف مأخوذة من الكتب المعتمدة وليست محسوبة: لا تُعلَّم الكلمة إلا حيث ينص الكتاب على وظيفتها، فغياب العلامة لا يعني عدم وجود وظيفة.', libRoleLegend: 'تدل النقاط الملونة على الكتب التي نصّت على الوظيفة — كلما زادت النقاط زاد الاتفاق:', libRoleClause: 'الجملة', libRoleSrc: 'المصدر', roleMubteda: 'مبتدأ', roleHaber: 'خبر', roleHal: 'حال', roleSart: 'شرط', roleCevap: 'جواب الشرط',
     libMoveUp: 'ترتيب لأعلى', libMoveDown: 'ترتيب لأسفل', libResetOrder: 'إعادة ترتيب الكتب الافتراضي', libOrderHint: 'استخدم الأسهم لإعادة ترتيب الكتب. يُحفظ ترتيبك في هذا المتصفح.',
     libIrabBooks: 'كتب الإعراب',
     libTrBy: 'القراءة التركية',
@@ -4761,15 +4764,27 @@ function libSetMeal(id) {
 // Learners need to see it, so show the sukun on any bare noon/mim (not before a mark or tatweel).
 const showSukun = (ar) => ar.replace(/([نم])(?![ً-ٰٟۖ-ۭـ])/g, '$1ْ');
 
+// One fixed colour per book, used for the role dots and the book cards, so a book is recognisable everywhere.
+const LIB_BOOK_COLOR = {
+  'muyesser-irab': '#0f766e', 'daas-irab': '#ea580c', 'safi-cedvel': '#c026d3', 'qac': '#475569',
+  'farraa': '#2563eb', 'akhfash': '#7c3aed', 'zajjaj': '#b45309', 'nahhas-irab': '#16a34a', 'nahhas-meani': '#0891b2',
+  'mekki-muskil': '#e11d48', 'ukberi-tibyan': '#65a30d', 'celaleyn': '#92400e', 'semin-durr': '#4f46e5',
+  'dervis-irab': '#0284c7', 'harrat-mujtaba': '#be185d',
+};
+const libBookColor = id => LIB_BOOK_COLOR[id] || '#64748b';
+const LIB_ROLE_SOURCES = ['muyesser-irab', 'daas-irab', 'safi-cedvel', 'qac'];
+
 function renderLibraryWords(words, books, roles) {
   if (!words || !words.length) return '';
   roles = roles || {};
   const catalog = books.books || books;
   const bookById = Object.fromEntries(catalog.map(b => [b.id, b]));
   const roleChips = i => (roles[i] || []).map(r => {
-    const label = t('role' + r.r[0].toUpperCase() + r.r.slice(1)) + (r.scope === 'clause' ? ` (${t('libRoleClause')})` : '') + (r.src.length > 1 ? ' ✓' : '');
-    const tip = r.src.map(s => { const b = bookById[s.b] || { title: {}, author: {} }; return `${t('libRoleSrc')}: ${libLocal(b.author)}, ${b.title.ar || s.b}\n${s.q}`; }).join('\n\n');
-    return `<span class="w-role r-${r.r}" title="${escapeHtml(tip)}">${escapeHtml(label)}</span>`;
+    const label = t('role' + r.r[0].toUpperCase() + r.r.slice(1)) + (r.scope === 'clause' ? ` (${t('libRoleClause')})` : '');
+    const bookLabel = id => { const b = bookById[id]; return b ? `${libLocal(b.author)}, ${b.title.ar || id}` : 'Quranic Arabic Corpus'; };
+    const tip = r.src.map(s => `${t('libRoleSrc')}: ${bookLabel(s.b)}\n${s.q}`).join('\n\n');
+    const dots = r.src.map(s => `<i class="bk" style="background:${libBookColor(s.b)}"></i>`).join('');
+    return `<span class="w-role r-${r.r}" title="${escapeHtml(tip)}">${escapeHtml(label)}${dots}</span>`;
   }).join('');
   const src = books.word_sources || {};
   const hasTr = words.some(w => w.tr);
@@ -4798,7 +4813,8 @@ function renderLibraryWords(words, books, roles) {
         ${escapeHtml(t('libWordsSrcText'))}: ${s('text')}
         ${hasTr ? ` · ${escapeHtml(t('libWordsSrcTr'))}: ${escapeHtml((src.tr_words || {}).name || '')}` : ''}
       </div>
-      ${Object.keys(roles).length ? `<div class="lib-role-note"><strong>${escapeHtml(t('libRoles'))}:</strong> ${escapeHtml(t('libRoleNote'))}</div>` : ''}
+      ${Object.keys(roles).length ? `<div class="lib-role-note"><strong>${escapeHtml(t('libRoles'))}:</strong> ${escapeHtml(t('libRoleNote'))}</div>
+      <div class="lib-role-legend"><span>${escapeHtml(t('libRoleLegend'))}</span>${LIB_ROLE_SOURCES.map(id => { const b = bookById[id]; return `<span><i class="bk" style="background:${libBookColor(id)}"></i>${escapeHtml(b ? libLocal(b.author) : 'Quranic Arabic Corpus')}</span>`; }).join('')}</div>` : ''}
     </details>`;
 }
 
@@ -4832,10 +4848,10 @@ function renderLibraryAyah(surah, ayah, verse, entries, books, words, meals, rol
     };
     const trBlock = langs.slice(1).map(readingPane).join('');
     return `
-      <details class="lib-book${b.kind === 'tafsir' ? ' tafsir' : ''}" data-book="${escapeHtml(e.b)}"${open ? ' open' : ''}>
+      <details class="lib-book${b.kind === 'tafsir' ? ' tafsir' : ''}" data-book="${escapeHtml(e.b)}" style="border-inline-start:5px solid ${libBookColor(e.b)}"${open ? ' open' : ''}>
         <summary>
           <div class="lib-book-titles">
-            <div class="lib-book-title"><span class="ar">${escapeHtml(b.title.ar || '')}</span>${subTitle}</div>
+            <div class="lib-book-title"><i class="bk" style="background:${libBookColor(e.b)}"></i><span class="ar">${escapeHtml(b.title.ar || '')}</span>${subTitle}</div>
             <div class="lib-book-author">${escapeHtml(libLocal(b.author))}${died}</div>
           </div>
           ${range}
