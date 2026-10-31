@@ -62,6 +62,7 @@ def load_banks():
                 q.setdefault("chapter", cid if cid != "MASTER" else q.get("chapter"))
             banks[cid] = b
         _cache.update(sig=sig, banks=banks)
+        _memo.clear()
         return banks
 
 
@@ -69,13 +70,15 @@ def student_banks():
     """load_banks() restricted to questions a scholar has approved (current text version).
 
     Nothing reaches a student, a level exam or the Master Exam until it is approved in the admin review screen;
-    editing a question changes its content_hash, so it drops out again until re-approved. A bank keeps its
+    editing a question changes its content_hash, so it drops out again until re-approved. Duplicates (same question,
+    see dup_key) share one approval: approving any copy approves them all. A bank keeps its
     topics even when no question of it is approved (Master questions look their topics up in their own chapter)."""
+    banks = load_banks()
     with user_db.db() as conn:
-        ok = {r["qid"]: r["content_hash"] for r in conn.execute("SELECT qid, content_hash FROM question_reviews")}
+        keys = approved_keys(conn, banks)
     out = {}
-    for cid, b in load_banks().items():
-        qs = [q for q in b["questions"] if ok.get(q["id"]) == content_hash(q)]
+    for cid, b in banks.items():
+        qs = [q for q in b["questions"] if dup_key(q) in keys]
         out[cid] = {**b, "questions": qs, "q_by_id": {q["id"]: q for q in qs}}
     return out
 
@@ -516,9 +519,48 @@ def report_question():
 # A scholar goes through every question, approves it or leaves comments.  Both are tied to the question's content
 # hash: when we edit a question afterwards its approval no longer counts and old comments are flagged "changed since".
 
+_memo = {}                                  # id(question) -> (question, content_hash, dup_key); the question is kept so its id is never reused
+
+
+def _hashes(q):
+    m = _memo.get(id(q))
+    if m is None or m[0] is not q:
+        m = _memo[id(q)] = (q, _content_hash(q), _dup_key(q))
+    return m
+
+
 def content_hash(q):
+    return _hashes(q)[1]
+
+
+def dup_key(q):
+    return _hashes(q)[2]
+
+
+def _content_hash(q):
     core = {k: q.get(k) for k in ("stem", "options", "correct", "quote", "ref")}
     return hashlib.sha1(json.dumps(core, sort_keys=True, ensure_ascii=False).encode("utf-8")).hexdigest()[:16]
+
+
+def _dup_key(q):
+    """Identity of a question for review: two questions with the same key ARE the same question (same wording, quote,
+    answer and explanations), whatever their id, chapter, topic, difficulty or option order. One approval covers all copies."""
+    def norm(x):
+        return re.sub(r"\s+", " ", json.dumps(x, ensure_ascii=False, sort_keys=True)).strip()
+    opts = sorted(norm({k: o.get(k) for k in ("ar", "text", "why")}) for o in q["options"])
+    core = [norm(q.get("stem")), norm(q.get("quote")), norm(q.get("ref")), norm({k: q["options"][q["correct"]].get(k) for k in ("ar", "text")}), opts]
+    return hashlib.sha1(json.dumps(core, ensure_ascii=False).encode("utf-8")).hexdigest()[:16]
+
+
+def approved_keys(conn, banks):
+    """dup_keys of the questions whose CURRENT text a scholar approved (a stale approval of an earlier text does not count)."""
+    index = {q["id"]: q for b in banks.values() for q in b["questions"]}
+    keys = set()
+    for r in conn.execute("SELECT qid, content_hash FROM question_reviews"):
+        q = index.get(r["qid"])
+        if q and content_hash(q) == r["content_hash"]:
+            keys.add(dup_key(q))
+    return keys
 
 
 def _who(conn, uid):
@@ -532,20 +574,34 @@ def _who(conn, uid):
 def _review_state(conn, qids_hashes):
     """{qid: {approved, approvedBy, approvedAt, comments:[...]}} for [(qid, hash)]."""
     out = {}
+    banks = load_banks()
+    index = {q["id"]: q for b in banks.values() for q in b["questions"]}
     rv = {r["qid"]: r for r in conn.execute("SELECT * FROM question_reviews")}
-    cm = {}
+    by_key = {}                                    # dup_key -> the review row that approves that question (any copy)
+    for qid, r in rv.items():
+        q = index.get(qid)
+        if q and content_hash(q) == r["content_hash"]:
+            by_key.setdefault(dup_key(q), (qid, r))
+    cm = {}                                        # comments on any copy of a question show on all its copies
     for c in conn.execute("SELECT * FROM question_comments ORDER BY id"):
-        cm.setdefault(c["qid"], []).append(c)
+        cq = index.get(c["qid"])
+        cm.setdefault(dup_key(cq) if cq else c["qid"], []).append(c)
     for qid, h in qids_hashes:
-        r = rv.get(qid)
-        approved = bool(r and r["content_hash"] == h)
+        own = rv.get(qid)
+        q = index.get(qid)
+        hit = by_key.get(dup_key(q)) if q else None
+        r = hit[1] if hit else own
+        approved = bool(hit)
         out[qid] = {
             "approved": approved,
-            "approvedStale": bool(r and not approved),          # approved an earlier version of the text
+            "approvedVia": hit[0] if hit and hit[0] != qid else None,    # approved through an identical copy
+            "approvedStale": bool(own and not approved),          # approved an earlier version of the text
             "approvedBy": _who(conn, r["reviewer_id"]) if approved else None,
             "approvedAt": r["approved_at"] if approved else None,
             "comments": [{"id": c["id"], "body": c["body"], "by": _who(conn, c["user_id"]), "at": c["created_at"],
-                          "resolved": bool(c["resolved"]), "stale": c["content_hash"] != h} for c in cm.get(qid, [])],
+                          "resolved": bool(c["resolved"]),
+                          "stale": c["content_hash"] != (content_hash(index[c["qid"]]) if c["qid"] in index else h)}
+                         for c in cm.get(dup_key(q) if q else qid, [])],
         }
     return out
 
@@ -559,12 +615,32 @@ def _full_question(q, topics, state):
             "correct": q["correct"], "review": state}
 
 
+def _copies(banks):
+    """{dup_key: [(chapter, qid), ...]} for every question that exists more than once."""
+    g = {}
+    for cid, b in banks.items():
+        for q in b["questions"]:
+            g.setdefault(dup_key(q), []).append((q.get("chapter") or cid, q["id"]))
+    return {k: v for k, v in g.items() if len(v) > 1}
+
+
+def _unique(qs):
+    """One entry per distinct question (the scholar reviews each question once, however many copies exist)."""
+    seen, out = set(), []
+    for q in qs:
+        k = dup_key(q)
+        if k not in seen:
+            seen.add(k)
+            out.append(q)
+    return out
+
+
 @tests_bp.get("/review/tree")
 @admin_required
 def review_tree():
     banks = load_banks()
     with user_db.db() as conn:
-        rows = {cid: [(q["id"], content_hash(q)) for q in b["questions"]] for cid, b in banks.items()}
+        rows = {cid: [(q["id"], content_hash(q)) for q in _unique(b["questions"])] for cid, b in banks.items()}
         st = _review_state(conn, [x for v in rows.values() for x in v])
     chapters = {}
     for cid, items in rows.items():
@@ -588,10 +664,16 @@ def review_chapter(cid):
         topics_of = lambda q: b["topic_by_id"]
         idx = {t["id"]: i for i, t in enumerate(b["topics"])}
         order = lambda q: (idx.get(q["topic"], 99), q["id"])
-    qs = sorted(b["questions"], key=order)
+    qs = _unique(sorted(b["questions"], key=order))
+    copies = _copies(banks)
     with user_db.db() as conn:
         st = _review_state(conn, [(q["id"], content_hash(q)) for q in qs])
-    return jsonify({"chapter": cid, "questions": [_full_question(q, topics_of(q), st[q["id"]]) for q in qs]})
+    out = []
+    for q in qs:
+        fq = _full_question(q, topics_of(q), st[q["id"]])
+        fq["copies"] = [{"chapter": c, "id": i} for c, i in copies.get(dup_key(q), []) if i != q["id"]]
+        out.append(fq)
+    return jsonify({"chapter": cid, "questions": out})
 
 
 def _review_target(qid):
@@ -620,7 +702,11 @@ def review_unapprove(qid):
     if not q:
         return jsonify({"error": "unknown question"}), 404
     with user_db.db() as conn:
-        conn.execute("DELETE FROM question_reviews WHERE qid = ?", (qid,))
+        key = dup_key(q)                   # withdraw the approval of every copy, or a sibling's approval would keep it live
+        index = {x["id"]: x for b in load_banks().values() for x in b["questions"]}
+        for r in conn.execute("SELECT qid FROM question_reviews").fetchall():
+            if r["qid"] == qid or (r["qid"] in index and dup_key(index[r["qid"]]) == key):
+                conn.execute("DELETE FROM question_reviews WHERE qid = ?", (r["qid"],))
         return jsonify({"ok": True, "review": _review_state(conn, [(qid, content_hash(q))])[qid]})
 
 

@@ -348,6 +348,7 @@ class ScholarReview(unittest.TestCase):
         original = q["stem"]["en"]
         try:
             q["stem"]["en"] = original + " (edited)"
+            T._memo.clear()
             rv = next(x for x in self.admin.get("/api/tests/review/chapter/L1W1").get_json()["questions"]
                       if x["id"] == self.qid)["review"]
             self.assertFalse(rv["approved"])
@@ -355,6 +356,7 @@ class ScholarReview(unittest.TestCase):
             self.assertTrue(any(c["stale"] for c in rv["comments"]))
         finally:
             q["stem"]["en"] = original
+            T._memo.clear()
         rv = next(x for x in self.admin.get("/api/tests/review/chapter/L1W1").get_json()["questions"]
                   if x["id"] == self.qid)["review"]
         self.assertTrue(rv["approved"])
@@ -415,9 +417,11 @@ class ScholarGate(unittest.TestCase):
         old = q["stem"]
         try:
             q["stem"] = {**old, "en": old["en"] + " (edited)"}
+            T._memo.clear()
             self.assertEqual(start(self.stu, kind="chapter", chapter="L1W1")[0], 404)
         finally:
             q["stem"] = old
+            T._memo.clear()
 
     def test_admin_approval_makes_it_appear(self):
         adm, _ = client("admin", "gateadm@example.com", unlocks=())
@@ -432,6 +436,63 @@ class ScholarGate(unittest.TestCase):
     def test_level_and_master_need_approved_questions(self):
         approve(self.pool(10))
         self.assertEqual(start(self.stu, kind="level", level=1)[0], 404)      # the other 13 chapters have nothing approved
+
+
+
+class Duplicates(unittest.TestCase):
+    """The same question existing more than once is reviewed once; one approval covers every copy."""
+
+    def setUp(self):
+        unapprove_all()
+        from unittest import mock
+        real = T.load_banks()
+        self.orig = real["L1W1"]["questions"][0]
+        perm = [2, 0, 3, 1]                                                   # same options, other order and id
+        copy = dict(self.orig, id="L1W2-copy-01", chapter="L1W2", options=[self.orig["options"][i] for i in perm],
+                    correct=perm.index(self.orig["correct"]))
+        b2 = {"chapter": "L1W2", "topics": [{"id": self.orig["topic"], "title": {"en": "x", "tr": "x"}}],
+              "questions": [copy], "q_by_id": {copy["id"]: copy}, "topic_by_id": {self.orig["topic"]: {"id": self.orig["topic"], "title": {"en": "x", "tr": "x"}}}}
+        self.copy = copy
+        self.patch = mock.patch.object(T, "load_banks", return_value={"L1W1": {**real["L1W1"]}, "L1W2": b2})
+        self.patch.start()
+        self.addCleanup(self.patch.stop)
+        n = Duplicates.__dict__.get("_n", 0) + 1
+        Duplicates._n = n
+        self.adm, _ = client("admin", f"dup{n}@example.com", unlocks=())
+        self.stu, _ = client("user", f"dups{n}@example.com", unlocks=("L1W1", "L1W2"))
+
+    def test_same_question_has_one_key_whatever_the_option_order(self):
+        self.assertEqual(T.dup_key(self.orig), T.dup_key(self.copy))
+        other = next(q for q in T.load_banks()["L1W1"]["questions"] if q["id"] != self.orig["id"])
+        self.assertNotEqual(T.dup_key(self.orig), T.dup_key(other))
+
+    def test_approving_one_copy_approves_all(self):
+        self.assertEqual(start(self.stu, kind="chapter", chapter="L1W2")[0], 404)
+        self.adm.post(f"/api/tests/review/{self.orig['id']}/approve")
+        code, d = start(self.stu, kind="chapter", chapter="L1W2")
+        self.assertEqual((code, [i["id"] for i in d["items"]]), (200, [self.copy["id"]]))
+        rv = self.adm.get("/api/tests/review/chapter/L1W2").get_json()["questions"][0]
+        self.assertTrue(rv["review"]["approved"])
+        self.assertEqual(rv["review"]["approvedVia"], self.orig["id"])
+        self.assertEqual(rv["copies"], [{"chapter": "L1W1", "id": self.orig["id"]}])
+
+    def test_unapproving_any_copy_withdraws_all(self):
+        self.adm.post(f"/api/tests/review/{self.orig['id']}/approve")
+        self.adm.post(f"/api/tests/review/{self.copy['id']}/approve")
+        self.adm.post(f"/api/tests/review/{self.copy['id']}/unapprove")
+        self.assertEqual(start(self.stu, kind="chapter", chapter="L1W2")[0], 404)
+        self.assertEqual(start(self.stu, kind="chapter", chapter="L1W1")[0], 404)
+
+    def test_each_question_is_listed_and_counted_once_per_chapter(self):
+        both = [dict(self.orig, id="L1W1-twin")]
+        T.load_banks()["L1W1"]["questions"].extend(both)
+        try:
+            ids = [q["id"] for q in self.adm.get("/api/tests/review/chapter/L1W1").get_json()["questions"]]
+            self.assertEqual(ids.count(self.orig["id"]) + ids.count("L1W1-twin"), 1)
+            tree = self.adm.get("/api/tests/review/tree").get_json()["chapters"]["L1W1"]
+            self.assertEqual(tree["total"], len(ids))
+        finally:
+            T.load_banks()["L1W1"]["questions"].remove(both[0])
 
 
 if __name__ == "__main__":

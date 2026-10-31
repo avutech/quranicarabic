@@ -10,7 +10,7 @@ const ReviewUI = (() => {
       exportOpen: 'Export open comments (CSV)', exportAll: 'Export all comments (CSV)', pick: 'Choose a chapter on the left to start.',
       loading: 'Loading…', error: 'Could not load. Are you signed in as an admin?', shown: (n, t) => `${n} of ${t} questions shown`,
       correct: 'Correct answer', quote: "Qur'an", topic: 'Topic', approve: '✓ Approve', unapprove: 'Remove approval',
-      approvedBy: (w, d) => `Approved by ${w} · ${d}`, staleApproval: 'An earlier version was approved; this text has changed since, so it needs approving again.',
+      approvedBy: (w, d) => `Approved by ${w} · ${d}`, copies: 'Same question also in', viaCopy: 'one approval covers all copies', staleApproval: 'An earlier version was approved; this text has changed since, so it needs approving again.',
       comments: 'Comments', none: 'No comments yet.', add: 'Add comment', placeholder: 'Write what should change (answer, wording, explanation, Turkish, ayah…)',
       resolve: 'Mark resolved', reopen: 'Reopen', del: 'Delete', delConfirm: 'Delete this comment?', changedSince: 'question changed since this comment',
       resolved: 'resolved', notReviewed: 'Not reviewed', diff: 'Difficulty', empty: 'No questions match this filter.',
@@ -21,7 +21,7 @@ const ReviewUI = (() => {
       exportOpen: 'Açık yorumları indir (CSV)', exportAll: 'Tüm yorumları indir (CSV)', pick: 'Başlamak için soldan bir bölüm seçin.',
       loading: 'Yükleniyor…', error: 'Yüklenemedi. Yönetici olarak giriş yaptınız mı?', shown: (n, t) => `${t} sorudan ${n} tanesi gösteriliyor`,
       correct: 'Doğru cevap', quote: "Kur'an", topic: 'Konu', approve: '✓ Onayla', unapprove: 'Onayı kaldır',
-      approvedBy: (w, d) => `${w} onayladı · ${d}`, staleApproval: 'Önceki sürüm onaylanmıştı; metin sonradan değişti, yeniden onaylanmalı.',
+      approvedBy: (w, d) => `${w} onayladı · ${d}`, copies: 'Aynı soru ayrıca şurada', viaCopy: 'tek onay tüm kopyaları kapsar', staleApproval: 'Önceki sürüm onaylanmıştı; metin sonradan değişti, yeniden onaylanmalı.',
       comments: 'Yorumlar', none: 'Henüz yorum yok.', add: 'Yorum ekle', placeholder: 'Neyin değişmesi gerektiğini yazın (cevap, ifade, açıklama, Türkçe, ayet…)',
       resolve: 'Çözüldü say', reopen: 'Yeniden aç', del: 'Sil', delConfirm: 'Bu yorum silinsin mi?', changedSince: 'bu yorumdan sonra soru değişti',
       resolved: 'çözüldü', notReviewed: 'İncelenmedi', diff: 'Zorluk', empty: 'Bu filtreye uyan soru yok.',
@@ -102,7 +102,8 @@ const ReviewUI = (() => {
     const status = r.approved
       ? `<div class="rv-appr">✅ ${esc(tx('approvedBy', r.approvedBy, fmtDate(r.approvedAt)))} <a onclick="ReviewUI.unapprove('${q.id}')">${tx('unapprove')}</a></div>`
       : `<div class="rv-act"><button class="btn-primary rv-btn" onclick="ReviewUI.approve('${q.id}')">${tx('approve')}</button>${r.approvedStale ? `<span class="rv-stale">⚠ ${tx('staleApproval')}</span>` : ''}</div>`;
-    return `<div class="rv-qh"><b>${esc(q.id)}</b><span>${q.chapter && cur === 'MASTER' ? esc(q.chapter) + ' · ' : ''}${tx('topic')}: ${esc(t)} · ${tx('diff')} ${q.difficulty}</span></div>
+    const dup = (q.copies && q.copies.length) ? `<div class="rv-none">⧉ ${tx('copies')}: ${q.copies.map(c => esc(c.id)).join(', ')} — ${tx('viaCopy')}</div>` : '';
+    return dup + `<div class="rv-qh"><b>${esc(q.id)}</b><span>${q.chapter && cur === 'MASTER' ? esc(q.chapter) + ' · ' : ''}${tx('topic')}: ${esc(t)} · ${tx('diff')} ${q.difficulty}</span></div>
       <div class="rv-quote"><span class="rv-ref">${tx('quote')} ${esc(q.ref)}</span><span class="rv-ar rv-q-ar">${esc(q.quote)}</span></div>
       <div class="rv-stem">${pair(q.stem)[0]}</div><div class="rv-stem rv-sec">${pair(q.stem)[1]}</div>
       ${q.options.map((o, i) => optHtml(q, o, i)).join('')}
