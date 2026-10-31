@@ -33,3 +33,16 @@ Books/
 # per-ayah index in irab_library/ IS committed (see portal/build_irab_library.py).
 Irab Kitaplari/
 Celaleyn Arapca Sureler (Yeni Format)/
+
+# Test-bank pipeline working files (generated locally; regenerate with the pipeline)
+portal/testbank/designs/
+portal/testbank/parts/
+portal/testbank/reviews/
+portal/testbank/audit.json
+portal/testbank/runner_state.json
+portal/testbank/HOLD
+tasks/prompts/
+tasks/*.log
+
+# Excel lock files
+~$*
