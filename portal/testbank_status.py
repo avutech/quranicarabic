@@ -56,6 +56,19 @@ def blocking_count(f):
     return n
 
 
+HOLD = BANK / "HOLD"      # while this file exists nothing is reported 'accepted' (so nothing is published); delete it to lift the hold
+
+
+def held(fn):
+    def wrapper(*a, **k):
+        row = fn(*a, **k)
+        if row.get("state") == "accepted" and HOLD.exists():
+            row.update(state="on-hold", note="HOLD file present: acceptance suspended (was accepted)")
+        return row
+    return wrapper
+
+
+@held
 def chapter_state(ch, manual):
     parts_dir = BANK / "parts" / ch
     files = sorted(parts_dir.glob("*.json")) if parts_dir.exists() else []
@@ -90,6 +103,7 @@ def chapter_state(ch, manual):
     return row
 
 
+@held
 def master_state(level):
     """Master Exam slice for one level: authoring -> needs-review -> needs-fix / needs-re-review -> accepted."""
     name = f"MASTER-L{level}"
