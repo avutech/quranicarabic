@@ -30,6 +30,8 @@ const ReviewUI = (() => {
   const tx = (k, ...a) => { const v = (STR[lang] || STR.en)[k] ?? STR.en[k]; return typeof v === 'function' ? v(...a) : v; };
   const esc = (s) => escapeHtml(String(s ?? ''));
   const loc = (o) => (o && (o[lang] || o.en)) || '';
+  // Current UI language is the prominent line; the other language sits below it, muted.
+  const pair = (o) => { const [a, b] = lang === 'tr' ? ['tr', 'en'] : ['en', 'tr']; return [esc(o[a]), esc(o[b])]; };
 
   let counts = {};            // chapter id -> {total, approved, open}
   let cur = null;             // chapter id being reviewed
@@ -82,10 +84,11 @@ const ReviewUI = (() => {
 
   function optHtml(q, o, i) {
     const right = i === q.correct;
-    const txt = o.ar ? `<span class="rv-ar">${esc(o.ar)}</span>` : `${esc(o.text.en)}<div class="rv-tr">${esc(o.text.tr)}</div>`;
+    const [tp, ts] = o.ar ? ['', ''] : pair(o.text), [wp, ws] = pair(o.why);
+    const txt = o.ar ? `<span class="rv-ar">${esc(o.ar)}</span>` : `${tp}<div class="rv-sec">${ts}</div>`;
     return `<div class="rv-opt ${right ? 'right' : ''}">
       <div class="rv-opt-h"><b>${'ABCD'[i]}</b> ${txt}${right ? `<span class="rv-ok">✔ ${tx('correct')}</span>` : ''}</div>
-      <div class="rv-why">${esc(o.why.en)}</div><div class="rv-why rv-tr">${esc(o.why.tr)}</div></div>`;
+      <div class="rv-why">${wp}</div><div class="rv-why rv-sec">${ws}</div></div>`;
   }
   function commentHtml(c) {
     return `<div class="rv-cm ${c.resolved ? 'res' : ''}">
@@ -101,7 +104,7 @@ const ReviewUI = (() => {
       : `<div class="rv-act"><button class="btn-primary rv-btn" onclick="ReviewUI.approve('${q.id}')">${tx('approve')}</button>${r.approvedStale ? `<span class="rv-stale">⚠ ${tx('staleApproval')}</span>` : ''}</div>`;
     return `<div class="rv-qh"><b>${esc(q.id)}</b><span>${q.chapter && cur === 'MASTER' ? esc(q.chapter) + ' · ' : ''}${tx('topic')}: ${esc(t)} · ${tx('diff')} ${q.difficulty}</span></div>
       <div class="rv-quote"><span class="rv-ref">${tx('quote')} ${esc(q.ref)}</span><span class="rv-ar rv-q-ar">${esc(q.quote)}</span></div>
-      <div class="rv-stem">${esc(q.stem.en)}</div><div class="rv-stem rv-tr">${esc(q.stem.tr)}</div>
+      <div class="rv-stem">${pair(q.stem)[0]}</div><div class="rv-stem rv-sec">${pair(q.stem)[1]}</div>
       ${q.options.map((o, i) => optHtml(q, o, i)).join('')}
       ${status}
       <div class="rv-cms"><div class="rv-cms-h">💬 ${tx('comments')} (${r.comments.length})</div>
@@ -198,7 +201,7 @@ const ReviewUI = (() => {
     .rv-qh{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;font-size:.78rem;color:var(--muted);margin-bottom:6px}
     .rv-quote{display:flex;justify-content:space-between;align-items:center;gap:10px;background:var(--green-pale);border-radius:8px;padding:8px 12px;margin-bottom:8px}
     .rv-ref{font-size:.76rem;color:var(--muted)}.rv-ar{font-family:var(--font-quran,'Amiri Quran','Amiri',serif);direction:rtl;font-size:1.25rem}.rv-q-ar{font-size:1.4rem}
-    .rv-stem{font-weight:600;margin:4px 0}.rv-tr{color:var(--muted);font-weight:400;font-size:.88rem}
+    .rv-stem{font-weight:600;margin:4px 0}.rv-sec{color:var(--muted);font-weight:400;font-size:.88rem}
     .rv-opt{border:1px solid var(--border);border-radius:8px;padding:8px 10px;margin-top:8px}.rv-opt.right{border-color:#16a34a;background:#f0fdf4}
     .rv-opt-h{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.rv-ok{margin-left:auto;font-size:.74rem;font-weight:700;color:#166534}
     .rv-why{font-size:.84rem;margin-top:4px;line-height:1.5}
