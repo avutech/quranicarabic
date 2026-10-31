@@ -4653,11 +4653,6 @@ function libSetLangAll(which) {
   document.querySelectorAll('.lib-langbar button').forEach(b => b.classList.toggle('active', b.dataset.lang === which));
 }
 
-function libStep(btn, dir) {
-  // Open and scroll to the previous / next source card.
-  const cards = [...document.querySelectorAll('#irab-results details.lib-book')];
-  const i = cards.indexOf(btn.closest('details.lib-book'));
-  const next = cards[i + dir];
 // Book order is a per-browser preference (cookie, not the shared account) — many students share one login.
 const LIB_ORDER_COOKIE = 'lib_order';
 
@@ -4703,6 +4698,11 @@ function libResetOrder() {
   loadVerse();
 }
 
+function libStep(btn, dir) {
+  // Open and scroll to the previous / next source card.
+  const cards = [...document.querySelectorAll('#irab-results details.lib-book')];
+  const i = cards.indexOf(btn.closest('details.lib-book'));
+  const next = cards[i + dir];
   if (!next) return;
   next.open = true;
   next.scrollIntoView({ behavior: 'smooth', block: 'start' });
