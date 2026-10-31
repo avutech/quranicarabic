@@ -296,6 +296,10 @@ class ScholarReview(unittest.TestCase):
     def test_students_and_anonymous_are_locked_out(self):
         for c, code in ((self.student, 403), (app.test_client(), 401)):
             self.assertEqual(c.get("/api/tests/review/tree").status_code, code)
+            self.assertEqual(c.get("/api/tests/review/approved").status_code, code)
+            self.assertEqual(c.post(f"/api/tests/review/{self.qid}/unapprove").status_code, code)
+            self.assertEqual(c.post("/api/tests/review/comment/1/resolve").status_code, code)
+            self.assertEqual(c.delete("/api/tests/review/comment/1").status_code, code)
             self.assertEqual(c.get("/api/tests/review/chapter/L1W1").status_code, code)
             self.assertEqual(c.post(f"/api/tests/review/{self.qid}/approve").status_code, code)
             self.assertEqual(c.post(f"/api/tests/review/{self.qid}/comment", json={"body": "x"}).status_code, code)

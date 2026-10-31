@@ -2418,6 +2418,7 @@ function clickLesson(levelId, index) {
 function clickReference(refId) {
   const ref = REFERENCE_TOPICS.find(r => r.id === refId);
   if (!ref || !isModuleActive(refId)) return;   // deactivated module — not openable
+  if (ref.adminOnly && !(CURRENT_USER && CURRENT_USER.role === 'admin')) return;   // admin-only tools never open for students (the API refuses them too)
   expandedLevel = null;
   currentView = { type: 'reference', ref };
   practiceMode = false;
