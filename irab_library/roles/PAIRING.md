@@ -1,8 +1,8 @@
 # Word-role pairing check
 
-Ayahs with tags: 5170. Window for the partner: this ayah and the next 3 (previous 3 for cevap→şart).
+Ayahs with tags: 5221. Window for the partner: this ayah and the next 3 (previous 3 for cevap→şart).
 
-- **mubteda → haber**: 6 of 2756 ayahs have no haber nearby
+- **mubteda → haber**: 6 of 2784 ayahs have no haber nearby
 - **sart → cevap**: 152 of 1352 ayahs have no cevap nearby
 - **cevap → sart**: 45 of 1268 ayahs have no sart nearby
 

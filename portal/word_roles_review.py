@@ -23,9 +23,11 @@ import build_word_roles as B  # noqa: E402
 LIB = B.LIB
 CAP = 32000
 ROLE_NAME = {"mubteda": "Mübteda · Mubtada’ · مبتدأ", "haber": "Haber · Khabar · خبر", "hal": "Hâl · Ḥāl · حال",
-             "sart": "Şart · Sharṭ · شرط", "cevap": "Cevâb-ı şart · Jawāb al-sharṭ · جواب الشرط"}
+             "sart": "Şart · Sharṭ · شرط", "cevap": "Cevâb-ı şart · Jawāb al-sharṭ · جواب الشرط",
+             "ismInna": "İsm-i inne · Ism of inna · اسم إنّ", "ismKana": "İsm-i kâne · Ism of kāna · اسم كان"}
 BOOKS = {b["id"]: b for b in json.loads((LIB / "books.json").read_text("utf-8"))["books"]}
 BOOKS["qac"] = {"title": {"en": "Quranic Arabic Corpus morphology"}, "author": {"en": "corpus.quran.com"}}
+BOOKS["derived"] = {"title": {"en": "Derived from the word's own grammar (not a book)"}, "author": {"en": "sentence_structure.py"}}
 PER_CELL = 25                                   # tags per role × agreement tier
 seed = random.Random(20261031)
 

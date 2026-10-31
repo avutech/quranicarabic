@@ -15,8 +15,11 @@ import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
+
 LIB = Path(__file__).resolve().parent.parent / "irab_library"
 MUYASSAR, DAAS, SAFI = "muyesser-irab", "daas-irab", "safi-cedvel"
+USE_DERIVED = True                                              # validate_structure.py switches it off to compare the rules with the books
+DERIVED = "derived"                                            # sentence structure read from the words' own grammar (sentence_structure.py)
 QAC = "qac"                                                     # Quranic Arabic Corpus morphology (already the grid's source)
 BOOKS = (MUYASSAR, DAAS, SAFI)
 
@@ -41,7 +44,7 @@ def tokens(s):
 
 
 # ── role vocabulary (compared in skeleton form: alef/hamza are dropped) ─────────
-ROLES = ("mubteda", "haber", "hal", "sart", "cevap")
+ROLES = ("mubteda", "haber", "hal", "sart", "cevap", "ismInna", "ismKana")
 _sk = lambda *ws: {skeleton(w) for w in ws}
 MUB = _sk("مبتدأ")
 KHA = _sk("خبر", "خبرا")
@@ -363,6 +366,7 @@ def check_morphology(role, scope, m):
 HIDDEN = []; MERGED = []                                                    # tags the word's own grammar contradicts: kept for review, not shown
 CONFLICTS = []                                                 # words the books contradict themselves on, kept for review
 EXCLUSIVE = (("mubteda", "haber"), ("sart", "cevap"))          # one word can't be both at word level
+NOT_MUBTEDA = ("ismInna", "ismKana")                           # the ism of إنّ / كان is not a mübteda, whatever a book line says
 
 
 def merge_adjacent(byword):
@@ -376,7 +380,7 @@ def merge_adjacent(byword):
         items = sorted((i, r[role]) for i, r in byword.items() if role in r and not r[role]["alt"])
         clusters = []
         for i, t in items:
-            books = {x["b"] for x in t["src"]} - {QAC}
+            books = {x["b"] for x in t["src"]} - {QAC, DERIVED}
             if not books:
                 continue
             c = clusters[-1] if clusters else None
@@ -414,7 +418,13 @@ def hide_contradicted(surah, ayah, word, tags, w):
 
 
 def settle(surah, ayah, word, tags):
-    """A word is not both subject and predicate (nor both şart and cevap). More book support wins; a tie shows neither."""
+    """A word is not both subject and predicate (nor both şart and cevap). More book support wins; a tie shows neither.
+    The ism of إنّ / كان is never also a mübteda: the sentence is not a nominal one, so the mübteda tag is dropped."""
+    if any(t["r"] in NOT_MUBTEDA for t in tags):
+        for t in [t for t in tags if t["r"] == "mubteda"]:
+            CONFLICTS.append({"ref": f"{surah}:{ayah}#{word}", "roles": ["mubteda", next(x["r"] for x in tags if x["r"] in NOT_MUBTEDA)],
+                              "support": [len(t["src"]), 0], "dropped": ["mubteda"], "why": "ism of inna/kana is not a mübteda"})
+        tags = [t for t in tags if t["r"] != "mubteda"]
     for x, y in EXCLUSIVE:
         tx = next((t for t in tags if t["r"] == x and t["scope"] == "word"), None)
         ty = next((t for t in tags if t["r"] == y and t["scope"] == "word"), None)
@@ -464,6 +474,20 @@ def build_surah(surah, only=None):
                     t = merged[a][i].setdefault(role, {"r": role, "scope": "word", "alt": False, "conf": "high", "src": []})
                     if not any(x["b"] == QAC for x in t["src"]):
                         t["src"].append({"b": QAC, "k": f"qac:{surah}:{a}:{i + 1}", "q": f"{w['pa']} — {w['pt']}"})
+    if USE_DERIVED:
+        import sentence_structure as SS                           # imported here: it needs skeleton() from this module
+        for a in range(1, 300):
+            ws = words.get(str(a), {}).get("w")
+            if not ws or (only and a != only):
+                continue
+            for i, role, scope, rule, gov in SS.derive(ws):
+                if rule not in SS.ENABLED:
+                    continue
+                t = merged[a][i].setdefault(role, {"r": role, "scope": scope, "alt": False, "conf": "high", "src": []})
+                if not any(x["b"] == DERIVED for x in t["src"]):
+                    t["src"].append({"b": DERIVED, "k": f"derived:{surah}:{a}:{i + 1}", "q": f"{rule} — {ws[i]['pa']}"})
+                if gov:
+                    t["gov"] = gov
     res = {}
     for a, byword in sorted(merged.items()):
         merge_adjacent(byword)

@@ -91,7 +91,7 @@
 "haber"
 ],
 "support": [
-3,
+4,
 1
 ],
 "dropped": [
@@ -105,12 +105,27 @@
 "haber"
 ],
 "support": [
-3,
+4,
 1
 ],
 "dropped": [
 "haber"
 ]
+},
+{
+"ref": "2:156#5",
+"roles": [
+"mubteda",
+"ismInna"
+],
+"support": [
+1,
+0
+],
+"dropped": [
+"mubteda"
+],
+"why": "ism of inna/kana is not a mübteda"
 },
 {
 "ref": "2:178#20",
@@ -247,7 +262,7 @@
 "haber"
 ],
 "support": [
-3,
+4,
 1
 ],
 "dropped": [
@@ -261,11 +276,10 @@
 "haber"
 ],
 "support": [
-1,
+2,
 1
 ],
 "dropped": [
-"mubteda",
 "haber"
 ]
 },
@@ -349,7 +363,7 @@
 ],
 "support": [
 1,
-2
+3
 ],
 "dropped": [
 "mubteda"
@@ -362,7 +376,7 @@
 "haber"
 ],
 "support": [
-3,
+4,
 2
 ],
 "dropped": [
@@ -463,7 +477,7 @@
 ],
 "support": [
 1,
-2
+3
 ],
 "dropped": [
 "mubteda"
@@ -576,11 +590,10 @@
 ],
 "support": [
 1,
-1
+2
 ],
 "dropped": [
-"mubteda",
-"haber"
+"mubteda"
 ]
 },
 {
@@ -604,7 +617,7 @@
 "haber"
 ],
 "support": [
-3,
+4,
 1
 ],
 "dropped": [
@@ -633,11 +646,10 @@
 "haber"
 ],
 "support": [
-3,
+4,
 3
 ],
 "dropped": [
-"mubteda",
 "haber"
 ]
 },
@@ -691,7 +703,7 @@
 "haber"
 ],
 "support": [
-3,
+4,
 1
 ],
 "dropped": [
@@ -720,11 +732,10 @@
 ],
 "support": [
 1,
-1
+2
 ],
 "dropped": [
-"mubteda",
-"haber"
+"mubteda"
 ]
 },
 {
@@ -849,7 +860,7 @@
 "haber"
 ],
 "support": [
-3,
+4,
 2
 ],
 "dropped": [
@@ -1240,11 +1251,10 @@
 "haber"
 ],
 "support": [
-1,
+2,
 1
 ],
 "dropped": [
-"mubteda",
 "haber"
 ]
 },
@@ -1260,6 +1270,21 @@
 ],
 "dropped": [
 "cevap"
+]
+},
+{
+"ref": "4:171#35",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
 ]
 },
 {
@@ -1452,6 +1477,21 @@
 ]
 },
 {
+"ref": "5:72#18",
+"roles": [
+"mubteda",
+"ismInna"
+],
+"support": [
+2,
+0
+],
+"dropped": [
+"mubteda"
+],
+"why": "ism of inna/kana is not a mübteda"
+},
+{
 "ref": "5:72#28",
 "roles": [
 "mubteda",
@@ -1502,7 +1542,7 @@
 ],
 "support": [
 1,
-3
+4
 ],
 "dropped": [
 "mubteda"
@@ -1566,6 +1606,21 @@
 "mubteda",
 "haber"
 ]
+},
+{
+"ref": "5:115#9",
+"roles": [
+"mubteda",
+"ismInna"
+],
+"support": [
+1,
+0
+],
+"dropped": [
+"mubteda"
+],
+"why": "ism of inna/kana is not a mübteda"
 },
 {
 "ref": "5:116#32",
@@ -1776,11 +1831,10 @@
 ],
 "support": [
 1,
-1
+2
 ],
 "dropped": [
-"mubteda",
-"haber"
+"mubteda"
 ]
 },
 {
@@ -1834,11 +1888,10 @@
 ],
 "support": [
 1,
-1
+2
 ],
 "dropped": [
-"mubteda",
-"haber"
+"mubteda"
 ]
 },
 {
@@ -1921,7 +1974,7 @@
 ],
 "support": [
 1,
-2
+3
 ],
 "dropped": [
 "mubteda"
@@ -2019,12 +2072,26 @@
 ],
 "support": [
 1,
-1
+2
 ],
 "dropped": [
-"mubteda",
-"haber"
+"mubteda"
 ]
+},
+{
+"ref": "8:36#1",
+"roles": [
+"mubteda",
+"ismInna"
+],
+"support": [
+1,
+0
+],
+"dropped": [
+"mubteda"
+],
+"why": "ism of inna/kana is not a mübteda"
 },
 {
 "ref": "9:1#0",
@@ -2105,11 +2172,10 @@
 ],
 "support": [
 1,
-1
+2
 ],
 "dropped": [
-"mubteda",
-"haber"
+"mubteda"
 ]
 },
 {
@@ -2127,6 +2193,21 @@
 ]
 },
 {
+"ref": "9:42#21",
+"roles": [
+"mubteda",
+"ismInna"
+],
+"support": [
+1,
+0
+],
+"dropped": [
+"mubteda"
+],
+"why": "ism of inna/kana is not a mübteda"
+},
+{
 "ref": "9:48#15",
 "roles": [
 "mubteda",
@@ -2134,11 +2215,10 @@
 ],
 "support": [
 1,
-1
+2
 ],
 "dropped": [
-"mubteda",
-"haber"
+"mubteda"
 ]
 },
 {
@@ -2149,11 +2229,10 @@
 ],
 "support": [
 1,
-1
+2
 ],
 "dropped": [
-"mubteda",
-"haber"
+"mubteda"
 ]
 },
 {
@@ -2164,12 +2243,26 @@
 ],
 "support": [
 1,
-1
+2
 ],
 "dropped": [
-"mubteda",
-"haber"
+"mubteda"
 ]
+},
+{
+"ref": "9:56#7",
+"roles": [
+"mubteda",
+"ismInna"
+],
+"support": [
+1,
+0
+],
+"dropped": [
+"mubteda"
+],
+"why": "ism of inna/kana is not a mübteda"
 },
 {
 "ref": "9:67#4",
@@ -2408,7 +2501,7 @@
 "haber"
 ],
 "support": [
-3,
+4,
 2
 ],
 "dropped": [
@@ -2480,11 +2573,10 @@
 "haber"
 ],
 "support": [
-2,
+3,
 2
 ],
 "dropped": [
-"mubteda",
 "haber"
 ]
 },
@@ -2657,11 +2749,10 @@
 ],
 "support": [
 2,
-2
+3
 ],
 "dropped": [
-"mubteda",
-"haber"
+"mubteda"
 ]
 },
 {
@@ -2767,6 +2858,21 @@
 ]
 },
 {
+"ref": "14:46#8",
+"roles": [
+"mubteda",
+"ismKana"
+],
+"support": [
+1,
+0
+],
+"dropped": [
+"mubteda"
+],
+"why": "ism of inna/kana is not a mübteda"
+},
+{
 "ref": "14:52#8",
 "roles": [
 "mubteda",
@@ -2774,7 +2880,7 @@
 ],
 "support": [
 1,
-2
+3
 ],
 "dropped": [
 "mubteda"
@@ -2862,7 +2968,7 @@
 ],
 "support": [
 1,
-2
+3
 ],
 "dropped": [
 "mubteda"
@@ -2904,11 +3010,10 @@
 "haber"
 ],
 "support": [
-2,
+3,
 2
 ],
 "dropped": [
-"mubteda",
 "haber"
 ]
 },
@@ -2920,7 +3025,7 @@
 ],
 "support": [
 1,
-2
+3
 ],
 "dropped": [
 "mubteda"
@@ -2990,7 +3095,7 @@
 "haber"
 ],
 "support": [
-3,
+4,
 2
 ],
 "dropped": [
@@ -3052,6 +3157,21 @@
 "dropped": [
 "haber"
 ]
+},
+{
+"ref": "18:38#0",
+"roles": [
+"mubteda",
+"ismInna"
+],
+"support": [
+3,
+0
+],
+"dropped": [
+"mubteda"
+],
+"why": "ism of inna/kana is not a mübteda"
 },
 {
 "ref": "18:39#5",
@@ -3371,6 +3491,21 @@
 ]
 },
 {
+"ref": "21:95#4",
+"roles": [
+"mubteda",
+"ismInna"
+],
+"support": [
+2,
+0
+],
+"dropped": [
+"mubteda"
+],
+"why": "ism of inna/kana is not a mübteda"
+},
+{
 "ref": "21:109#8",
 "roles": [
 "mubteda",
@@ -3405,7 +3540,7 @@
 "haber"
 ],
 "support": [
-3,
+4,
 2
 ],
 "dropped": [
@@ -3434,7 +3569,7 @@
 "haber"
 ],
 "support": [
-1,
+2,
 3
 ],
 "dropped": [
@@ -3463,11 +3598,10 @@
 "haber"
 ],
 "support": [
-1,
+2,
 1
 ],
 "dropped": [
-"mubteda",
 "haber"
 ]
 },
@@ -3527,6 +3661,20 @@
 "dropped": [
 "sart",
 "cevap"
+]
+},
+{
+"ref": "22:60#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+3
+],
+"dropped": [
+"mubteda"
 ]
 },
 {
@@ -3879,17 +4027,31 @@
 ]
 },
 {
+"ref": "30:46#15",
+"roles": [
+"mubteda",
+"ismInna"
+],
+"support": [
+1,
+0
+],
+"dropped": [
+"mubteda"
+],
+"why": "ism of inna/kana is not a mübteda"
+},
+{
 "ref": "30:54#0",
 "roles": [
 "mubteda",
 "haber"
 ],
 "support": [
-2,
+3,
 2
 ],
 "dropped": [
-"mubteda",
 "haber"
 ]
 },
@@ -3929,7 +4091,7 @@
 "haber"
 ],
 "support": [
-2,
+3,
 1
 ],
 "dropped": [
@@ -4117,11 +4279,10 @@
 "haber"
 ],
 "support": [
-2,
+3,
 2
 ],
 "dropped": [
-"mubteda",
 "haber"
 ]
 },
@@ -4204,11 +4365,10 @@
 "haber"
 ],
 "support": [
-2,
+3,
 2
 ],
 "dropped": [
-"mubteda",
 "haber"
 ]
 },
@@ -4219,11 +4379,10 @@
 "haber"
 ],
 "support": [
-2,
+3,
 2
 ],
 "dropped": [
-"mubteda",
 "haber"
 ]
 },
@@ -4257,6 +4416,21 @@
 ]
 },
 {
+"ref": "36:41#2",
+"roles": [
+"mubteda",
+"ismInna"
+],
+"support": [
+1,
+0
+],
+"dropped": [
+"mubteda"
+],
+"why": "ism of inna/kana is not a mübteda"
+},
+{
 "ref": "36:58#0",
 "roles": [
 "mubteda",
@@ -4285,13 +4459,28 @@
 ]
 },
 {
+"ref": "38:27#8",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
+"haber"
+]
+},
+{
 "ref": "38:57#0",
 "roles": [
 "mubteda",
 "haber"
 ],
 "support": [
-3,
+4,
 2
 ],
 "dropped": [
@@ -4406,7 +4595,7 @@
 "haber"
 ],
 "support": [
-3,
+4,
 2
 ],
 "dropped": [
@@ -4420,11 +4609,10 @@
 "haber"
 ],
 "support": [
-2,
+3,
 2
 ],
 "dropped": [
-"mubteda",
 "haber"
 ]
 },
@@ -4450,11 +4638,10 @@
 "haber"
 ],
 "support": [
-2,
+3,
 2
 ],
 "dropped": [
-"mubteda",
 "haber"
 ]
 },
@@ -4536,11 +4723,10 @@
 "haber"
 ],
 "support": [
-2,
+3,
 2
 ],
 "dropped": [
-"mubteda",
 "haber"
 ]
 },
@@ -4581,11 +4767,10 @@
 "haber"
 ],
 "support": [
-1,
+2,
 1
 ],
 "dropped": [
-"mubteda",
 "haber"
 ]
 },
@@ -4617,6 +4802,21 @@
 "dropped": [
 "mubteda"
 ]
+},
+{
+"ref": "42:40#10",
+"roles": [
+"mubteda",
+"ismInna"
+],
+"support": [
+1,
+0
+],
+"dropped": [
+"mubteda"
+],
+"why": "ism of inna/kana is not a mübteda"
 },
 {
 "ref": "42:44#1",
@@ -4720,6 +4920,20 @@
 ]
 },
 {
+"ref": "47:4#20",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+3
+],
+"dropped": [
+"mubteda"
+]
+},
+{
 "ref": "47:15#0",
 "roles": [
 "mubteda",
@@ -4788,6 +5002,21 @@
 1
 ],
 "dropped": [
+"haber"
+]
+},
+{
+"ref": "47:35#6",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+1
+],
+"dropped": [
+"mubteda",
 "haber"
 ]
 },
@@ -5297,6 +5526,20 @@
 ],
 "dropped": [
 "cevap"
+]
+},
+{
+"ref": "86:3#0",
+"roles": [
+"mubteda",
+"haber"
+],
+"support": [
+1,
+3
+],
+"dropped": [
+"mubteda"
 ]
 },
 {
