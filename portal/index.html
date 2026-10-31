@@ -860,6 +860,14 @@
   .lib-about dt { font-weight: 700; color: var(--muted); }
   .lib-about dd { margin: 0; }
   @media (max-width: 600px) { .wbox { flex-basis: 30%; min-width: 96px; } .lib-about { grid-template-columns: 1fr; } }
+  .lib-move { display: flex; gap: 4px; margin-inline-start: auto; }
+  .lib-move button {
+    border: 1px solid var(--border); background: var(--card); color: var(--green); border-radius: 6px;
+    width: 28px; height: 28px; cursor: pointer; font-size: 0.8rem; line-height: 1;
+  }
+  .lib-move button:hover { background: var(--green); color: #fff; }
+  .lib-order-bar { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; font-size: 0.82rem; color: var(--muted); margin: 0 0 10px; }
+  .lib-order-bar .btn-secondary { padding: 4px 10px; font-size: 0.78rem; }
   .lib-cite { font-size: 0.75rem; color: var(--muted); margin-top: 12px; padding-top: 8px; border-top: 1px dashed var(--border); line-height: 1.6; }
   .lib-cite a { color: var(--green); }
   .lib-missing { font-size: 0.82rem; color: var(--muted); margin-top: 14px; line-height: 1.6; }
@@ -1331,6 +1339,7 @@ const I18N = {
     libWordsSrcText: 'Quran text', libWordsSrcTr: 'Turkish word meanings',
     libPage: 'page',
     libTafsir: 'Tafsir',
+    libMoveUp: 'Move up', libMoveDown: 'Move down', libResetOrder: 'Reset book order', libOrderHint: 'Use the arrows to reorder the books. Your order is remembered in this browser.',
     libIrabBooks: 'I\'rab books',
     libTrBy: 'Turkish reading',
     libTrStale: 'The Arabic source changed after this translation — needs re-checking.',
@@ -1585,6 +1594,7 @@ const I18N = {
     libWordsSrcText: 'Kur\'an metni', libWordsSrcTr: 'Türkçe kelime anlamları',
     libPage: 'sayfa',
     libTafsir: 'Tefsir',
+    libMoveUp: 'Yukarı taşı', libMoveDown: 'Aşağı taşı', libResetOrder: 'Kitap sırasını sıfırla', libOrderHint: 'Kitapları yeniden sıralamak için okları kullanın. Sıralamanız bu tarayıcıda hatırlanır.',
     libIrabBooks: 'İ\'rab kitapları',
     libTrBy: 'Türkçe okuma',
     libTrStale: 'Arapça kaynak bu çeviriden sonra değişti — yeniden kontrol gerekli.',
@@ -1839,6 +1849,7 @@ const I18N = {
     libWordsSrcText: 'نص القرآن', libWordsSrcTr: 'معاني الكلمات بالتركية',
     libPage: 'صفحة',
     libTafsir: 'التفسير',
+    libMoveUp: 'نقل لأعلى', libMoveDown: 'نقل لأسفل', libResetOrder: 'إعادة ترتيب الكتب الافتراضي', libOrderHint: 'استخدم الأسهم لإعادة ترتيب الكتب. يُحفظ ترتيبك في هذا المتصفح.',
     libIrabBooks: 'كتب الإعراب',
     libTrBy: 'القراءة التركية',
     libTrStale: 'تغيّر النص العربي بعد هذه الترجمة — تحتاج إلى مراجعة.',
@@ -4647,6 +4658,51 @@ function libStep(btn, dir) {
   const cards = [...document.querySelectorAll('#irab-results details.lib-book')];
   const i = cards.indexOf(btn.closest('details.lib-book'));
   const next = cards[i + dir];
+// Book order is a per-browser preference (cookie, not the shared account) — many students share one login.
+const LIB_ORDER_COOKIE = 'lib_order';
+
+function libGetOrder() {
+  try {
+    const m = document.cookie.split('; ').find(c => c.startsWith(LIB_ORDER_COOKIE + '='));
+    return m ? decodeURIComponent(m.slice(LIB_ORDER_COOKIE.length + 1)).split(',').filter(Boolean) : [];
+  } catch (e) { return []; }
+}
+
+function libSetOrder(ids) {
+  try {
+    document.cookie = `${LIB_ORDER_COOKIE}=${ids.length ? encodeURIComponent(ids.join(',')) : ''}; max-age=${ids.length ? 60 * 60 * 24 * 365 : 0}; path=/; SameSite=Lax`;
+  } catch (e) {}
+}
+
+function libSortByOrder(entries) {
+  // Stable: books missing from the saved order keep their default position after the ranked ones.
+  const rank = new Map(libGetOrder().map((id, i) => [id, i]));
+  return entries.map((e, i) => [e, i]).sort((a, b) =>
+    (rank.has(a[0].b) ? rank.get(a[0].b) : Infinity) - (rank.has(b[0].b) ? rank.get(b[0].b) : Infinity) || a[1] - b[1]
+  ).map(x => x[0]);
+}
+
+function libMove(ev, btn, dir) {
+  ev.preventDefault(); ev.stopPropagation();   // the buttons live inside <summary>
+  const card = btn.closest('details.lib-book');
+  const other = dir < 0 ? card.previousElementSibling : card.nextElementSibling;
+  if (!other || !other.matches('details.lib-book')) return;
+  if (dir < 0) other.before(card); else other.after(card);
+  // Merge the visible order into the saved one: books not shown for this ayah keep their slots.
+  const shown = [...document.querySelectorAll('#irab-results details.lib-book')].map(d => d.dataset.book);
+  const saved = libGetOrder();
+  const full = saved.concat(shown.filter(id => !saved.includes(id)));
+  const slots = full.map((id, i) => shown.includes(id) ? i : -1).filter(i => i >= 0);
+  slots.forEach((slot, k) => { full[slot] = shown[k]; });
+  libSetOrder(full);
+  card.querySelector('.lib-move button:' + (dir < 0 ? 'first-child' : 'last-child')).focus();
+}
+
+function libResetOrder() {
+  libSetOrder([]);
+  loadVerse();
+}
+
   if (!next) return;
   next.open = true;
   next.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -4727,8 +4783,8 @@ function renderLibraryAyah(surah, ayah, verse, entries, books, words, meals) {
   const surahName = ch ? `${ch.name_simple} (${ch.name_arabic})` : `${surah}`;
 
   const bookOf = e => byId[e.b] || { title: { ar: e.b }, author: {}, kind: 'irab' };
-  const tafsir = entries.filter(e => bookOf(e).kind === 'tafsir');
-  const irab = entries.filter(e => bookOf(e).kind !== 'tafsir');
+  const tafsir = libSortByOrder(entries.filter(e => bookOf(e).kind === 'tafsir'));
+  const irab = libSortByOrder(entries.filter(e => bookOf(e).kind !== 'tafsir'));
   const card = (e, open) => {
     const b = bookOf(e);
     const range = e.e > e.s ? `<span class="lib-badge">${escapeHtml(t('libRange').replace('{from}', e.s).replace('{to}', e.e))}</span>` : '';
@@ -4751,7 +4807,7 @@ function renderLibraryAyah(surah, ayah, verse, entries, books, words, meals) {
     };
     const trBlock = langs.slice(1).map(readingPane).join('');
     return `
-      <details class="lib-book${b.kind === 'tafsir' ? ' tafsir' : ''}"${open ? ' open' : ''}>
+      <details class="lib-book${b.kind === 'tafsir' ? ' tafsir' : ''}" data-book="${escapeHtml(e.b)}"${open ? ' open' : ''}>
         <summary>
           <div class="lib-book-titles">
             <div class="lib-book-title"><span class="ar">${escapeHtml(b.title.ar || '')}</span>${subTitle}</div>
@@ -4769,6 +4825,10 @@ function renderLibraryAyah(surah, ayah, verse, entries, books, words, meals) {
             <button class="btn-secondary" onclick="libFont(-0.1)" title="A−">A−</button>
             <button class="btn-secondary" onclick="libFont(0.1)" title="A+">A+</button>
             <button class="btn-secondary" onclick="libCopy(this)">${escapeHtml(t('libCopy'))}</button>
+          <span class="lib-move">
+            <button type="button" onclick="libMove(event,this,-1)" title="${escapeHtml(t('libMoveUp'))}" aria-label="${escapeHtml(t('libMoveUp'))}">▲</button>
+            <button type="button" onclick="libMove(event,this,1)" title="${escapeHtml(t('libMoveDown'))}" aria-label="${escapeHtml(t('libMoveDown'))}">▼</button>
+          </span>
             <button class="btn-secondary" onclick="libToggleAbout(this)">${escapeHtml(t('libAbout'))}</button>
           </div>
         </div>
@@ -4827,6 +4887,8 @@ function jumpToLesson(lessonId) {
   const levelId = `level${m[1]}`;
   const weekIdx = parseInt(m[2]) - 1;
   if (getDisplayLevels().find(l => l.id === levelId)?.lessons[weekIdx]) {
+    <div class="lib-order-bar"><span>${escapeHtml(t('libOrderHint'))}</span>
+      <button class="btn-secondary" onclick="libResetOrder()">${escapeHtml(t('libResetOrder'))}</button></div>
     clickLesson(levelId, weekIdx);
   }
 }
